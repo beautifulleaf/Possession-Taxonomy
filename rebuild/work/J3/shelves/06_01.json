@@ -1,0 +1,127 @@
+{
+ "kinds": [
+  {
+   "n": "Plant yoghurt",
+   "a": "dairy-free yoghurt · yoghurt alternative · plant-based yogurt",
+   "d": "Cultured plant product made from oat, soy, coconut, nuts or similar, sold in place of yoghurt.",
+   "t": [
+    "oat",
+    "soy",
+    "coconut",
+    "almond & nut",
+    "Greek-style / strained",
+    "plain",
+    "flavoured"
+   ],
+   "s": "https://www.silk.com/plant-based-products/beverages/",
+   "m": [
+    [
+     "Oatly Oatgurt",
+     "Oatly"
+    ],
+    [
+     "Silk Dairy-Free Greek Style Yogurt",
+     "Silk"
+    ]
+   ],
+   "r": [
+    [
+     "Alpro plant-based yoghurt alternatives",
+     "Alpro"
+    ]
+   ]
+  },
+  {
+   "n": "Plant cheese",
+   "a": "vegan cheese · dairy-free cheese · cheese alternative · nut cheese",
+   "d": "Plant product, usually coconut-oil, starch or nut based, sold in place of cheese.",
+   "t": [
+    "block",
+    "slices",
+    "grated",
+    "soft / spreadable",
+    "cultured nut cheese"
+   ],
+   "s": "https://www.violife.com/",
+   "m": [
+    [
+     "NotCheese Slices",
+     "NotCo"
+    ],
+    [
+     "Boursin Dairy-Free Spread",
+     "Boursin"
+    ]
+   ],
+   "r": [
+    [
+     "Violife plant-based cheese alternatives",
+     "Violife"
+    ]
+   ]
+  },
+  {
+   "n": "Plant cream",
+   "a": "dairy-free cream · cream alternative · vegan cream",
+   "d": "Plant product sold in place of cream for cooking, pouring or whipping.",
+   "t": [
+    "cooking cream",
+    "pouring cream",
+    "whipping cream",
+    "aerosol / squirty"
+   ],
+   "s": "https://www.silk.com/plant-based-products/beverages/",
+   "m": [
+    [
+     "Silk Heavy Whipping Cream Alternative",
+     "Silk"
+    ]
+   ]
+  },
+  {
+   "n": "Plant creamer",
+   "a": "non-dairy creamer · plant half and half · coffee creamer alternative",
+   "d": "Plant product sold to whiten and enrich coffee or tea in place of cream or milk.",
+   "t": [
+    "liquid",
+    "powder",
+    "unflavoured",
+    "flavoured"
+   ],
+   "s": "https://www.silk.com/plant-based-products/beverages/",
+   "m": [
+    [
+     "Califia Farms Dairy Free Half and Half",
+     "Califia Farms"
+    ],
+    [
+     "Silk Half & Half Alternative",
+     "Silk"
+    ]
+   ]
+  },
+  {
+   "n": "Plant egg alternative",
+   "a": "vegan egg · egg replacer · egg substitute",
+   "d": "Plant product used in place of eggs for scrambling or baking, such as mung-bean liquid egg or aquafaba.",
+   "t": [
+    "liquid scramble",
+    "powdered egg replacer",
+    "aquafaba"
+   ],
+   "s": "https://www.ju.st/products/just-egg",
+   "m": [
+    [
+     "JUST Egg",
+     "Eat Just"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Merged 'Plant cheese, firm' (k114) and 'Plant cheese, soft' (k115) into one 'Plant cheese' kind. Their formats became types: block, slices, grated, soft/spreadable and cultured nut cheese. All existing models were kept, since each list was already short (1–2 entries). I dropped the range 'Soyog' (Sichuan Lanjian Beverage Group) from Plant yoghurt. It is an obscure regional line that does not cover the market, and it looks like retail-harvest noise. As the shelf brief asked, I added leader brands as ranges rather than SKUs. Violife on Plant cheese is backed by that kind's existing source (violife.com). Alpro on Plant yoghurt has no source in this shelf's old data, so it should be checked against the Plant drinks shelf or the brand register before publishing. Oatly was already present as Oatgurt. Attribute variants (base, style, format, flavour) are listed as types, not kinds. Each kind keeps its old 's'. No archetypes, new kinds or brand-register entries were added.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

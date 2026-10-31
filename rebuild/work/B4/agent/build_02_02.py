@@ -1,0 +1,95 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+NK=W+'Nippon_Kodo'; NKS='https://nipponkodostore.com/pages/incense'
+kinds=[
+{"n":"Stick and cone incense","a":"joss stick · senkō · agarbatti · dhoop · incense cone",
+ "d":"Self-burning incense shaped as a stick (with or without a bamboo core) or cone, lit and left to smoulder.",
+ "t":["Bamboo-core stick","Solid (coreless) stick","Cone","Backflow cone","Low-smoke stick","Short stick","Long stick"],
+ "x":[
+  {"n":"Mainichi-Koh","a":"毎日香","d":"Nippon Kodo's everyday Japanese stick incense, the company's best-selling product.","mk":"Nippon Kodo","y":"1912","s":NK,
+   "v":[{"n":"Mainichi-Koh","mk":"Nippon Kodo","y":"1912","d":"original everyday line"},
+        {"n":"Tokusen Mainichi-Koh","mk":"Nippon Kodo","d":"deluxe version"},
+        {"n":"Shin Mainichi-Koh","mk":"Nippon Kodo","d":"listed on the maker's store"}],
+   "dt":"stick length · scent · box size"},
+  {"n":"Kobunboku","a":"Plum Blossom","d":"Baieido's flagship Japanese stick incense, with many variants built on the same base.","mk":"Baieido","s":W+'Baieido',
+   "v":[{"n":"Tokusen Kobunboku","mk":"Baieido"},{"n":"Kaden Kobunboku","mk":"Baieido"},
+        {"n":"Biko Kobunboku","mk":"Baieido","d":"delicate, smokeless version"},
+        {"n":"Jinko Kobunboku","mk":"Baieido","d":"agarwood"},{"n":"Byakudan Kobunboku","mk":"Baieido","d":"sandalwood"},
+        {"n":"Sawayaka Kobunboku","mk":"Baieido","d":"cinnamon"}],
+   "dt":"stick or coil · smoke level · box size"},
+  {"n":"Shoyeido Daily Incense","a":"Kyō-senkō","d":"Shoyeido's everyday Kyoto stick incense series, sold under named scents.","mk":"Shoyeido","s":W+'Shoyeido',
+   "v":[{"n":"Great Origin","mk":"Shoyeido"},{"n":"Moss Garden","mk":"Shoyeido"},{"n":"Golden Pavilion","mk":"Shoyeido"},
+        {"n":"Kyoto Autumn Leaves","mk":"Shoyeido"},{"n":"Silhouette","mk":"Shoyeido","d":"low-smoke subseries"}],
+   "dt":"scent · stick count · low-smoke option"},
+  {"n":"Shoyeido Premium Incense","a":"Kōkyū-senkō","d":"Shoyeido's premium agarwood-rich stick incense series.","mk":"Shoyeido","s":W+'Shoyeido',
+   "v":[{"n":"Translucent Path","mk":"Shoyeido"},{"n":"Infinity","mk":"Shoyeido"},{"n":"Five Clouds","mk":"Shoyeido"},
+        {"n":"Pride of Kyoto","mk":"Shoyeido"},{"n":"Friend of Pine","mk":"Shoyeido"}],
+   "dt":"scent · box size"},
+  {"n":"Nippon Kodo Traditional Series","d":"Nippon Kodo's classic sandalwood, agarwood and kyara stick incenses.","mk":"Nippon Kodo","s":NK,
+   "v":[{"n":"Mainichi Byakudan","mk":"Nippon Kodo","d":"Everyday Sandalwood"},{"n":"Jinkō Juzan","mk":"Nippon Kodo","d":"Fortune Mountain Agarwood"},
+        {"n":"Kyara Kongō","mk":"Nippon Kodo","d":"Diamond Kyara"},{"n":"Kyara Taikan","mk":"Nippon Kodo","d":"Great Prospects Kyara"}],
+   "dt":"wood grade (sandalwood, jinkō, kyara) · box size"},
+  {"n":"Seiun","d":"Nippon Kodo's smokeless stick incense line.","mk":"Nippon Kodo","s":NK,
+   "v":[{"n":"Jinkō Seiun","mk":"Nippon Kodo","d":"aloeswood version"}],"dt":"scent · smoke level"},
+  {"n":"Morning Star","d":"Nippon Kodo's internationally sold everyday stick incense in single-scent boxes.","mk":"Nippon Kodo","s":NK,
+   "dt":"scent (sandalwood, cedar, vanilla and others) · stick count"},
+  {"n":"Reiryokoh","a":"零陵香","d":"Kunmeido's Sakai stick incense used in daily practice at the Zen temple Eiheiji.","mk":"Kunmeido","s":"https://kikohincense.com/collections/kunmeido-incense-kikoh",
+   "v":[{"n":"Jinko Reiryokoh","mk":"Kunmeido"},{"n":"Tokusen Reiryokoh","mk":"Kunmeido"},{"n":"Shin Tokusen Reiryokoh","mk":"Kunmeido"}],
+   "dt":"grade · stick length"},
+  {"n":"Nag champa","a":"champa","d":"Indian masala incense blending sandalwood with champak (or frangipani for plain champa).","mk":"","s":W+'Nag_champa',
+   "v":[{"n":"Satya Sai Baba Nag Champa","mk":"Satya","d":"hand-rolled masala stick with halmaddi resin"}],
+   "dt":"stick weight · pack size · flower base"},
+  {"n":"Masala agarbatti","d":"Indian bamboo-core stick rolled in a paste of ground aromatic ingredients (masala) with jiggit binder.","mk":"","s":W+'Agarbatti',
+   "dt":"masala or perfume-dipped · scent · pack size"},
+  {"n":"Dhoop","a":"dhūpa · solid stick","d":"Coreless Indian incense, rolled, extruded or shaped, the older form before bamboo-core sticks.","mk":"","s":W+'Agarbatti',
+   "dt":"stick or cone · scent"},
+  {"n":"Tibetan incense","a":"rope incense · bateko dhoop","d":"Stickless Himalayan herbal incense from monastery or medical-college formulas, often of 30 or more ingredients.","mk":"","s":W+'Tibetan_incense',
+   "v":[{"n":"Mindroling incense","d":"from Mindroling Monastery, Lhokha"},{"n":"Tunba incense","d":"village incense mill near Lhasa"}],
+   "dt":"stick or rope · formula lineage · ingredients"}],
+ "r":[["Kayuragi","Nippon Kodo"],["Oedo-Koh","Nippon Kodo"]],
+ "s":NKS},
+{"n":"Coil incense","a":"spiral incense","d":"Incense formed as a long-burning coil.","t":["Small coil","Large hanging coil"],"s":NKS},
+{"n":"Loose incense","a":"bakhoor · oud chips · incense resin · incense powder",
+ "d":"Scented wood chips, paste, resin or powder burned on charcoal or a heater to scent a room (incense for religious rites is in Religious & Ceremonial Objects).",
+ "t":["Bakhoor","Oud chips","Resin","Powder"],
+ "x":[
+  {"n":"Bakhoor","a":"bukhoor","d":"Arabian scented chips or pastilles burned on charcoal in a mabkhara for hospitality and occasions.","mk":"","s":W+'Bakhoor',"dt":"chips or pastille · scent · tin size"},
+  {"n":"Oud chips","a":"agarwood chips · aloeswood","d":"Pieces of resinous agarwood burned as incense, long used in the Middle East.","mk":"","s":W+'Agarwood',"dt":"origin · part of tree · wild or plantation"},
+  {"n":"Kyara and jinkō pieces","a":"kōboku","d":"Small agarwood slivers heated on a mica plate for kōdō; kyara is the top grade.","mk":"","s":W+'Kōdō',"dt":"grade (jinkō, kyara) · origin"},
+  {"n":"Gozan-kōh","d":"Nippon Kodo's granulated incense, widely used by temples.","mk":"Nippon Kodo","s":NK,"dt":"pack size"}],
+ "s":"https://www.globallinker.com/products/bakhoor-aroma-chips-7115640"},
+{"n":"Smudge bundle","a":"smudge stick · sage bundle","d":"Bound bundle of dried herbs burned to scent or cleanse a room, not made for a named rite.","t":["White sage","Cedar"],"s":NKS},
+{"n":"Incense burner","a":"incense holder · censer · perfume burner","d":"Holder or burner made to burn incense for scenting the home (a burner for religious rites is in Religious & Ceremonial Objects).",
+ "t":["Stick holder","Ash catcher","Censer","Backflow burner"],
+ "x":[
+  {"n":"Kōro","a":"香炉","d":"Japanese censer, typically globular on three feet, also used in tea ceremonies.","mk":"","s":W+'Censer',"dt":"ceramic or metal · size"},
+  {"n":"Boshanlu","a":"hill censer","d":"Chinese Han-dynasty censer with a lid shaped as a mountain.","mk":"","y":"Han dynasty","s":W+'Censer',"dt":"bronze or ceramic · lid form"}],
+ "s":NKS},
+{"n":"Mabkhara","a":"mubkhar · mujmarah · dabqaad","d":"Arabian censer for burning bakhoor, traditionally a wooden pedestal with a metal-lined cup.","t":["Traditional cuboid","Rounded modern metal"],
+ "x":[{"n":"Dabqaad","d":"The Somali version of the bakhoor censer.","mk":"","s":W+'Mabkhara',"dt":"clay or metal · size"}],
+ "s":W+'Mabkhara'},
+{"n":"Kōdō utensil set","a":"kōdōgu","d":"Set of utensils for the Japanese art of incense appreciation, with censer, mica plates and fire tools.",
+ "t":["Kōro (censer)","Gin-yō (mica plate)","Jūkōbako (incense box)","Hidōgu (fire tools)","Honkōban (display board)","Nagabon (tray)"],
+ "s":W+'Kōdō'}]
+K='knowledge'
+brands=[
+ {"n":"Nippon Kodo","c":"Japan","f":"1965","seg":"Japanese incense, mass to premium","d":"Largest seller of Japanese incense worldwide, tracing its roots to the 16th-century imperial incense maker Koju.","lines":["Mainichi-Koh","Morning Star","Seiun","Kayuragi","Oedo-Koh","Gozan-kōh","Traditional Series"],"sig":["Mainichi-Koh","Morning Star"],"rel":["Shoyeido","Baieido"],"s":NK},
+ {"n":"Shoyeido","c":"Japan","f":"1705","seg":"Kyoto incense house","d":"Family-run Kyoto incense maker led by the Hata family, exporting since 1894.","lines":["Daily Incense","Premium Incense"],"sig":["Shoyeido Daily Incense","Shoyeido Premium Incense"],"rel":["Nippon Kodo","Baieido","Kyukyodo"],"s":W+'Shoyeido'},
+ {"n":"Baieido","c":"Japan","f":"1657","seg":"Sakai incense house","d":"Sakai incense maker that began as an aloeswood trader under the name Jinkoya Sakubei.","lines":["Kobunboku","Jinkoya Sakube Series","Premium Series"],"sig":["Kobunboku"],"rel":["Shoyeido","Kunmeido"],"s":W+'Baieido'},
+ {"n":"Kyukyodo","c":"Japan","f":"1663","seg":"Kyoto incense and stationery","d":"Kyoto shop for incense, paper goods and calligraphy supplies; imperial stationer 1891–1945.","rel":["Shoyeido"],"s":W+'Kyukyodo'},
+ {"n":"Kunmeido","c":"Japan","seg":"Sakai incense house","d":"Sakai incense maker known for Reiryokoh, used at Eiheiji temple.","lines":["Reiryokoh","Heian Koh","Asuka","Kyara Tenchi"],"sig":["Reiryokoh"],"rel":["Baieido"],"s":"https://kikohincense.com/collections/kunmeido-incense-kikoh"},
+ {"n":"Satya","c":"India","seg":"Indian masala incense","d":"Brand of Shrinivas Sugandhalaya, maker of hand-rolled Satya Sai Baba Nag Champa.","sig":["Nag champa"],"rel":["Hem"],"s":"https://ateliertibet.ch/en/collections/wellness-fragranc-sound/products/satya-sai-baba-nag-champa-agarbatti-raucherstabchen"},
+ {"n":"Hem","c":"India","seg":"Indian mass-market incense","d":"Large Indian agarbatti exporter selling scented sticks and cones worldwide.","rel":["Satya"],"s":K},
+ {"n":"Arabian Oud","c":"Saudi Arabia","f":"1982","seg":"Oud fragrance and incense retailer","d":"Riyadh-founded fragrance brand and store chain with over 1,200 stores.","rel":["Ajmal","Swiss Arabian"],"s":W+'Arabian_Oud'},
+ {"n":"Ajmal","c":"United Arab Emirates","f":"1951","seg":"Oud, attar and bakhoor house","d":"Perfume house founded in Mumbai by Haji Ajmal Ali, now based in Dubai, selling oud and bakhoor.","rel":["Arabian Oud","Swiss Arabian"],"s":K},
+ {"n":"Swiss Arabian","c":"United Arab Emirates","f":"1974","seg":"Oriental perfume and bakhoor house","d":"Dubai perfume maker of oriental fragrances, oils and bakhoor.","rel":["Ajmal","Arabian Oud"],"s":K}]
+traditions=[
+ {"n":"Kōdō","g":"Incense & fragrance","r":"Japan","p":"Late Muromachi period (16th century) to present","d":"Japanese art of appreciating incense by codified manners, one of the three classical arts of refinement.","tech":"Agarwood slivers heated on a mica plate over ash in a censer; incense-guessing games","mat":"Kyara and jinkō agarwood, sandalwood, aromatics","forms":["Kōdō utensil set","Kyara and jinkō pieces","Kōro"],"ctr":["Oie school","Shino school","Baieido","Kyukyodo","Shoyeido"],"auth":"Wood grade and origin of the agarwood; school-specific utensils such as the Shino incense packet","s":W+'Kōdō'},
+ {"n":"Bakhoor and oud","g":"Incense & fragrance","r":"Arabian Peninsula, Gulf and wider Muslim world","p":"Pre-Islamic to present","d":"Burning scented chips, pastilles and agarwood in a mabkhara to perfume homes and welcome guests.","tech":"Indirect burning on charcoal in a censer","mat":"Agarwood (oud), bakhoor paste, resins","forms":["Bakhoor","Oud chips","Mabkhara"],"auth":"Real agarwood is dense, dark and resinous; adulteration and plantation wood are common","s":W+'Mabkhara'},
+ {"n":"Tibetan incense","g":"Incense & fragrance","r":"Tibet, northern Nepal, Bhutan","p":"Traditional, still practised","d":"Stickless herbal incense from monastery and Tibetan-medicine formulas.","tech":"Extruded into lengths or coils, no bamboo core","mat":"Himalayan herbs, often 30 or more ingredients","forms":["Tibetan incense"],"ctr":["Mindroling Monastery","Tunba village"],"auth":"Traceable lineage to a monastery or medical college; authentic Himalayan herbs","s":W+'Tibetan_incense'},
+ {"n":"Indian agarbatti","g":"Incense & fragrance","r":"India (Karnataka: Mysore, Bangalore)","p":"Ancient; bamboo-core stick from the late 19th century","d":"Indian stick incense made from a paste on bamboo, scented with masala or perfume oils.","tech":"Hand-rolled masala paste on bamboo; dhoop rolled or extruded without a core","mat":"Charcoal or sawdust, jiggit binder, halmaddi resin, sandalwood","forms":["Masala agarbatti","Dhoop","Nag champa"],"ctr":["Mysore","Bangalore"],"auth":"Hand-rolled masala texture versus dipped charcoal sticks","s":W+'Agarbatti'}]
+notes=("Kept all 5 old kinds; added Mabkhara and Kōdō utensil set (sourced). Nippon Kodo ranges: Mainichi-Koh, Morning Star, Seiun, Traditional Series as archetypes; Kayuragi and Oedo-Koh stay in r (no definition found). "
+ "Brands Hem, Ajmal, Swiss Arabian recorded from knowledge (Ajmal wiki 404, YourStory 403). Left out: mamoul, Holy Land and Shroff (no retrieved page), Mindroling as a brand (monastery, kept as a version), palo santo (not on sourced page), Papier d'Arménie, electric incense heaters. Coil incense has no archetypes (no sourced named coil lines).")
+p='work/B4/shelves/02_02.json'; os.makedirs('work/B4/shelves',exist_ok=True)
+json.dump({"kinds":kinds,"brands":brands,"traditions":traditions,"notes":notes},open(p+'.tmp','w'),ensure_ascii=False,indent=1)
+os.replace(p+'.tmp',p)

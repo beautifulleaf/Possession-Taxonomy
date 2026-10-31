@@ -1,0 +1,103 @@
+import json, os
+W="https://en.wikipedia.org/wiki/"
+LH=W+"Langstroth_hive"; BH=W+"Beehive"; FH=W+"Flow_Hive"; TB=W+"Top-bar_hive"; NAT=W+"BS_National_Beehive"
+SK=W+"Skep"; QE=W+"Queen_excluder"; UN="https://ich.unesco.org/en/Decisions/15.COM/8.b.42"
+WAR=W+"%C3%89mile_Warr%C3%A9"; WBC=W+"William_Broughton_Carr"; LAY="https://carolinahoneybees.com/layens-hive/"
+DW="https://dorchesterandweymouthbka.com/hive-sizes/"; POLY="https://theapiarist.org/swienty-poly-hives/"
+CD=W+"Charles_Dadant"; TH="https://loric.lincolnbishop.ac.uk/case-studies/eh-thorne-beehives"
+kinds=[
+{"n":"Framed vertical hive","a":"stacked frame hive · box hive","d":"A hive of stacked boxes holding removable frames, enlarged upwards with supers.",
+ "t":["10-frame","8-frame","5-frame nucleus","wooden (cedar, pine)","polystyrene","single-walled","double-walled"],
+ "s":"http://www.dadant.com/catalog/",
+ "x":[
+  {"n":"Langstroth hive","a":"Langstroth","d":"Movable-frame box hive with bee space, 19-inch frames; the world's most widespread hive standard.","mk":"","y":"1852","s":LH,
+   "v":[{"n":"US Patent 9300","mk":"","y":"1852","d":"Lorenzo L. Langstroth, Philadelphia; reissued 1863"},
+        {"n":"10-frame","mk":"","y":"","d":"interior about 370 mm wide"},{"n":"8-frame","mk":"","y":"","d":"interior about 310 mm wide, lighter boxes"},
+        {"n":"5-frame nucleus","mk":"","y":"","d":"small box for splits and swarms"}],
+   "dt":"box depth jumbo, deep, medium, shallow, comb · 5, 8 or 10 frames · telescoping or migratory cover"},
+  {"n":"British National hive","a":"BS National · National","d":"Square single-walled British Standard hive taking 14-inch frames with short lugs; the most popular UK hive.","mk":"","y":"1946","s":NAT,
+   "v":[{"n":"British Standard 1946","mk":"","y":"1946","d":"first standard"},{"n":"British Standard 1960","mk":"","y":"1960","d":"revised; withdrawn 1984"},
+        {"n":"Deep National (14 x 12)","mk":"","y":"","d":"larger brood box outside the original standard"}],
+   "dt":"460 mm square boxes · brood 8⅞ in, super 5⅞ in · cedar or polystyrene"},
+  {"n":"Smith hive","a":"","d":"Scottish single-walled hive taking National-size frames with shortened lugs.","mk":"","y":"","s":DW,
+   "v":[{"n":"Willie W. Smith design","mk":"","y":"","d":"Innerleithen, Peebles; specified in the same British Standard as the National"}],"dt":"National frames with short lugs"},
+  {"n":"Commercial hive","a":"BS Commercial","d":"British hive with larger 16 x 10 inch frames for big brood nests.","mk":"","y":"","s":DW,"v":[],"dt":"frame top bar 438 mm · deep 254 mm, shallow 152 mm"},
+  {"n":"WBC hive","a":"William Broughton Carr hive","d":"Double-walled hive with inner boxes inside tapering outer 'lifts'; the classic cottage-garden hive.","mk":"","y":"1890","s":WBC,
+   "v":[{"n":"Carr's published design","mk":"","y":"1890","d":"William Broughton Carr, co-editor of the British Bee Journal"}],"dt":"outer lifts and pitched roof · takes British Standard frames · cedar or pine, often painted"},
+  {"n":"Dadant hive","a":"Dadant-Blatt","d":"Large-frame hive with deep brood frames, widespread in France, Italy and the Americas.","mk":"","y":"1874","s":CD,
+   "v":[{"n":"Charles Dadant 12 x 13 in frame","mk":"","y":"1874","d":"recommended in Petit Cours d'Apiculture"}],"dt":"10 to 12 frames · deep brood, shallow supers"},
+  {"n":"Flow Hive","a":"","d":"Langstroth-type hive whose split-cell Flow frames release honey through a tap without opening the hive.","mk":"Flow Hive","y":"2015","s":FH,
+   "v":[{"n":"Flow Hive (original)","mk":"Flow Hive","y":"2015","d":"Indiegogo campaign, about 25,000 orders"},{"n":"Flow Hive 2","mk":"Flow Hive","y":"2018","d":"second crowdfunded version with small improvements"}],
+   "dt":"Flow frames in a Langstroth super · cedar or araucaria · 6 or 7 Flow frames"},
+  {"n":"Rose hive","a":"","d":"Single-box-size hive and management method using one frame size throughout and no queen excluder.","mk":"","y":"","s":BH,
+   "v":[{"n":"Tim Rowe design","mk":"","y":"","d":""}],"dt":"one box depth throughout"},
+  {"n":"Polystyrene hive","a":"poly hive","d":"Moulded high-density polystyrene hive, lighter and better insulated than timber, sold in National and Langstroth sizes.","mk":"","y":"","s":POLY,
+   "v":[{"n":"Swienty National poly hive","mk":"Swienty","y":"","d":"10 frames, about 1.3 kg per brood box"},
+        {"n":"Maisemore National poly hive","mk":"Maisemore","y":"","d":""},{"n":"Paynes National poly hive","mk":"","y":"","d":""},
+        {"n":"Paradise Honey poly hive","mk":"","y":"","d":""},{"n":"BeeMax","mk":"Dadant & Sons","y":"","d":""}],
+   "dt":"National or Langstroth footprint · painted or unpainted · wall thickness"}],
+ "m":[["CDB hive","Charles Nash Abbott"],["Normalmass hive",""],["Zander hive",""]]},
+{"n":"Long hive","a":"horizontal hive","d":"A single long horizontal box of frames, worked from the side rather than stacked.",
+ "t":["deep-frame","Langstroth-frame"],
+ "s":"https://lowtechinstitute.org/2017/06/06/for-sale-long-langstroth-hive-300/",
+ "x":[{"n":"Layens hive","a":"","d":"Original deep-frame horizontal hive with tall 13 x 16 inch frames and thick walls.","mk":"","y":"1864","s":LAY,
+   "v":[{"n":"Georges de Layens design","mk":"","y":"1864","d":"French; widely used in Spain"}],"dt":"12 to 30 frames · slit entrances · solid or screened floor"}],
+ "m":[["Dartington long deep hive","Robin Dartington"],["Long Langstroth hive",""]]},
+{"n":"Top-bar hive","a":"horizontal top-bar hive · TBH","d":"A long hive whose bees build natural comb hanging from wooden bars, with no frames.",
+ "t":["sloped sides","straight sides","with observation window"],
+ "s":"http://www.dadant.com/catalog/",
+ "x":[{"n":"Kenyan top-bar hive","a":"KTBH","d":"Sloped-sided top-bar hive developed for Kenyan beekeepers, originally hung from trees or poles.","mk":"","y":"1971","s":TB,
+   "v":[{"n":"Smith and Townsend design","mk":"","y":"1971","d":"University of Guelph, CIDA project in Kenya"},{"n":"Mulzac straight-sided version","mk":"","y":"1977","d":"Langstroth-compatible dimensions"}],
+   "dt":"sloped or straight sides · bar width"},
+  {"n":"Tanzanian top-bar hive","a":"","d":"Straight-sided top-bar hive developed in Tanzania independently of the Kenyan design.","mk":"","y":"1972","s":TB,
+   "v":[{"n":"Tanzanian Transitional Hive","mk":"","y":"1972","d":"G. Ntenga; 28 combs, two lids"}],"dt":"straight sides · bar width"}],
+ "m":[["Top Bar Hive City-Box","Holtermann"],["Top Bar Hive Herold","Holtermann"],["Top Bar Hive Village-Box","Holtermann"],["Top Bar Hive Ruetli ERB","Holtermann"],["Mini Kenya Top Bar Hive","La Tienda del Apicultor"],["Cathedral hive",""]]},
+{"n":"Warré hive","a":"People's Hive · Warre hive","d":"A vertical hive of small boxes with top bars, enlarged downwards by adding boxes beneath.",
+ "t":["observation window","quilt box","gabled roof"],
+ "s":"https://naturalbeekeeping.com.au/warrehivesproduct.html",
+ "x":[{"n":"People's Hive","a":"Ruche Populaire","d":"Émile Warré's simple, cheap top-bar box hive meant to mimic a natural cavity.","mk":"","y":"","s":WAR,
+   "v":[{"n":"L'apiculture pour tous, 12th edition","mk":"","y":"1948","d":"Warré's book describing the hive"}],"dt":"square boxes · top bars · quilt and roof"}],
+ "m":[["BeeBuilt Warre Hive Full Kit","BeeBuilt"],["Malfroys Gold Warre hive","Malfroy's Gold"],["People's Hive Warre hive","Simon the Beekeeper"]]},
+{"n":"Skep","a":"straw skep · bee skep","d":"A dome-shaped straw or wicker basket hive without frames, now mostly kept for swarm catching or decoration.",
+ "t":["coiled straw","wicker","with cap","decorative"],"s":SK},
+{"n":"Hive body","a":"super · brood box · nuc box","d":"A single box of a framed hive, used for brood or for honey.",
+ "t":["brood box","honey super","nucleus box","deep","medium","shallow"],
+ "s":"https://www.mannlakeltd.com/hives-components/",
+ "m":[["Blythewood 5 frame nuc box kit","Blythewood Bee Company"],["Blythewood 8 frame brood chamber kit","Blythewood Bee Company"],["Paradise Honey 10 frame Langstroth super","Paradise Honey"]]},
+{"n":"Hive frame","a":"","d":"A wooden or plastic frame that holds a comb inside a hive box.",
+ "t":["wood","plastic","wired","Hoffman self-spacing","Manley","brood (deep)","super (shallow)"],
+ "s":"http://www.dadant.com/catalog/",
+ "m":[["Mann Lake Waxed Rite-Cell frame","Mann Lake"],["Mann Lake PermaDent frame","Mann Lake"],["Acorn deep full plastic frames","Acorn Beekeeping Supplies"],["Nicot Dadant Blatt super plastic frame","Nicot"],["Anel Langstroth plastic frame AN51661PS","Anel"],["ApiTek wired frames","ApiTek"],["EWG wired frames","EWG"],["SIPA wired frames","SIPA"]]},
+{"n":"Comb foundation","a":"foundation","d":"A wax or plastic sheet embossed with cell bases, fitted in a hive frame.",
+ "t":["beeswax","plastic","wired","unwired","worker cell","drone cell"],
+ "s":"http://www.dadant.com/catalog/",
+ "m":[["Mann Lake Rite-Cell Plastic Foundation","Mann Lake"],["Mann Lake PermaDent Plastic Foundation","Mann Lake"],["Mann Lake Max Wax Rite-Cell","Mann Lake"]]},
+{"n":"Queen excluder","a":"","d":"A grid laid between hive boxes that lets workers pass but keeps the queen out of the honey supers.",
+ "t":["wire grid in frame","perforated metal","plastic"],
+ "s":"http://www.dadant.com/catalog/",
+ "m":[["Thorne XP PLUS QE Queen Excluder","Thorne"],["Nicot Plastic Queen Excluder","Nicot"],["Anel Queen Excluder","Anel"]]},
+{"n":"Bee feeder","a":"","d":"A device that gives bees syrup or fondant.",
+ "t":["entrance (Boardman) feeder","frame feeder","top or contact feeder","rapid feeder"],
+ "s":"https://www.mannlakeltd.com/8-frame-top-feeder-with-super",
+ "m":[["Mann Lake Boardman Entrance Feeder","Mann Lake"],["Mann Lake Frame Top Feeder Inserts","Mann Lake"],["Mann Lake Max Pro Feeder","Mann Lake"],["Mann Lake top feeder","Mann Lake"]]},
+]
+brands=[
+{"n":"Dadant & Sons","c":"United States","f":"1863","seg":"Beekeeping equipment manufacturer","d":"Family beekeeping-supply firm in Hamilton, Illinois, founded by Charles Dadant; publisher of the American Bee Journal.","lines":[],"eras":[],"sig":["Dadant hive","BeeMax"],"sc":[],"rel":[],"s":CD},
+{"n":"Thorne","c":"United Kingdom","f":"1913","seg":"Beekeeping equipment manufacturer and retailer","d":"E.H. Thorne (Beehives) Ltd, a family firm based at Rand near Wragby, Lincolnshire.","lines":[],"eras":[],"sig":["British National hive"],"sc":[],"rel":[],"s":TH},
+{"n":"Swienty","c":"Denmark","f":"","seg":"Beekeeping equipment manufacturer","d":"Danish maker known for moulded polystyrene National hives and nucs.","lines":[],"eras":[],"sig":["Polystyrene hive"],"sc":[],"rel":[],"s":POLY},
+{"n":"Maisemore","c":"United Kingdom","f":"","seg":"Beekeeping equipment manufacturer","d":"British maker of wooden and polystyrene hives and beekeeping equipment.","lines":[],"eras":[],"sig":["Polystyrene hive"],"sc":[],"rel":[],"s":POLY},
+{"n":"Flow Hive","c":"Australia","f":"2015","seg":"Beehive brand","d":"Byron Bay brand of BeeInventive Pty Ltd, founded by Cedar and Stuart Anderson around the tap-harvest Flow frame.","lines":["Flow Hive","Flow Hive 2"],"eras":[],"sig":["Flow Hive"],"sc":[],"rel":[],"s":FH},
+{"n":"Mann Lake","c":"United States","f":"","seg":"Beekeeping equipment manufacturer and retailer","d":"Large American beekeeping-supply company based in Minnesota.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":"knowledge"},
+{"n":"Nicot","c":"France","f":"","seg":"Beekeeping equipment manufacturer","d":"French maker of plastic beekeeping equipment such as frames, excluders and queen-rearing kits.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":"knowledge"},
+]
+trads=[
+{"n":"Skep making","g":"Basketry & straw","r":"Northern and western Europe, British Isles","p":"Middle Ages to 19th century; revival craft today","d":"Coiled-straw (earlier wicker and daub) bee baskets made by skeppers; housed in wall bee boles in Britain and France.","tech":"coiled straw sewn with briar strips, coil gauged with a leather or horn ring (girth)","mat":"rye or wheat straw, grass, wicker, briar","forms":["Skep","skep cap","bee bole"],"ctr":[],"auth":"hand-coiled even coils, natural binding rather than plastic twine","s":SK},
+{"n":"Tree beekeeping culture","g":"Woodwork & furniture","r":"Poland and Belarus","p":"recorded since the 13th century; UNESCO Representative List 2020","d":"Keeping wild bees in hives carved into living trees or logs in forests, aiming at natural conditions rather than yield.","tech":"carving tree and log hives; climbing and forest knowledge passed through families and brotherhoods","mat":"living trees, logs","forms":["tree hive","log hive"],"ctr":[],"auth":"hollow carved in a living tree or log with a removable wooden board","s":UN},
+]
+notes=("Merged as planned. Skep added as its own small kind (traditional/decorative, sourced to Wikipedia Skep). Dropped from old flat models: "
+ "'Kenyan top-bar hive', 'Tanzanian top-bar hive', 'Layens hive', 'WBC hive', 'Dadant hive', 'Langstroth hive', 'National hive', 'Rose hive', 'Smith hive', 'Flow Hive' and 'BeeMax' became archetypes/versions. "
+ "Zander hive added as a flat model from the Beehive article. Not added: AZ hive (house hive, not stacked), Lyson brand (no retrieved page; brief named it but no archetype uses it), dadant.com history page blocked (403). "
+ "Dadant hive year 1874 is from the Charles Dadant article (frame size recommended in 1874); the Beehive article's 1920 date was not used. WBC telescopic-lift change (James Lee) left out (snippet only).")
+out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+p="/home/user/Possession-Taxonomy/rebuild/work/B10/shelves/08_00.json"
+json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)

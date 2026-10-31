@@ -1,0 +1,76 @@
+import json, os
+ES="Eschenbach Optik"; SW="Schweizer"; OP="Optelec"; HW="HumanWare"; ZM="Zoomax"; FS="Freedom Scientific"; AT="Ambutech"; PK="Perkins School for the Blind"
+kinds=[
+ {"n":"Handheld magnifier","a":"hand magnifier · magnifying glass · pocket magnifier",
+  "d":"Magnifier held in the hand, made and sold as a low-vision aid.",
+  "t":["plain lens","LED-illuminated","pocket or folding","sheet (Fresnel) page magnifier"],
+  "s":"https://carroll.org/product-category/magnification/magnifiers",
+  "m":[["Mobilux LED",ES],["CombiPLUS",ES],["EasyPOCKET",ES],["ERGO-Lux MP Mobil",SW],["OKOLUX Plus Mobil",SW],["PowerMag+ LED Hand-Held Magnifier",OP]]},
+ {"n":"Stand magnifier","a":"illuminated stand magnifier · bright-field magnifier",
+  "d":"Magnifier on a stand or flat base resting on the page, made and sold as a low-vision aid.",
+  "t":["plain lens","LED-illuminated","dome or bar (bright-field)"],
+  "s":"https://carroll.org/product-category/magnification/magnifiers",
+  "m":[["OKOLUX Plus Illuminated Stand Magnifier",SW],["PowerMag Stand Magnifier",OP]],
+  "r":[["Stand magnifiers",ES]]},
+ {"n":"Electronic magnifier","a":"video magnifier · CCTV · digital magnifier",
+  "d":"Camera-and-screen device that enlarges print and images for a low-vision user.",
+  "t":["handheld","portable with stand","desktop","wearable or head-mounted"],
+  "s":"https://www.maxiaids.com/electronic-video-magnifiers",
+  "m":[["explorē series",HW],["Snow 10 Pro",ZM],["M5 HD Plus",ZM],["Aurora HD",ZM],["Acesight (wearable)",ZM]],
+  "r":[["Desktop video magnifiers",OP],["Video magnifiers",ES]]},
+ {"n":"Low-vision glasses","a":"low-vision spectacles · spectacle magnifier · bioptic telescope",
+  "d":"Spectacles with magnifying, prismatic or telescopic lenses, including clip-on and flip-down telescopes.",
+  "t":["spectacle magnifier (near)","Galilean telescope glasses (distance, TV)","bioptic telescope","clip-on or flip-down"],
+  "s":"https://ocutech.com/ocutech-bioptics-products-overview",
+  "m":[["maxTV",ES],["SightScope 2","Ocutech"],["SightScope Flip","Ocutech"],["VES-Explorer","Ocutech"],["VES-K","Ocutech"]],
+  "r":[["Reveal","Ocutech"]]},
+ {"n":"Low-vision monocular","a":"low-vision telescope · handheld telescope",
+  "d":"Small handheld telescope made and sold as a low-vision aid for seeing at a distance.",
+  "s":"https://specialneedscomputers.ca/collections/low-vision-magnifiers-for-the-visually-impaired",
+  "r":[["Telescopes",ES]]},
+ {"n":"White cane","a":"long cane · mobility cane · symbol cane",
+  "d":"Cane made for a blind or low-vision person to detect obstacles or show that they cannot see well.",
+  "t":["long cane","guide cane","identification (symbol) cane","support cane","kiddie cane","folding · rigid · telescopic","aluminium · graphite · fibreglass","tip: pencil, marshmallow, roller, rolling ball"],
+  "s":"https://shop.rnib.org.uk/collections/long-canes",
+  "x":[{"n":"Long cane (Hoover method)","a":"lightweight long cane",
+        "d":"Light cane reaching about to the sternum, swept ahead of the user in the Hoover technique to find obstacles.",
+        "mk":"","y":"1944","s":"https://en.wikipedia.org/wiki/White_cane",
+        "v":[{"n":"No Jab graphite folding cane","mk":AT,"y":"","d":"3-, 4- or 5-section folding"},
+             {"n":"Graphite telescopic long cane","mk":AT,"y":"","d":"telescopic"},
+             {"n":"Slimline graphite folding long cane (MS33)","mk":AT,"y":"","d":"9.5 mm graphite, 7 sections, light indoor use"},
+             {"n":"All Terrain Cane","mk":"Awarewolf Gear","y":"","d":"rough-ground cane"}],
+        "dt":"length about floor to sternum · folding, rigid or telescopic · aluminium, graphite, fibreglass · interchangeable tips"}],
+  "m":[["Aluminium rigid long cane, pencil tip",AT],["Urban Xplorer cane","Awarewolf Gear"]],
+  "r":[["Mobility canes",AT]]},
+ {"n":"Braille device","a":"braille writer · braille display · braille note-taker",
+  "d":"Device for writing or reading braille: a mechanical braille writer, a refreshable pin display or a braille note-taker.",
+  "t":["braille writer (mechanical)","refreshable braille display (14–80 cells, usually 40)","braille note-taker (18–40 cells)"],
+  "s":"https://en.wikipedia.org/wiki/Refreshable_braille_display",
+  "x":[{"n":"Perkins Brailler","a":"Perkins braille writer",
+        "d":"Six-key mechanical braille typewriter designed by David Abraham, the standard braille writer for decades.",
+        "mk":PK,"y":"1951","s":"https://en.wikipedia.org/wiki/Perkins_Brailler",
+        "v":[{"n":"Prototype","mk":PK,"y":"1941","d":"built by David Abraham"},
+             {"n":"Next Generation Brailler","mk":PK,"y":"2008","d":"lighter, quieter"},
+             {"n":"SMART Brailler","mk":PK,"y":"2012","d":"replaced the Next Generation"},
+             {"n":"Light Touch, Unimanual and large-cell versions","mk":PK,"y":"","d":"for low hand strength, one hand, jumbo cells"}],
+        "dt":"standard or large cell · light-touch or one-hand keys"}],
+  "m":[["Brailliant BI 40X",HW],["Focus 40 Blue (5th generation)",FS],["BrailleNote evolve",HW]]},
+]
+brands=[
+ {"n":ES,"c":"Germany","f":"1913","seg":"Optical and low-vision aids","d":"Nuremberg maker of magnifiers, low-vision spectacles, telescopes and binoculars.","lines":["Mobilux","maxTV"],"sig":["Mobilux LED","maxTV"],"rel":["Schweizer"],"s":"https://eschenbach.com/about-us/about-us.asp"},
+ {"n":SW,"c":"Germany","f":"1840","seg":"Low-vision magnifiers","d":"A. Schweizer of Forchheim, a former glass-grinding firm making low-vision magnifiers since 1945.","lines":["ERGO-Lux","OKOLUX"],"rel":[ES],"s":"https://www.spectaris.de/en/verband/members/address/a-schweizer-gmbh-optische-fabrik"},
+ {"n":OP,"c":"Netherlands","f":"1975","seg":"Low-vision aids","d":"Dutch maker of video and optical magnifiers, part of Vispero since its 2015 merger with Freedom Scientific.","lines":["PowerMag"],"rel":[FS],"s":"https://in.optelec.com/about/"},
+ {"n":HW,"c":"Canada","f":"1988","seg":"Blindness and low-vision technology","d":"Drummondville company making braille displays, note-takers and video magnifiers; part of EssilorLuxottica since 2013.","lines":["Brailliant","BrailleNote","explorē"],"sig":["Brailliant BI 40X","BrailleNote evolve"],"rel":[FS],"s":"https://humanware.com/en-usa/about_us"},
+ {"n":ZM,"c":"China","f":"2011","seg":"Video magnifiers","d":"Hangzhou maker of handheld, portable, desktop and wearable video magnifiers.","lines":["Snow","Aurora","Acesight"],"s":"https://askjan.org/vendors/Zoomax-Co-Ltd.cfm"},
+ {"n":FS,"c":"United States","f":"2000","seg":"Blindness technology","d":"Florida maker of the JAWS screen reader and Focus braille displays, now part of Vispero.","lines":["JAWS","Focus"],"rel":[OP,HW],"s":"https://en.wikipedia.org/wiki/Freedom_Scientific"},
+ {"n":AT,"c":"Canada","f":"1989","seg":"Mobility canes","d":"Winnipeg maker of mobility canes and tips, sold in more than 80 countries.","lines":["No Jab"],"s":"https://healthmanagement.org/site/p/ambutech"},
+ {"n":PK,"c":"United States","f":"","seg":"Braille writers","d":"School for the blind that commissioned and makes the Perkins Brailler.","sig":["Perkins Brailler"],"s":"https://en.wikipedia.org/wiki/Perkins_Brailler"},
+]
+notes=("Added makers to maker-less models: ERGO-Lux MP and OKOLUX Plus to Schweizer, Mobilux LED to Eschenbach. "
+ "Dropped 'Mobilent' because no retrieved page confirmed its maker. Dropped Ocutech VES-Falcon, Reveal InstaMount and through-the-lens SKUs; Reveal kept as a range. "
+ "Added the Braille device kind with the Perkins Brailler archetype and Brailliant, Focus 40 Blue and BrailleNote evolve. "
+ "Added the Hoover long cane archetype under White cane, with Ambutech and Awarewolf Gear versions taken from the RNIB long-canes page. "
+ "RNIB is a retailer, not a cane maker, so it gets no brand entry. "
+ "Left out: Optelec Compact 6 HD and ClearView, and Freedom Scientific Topaz/Ruby, because their pages could not be fetched; brand entries for Ocutech and Awarewolf Gear; traditions, since none apply.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/H2/shelves/09_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

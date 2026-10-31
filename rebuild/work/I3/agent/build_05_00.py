@@ -1,0 +1,64 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+K='knowledge'
+EU=W+'List_of_mobile_network_operators_of_Europe'
+kinds=[
+ {"n":"Mobile phone plan","a":"Handytarif · cell phone plan · SIM plan",
+  "d":"Mobile plan for calls, texts and data on a SIM or eSIM, contract or prepaid, with or without a handset. The handset is its own object.",
+  "t":["contract / postpaid with handset","SIM-only","prepaid / pay as you go","eSIM","family or multi-line","unlimited data"],
+  "s":"https://handytarif.check24.de/",
+  "m":[["Verizon","Verizon Communications · US"],["T-Mobile","Deutsche Telekom · US"],["AT&T","AT&T Inc. · US"],
+       ["Vodafone","Vodafone Group · UK, Germany, Spain, Netherlands"],["EE","BT Group · UK"],["O2","Telefónica / Virgin Media O2 · UK, Germany"],
+       ["Telekom","Deutsche Telekom · Germany"],["Orange","Orange S.A. · France, Spain"],["Jio","Jio Platforms · India"],
+       ["Airtel","Bharti Airtel · India"],["China Mobile","China Mobile · China"],["NTT Docomo","NTT · Japan"]],
+  "r":[
+   ["Visible by Verizon","Verizon · US MVNO"],["Metro by T-Mobile","T-Mobile · US MVNO"],["Mint Mobile","T-Mobile · US MVNO"],["Cricket Wireless","AT&T · US MVNO"],
+   ["Xfinity Mobile","Xfinity · US MVNO"],
+   ["Rogers","Rogers Communications · Canada"],["Bell","Bell Canada · Canada"],["Telus","Telus Communications · Canada"],["Freedom Mobile","Quebecor · Canada"],
+   ["Vivo","Telefônica Brasil · Brazil"],["Claro","América Móvil · Brazil"],["TIM Brasil","Telecom Italia · Brazil"],
+   ["VodafoneThree","Vodafone Group · UK"],["giffgaff","Virgin Media O2 · UK MVNO, Which? Recommended, Expert Reviews best overall"],
+   ["Talkmobile","VodafoneThree · UK, Which? Recommended"],["VOXI","VodafoneThree · UK, Which? Recommended"],["SMARTY","VodafoneThree · UK"],
+   ["Tesco Mobile","Tesco · UK, Which? Recommended"],["1pMobile","1pMobile · UK, Which? Recommended"],["Lebara","Lebara · UK, Expert Reviews best value"],
+   ["Sky Mobile","Sky · UK"],["iD Mobile","iD Mobile · UK"],
+   ["Vodafone Germany","Vodafone Group · Germany"],["1&1","United Internet · Germany"],["congstar","Deutsche Telekom · Germany"],
+   ["SFR","Altice France · France"],["Bouygues Telecom","Bouygues · France"],["Free Mobile","Iliad · France"],
+   ["Fastweb + Vodafone","Swisscom · Italy"],["TIM","TIM Group · Italy"],["Wind Tre","CK Hutchison · Italy"],["Iliad","Iliad · Italy"],
+   ["Movistar","Telefónica · Spain"],["DIGI","Digi Communications · Spain"],
+   ["Odido","Odido · Netherlands"],["KPN","KPN · Netherlands"],
+   ["Swisscom","Swisscom · Switzerland"],["Sunrise","Sunrise · Switzerland"],["Salt","Salt · Switzerland"],
+   ["Telia","Telia Company · Sweden, Norway, Finland"],["Telenor","Telenor · Norway, Sweden, Denmark"],["Tele2","Tele2 · Sweden"],["Ice","Lyse · Norway"],
+   ["TDC","TDC · Denmark"],["Norlys","Norlys · Denmark"],["Elisa","Elisa · Finland"],["DNA","DNA · Finland"],
+   ["au","KDDI · Japan"],["SoftBank","SoftBank Group · Japan"],["Rakuten Mobile","Rakuten · Japan"],
+   ["Vi","Vodafone Idea · India"],["BSNL","Government of India · India"],
+   ["China Telecom","China Telecom · China"],["China Unicom","China Unicom · China"],
+   ["Telstra","Telstra · Australia"],["Optus","Singtel · Australia"],["Vodafone AU","TPG Telecom · Australia"]]},
+ {"n":"Mobile data plan","a":"data-only SIM · dongle · mobile router · home 5G",
+  "d":"Mobile plan giving data only, for a data SIM, dongle, mobile router or home 5G (fixed wireless) router.",
+  "t":["data SIM for tablet or laptop","USB dongle","mobile Wi-Fi router","home 5G / fixed wireless access"],
+  "s":"https://handytarif.check24.de/",
+  "m":[["Three Mobile Broadband","Three"]]},
+ {"n":"Travel eSIM plan","a":"renewing travel eSIM plan · roaming eSIM",
+  "d":"Travel data plan on an eSIM that renews each period. One-off data packs are not included.",
+  "t":["monthly","annual","regional","global","unlimited data"],
+  "s":"https://handytarif.check24.de/",
+  "m":[["Holafly Monthly Global eSIM","Holafly"],["Ubigi monthly and annual plans","Ubigi"]]},
+]
+brands=[
+ {"n":"Vodafone Group","c":"United Kingdom","f":"1991","seg":"Mainstream","kf":"mobile networks","d":"British telecoms group running Vodafone networks in Germany, Spain and elsewhere, and VodafoneThree in the UK.","lines":["Vodafone","VodafoneThree","VOXI","SMARTY","Talkmobile"],"s":EU},
+ {"n":"Deutsche Telekom","c":"Germany","f":"1995","seg":"Mainstream","kf":"Telekom, T-Mobile","d":"German telecoms group, Germany's largest mobile operator and majority owner of T-Mobile US.","lines":["Telekom","T-Mobile","congstar"],"s":EU},
+ {"n":"Orange S.A.","c":"France","f":"","seg":"Mainstream","kf":"mobile networks","d":"French telecoms group, largest mobile operator in France and Spain.","lines":["Orange"],"s":EU},
+ {"n":"Telefónica","c":"Spain","f":"1924","seg":"Mainstream","kf":"Movistar, O2","d":"Spanish telecoms group behind Movistar, O2 Germany, Vivo in Brazil and half of Virgin Media O2.","lines":["Movistar","O2","Vivo"],"s":EU},
+ {"n":"Verizon Communications","c":"United States","f":"","seg":"Mainstream","kf":"mobile network","d":"Largest US mobile operator, with Visible and Verizon Value brands.","lines":["Verizon","Visible"],"s":W+"List_of_mobile_network_operators_of_the_Americas"},
+ {"n":"AT&T Inc.","c":"United States","f":"","seg":"Mainstream","kf":"mobile network","d":"US mobile operator with the Cricket Wireless prepaid brand.","lines":["AT&T","Cricket Wireless"],"s":W+"List_of_mobile_network_operators_of_the_Americas"},
+ {"n":"BT Group","c":"United Kingdom","f":"","seg":"Mainstream","kf":"EE","d":"British telecoms group owning the EE mobile network.","lines":["EE"],"s":EU},
+ {"n":"Jio Platforms","c":"India","f":"","seg":"Mainstream","kf":"Jio","d":"India's largest mobile operator by subscribers.","s":W+"List_of_mobile_network_operators_of_the_Asia_Pacific_region"},
+ {"n":"giffgaff","c":"United Kingdom","f":"","seg":"Value","kf":"SIM-only","d":"UK MVNO on the O2 network; Which? Recommended Provider and Expert Reviews' best overall network.","s":"https://www.expertreviews.co.uk/mobilenetworkawards"},
+ {"n":"Holafly","c":"","f":"","seg":"Specialist","kf":"travel eSIM","d":"Travel eSIM seller known for unlimited-data plans.","s":"https://freakingnomads.com/best-esim-providers/"},
+ {"n":"Ubigi","c":"","f":"","seg":"Specialist","kf":"travel eSIM","d":"Travel eSIM provider offering monthly and annual contract plans.","s":"https://freakingnomads.com/best-esim-providers/"},
+]
+notes=("Cut k28 from ~230 brands to the three or four network operators of each major market (US, Canada, Brazil, UK, Germany, France, Italy, Spain, Netherlands, Switzerland, Nordics, Japan, India, China, Australia) from the Wikipedia operator lists, plus leading MVNOs and UK test winners (Which? Recommended Providers; Expert Reviews awards). "
+ "Twelve largest operators in m, the rest by country in r. Dropped dead brands (Blyk, The People's Operator) and micro-MVNOs/small-country operators (e.g. Andorra Telecom, FL1, Foroya Tele, Manx Telecom, retailer MVNOs like Lidl Connect, edeka-smart). "
+ "Travel eSIM: only renewing plans kept (Holafly monthly, Ubigi monthly/annual). Airalo and Saily left out: the retrieved review describes them as one-off/pay-as-you-go packs, which the kind excludes. "
+ "No independent test winners outside the UK retrieved (Opensignal/CHOICE/Consumer Reports not fetched). Old kind sources kept.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/I3/shelves/05_00.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p); print('written')

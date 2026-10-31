@@ -1,0 +1,121 @@
+import json, os
+W = "https://en.wikipedia.org/wiki/"
+CH = W + "Charcoal"
+BK = "https://thechefsforum.co.uk/partners-and-suppliers/big-k-charcoal-products/"
+KW = "https://knifewear.com/blogs/news/which-binchotan-grade-is-right-for-me-naotos-guide-to-binchotan-types"
+kinds = [
+ {"n": "Firewood logs", "a": "logs · split logs · fire logs",
+  "d": "Split logs sold for burning in stoves, open fires and fire pits, seasoned or kiln-dried.",
+  "t": ["Seasoned (air-dried)", "Kiln-dried", "Hardwood", "Softwood", "Net bag", "Bulk bag", "Cord or face cord"],
+  "s": "https://www.therange.co.uk/outdoor-living/fire-pits-chimeneas-and-outdoor-heating/fire-pits/standard-nets-of-kiln-dried-hardwood-firewood-logs",
+  "m": [["Big K Kiln Dried Hardwood Logs", "Big K"], ["Big K Seasoned Hardwood Logs", "Big K"], ["Big K Seasoned British Oak", "Big K"]]},
+ {"n": "Lump charcoal", "a": "lumpwood charcoal · natural lump",
+  "d": "Charcoal made directly from hardwood pieces that keep their natural shape; burns hotter with less ash than briquettes.",
+  "t": ["Mixed hardwood", "Single species", "Restaurant grade (large lumps)", "FSC certified"],
+  "s": "https://www.bbqworld.co.uk/m/browse/charcoal.asp",
+  "x": [
+   {"n": "Binchōtan", "a": "white charcoal · binchō-zumi · bincho",
+    "d": "Very hard Japanese white charcoal, fired at about 1,000 °C and smothered in earth, sand and ash; rings metallically when struck.",
+    "mk": "", "y": "Edo period (Genroku era)", "s": W + "Binchōtan",
+    "v": [
+     {"n": "Kishū binchōtan", "mk": "", "y": "2006", "d": "Wakayama, ubame oak; first Japanese Regional Collective Trademark (2006); yellow cooperative label"},
+     {"n": "Tosa binchōtan", "mk": "", "y": "", "d": "Kōchi; one of three government-certified binchōtan; sold as Tosa Tokuwari grade"},
+     {"n": "Hyuga binchōtan", "mk": "", "y": "", "d": "northern Miyazaki, arakashi oak (Quercus glauca); produced for over 300 years"},
+     {"n": "Shirozumi", "mk": "", "y": "", "d": "Vietnamese white charcoal made by the binchōtan method"}],
+    "dt": "grade (Jo-Komaru, Komaru, Han-Maru, Otsu-Komaru, Wari, Ara-Jo, Nami, Kozumi) · stick thickness and length · origin region"},
+   {"n": "Marabú charcoal", "a": "marabu lumpwood · Cuban charcoal",
+    "d": "Dense lumpwood made in Cuba from the invasive marabú thorn bush, sold for restaurant pizza and bread ovens and grills.",
+    "mk": "", "y": "2017 (first legal US import)", "s": "https://blogs.duanemorris.com/puertoricocubaandcaribbean/wp-json/wp/v2/posts/118",
+    "v": [
+     {"n": "Fogo marabú charcoal", "mk": "Fogo", "y": "2017", "d": "33 lb bags; first legal Cuban cargo to the US in over 50 years"},
+     {"n": "El Cubano (RCH15)", "mk": "Big K", "y": "", "d": "100% marabú restaurant lumpwood, 15 kg"}],
+    "dt": "lump size · bag size (10–15 kg)"},
+   {"n": "Quebracho lump", "a": "white quebracho charcoal · South American hardwood lump · big block",
+    "d": "Large, very dense South American hardwood lumps, mainly white quebracho, prized for long kamado and restaurant cooks.",
+    "mk": "", "y": "", "s": "https://www.kamadojoe.com/products/big-block-xl-lump-charcoal",
+    "v": [
+     {"n": "Big Block XL Lump Charcoal", "mk": "Kamado Joe", "y": "", "d": "guayacan, guayaibi, mistol and white quebracho blend; 20 lb bag, up to 18 hours"},
+     {"n": "Dura (ACH15)", "mk": "Big K", "y": "", "d": "100% white quebracho restaurant lumpwood, 15 kg"}],
+    "dt": "species blend · lump size · bag size"},
+   {"n": "Oak and hickory lump", "a": "American hardwood lump · kamado lump",
+    "d": "Lumpwood from American oak and hickory, the standard fuel sold for ceramic kamado grills.",
+    "mk": "", "y": "", "s": "https://biggreenegg.co.uk/p/premium-100-natural-lump-charcoal",
+    "v": [{"n": "Premium 100% Natural Oak & Hickory Lump Charcoal", "mk": "Big Green Egg", "y": "", "d": "8 kg bag"}],
+    "dt": "species · lump size · bag size"},
+   {"n": "Kachi stick charcoal", "a": "robata charcoal · hardwood stick charcoal",
+    "d": "Natural hardwood charcoal in stick form for robata-style grilling.",
+    "mk": "", "y": "", "s": BK,
+    "v": [{"n": "Flama (BCH15)", "mk": "Big K", "y": "", "d": "kachi hardwood sticks, 15 kg, up to 2 hours"}],
+    "dt": "stick size · bag size"}],
+  "m": [["Chilla-Grilla (RCH12FSC)", "Big K"]]},
+ {"n": "Charcoal briquettes", "a": "briquets · barbecue briquettes",
+  "d": "Moulded blocks of compressed charcoal fines and wood by-products, usually bound with starch, for even, steady barbecue heat.",
+  "t": ["Standard", "Instant-light", "Long-burning", "Binder-free", "Coconut shell"],
+  "s": "https://www.bbqworld.co.uk/m/browse/charcoal.asp",
+  "x": [
+   {"n": "Pillow briquette", "a": "charcoal briquette · briquet",
+    "d": "Pillow-shaped briquette of charcoal and sawdust compressed with a binder such as starch; the classic barbecue fuel.",
+    "mk": "", "y": "1897", "s": CH,
+    "v": [
+     {"n": "Zwoyer briquette", "mk": "Zwoyer Fuel Company", "y": "1897", "d": "first patented American charcoal briquette (Ellsworth B. A. Zwoyer)"},
+     {"n": "Kingsford briquettes", "mk": "Kingsford", "y": "1920", "d": "Ford Charcoal, from car-factory wood scrap; leading US brand"},
+     {"n": "Weber Briquettes (17591)", "mk": "Weber", "y": "", "d": "carbonised wood, starch and water; 8 kg; about 3 hours"},
+     {"n": "Heat Beads BBQ Briquettes", "mk": "Australian Char", "y": "", "d": "Australian briquettes made with Latrobe Valley brown coal char"},
+     {"n": "Au Natural (RCB10)", "mk": "Big K", "y": "", "d": "binder-free briquettes from natural wood waste, 10 kg"}],
+    "dt": "binder · added lighter fluid (instant-light) · bag size · burn time"},
+   {"n": "Sawdust briquette", "a": "ogatan · hexagonal briquette · hollow briquette",
+    "d": "Binder-free compressed sawdust charcoal with a hexagonal cross-section and a round central hole, used mainly for barbecue.",
+    "mk": "", "y": "", "s": CH,
+    "dt": "length · hardwood source"},
+   {"n": "Extruded charcoal", "a": "charcoal log",
+    "d": "Ground or carbonised wood extruded into logs without binder, held together by heat and pressure.",
+    "mk": "", "y": "", "s": CH,
+    "dt": "log diameter and length"}]},
+ {"n": "Wood pellets", "a": "pellet fuel · grill pellets · stove pellets",
+  "d": "Compressed sawdust pellets, typically 6 mm, burned in pellet grills, stoves and boilers.",
+  "t": ["Heating pellets (DINplus / PFI)", "Cooking pellets", "Single-species", "Blend", "6 mm", "8 mm"],
+  "s": "https://www.mitre10.co.nz/shop/outdoor-bbq/bbqs-accessories/bbq-accessories/gas-bottles-charcoal/c/RF5464",
+  "m": [["Traeger Signature Blend Hardwood Pellets", "Traeger"], ["Traeger Hickory Wood Pellets", "Traeger"], ["Traeger Apple Wood Pellets", "Traeger"], ["Traeger Charcoal Pellets", "Traeger"], ["Woodland Pellets Woodland Blend", "Woodland Pellets"]]},
+ {"n": "Smoking wood", "a": "smoking chips · smoking chunks · smoker wood",
+  "d": "Hardwood chips, chunks or sawdust burned to flavour food with smoke, sold by wood species.",
+  "t": ["Hickory", "Mesquite", "Oak", "Pecan", "Alder", "Maple", "Beech", "Apple", "Cherry", "Plum", "Mānuka"],
+  "s": "https://www.mitre10.co.nz/shop/outdoor-bbq/bbqs-accessories/bbq-accessories/gas-bottles-charcoal/c/RF5464"},
+ {"n": "Coal and smokeless fuel", "a": "coal · smokeless coal · ovoids",
+  "d": "Bagged house coal or smokeless solid fuel for open fires and multi-fuel stoves.",
+  "t": ["House coal", "Anthracite", "Coke", "Manufactured smokeless briquettes"],
+  "s": "https://www.firewood.co.uk/coal/ecoblaze-smokeless-coal/ecoblaze-smokeless-coal-25-bags/",
+  "m": [["Ecoblaze Smokeless Coal", "Ecoblaze"]]},
+ {"n": "Kindling", "a": "kindling sticks",
+  "d": "Small dry sticks of split wood for starting a fire.",
+  "s": "https://www.diy.ie/departments/homefire-kindling/1447143_BQ.prd",
+  "m": [["Homefire Kindling", "Homefire"]]},
+]
+brands = [
+ {"n": "Kingsford", "c": "United States", "f": "1920", "seg": "Mass-market charcoal",
+  "d": "Leading US charcoal briquette brand, founded by Henry Ford as Ford Charcoal and owned by Clorox since 1973.",
+  "lines": ["Charcoal briquettes", "Flavoured smoke products"], "eras": ["Ford Charcoal, 1920–1951", "Kingsford Company, 1957–1973", "Clorox, 1973–"],
+  "sig": ["Pillow briquette"], "sc": ["Backyard barbecue"], "rel": [], "s": W + "Kingsford_(charcoal)"},
+ {"n": "Big K", "c": "United Kingdom", "f": "1964", "seg": "Barbecue and restaurant fuel",
+  "d": "British maker of lumpwood, briquettes and logs, including restaurant-grade single-species charcoals.",
+  "lines": ["El Cubano", "Dura", "Flama", "Chilla-Grilla", "Au Natural", "Hardwood logs"], "eras": [],
+  "sig": ["Marabú charcoal", "Quebracho lump", "Kachi stick charcoal"], "sc": ["Restaurant grill", "Backyard barbecue"], "rel": [], "s": BK},
+ {"n": "Australian Char", "c": "Australia", "f": "1969", "seg": "Mass-market barbecue fuel",
+  "d": "Dandenong South company making Heat Beads briquettes from Latrobe Valley brown coal.",
+  "lines": ["Heat Beads"], "eras": [], "sig": ["Pillow briquette"], "sc": ["Backyard barbecue"], "rel": [], "s": "https://ethical.org.au/companies/1801"},
+]
+traditions = [
+ {"n": "Kishū binchōtan charcoal making", "g": "Fuel & charcoal", "r": "Wakayama, Japan", "p": "Edo period (Genroku era) to present",
+  "d": "Kiln production of hard white charcoal from ubame oak, designated an intangible folk cultural property of Wakayama in 1974.",
+  "tech": "Slow kiln pyrolysis (about 240 °C for 120 hours), final firing near 1,000 °C, then smothering in damp earth, sand and ash",
+  "mat": "Ubame oak (Quercus phillyreoides)", "forms": ["Binchōtan"],
+  "ctr": ["Minabe, Wakayama", "Tanabe, Wakayama", "Bichū-ya Chōzaemon (originator)"],
+  "auth": "Yellow label of the Wakayama Prefectural Charcoal Cooperative; Regional Collective Trademark (2006); metallic ring when struck",
+  "s": W + "Binchōtan"},
+]
+notes = ("All 7 planned kinds kept (old 'Smoking chips and chunks' renamed Smoking wood, species as types; 'Coal' renamed). "
+         "Lump charcoal and briquettes rebuilt as archetypes (binchōtan with Kishū/Tosa/Hyuga, marabú, quebracho, oak-hickory, kachi stick; pillow, sawdust/ogatan, extruded). "
+         "Left out: Jealous Devil and Royal Oak (no fetched page), Homefire smokeless ovals (Defra page 404), Tosa product page (404); "
+         "brand entries for Kamado Joe, Big Green Egg, Weber, Traeger, Fogo not added (only product pages retrieved). Old Australian Heat Beads model folded into the pillow-briquette version under Australian Char.")
+out = {"kinds": kinds, "brands": brands, "traditions": traditions, "notes": notes}
+p = "/home/user/Possession-Taxonomy/rebuild/work/C8/shelves/12_01.json"
+json.dump(out, open(p + ".tmp", "w"), ensure_ascii=False, indent=1); os.replace(p + ".tmp", p)

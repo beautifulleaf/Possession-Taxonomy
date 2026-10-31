@@ -1,0 +1,71 @@
+{
+ "kinds": [
+  {
+   "n": "Barn",
+   "a": "",
+   "d": "A large farm building with an open interior for hay, grain, machinery or loose-housed livestock.",
+   "t": [
+    "Dutch barn",
+    "Threshing barn",
+    "Tithe barn",
+    "Pole barn",
+    "Steel portal-frame barn"
+   ],
+   "s": "https://www.timberlyne.com/barns"
+  },
+  {
+   "n": "Stable block",
+   "a": "horse barn · stable yard",
+   "d": "A building laid out mainly as stalls or loose boxes for horses, often with a hay loft or tack room.",
+   "t": [
+    "American barn (internal aisle)",
+    "Traditional yard",
+    "Timber loose-box range"
+   ],
+   "s": "https://campionequestrian.co.uk/stable-blocks-barn-shelters"
+  },
+  {
+   "n": "Field shelter",
+   "a": "",
+   "d": "An open-fronted shelter for horses or livestock standing in a field, fixed or on skids.",
+   "t": [
+    "Fixed",
+    "Mobile on skids"
+   ],
+   "s": "https://campionequestrian.co.uk/stable-blocks-barn-shelters"
+  },
+  {
+   "n": "Cart shed",
+   "a": "cart lodge · implement shed",
+   "d": "An open-fronted farm building for carts and farm machinery.",
+   "s": "https://oakframesnorfolk.co.uk/"
+  },
+  {
+   "n": "Granary",
+   "a": "",
+   "d": "A farm building for storing grain, often raised on staddle stones against damp and vermin.",
+   "t": [
+    "Raised on staddle stones",
+    "Loft granary over cart shed"
+   ],
+   "s": "https://historicengland.org.uk/images-books/publications/national-farm-building-types"
+  },
+  {
+   "n": "Dovecote",
+   "a": "pigeon house · columbarium (farm)",
+   "d": "A building for housing doves or pigeons, with internal nesting boxes, that a person can enter.",
+   "t": [
+    "Circular",
+    "Square or rectangular",
+    "Lectern"
+   ],
+   "s": "https://historicengland.org.uk/images-books/publications/national-farm-building-types"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Kept all six planned kinds (Barn k48, Stable block k49, Field shelter k50, Cart shed k40, Granary k51, Dovecote k52), one entry each, no renames. Dropped the three Timberlyne SKU models (Daisy, Gunnar, Poppy): single-vendor timber-frame kit names from one retail harvest, not market-covering and not independent test winners; these buildings are sold here as property/with land, not as branded kits, so the kinds carry no m lists. Moved the old 'American barn' pseudo-model into Stable block's t types alongside traditional yard and timber loose-box range, as the brief directs. Added the briefed barn types (Dutch, threshing, tithe, pole, steel portal-frame) and small attribute-level type lists for field shelter, granary and dovecote; no new kinds, archetypes or brands added. All old s URLs retained.",
+ "dropped": [],
+ "model": "claude-fable-5-1",
+ "batch": true
+}

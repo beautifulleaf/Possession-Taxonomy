@@ -1,0 +1,131 @@
+{
+ "kinds": [
+  {
+   "n": "Breast pump",
+   "a": "milk pump · wearable pump · hands-free pump",
+   "d": "Device that draws milk from the breast by hand or motor, for feeding later.",
+   "t": [
+    "manual",
+    "single electric",
+    "double electric",
+    "wearable (in-bra)"
+   ],
+   "tg": [
+    "baby"
+   ],
+   "s": "https://exclusivepumping.com/brands/",
+   "m": [
+    [
+     "Medela Swing Maxi",
+     "Medela"
+    ],
+    [
+     "Medela Freestyle Flex",
+     "Medela"
+    ],
+    [
+     "Medela Pump in Style with Max Flow",
+     "Medela"
+    ],
+    [
+     "Medela Harmony",
+     "Medela"
+    ],
+    [
+     "Medela Freestyle Hands-Free",
+     "Medela"
+    ],
+    [
+     "Spectra S1 Plus",
+     "Spectra"
+    ],
+    [
+     "Spectra S2 Plus",
+     "Spectra"
+    ],
+    [
+     "Lansinoh Signature Pro",
+     "Lansinoh"
+    ],
+    [
+     "Lansinoh Smartpump 2.0",
+     "Lansinoh"
+    ],
+    [
+     "Elvie Stride",
+     "Elvie"
+    ],
+    [
+     "Elvie Curve",
+     "Elvie"
+    ]
+   ]
+  },
+  {
+   "n": "Nursing pad",
+   "a": "breast pad · bra liner",
+   "d": "Pad worn inside the bra to absorb leaking milk.",
+   "t": [
+    "disposable",
+    "reusable washable",
+    "silicone"
+   ],
+   "tg": [
+    "baby"
+   ],
+   "s": "https://exclusivepumping.com/best-breast-pads/",
+   "m": [
+    [
+     "Lansinoh Breast Pads",
+     "Lansinoh"
+    ],
+    [
+     "Bamboobies Everyday Pads",
+     "Bamboobies"
+    ],
+    [
+     "Kindred Bravely Reusable Nursing Pads",
+     "Kindred Bravely"
+    ],
+    [
+     "LilyPadz",
+     "LilyPadz"
+    ]
+   ]
+  },
+  {
+   "n": "Milk collector",
+   "a": "milk catcher · breast shell",
+   "d": "Cup worn in the bra that catches milk leaking from the other breast, without suction.",
+   "tg": [
+    "baby"
+   ],
+   "s": "https://exclusivepumping.com/best-breast-pads/"
+  },
+  {
+   "n": "Nipple cream",
+   "a": "nipple balm · lanolin cream",
+   "d": "Cream or balm that soothes sore or cracked nipples during breastfeeding.",
+   "t": [
+    "lanolin",
+    "lanolin-free balm"
+   ],
+   "tg": [
+    "baby"
+   ],
+   "s": "https://lansinoh.co.uk/products/hpa-lanolin-for-sore-nipples-cracked-skin",
+   "m": [
+    [
+     "Lansinoh HPA Lanolin Nipple Cream",
+     "Lansinoh"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Merged 'Wearable breast pump' (k92) into 'Breast pump' (k91) as the type 'wearable (in-bra)'. Cut the 27 pump models to 11 that cover Medela, Spectra, Lansinoh and Elvie. Dropped Medela Symphony because it is a hospital-grade rental pump (institutional). Dropped all six Ameda and three Motif Medical models because they are mainly US insurance-channel brands outside the brief's market list. Dropped extra Medela and Spectra variants (Sonata, Swing, Swing Double, S3 Pro, S9 Plus, SG Synergy) as near-duplicates. Normalised the maker 'Spectra (breast pumps)' to 'Spectra'. Willow, Philips Avent and Tommee Tippee were not in the old data, and this shelf allows no research, so I did not add them. Nor did I add any Which? or other test winners, because none can be verified here; both are left for a sourced pass. Nursing pads: dropped Bamboobies Overnight (same brand, near-duplicate) and Davin & Adley (minor brand). Dropped Lansinoh Soothies Cooling Gel Pads because they are a nipple-soothing gel pad, not an absorbent nursing pad. Added attribute types to nursing pads and nipple cream. All kinds keep their old sources and the baby tag.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

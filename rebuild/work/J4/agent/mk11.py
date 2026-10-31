@@ -1,0 +1,51 @@
+import sys;sys.path.insert(0,'work/J4/agent')
+from lib import *
+LY=W+"Lychee"; DU=W+"Durian"
+K1=[]
+kinds=[
+K("Litchi","Fresh litchi (Litchi chinensis).","https://en.wikipedia.org/wiki/Geographical_indications_in_India",
+  [x("Mauritius","","",LY,"Main lychee in South Africa, also used in US production; self-fertile but better cross-pollinated."),
+   x("Brewster","","",LY,"Lychee cultivar used in US production."),
+   x("Hak Ip","","",LY,"Lychee cultivar used in US production."),
+   x("Nuomici","","",LY,"Popular Chinese lychee cultivar."),
+   x("Feizixiao","","",LY,"Popular Chinese lychee cultivar."),
+   x("Guiwei","","",LY,"Popular Chinese lychee cultivar.")],
+  ["Shahi Litchi of Bihar GI","Ramnagar Nainital Litchi GI","Tezpur Litchi GI","Lục Ngạn GI","Thanh Hà GI","灵山荔枝 地理标志产品"],a="Lychee"),
+K("Longan","Fresh longan (Dimocarpus longan); dried longan flesh is in Pantry Staples.","https://www.cnipa.gov.cn/art/2026/5/8/art_2089_206331.html",None,["莆田桂圆 地理标志产品"]),
+K("Rambutan","Fresh Nephelium lappaceum fruit with a hairy red rind.",W+"Rambutan",
+  [x("Binjai","","",W+"Rambutan","Indonesian rambutan cultivar, one of five leading commercial cultivars there."),
+   x("Maharlika","","",W+"Rambutan","One of five genotypic clusters of rambutan identified in the Philippines.")]),
+K("Durian","Fresh durian, whole or as packed pulp.","https://www.wipo.int/web/ip-advantage/w/stories/spotlight-on-thai-gis-thailand-s-treasured-delicacies",
+  [x("Musang King","","1980s","https://en.wikipedia.org/wiki/Musang_King","Malaysian durian found at Gua Musang, Kelantan, first called Raja Kunyit; creamy yellow flesh and a Malaysian GI.",
+     [v("D197","","","Cultivar code"),v("Musang King durian GI","","","Malaysian GI, old data"),v("Mao Shan Wang","","","Singapore name")],a="Mao Shan Wang · D197"),
+   x("D24","","",DU,"Malaysian golden-yellow durian with rich texture and aroma, also called Sultan; Musang King is described as a more potent version.",[],a="Sultan King"),
+   x("Monthong","","",DU,"Dominant Thai durian with thick creamy mild flesh and small seeds.",[v("Mon Thong","","","Alternative spelling")],a="Mon Thong"),
+   x("Chanee","","",DU,"Thai durian most resistant to Phytophthora palmivora and parent of the two leading Philippine cultivars."),
+   x("Kan Yao","","",DU,"Less common Thai durian prized for a long sweet, odourless window.",[v("Kanyao","","","Old-data name")])],
+  ["Prachin Durian GI"]),
+K("Mangosteen","Fresh mangosteen (Garcinia mangostana), mainly from Thailand.","https://www.jurassicfruit.com/en/p36/mangosteen?p=143",None),
+K("Jackfruit","Fresh jackfruit, whole or cut, ripe or young green; tinned jackfruit is in Pantry Staples.","https://www.melissas.com/Jackfruit-p/707.htm",None,None,["soft-bulb","firm-bulb","young green"]),
+K("Dragon fruit","Fresh fruit of Selenicereus, red, white or yellow fleshed.","https://www.origin-gi.com/wp-content/uploads/2015/04/Geographical_Indications_from_Vietnam.pdf",
+  [x("White-fleshed dragon fruit","","",W+"Dragon_fruit","Selenicereus undatus: pink skin, white flesh, the most commonly seen type."),
+   x("Red-fleshed dragon fruit","","",W+"Dragon_fruit","Selenicereus costaricensis: red skin and red flesh."),
+   x("Yellow dragon fruit","","",W+"Dragon_fruit","Selenicereus megalanthus: yellow skin, white flesh, also called kirin fruit.",[v("Pitahaya Amazónica de Palora DO","","","Ecuadorian designation, old data")],a="Palora · Kirin fruit")],
+  ["Bình Thuận GI"],["white","red","yellow"]),
+K("Passion fruit","Fresh passion fruit, purple, yellow or sweet granadilla types, including cholupa.","https://www.legislation.gov.uk/eur/1996/1107/2008-11-20/data.xht",
+  [x("Purple passion fruit","","",W+"Passiflora_edulis","Passiflora edulis f. edulis, about 35 g, less acidic with a richer aroma.",[]),
+   x("Yellow passion fruit","","",W+"Passiflora_edulis","Passiflora edulis f. flavicarpa, about 80 g, larger and more acidic, sold as guavadilla in South Africa.",[])],
+  ["Caatinga Passion Fruit","Cholupa del Huila DO","Maracujá dos Açores/S. Miguel PDO"],["purple","yellow","granadilla"]),
+K("Guava","Fresh guava (Psidium guajava and relatives), white to deep pink pulp.","https://en.wikipedia.org/wiki/Geographical_indications_in_India",
+  [x("Thai maroon","","",W+"Guava","Red apple guava cultivar.",[])],["Allahabad Surkha guava GI"]),
+K("Carambola","Fresh star fruit (Averrhoa carambola), sweet or sour types.",W+"Carambola",
+  [x("Arkin","","",W+"Carambola","Sweet Florida carambola, about 98% of south Florida acreage in the early 2000s."),
+   x("Golden Star","","",W+"Carambola","Sour Florida carambola that turns sweet if left to ripen.",[v("Newcomb","","","Sour Florida type"),v("Star King","","","Sour Florida type"),v("Thayer","","","Sour Florida type")])],None,["sweet","sour"],a="Star fruit"),
+K("Salak","Fresh snake fruit (Salacca zalacca).",W+"Salak",
+  [x("Salak pondoh","","1980s",W+"Salak","Yogyakarta snake fruit with sweet flavour and dry crumbly texture.",[v("pondoh super","","","variation"),v("pondoh hitam","","","variation"),v("pondoh gading","","","variation")]),
+   x("Salak Bali","","",W+"Salak","Crunchy moist snake fruit from Sibetan village, Bali, with over 15 varieties.",[v("salak gula pasir","","","Sweetest and most expensive Bali variety")])],a="Snake fruit"),
+K("Sapodilla","Fresh sapodilla (Manilkara zapota).","https://en.wikipedia.org/wiki/Geographical_indications_in_India",None,["Dahanu Gholvad Chikoo GI"],a="Chikoo · Naseberry"),
+K("Star apple","Fresh star apple (Chrysophyllum cainito), purple, green or yellow.","https://www.origin-gi.com/wp-content/uploads/2015/04/Geographical_Indications_from_Vietnam.pdf",None,["Vĩnh Kim GI"],["purple","greenish-brown","yellow"]),
+K("Marian plum","Fresh Bouea macrophylla fruit, sweet to sour like a mango.","https://www.wipo.int/web/ip-advantage/w/stories/spotlight-on-thai-gis-thailand-s-treasured-delicacies",None,["Nakhon Nayok Giant Marian Plum GI"],a="Maprang · Gandaria"),
+]
+notes="Mangosteen, jackfruit, sapodilla, star apple and Marian plum: Wikipedia names no cultivars, so no archetypes; kept at kind level. Longan Daw/Shixia, Guiwei details, Allahabad Safeda, Black Thorn (D200), Wuhan/Putian detail not confirmed. Dragon fruit archetypes are the three species types from Wikipedia since no cultivar is named. Durian codes other than Musang King D197 left out (not on fetched pages)."
+urls=[LY,W+"Longan",W+"Rambutan",DU,"https://en.wikipedia.org/wiki/Musang_King",W+"Mangosteen",W+"Jackfruit",W+"Dragon_fruit",W+"Passiflora_edulis",W+"Salak",W+"Chrysophyllum_cainito",W+"Bouea_macrophylla",W+"Guava",W+"Carambola"]
+write("00_11",kinds,[],[],notes,urls)

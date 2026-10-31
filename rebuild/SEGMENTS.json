@@ -1,0 +1,17 @@
+{
+ "_doc": "Controlled brand-register segments (owner decision 2026-10-27). A brand's 'seg' must be one value from the vocabulary of the domain of its first category; 'kf' is a short free tag for what it is known for (e.g. denim, tailoring, cast iron).",
+ "domains": {
+  "fashion": {
+   "cats": ["A1", "A2", "A4"],
+   "segs": ["Luxury house", "Designer", "Contemporary & premium", "Heritage & workwear", "Japanese & denim", "Streetwear", "Outdoor & technical", "Athletic & sportswear", "High street", "Value & basics", "Bespoke & artisan", "Traditional & national dress", "Subculture & alternative"]
+  },
+  "luxury": {
+   "cats": ["A3", "A5", "H4"],
+   "segs": ["Luxury house", "Haute maison", "Independent maker", "Designer", "Premium", "Mainstream", "Value", "Bespoke & artisan", "Traditional & regional"]
+  },
+  "general": {
+   "cats": ["*"],
+   "segs": ["Professional & flagship", "Premium", "Mainstream", "Value", "Heritage manufactory", "Artisan & independent", "Specialist", "Own-label & retailer", "Institution & issuer"]
+  }
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "kinds": [
+  {
+   "n": "Detached house",
+   "a": "single-family detached home · free-standing house · stand-alone house",
+   "d": "A free-standing house sharing no walls with neighbours, on its own plot.",
+   "t": [
+    "Link-detached (joined only by garage)",
+    "Executive detached (large 4–6 bedroom)",
+    "New-build detached",
+    "Period detached"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Single-family_detached_home"
+  },
+  {
+   "n": "Semi-detached house",
+   "a": "semi · duplex (US/Canada) · twin home · half-double",
+   "d": "A house sharing one party wall with its neighbour, usually built as a mirror-image pair.",
+   "t": [
+    "Mirror-image pair",
+    "Period semi",
+    "Interwar semi",
+    "Post-war semi",
+    "New-build semi"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Semi-detached"
+  },
+  {
+   "n": "Terraced house",
+   "a": "terrace · row house · row home · brownstone (US) · back-to-back",
+   "d": "A house in a continuous row sharing side walls with neighbours on both sides.",
+   "t": [
+    "Mid-terrace",
+    "End-of-terrace",
+    "Back-to-back",
+    "Brownstone-clad",
+    "Georgian terrace",
+    "Victorian terrace",
+    "Workers' terrace"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Terraced_house"
+  },
+  {
+   "n": "Townhouse",
+   "a": "town house · townhome",
+   "d": "A multi-storey urban house on a small footprint, usually terraced or close-set; historically a grandee's city residence.",
+   "t": [
+    "Three-storey town house",
+    "Georgian town house",
+    "Modern townhome (US)",
+    "Gated townhouse development"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Townhouse"
+  },
+  {
+   "n": "Bungalow",
+   "a": "single-storey house · rambler",
+   "d": "A single-storey house, whether detached, semi-detached or terraced, sometimes with rooms set in the roof.",
+   "t": [
+    "Detached bungalow",
+    "Semi-detached bungalow",
+    "Terraced bungalow",
+    "Dormer or chalet bungalow (rooms in roof)",
+    "Veranda bungalow"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Bungalow"
+  },
+  {
+   "n": "Cottage",
+   "a": "cot · cottage orné · holiday cottage",
+   "d": "A small, modest house, typically in a rural or semi-rural setting.",
+   "t": [
+    "Thatched cottage",
+    "Stone cottage",
+    "Estate cottage (tied)",
+    "Holiday cottage",
+    "Cottage orné"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Cottage"
+  },
+  {
+   "n": "Farmhouse",
+   "a": "farm house · housebarn",
+   "d": "The principal dwelling of a farm, sold with or without its land and outbuildings; see Farm in Land & estates.",
+   "t": [
+    "Farmhouse with land",
+    "Farmhouse without land",
+    "Housebarn (dwelling and byre combined)",
+    "Courtyard farmhouse"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Farmhouse"
+  },
+  {
+   "n": "Mews house",
+   "a": "mews property · coach house · carriage house conversion",
+   "d": "A house in a mews: a converted stable or carriage house with living quarters behind large city houses.",
+   "t": [
+    "Original converted mews",
+    "Modern mews-style new-build",
+    "Cobbled mews courtyard"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Mews"
+  },
+  {
+   "n": "Ranch house",
+   "a": "ranch-style house · rambler · rancher · California ranch",
+   "d": "A single-storey American house with a long, low profile and open plan; distinct from a working ranch.",
+   "t": [
+    "California ranch",
+    "Suburban ranch",
+    "Split-level ranch",
+    "Raised ranch",
+    "Storybook ranch"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ranch-style_house"
+  },
+  {
+   "n": "Villa",
+   "a": "holiday villa · suburban villa",
+   "d": "A comfortable detached house with garden, usually in Mediterranean, resort or suburban use.",
+   "t": [
+    "Holiday villa",
+    "Urban or suburban villa",
+    "Mediterranean villa with pool",
+    "Victorian villa (UK usage)"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Villa"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Old k1 'house' split into Detached, Semi-detached and Terraced house kinds (its 't' list), plus new Townhouse, Cottage, Farmhouse, Mews house (from k1 model 'Mews property'), Ranch house and Villa. Old k2 Bungalow kept with a Wikipedia source replacing the Rightmove FAQ. All vernacular/regional models from k1 (Assam-type house, Bastle house, Casona, Charleston single house, Chattel house, Connected farm, Cortijo, Finca, Frutighaus, Geestharden house, Kulla, Longère, Masía, Riad, Siheyuan, Trulli, Upper Lusatian house, Upright and Wing, Uthland-Frisian house, Vainakh tower, Wealden hall house, Yaodong) dropped from this shelf per the plan; they belong on the 'Regional house traditions' shelf handled by another worker. 'Link detached house' became a type of Detached house. No maker models, brands or traditions apply to this shelf. Sources: Wikipedia pages retrieved this session (Single-family detached home, Semi-detached, Terraced house, Townhouse, Bungalow, Cottage, Farmhouse, Mews, Ranch-style house, Villa; also Back-to-back house, Brownstone, Duplex (building), Executive home used to confirm types/aliases). The wiki tool failed mid-session (lock-file error) so Chalet bungalow / Housebarn pages were not confirmed; they appear only as 't' types, not kinds.",
+ "dropped": [],
+ "usage": [
+  54679,
+  19695,
+  2824
+ ],
+ "turns": 4,
+ "model": "claude-fable-5-1"
+}

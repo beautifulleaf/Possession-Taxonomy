@@ -1,0 +1,855 @@
+{
+ "kinds": [
+  {
+   "n": "Helicopter",
+   "a": "chopper · rotorcraft",
+   "d": "Rotorcraft lifted and driven by powered rotors.",
+   "t": [
+    "piston",
+    "turbine",
+    "two-seat",
+    "four-seat",
+    "kit-built",
+    "float-equipped"
+   ],
+   "s": "https://www.controller.com/listings/for-sale/piston-helicopters/5",
+   "x": [
+    {
+     "n": "Robinson R22",
+     "a": "R22",
+     "d": "Two-seat light piston helicopter by Frank Robinson; the most common training helicopter.",
+     "mk": "Robinson Helicopter",
+     "y": "1979–",
+     "s": "https://en.wikipedia.org/wiki/Robinson_R22",
+     "v": [
+      {
+       "n": "R22",
+       "mk": "Robinson Helicopter",
+       "y": "1979",
+       "d": "first production version, Lycoming O-320"
+      },
+      {
+       "n": "R22 Alpha",
+       "mk": "Robinson Helicopter",
+       "y": "1983",
+       "d": "revised landing-gear mounts"
+      },
+      {
+       "n": "R22 Beta",
+       "mk": "Robinson Helicopter",
+       "y": "",
+       "d": "more powerful engine; optional governor and rotor brake"
+      },
+      {
+       "n": "R22 Beta II",
+       "mk": "Robinson Helicopter",
+       "y": "",
+       "d": "Lycoming O-360, standard governor"
+      },
+      {
+       "n": "R22 Mariner",
+       "mk": "Robinson Helicopter",
+       "y": "",
+       "d": "float-equipped version"
+      }
+     ],
+     "dt": "trim · floats · instrument panel (standard, IFR trainer)"
+    },
+    {
+     "n": "Robinson R44",
+     "a": "R44",
+     "d": "Four-seat piston helicopter derived from the R22; first flew 1990, delivered from 1993.",
+     "mk": "Robinson Helicopter",
+     "y": "1993–",
+     "s": "https://en.wikipedia.org/wiki/Robinson_R44",
+     "v": [
+      {
+       "n": "R44 Astro",
+       "mk": "Robinson Helicopter",
+       "y": "1993",
+       "d": "original version"
+      },
+      {
+       "n": "R44 Raven",
+       "mk": "Robinson Helicopter",
+       "y": "2000",
+       "d": "hydraulically assisted controls, adjustable pedals"
+      },
+      {
+       "n": "R44 Raven II",
+       "mk": "Robinson Helicopter",
+       "y": "2002",
+       "d": "fuel-injected engine, wider blades"
+      },
+      {
+       "n": "R44 Cadet",
+       "mk": "Robinson Helicopter",
+       "y": "2015",
+       "d": "two-seat Raven I with cargo area"
+      }
+     ],
+     "dt": "seats 2–4 · floats · newsgathering fit"
+    },
+    {
+     "n": "Bell 47",
+     "a": "47 · Sioux",
+     "d": "Bubble-canopy piston helicopter built 1946–1974; more than 5,600 made and a classic of private ownership.",
+     "mk": "Bell",
+     "y": "1946–1974",
+     "s": "https://en.wikipedia.org/wiki/Bell_47",
+     "v": [
+      {
+       "n": "47D",
+       "mk": "Bell",
+       "y": "",
+       "d": "first with moulded soap-bubble canopy"
+      },
+      {
+       "n": "47G",
+       "mk": "Bell",
+       "y": "1953",
+       "d": "three-seat, saddlebag tanks; most common model"
+      },
+      {
+       "n": "47G-3B",
+       "mk": "Bell",
+       "y": "",
+       "d": "turbocharged Lycoming TVO-435"
+      },
+      {
+       "n": "47J Ranger",
+       "mk": "Bell",
+       "y": "",
+       "d": "four-seat enclosed cabin"
+      }
+     ],
+     "dt": "open tubework tail boom · canopy · engine"
+    },
+    {
+     "n": "Hughes 269",
+     "a": "Hughes 300 · Schweizer 300 · TH-55 Osage",
+     "d": "Two- or three-seat light piston helicopter first flown in 1956, later built by Schweizer as the 300C.",
+     "mk": "Hughes Helicopters",
+     "y": "1961–",
+     "s": "https://en.wikipedia.org/wiki/Hughes_TH-55_Osage",
+     "v": [
+      {
+       "n": "269A",
+       "mk": "Hughes Helicopters",
+       "y": "1961",
+       "d": "first civil deliveries"
+      },
+      {
+       "n": "TH-55A Osage",
+       "mk": "Hughes Helicopters",
+       "y": "1964",
+       "d": "US Army trainer version of the Model 200"
+      },
+      {
+       "n": "269B (Hughes 300)",
+       "mk": "Hughes Helicopters",
+       "y": "1964",
+       "d": "three seats"
+      },
+      {
+       "n": "300C (269C)",
+       "mk": "Hughes Helicopters",
+       "y": "1970",
+       "d": "larger rotor, more power"
+      },
+      {
+       "n": "300C",
+       "mk": "Schweizer",
+       "y": "1983",
+       "d": "licence-built, rights bought 1986"
+      }
+     ],
+     "dt": "seats 2–3 · engine · ex-military or civil"
+    },
+    {
+     "n": "Guimbal Cabri G2",
+     "a": "Cabri",
+     "d": "Two-seat composite piston trainer by Bruno Guimbal with a Fenestron tail rotor; EASA-certified 2007.",
+     "mk": "Guimbal",
+     "y": "2007–",
+     "s": "https://en.wikipedia.org/wiki/Guimbal_Cabri_G2",
+     "v": [
+      {
+       "n": "Cabri G2",
+       "mk": "Guimbal",
+       "y": "2007",
+       "d": "EASA certification; FAA 2015"
+      }
+     ],
+     "dt": "glass cockpit · removable left seat"
+    },
+    {
+     "n": "Enstrom F-28 / 280",
+     "a": "F-28 · 280 Shark · 280FX",
+     "d": "Three-seat piston helicopter family certified 1965, with streamlined 280 versions.",
+     "mk": "Enstrom",
+     "y": "1965–",
+     "s": "https://en.wikipedia.org/wiki/Enstrom_F-28",
+     "v": [
+      {
+       "n": "F-28",
+       "mk": "Enstrom",
+       "y": "1965",
+       "d": "initial model"
+      },
+      {
+       "n": "F-28A",
+       "mk": "Enstrom",
+       "y": "1968",
+       "d": "205 hp"
+      },
+      {
+       "n": "F-28C",
+       "mk": "Enstrom",
+       "y": "1975",
+       "d": "turbocharged"
+      },
+      {
+       "n": "F-28F Falcon",
+       "mk": "Enstrom",
+       "y": "1980",
+       "d": "225 hp"
+      },
+      {
+       "n": "280 Shark",
+       "mk": "Enstrom",
+       "y": "1974",
+       "d": "streamlined fuselage"
+      },
+      {
+       "n": "280FX",
+       "mk": "Enstrom",
+       "y": "1985",
+       "d": "gear fairings, revised stabiliser"
+      }
+     ],
+     "dt": "turbocharged or normally aspirated · fuselage (F-28 utility, 280 streamlined)"
+    }
+   ]
+  },
+  {
+   "n": "Gyroplane",
+   "a": "autogyro · gyrocopter · gyro",
+   "d": "Rotorcraft with an unpowered rotor and a separate propeller.",
+   "t": [
+    "open cockpit",
+    "enclosed cockpit",
+    "single-seat",
+    "tandem two-seat",
+    "side-by-side",
+    "homebuilt"
+   ],
+   "s": "https://afors.uk/autogyros/for-sale/standardView-32283",
+   "x": [
+    {
+     "n": "Bensen B-8",
+     "a": "Gyro-Copter",
+     "d": "Igor Bensen's single-seat open-frame autogyro of 1955, sold as kits and plans to homebuilders.",
+     "mk": "Bensen Aircraft",
+     "y": "1955–1987",
+     "s": "https://en.wikipedia.org/wiki/Bensen_B-8",
+     "v": [
+      {
+       "n": "B-8 Gyro-Glider",
+       "mk": "Bensen Aircraft",
+       "y": "1955",
+       "d": "unpowered towed rotor-kite"
+      },
+      {
+       "n": "B-8M Gyro-Copter",
+       "mk": "Bensen Aircraft",
+       "y": "1955",
+       "d": "powered main production type"
+      },
+      {
+       "n": "B-8MW Hydro Copter",
+       "mk": "Bensen Aircraft",
+       "y": "",
+       "d": "float version"
+      },
+      {
+       "n": "B-8HD Super Gyro-Copter",
+       "mk": "Bensen Aircraft",
+       "y": "1979",
+       "d": "hydraulic rotor pre-rotation"
+      }
+     ],
+     "dt": "engine (McCulloch, Volkswagen) · floats · plans or kit"
+    },
+    {
+     "n": "Magni M-16 Tandem Trainer",
+     "a": "M16",
+     "d": "Italian two-seat open tandem autogyro introduced in 2000.",
+     "mk": "Magni Gyro",
+     "y": "2000–",
+     "s": "https://en.wikipedia.org/wiki/Magni_M-16_Tandem_Trainer",
+     "v": [
+      {
+       "n": "M-16",
+       "mk": "Magni Gyro",
+       "y": "2000",
+       "d": "usually Rotax 914UL"
+      },
+      {
+       "n": "M-16-2006",
+       "mk": "Magni Gyro",
+       "y": "2006",
+       "d": "improved cooling and avionics"
+      },
+      {
+       "n": "M-22 Voyager",
+       "mk": "Magni Gyro",
+       "y": "2005",
+       "d": "touring version with side pods"
+      }
+     ],
+     "dt": "engine · avionics · paint"
+    },
+    {
+     "n": "AutoGyro MTOsport",
+     "a": "MT-03 · MTOsport",
+     "d": "German open tandem two-seat autogyro; the MT-03 and its successor MTOsport.",
+     "mk": "AutoGyro",
+     "y": "2007–",
+     "s": "https://en.wikipedia.org/wiki/AutoGyro_MTOsport",
+     "v": [
+      {
+       "n": "MT-03",
+       "mk": "AutoGyro",
+       "y": "",
+       "d": "base model, out of production"
+      },
+      {
+       "n": "MTOsport",
+       "mk": "AutoGyro",
+       "y": "",
+       "d": "improved rotor, propeller and engine options"
+      },
+      {
+       "n": "MT0-Free",
+       "mk": "AutoGyro",
+       "y": "",
+       "d": "no cockpit fairing"
+      }
+     ],
+     "dt": "fairing · floats · engine"
+    },
+    {
+     "n": "AutoGyro Calidus",
+     "a": "Calidus",
+     "d": "German enclosed tandem two-seat autogyro introduced in 2009.",
+     "mk": "AutoGyro",
+     "y": "2009–",
+     "s": "https://en.wikipedia.org/wiki/AutoGyro_Calidus",
+     "v": [
+      {
+       "n": "Calidus",
+       "mk": "AutoGyro",
+       "y": "2009",
+       "d": "base model"
+      },
+      {
+       "n": "Cavalon",
+       "mk": "AutoGyro",
+       "y": "",
+       "d": "side-by-side development"
+      }
+     ],
+     "dt": "seating · engine · trim"
+    }
+   ]
+  },
+  {
+   "n": "Powered parachute",
+   "a": "PPC · powered parafoil",
+   "d": "Aircraft with a parachute wing and a motorised cart below it.",
+   "t": [
+    "single-seat",
+    "two-seat",
+    "electric"
+   ],
+   "s": "https://planeandpilotmag.com/?p=651124",
+   "x": [
+    {
+     "n": "Six Chuter Legend",
+     "a": "Legend",
+     "d": "Powered-parachute cart line from the American maker Six Chuter, founded in 1991.",
+     "mk": "Six Chuter",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Six_Chuter",
+     "v": [
+      {
+       "n": "Legend P103UL",
+       "mk": "Six Chuter",
+       "y": "",
+       "d": "ultralight version"
+      },
+      {
+       "n": "Legend SE",
+       "mk": "Six Chuter",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Legend XL",
+       "mk": "Six Chuter",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Legend XL Paragon 912",
+       "mk": "Six Chuter",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "engine · seats · wing size"
+    }
+   ],
+   "m": [
+    [
+     "SR7",
+     "Six Chuter"
+    ],
+    [
+     "Skye Ryder Aerochute",
+     "Six Chuter"
+    ]
+   ]
+  },
+  {
+   "n": "Paramotor",
+   "a": "powered paraglider · PPG",
+   "d": "Backpack engine and propeller worn by a foot-launched pilot under a paraglider wing.",
+   "t": [
+    "foot-launched",
+    "trike-mounted",
+    "electric",
+    "two-stroke",
+    "four-stroke",
+    "paramotor wing (reflex)"
+   ],
+   "s": "https://parajet.com/fr/paramotor-products",
+   "x": [
+    {
+     "n": "Parajet Maverick",
+     "a": "Maverick",
+     "d": "Parajet's British-built backpack paramotor range from Gilo Cardozo's company.",
+     "mk": "Parajet",
+     "y": "",
+     "s": "https://parajet.com/about-us/",
+     "v": [
+      {
+       "n": "Maverick II",
+       "mk": "Parajet",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Maverick II Cadet",
+       "mk": "Parajet",
+       "y": "",
+       "d": "lighter-pilot version"
+      },
+      {
+       "n": "Maverick EVO",
+       "mk": "Parajet",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Mav MAX",
+       "mk": "Parajet",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "frame size · engine · harness"
+    },
+    {
+     "n": "Ozone Roadster",
+     "a": "Roadster",
+     "d": "Intermediate reflex-profile paramotor wing from Ozone, with the lightweight Spyder alongside.",
+     "mk": "Ozone",
+     "y": "",
+     "s": "https://flybubble.com/ozone-roadster",
+     "v": [
+      {
+       "n": "Roadster",
+       "mk": "Ozone",
+       "y": "",
+       "d": "OZRP reflex profile, EN C"
+      },
+      {
+       "n": "Spyder 4",
+       "mk": "Ozone",
+       "y": "",
+       "d": "lightweight version of the Roadster 4"
+      }
+     ],
+     "dt": "size · EN rating · sail weight"
+    }
+   ],
+   "m": [
+    [
+     "Zenith",
+     "Parajet"
+    ],
+    [
+     "Volution 3",
+     "Parajet"
+    ]
+   ]
+  },
+  {
+   "n": "Weight-shift trike",
+   "a": "flexwing · microlight trike",
+   "d": "Powered hang-glider-type wing over a trike, steered by shifting weight.",
+   "t": [
+    "open cockpit",
+    "pod-faired",
+    "kingpost wing",
+    "topless strut-braced wing",
+    "single-seat",
+    "tandem two-seat"
+   ],
+   "s": "https://afors.uk/weightshift-microlights/for-sale/standardView-65172",
+   "x": [
+    {
+     "n": "Pegasus Quantum",
+     "a": "Quantum",
+     "d": "British two-seat flexwing trike introduced in 1996; over 600 built.",
+     "mk": "Pegasus Aviation",
+     "y": "1996–",
+     "s": "https://en.wikipedia.org/wiki/Pegasus_Quantum",
+     "v": [
+      {
+       "n": "Quantum 503",
+       "mk": "Pegasus Aviation",
+       "y": "1996",
+       "d": "base model, Rotax 503"
+      },
+      {
+       "n": "Quantum Sport 582",
+       "mk": "Pegasus Aviation",
+       "y": "",
+       "d": "wheel pants, Rotax 582"
+      },
+      {
+       "n": "Quantum SuperSport 912",
+       "mk": "Pegasus Aviation",
+       "y": "",
+       "d": "full fairing, Rotax 912"
+      }
+     ],
+     "dt": "engine · fairing · wing"
+    },
+    {
+     "n": "Pegasus Quik",
+     "a": "Quik · QuikR · GT450",
+     "d": "Fast British two-seat flexwing trike from about 2003, later built by P&M Aviation.",
+     "mk": "Pegasus Aviation",
+     "y": "2003–",
+     "s": "https://en.wikipedia.org/wiki/Pegasus_Quik",
+     "v": [
+      {
+       "n": "Quik 912S",
+       "mk": "Pegasus Aviation",
+       "y": "2003",
+       "d": "kingpost wing"
+      },
+      {
+       "n": "Quik",
+       "mk": "P&M Aviation",
+       "y": "2012",
+       "d": "strut-braced topless wing"
+      },
+      {
+       "n": "QuikR",
+       "mk": "P&M Aviation",
+       "y": "2012",
+       "d": "larger topless wing, 450 kg"
+      },
+      {
+       "n": "GT450",
+       "mk": "P&M Aviation",
+       "y": "",
+       "d": "related variant"
+      }
+     ],
+     "dt": "wing · Rotax 912ULS · trim"
+    },
+    {
+     "n": "Air Creation Tanarg",
+     "a": "Tanarg",
+     "d": "French two-seat flexwing trike offered with several Air Creation wings.",
+     "mk": "Air Creation",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Air_Creation_Tanarg",
+     "v": [
+      {
+       "n": "Tanarg iXess",
+       "mk": "Air Creation",
+       "y": "",
+       "d": "iXess wing"
+      },
+      {
+       "n": "Tanarg BioniX",
+       "mk": "Air Creation",
+       "y": "",
+       "d": "BioniX wing"
+      }
+     ],
+     "dt": "wing (iXess, NuviX, Fun, BioniX) · Rotax 582/912"
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Robinson Helicopter",
+   "c": "United States",
+   "f": "1973",
+   "seg": "light helicopters",
+   "d": "Californian maker of the R22, R44 and R66 light helicopters.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Robinson R22",
+    "Robinson R44"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "knowledge"
+  },
+  {
+   "n": "Bell",
+   "c": "United States",
+   "f": "1935",
+   "seg": "helicopters",
+   "d": "American rotorcraft maker, now Bell Textron.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Bell 47"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "knowledge"
+  },
+  {
+   "n": "Hughes Helicopters",
+   "c": "United States",
+   "f": "",
+   "seg": "light helicopters",
+   "d": "Helicopter division of Hughes, bought by McDonnell Douglas in 1984.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Hughes 269"
+   ],
+   "sc": [],
+   "rel": [
+    "Schweizer"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Hughes_TH-55_Osage"
+  },
+  {
+   "n": "Schweizer",
+   "c": "United States",
+   "f": "",
+   "seg": "light helicopters and gliders",
+   "d": "American maker that built the Hughes 300C under licence from 1983.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Hughes Helicopters"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Hughes_TH-55_Osage"
+  },
+  {
+   "n": "Guimbal",
+   "c": "France",
+   "f": "",
+   "seg": "light helicopters",
+   "d": "French maker of the Cabri G2, founded by Bruno Guimbal.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Guimbal Cabri G2"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Guimbal_Cabri_G2"
+  },
+  {
+   "n": "Enstrom",
+   "c": "United States",
+   "f": "",
+   "seg": "light helicopters",
+   "d": "American maker of the F-28, 280 and 480 helicopters.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Enstrom F-28 / 280"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Enstrom_F-28"
+  },
+  {
+   "n": "Bensen Aircraft",
+   "c": "United States",
+   "f": "",
+   "seg": "homebuilt autogyros",
+   "d": "Igor Bensen's company, which sold Gyro-Copter kits and plans until 1987.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Bensen B-8"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Bensen_B-8"
+  },
+  {
+   "n": "Magni Gyro",
+   "c": "Italy",
+   "f": "1986",
+   "seg": "autogyros",
+   "d": "Italian autogyro maker in Besnate founded by Vittorio Magni.",
+   "lines": [
+    "M-16",
+    "M-22 Voyager",
+    "M-24 Orion"
+   ],
+   "eras": [],
+   "sig": [
+    "Magni M-16 Tandem Trainer"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Magni_Gyro"
+  },
+  {
+   "n": "AutoGyro",
+   "c": "Germany",
+   "f": "",
+   "seg": "autogyros",
+   "d": "Hildesheim maker of the MTOsport, Calidus and Cavalon autogyros.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "AutoGyro MTOsport",
+    "AutoGyro Calidus"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/AutoGyro_Calidus"
+  },
+  {
+   "n": "Pegasus Aviation",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "flexwing microlights",
+   "d": "British trike maker merged into P&M Aviation in 2003.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Pegasus Quantum",
+    "Pegasus Quik"
+   ],
+   "sc": [],
+   "rel": [
+    "P&M Aviation"
+   ],
+   "s": "https://en.wikipedia.org/wiki/P%26M_Aviation"
+  },
+  {
+   "n": "P&M Aviation",
+   "c": "United Kingdom",
+   "f": "2003",
+   "seg": "flexwing microlights",
+   "d": "Marlborough maker formed from Pegasus Aviation and Mainair Sports.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Pegasus Quik"
+   ],
+   "sc": [],
+   "rel": [
+    "Pegasus Aviation"
+   ],
+   "s": "https://en.wikipedia.org/wiki/P%26M_Aviation"
+  },
+  {
+   "n": "Air Creation",
+   "c": "France",
+   "f": "",
+   "seg": "flexwing microlights",
+   "d": "Aubenas maker of Tanarg trikes and flexwing wings.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Air Creation Tanarg"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Air_Creation_Tanarg"
+  },
+  {
+   "n": "Six Chuter",
+   "c": "United States",
+   "f": "1991",
+   "seg": "powered parachutes",
+   "d": "Washington State powered-parachute maker founded by Dan Bailey.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Six Chuter Legend"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Six_Chuter"
+  },
+  {
+   "n": "Parajet",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "paramotors",
+   "d": "British paramotor maker founded by Gilo Cardozo.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Parajet Maverick"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://parajet.com/about-us/"
+  },
+  {
+   "n": "Ozone",
+   "c": "",
+   "f": "",
+   "seg": "paragliders and paramotor wings",
+   "d": "Paraglider maker whose reflex wings include the Roadster and Spyder.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Ozone Roadster"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://flybubble.com/ozone-roadster"
+  }
+ ],
+ "traditions": [],
+ "notes": "All five old kinds kept; old models folded into archetype versions (Enstrom 280FX, Cabri G2, TH-55, R22, R44, Schweizer 300, Magni M16, Legend, Maverick, GT450). Left out: Robinson R66 and Schweizer 330/333 turbines (no year/detail confirmed), Magni M-24 as archetype, Powrachute (no Wikipedia page retrieved), Ozone version years (Spyder 4 date only in a snippet), Ozone country/founding (unsure), Parajet founding year (not on fetched page). No traditions apply."
+}

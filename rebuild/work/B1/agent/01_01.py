@@ -1,0 +1,77 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+office = {"n":"Office chair","a":"desk chair · task chair · swivel chair · ergonomic chair",
+ "d":"An adjustable seat made for desk work, usually swivelling on castors.",
+ "t":["task chair","mid-back chair","executive / full-back chair","heavy-duty chair","mesh back","upholstered","leather","with headrest","drafting / high stool version"],
+ "s":"https://www.ikea.com/de/en/cat/desk-chairs-20652",
+ "x":[
+  {"n":"Eames Aluminum Group","a":"Indoor-Outdoor Group · Eames management chair","d":"Seat and back stretched between cast-aluminium side ribs; the first design-classic office chair.",
+   "mk":"Herman Miller","y":"1958","s":W+"Eames_Aluminum_Group",
+   "v":[{"n":"Original woven-suspension version","mk":"Herman Miller","y":"1958","d":"designed by Charles and Ray Eames with Don Albinson"},
+        {"n":"European licensed production","mk":"Vitra","y":"","d":"made by Vitra for Europe"},
+        {"n":"Soft Pad","mk":"Herman Miller","y":"1969","d":"cushioned pads; the Mastermind chair"},
+        {"n":"Cygnus mesh version","mk":"Herman Miller","y":"2001","d":""}],
+   "dt":"management · side · executive · lounge chair, ottoman · black leather, mesh, fabric · four- or five-star base"},
+  {"n":"Vertebra","a":"Vertebra Chair","d":"Chair whose seat and back move automatically with the sitter, billed as the first automatic ergonomic chair.",
+   "mk":"","y":"1975","s":W+"Emilio_Ambasz",
+   "v":[{"n":"Original design by Emilio Ambasz and Giancarlo Piretti","mk":"","y":"1975","d":"Compasso d'Oro 1981; in MoMA collection"}],
+   "dt":"with or without arms · castors or fixed base"},
+  {"n":"Capisco","a":"HÅG Capisco · saddle chair","d":"Saddle-seat chair by Peter Opsvik for many sitting positions, with a balancing tilt.",
+   "mk":"HÅG","y":"1980s","s":W+"Peter_Opsvik",
+   "v":[{"n":"HAG Capisco","mk":"HÅG","y":"1980s","d":"original"},{"n":"Capisco Puls","mk":"HÅG","y":"2010","d":"more affordable version"}],
+   "dt":"seat height incl. high/drafting version · fabric colours · with or without backrest top"},
+  {"n":"Balans kneeling chair","a":"kneeling chair · Balans","d":"Forward-tilted seat with a shin rest that opens the hip angle; conceived by Hans Christian Mengshoel.",
+   "mk":"","y":"1979","s":W+"Kneeling_chair",
+   "v":[{"n":"Balans chairs by Peter Opsvik","mk":"","y":"","d":"Variable Balans, Gravity Balans, Thatsit Balans, Wing Balans (made by Stokke, now Varier, and others)"}],
+   "dt":"rocker or castor base · wood or metal frame · fabric"},
+  {"n":"Aeron","a":"Aeron chair","d":"Mesh-seat and mesh-back work chair in three sizes; the best-selling individual office chair in the US.",
+   "mk":"Herman Miller","y":"1994","s":W+"Aeron_chair",
+   "v":[{"n":"Aeron chair (original, now Aeron Classic)","mk":"Herman Miller","y":"1994","d":"Bill Stumpf and Don Chadwick; Pellicle mesh"},
+        {"n":"PostureFit lumbar support","mk":"Herman Miller","y":"2002","d":""},
+        {"n":"Aeron Remastered","mk":"Herman Miller","y":"2016","d":"new suspension, denser mesh, re-engineered tilt"},
+        {"n":"Aeron Side Chair and Aeron Stool","mk":"Herman Miller","y":"","d":"wheel-less and high variants"}],
+   "dt":"sizes A · B · C · mesh colours · frame finishes · arm and lumbar options"},
+  {"n":"Leap","a":"Steelcase Leap","d":"Ergonomic task chair with eight adjustable areas.",
+   "mk":"Steelcase","y":"1999","s":W+"Steelcase","v":[],"dt":"fabric or leather · arm options · headrest · plastic or aluminium base"},
+  {"n":"Mirra","a":"","d":"Herman Miller work chair by Studio 7.5.","mk":"Herman Miller","y":"2003","s":W+"Herman_Miller_(manufacturer)","v":[],"dt":"mesh or fabric back"},
+  {"n":"Embody","a":"Embody chair","d":"Herman Miller work chair with a flexible spine-like back by Bill Stumpf and Jeff Weber.",
+   "mk":"Herman Miller","y":"2009","s":W+"Herman_Miller_(manufacturer)","v":[],"dt":"fabric colours · arm options"},
+  {"n":"Sayl","a":"Sayl chair","d":"Herman Miller work chair designed by Yves Béhar.","mk":"Herman Miller","y":"2010","s":W+"Herman_Miller_(manufacturer)","v":[],"dt":"suspension or upholstered back"},
+  {"n":"Gesture","a":"Steelcase Gesture","d":"Steelcase work chair designed to support the ways people actually sit at devices.",
+   "mk":"Steelcase","y":"2013","s":W+"Steelcase","v":[],"dt":"with or without arms · headrest · fabric or leather"},
+  {"n":"Cosm","a":"Cosm chair","d":"Herman Miller work chair by Studio 7.5.","mk":"Herman Miller","y":"2018","s":W+"Herman_Miller_(manufacturer)","v":[],"dt":"low, mid or high back"}],
+ "m":[["MARKUS","IKEA"],["FLINTAN","IKEA"],["ALEFJALL","IKEA"],["JARVFJALLET","IKEA"],["MILLBERGET","IKEA"],["LessThanFive Chair","Steelcase"],["Picto chair","Wilkhahn"]]}
+gaming = {"n":"Gaming chair","a":"racing-style chair · gamer chair",
+ "d":"A desk chair styled on a racing seat, with high back, headrest and lumbar cushions, made for long sessions at a computer.",
+ "t":["PC (racing-seat) gaming chair","platform / floor gaming chair","hybrid gaming chair","force-feedback chair","simulator cockpit seat","PU leather","fabric"],
+ "s":"https://www.bestbuy.com/site/gaming-furniture/gaming-chairs/abcat0106021.c?id=abcat0106021",
+ "x":[
+  {"n":"Racing-seat PC gaming chair","a":"bucket-seat gaming chair","d":"Office-type swivel chair built like a car bucket seat, with headrest, lumbar cushion and adjustable arms.",
+   "mk":"DXRacer","y":"c. 2006","s":W+"Gaming_chair",
+   "v":[{"n":"First ergonomic gaming chairs","mk":"DXRacer","y":"c. 2006","d":"made from surplus car bucket seats"}],
+   "dt":"PU leather or fabric · recline angle · 3D/4D armrests · size"},
+  {"n":"Secretlab Titan / Omega","a":"Secretlab Titan Evo · Secretlab Omega","d":"Singapore-designed racing-style gaming chairs repeatedly named best gaming chair by PC Gamer, GamesRadar+ and IGN.",
+   "mk":"Secretlab","y":"2015","s":W+"Secretlab",
+   "v":[{"n":"Throne V1","mk":"Secretlab","y":"2015","d":"first product"},
+        {"n":"Omega","mk":"Secretlab","y":"2015","d":"released with Throne V2"},
+        {"n":"Omega 2020","mk":"Secretlab","y":"","d":"PC Gamer best gaming chair 2019; GamesRadar+ 2020"},
+        {"n":"Titan Evo 2022","mk":"Secretlab","y":"2022","d":"IGN best gaming chair 2022"}],
+   "dt":"sizes · leatherette or fabric · licensed editions"}]}
+brands = [
+ {"n":"Herman Miller","c":"United States","f":"1905","seg":"Design and office furniture","d":"Zeeland, Michigan maker of office chairs and design classics; part of MillerKnoll since 2021.",
+  "lines":[],"eras":[],"sig":["Aeron","Embody","Mirra","Sayl","Cosm","Eames Aluminum Group"],"sc":[],"rel":["Vitra","Steelcase"],"s":W+"Herman_Miller_(manufacturer)"},
+ {"n":"Steelcase","c":"United States","f":"1912","seg":"Office furniture","d":"Grand Rapids office-furniture maker founded as the Metal Office Furniture Company; acquired by HNI in 2025.",
+  "lines":["Turnstone","Coalesse","Orangebox","Viccarbe"],"eras":[],"sig":["Leap","Gesture"],"sc":[],"rel":["Herman Miller"],"s":W+"Steelcase"},
+ {"n":"HÅG","c":"Norway","f":"","seg":"Office chairs","d":"Norwegian office-chair maker of Peter Opsvik's Capisco.","lines":[],"eras":[],"sig":["Capisco"],"sc":[],"rel":[],"s":W+"Peter_Opsvik"},
+ {"n":"Vitra","c":"Switzerland","f":"1950","seg":"Design furniture","d":"Swiss maker producing Eames designs under licence for Europe.","lines":[],"eras":[],"sig":["Eames Aluminum Group"],"sc":[],"rel":["Herman Miller"],"s":"knowledge"},
+ {"n":"IKEA","c":"Sweden","f":"1943","seg":"Mass-market home furnishing","d":"Swedish flat-pack furniture retailer.","lines":[],"eras":[],"sig":["MARKUS"],"sc":[],"rel":[],"s":"knowledge"},
+ {"n":"Wilkhahn","c":"Germany","f":"","seg":"Office furniture","d":"German office-seating maker.","lines":[],"eras":[],"sig":["Picto chair"],"sc":[],"rel":[],"s":"knowledge"},
+ {"n":"DXRacer","c":"","f":"","seg":"Gaming chairs","d":"Former car-seat maker that produced the first ergonomic gaming chairs around 2006.","lines":[],"eras":[],"sig":["Racing-seat PC gaming chair"],"sc":[],"rel":["Secretlab"],"s":W+"Gaming_chair"},
+ {"n":"Secretlab","c":"Singapore","f":"2014","seg":"Gaming chairs","d":"Gaming-chair maker founded by former StarCraft II players Ian Ang and Alaric Choo.","lines":["Titan","Omega","Magnus desks"],"eras":[],"sig":["Secretlab Titan / Omega"],"sc":["esports","PC gaming"],"rel":["DXRacer"],"s":W+"Secretlab"}]
+notes = ("Office chair: IKEA list cut from 10 to 5 (MARKUS, FLINTAN, ALEFJALL, JARVFJALLET, MILLBERGET kept; HATTEFJALL, KRYLBO, RENBERGET, SKRUVSTA, SMALLEN dropped as SKU noise); "
+ "Aeron, HAG Capisco and Vertebra moved from m into archetypes; Leap, Gesture, Embody, Mirra, Sayl, Cosm, Eames Aluminum Group, Balans kneeling chair added as archetypes from Wikipedia. "
+ "MARKUS kept as a flat model (no retrieved page to source it as an archetype). Vertebra maker left blank (sources name none; Wikidata Q137713773 confirms 1975). "
+ "Independent test winners: Wirecutter blocked, RTINGS/Tom's Guide/TechRadar pages 404 or truncated, so office-chair test winners were not added; gaming test wins taken from the Secretlab Wikipedia page (PC Gamer, GamesRadar+, IGN). "
+ "No other gaming brands (Razer, AndaSeat, Noblechairs) added: not sourced from a retrieved page. No traditions (not relevant for this shelf).")
+out={"kinds":[office,gaming],"brands":brands,"traditions":[],"notes":notes}
+p='work/B1/shelves/01_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

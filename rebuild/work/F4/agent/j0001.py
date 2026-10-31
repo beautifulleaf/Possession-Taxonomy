@@ -1,0 +1,37 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/F4/agent')
+from w import save
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+{"n":"Rosary","a":"chaplet · rosary beads","d":"String of beads in decades with a crucifix, made to count the Catholic rosary prayers.",
+ "t":["five-decade","one-decade","finger rosary","wrist rosary","pocket rosary","chaplet of Divine Mercy (five decades)","chaplet of St Michael (36 beads)"],"s":"https://www.catholiccompany.com/collections/rosaries",
+ "x":[
+ {"n":"Dominican rosary","a":"five-decade rosary","d":"Five decades of ten Hail Mary beads separated by Our Father beads, with a short strand ending in a crucifix; 59 beads in all.","mk":"","y":"formalised 1569","s":W+"Dominican_rosary","v":[{"n":"Fifteen- or twenty-decade rosary","mk":"","y":"2002","d":"Luminous Mysteries added by John Paul II, bringing the total to twenty decades"}],"dt":"wood, glass, crystal, olive wood, cord or chain"},
+ {"n":"Franciscan Crown","a":"Rosary of the Seven Joys","d":"Seven decades on the joys of Mary, begun among Franciscans in early 15th-century Italy.","mk":"","y":"early 15th century","s":W+"Dominican_rosary"},
+ {"n":"Servite rosary","a":"Seven Sorrows chaplet","d":"Seven groups of seven beads linked to the Seven Sorrows of Mary.","mk":"","y":"","s":W+"Dominican_rosary"},
+ {"n":"Irish penal rosary","a":"","d":"Small easily hidden rosary used when Catholics were persecuted in Ireland.","mk":"","y":"","s":W+"Dominican_rosary"}],
+ "m":[["Tenner rosary",""],["Finger rosary",""]]},
+{"n":"Prayer rope","a":"chotki · komboskini · brojanica","d":"Knotted cord of wool or beads used in Orthodox practice to count repetitions of the Jesus Prayer.",
+ "t":["33 knots","50 knots","100 knots","bead version"],"s":W+"Prayer_beads",
+ "x":[{"n":"Komboskini","a":"chotki · brojanica","d":"Orthodox prayer rope with 33, 50 or 100 knots, usually knotted wool.","mk":"","y":"","s":W+"Prayer_beads","dt":"wool · 100 knots common"},
+ {"n":"Lestovka","a":"Old Believer ladder","d":"Leather or fabric prayer ladder of about 109 steps with four flaps (lapostki) for the Gospels.","mk":"","y":"","s":W+"Lestovka","dt":"leather · loops"}],"m":[]},
+{"n":"Devotional medal","a":"","d":"Loose medal of a saint or sacred subject made for devotion. One made with a chain or bail to be worn is in Jewellery; one struck to commemorate or reward is in Coins, Stamps, Medals & Trading Cards.",
+ "t":["aluminium","silver","gold-filled","enamelled"],"s":"https://catholicshop.com/St-Benedict-Medal-25-Pack.html",
+ "x":[
+ {"n":"Miraculous Medal","a":"Medal of the Immaculate Conception","d":"Oval medal from Catherine Laboure's 1830 Paris visions; Mary on the front, M under a cross and two hearts on the back.","mk":"","y":"1830 (first struck 1832)","s":W+"Miraculous_Medal","v":[{"n":"First 1,500 medals","mk":"","y":"1832","d":"Struck 30 June 1832; goldsmith Adrien Vachette"}],"dt":"oval · silver, aluminium or gold"},
+ {"n":"St Benedict medal","a":"Medal of St Benedict","d":"Medal with the cross of St Benedict, CSPB letters and the Vade retro satana exorcism initials.","mk":"","y":"approved 1741-42","s":W+"Saint_Benedict_Medal","v":[{"n":"Jubilee medal","mk":"","y":"1880","d":"Struck for the 1400th anniversary of St Benedict's birth; still the most popular design"}],"dt":"round or oval · crucifix versions"}],
+ "m":[["St Christopher medal",""],["Scapular medal",""]]},
+{"n":"Scapular","a":"devotional scapular · brown scapular","d":"Two small cloth, wood or paper panels joined by bands and worn on chest and back; the Brown Scapular is the prototype.",
+ "t":["cloth","scapular medal","brown","green","white","black","blue"],"s":W+"Devotional_scapular",
+ "x":[{"n":"Brown Scapular of Our Lady of Mount Carmel","a":"Carmelite scapular","d":"Two brown wool panels with cross-over straps; the prototype of all devotional scapulars.","mk":"","y":"tradition 1251","s":W+"Scapular_of_Our_Lady_of_Mount_Carmel","v":[{"n":"Scapular medal","mk":"","y":"1910","d":"Blessed metal medal allowed in place of cloth after enrolment, with Sacred Heart and Mary"}],"dt":"wool · 2 panels"},
+ {"n":"Green Scapular","a":"Badge of the Immaculate Heart of Mary","d":"Scapular approved by Pius IX, linked to Sister Justine Bisqueyburu's visions.","mk":"","y":"1863 (approval per one source)","s":W+"Devotional_scapular","dt":"green cloth"}],"m":[]},
+{"n":"Holy card","a":"prayer card","d":"Printed card with a sacred image or prayer, kept or carried for devotion.",
+ "t":["chromolithograph","laminated","funeral card","relic-bearing card"],"s":"https://www.holyart.co.uk/religious-items/greeting-cards-and-holy-cards/holy-cards/holy-card-holy-family-prayer-ita-10x5-cm",
+ "x":[{"n":"Chromolithographed holy card","a":"","d":"Colour-printed devotional card, widely produced from Paris, Belgium, Germany and Italy.","mk":"","y":"19th century","s":W+"Holy_card","dt":"playing-card size · saint on front, prayer on back"}],"m":[]},
+{"n":"Holy-water font","a":"stoup · home stoup","d":"Small basin for holy water, hung or stood by a door or in a room.","t":["wall-hung","church font","home stoup"],"s":"https://thecatholicshop.com/collections","m":[]},
+{"n":"Holy-water bottle","a":"","d":"Bottle or flask made to hold blessed water.","t":["plastic","glass","souvenir shrine bottle"],"s":"https://www.catholiccompany.com/products/heart-cross-holy-water-bottle","m":[]},
+{"n":"Aspergillum","a":"holy-water sprinkler","d":"Sprinkler for holy water: a perforated metal ball on a handle, a brush or a hyssop sprig.","t":["metal sprinkler","brush","pocket sprinkler"],"s":"https://www.catholiccompany.com/products/pocket-holy-water-sprinkler","m":[]},
+{"n":"Advent wreath","a":"","d":"Wreath with candles used to count the weeks before Christmas.","t":["table wreath","hanging wreath","three violet one rose","four red"],"s":"https://holyart.co.uk/christmas/advent/liturgical-advent-kit-wreath-and-shiny-candles-8x15-cm",
+ "x":[{"n":"Wichern Advent wreath","a":"","d":"Wreath of evergreen with four candles and an optional white Christ candle; modern form traced to Hamburg 1839.","mk":"","y":"1839","s":W+"Advent_wreath","v":[{"n":"Wichern's first wreath","mk":"","y":"1839","d":"Cartwheel ring with 24 small red and four large white candles"}],"dt":"evergreen · three violet, one rose, white centre"}],"m":[]},
+{"n":"Prie-dieu","a":"kneeling prayer desk","d":"Home prayer kneeler with armrest or book shelf.","t":["shelf version","padded armrest version","double"],"s":W+"Prie-dieu","m":[]}
+]
+save('00_01',{"kinds":kinds,"brands":[],"traditions":[],"notes":"St Christopher medal and scapular medal kept as models in Devotional medal (St Christopher page only seen as search snippet, not fetched). No brand register: archetypes are maker-free. Green Scapular approval year differs between pages (1863 on Devotional scapular page; 1870 in search snippet)."})

@@ -1,0 +1,1562 @@
+{
+ "kinds": [
+  {
+   "n": "Code editor",
+   "a": "IDE",
+   "d": "Program for writing, running and debugging source code.",
+   "t": [
+    "general-purpose editor",
+    "full IDE",
+    "terminal editor",
+    "language-specific IDE",
+    "cloud IDE",
+    "AI-first editor"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_integrated_development_environments",
+   "x": [
+    {
+     "n": "Visual Studio Code",
+     "a": "",
+     "d": "Microsoft's free editor and lightweight IDE announced in April 2015, built on the MIT-licensed Code - OSS; the base of Cursor, Windsurf and VSCodium.",
+     "mk": "Microsoft",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+     "v": [
+      {
+       "n": "Visual Studio Code",
+       "mk": "Microsoft",
+       "y": "2015",
+       "d": "Announced 29 April 2015 at Build"
+      },
+      {
+       "n": "VSCodium",
+       "d": "MIT-licensed build without Microsoft telemetry"
+      },
+      {
+       "n": "Cursor",
+       "mk": "Anysphere",
+       "d": "Fork focused on AI"
+      },
+      {
+       "n": "Windsurf",
+       "mk": "Cognition",
+       "d": "Fork"
+      }
+     ]
+    },
+    {
+     "n": "Visual Studio",
+     "a": "",
+     "d": "Microsoft's full IDE for Windows (and Mac); Community edition is free.",
+     "mk": "Microsoft",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments",
+     "v": [
+      {
+       "n": "Visual Studio Community",
+       "mk": "Microsoft",
+       "d": "Free for individuals"
+      },
+      {
+       "n": "Visual Studio Professional",
+       "mk": "Microsoft"
+      },
+      {
+       "n": "Visual Studio Enterprise",
+       "mk": "Microsoft"
+      }
+     ]
+    },
+    {
+     "n": "JetBrains IDEs",
+     "a": "",
+     "d": "JetBrains' family of language-specific IDEs built on the IntelliJ platform; IntelliJ IDEA is one distribution since December 2025.",
+     "mk": "JetBrains",
+     "y": "2000",
+     "s": "https://en.wikipedia.org/wiki/JetBrains",
+     "v": [
+      {
+       "n": "IntelliJ IDEA",
+       "mk": "JetBrains",
+       "d": "Community edition open source (Apache 2.0) since 2009; merged distribution December 2025"
+      },
+      {
+       "n": "PyCharm",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "WebStorm",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "CLion",
+       "mk": "JetBrains",
+       "y": "2014"
+      },
+      {
+       "n": "Rider",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "GoLand",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "PhpStorm",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "RubyMine",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "RustRover",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "DataGrip",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "Android Studio",
+       "mk": "Google",
+       "d": "Based on IntelliJ IDEA, Apache licence"
+      }
+     ]
+    },
+    {
+     "n": "Xcode",
+     "a": "",
+     "d": "Apple's IDE for macOS, iOS and visionOS apps; free from the Mac App Store.",
+     "mk": "Apple",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments",
+     "v": [
+      {
+       "n": "Xcode",
+       "mk": "Apple"
+      }
+     ]
+    },
+    {
+     "n": "Vim",
+     "a": "",
+     "d": "Bram Moolenaar's extended vi, first released in 1991; the modal terminal editor.",
+     "mk": "",
+     "y": "1991",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_text_editors",
+     "v": [
+      {
+       "n": "Vim",
+       "mk": "Bram Moolenaar",
+       "y": "1991"
+      }
+     ]
+    },
+    {
+     "n": "GNU Emacs",
+     "a": "",
+     "d": "Extensible editor with an embedded Lisp, begun by Richard Stallman in 1984.",
+     "mk": "",
+     "y": "1984",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_text_editors",
+     "v": [
+      {
+       "n": "GNU Emacs",
+       "mk": "Richard Stallman",
+       "y": "1984",
+       "d": "GPL-3.0-or-later"
+      }
+     ]
+    },
+    {
+     "n": "Sublime Text",
+     "a": "",
+     "d": "Fast proprietary editor by Jon Skinner / Sublime HQ, first released in 2008.",
+     "mk": "",
+     "y": "2008",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_text_editors",
+     "v": [
+      {
+       "n": "Sublime Text",
+       "mk": "Jon Skinner",
+       "y": "2008",
+       "d": "Shareware"
+      }
+     ]
+    },
+    {
+     "n": "Notepad++",
+     "a": "",
+     "d": "Free GPL source-code editor for Windows by Don Ho, released in 2003.",
+     "mk": "",
+     "y": "2003",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_text_editors",
+     "v": [
+      {
+       "n": "Notepad++",
+       "mk": "Don Ho",
+       "y": "2003"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Eclipse",
+     "Eclipse Foundation"
+    ],
+    [
+     "NetBeans",
+     ""
+    ],
+    [
+     "Code::Blocks",
+     ""
+    ],
+    [
+     "Qt Creator",
+     ""
+    ],
+    [
+     "Lazarus",
+     ""
+    ],
+    [
+     "Delphi",
+     "Embarcadero Technologies"
+    ],
+    [
+     "Arduino IDE",
+     ""
+    ],
+    [
+     "Thonny",
+     ""
+    ],
+    [
+     "Geany",
+     ""
+    ],
+    [
+     "KDevelop",
+     "KDE"
+    ],
+    [
+     "Spyder",
+     ""
+    ],
+    [
+     "Atom",
+     "GitHub"
+    ],
+    [
+     "Replit",
+     ""
+    ],
+    [
+     "GitHub Codespaces",
+     "GitHub"
+    ],
+    [
+     "BlueJ",
+     ""
+    ],
+    [
+     "Dev-C++",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "AI coding assistant",
+   "a": "",
+   "d": "Assistant sold or used as a tool that suggests, writes or reviews code.",
+   "t": [
+    "editor extension",
+    "AI-first editor",
+    "terminal agent",
+    "cloud agent",
+    "open-source agent"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_AI-assisted_software_development_tools",
+   "x": [
+    {
+     "n": "GitHub Copilot",
+     "a": "",
+     "d": "Code assistant from GitHub, in technical preview from June 2021 and a paid service since June 2022; works in VS Code, Visual Studio, JetBrains, Neovim and Eclipse.",
+     "mk": "GitHub",
+     "y": "2021",
+     "s": "https://en.wikipedia.org/wiki/GitHub_Copilot",
+     "v": [
+      {
+       "n": "Copilot technical preview",
+       "mk": "GitHub",
+       "y": "2021",
+       "d": "Announced 29 June 2021 in VS Code"
+      },
+      {
+       "n": "Copilot general availability",
+       "mk": "GitHub",
+       "y": "2022",
+       "d": "21 June 2022; subscription"
+      },
+      {
+       "n": "Copilot agent mode",
+       "mk": "GitHub",
+       "y": "2025",
+       "d": "Announced 6 February 2025"
+      },
+      {
+       "n": "Copilot coding agent",
+       "mk": "GitHub",
+       "y": "2025",
+       "d": "May 2025; drafts pull requests in the cloud"
+      }
+     ]
+    },
+    {
+     "n": "Claude Code",
+     "a": "",
+     "d": "Anthropic's agentic command-line coding tool, released in February 2025.",
+     "mk": "Anthropic",
+     "y": "2025",
+     "s": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "v": [
+      {
+       "n": "Claude Code (preview)",
+       "mk": "Anthropic",
+       "y": "2025",
+       "d": "February 2025"
+      },
+      {
+       "n": "Claude Code (general availability)",
+       "mk": "Anthropic",
+       "y": "2025",
+       "d": "May 2025"
+      },
+      {
+       "n": "Claude Code on the web",
+       "mk": "Anthropic",
+       "y": "2025",
+       "d": "20 October 2025"
+      }
+     ]
+    },
+    {
+     "n": "OpenAI Codex",
+     "a": "",
+     "d": "OpenAI's coding agent: open-source CLI, cloud tasks and desktop app.",
+     "mk": "OpenAI",
+     "y": "2025",
+     "s": "https://en.wikipedia.org/wiki/OpenAI_Codex",
+     "v": [
+      {
+       "n": "Codex CLI",
+       "mk": "OpenAI",
+       "y": "2025",
+       "d": "16 April 2025"
+      },
+      {
+       "n": "Codex cloud",
+       "mk": "OpenAI",
+       "y": "2025",
+       "d": "16 May 2025"
+      },
+      {
+       "n": "Codex desktop app",
+       "mk": "OpenAI",
+       "y": "2026",
+       "d": "February 2026 on macOS; Windows March 2026"
+      }
+     ]
+    },
+    {
+     "n": "Cursor",
+     "a": "",
+     "d": "AI-first coding environment from Anysphere, founded in 2022; Pro plan $20 a month.",
+     "mk": "Anysphere",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+     "v": [
+      {
+       "n": "Cursor",
+       "mk": "Anysphere",
+       "d": "Subsidiary of SpaceXAI since August 2026"
+      }
+     ]
+    },
+    {
+     "n": "Windsurf",
+     "a": "",
+     "d": "AI coding environment forked from VS Code, listed as proprietary.",
+     "mk": "Cognition",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+     "v": [
+      {
+       "n": "Windsurf",
+       "mk": "Cognition"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Tabnine",
+     "Tabnine"
+    ],
+    [
+     "Amazon Q Developer",
+     "Amazon Web Services"
+    ],
+    [
+     "Cline",
+     "Cline"
+    ],
+    [
+     "Aider",
+     ""
+    ],
+    [
+     "Continue",
+     ""
+    ],
+    [
+     "Roo Code",
+     ""
+    ],
+    [
+     "Kilo Code",
+     ""
+    ],
+    [
+     "Zed Agent",
+     "Zed Industries"
+    ],
+    [
+     "goose",
+     "Block"
+    ],
+    [
+     "OpenCode",
+     "Anomaly Innovations"
+    ],
+    [
+     "Google Antigravity",
+     "Google"
+    ],
+    [
+     "Devin",
+     "Cognition AI"
+    ],
+    [
+     "OpenHands",
+     "All Hands AI"
+    ],
+    [
+     "Sourcegraph Cody",
+     "Sourcegraph"
+    ],
+    [
+     "Warp",
+     "Warp"
+    ],
+    [
+     "Qodo",
+     "Qodo"
+    ],
+    [
+     "Crush",
+     "Charm"
+    ],
+    [
+     "Qoder",
+     "Alibaba Cloud"
+    ]
+   ]
+  },
+  {
+   "n": "Code editor plug-in",
+   "a": "IDE plug-in · extension",
+   "d": "Add-on that adds features to one code editor or development environment.",
+   "t": [
+    "linter and formatter",
+    "AI assistant",
+    "theme and icons",
+    "language support",
+    "Git tooling"
+   ],
+   "s": "https://plugins.jetbrains.com/docs/marketplace/about-marketplace.html",
+   "x": [
+    {
+     "n": "Visual Studio Code extensions",
+     "a": "",
+     "d": "Add-ons from the VS Code Marketplace: language support, themes, debuggers and AI tools such as Copilot, Claude Code, Cline and Codex.",
+     "mk": "Microsoft",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+     "v": [
+      {
+       "n": "GitHub Copilot for VS Code",
+       "mk": "GitHub"
+      },
+      {
+       "n": "Tabnine for VS Code",
+       "mk": "Tabnine"
+      }
+     ]
+    },
+    {
+     "n": "JetBrains Marketplace plug-ins",
+     "a": "",
+     "d": "Plug-ins for IntelliJ-based IDEs, including JetBrains AI Assistant and the Junie agent.",
+     "mk": "JetBrains",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/JetBrains",
+     "v": [
+      {
+       "n": "JetBrains AI Assistant",
+       "mk": "JetBrains"
+      },
+      {
+       "n": "Junie",
+       "mk": "JetBrains",
+       "y": "2025",
+       "d": "Closed preview January 2025; generally available April 2025"
+      },
+      {
+       "n": "GitHub Copilot for JetBrains",
+       "mk": "GitHub"
+      },
+      {
+       "n": "Continue for JetBrains",
+       "mk": "Continue"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "ESLint",
+     ""
+    ],
+    [
+     "Prettier",
+     ""
+    ],
+    [
+     "GitLens",
+     ""
+    ],
+    [
+     "Live Server",
+     ""
+    ],
+    [
+     "IdeaVim",
+     ""
+    ],
+    [
+     "SonarLint",
+     ""
+    ],
+    [
+     "Code Spell Checker",
+     ""
+    ],
+    [
+     "Material Icon Theme",
+     ""
+    ],
+    [
+     "Error Lens",
+     ""
+    ],
+    [
+     "Markdown All in One",
+     ""
+    ],
+    [
+     "Key Promoter X",
+     ""
+    ],
+    [
+     "Rainbow Brackets",
+     ""
+    ],
+    [
+     "Lombok",
+     ""
+    ],
+    [
+     "Kubernetes Plugin",
+     ""
+    ],
+    [
+     "Amazon Q Developer for JetBrains",
+     "Amazon Web Services"
+    ],
+    [
+     "Gemini Code Assist",
+     "Google"
+    ],
+    [
+     "Kilo Code",
+     "Kilo Code, Inc."
+    ]
+   ]
+  },
+  {
+   "n": "Compiler and runtime",
+   "a": "language runtime and compiler",
+   "d": "Program that compiles or runs code in a programming language.",
+   "t": [
+    "C and C++ compiler",
+    "managed runtime",
+    "interpreter",
+    "JavaScript runtime",
+    "free implementation of a niche language"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_compilers",
+   "x": [
+    {
+     "n": "GCC",
+     "a": "",
+     "d": "GNU Compiler Collection, first released as the GNU C Compiler on 22 March 1987 by Richard Stallman; front ends for C, C++, Fortran, Ada, Go, D, Rust and more.",
+     "mk": "GNU Project",
+     "y": "1987",
+     "s": "https://en.wikipedia.org/wiki/GNU_Compiler_Collection",
+     "v": [
+      {
+       "n": "GCC 1.0",
+       "mk": "GNU Project",
+       "y": "1987",
+       "d": "22 March 1987"
+      },
+      {
+       "n": "GCC 2.95",
+       "mk": "GNU Project",
+       "y": "1999",
+       "d": "Reunited with EGCS"
+      },
+      {
+       "n": "GCC 16.2",
+       "mk": "GNU Project",
+       "y": "2026",
+       "d": "7 August 2026"
+      }
+     ]
+    },
+    {
+     "n": "Clang and LLVM",
+     "a": "",
+     "d": "Apple-originated C/C++/Objective-C front end (2007) on the LLVM backend; a drop-in replacement for GCC.",
+     "mk": "LLVM Project",
+     "y": "2007",
+     "s": "https://en.wikipedia.org/wiki/Clang",
+     "v": [
+      {
+       "n": "Clang",
+       "mk": "LLVM Project",
+       "y": "2007",
+       "d": "26 September 2007; Apache 2.0 with LLVM exceptions"
+      },
+      {
+       "n": "LLVM",
+       "mk": "LLVM Project"
+      }
+     ]
+    },
+    {
+     "n": "Microsoft Visual C++",
+     "a": "",
+     "d": "Microsoft's proprietary C++ compiler for Windows, shipped with Visual Studio.",
+     "mk": "Microsoft",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_compilers",
+     "v": [
+      {
+       "n": "Microsoft Visual C++",
+       "mk": "Microsoft"
+      }
+     ]
+    },
+    {
+     "n": ".NET",
+     "a": "",
+     "d": "Microsoft's free, open-source runtime and SDK: .NET Core 1.0 in 2016, .NET 5 in 2020, yearly releases.",
+     "mk": "Microsoft",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/.NET",
+     "v": [
+      {
+       "n": ".NET Core 1.0",
+       "mk": "Microsoft",
+       "y": "2016",
+       "d": "27 June 2016"
+      },
+      {
+       "n": ".NET 5",
+       "mk": "Microsoft",
+       "y": "2020",
+       "d": "November 2020"
+      },
+      {
+       "n": ".NET 10",
+       "mk": "Microsoft",
+       "y": "2025",
+       "d": "LTS, November 2025"
+      }
+     ]
+    },
+    {
+     "n": "OpenJDK",
+     "a": "",
+     "d": "Open-source Java SE reference implementation begun by Sun in 2006; vendors such as Adoptium, Azul, Amazon, Microsoft and BellSoft publish builds.",
+     "mk": "",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/OpenJDK",
+     "v": [
+      {
+       "n": "OpenJDK",
+       "mk": "Sun Microsystems",
+       "y": "2006",
+       "d": "HotSpot released November 2006; class library May 2007"
+      },
+      {
+       "n": "Temurin",
+       "mk": "Adoptium"
+      },
+      {
+       "n": "Corretto",
+       "mk": "Amazon"
+      },
+      {
+       "n": "Zulu",
+       "mk": "Azul"
+      }
+     ]
+    },
+    {
+     "n": "Python",
+     "a": "",
+     "d": "CPython, the reference implementation of Python, first released 26 January 1994 by Guido van Rossum.",
+     "mk": "",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/CPython",
+     "v": [
+      {
+       "n": "CPython",
+       "mk": "Guido van Rossum",
+       "y": "1994",
+       "d": "26 January 1994"
+      },
+      {
+       "n": "PyPy"
+      },
+      {
+       "n": "Cython"
+      }
+     ]
+    },
+    {
+     "n": "Node.js",
+     "a": "",
+     "d": "JavaScript runtime on Google's V8 engine, created by Ryan Dahl in 2009; npm is bundled.",
+     "mk": "",
+     "y": "2009",
+     "s": "https://en.wikipedia.org/wiki/Node.js",
+     "v": [
+      {
+       "n": "Node.js",
+       "mk": "Ryan Dahl",
+       "y": "2009",
+       "d": "Governed by the OpenJS Foundation since 2019"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "rustc",
+     "Rust Foundation"
+    ],
+    [
+     "GHC",
+     "GHC project"
+    ],
+    [
+     "Free Pascal",
+     "Florian Paul Klämpfl"
+    ],
+    [
+     "Intel oneAPI DPC++/C++ Compiler",
+     "Intel"
+    ],
+    [
+     "Steel Bank Common Lisp",
+     "sbcl.org"
+    ],
+    [
+     "Racket",
+     "PLT Inc."
+    ],
+    [
+     "Mono",
+     "Xamarin"
+    ],
+    [
+     "SDCC (Small Device C Compiler)",
+     ""
+    ],
+    [
+     "cc65",
+     ""
+    ],
+    [
+     "FreeBASIC",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Version control software",
+   "a": "version-control client",
+   "d": "Program for tracking and sharing changes to source code.",
+   "t": [
+    "distributed",
+    "centralised",
+    "Git GUI client",
+    "hosted service"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_version-control_software",
+   "x": [
+    {
+     "n": "Git",
+     "a": "",
+     "d": "Distributed system begun by Linus Torvalds in April 2005 and maintained by Junio Hamano; used by about 94% of surveyed developers in 2022.",
+     "mk": "Linus Torvalds",
+     "y": "2005",
+     "s": "https://en.wikipedia.org/wiki/Git",
+     "v": [
+      {
+       "n": "Git",
+       "mk": "Linus Torvalds",
+       "y": "2005",
+       "d": "First release 7 April 2005; GPL-2.0-only"
+      }
+     ]
+    },
+    {
+     "n": "Mercurial",
+     "a": "",
+     "d": "Distributed tool announced by Olivia Mackall (Matt Mackall) on 19 April 2005; written mostly in Python, with TortoiseHg as a GUI.",
+     "mk": "",
+     "y": "2005",
+     "s": "https://en.wikipedia.org/wiki/Mercurial",
+     "v": [
+      {
+       "n": "Mercurial",
+       "mk": "Matt Mackall",
+       "y": "2005",
+       "d": "19 April 2005; GPL-2.0-or-later"
+      }
+     ]
+    },
+    {
+     "n": "Subversion",
+     "a": "",
+     "d": "Centralised successor to CVS, started by CollabNet in 2000 and now an Apache project.",
+     "mk": "Apache Software Foundation",
+     "y": "2000",
+     "s": "https://en.wikipedia.org/wiki/Apache_Subversion",
+     "v": [
+      {
+       "n": "Subversion",
+       "mk": "CollabNet",
+       "y": "2000",
+       "d": "20 October 2000; Apache-2.0 since 2009"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "GitHub Desktop",
+     "GitHub"
+    ],
+    [
+     "Sourcetree",
+     ""
+    ],
+    [
+     "GitKraken",
+     ""
+    ],
+    [
+     "TortoiseGit",
+     ""
+    ],
+    [
+     "SmartGit",
+     "Syntevo"
+    ],
+    [
+     "Fork",
+     ""
+    ],
+    [
+     "Git Extensions",
+     ""
+    ],
+    [
+     "Gitg",
+     "Gnome Project"
+    ],
+    [
+     "Git Cola",
+     ""
+    ],
+    [
+     "Fossil",
+     "D. Richard Hipp"
+    ],
+    [
+     "Perforce P4",
+     "Perforce"
+    ],
+    [
+     "darcs",
+     "The Darcs Team"
+    ]
+   ]
+  },
+  {
+   "n": "Game engine",
+   "a": "",
+   "d": "Program and framework for building video games, with rendering, physics, scripting and an editor (Unity, Unreal Engine, Godot).",
+   "t": [
+    "general 3D engine",
+    "2D engine",
+    "no-code game maker",
+    "visual novel engine",
+    "fantasy console",
+    "interactive fiction",
+    "retro engine port"
+   ],
+   "s": "https://unity.com/products",
+   "x": [
+    {
+     "n": "Unity",
+     "a": "",
+     "d": "Cross-platform engine from Unity Technologies, first released in June 2005 for Mac OS X; Unity 6 launched in October 2024.",
+     "mk": "Unity Technologies",
+     "y": "2005",
+     "s": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+     "v": [
+      {
+       "n": "Unity 1.0",
+       "mk": "Unity Technologies",
+       "y": "2005",
+       "d": "June 2005, Mac OS X"
+      },
+      {
+       "n": "Unity 5",
+       "mk": "Unity Technologies",
+       "y": "2015",
+       "d": "Better lighting, WebGL"
+      },
+      {
+       "n": "Unity 2017",
+       "mk": "Unity Technologies",
+       "y": "2017",
+       "d": "Year-based versions"
+      },
+      {
+       "n": "Unity 6",
+       "mk": "Unity Technologies",
+       "y": "2024",
+       "d": "October 2024"
+      },
+      {
+       "n": "Unity Personal",
+       "mk": "Unity Technologies",
+       "d": "Free tier with revenue threshold; Plus (2016) and Pro paid tiers"
+      }
+     ]
+    },
+    {
+     "n": "Unreal Engine",
+     "a": "",
+     "d": "Epic Games' 3D engine, born with the 1998 shooter Unreal; free with 5% royalty over US$1 million.",
+     "mk": "Epic Games",
+     "y": "1998",
+     "s": "https://en.wikipedia.org/wiki/Unreal_engine",
+     "v": [
+      {
+       "n": "Unreal Engine 1",
+       "mk": "Epic Games",
+       "y": "1998"
+      },
+      {
+       "n": "Unreal Engine 2",
+       "mk": "Epic Games",
+       "y": "2001"
+      },
+      {
+       "n": "Unreal Engine 3",
+       "mk": "Epic Games",
+       "y": "2006"
+      },
+      {
+       "n": "Unreal Engine 4",
+       "mk": "Epic Games",
+       "y": "2014"
+      },
+      {
+       "n": "Unreal Engine 5",
+       "mk": "Epic Games",
+       "y": "2022",
+       "d": "April 2022"
+      },
+      {
+       "n": "Unreal Engine 6",
+       "mk": "Epic Games",
+       "d": "Announced 24 May 2026; early access targeted for late 2027"
+      }
+     ]
+    },
+    {
+     "n": "Godot",
+     "a": "",
+     "d": "Free MIT-licensed 2D and 3D engine by Juan Linietsky and Ariel Manzur, publicly released 14 January 2014.",
+     "mk": "",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/Godot_(game_engine)",
+     "v": [
+      {
+       "n": "Godot 1",
+       "mk": "Godot community",
+       "y": "2014"
+      },
+      {
+       "n": "Godot 3.0",
+       "mk": "Godot community",
+       "y": "2018",
+       "d": "January 2018"
+      },
+      {
+       "n": "Godot 4.0",
+       "mk": "Godot community",
+       "y": "2023",
+       "d": "March 2023"
+      }
+     ]
+    },
+    {
+     "n": "GameMaker",
+     "a": "",
+     "d": "2D engine created by Mark Overmars in 1999, developed by YoYo Games from 2007; drag-and-drop or GML; free for non-commercial use.",
+     "mk": "YoYo Games",
+     "y": "1999",
+     "s": "https://en.wikipedia.org/wiki/GameMaker",
+     "v": [
+      {
+       "n": "Game Maker",
+       "mk": "Mark Overmars",
+       "y": "1999",
+       "d": "Originally Animo"
+      },
+      {
+       "n": "GameMaker Studio",
+       "mk": "YoYo Games"
+      },
+      {
+       "n": "GameMaker LTS 2026.0",
+       "mk": "YoYo Games",
+       "y": "2026",
+       "d": "May 2026"
+      }
+     ]
+    },
+    {
+     "n": "RPG Maker",
+     "a": "",
+     "d": "Series of role-playing game creation tools from ASCII (RPG Tsukuru Dante 98, 1992) to Kadokawa and Gotcha Gotcha Games.",
+     "mk": "",
+     "y": "1992",
+     "s": "https://en.wikipedia.org/wiki/RPG_Maker",
+     "v": [
+      {
+       "n": "RPG Tsukuru Dante 98",
+       "mk": "ASCII",
+       "y": "1992"
+      },
+      {
+       "n": "RPG Maker 2000",
+       "mk": "Enterbrain"
+      },
+      {
+       "n": "RPG Maker 2003",
+       "mk": "Enterbrain"
+      },
+      {
+       "n": "RPG Maker XP",
+       "mk": "Enterbrain",
+       "y": "2005",
+       "d": "First with Ruby scripting (RGSS)"
+      },
+      {
+       "n": "RPG Maker VX",
+       "mk": "Enterbrain",
+       "y": "2007"
+      },
+      {
+       "n": "RPG Maker VX Ace",
+       "mk": "Enterbrain",
+       "y": "2011"
+      },
+      {
+       "n": "RPG Maker MV",
+       "mk": "Gotcha Gotcha Games",
+       "y": "2015",
+       "d": "JavaScript plug-ins"
+      },
+      {
+       "n": "RPG Maker MZ",
+       "mk": "Gotcha Gotcha Games",
+       "y": "2020"
+      },
+      {
+       "n": "RPG Maker Unite",
+       "mk": "Gotcha Gotcha Games",
+       "y": "2023",
+       "d": "Unity-based"
+      }
+     ]
+    },
+    {
+     "n": "Construct",
+     "a": "",
+     "d": "Scirra's HTML5 2D engine using event sheets instead of code; subscription web app.",
+     "mk": "Scirra",
+     "y": "2007",
+     "s": "https://en.wikipedia.org/wiki/Construct_(game_engine)",
+     "v": [
+      {
+       "n": "Construct Classic",
+       "mk": "Scirra",
+       "y": "2007",
+       "d": "GPL, DirectX 9"
+      },
+      {
+       "n": "Construct 2",
+       "mk": "Scirra",
+       "y": "2011",
+       "d": "HTML5; discontinued 2021"
+      },
+      {
+       "n": "Construct 3",
+       "mk": "Scirra",
+       "y": "2017",
+       "d": "Yearly subscription"
+      }
+     ]
+    },
+    {
+     "n": "PICO-8",
+     "a": "",
+     "d": "Fantasy console and game engine by Joseph White (Lexaloffle), imitating 1980s limits: 128x128, 16 colours, 4-channel audio.",
+     "mk": "Lexaloffle Games",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/PICO-8",
+     "v": [
+      {
+       "n": "PICO-8",
+       "mk": "Lexaloffle Games",
+       "y": "2015",
+       "d": "Revealed 2014 as PICO-BASIC"
+      },
+      {
+       "n": "Picotron",
+       "mk": "Lexaloffle Games",
+       "d": "Successor \"fantasy workstation\""
+      }
+     ]
+    },
+    {
+     "n": "Ren'Py",
+     "a": "",
+     "d": "Free MIT-licensed visual novel engine by Tom Rothamel, first released 24 August 2004.",
+     "mk": "",
+     "y": "2004",
+     "s": "https://en.wikipedia.org/wiki/Ren'Py",
+     "v": [
+      {
+       "n": "Ren'Py",
+       "mk": "Tom Rothamel",
+       "y": "2004"
+      }
+     ]
+    },
+    {
+     "n": "Twine",
+     "a": "",
+     "d": "Free open-source tool for hypertext and interactive fiction, created by Chris Klimas in 2009; story formats Harlowe, SugarCube, Snowman and Chapbook.",
+     "mk": "",
+     "y": "2009",
+     "s": "https://en.wikipedia.org/wiki/Twine_(software)",
+     "v": [
+      {
+       "n": "Twine 1",
+       "mk": "Chris Klimas",
+       "y": "2009"
+      },
+      {
+       "n": "Twine 2",
+       "mk": "Chris Klimas",
+       "d": "Browser-based; Harlowe default"
+      }
+     ]
+    },
+    {
+     "n": "Adventure Game Studio",
+     "a": "",
+     "d": "Open-source tool for making graphic adventures, listed on the game creation system page.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Game_creation_system",
+     "v": [
+      {
+       "n": "Adventure Game Studio"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "GDevelop",
+     ""
+    ],
+    [
+     "Clickteam Fusion",
+     ""
+    ],
+    [
+     "Stencyl",
+     ""
+    ],
+    [
+     "GameSalad",
+     ""
+    ],
+    [
+     "Buildbox",
+     ""
+    ],
+    [
+     "Defold",
+     ""
+    ],
+    [
+     "LÖVE",
+     ""
+    ],
+    [
+     "MonoGame",
+     ""
+    ],
+    [
+     "LibGDX",
+     ""
+    ],
+    [
+     "Phaser",
+     ""
+    ],
+    [
+     "Three.js",
+     ""
+    ],
+    [
+     "Babylon.js",
+     ""
+    ],
+    [
+     "PlayCanvas",
+     ""
+    ],
+    [
+     "Panda3D",
+     ""
+    ],
+    [
+     "Open 3D Engine",
+     ""
+    ],
+    [
+     "CryEngine",
+     ""
+    ],
+    [
+     "Stride",
+     ""
+    ],
+    [
+     "Solar2D",
+     ""
+    ],
+    [
+     "AppGameKit",
+     ""
+    ],
+    [
+     "Scratch",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Web design software",
+   "a": "",
+   "d": "Program for designing and building websites visually or in code, then publishing them.",
+   "t": [
+    "visual editor",
+    "hosted site builder",
+    "WYSIWYG HTML editor",
+    "template-based builder"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Softpress",
+   "x": [
+    {
+     "n": "Adobe Dreamweaver",
+     "a": "",
+     "d": "Web design IDE created by Macromedia in December 1997 and developed by Adobe since 2005.",
+     "mk": "Adobe",
+     "y": "1997",
+     "s": "https://en.wikipedia.org/wiki/Adobe_Dreamweaver",
+     "v": [
+      {
+       "n": "Dreamweaver 1.0",
+       "mk": "Macromedia",
+       "y": "1997",
+       "d": "December 1997"
+      },
+      {
+       "n": "Dreamweaver CS3",
+       "mk": "Adobe",
+       "y": "2007"
+      },
+      {
+       "n": "Dreamweaver CS6",
+       "mk": "Adobe",
+       "y": "2012"
+      },
+      {
+       "n": "Dreamweaver CC",
+       "mk": "Adobe",
+       "y": "2013"
+      },
+      {
+       "n": "Dreamweaver 21.8.1",
+       "mk": "Adobe",
+       "y": "2026",
+       "d": "July 2026"
+      }
+     ]
+    },
+    {
+     "n": "Webflow",
+     "a": "",
+     "d": "Browser-based visual site builder and host, launched 5 August 2013 in San Francisco.",
+     "mk": "Webflow",
+     "y": "2013",
+     "s": "https://en.wikipedia.org/wiki/Webflow",
+     "v": [
+      {
+       "n": "Webflow",
+       "mk": "Webflow",
+       "y": "2013"
+      }
+     ]
+    },
+    {
+     "n": "Adobe GoLive",
+     "a": "",
+     "d": "Historic WYSIWYG editor born at GoNet in 1996 and bought by Adobe in 1999; ended in favour of Dreamweaver in 2008.",
+     "mk": "Adobe",
+     "y": "1996",
+     "s": "https://en.wikipedia.org/wiki/Adobe_GoLive",
+     "v": [
+      {
+       "n": "GoLive CyberStudio",
+       "mk": "GoNet Communication",
+       "y": "1996"
+      },
+      {
+       "n": "Adobe GoLive",
+       "mk": "Adobe",
+       "y": "1999",
+       "d": "Adobe acquired it in 1999"
+      },
+      {
+       "n": "GoLive 9",
+       "mk": "Adobe",
+       "y": "2007",
+       "d": "Final version, 1 June 2007"
+      }
+     ]
+    },
+    {
+     "n": "iWeb",
+     "a": "",
+     "d": "Apple's template-based website builder, introduced in January 2006 in iLife '06 and abandoned in 2011.",
+     "mk": "Apple",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/IWeb",
+     "v": [
+      {
+       "n": "iWeb",
+       "mk": "Apple",
+       "y": "2006",
+       "d": "January 2006; development ended 2011"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Wix Editor",
+     "Wix.com"
+    ],
+    [
+     "Jimdo",
+     "Jimdo"
+    ],
+    [
+     "Google Web Designer",
+     "Google"
+    ],
+    [
+     "CoffeeCup HTML Editor",
+     "CoffeeCup Software"
+    ],
+    [
+     "Xara Web Designer",
+     "Xara"
+    ],
+    [
+     "Microsoft Expression Web",
+     "Microsoft"
+    ],
+    [
+     "Microsoft FrontPage",
+     "Microsoft"
+    ],
+    [
+     "Adobe Muse",
+     "Adobe"
+    ],
+    [
+     "Adobe PageMill",
+     "Adobe"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Microsoft",
+   "c": "United States",
+   "f": "1975",
+   "seg": "Mainstream",
+   "kf": "Windows, Office",
+   "d": "American software company behind Windows and Office.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Apple",
+   "c": "United States",
+   "f": "1976",
+   "seg": "Premium",
+   "kf": "Mac, iPhone",
+   "d": "American hardware and software company.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Google",
+   "c": "United States",
+   "f": "1998",
+   "seg": "Mainstream",
+   "kf": "search, Android",
+   "d": "American company behind Search, Android and Workspace.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Adobe",
+   "c": "United States",
+   "f": "1982",
+   "seg": "Professional & flagship",
+   "kf": "creative software, PDF",
+   "d": "American maker of Acrobat and the Creative Cloud apps.",
+   "s": "knowledge"
+  },
+  {
+   "n": "JetBrains",
+   "c": "Czech Republic",
+   "f": "2000",
+   "seg": "Professional & flagship",
+   "kf": "IDEs",
+   "d": "Prague-founded maker of IntelliJ IDEA, PyCharm and Kotlin, now headquartered in Amsterdam.",
+   "s": "https://en.wikipedia.org/wiki/JetBrains"
+  },
+  {
+   "n": "Anysphere",
+   "c": "United States",
+   "f": "2022",
+   "seg": "Premium",
+   "kf": "Cursor",
+   "d": "Company behind Cursor, founded by four MIT students; owned by SpaceXAI since August 2026.",
+   "s": "https://en.wikipedia.org/wiki/Cursor_(code_editor)"
+  },
+  {
+   "n": "Epic Games",
+   "c": "United States",
+   "f": "1991",
+   "seg": "Professional & flagship",
+   "kf": "Unreal Engine",
+   "d": "American games company that makes Unreal Engine.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Unity Technologies",
+   "c": "United States",
+   "f": "2004",
+   "seg": "Professional & flagship",
+   "kf": "Unity",
+   "d": "Maker of the Unity engine.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Webflow",
+   "c": "United States",
+   "f": "2013",
+   "seg": "Specialist",
+   "kf": "site builder",
+   "d": "San Francisco company founded in 2013.",
+   "s": "https://en.wikipedia.org/wiki/Webflow"
+  },
+  {
+   "n": "GitHub",
+   "c": "United States",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "Git hosting, Copilot",
+   "d": "Microsoft-owned code hosting service that runs GitHub Copilot.",
+   "s": "https://en.wikipedia.org/wiki/GitHub_Copilot"
+  }
+ ],
+ "traditions": [],
+ "notes": "Code editor: about 130 old names reduced to eight archetypes (VS Code with forks, Visual Studio editions, JetBrains family, Xcode, Vim, Emacs, Sublime Text, Notepad++) plus 16 flat; dropped trade/legacy (Rational, JDeveloper, Solaris Studio, Understand, Borland, Turbo Pascal, Flash Builder, Aptana, Xamarin Studio, JBuilder, SlickEdit, Komodo, labs/embedded: LabVIEW, LabWindows). AI coding assistant: 35 to 5 archetypes plus 18; Cursor listed once. Code editor plug-in: 56 to 2 marketplace archetypes plus 17 well-known add-ons; dropped cloud toolkits and dead add-ons (Bracket Pair Colorizer, Nyan Progress Bar, Randomness). Compiler and runtime: about 230 old names reduced to seven archetypes (GCC, Clang/LLVM, MSVC, .NET, OpenJDK, Python, Node.js) plus 10; dropped internal components (RyuJIT, CoreRT, Roslyn, IL2CPU, Bartok), research and vendor-embedded compilers, and dead Lisp/Scheme implementations. Version control: Git, Mercurial, Subversion plus GUI clients; trade systems dropped (ClearCase, StarTeam, PVCS, AccuRev, Dimensions, PTC Integrity, Vault, Surround, IC Manage). Game engine: about 200 old names reduced to nine archetypes and Adventure Game Studio plus 20; in-house studio engines (4A, Frostbite, Decima, Fox, id Tech, REDengine, Snowdrop and similar) trimmed. Web design: four archetypes plus nine; SharePoint Designer dropped (enterprise). WordPress-style builders are not in old data and no retrieved page covers them, so omitted. Windsurf maker taken from old data (Cognition)."
+}

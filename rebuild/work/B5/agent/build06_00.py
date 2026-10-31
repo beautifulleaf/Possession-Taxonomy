@@ -1,0 +1,131 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+RG='https://www.replacements.com/piece-guide'
+def X(n,a,d,mk,y,s,v=(),dt=''):
+    return {"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":s,"v":[dict(zip(("n","mk","y","d"),t)) for t in v],"dt":dt}
+service_x=[
+ X("Blue Onion","Zwiebelmuster · Meissen onion · bulb pattern","Underglaze cobalt-blue pattern of stylised pomegranates, peonies and bamboo after a Chinese model; Europe's most copied porcelain pattern.","Meissen","1739",W+"Blue_Onion",
+   [("Meissen original","Meissen","c. 1740","Designed by Johann Gregor Höroldt; made again from the late 19th century to today."),
+    ("'Meissen' (English version)","Enoch Wedgwood","1870s","Earthenware interpretation sold under the name Meissen."),
+    ("Blue Danube","","","Japanese interpretation; among the most popular patterns on Replacements.")],
+   "cobalt blue standard · gold-accented · rare red, green, pink or black · porcelain or earthenware copies"),
+ X("Willow pattern","Blue Willow · willow ware","English chinoiserie landscape transfer-printed in blue, sold with an invented legend of lovers fleeing over a bridge and turned into doves.","Spode","c. 1790",W+"Willow_pattern",
+   [("Caughley chinoiserie engravings","","1780s","Precursor scenes engraved by Thomas Minton and others at Caughley."),
+    ("Spode standard Willow","Spode","c. 1790","Probably the first standard version of the pattern."),
+    ("Victorian polychrome willow","","19th century","Outline transfers hand-coloured in several colours.")],
+   "blue transfer on earthenware or bone china · polychrome · US 'Blue Willow'"),
+ X("Blue Fluted","Musselmalet · Blue Fluted Plain","Royal Copenhagen's founding blue-and-white pattern on a fluted porcelain shape.","Royal Copenhagen","1775",W+"Royal_Copenhagen",
+   [("Blue Fluted Plain","Royal Copenhagen","1775","Revised in 1885."),("White Fluted","Royal Copenhagen","1775","Undecorated fluted shape."),
+    ("Blue Fluted Full Lace","Royal Copenhagen","1775","Pierced lace border; revised 1885."),("Blue Fluted Half Lace","Royal Copenhagen","1888","Half-lace border."),
+    ("Princess","Royal Copenhagen","1978",""),("Blue Fluted Mega","Royal Copenhagen","2000","Enlarged details of the pattern."),
+    ("Black Fluted Mega","Royal Copenhagen","2006","Black version of Mega.")],
+   "plain, half lace, full lace, mega"),
+ X("Flora Danica","","Botanical porcelain service painted with Danish wild plants after the Flora Danica atlas; the most prestigious Danish service.","Royal Copenhagen","1790",W+"Flora_Danica",
+   [("Original royal service","Royal Copenhagen","1790","Ordered by Crown Prince Frederik for Catherine II, who died before receiving it; still used by the Danish royal family."),
+    ("Current production","Royal Copenhagen","","Copies of the service sold by Royal Copenhagen.")],
+   "botanical species motifs"),
+ X("Queen Victoria","Viktória · VBO","Herend's Chinese-style pattern of butterflies and flowering branches in bright colours, named after Queen Victoria's order for Windsor Castle.","Herend","1851",W+"Herend_Porcelain_Manufactory",
+   [("Great Exhibition service","Herend","1851","Gold medal at the London Great Exhibition; Queen Victoria then ordered a dinner set.")],
+   "hand-painted · colour variants · gilt rims"),
+ X("Rothschild Bird","Rothschild · RO","Herend pattern of pairs of birds on stylised branches, one couple holding a gold necklace, after a Rothschild family story.","Herend","1860s","https://www.herendexperts.com/?p=53093",
+   [("Rothschild Bird, fish-scale border","Herend","1870s","First fish-scale version of the pattern.")],
+   "hand-painted on white porcelain · heavy gilt edges · borders (plain, fish-scale)"),
+ X("Pattern 967 'Imari'","Spode Imari","Spode's popular imitation of Japanese Imari export ware in underglaze blue with red and gold.","Spode","1807",W+"Spode",[],"underglaze blue · red and gold overglaze"),
+ X("Blue Italian","","Spode's underglaze blue transfer-printed range, in production since 1816.","Spode","1816",W+"Spode",
+   [("Current production","Spode","","Made by Portmeirion Group, owner of Spode since 2009.")],"blue transfer on earthenware · full dinner and serving range"),
+ X("Jasperware","Wedgwood blue · jasper","Unglazed stoneware stained with metal oxides, decorated with white relief figures; pale 'Wedgwood blue' is the classic ground.","Wedgwood","1770s",W+"Jasperware",
+   [("Portland Vase copy","Wedgwood","1790","Black and white jasper replica after four years of trials."),
+    ("Phanolith","Villeroy & Boch","","Related style developed by Jean-Baptiste Stahl.")],
+   "pale blue, dark blue, lilac, sage green, black, yellow grounds · white reliefs"),
+ X("Wild Strawberry","","Wedgwood pattern of strawberries, leaves and tendrils with gold detailing.","Wedgwood","1965","https://www.wedgwood.com/pages/behind-the-pattern-wild-strawberry",
+   [("Inky Blue","Wedgwood","","Blue colourway on fine bone china.")],"teacup and saucer, plates, bowls, mugs, teapot · gold on leaves"),
+ X("Old Luxembourg","Alt Luxemburg · Vieux Luxembourg · Brindille","Villeroy & Boch pattern first made as Brindille in 1770 and sold as Alt Luxemburg in the 20th century.","Villeroy & Boch","1770","https://en.wikipedia.org/wiki/Villeroy_%26_Boch",[],""),
+ X("Botanic Garden","","Portmeirion's best-known range, decorated with floral botanical illustrations.","Portmeirion","1972",W+"Portmeirion_Pottery",[],"floral motifs"),
+ X("Totem","","Portmeirion's abstract design on a cylindrical shape.","Portmeirion","1963",W+"Portmeirion_Pottery",[],"glaze colours"),
+ X("Seagull","Måge","Bing & Grøndahl pattern designed by Fanny Garde, widely owned in Danish homes from the 1950s to the 1980s.","Bing & Grøndahl","1892","https://en.wikipedia.org/wiki/Bing_%26_Gr%C3%B8ndahl",
+   [("Fanny Garde design","Bing & Grøndahl","1892","Original design; brand now within Royal Copenhagen after the 1987 merger.")],"full dinner range"),
+ X("Fiesta","Fiestaware","Homer Laughlin's solid-colour glazed dinnerware designed by Frederick Hurten Rhead, made in hundreds of glazes.","Homer Laughlin China Company","1936",W+"Fiesta_(dinnerware)",
+   [("Original Fiesta","Homer Laughlin China Company","1936","Designed by Frederick Hurten Rhead; red, cobalt, light green, yellow, old ivory; turquoise 1938; ended 1973."),
+    ("Fiesta Red (uranium glaze)","Homer Laughlin China Company","1936","Radioactive red glaze; withdrawn 1944, returned 1959."),
+    ("Post-86 Fiesta","Homer Laughlin China Company","1986","Vitrified body, slightly smaller shapes; over 340 glazes since.")],
+   "glaze colour and era · vintage vs post-86 · backstamp"),
+ X("American Modern","","Russel Wright's organic-shaped solid-colour dinnerware, called the most widely sold American ceramic dinnerware.","Steubenville Pottery","1939",W+"Russel_Wright",
+   [("Steubenville production","Steubenville Pottery","1939–1959","Original run.")],"solid colours"),
+ X("Cornishware","","T. G. Green's blue-and-white banded kitchen and tableware.","T. G. Green","1922",W+"Cornishware",
+   [("E-Blue Banded Wares","T. G. Green","1922","Frederick Parker's original range; named Cornishware by 1923."),
+    ("Judith Onions restyle","T. G. Green","1960s","Shapes still used today."),("Sunlit Yellow","T. G. Green","1959",""),
+    ("Revived range","T. G. Green","2009","Relaunch after the 2007 factory closure.")],"stripe colours: blue, yellow, black, green, red"),
+ X("Kilta / Teema","Teema · Kilta","Kaj Franck's plain, undecorated everyday tableware, designed for Arabia and continued by Iittala.","Arabia","1952",W+"Iittala",
+   [("Kilta","Arabia","1952","Original series (Arabia's own page dates Kilta to 1953)."),("Teema","Iittala","1981","Renamed and relaunched.")],"solid glaze colours · sizes"),
+ X("Paratiisi","Paradise","Birger Kaipiainen's vitrified-porcelain pattern, one of Arabia's best-loved classic series.","Arabia","","https://www.prisma.fi/tuotteet/100054184/arabia-paratiisi-lautanen-165cm-100054184",[],"plates, cups, saucers"),
+ X("Origo","","Iittala ceramic tableware line.","Iittala","1999",W+"Iittala",[("Alfredo Häberli design","Iittala","1999","")],""),
+ X("Coupe","Heath Coupe","Edith Heath's original stoneware dinnerware line, made in Sausalito.","Heath Ceramics","1947",W+"Heath_Ceramics",
+   [("Rim","Heath Ceramics","early 1970s","Rimmed line popular with restaurants."),("Plaza","Heath Ceramics","1992",""),("Chez Panisse","Heath Ceramics","2006","Collaboration with Alice Waters' restaurant.")],"glaze colours · stoneware"),
+ X("Service 2000","2000","Rosenthal porcelain service designed by Raymond Loewy with Richard Latham.","Rosenthal","1954",W+"Rosenthal_(company)",[],""),
+ X("Sedan","","Noritake's first Western-style dinner set, made to compete with European porcelain.","Noritake","1914",W+"Noritake",[],""),
+ X("Butterfly Gold","","Launch pattern of Corelle laminated-glass dinnerware.","Corelle","1970",W+"Corelle",[],"Vitrelle tempered glass"),
+ X("Raffaellesco","Raffaello dragon","Deruta maiolica trademark dragon motif, said to be inspired by Raphael.","","Renaissance",W+"Deruta_ceramics",[],"hand-painted tin glaze"),
+]
+kinds=[
+ {"n":"Plate","a":"dinner plate · side plate · charger","d":"Flat dish from which food is eaten, sold by pattern in several sizes.","t":["dinner plate","side / bread plate","salad / lunch plate","dessert plate","charger","oval or square plate"],
+  "s":RG,"x":[
+   X("Bing & Grøndahl Christmas plate","","Annual Christmas plate; the first such series.","Bing & Grøndahl","1895","https://en.wikipedia.org/wiki/Bing_%26_Gr%C3%B8ndahl",[],"one design per year · year on face"),
+   X("Royal Copenhagen Christmas plate","","Annual Christmas plate series.","Royal Copenhagen","1908",W+"Royal_Copenhagen",[("Madonna & Child","Royal Copenhagen","1908","First plate in the series.")],"one design per year")],
+  "note":"Collector and commemorative plates cross-link to collectables (F2) and decor (B4)."},
+ {"n":"Bowl","a":"soup bowl · cereal bowl · rice bowl","d":"Deep round dish for soup, cereal, rice, pasta or noodles.","t":["soup bowl / soup plate","cereal bowl","rice bowl","pasta bowl","ramen / noodle bowl","dessert bowl"],"s":W+"Bowl"},
+ {"n":"Cup and saucer","a":"teacup · coffee cup · demitasse · saucer","d":"Handled cup for tea or coffee with the small dish it stands on, sold as a pair by pattern.","t":["teacup","coffee cup","demitasse / espresso cup","breakfast cup","saucer alone"],"s":RG,
+  "x":[X("Old Country Roses","","Royal Albert rose pattern, described as the best-selling tea-service pattern since 1962.","Royal Albert","1962",W+"Old_Country_Roses",[],"teacups, saucers, plates, teapots")]},
+ {"n":"Mug","a":"","d":"Large handled cup used without a saucer.","t":["mug","handleless cup (yunomi)","tea bowl","latte / jumbo mug","enamel mug"],"s":RG,
+  "x":[X("Polka Dot","Emma Bridgewater spots","Sponge-painted spotted earthenware, the signature Emma Bridgewater pattern made in Stoke-on-Trent.","Emma Bridgewater","1985",W+"Emma_Bridgewater",[],"sponged colours · mug sizes")]},
+ {"n":"Dinner service","a":"dinner set · table service · service set · crockery set","d":"Matching set of plates, bowls and cups in one pattern, sold by place setting; the main unit collectors buy and complete.","t":["4, 6, 8 or 12 place settings","porcelain","bone china","stoneware","earthenware","tempered glass","melamine"],"s":W+"Tableware","x":service_x},
+ {"n":"Serving platter","a":"platter · meat dish · charger","d":"Large flat dish, usually oval, for bringing food to the table.","t":["oval platter","round platter","meat dish with well"],"s":W+"Platter_(dishware)"},
+ {"n":"Tureen","a":"soup tureen · pot à oille","d":"Deep lidded serving dish with handles for soup or stew, often on a matching stand.","t":["soup tureen","vegetable tureen","sauce tureen","animal-shaped tureen"],"s":W+"Tureen",
+  "x":[X("Rabbit tureen","Chelsea rabbit tureen","Chelsea novelty tureen advertised in 1755 as a rabbit 'as big as life'.","Chelsea porcelain","1755",W+"Tureen",[],"")]},
+ {"n":"Gravy boat","a":"sauce boat · saucière","d":"Low handled jug for serving gravy or sauce, often with a matching stand.","t":["with stand","double-spouted","lidded saucière"],"s":W+"Gravy_boat"},
+ {"n":"Teapot and coffee pot (tableware)","a":"coffee pot · pattern teapot · chocolate pot","d":"Lidded serving pot made as part of a dinner or tea service pattern; brewing teapots are under Tea.","t":["coffee pot","teapot (service piece)","chocolate pot","hot-water jug"],"s":W+"Coffee_pot"},
+ {"n":"Egg cup","a":"","d":"Small cup for holding a boiled egg upright at the table.","t":["single egg cup","double egg cup","egg cup with saucer"],"s":W+"Egg_cup"},
+]
+for k in kinds: k.pop("note",None)
+B=lambda n,c,f,seg,d,s,lines=(),eras=(),sig=(),rel=(): {"n":n,"c":c,"f":f,"seg":seg,"d":d,"lines":list(lines),"eras":list(eras),"sig":list(sig),"sc":[],"rel":list(rel),"s":s}
+brands=[
+ B("Meissen","Germany","1710","porcelain manufactory","Europe's first hard-paste porcelain maker, mark of crossed swords since 1720.",W+"Meissen_porcelain",sig=["Blue Onion","Swan Service","Osier"]),
+ B("Herend","Hungary","1826","porcelain manufactory","Hand-painted porcelain maker near Veszprém, founded by Vince Stingl.",W+"Herend_Porcelain_Manufactory",sig=["Queen Victoria","Rothschild Bird"]),
+ B("Royal Copenhagen","Denmark","1775","porcelain manufactory","Royal Porcelain Factory of Copenhagen, owned by Fiskars since 2012.",W+"Royal_Copenhagen",sig=["Blue Fluted","Flora Danica"],rel=["Bing & Grøndahl"]),
+ B("Bing & Grøndahl","Denmark","1853","porcelain manufactory","Copenhagen porcelain maker that issued the first Christmas plate and merged into Royal Copenhagen in 1987.","https://en.wikipedia.org/wiki/Bing_%26_Gr%C3%B8ndahl",sig=["Seagull","Christmas plate"],rel=["Royal Copenhagen"]),
+ B("Wedgwood","England","1759","pottery and bone china","Stoke-on-Trent pottery founded by Josiah Wedgwood, owned by Fiskars since 2015.",W+"Wedgwood",lines=["Queen's Ware","Jasperware"],sig=["Jasperware","Wild Strawberry","Queen's Ware"]),
+ B("Spode","England","1770","earthenware and bone china","Stoke-on-Trent pottery founded by Josiah Spode; brand owned by Portmeirion Group since 2009.",W+"Spode",sig=["Blue Italian","Willow pattern"],rel=["Portmeirion"]),
+ B("Villeroy & Boch","Germany","1748","ceramics group","Ceramics maker headquartered in Mettlach, Saarland.","https://en.wikipedia.org/wiki/Villeroy_%26_Boch",sig=["Old Luxembourg"]),
+ B("Portmeirion","Wales","1960","pottery","Pottery founded by Susan Williams-Ellis and Euan Cooper-Willis; owns Spode and Royal Worcester.",W+"Portmeirion_Pottery",sig=["Botanic Garden","Totem"],rel=["Spode"]),
+ B("Homer Laughlin China Company","United States","","dinnerware","Newell, West Virginia maker of Fiesta, renamed Fiesta Tableware Company in 2020.",W+"Fiesta_(dinnerware)",sig=["Fiesta"]),
+ B("Arabia","Finland","1873","porcelain and stoneware","Helsinki ceramics maker founded as a Rörstrand subsidiary, now in Fiskars' Iittala group.",W+"Arabia_(brand)",sig=["Kilta / Teema","Paratiisi","Ruska"],rel=["Iittala"]),
+ B("Iittala","Finland","1881","design tableware","Finnish design brand owned by Fiskars since 2007.",W+"Iittala",sig=["Kilta / Teema","Origo"],rel=["Arabia"]),
+ B("Heath Ceramics","United States","1948","studio stoneware","Sausalito stoneware maker founded by Edith and Brian Heath.",W+"Heath_Ceramics",sig=["Coupe"]),
+ B("Noritake","Japan","1904","porcelain","Nagoya porcelain company founded as Nippon Toki Kaisha.",W+"Noritake",sig=["Sedan"]),
+ B("Bernardaud","France","1863","Limoges porcelain","Limoges porcelain house and Comité Colbert member.",W+"Bernardaud",rel=["Haviland & Co."]),
+ B("Haviland & Co.","France","1842","Limoges porcelain","Limoges porcelain maker founded by American importer David Haviland for the US market.","https://en.wikipedia.org/wiki/Haviland_%26_Co.",rel=["Bernardaud"]),
+ B("Emma Bridgewater","England","1985","earthenware","Stoke-on-Trent pottery that revived sponge-painted decoration.",W+"Emma_Bridgewater",sig=["Polka Dot"]),
+ B("T. G. Green","England","","earthenware","Church Gresley pottery founded by Thomas Goodwin Green, maker of Cornishware.",W+"Cornishware",sig=["Cornishware"]),
+ B("Corelle","United States","1970","glass dinnerware","Laminated Vitrelle glass dinnerware introduced by Corning Glass Works.",W+"Corelle",sig=["Butterfly Gold"]),
+ B("Rosenthal","Germany","1879","porcelain","Selb porcelain maker, owned by Sambonet Paderno since 2009.",W+"Rosenthal_(company)",lines=["Studio-Line"],sig=["Service 2000"]),
+ B("Lenox","United States","1889","bone china","Trenton maker of American presidential bone china services since 1918.","https://en.wikipedia.org/wiki/Lenox_(company)",sig=["Ming","Mandarin"]),
+ B("Denby","England","1809","stoneware","Derbyshire stoneware tableware maker.",W+"Denby_Pottery_Company"),
+ B("Royal Albert","","","bone china","Bone china brand of Royal Doulton.",W+"Old_Country_Roses",sig=["Old Country Roses"]),
+]
+T=lambda n,g,r,p,d,tech,mat,forms,ctr,auth,s: {"n":n,"g":g,"r":r,"p":p,"d":d,"tech":tech,"mat":mat,"forms":forms,"ctr":ctr,"auth":auth,"s":s}
+trads=[
+ T("Arita ware (incl. Imari, Kakiemon, Nabeshima)","Ceramics & glass","Hizen, Kyūshū, Japan","late 16th century–present","Japan's first porcelain, exported through Imari.","underglaze blue with overglaze enamels and gold","porcelain clay",["Imari export plates","Kakiemon enamelled wares","Nabeshima dishes"],["Arita","Yi Sam-pyeong (traditional founder)"],"",W+"Arita_ware"),
+ T("Hasami ware","Ceramics & glass","Hasami, Nagasaki, Japan","1599–present","Affordable everyday porcelain, once Japan's leading blue-and-white producer.","underglaze cobalt and celadon","porcelain",["everyday bowls and plates"],["Hasami"],"sold under the Hasami ware label since 2002",W+"Hasami_ware"),
+ T("Mino ware","Ceramics & glass","Gifu Prefecture, Japan","over 1,300 years; tea wares from 16th century","Stoneware and porcelain making about half of Japanese pottery.","glazed stoneware (Shino, Oribe, Ki-Seto, Setoguro)","stoneware, porcelain",["Shino","Oribe","Ki-Seto","Setoguro"],["Tajimi","Toki","Mizunami","Kani"],"",W+"Mino_ware"),
+ T("Delftware","Ceramics & glass","Netherlands","c. 1600–present","Dutch tin-glazed earthenware painted mainly in cobalt blue.","tin glaze with underglaze cobalt","earthenware",["plates","tiles","vases","jars"],["Delft","De Koninklijke Porceleyne Fles (1653)","Royal Tichelaar, Makkum (1594)"],"'Delfts Blauw' hand-painted on the base",W+"Delftware"),
+ T("Limoges porcelain","Ceramics & glass","Haute-Vienne, France","1771–present","French hard-paste porcelain from local kaolin, protected by a geographical indication.","hard-paste porcelain, overglaze decoration","kaolin",["dinner services","boxes"],["Haviland & Co.","Bernardaud","Royal Limoges (1797)"],"Porcelaine de Limoges mark only for pieces made and decorated in Haute-Vienne (GI INPI-1702)",W+"Limoges_porcelain"),
+ T("Deruta maiolica","Ceramics & glass","Deruta, Umbria, Italy","15th century–present","Painted tin-glazed earthenware, first Italian centre to use lustre.","tin glaze, lustre","earthenware",["Raffaellesco plates","display dishes"],["Deruta (over 200 workshops)"],"",W+"Deruta_ceramics"),
+ T("Talavera of Puebla and Tlaxcala","Ceramics & glass","Puebla and Tlaxcala, Mexico","16th century–present","Hand-thrown tin-glazed earthenware with six permitted natural colours.","wheel-thrown, twice fired, hand-painted","local clays, tin glaze",["plates","jars","tiles"],["Puebla","Atlixco","Cholula","Tecali","San Pablo del Monte"],"Denominación de Origen (1997): certified workshops' hologram and marks",W+"Artisanal_Talavera_of_Puebla_and_Tlaxcala"),
+]
+notes=("Plate (k73), Cup and saucer (k75 Teacup + k76 Saucer merged), Mug (k74) carried over with old source; 7 planned new kinds added. "
+ "Pattern archetypes sit under Dinner service (pattern is the collector unit; pieces are types). Left out: Arita/Imari, Delft, Limoges, Talavera as archetypes (kept as traditions, with Spode's 1807 Imari imitation and Deruta Raffaellesco as archetypes); "
+ "Kakiemon/Ruska/Lenox patterns (no retrieved dates or detail); Paratiisi year (retrieved page states none); Blue Fluted coffee pot example (no retrieved page). "
+ "Collector/Christmas plates cross-link to F2/B4. Herend Rothschild Bird sourced from a collector site (scopelliti, finnishdesignshop blocked 403). Parallel fetch had no credit and wiki/Wikidata APIs returned 429, so all pages came via WebFetch.")
+out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+p='work/B5/shelves/06_00.json'; tmp=p+'.tmp'
+json.dump(out,open(tmp,'w'),ensure_ascii=False,indent=1); os.replace(tmp,p)
+print(sum(len(k.get('x',[])) for k in kinds),'archetypes',len(brands),'brands')

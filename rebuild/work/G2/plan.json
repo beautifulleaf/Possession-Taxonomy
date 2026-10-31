@@ -1,0 +1,871 @@
+{
+ "lead": "Real property a person can own — houses, flats, factory-built and floating homes, land and estates, unusual conversions and burial places — organised by property type, with architectural style and regional house tradition as cross-cutting views; commercial and industrial buildings are out, and garden buildings live in Home Fixtures.",
+ "b": [
+  {
+   "m": "Location and neighbourhood",
+   "v": "",
+   "w": "Weighed first by every buying guide; a filter and map, never a department."
+  },
+  {
+   "m": "Legal title and tenure",
+   "v": "freehold > share of freehold > leasehold / condominium > co-operative",
+   "w": "Determines what is actually owned; checked before survey in most jurisdictions."
+  },
+  {
+   "m": "Structural condition",
+   "v": "roof, walls, damp, plumbing, wiring, heating (RICS Home Survey Levels 1–3)",
+   "w": "Survey follows title."
+  },
+  {
+   "m": "Energy performance and orientation",
+   "v": "EPC A (92+) > B > C > D > E > F > G",
+   "w": "Running cost and comfort; stored only as a view, never for one home."
+  },
+  {
+   "m": "Fit to the household",
+   "v": "bedrooms, layout, outside space, parking",
+   "w": "Last in the order."
+  }
+ ],
+ "depts": [
+  {
+   "n": "Houses",
+   "mode": "mixed",
+   "note": "Buyer property types first; architectural style and regional tradition are views over the same houses.",
+   "b": [
+    {
+     "m": "Attachment and plot",
+     "v": "detached > link-detached > semi-detached > end-terrace > mid-terrace",
+     "w": "Listing-portal classification (Rightmove, Zillow)."
+    },
+    {
+     "m": "Period and style",
+     "v": "",
+     "w": "An attribute and a view (Getty AAT style terms), not a kind."
+    }
+   ],
+   "s": [
+    {
+     "n": "House types",
+     "web": true,
+     "brief": "Everyday buyer property types. Split old k1 (house) into its attachment types as separate kinds; move its vernacular model list (Siheyuan, Riad, Trulli…) to the 'Regional house traditions' shelf. Each kind: short definition, 't' for sub-types, Wikipedia/Wikidata or Getty AAT source. No maker models.",
+     "k": [
+      {
+       "n": "Detached house",
+       "old": [
+        "k1"
+       ],
+       "brief": "Types: link-detached, executive detached; strip vernacular models out to the regional shelf."
+      },
+      {
+       "n": "Semi-detached house",
+       "old": [],
+       "brief": "From k1 types; alias duplex (US)."
+      },
+      {
+       "n": "Terraced house",
+       "old": [],
+       "brief": "From k1 types; types mid-terrace, end-terrace, back-to-back; aliases row house, brownstone."
+      },
+      {
+       "n": "Townhouse",
+       "old": [],
+       "brief": "Multi-storey urban house; distinguish from terraced house by storeys/urban use; include US townhome."
+      },
+      {
+       "n": "Bungalow",
+       "old": [
+        "k2"
+       ],
+       "brief": "Types: detached, semi, dormer/chalet bungalow."
+      },
+      {
+       "n": "Cottage",
+       "old": [],
+       "brief": "Small rural house; types thatched, stone, estate cottage."
+      },
+      {
+       "n": "Farmhouse",
+       "old": [],
+       "brief": "Dwelling of a farm, sold with or without land; cross-link to Farm."
+      },
+      {
+       "n": "Mews house",
+       "old": [],
+       "brief": "Converted stable/coach house in a mews; from k1 model 'Mews property'."
+      },
+      {
+       "n": "Ranch house",
+       "old": [],
+       "brief": "Single-storey American ranch-style dwelling; distinct from working ranch (Land & estates)."
+      },
+      {
+       "n": "Villa",
+       "old": [],
+       "brief": "Detached suburban/resort house, Mediterranean usage; types holiday villa, urban villa."
+      }
+     ]
+    },
+    {
+     "n": "Grand & country houses",
+     "web": true,
+     "brief": "Luxury house types a Knight Frank / Sotheby's buyer searches by name. Definitions from Wikipedia/Getty AAT; add a handful of famous archetypal examples only where they define the type (no listings).",
+     "k": [
+      {
+       "n": "Mansion",
+       "old": [],
+       "brief": "Types: Gilded Age mansion, modern mega-mansion; alias stately home where applicable."
+      },
+      {
+       "n": "Country house",
+       "old": [],
+       "brief": "Manor house, hall, stately home; types by period."
+      },
+      {
+       "n": "Château",
+       "old": [],
+       "brief": "French country seat; types château viticole (cross-link vineyard estate)."
+      },
+      {
+       "n": "Castle & tower house",
+       "old": [],
+       "brief": "Habitable fortified house; types Scottish tower house, Italian castello, Schloss."
+      },
+      {
+       "n": "Palazzo",
+       "old": [],
+       "brief": "Italian urban palace; types piano nobile apartment within a palazzo."
+      },
+      {
+       "n": "Chalet",
+       "old": [],
+       "brief": "Alpine/ski house; types ski-in/ski-out, catered chalet as tenure note."
+      },
+      {
+       "n": "Hacienda & estancia",
+       "old": [],
+       "brief": "Spanish-American estate house; cross-link to ranch and Iberian traditions."
+      },
+      {
+       "n": "Hunting & fishing lodge",
+       "old": [],
+       "brief": "Country lodge for field sports; cross-link to sporting estate."
+      }
+     ]
+    },
+    {
+     "n": "Architectural styles (view)",
+     "web": true,
+     "brief": "A style VIEW, not a buyer type: each kind is a style family whose archetypes are named styles with Getty AAT or Wikipedia sources, era, defining features and regional variants as 'v'. Order by chronology within family. Keep to the styles house-hunters actually use as search terms.",
+     "k": [
+      {
+       "n": "Classical & Georgian styles",
+       "old": [],
+       "brief": "Archetypes: Palladian, Georgian, Regency, Federal, Greek Revival, Neoclassical."
+      },
+      {
+       "n": "Victorian & revival styles",
+       "old": [],
+       "brief": "Archetypes: Gothic Revival, Italianate, Second Empire, Queen Anne, Romanesque Revival, Edwardian/Baroque Revival."
+      },
+      {
+       "n": "Arts and Crafts & early modern styles",
+       "old": [],
+       "brief": "Archetypes: Arts and Crafts, Craftsman, Prairie School, Art Nouveau/Jugendstil, Art Deco, Tudor Revival, Spanish Colonial Revival."
+      },
+      {
+       "n": "Modern & contemporary styles",
+       "old": [],
+       "brief": "Archetypes: Bauhaus/International Style, Mid-century modern, Brutalist, Postmodern, Passivhaus/contemporary minimal."
+      },
+      {
+       "n": "Colonial & settler styles",
+       "old": [],
+       "brief": "Archetypes: Colonial (New England, Dutch, French), Cape Cod, Cape Dutch, Queenslander, Federation (Australia), Villa (New Zealand)."
+      }
+     ]
+    },
+    {
+     "n": "Regional house traditions",
+     "web": true,
+     "brief": "Absorb old k1's model list and extend. Each kind is a regional group; its archetypes are named vernacular house forms (Wikipedia/Wikidata/UNESCO sources) with region, period, materials. Write a tradition-register entry for each major form (group label 'Vernacular architecture'). Old k1 models: Wealden hall house, bastle house → British; Longère, Frutighaus, Geestharden, Uthland-Frisian, Upper Lusatian, Kulla, Vainakh tower → Continental; Masía, Cortijo, Finca, Casona, Trulli, Riad → Mediterranean; Charleston single house, chattel house, connected farm, upright and wing → Americas; Siheyuan, Yaodong, Assam-type → Asia.",
+     "k": [
+      {
+       "n": "British & Irish vernacular houses",
+       "old": [],
+       "brief": "Add cruck house, longhouse, blackhouse, thatched cob cottage, back-to-back."
+      },
+      {
+       "n": "Continental European vernacular houses",
+       "old": [],
+       "brief": "Add Fachwerkhaus, Bauernhaus, mas, dacha, Scandinavian log house, Dutch canal house."
+      },
+      {
+       "n": "Mediterranean & Iberian houses",
+       "old": [],
+       "brief": "Add dammuso, casa torre, Cycladic house, pazo."
+      },
+      {
+       "n": "Houses of the Americas",
+       "old": [],
+       "brief": "Add shotgun house, Creole cottage, brownstone, adobe/pueblo house, saltbox, Cape Cod, I-house."
+      },
+      {
+       "n": "Asian & Middle Eastern houses",
+       "old": [],
+       "brief": "Add machiya, minka, hanok, tulou, shophouse, kampong house, havel/haveli, wind-tower house."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Flats & apartments",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Tenure and building management",
+     "v": "share of freehold / commonhold > long lease > short lease; condominium vs co-operative",
+     "w": "Service charge and lease length dominate flat purchases."
+    },
+    {
+     "m": "Position in building",
+     "v": "penthouse > upper floor > ground/garden > basement",
+     "w": "Light, outlook and security."
+    }
+   ],
+   "s": [
+    {
+     "n": "Flats",
+     "web": true,
+     "brief": "Add penthouse and loft as kinds (from findings); studio, garden flat, basement flat, mansion-block flat become 't' types of Flat. Source from Wikipedia/Getty AAT; no listings.",
+     "k": [
+      {
+       "n": "Flat",
+       "old": [
+        "k3"
+       ],
+       "brief": "Aliases apartment, condominium unit; types studio, one-bed, garden flat, basement flat, mansion-block flat; move 'Loft' out to its own kind."
+      },
+      {
+       "n": "Penthouse",
+       "old": [],
+       "brief": "Top-floor apartment with terrace; types duplex penthouse."
+      },
+      {
+       "n": "Loft",
+       "old": [],
+       "brief": "Converted industrial space; types hard loft (original), soft loft (new-build)."
+      },
+      {
+       "n": "Maisonette & duplex",
+       "old": [
+        "k4"
+       ],
+       "brief": "Types: duplex, triplex, own-entrance maisonette."
+      },
+      {
+       "n": "Serviced & branded residence",
+       "old": [],
+       "brief": "Apartment within a hotel-operated or branded scheme (e.g. Four Seasons Residences); tenure note."
+      },
+      {
+       "n": "Multi-unit residential building",
+       "old": [
+        "k5"
+       ],
+       "brief": "Whole small block held as one object; types freehold block, HMO, two-flat/three-flat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Factory-built, mobile & floating homes",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Build standard",
+     "v": "residential BS 3632 > holiday BS EN 1647; HUD code; IRC Appendix Q; CSA Z240",
+     "w": "Factory-built homes are judged by build standard first."
+    },
+    {
+     "m": "Pitch or mooring tenure",
+     "v": "owned plot > licence agreement > site rental",
+     "w": "The home is movable but the pitch decides its value."
+    },
+    {
+     "m": "Maker and range",
+     "v": "",
+     "w": "Market-covering makers plus independent test/award winners only."
+    }
+   ],
+   "s": [
+    {
+     "n": "Factory-built & mobile homes",
+     "web": true,
+     "brief": "Restraint on SKU lists: cut static caravan models to market-covering makers (Willerby, ABI, Swift, Atlas, Carnaby, Pemberton, Victory) as ranges, not 21 SKUs; park model and tiny-house lists to 5–8 makers with one or two signature ranges each. Add kit/prefab house (Huf Haus, Baufritz, Honka, Lindal, historic Sears kit homes as archetypes) and US manufactured home (single/double-wide, Clayton, Skyline Champion). Sources: maker pages, Wikipedia.",
+     "k": [
+      {
+       "n": "Kit & prefab house",
+       "old": [],
+       "brief": "Factory-made house assembled on a permanent foundation; types modular, panelised, log kit; archetypes Sears Modern Home, Huf Haus."
+      },
+      {
+       "n": "Manufactured home",
+       "old": [],
+       "brief": "HUD-code home on steel chassis; types single-wide, double-wide, triple-wide."
+      },
+      {
+       "n": "Park home",
+       "old": [
+        "k6"
+       ],
+       "brief": "Alias lodge; twin-unit; trim Willerby SKUs to ranges."
+      },
+      {
+       "n": "Static caravan",
+       "old": [
+        "k7"
+       ],
+       "brief": "Trim to one range per major maker; types single-wide holiday, residential-spec."
+      },
+      {
+       "n": "Park model",
+       "old": [
+        "k8"
+       ],
+       "brief": "Park model RV; trim Athens Park SKUs; keep ranges from 4–6 makers."
+      },
+      {
+       "n": "Tiny house on wheels",
+       "old": [
+        "k9"
+       ],
+       "brief": "Keep Tumbleweed as originating maker archetype; trim others to ranges."
+      }
+     ]
+    },
+    {
+     "n": "Floating homes",
+     "web": true,
+     "brief": "Non-navigable dwellings only (navigable narrowboats and barges are vehicles, G1). Add regional archetypes: Amsterdam woonboot/woonark, Seattle/Portland floating home, Sausalito houseboat, Kerala/Srinagar houseboat (Dal Lake). Sources: Wikipedia.",
+     "k": [
+      {
+       "n": "Houseboat",
+       "old": [
+        "k10"
+       ],
+       "brief": "Moored hull without propulsion; archetypes Dal Lake houseboat, Sausalito houseboat, woonboot."
+      },
+      {
+       "n": "Floating home",
+       "old": [
+        "k11"
+       ],
+       "brief": "Purpose-built float on shore utilities; archetypes Seattle floating home, Dutch woonark, IJburg floating houses."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Land & estates",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Main use and land quality",
+     "v": "ALC grade 1 > 2 > 3a > 3b > 4 > 5 (UK); soil class; planning designation",
+     "w": "Land is judged by use and grade first."
+    },
+    {
+     "m": "Rights and designations",
+     "v": "sporting, mineral, water and riparian rights; SSSI, National Park, conservation covenants",
+     "w": "What comes with the land matters as much as area."
+    },
+    {
+     "m": "Access, water and services",
+     "v": "",
+     "w": "After use and rights."
+    },
+    {
+     "m": "Area",
+     "v": "",
+     "w": "Last in the order."
+    }
+   ],
+   "s": [
+    {
+     "n": "Luxury land & estates",
+     "web": true,
+     "brief": "The findings' luxury land types. Each kind defined from Wikipedia/Wikidata or a reference body (Scottish Land Commission, USDA, FEI); types for sub-uses; archetypal named examples only where they define the type (e.g. Necker Island for private island, Balmoral-type Highland estate). No listings. Old k16 vineyard folds into Vineyard & wine estate; old k26 airstrip into Airpark home.",
+     "k": [
+      {
+       "n": "Country estate",
+       "old": [],
+       "brief": "House with substantial land and estate buildings; types landed estate, walled estate, parkland."
+      },
+      {
+       "n": "Private island",
+       "old": [],
+       "brief": "Types freehold island, leasehold island, lake island, tidal island."
+      },
+      {
+       "n": "Sporting estate",
+       "old": [],
+       "brief": "Highland/shooting estate; types grouse moor, deer forest, driven-pheasant shoot, salmon beat; rights note."
+      },
+      {
+       "n": "Equestrian property",
+       "old": [],
+       "brief": "Types stud farm, livery yard, polo estate, racing yard; cross-link stable block."
+      },
+      {
+       "n": "Vineyard & wine estate",
+       "old": [
+        "k16"
+       ],
+       "brief": "Planted vineyard land through to château/winery estate; types by region (Bordeaux château, Napa estate, Tuscan tenuta)."
+      },
+      {
+       "n": "Waterfront property",
+       "old": [],
+       "brief": "Types beachfront, lakefront, riverside, canal-side, marina berth-with-home; riparian rights note; cross-link boathouse/jetty in G3."
+      },
+      {
+       "n": "Ranch & station",
+       "old": [],
+       "brief": "Working ranch, cattle station, hunting ranch; types by acreage class; cross-link hacienda/estancia."
+      },
+      {
+       "n": "Airpark home & private airstrip",
+       "old": [
+        "k26"
+       ],
+       "brief": "Fly-in community lot with hangar, or private strip on an estate; archetype Spruce Creek-type airpark."
+      }
+     ]
+    },
+    {
+     "n": "Farm & rural land",
+     "web": true,
+     "brief": "Mostly restraint: keep land-use kinds with no models. Add 'Farm' (whole working farm) and 'Croft' (Scottish crofting tenure) as new kinds sourced from Wikipedia / Crofting Commission. Merge lake and fishery.",
+     "k": [
+      {
+       "n": "Farm",
+       "old": [],
+       "brief": "Whole farm sold as one holding; types arable, livestock, dairy, mixed, hobby farm; cross-link farmhouse."
+      },
+      {
+       "n": "Smallholding",
+       "old": [
+        "k18"
+       ],
+       "brief": "Alias mixed holding; small acreage with several enterprises."
+      },
+      {
+       "n": "Croft",
+       "old": [],
+       "brief": "Scottish regulated small agricultural holding; tenure note (owner-occupied vs tenanted)."
+      },
+      {
+       "n": "Arable land",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Grazing land",
+       "old": [
+        "k13"
+       ],
+       "brief": "Types pasture, paddock, meadow, rough grazing."
+      },
+      {
+       "n": "Woodland",
+       "old": [
+        "k14"
+       ],
+       "brief": "Types amenity, commercial forestry, ancient woodland; grant scheme note."
+      },
+      {
+       "n": "Orchard",
+       "old": [
+        "k15"
+       ],
+       "brief": "Types traditional/standard, bush, nut grove, olive grove."
+      },
+      {
+       "n": "Lake & fishery",
+       "old": [
+        "k17",
+        "k19"
+       ],
+       "brief": "Merge: a private lake, pond or fishing water; types stillwater, river beat; drop the commercial-fishery-business framing."
+      }
+     ]
+    },
+    {
+     "n": "Plots & parking",
+     "web": false,
+     "brief": "Pure restraint. Building plot gets types (with planning, without planning, serviced plot, self-build plot); parking space gets types (bay, lock-up garage, underground space, EV-charging bay).",
+     "k": [
+      {
+       "n": "Building plot",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Parking space",
+       "old": [
+        "k21"
+       ],
+       "brief": "Add lock-up garage as a type when held as title, not as a home's attached garage."
+      }
+     ]
+    },
+    {
+     "n": "Farm & estate buildings",
+     "web": false,
+     "brief": "Rural buildings sold as property or with land (not garden buildings, which move to G3). Trim Timberlyne models; make 'American barn' a type of stable block; types for barn (Dutch barn, threshing barn, tithe barn, pole barn, steel portal-frame).",
+     "k": [
+      {
+       "n": "Barn",
+       "old": [
+        "k48"
+       ]
+      },
+      {
+       "n": "Stable block",
+       "old": [
+        "k49"
+       ],
+       "brief": "Alias horse barn; types American barn, traditional yard, timber loose-box range."
+      },
+      {
+       "n": "Field shelter",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "Cart shed",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Granary",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "Dovecote",
+       "old": [
+        "k52"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Unusual & converted properties",
+   "mode": "variety",
+   "note": "Named property types with their own buyer community (conversions, follies, shelters).",
+   "b": [
+    {
+     "m": "Listing and conversion status",
+     "v": "listed building consent; change-of-use granted; habitable certificate",
+     "w": "Unusual buildings are bought on consents as much as fabric."
+    },
+    {
+     "m": "Original fabric retained",
+     "v": "",
+     "w": "Character value; drives price at auction and in specialist agents' listings."
+    }
+   ],
+   "s": [
+    {
+     "n": "Unusual & converted properties",
+     "web": true,
+     "brief": "New shelf from the findings' spirit and the retained bunker kind. Each kind sourced from Wikipedia/Wikidata; add famous archetypal examples only where they define the type. Keep bunker (private survival shelter, former military bunker); no commercial uses.",
+     "k": [
+      {
+       "n": "Barn conversion",
+       "old": []
+      },
+      {
+       "n": "Converted church & chapel",
+       "old": []
+      },
+      {
+       "n": "Oast house",
+       "old": [],
+       "brief": "Kentish hop kiln conversion; types roundel, square kiln."
+      },
+      {
+       "n": "Windmill & watermill",
+       "old": [],
+       "brief": "Converted mill house; types tower mill, smock mill, watermill."
+      },
+      {
+       "n": "Lighthouse & keeper's cottage",
+       "old": []
+      },
+      {
+       "n": "Martello tower & fort",
+       "old": [],
+       "brief": "Converted coastal fortification; types Martello, Palmerston fort, pillbox."
+      },
+      {
+       "n": "Water tower conversion",
+       "old": []
+      },
+      {
+       "n": "Railway conversion",
+       "old": [],
+       "brief": "Converted station, signal box, carriage home."
+      },
+      {
+       "n": "Earth-sheltered & cave house",
+       "old": [],
+       "brief": "Types earth-sheltered new build, cave house (Andalusian cueva, Matmata); cross-link yaodong tradition."
+      },
+      {
+       "n": "Bunker",
+       "old": [
+        "k59"
+       ],
+       "brief": "Former military/civil-defence bunker or buried survival shelter owned privately; types ROC post, nuclear bunker, prefab survival shelter."
+      },
+      {
+       "n": "Folly & tower house conversion",
+       "old": [],
+       "brief": "Habitable follies, gatehouses, lodges; Landmark Trust-type examples as archetypes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Burial places",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Placement and capacity",
+     "v": "in-ground single > companion > family; above-ground crypt or niche",
+     "w": "Cemetery-property guides order by placement first."
+    },
+    {
+     "m": "Tenure and term",
+     "v": "perpetuity > fixed term (e.g. 30–100 years) > communal",
+     "w": "Grave rights are often leases, not freehold."
+    }
+   ],
+   "s": [
+    {
+     "n": "Burial places",
+     "web": false,
+     "brief": "Pure restraint. Make 'Gated estate' and 'Hedge estate' types of ground burial plot; 'Baumgrab' and shared-tree plot types of green burial plot; 'Urnenstele' a type of columbarium niche. No models.",
+     "k": [
+      {
+       "n": "Ground burial plot",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Cremation plot",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Green burial plot",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Lawn crypt",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Mausoleum crypt",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Private mausoleum",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "Columbarium niche",
+       "old": [
+        "k66"
+       ]
+      },
+      {
+       "n": "Communal grave space",
+       "old": [
+        "k67"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "old": "k27",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k28",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k29",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k30",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k31",
+   "to": "G3",
+   "dept": "Bath & wellness"
+  },
+  {
+   "old": "k32",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k33",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k34",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k35",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k36",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k37",
+   "to": "G3",
+   "dept": "Structure & circulation"
+  },
+  {
+   "old": "k38",
+   "to": "G3",
+   "dept": "Structure & circulation"
+  },
+  {
+   "old": "k39",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k41",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k42",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k43",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k44",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k45",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k46",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  },
+  {
+   "old": "k47",
+   "to": "G3",
+   "dept": "Outdoor & grounds"
+  }
+ ],
+ "drop": [
+  {
+   "old": "k22",
+   "why": "Campsite is a commercial leisure business, not personal property."
+  },
+  {
+   "old": "k23",
+   "why": "Golf course is a commercial/institutional asset."
+  },
+  {
+   "old": "k24",
+   "why": "Solar farm is industrial infrastructure."
+  },
+  {
+   "old": "k25",
+   "why": "Wind farm is industrial infrastructure."
+  },
+  {
+   "old": "k53",
+   "why": "Commercial building — out of scope by findings."
+  },
+  {
+   "old": "k54",
+   "why": "Commercial building — out of scope by findings."
+  },
+  {
+   "old": "k55",
+   "why": "Commercial building — out of scope by findings."
+  },
+  {
+   "old": "k56",
+   "why": "Industrial building — out of scope by findings."
+  },
+  {
+   "old": "k57",
+   "why": "Industrial building — out of scope by findings."
+  },
+  {
+   "old": "k58",
+   "why": "Industrial/institutional building — out of scope by findings."
+  }
+ ]
+}

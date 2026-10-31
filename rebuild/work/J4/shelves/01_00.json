@@ -1,0 +1,585 @@
+{
+ "kinds": [
+  {
+   "n": "Potato",
+   "a": "",
+   "d": "Fresh potato, organised by cultivar and, for cooking, waxy, floury or all-rounder.",
+   "t": [
+    "waxy",
+    "floury",
+    "all-rounder",
+    "new/early",
+    "maincrop",
+    "salad/fingerling"
+   ],
+   "s": "https://plu.pro/commodity/potato",
+   "x": [
+    {
+     "n": "Russet Burbank",
+     "a": "Idaho potato",
+     "d": "Long-russeted American baking and chipping potato, the world's reference processing cultivar.",
+     "mk": "",
+     "y": "1902",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "russet skin · floury · baking, fries"
+    },
+    {
+     "n": "King Edward",
+     "a": "",
+     "d": "Cream-and-pink British floury main-crop, a classic roaster and mash potato.",
+     "mk": "",
+     "y": "1902",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "v": [
+      {
+       "n": "King Edward",
+       "mk": "",
+       "y": "1902",
+       "d": "UK origin"
+      }
+     ],
+     "dt": "floury · roasting, mash"
+    },
+    {
+     "n": "Maris Piper",
+     "a": "",
+     "d": "UK's most widely sold all-round main-crop, used for chips and roasting.",
+     "mk": "",
+     "y": "1966",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "all-rounder"
+    },
+    {
+     "n": "Bintje",
+     "a": "",
+     "d": "Dutch-bred yellow-fleshed main-crop, the classic Belgian and Dutch frying potato.",
+     "mk": "",
+     "y": "1904",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "yellow flesh · chips"
+    },
+    {
+     "n": "Désirée",
+     "a": "Desiree",
+     "d": "Red-skinned yellow-fleshed Dutch all-rounder.",
+     "mk": "",
+     "y": "1962",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "red skin · yellow flesh"
+    },
+    {
+     "n": "Yukon Gold",
+     "a": "",
+     "d": "Canadian yellow-fleshed all-rounder that set the yellow-flesh market.",
+     "mk": "",
+     "y": "1965",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "yellow flesh · all-rounder"
+    },
+    {
+     "n": "Charlotte",
+     "a": "",
+     "d": "French waxy salad potato, blight-resistant.",
+     "mk": "",
+     "y": "1981",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "waxy · salad"
+    },
+    {
+     "n": "Ratte",
+     "a": "La Ratte",
+     "d": "French fingerling salad potato with nutty flavour.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "v": [
+      {
+       "n": "Pomme de terre de l'île de Ré AOP",
+       "mk": "",
+       "y": "",
+       "d": "regional appellation"
+      }
+     ],
+     "dt": "waxy · fingerling"
+    },
+    {
+     "n": "Jersey Royal",
+     "a": "International Kidney",
+     "d": "Jersey new potato, the island's early crop, lifted in spring.",
+     "mk": "",
+     "y": "1880",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "v": [
+      {
+       "n": "Jersey Royal Potatoes PDO",
+       "mk": "",
+       "y": "",
+       "d": "protected designation of origin"
+      }
+     ],
+     "dt": "waxy new potato"
+    },
+    {
+     "n": "Nicola",
+     "a": "",
+     "d": "German waxy salad potato, German 'Potato of the Year' 2016.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "waxy · salad"
+    },
+    {
+     "n": "Agria",
+     "a": "",
+     "d": "German yellow-fleshed floury potato for frying and baking.",
+     "mk": "",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "floury · frying"
+    },
+    {
+     "n": "Kennebec",
+     "a": "",
+     "d": "American white-skinned main-crop used for chips and baking.",
+     "mk": "",
+     "y": "1941",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "May Queen",
+     "a": "メークイン",
+     "d": "Japanese round potato widely grown for steaming and simmering.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "waxy · simmering"
+    },
+    {
+     "n": "Kitaakari",
+     "a": "",
+     "d": "Japanese yellow-fleshed potato bred in Hokkaido.",
+     "mk": "",
+     "y": "1987",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "Atlantic",
+     "a": "",
+     "d": "American chipping potato bred for crisp production.",
+     "mk": "",
+     "y": "1978",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "Cara",
+     "a": "",
+     "d": "Irish blight-resistant white main-crop.",
+     "mk": "",
+     "y": "1973",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "Rooster",
+     "a": "",
+     "d": "Irish red-skinned floury main-crop.",
+     "mk": "",
+     "y": "1990",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "Marfona",
+     "a": "",
+     "d": "Dutch all-round yellow main-crop.",
+     "mk": "",
+     "y": "1975",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "Sieglinde",
+     "a": "",
+     "d": "German waxy early potato, German 'Potato of the Year' 2010.",
+     "mk": "",
+     "y": "1938",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "waxy"
+    },
+    {
+     "n": "Red Pontiac",
+     "a": "Pontiac",
+     "d": "American red-skinned potato.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "Red La Soda",
+     "a": "",
+     "d": "American red-skinned potato.",
+     "mk": "",
+     "y": "1948",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars"
+    },
+    {
+     "n": "Bamberg potato",
+     "a": "Bamberger Hörnla",
+     "d": "Old German finger-shaped waxy potato, the Bamberger Hörnla.",
+     "mk": "",
+     "y": "1819",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "v": [
+      {
+       "n": "Bamberger Hörnla PGI",
+       "mk": "",
+       "y": "",
+       "d": "protected geographical indication"
+      }
+     ],
+     "dt": "fingerling · waxy"
+    },
+    {
+     "n": "Puikula",
+     "a": "",
+     "d": "Finnish small waxy potato.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "v": [
+      {
+       "n": "Lapin Puikula PDO",
+       "mk": "",
+       "y": "",
+       "d": "Lapland, protected designation of origin"
+      }
+     ]
+    },
+    {
+     "n": "Vitelotte",
+     "a": "",
+     "d": "French purple-fleshed heritage fingerling.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "purple flesh"
+    },
+    {
+     "n": "Pink Fir Apple",
+     "a": "",
+     "d": "Knobbly pink fingerling salad potato.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "waxy · salad"
+    },
+    {
+     "n": "Kipfler",
+     "a": "",
+     "d": "Crescent-shaped waxy fingerling.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "fingerling"
+    },
+    {
+     "n": "Huayro",
+     "a": "",
+     "d": "Peruvian Andean native potato.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_potato_cultivars",
+     "dt": "Andean native"
+    },
+    {
+     "n": "Andean native potatoes",
+     "a": "",
+     "d": "Landraces (papa nativa) of the Andes, grown in thousands of colours and shapes.",
+     "mk": "",
+     "y": "",
+     "s": "https://www.potatopro.com/companies/potato-park-parque-de-la-papa",
+     "v": [
+      {
+       "n": "Ajanhuiri",
+       "mk": "",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Imilla",
+       "mk": "",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Huayro",
+       "mk": "",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Quebrada de Humahuaca Andean Potatoes",
+       "mk": "",
+       "y": "",
+       "d": "GI region"
+      }
+     ],
+     "dt": "over 1,400 varieties kept in Peru's Potato Park"
+    },
+    {
+     "n": "Sharpe's Express",
+     "d": "RHS Award of Garden Merit cultivar (first early), awarded 2013.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2013 · first early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Red Duke of York",
+     "d": "RHS Award of Garden Merit cultivar (first early), awarded 1998.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 1998 · first early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Maris Bard",
+     "d": "RHS Award of Garden Merit cultivar (first early), awarded 2013.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2013 · first early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Casablanca",
+     "d": "RHS Award of Garden Merit cultivar (first early), awarded 2013.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2013 · first early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Foremost",
+     "d": "RHS Award of Garden Merit cultivar (first early), awarded 1998.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 1998 · first early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Vivaldi",
+     "d": "RHS Award of Garden Merit cultivar (first early), awarded 2007.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2007 · first early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Nadine",
+     "d": "RHS Award of Garden Merit cultivar (second early), awarded 1998.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 1998 · second early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "British Queen",
+     "d": "RHS Award of Garden Merit cultivar (second early), awarded 1998.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 1998 · second early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Lady Christl",
+     "d": "RHS Award of Garden Merit cultivar (second early), awarded 1998.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 1998 · second early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Jazzy",
+     "d": "RHS Award of Garden Merit cultivar (second early), awarded 2013.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2013 · second early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Saxon",
+     "d": "RHS Award of Garden Merit cultivar (second early), awarded 2017.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2017 · second early",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Picasso",
+     "d": "RHS Award of Garden Merit cultivar (maincrop), awarded 1993.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 1993 · maincrop",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Sarpo Mira",
+     "d": "RHS Award of Garden Merit cultivar (maincrop), awarded 2014.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2014 · maincrop",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Caledonian Rose",
+     "d": "RHS Award of Garden Merit cultivar (maincrop), awarded 2024.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2024 · maincrop",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Harmony",
+     "d": "RHS Award of Garden Merit cultivar (maincrop), awarded 2014.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2014 · maincrop",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Valor",
+     "d": "RHS Award of Garden Merit cultivar (maincrop), awarded 2024.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2024 · maincrop",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Alouette",
+     "d": "RHS Award of Garden Merit cultivar (maincrop), awarded 2024.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2024 · maincrop",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Twister",
+     "d": "RHS Award of Garden Merit cultivar (maincrop), awarded 2024.",
+     "s": "https://www.rhs.org.uk/plants/pdfs/rhs-recommended-award-of-garden-merit-fruit-veg.pdf",
+     "dt": "RHS AGM 2024 · maincrop",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    }
+   ],
+   "m": [
+    [
+     "Pomme de terre de Merville PGI",
+     ""
+    ],
+    [
+     "Pomme de terre de Noirmoutier PGI",
+     ""
+    ],
+    [
+     "Béa du Roussillon AOP",
+     ""
+    ],
+    [
+     "Ayrshire New Potatoes PGI",
+     ""
+    ],
+    [
+     "Pembrokeshire Earlies PGI",
+     ""
+    ],
+    [
+     "New Season Comber Potatoes PGI",
+     ""
+    ],
+    [
+     "Lüneburger Heidekartoffeln PGI",
+     ""
+    ],
+    [
+     "De Meerlander PGI",
+     ""
+    ],
+    [
+     "Batata de Trás-os-Montes PGI",
+     ""
+    ],
+    [
+     "Lički krumpir PGI",
+     ""
+    ],
+    [
+     "Patata della Sila PGI",
+     ""
+    ],
+    [
+     "Patata di Bologna PGI",
+     ""
+    ],
+    [
+     "Patata del Fucino PGI",
+     ""
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [
+  {
+   "n": "Andean native potatoes",
+   "g": "Food & drink",
+   "r": "Andes, Peru",
+   "p": "ancient",
+   "d": "Community-conserved native potato landraces, kept in Peru's Potato Park near Cusco with the International Potato Center.",
+   "tech": "community seed conservation",
+   "mat": "native potato tubers",
+   "forms": [
+    "Huayro",
+    "Imilla"
+   ],
+   "ctr": [
+    "Potato Park (Parque de la Papa), Sacred Valley"
+   ],
+   "auth": "grown by the six Quechua communities of the Potato Park",
+   "s": "https://www.potatopro.com/companies/potato-park-parque-de-la-papa"
+  }
+ ],
+ "notes": "Cut 295 old names to sourced cultivars; GI regional potatoes kept as flat models or versions. Not sourced and dropped: most minor cultivars (e.g. russet breeding-line series). Danshaku not on source page, omitted. Deepening: added 18 archetypes (RHS AGM fruit-veg-herb list and other fetched pages); no flat models trimmed or removed."
+}

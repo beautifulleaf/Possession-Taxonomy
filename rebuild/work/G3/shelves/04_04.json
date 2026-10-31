@@ -1,0 +1,135 @@
+{
+ "kinds": [
+  {
+   "n": "Storage water heater",
+   "a": "Tank water heater",
+   "d": "Water heater that heats and holds water in its own tank.",
+   "t": [
+    "electric",
+    "gas"
+   ],
+   "s": "https://hdsupplysolutions.com/ns/rheem"
+  },
+  {
+   "n": "Tankless water heater",
+   "a": "Instant water heater · combi-style water heater",
+   "d": "Water heater that heats water on demand as it flows.",
+   "t": [
+    "gas condensing",
+    "gas non-condensing",
+    "electric whole-house"
+   ],
+   "s": "https://www.navieninc.com/residential/water-heaters",
+   "m": [
+    [
+     "NPE-A2 Series",
+     "Navien"
+    ],
+    [
+     "NPE-S2 Series",
+     "Navien"
+    ],
+    [
+     "NPN-E Series",
+     "Navien"
+    ],
+    [
+     "NHW-AE Series",
+     "Navien"
+    ],
+    [
+     "CF Plus",
+     "Stiebel Eltron"
+    ]
+   ],
+   "r": [
+    [
+     "NPE and NHW tankless series",
+     "Navien"
+    ]
+   ]
+  },
+  {
+   "n": "Hot-water cylinder",
+   "a": "",
+   "d": "Tank heated by a boiler or heat pump coil, with no heat source of its own.",
+   "t": [
+    "unvented",
+    "vented",
+    "indirect",
+    "buffer"
+   ],
+   "s": "https://www.cityplumbing.co.uk/Product/Heating/Hot-Water-Cylinders/Unvented-Cylinders/c/1806005",
+   "m": [
+    [
+     "Megaflo Eco",
+     "Heatrae Sadia"
+    ],
+    [
+     "Stainless Lite Plus",
+     "Gledhill"
+    ],
+    [
+     "Esprit",
+     "Gledhill"
+    ],
+    [
+     "ThermaQ Evocyl",
+     "Therma Q"
+    ]
+   ]
+  },
+  {
+   "n": "Heat-pump water heater",
+   "a": "",
+   "d": "Water heater that heats water with a compressor heat pump.",
+   "t": [
+    "integrated tank",
+    "split"
+   ],
+   "s": "https://www.navieninc.com/residential/water-heaters",
+   "m": [
+    [
+     "NWP500 Series",
+     "Navien"
+    ]
+   ]
+  },
+  {
+   "n": "Point-of-use water heater",
+   "a": "Mini-tank water heater",
+   "d": "Small water heater fitted at one tap or outlet.",
+   "t": [
+    "mini tank",
+    "instantaneous"
+   ],
+   "s": "https://www.supplyhouse.com/Bosch-ES2-5-ES2-5-Tronic-3000T-Ariston-Point-of-Use-Electric-Mini-Tank-Water-Heater",
+   "m": [
+    [
+     "Tronic 3000T",
+     "Bosch"
+    ],
+    [
+     "SHC mini tank",
+     "Stiebel Eltron"
+    ]
+   ]
+  },
+  {
+   "n": "Solar water heater",
+   "a": "Solar thermal system",
+   "d": "System that heats household water from solar collectors.",
+   "t": [
+    "thermosiphon",
+    "pumped",
+    "flat-plate collector",
+    "evacuated-tube collector",
+    "collector sold on its own"
+   ],
+   "s": "https://www.siliconsolar.com/product-category/solar-hot-water-heaters/thermosyphon-solar-hot-water/"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Restraint only: Solar thermal collector merged into Solar water heater as types. Navien SKU list trimmed to four series; ranges duplicating models dropped (point-of-use). The blank-maker model ThermoPower VTS became the thermosiphon type."
+}

@@ -1,0 +1,86 @@
+import sys; sys.path.insert(0, '/home/user/Possession-Taxonomy/rebuild/work/F3/agent')
+from hb import *
+NOON = "https://www.noonans.co.uk/auctions/calendar/642/catalogue"
+BALC = "https://www.baldwin.co.uk/military-medals-for-sale/single-campaign/"
+BALL = "https://www.baldwin.co.uk/military-medals-for-sale/long-service/"
+HUB = WP + "Awards_and_decorations_of_the_British_Armed_Forces"
+HAN, GAR = "Hancocks", "Garrard & Co."
+gal = K("British gallantry decoration", "Decoration awarded for a specific act of gallantry or distinguished service.", NOON, a="gallantry award",
+  t=["first award", "with bar", "posthumous", "miniature"],
+  x=[X("Victoria Cross", "Bronze cross 'For Valour', the highest British award for gallantry in the presence of the enemy.", WP + "Victoria_Cross", mk=HAN, y="1856", a="VC",
+       v=[("Victoria Cross", HAN, "1856", "backdated to 1854 for the Crimea"), ("VC and Bar", HAN, "", "three recipients"),
+          ("Victoria Cross for Australia", "", "1991", ""), ("Canadian Victoria Cross", "", "1993", "'pro valore'"), ("Victoria Cross for New Zealand", "", "1999", "")],
+       dt="named reverse · date of act · ribbon crimson"),
+     X("George Cross", "Silver cross for the highest gallantry not in the face of the enemy, open to civilians; equal in status to the VC.", WP + "George_Cross", y="1940", a="GC",
+       v=[("George Cross", "", "1940", "Percy Metcalfe design"), ("Exchange awards", "", "1940–1971", "for Empire Gallantry, Albert and Edward Medal holders"),
+          ("Malta collective award", "", "1942", "")], dt="named reverse · dark blue ribbon"),
+     X("Distinguished Service Order", "White-enamelled gilt cross for distinguished command and leadership in operations; officers only until 1993.", WP + "Distinguished_Service_Order",
+       mk=GAR, y="1886", a="DSO",
+       v=[("Gold DSO", GAR, "1886–1889", ""), ("Silver-gilt DSO", GAR, "1889–", "monarch's cypher on the reverse"), ("DSO with bar", GAR, "1916–", "bars first authorised 1916"),
+          ("All-ranks DSO", GAR, "1993", "after the honours review")], dt="cypher (Victoria to Charles III) · bars · year on suspension bar since 1938"),
+     X("Distinguished Service Cross", "Silver cross for gallantry at sea against the enemy.", WP + "Distinguished_Service_Cross_(United_Kingdom)", y="1901", a="DSC",
+       v=[("Conspicuous Service Cross", "", "1901", "warrant and subordinate officers"), ("Distinguished Service Cross", "", "1914", "renamed"),
+          ("All-ranks DSC", "", "1993", "")], dt="cypher · bar · posthumous since 1979"),
+     X("Albert Medal", "Civil gallantry medal for saving life, in sea (blue) and land (red) versions.", WP + "Albert_Medal_for_Lifesaving", y="1866–1971",
+       v=[("Sea, gold (first class)", "", "1866", ""), ("Sea, bronze", "", "1866", ""), ("Land, gold", "", "1877", "after the Tynewydd Colliery disaster"), ("Land, bronze", "", "1877", ""),
+          ("Exchanged for George Cross", "", "1971", "living holders deemed GC recipients")], dt="sea or land · gold or bronze · named")],
+  m=[["Military Cross (MC)", ""], ["Distinguished Flying Cross (DFC)", ""], ["Conspicuous Gallantry Cross (CGC)", ""]])
+orders = K("British order of chivalry", "Insignia of an order of chivalry or merit (badge, star, collar or sash badge).", NOON, a="order badge · breast star",
+  t=["collar", "sash badge", "neck badge", "breast star", "breast badge", "miniature"],
+  x=[X("Order of the Garter", "England's senior order, limited to the Sovereign, the Prince of Wales and 24 companions.", WP + "Order_of_the_Garter", y="1348", a="KG · LG",
+       v=[("Garter", "", "", "dark-blue strap with the motto"), ("Collar and Great George", "", "", ""), ("Lesser George", "", "", "sash badge"), ("Breast star", "", "", "")]),
+     X("Order of the Bath", "Order in three classes, the Grand Cross dating from 1725 and the lower classes from 1815.", HUB, y="1725",
+       v=[("GCB", "", "1725", "Knight or Dame Grand Cross"), ("KCB / DCB", "", "1815", "Knight or Dame Commander"), ("CB", "", "1815", "Companion")], dt="civil or military division"),
+     X("Order of St Michael and St George", "Order for service in foreign affairs, with a seven-armed white Maltese badge.", WP + "Order_of_St_Michael_and_St_George", y="1818",
+       v=[("GCMG", "", "1818", "collar, star and sash badge"), ("KCMG / DCMG", "", "", "neck badge and star"), ("CMG", "", "", "neck badge")]),
+     X("Royal Victorian Order", "Order in the Sovereign's personal gift for service to the Monarch and the royal household.", "https://centralchancery.org.uk/orders-of-chivalry/the-royal-victorian-order/", y="1896",
+       v=[("GCVO", "", "1896", ""), ("KCVO / DCVO", "", "1896", ""), ("CVO", "", "1896", ""), ("LVO", "", "1984", "formerly Member 4th class"), ("MVO", "", "1984", "formerly Member 5th class"),
+          ("Royal Victorian Chain", "", "1902", "separate, above the order")]),
+     X("Order of the British Empire", "Six-grade order for civil and military service, the most widely awarded British order.", WP + "Order_of_the_British_Empire", y="1917",
+       v=[("GBE", "", "1917", ""), ("KBE / DBE", "", "1917", ""), ("CBE", "", "1917", ""), ("OBE", "", "1917", ""), ("MBE", "", "1917", ""), ("British Empire Medal (BEM)", "", "1922", "named BEM 1941"),
+          ("First type", "", "1917–1937", "Britannia medallion, purple ribbon"), ("Second type", "", "1937–", "George V and Queen Mary; rose-pink and grey ribbon")],
+       dt="civil or military division (red stripe since 1918) · type · grade")],
+  m=[["Order of St Patrick (K.P.)", ""], ["Order of St John of Jerusalem", ""], ["Order of Merit (OM)", ""]])
+camp = K("British campaign medal", "Medal awarded for service in a named campaign or operation.", BALC, a="war medal · service medal",
+  t=["clasps", "naming style", "monarch's effigy", "miniature"],
+  x=[X("Waterloo Medal", "Medal for Ligny, Quatre Bras and Waterloo; the first to all ranks and named on the edge.", WP + "Waterloo_Medal", y="1816",
+       v=[("Waterloo Medal", "", "1816", "Thomas Wyon; about 38,500 awarded")], dt="regiment · rank · original or replacement suspension"),
+     X("Crimea Medal", "Medal for the Crimean War with oak-leaf clasps.", WP + "Crimea_Medal", y="1854",
+       v=[("Alma", "", "1854", ""), ("Balaklava", "", "1854", ""), ("Inkerman", "", "1854", ""), ("Sebastopol", "", "1854–1855", ""), ("Azoff", "", "1855", "Royal Navy only")],
+       dt="clasp combination · named or unnamed"),
+     X("Indian Mutiny Medal", "Medal for the suppression of the 1857 rebellion.", WP + "Indian_Mutiny_Medal", y="1858",
+       v=[("Delhi", "", "", ""), ("Defence of Lucknow", "", "", ""), ("Relief of Lucknow", "", "", ""), ("Lucknow", "", "", ""), ("Central India", "", "", "")], dt="clasps (up to four) · unit"),
+     X("Queen's South Africa Medal", "Medal for the Second Boer War, with 26 battle, state and date clasps.", WP + "Queen%27s_South_Africa_Medal", y="1900", a="QSA",
+       v=[("Dated reverse (1899–1900)", "", "1900", "Lord Strathcona's Horse; 'ghost dates'"), ("Undated reverse", "", "", ""), ("Third reverse", "", "", "'AFRICA' lower"),
+          ("Defence of Ladysmith", "", "", "clasp"), ("Relief of Mafeking", "", "", "clasp"), ("King's South Africa Medal", "", "1902", "companion medal")],
+       dt="clasps (max nine) · unit · reverse type"),
+     X("First World War trio", "The 1914 or 1914–15 Star, British War Medal and Victory Medal, nicknamed Pip, Squeak and Wilfred.", WP + "Victory_Medal_(United_Kingdom)",
+       a="Pip, Squeak and Wilfred · Mutt and Jeff (pair)", y="1914–1920",
+       v=[("1914 Star ('Pip')", "", "1914", ""), ("1914–15 Star ('Pip')", "", "1914–1915", ""), ("British War Medal ('Squeak')", "", "1914–1918", ""),
+          ("Victory Medal ('Wilfred')", "", "1919", "William McMillan; oak leaf for mention in despatches")], dt="named to unit · complete trio or pair"),
+     X("Second World War campaign stars", "Campaign stars for theatres of the Second World War, with the War Medal and Defence Medal.", WP + "1939%E2%80%931945_Star", y="1943",
+       v=[("1939–1945 Star", "", "1943", "Battle of Britain and Bomber Command clasps"), ("Atlantic Star", "", "", ""), ("Arctic Star", "", "2013", ""), ("Air Crew Europe Star", "", "", ""),
+          ("Africa Star", "", "", ""), ("Pacific Star", "", "", ""), ("Burma Star", "", "", ""), ("Italy Star", "", "", ""), ("France and Germany Star", "", "", ""),
+          ("War Medal 1939–1945", "", "", ""), ("Defence Medal", "", "", "")], dt="issued unnamed · clasp · group"),
+     X("General Service Medal 1918–62", "Army and RAF medal for minor operations, always with a clasp.", WP + "General_Service_Medal_(1918)", y="1923",
+       v=[("Kurdistan", "", "", ""), ("Iraq", "", "", ""), ("Palestine", "", "", ""), ("Palestine 1945–48", "", "", ""), ("Malaya", "", "", ""), ("Cyprus", "", "", ""), ("Canal Zone", "", "2003", "awarded 50 years on")],
+       dt="18 clasps · six obverses (George V to Elizabeth II)"),
+     X("General Service Medal 1962–2007", "Campaign medal replacing the GSM 1918 and Naval GSM, superseded by the Operational Service Medal.", WP + "General_Service_Medal_(1962)", y="1962",
+       v=[("Borneo", "", "", ""), ("Radfan", "", "", ""), ("South Arabia", "", "", ""), ("Malay Peninsula", "", "", ""), ("Northern Ireland", "", "", ""), ("Dhofar", "", "", ""),
+          ("Lebanon", "", "", ""), ("Kuwait", "", "", ""), ("Air Operations Iraq", "", "", "")], dt="14 clasps · unit")],
+  m=[["Afghanistan Medal", ""], ["Africa General Service Medal", ""], ["India Medal", ""], ["Khedive's Sudan Medal", ""], ["Medal for Pegu", ""]])
+ls = K("British long-service medal", "Medal awarded for a length of service or record of conduct.", BALL, a="good-conduct medal · efficiency medal", t=["with clasp or bar", "monarch's effigy"],
+  x=[X("Army Long Service and Good Conduct Medal", "Medal for long service with good conduct, the British Army's first non-campaign medal.", WP + "Army_Long_Service_and_Good_Conduct_Medal", y="1830",
+       v=[("William IV", "", "1830", "Hanover shield"), ("Victoria", "", "1837", "shield removed"), ("Edward VII", "", "1901", "King's effigy"), ("George V", "", "1910", ""),
+          ("Medal for Long Service and Good Conduct (Military)", "", "1930", "successor; officers eligible 2016")], dt="suspender type · regiment · bars on suspender for dominions"),
+     X("Meritorious Service Medal", "Army medal for meritorious service.", HUB, y="1845", v=[("Army MSM", "", "1845", "")]),
+     X("Territorial Force Efficiency Medal", "Long-service medal for 12 years' Territorial Force service.", WP + "Territorial_Force_Efficiency_Medal", y="1908",
+       v=[("Edward VII", "", "1908", ""), ("George V", "", "1911", ""), ("Territorial Efficiency Medal", "", "1921", "successor")], dt="bars for further 12 years · HAC ribbon")])
+brands = [
+ B(HAN, "United Kingdom", "1849", "Victoria Cross maker", "London jewellers that have made every Victoria Cross.", "knowledge", seg="Heritage manufactory"),
+ B(GAR, "United Kingdom", "1735", "Crown Jewellers", "London jewellers, maker of the Distinguished Service Order.", "knowledge", seg="Heritage manufactory"),
+]
+save("06_00", [gal, orders, camp, ls], brands, [],
+ "Archetypes in order of precedence from retrieved Wikipedia and Central Chancery pages; clasps, classes and monarch types as versions. "
+ "Old models without a retrieved page stay in m (Afghanistan, Africa General Service, India Medal, Khedive's Sudan, Pegu, Order of St Patrick, Order of St John); MC, DFC, CGC and Order of Merit added to m from the British awards hub page. "
+ "Coronation and jubilee medals are on the Commemorative medal kind (shelf 05_01).")

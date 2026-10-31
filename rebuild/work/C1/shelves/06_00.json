@@ -1,0 +1,69 @@
+{
+ "kinds": [
+  {
+   "n": "MIG welder",
+   "a": "",
+   "d": "Welding machine that feeds a continuous wire electrode through a gun, with shielding gas or flux-cored wire.",
+   "t": [
+    "gas-shielded",
+    "gasless (flux-cored)"
+   ],
+   "s": "https://www.toolstation.com/power-tools/welding/c157"
+  },
+  {
+   "n": "Multi-process welder",
+   "a": "",
+   "d": "One welding machine set up to run more than one of the MIG, TIG and stick processes.",
+   "s": "https://www.toolstation.com/power-tools/welding/c157",
+   "m": [
+    [
+     "Weldmate Autoplus MIG/ARC/TIG",
+     "SIP"
+    ],
+    [
+     "Tigren MIG/MMA/TIG inverter welder",
+     "SIP"
+    ],
+    [
+     "X-Series MST 350XT",
+     "Bossweld"
+    ]
+   ]
+  },
+  {
+   "n": "TIG welder",
+   "a": "",
+   "d": "Welding machine using a tungsten electrode and a separate filler rod under shielding gas.",
+   "t": [
+    "DC",
+    "AC/DC"
+   ],
+   "s": "https://www.toolstation.com/power-tools/welding/c157"
+  },
+  {
+   "n": "Stick welder",
+   "a": "arc welder · MMA welder",
+   "d": "Welding machine that burns coated rod electrodes held in a clamp.",
+   "t": [
+    "inverter",
+    "transformer"
+   ],
+   "s": "https://www.toolstation.com/power-tools/welding/c157",
+   "m": [
+    [
+     "Turbo Arc welder",
+     "Draper"
+    ]
+   ]
+  },
+  {
+   "n": "Plasma cutter",
+   "a": "",
+   "d": "Machine that cuts metal with an electric arc through a constricted gas jet.",
+   "s": "https://www.toolstation.com/power-tools/welding/c157"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Restraint only. Removed the SIP Weldmate range repeated on every kind (its Autoplus model stays under Multi-process welder). The brief names Lincoln, Miller, ESAB and R-Tech, but the old data holds no welder models from them and this restraint pass adds no unsourced models."
+}

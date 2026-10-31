@@ -1,0 +1,265 @@
+=========== 05_00
+YOUR SHELF: department "Jewellery making & beads" (mode mixed), shelf "Beads & stones".
+Shelf brief: Archetypes: Miyuki Delica (cylinder), Toho Treasure, Preciosa Rocailles; Czech fire-polished; shaped pressed beads (SuperDuo, Tila, Rulla, O-bead); lampwork beads (Venetian/Murano tradition); freshwater and Swarovski/Preciosa crystal pearls; Swarovski (craft-channel supply ended around 2020, to verify) and Preciosa rhinestones.
+Planned kinds (name, old ids merged in, note):
+- Seed bead | old: ['k112'] | 
+- Fire-polished glass bead | old: ['k113'] | 
+- Shaped pressed-glass bead | old: [] | 
+- Lampwork bead | old: [] | 
+- Gemstone bead | old: ['k114'] | 
+- Pearl bead | old: ['k115'] | 
+- Rhinestone and craft stone | old: ['k116'] | 
+- Craft shell assortment | old: ['k117'] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Seed bead", "n": "Seed bead", "a": "", "d": "Small uniform glass bead sold for bead weaving and stringing.", "m": [], "r": [], "s": "https://www.firemountaingems.com/beads/"}, {"target_kind": "Fire-polished glass bead", "n": "Fire-polished glass bead", "a": "", "d": "Faceted glass bead with fire-polished edges.", "m": [], "r": [], "s": "https://www.firemountaingems.com/beads/"}, {"target_kind": "Gemstone bead", "n": "Gemstone bead", "a": "", "d": "Gemstone bead drilled ready for stringing.", "m": [], "r": [], "s": "https://www.firemountaingems.com/beads/"}, {"target_kind": "Pearl bead", "n": "Pearl bead", "a": "", "d": "Pearl drilled ready for stringing.", "m": [], "r": [], "s": "https://www.firemountaingems.com/beads/"}, {"target_kind": "Rhinestone and craft stone", "n": "Rhinestone and craft stone", "a": "", "d": "Faceted glass or synthetic stone made to set or glue on.", "m": [], "r": [], "s": "https://www.firemountaingems.com/beads/"}, {"target_kind": "Craft shell assortment", "n": "Craft shell assortment", "a": "", "d": "Unsorted assortment of shells sold for crafts.", "m": [], "r": [], "s": "https://www.seashellsupply.com/shell-assortments"}]
+```
+
+---
+=========== 05_02
+YOUR SHELF: department "Jewellery making & beads" (mode mixed), shelf "Metalsmithing & beading tools".
+Shelf brief: Archetypes: Lindstrom and Wubbers pliers, Knew Concepts and Pike saw frames, Smith Little Torch, bench pin and jeweller's bench (Durston, GRS), ring mandrel; metal clay (Art Clay Silver, PMC originator); vitreous enamel (Thompson). Bead looms (Mirrix).
+Planned kinds (name, old ids merged in, note):
+- Jewellery pliers | old: ['k130'] | 
+- Jeweller's saw | old: ['k131'] | 
+- Jewellery soldering torch | old: ['k132'] | 
+- Jeweller's bench and bench pin | old: [] | 
+- Ring mandrel and jeweller's hammer | old: [] | 
+- Metal clay | old: [] | 
+- Enamelling supplies | old: [] | 
+- Bead loom | old: ['k133'] | 
+- Bead design board | old: ['k134'] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Jewellery pliers", "n": "Jewellery pliers", "a": "", "d": "Small pliers made for bending wire and closing findings.", "m": [["Supreme Pliers and Cutter Kit", "Lindstrom"], ["Naked Pliers 5-1/8 in", "Otto Frei"], ["Revere Pliers", "Revere Academy"], ["Classic Wubbers Kit of 6", "Wubbers"], ["Half Round Mandrel Wubbers Pliers Kit", "Wubbers"], ["Oval Mandrel Wubbers Pliers Kit", "Wubbers"], ["Round Mandrel Wubbers Pliers Kit", "Wubbers"], ["Square Mandrel Wubbers Pliers Kit", "Wubbers"], ["Triangle Mandrel Wubbers Pliers Kit", "Wubbers"], ["Chain-nose pliers", ""], ["Crimping pliers", ""], ["Flat-nose pliers", ""], ["Round-nose pliers", ""]], "r": [], "s": "https://www.ottofrei.com/collections/jewelry-pliers-cutters"}, {"target_kind": "Jeweller's saw", "n": "Jeweller's saw", "a": "", "d": "Fine-bladed frame saw made for cutting metal in jewellery work.", "m": [["3-Piece Miniature Saw Frame Set", "Anderson"], ["Jeweler's Saw Frame (Big Belly, Mini)", "GreenLion Studios"], ["MK4 High-Tension Jeweler's Saw Frame", "Knew Concepts"], ["MK5 Jeweler's Saw Frame", "Knew Concepts"], ["Mk.IV Heavy Duty Fret and Jeweler's Saw", "Knew Concepts"], ["Titanium Birdcage Fret Saw", "Knew Concepts"]], "r": [], "s": "https://knewconcepts.shop/collections/jewelers-saws-tools"}, {"target_kind": "Jewellery soldering torch", "n": "Jewellery soldering torch", "a": "soldering kit", "d": "Torch or kit made for soldering, brazing or annealing jewellery.", "m": [["Small Torch Kit", "Gentec"], ["Microflame Refillable Butane Torch", "Microflame"], ["ORCA Torch", "Orca Torch"], ["Micro Torch", "SFC Tools"], ["Mighty Torch", "SFC Tools"], ["Little Smith Torch 5 Tip Kit", "Smiths"], ["Little Torch Kit", "Smiths"]], "r": [], "s": "https://www.seattlefindings.com/jewelry_soldering_torches.html"}, {"target_kind": "Bead loom", "n": "Bead loom", "a": "", "d": "Frame made for weaving seed beads on warp threads.", "m": [], "r": [], "s": "https://www.firemountaingems.com/beads/"}, {"target_kind": "Bead design board", "n": "Bead design board", "a": "", "d": "Flocked tray with channels made for laying out bead designs.", "m": [], "r": [], "s": "https://www.firemountaingems.com/beads/"}]
+```
+
+---
+=========== 06_00
+YOUR SHELF: department "Pottery & sculpting" (mode mixed), shelf "Clay & modelling materials".
+Shelf brief: Clay bodies by firing range with named bodies (Potclays, Valentine, Laguna B-Mix, Standard 266, Limoges porcelain); polymer clay (Fimo, Sculpey, Cernit, Kato); plasticine/oil clay (Newplast, Plastiline, Chavant NSP, Monster Clay). Add pottery hand tools.
+Planned kinds (name, old ids merged in, note):
+- Stoneware clay | old: ['k136'] | 
+- Earthenware clay | old: ['k135'] | 
+- Porcelain clay | old: ['k137'] | 
+- Paper clay | old: ['k138'] | 
+- Polymer clay | old: ['k140'] | 
+- Air-dry clay | old: ['k139'] | 
+- Modelling clay | old: ['k141'] | Plasticine and oil-based sculpting clay.
+- Pottery and sculpting hand tools | old: [] | Ribs, loop tools, wire cutters, banding wheel (Mudtools, Kemper, DiamondCore).
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Stoneware clay", "n": "Stoneware clay", "a": "", "d": "Mid-to-high-fired dense clay body.", "m": [], "r": [], "s": "https://seattlepotterysupply.com/pages/search-by-type"}, {"target_kind": "Earthenware clay", "n": "Earthenware clay", "a": "", "d": "Low-fired clay body.", "m": [], "r": [], "s": "https://www.fredaldous.co.uk/collections/clay"}, {"target_kind": "Porcelain clay", "n": "Porcelain clay", "a": "", "d": "High-fired white translucent clay body.", "m": [], "r": [], "s": "https://seattlepotterysupply.com/pages/search-by-type"}, {"target_kind": "Paper clay", "n": "Paper clay", "a": "", "d": "Clay body mixed with paper fibre.", "m": [], "r": [], "s": "https://potterycrafts.co.uk/products/potterycrafts-grogged-body-paper-clay"}, {"target_kind": "Polymer clay", "n": "Polymer clay", "a": "", "d": "PVC-based modelling clay hardened in a home oven.", "m": [["Cernit Number One", "Cernit"], ["Liquid Sculpey", "Sculpey"], ["Original Sculpey", "Sculpey"], ["Premo Sculpey", "Sculpey"], ["Sculpey III", "Sculpey"], ["Sculpey Souffle", "Sculpey"], ["Super Sculpey", "Sculpey"], ["Fimo Effect", "Staedtler"], ["Fimo Professional", "Staedtler"], ["Fimo Soft", "Staedtler"]], "r": [["Fimo", "Staedtler"]], "s": "https://www.fredaldous.co.uk/collections/clay"}, {"target_kind": "Air-dry clay", "n": "Air-dry clay", "a": "", "d": "Clay that hardens in air without firing.", "m": [["DAS Modelling Clay", "DAS"], ["Darwi ROC", "Darwi"], ["Scola Air Drying Clay", "Scola"], ["Model Air", "Sculpey"], ["Fimo Air", "Staedtler"]], "r": [["Fimo", "Staedtler"]], "s": "https://www.fredaldous.co.uk/collections/clay"}, {"target_kind": "Modelling clay", "n": "Modelling clay", "a": "plasticine · oil-based clay", "d": "Non-hardening oil- or wax-based clay for modelling and sculpting.", "m": [], "r": [], "s": "https://www.fredaldous.co.uk/collections/clay"}]
+```
+
+---
+=========== 06_01
+YOUR SHELF: department "Pottery & sculpting" (mode mixed), shelf "Glazes & surface finishes".
+Shelf brief: Glaze archetypes are named glaze families (celadon, tenmoku, shino, ash, crackle/raku, crystalline) with commercial lines (Amaco Potter's Choice, Mayco Stroke & Coat, Coyote, Botz, Spectrum). Add kintsugi repair kit (urushi vs epoxy) with a kintsugi tradition entry.
+Planned kinds (name, old ids merged in, note):
+- Glaze | old: ['k142'] | 
+- Underglaze | old: ['k143'] | 
+- Wax resist | old: ['k144'] | 
+- Kintsugi repair kit | old: [] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Glaze", "n": "Glaze", "a": "", "d": "Glassy coating made to be fired onto ceramics.", "m": [["Stroke & Coat", "Mayco"]], "r": [], "s": "https://seattlepotterysupply.com/pages/glaze"}, {"target_kind": "Underglaze", "n": "Underglaze", "a": "", "d": "Coloured slip-based decoration applied under or without glaze.", "m": [], "r": [], "s": "https://seattlepotterysupply.com/pages/glaze"}, {"target_kind": "Wax resist", "n": "Wax resist", "a": "", "d": "Liquid wax painted on ceramics to keep glaze off.", "m": [], "r": [], "s": "https://seattlepotterysupply.com/pages/glaze"}]
+```
+
+---
+=========== 06_02
+YOUR SHELF: department "Pottery & sculpting" (mode mixed), shelf "Wheels, kilns & studio equipment".
+Shelf brief: Archetypes: Shimpo VL-Whisper, Brent CXC, kick wheels (Leach), Pacifica; kilns (Skutt, L&L, Paragon, Olympic, Nabertherm, Rohde). Kiln furniture and one spare-parts entry.
+Planned kinds (name, old ids merged in, note):
+- Potter's wheel | old: ['k145'] | 
+- Pottery kiln | old: ['k146'] | 
+- Slab roller | old: ['k147'] | 
+- Pugmill | old: ['k148'] | 
+- Kiln furniture | old: ['k149'] | 
+- Kiln spare parts | old: ['k150'] | Rename from 'Kiln element and parts'.
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Potter's wheel", "n": "Potter's wheel", "a": "", "d": "Powered or kick wheel made for throwing pots.", "m": [["Pacifica Glyde Torc 400", "Pacifica"]], "r": [], "s": "https://seattlepotterysupply.com/pages/search-wheels-by-brand"}, {"target_kind": "Pottery kiln", "n": "Pottery kiln", "a": "", "d": "Kiln made for firing clay. Fuel, loading style and chamber size vary by model.", "m": [["Olympic 1818HE", "Olympic Kilns"], ["Olympic 2318HE", "Olympic Kilns"], ["Olympic 2818HE", "Olympic Kilns"]], "r": [], "s": "https://seattlepotterysupply.com/collections/electric-kilns"}, {"target_kind": "Slab roller", "n": "Slab roller", "a": "", "d": "Machine that rolls clay into even slabs.", "m": [["Shimpo Mini Slab Roller", "Shimpo"], ["Shimpo SR-3050", "Shimpo"]], "r": [], "s": "https://seattlepotterysupply.com/collections/slab-rollers"}, {"target_kind": "Pugmill", "n": "Pugmill", "a": "", "d": "Machine that mixes clay and removes air from it.", "m": [["Shimpo NRA-04S", "Shimpo"], ["Shimpo NVS-07", "Shimpo"]], "r": [], "s": "https://seattlepotterysupply.com/collections/mixers-pug-mills"}, {"target_kind": "Kiln furniture", "n": "Kiln furniture", "a": "", "d": "Shelves, posts and stilts made to load work in a kiln.", "m": [], "r": [], "s": "https://seattlepotterysupply.com/pages/about-us"}, {"target_kind": "Kiln spare parts", "n": "Kiln element and parts", "a": "", "d": "Element, thermocouple, relay or controller made for a kiln.", "m": [], "r": [], "s": "https://seattlepotterysupply.com/pages/about-us"}]
+```
+
+---
+=========== 07_00
+YOUR SHELF: department "Glass, resin & candle making" (mode mixed), shelf "Stained glass, fusing & lampwork".
+Shelf brief: Sheet glass by maker: Bullseye, Oceanside (ex-Spectrum), Kokomo, Youghiogheny, Wissmach, Uroboros, Lamberts mouth-blown; lampwork rods Effetre/Moretti, Hot Head and Nortel torches; Toyo cutters, Glastar/Inland grinders, Paragon/Skutt fusing kilns. Add copper foil and lead came. Traditions: Tiffany copper-foil, Murano lampwork.
+Planned kinds (name, old ids merged in, note):
+- Stained-glass sheet | old: ['k163'] | Fusing glass as COE types.
+- Copper foil and lead came | old: [] | 
+- Stained-glass solder and flux | old: ['k167'] | 
+- Glass cutter | old: ['k168'] | 
+- Glass pliers | old: ['k169'] | 
+- Glass grinder | old: ['k171'] | 
+- Glass-fusing kiln | old: ['k172'] | 
+- Lampwork torch and glass rod | old: [] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Stained-glass sheet", "n": "Stained-glass sheet", "a": "", "d": "Coloured glass sheet sold for stained-glass work.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-art-glass/stained-glass/"}, {"target_kind": "Stained-glass solder and flux", "n": "Stained-glass solder and flux", "a": "", "d": "Solder and flux made for joining stained-glass pieces.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-glass-tools"}, {"target_kind": "Glass cutter", "n": "Glass cutter", "a": "", "d": "Hand tool made for scoring glass.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-glass-tools"}, {"target_kind": "Glass pliers", "n": "Glass pliers", "a": "running pliers · grozing pliers", "d": "Pliers made for breaking and nibbling scored glass.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-glass-tools"}, {"target_kind": "Glass grinder", "n": "Glass grinder", "a": "", "d": "Bench grinder made for smoothing cut stained glass.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-glass-tools"}, {"target_kind": "Glass-fusing kiln", "n": "Glass-fusing kiln", "a": "", "d": "Kiln made only for fusing and slumping glass.", "m": [["Paragon Fusion 8", "Paragon"], ["Skutt FireBox 14", "Skutt"], ["Skutt FireBox 8", "Skutt"], ["Skutt FireBox 8x6", "Skutt"], ["Skutt GM-1014", "Skutt"], ["Skutt GM-1018", "Skutt"], ["Skutt GM-1214", "Skutt"], ["Skutt GM-1227", "Skutt"], ["Skutt GM-1414", "Skutt"], ["Skutt GM-814", "Skutt"], ["Skutt GM-818", "Skutt"]], "r": [["GlassMaster", "Skutt"]], "s": "https://skutt.com/?p=76"}]
+```
+
+---
+=========== 07_01
+YOUR SHELF: department "Glass, resin & candle making" (mode mixed), shelf "Mosaic".
+Shelf brief: Archetypes: Venetian smalti (Orsoni), vitreous glass tile (Bisazza), ceramic and stone tesserae; Leponitt wheeled nippers. Traditions: Byzantine/Roman mosaic.
+Planned kinds (name, old ids merged in, note):
+- Mosaic tile | old: ['k164'] | 
+- Mosaic nippers | old: ['k170'] | 
+- Mosaic grout | old: ['k165'] | 
+- Mosaic base | old: ['k166'] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Mosaic tile", "n": "Mosaic tile", "a": "tessera", "d": "Small tile or tessera sold for mosaic work.", "m": [["Morjo", "Mosaic Art Supply"], ["Thinny Pennies", "Mosaic Art Supply"]], "r": [], "s": "https://mosaicartsupply.com/product-category/glass-mosaic-tile/"}, {"target_kind": "Mosaic nippers", "n": "Mosaic nippers", "a": "", "d": "Nippers made for shaping tile and glass tesserae.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-glass-tools"}, {"target_kind": "Mosaic grout", "n": "Mosaic grout", "a": "", "d": "Grout sold for filling the joints of mosaic work.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-glass-tools"}, {"target_kind": "Mosaic base", "n": "Mosaic base", "a": "", "d": "Backer board, mesh or form sold as the base for a mosaic.", "m": [], "r": [], "s": "https://mosaicartsupply.com/product-category/stained-glass-tools"}]
+```
+
+---
+=========== 07_02
+YOUR SHELF: department "Glass, resin & candle making" (mode mixed), shelf "Resin, moulding & casting".
+Shelf brief: Restraint plus market leaders: ArtResin, Resin Obsession, Smooth-On (Mold Star, Ecoflex), Alja-Safe; types for epoxy vs polyurethane resin.
+Planned kinds (name, old ids merged in, note):
+- Casting resin | old: ['k151'] | 
+- Mould-making rubber | old: ['k153'] | 
+- Craft mould | old: ['k152'] | 
+- Alginate moulding powder | old: ['k154'] | 
+- Casting plaster | old: ['k155'] | 
+- Plaster bandage | old: ['k156'] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Casting resin", "n": "Casting resin", "a": "", "d": "Two-part resin sold for craft casting.", "m": [["Gedeo Crystal Resin", "Gedeo"]], "r": [], "s": "https://www.fredaldous.co.uk/collections/casting-materials"}, {"target_kind": "Mould-making rubber", "n": "Mould-making rubber", "a": "silicone rubber · latex", "d": "Liquid or putty rubber sold to make flexible moulds.", "m": [], "r": [], "s": "https://www.fredaldous.co.uk/collections/mould-making"}, {"target_kind": "Craft mould", "n": "Craft mould", "a": "silicone mould", "d": "Mould made for craft casting in resin or plaster.", "m": [], "r": [], "s": "https://www.fredaldous.co.uk/collections/mould-making"}, {"target_kind": "Alginate moulding powder", "n": "Alginate moulding powder", "a": "", "d": "Seaweed-based powder mixed with water for quick life-casting moulds.", "m": [], "r": [], "s": "https://www.fredaldous.co.uk/collections/mould-making"}, {"target_kind": "Casting plaster", "n": "Casting plaster", "a": "", "d": "Plaster powder sold for craft casting and modelling.", "m": [], "r": [], "s": "https://www.fredaldous.co.uk/collections/casting-materials"}, {"target_kind": "Plaster bandage", "n": "Plaster bandage", "a": "", "d": "Gauze impregnated with plaster, sold for casting and modelling.", "m": [], "r": [], "s": "https://www.fredaldous.co.uk/collections/clay"}]
+```
+
+---
+=========== 08_00
+YOUR SHELF: department "Leather, wood & natural crafts" (mode mixed), shelf "Leather".
+Shelf brief: Tannery → named leather archetypes: Horween Chromexcel, Dublin and Shell Cordovan; Badalassi Carlo Pueblo and Minerva Box; Walpier Buttero; Conceria La Bretagna; Wickett & Craig and Hermann Oak harness/tooling; Tempesta Elbamatt. Weight and colour as `dt`. Add tannery brand entries.
+Planned kinds (name, old ids merged in, note):
+- Vegetable-tanned leather | old: ['k173'] | 
+- Chrome-tanned and combination leather | old: ['k174'] | 
+- Suede | old: ['k175'] | 
+- Hair-on hide | old: ['k176'] | 
+- Leather lace | old: ['k177'] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Vegetable-tanned leather", "n": "Vegetable-tanned leather", "a": "", "d": "Leather tanned with plant tannins, sold as hides, sides or pieces for craft.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Chrome-tanned and combination leather", "n": "Chrome-tanned leather", "a": "", "d": "Leather tanned with chromium salts, sold for craft.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Suede", "n": "Suede", "a": "", "d": "Leather finished on the flesh side to a napped surface, sold for craft.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Hair-on hide", "n": "Hair-on hide", "a": "", "d": "Tanned hide with the hair left on, sold as craft material.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Leather lace", "n": "Leather lace", "a": "", "d": "Leather cut into lacing strips, sold for stitching and lacing.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}]
+```
+
+---
+=========== 08_01
+YOUR SHELF: department "Leather, wood & natural crafts" (mode mixed), shelf "Leathercraft tools & finishes".
+Shelf brief: Archetypes: French pricking irons and diamond chisels (Vergez Blanchard, KS Blade, Amy Roke, Crimson Hide), round and skiving knives, Craftool stamps and swivel knife (Tandy) with Sheridan-style carving tradition, Fiebing's dyes, Ritza Tiger and Vinybond threads, stitching pony.
+Planned kinds (name, old ids merged in, note):
+- Leather punch and pricking iron | old: ['k178'] | 
+- Leather knife | old: [] | Round knife, head knife, skiving knife.
+- Swivel knife | old: ['k183'] | 
+- Leather stamping tool | old: ['k182'] | 
+- Edge beveller and burnisher | old: [] | 
+- Stitching pony and leather thread | old: [] | 
+- Leather dye | old: ['k180'] | 
+- Leather finish | old: ['k181'] | 
+- Leathercraft hardware | old: ['k179'] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Leather punch and pricking iron", "n": "Leather punch", "a": "", "d": "Hand tool made for punching holes in leather.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Swivel knife", "n": "Swivel knife", "a": "", "d": "Knife with a rotating barrel made for carving leather.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Leather stamping tool", "n": "Leather stamping tool", "a": "", "d": "Metal stamp struck to tool patterns into damp leather.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Leather dye", "n": "Leather dye", "a": "", "d": "Dye made for colouring leather.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Leather finish", "n": "Leather finish", "a": "", "d": "Sealer, antique or conditioner made to finish leather in leathercraft.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}, {"target_kind": "Leathercraft hardware", "n": "Leathercraft hardware", "a": "rivet · snap · buckle", "d": "Rivets, snaps, buckles and similar fittings sold loose for leatherwork.", "m": [], "r": [], "s": "https://tandyleather.com/pages/shop-categories"}]
+```
+
+---
+=========== 08_02
+YOUR SHELF: department "Leather, wood & natural crafts" (mode mixed), shelf "Basketry & chair seating".
+Shelf brief: Merge the seating materials; add basketry willow. Traditions: Somerset willow, Shaker taping, Japanese bamboo basketry, Nantucket baskets.
+Planned kinds (name, old ids merged in, note):
+- Basketry willow | old: [] | 
+- Basketry cane, reed and splint | old: ['k184', 'k189'] | 
+- Chair-seating cord and tape | old: ['k186', 'k187', 'k188'] | Seagrass, fibre rush, Shaker tape as types.
+- Cane webbing | old: ['k190'] | 
+- Raffia | old: ['k185'] | 
+- Basketry and caning tool | old: ['k191'] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Basketry cane, reed and splint", "n": "Basketry cane and reed", "a": "", "d": "Cane or reed sold for weaving baskets.", "m": [], "r": [], "s": "https://www.basketweaving.com/shopsite_sc/store/html/basket-weaving-handle-techniques.html"}, {"target_kind": "Basketry cane, reed and splint", "n": "Ash splint", "a": "", "d": "Thin strip of ash wood sold for splint basketry.", "m": [], "r": [], "s": "https://www.basketweaving.com/shopsite_sc/store/html/basket-weaving-handle-techniques.html"}, {"target_kind": "Chair-seating cord and tape", "n": "Seagrass cord", "a": "", "d": "Twisted seagrass cord sold for weaving baskets and seats.", "m": [], "r": [], "s": "https://www.basketweaving.com/shopsite_sc/store/html/basket-weaving-handle-techniques.html"}, {"target_kind": "Chair-seating cord and tape", "n": "Fibre rush", "a": "", "d": "Twisted paper cord sold for rush seating and basketry.", "m": [], "r": [], "s": "https://www.basketweaving.com/shopsite_sc/store/html/basket-weaving-handle-techniques.html"}, {"target_kind": "Chair-seating cord and tape", "n": "Shaker tape", "a": "", "d": "Woven cotton tape sold for weaving chair seats.", "m": [], "r": [], "s": "https://www.basketweaving.com/shopsite_sc/store/html/basket-weaving-handle-techniques.html"}, {"target_kind": "Cane webbing", "n": "Cane webbing", "a": "", "d": "Pre-woven cane sheet sold for seating and panels.", "m": [], "r": [], "s": "https://www.basketweaving.com/shopsite_sc/store/html/basket-weaving-handle-techniques.html"}, {"target_kind": "Raffia", "n": "Raffia", "a": "", "d": "Palm-fibre strand sold for weaving and craft.", "m": [], "r": [], "s": "https://www.natuerlich-verpacken.de/raffia-natural-gift-ribbon-250-g"}, {"target_kind": "Basketry and caning tool", "n": "Basketry and caning tool", "a": "", "d": "Packing tool, awl, reed gauge or peg made for basketry and caning.", "m": [], "r": [], "s": "http://www.caneweavingsupplies.com/product/commonwealth-basket-basketry-kit/"}]
+```
+
+---
+=========== 08_03
+YOUR SHELF: department "Leather, wood & natural crafts" (mode mixed), shelf "Flower arranging & pressing".
+Shelf brief: Home flower arranging (not trade floristry): trim OASIS SKUs to types. Add ikebana kenzan (Ikenobo, Sogetsu traditions) and flower press.
+Planned kinds (name, old ids merged in, note):
+- Kenzan (pin frog) | old: [] | 
+- Floral foam | old: ['k192'] | 
+- Florist wire | old: ['k193'] | 
+- Floral stem tape | old: ['k194'] | 
+- Floral pin | old: ['k195'] | 
+- Flower press | old: [] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Floral foam", "n": "Floral foam", "a": "", "d": "Absorbent foam made to hold stems in arrangements.", "m": [["OASIS Bio Floral Foam", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Deluxe Floral Foam Maxlife", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Ideal Floral Foam Raquette", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Instant Deluxe Floral Foam Maxlife", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Instant Floral Foam Maxlife", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Midnight Deluxe Brick", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Midnight Instant Deluxe Brick", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Midnight Standard Brick", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Noir Floral Foam", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Renewal Floral Foam", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS SEC Dry Foam", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Standard Floral Foam Maxlife", "Smithers-Oasis (OASIS Floral Products)"]], "r": [["Maxlife", "Smithers-Oasis (OASIS Floral Products)"], ["Midnight", "Smithers-Oasis (OASIS Floral Products)"]], "s": "https://fiftyflowers.com/products/oasis-designer-block"}, {"target_kind": "Florist wire", "n": "Florist wire", "a": "", "d": "Wire made for binding and supporting stems.", "m": [["OASIS Florist Wire", "Smithers-Oasis (OASIS Floral Products)"], ["OASIS Metallic Wire", "Smithers-Oasis (OASIS Floral Products)"]], "r": [], "s": "https://fiftyflowers.com/products/oasis-florist-wire-18-gauge-18-inch"}, {"target_kind": "Floral stem tape", "n": "Floral stem tape", "a": "", "d": "Stretchy waxed tape made for wrapping flower stems.", "m": [], "r": [], "s": "https://oasisfloralproducts.com/pages/know-foam"}, {"target_kind": "Floral pin", "n": "Floral pin", "a": "", "d": "U-pin or foam pin made to fix stems and moss in arrangements.", "m": [], "r": [], "s": "https://oasisfloralproducts.com/pages/know-foam"}]
+```
+
+---
+=========== 09_00
+YOUR SHELF: department "Craft tools & adhesives" (mode tier), shelf "Cutting tools & cutting machines".
+Shelf brief: Tier kinds with a few archetypes: X-Acto #1 knife with #11 blade (originator), OLFA snap-off, OLFA/Fiskars rotary cutters (rotary blades as a type), Cricut Maker/Explore, Silhouette Cameo, Brother ScanNCut; Cricut EasyPress and Siser heat presses. Add craft vinyl (Siser EasyWeed HTV, Oracal 651).
+Planned kinds (name, old ids merged in, note):
+- Craft knife | old: ['k200'] | 
+- Craft scissors | old: ['k199'] | 
+- Rotary cutter | old: ['k201', 'k202'] | Absorbs rotary cutter blades as a type.
+- Cutting mat | old: ['k203'] | 
+- Hot knife | old: ['k204'] | 
+- Craft cutting machine | old: ['k205'] | 
+- Heat press | old: ['k206'] | 
+- Craft vinyl | old: [] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Craft knife", "n": "Craft knife", "a": "hobby knife", "d": "Small replaceable-blade knife for craft cutting.", "m": [["Basic Precision Knife", "OLFA"], ["Beginner Craft Knife", "OLFA"], ["Cushion Grip Art Knife", "OLFA"], ["Designer Graphic Art Knife", "OLFA"], ["Stainless-Steel Graphics Knife", "OLFA"]], "r": [], "s": "https://olfa.com/collections/craft"}, {"target_kind": "Craft scissors", "n": "Craft scissors", "a": "", "d": "Scissors made for craft cutting.", "m": [["Orange-handled Classic Scissors", "Fiskars"], ["Precision Appliqué Scissors", "OLFA"], ["Serrated-Edge Stainless Steel Scissors", "OLFA"]], "r": [], "s": "https://www.fiskars.com/en-us/collections/scissors"}, {"target_kind": "Rotary cutter", "n": "Rotary cutter", "a": "", "d": "Wheel-bladed hand cutter for fabric and paper.", "m": [["Fiskars Stick Rotary Cutter", "Fiskars"], ["Fiskars Titanium Loop Rotary Cutter", "Fiskars"], ["Fiskars Trigger Rotary Cutter", "Fiskars"], ["Olfa Deluxe Rotary Cutter", "OLFA"], ["Olfa Ergonomic Rotary Cutter", "OLFA"], ["Olfa Quick-Change Rotary Cutter", "OLFA"], ["Olfa Rotary Circle Cutter", "OLFA"], ["Olfa Straight Handle Rotary Cutter", "OLFA"], ["Quick-Change Rotary Cutter", "OLFA"], ["Prym Ergonomic Rotary Cutter", "Prym"]], "r": [], "s": "https://cottonpatch.co.uk/acatalog/Rotary-Cutters.html"}, {"target_kind": "Rotary cutter", "n": "Rotary cutter blade", "a": "", "d": "Replacement circular blade made for a rotary cutter.", "m": [], "r": [], "s": "https://olfa.com/collections/craft"}, {"target_kind": "Cutting mat", "n": "Cutting mat", "a": "", "d": "Self-healing mat that protects the work surface during cutting.", "m": [["Fiskars Glass Mat", "Fiskars"], ["Fiskars Two-Sided Self Heal Cutting Mat", "Fiskars"], ["Olfa Double-Sided Self-Healing Rotary Mat", "OLFA"], ["Olfa Rotating Self-Healing Cutting Mat", "OLFA"]], "r": [], "s": "https://www.michaels.com/shop/papercraft/tools-adhesives/cutting-mats-crafting-surfaces?size=18%22%20x%2024%22%7C24%22%20x%2036%22"}, {"target_kind": "Hot knife", "n": "Hot knife", "a": "", "d": "Heated-blade tool for cutting foam, stencils and synthetic cord.", "m": [], "r": [], "s": "https://www.walnuthollow.com/collections/wood-burning"}, {"target_kind": "Craft cutting machine", "n": "Craft cutting machine", "a": "Cricut-type", "d": "Electronic cutter that cuts paper, vinyl and fabric from a design on screen.", "m": [["ScanNCut", "Brother"], ["ScanNCut SDX230E", "Brother"], ["Cricut Explore 4", "Cricut"], ["Cricut Explore 5", "Cricut"], ["Cricut Explore Air 2", "Cricut"], ["Cricut Joy", "Cricut"], ["Cricut Joy Xtra", "Cricut"], ["Cricut Maker 3", "Cricut"], ["Cricut Maker 4", "Cricut"], ["Cricut Venture", "Cricut"], ["Silhouette CAMEO 4", "Silhouette"]], "r": [["Explore", "Cricut"], ["Joy", "Cricut"], ["Maker", "Cricut"]], "s": "https://www.harveynorman.com.au/cameras-printers-photocentre/cricut/cricut-machines"}, {"target_kind": "Heat press", "n": "Heat press", "a": "", "d": "Press that applies heat and pressure to transfer designs onto fabric and other blanks.", "m": [["Aonsey Heat Press", "Aonsey"], ["Cricut Autopress", "Cricut"], ["Cricut EasyPress 2", "Cricut"], ["Cricut EasyPress 3", "Cricut"], ["Cricut EasyPress Mini", "Cricut"], ["Cricut EasyPress SE", "Cricut"], ["Cricut Hat Press", "Cricut"], ["Cricut Mug Press", "Cricut"], ["HTVRONT Autopress", "HTVRONT"], ["HTVRONT Heat Press", "HTVRONT"], ["Siser Craft Heat Press", "Siser"]], "r": [["EasyPress", "Cricut"]], "s": "https://www.creativebloq.com/buying-guides/best-heat-press-machine"}]
+```
+
+---
+=========== 10_00
+YOUR SHELF: department "Scale modelling & miniature painting" (mode variety), shelf "Model paints, glues & tools".
+Shelf brief: Archetypes: Tamiya Color acrylic and Extra Thin Cement, Vallejo Model Color/Model Air, Citadel (Games Workshop), Army Painter, AK Interactive, Humbrol enamel, Testors, Mr. Color/Mr. Surfacer (GSI Creos), Milliput, Mig/AK weathering. Add weathering products and hobby tools (sprue cutters: God Hand).
+Planned kinds (name, old ids merged in, note):
+- Acrylic model paint | old: ['k216'] | 
+- Enamel model paint | old: ['k217'] | 
+- Lacquer model paint | old: ['k218'] | 
+- Model primer | old: ['k219'] | 
+- Model paint thinner | old: ['k220'] | 
+- Model varnish | old: ['k221'] | 
+- Weathering products | old: [] | 
+- Model cement | old: ['k213'] | 
+- Modelling putty | old: ['k222'] | 
+- Sprue cutter and hobby tools | old: [] | 
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Acrylic model paint", "n": "Acrylic model paint", "a": "", "d": "Water-based acrylic paint made for models.", "m": [["Vallejo Model Color", "Vallejo"]], "r": [], "s": "https://www.hobbyco.com.au/collections/paints?page=2"}, {"target_kind": "Enamel model paint", "n": "Enamel model paint", "a": "", "d": "Solvent-based enamel paint made for models.", "m": [], "r": [], "s": "https://www.hobbyco.com.au/collections/paints?page=2"}, {"target_kind": "Lacquer model paint", "n": "Lacquer model paint", "a": "", "d": "Lacquer paint made for models.", "m": [["Mr. Color GGX", "Gunze"], ["Mr. Color GX", "Gunze"]], "r": [["Mr. Color", "Gunze"]], "s": "https://plastmodel.pl/en/collections/mr-hobby-gunze"}, {"target_kind": "Model primer", "n": "Model primer", "a": "surfacer", "d": "Primer or filler-primer made to prepare model surfaces for paint.", "m": [], "r": [], "s": "https://plastmodel.pl/en/collections/mr-hobby-gunze"}, {"target_kind": "Model paint thinner", "n": "Model paint thinner", "a": "", "d": "Thinner made for one model-paint chemistry.", "m": [], "r": [], "s": "https://www.hobbyco.com.au/collections/paints?page=2"}, {"target_kind": "Model varnish", "n": "Model varnish", "a": "clear coat", "d": "Clear gloss, satin or matt topcoat made for finished models.", "m": [], "r": [], "s": "https://www.hobbyco.com.au/collections/paints?page=2"}, {"target_kind": "Model cement", "n": "Model cement", "a": "", "d": "Plastic cement made for joining model parts.", "m": [["Mr. Cement Deluxe", "Gunze"], ["Mr. Cement S", "Gunze"], ["Mr. Cement SPB", "Gunze"], ["Tamiya Extra Thin Cement Quick Setting", "Tamiya"]], "r": [], "s": "https://lascalemodel.com/collections/glue-cement"}, {"target_kind": "Modelling putty", "n": "Modelling putty", "a": "", "d": "Filler putty made for model surfaces.", "m": [["Milliput", "Milliput"], ["Tamiya Putty", "Tamiya"]], "r": [], "s": "https://store.hobbyetc.com/parts/view/55307"}]
+```
+
+---
+=========== 10_01
+YOUR SHELF: department "Scale modelling & miniature painting" (mode variety), shelf "Airbrushes".
+Shelf brief: Archetypes: Iwata Eclipse/HP-CS, Revolution, Custom Micron; Badger Patriot/Renegade; Paasche VL/H; Harder & Steenbeck Infinity/Evolution; Sparmax. Compressors: Iwata Smart Jet, Sparmax, SilentAire. One spare-parts entry.
+Planned kinds (name, old ids merged in, note):
+- Airbrush | old: ['k223'] | 
+- Airbrush compressor | old: ['k224'] | 
+- Airbrush spare parts | old: ['k225', 'k226'] | Nozzles, needles, hoses as types.
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Airbrush", "n": "Airbrush", "a": "", "d": "Compressed-air spray tool made for fine painting of pictures and models.", "m": [["Badger Anthem 155", "Badger Air-Brush"], ["Badger Patriot 105", "Badger Air-Brush"], ["Badger Sotar 2020", "Badger Air-Brush"], ["Custom Micron", "Iwata"], ["Eclipse", "Iwata"], ["Hi-Line", "Iwata"], ["Iwata Custom Micron Takumi Side Feed Airbrush", "Iwata"], ["Iwata Eclipse Takumi Side Feed Airbrush", "Iwata"], ["Iwata Hi-Line Airbrush", "Iwata"], ["Iwata Neo Dual Action Airbrush", "Iwata"], ["Iwata Neo Trigger Airbrush", "Iwata"], ["Paasche Model H", "Paasche"], ["Paasche Model VL", "Paasche"]], "r": [["Neo", "Iwata"]], "s": "https://www.dickblick.com/categories/painting/airbrushing/airbrushes"}, {"target_kind": "Airbrush compressor", "n": "Airbrush compressor", "a": "", "d": "Compressor made to drive an airbrush.", "m": [["Badger Aspire (TC908)", "Badger Air-Brush"], ["Badger Aspire Pro (TC910)", "Badger Air-Brush"], ["Iwata Maxx Jet", "Iwata"], ["Iwata Neo Air Miniature Compressor", "Iwata"], ["Iwata Power Jet Lite", "Iwata"], ["Iwata Power Jet Pro", "Iwata"], ["Iwata Silver Jet", "Iwata"], ["Iwata Smart Jet", "Iwata"], ["Iwata Smart Jet Pro", "Iwata"], ["Paasche D3000R", "Paasche"], ["Paasche DA400R", "Paasche"], ["SilentAire Scorpion I", "SilentAire"], ["SilentAire Scorpion II", "SilentAire"], ["SilentAire Super Silent 20-A", "SilentAire"], ["SilentAire Super Silent DR-500", "SilentAire"], ["Sparmax AC-501X", "Sparmax"], ["Sparmax AC-66HX Arism", "Sparmax"]], "r": [], "s": "https://www.dickblick.com/categories/painting/airbrushing/compressors"}, {"target_kind": "Airbrush spare parts", "n": "Airbrush nozzle and needle", "a": "", "d": "Replacement nozzle, needle or cap made for an airbrush.", "m": [], "r": [], "s": "https://www.dickblick.com/categories/painting/airbrushing/airbrushes"}, {"target_kind": "Airbrush spare parts", "n": "Airbrush hose", "a": "", "d": "Air hose made to connect an airbrush to its compressor.", "m": [], "r": [], "s": "https://www.dickblick.com/categories/painting/airbrushing/airbrushes"}]
+```
+
+---

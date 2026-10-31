@@ -1,0 +1,367 @@
+{
+ "lead": "Personal fragrance and its kit, organised as kind (olfactive family or format) → scent archetype → version (concentration, reformulation, batch) → detail, with house, perfumer and tradition registers.",
+ "b": [
+  {
+   "m": "Concentration",
+   "v": "body mist < eau fraîche < eau de cologne < eau de toilette < eau de parfum < parfum / extrait < attar (oil)",
+   "w": "Standard perfumery naming; versions of one scent differ by concentration."
+  },
+  {
+   "m": "Reformulation and batch",
+   "v": "vintage original → reformulations → current batch (batch code)",
+   "w": "Collectors compare vintages and batch codes; IFRA restrictions drive reformulation."
+  },
+  {
+   "m": "Lineage",
+   "v": "original → flanker → clone / dupe / inspired-by",
+   "w": "Fragrantica organises flankers and community-linked clones under the original scent."
+  }
+ ],
+ "depts": [
+  {
+   "n": "Perfume",
+   "mode": "variety",
+   "note": "Scent is the archetype; concentrations, reformulations and flankers are versions. House and perfumer facts go in the registers.",
+   "b": [
+    {
+     "m": "Longevity and projection (sillage)",
+     "v": "intimate → moderate → strong",
+     "w": "Fragrantica community ratings and reviewer practice."
+    },
+    {
+     "m": "Natural vs synthetic materials",
+     "w": "Niche and artisan houses market naturals; most fine fragrance blends both."
+    },
+    {
+     "m": "Authenticity",
+     "w": "Batch codes, cellophane, cap and atomiser quality; counterfeits common for best-sellers."
+    }
+   ],
+   "s": [
+    {
+     "n": "Fine fragrance by family",
+     "web": true,
+     "brief": "Organise on the Fragrantica / Michael Edwards fragrance-wheel axis. Each family kind holds archetype scents ordered by significance: genre-defining originators first (e.g. Chanel No 5, Shalimar, Mitsouko, Chypre de Coty, Fougère Royale, Jicky, Eau Sauvage, Angel, Aventus, Acqua di Giò, CK One, Opium, Cool Water, Le Labo Santal 33, Molecule 01, Baccarat Rouge 540, Terre d'Hermès, Portrait of a Lady), then reference modern icons. Versions = EDT/EDP/parfum, reformulations, notable flankers; clones listed as linked versions with their maker. Redistribute the ~70 old k1 models (incl. its Diptyque range) into the right family kinds as archetypes/versions; drop celebrity/SKU noise with no standing. mk must match the house register; add houses (Guerlain, Chanel, Dior, Hermès, Creed, Frédéric Malle, Diptyque, Serge Lutens, Le Labo, MFK, Amouage, Byredo, Tom Ford, Lattafa/Armaf for clones…) and a perfumer register entry list (Ernest Beaux, Jacques Guerlain, Edmond Roudnitska, Germaine Cellier, Jean-Claude Ellena, Dominique Ropion, Francis Kurkdjian, Olivier Cresp, Alberto Morillas…) to the brands file. Grasse tradition entry here.",
+     "k": [
+      {
+       "n": "Floral fragrance",
+       "old": [
+        "k1"
+       ],
+       "brief": "Single floral, floral bouquet, aldehydic floral, white floral. Old k1 models are redistributed from here across the shelf."
+      },
+      {
+       "n": "Chypre fragrance",
+       "old": [],
+       "brief": "Classic, fruity, floral and leather chypres; Chypre de Coty as originator."
+      },
+      {
+       "n": "Fougère fragrance",
+       "old": [],
+       "brief": "Fougère Royale originator; aromatic fougères."
+      },
+      {
+       "n": "Amber fragrance",
+       "old": [],
+       "brief": "Formerly 'oriental': Shalimar, Opium, Obsession; spicy and soft amber."
+      },
+      {
+       "n": "Woody fragrance",
+       "old": [],
+       "brief": "Sandalwood, cedar, vetiver, iso E super / ambroxan woody."
+      },
+      {
+       "n": "Citrus & eau de cologne",
+       "old": [],
+       "brief": "Farina / 4711 colognes, hesperidic and aromatic citrus."
+      },
+      {
+       "n": "Gourmand fragrance",
+       "old": [],
+       "brief": "Angel originator; vanilla, praline, ethyl maltol."
+      },
+      {
+       "n": "Leather fragrance",
+       "old": [],
+       "brief": "Cuir de Russie, Bandit, Tabac Blond lineage."
+      },
+      {
+       "n": "Aquatic & ozonic fragrance",
+       "old": [],
+       "brief": "Calone era: New West, L'Eau d'Issey, Cool Water, Acqua di Giò."
+      },
+      {
+       "n": "Green fragrance",
+       "old": [],
+       "brief": "Vent Vert, Chanel No 19, galbanum greens."
+      },
+      {
+       "n": "Musk & skin scent",
+       "old": [],
+       "brief": "White musks, Molecule 01, Glossier You style skin scents."
+      },
+      {
+       "n": "Oud fragrance (Western niche)",
+       "old": [],
+       "brief": "Western/Arabian-house alcohol oud scents (M7, Oud Wood, Amouage, Arabian houses); oil ouds go to the attar shelf."
+      }
+     ]
+    },
+    {
+     "n": "Attar & traditional oils",
+     "web": true,
+     "brief": "Alcohol-free oil perfumes and traditional distillates. Archetypes are named traditional attars (gulab/rose of Kannauj and Taif, mitti, shamama, hina, ruh khus, majmua, musk tahara, dehn al oud origins: Hindi, Cambodi, Assam, Borneo). Makers: Kannauj distillers, Arabian houses (Ajmal, Abdul Samad Al Qurashi, Swiss Arabian, Asgharali), artisan oud distillers. Redistribute old k3 models; drop shop-only SKUs. Add tradition entries: Kannauj deg-bhapka attar distillation; Arabian oud & oil perfumery (incl. Taif rose).",
+     "k": [
+      {
+       "n": "Perfume oil",
+       "old": [
+        "k3"
+       ],
+       "brief": "Modern oil-based and roll-on perfume oils; generic oil versions of fine fragrances."
+      },
+      {
+       "n": "Attar (deg-bhapka distillate)",
+       "old": [],
+       "brief": "Kannauj attars: gulab, mitti, hina, shamama, majmua, ruh khus, kewra."
+      },
+      {
+       "n": "Oud oil (dehn al oud)",
+       "old": [],
+       "brief": "Agarwood oil by origin and distillation; aged and wild vs cultivated."
+      },
+      {
+       "n": "Rose oil & Taif rose",
+       "old": [],
+       "brief": "Taif, Bulgarian and Kannauj rose otto/attar for wearing."
+      },
+      {
+       "n": "Musk oil",
+       "old": [],
+       "brief": "White musk, musk tahara, Egyptian musk (synthetic; natural deer musk restricted)."
+      },
+      {
+       "n": "Mukhallat (blended oil)",
+       "old": [],
+       "brief": "Arabian blended oils of oud, rose, amber and musk."
+      }
+     ]
+    },
+    {
+     "n": "Hair, body & solid fragrance",
+     "web": true,
+     "brief": "Light and alternative-format fragrance. Archetypes = best-selling and cult scents (Bath & Body Works Japanese Cherry Blossom, Victoria's Secret Bombshell/Love Spell mists, Sol de Janeiro Cheirosa 62, Gisou hair perfume, Lush solids). Trim old k2's long Bath & Body Works SKU list to its icons. Solid-perfume compacts that are collectibles go to the bottles dept note.",
+     "k": [
+      {
+       "n": "Body mist",
+       "old": [
+        "k2"
+       ],
+       "brief": "Body sprays and fragrance mists, incl. hair & body mists."
+      },
+      {
+       "n": "Hair perfume",
+       "old": [
+        "k5"
+       ],
+       "brief": "Low-alcohol hair mists; house versions of fine fragrances are versions of that scent."
+      },
+      {
+       "n": "Solid perfume",
+       "old": [
+        "k4"
+       ],
+       "brief": "Wax/balm perfumes; Diptyque solid versions become versions of the scent archetype."
+      },
+      {
+       "n": "Fragrance rollerball & pen spray",
+       "old": [],
+       "brief": "Purse-size formats; one kind, formats as types."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Samples, decants & sets",
+   "mode": "mixed",
+   "note": "How enthusiasts sample and trade; scent identity stays with the Perfume archetype.",
+   "b": [
+    {
+     "m": "Authenticity of decants",
+     "w": "Decants come from third-party splitters; reputation and source bottle matter."
+    },
+    {
+     "m": "Price per millilitre",
+     "w": "Standard way the community compares samples, decants and full bottles."
+    }
+   ],
+   "s": [
+    {
+     "n": "Samples, decants & sets",
+     "web": true,
+     "brief": "Formats people collect or buy to explore: manufacturer samples, decant services, discovery sets (Le Labo, Diptyque, Maison Margiela Replica, Byredo), coffrets, collectible miniatures (parfum minis are a collecting field). Use makers/services as range entries, not SKU lists.",
+     "k": [
+      {
+       "n": "Sample vial",
+       "old": [],
+       "brief": "Manufacturer 1–2 ml dab or spray vials; card samples as type."
+      },
+      {
+       "n": "Decant",
+       "old": [],
+       "brief": "Hand-split portions in atomisers; decant services as ranges."
+      },
+      {
+       "n": "Discovery set",
+       "old": [],
+       "brief": "House sampler boxes."
+      },
+      {
+       "n": "Gift set (coffret)",
+       "old": [],
+       "brief": "Full bottle plus minis or body products."
+      },
+      {
+       "n": "Perfume miniature",
+       "old": [],
+       "brief": "Collectible minis (5–10 ml splashes), incl. vintage minis."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Bottles & atomisers",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Maker and glass",
+     "v": "pressed glass → cut crystal → art glass (Lalique, Baccarat)",
+     "w": "Auction categories for perfume bottles."
+    },
+    {
+     "m": "Condition",
+     "w": "Original stopper, label, box and residual juice affect collector value."
+    }
+   ],
+   "s": [
+    {
+     "n": "Collectible & refillable bottles",
+     "web": true,
+     "brief": "Collector bottles: archetypes are named bottle designs (Lalique for Coty, Baccarat for Guerlain Shalimar, Schiaparelli Shocking torso, Dalí for Schiaparelli, Jean Paul Gaultier torso), antique scent bottles (Georgian/Victorian, chatelaine, lay-down), Czech crystal, factices, Egyptian hand-blown attar bottles. Then practical refillable atomisers (Travalo-type, bulb atomisers). Add traditions: Czech/Bohemian perfume-bottle glass, Egyptian hand-blown glass if sourced. Note: bottles that are art glass keep a cross-link to F2.",
+     "k": [
+      {
+       "n": "Collectible perfume bottle",
+       "old": [],
+       "brief": "Designer flacons and art-glass bottles by designer and house."
+      },
+      {
+       "n": "Antique scent bottle",
+       "old": [],
+       "brief": "Pre-1920 scent bottles; period is an attribute."
+      },
+      {
+       "n": "Factice (display dummy)",
+       "old": [],
+       "brief": "Oversized store display bottles."
+      },
+      {
+       "n": "Czech crystal perfume bottle",
+       "old": [],
+       "brief": "Bohemian cut-crystal bottles with jewelled stoppers."
+      },
+      {
+       "n": "Attar bottle",
+       "old": [],
+       "brief": "Small decorative bottles for oils, incl. Egyptian blown glass and Indian itardan."
+      },
+      {
+       "n": "Refillable travel atomiser",
+       "old": [],
+       "brief": "Pocket refill sprays (pump-fill and funnel)."
+      },
+      {
+       "n": "Bulb atomiser",
+       "old": [],
+       "brief": "Tasselled puffer-bulb sprayers for vanity bottles."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Perfumery materials",
+   "mode": "mixed",
+   "note": "Materials and kit for amateur perfumers and incense appreciation; home fragrance (candles, diffusers) lives in B4 Decor.",
+   "b": [
+    {
+     "m": "Material grade",
+     "v": "fragrance oil → essential oil → absolute / CO2 → isolate",
+     "w": "Perfumery supplier grading."
+    },
+    {
+     "m": "IFRA compliance",
+     "w": "IFRA standards cap allergens and restricted materials for skin use."
+    }
+   ],
+   "s": [
+    {
+     "n": "Raw materials",
+     "web": true,
+     "brief": "Materials a hobby perfumer owns. Archetypes = key named materials (Iso E Super, Hedione, ambroxan, Galaxolide, calone, ethyl vanillin; Mysore sandalwood, orris butter, ambergris, labdanum, vetiver of Haiti). Suppliers (Perfumer's Apprentice, Pell Wall, IFF/Givaudan/Firmenich as originators) as register entries.",
+     "k": [
+      {
+       "n": "Essential oil",
+       "old": []
+      },
+      {
+       "n": "Absolute & CO2 extract",
+       "old": []
+      },
+      {
+       "n": "Aroma chemical",
+       "old": [],
+       "brief": "Synthetic isolates and captives available to hobbyists."
+      },
+      {
+       "n": "Animalic & resin material",
+       "old": [],
+       "brief": "Ambergris, castoreum, civet substitutes, labdanum, benzoin; legal status noted."
+      },
+      {
+       "n": "Perfumer's alcohol & carrier oil",
+       "old": [],
+       "brief": "Perfumer's alcohol, DPG, jojoba, fractionated coconut; one kind with types."
+      }
+     ]
+    },
+    {
+     "n": "Perfumer's tools & kits",
+     "web": true,
+     "brief": "Amateur perfumery kit: perfume organ, smelling strips, pipettes, milligram scale, beakers, perfume-making kits and courses-in-a-box.",
+     "k": [
+      {
+       "n": "Perfume organ",
+       "old": []
+      },
+      {
+       "n": "Smelling strip (mouillette)",
+       "old": []
+      },
+      {
+       "n": "Perfumery lab kit",
+       "old": [],
+       "brief": "Pipettes, scale, beakers, vials; one kind with types."
+      },
+      {
+       "n": "Perfume-making kit",
+       "old": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}

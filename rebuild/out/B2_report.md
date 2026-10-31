@@ -1,0 +1,9 @@
+# B2 Soft Furnishings — rebuild report
+
+**Brand mode:** Bedding: mixed; Curtains & blinds: tier; Cushions & covers: tier; Rugs & mats: mixed; Table & kitchen linen: mixed; Towels: mixed
+
+**Counts (before → after):** 6 → 6 departments · 68 → 78 kinds · 0 → 165 archetypes · 85 → 81 flat models · 85 → 230 models+versions · 11 → 77 brands named · register 59 brands, 37 traditions · moves out 2 · dropped kinds 0.
+
+**Sources:** 147 distinct retrieved URLs logged in work/B2/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
+
+**Worker notes:** Oriental knotted-pile rugs: k29 'Rug' became Persian rug; its construction types (woven pile, tufted) and Wilton/Axminster go to the machine-made shelf, not here. Old Persian names became archetypes; Usak became the Usha | European & world pile rugs: All five planned kinds are new (no old data). Left out: Marimekko rugs (marimekko.com returned 429, no other source fetched); Cuenca carpets (no fetched source); röllakan/rölakan flatweave and | Flatweave, hooked & folk rugs: Kept all six planned kinds (k30,k31,k35,k36,k34 merged; Navajo rug new, sourced to Wikipedia). Old flat models Kilim/Soumak/Dhurrie/Jijim became archetypes; Felt ball rug became a type. Lef | Everyday rugs: Machine-made rug is a new kind sourced to Wikipedia 'Carpet' (Wilton, Axminster, tufted, flatweave construction as types). Models are limited to IKEA (fetched IKEA SG rugs page), test picks from Bob Vila ( | Mats: All four old kinds kept with their old sources; materials and anti-fatigue mat recorded as types. Kept the single old Wellness Mats model. Meditation mat moved to Cushions per plan (not on this shelf). No web resea | Bed linen: Bedding / Bed linen. Five planned kinds kept (Sheet, Pillowcase, Duvet cover, Valance, Headboard cover); weave, fibre, flat/fitted and pillowcase styles moved into t. Cut the single Solace SKU (retail noise).  | Duvets, quilts & bedspreads: All four planned kinds kept. Duve

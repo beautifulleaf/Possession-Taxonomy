@@ -1,0 +1,53 @@
+import json, os
+K = [
+ {"n":"Chicken coop","a":"hen house · poultry house","d":"A house where a small backyard flock roosts, lays and shelters at night.",
+  "t":["plastic","wooden","metal walk-in pen","coop with integrated run","mobile coop on wheels (chicken tractor)","duck house","quail hutch","2–4 hens","up to 6 hens"],
+  "s":"https://www.omlet.us/chicken-coops",
+  "m":[["Omlet Eglu Cube","Omlet"],["Omlet Eglu Go","Omlet"],["Omlet Eglu Go Up","Omlet"],["Omlet Eglu Pro","Omlet"],["Formex Snap Lock large chicken coop","Formex"],["Petsfit outdoor chicken coop for 2-4 chickens","Petsfit"],["Aivituvin chicken coop hen house","Aivituvin"],["MEDEHOO mobile chicken coop with wheels","MEDEHOO"],["VEVOR large metal chicken coop with run","VEVOR"]]},
+ {"n":"Chicken run","a":"poultry run · hen run","d":"A fenced, usually roofed enclosure attached to or around a coop where hens spend the day.",
+  "t":["walk-in run","run attached to coop","mobile run","steel mesh","anti-tunnel skirt","weather cover or shade","extension kit"],
+  "s":"https://www.omlet.co.uk/shop/chicken_keeping/walk_in_chicken_run/",
+  "m":[["Omlet Walk In Chicken Run","Omlet"]]},
+ {"n":"Automatic coop door","a":"pop-hole door opener · automatic chicken door","d":"A battery- or mains-powered pop-hole door that opens and closes the coop by timer or light sensor.",
+  "t":["light sensor","timer","sliding door","vertical lifting door","battery","mains or USB","Wi-Fi or app control"],
+  "s":"https://www.chickens.allotment-garden.org/keeping-chickens/chicken-poultry-housing/omlet-automatic-chicken-coop-door-review-test/",
+  "m":[["Omlet Autodoor","Omlet"],["ChickenGuard Automatic Extreme Chicken Coop Door Opener","ChickenGuard"]]},
+ {"n":"Poultry feed","a":"chicken feed · layers pellets · chick crumbs","d":"Complete compound feed for chickens, sold by life stage.",
+  "t":["starter (chicks)","grower","layer","starter-grower","flock maintainer or all-flock","game-bird starter","medicated","organic or non-GMO","crumbles","pellets","mash"],
+  "s":"https://www.murdochs.com/products/pets-livestock/chicken-poultry-supplies/poultry-feed-treats/layer-feed/purina-layena-16-layer-pellets-chicken-feed/",
+  "m":[["Purina Layena 16% layer pellets","Purina"],["Purina Layena+ Omega-3","Purina"],["Purina Start & Grow medicated crumbles","Purina"],["Purina Start & Grow non-medicated chick feed","Purina"],["Purina Flock Raiser Crumbles","Purina"],["Purina Organic Starter-Grower","Purina"],["Purina Game Bird Starter 30% crumbles","Purina"],["Kalmbach All Natural 17% layer crumbles","Kalmbach Feeds"],["Kalmbach 16% Flock Maintainer","Kalmbach Feeds"],["Manna Pro chick starter grower medicated crumbles","Manna Pro Products"],["Healthy Harvest non-GMO chick starter grower crumbles","Healthy Harvest"]]},
+ {"n":"Scratch grain","a":"chicken scratch","d":"A grain mix scattered for poultry as a supplement or treat, not a complete feed.",
+  "t":["mixed scratch","cracked corn","with protein pellets"],
+  "s":"https://www.murdochs.com/products/livestock-wildlife/chickens/chicken-feed-treats/feed-supplements/country-companion-scratch-poultry-feed/",
+  "m":[["Manna Pro Scratch Grains","Manna Pro Products"],["Manna Pro 7-Grain Ultimate Scratch","Manna Pro Products"],["Manna Pro Cracked Corn with Purple Corn","Manna Pro Products"],["Nutrena Hi Pro Chicken scratch grains and protein pellets","Nutrena"],["Kruse's Super 9 Superior Scratch","Kruse's Perfection Brand"],["Country Companion Scratch","Country Companion"]]},
+ {"n":"Poultry feeder or waterer","a":"chicken feeder · chicken drinker · fount","d":"A feeder or drinker made for poultry.",
+  "t":["hanging feeder","treadle feeder","gravity port feeder","plastic fount","galvanised fount","nipple or cup drinker","heated waterer","automatic hose-fed waterer"],
+  "s":"https://eselling.animalhealthinternational.com/product/shop/poultry/feeders-waterers/feeders-parts-poultry/21272996/harris-farms-hanging-feeder-25-lb-1-pkg",
+  "m":[["Little Giant Poultry Waterer 5 gal","Little Giant"],["Little Giant Galvanized Round Hanging poultry waterer","Little Giant"],["Little Giant automatic poultry fount with hose hookup","Little Giant"],["Harris Farms hanging feeder 25 lb","Manna Pro Products"],["Harris Farms 3.5 gallon hanging poultry drinker","Harris Farms"],["Farm Innovators heated 3 gallon poultry waterer HPF-100","Farm Innovators"],["K&H Pet Products Heated Thermo-Poultry Waterer 2.5 gal","K&H Pet Products"],["RentACoop 40 lb automatic treadle chicken feeder","RentACoop"],["RentACoop Automatic Chicken Waterer 1 gal","RentACoop"],["OverEZ 50 lb gravity fed chicken feeder","OverEZ"],["OverEZ 12 gallon no-spill chicken waterer","OverEZ"],["Omlet insulated 3-gallon chicken waterer","Omlet"]]},
+ {"n":"Small egg incubator","a":"tabletop incubator · hobby incubator","d":"A small egg incubator for pet or backyard use; commercial hatchers are not here.",
+  "t":["still air","forced air (fan)","manual turning","automatic turning","humidity control","7–24 eggs","up to about 50 eggs"],
+  "s":"https://www.strombergschickens.com/table-top/brinsea-incubator-mini-model-mini-ii-advance-digital-7-egg-incubator",
+  "m":[["Brinsea Mini II Advance incubator","Brinsea"],["Brinsea Mini II EX incubator","Brinsea"],["Brinsea Mini II Eco incubator","Brinsea"],["Brinsea Maxi 24 Advance incubator","Brinsea"],["Brinsea Maxi 24 EX incubator","Brinsea"],["Brinsea Maxi 48 EX incubator","Brinsea"],["Brinsea Octagon 20 incubator","Brinsea"],["Harris Farms Nurture Right incubator","Manna Pro Products"],["Farm Innovators Still Air Digital bird incubator","Farm Innovators"]],
+  "r":[["Mini II","Brinsea"],["Maxi","Brinsea"]]},
+ {"n":"Brooder heating plate","a":"chick brooder · heat plate","d":"A heated plate on adjustable legs under which chicks keep warm, used instead of a heat lamp.",
+  "t":["12 V low-voltage","mains","adjustable legs","with cover","small (about 20 chicks)","large (35–50 chicks)"],
+  "s":"https://www.mypetchicken.com/products/ecoglow-safety-1200-chick-brooder-up-to-35-chicks",
+  "m":[["Brinsea EcoGlow Safety 600 Brooder","Brinsea"],["Brinsea EcoGlow Safety 1200 Chick Brooder","Brinsea"],["Comfort Chick Brooder","Strombergs"],["RentACoop Chick Brooder Heating Plate","RentACoop"]]},
+ {"n":"Poultry netting","a":"electric poultry net · chicken fencing net","d":"Portable plastic-twine net fencing with built-in posts that keeps hens in and foxes out, usually electrified.",
+  "t":["electric netting","plain (non-electric) netting","with gate","double-spike posts","complete kit with energiser","mains energiser","battery or solar energiser"],
+  "s":"https://rappa-rappa.dc01.gob2b.com/Products/Wire-Cable-Netting/Netting/Green-Double-spike-Poultry-Netting-WIN740",
+  "m":[["Rappa Double-Spike Poultry Netting 50m","Rappa Fencing"],["Hotline 25m poultry netting kit","Hotline Electric Fencing"]]},
+]
+kn="knowledge"
+B=[
+ {"n":"Omlet","c":"United Kingdom","f":"2004","seg":"Design-led pet and poultry housing","d":"British maker of plastic chicken coops, runs and pet housing, known for the Eglu.","sig":["Eglu","Autodoor","Walk In Chicken Run"],"s":kn},
+ {"n":"Brinsea","c":"United Kingdom","seg":"Incubators and brooders","d":"British maker of small egg incubators and chick brooders.","lines":["Mini II","Maxi","Octagon","EcoGlow"],"s":kn},
+ {"n":"Purina","c":"United States","seg":"Animal feed","d":"American animal-feed brand; its farm line includes the Layena poultry feeds.","lines":["Layena","Start & Grow","Flock Raiser"],"s":kn},
+ {"n":"ChickenGuard","seg":"Automatic coop doors","d":"Maker of battery-powered automatic chicken coop door openers.","s":"https://meyerhatchery.com/products/chickenguard-automatic-extreme-chicken-coop-door-opener"},
+ {"n":"Rappa Fencing","c":"United Kingdom","seg":"Fencing and netting","d":"British supplier of electric fencing, wire and poultry netting.","s":"https://rappa-rappa.dc01.gob2b.com/Products/Wire-Cable-Netting/Netting/Green-Double-spike-Poultry-Netting-WIN740"},
+ {"n":"Hotline Electric Fencing","seg":"Electric fencing","d":"Electric-fencing brand of the Horizont Group, selling poultry netting kits with energisers.","s":"https://hotline-fencing.co.uk/en/p/hotline-25m-poultry-netting-kit"},
+]
+notes=("Layer, grower and starter feeds merged into Poultry feed with life-stage types; 16 models cut to 11 (duplicate Layena and grower-use entries removed). Coops trimmed from 17 to 9: Omlet Eglu range kept, Amazon-marketplace metal-pen sellers (4ever2buy, Betterhood, CHIKENCOOP, HEYTOWN, PawGiant, Quictent, Xbrigh, duplicate VEVOR) cut; ducks and quail as coop types. Feeders/waterers 24 to 12 (ZenxyHoC, TGEYD, ZINZINULER, FARM-TUFF marketplace lines cut). Incubators 16 to 9 (duplicate Brinsea Mini/Maxi entries, PawsPik cut). "
+ "New kinds sourced from retrieved pages: Chicken run (Omlet Walk In), Automatic coop door (Omlet Autodoor review, ChickenGuard Extreme), Poultry netting (Rappa WIN740, Hotline kit). Electric Fencing Direct named in the brief but left out: no product page retrieved (search snippets only). Premier 1 page blocked (403), not used. Comfort Chick Brooder maker not named on the page; recorded under seller Strombergs. Brinsea and Comfort plates kept as models, no archetypes (tier shelf). No traditions.")
+out={"kinds":K,"brands":B,"traditions":[],"notes":notes}
+p='work/B10/shelves/06_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

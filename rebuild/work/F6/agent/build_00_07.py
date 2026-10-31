@@ -1,0 +1,101 @@
+from libf6a import *
+kinds=[
+K("Turquoise","Hydrated copper aluminium phosphate mineral specimen: sky-blue to green nodules, veins and rare crystals; the classic gem stone material (cut stones are under Gemstones).",FE,[
+ X("Nishapur turquoise","Classic Persian turquoise from Ma'dan near Neyshabur (Nishapur), Iran: naturally blue, turns green when heated.",W+"Turquoise",a="Persian turquoise",
+   v=[("Ma'dan, 45 km northwest of Neyshabur","","long-worked source")],dt="nodule, rough, cabochon rough"),
+ X("Sleeping Beauty turquoise","Plain sky-blue turquoise from the Sleeping Beauty mine, Globe, Arizona, mining stopped August 2012; untreated stone has risen sharply in price.",W+"Turquoise",y="2012",
+   v=[("Sleeping Beauty Mine, Globe, Arizona","2012","mining stopped")],dt="rough, cabochon, solid blue"),
+ X("Kingman turquoise","Turquoise from the Kingman mine, Arizona, still operating as of 2015.",W+"Turquoise",dt="rough, cabochon"),
+ X("Bisbee turquoise","Turquoise from the Lavender Pit, Bisbee, Arizona, a copper byproduct often with a chocolate-brown matrix; the pit closed in 1974.",W+"Turquoise",y="1974",dt="cabochon, matrix"),
+ X("Spiderweb turquoise","Nevada turquoise with limonite veining forming a web matrix.",W+"Turquoise",a="spiderweb matrix",dt="cabochon, rough"),
+ X("Sinai turquoise","Greener, more translucent turquoise from the Sinai Peninsula, among the oldest known mines.",W+"Turquoise",dt="rough"),
+ X("Cerrillos turquoise","Turquoise from Los Cerrillos, New Mexico, possibly the oldest American mines.",W+"Turquoise",dt="rough, cabochon"),
+ X("Lynch Station turquoise crystals","Rare single turquoise crystals from the Bishop mine, Lynch Station, Virginia; first found in 1912.",H+"turquoise.pdf",y="1912",dt="microcrystals on matrix"),
+],a="Persian turquoise",t=["natural untreated","stabilised","waxed or oiled","Zachery-treated","reconstituted block","dyed"]),
+K("Apatite","Calcium phosphate mineral specimen (fluorapatite): hexagonal prisms in blue, green, yellow, purple and pink, with cat's-eye gem forms.",FE,[
+ X("Gem-colour apatite","Fluorapatite crystals in green, yellow, blue-violet, pink or brown; the commonest gem colour is green.",W+"Apatite",dt="prisms, gem rough"),
+ X("Cat's-eye apatite","Chatoyant apatite usually cut as cabochons.",W+"Apatite",dt="cabochon"),
+ X("Asparagus stone","Transparent green apatite.",W+"Apatite",a="asparagus stone",dt="faceted, crystal"),
+ X("Moroxite","Blue apatite.",W+"Apatite",dt="crystals"),
+ X("Pakistani apatite","Fine apatite crystals from Chumar Bakhoor, Nagar, Gilgit, Pakistan, and near Pech, Kunar, Afghanistan.",H+"fluorapatite.pdf",dt="crystals on matrix"),
+ X("Ehrenfriedersdorf and Panasqueira apatite","Apatite crystals from Ehrenfriedersdorf (Saxony) and Panasqueira, Portugal.",H+"fluorapatite.pdf",dt="crystals"),
+ X("Maine and Ontario apatite","Apatite from the Pulsifer quarry, Mt. Apatite, Auburn, Maine, and large crystals from Renfrew County, Ontario.",H+"fluorapatite.pdf",dt="crystals"),
+],t=["gem colour","cat's-eye","crystal on matrix"]),
+K("Vivianite","Hydrated iron phosphate mineral specimen: transparent blue-green blades and rosettes that darken with light.",FE,[
+ X("Llallagua vivianite","Crystals up to 10 cm from the Siglo XX mine, Llallagua, Bolivia; transparent bottle-green crystals come from the San José vein.",W+"Vivianite",
+   v=[("Siglo XX mine, Llallagua","","crystals to 10 cm")],dt="transparent blades · cabinet"),
+ X("Cameroon vivianite","Huge vivianite crystals over one metre long found in mud at Anloua, Cameroon.",W+"Vivianite",dt="giant crystals"),
+ X("Bolivian vivianite (other mines)","Exceptional vivianite from Poopó, Avicaya, Tazna and other Bolivian mines.",H+"vivianite.pdf",dt="crystals"),
+ X("Blackbird mine vivianite","Vivianite from the Blackbird mine, Lemhi County, Idaho.",H+"vivianite.pdf",dt="crystals"),
+ X("Cornish vivianite","Vivianite from St Agnes, St Just and Kea, Cornwall.",H+"vivianite.pdf",dt="crystals"),
+ X("Kerch vivianite","Vivianite from the Kerch and Taman peninsulas.",H+"vivianite.pdf",dt="concretions"),
+],t=["blades","earthy"]),
+K("Wavellite","Hydrated aluminium phosphate mineral specimen: green radiating hemispheres and spherical clusters in rock cavities.",FE,[
+ X("Arkansas wavellite","Green radial clusters from the Mount Ida area, Avant mine and Mauldin Mountain quarries, Arkansas.",W+"Wavellite",
+   v=[("Dug Hill, Garland Co.","",""),("Mauldin Mountain quarries, Montgomery Co.","","")],dt="green hemispheres on matrix · miniature"),
+ X("Devon wavellite","Wavellite from High Down, Filleigh, Devon, the first described locality (1805, named for William Wavell).",W+"Wavellite",y="1805",dt="radial clusters"),
+ X("Bolivian wavellite","Fine wavellite from Llallagua and Oruro, Bolivia.",H+"wavellite.pdf",dt="radial sprays"),
+ X("Bihain wavellite","Large rosettes from Bihain, Belgium.",H+"wavellite.pdf",dt="large rosettes"),
+]),
+K("Variscite","Hydrated aluminium phosphate mineral specimen: green nodules and veins used as ornamental stone; also crystals.",W+"Variscite",[
+ X("Utahlite","Former name for Utah variscite, mined at Lucin, Fairfield and Snowville and cut as cabochons.",W+"Variscite",a="Utah variscite",dt="nodule, cabochon, matrix"),
+ X("Nevada variscite","Variscite from Lander and Esmeralda counties (Candelaria Hills), Nevada.",W+"Variscite",dt="nodule, cabochon"),
+ X("Spanish variscite","Historic European supply from Gavá, Palazuelo and Encinasola, Spain.",W+"Variscite",dt="nodule, beads"),
+ X("Variquoise","Marketing term for stones that may be turquoise or variscite.",W+"Variscite",dt="cabochon"),
+ X("Arkansas variscite","Variscite from Dug Hill, near Avant, Garland County, Arkansas.",H+"variscite.pdf",dt="nodules"),
+ X("Crystallised variscite","Variscite crystals from the Sapucaia pegmatite, Minas Gerais, and Nevada's Lynn district.",H+"variscite.pdf",dt="crystals"),
+]),
+K("Brazilianite","Sodium aluminium phosphate mineral specimen: yellow-green crystals from pegmatites; also cut as gems.",FE,[
+ X("Minas Gerais brazilianite","Discovered in 1944 at Conselheiro Pena and Mantena, Minas Gerais, first thought to be chrysoberyl; described 1945.",W+"Brazilianite",y="1944",
+   v=[("Córrego Frio pegmatite","",""),("Conselheiro Pena and Mantena","1944","discovery")],dt="yellow-green crystals · thumbnail to cabinet"),
+ X("New Hampshire brazilianite","Brazilianite from the Palermo and Charles Davis mines, Grafton County, New Hampshire.",W+"Brazilianite",dt="crystals"),
+ X("Rwanda brazilianite","Brazilianite from the Buranga pegmatite near Gatumba, Rwanda.",H+"brazilianite.pdf",dt="crystals"),
+ X("Paraíba and Rio Grande do Norte brazilianite","Brazilianite from Alto Patrimônio, Paraíba, and Boqueirão del Parelhas, Rio Grande do Norte.",H+"brazilianite.pdf",dt="crystals"),
+]),
+K("Lazulite","Magnesium iron aluminium phosphate mineral specimen: azure-blue crystals and masses.",FE,[
+ X("Austrian lazulite","Lazulite from Freßnitzgraben, Krieglach (type locality, described 1795), and Werfen, Salzburg.",W+"Lazulite",y="1795",
+   v=[("Freßnitzgraben, Krieglach","1795","type locality"),("Höllgraben, Werfen","","well-crystallised")],dt="blue crystals"),
+ X("Graves Mountain lazulite","Large lazulite crystals from Graves Mountain, Lincoln County, Georgia.",H+"lazulite.pdf",dt="large crystals"),
+ X("Chilas lazulite","Fine gemmy lazulite crystals from Chilas, near Nanga Parbat, Pakistan.",H+"lazulite.pdf",dt="gemmy crystals"),
+ X("Hålsjöberg lazulite","Very large lazulite crystals from Hålsjöberg, Värmland, Sweden.",H+"lazulite.pdf",dt="large crystals"),
+ X("Scorzalite","Darker, iron-richer end member of the lazulite series.",W+"Lazulite",dt="dark blue crystals"),
+]),
+K("Torbernite","Hydrated copper uranyl phosphate mineral specimen: emerald-green square plates; radioactive.",W+"Torbernite",[
+ X("Mashamba West torbernite","Torbernite from the Mashamba West mine, Kolwezi, Katanga, Congo.",W+"Torbernite",dt="green plates · radioactive"),
+ X("Johanngeorgenstadt torbernite","Type-locality torbernite from the Georg Wagsfort mine, Johanngeorgenstadt, Saxony; named by Werner in 1780.",W+"Torbernite",y="1780",dt="plates · radioactive"),
+ X("French torbernite","Torbernite from Margabal, Les Montmins and Brest-area quarries, France.",W+"Torbernite",dt="plates · radioactive"),
+ X("Metatorbernite","Torbernite dehydrated to eight water molecules on withering or heating above 75 °C.",W+"Torbernite",dt="crumbling plates"),
+],t=["radioactive: keep in an airtight jar"]),
+K("Ludlamite","Hydrated iron magnesium phosphate mineral specimen: bright green tabular crystals.",FE,[
+ X("Blackbird mine ludlamite","Large ludlamite crystals from the Blackbird mine, Lemhi County, Idaho.",H+"ludlamite.pdf",dt="large crystals"),
+ X("Santa Eulalia ludlamite","Large crystals from the San Antonio mine, Santa Eulalia, Chihuahua.",H+"ludlamite.pdf",dt="large crystals"),
+ X("Cornish and Bavarian ludlamite","Ludlamite from Wheal Jane (Kea) and Hagendorf, Bavaria.",H+"ludlamite.pdf",dt="crystals"),
+ X("Bolivian ludlamite","Fine crystals from Morococala and Huanuni, Oruro.",H+"ludlamite.pdf",dt="crystals"),
+]),
+K("Strengite","Hydrated iron phosphate mineral specimen: pink to violet spheres and crystals.",FE,[
+ X("Indian Mountain strengite","Large strengite crystals from Indian Mountain, Cherokee County, Alabama.",H+"strengite.pdf",dt="large crystals"),
+ X("Hessian strengite","Strengite from the Eleonore and Rotläufchen mines near Giessen, Hesse.",H+"strengite.pdf",dt="spherical aggregates"),
+ X("Sapucaia strengite","Strengite from the Sapucaia pegmatite, Minas Gerais.",H+"strengite.pdf",dt="crystals"),
+ X("Hagendorf strengite","Strengite from Hagendorf, Bavaria.",H+"strengite.pdf",dt="crystals"),
+]),
+K("Phosphosiderite","Hydrated iron phosphate mineral specimen: pink to violet crusts and small crystals.",FE,[
+ X("Bull Moose phosphosiderite","Large crystals from the Bull Moose mine, Custer, South Dakota.",H+"phosphosiderite.pdf",dt="crystals"),
+ X("Pala phosphosiderite","Large crystals from the Stewart mine, Pala, California.",H+"phosphosiderite.pdf",dt="crystals"),
+ X("Hagendorf phosphosiderite","Phosphosiderite from Hagendorf and the Kreuzberg, Pleystein, Bavaria.",H+"phosphosiderite.pdf",dt="crusts"),
+]),
+K("Libethenite","Copper phosphate hydroxide mineral specimen: dark olive-green crystals, named for Ľubietová.",FE,[
+ X("Rokana libethenite","Very large libethenite crystals from the Rokana mine, Kitwe, and Chingola, Zambia.",H+"libethenite.pdf",dt="large crystals"),
+ X("Ľubietová libethenite","Type-locality libethenite from Ľubietová (Libethen), Slovakia.",H+"libethenite.pdf",dt="crystals"),
+ X("Cornish libethenite","Good libethenite crystals from Wheal Phoenix, Calstock and Illogan, Cornwall.",H+"libethenite.pdf",dt="crystals"),
+ X("Miguel Vacas libethenite","Libethenite from the Miguel Vacas mine, Vila Viçosa, Portugal.",H+"libethenite.pdf",dt="crystals"),
+]),
+K("Pseudomalachite","Copper phosphate hydroxide mineral specimen: dark green botryoidal crusts that resemble malachite.",FE,[
+ X("Virneberg pseudomalachite","Rich specimens from Virneberg, near Rheinbreitbach, Rhineland-Palatinate.",H+"pseudomalachite.pdf",dt="botryoidal crusts"),
+ X("Katanga pseudomalachite","Pseudomalachite from Kakanda and M'sesa, Katanga, Congo.",H+"pseudomalachite.pdf",dt="crusts"),
+ X("Nizhny Tagil pseudomalachite","Pseudomalachite from Nizhni Tagil and Bogoslovsk, Urals.",H+"pseudomalachite.pdf",dt="crusts"),
+ X("Burra Burra pseudomalachite","Rich examples from the West Bogan mine, New South Wales, and Burra Burra, South Australia.",H+"pseudomalachite.pdf",dt="crusts"),
+]),
+]
+notes=("All 13 planned kinds kept. Handbook of Mineralogy has no apatite.pdf, so fluorapatite.pdf is used for Apatite; torbernite.pdf returned 404 so Torbernite relies on Wikipedia. "
+ "Sources: HOM distribution text (pdftotext) and Wikipedia mineral articles. No brands or traditions. Mexican cave blue apatite not on fetched page so left out.")
+finish("00_07",kinds,notes)

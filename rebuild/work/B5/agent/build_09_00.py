@@ -1,0 +1,99 @@
+import json, os
+W = 'https://en.wikipedia.org/wiki/'
+kinds = [
+ {"n": "Food storage container", "a": "storage box · lunch tub · Tupperware (generic) · meal-prep container",
+  "d": "Lidded container for keeping leftovers and prepared food in the fridge, freezer or cupboard.",
+  "t": ["plastic (polypropylene, Tritan)", "glass (tempered soda-lime, borosilicate)", "stainless steel", "silicone bag", "snap-on or latching lid", "push-on lid", "vented microwave lid", "nesting set", "meal-prep compartments"],
+  "s": "https://pyrexhome.com/products/px10085",
+  "x": [
+   {"n": "Tupperware Wonder Bowl", "a": "Wonderlier bowl · Wonder Bowl", "d": "Polyethylene bowl with Earl Tupper's double-sealed 'burping' lid; the first Tupperware product and the origin of party-plan selling.",
+    "mk": "Tupperware", "y": "1946", "s": "https://www.smithsonianmag.com/smithsonian-institution/story-brownie-wise-ingenious-marketer-behind-tupperware-party-180968658/",
+    "v": [{"n": "Wonder Bowl", "mk": "Tupperware", "y": "1946", "d": "Original bowl, sold for 39 cents."},
+          {"n": "Double-sealed lid (US patent 2,487,400)", "mk": "Tupperware", "y": "1947", "d": "Two-step airtight seal patented by Tupper."},
+          {"n": "Wonderlier three-piece set", "mk": "Tupperware", "y": "later", "d": "Successor nesting bowl set."}],
+    "dt": "bowl sizes · nesting sets · lid colour"},
+   {"n": "Lock & Lock four-sided container", "a": "LocknLock · Lock&Lock Classic", "d": "Plastic box whose lid latches on all four sides over a seal, making it airtight; the pattern behind most latching food boxes.",
+    "mk": "Lock & Lock", "y": "1998", "s": "https://locknlock.com/eng/story/news/id/510",
+    "dt": "rectangle, square or round · plastic or glass · sizes"},
+   {"n": "Pyrex glass storage", "a": "Pyrex Simply Store · Pyrex Ultimate", "d": "Tempered-glass bowls and dishes with snap-on lids that go from fridge or freezer to microwave.",
+    "mk": "Pyrex", "y": "current", "s": "https://pyrexhome.com/products/pyrex-8-piece-glass-food-storage-container-set-with-red-lids",
+    "v": [{"n": "Simply Store", "mk": "Pyrex", "y": "current", "d": "Tempered glass with BPA-free plastic lids; microwave, dishwasher and freezer safe."},
+          {"n": "Ultimate Glass Storage Set (PX10085)", "mk": "Pyrex", "y": "current", "d": "Glass lids with silicone rim; airtight and safe in a preheated oven."}],
+    "dt": "round or rectangular · 1–7 cups · plastic or glass lid · lid colour"},
+   {"n": "Sistema KLIP IT", "a": "Sistema · Klipo", "d": "BPA-free plastic box with clip-locking lid from New Zealand, widely sold for lunches and leftovers.",
+    "mk": "Sistema", "y": "1987 (company)", "s": W + "Sistema_Plastics",
+    "dt": "sizes · rectangle or round · coloured clips"},
+   {"n": "Rubbermaid Brilliance", "a": "Brilliance", "d": "Clear, stain-resistant container with latching lid sold as 100 percent leak-proof; vents allow microwaving with the lid on.",
+    "mk": "Rubbermaid", "y": "2010s", "s": "https://www.supermarketnews.com/nonfood-pharmacy/rubbermaid-launches-brilliance-containers",
+    "v": [{"n": "Original five sizes", "mk": "Rubbermaid", "y": "launch", "d": "Mini 0.5, Small 1.3, Medium 3.2, Medium Deep 4.7 and Large 9.6 cups."}],
+    "dt": "0.5–9.6 cups · plastic or glass base"},
+   {"n": "Stasher bag", "a": "Stasher silicone bag", "d": "Reusable self-sealing bag of platinum silicone that replaces single-use zip bags.",
+    "mk": "Stasher", "y": "2016", "s": W + "Kat_Nouri",
+    "dt": "sandwich to half-gallon sizes · stand-up or flat · colour"}
+  ],
+  "m": [["Ultimate Glass Storage Set", "Pyrex"]]},
+ {"n": "Kitchen canister", "a": "storage jar · dry-goods container · pantry container",
+  "d": "Lidded jar or box for keeping dry goods such as flour, sugar, pasta, tea or coffee on the counter or in the pantry.",
+  "t": ["glass", "ceramic", "stainless steel or tin", "clear plastic", "airtight push-button lid", "clip-top (swing) lid", "bamboo or wooden lid", "labelled set"],
+  "s": "https://www.wikidata.org/wiki/Q17175548",
+  "x": [
+   {"n": "OXO POP container", "a": "OXO Good Grips POP", "d": "Stackable clear square or rectangular box whose push-button lid seals airtight; a pantry-organising favourite.",
+    "mk": "OXO", "y": "current", "s": "https://m.johnlewis.com/oxo-pop-square-short-kitchen-storage-container-1l-clear/p4087185",
+    "dt": "square, rectangle or round · short to tall · 1 L upwards"},
+   {"n": "Weck jar", "a": "WECK · tulip jar", "d": "German glass jar with glass lid, rubber ring and steel clips; used for preserving and as a dry-goods canister (see Preserving jar).",
+    "mk": "Weck", "y": "1900 (company)", "s": W + "Weck_jar",
+    "dt": "shapes and sizes · strawberry logo · clips or wooden lid"}
+  ]},
+ {"n": "Spice jar and rack", "a": "spice container · spice rack · spice carousel · spice drawer insert",
+  "d": "Small jars for ground and whole spices and the rack, carousel or drawer insert that holds them.",
+  "t": ["glass jar", "tin", "shaker or pour lid", "wall rack", "carousel (rotating)", "tiered shelf", "drawer insert", "magnetic tins"],
+  "s": "https://www.wikidata.org/wiki/Q20014903"},
+ {"n": "Bread bin", "a": "breadbox · bread crock",
+  "d": "Container that keeps bread at room temperature, balancing airflow against drying and pests.",
+  "t": ["metal", "wood or bamboo", "enamel", "ceramic crock", "roll-top", "fall-front", "single or double loaf"],
+  "s": W + "Bread_bin",
+  "x": [
+   {"n": "Brabantia Fall Front bread bin", "a": "Brabantia bread bin", "d": "Steel bread bin with magnetic front flap and flat top for canisters; Brabantia also makes a Roll Top.",
+    "mk": "Brabantia", "y": "current", "s": "https://www.brabantia.com/int_en/fall-front-bread-bin-regular-matt-steel/",
+    "v": [{"n": "Fall Front (regular, 18 L)", "mk": "Brabantia", "y": "current", "d": "Holds two loaves; white, matt steel, brilliant steel or matt black."},
+          {"n": "Roll Top", "mk": "Brabantia", "y": "current", "d": "Classic roll-top shape."}],
+    "dt": "fall-front or roll-top · capacity · finish"}
+  ]},
+ {"n": "Reusable food wrap", "a": "beeswax wrap · wax wrap · silicone stretch lid",
+  "d": "Reusable alternative to cling film: wax-coated cloth moulded by hand warmth, or a stretchy silicone cover.",
+  "t": ["beeswax-coated cotton (with rosin and jojoba oil)", "plant-wax (vegan) wrap", "silicone stretch lid", "fabric bowl cover", "sandwich wrap"],
+  "s": W + "Beeswax_wrap"}
+]
+brands = [
+ {"n": "Tupperware", "c": "United States", "f": "1938", "seg": "plastic food storage, party-plan sales", "d": "Earl Tupper's plastics company whose sealed bowls were sold through home parties; brand bought by Party Products LLC in 2024 after Chapter 11.",
+  "lines": ["Wonderlier bowls"], "eras": ["Earl Tupper 1938–1958", "Rexall from 1958", "Tupperware Brands 2005–2024", "Party Products LLC from 2024"],
+  "sig": ["Tupperware Wonder Bowl"], "sc": ["home parties", "leftovers"], "rel": ["Rubbermaid"], "s": W + "Tupperware_Brands"},
+ {"n": "Pyrex", "c": "United States", "f": "1915", "seg": "glass ovenware and storage", "d": "Corning's heat-resistant glassware brand, borosilicate at first and tempered soda-lime in most US kitchenware since the mid-20th century.",
+  "lines": ["Simply Store", "Ultimate"], "eras": ["Corning 1915–1998", "World Kitchen / Corelle Brands 1998–2019", "Instant Brands 2019–2024", "Anchor Hocking from 2024 (US)"],
+  "sig": ["Pyrex glass storage"], "sc": ["baking", "leftovers"], "rel": ["Anchor Hocking"], "s": W + "Pyrex"},
+ {"n": "Rubbermaid", "c": "United States", "f": "1920", "seg": "mass-market housewares", "d": "Ohio housewares maker best known for plastic food storage containers; part of Newell Brands since 1999.",
+  "lines": ["Brilliance"], "eras": ["Wooster Rubber Company from 1920", "Newell from 1999"], "sig": ["Rubbermaid Brilliance"], "sc": ["leftovers", "meal prep"], "rel": ["Sistema", "Tupperware"], "s": W + "Rubbermaid"},
+ {"n": "Lock & Lock", "c": "South Korea", "f": "1978", "seg": "airtight food storage and kitchenware", "d": "Seoul company that launched its four-side locking airtight container in 1998 and leads that category in Korea.",
+  "lines": ["four-sided containers", "cookware"], "eras": [], "sig": ["Lock & Lock four-sided container"], "sc": ["leftovers"], "rel": ["Sistema"], "s": "https://en.wikipedia.org/wiki/Lock%26Lock"},
+ {"n": "Sistema", "c": "New Zealand", "f": "1987", "seg": "plastic food storage", "d": "Brendan Lindsay's maker of BPA-free storage boxes, bought by Newell Brands in 2017.",
+  "lines": ["KLIP IT", "Klipo"], "eras": ["Brendan Lindsay 1987–2017", "Newell Brands from 2017"], "sig": ["Sistema KLIP IT"], "sc": ["lunch", "leftovers"], "rel": ["Rubbermaid"], "s": W + "Sistema_Plastics"},
+ {"n": "OXO", "c": "United States", "f": "1990", "seg": "kitchen tools and storage", "d": "Sam Farber's Good Grips kitchen-tool brand, owned by Helen of Troy since 2004.",
+  "lines": ["Good Grips", "POP"], "eras": ["Farber 1990–2004", "Helen of Troy from 2004"], "sig": ["OXO POP container"], "sc": ["pantry"], "rel": [], "s": "https://en.wikipedia.org/wiki/OXO_(kitchen_utensils_brand)"},
+ {"n": "Brabantia", "c": "Netherlands", "f": "1919", "seg": "housewares (bins, laundry, food storage)", "d": "Dutch housewares maker, founded as sheet-metal firm Van Elderen & Co, known for pedal bins and bread bins.",
+  "lines": ["Fall Front", "Roll Top", "pedal bins"], "eras": [], "sig": ["Brabantia Fall Front bread bin"], "sc": ["kitchen counter"], "rel": [], "s": W + "Brabantia"},
+ {"n": "Weck", "c": "Germany", "f": "1900", "seg": "preserving jars", "d": "J. WECK company of Johann Carl Weck and George Van Eyck, making Rempel's clip-sealed glass jar under a strawberry logo.",
+  "lines": ["Weck jars"], "eras": [], "sig": ["Weck jar"], "sc": ["preserving", "pantry"], "rel": [], "s": W + "Weck_jar"},
+ {"n": "Stasher", "c": "United States", "f": "2016", "seg": "reusable silicone bags", "d": "Kat Nouri's platinum-silicone storage bag brand, bought by S. C. Johnson in December 2019.",
+  "lines": ["Stasher bags"], "eras": ["Kat Nouri 2016–2019", "S. C. Johnson from 2019"], "sig": ["Stasher bag"], "sc": ["lunch", "zero waste"], "rel": [], "s": W + "Kat_Nouri"}
+]
+notes = ("Shelf rebuilt as 5 kinds (1 old kind k91 Food storage container kept with its old source and model; 4 new: Kitchen canister, Spice jar and rack, Bread bin, Reusable food wrap), "
+ "10 archetypes, 9 brands, no traditions (no artisan tradition matters here). Weck jar placed under Kitchen canister and should cross-link to Preserving jar. "
+ "Left out: Wonderlier/Bell tumbler dates beyond the Smithsonian page (other sources conflict 1946/1947/1949); Rubbermaid Brilliance exact launch year (sources differ, given as 2010s); "
+ "OXO POP launch year and POP 2.0 (oxo.com blocked, only a retailer page retrieved); Lock & Lock founder name (romanisation conflict, not on fetched page); "
+ "beeswax-wrap brands (Bee's Wrap, Abeego) as archetypes, kept as a type only; spice-rack archetypes such as Digsmed wheels (no page retrieved) so that kind has no models; "
+ "disposable cling film and zip bags left out as consumables.")
+out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
+p = 'work/B5/shelves/09_00.json'
+json.dump(out, open(p + '.tmp', 'w'), ensure_ascii=False, indent=1)
+os.replace(p + '.tmp', p)
+print('written')

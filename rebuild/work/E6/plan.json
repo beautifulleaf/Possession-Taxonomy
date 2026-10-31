@@ -1,0 +1,931 @@
+{
+ "lead": "Instruments a person owns to look at the sky, nature and the very small, and to measure weather and the world at home: telescopes and their mounts and accessories, binoculars and night optics, microscopes and magnifiers, weather and Earth instruments, sky models and historic instruments, and a home and hobby lab; organised by what you observe, with icons as archetypes at the enthusiast end and restraint at the utility end.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Telescopes",
+   "mode": "variety",
+   "note": "Organised by optical design; Dobsonian, apochromatic refractor and SCT are archetypes within the designs, not separate kinds.",
+   "b": [
+    {
+     "m": "Aperture",
+     "v": "mm or inches of objective or mirror diameter",
+     "w": "Aperture sets light grasp and resolution; every astronomy buying guide ranks it first."
+    },
+    {
+     "m": "Optical quality",
+     "v": "achromat < ED doublet < apochromatic triplet/quadruplet (FPL-53, fluorite); mirror figure and Strehl ratio",
+     "w": "Colour correction and figure separate premium makers (Takahashi, Tele Vue, Astro-Physics) from mass market."
+    },
+    {
+     "m": "Focal ratio and use",
+     "v": "fast f/2–f/5 for imaging and wide fields; slow f/8–f/15 for planets",
+     "w": "Design choice follows target: deep sky imaging vs visual planetary."
+    },
+    {
+     "m": "Compatibility",
+     "v": "1.25 in / 2 in eyepiece barrels; Vixen or Losmandy dovetail; T-thread M42 and M48 back focus",
+     "w": "Standard interfaces decide which mounts, eyepieces and cameras fit."
+    },
+    {
+     "m": "Portability and setup",
+     "v": "tube weight; grab-and-go vs observatory",
+     "w": "The telescope used most is the one carried out most; community advice."
+    }
+   ],
+   "s": [
+    {
+     "n": "Refractors & reflectors",
+     "web": true,
+     "brief": "Archetypes by significance. Refractor: Takahashi FSQ and FC/FOA series, Tele Vue NP101/Genesis line, Astro-Physics Starfire, William Optics RedCat and Zenithstar, Sky-Watcher Evostar/Esprit, classic achromats (Unitron, Vixen); versions are generations. Newtonian: the Dobsonian (John Dobson, Coulter Odyssey, Orion SkyQuest XT, Sky-Watcher Flextube collapsible, Obsession truss Dob), tabletop Dob (Heritage/Library Telescope), equatorial Newtonian and imaging Newtonian astrograph (types). Cassegrain: classical and Ritchey–Chrétien (GSO/Astro-Tech RC, Takahashi Mewlon Dall–Kirkham). Detail axes: aperture, focal ratio, glass, tube material. Trim mass-market starter SKUs to a handful of reference models.",
+     "k": [
+      {
+       "n": "Refractor telescope",
+       "old": [
+        "k8"
+       ]
+      },
+      {
+       "n": "Newtonian & Dobsonian telescope",
+       "old": [
+        "k9"
+       ],
+       "brief": "Dobsonian is the lead archetype; tabletop and truss Dobs are its versions."
+      },
+      {
+       "n": "Cassegrain telescope",
+       "old": [
+        "k10"
+       ],
+       "brief": "Types: classical, Ritchey–Chrétien, Dall–Kirkham."
+      }
+     ]
+    },
+    {
+     "n": "Catadioptric & smart telescopes",
+     "web": true,
+     "brief": "SCT: Celestron C8 (orange tube 1970 originator), C11/C14, EdgeHD, NexStar SE and CPC, Meade LX200/LX90 and ACF. Maksutov: Questar 3.5 (icon), Celestron C90, Sky-Watcher Skymax, Intes/Intes-Micro. Schmidt astrograph: Celestron RASA, historic Schmidt camera. Smart telescope: Unistellar eVscope/Odyssey, Vaonis Stellina/Vespera, ZWO Seestar, Dwarflab DWARF, Celestron Origin. Detail: aperture, optical tube vs computerised fork package, GoTo system.",
+     "k": [
+      {
+       "n": "Schmidt-Cassegrain telescope",
+       "old": [
+        "k11"
+       ]
+      },
+      {
+       "n": "Maksutov-Cassegrain telescope",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Schmidt astrograph",
+       "old": [
+        "k13"
+       ]
+      },
+      {
+       "n": "Smart telescope",
+       "old": [
+        "k14"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Solar observing",
+     "web": true,
+     "brief": "Dedicated hydrogen-alpha solar telescopes: Coronado PST (icon) and SolarMax, Lunt LS series, DayStar Quark (eyepiece filter, type). White-light solar filters: Baader AstroSolar film, Thousand Oaks glass. Eclipse glasses: kind with no models, note ISO 12312-2 standard as the quality criterion. Herschel wedge and Ca-K as types of solar filter.",
+     "k": [
+      {
+       "n": "Solar telescope",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Solar filter",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "Eclipse glasses",
+       "old": [
+        "k30"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Telescope mounts & accessories",
+   "mode": "mixed",
+   "note": "Owners swap and upgrade these parts, so they keep kind-level detail; mainstream accessories are tier, premium eyepieces and mounts are variety.",
+   "b": [
+    {
+     "m": "Payload capacity",
+     "v": "kg rated vs kg carried (keep imaging load near half the rating)",
+     "w": "Standard astrophotography advice; overloaded mounts track poorly."
+    },
+    {
+     "m": "Tracking and GoTo accuracy",
+     "v": "periodic error in arcseconds; strain-wave vs worm gear",
+     "w": "Decides whether long-exposure imaging works."
+    },
+    {
+     "m": "Eyepiece field and eye relief",
+     "v": "apparent field 50°–110°; eye relief mm",
+     "w": "The terms eyepiece makers and reviewers compare (Tele Vue, Explore Scientific, Baader)."
+    },
+    {
+     "m": "Camera sensor",
+     "v": "sensor size, pixel size, cooled or uncooled, mono or colour",
+     "w": "Matches camera to focal length and target."
+    }
+   ],
+   "s": [
+    {
+     "n": "Mounts & tripods",
+     "web": true,
+     "brief": "Mount archetypes by significance: German equatorial (Losmandy G11, Sky-Watcher EQ6-R/HEQ5, Celestron CGEM/CGX, iOptron CEM, Astro-Physics Mach2/1100, 10Micron, Software Bisque Paramount), strain-wave/harmonic (ZWO AM5, iOptron HEM, Rainbow Astro), alt-az (Sky-Watcher AZ-GTi, Vixen Porta), Dobsonian base, fork. Star tracker as new kind (Sky-Watcher Star Adventurer, iOptron SkyGuider, Move Shoot Move). Merge counterweight and tube rings into one 'Mount hardware' kind with types counterweight, tube rings, dovetail bar (Vixen/Losmandy), pier extension. Tripod, wedge and polar scope: trim to reference makers (Berlebach, Milburn, QHY PoleMaster, iPolar).",
+     "k": [
+      {
+       "n": "Telescope mount",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Star tracker",
+       "old": [],
+       "brief": "Portable camera tracking mount; new kind."
+      },
+      {
+       "n": "Telescope tripod",
+       "old": [
+        "k17"
+       ]
+      },
+      {
+       "n": "Equatorial wedge",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Polar scope",
+       "old": [
+        "k21"
+       ],
+       "brief": "Types: optical polar scope, electronic polar camera."
+      },
+      {
+       "n": "Mount hardware",
+       "old": [
+        "k19",
+        "k20"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Eyepieces & visual accessories",
+     "web": true,
+     "brief": "Eyepiece archetypes in order: Plössl, orthoscopic (Abbe, Baader Classic Ortho), Tele Vue Nagler (1982 originator of ultra-wide) with types/generations, Panoptic, Delos, Ethos, Explore Scientific 82°/100°, Pentax XW, Baader Morpheus/Hyperion, zoom eyepieces (Baader Hyperion Zoom, Leica ASPH zoom). Barlow and Tele Vue Powermate. Finder: Telrad, red-dot, RACI finderscope. Focuser: Crayford, rack-and-pinion, Feather Touch (Starlight Instruments), Moonlite. New kinds: star diagonal (mirror/prism, dielectric), binoviewer (Baader Maxbright, Denkmeier), collimator (Cheshire, laser, autocollimator). Dew shield gets types heater strip and dew controller.",
+     "k": [
+      {
+       "n": "Telescope eyepiece",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Barlow lens",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Star diagonal",
+       "old": []
+      },
+      {
+       "n": "Binoviewer",
+       "old": []
+      },
+      {
+       "n": "Telescope finder",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Telescope focuser",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "Collimator",
+       "old": []
+      },
+      {
+       "n": "Dew shield & heater",
+       "old": [
+        "k27"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Astrophotography & observatory",
+     "web": true,
+     "brief": "Astronomy camera archetypes: dedicated cooled CMOS (ZWO ASI Pro, QHYCCD, Player One), planetary cameras, guide cameras (type), classic CCD (SBIG ST series) as historic versions. Filters: light-pollution/broadband (IDAS, Optolong L-Pro), narrowband (Astrodon, Chroma, Baader, Antlia), dual-band (Optolong L-eXtreme). New kinds: filter wheel (ZWO EFW, Starlight Xpress), astrophotography controller (ZWO ASIAIR, StellarMate, PrimaLuceLab Eagle). Camera adapter: T-ring, off-axis guider and field flattener as types. Focus motor: ZWO EAF, PegasusAstro FocusCube, Primaluce Sesto Senso. Cloud sensor and sky-quality meter (Unihedron SQM, Lunatico AAG CloudWatcher) stay here as observatory gear.",
+     "k": [
+      {
+       "n": "Astronomy camera",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Astronomical filter",
+       "old": [
+        "k28"
+       ]
+      },
+      {
+       "n": "Filter wheel",
+       "old": []
+      },
+      {
+       "n": "Telescope camera adapter",
+       "old": [
+        "k107"
+       ]
+      },
+      {
+       "n": "Focus motor",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Astrophotography controller",
+       "old": []
+      },
+      {
+       "n": "Cloud sensor",
+       "old": [
+        "k52"
+       ]
+      },
+      {
+       "n": "Sky-quality meter",
+       "old": [
+        "k53"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Binoculars & spotting scopes",
+   "mode": "mixed",
+   "note": "Tier for everyday binoculars; variety at the alpha end where birders and hunters compare named lines.",
+   "b": [
+    {
+     "m": "Magnification and aperture",
+     "v": "8x32, 8x42, 10x42, 7x50, 15x70; exit pupil = aperture ÷ magnification",
+     "w": "The spec every binocular is named by; 8x42 is the standard birding recommendation."
+    },
+    {
+     "m": "Optical tier",
+     "v": "budget < mid (Nikon Monarch, Vortex Viper) < alpha (Swarovski EL/NL Pure, Zeiss Victory SF, Leica Noctivid/Ultravid)",
+     "w": "Birding and hunting reviews (Cornell Lab, Allaboutbirds, BirdWatching) group by price tier."
+    },
+    {
+     "m": "Glass and coatings",
+     "v": "ED/HD/fluorite glass; phase-corrected, dielectric prism coatings; Porro vs roof",
+     "w": "Main causes of sharpness, colour fringing and brightness differences."
+    },
+    {
+     "m": "Field of view and eye relief",
+     "v": "m at 1000 m or degrees; eye relief mm for spectacle wearers",
+     "w": "Comfort and ease of finding birds."
+    },
+    {
+     "m": "Build",
+     "v": "waterproof, nitrogen or argon purged; weight g",
+     "w": "Outdoor use."
+    }
+   ],
+   "s": [
+    {
+     "n": "Binoculars",
+     "web": true,
+     "brief": "Archetypes by significance: Swarovski EL (1999, versions EL Swarovision, NL Pure), Zeiss Victory SF and Zeiss 7x50 B/GA (marine classic), Leica Ultravid and Noctivid, Leica/Leitz Trinovid (historic), Nikon Monarch and Nikon EDG, Nikon 8x30 E II (Porro), Canon image-stabilised IS line, Fujinon FMT-SX (7x50 marine), Steiner military/marine, Vortex Viper/Razor, Swarovski Habicht. Types: Porro, roof, image-stabilised, compact, marine with compass. Giant binoculars: Celestron SkyMaster, Oberwerk, Fujinon 25x150, Kowa Highlander. Monocular: Zeiss Mono, Leica Monovid, Opticron. Opera glasses: types lorgnette, Galilean; antique French opera glasses (Lemaire, Chevalier) as historic archetype. Trim the 35 old models to reference lines.",
+     "k": [
+      {
+       "n": "Binoculars",
+       "old": [
+        "k1"
+       ]
+      },
+      {
+       "n": "Giant binoculars",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Monocular",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Opera glasses",
+       "old": [
+        "k4"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Spotting scopes & night optics",
+     "web": true,
+     "brief": "Spotting scope archetypes: Swarovski ATX/STX modular and ATS, Kowa Prominar TSN-88x, Zeiss Harpia and Conquest Gavia, Leica APO-Televid, Vortex Razor HD; types angled/straight, digiscoping adapter. Night vision: PVS-14 (military monocular icon), generations Gen 1–3 and digital (types), ATN, Pulsar. Thermal: Pulsar Helion/Axion, InfiRay, HIKMICRO, FLIR Scout. Keep civilian handheld viewers; weapon sights belong to E4.",
+     "k": [
+      {
+       "n": "Spotting scope",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Night-vision viewer",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Thermal-imaging viewer",
+       "old": [
+        "k7"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Microscopes & magnifiers",
+   "mode": "mixed",
+   "note": "Home, hobby and amateur microscopy; research electron and probe microscopes are out of scope.",
+   "b": [
+    {
+     "m": "Optics",
+     "v": "achromat < semi-plan < plan achromat < plan apochromat; infinity vs 160 mm tube length; RMS thread",
+     "w": "The ladder used by microscope makers and amateur microscopy forums (Micscape, Quekett)."
+    },
+    {
+     "m": "Illumination",
+     "v": "LED Köhler illumination, Abbe condenser; darkfield, phase, polarising options",
+     "w": "Contrast methods decide what you can see in living specimens."
+    },
+    {
+     "m": "Magnification range",
+     "v": "stereo 7–45x; compound 40–1000x (useful max about 1000x NA)",
+     "w": "Useful magnification is limited by numerical aperture."
+    },
+    {
+     "m": "Lens quality for magnifiers",
+     "v": "aplanatic/achromatic, dioptre and magnification",
+     "w": "Separates jewellers' and low-vision loupes from toys."
+    }
+   ],
+   "s": [
+    {
+     "n": "Microscopes & accessories",
+     "web": true,
+     "brief": "Compound archetypes: Leitz/Zeiss Standard and Olympus CH/CH2 and BH-2 (classic used microscopes amateurs seek), Nikon Labophot/Eclipse E200, Swift, AmScope, Bresser, Euromex; Victorian brass microscopes (Powell & Lealand, Ross, Watson) as historic archetypes. Stereo: Zeiss Stemi, Leica S9, Nikon SMZ, AmScope. Digital: Dino-Lite (originator of handheld USB digital microscope), Andonstar. Pocket: Carson MicroBrite, Leuchtturm/Lensen, foldable Foldscope. Polarising (mineral hobby): Olympus BHSP/CX POL, Nikon E200POL. Merge objective, eyepiece and stage into one 'Microscope optics & parts' kind with types objective, eyepiece, condenser, stage. Slides: types plain, cavity, prepared slide sets (Victorian slide collecting as archetype if sourced). Camera: Bresser MikroCam, AmScope, Toupcam, eyepiece cameras as type.",
+     "k": [
+      {
+       "n": "Compound light microscope",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Stereo microscope",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "Digital microscope",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Pocket microscope",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Polarising microscope",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Microscope optics & parts",
+       "old": [
+        "k40",
+        "k41",
+        "k42"
+       ]
+      },
+      {
+       "n": "Microscope camera",
+       "old": [
+        "k43"
+       ]
+      },
+      {
+       "n": "Microscope slide",
+       "old": [
+        "k39"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Magnifiers & loupes",
+     "web": false,
+     "brief": "Restraint only: tier models to market-covering makers (Eschenbach, Schweizer, Carson, Belomo, Zeiss, Bausch & Lomb). Merge folding loupe and eye loupe into one 'Loupe' kind with types folding/triplet jeweller's loupe, watchmaker's eye loupe, illuminated. Low-vision aids stay here; electronic video magnifiers belong in H2.",
+     "k": [
+      {
+       "n": "Handheld magnifier",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Stand magnifier",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Loupe",
+       "old": [
+        "k46",
+        "k47"
+       ]
+      },
+      {
+       "n": "Head-worn magnifier",
+       "old": [
+        "k48"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Weather & Earth instruments",
+   "mode": "mixed",
+   "note": "Home weather stations are tier; barometers and weather glasses are collected and are variety, with antique forms as a period view.",
+   "b": [
+    {
+     "m": "Sensor accuracy and siting",
+     "v": "±°C, ±%RH; radiation shield; anemometer height",
+     "w": "WMO siting guidance and weather-network (CWOP, Weather Underground) requirements."
+    },
+    {
+     "m": "Connectivity",
+     "v": "console only < Wi-Fi upload < open API/local data",
+     "w": "Enthusiasts share data to online networks."
+    },
+    {
+     "m": "Build and longevity",
+     "v": "years outdoors; replaceable sensors",
+     "w": "Davis-class stations last decades; budget stations fail sooner."
+    },
+    {
+     "m": "Barometer movement",
+     "v": "mercury, aneroid, barograph; maker and period",
+     "w": "Antique and maritime barometer collecting axes (auction categories)."
+    }
+   ],
+   "s": [
+    {
+     "n": "Weather stations & sensors",
+     "web": true,
+     "brief": "Tier: weather station reference makers Davis Instruments (Vantage Pro2 as archetype, Vantage Vue), Ecowitt/Fine Offset (clones Ambient Weather, Froggit, Bresser), Netatmo, La Crosse, WeatherFlow Tempest; trim the 41 models. Keep pyranometer as a 'Solar radiation sensor' kind with hobby-scale makers (Apogee) only. Wind vane: types weathervane (decorative roof vane). Windsock, rain gauge (manual CoCoRaHS gauge as reference), anemometer (handheld Kestrel as reference), hygrometer, air thermometer (max-min thermometer type) trimmed to tier makers. New kinds: Geiger counter (radiation hobby: GQ, Radex, SOEKS, Safecast bGeigie) and home seismometer (Raspberry Shake) with sources.",
+     "k": [
+      {
+       "n": "Weather station",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Air thermometer",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Hygrometer",
+       "old": [
+        "k55"
+       ]
+      },
+      {
+       "n": "Anemometer",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "Rain gauge",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Wind vane",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Windsock",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Solar radiation sensor",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "Geiger counter",
+       "old": []
+      },
+      {
+       "n": "Home seismometer",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Barometers & weather glasses",
+     "web": true,
+     "brief": "Barometer archetypes by significance: stick (mercury) barometer, wheel/banjo barometer, Admiral FitzRoy barometer, aneroid (Lucien Vidie 1844 originator), ship's/marine barometer, Kew-pattern; makers Negretti & Zambra, Short & Mason, Barigo, Fischer, Lufft. New kinds: barograph (Richard Frères originator, Short & Mason, Negretti & Zambra), storm glass (FitzRoy), Galileo thermometer (move the Galileo thermometer model out of air thermometer). Note antique forms for the period view; tradition entry for English barometer making if sourced.",
+     "k": [
+      {
+       "n": "Barometer",
+       "old": [
+        "k56"
+       ]
+      },
+      {
+       "n": "Barograph",
+       "old": []
+      },
+      {
+       "n": "Storm glass",
+       "old": []
+      },
+      {
+       "n": "Galileo thermometer",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sky models & historic instruments",
+   "mode": "variety",
+   "note": "Models of the sky and classic observing and navigation instruments, collected new and antique; period is a view across them.",
+   "b": [
+    {
+     "m": "Maker and period",
+     "v": "named workshop (e.g. Islamic astrolabists, Gilkerson, Trippensee, Cassens & Plath) and date",
+     "w": "Auction and museum catalogues (Science Museum, Adler Planetarium) organise by maker and period."
+    },
+    {
+     "m": "Authenticity",
+     "v": "original, period copy, modern reproduction, decorative replica",
+     "w": "Many brass instruments sold today are decorative reproductions."
+    },
+    {
+     "m": "Mechanism and accuracy",
+     "v": "geared vs static; working instrument vs display",
+     "w": "Separates working orreries and sextants from ornaments."
+    }
+   ],
+   "s": [
+    {
+     "n": "Sky models & navigation instruments",
+     "web": true,
+     "brief": "Orrery (Rowley/Graham originators, Trippensee planetarium, modern geared orreries), astrolabe (planispheric astrolabe; Islamic and European traditions — add tradition entries), armillary sphere (new), celestial globe (new; makers Blaeu, Cary, Replogle), planisphere (new; Philip's, David Chandler, Miller), home planetarium projector (Sega Toys Homestar with Takayuki Ohira as originator of the home line, Megastar professional excluded), sextant (new; types octant; Cassens & Plath, Heath, Davis Mark 15 plastic, Tamaya). Only include archetypes with sources.",
+     "k": [
+      {
+       "n": "Orrery",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "Astrolabe",
+       "old": [
+        "k103"
+       ]
+      },
+      {
+       "n": "Armillary sphere",
+       "old": []
+      },
+      {
+       "n": "Celestial globe",
+       "old": []
+      },
+      {
+       "n": "Planisphere",
+       "old": []
+      },
+      {
+       "n": "Home planetarium projector",
+       "old": [
+        "k104"
+       ]
+      },
+      {
+       "n": "Sextant",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Home & hobby lab",
+   "mode": "tier",
+   "note": "Only what amateurs, home brewers, mycologists and students own; industrial and research lab equipment is out of scope.",
+   "b": [
+    {
+     "m": "Glass type",
+     "v": "soda-lime < borosilicate 3.3 (Duran, Pyrex, Kimax)",
+     "w": "Borosilicate survives heating; standard lab supply guidance."
+    },
+    {
+     "m": "Accuracy class",
+     "v": "Class B < Class A volumetric ware; balance readability 0.1 g to 0.001 g",
+     "w": "ISO/ASTM classes printed on the ware."
+    }
+   ],
+   "s": [
+    {
+     "n": "Glassware & labware",
+     "web": false,
+     "brief": "Restraint: trim to market-covering makers (DWK Duran/Kimax, Corning Pyrex, Brand, Hirschmann, Eppendorf, Gilson). Merge conical and volumetric flasks into 'Laboratory flask' (types Erlenmeyer, volumetric, Florence). Merge round-bottom flask and condenser into 'Distillation glassware' (types round-bottom flask, Liebig/Allihn/Graham condenser, still head). Merge burette into pipette as type. Prefer hobby-scale models over research SKUs.",
+     "k": [
+      {
+       "n": "Beaker",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Laboratory flask",
+       "old": [
+        "k62",
+        "k66"
+       ]
+      },
+      {
+       "n": "Test tube",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Graduated cylinder",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Pipette",
+       "old": [
+        "k65",
+        "k68"
+       ]
+      },
+      {
+       "n": "Distillation glassware",
+       "old": [
+        "k67",
+        "k95"
+       ]
+      },
+      {
+       "n": "Petri dish",
+       "old": [
+        "k69"
+       ]
+      },
+      {
+       "n": "Dissection set",
+       "old": [
+        "k70"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Home lab instruments",
+     "web": false,
+     "brief": "Restraint: keep hobby-scale models only (milligram/jewellery-scale balances, magnetic stirrers used for yeast starters, mini centrifuges, small incubators, laminar-flow hoods used by mushroom growers); drop research-grade SKUs (Beckman Allegra/Avanti, BINDER, Memmert lines) and keep the kind with few or no models.",
+     "k": [
+      {
+       "n": "Laboratory balance",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Laboratory thermometer",
+       "old": [
+        "k72"
+       ]
+      },
+      {
+       "n": "Magnetic stirrer",
+       "old": [
+        "k91"
+       ]
+      },
+      {
+       "n": "Mini centrifuge",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Incubator",
+       "old": [
+        "k84"
+       ]
+      },
+      {
+       "n": "Laminar-flow hood",
+       "old": [
+        "k97"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "old": "k50",
+   "to": "B7",
+   "dept": "Air quality monitoring"
+  },
+  {
+   "old": "k100",
+   "to": "E1",
+   "dept": "Science & discovery kits"
+  },
+  {
+   "old": "k101",
+   "to": "E1",
+   "dept": "Science & discovery kits"
+  },
+  {
+   "old": "k105",
+   "to": "E1",
+   "dept": "Science & discovery kits"
+  },
+  {
+   "old": "k106",
+   "to": "E1",
+   "dept": "Science & discovery kits"
+  }
+ ],
+ "drop": [
+  {
+   "old": "k37",
+   "why": "Electron microscopes are institutional; owner finding says out."
+  },
+  {
+   "old": "k38",
+   "why": "Scanning probe microscopes are research instruments."
+  },
+  {
+   "old": "k73",
+   "why": "Viscometer: industrial lab instrument."
+  },
+  {
+   "old": "k74",
+   "why": "Rheometer: industrial lab instrument."
+  },
+  {
+   "old": "k75",
+   "why": "Research spectrometers (Raman, benchtop); not personal."
+  },
+  {
+   "old": "k76",
+   "why": "Microplate reader: research lab only."
+  },
+  {
+   "old": "k77",
+   "why": "Mass spectrometer: research lab only."
+  },
+  {
+   "old": "k78",
+   "why": "'Other chromatographs' catch-all, institutional and empty."
+  },
+  {
+   "old": "k79",
+   "why": "Elemental analyser: industrial lab only."
+  },
+  {
+   "old": "k80",
+   "why": "Gas chromatograph: research lab only."
+  },
+  {
+   "old": "k81",
+   "why": "Liquid chromatograph: research lab only."
+  },
+  {
+   "old": "k82",
+   "why": "UV-Vis spectrophotometer: research lab only."
+  },
+  {
+   "old": "k83",
+   "why": "FTIR spectrometer: research lab only."
+  },
+  {
+   "old": "k85",
+   "why": "Laboratory oven: institutional; home use covered by kitchen ovens."
+  },
+  {
+   "old": "k86",
+   "why": "Laboratory water bath: institutional."
+  },
+  {
+   "old": "k87",
+   "why": "Ultra-low laboratory freezer: institutional."
+  },
+  {
+   "old": "k88",
+   "why": "Climatic test chamber: industrial."
+  },
+  {
+   "old": "k89",
+   "why": "Laboratory circulator: institutional."
+  },
+  {
+   "old": "k90",
+   "why": "Laboratory autoclave: institutional; hobbyists use pressure cookers (B5)."
+  },
+  {
+   "old": "k92",
+   "why": "Laboratory shaker: research lab only."
+  },
+  {
+   "old": "k94",
+   "why": "Rotary evaporator: research lab only."
+  },
+  {
+   "old": "k96",
+   "why": "Fume hood: built-in institutional equipment."
+  },
+  {
+   "old": "k98",
+   "why": "Biosafety cabinet: institutional, regulated."
+  },
+  {
+   "old": "k99",
+   "why": "Inert-atmosphere glove box: research lab only."
+  }
+ ]
+}

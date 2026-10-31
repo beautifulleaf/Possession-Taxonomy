@@ -1,0 +1,30 @@
+import json,os
+W='https://en.wikipedia.org/wiki/'
+U='https://www.ubereats.com/gb/shopping/vinegar-221'
+k=[
+{"n":"Balsamic vinegar","a":"aceto balsamico","d":"Vinegar of cooked grape must, from long-aged protected Modena and Reggio Emilia types to commercial blends.","s":U,
+ "t":["Aged (invecchiato)","Condiment grade"],
+ "x":[
+ {"n":"Aceto Balsamico Tradizionale di Modena DOP","a":"Traditional balsamic vinegar of Modena","d":"Cooked Trebbiano di Castelvetro must aged in a series of wooden casks for at least 12 years.","mk":"","y":"","s":W+"Balsamic_vinegar","v":[{"n":"Affinato","d":"at least 12 years; white cap"},{"n":"Extravecchio","d":"25 years or more; gold cap"}],"dt":"Trebbiano di Castelvetro must · cap colour marks age"},
+ {"n":"Aceto Balsamico Tradizionale di Reggio Emilia DOP","a":"Traditional balsamic vinegar of Reggio Emilia","d":"Cask-aged traditional vinegar from Reggio Emilia, with age shown by label colour.","mk":"","y":"","s":W+"Balsamic_vinegar","v":[{"n":"Red label","d":"at least 12 years"},{"n":"Silver label","d":"at least 18 years"},{"n":"Gold label","d":"25 years or more"}],"dt":"label colour marks age"},
+ {"n":"Aceto Balsamico di Modena IGP","a":"Balsamic vinegar of Modena PGI","d":"Commercial blend of grape must (20-90%) and wine vinegar, aged at least 60 days in wood.","mk":"","y":"2009","s":W+"Balsamic_vinegar_of_Modena","v":[{"n":"Invecchiato","d":"aged three years or more"}],"dt":"must from Lambrusco, Sangiovese, Trebbiano, Albana, Ancellotta, Fortana, Montuni · up to 2% caramel"}],
+ "m":[["Giusti Tradizionale DOP Affinato and Extravecchio","Acetaia Giusti"]]},
+{"n":"Wine vinegar","a":"","d":"Vinegar made from red or white wine, including sherry vinegar.","s":U,"t":["Red wine","White wine","Champagne vinegar","Orléans method"],
+ "x":[{"n":"Vinagre de Jerez DOP","a":"Sherry vinegar","d":"Sherry-triangle vinegar from Cádiz province, mostly Palomino, aged in wood.","mk":"","y":"","s":W+"Sherry_vinegar","v":[{"n":"Vinagre de Jerez","d":"at least 6 months in wood"},{"n":"Reserva","d":"at least 2 years in wood"},{"n":"Gran Reserva","d":"at least 10 years in wood"}],"dt":"Palomino · Pedro Ximénez (sweeter) · Moscatel"}]},
+{"n":"Cider vinegar","a":"apple cider vinegar","d":"Vinegar made from apple cider.","s":U,"m":[["Aspall Cyder Vinegar","Aspall"]],"t":["Unfiltered with the mother","Filtered"]},
+{"n":"Rice and grain vinegar","a":"black vinegar","d":"Vinegar from rice or other grains, from mild Japanese rice vinegar to dark Chinese black vinegars.","s":U,"t":["Japanese rice vinegar","Seasoned sushi vinegar","Red rice vinegar"],
+ "x":[
+ {"n":"Chinkiang (Zhenjiang) vinegar","a":"Zhenjiang black vinegar","d":"Inky-black southern Chinese vinegar from glutinous rice, malty and smoky.","mk":"","y":"","s":W+"Black_vinegar","dt":"glutinous rice, sometimes sorghum, wheat or millet · clay-pot ageing"},
+ {"n":"Shanxi mature vinegar","a":"Shanxi aged vinegar","d":"Smoky northern Chinese vinegar from sorghum, barley and peas, one of China's four famous vinegars.","mk":"","y":"","s":W+"Shanxi_mature_vinegar","v":[{"n":"Donghu","d":"China Time-honored Brand title 1993"},{"n":"Meiheju","d":"credited with the 1368 fumigation method"}],"dt":"sorghum, barley, peas · hongqu starter · 9-12 months or years of ageing"},
+ {"n":"Kurozu","a":"Japanese black rice vinegar","d":"Light Japanese black vinegar made only from brown rice.","mk":"","y":"","s":W+"Black_vinegar","dt":"brown rice"}],
+ "m":[["Chinkiang (Zhenjiang) black vinegar",""]]},
+{"n":"Malt vinegar","a":"","d":"Vinegar made from malted barley ale, the traditional seasoning for fish and chips.","s":U,"m":[["Sarson's Distilled Malt Vinegar","Sarson's"]]},
+{"n":"Distilled vinegar","a":"spirit vinegar","d":"Clear vinegar made from distilled grain or cane alcohol.","s":U},
+{"n":"Cane and coconut vinegar","a":"sukang Iloko · sukang tuba","d":"Vinegar from sugarcane juice or coconut sap, central to Filipino cooking.","s":W+"Vinegar","t":["Cane vinegar (sukang Iloko, sukang basi)","Coconut sap vinegar (sukang tuba)"],"m":[["Silver Swan Cane Vinegar","Silver Swan"]]}]
+br=[{"n":"Silver Swan","c":"Philippines","seg":"Mainstream","kf":"Filipino condiments","d":"Filipino condiments brand owned by NutriAsia.","s":W+"Silver_Swan_(brand)"},
+{"n":"Aspall","c":"United Kingdom","seg":"Premium","kf":"cyder vinegar","d":"Suffolk maker of cyder vinegar.","s":"knowledge"},
+{"n":"Sarson's","c":"United Kingdom","seg":"Mainstream","kf":"malt vinegar","d":"British malt vinegar brand.","s":"knowledge"},
+{"n":"Giusti","c":"Italy","seg":"Heritage manufactory","kf":"balsamic vinegar","d":"Modena balsamic vinegar house (Acetaia Giusti).","s":"knowledge"}]
+out={"kinds":k,"brands":br,"traditions":[],"notes":"Producers Malpighi and Leonardi, Banyuls and Montilla-Moriles vinegars, Orléans-method producers left out: no retrieved page confirmed them. Orléans method and champagne vinegar are t of Wine vinegar. Giusti kept from old data."}
+json.dump(out,open('work/J5/shelves/00_02.tmp','w'),ensure_ascii=False,indent=1)
+os.rename('work/J5/shelves/00_02.tmp','work/J5/shelves/00_02.json')

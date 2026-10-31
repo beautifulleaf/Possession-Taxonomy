@@ -1,0 +1,53 @@
+import json,os
+W='https://en.wikipedia.org/wiki/'
+IGP='https://fr.wikipedia.org/wiki/Canard_à_foie_gras_du_Sud-Ouest'
+KB='https://thepoultrysite.com/news/2014/08/us-thanksgiving-next-big-challenge-for-kellybronze-turkey'
+def X(n,d,s,mk='',y='',a='',v=None,dt=''):
+    x={'n':n,'a':a,'d':d,'mk':mk,'y':y,'s':s}
+    if v: x['v']=v
+    if dt: x['dt']=dt
+    return x
+kinds=[
+{'n':'Turkey','a':'','d':'Turkey sold whole or as a joint or cut, raw.','s':'https://www.foxholesfarm.com/product/free-range-bronze-turkey',
+ 't':['whole bird','crown','breast joint','thigh roast','legs'],
+ 'x':[X('Bronze turkey','Heritage turkey with bronze plumage from crossing English domestic and wild turkeys; the classic table bird.',W+'Bronze_turkey',y='18th century',a='Cambridge Bronze (UK)',
+   v=[{'n':'Standard (Unimproved) Bronze','mk':'','y':'','d':'heritage type, breeds naturally'},{'n':'Broad Breasted Bronze','mk':'','y':'early 20th century','d':'larger commercial line, needs artificial insemination'}],dt='whole bird or crown · hen or stag · weight'),
+  X('Broad Breasted White','Commercial white turkey from Broad Breasted Bronze × White Holland; the standard supermarket bird.',W+'Broad_Breasted_White_turkey',y='1960s'),
+  X('Norfolk Black','British black-feathered breed, thought to descend from turkeys brought from Spain; long farmed in East Anglia.',W+'Norfolk_Black',a='Black Spanish · Black Turkey',y='16th century'),
+  X('KellyBronze','Free-range, dry-plucked and dry-hung bronze turkey from the Kelly family of Danbury, Essex.',KB,mk='KellyBronze',y='c. 1984',v=[{'n':'US Thanksgiving production','mk':'KellyBronze','y':'2014','d':'farm in Virginia'}]),
+  X('Dinde de Bresse','Free-range Christmas turkey of the Bresse area, sold under the protected Volaille de Bresse name.',W+'Bresse_chicken',a='Volaille de Bresse',y='1936 protection'),
+  X('Bourbon Red','American heritage turkey with red-brown plumage, named after Bourbon County, Kentucky.',' https://livestockconservancy.org/bourbon-red-turkey/'.strip(),y='late 1800s',v=[{'n':'J. F. Barbee strain','mk':'','y':'late 1800s','d':'from Buff, Bronze and White Holland crosses'}]),
+  X('Narragansett','New England heritage turkey from wild × domestic stock, recognised in 1874.',W+'Narragansett_turkey',y='1874')]},
+{'n':'Whole duck','a':'duckling','d':'A whole dressed duck, raw and oven-ready.','s':'https://hudsonvalleyfoiegras.com/collections/duck',
+ 't':['oven-ready','with giblets'],
+ 'x':[X('American Pekin','White duck of Chinese origin, imported to the US in 1873; the world\'s most-produced table duck.',W+'American_Pekin',a='Pekin · Long Island duck',y='1873',v=[{'n':'Long Island duckling','mk':'','y':'late 1800s','d':'Long Island-raised Pekin'}]),
+  X('Aylesbury duck','English white table duck bred in Aylesbury, Buckinghamshire; one pure meat flock survives.',W+'Aylesbury_duck',y='19th century'),
+  X('Gressingham duck','Pekin × wild Mallard cross with more breast meat and a gamey flavour, raised in East Anglia.','https://www.cooksinfo.com/gressingham-duck',mk='Gressingham Duck'),
+  X('Barbary duck','Muscovy duck sold as meat; lean, strongly flavoured flesh.',W+'Muscovy_duck',a='Muscovy · canard de Barbarie'),
+  X('Canard de Challans','Marais Breton duck breed from around Challans, Vendée, also sold as Nantais duck.',W+'Challandais',a='Challandais · Nantais'),
+  X('Mulard duck','Muscovy × Pekin hybrid raised for foie gras (males) and meat (females).',W+'Mulard',a='moulard',y='1960s')]},
+{'n':'Duck breast','a':'','d':'The breast of a duck, skin-on, sold raw.','s':'https://hudsonvalleyfoiegras.com/collections/duck',
+ 't':['Pekin (Long Island) breast','Barbary breast','magret'],
+ 'x':[X('Magret','Breast of a duck fattened for foie gras; large and red-fleshed, IGP Sud-Ouest magrets weigh at least 300 g.',IGP,a='magret de canard',
+   v=[{'n':'Magret duck breast','mk':'','y':'','d':'generic magret'},{'n':'HV Farms duck breast','mk':'Hudson Valley Foie Gras','y':'','d':'Moulard breast'}])]},
+{'n':'Duck leg','a':'duck thigh','d':'The leg of a duck, sold raw.','s':'https://hudsonvalleyfoiegras.com/collections/duck','t':['Pekin leg','Moulard or Barbary leg']},
+{'n':'Goose','a':'','d':'Goose sold whole or as any cut, raw.','s':'https://www.dartagnan.com/buy/comfort-foie-gras-poultry','t':['whole oven-ready (Christmas goose)','breast','leg'],
+ 'x':[X('Embden goose','Large white German goose from East Frisia, raised for meat.',W+'Embden_goose',a='Emden'),
+  X('Toulouse goose','Large grey goose from south-west France, raised for meat and foie gras since at least 1555.',W+'Toulouse_goose',y='1555',v=[{'n':'Dewlap (industrial) type','mk':'','y':'','d':'à bavette, heavier'},{'n':'Non-dewlap (agricultural) type','mk':'','y':'','d':'sans bavette, lighter'}])]},
+{'n':'Foie gras','a':'fatty liver','d':'The enlarged liver of a duck or goose fattened by force-feeding, sold raw.','s':'https://www.gourmetfoodstore.com/foie-gras-and-pate/fresh-foie-gras-01006',
+ 't':['whole raw lobe','grade A','grade B','grade C'],
+ 'x':[X('Duck foie gras','Liver of a fattened duck, usually a Mulard; about 95% of production.',W+'Foie_gras',
+   v=[{'n':'Whole Lobe of Duck Foie Gras, Grade A Grande Cuisine','mk':'Rougié','y':'','d':''},{'n':'Hudson Valley Grade-A Duck Foie Gras','mk':'Hudson Valley Foie Gras','y':'','d':''}],dt='grade A/B/C (US) · lobe weight'),
+  X('Canard à foie gras du Sud-Ouest (IGP)','Protected geographical indication for foie gras and magret from male Mulard or Barbary ducks of south-west France.',IGP,
+   v=[{'n':'Restricted-zone names','mk':'','y':'','d':'Chalosse, Gascogne, Gers, Landes, Périgord, Quercy'}],dt='raw liver ≥ 350 g'),
+  X('Goose foie gras','Liver of a fattened goose, traditionally the Toulouse goose; now a small share of output.',W+'Toulouse_goose',a='foie gras d\'oie')]},
+]
+brands=[
+{'n':'KellyBronze','c':'United Kingdom','f':'c. 1984','seg':'Premium','kf':'bronze turkey','d':'Kelly family turkey farm in Danbury, Essex, selling free-range dry-hung bronze turkeys, with a US farm in Virginia.','sig':['KellyBronze'],'s':KB},
+{'n':'Gressingham Duck','c':'United Kingdom','seg':'Premium','kf':'duck','d':'East Anglian duck producer known for its Pekin × Mallard cross.','sig':['Gressingham duck'],'s':'https://www.cooksinfo.com/gressingham-duck'},
+{'n':'Rougié','c':'France','seg':'Specialist','kf':'foie gras','d':'French foie gras and duck products house.','sig':['Duck foie gras'],'s':'knowledge'},
+{'n':'Hudson Valley Foie Gras','c':'United States','seg':'Specialist','kf':'foie gras','d':'New York State producer of Moulard duck foie gras and duck.','sig':['Duck foie gras','Magret'],'s':'knowledge'},
+]
+out={'kinds':kinds,'brands':brands,'traditions':[],'notes':'All six planned kinds kept. Archetypes: turkey breeds and labels (Bronze, Broad Breasted White, Norfolk Black, KellyBronze, Dinde de Bresse, Bourbon Red, Narragansett); duck breeds (American Pekin, Aylesbury, Gressingham, Barbary, Challans, Mulard); magret; Embden and Toulouse geese; foie gras by duck/goose and the IGP Sud-Ouest. Old models became versions. Grades given as US A/B/C (the fetched page does not give French extra/A/B, so those were left out). Prepared foie gras (mi-cuit, bloc) left to the deli shelf. Rougié founding year left out (not confirmed on a fetched page).'}
+p='/home/user/Possession-Taxonomy/rebuild/work/J1/shelves/03_01.json'
+json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

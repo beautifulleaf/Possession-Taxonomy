@@ -1,0 +1,9 @@
+# I2 Digital Media & Items — rebuild report
+
+**Brand mode:** Creative assets: mixed; Domains & tokens: mixed; Fonts & typefaces: variety; Game & platform items: variety; Personal media files: tier
+
+**Counts (before → after):** 6 → 5 departments · 55 → 76 kinds · 0 → 117 archetypes · 408 → 96 flat models · 408 → 286 models+versions · 58 → 104 brands named · register 63 brands, 0 traditions · moves out 0 · dropped kinds 0.
+
+**Sources:** 124 distinct retrieved URLs logged in work/I2/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
+
+**Worker notes:** Typefaces: Single 'Digital font' kind split into nine classification kinds; old models Prompt, Miedinger, Lato, Montserrat, Open Sans, Oswald, Proxima Nova kept as sans m; FF Atma Serif and Bell as serif m; Noto kept in  | Graphics, presets & templates: Dropped single-shop SKUs (Simple co, Ilana Griffo, Design Panoply) per brief. 'Other design templates' merged into Design template; the PDF sewing/knitting mention moves to the Patterns she | Patterns for making: Archetypes are pattern houses and the Ravelry pattern store, since no individual named patterns were sourced and titles-style lists are avoided. Butterick founding year not stated on the fetched page | 3D assets: Dropped the single RenderHub SKU (Military Avatar - Bundle); the avatar mention moved to the new Avatar model kind. No Poly Haven, Quixel Megascans or VRChat base-body archetypes: no retrieved page named them. | Music production assets: Cut the Sample Magic genre-pack SKU list (7 titles) to one range, and the Jacob's Piano titled MIDI bundles (4) to one range (titles out). Other preset packs (ArtsyGet Luminous Stars) dropped as  | AI models: Old Mistral 7B v0.1 became a version of the Mistral 7B archetype. Stable Diffusion page gave no version list so no versions (SDXL not sourced). Fine-tune kind sourced to a LoRA survey PDF whose text was unread | Weapon & gear skins: Replaced the Riot (37) and Valve (17) ski

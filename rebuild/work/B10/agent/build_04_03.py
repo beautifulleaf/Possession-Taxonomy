@@ -1,0 +1,70 @@
+import json, os
+HW="Horseware Ireland"
+AS="https://www.applesaddlery.com/about-horseware"
+kinds=[
+{"n":"Turnout rug","a":"turnout blanket · New Zealand rug","d":"A waterproof, breathable rug (blanket) worn by a horse out in the field.",
+ "t":["lightweight (no fill)","medium weight","heavyweight","rain sheet","with neck cover","detachable neck","with hood","tail flap","leg arches"],
+ "s":"https://www.smartpakequine.com/horse-tack-supplies-and-equipment-687pc",
+ "x":[{"n":"Rambo turnout","a":"Rambo Original","d":"Horseware's ballistic-nylon waterproof, breathable turnout, the reference design for modern turnout rugs; still made in Dundalk.",
+   "mk":HW,"y":"1985","s":AS,
+   "v":[{"n":"Rambo Original turnout rug","mk":HW,"y":"","d":"the original design"},
+        {"n":"Rambo Autumn Series Turnout Rug","mk":HW,"y":"","d":""}],
+   "dt":"fill weight · neck style · colourway"},
+  {"n":"Amigo turnout","a":"","d":"Horseware's entry-price line of rugs carrying the brand's core features.","mk":HW,"y":"","s":AS,
+   "v":[{"n":"Amigo Hero 600D Ripstop Rainsheet","mk":HW,"y":"","d":"unfilled rain sheet"}],"dt":"fill weight · denier · neck style"}],
+ "m":[["Shires Tempest Turnout Rug","Shires"],["Shires Typhoon Turnout Rug","Shires"],["Shires Typhoon Lite Turnout Rug","Shires"],["Shires Highlander Turnout Rug","Shires"]]},
+{"n":"Stable rug","a":"stable blanket","d":"A quilted rug (blanket) worn by a horse indoors.",
+ "t":["lightweight","medium weight","heavyweight","combo (attached neck)","under-rug liner","show rug"],
+ "s":"https://www.smartpakequine.com/horse-tack-supplies-and-equipment-687pc",
+ "m":[["Amigo Petite Plus 200g Stable Rug",HW],["Mio Insulator 150g Stable Rug",HW],["Bucas Quilt Stay Dry Stable Rug","Bucas"],["Weatherbeeta Comfitec 210D Channel Quilt Combo Stable Rug","Weatherbeeta"],["Shires Tempest Original Stable Rug","Shires"],["Shires Tempest Plus Stable Rug","Shires"],["LeMieux Arika Stable-Tek","LeMieux"],["Gallop Trojan Stable Rug","Gallop"]],
+ "r":[["Tempest","Shires"]]},
+{"n":"Cooler rug","a":"cooler · sweat rug · fleece rug","d":"A wicking rug worn by a horse to dry and cool off after work, washing or travel.",
+ "t":["fleece","wool","waffle","mesh anti-sweat sheet","exercise sheet","quarter sheet"],
+ "s":"https://www.smartpakequine.com/horse-tack-supplies-and-equipment-687pc",
+ "m":[["Bucas Power Cooler","Bucas"],["Rambo Sport Cooler",HW],["Horseware Embossed Cosy Neck Cooler",HW],["Thermatex Original Cooler Rug","Thermatex"],["Thermatex Duet Rug","Thermatex"],["Weatherbeeta Fleece Cooler","Weatherbeeta"],["Weatherbeeta Thermocell Cooler","Weatherbeeta"],["Premier Equine Ventoso Mesh Cooler","Premier Equine"],["Tempest Original Tech Cooler Rug","Shires"]]},
+{"n":"Fly rug","a":"fly sheet · summer sheet","d":"A light mesh rug (fly sheet) worn by a horse against flies and sun.",
+ "t":["standard neck","with neck cover","with belly band","combo","riding (exercise) fly sheet","eczema rug"],
+ "s":"https://www.smartpakequine.com/horse-tack-supplies-and-equipment-687pc",
+ "x":[{"n":"Rambo fly rug","a":"","d":"Horseware's premium fly sheets in the Rambo line.","mk":HW,"y":"","s":AS,
+   "v":[{"n":"Rambo Protector Fly Sheet","mk":HW,"y":"","d":""},{"n":"Rambo Protector Plus Fly Sheet","mk":HW,"y":"","d":""},{"n":"Rambo Hoody","mk":HW,"y":"","d":"with full hood"},{"n":"Rambo Summer Series","mk":HW,"y":"","d":""}],"dt":"mesh weight · neck · belly band"},
+  {"n":"Amigo fly rug","a":"Amigo Bug Rug","d":"Horseware's entry-price fly sheets in the Amigo line.","mk":HW,"y":"","s":AS,
+   "v":[{"n":"Amigo Bug Rug Plus","mk":HW,"y":"","d":""},{"n":"Amigo Petite Bug Rug","mk":HW,"y":"","d":"pony size"},{"n":"Amigo CamoFly Rug","mk":HW,"y":"","d":"camouflage print"},{"n":"Amigo 3-in-1 CamoFly","mk":HW,"y":"","d":"detachable neck"},{"n":"Amigo Flyrider","mk":HW,"y":"","d":"for riding"}],"dt":"neck style · print"}],
+ "m":[["WeatherBeeta ComFiTec Zephyr Fly Sheet Combo","Weatherbeeta"],["Schneiders RipGuard II VTEK Adjusta-Fit Bellyband Fly Sheet","Schneiders"]]},
+{"n":"Fly mask","a":"fly cap","d":"A mesh mask worn over a horse's face, sometimes ears and muzzle, against flies.",
+ "t":["standard (no ears)","with ears","with nose flap","ride-on","UV-protective"],
+ "s":"https://www.smartpakequine.com/horse-tack-supplies-and-equipment-687pc",
+ "m":[["Bucas Buzz-Off Deluxe Fly Mask","Bucas"],["LeMieux Armour Shield Pro Fly Mask","LeMieux"],["LeMieux Gladiator Fly Mask","LeMieux"],["Shires FlyGuard Pro Fine Mesh Fly Mask","Shires"],["Shires Stretch Fly Mask with Nose","Shires"],["Weatherbeeta ComFiTec Deluxe Fine Mesh Mask","Weatherbeeta"],["Weatherbeeta ComFiTec Hexi Shield Ride On Fly Mask","Weatherbeeta"],["Weatherbeeta ComFiTec Stretch Fly Mask","Weatherbeeta"]],
+ "r":[["FlyGuard Pro","Shires"],["ComFiTec","Weatherbeeta"]]},
+{"n":"Ear bonnet","a":"fly veil · fly hood · ear net","d":"A crocheted cap with stretch ear covers worn under the bridle against flies, noise and distraction.",
+ "t":["crochet","with noise-reducing ears","with satin or embroidered front"],
+ "s":"https://en.wikipedia.org/wiki/Fly_mask",
+ "m":[["LeMieux Loire Fly Bonnet","LeMieux"],["LeMieux Classic Fly Bonnet","LeMieux"],["Woof Wear Classic Fly Veil","Woof Wear"],["Woof Wear Noise Cancelling Fly Veil","Woof Wear"]]},
+{"n":"Tendon and brushing boot","a":"tendon boot · brushing boot · fetlock boot · sports medicine boot","d":"A strapped boot protecting a horse's lower leg from knocks and strikes during work.",
+ "t":["brushing boot","open-front tendon boot","closed cross-country boot","fetlock boot","sports medicine boot","skid boot","knee boot"],
+ "s":"https://en.wikipedia.org/wiki/Horse_leg_protection",
+ "m":[["Veredus Carbon Gel Vento Front Tendon Boot","Veredus"],["LeMieux Air-Tek Grafter Brushing Boots","LeMieux"],["LeMieux Exo-Flex Fetlock Boots","LeMieux"],["Premier Equine Carbon Air-Tech Single Lock Brushing boot","Premier Equine"],["Premier Equine Air-Cooled Original Eventing Boots Front","Premier Equine"],["Premier Equine Techno Wool Tendon Boots","Premier Equine"],["Premier Equine Sports Medicine Boot","Premier Equine"],["Professional's Choice VenTECH Elite","Professional's Choice"],["Professional's Choice Strike Sports Medicine Boot","Professional's Choice"],["Woof Wear Pro Event Front Boot","Woof Wear"],["Woof Wear Sports Brushing Boots","Woof Wear"],["Majyk Equipe Vented Infinity Jump Boot","Majyk Equipe"],["EquiFit Essential The Original Hind Boot","EquiFit"]]},
+{"n":"Overreach boot","a":"bell boot","d":"A bell-shaped boot (bell boot) worn round a horse's pastern to protect heel and coronet.",
+ "t":["rubber pull-on","rubber wrap-round","neoprene","fleece-edged","leather","petal"],
+ "s":"https://www.smartpakequine.com/horse-tack-supplies-and-equipment-687pc",
+ "m":[["Cashel Rubber Bell Boots","Cashel Company"],["ARMA Over Reach Bell Boots","Shires"],["LeMieux Rubber Bell Boots","LeMieux"],["LeMieux ProShell Over Reach Boots","LeMieux"],["LeMieux Motionflex Over Reach Boot","LeMieux"],["LeMieux WrapRound Leather Over Reach Boots","LeMieux"],["KL Select Italian Bell Boots","KL Select"]]},
+{"n":"Travel boots and bandages","a":"shipping boots · transport boots · travel wraps · stable bandages · exercise bandages","d":"Padded boots or wrap bandages protecting a horse's legs in transport or the stable.",
+ "t":["full travel boot (above knee and hock)","short travel boot","shipping bandage","stable (standing) bandage","exercise (polo) bandage"],
+ "s":"https://en.wikipedia.org/wiki/Horse_leg_protection",
+ "m":[["Shires ARMA Air Defence Travel Boots","Shires"],["Premier Equine Travel-Tech Travel Boots","Premier Equine"],["Transport Gaiters Premier Equine Pro","Premier Equine"],["Transport Gaiters Weatherbeeta Wide Tab","Weatherbeeta"],["Kentucky 3D Spacer transport boots","Kentucky"],["HKM Premium transport gaiters","HKM"]]},
+]
+brands=[
+ {"n":HW,"c":"Ireland","f":"1985","seg":"Horse rugs and horsewear","d":"Dundalk maker founded by Tom and Carol MacGuinness, originator of the Rambo turnout rug.","lines":["Rambo","Amigo","Rhino","Mio"],"sig":["Rambo turnout"],"rel":[],"s":AS},
+ {"n":"Weatherbeeta","c":"Australia","seg":"Horse rugs and horsewear","d":"Mass-market horse rug and horsewear brand.","lines":["ComFiTec"],"s":"knowledge"},
+ {"n":"Bucas","c":"Ireland","seg":"Horse rugs","d":"Irish horse rug brand.","s":"knowledge"},
+ {"n":"Shires","c":"United Kingdom","seg":"Horse rugs, tack and boots","d":"British equestrian brand (Shires Equestrian Products).","lines":["Tempest","Typhoon","Highlander","ARMA","FlyGuard Pro"],"s":"knowledge"},
+ {"n":"Premier Equine","c":"United Kingdom","seg":"Horse boots and rugs","d":"British maker of horse boots and rugs.","s":"knowledge"},
+ {"n":"LeMieux","c":"United Kingdom","seg":"Premium horsewear and boots","d":"British premium saddle pad, boot and horsewear brand.","lines":["Loire","Classic"],"s":"knowledge"},
+ {"n":"Veredus","c":"Italy","seg":"Performance horse boots","d":"Italian maker of performance horse boots, designed and made in Italy.","lines":["Carbon Gel"],"s":"https://sprucewoodtack.com/veredus-carbon-gel-vento-front-tendon-boot/"},
+ {"n":"eskadron","c":"Germany","seg":"Horse boots, saddle pads and horsewear","d":"German horse equipment brand of the Pikeur group.","s":"knowledge"},
+]
+notes=("Kinds kept: all 7 old kinds plus 2 new (Ear bonnet, Travel boots and bandages). Exercise sheet, quarter sheet and anti-sweat sheet are types of Cooler rug; rain sheet a type of Turnout rug. "
+ "Archetypes: Rambo turnout, Amigo turnout, Rambo fly rug, Amigo fly rug (Horseware; years only where sourced: Rambo 1985). Left out: SKU tails (Shires Typhoon colours, Weatherbeeta mask variants, most LeMieux overreach variants, Schneiders duplicates, Millbry Hill/Masta/DefenceX/Thermo Master/Dominick coolers, generic 'Brushing boot'/'Open-front boot' entries turned into types). "
+ "eskadron in brand register only: model pages (Horze) blocked 403, so no eskadron models named. Old 'ARMA Over Reach Bell Boots' credited to Shires (ARMA is a Shires line per gsequestrian page). No traditions apply.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="/home/user/Possession-Taxonomy/rebuild/work/B10/shelves/04_03.json"
+json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)

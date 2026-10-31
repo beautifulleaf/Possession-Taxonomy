@@ -1,0 +1,17 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/F4/agent')
+from w import save
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+{"n":"Household deity altar","a":"shentoi · shentai · Chinese home altar cabinet","d":"Home altar cabinet holding deity images and ancestral tablets, with daily offerings of joss sticks and tea.","t":["wall-mounted","floor cabinet","red paper tablet version"],"s":W+"Spirit_tablet","m":[]},
+{"n":"Ancestral tablet","a":"spirit tablet · shenzhu","d":"Placard marking the seat of an ancestor or deity, from a sheet of red paper to a carved wooden shrine.","t":["red paper","wood","tile","metal"],"s":W+"Spirit_tablet",
+ "x":[{"n":"Household spirit tablet","a":"","d":"Tablet kept in a cabinet or on an altar; ancestral tablets are regarded as holding the ancestor's soul.","mk":"","y":"","s":W+"Spirit_tablet","dt":"red paper written vertically · or wood"}],"m":[]},
+{"n":"Daoist talisman","a":"fu · fulu","d":"Paper talisman of Taoist script written or painted by a priest, hung above a door to ward off evil.","t":["paper","door-lintel","burnable"],"s":W+"Fulu","m":[]},
+{"n":"Joss paper","a":"ghost money · spirit money · hell bank notes","d":"Paper burnt as offering to gods and the dead: gold, silver and cash paper, hell bank notes and paper goods.","t":["gold paper (deities)","silver paper (ancestors)","cash paper","hell bank notes","zhizha paper goods"],"s":W+"Joss_paper",
+ "x":[{"n":"Hell Bank Note","a":"","d":"Modern joss paper in afterlife currency in denominations from ten thousand to five million; common among Cantonese populations.","mk":"","y":"","s":W+"Joss_paper","dt":"large denominations · Jade Emperor or Yanluo Wang portrait"}],"m":[]},
+{"n":"Kau cim","a":"kau chim · fortune sticks · chien tung","d":"Cylinder of numbered bamboo fortune sticks shaken until one falls, to be read against a temple text.","t":["100 sticks","bamboo cup (qiantong)"],"s":W+"Kau_chim","m":[]},
+{"n":"Jiaobei","a":"moon blocks · poe","d":"Pair of crescent-shaped wooden blocks thrown to get a yes or no from a deity.","t":["wood","bamboo","clam shell"],"s":W+"Jiaobei","m":[]},
+{"n":"Peach-wood sword","a":"Taoist ritual sword","d":"Ritual sword used to purify an altar and drive out evil; peach wood is held to protect against evil spirits.","t":["peach wood","steel and brass ritual sword"],"s":W+"Spiritual_warfare_in_China",
+ "x":[{"n":"Qing Taoist ritual sword","a":"","d":"Steel sword with the 28 Lunar Mansions and the Northern Dipper inlaid, used for exorcism and altar purification; probably never sharpened.","mk":"","y":"18th century","s":"https://archive.artic.edu/taoism/church/e59.php","dt":"steel, brass, rayskin scabbard · 77 cm"}],"m":[]},
+{"n":"Bagua mirror","a":"pa kua mirror","d":"Octagonal or round mirror ringed with bagua trigrams, hung over a door to deflect harmful energy.","t":["flat","convex","concave"],"s":W+"Bagua","m":[]}
+]
+save('05_01',{"kinds":kinds,"brands":[],"traditions":[],"notes":"Peach-wood sword: retrieved pages attest peach wood as protective and the steel Qing ritual sword, not a peach-wood sword itself. Household altar term shentoi/shentai appears only in a search snippet, so the kind rests on the Spirit tablet page."})

@@ -1,0 +1,135 @@
+{
+ "kinds": [
+  {
+   "n": "Kitchen bin",
+   "a": "touchless bin · waste bin · rubbish bin",
+   "d": "Lidded indoor bin for general household waste, chosen by capacity and how the lid opens.",
+   "t": [
+    "pedal bin",
+    "sensor bin",
+    "touch-top bin",
+    "swing bin",
+    "open bin",
+    "under-counter bin"
+   ],
+   "s": "",
+   "m": [
+    [
+     "Bo",
+     "Brabantia"
+    ],
+    [
+     "newIcon",
+     "Brabantia"
+    ],
+    [
+     "Himalaya",
+     "EKO"
+    ],
+    [
+     "Mirage",
+     "EKO"
+    ],
+    [
+     "Morandi",
+     "EKO"
+    ]
+   ],
+   "r": []
+  },
+  {
+   "n": "Recycling and food-waste bin",
+   "a": "sorting bin · food-waste caddy · compost caddy · recycling bin",
+   "d": "Indoor bin with sections or a small lidded caddy for separating recyclables and food waste.",
+   "t": [
+    "multi-compartment recycling bin",
+    "food-waste caddy",
+    "compost caddy"
+   ],
+   "s": "https://www.johnlewis.com/browse/home-garden/kitchen-bins/recycling-bins/_/N-dwcZ1z0rh9r",
+   "m": [
+    [
+     "Sort & Go",
+     "Brabantia"
+    ],
+    [
+     "Totem",
+     "Joseph Joseph"
+    ],
+    [
+     "Stack Food Waste Caddy",
+     "Joseph Joseph"
+    ],
+    [
+     "Ecocasa",
+     "EKO"
+    ]
+   ],
+   "r": [
+    [
+     "Eco range",
+     "Addis"
+    ]
+   ]
+  },
+  {
+   "n": "Waste-paper basket",
+   "a": "waste-paper bin · office bin",
+   "d": "Small open bin for paper and dry waste in a bedroom, office or bathroom.",
+   "s": "https://www.addis.co.uk/collections/waste-paper-bins",
+   "m": [],
+   "r": [
+    [
+     "Eco range",
+     "Addis"
+    ]
+   ]
+  },
+  {
+   "n": "Outdoor bin",
+   "a": "wheelie bin · dustbin · sack holder · bin-bag holder",
+   "d": "Large bin or sack frame kept outside to hold household waste until collection.",
+   "t": [
+    "wheelie bin",
+    "dustbin",
+    "sack holder / bin-bag frame",
+    "wheelie-bin store"
+   ],
+   "s": "https://www.wheeliebins.co.uk/products/240-litre-wheelie-bin",
+   "m": [],
+   "r": []
+  },
+  {
+   "n": "Bin bags",
+   "a": "bin liner · refuse sack · caddy liner",
+   "d": "Plastic or paper bag that lines a bin and holds waste for disposal.",
+   "t": [
+    "drawstring liner",
+    "refuse sack",
+    "compostable caddy liner",
+    "recycling sack"
+   ],
+   "s": "https://groceries.morrisons.com/categories/household/bin-bags/bin-liners/102127",
+   "m": [],
+   "r": []
+  },
+  {
+   "n": "Trash compactor",
+   "a": "waste compactor",
+   "d": "Freestanding or under-counter appliance that compresses household waste into a smaller volume.",
+   "t": [
+    "freestanding",
+    "under-counter"
+   ],
+   "s": "https://www.kitchenaid.com/major-appliances/disposals-and-compactors.html",
+   "m": [],
+   "r": []
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Dropped BLANCO Select and Singolo (built-in cabinet bins, out of scope per brief). Dissolved the 'Other kitchen bins / Pedal bin / Sensor bin' attribute kinds into Kitchen bin types (pedal, sensor, touch-top, swing, open, under-counter). Merged Food-waste caddy into Recycling and food-waste bin (kept the John Lewis recycling source; Joseph Joseph Stack and Addis Eco range carried over). Merged Bin-bag holder into Outdoor bin as a type alongside wheelie bin, dustbin and wheelie-bin store; kept the wheelie-bin source. Trash compactor kept kind-level with no models; types note freestanding vs under-counter. Waste disposal unit is not on this shelf (moves to Home Fixtures). No models added for simplehuman or Curver: none existed in the old data and this shelf is restraint-only with no web research, so they are left for the brand register/other passes rather than invented here. Kitchen bin keeps its old empty source as it is not a new kind.",
+ "dropped": [],
+ "model": "claude-fable-5-1",
+ "batch": true
+}

@@ -1,0 +1,63 @@
+import json, os
+W="https://en.wikipedia.org/wiki/"
+kinds=[
+{"n":"Bookcase","a":"bookshelf · bookshelves","d":"A freestanding unit of open shelves, mainly for books.",
+ "t":["Open bookcase","Glazed bookcase","Barrister's (stacking, up-and-over doors) bookcase","Revolving bookcase","Cube shelving unit","Ladder bookcase"],
+ "s":W+"Bookcase",
+ "x":[
+  {"n":"Billy","a":"BILLY","d":"Flat-pack open bookcase with adjustable shelves on 32 mm pin holes; over 140 million sold by 2023.","mk":"IKEA","y":"1979","s":W+"Billy_(bookcase)",
+   "v":[{"n":"Original (90 cm wide)","mk":"IKEA","y":"1979","d":"first shown in the 1979 IKEA catalogue; designed by Gillis Lundgren"},
+        {"n":"80 cm width","mk":"IKEA","y":"1988","d":"width reduced from 90 to 80 cm"},
+        {"n":"White melamine foil","mk":"IKEA","y":"1999","d":"white foil finish added"},
+        {"n":"40 cm deep version","mk":"IKEA","y":"2011","d":"sold 2011–2014"},
+        {"n":"Reworked construction","mk":"IKEA","y":"2022","d":"paper foil and plastic fasteners"}],
+   "dt":"width 40 · 80 cm · depth 28 cm · finishes: white, birch veneer, colours · optional doors, corner and narrow units"},
+  {"n":"Kallax","a":"KALLAX · Expedit","d":"Square-grid cube shelving unit taking boxes, doors and drawer inserts; Expedit's successor with the same inside dimensions.","mk":"IKEA","y":"2014","s":"https://mixmag.net/read/ikea-launches-expedit-redesign-to-save-on-wood-",
+   "v":[{"n":"Expedit","mk":"IKEA","y":"","d":"predecessor, discontinued 2014"},
+        {"n":"Kallax","mk":"IKEA","y":"2014","d":"thinner outer frame, rounded edges, same interior and fittings"}],
+   "dt":"grid size (cubes) · finish · inserts"},
+  {"n":"Ptolomeo","a":"Original Ptolomeo","d":"Steel column bookcase whose thin shelves disappear behind stacked books.","mk":"Opinion Ciatti","y":"","s":"https://spacefurniture.com.au/products/opinion-ciatti-original-ptolomeo-low",
+   "v":[{"n":"Original Ptolomeo","mk":"Opinion Ciatti","y":"","d":"designed by Bruno Rainaldi"},
+        {"n":"Ptolomeo Luce","mk":"Opinion Ciatti","y":"","d":"version with lighting"},
+        {"n":"Ptolomeo shelf extension","mk":"Opinion Ciatti","y":"","d":"add-on shelf"}],
+   "dt":"height · finish"}],
+ "m":[["BRIMNES","IKEA"],["LERBERG","IKEA"]]},
+{"n":"Modular shelving system","a":"shelving system · wall system","d":"A system of uprights, shelves and units that combine and extend within one maker's system.",
+ "t":["Wall-hung (track or rail)","Floor-standing (posts)","Ladder-and-shelf"],
+ "s":"https://www.vitsoe.com/us/606",
+ "x":[
+  {"n":"606 Universal Shelving System","a":"606 · Vitsœ 606","d":"Dieter Rams's shelving of shelves, cabinets and tables hung by pins from aluminium E-Track rails.","mk":"Vitsœ","y":"1960","s":"https://www.vitsoe.com/us/606",
+   "v":[{"n":"Vitsœ & Zapf production","mk":"Vitsœ","y":"1960","d":"made by Vitsœ continuously since 1960 (company named Vitsœ & Zapf until 1969)"}],
+   "dt":"bays 65 · 90 cm · wall E-Track or X-/H-Posts · off-white, black, silver, beech · shelves, cabinets, desk, hanging rail"},
+  {"n":"String","a":"String shelf · String System","d":"Wall shelving of two wire side ladders and thin shelves, winner of Bonnier's 1949 bookshelf competition.","mk":"String Furniture","y":"1949","s":W+"Nisse_Strinning",
+   "v":[{"n":"Original String bookshelf","mk":"String Furniture","y":"1949","d":"by Nisse and Kajsa Strinning for the Bonnier competition"}],
+   "dt":"panel heights · shelf width · wall-hung or floor-standing · finishes"},
+  {"n":"USM Haller","a":"Haller system","d":"Swiss modular system of chrome-plated steel tubing and powder-coated steel panels.","mk":"USM","y":"1963","s":"https://www.1stdibs.com/creators/usm-haller",
+   "v":[{"n":"USM Haller","mk":"USM","y":"1963","d":"designed by Fritz Haller with Paul Schärer"}],
+   "dt":"grid of cells · panel colours · doors, drawers, flaps · credenza, shelf, sideboard configurations"},
+  {"n":"IVAR","a":"Bosse · Ingo · Uffe","d":"Plain solid-pine ladder-and-shelf system, IKEA's rustic workhorse renamed several times.","mk":"IKEA","y":"1967","s":"https://ikeamuseum.com/en/explore/product-stories/ivar-shelving-unit-1984/",
+   "v":[{"n":"BOSSE","mk":"IKEA","y":"1967","d":"first version, from a prison workshop surplus"},
+        {"n":"INGO","mk":"IKEA","y":"mid-1970s","d":"renamed when suppliers changed"},
+        {"n":"UFFE","mk":"IKEA","y":"late 1970s","d":"new production methods"},
+        {"n":"IVAR","mk":"IKEA","y":"1983","d":"current name"}],
+   "dt":"side unit heights · shelf widths · pine, stained or painted · cabinets and doors"}],
+ "m":[["JONAXEL","IKEA"]]},
+{"n":"Wall shelf","a":"floating shelf · corner shelf · picture ledge · photo ledge","d":"A shelf made only to be fixed to a wall.",
+ "t":["Floating (hidden brackets)","Bracket shelf","Corner shelf","Picture ledge (front lip)","Pipe shelf","Wall cube or box shelf"],
+ "s":W+"Shelf_(storage)",
+ "m":[["LACK","IKEA"],["EKET","IKEA"],["BERGSHULT","IKEA"],["BROR","IKEA"]]},
+{"n":"Filing cabinet","a":"file cabinet · filing drawers","d":"A cabinet of deep drawers for hanging files and papers.",
+ "t":["Vertical","Lateral (side filer)","Mobile pedestal","Shelf filer"],
+ "s":W+"Filing_cabinet",
+ "m":[["ALEX","IKEA"],["GALANT","IKEA"],["TROTTEN","IKEA"]]},
+{"n":"Locker","a":"","d":"A tall narrow lockable cupboard, often in banks, for personal storage.",
+ "s":"https://www.google.com/basepages/producttype/taxonomy.en-US.txt"}]
+brands=[
+ {"n":"IKEA","c":"Sweden","f":"1943","seg":"Mass-market flat-pack furniture","d":"Swedish flat-pack furniture and home retailer.","lines":["BILLY","KALLAX","IVAR","LACK","ALEX"],"sig":["Billy","Kallax","IVAR"],"s":"knowledge"},
+ {"n":"Vitsœ","c":"United Kingdom / Germany","f":"1959","seg":"Design-classic shelving","d":"Founded in Frankfurt as Vitsœ & Zapf, now UK-based exclusive licensee of Dieter Rams's furniture.","lines":["606 Universal Shelving System","620 Chair Programme"],"sig":["606 Universal Shelving System"],"s":W+"606_Universal_Shelving_System"},
+ {"n":"USM","c":"Switzerland","seg":"Design-classic modular furniture","d":"Swiss maker (U. Schärer Söhne, Münsingen) of the USM Haller system.","lines":["USM Haller"],"sig":["USM Haller"],"s":"https://www.1stdibs.com/creators/usm-haller"},
+ {"n":"String Furniture","c":"Sweden","seg":"Design-classic wall shelving","d":"Swedish maker of the String shelving system by Nisse and Kajsa Strinning.","lines":["String System"],"sig":["String"],"s":W+"Nisse_Strinning"},
+ {"n":"Opinion Ciatti","c":"Italy","seg":"Design furniture","d":"Italian furniture maker producing Bruno Rainaldi's Ptolomeo bookcase.","lines":["Ptolomeo"],"sig":["Ptolomeo"],"s":"https://spacefurniture.com.au/products/opinion-ciatti-original-ptolomeo-low"}]
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":"Merged Other wall shelves, Floating shelf, Corner shelf and Picture ledge into Wall shelf (types). Dropped IKEA GULLHULT and FRYKSÅS (decor/baskets, redundant). Ptolomeo year (2003) seen only in a search snippet and left out; dezeen, stringfurniture.com and malaymail blocked (403). No String or USM version history beyond originals could be confirmed. Locker kept with no models. No traditions for this shelf."}
+p="work/B1/shelves/04_02.json"; t=p+".tmp"
+json.dump(out,open(t,"w"),ensure_ascii=False,indent=1); os.replace(t,p)

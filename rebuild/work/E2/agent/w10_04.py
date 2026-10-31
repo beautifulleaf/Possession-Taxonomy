@@ -1,0 +1,55 @@
+import json, os
+def w(code, job, obj):
+    p = f'/home/user/Possession-Taxonomy/rebuild/work/{code}/shelves/{job}.json'
+    t = p + '.tmp'; json.dump(obj, open(t, 'w'), ensure_ascii=False, indent=1); os.replace(t, p)
+K="knowledge"
+kinds=[
+ {"n":"Stand-up paddleboard","a":"SUP · paddle board · iSUP","d":"Large board ridden standing and propelled with a paddle, rigid or inflatable.",
+  "t":["inflatable (iSUP)","hard (epoxy) board","all-round","touring","surf SUP","race","fishing","SUP/kayak hybrid"],
+  "s":"https://pumpedupsup.com/products/red-paddle-co-108-ride-inflatable-stand-up-paddle-board-2015",
+  "m":[["RIDE","Red Paddle Co"],["Sport Plus","Red Paddle Co"],["Compact MSL Pact","Red Paddle Co"],["Switch","Isle"],["Explorer 3.0","Isle"],
+       ["Wulf Aero","Bote"],["Breeze Aero","Bote"],["Cruiser Ultra 2.0","iRocker"],["Cruiser 7.0","iRocker"],["Kahuna","ROC"],
+       ["GO","Starboard"],["Lido","Surftech"],["Mad Dog","Naish"]]},
+ {"n":"SUP paddle","a":"stand-up paddle","d":"Single-blade paddle made for stand-up paddleboarding.",
+  "t":["fixed length","adjustable 2-piece","adjustable 3-piece (travel)","aluminium, fibreglass or carbon shaft"],"s":"https://oceanaddicts.com.au/?p=8062",
+  "m":[["Zen 95","Werner"],["Trance 95","Werner"],["Malta Carbon","Aqua Bound"],["Malta Fiberglass","Aqua Bound"],["Explorer","Vamo"],
+       ["Stingray 72","QuickBlade"],["Fortuna 90 Travel Adjustable","NRS"],["Makai Fiberglass","Kialoa"]]},
+ {"n":"Kayak paddle","a":"double-bladed paddle","d":"Paddle with a blade at each end of the shaft used to propel a kayak.",
+  "t":["low-angle (touring)","high-angle","whitewater","fishing","packrafting / 4-piece","straight or bent shaft","feathered ferrule"],
+  "s":"https://gearjunkie.com/boats-water/best-kayak-paddles",
+  "m":[["Shuna","Werner"],["Kalliste Bent Shaft","Werner"],["Powerhouse","Werner"],["Sting Ray Hybrid Posi-Lok","Aqua Bound"],
+       ["Shred Carbon 4-Piece","Aqua Bound"],["Magic Plus","Carlisle"],["Magic Angler","Carlisle"],["Ripple","NRS"]]},
+ {"n":"Life jacket","a":"lifejacket · PFD · buoyancy aid","d":"Buoyant vest or jacket worn to keep the wearer afloat.",
+  "t":["buoyancy aid (50 N)","foam life jacket (100 N)","automatic inflatable (150–170 N)","offshore inflatable (275 N+)","with harness"],
+  "s":"https://mustangsurvival.com/collections/foam-pfds",
+  "m":[["Crewfit+ 180N Pro","Crewsaver"],["Ergofit+ 290","Crewsaver"],["Deckvest 6D 170N","Spinlock"],["Deckvest 6D 275N","Spinlock"],
+       ["Deckvest Lite+ 170N","Spinlock"],["Legend 305","Baltic"],["275N Ocean Backtow","TeamO"],["LJ180N Air Offshore","Tribord"],
+       ["Khimera Dual Flotation PFD","Mustang Survival"],["Podium 50 Buoyancy Aid","Mustang Survival"],["Trident Foam Vest","Mustang Survival"],
+       ["Drifter PFD","Stohlquist"],["Fisherman PFD","Stohlquist"]]},
+ {"n":"Wakeboard","a":"","d":"Short buoyant board with bindings ridden while towed behind a boat or cable.",
+  "t":["continuous rocker","three-stage rocker","hybrid rocker","boat","cable / park","women's"],"s":"https://www.evo.com/reviews/wake/best-wakeboards",
+  "m":[["Rusty Pro","Hyperlite"],["Capitol Loaded","Hyperlite"],["Cadence","Hyperlite"],["One Blackout Technology","Ronix"],["RXT Blackout Technology","Ronix"],
+       ["One Timebomb Fused Core","Ronix"],["Rise Air Core 3 SF","Ronix"],["Remedy Aero","Liquid Force"],["Unity Aero","Liquid Force"],["ME Aero","Liquid Force"]]},
+ {"n":"Water ski","a":"waterski","d":"Ski with a binding ridden by a person towed behind a boat, used in pairs or singly for slalom.",
+  "t":["combo pair","slalom","trick","adjustable horseshoe or boot bindings"],"s":"https://www.evo.com/reviews/wake/best-water-skis",
+  "m":[["Burner Combo","HO"],["Blast Combo","HO"],["Hovercraft","HO"],["Aspect Slalom","Connelly"],["Concept Slalom","Connelly"],
+       ["X-Caliber","Radar"],["Session Slalom","Radar"],["Celebrity Combo","Obrien"],["Vortex Combo","Obrien"]]},
+]
+brands=[
+ {"n":"Red Paddle Co","c":"United Kingdom","seg":"Premium","kf":"inflatable SUP","d":"British maker of stiff inflatable paddleboards.","s":K},
+ {"n":"Werner","c":"United States","seg":"Premium","kf":"kayak and SUP paddles","d":"Werner Paddles, American paddle maker.","s":K},
+ {"n":"Aqua Bound","seg":"Mainstream","kf":"paddles","d":"Paddle maker.","s":K},
+ {"n":"Crewsaver","c":"United Kingdom","seg":"Mainstream","kf":"lifejackets","d":"British maker of lifejackets and buoyancy aids.","s":K},
+ {"n":"Spinlock","c":"United Kingdom","seg":"Premium","kf":"lifejackets, sailing hardware","d":"British maker of sailing hardware and Deckvest lifejackets.","s":K},
+ {"n":"Mustang Survival","c":"Canada","seg":"Mainstream","kf":"PFDs","d":"Canadian maker of flotation wear.","s":K},
+ {"n":"Hyperlite","c":"United States","seg":"Mainstream","kf":"wakeboards","d":"Wakeboard brand.","s":K},
+ {"n":"Ronix","c":"United States","seg":"Premium","kf":"wakeboards","d":"Wakeboard and wakesurf brand.","s":K},
+ {"n":"Liquid Force","c":"United States","seg":"Premium","kf":"wakeboards","d":"Wakeboard brand.","s":K},
+ {"n":"HO","c":"United States","seg":"Mainstream","kf":"water skis","d":"HO Sports, water ski and wake brand.","s":K},
+ {"n":"Connelly","c":"United States","seg":"Mainstream","kf":"water skis","d":"Connelly Skis, water ski brand.","s":K},
+]
+notes=("All 3 old kinds kept; 3 new kinds (Kayak paddle, Wakeboard, Water ski) sourced to retrieved test pages. Life jacket: 14 old Mustang/Stohlquist models (retail skew) "
+ "cut to 5 and joined by Yacht.de test models incl. class winners Crewsaver Crewfit+ 180N Pro and Baltic Legend 305; ISO 12402 classes as t. "
+ "Dropped old life-jacket SKUs Cascade, Destiny, Java, Solaris, Topwater, Vibe Foam Vest, Escape, Keeper, Rocker PFD. No archetypes (tier/QoL shelf). "
+ "Not done: Black Project, Lendal, Peak UK, Palm, Fanatic models - not named on any retrieved page.")
+w('E2','10_04',{"kinds":kinds,"brands":brands,"traditions":[],"notes":notes})

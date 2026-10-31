@@ -1,0 +1,275 @@
+{
+ "kinds": [
+  {
+   "n": "Desktop database software",
+   "a": "personal database",
+   "d": "Program for building and querying a database on one's own computer, with forms and reports or as a single file.",
+   "t": [
+    "form-and-report database",
+    "embedded file database"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems",
+   "m": [
+    [
+     "FileMaker",
+     "Claris International"
+    ],
+    [
+     "Microsoft Access",
+     "Microsoft"
+    ],
+    [
+     "SQLite",
+     "D. Richard Hipp"
+    ],
+    [
+     "4D",
+     "4D SAS"
+    ],
+    [
+     "Omnis Studio",
+     "TigerLogic"
+    ],
+    [
+     "R:Base",
+     "R:BASE Technologies"
+    ],
+    [
+     "Paradox",
+     "Corel"
+    ],
+    [
+     "Microsoft Visual FoxPro",
+     "Microsoft"
+    ],
+    [
+     "Superbase",
+     "Superbase"
+    ],
+    [
+     "LibreOffice Base",
+     "The Document Foundation"
+    ],
+    [
+     "DB Browser for SQLite",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Terminal emulator",
+   "a": "",
+   "d": "Program that shows a text terminal for a local shell, serial line or remote connection.",
+   "t": [
+    "built-in OS terminal",
+    "GPU-accelerated",
+    "drop-down",
+    "mobile"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_terminal_emulators",
+   "m": [
+    [
+     "Windows Terminal",
+     "Microsoft"
+    ],
+    [
+     "Terminal.app",
+     "Apple"
+    ],
+    [
+     "iTerm2",
+     ""
+    ],
+    [
+     "GNOME Terminal",
+     ""
+    ],
+    [
+     "Konsole",
+     ""
+    ],
+    [
+     "Xfce Terminal",
+     ""
+    ],
+    [
+     "Alacritty",
+     ""
+    ],
+    [
+     "kitty",
+     ""
+    ],
+    [
+     "WezTerm",
+     ""
+    ],
+    [
+     "Ghostty",
+     ""
+    ],
+    [
+     "Warp Terminal",
+     ""
+    ],
+    [
+     "Tabby",
+     ""
+    ],
+    [
+     "ConEmu",
+     ""
+    ],
+    [
+     "Mintty",
+     ""
+    ],
+    [
+     "Tera Term",
+     ""
+    ],
+    [
+     "Termux",
+     ""
+    ],
+    [
+     "xterm",
+     ""
+    ],
+    [
+     "Guake",
+     ""
+    ],
+    [
+     "Cool Retro Term",
+     ""
+    ],
+    [
+     "HyperTerminal",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "SSH and FTP client",
+   "a": "SFTP client",
+   "d": "Program that connects to remote servers by SSH or transfers files by FTP or SFTP.",
+   "t": [
+    "SSH terminal",
+    "file transfer",
+    "mobile"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_SSH_clients",
+   "m": [
+    [
+     "OpenSSH",
+     "OpenBSD project"
+    ],
+    [
+     "PuTTY",
+     "Simon Tatham"
+    ],
+    [
+     "KiTTY",
+     ""
+    ],
+    [
+     "WinSCP",
+     "Martin Prikryl"
+    ],
+    [
+     "FileZilla",
+     ""
+    ],
+    [
+     "Cyberduck",
+     ""
+    ],
+    [
+     "Transmit",
+     ""
+    ],
+    [
+     "SmartFTP",
+     ""
+    ],
+    [
+     "Termius",
+     ""
+    ],
+    [
+     "SecureCRT",
+     "VanDyke Software"
+    ],
+    [
+     "MobaXterm",
+     ""
+    ],
+    [
+     "Bitvise SSH Client",
+     "Bitvise"
+    ],
+    [
+     "Xshell",
+     ""
+    ],
+    [
+     "Blink Shell",
+     ""
+    ],
+    [
+     "ConnectBot",
+     ""
+    ],
+    [
+     "Secure ShellFish",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Network analyser",
+   "a": "network protocol analyser · packet sniffer",
+   "d": "Program that captures and inspects network traffic.",
+   "t": [
+    "packet capture",
+    "web debugging proxy",
+    "wireless survey"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_packet_analyzers",
+   "m": [
+    [
+     "Wireshark",
+     "Wireshark Team"
+    ],
+    [
+     "tcpdump",
+     "Tcpdump Team"
+    ],
+    [
+     "Fiddler",
+     "Telerik"
+    ],
+    [
+     "Charles Web Debugging Proxy",
+     ""
+    ],
+    [
+     "Kismet",
+     ""
+    ],
+    [
+     "EtherApe",
+     ""
+    ],
+    [
+     "CommView",
+     "TamoSoft"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Restraint-only. Old 'Database software' renamed Desktop database software and cut 65->9 per brief: database servers and enterprise/cloud DBMSs dropped (Oracle, SQL Server, Db2, MySQL, PostgreSQL, MariaDB, SAP HANA, Teradata, CockroachDB etc.); Paradox, Visual FoxPro and Superbase kept as icons of the kind; Microsoft Office range dropped. Gap noticed: LibreOffice Base and SQLite GUI tools named in the brief are absent from the old data and were not added (needs web pass). Terminal emulator 65->20 leaders plus HyperTerminal as icon; SSH clients (PuTTY, SecureCRT, Xshell, Termius, Bitvise etc.) kept only under SSH and FTP client; mainframe and serial emulators (RUMBA, x3270, PComm), connection managers and minor tails dropped. SSH and FTP client 41->16 (dropped server/library components Dropbear and wolfSSH, mainframe TN3270 Plus, enterprise Tectia and WS_FTP, connection managers and minor tails). Network analyser 27->7: surveillance products (Carnivore, Clusterpoint), hardware appliances and enterprise suites (Allegro, Observer, Sniffer, SteelCentral, OmniPeek, Capsa), discontinued Microsoft tools and attack tools (Cain and Abel, dSniff, Ettercap) dropped. No new kinds."
+}

@@ -1,0 +1,45 @@
+import json, os
+K = [
+ {"n":"Small-animal food","a":"rabbit food · guinea pig food · hamster food","d":"Pellets, nuggets, mixes and feeding hay made for rabbits, guinea pigs, hamsters and other small mammals.",
+  "t":["extruded nuggets or pellets","muesli mix","feeding hay (timothy, meadow, orchard grass)","junior","adult","senior or mature","light","indoor","grain-free","treats and forage"],
+  "s":"https://www.zooplus.ie/shop/rodents/rabbits/rabbit_food/434716",
+  "m":[["Burgess Pet Care Excel Adult Rabbit Nuggets with Mint","Burgess Pet Care"],["Burgess Pet Care Excel Adult Guinea Pig Nuggets with Mint","Burgess Pet Care"],["Burgess Pet Care Excel Hamster, Gerbil & Mouse Nuggets","Burgess Pet Care"],["Burgess Pet Care Excel Feeding Hay with Dandelion & Marigold","Burgess Pet Care"],["Supreme Petfoods Science Selective Junior Rabbit Food","Supreme Petfoods"],["Supreme Petfoods Selective Naturals Grain Free Rabbit Food","Supreme Petfoods"],["Supreme Petfoods Selective Timothy Hay","Supreme Petfoods"],["Oxbow Essentials Adult Rabbit Food","Oxbow"],["Oxbow Essentials Adult Guinea Pig Food","Oxbow"],["Oxbow Western Timothy Grass Hay","Oxbow"],["Versele-Laga Cuni Rabbit Adult Complete","Versele-Laga"],["Chipsi Sunshine Meadow Hay","Chipsi"]],
+  "r":[["Burgess Excel","Burgess Pet Care"]]},
+ {"n":"Small-animal cage or hutch","a":"hamster cage · guinea pig cage · rabbit hutch","d":"A cage, indoor habitat or outdoor hutch in which a small mammal is housed.",
+  "t":["wire cage with plastic base","multi-level cage","glass or acrylic tank habitat","indoor pen-style habitat","wooden outdoor hutch","plastic outdoor hutch","hutch with attached run"],
+  "s":"https://www.omlet.co.uk/rabbit-hutches/",
+  "m":[["Omlet Eglu Go Rabbit Hutch","Omlet"],["Ferplast Krolik 200","Ferplast"],["Ferplast Casita","Ferplast"],["Ferplast Plaza","Ferplast"],["Savic Zeno 3 Empire","SAVIC"],["Savic Royal Suite XL","SAVIC"],["Prevue Pet Products Universal Small Animal Home","Prevue Pet Products"],["MidWest Homes for Pets Guinea Habitat Plus","MidWest Homes for Pets"],["Kaytee Deluxe 2-Level Habitat","Kaytee"],["Living World Deluxe Hybrid Habitat","Living World"],["Skyline Maxi XXL","Skyline"],["GuineaLoft Model-A Acrylic Guinea Pig Cage","GuineaLoft"]]},
+ {"n":"Rabbit and guinea-pig run","a":"rabbit run · guinea pig run · playpen","d":"A mesh enclosure, often movable, that gives rabbits or guinea pigs safe space to graze and exercise.",
+  "t":["movable lawn run","walk-in run","run with roof and skirt","indoor playpen","run extension or platform","tunnel connection to hutch"],
+  "s":"https://www.omlet.co.uk/shop/guinea_pig_products/zippi_guinea_pig_run_and_playpen_accessories/25505/zippi_guinea_pig_run_with_roof_and_skirt_-_single_height/",
+  "m":[["Omlet Zippi Guinea Pig Run with Roof and Skirt","Omlet"],["Omlet Zippi Rabbit Runs and Playpens","Omlet"],["Omlet Walk In Rabbit Run","Omlet"]]},
+ {"n":"Small-animal bedding","a":"cage bedding · small pet litter","d":"Loose absorbent material spread in a small mammal's cage or hutch for comfort, burrowing and odour control.",
+  "t":["paper","aspen shavings","kiln-dried pine shavings","processed corncob","wood pellets","scented","coloured"],
+  "s":"https://kaytee.com/learn-care/small-animals/choosing-the-right-bedding-litter",
+  "m":[["Carefresh Small Animal Bedding, Natural","Carefresh"],["Kaytee Clean & Cozy Small Animal Bedding","Kaytee"],["Kaytee Aspen Bedding","Kaytee"],["Oxbow Pure Comfort Small Animal Bedding","Oxbow"],["Small Pet Select Premium Paper Small Animal Bedding","Small Pet Select"],["Vitakraft Fresh World Ultra Strength Small Animal Bedding","Vitakraft"],["Sunseed Natural Corn Cob Bird & Small Pet Bedding & Litter","Sunseed"],["Brown's Naturally Fresh! Soft Pine Bird & Small Animal Bedding","Brown's"]]},
+ {"n":"Exercise wheel","a":"hamster wheel · running wheel","d":"A wheel or tilted disc on a stand that a hamster, gerbil, mouse or similar pet runs in for exercise.",
+  "t":["solid running surface","mesh surface","runged (wire)","running disc or saucer","wood","plastic","metal","stand-mounted","cage-mounted","20 cm (dwarf hamster)","28–30 cm and over (Syrian hamster)"],
+  "s":"https://en.wikipedia.org/wiki/Hamster_wheel",
+  "m":[["Niteangel Super-Silent Hamster Exercise Wheel","Niteangel"],["Niteangel Wooden Hamster Exercise Wheel","Niteangel"],["Trixie Wooden Exercise Wheel","Trixie"],["Ware Metal Tread Small Animal Exercise Wheel","Ware"],["Exotic Nutrition Small Silent Runner","Exotic Nutrition"],["Lizhi Flying Saucer Exercise Wheel","Lizhi"]]},
+ {"n":"Small-animal water bottle","a":"drip bottle · gravity water bottle","d":"A cage-mounted bottle with a ball-valve spout from which a small mammal drinks.",
+  "t":["plastic","glass","chew-proof guard","wide-mouth","no-drip valve"],
+  "s":"https://thevetdesk.com/pet-lifestyle/rabbits/best-rabbit-water-bottles",
+  "m":[["Choco Nose No-Drip Small Animal Water Bottle","Choco Nose"],["Trixie Honey and Hopper Glass Water Bottle","Trixie"],["Lixit Deluxe Glass Pet Water Bottle","Lixit"],["Lixit Critter Bright Water Bottles","Lixit"],["Kaytee Chew-Proof Small Animal Water Bottle","Kaytee"],["MidWest Homes for Pets water bottle","MidWest Homes for Pets"],["Living World Eco + Water Bottle","Living World"]]},
+]
+kn="knowledge"
+B = [
+ {"n":"Omlet","c":"United Kingdom","f":"2004","seg":"Design-led pet housing","d":"British maker of plastic pet housing and runs, known for the Eglu.","sig":["Eglu","Zippi run"],"s":kn},
+ {"n":"Ferplast","c":"Italy","seg":"Mass-market pet supplies","d":"Italian maker of cages, aquariums and pet accessories.","s":kn},
+ {"n":"SAVIC","c":"Belgium","seg":"Mass-market pet supplies","d":"Belgian maker of small-animal and bird cages and accessories.","s":kn},
+ {"n":"Versele-Laga","c":"Belgium","seg":"Pet and animal food","d":"Belgian maker of food for birds, small animals and pigeons.","s":kn},
+ {"n":"Burgess Pet Care","c":"United Kingdom","seg":"Small-animal food","d":"British maker of small-animal food sold as the Excel range.","lines":["Excel"],"s":kn},
+ {"n":"Supreme Petfoods","c":"United Kingdom","seg":"Small-animal food","d":"British maker of the Science Selective small-animal food range.","lines":["Science Selective"],"s":kn},
+ {"n":"Oxbow","c":"United States","seg":"Small-animal food and hay","d":"American maker of hay, pellets and supplies for small herbivores.","lines":["Essentials","Garden Select"],"s":kn},
+ {"n":"Kaytee","c":"United States","seg":"Small-animal and bird supplies","d":"American maker of small-animal and bird food, bedding and habitats.","lines":["Clean & Cozy"],"s":kn},
+ {"n":"Trixie","c":"Germany","seg":"Mass-market pet supplies","d":"German pet-accessory maker with a broad small-animal range.","s":kn},
+]
+notes=("Food trimmed from 28 to 12 models (Burgess/Supreme/Oxbow flavour and species variants cut; Hansepet pea flakes and Oxbow Harvest Stacks/Botanical/Orchard hay cut as SKU noise); Versele-Laga Cuni Complete added from zooplus page. "
+ "Cages trimmed from 31 to 12; dropped Amazon-marketplace lines (Aivituvin, SONGMICS, Amazon Basics) and duplicate Savic Zeno/Ferplast/Skyline/TIAKI variants; Omlet Eglu Go hutch added. Old food and cage s (Pets at Home dog page) replaced by retrieved relevant pages. "
+ "New kinds: run (Omlet Zippi and Walk In), bedding (Kaytee guide types + Chewy ranking), exercise wheel (Wikipedia + BestReviews/zooplus), water bottle (TheVetDesk + A-Z Animals). Zooplus own-label hutches not added (no specific product page retrieved). No archetypes or traditions (tier shelf).")
+out={"kinds":K,"brands":B,"traditions":[],"notes":notes}
+p='work/B10/shelves/06_00.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

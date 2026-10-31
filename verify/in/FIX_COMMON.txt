@@ -1,0 +1,13 @@
+COMMON BRIEF — fix batch from the AUD3 cold audits (owner: "Start fixing as audits finish", 2026-10-28)
+
+Your job: implement the audit findings for ONE category, given in your prompt as a section of /home/user/Possession-Taxonomy/verify/out/AUD3_<GROUP>.md.
+
+Follow /home/user/Possession-Taxonomy/verify/in/AUD2_COMMON.txt exactly (RESUME RULE with <BATCH> = FIX_<CODE>, rules, sourcing, archetype standard, brand register, files, finish) with these additions:
+- Files you may edit: rebuild/out/<CODE>.json, rebuild/out/<CODE>_brands.json, rebuild/out/<CODE>_traditions.json and rebuild/out/<CODE>_moves.json (kinds the findings send to another category go here as {"to","dept","kind"} entries — append, never remove existing entries). Back each up first. Never edit another category's files.
+- The auditor marked some facts "to verify": nothing enters the data without a fetched source. A finding that would need a fact you cannot source is reported, not guessed.
+- Use your judgement: if a finding conflicts with RULES.md or BRIEF.md, or rests on a wrong count, skip it and say why in the report. Do not reorganise beyond what the findings ask.
+- Never delete brand-register entries just because no item links to them (the register is harvested from brand lists on purpose); do fix wrong segments, duplicates and mis-filed people (perfumers, designers) as the findings say.
+- Removing models for the scope rule (trade/institutional equipment) is allowed: keep the kind, drop its models/ranges.
+- Report file: rebuild/out/FIX_<CODE>_report.md (≤ 300 words): each finding code → done / partly / skipped (why); counts before → after.
+- Cross-category duplicates: remove an item from your category only if RULES.md clearly homes it in the other category (e.g. built-in features → G3 Home Fixtures; movables → Home domain); otherwise keep it and note the duplicate in your report. Never add an item to another category yourself — use _moves.json.
+- Owner decisions 2026-10-28 (apply them): built-in light fittings (recessed downlights, track lighting, under-cabinet lights) move from B3 to G3 (B3 sends them via _moves.json); door and window locks stay in B8, and G3's multipoint lock moves to B8 (G3 sends it via _moves.json).

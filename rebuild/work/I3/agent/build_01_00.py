@@ -1,0 +1,46 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+ {"n":"Music streaming","a":"music streaming subscription · on-demand music",
+  "d":"Plan giving on-demand access to a library of recorded music.",
+  "t":["individual","duo","family","student","lossless or hi-res tier","ad-supported free tier"],
+  "s":"https://en.wikipedia.org/wiki/Comparison_of_music_streaming_services",
+  "m":[["Spotify Premium","Spotify"],["Apple Music","Apple"],["YouTube Music","YouTube Music"],["Amazon Music","Amazon Music"],
+       ["Tidal","Tidal"],["Deezer","Deezer"],["Qobuz","Qobuz"],["SoundCloud","SoundCloud"],["Pandora","SiriusXM"],
+       ["Apple Music Classical","Apple"],["IDAGIO","IDAGIO"]],
+  "r":[["QQ Music","QQ Music"],["NetEase Cloud Music","NetEase Cloud Music"],["KKBox","KKBox"],["Melon","Melon"],["Line Music","Line Music"],
+       ["JioSaavn","JioSaavn"],["Gaana","Gaana"],["Anghami","Anghami"],["Boomplay","Boomplay"],["Joox","Joox"],["Audiomack","Audiomack"]]},
+ {"n":"Audiobook subscription","a":"audiobook catalogue subscription · audiobook streaming",
+  "d":"Plan giving access to a catalogue of audiobooks while subscribed; titles bought with credits are in Digital Media & Items.",
+  "t":["credit-based membership","unlimited listening","hours-capped","family plan"],
+  "s":"https://subger.com/sv/reading-media/audiobooks",
+  "m":[["Audible","Audible"],["Storytel","Storytel"],["BookBeat","Bonnier"],["Nextory","Nextory"],["Spotify Premium audiobook hours","Spotify"],
+       ["Everand","Everand"],["Kobo Plus","Kobo Plus"],["Libro.fm","Libro.fm"]]},
+ {"n":"Satellite and internet radio","a":"satellite radio · premium internet radio",
+  "d":"Paid subscription to a network of radio channels received by satellite or over the internet.",
+  "t":["in-car satellite","streaming only","ad-free premium tier"],
+  "s":"https://www.siriusxm.com/plans",
+  "m":[["SiriusXM","SiriusXM"],["TuneIn","TuneIn"],["iHeartRadio","iHeartRadio"],["Stingray Music","Stingray Music"],["Music Choice","Music Choice"],["MyTuner Radio","MyTuner Radio"]]},
+ {"n":"Paid podcast subscription","a":"paid podcast · podcast membership",
+  "d":"Paid plan, bought through a podcast platform, unlocking a show's subscriber-only episodes or ad-free feed.",
+  "t":["per-show subscription","channel or network subscription","private RSS feed","ad-free feed"],
+  "s":"https://www.apple.com/apple-podcasts/",
+  "m":[["Apple Podcasts Subscriptions","Apple"],["Spotify podcast memberships","Spotify"],["Patreon","Patreon"],["Supercast","Supercast"]]},
+]
+brands=[
+ {"n":"Spotify","c":"Sweden","f":"2006","seg":"Mainstream","kf":"music streaming","d":"Swedish music, podcast and audiobook streaming service with Student, Individual, Duo and Family plans.","lines":["Premium Individual","Premium Duo","Premium Family","Premium Student"],"s":W+"Spotify"},
+ {"n":"Apple","c":"United States","f":"1976","seg":"Premium","kf":"devices and services","d":"US technology company whose services include Apple Music, Apple Music Classical and Apple Podcasts Subscriptions.","lines":["Apple Music","Apple Music Classical","Apple Podcasts Subscriptions"],"s":"knowledge"},
+ {"n":"Tidal","c":"Norway","f":"2014","seg":"Premium","kf":"hi-res music","d":"Music streaming service majority-owned by Block, offering FLAC hi-res audio.","s":W+"Tidal_(service)"},
+ {"n":"Qobuz","c":"France","f":"2007","seg":"Specialist","kf":"hi-res music","d":"French lossless and hi-res music streaming and download service.","s":W+"Qobuz"},
+ {"n":"Deezer","c":"France","f":"2007","seg":"Mainstream","kf":"music streaming","d":"Paris-based music streaming service.","s":W+"Deezer"},
+ {"n":"Audible","c":"United States","f":"1995","seg":"Mainstream","kf":"audiobooks","d":"Amazon-owned audiobook service with monthly credits and the Plus catalogue.","lines":["Audible Plus","Audible Premium Plus"],"s":W+"Audible_(service)"},
+ {"n":"Storytel","c":"Sweden","f":"2006","seg":"Mainstream","kf":"audiobook streaming","d":"Stockholm-based audiobook and e-book streaming service in about 26 countries.","s":W+"Storytel"},
+ {"n":"SiriusXM","c":"United States","f":"2008","seg":"Mainstream","kf":"satellite radio","d":"US satellite and online radio company formed by the Sirius–XM merger; owns Pandora.","rel":["Pandora"],"s":W+"Sirius_XM"},
+ {"n":"Patreon","c":"United States","f":"2013","seg":"Mainstream","kf":"creator memberships","d":"San Francisco membership platform where fans pay creators, including podcasters, regularly.","s":W+"Patreon"},
+]
+notes=("Music streaming: 11 global/specialist leaders in m, 11 regional leaders in r. Dropped as minor or out of scope: LiveOne, Moov, ROXi, VIBE, Wolfgang's (concert archive), "
+ "hoopla (free library service). Paid podcasts: titles OUT per rules - dropped Breaking Points, Completely Arbortrary, Girls Overheard, Reality Cray Cray, The Bible Recap, "
+ "Therapy Gecko and the network Axis Mundi Media; kept platforms only. Spotify audiobook hours: amount varies by country (support page), so no figure given. "
+ "Nextory attested only as a pan-Nordic service (advanced-television); owner not stated. Old kind sources kept.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/I3/shelves/01_00.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p); print('written')

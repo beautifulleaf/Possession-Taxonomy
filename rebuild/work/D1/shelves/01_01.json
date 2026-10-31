@@ -1,0 +1,753 @@
+{
+ "kinds": [
+  {
+   "n": "Graphics card",
+   "a": "video card · GPU · グラフィックボード · ビデオカード",
+   "d": "Expansion card with a graphics processor that drives displays and renders games.",
+   "t": [
+    "reference / Founders Edition",
+    "partner board (custom cooler)",
+    "low-profile",
+    "water-blocked",
+    "blower"
+   ],
+   "s": "https://shop.tsukumo.co.jp/dir/20",
+   "x": [
+    {
+     "n": "3dfx Voodoo",
+     "a": "",
+     "d": "The first consumer 3D accelerator card, whose Glide API defined late-1990s PC gaming; now a collector icon.",
+     "mk": "3dfx",
+     "y": "1996",
+     "s": "https://en.wikipedia.org/wiki/3dfx_Interactive",
+     "v": [
+      {
+       "n": "Voodoo Graphics",
+       "mk": "3dfx",
+       "y": "1996",
+       "d": "3D-only, needs a separate 2D card"
+      },
+      {
+       "n": "Voodoo2",
+       "mk": "3dfx",
+       "y": "1998",
+       "d": "second texture unit; two boards linked by SLI"
+      },
+      {
+       "n": "Voodoo Banshee",
+       "mk": "3dfx",
+       "y": "1998",
+       "d": "single-chip 2D/3D"
+      },
+      {
+       "n": "Voodoo3",
+       "mk": "3dfx",
+       "y": "1999",
+       "d": "strong sales"
+      },
+      {
+       "n": "Voodoo4 4500 / Voodoo5 5500",
+       "mk": "3dfx",
+       "y": "2000",
+       "d": "last cards before Nvidia bought the assets"
+      }
+     ]
+    },
+    {
+     "n": "Nvidia GeForce",
+     "a": "GeForce GTX · GeForce RTX",
+     "d": "Nvidia's consumer graphics line, from the \"first GPU\" to today's RTX ray-tracing cards.",
+     "mk": "Nvidia",
+     "y": "1999",
+     "s": "https://en.wikipedia.org/wiki/GeForce",
+     "v": [
+      {
+       "n": "GeForce 256",
+       "mk": "Nvidia",
+       "y": "1999",
+       "d": "marketed as the first GPU"
+      },
+      {
+       "n": "GeForce 2 / 3 / 4",
+       "mk": "Nvidia",
+       "y": "2000–2002",
+       "d": "GeForce 3 added programmable shaders"
+      },
+      {
+       "n": "GeForce FX",
+       "mk": "Nvidia",
+       "y": "2003",
+       "d": ""
+      },
+      {
+       "n": "GeForce 6 / 7",
+       "mk": "Nvidia",
+       "y": "2004–2005",
+       "d": "SLI; 7 series last with AGP; 7900 GTX"
+      },
+      {
+       "n": "GeForce 8",
+       "mk": "Nvidia",
+       "y": "2006",
+       "d": "8800 GTX: first Direct3D 10 card, unified shaders; 8800 GT"
+      },
+      {
+       "n": "GeForce 200",
+       "mk": "Nvidia",
+       "y": "2008",
+       "d": "GTX 260, GTX 280"
+      },
+      {
+       "n": "GeForce 400 / 500 (Fermi)",
+       "mk": "Nvidia",
+       "y": "2010",
+       "d": "GTX 480, GTX 580"
+      },
+      {
+       "n": "GeForce 600 / 700 (Kepler)",
+       "mk": "Nvidia",
+       "y": "2012–2013",
+       "d": "GTX 680, GTX 780, GTX Titan"
+      },
+      {
+       "n": "GeForce 900 (Maxwell)",
+       "mk": "Nvidia",
+       "y": "2014",
+       "d": ""
+      },
+      {
+       "n": "GeForce 10 (Pascal)",
+       "mk": "Nvidia",
+       "y": "2016",
+       "d": "GTX 1080, GTX 1080 Ti"
+      },
+      {
+       "n": "GeForce 16",
+       "mk": "Nvidia",
+       "y": "2019",
+       "d": "Turing without RT cores, budget"
+      },
+      {
+       "n": "GeForce RTX 20 (Turing)",
+       "mk": "Nvidia",
+       "y": "2018",
+       "d": "first real-time ray tracing and DLSS; RTX 2080 Ti"
+      },
+      {
+       "n": "GeForce RTX 30 (Ampere)",
+       "mk": "Nvidia",
+       "y": "2020",
+       "d": "RTX 3090, 3090 Ti"
+      },
+      {
+       "n": "GeForce RTX 40 (Ada Lovelace)",
+       "mk": "Nvidia",
+       "y": "2022",
+       "d": "RTX 4090"
+      },
+      {
+       "n": "GeForce RTX 50 (Blackwell)",
+       "mk": "Nvidia",
+       "y": "2025",
+       "d": "RTX 5090, 5080, 5070 Ti, 5070"
+      },
+      {
+       "n": "Titan",
+       "mk": "Nvidia",
+       "y": "2013",
+       "d": "GTX Titan, Titan X, Titan Black, Titan Z, Titan RTX"
+      }
+     ],
+     "dt": "tier xx50 · xx60 · xx70 · xx80 · xx90 · suffix Ti, Super · Founders Edition or partner board"
+    },
+    {
+     "n": "AMD Radeon",
+     "a": "ATI Radeon · Radeon RX",
+     "d": "ATI's, then AMD's, consumer graphics line, the main rival to GeForce.",
+     "mk": "AMD",
+     "y": "2000",
+     "s": "https://en.wikipedia.org/wiki/Radeon",
+     "v": [
+      {
+       "n": "Radeon 7000–9000",
+       "mk": "ATI",
+       "y": "2000–2002",
+       "d": "original ATI Radeon line"
+      },
+      {
+       "n": "Radeon X series",
+       "mk": "ATI",
+       "y": "2004–2005",
+       "d": "X300 to X1000"
+      },
+      {
+       "n": "Radeon HD",
+       "mk": "ATI",
+       "y": "2007–2013",
+       "d": "HD 2000 to HD 8000; AMD bought ATI in 2006"
+      },
+      {
+       "n": "Radeon R7 / R9 200 / 300",
+       "mk": "AMD",
+       "y": "2013–2015",
+       "d": "GCN"
+      },
+      {
+       "n": "Radeon RX 400 / 500 (Polaris)",
+       "mk": "AMD",
+       "y": "2016–2017",
+       "d": ""
+      },
+      {
+       "n": "Radeon RX Vega",
+       "mk": "AMD",
+       "y": "2017",
+       "d": ""
+      },
+      {
+       "n": "Radeon RX 5000 (RDNA)",
+       "mk": "AMD",
+       "y": "2019",
+       "d": "e.g. RX 5700 XT"
+      },
+      {
+       "n": "Radeon RX 6000 (RDNA 2)",
+       "mk": "AMD",
+       "y": "2020",
+       "d": ""
+      },
+      {
+       "n": "Radeon RX 7000 (RDNA 3)",
+       "mk": "AMD",
+       "y": "2022",
+       "d": ""
+      },
+      {
+       "n": "Radeon RX 9000 (RDNA 4)",
+       "mk": "AMD",
+       "y": "2025",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "n": "Intel Arc",
+     "a": "",
+     "d": "Intel's discrete graphics cards, its first serious entry into gaming GPUs.",
+     "mk": "Intel",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Intel_Arc",
+     "v": [
+      {
+       "n": "Alchemist (A-series)",
+       "mk": "Intel",
+       "y": "2022",
+       "d": "Arc A770, A750"
+      },
+      {
+       "n": "Battlemage (B-series)",
+       "mk": "Intel",
+       "y": "2024",
+       "d": "Arc B580 (Dec 2024), B570 (Jan 2025)"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "ROG Astral GeForce RTX 5090",
+     "ASUS"
+    ],
+    [
+     "ROG Strix GeForce RTX 5070 Ti",
+     "ASUS"
+    ],
+    [
+     "TUF Gaming GeForce RTX 5080",
+     "ASUS"
+    ],
+    [
+     "Prime GeForce RTX 5070",
+     "ASUS"
+    ],
+    [
+     "ROG Matrix GeForce RTX 4090 Platinum",
+     "ASUS"
+    ],
+    [
+     "Radeon RX 5700 XT Challenger",
+     "ASRock"
+    ]
+   ],
+   "r": [
+    [
+     "GeForce RTX",
+     "Nvidia"
+    ],
+    [
+     "GeForce GTX",
+     "Nvidia"
+    ],
+    [
+     "GeForce GT",
+     "Nvidia"
+    ],
+    [
+     "Titan",
+     "Nvidia"
+    ],
+    [
+     "Radeon RX",
+     "AMD"
+    ],
+    [
+     "Arc",
+     "Intel"
+    ],
+    [
+     "ROG Astral",
+     "ASUS"
+    ],
+    [
+     "ROG Strix",
+     "ASUS"
+    ],
+    [
+     "ROG Matrix",
+     "ASUS"
+    ],
+    [
+     "TUF Gaming",
+     "ASUS"
+    ],
+    [
+     "Prime",
+     "ASUS"
+    ],
+    [
+     "Challenger",
+     "ASRock"
+    ],
+    [
+     "FTW",
+     "EVGA"
+    ],
+    [
+     "Kingpin",
+     "EVGA"
+    ],
+    [
+     "Classified",
+     "EVGA"
+    ]
+   ]
+  },
+  {
+   "n": "External GPU enclosure",
+   "a": "eGPU · eGPU box",
+   "d": "Housing that holds a desktop graphics card outside the computer and connects it, usually by Thunderbolt.",
+   "s": "https://www.razer.com/gaming-egpus/razer-core-x-v2",
+   "m": [
+    [
+     "Core X",
+     "Razer"
+    ],
+    [
+     "Breakaway Box 750ex",
+     "Sonnet"
+    ],
+    [
+     "Breakaway Box 850",
+     "Sonnet"
+    ]
+   ]
+  },
+  {
+   "n": "Sound card",
+   "a": "audio card",
+   "d": "Card or module that handles a computer's audio, from modern gaming cards to retro collector boards.",
+   "t": [
+    "internal PCIe",
+    "USB",
+    "retro ISA",
+    "MIDI sound module"
+   ],
+   "s": "https://us.creative.com/aeseries/",
+   "x": [
+    {
+     "n": "Sound Blaster",
+     "a": "",
+     "d": "Creative's sound-card line that became the de facto PC audio standard.",
+     "mk": "Creative",
+     "y": "1989",
+     "s": "https://en.wikipedia.org/wiki/Sound_Blaster",
+     "v": [
+      {
+       "n": "Sound Blaster 1.0",
+       "mk": "Creative",
+       "y": "1989",
+       "d": "CT1320"
+      },
+      {
+       "n": "Sound Blaster Pro",
+       "mk": "Creative",
+       "y": "1991",
+       "d": ""
+      },
+      {
+       "n": "Sound Blaster 16",
+       "mk": "Creative",
+       "y": "1992",
+       "d": ""
+      },
+      {
+       "n": "Sound Blaster AWE32",
+       "mk": "Creative",
+       "y": "1994",
+       "d": "wavetable"
+      },
+      {
+       "n": "Sound Blaster AWE64",
+       "mk": "Creative",
+       "y": "1996",
+       "d": ""
+      },
+      {
+       "n": "Sound Blaster Live!",
+       "mk": "Creative",
+       "y": "1998",
+       "d": ""
+      },
+      {
+       "n": "Sound Blaster Audigy",
+       "mk": "Creative",
+       "y": "2001",
+       "d": ""
+      },
+      {
+       "n": "Sound Blaster X-Fi",
+       "mk": "Creative",
+       "y": "2005",
+       "d": ""
+      },
+      {
+       "n": "Sound Blaster Z-Series",
+       "mk": "Creative",
+       "y": "2012",
+       "d": ""
+      },
+      {
+       "n": "Sound BlasterX AE-5",
+       "mk": "Creative",
+       "y": "2017",
+       "d": ""
+      },
+      {
+       "n": "Sound Blaster AE-7 / AE-9",
+       "mk": "Creative",
+       "y": "2019",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "n": "Roland MT-32",
+     "a": "",
+     "d": "MIDI sound module that set the music standard for late-1980s PC games, sought by retro collectors.",
+     "mk": "Roland",
+     "y": "1987",
+     "s": "https://en.wikipedia.org/wiki/Roland_MT-32",
+     "v": [
+      {
+       "n": "MT-32",
+       "mk": "Roland",
+       "y": "1987",
+       "d": "external module; early units need a SysEx delay"
+      },
+      {
+       "n": "LAPC-I",
+       "mk": "Roland",
+       "y": "1989",
+       "d": "ISA card with MPU-401 interface"
+      },
+      {
+       "n": "CM-32L",
+       "mk": "Roland",
+       "y": "1989",
+       "d": "no display; adds 33 sound effects used by many games"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Sound Blaster AE-9",
+     "Creative"
+    ]
+   ]
+  },
+  {
+   "n": "Video capture device",
+   "a": "capture card · ビデオキャプチャー",
+   "d": "Card or box that records or streams a video signal from a console, camera or second PC.",
+   "t": [
+    "internal card",
+    "external USB",
+    "HDMI passthrough",
+    "4K / high frame rate"
+   ],
+   "s": "https://www.elgato.com/us/en/p/game-capture-4k-pro",
+   "x": [
+    {
+     "n": "Elgato Game Capture",
+     "a": "",
+     "d": "Elgato's capture devices for recording and streaming console and PC gameplay.",
+     "mk": "Elgato",
+     "y": "2012",
+     "s": "https://en.wikipedia.org/wiki/Elgato",
+     "v": [
+      {
+       "n": "Game Capture HD",
+       "mk": "Elgato",
+       "y": "2012",
+       "d": ""
+      },
+      {
+       "n": "Game Capture HD60",
+       "mk": "Elgato",
+       "y": "2014",
+       "d": ""
+      },
+      {
+       "n": "Game Capture HD60 X",
+       "mk": "Elgato",
+       "y": "",
+       "d": "external USB"
+      },
+      {
+       "n": "Game Capture 4K Pro",
+       "mk": "Elgato",
+       "y": "",
+       "d": "internal PCIe card"
+      },
+      {
+       "n": "Game Capture 4K X",
+       "mk": "Elgato",
+       "y": "2024",
+       "d": "external"
+      },
+      {
+       "n": "Game Capture 4K S",
+       "mk": "Elgato",
+       "y": "",
+       "d": "external"
+      },
+      {
+       "n": "Cam Link 4K",
+       "mk": "Elgato",
+       "y": "",
+       "d": "turns a camera into a webcam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Network card",
+   "a": "network adapter card · NIC",
+   "d": "Card fitted inside the computer that adds a wired or wireless network connection.",
+   "t": [
+    "Ethernet (1, 2.5, 10 Gb)",
+    "Wi-Fi"
+   ],
+   "s": "https://www.intel.com/content/www/us/en/ark/products/series/189530/intel-ethernet-network-adapter-x710.html",
+   "m": [
+    [
+     "Ethernet Network Adapter X710",
+     "Intel"
+    ]
+   ]
+  },
+  {
+   "n": "I/O expansion card",
+   "a": "port card",
+   "d": "Card fitted inside the computer that adds ports.",
+   "t": [
+    "USB",
+    "Thunderbolt",
+    "SATA / M.2",
+    "serial / parallel"
+   ],
+   "s": "https://www.startech.com/en-us/cards-adapters/pexusb312a2c2v",
+   "m": [
+    [
+     "GC-TITAN RIDGE",
+     "Gigabyte"
+    ]
+   ]
+  },
+  {
+   "n": "TV tuner card",
+   "a": "TV card",
+   "d": "Card fitted inside the computer that receives broadcast television.",
+   "t": [
+    "DVB-T/T2",
+    "DVB-S/S2",
+    "DVB-C",
+    "ATSC",
+    "multi-tuner"
+   ],
+   "s": "https://shop.tbsdtv.com/dvbt2-tv-tuner-pcie-c-12.html",
+   "m": [
+    [
+     "WinTV-quadHD",
+     "Hauppauge"
+    ],
+    [
+     "TBS6205",
+     "TBS"
+    ],
+    [
+     "TBS6209",
+     "TBS"
+    ],
+    [
+     "TBS6281SE",
+     "TBS"
+    ],
+    [
+     "TBS6522",
+     "TBS"
+    ],
+    [
+     "TBS6590",
+     "TBS"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Nvidia",
+   "c": "United States",
+   "f": "1993",
+   "seg": "Professional & flagship",
+   "kf": "GeForce GPUs",
+   "d": "Graphics-chip maker behind GeForce and the RTX cards.",
+   "s": "knowledge",
+   "lines": [
+    "GeForce",
+    "Titan"
+   ],
+   "sig": [
+    "Nvidia GeForce"
+   ]
+  },
+  {
+   "n": "3dfx",
+   "c": "United States",
+   "f": "1994",
+   "seg": "Specialist",
+   "kf": "Voodoo cards",
+   "d": "Pioneer of consumer 3D accelerators; assets sold to Nvidia in 2000.",
+   "s": "https://en.wikipedia.org/wiki/3dfx_Interactive",
+   "sig": [
+    "3dfx Voodoo"
+   ]
+  },
+  {
+   "n": "ATI",
+   "c": "Canada",
+   "f": "1985",
+   "seg": "Mainstream",
+   "kf": "Radeon",
+   "d": "Canadian graphics maker that created Radeon; bought by AMD in 2006.",
+   "s": "knowledge",
+   "rel": [
+    "AMD"
+   ]
+  },
+  {
+   "n": "EVGA",
+   "c": "United States",
+   "f": "1999",
+   "seg": "Premium",
+   "kf": "GeForce cards",
+   "d": "Nvidia board partner known for FTW, Classified and Kingpin cards; left graphics cards in 2022.",
+   "s": "https://en.wikipedia.org/wiki/EVGA_Corporation",
+   "lines": [
+    "FTW",
+    "Classified",
+    "Kingpin"
+   ]
+  },
+  {
+   "n": "Sapphire",
+   "c": "Hong Kong",
+   "f": "2001",
+   "seg": "Mainstream",
+   "kf": "Radeon cards",
+   "d": "Largest maker of AMD Radeon-based graphics cards.",
+   "s": "https://en.wikipedia.org/wiki/Sapphire_Technology"
+  },
+  {
+   "n": "Creative",
+   "c": "Singapore",
+   "f": "1981",
+   "seg": "Mainstream",
+   "kf": "Sound Blaster",
+   "d": "Singaporean audio company behind the Sound Blaster cards.",
+   "s": "knowledge",
+   "lines": [
+    "Sound Blaster"
+   ],
+   "sig": [
+    "Sound Blaster"
+   ]
+  },
+  {
+   "n": "Roland",
+   "c": "Japan",
+   "f": "1972",
+   "seg": "Professional & flagship",
+   "kf": "synthesizers",
+   "d": "Japanese electronic-instrument maker of the MT-32 sound module.",
+   "s": "knowledge",
+   "sig": [
+    "Roland MT-32"
+   ]
+  },
+  {
+   "n": "Elgato",
+   "c": "Germany",
+   "f": "2010",
+   "seg": "Specialist",
+   "kf": "capture & streaming",
+   "d": "Streaming-gear brand owned by Corsair since 2018.",
+   "s": "https://en.wikipedia.org/wiki/Elgato",
+   "rel": [
+    "Corsair"
+   ]
+  },
+  {
+   "n": "Razer",
+   "c": "United States",
+   "f": "2005",
+   "seg": "Premium",
+   "kf": "gaming peripherals",
+   "d": "Gaming hardware brand that popularised the eGPU box with the Core.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Hauppauge",
+   "c": "United States",
+   "f": "1994",
+   "seg": "Specialist",
+   "kf": "TV tuners",
+   "d": "Long-established maker of PC TV-tuner cards.",
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "Graphics card: 382 SKUs cut; workstation/datacentre lines (Quadro, RTX professional, FirePro, Radeon Pro, Radeon AI Pro) dropped as trade equipment (all 78 old AMD models were of this kind). Four consumer archetypes (3dfx Voodoo, GeForce, Radeon, Arc) with generations and key cards; board-partner lines kept as ranges and 6 ASUS/ASRock models. Sapphire Nitro+/Pulse not attested by the fetched page, so not listed. Video capture: internal and external merged. Brand facts for Nvidia, ATI, Creative, Roland, Razer, Hauppauge from knowledge."
+}

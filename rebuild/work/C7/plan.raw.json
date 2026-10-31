@@ -1,0 +1,1019 @@
+{
+ "lead": "Machinery and equipment for farms, smallholdings, woodlands and apiaries, from compact and vintage tractors to implements, harvest, livestock, forestry and beekeeping gear, organised by job; production machines stay at kind level, while vintage tractors, stationary engines and beehives are mapped to named archetypes.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Tractors",
+   "mode": "tier",
+   "note": "Current tractors at kind level; sizes from sub-compact to articulated. Vintage tractors have their own department.",
+   "b": [
+    {
+     "m": "Power and fit to the job",
+     "v": "",
+     "w": "Measured PTO and drawbar power against the job, plus hitch category and which implements fit; fit to the job comes first."
+    },
+    {
+     "m": "Lifting and hydraulic strength",
+     "v": "",
+     "w": "Measured in the Nebraska (OECD) tractor test."
+    },
+    {
+     "m": "Fuel economy",
+     "v": "higher horsepower-hours per gallon > lower",
+     "w": "Nebraska / OECD test figures."
+    },
+    {
+     "m": "Dealer nearby, service and parts",
+     "v": "",
+     "w": "Owner surveys put dealer support first."
+    },
+    {
+     "m": "Reliability and repair frequency",
+     "v": "",
+     "w": "Weighed with dealer support."
+    },
+    {
+     "m": "Transmission",
+     "v": "gear / shuttle < powershift < hydrostatic or CVT (for convenience)",
+     "w": "Hydrostatic dominates sub-compact and compact; CVT at the top of farm ranges."
+    },
+    {
+     "m": "Cab comfort and noise",
+     "v": "quieter (lower dB) > louder",
+     "w": "Cab, air conditioning and sound level are compared in tests."
+    },
+    {
+     "m": "Drive type",
+     "v": "2WD, FWA, 4WD",
+     "w": "Matched to the work, not a ladder."
+    }
+   ],
+   "s": [
+    {
+     "n": "Compact & small tractors",
+     "web": true,
+     "brief": "Tier shelf for smallholders and acreage owners. Sub-compact (under ~25 hp, mid-mount mower), compact (~25–60 hp) and utility (~60–120 hp) tractors as separate kinds; two-wheel (walk-behind) tractors and power tillers. Name the market-covering makers per kind (e.g. Kubota, John Deere, Mahindra, LS, Kioti, New Holland, Massey Ferguson, Yanmar, Iseki, TYM; two-wheel: BCS, Grillo, Pasquali, Honda, Kubota) and any independent test/review winner; add model ranges (r) rather than SKUs. Note Japanese grey-import compacts as a type. Strip the single production model from old k1 and re-source.",
+     "k": [
+      {
+       "n": "Sub-compact tractor",
+       "old": [],
+       "brief": "New kind; ranges such as Kubota BX, John Deere 1 Series if sourced."
+      },
+      {
+       "n": "Compact tractor",
+       "old": [],
+       "brief": "New kind; split out of the old utility tractor aliases."
+      },
+      {
+       "n": "Utility tractor",
+       "old": [
+        "k1"
+       ],
+       "brief": "Keep for ~60–120 hp general-purpose tractors; remove compact/sub-compact aliases."
+      },
+      {
+       "n": "Two-wheel tractor",
+       "old": [],
+       "brief": "New kind; walk-behind tractor with PTO for implements (BCS, Grillo, Pasquali); power tiller as alias/type."
+      }
+     ]
+    },
+    {
+     "n": "Farm tractors",
+     "web": false,
+     "brief": "Restraint only: kind level, strip production models, keep a few ranges at most. Drive layout as types where useful.",
+     "k": [
+      {
+       "n": "Row-crop tractor",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Articulated 4WD tractor",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Crawler tractor",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "Four-track tractor",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "Half-track tractor",
+       "old": [
+        "k11"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Specialist tractors",
+     "web": false,
+     "brief": "Restraint only: kind level, strip SKU model lists (Pellenc OPTIMUM numbers, Terratrac sizes) to a range per maker.",
+     "k": [
+      {
+       "n": "Orchard and vineyard tractor",
+       "old": [
+        "k4"
+       ]
+      },
+      {
+       "n": "High-clearance tractor",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Slope tractor",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Forestry tractor",
+       "old": [
+        "k7"
+       ]
+      },
+      {
+       "n": "Implement carrier",
+       "old": [
+        "k8"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Vintage tractors & engines",
+   "mode": "variety",
+   "note": "Collector department: kind → archetype (model family) → version (series, fuel, generation) → detail, following the TractorData maker → model axis.",
+   "b": [
+    {
+     "m": "Originality and provenance",
+     "v": "restored to original spec > period-correct > modified",
+     "w": "Club and show judging standards; serial-number dating."
+    },
+    {
+     "m": "Condition",
+     "v": "concours / show > working > restorable > parts",
+     "w": "Common vintage-tractor sale grading."
+    },
+    {
+     "m": "Parts availability",
+     "v": "",
+     "w": "Popular archetypes (TE20, Ford N, Farmall, Lister) are fully supported by reproduction parts."
+    }
+   ],
+   "s": [
+    {
+     "n": "Vintage tractors",
+     "web": true,
+     "brief": "Variety shelf; ordered by significance, archetypes are model families with versions. Required icons: Fordson Model F and N, Ferguson TE20 (TEA/TED/TEF versions) and Ford 9N/2N/8N, Farmall Regular/F-20/H/M, John Deere two-cylinder (Model D, A, B, 'Johnny Popper'), Lanz Bulldog (hot-bulb). Also: Waterloo Boy, IH Titan/Mogul, Hart-Parr, Allis-Chalmers WC, Massey-Harris, Massey Ferguson 35/135, David Brown Cropmaster, Field Marshall, Fordson Major, Fendt Dieselross, Deutz F-series, Porsche-Diesel, Hanomag, Zetor, Ursus C-45, Landini Velite, SAME, Steiger. Steam: Burrell, Fowler ploughing engines, Case. Crawlers: Holt, Caterpillar Twenty/Sixty/D2, Cletrac. Use TractorData and Wikipedia; add brand-register entries for heritage makers. Cross-link scale models to Toys, not here.",
+     "k": [
+      {
+       "n": "Early tractor (pre-1930)",
+       "old": [],
+       "brief": "Kerosene/petrol pioneers: Fordson F, Waterloo Boy, IH Titan, Hart-Parr, Ivel."
+      },
+      {
+       "n": "Vintage row-crop tractor",
+       "old": [],
+       "brief": "Farmall family, JD two-cylinder A/B, Allis-Chalmers WC, Oliver Row Crop."
+      },
+      {
+       "n": "Vintage standard tractor",
+       "old": [],
+       "brief": "Ferguson TE20, Ford N-series, Fordson Major, David Brown, MF 35/135, Nuffield."
+      },
+      {
+       "n": "Hot-bulb and semi-diesel tractor",
+       "old": [],
+       "brief": "Lanz Bulldog, Field Marshall, Landini, Ursus C-45, HSCS."
+      },
+      {
+       "n": "Vintage European diesel tractor",
+       "old": [],
+       "brief": "Post-war Fendt Dieselross, Deutz, Porsche-Diesel, Hanomag, Zetor, Eicher, SAME."
+      },
+      {
+       "n": "Vintage crawler tractor",
+       "old": [],
+       "brief": "Holt, Caterpillar Twenty/Sixty/D2, Cletrac, Fowler; distinct from current crawlers."
+      },
+      {
+       "n": "Steam traction and ploughing engine",
+       "old": [],
+       "brief": "Burrell, Fowler, Aveling & Porter, Case, Marshall, Garrett."
+      }
+     ]
+    },
+    {
+     "n": "Stationary engines & vintage barn machinery",
+     "web": true,
+     "brief": "Variety shelf for the stationary-engine hobby and rally machinery. Archetypes: hit-and-miss (Fairbanks-Morse Z, IHC Famous/Mogul, Hercules, Associated, Stover, Galloway), throttle-governed (Lister D and CS, Petter, Wolseley WD, Ruston Hornsby), hot-bulb (Bolinder, Ruston, Blackstone), plus threshing machines (Ransomes, Marshall, Clayton & Shuttleworth) and horse-drawn implements. Source via Wikipedia and engine-collector references.",
+     "k": [
+      {
+       "n": "Hit-and-miss engine",
+       "old": []
+      },
+      {
+       "n": "Throttle-governed stationary engine",
+       "old": []
+      },
+      {
+       "n": "Hot-bulb stationary engine",
+       "old": []
+      },
+      {
+       "n": "Threshing machine",
+       "old": [],
+       "brief": "Vintage threshing drum / separator driven by belt."
+      },
+      {
+       "n": "Horse-drawn implement",
+       "old": [],
+       "brief": "Ploughs, binders, mowers and carts made for horses; types by job."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Tillage & ground work",
+   "mode": "tier",
+   "note": "Tractor implements at kind level; most also come in compact-tractor sizes.",
+   "b": [
+    {
+     "m": "Tractor power needed and working width",
+     "v": "",
+     "w": "The implement must match the tractor's power and hitch category."
+    }
+   ],
+   "s": [
+    {
+     "n": "Ploughs & cultivators",
+     "web": false,
+     "brief": "Restraint: strip production model lists to a few market-covering makers (Lemken, Kverneland, Kuhn, Amazone, Pöttinger).",
+     "k": [
+      {
+       "n": "Mouldboard plough",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Chisel and tine cultivator",
+       "old": [
+        "k13"
+       ]
+      },
+      {
+       "n": "Subsoiler",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Spading machine",
+       "old": [
+        "k15"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Harrows, tillers & rollers",
+     "web": false,
+     "brief": "Restraint: trim to makers; keep puddling harrow for paddy users.",
+     "k": [
+      {
+       "n": "Disc harrow",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Power harrow",
+       "old": [
+        "k17"
+       ]
+      },
+      {
+       "n": "Rotary tiller",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Land roller",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "Seedbed combination",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Puddling harrow",
+       "old": [
+        "k21"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Ground shaping & clearing",
+     "web": false,
+     "brief": "Restraint: compact-tractor implements; kind level with a few makers.",
+     "k": [
+      {
+       "n": "Box blade",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Rear grader blade",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Post-hole auger",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Trencher",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "Stone picker",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Tractor snow blade and blower",
+       "old": [
+        "k27"
+       ]
+      },
+      {
+       "n": "Bund plasterer",
+       "old": [
+        "k28"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Seeding, spreading & irrigation",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Tractor power needed and working width",
+     "v": "",
+     "w": "The implement must match the tractor."
+    }
+   ],
+   "s": [
+    {
+     "n": "Seeders & planters",
+     "web": false,
+     "brief": "Restraint: strip production models to market-covering makers.",
+     "k": [
+      {
+       "n": "Seed drill",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "Single-seed planter",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Transplanter",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Rice transplanter",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Potato planter",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Seed potato cutter",
+       "old": [
+        "k33"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Spreaders, sprayers & weeders",
+     "web": false,
+     "brief": "Restraint: kind level; trim SKUs.",
+     "k": [
+      {
+       "n": "Fertiliser spreader",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Manure spreader",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Slurry tanker",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Slurry injector",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Crop sprayer",
+       "old": [
+        "k39"
+       ]
+      },
+      {
+       "n": "Inter-row hoe and tine weeder",
+       "old": [
+        "k40"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Irrigation",
+     "web": false,
+     "brief": "Restraint: kind level; one range per maker.",
+     "k": [
+      {
+       "n": "Centre-pivot and linear irrigator",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Irrigation reel",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Irrigation pump",
+       "old": [
+        "k43"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Harvesting & grain",
+   "mode": "tier",
+   "b": [],
+   "s": [
+    {
+     "n": "Combines & forage harvesters",
+     "web": false,
+     "brief": "Restraint: kind level, a range per major maker (Claas, John Deere, Case IH, New Holland, Krone).",
+     "k": [
+      {
+       "n": "Combine harvester",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Combine header",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Forage harvester",
+       "old": [
+        "k46"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Root & speciality crop harvesters",
+     "web": false,
+     "brief": "Restraint: trim SKUs to makers.",
+     "k": [
+      {
+       "n": "Potato harvester",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Sugar-beet harvester",
+       "old": [
+        "k48"
+       ]
+      },
+      {
+       "n": "Carrot harvester",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "Grape harvester",
+       "old": [
+        "k49"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Grain handling & drying",
+     "web": false,
+     "brief": "Restraint: merge auger, belt/chain conveyor and bucket elevator into one kind with types; cut the 13-SKU conveyor list to makers.",
+     "k": [
+      {
+       "n": "Grain auger and conveyor",
+       "old": [
+        "k55",
+        "k52",
+        "k56"
+       ],
+       "brief": "Types: tube auger, belt conveyor, chain conveyor, bucket elevator (grain leg)."
+      },
+      {
+       "n": "Grain dryer",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "Grain cleaner",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "Rice huller",
+       "old": [
+        "k54"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Hay & forage",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Tractor power needed and working width",
+     "v": "",
+     "w": "The implement must match the tractor."
+    }
+   ],
+   "s": [
+    {
+     "n": "Mowers & cutters",
+     "web": false,
+     "brief": "Restraint: cut the 23-model Kuhn/Krone disc-mower list to ranges per maker; drop the 'rotary cutter' alias from the flail mower.",
+     "k": [
+      {
+       "n": "Disc mower",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "Rotary cutter",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Flail mower",
+       "old": [
+        "k58"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Haymaking & baling",
+     "web": false,
+     "brief": "Restraint: SKU lists to ranges; baler types round, large square, small square (drop 'Other balers').",
+     "k": [
+      {
+       "n": "Hay tedder",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Hay rake",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Baler",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Bale wrapper",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Forage wagon",
+       "old": [
+        "k63"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Livestock & dairy",
+   "mode": "tier",
+   "note": "Farm-scale equipment; pet and small-flock gear is in Animal Equipment.",
+   "b": [],
+   "s": [
+    {
+     "n": "Milking & milk cooling",
+     "web": false,
+     "brief": "Restraint: merge pipeline installation and milk meter into the milking parlour kind as types; trim the Mueller tank SKU list to a range.",
+     "k": [
+      {
+       "n": "Milking robot",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "Milking parlour",
+       "old": [
+        "k67",
+        "k66",
+        "k70"
+       ],
+       "brief": "Types: static, rotary, trigon, polygon, pipeline in stalls; milk meter as a fitting."
+      },
+      {
+       "n": "Bucket milking machine",
+       "old": [
+        "k68"
+       ]
+      },
+      {
+       "n": "Bulk milk cooling tank",
+       "old": [
+        "k69"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Handling, weighing & tagging",
+     "web": false,
+     "brief": "Restraint: merge scale indicator and weigh platform into one kind; trim SKUs.",
+     "k": [
+      {
+       "n": "Cattle crush",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Cattle race and handling system",
+       "old": [
+        "k72"
+       ]
+      },
+      {
+       "n": "Sheep handler",
+       "old": [
+        "k73"
+       ]
+      },
+      {
+       "n": "Livestock scales",
+       "old": [
+        "k74",
+        "k75"
+       ],
+       "brief": "Types: load bars, platform, indicator."
+      },
+      {
+       "n": "Livestock EID reader",
+       "old": [
+        "k76"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Feeding & bedding",
+     "web": false,
+     "brief": "Restraint: cut the 13-model Kuhn mixer list to types (vertical, horizontal, reel) and makers.",
+     "k": [
+      {
+       "n": "Feed mixer wagon",
+       "old": [
+        "k77"
+       ]
+      },
+      {
+       "n": "Silage block cutter",
+       "old": [
+        "k78"
+       ]
+      },
+      {
+       "n": "Bedding spreader",
+       "old": [
+        "k79"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Shearing & stunning",
+     "web": false,
+     "brief": "Restraint: one shearing kind; handpiece and comb/cutter become types/spare parts of it.",
+     "k": [
+      {
+       "n": "Shearing machine",
+       "old": [
+        "k83",
+        "k84",
+        "k85"
+       ],
+       "brief": "Handpiece and comb-and-cutter sets as types / spare parts."
+      },
+      {
+       "n": "Captive-bolt stunner",
+       "old": [
+        "k86"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Forestry",
+   "mode": "tier",
+   "note": "Small-woodland tractor equipment first; contractor forest machines at kind level only.",
+   "b": [
+    {
+     "m": "Cutting or pulling capacity",
+     "v": "",
+     "w": "Chipper diameter, winch pull (t), splitter force (t) matched to the timber."
+    },
+    {
+     "m": "Tractor power and mounting",
+     "v": "",
+     "w": "PTO power and three-point category must fit the tractor."
+    },
+    {
+     "m": "Safety and guarding",
+     "v": "",
+     "w": "Required under EN/ISO machinery standards; check CE marking."
+    }
+   ],
+   "s": [
+    {
+     "n": "Woodland & firewood equipment",
+     "web": true,
+     "brief": "Tier shelf for farm and small-woodland owners: trim the long SKU lists (Uniforest, Pfanzelt, Wallenstein, Rayco/Vermeer) to market-covering makers and ranges. Add new kinds: timber trailer with crane (Farma, Palms, Kesla), firewood processor (Japa, Hakki Pilke, Posch), and portable sawmill (Wood-Mizer, Logosol, Norwood) – if C1 Tools already holds portable sawmills, leave it out and note it.",
+     "k": [
+      {
+       "n": "Forestry winch",
+       "old": [
+        "k99"
+       ]
+      },
+      {
+       "n": "Timber trailer with crane",
+       "old": [],
+       "brief": "New kind."
+      },
+      {
+       "n": "Tractor wood chipper",
+       "old": [
+        "k100"
+       ]
+      },
+      {
+       "n": "Tractor log splitter",
+       "old": [
+        "k103"
+       ]
+      },
+      {
+       "n": "Firewood processor",
+       "old": [],
+       "brief": "New kind: saws and splits logs in one machine."
+      },
+      {
+       "n": "Portable sawmill",
+       "old": [],
+       "brief": "New kind: band or chainsaw mill for owners milling their own timber."
+      },
+      {
+       "n": "Stump grinder",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "Forestry mulcher",
+       "old": [
+        "k101"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Forest machines",
+     "web": false,
+     "brief": "Restraint: contractor machines at kind level with a range per major maker (Ponsse, John Deere, Komatsu Forest, Tigercat); merge harvester head, delimber and harwarder into the harvester kind as types; merge knuckleboom loader, crane and grapple into one kind.",
+     "k": [
+      {
+       "n": "Forest harvester",
+       "old": [
+        "k88",
+        "k90",
+        "k92",
+        "k91"
+       ],
+       "brief": "Types: wheeled harvester, harvester head, harwarder, delimber."
+      },
+      {
+       "n": "Forwarder",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Skidder",
+       "old": [
+        "k94"
+       ]
+      },
+      {
+       "n": "Feller buncher",
+       "old": [
+        "k89"
+       ]
+      },
+      {
+       "n": "Forestry crane and grapple",
+       "old": [
+        "k96",
+        "k95",
+        "k97"
+       ],
+       "brief": "Types: forwarder crane, knuckleboom loader, grapple and rotator."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Tractor loaders, wheels & guidance",
+   "mode": "tier",
+   "b": [],
+   "s": [
+    {
+     "n": "Loaders, wheels & guidance",
+     "web": false,
+     "brief": "Restraint: merge tyre and rim into one wheels-and-tyres kind; attachments as types (bucket, pallet forks, bale spike, grab).",
+     "k": [
+      {
+       "n": "Front-end loader",
+       "old": [
+        "k104"
+       ]
+      },
+      {
+       "n": "Loader attachment",
+       "old": [
+        "k105"
+       ]
+      },
+      {
+       "n": "Tractor tyre and wheel",
+       "old": [
+        "k106",
+        "k107"
+       ]
+      },
+      {
+       "n": "Rubber track unit",
+       "old": [
+        "k108"
+       ]
+      },
+      {
+       "n": "Tractor ballast weight",
+       "old": [
+        "k109"
+       ]
+      },
+      {
+       "n": "Guidance and auto-steer system",
+       "old": [
+        "k110"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "old": "k111",
+   "to": "B10",
+   "dept": "Beekeeping"
+  },
+  {
+   "old": "k112",
+   "to": "B10",
+   "dept": "Beekeeping"
+  }
+ ],
+ "drop": [
+  {
+   "old": "k80",
+   "why": "Commercial poultry-house installation; not owned for personal life."
+  },
+  {
+   "old": "k81",
+   "why": "Commercial laying-house egg collection installation; trade."
+  },
+  {
+   "old": "k82",
+   "why": "Commercial hatchery machine; small incubators already in Animal Equipment."
+  },
+  {
+   "old": "k87",
+   "why": "Slaughterhouse scalding tank; trade equipment."
+  },
+  {
+   "old": "k98",
+   "why": "Contractor excavator conversion; trade, covered by forest machines."
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+import json, os
+W = 'https://en.wikipedia.org/wiki/'
+LS = W + 'Light_switch'
+JUNG = 'https://www.jung-group.com/en-UK/Products/Switch-Ranges/LS-990-in-plastic/'
+SP = 'https://www.stylepark.com/en/news/50-anniversary-jung-ls-990'
+GIRA = 'https://www.gira.com/en/en/company/milestones/system-55-through-the-ages'
+BJ = 'https://www.busch-jaeger.de/en/busch-jaeger/about-us/history'
+BT = W + 'BTicino'
+BK = 'https://archiweb.cz/en/n/press/kulaty-svet-aneb-kolem-dokola-kulatych-vypinacu-berker'
+FL = 'https://www.sparksdirect.co.uk/blog/introducing-forbes-and-lomax-ranges-of-invisible-lightswitch-unlacquered-brass-and-stainless-steel'
+
+switch = {
+ "n": "Wall switch and dimmer", "a": "light switch · dimmer switch",
+ "d": "Wall-mounted switch or dimmer that controls a light or mains circuit.",
+ "t": ["one-way", "two-way and intermediate (multiway)", "rocker", "toggle", "push-button", "rotary",
+       "pull-cord", "illuminated", "touch or sensor", "smart or wireless", "leading-edge dimmer", "trailing-edge dimmer",
+       "plastic", "metal", "glass", "porcelain"],
+ "s": "https://www.screwfix.com/c/electrical-lighting/switches-sockets/cat830530",
+ "x": [
+  {"n": "Quick-break switch", "a": "", "d": "Spring mechanism that snaps contacts apart or together fast, whatever the user does, to stop arcing.",
+   "mk": "", "y": "1884", "s": LS, "v": [{"n": "Original quick-break mechanism", "mk": "John Henry Holmes", "y": "1884", "d": "invented in Newcastle upon Tyne"}],
+   "dt": "early porcelain bodies, later Bakelite"},
+  {"n": "Toggle switch", "a": "tumbler switch", "d": "Lever switch with an over-centre spring that snaps audibly between on and off.",
+   "mk": "", "y": "1916", "s": LS, "v": [{"n": "Newton and Goldberg patent", "mk": "William J. Newton, Morris Goldberg", "y": "1916", "d": "patented toggle light switch"}],
+   "dt": "lever metal or plastic · plate material"},
+  {"n": "Push-button switch", "a": "", "d": "Switch with separate on and off buttons; vintage US ones are black with a mother-of-pearl on button.",
+   "mk": "", "y": "", "s": LS, "v": [{"n": "Reproductions", "mk": "", "y": "", "d": "still sold for period homes"}],
+   "dt": "button inlay · plate material"},
+  {"n": "Lutron solid-state dimmer", "a": "", "d": "Dimmer using a silicon controlled rectifier that fits a standard wall box.",
+   "mk": "Lutron", "y": "1959", "s": W + "Dimmer", "v": [{"n": "Spira SCR dimmer", "mk": "Lutron", "y": "1959", "d": "invented by Joel S. Spira, who founded Lutron in 1961"}],
+   "dt": "control: knob or slider · leading- or trailing-edge"},
+  {"n": "Jung LS 990", "a": "LS 990", "d": "Square flat switch with thin frames, designed by Herbert W. Richter and still in production.",
+   "mk": "Jung", "y": "1968", "s": SP,
+   "v": [{"n": "LS 990 in plastic", "mk": "Jung", "y": "1968", "d": "duroplastic; white, ivory, light grey, black, matt snow white, matt graphite black"},
+         {"n": "LS 990 in metal", "mk": "Jung", "y": "1990", "d": "high-grade steel first, later aluminium, brass, chrome-plated and gilded"},
+         {"n": "LS 990 Les Couleurs Le Corbusier", "mk": "Jung", "y": "2014", "d": "Le Corbusier colour palette"}],
+   "dt": "frames 1–5 gang, horizontal or vertical · plastic or metal · colours"},
+  {"n": "Busch-Duro 2000", "a": "Duro 2000", "d": "Flush-mounted rocker switch series, Busch-Jaeger's long-running classic range.",
+   "mk": "Busch-Jaeger", "y": "1953", "s": BJ,
+   "v": [{"n": "Busch-Duro 2000", "mk": "Busch-Jaeger", "y": "1953", "d": "original flush rocker series"},
+         {"n": "Busch-Duro 2000 LX", "mk": "Busch-Jaeger", "y": "1975", "d": "flat switch made for 28 years"},
+         {"n": "Busch-Duro 2000 SI", "mk": "Busch-Jaeger", "y": "1983", "d": "became Busch-Jaeger's best-selling series"}],
+   "dt": "frames 1–5 gang · surface-mounted and splash-proof versions"},
+  {"n": "Busch-Jaeger carat", "a": "carat", "d": "Switch series with a plain, elegant frame design.",
+   "mk": "Busch-Jaeger", "y": "2004", "s": BJ, "v": [], "dt": "frame materials and colours"},
+  {"n": "Gira System 55", "a": "", "d": "Modular switch platform whose inserts take frames from several Gira design lines.",
+   "mk": "Gira", "y": "1960", "s": GIRA,
+   "v": [{"n": "Giersiepen modular system", "mk": "Gira", "y": "1960", "d": "165 switch types reduced to 35 uniform parts"},
+         {"n": "Gira E2 and Gira Event", "mk": "Gira", "y": "1998", "d": "first design lines of the platform, pure white and anthracite"},
+         {"n": "Gira Standard 55 and Gira Esprit", "mk": "Gira", "y": "2000", "d": "added new colours and designs"}],
+   "dt": "design line · frame material · about 300 functions"},
+  {"n": "BTicino Magic", "a": "Magic", "d": "Early modular series combining power socket and switches in one plate.",
+   "mk": "BTicino", "y": "1961", "s": BT, "v": [], "dt": "module count · colours"},
+  {"n": "BTicino Living", "a": "Living International", "d": "BTicino modular wiring-device series.",
+   "mk": "BTicino", "y": "1985", "s": BT,
+   "v": [{"n": "Series Living", "mk": "BTicino", "y": "1985", "d": ""},
+         {"n": "Light and Living International", "mk": "BTicino", "y": "1996", "d": ""}], "dt": "plate material and colour"},
+  {"n": "BTicino Axolute", "a": "Axolute", "d": "BTicino's premium modular series.",
+   "mk": "BTicino", "y": "2005", "s": BT,
+   "v": [{"n": "Axolute Nighter & Whice", "mk": "BTicino", "y": "2008", "d": ""}], "dt": "plate material and finish"},
+  {"n": "Berker Serie Glas", "a": "", "d": "Traditional round switch with a glass surface.",
+   "mk": "Berker", "y": "1985", "s": BK, "v": [], "dt": "glass colour"},
+  {"n": "Berker Serie 1930", "a": "", "d": "Round switch in the style of classical modernity, retro outside with current technology.",
+   "mk": "Berker", "y": "1999", "s": BK, "v": [], "dt": "round frame · finishes"},
+  {"n": "Leviton Decora", "a": "Decora · decorator switch", "d": "Flat, broad rocker that sits nearly flush with the plate; the name became generic in the US.",
+   "mk": "Leviton", "y": "", "s": LS, "v": [], "dt": "colours · illuminated versions"},
+  {"n": "Australian rocker", "a": "", "d": "Compact 16 mm rocker mechanism in a wall plate; each is a two-way switch.",
+   "mk": "", "y": "1951", "s": LS, "v": [], "dt": "gangs per plate"},
+  {"n": "Forbes & Lomax Invisible Lightswitch", "a": "Invisible Lightswitch", "d": "Clear plate that lets the wall show through, with a metal toggle in the centre.",
+   "mk": "Forbes & Lomax", "y": "1988", "s": FL,
+   "v": [{"n": "Unlacquered Brass", "mk": "Forbes & Lomax", "y": "", "d": "related plate range"},
+         {"n": "Stainless Steel", "mk": "Forbes & Lomax", "y": "", "d": "brushed plate range"},
+         {"n": "Nickel Silver", "mk": "Forbes & Lomax", "y": "", "d": "plate range"},
+         {"n": "Antique Bronze", "mk": "Forbes & Lomax", "y": "", "d": "plate range"}],
+   "dt": "toggle, dimmer knob or button · toggle finish"}
+ ]}
+
+socket = {
+ "n": "Wall socket", "a": "socket-outlet · power point · receptacle",
+ "d": "Wall outlet that takes mains plugs.",
+ "t": ["Type A (NEMA 1-15)", "Type B (NEMA 5-15)", "Type C (Europlug)", "Type D (BS 546 5 A)", "Type E (French CEE 7/5)",
+       "Type F (Schuko CEE 7/4)", "Type G (BS 1363)", "Type H (Israel SI 32)", "Type I (AS/NZS 3112)", "Type J (Swiss SN 441011)",
+       "Type K (Danish DS 107-2-D1)", "Type L (Italian CEI 23-50)", "Type M (BS 546 15 A)", "Type N (IEC 60906-1)", "Type O (Thai TIS 166-2549)",
+       "single or double", "switched", "with USB charging", "GFCI or RCD socket", "shuttered", "paintable"],
+ "s": "https://www.screwfix.com/c/electrical-lighting/switches-sockets/cat830530",
+ "x": [
+  {"n": "MK shuttered socket", "a": "Multy Kontact socket", "d": "Socket whose shutters cover the live contacts until a plug goes in.",
+   "mk": "MK Electric", "y": "1928", "s": W + "MK_Electric", "v": [{"n": "First shuttered socket", "mk": "MK Electric", "y": "1928", "d": "MK spring-grip 3-pin socket"}],
+   "dt": "plug type · finish"}
+ ]}
+
+rose = {"n": "Ceiling rose", "a": "", "d": "Round ceiling fitting where a pendant flex joins the fixed wiring.",
+        "t": ["loop-in (junction) ceiling rose", "decorative plaster rose"],
+        "s": "https://www.screwfix.com/p/british-general-ceiling-rose-white/28345"}
+
+cu = {"n": "Consumer unit", "a": "fuse box · distribution board · breaker panel · load centre",
+      "d": "Enclosure that splits the incoming supply into circuits, each with its own breaker or fuse.",
+      "t": ["main switch", "dual RCD", "high integrity", "RCD incomer", "rewirable-fuse (old)", "North American load centre", "garage unit"],
+      "s": "https://www.screwfix.com/c/electrical-lighting/consumer-units/cat7230028",
+      "m": [["Fortress Consumer Unit", "British General"], ["PRO Garage Consumer Unit", "Lewden"], ["Sentry Consumer Unit", "MK Sentry"]]}
+
+cb = {"n": "Circuit breaker", "a": "MCB · RCD · RCBO · GFCI · AFDD",
+      "d": "Automatic switch in a consumer unit that breaks a circuit on overload, earth leakage or arcing.",
+      "t": ["miniature circuit breaker (MCB)", "residual-current device (RCD, RCCB; GFCI in North America)", "RCBO (RCD plus MCB)", "arc-fault device (AFDD, AFCI)", "rewirable or cartridge fuse"],
+      "s": "https://www.toolstation.com/electrical-supplies-accessories/c4"}
+
+brands = [
+ {"n": "Jung", "c": "", "f": "", "seg": "Premium switch ranges", "d": "Maker of the LS 990 flat switch, commissioned by Siegfried Jung.",
+  "lines": ["LS 990", "LS 1912", "LS ZERO", "LS CUBE"], "eras": [], "sig": ["Jung LS 990"], "sc": [], "rel": ["Gira", "Berker", "Busch-Jaeger"], "s": JUNG},
+ {"n": "Gira", "c": "Germany", "f": "", "seg": "Premium switch ranges", "d": "Switch maker (Giersiepen GmbH & Co. KG) in Radevormwald, known for the System 55 platform.",
+  "lines": ["System 55", "E2", "Event", "Standard 55", "Esprit", "E3", "Studio"], "eras": [], "sig": ["Gira System 55"], "sc": [], "rel": ["Jung", "Berker", "Busch-Jaeger"], "s": GIRA},
+ {"n": "Busch-Jaeger", "c": "Germany", "f": "1879", "seg": "Switch ranges", "d": "Lüdenscheid switch maker, named Busch-Jaeger since 1926 and part of BBC, now ABB, since 1969.",
+  "lines": ["Busch-Duro 2000", "carat"], "eras": [], "sig": ["Busch-Duro 2000"], "sc": [], "rel": ["Jung", "Gira", "Berker"], "s": BJ},
+ {"n": "Berker", "c": "Germany", "f": "1919", "seg": "Switch ranges", "d": "Schalksmühle switch maker founded by Robert and Hugo Berker, part of Hager since 2010.",
+  "lines": ["Serie Glas", "Serie 1930", "Generation R"], "eras": [], "sig": ["Berker Serie 1930"], "sc": [], "rel": ["Hager"], "s": BK},
+ {"n": "BTicino", "c": "Italy", "f": "1936", "seg": "Wiring devices", "d": "Varese maker of modular wiring devices, founded by the Bassani brothers, part of Legrand since 1989.",
+  "lines": ["Magic", "Living", "Light", "Axolute"], "eras": [], "sig": ["BTicino Magic", "BTicino Axolute"], "sc": [], "rel": [], "s": BT},
+ {"n": "Lutron", "c": "United States", "f": "1961", "seg": "Dimmers and lighting control", "d": "Coopersburg, Pennsylvania, company founded by Joel and Ruth Spira after Joel's solid-state dimmer.",
+  "lines": [], "eras": [], "sig": ["Lutron solid-state dimmer"], "sc": [], "rel": ["Leviton"], "s": W + "Lutron"},
+ {"n": "Leviton", "c": "United States", "f": "1906", "seg": "Wiring devices", "d": "Melville, New York, maker of switches, outlets, GFCI devices, load centres and breakers.",
+  "lines": ["Decora"], "eras": [], "sig": ["Leviton Decora"], "sc": [], "rel": ["Lutron"], "s": W + "Leviton"},
+ {"n": "MK Electric", "c": "United Kingdom", "f": "1919", "seg": "Wiring devices", "d": "Basildon maker of switches and sockets founded by Charles Arnold, a Honeywell subsidiary since 2005.",
+  "lines": ["Sentry"], "eras": [], "sig": ["MK shuttered socket"], "sc": [], "rel": [], "s": W + "MK_Electric"},
+ {"n": "Hager", "c": "Germany", "f": "1955", "seg": "Distribution and protection", "d": "Blieskastel group making distribution boards and breakers; owns Berker.",
+  "lines": [], "eras": [], "sig": [], "sc": [], "rel": ["Berker"], "s": W + "Hager_Group"},
+ {"n": "Forbes & Lomax", "c": "", "f": "", "seg": "Designer switches", "d": "Maker of the Invisible Lightswitch, launched in 1988 when 1930s glass and brass switches were no longer made.",
+  "lines": ["Invisible Lightswitch", "Unlacquered Brass", "Stainless Steel", "Nickel Silver", "Antique Bronze"], "eras": [], "sig": ["Forbes & Lomax Invisible Lightswitch"], "sc": [], "rel": ["Corston", "Hamilton Litestat"], "s": FL},
+ {"n": "Corston", "c": "United Kingdom", "f": "2019", "seg": "Designer switches and hardware", "d": "Maker of solid-brass hardware, switches, sockets and lighting.",
+  "lines": [], "eras": [], "sig": [], "sc": [], "rel": ["Forbes & Lomax"], "s": "https://builtinlondon.uk/company/corston-architectural-detail"},
+ {"n": "Hamilton Litestat", "c": "United Kingdom", "f": "", "seg": "Switches and sockets", "d": "Switch and socket maker founded by Rod Hamilton in west London, in Mere, Wiltshire since 1984.",
+  "lines": [], "eras": [], "sig": [], "sc": [], "rel": ["Forbes & Lomax"], "s": "https://professional-electrician.com/?p=17092"},
+]
+
+notes = ("All five planned kinds kept. Plug types A–O are socket types, not kinds. Switch ranges are archetypes. "
+         "Left out (no page retrieved or no dates confirmed): Hamilton Hartland and Corston named ranges (brands only), Lutron Capri/Nova/Maestro/Caséta "
+         "(Capri date only in snippets; Wikipedia gives the 1959 Spira dimmer), Busch-Jaeger Reflex SI/future linear/pure stainless steel, Berker S.1/R.1, "
+         "Jung LS ZERO/LS 1912 (named as lines only), Leviton Decora 1973 date (snippet only). Jung and Forbes & Lomax country/founding left blank: not on retrieved pages. "
+         "Consumer unit and breaker kept as restraint kinds with types; no traditions apply.")
+
+out = {"kinds": [switch, socket, rose, cu, cb], "brands": brands, "traditions": [], "notes": notes}
+p = 'work/G3/shelves/04_01.json'
+with open(p + '.tmp', 'w') as f: json.dump(out, f, ensure_ascii=False, indent=1)
+os.replace(p + '.tmp', p)
+print('written')

@@ -1,0 +1,59 @@
+import json, os
+W="https://en.wikipedia.org/wiki/"
+kinds=[
+{"n":"Folding screen","a":"screen · paravent · byōbu · pingfeng · byeongpung","d":"A freestanding screen of hinged panels that folds, used to divide a room, block draughts or display painting.",
+ "t":["two-panel","four-panel","six-panel","eight-panel and more","painted","lacquered","paper or silk","lattice","upholstered","mirrored"],
+ "s":"https://www.ufurnish.com/en-gb/l/room-dividers",
+ "x":[
+  {"n":"Coromandel screen","a":"Coromandel lacquer screen · kuancai screen · Bantam ware","d":"Chinese export screen of up to twelve dark lacquer leaves with incised, coloured and inlaid pictures.","mk":"","y":"late Ming, 17th–18th century","s":W+"Coromandel_lacquer",
+   "v":[{"n":"Export screen","mk":"","y":"17th–18th century","d":"made mainly in Fujian, shipped to Europe via the Coromandel coast"},
+        {"n":"Cut panels","mk":"","y":"late 17th–18th century","d":"screens cut up by European cabinetmakers for furniture and panelling, often with ormolu mounts"},
+        {"n":"Revival","mk":"","y":"1880s","d":"renewed Western interest"}],
+   "dt":"leaf count up to 12 · black lacquer, up to 30 layers · inlay of mother-of-pearl, tortoiseshell, gold"},
+  {"n":"Byōbu","a":"Japanese folding screen · wind wall","d":"Japanese screen of joined paper- or silk-covered lattice panels, painted or with calligraphy, often made in pairs.","mk":"","y":"7th–8th century (Nara)","s":W+"Byōbu",
+   "v":[{"n":"Torige ritsujo no byōbu","mk":"","y":"8th century","d":"oldest surviving Japanese example, Shōsōin"},
+        {"n":"Two-panel byōbu","mk":"","y":"Muromachi, 1392–1568","d":"paper hinges replace zenigata metal hinges"},
+        {"n":"Gold-leaf Kanō school screens","mk":"","y":"Azuchi–Momoyama to early Edo","d":"gold grounds, nature and daily-life scenes"},
+        {"n":"Rinpa screens","mk":"","y":"Edo","d":"gold or silver foil, bold repeated patterns, e.g. Ogata Kōrin's Irises (1702)"}],
+   "dt":"panel count (two, six) · single or pair · gold leaf, ink, colour · black or dark-red lacquer frame"},
+  {"n":"Byeongpung","a":"Korean folding screen","d":"Korean painted or calligraphed screen used to decorate, divide rooms and block draughts from ondol floors.","mk":"","y":"Unified Silla, 668–935","s":W+"Folding_screen",
+   "v":[{"n":"Irworobongdo","mk":"","y":"Joseon","d":"sun, moon and five peaks screen behind royal thrones"},
+        {"n":"Chaekgeori","mk":"","y":"Joseon, e.g. late 1800s","d":"scholarly motifs such as bookshelves"},
+        {"n":"Sobyeong","mk":"","y":"Joseon","d":"plain white paper, for mourning and ancestral rites"}],
+   "dt":"motif (longevity, immortals, books) · bedside chimbyeong or full-size · panel count"},
+  {"n":"Eames Molded Plywood Folding Screen","a":"FSW · Folding Screen-Wood","d":"Screen of identical U-section moulded plywood panels joined by flexible strips so it bends and folds flat.","mk":"Herman Miller","y":"c. 1946","s":"https://cranbrookartmuseum.org/artwork/charles-ray-eames-fsw-folding-screen-wood/",
+   "v":[{"n":"FSW, Herman Miller","mk":"Herman Miller","y":"1946–1955","d":"ash-veneer plywood with canvas hinges laminated between the layers"}],
+   "dt":"panel count · veneer (ash and others) · height"},
+  {"n":"Brick Screen","a":"Eileen Gray Brick Screen","d":"Lacquered screen of many small brick-like wooden panels pivoting on a metal frame, designed by Eileen Gray.","mk":"ClassiCon","y":"1922–1925","s":"https://www.classicon.com/en/product/brick-screen.html",
+   "v":[{"n":"ClassiCon limited edition","mk":"ClassiCon","y":"","d":"authorised by licence holder Aram Designs; 28 hand-lacquered panels, stainless steel and brass, edition of 75"}],
+   "dt":"28 panels · black high-gloss lacquer · steel frame, brass fittings"}]},
+{"n":"Room divider","a":"partition · space divider","d":"A freestanding partition, screen or open shelving unit that divides a room.",
+ "t":["shoji-style panel","open shelving divider","curtain or hanging panel","slatted panel","plant divider","on castors"],
+ "s":"https://www.google.com/basepages/producttype/taxonomy.en-US.txt",
+ "m":[["RISÖR","IKEA"],["GLAMBERGET","IKEA"]],"r":[["NÄMMARÖ","IKEA"]]},
+{"n":"Desk screen","a":"desk divider · privacy panel","d":"A panel set on or clamped to a desk to divide or shield a work place.","t":["clamp-on","freestanding","acoustic fabric","acrylic"],
+ "s":"https://www.ikea.com/us/en/cat/standing-desks-55008"},
+{"n":"Display stand","a":"display riser · easel stand · collector's stand","d":"A stand or riser for showing a collection or object at home.","t":["tiered riser","plate or book easel","figure or model stand","dome or case base"],
+ "s":"https://kingstorefixtures.com/"},
+{"n":"Plant stand","a":"plant table · jardinière stand","d":"A stand that raises one or more plant pots.","t":["single pot","tiered","ladder","corner","metal","wood","ceramic or plaster"],
+ "s":"https://www.westelm.com/shopping/plant-stand",
+ "m":[["Gio Plaster Plant Stand","West Elm"],["Palla Multipurpose Plant Stand","West Elm"]]}]
+brands=[
+ {"n":"Herman Miller","c":"United States","seg":"Design and office furniture","d":"Michigan furniture maker known for licensed mid-century designs such as the Eames range.","sig":["Eames Molded Plywood Folding Screen"],"rel":["Vitra","Knoll"],"s":"knowledge"},
+ {"n":"ClassiCon","c":"Germany","seg":"Design classics and licensed reissues","d":"German furniture company producing authorised editions of Eileen Gray designs among others.","sig":["Brick Screen"],"s":"https://www.classicon.com/en/product/brick-screen.html"},
+ {"n":"IKEA","c":"Sweden","f":"1943","seg":"Mass-market flat-pack furniture","d":"Swedish-founded flat-pack furniture and homeware retailer.","s":"knowledge"},
+ {"n":"West Elm","c":"United States","seg":"Mid-market home furnishings","d":"US home-furnishings retailer owned by Williams-Sonoma.","s":"knowledge"}]
+trads=[
+ {"n":"Mashrabiya woodwork","g":"Woodwork & furniture","r":"Mashriq (Egypt, Iraq, Levant, Hejaz); also Tunisia, Malta","p":"12th century (Abbasid Baghdad) onward; widespread in the Ottoman period, revived today",
+  "d":"Wooden latticework of small balusters assembled into geometric patterns, used for screening windows and spaces for privacy and ventilation.",
+  "tech":"balusters assembled into lattice patterns (hexagonal, kanaysi, maymoni, cross, sahrigi)","mat":"carved and shaped wood; sometimes stained glass",
+  "forms":["Mashrabiya oriel window","Lattice panel","Room divider"],"ctr":["Cairo (Bayt al-Suhaymi)","Basra","Jeddah Al-Balad","Baghdad","Sanaa","Tunis","Valletta"],
+  "auth":"","s":W+"Mashrabiya"}]
+notes=("Folding screen: archetypes Coromandel screen, Byōbu, Byeongpung (Korean, from the Folding screen article), Eames FSW (Cranbrook record; eamesoffice.com returned 403, so no current-production version), Eileen Gray Brick Screen (ClassiCon). "
+ "Mashrabiya added as a tradition; Damascene inlay and Moroccan screens not added (no retrieved page on screen forms; Damascene likely covered by other B1 shelves). "
+ "Room divider: IKEA trimmed 5→2 models (RISÖR, GLAMBERGET), ranges 3→1 (NÄMMARÖ); GRÅFJÄLLET and TOLKNING dropped as SKU noise; attribute variants to t. "
+ "Desk screen and Display stand: restraint, no models; display stand redefined to home collection display (shop fixtures out of scope, old source kept). "
+ "Plant stand: West Elm trimmed 5→2 (Pierce & Ward, Sab, Soma dropped). Vitra Eames screen not added: only a 1stdibs search snippet, not retrieved.")
+out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+p="work/B1/shelves/06_00.json"; tmp=p+".tmp"
+json.dump(out,open(tmp,"w"),ensure_ascii=False,indent=1); os.replace(tmp,p)

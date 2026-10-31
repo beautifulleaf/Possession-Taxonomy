@@ -1,0 +1,1250 @@
+{
+ "lead": "Software a person owns or licenses for their own computer and phone, organised by what it does; everyday tools are kept to market leaders and test winners, creative and hobby tools are explored product by product (product → major version → edition).",
+ "b": [
+  {
+   "m": "Works on my platform",
+   "v": "Windows, macOS, Linux, iOS, Android, web",
+   "w": "The first test for any program."
+  },
+  {
+   "m": "Price model",
+   "v": "open source · free · free with paid extras · one-time licence · subscription",
+   "w": "Shoppers filter on this after platform."
+  },
+  {
+   "m": "Product → major version → edition",
+   "v": "e.g. Windows 11 Home / Pro; Office Home 2024 / Microsoft 365 Family",
+   "w": "How makers sell and how support ends; editions are types, not kinds."
+  },
+  {
+   "m": "Clean installer",
+   "v": "no bundled adware or nag-ware",
+   "w": "Download libraries and testers flag this."
+  }
+ ],
+ "depts": [
+  {
+   "n": "Operating systems & system tools",
+   "mode": "mixed",
+   "note": "Tier for everyday utilities; variety for Linux distributions, hobby operating systems and emulators.",
+   "b": [
+    {
+     "m": "Support lifetime",
+     "v": "years of security updates left on the major version",
+     "w": "End-of-support dates published by each maker."
+    },
+    {
+     "m": "Edition fit",
+     "v": "Home / Pro / Enterprise",
+     "w": "Editions differ in encryption, remote desktop and management features."
+    }
+   ],
+   "s": [
+    {
+     "n": "Operating systems & virtualisation",
+     "web": true,
+     "brief": "Desktop OS as product → major version → edition (Windows 1.0 … 11 with Home/Pro; macOS by version name; ChromeOS). Split Linux distributions and hobby/alternative systems out of k9 into their own kinds with archetypes (originating distro → derivatives as versions). Trim server-only hypervisors and research emulators (SIMH, GXemul, XenServer) from virtual machines. Discontinued products (dead tails) are trimmed unless they are icons of their kind; whole-kind historic items live on the Classic software shelf.",
+     "k": [
+      {
+       "n": "Desktop operating system",
+       "old": [
+        "k9"
+       ],
+       "brief": "Keep Windows, macOS, ChromeOS families as archetypes with major versions and editions; move distros and hobby OSes to the next two kinds."
+      },
+      {
+       "n": "Linux distribution",
+       "old": [],
+       "brief": "Archetypes by lineage: Debian (Ubuntu, Mint, Pop!_OS), Red Hat/Fedora, Arch (Manjaro, EndeavourOS), openSUSE, Slackware, Gentoo, NixOS; desktop-environment flavours as types."
+      },
+      {
+       "n": "Alternative & hobby operating system",
+       "old": [],
+       "brief": "BSDs on the desktop, Haiku, RISC OS, ArcaOS, AmigaOS/MorphOS, ReactOS, SerenityOS, FreeDOS."
+      },
+      {
+       "n": "Virtual machine software",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "App compatibility layer",
+       "old": [
+        "k11"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Emulators & game tools",
+     "web": true,
+     "brief": "Hobbyist kinds. Game emulators organised by emulated system family with the reference emulator per system as archetypes (MAME, Dolphin, RetroArch as front end, PCSX2, DuckStation, Cemu, Ryujinx/Yuzu lineage, DOSBox, VICE, WinUAE, ScummVM). Mod managers: Vortex, Mod Organizer 2, Nexus Mods App, Thunderstore.",
+     "k": [
+      {
+       "n": "Game emulator",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Game mod manager",
+       "old": [
+        "k28"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Clean, tune & repair",
+     "web": false,
+     "brief": "Restraint: ≤8 market-covering brands per kind plus test winners; editions into types; flag PUP-prone tools in the definition only if sourced. Discontinued products (dead tails) are trimmed unless they are icons of their kind; whole-kind historic items live on the Classic software shelf.",
+     "k": [
+      {
+       "n": "PC cleaner",
+       "old": [
+        "k13"
+       ]
+      },
+      {
+       "n": "Uninstaller",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Driver updater",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Partition manager",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "System utility suite",
+       "old": [
+        "k17"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Backup & recovery",
+     "web": false,
+     "brief": "Restraint: trim to market brands; image, file and sync backup as types; drop enterprise migration tools (User State Migration Tool) unless consumer-facing.",
+     "k": [
+      {
+       "n": "Backup software",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Data recovery software",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "PC migration software",
+       "old": [
+        "k20"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Files, archives & remote access",
+     "web": false,
+     "brief": "Restraint: trim to current market leaders and built-in OS tools; dual-pane, CLI and OS file managers as types; remote desktop trims to personal-use tools (AnyDesk, TeamViewer, Chrome Remote Desktop, built-ins). Discontinued products (dead tails) are trimmed unless they are icons of their kind; whole-kind historic items live on the Classic software shelf.",
+     "k": [
+      {
+       "n": "File manager",
+       "old": [
+        "k21"
+       ]
+      },
+      {
+       "n": "File archiver",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Remote desktop software",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Desktop search tool",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "App launcher",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Disc burning software",
+       "old": [
+        "k23"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Security & privacy",
+   "mode": "tier",
+   "note": "Pick the right kind and a lab-tested product; editions (free, internet security, total security) are types.",
+   "b": [
+    {
+     "m": "Independent lab results",
+     "v": "AV-TEST certified → AV-Comparatives Advanced/Advanced+ → Product of the Year; SE Labs AAA",
+     "w": "Protection, performance and false-positive tests by independent labs."
+    },
+    {
+     "m": "Independent audit",
+     "v": "published no-logs or security audit",
+     "w": "How VPNs and password managers prove their claims."
+    },
+    {
+     "m": "Coverage",
+     "v": "devices and platforms per licence",
+     "w": "Family plans vary widely."
+    }
+   ],
+   "s": [
+    {
+     "n": "Antivirus, firewalls & parental controls",
+     "web": true,
+     "brief": "Restraint plus test winners: cut k1's 87 SKUs to one entry per vendor (≈10–12 vendors) with editions as types; add vendors that top AV-TEST, AV-Comparatives or SE Labs results, sourced from retrieved result pages. Drop server and gateway products (AVG Linux Server Edition, Forefront TMG, UserGate).",
+     "k": [
+      {
+       "n": "Antivirus software",
+       "old": [
+        "k1"
+       ]
+      },
+      {
+       "n": "Firewall",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Parental controls",
+       "old": [
+        "k3"
+       ],
+       "brief": "Tag baby."
+      }
+     ]
+    },
+    {
+     "n": "Passwords, VPN & encryption",
+     "web": false,
+     "brief": "Restraint: ≤8 market-covering products per kind; editions and family plans as types; drop enterprise/OEM tools (Knox, SecuBox) and command-line duplicates.",
+     "k": [
+      {
+       "n": "Password manager",
+       "old": [
+        "k4"
+       ]
+      },
+      {
+       "n": "VPN",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Encryption software",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Password recovery software",
+       "old": [
+        "k7"
+       ]
+      },
+      {
+       "n": "Data eraser",
+       "old": [
+        "k8"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Office & productivity",
+   "mode": "tier",
+   "note": "Suites and single apps for documents, planning, language and household money.",
+   "b": [
+    {
+     "m": "File compatibility",
+     "v": "native .docx/.xlsx/.pptx and PDF round-trip",
+     "w": "The main reason people pick a suite."
+    },
+    {
+     "m": "Licence",
+     "v": "perpetual edition vs subscription",
+     "w": "Microsoft 365 vs Office Home 2024, Acrobat Standard vs Pro."
+    }
+   ],
+   "s": [
+    {
+     "n": "Office suites & documents",
+     "web": true,
+     "brief": "Product → major version → edition for the market leaders (Microsoft Office/365, Apple iWork, Google Workspace apps, LibreOffice, WPS Office, OnlyOffice; Acrobat Reader/Standard/Pro). Trim legacy and research tails (Andrew, CA-Cricket Presents, AppleWorks) to icons; Brainshark, Google Cloud Vision, AnyDoc are trade—drop. Discontinued products (dead tails) are trimmed unless they are icons of their kind; whole-kind historic items live on the Classic software shelf.",
+     "k": [
+      {
+       "n": "Office suite",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "Word processor",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Spreadsheet software",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Presentation software",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "PDF editor",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "OCR software",
+       "old": [
+        "k34"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Notes, tasks & calendars",
+     "web": false,
+     "brief": "Restraint: k36 (134 models) trims to personal and small-team task apps; enterprise project-portfolio tools (RiskyProject, Jira-style trackers) out; online whiteboard stays a kind with no models unless the old data has some.",
+     "k": [
+      {
+       "n": "Note-taking app",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Task manager",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Calendar app",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Mind mapping software",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Diagramming software",
+       "old": [
+        "k39"
+       ]
+      },
+      {
+       "n": "Online whiteboard",
+       "old": [
+        "k40"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Language, typing & voice",
+     "web": false,
+     "brief": "Restraint: trim SDK/medical/business SKUs (AmiVoice SDK, Medical) and cloud APIs (Amazon Polly, IBM Watson, Amazon Translate) to consumer products.",
+     "k": [
+      {
+       "n": "Language-learning software",
+       "old": [
+        "k84"
+       ]
+      },
+      {
+       "n": "Machine translation software",
+       "old": [
+        "k87"
+       ]
+      },
+      {
+       "n": "Dictation software",
+       "old": [
+        "k43"
+       ]
+      },
+      {
+       "n": "Text-to-speech software",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Input method editor",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Typing tutor",
+       "old": [
+        "k85"
+       ]
+      },
+      {
+       "n": "Computer-assisted translation tool",
+       "old": [
+        "k88"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Money, tax & freelance work",
+     "web": false,
+     "brief": "Restraint: personal and sole-trader/small-business products only; enterprise accounting (QuickBooks Enterprise, Apache OFBiz) and tax-professional suites (ProConnect, ProSeries) out; staff-monitoring time trackers out.",
+     "k": [
+      {
+       "n": "Personal finance manager",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Tax software",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Accounting software",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Time-tracking software",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Survey and form software",
+       "old": [
+        "k50"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Internet & AI",
+   "mode": "tier",
+   "note": "Browsers, mail and downloads, AI assistants, and add-ons to other software or devices.",
+   "b": [
+    {
+     "m": "Privacy",
+     "v": "tracking protection, data-use terms",
+     "w": "Main differentiator among browsers and AI assistants."
+    }
+   ],
+   "s": [
+    {
+     "n": "Browsers, email & downloads",
+     "web": false,
+     "brief": "Restraint: k110 (165) trims to engine-covering browsers (Chrome, Edge, Safari, Firefox, Brave, Opera, Vivaldi, Samsung Internet) plus notable privacy ones; engine (Blink, Gecko, WebKit) as types. Discontinued products (dead tails) are trimmed unless they are icons of their kind; whole-kind historic items live on the Classic software shelf.",
+     "k": [
+      {
+       "n": "Web browser",
+       "old": [
+        "k110"
+       ]
+      },
+      {
+       "n": "Email client",
+       "old": [
+        "k111"
+       ]
+      },
+      {
+       "n": "Download manager",
+       "old": [
+        "k112"
+       ]
+      },
+      {
+       "n": "BitTorrent client",
+       "old": [
+        "k113"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "AI assistants & agents",
+     "web": false,
+     "brief": "Restraint: consumer products only; developer frameworks (Langflow, CrewAI) and enterprise search (Glean) trimmed.",
+     "k": [
+      {
+       "n": "AI assistant",
+       "old": [
+        "k115"
+       ]
+      },
+      {
+       "n": "AI answer engine",
+       "old": [
+        "k116"
+       ]
+      },
+      {
+       "n": "AI agent platform",
+       "old": [
+        "k117"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Add-ons & device apps",
+     "web": false,
+     "brief": "Restraint: one entry per add-on, not per host; trim to widely used items.",
+     "k": [
+      {
+       "n": "Browser extension",
+       "old": [
+        "k118"
+       ]
+      },
+      {
+       "n": "Office suite add-in",
+       "old": [
+        "k120"
+       ]
+      },
+      {
+       "n": "Device companion app",
+       "old": [
+        "k122"
+       ]
+      },
+      {
+       "n": "Device feature unlock",
+       "old": [
+        "k123"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Photo, design & 3D",
+   "mode": "mixed",
+   "note": "Tier for everyday apps; variety for creative tools people compare and learn (product → major version → edition).",
+   "b": [
+    {
+     "m": "Industry standard vs alternative",
+     "w": "Matters for file exchange and jobs (Photoshop, Illustrator, InDesign vs Affinity, GIMP, Krita)."
+    },
+    {
+     "m": "Licence",
+     "v": "perpetual vs subscription",
+     "w": "A long-running community debate since Creative Cloud (2013)."
+    }
+   ],
+   "s": [
+    {
+     "n": "Photo editing & imaging",
+     "web": true,
+     "brief": "Archetypes: Photoshop (major versions 1.0 → CS → CC; Elements as separate archetype), GIMP, Affinity Photo, Paint.NET, Pixelmator; Lightroom/Lightroom Classic, Capture One, darktable, DxO PhotoLab for RAW; Midjourney, DALL-E, Stable Diffusion, Firefly for AI images. Creative suites: Adobe Creative Suite/Creative Cloud, Affinity, Corel. Discontinued products (dead tails) are trimmed unless they are icons of their kind; whole-kind historic items live on the Classic software shelf.",
+     "k": [
+      {
+       "n": "Image editor",
+       "old": [
+        "k56"
+       ]
+      },
+      {
+       "n": "Photo manager & RAW developer",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "AI image generator",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Creative suite",
+       "old": [
+        "k59"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Drawing, design & type",
+     "web": true,
+     "brief": "Add digital painting as a kind (Procreate, Clip Studio Paint, Krita, Corel Painter, Rebelle, Paint Tool SAI, Photoshop brushes as cross-link). Vector: Illustrator, FreeHand (historic icon), CorelDRAW, Inkscape, Affinity Designer, Sketch; DTP: InDesign, QuarkXPress (icon), PageMaker (historic), Affinity Publisher, Scribus. Template design apps tier (Canva, Adobe Express).",
+     "k": [
+      {
+       "n": "Digital painting app",
+       "old": []
+      },
+      {
+       "n": "Vector graphics editor",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Desktop publishing software",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Graphic design app",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Font manager",
+       "old": [
+        "k64"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "3D, CAD & making",
+     "web": true,
+     "brief": "Hobbyist and maker tools: 3D modelling (Blender, Maya, 3ds Max, Cinema 4D, ZBrush; sculpting/rendering as types), CAD (AutoCAD, Fusion, SolidWorks, FreeCAD, SketchUp, Onshape, Tinkercad), slicers (Cura, PrusaSlicer, Bambu Studio, OrcaSlicer, Chitubox), laser/CNC control (LightBurn, LaserGRBL, Easel, Carbide Create), PCB (KiCad, EAGLE, Altium), photogrammetry (Meshroom, RealityCapture, Polycam), embroidery digitising (Hatch, Embrilliance, Ink/Stitch). Survey-grade/defence photogrammetry (SOCET SET) and MEP/building-services CAD out.",
+     "k": [
+      {
+       "n": "3D modelling software",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "CAD software",
+       "old": [
+        "k104"
+       ]
+      },
+      {
+       "n": "3D printing slicer",
+       "old": [
+        "k67"
+       ]
+      },
+      {
+       "n": "Laser & CNC control software",
+       "old": []
+      },
+      {
+       "n": "Circuit design software",
+       "old": [
+        "k105"
+       ]
+      },
+      {
+       "n": "Photogrammetry software",
+       "old": [
+        "k66"
+       ]
+      },
+      {
+       "n": "Embroidery digitising software",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Video & animation",
+   "mode": "mixed",
+   "note": "Tier for screen capture and converters; variety for editors, effects and animation.",
+   "b": [
+    {
+     "m": "Editing tier",
+     "v": "free/beginner → prosumer → professional",
+     "w": "iMovie/Clipchamp → Premiere Elements/PowerDirector → Premiere Pro/Final Cut Pro/DaVinci Resolve/Avid Media Composer."
+    }
+   ],
+   "s": [
+    {
+     "n": "Video editing, effects & animation",
+     "web": true,
+     "brief": "Archetypes with major versions and editions: Premiere Pro, Final Cut Pro (and Final Cut Express historic), DaVinci Resolve (free/Studio), Avid Media Composer, Vegas, iMovie, CapCut; effects: After Effects, Nuke, Fusion, Motion; 2D animation: Toon Boom Harmony, Adobe Animate (Flash lineage), OpenToonz, TVPaint, Moho; stop motion: Dragonframe, Stop Motion Studio; screenwriting: Final Draft, Fade In, WriterDuet, Celtx, Highland. Converters stay tier (HandBrake, FFmpeg).",
+     "k": [
+      {
+       "n": "Video editor",
+       "old": [
+        "k68"
+       ]
+      },
+      {
+       "n": "Visual effects software",
+       "old": [
+        "k72"
+       ]
+      },
+      {
+       "n": "2D animation software",
+       "old": [
+        "k73"
+       ]
+      },
+      {
+       "n": "Stop-motion software",
+       "old": []
+      },
+      {
+       "n": "Screenwriting software",
+       "old": [
+        "k74"
+       ]
+      },
+      {
+       "n": "Video converter",
+       "old": [
+        "k71"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Screen capture & streaming",
+     "web": false,
+     "brief": "Restraint: trim to market leaders and built-ins (OBS Studio, Snagit, ShareX, Snipping Tool, Bandicam); recording vs streaming as types.",
+     "k": [
+      {
+       "n": "Screen recorder and streaming software",
+       "old": [
+        "k69"
+       ]
+      },
+      {
+       "n": "Screenshot tool",
+       "old": [
+        "k70"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Music & audio",
+   "mode": "mixed",
+   "note": "Variety for making music (DAWs, notation, voicebanks); tier for players and readers. Plug-ins have their own department.",
+   "b": [
+    {
+     "m": "DAW edition limits",
+     "v": "entry (Intro/Elements/Lite) → mid (Standard/Artist) → full (Suite/Pro)",
+     "w": "Editions cap tracks, instruments and effects."
+    },
+    {
+     "m": "Platform and plug-in format support",
+     "v": "VST3 · AU · AAX · CLAP",
+     "w": "Decides which plug-ins run."
+    }
+   ],
+   "s": [
+    {
+     "n": "Music making & notation",
+     "web": true,
+     "brief": "Rename k75 to Digital audio workstation; archetypes Pro Tools, Logic Pro (Notator lineage), Cubase (Pro/Artist/Elements), Ableton Live (Intro/Standard/Suite), FL Studio, Studio One, Reaper, Bitwig, GarageBand. Notation (k77 has no models): Finale (historic, discontinued 2024 to verify), Sibelius, Dorico, MuseScore, LilyPond, Notion. Add guitar tablature (Guitar Pro, TuxGuitar, Power Tab) and music-learning apps (Yousician, Melodics, Simply Piano, ear trainers). Singing synthesis: Vocaloid engine versions plus voicebank archetypes (Hatsune Miku), UTAU, Synthesizer V, CeVIO. DJ: rekordbox, Serato DJ, Traktor, VirtualDJ, djay. Show control stays kind-level, trimmed (QLab, Show Cue System). Audio editors: Audacity, Adobe Audition, iZotope RX cross-link, Sound Forge.",
+     "k": [
+      {
+       "n": "Digital audio workstation",
+       "old": [
+        "k75"
+       ]
+      },
+      {
+       "n": "Music notation software",
+       "old": [
+        "k77"
+       ]
+      },
+      {
+       "n": "Guitar tablature software",
+       "old": []
+      },
+      {
+       "n": "Audio editor",
+       "old": [
+        "k76"
+       ]
+      },
+      {
+       "n": "DJ software",
+       "old": [
+        "k79"
+       ]
+      },
+      {
+       "n": "Singing voice synthesiser",
+       "old": [
+        "k78"
+       ]
+      },
+      {
+       "n": "Music-learning app",
+       "old": []
+      },
+      {
+       "n": "Show-control software",
+       "old": [
+        "k83"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Players & readers",
+     "web": false,
+     "brief": "Restraint: trim dead players to icons (Winamp, iTunes) and current leaders (VLC, foobar2000, MusicBee, Plex/Kodi-style players, Apple Books, Kindle app); DVD/Blu-ray player suites as types.",
+     "k": [
+      {
+       "n": "Media player",
+       "old": [
+        "k80"
+       ]
+      },
+      {
+       "n": "Music player",
+       "old": [
+        "k81"
+       ]
+      },
+      {
+       "n": "E-book reader",
+       "old": [
+        "k82"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Audio plug-ins & virtual instruments",
+   "mode": "variety",
+   "note": "Plug-ins that run inside a DAW; organised kind → archetype (plug-in or emulated hardware) → version, with makers in a developer register (Native Instruments, Spectrasonics, Arturia, u-he, Xfer, FabFilter, Universal Audio, Waves, Soundtoys, Valhalla DSP, iZotope, Spitfire Audio, Toontrack, Neural DSP, Antares, Celemony…).",
+   "b": [
+    {
+     "m": "Plug-in format",
+     "v": "VST3 · AU · AAX · CLAP · standalone",
+     "w": "Must match the host DAW."
+    },
+    {
+     "m": "Copy protection",
+     "v": "none · licence key · iLok · online activation",
+     "w": "A frequent buyer complaint."
+    },
+    {
+     "m": "CPU and RAM load",
+     "w": "Sample libraries need disk space and RAM; analogue emulations need CPU."
+    }
+   ],
+   "s": [
+    {
+     "n": "Virtual instruments",
+     "web": true,
+     "brief": "Every kind gets archetypes ordered by significance and every maker a developer-register brand entry. Synths: Serum, Massive (X), Omnisphere, Sylenth1, Diva, Pigments, Vital, Arturia V Collection emulations (Minimoog, Jupiter-8, DX7 etc. as archetypes of the emulated hardware). Samplers: Kontakt, EXS24/Sampler, HALion, Decent Sampler. Orchestral: Spitfire BBC SO/LABS, EastWest Hollywood Orchestra, Vienna Symphonic Library, Orchestral Tools. Keys: Keyscape, Pianoteq, Ivory, Addictive Keys. Drums: Superior Drummer/EZdrummer, BFD, Addictive Drums, Battery. Reassign k121's mixed items (Myth, Zyklop are synths; Flux items to effects).",
+     "k": [
+      {
+       "n": "Software synthesiser",
+       "old": [
+        "k124",
+        "k121"
+       ]
+      },
+      {
+       "n": "Sampler & sample player",
+       "old": []
+      },
+      {
+       "n": "Orchestral sample library",
+       "old": []
+      },
+      {
+       "n": "Virtual piano & keys",
+       "old": []
+      },
+      {
+       "n": "Virtual drum instrument",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Audio effects",
+     "web": true,
+     "brief": "Kinds by processor type with hardware-emulation archetypes where the community names them (LA-2A, 1176, SSL bus compressor, Pultec EQP-1A, Lexicon 480L, EMT 140 plate, Echoplex). Developers: FabFilter (Pro-Q, Pro-C, Pro-L), Valhalla (VintageVerb, Supermassive), Soundtoys (Decapitator, EchoBoy), UAD, Waves, iZotope (Ozone, RX, Neutron), Antares Auto-Tune, Celemony Melodyne, Neural DSP and IK Amplitube amp sims, Tokyo Dawn, Xfer OTT/LFO Tool. Redistribute k125's current models into the right kinds.",
+     "k": [
+      {
+       "n": "Compressor & dynamics plug-in",
+       "old": [
+        "k125"
+       ]
+      },
+      {
+       "n": "EQ & filter plug-in",
+       "old": []
+      },
+      {
+       "n": "Reverb plug-in",
+       "old": []
+      },
+      {
+       "n": "Delay & modulation plug-in",
+       "old": []
+      },
+      {
+       "n": "Saturation & distortion plug-in",
+       "old": []
+      },
+      {
+       "n": "Amp & cabinet simulator",
+       "old": []
+      },
+      {
+       "n": "Pitch correction & vocal plug-in",
+       "old": []
+      },
+      {
+       "n": "Console & channel-strip emulation",
+       "old": []
+      },
+      {
+       "n": "Mastering suite",
+       "old": []
+      },
+      {
+       "n": "Audio restoration software",
+       "old": []
+      },
+      {
+       "n": "Metering & analysis plug-in",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Hobbies, science & sky",
+   "mode": "mixed",
+   "note": "Software for collections, family history, home planning, radio, the night sky and data.",
+   "b": [
+    {
+     "m": "Data portability",
+     "v": "GEDCOM, CSV, open formats",
+     "w": "Lets years of records outlive the program."
+    }
+   ],
+   "s": [
+    {
+     "n": "Hobby & home software",
+     "web": true,
+     "brief": "Collection cataloguing (CLZ, Libib, Delicious Library historic, Discogs app cross-link) restrained to leaders; add genealogy (Family Tree Maker, RootsMagic, Legacy, Gramps, MacFamilyTree; GEDCOM as type), home & garden design (Sweet Home 3D, Home Designer/Chief Architect, Planner 5D, garden planners), ham radio (WSJT-X, fldigi, N1MM Logger+, Ham Radio Deluxe, logging/digital-mode/SDR as types).",
+     "k": [
+      {
+       "n": "Collection cataloguing software",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Genealogy software",
+       "old": []
+      },
+      {
+       "n": "Home & garden design software",
+       "old": []
+      },
+      {
+       "n": "Ham radio software",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Science, maps & sky",
+     "web": true,
+     "brief": "Planetarium (Stellarium, SkySafari, Cartes du Ciel, Celestia, KStars; planetarium-dome systems like Digistar out). Add astrophotography (PixInsight, DeepSkyStacker, Siril, N.I.N.A., SharpCap, APT). GIS: QGIS, Google Earth Pro, ArcGIS Pro; transport-modelling and enterprise GIS servers out. Scientific: R, MATLAB, Mathematica, SPSS, Stata, Python/Jupyter distributions, GeoGebra, Origin; trim 142 to ≈12.",
+     "k": [
+      {
+       "n": "Planetarium software",
+       "old": [
+        "k109"
+       ]
+      },
+      {
+       "n": "Astrophotography software",
+       "old": []
+      },
+      {
+       "n": "GIS and mapping software",
+       "old": [
+        "k108"
+       ]
+      },
+      {
+       "n": "Scientific and statistics software",
+       "old": [
+        "k107"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Developer tools",
+   "mode": "mixed",
+   "note": "Tools a person installs to write code, make games and manage their own machines; servers and enterprise tooling are out of scope.",
+   "b": [
+    {
+     "m": "Language and platform support",
+     "w": "First filter for editors and engines."
+    },
+    {
+     "m": "Licence for hobby use",
+     "v": "free tier / revenue cap / royalty",
+     "w": "Game engines differ sharply (Unity, Unreal, Godot, GameMaker)."
+    }
+   ],
+   "s": [
+    {
+     "n": "Coding & game making",
+     "web": true,
+     "brief": "Code editors/IDEs: Visual Studio Code, Visual Studio (Community/Pro/Enterprise), JetBrains IDEs, Xcode, Vim, Emacs, Sublime Text, Notepad++, Cursor. Game engines as hobbyist variety: Unity, Unreal Engine (major versions), Godot, GameMaker, RPG Maker (editions), Construct, PICO-8, Ren'Py, Twine, Adventure Game Studio; in-house studio engines (4A Engine etc.) trimmed. Compilers/runtimes: one per language family (GCC, Clang/LLVM, MSVC, .NET, JDK, Python, Node.js); drop internal components (RyuJIT, CoreRT). Version control: Git, Mercurial, Subversion plus GUI clients. Web design: Dreamweaver lineage, WordPress-style builders, Webflow; historic GoLive/PageMill/iWeb as icons only.",
+     "k": [
+      {
+       "n": "Code editor",
+       "old": [
+        "k90"
+       ]
+      },
+      {
+       "n": "AI coding assistant",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Code editor plug-in",
+       "old": [
+        "k119"
+       ]
+      },
+      {
+       "n": "Compiler and runtime",
+       "old": [
+        "k91"
+       ]
+      },
+      {
+       "n": "Version control software",
+       "old": [
+        "k92"
+       ]
+      },
+      {
+       "n": "Game engine",
+       "old": [
+        "k95"
+       ]
+      },
+      {
+       "n": "Web design software",
+       "old": [
+        "k94"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Databases, terminals & networks",
+     "web": false,
+     "brief": "Restraint: k97 becomes desktop/personal databases (FileMaker, Microsoft Access, LibreOffice Base, SQLite tools); database servers out. Terminals, SSH/FTP clients and network analysers trimmed to leaders (Windows Terminal, iTerm2, PuTTY, WinSCP, FileZilla, Wireshark); surveillance and appliance products out.",
+     "k": [
+      {
+       "n": "Desktop database software",
+       "old": [
+        "k97"
+       ]
+      },
+      {
+       "n": "Terminal emulator",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "SSH and FTP client",
+       "old": [
+        "k101"
+       ]
+      },
+      {
+       "n": "Network analyser",
+       "old": [
+        "k103"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Classic software",
+   "mode": "variety",
+   "note": "Kinds whose heyday has passed, kept for collectors of boxed software and people running it on vintage machines or emulators.",
+   "b": [
+    {
+     "m": "Original media and box",
+     "w": "Collectors value complete boxed copies; period and platform are attributes."
+    }
+   ],
+   "s": [
+    {
+     "n": "Classic & discontinued software",
+     "web": true,
+     "brief": "Historic shelf: After Dark (Flying Toasters) and Windows/XScreenSaver lineages for screen savers; CD-ROM reference works (Encarta, Grolier, Britannica CD, Microsoft Bookshelf); home publishing (The Print Shop, PrintMaster, Print Artist); P2P clients (Napster, Kazaa, LimeWire, eMule, Soulseek). Archetypes with era and maker; no title lists of entertainment.",
+     "k": [
+      {
+       "n": "Screen saver",
+       "old": [
+        "k27"
+       ]
+      },
+      {
+       "n": "Reference CD-ROM",
+       "old": [
+        "k89"
+       ]
+      },
+      {
+       "n": "Home publishing software",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Peer-to-peer file sharing client",
+       "old": [
+        "k114"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": [
+  {
+   "old": "k48",
+   "why": "ERP is institutional business software (findings: trade out)."
+  },
+  {
+   "old": "k49",
+   "why": "CRM is trade/business software."
+  },
+  {
+   "old": "k51",
+   "why": "Digital signage is trade software (findings)."
+  },
+  {
+   "old": "k52",
+   "why": "Point-of-sale runs shops and restaurants: trade."
+  },
+  {
+   "old": "k53",
+   "why": "Groupware servers are institutional."
+  },
+  {
+   "old": "k55",
+   "why": "Workforce management is institutional."
+  },
+  {
+   "old": "k86",
+   "why": "Corporate e-learning authoring is institutional."
+  },
+  {
+   "old": "k96",
+   "why": "UML/software modelling suites are enterprise trade tools."
+  },
+  {
+   "old": "k98",
+   "why": "Web and application servers are server/trade software."
+  },
+  {
+   "old": "k99",
+   "why": "Application monitoring is institutional infrastructure."
+  },
+  {
+   "old": "k100",
+   "why": "Business intelligence is institutional."
+  },
+  {
+   "old": "k106",
+   "why": "Engineering simulation (CAE) is trade software (findings)."
+  }
+ ]
+}

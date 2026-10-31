@@ -1,0 +1,395 @@
+{
+ "kinds": [
+  {
+   "n": "Disk or CD drive add-on",
+   "a": "disk-drive add-on · CD add-on",
+   "d": "Unit that adds a disk or CD drive to a console so it can play games on that medium.",
+   "t": [
+    "floppy/Disk Card",
+    "CD-ROM",
+    "magnetic disk"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Famicom_Disk_System",
+   "x": [
+    {
+     "n": "Famicom Disk System",
+     "a": "FDS",
+     "d": "Famicom add-on that plays games on rewritable Disk Cards.",
+     "mk": "Nintendo",
+     "y": "1986",
+     "s": "https://en.wikipedia.org/wiki/Famicom_Disk_System",
+     "v": [
+      {
+       "n": "Famicom Disk System",
+       "mk": "Nintendo",
+       "y": "1986",
+       "d": "Japan"
+      },
+      {
+       "n": "Sharp Twin Famicom",
+       "mk": "Sharp",
+       "y": "1986",
+       "d": "Famicom with built-in Disk System"
+      }
+     ],
+     "dt": "Disk Card · Disk Writer kiosk"
+    },
+    {
+     "n": "CD-ROM²",
+     "a": "TurboGrafx-CD · Super CD-ROM²",
+     "d": "First CD-ROM add-on for a console, for the PC Engine.",
+     "mk": "NEC",
+     "y": "1988",
+     "s": "https://en.wikipedia.org/wiki/TurboGrafx-16",
+     "v": [
+      {
+       "n": "CD-ROM²",
+       "mk": "NEC",
+       "y": "1988",
+       "d": "Japan"
+      },
+      {
+       "n": "TurboGrafx-CD",
+       "mk": "NEC",
+       "y": "1989",
+       "d": "North America"
+      },
+      {
+       "n": "Super CD-ROM²",
+       "mk": "NEC",
+       "y": "1991",
+       "d": "more RAM"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Mega-CD",
+     "a": "Sega CD",
+     "d": "CD-ROM add-on for the Mega Drive / Genesis.",
+     "mk": "Sega",
+     "y": "1991",
+     "s": "https://en.wikipedia.org/wiki/Sega_CD",
+     "v": [
+      {
+       "n": "Mega-CD / Sega CD (Model 1)",
+       "mk": "Sega",
+       "y": "1991",
+       "d": "front-loading tray, sits under the console"
+      },
+      {
+       "n": "Mega-CD 2 / Sega CD Model 2",
+       "mk": "Sega",
+       "y": "1993",
+       "d": "top-loading, sits beside the console"
+      }
+     ],
+     "dt": "model · region"
+    },
+    {
+     "n": "Jaguar CD",
+     "a": "",
+     "d": "CD-ROM add-on that sits on top of the Atari Jaguar.",
+     "mk": "Atari",
+     "y": "1995",
+     "s": "https://en.wikipedia.org/wiki/Atari_Jaguar",
+     "v": [
+      {
+       "n": "Atari Jaguar CD",
+       "mk": "Atari",
+       "y": "1995",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "64DD",
+     "a": "Nintendo 64DD",
+     "d": "Japan-only magnetic disk drive for the Nintendo 64, with the Randnet online service.",
+     "mk": "Nintendo",
+     "y": "1999",
+     "s": "https://en.wikipedia.org/wiki/64DD",
+     "v": [
+      {
+       "n": "Nintendo 64DD",
+       "mk": "Nintendo",
+       "y": "1999",
+       "d": "Japan only; built by Alps Electric"
+      }
+     ],
+     "dt": ""
+    }
+   ]
+  },
+  {
+   "n": "Hardware upgrade add-on",
+   "a": "32X type · memory pak",
+   "d": "Unit that plugs into a console to add processor, graphics or memory hardware so it runs games made for the upgraded system.",
+   "s": "https://en.wikipedia.org/wiki/32X",
+   "x": [
+    {
+     "n": "Sega 32X",
+     "a": "Super 32X · Genesis 32X · Mega Drive 32X",
+     "d": "Cartridge-slot add-on that gives the Genesis 32-bit processors for 32X games.",
+     "mk": "Sega",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/32X",
+     "v": [
+      {
+       "n": "Genesis 32X",
+       "mk": "Sega",
+       "y": "1994",
+       "d": "North America"
+      },
+      {
+       "n": "Super 32X",
+       "mk": "Sega",
+       "y": "1994",
+       "d": "Japan"
+      },
+      {
+       "n": "Mega Drive 32X",
+       "mk": "Sega",
+       "y": "1994",
+       "d": "Europe"
+      }
+     ],
+     "dt": "region"
+    },
+    {
+     "n": "Expansion Pak",
+     "a": "NUS-007",
+     "d": "Nintendo 64 memory pak that adds 4 MB of RDRAM, replacing the Jumper Pak.",
+     "mk": "Nintendo",
+     "y": "",
+     "s": "https://n64brew.dev/wiki/NUS-007",
+     "v": [
+      {
+       "n": "Expansion Pak version 1",
+       "mk": "Nintendo",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Expansion Pak version 2",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "factory bodge"
+      },
+      {
+       "n": "Expansion Pak version 3",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "added resistor"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "High-Rez Pack",
+     "Mad Catz"
+    ]
+   ]
+  },
+  {
+   "n": "Cartridge converter",
+   "a": "region converter · cartridge adapter",
+   "d": "Unit that lets a console play cartridges of another system or region.",
+   "t": [
+    "other-system adapter",
+    "region converter"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Super_Game_Boy",
+   "x": [
+    {
+     "n": "Power Base Converter",
+     "a": "Master System Converter · Mega Adapter",
+     "d": "Adapter that plugs into the Mega Drive / Genesis slot to play Master System cartridges and cards.",
+     "mk": "Sega",
+     "y": "1990",
+     "s": "https://www.computinghistory.org.uk/det/6318/Sega-Master-System-Converter/",
+     "v": [
+      {
+       "n": "Power Base Converter",
+       "mk": "Sega",
+       "y": "1990",
+       "d": "US"
+      },
+      {
+       "n": "Master System Converter",
+       "mk": "Sega",
+       "y": "",
+       "d": "Europe"
+      },
+      {
+       "n": "Mega Adapter",
+       "mk": "Sega",
+       "y": "",
+       "d": "Japan"
+      }
+     ],
+     "dt": "region"
+    },
+    {
+     "n": "Super Game Boy",
+     "a": "",
+     "d": "SNES cartridge adapter that plays Game Boy games on a TV with colour palettes and borders.",
+     "mk": "Nintendo",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/Super_Game_Boy",
+     "v": [
+      {
+       "n": "Super Game Boy",
+       "mk": "Nintendo",
+       "y": "1994",
+       "d": ""
+      },
+      {
+       "n": "Super Game Boy 2",
+       "mk": "Nintendo",
+       "y": "1998",
+       "d": "Japan only, link port"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Game Boy Player",
+     "a": "",
+     "d": "GameCube add-on that plays Game Boy, Game Boy Color and Game Boy Advance cartridges on a TV.",
+     "mk": "Nintendo",
+     "y": "2003",
+     "s": "https://en.wikipedia.org/wiki/GameCube",
+     "v": [
+      {
+       "n": "Game Boy Player",
+       "mk": "Nintendo",
+       "y": "2003",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Hyperkin Hyperconvert 83",
+     "Hyperkin"
+    ],
+    [
+     "Retro-Bit RetroGEN",
+     "Retro-Bit"
+    ],
+    [
+     "HES Unidaptor",
+     "Home Entertainment Suppliers"
+    ],
+    [
+     "Family Converter",
+     "Honey Bee"
+    ],
+    [
+     "Game Key",
+     "Horeleg"
+    ],
+    [
+     "Magic Key",
+     "Magic Key"
+    ],
+    [
+     "Spica T89",
+     "Spica"
+    ],
+    [
+     "Wu Ho Cassette Adaptor",
+     "Wu Ho"
+    ],
+    [
+     "Mega Converter",
+     ""
+    ],
+    [
+     "Mega Key 2",
+     ""
+    ],
+    [
+     "Passport Plus III",
+     ""
+    ],
+    [
+     "Programmable Universal Converter",
+     ""
+    ],
+    [
+     "Super Key",
+     ""
+    ],
+    [
+     "Tri-Star",
+     ""
+    ],
+    [
+     "Universal Adaptor",
+     ""
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Nintendo",
+   "c": "Japan",
+   "f": "1889",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese console maker; made the Disk System, 64DD, Expansion Pak and Game Boy adapters.",
+   "sig": [
+    "Famicom Disk System",
+    "Super Game Boy"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sega",
+   "c": "Japan",
+   "f": "1960",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese game company; made the Mega-CD, 32X and Power Base Converter.",
+   "sig": [
+    "Mega-CD",
+    "Sega 32X"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "NEC",
+   "c": "Japan",
+   "f": "1899",
+   "seg": "Mainstream",
+   "kf": "electronics",
+   "d": "Japanese electronics group that made the PC Engine CD-ROM².",
+   "sig": [
+    "CD-ROM²"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Atari",
+   "c": "United States",
+   "f": "1972",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Video-game pioneer; made the Jaguar CD.",
+   "sig": [
+    "Jaguar CD"
+   ],
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "Disk add-ons: 6 old models became 5 archetypes (FDS, CD-ROM², Mega-CD, Jaguar CD, 64DD) with model revisions as versions. Hardware upgrade: 32X and Expansion Pak archetypes, Mad Catz High-Rez Pack kept as model; duplicate 'Sega Mega-CD' dropped here as the brief says (kept in Disk or CD drive add-on). Cartridge converter: Power Base Converter (Master System Converter), Super Game Boy (+SGB2) and Game Boy Player archetypes; 15 third-party and maker-less converters kept as models."
+}

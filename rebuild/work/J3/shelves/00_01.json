@@ -1,0 +1,165 @@
+{
+ "kinds": [
+  {
+   "n": "Cream",
+   "a": "fresh cream · single cream · light cream · double cream · heavy cream · whipping cream · whipped cream",
+   "d": "Fresh liquid cream separated from milk, sold by fat level for pouring, whipping or cooking.",
+   "t": [
+    "single / light",
+    "whipping",
+    "double / heavy",
+    "thickened",
+    "aerosol whipped cream"
+   ],
+   "s": "https://www.trolley.co.uk/product/sainsburys-british-whipping-fresh-cream/VPE420",
+   "m": [
+    [
+     "Jersey Single Pouring Cream",
+     "Longley Farm"
+    ],
+    [
+     "Amul Whipping Cream",
+     "Amul"
+    ],
+    [
+     "Greenfields Whipping Cream",
+     "Greenfields"
+    ],
+    [
+     "Piracanjuba Seleção Creme de Leite Bate Chantilly",
+     "Piracanjuba"
+    ],
+    [
+     "First Choice Whipping Cream",
+     "Woodlands Dairy"
+    ]
+   ]
+  },
+  {
+   "n": "Clotted cream & kaymak",
+   "a": "clotted cream · Cornish cream · Devonshire cream · kaymak · kaymağı · kajmak",
+   "d": "Very thick cream made by slow heating and cooling until a crusted layer of fat forms, spooned rather than poured.",
+   "t": [
+    "clotted cream",
+    "kaymak"
+   ],
+   "s": "https://www.fairprice.com.sg/category/cream",
+   "m": [
+    [
+     "Cornish clotted cream (PDO)",
+     ""
+    ],
+    [
+     "Afyon kaymağı (GI)",
+     ""
+    ],
+    [
+     "Luxury Clotted Cream",
+     "Coombe Castle International"
+    ],
+    [
+     "Eker Kaymak",
+     "Eker Süt Ürünleri"
+    ],
+    [
+     "İçim Kaymak",
+     "İçim"
+    ]
+   ]
+  },
+  {
+   "n": "Crème fraîche",
+   "a": "creme fraiche · crème fraîche épaisse",
+   "d": "Thick cultured cream with a mild, nutty sourness that does not split when heated.",
+   "t": [
+    "thick (épaisse)",
+    "liquid (fluide)",
+    "half-fat"
+   ],
+   "s": "https://www.auchan.fr/president-creme-fraiche-epaisse-entiere-30-mg/pr-C1169646",
+   "m": [
+    [
+     "Crème de Bresse (PDO)",
+     ""
+    ],
+    [
+     "Crème Fraîche",
+     "Lancashire Farm Dairies"
+    ]
+   ]
+  },
+  {
+   "n": "Soured cream & smetana",
+   "a": "sour cream · soured cream · smetana · smietana",
+   "d": "Cream cultured with lactic bacteria to a thick, sharply sour finish.",
+   "t": [
+    "soured cream",
+    "smetana",
+    "full-fat",
+    "light"
+   ],
+   "s": "https://www.trolley.co.uk/product/sainsburys-british-whipping-fresh-cream/VPE420",
+   "m": [
+    [
+     "25% Sour Cream",
+     "Green Pastures Donegal"
+    ],
+    [
+     "Clonbawn Irish Sour Cream Full Fat",
+     "Aldi Ireland"
+    ]
+   ]
+  },
+  {
+   "n": "Dairy creamer & whitener",
+   "a": "coffee creamer · dairy whitener · tea whitener · half-and-half portions",
+   "d": "Milk- or cream-based liquid or powder made to whiten coffee or tea, often sweetened or flavoured.",
+   "t": [
+    "liquid creamer",
+    "portion cups",
+    "dairy whitener powder"
+   ],
+   "s": "https://www.safeway.com/shopping-guides/beverages/coffee-creamers-at-safeway-dairy-non-dairy-and-flavored-options-kztfd8",
+   "m": [
+    [
+     "Chobani Coffee Creamer",
+     "Chobani"
+    ],
+    [
+     "Mini Moos Half And Half Creamer Singles",
+     "Land O'Lakes"
+    ],
+    [
+     "Nestlé Everyday",
+     "Nestlé"
+    ],
+    [
+     "Amulya Dairy Whitener",
+     "Amul"
+    ],
+    [
+     "Mother Dairy Dairy Whitener",
+     "Mother Dairy"
+    ],
+    [
+     "Haleeb Tea Max",
+     "Haleeb Foods"
+    ],
+    [
+     "Verka Dairy Whitener",
+     "Punjab Milk Producers Federation (Verka)"
+    ],
+    [
+     "Hatsun Dairy Whitener",
+     "Hatsun Agro Product"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Merged five fat-level kinds (Double, Single, Whipping, Thickened, Aerosol whipped cream) into one Cream kind. The fat levels are now types. Cream keeps the Double cream source (trolley.co.uk). Kept the existing single and whipping cream models. Moved Land O'Lakes Mini Moos half-and-half singles from Single cream to Dairy creamer, because it is a portion creamer. Clotted cream and kaymak are combined, with the two as types. The PDO/GI entries (Cornish clotted cream, Afyon kaymağı, Crème de Bresse) are kept as maker-less models listed first. Removed 'Smetana' as a model and made it a type of Soured cream & smetana. In Dairy creamer, the South Asian whitener models went from 8 to 5 brand entries (with Nestlé Everyday as a sixth whitener line). The separate India and Pakistan Nestlé Everyday entries are merged into one Nestlé line. Dropped Milma Day to Day as a regional (Kerala) co-operative line covered by the national brands. No archetypes, new kinds or brand entries were added. No web research was done, so the existing sources are retained as they were.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

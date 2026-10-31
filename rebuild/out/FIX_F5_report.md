@@ -1,0 +1,10 @@
+# FIX_F5 report
+
+Kinds 84 → 70, archetypes 98 → 114. Brands 289 → 296.
+
+- F5-1 done: Autograph now has 4 archetypes (signed photograph, cut signature, White House card, signed first-day cover, cross-linked to F3); new kind Signed & game-used memorabilia (signed ball or bat, game-worn jersey, game-used ball). PSA/DNA, JSA, Beckett added as authentication types (t). Signed index card archetype skipped: no fetched page confirms it (it stays a type).
+- F5-2 done: new kinds Beer mat, Cigar band, Sugar packet, Pinback button, Lobby card, Press kit; Matchbox label gained 2 archetypes (matchbox label, matchbook cover). Maker archetypes only where a fetched page names them. Cigar bands, sugar packets and press kits have few named makers in the fetched pages; Swedish Match, Bryant & May not added (not in any fetched page).
+- F5-3 done: Identity document (6 kinds merged), Gift & membership card (gift card, certificate, membership, loyalty; Duane Reade row kept), Household & legal papers (will, tax paper, house plans, school report, promissory note). Snapshot became a type of Photographic print; Scrapbook a type of Photo album.
+- F5-4 partly: 242 transit-card register entries flagged "stub": true (kept, not deleted); the flag is new, the builder must honour it. Added 7 publisher/issuer entries (Friedrich Horn, Watney's, Quarmby Promotions, Whitehead & Hoag, Cumberland Packing, National Screen Service, Kellogg's) from fetched pages; no further postcard publishers were sourced.
+- F5-5 done/partly: removed Daguerreotype, Ambrotype, Tintype, Instant print (F2 homes them), Posted envelope and Aerogramme archetype (F3), Home film reel and Home videotape (F1 carriers), Stevengraph from Novelty postcard (kept under Bookmark), Commonplace book archetype (F1 Manuscript book; kept as a type). The "home-made content view" is not built (no view mechanism in the data). F2's vernacular view not added.
+- _moves.json unchanged. Sources: Wikipedia pages for Autograph collecting, Sports memorabilia, Beer mat, Cigar band, Sugar packet, Pin-back button, Lobby card, Press kit, Phillumeny, Matchbox; Shapell and RR Auction pages.

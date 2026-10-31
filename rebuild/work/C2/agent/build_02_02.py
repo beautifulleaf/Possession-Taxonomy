@@ -1,0 +1,55 @@
+import json, os
+SB3="https://sneeboer.com/en/garden-tools/our-collections-garden-tools/page/3"
+GI="https://gardensillustrated.com/garden-equipment/tools/best-weeders"
+kinds=[
+{"n":"Hand trowel","a":"garden trowel · planting trowel","d":"Short-handled scoop-shaped blade for digging small planting holes.",
+ "t":["stainless steel","forged carbon or boron steel","wide scoop","narrow transplanting"],
+ "s":"https://www.hornbach.de/c/garten/gartenwerkzeug-gartengeraete/S1943/",
+ "x":[
+  {"n":"Great Dixter trowel","a":"Great Dixter / Christopher Lloyd Trowel","d":"Narrow hand-forged Sneeboer trowel made to the specifications of gardener Christopher Lloyd of Great Dixter.","mk":"Sneeboer","y":"","s":"https://sneeboer.com/en/hand-forged-garden-tools/great-dixter-christopher-lloyd-trowel","v":[],"dt":"33 cm overall · blade 16.5 × 5 cm · cherry or ash handle"},
+  {"n":"Narrow transplanting trowel","a":"transplant trowel · transplanter","d":"Trowel with a blade narrower than standard, sharpened along its length, for tight spots, transplanting and bulbs.","mk":"","y":"","s":"https://www.greenhousemegastore.com/products/dewit-7-forged-transplant-trowel","v":[{"n":"7 in. Forged Transplant Trowel","mk":"DeWit","y":"","d":"hand-forged boron steel, ash handle; head 7 × 2.25 in"}],"dt":"blade width · forged or stainless · handle wood"},
+  {"n":"Heart-shaped planting trowel","a":"Planting Trowel – RHS Endorsed","d":"Short, wide heart-shaped stainless head set in line with the handle, for bulbs, bedding, plugs and containers.","mk":"Burgon & Ball","y":"","s":"https://www.burgonandball.com/products/planting-trowel-rhs-endorsed","v":[],"dt":"26 cm overall · 11 cm wide · mirror-polished stainless head · FSC hardwood handle"},
+  {"n":"Dandelion trowel","a":"","d":"Sneeboer hand trowel sold in a standard and a v-model version.","mk":"Sneeboer","y":"","s":SB3,"v":[{"n":"Dandelion Trowel v-model","mk":"Sneeboer","y":"","d":""}],"dt":"head shape · handle wood"}],
+ "m":[["Archeology Trowel","Sneeboer"]]},
+{"n":"Hori-hori","a":"soil knife · weeding knife · sansai knife","d":"Japanese heavy, concave steel digging knife with one serrated edge, used for weeding, planting and dividing.",
+ "t":["stainless steel","carbon steel","with sheath","depth markings"],
+ "s":"https://en.wikipedia.org/wiki/Hori_hori",
+ "x":[
+  {"n":"Nisaku Hori-Hori No. 650","a":"NJP650","d":"Japanese-made stainless hori-hori with straight and serrated edges and inch depth markings.","mk":"Nisaku","y":"","s":"https://www.drgreenthumbs.com.au/products/nisaku-hori-hori-no-650-horticultural-knife","v":[],"dt":"7.25 in blade · wooden handle · faux-leather sheath"},
+  {"n":"Niwaki Hori Hori","a":"","d":"Full-tang carbon-steel hori-hori with a triple-riveted beech handle.","mk":"Niwaki","y":"","s":"https://www.bobvila.com/lawn-and-garden/niwaki-garden-tools-review.md","v":[],"dt":"carbon steel · beech handle"},
+  {"n":"Barebones Hori Hori Classic","a":"","d":"Vintage-inspired stainless hori-hori with walnut handle, serrated sides, depth marks and a twine cutter.","mk":"Barebones","y":"","s":"https://www.barebonesliving.com/products/hori-hori-classic","v":[],"dt":"6¾ in 4CR13 stainless blade · full tang · walnut handle · optional sheath"}]},
+{"n":"Hand weeder","a":"weeding tool · weed puller","d":"Tool with a forked, notched or bladed head that levers or cuts weeds out of soil or paving joints.",
+ "t":["short-handled","long-handled (stand-up)"],
+ "s":"https://www.hornbach.de/c/garten/gartenwerkzeug-gartengeraete/S1943/",
+ "x":[
+  {"n":"Daisy grubber","a":"","d":"Short hand tool with a narrow forked head that levers out short-rooted weeds such as daisies.","mk":"","y":"","s":GI,"v":[{"n":"RHS Stainless Daisy Grubber","mk":"Burgon & Ball","y":"","d":"Gardens Illustrated best for quick weed removal"}],"dt":"stainless or carbon head · hardwood handle"},
+  {"n":"Japanese weeding sickle","a":"nejiri gama · nejiri kama","d":"Japanese hand tool with a sharp offset carbon-steel blade drawn just under the soil to cut weed roots.","mk":"","y":"","s":"https://hardwickandsons.com/products/japanese-kusakichi-nejiri-weeder","v":[{"n":"Kusakichi Nejiri Gama Weeder SUMP16X","mk":"Yoshida Hamano","y":"","d":"5 in blade, 10 in overall, hardwood handle, made in Japan"}],"dt":"short or long handle · blade length"},
+  {"n":"Corkscrew weeder","a":"","d":"Spiral-headed weeder twisted into the ground to pull stubborn weeds.","mk":"DeWit","y":"","s":GI,"v":[{"n":"Short-handled corkscrew weeder","mk":"DeWit","y":"","d":""},{"n":"Long-handled corkscrew weeder","mk":"DeWit","y":"","d":"Gardens Illustrated best for stubborn weeds (both lengths)"}],"dt":"handle length"},
+  {"n":"Patio weeding knife","a":"","d":"Angled knife for scraping weeds out of joints between paving.","mk":"","y":"","s":GI,"v":[{"n":"National Trust Patio Weeding Knife","mk":"Burgon & Ball","y":"","d":"Gardens Illustrated best for precise patio weeding"}],"dt":"blade angle · handle"},
+  {"n":"Stand-up weed puller","a":"claw weeder","d":"Long-handled puller whose claws or fork grip the root so weeds come out without bending.","mk":"","y":"","s":"https://www.rapidonline.com/fiskars-1020126-xact-weed-puller-96-0132","v":[{"n":"Xact Weed Puller 1020126","mk":"Fiskars","y":"","d":"stainless jaws, 1000 mm, 0.95 kg; no longer stocked"},{"n":"Grampa's Weeder","mk":"","y":"","d":"two-fork puller; Gardens Illustrated best long-handled weed puller"}],"dt":"claw count · shaft length"}]},
+{"n":"Bulb planter","a":"","d":"Tool that cuts and lifts a plug of soil to make a hole for a bulb.",
+ "t":["hand-held","long-handled"],
+ "s":"https://www.crocus.co.uk/products/_/the-tool-shed/garden-tools/digging-tools/plcid.767/plcid.778/plcid.1321/",
+ "x":[
+  {"n":"Long-handled bulb planter","a":"Long Handled Bulb Planter – RHS Endorsed","d":"Stand-up stainless tube planter with T-handle and foot bar, for naturalising bulbs in grass.","mk":"Burgon & Ball","y":"","s":"https://burgonandball.com/products/long-handled-bulb-planter-rhs-endorsed","v":[],"dt":"110 cm overall · 6 cm core up to 16.5 cm deep · FSC hardwood T-handle"},
+  {"n":"Great Dixter Bulb Planter","a":"","d":"Hand-forged Sneeboer bulb planter in its Great Dixter collection.","mk":"Sneeboer","y":"","s":SB3,"v":[],"dt":""}],
+ "m":[["RHS Hand Bulb Planter","Burgon & Ball"]]},
+{"n":"Dibber","a":"dibble · dibbler","d":"Pointed hand tool pushed into soil to make holes for seeds, seedlings and cuttings.",
+ "t":["wood","steel-tipped","plastic","depth markings"],
+ "s":"https://sneeboer.com/en/garden-tools/our-collections-garden-tools/page/3",
+ "x":[
+  {"n":"Straight dibber","a":"","d":"Classic pointed stick, from a sharpened stick to a curved handle with a steel tip; in use since Roman times.","mk":"","y":"Roman era","s":"https://en.wikipedia.org/wiki/Dibber","v":[{"n":"Dibber","mk":"Sneeboer","y":"","d":"hand-forged"}],"dt":"wood, steel or plastic · handle shape"},
+  {"n":"T-handled dibber","a":"","d":"Straight dibber with a T-grip in the palm for steady pressure and even hole depth.","mk":"","y":"","s":"https://en.wikipedia.org/wiki/Dibber","v":[],"dt":"wood or plastic · depth markings"},
+  {"n":"Trowel dibber","a":"","d":"Combined tool with a dibber at one end and a trowel at the other, usually aluminium.","mk":"","y":"","s":"https://en.wikipedia.org/wiki/Dibber","v":[],"dt":"aluminium"}]}]
+brands=[
+ {"n":"Sneeboer","c":"Netherlands","f":"1913","seg":"Hand-forged stainless garden tools","d":"Family forge founded by Arie Sneeboer, now in Bovenkarspel; stainless tools since 1951; Royal warrant (Royal Sneeboer) from 2012.","lines":["Great Dixter collection"],"eras":["Arie Sneeboer, founder, 1913"],"sig":["Great Dixter trowel","Great Dixter Bulb Planter"],"sc":[],"rel":["DeWit"],"s":"https://sneeboer.com/en/history"},
+ {"n":"Burgon & Ball","c":"United Kingdom","f":"1730","seg":"Garden hand tools","d":"Sheffield maker of shears turned garden-tool brand; RHS-endorsed stainless range since 2012; part of Venanpri since 2018.","lines":["RHS Endorsed","National Trust"],"eras":["Sophie Conran collaboration, from 2010"],"sig":["Heart-shaped planting trowel","Long-handled bulb planter","RHS Stainless Daisy Grubber"],"sc":[],"rel":[],"s":"https://www.burgonandball.com/pages/history"},
+ {"n":"DeWit","c":"Netherlands","f":"1898","seg":"Hand-forged garden tools","d":"Dutch maker started by blacksmith Willem DeWit in northern Holland; forged boron-steel tools with ash handles.","lines":[],"eras":[],"sig":["Narrow transplanting trowel","Corkscrew weeder"],"sc":[],"rel":["Sneeboer"],"s":"https://www.greenhousemegastore.com/products/dewit-7-forged-transplant-trowel"},
+ {"n":"Niwaki","c":"United Kingdom","f":"2006","seg":"Japanese garden tools","d":"Company founded by Jake Hobson selling tools sourced from Japan, plus pruning courses.","lines":[],"eras":["Jake Hobson, founder, 2006"],"sig":["Niwaki Hori Hori"],"sc":[],"rel":[],"s":"https://www.gardensillustrated.com/gardens/gardeners/jake-hobson-niwaki-interview"},
+ {"n":"Fiskars","c":"Finland","f":"1649","seg":"Consumer tools and homeware","d":"Finnish group with garden and tool brands alongside tableware houses.","lines":["Xact"],"eras":[],"sig":["Stand-up weed puller"],"sc":[],"rel":["Gerber"],"s":"https://en.wikipedia.org/wiki/Fiskars"}]
+notes=("All five planned kinds kept (Hori-hori new). Sneeboer Dandelion and Archeology trowels kept from old data (Dandelion as archetype, Archeology in m). "
+ "Left out for lack of a retrieved page: Spear & Jackson and Niwaki trowels, Sneeboer transplanting trowel, Burgon & Ball RHS Stainless Transplanter (retailer pages failed), Niwaki S-Type/Pro hori-hori variants (niwaki.com and Harrod blocked), Okatsune. "
+ "No brand entries for Nisaku (Tomita) or Barebones: only product pages retrieved. Corkscrew weeder and stand-up weed puller placed under Hand weeder with a long-handled type rather than as new kinds. No traditions added; hori-hori and nejiri gama are Japanese patterns but no tradition source was retrieved. Years left blank where no page gave one.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="/home/user/Possession-Taxonomy/rebuild/work/C2/shelves/02_02.json"
+json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)

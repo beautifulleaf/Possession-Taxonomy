@@ -1,0 +1,125 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+{"n":"Button-up shirt","a":"casual shirt · sport shirt · button-down","d":"Woven shirt with a collar and full-length button front, worn casually or smart-casually.",
+ "t":["oxford cloth (OCBD)","flannel","chambray","denim","linen","poplin","corduroy","camp / revere collar","button-down collar","popover (half placket)","work shirt","short-sleeve"],
+ "s":"https://www.uniqlo.com/us/en/men/shirts-and-polos/casual-shirts",
+ "x":[
+  {"n":"Oxford cloth button-down (OCBD)","a":"button-down oxford · Polo collar shirt","d":"Oxford-cloth shirt whose collar points button to the body, taken from English polo players' shirts and made an Ivy staple by Brooks Brothers.","mk":"Brooks Brothers","y":"1896","s":W+"Brooks_Brothers",
+   "v":[{"n":"Original Polo Button-Down Oxford","mk":"Brooks Brothers","y":"1896","d":"John E. Brooks's button-down collar on a dress shirt"},
+        {"n":"Oxford Cloth Button-Down","mk":"Gant","y":"","d":"New Haven Ivy version with locker loop, back-collar button and box pleat"},
+        {"n":"Vintage Ivy Button Down Oxford","mk":"Kamakura Shirts","y":"2012","d":"Japanese reading of the 1960s Ivy OCBD"}],
+   "dt":"oxford weight · white, blue, pink, ecru, stripes · collar roll · locker loop, box pleat · Ivy vs trim fit"},
+  {"n":"Ben Sherman button-down","a":"Ben Sherman shirt","d":"Short- and long-sleeve button-down shirts in checks, stripes and oxford, modelled on American oxfords and adopted by mods and skinheads.","mk":"Ben Sherman","y":"1963","s":W+"Ben_Sherman",
+   "v":[{"n":"Original button-down","mk":"Ben Sherman","y":"1963","d":"Early short-sleeve button-down"}],
+   "dt":"checks, stripes, oxford · short or long sleeve"},
+  {"n":"Kamakura Vintage Ivy","a":"Vintage Ivy","d":"Kamakura Shirts' line of 1960s-Ivy button-downs, designed each season with illustrator Graham Marsh.","mk":"Kamakura Shirts","y":"2012","s":"https://lundochlund.com/blogs/editorial/kamakura-shirts",
+   "v":[{"n":"Vintage Ivy Button Down Oxford","mk":"Kamakura Shirts","y":"2012","d":"Full-placket OCBD"},
+        {"n":"Vintage Ivy BD Popover","mk":"Kamakura Shirts","y":"","d":"Half-placket pullover version"},
+        {"n":"Vintage Ivy short sleeve","mk":"Kamakura Shirts","y":"","d":"Same design in short sleeves"}],
+   "dt":"oxford and other basic fabrics · natural shell buttons · made in Japan"},
+  {"n":"Pendleton Board Shirt","a":"Pendleton surf shirt · Blue Original","d":"Pendleton's original wool plaid surf shirt, made famous in the 1960s by the Beach Boys on their album covers.","mk":"Pendleton Woolen Mills","y":"1924 (wool sport shirts); 1960s surf fame","s":"https://pendletonwoolenmills.eu/blogs/news/a-guide-to-pendleton-shirts",
+   "v":[{"n":"Board Shirt, Blue Original Surf Plaid","mk":"Pendleton Woolen Mills","y":"","d":"The plaid on Beach Boys covers"},
+        {"n":"Lodge Shirt","mk":"Pendleton Woolen Mills","y":"","d":"Umatilla wool sport shirt"},
+        {"n":"Trail Shirt","mk":"Pendleton Woolen Mills","y":"","d":"Machine-washable virgin wool shirt"},
+        {"n":"Canyon Shirt","mk":"Pendleton Woolen Mills","y":"","d":"Western-cut shirt with pieced jacquard yoke"}],
+   "dt":"virgin wool · plaids · Umatilla wool"},
+  {"n":"Seditionaries Anarchy shirt","a":"Anarchy shirt","d":"Punk shirt by Vivienne Westwood and Malcolm McLaren, screen-printed and patched with anarchist slogans and sold at 430 King's Road.","mk":"Seditionaries","y":"c. 1976","s":"https://www.ngv.vic.gov.au/explore/collection/work/66980/",
+   "v":[{"n":"Anarchy flag shirt","mk":"Seditionaries","y":"c. 1976","d":"Screen-printed cotton; NGV 2000.12"}],
+   "dt":"screen-printed cotton or muslin · slogan patches · original vs later reproduction"}],
+ "m":[["Alaskan Guide Shirt","Filson"],["Savoy Suede Workshirt","Billy Reid"],["Shoals Denim Shirt","Billy Reid"],["Twisted shirt","Lemaire"],["La Chemise Monégasque","Moné Monte Carlo"]]},
+{"n":"Dress shirt","a":"formal shirt · business shirt","d":"Woven shirt made to be worn with a tie or under a suit, with a firmer collar and button or cufflink cuffs.",
+ "t":["collar: spread","collar: cutaway","collar: point","collar: button-down","collar: club","collar: pin / tab","collar: wing","cuff: barrel (button)","cuff: French (double, cufflink)","cuff: cocktail / turnback","non-iron","bespoke / made-to-measure","poplin, twill, oxford, end-on-end"],
+ "s":"https://www.uniqlo.com/us/en/men/shirts-and-polos/dress-shirts",
+ "x":[
+  {"n":"Charvet shirt","a":"Charvet chemise","d":"Paris shirt from the first chemisier, with pattern-matched placket and yoke, six-layer unfused collar and a longer left cuff for the watch.","mk":"Charvet","y":"1838","s":W+"Charvet_Place_Vend%C3%B4me",
+   "v":[{"n":"Ready-to-wear shirt","mk":"Charvet","y":"","d":"Place Vendôme house shirt"},{"n":"Bespoke shirt","mk":"Charvet","y":"","d":"At least 28 measurements, trial shirt first"}],
+   "dt":"mother-of-pearl buttons · single-needle stitching · square vented tails · collar shapes"},
+  {"n":"Turnbull & Asser shirt","a":"T&A shirt · Classic T&A collar","d":"Jermyn Street shirt with a deep-pointed semi-spread collar and three-button cuff; its turnback 'cocktail cuff' was worn by Bond in Dr. No.","mk":"Turnbull & Asser","y":"1885 (house); 1962 (Dr. No)","s":W+"Turnbull_%26_Asser",
+   "v":[{"n":"Classic T&A collar, three-button cuff","mk":"Turnbull & Asser","y":"","d":"House ready-to-wear signature"},{"n":"Cocktail cuff shirt","mk":"Turnbull & Asser","y":"1962","d":"Turnback button cuff from Dr. No"},
+        {"n":"Mayfair","mk":"Turnbull & Asser","y":"","d":"Fit name"},{"n":"Belgravia","mk":"Turnbull & Asser","y":"","d":"Fit name"},{"n":"Chelsea","mk":"Turnbull & Asser","y":"","d":"Fit name"}],
+   "dt":"collar · cuff type · fit · poplin, twill · bespoke vs ready-to-wear"},
+  {"n":"Hilditch & Key shirt","a":"H&K shirt","d":"Jermyn Street shirtmaker's classic shirt, bespoke and ready-to-wear; Karl Lagerfeld owned over a thousand.","mk":"Hilditch & Key","y":"1899","s":W+"Hilditch_%26_Key","v":[],
+   "dt":"collar · cuff · fabric · bespoke made in Milan"}],
+ "m":[["Non-Iron Twill Shirt","Charles Tyrwhitt"],["Super Non-Iron Shirt","Uniqlo"],["Non-Iron dress shirt","Brooks Brothers"],["Luxor","Olymp"],["Henrik","Hejco"]]},
+{"n":"Blouse","a":"","d":"Woman's woven top with a placket, tie, yoke or collar detail but not a full collared button front, which is a button-up shirt.",
+ "t":["pussy-bow (lavallière)","Peter Pan collar","peasant","smock","sailor","lingerie (lace)","ruffled / jabot","wrap","tunic","denim, rayon, silk, chiffon"],
+ "s":"https://www.uniqlo.com/us/en/women/shirts-and-blouses",
+ "x":[
+  {"n":"Shirtwaist","a":"Gibson Girl blouse","d":"Blouse cut like a man's dress shirt, the classic women's blouse; the tucked and pleated Gibson Girl version peaked in the 1900s–1910s.","mk":"","y":"1890s–1910s","s":W+"Blouse","v":[],"dt":"tucks, pleating · high collar · cotton, linen"},
+  {"n":"Pussy-bow blouse","a":"lavallière · pussycat bow","d":"Blouse with a soft bow tied at the neck, revived by Chanel and Saint Laurent in the 1960s and worn as political dress.","mk":"","y":"1930s; 1960s revival","s":W+"Pussy_bow",
+   "v":[{"n":"Pussycat bow blouse","mk":"Worth London","y":"1945","d":"Design by Elspeth Champcommunal"}],"dt":"silk, crêpe, chiffon · bow width · sleeve"},
+  {"n":"Peasant blouse","a":"folk blouse","d":"Loose blouse echoing traditional rural dress, typically gathered at neck and cuffs.","mk":"","y":"pre-1890s onwards","s":W+"Blouse","v":[],"dt":"gathered neckline · embroidery · cotton voile"},
+  {"n":"Sailor blouse","a":"middy","d":"Blouse with a square sailor collar, from sailor suits; a girls' fashion by the late 19th century.","mk":"","y":"late 19th century","s":W+"Blouse","v":[],"dt":"sailor collar · tie · navy and white"}],
+ "m":[["Rayon Blouse","Uniqlo"],["Denim Blouse","Uniqlo"]]},
+{"n":"Overshirt","a":"shacket · shirt jacket","d":"Heavier shirt-style garment worn as a light outer layer; includes shackets.",
+ "t":["wool flannel","cord","canvas","waxed cotton","ripstop","brushed fleece","quilted","zip-through"],
+ "s":"https://www.selected.com/en-fr/catalogue/men/shirts/overshirts",
+ "x":[
+  {"n":"CPO shirt","a":"'Shirt, Wool, Blue' · chief petty officer shirt","d":"Navy wool-flannel shirt-jacket issued to US Navy chief petty officers, later sold through surplus and copied widely.","mk":"","y":"1930s","s":"https://www.heddels.com/2019/10/under-the-cpo-the-quintessential-shirt-jacket/",
+   "v":[{"n":"Original single-pocket issue","mk":"","y":"1930s","d":"One scalloped-flap chest pocket"},{"n":"Two-pocket issue","mk":"","y":"late 1940s","d":"Used until phased out by the late 1960s"},
+        {"n":"Type C.P.O. Shirt BR24961","mk":"Buzz Rickson's","y":"","d":"Reproduction in wool flannel with anchor buttons"}],
+   "dt":"wool flannel · navy · one or two pockets · anchor buttons"},
+  {"n":"Swanndri bush shirt","a":"swanny","d":"Heavy hooded wool bush shirt with laced neck, the classic New Zealand outdoor garment.","mk":"Swanndri","y":"1913","s":W+"Swanndri",
+   "v":[{"n":"Laced bush shirt","mk":"Swanndri","y":"","d":"Traditional hooded, laced-neck pattern"},{"n":"Zip bush shirt","mk":"Swanndri","y":"","d":"Newer zip-neck version"}],
+   "dt":"wool · dark tartan with blue or red stripes · laces or zip"}],
+ "m":[["International Steve McQueen Radial Overshirt","Barbour"],["Glendale Zip Through Cotton Overshirt","Barbour"],["Crail Wax Ripstop Overshirt","Barbour"]]},
+{"n":"Aloha shirt","a":"Hawaiian shirt · kariyushi shirt","d":"Short-sleeved collared shirt in bold printed fabric, worn untucked; from Honolulu in the 1930s.",
+ "t":["rayon","cotton","silk","reverse print","pullover","border print","kariyushi (Okinawa)"],"tg":[],
+ "s":W+"Aloha_shirt",
+ "x":[
+  {"n":"Kahala aloha shirt","a":"Branfleet","d":"Screen-printed rayon aloha shirt from Hawaii's oldest operating apparel firm, first made from kimono and yukata cloth.","mk":"Kahala","y":"1936","s":W+"Kahala_(apparel)","v":[],"dt":"rayon · print · label era"},
+  {"n":"Reyn Spooner reverse-print shirt","a":"Spooner Kloth","d":"Aloha shirt printed on the inside of cotton-poly Spooner Kloth for a muted look, the 'oxford cloth of the islands'.","mk":"Reyn Spooner","y":"1964","s":W+"Reyn_Spooner",
+   "v":[{"n":"Classic collection","mk":"Reyn Spooner","y":"","d":"Spooner Kloth with artist prints"},{"n":"Modern collection","mk":"Reyn Spooner","y":"2010","d":"Younger fit"}],"dt":"Spooner Kloth · reverse print · artist prints"},
+  {"n":"Tori Richard East-West print","a":"","d":"Honolulu aloha shirt with Japanese-inspired East-West prints and matched pocket and front.","mk":"Tori Richard","y":"1956","s":W+"Tori_Richard","v":[],"dt":"matched pocket · East-West print"},
+  {"n":"Sun Surf reproduction","a":"","d":"Japanese reproductions of 1930s–1950s aloha shirts, copying prints, labels and discharge printing.","mk":"Toyo Enterprise","y":"mid-1970s","s":"https://fashiontechnews.zozo.com/en/articles/sunsurf",
+   "v":[{"n":"Special Edition","mk":"Toyo Enterprise","y":"","d":"Premium Sun Surf range"}],"dt":"rayon crêpe · discharge print · vintage label copies"},
+  {"n":"Sig Zane shirt","a":"","d":"Hilo-made aloha shirt with prints drawn from Hawaiian plants, hula and native culture.","mk":"Sig Zane Designs","y":"1985","s":"https://hawaiinational.bank/entrepreneurs/sig-zane","v":[],"dt":"native plant prints · Hilo"},
+  {"n":"Kariyushi shirt","a":"Okinawa shirt","d":"Okinawan printed shirt modelled on the aloha shirt, promoted as summer office wear under Cool Biz.","mk":"","y":"1970","s":W+"Kariyushi_shirt","v":[],"dt":"Okinawan motifs · cotton, banana fibre · left chest pocket"}]},
+{"n":"Western shirt","a":"cowboy shirt · pearl-snap shirt","d":"Shirt with a shaped front and back yoke, usually snap fasteners and flapped or slanted pockets, from American ranch wear.",
+ "t":["pointed yoke","pearl snaps","sawtooth pocket flaps","smile pockets","piping","embroidered","shield front (bib)","denim, chambray, plaid, satin"],
+ "s":W+"Western_wear",
+ "x":[
+  {"n":"Rockmount sawtooth snap shirt","a":"diamond snap shirt","d":"Western shirt with sawtooth pocket flaps and diamond snaps; Rockmount claims the first snap-front Western shirts.","mk":"Rockmount Ranch Wear","y":"1946","s":"https://rockmount.com/pages/about-us","v":[],"dt":"sawtooth flaps · diamond pearl snaps · solids and plaids"},
+  {"n":"H Bar C Denver shirt","a":"Denver","d":"H Bar C's long-running pearl-snap Western shirt with pointed yoke and single-point pockets.","mk":"H Bar C","y":"1938","s":"https://hbarc.com/products/denver",
+   "v":[{"n":"Denver (current)","mk":"H Bar C","y":"","d":"Tencel with round pearl snaps"}],"dt":"pointed yoke · pearl snaps · colourways"},
+  {"n":"Levi's Western shirt","a":"Cowboy Overall Shirt · smile-pocket shirt","d":"Levi Strauss & Co.'s western shirts, from the denim Cowboy Overall Shirt to the first Western Wear line with smile pockets.","mk":"Levi Strauss & Co.","y":"1926","s":"https://www.levistrauss.com/2025/08/07/levis-western-wear-heritage/",
+   "v":[{"n":"Cowboy Overall Shirt","mk":"Levi Strauss & Co.","y":"1926","d":"Denim, slanted pocket flap"},{"n":"Western Wear line","mk":"Levi Strauss & Co.","y":"c. 1937","d":"Smile pockets; satin rodeo shirts with piping"}],"dt":"denim · smile or sawtooth pockets · snaps"},
+  {"n":"Wrangler snap shirt","a":"Rodeo Ben shirt","d":"Western shirt with snaps instead of buttons, introduced by rodeo tailor Rodeo Ben for Wrangler (Blue Bell).","mk":"Wrangler","y":"","s":"https://www.cowboysindians.com/2022/09/from-the-archives-the-story-of-wrangler/","v":[],"dt":"snaps · yoke · embroidery"}]}
+]
+brands=[
+{"n":"Brooks Brothers","c":"United States","f":"1818","seg":"American heritage menswear","d":"New York outfitter credited with putting the button-down collar on shirts in 1896.","lines":["Golden Fleece","1818","Black Fleece (2007–2015)"],"eras":[],"sig":["Oxford cloth button-down (OCBD)"],"sc":["Ivy"],"rel":["Gant","J. Press"],"s":W+"Brooks_Brothers"},
+{"n":"Gant","c":"United States / Sweden","f":"1949","seg":"preppy casualwear","d":"Shirtmaker founded in New Haven by Bernard Gantmacher, now based in Stockholm.","lines":[],"eras":[],"sig":["Oxford cloth button-down (OCBD)"],"sc":["Ivy"],"rel":["Brooks Brothers"],"s":W+"Gant_(retailer)"},
+{"n":"Ben Sherman","c":"United Kingdom","f":"1963","seg":"British casualwear","d":"Brighton shirtmaker founded by Arthur Sugarman, known for button-downs worn by mods and skinheads.","lines":[],"eras":[],"sig":["Ben Sherman button-down"],"sc":["Mod","Skinhead"],"rel":["Fred Perry"],"s":W+"Ben_Sherman"},
+{"n":"Kamakura Shirts","c":"Japan","f":"1993","seg":"shirtmaker","d":"Shirtmaker founded in Kamakura by Yoshio and Tamiko Sadasue, inspired by 1960s Ivy style.","lines":["Vintage Ivy","Kamakura Classics"],"eras":[],"sig":["Kamakura Vintage Ivy"],"sc":["Ivy"],"rel":[],"s":"https://lundochlund.com/blogs/editorial/kamakura-shirts"},
+{"n":"Pendleton Woolen Mills","c":"United States","f":"1909","seg":"wool mill and clothing","d":"Oregon wool mill whose bright plaid wool sport shirts date from 1924.","lines":[],"eras":[],"sig":["Pendleton Board Shirt"],"sc":["Surf"],"rel":[],"s":W+"Pendleton_Woolen_Mills"},
+{"n":"Seditionaries","c":"United Kingdom","f":"c. 1976","seg":"punk boutique label","d":"Vivienne Westwood and Malcolm McLaren's shop label at 430 King's Road, Chelsea.","lines":[],"eras":["Vivienne Westwood and Malcolm McLaren"],"sig":["Seditionaries Anarchy shirt"],"sc":["Punk"],"rel":["Vivienne Westwood"],"s":"https://www.ngv.vic.gov.au/explore/collection/work/66980/"},
+{"n":"Turnbull & Asser","c":"United Kingdom","f":"1885","seg":"Jermyn Street shirtmaker","d":"London shirtmaker known for its Classic T&A collar, three-button cuff and Bond shirts.","lines":[],"eras":[],"sig":["Turnbull & Asser shirt"],"sc":[],"rel":["Hilditch & Key"],"s":W+"Turnbull_%26_Asser"},
+{"n":"Charvet","c":"France","f":"1838","seg":"shirtmaker","d":"Place Vendôme house that opened the first shirtmaker's shop in Paris.","lines":[],"eras":[],"sig":["Charvet shirt"],"sc":[],"rel":[],"s":W+"Charvet_Place_Vend%C3%B4me"},
+{"n":"Hilditch & Key","c":"United Kingdom","f":"1899","seg":"Jermyn Street shirtmaker","d":"London shirtmaker founded by Charles Hilditch and W. Graham Key.","lines":[],"eras":[],"sig":["Hilditch & Key shirt"],"sc":[],"rel":["Turnbull & Asser"],"s":W+"Hilditch_%26_Key"},
+{"n":"Charles Tyrwhitt","c":"United Kingdom","f":"1986","seg":"mainstream shirtmaker","d":"London shirt retailer founded by Nicholas Wheeler as a mail-order business.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":W+"Charles_Tyrwhitt"},
+{"n":"Uniqlo","c":"Japan","f":"1984","seg":"mass-market basics","d":"Fast Retailing's casual-wear chain, first store in Hiroshima in 1984.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":W+"Uniqlo"},
+{"n":"Barbour","c":"United Kingdom","f":"1894","seg":"country and outdoor clothing","d":"South Shields maker of waxed and quilted jackets; Barbour International draws on motorcycling.","lines":["Barbour International","Steve McQueen"],"eras":[],"sig":[],"sc":[],"rel":[],"s":W+"J._Barbour_and_Sons"},
+{"n":"Swanndri","c":"New Zealand","f":"1913","seg":"outdoor clothing","d":"Christchurch brand founded by tailor William Broome, known for the hooded wool bush shirt.","lines":[],"eras":[],"sig":["Swanndri bush shirt"],"sc":[],"rel":[],"s":W+"Swanndri"},
+{"n":"Buzz Rickson's","c":"Japan","f":"","seg":"military reproduction","d":"Japanese maker of period-accurate military garment reproductions.","lines":[],"eras":[],"sig":["CPO shirt"],"sc":[],"rel":["The Real McCoy's","Toyo Enterprise"],"s":"https://www.buzzricksons.com/shirts/708-type-cpo-shirt.html"},
+{"n":"Kahala","c":"United States (Hawaii)","f":"1936","seg":"aloha shirts","d":"Honolulu aloha shirt maker founded as Branfleet by George Brangier and Nat Norfleet.","lines":[],"eras":[],"sig":["Kahala aloha shirt"],"sc":["Surf"],"rel":[],"s":W+"Kahala_(apparel)"},
+{"n":"Reyn Spooner","c":"United States (Hawaii)","f":"1956","seg":"aloha shirts","d":"Honolulu aloha shirt maker of Reyn McCullough and Ruth Spooner, known for reverse prints on Spooner Kloth.","lines":["Classic","Modern"],"eras":[],"sig":["Reyn Spooner reverse-print shirt"],"sc":["Surf"],"rel":[],"s":W+"Reyn_Spooner"},
+{"n":"Tori Richard","c":"United States (Hawaii)","f":"1956","seg":"aloha shirts","d":"Honolulu maker founded by Mort Feldman, known for East-West prints and matched pockets.","lines":[],"eras":[],"sig":["Tori Richard East-West print"],"sc":[],"rel":[],"s":W+"Tori_Richard"},
+{"n":"Sig Zane Designs","c":"United States (Hawaii)","f":"1985","seg":"aloha shirts","d":"Hilo label of Sig Zane and Nalani Kanakaole rooted in Hawaiian cultural practice.","lines":[],"eras":[],"sig":["Sig Zane shirt"],"sc":[],"rel":[],"s":"https://hawaiinational.bank/entrepreneurs/sig-zane"},
+{"n":"Toyo Enterprise","c":"Japan","f":"","seg":"Japanese heritage reproduction","d":"Tokyo heritage-clothing firm behind Sun Surf aloha shirts and Sugar Cane.","lines":["Sun Surf","Sugar Cane"],"eras":[],"sig":["Sun Surf reproduction"],"sc":[],"rel":["Buzz Rickson's"],"s":"https://fashiontechnews.zozo.com/en/articles/sunsurf"},
+{"n":"Rockmount Ranch Wear","c":"United States","f":"1946","seg":"Western wear","d":"Denver maker founded by Jack A. Weil, credited with the snap-front Western shirt.","lines":[],"eras":[],"sig":["Rockmount sawtooth snap shirt"],"sc":["Western"],"rel":["H Bar C"],"s":"https://rockmount.com/pages/about-us"},
+{"n":"H Bar C","c":"United States","f":"1917","seg":"Western wear","d":"Riding-clothes maker of Halpern and Christenfeld whose Western branch opened in 1935.","lines":[],"eras":[],"sig":["H Bar C Denver shirt"],"sc":["Western"],"rel":["Rockmount Ranch Wear"],"s":"https://vintagefashionguild.org/resources/item/label/h-bar-c/"},
+{"n":"Levi Strauss & Co.","c":"United States","f":"1853","seg":"denim and Western wear","d":"San Francisco denim maker whose first western shirt was the 1926 Cowboy Overall Shirt.","lines":["Western Wear"],"eras":[],"sig":["Levi's Western shirt"],"sc":["Western"],"rel":["Wrangler"],"s":"https://www.levistrauss.com/2025/08/07/levis-western-wear-heritage/"},
+{"n":"Wrangler","c":"United States","f":"","seg":"denim and Western wear","d":"Blue Bell's Western brand, for which Rodeo Ben designed jeans and snap shirts.","lines":["Rodeo Ben"],"eras":["Rodeo Ben, 1940s"],"sig":["Wrangler snap shirt"],"sc":["Western"],"rel":["Levi Strauss & Co."],"s":"https://www.cowboysindians.com/2022/09/from-the-archives-the-story-of-wrangler/"}
+]
+for b in brands:
+    if b["n"]=="Levi Strauss & Co.": b["f"]=""  # founding year not on retrieved page
+notes=("Moved out of Button-up shirt: aloha shirt and kariyushi (own kind here), guayabera, Madiba shirt, barong, dashiki, vyshyvanka, huipil -> traditional-dress shelves. "
+"Moved out of Blouse: kebaya (Southeast Asian dress shelf) and tibuta (traditional shelf). Dropped as non-iconic/wholesale or unverifiable: Amrich, Ben Davis half-zip, "
+"Bouguessa, Bridge & Burn, Brutus, Kit and Ace, Margn (Synapse, Epidermis), Nicobar, POTRENDS, Horace Small uniform ranges, Sex 'Destroy' shirt (no retrieved page), duplicate Pendleton plaid board entry. "
+"Overshirt: 28 Barbour SKUs cut to 3. Gant, Kamakura and Ben Sherman models became OCBD/Vintage Ivy versions; T&A Chelsea/Belgravia/Mayfair kept as versions (Piccadilly, Richmond dropped). "
+"Not confirmed and left out: Levi's sawtooth shirt date, Wrangler shirt model numbers, Seditionaries Wikipedia page (404), Sig Zane Wikipedia (404).")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='/home/user/Possession-Taxonomy/rebuild/work/A1/shelves/00_01.json'
+json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
+print('ok',len(kinds),sum(len(k.get('x',[])) for k in kinds),len(brands))

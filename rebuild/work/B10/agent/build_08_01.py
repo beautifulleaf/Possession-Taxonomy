@@ -1,0 +1,57 @@
+import json, os
+W="https://en.wikipedia.org/wiki/"
+SM=W+"Bee_smoker"; HT=W+"Hive_tool"; BK=W+"Beekeeping"; VD=W+"Varroa_destructor"
+LT="https://www.latiendadelapicultor.com/en/bee-suits"; BB="https://blythewoodbeecompany.com/products/plastic-handle-bee-brush"
+RD="https://www.reading.ac.uk/adlib/Details/collect/19845"
+kinds=[
+{"n":"Beekeeping suit and veil","a":"bee suit · bee jacket · smock · veil · hood","d":"Protective overall, jacket or hood with a mesh veil that keeps stings off the face, neck and body.",
+ "t":["full suit","jacket or smock","veil only","round veil (with hat)","fencing veil","ventilated (mesh layers)","double-lined","child's size","beekeeping gloves"],
+ "s":LT,
+ "x":[{"n":"Apiarist suit","a":"Apiarist","d":"White British beekeeping suit with a detachable hood and veil, Sherriff's long-standing best-seller.","mk":"BJ Sherriff","y":"","s":LT,
+   "v":[{"n":"Apiarist Original","mk":"BJ Sherriff","y":"","d":""},{"n":"Honey Rustler","mk":"BJ Sherriff","y":"","d":"sister model sharing the same replacement veil"}],
+   "dt":"suit or jacket · hood and veil style · sizes incl. child's"}],
+ "m":[["Yellow Beekeeping Suit LYSON Premium Line","Lyson"],["Beekeeping suit with double lining","Lyson"],["Overall Swienty Breeze","Swienty"],["ICKO Integral Combi Pro","ICKO"],["Air Integral ICKO Overall","ICKO"]]},
+{"n":"Bee smoker","a":"smoker","d":"A fuel can with bellows that puffs cool smoke to calm bees during inspections.",
+ "t":["stainless steel","with heat guard","small (4 x 7 in)","large (4 x 10 in)","flameless"],
+ "s":"https://www.mannlakeltd.com/wood-bellow-smoker",
+ "x":[{"n":"Bellows smoker","a":"Quinby smoker","d":"Tin fire-pot with a bellows blowing air through the fuel; the pattern of all modern smokers.","mk":"","y":"1873","s":SM,
+   "v":[{"n":"Moses Quinby smoker","mk":"","y":"1873","d":"Mohawk Valley, New York; never patented"},{"n":"Bingham smoker","mk":"","y":"1903","d":"Tracy F. Bingham, Farwell, Michigan; US patent 718689"}],
+   "dt":"can diameter and height · stainless or tin · guard · single or double wall · fuel (hessian, pine needles, cardboard, pellets)"}],
+ "m":[["Mann Lake Pro Bellow Smoker","Mann Lake"],["Mann Lake HD540 smoker Pro-Bellow 4x10 with guard","Mann Lake"],["Mann Lake HD555 stainless steel smoker Pro-Bellow 4x7","Mann Lake"],["Mann Lake Smoke Cloud smoker with shield","Mann Lake"],["Foxhound Stainless Steel Bee Smoker","Foxhound Bee Company"],["Foxhound Stainless Steel Pro Smoker","Foxhound Bee Company"],["Goodland GLSMKR 11-inch Bee Smoker","Goodland Bee Supply"],["Apisolis Flameless Smoker","Apisolis"],["VIVO BEE-V001 Bee Hive Smoker","Vivo"],["Blisstime BF-123 Bee Hive Smoker","Blisstime"]]},
+{"n":"Hive tool","a":"","d":"A flat steel lever with a scraper or hook end used to prise apart hive boxes and frames.",
+ "t":["stainless steel","painted (high-visibility)","frame lifter combination"],
+ "s":"https://www.dadant.com/catalog/tools/hand-tools",
+ "x":[{"n":"Standard hive tool","a":"flat hive tool","d":"Plate-metal bar bent at 90° with a box-levering edge and a frame-levering edge.","mk":"","y":"","s":HT,"v":[],"dt":"length · width · steel finish"},
+  {"n":"J-hook hive tool","a":"Australian hive tool","d":"Flat bar with a curved hook at the end, mainly for levering frames loose.","mk":"","y":"","s":HT,"v":[],"dt":"length · hook profile"}],
+ "m":[["Mann Lake HD584 Standard Hive Tool","Mann Lake"],["Mann Lake EZ Pry Hive Tool","Mann Lake"],["Mann Lake Pro Lifter and Scraper","Mann Lake"],["Mann Lake Frame Lifter and Scraper","Mann Lake"],["Lappe's J Hook Hive Tool","Lappe's Bee Supply"],["Lappe's Beekeeper's Best Hive Tool","Lappe's Bee Supply"],["Lappe's Economy Hive Tool","Lappe's Bee Supply"],["KINGLAKE Lifter Scraper","KINGLAKE"]]},
+{"n":"Hive frame grip","a":"frame lifter · frame holder","d":"Plier-like hand tool that grips the top bar of a hive frame so it can be lifted out of the box.",
+ "t":["plier grip","frame lifter","frame rest or perch"],"s":"https://www.dadant.com/catalog/tools?p=5"},
+{"n":"Bee brush","a":"","d":"A soft long-bristled brush for sweeping bees off frames during inspection and harvest.",
+ "t":["natural fibre or horsehair","synthetic bristle","wooden handle","plastic handle"],"s":BB},
+{"n":"Varroa treatment","a":"miticide · varroacide","d":"A medicine, strip or vapour that controls varroa mites in a honey bee colony.",
+ "t":["amitraz strips","tau-fluvalinate or flumethrin strips","thymol gel or wafers","formic acid pads","oxalic acid dribble or trickle","oxalic acid vaporiser","hop beta acids"],
+ "s":"https://www.lappesbeesupply.com/apivar-varroa-mite-treatment-12-count",
+ "m":[["Apivar 2.0",""],["Apitraz Varroa Treatment",""],["Apistan",""],["Api-Bioxal",""],["Oxybee","Oxybee"],["Beevital VarroMed","Beevital"],["ApiLife Var",""],["Apiguard",""],["Thymovar",""],["Formic Pro",""],["Varroxal","Varroxal"],["Calistrip Biox","Calistrip"]]},
+{"n":"Queen cage","a":"introduction cage · marking cage","d":"A small cage in which a queen bee is introduced, shipped or marked.",
+ "t":["introduction cage","shipping cage","hair-roller cage","marking cage or tube"],
+ "s":"https://lappesbeesupply.com/plastic-queen-cages",
+ "m":[["Nicot Introduction Cage","Nicot"],["Nicot Hair Roller Cage","Nicot"],["JZ's BZ's Queen Cage","JZ's BZ's"],["Yasaeng One-Hand Queen Catcher and Marking Cage","Yasaeng"]]},
+{"n":"Queen-rearing kit","a":"cell-cup kit","d":"A cell-cup system (cups, cell plugs, holders and cell bars) sold as one kit to raise queen bees, with or without grafting.",
+ "t":["non-grafting (comb box)","grafting cups and bars"],
+ "s":"https://www.foxhoundbeecompany.com/products/ezpz-queen-rearing-kit",
+ "m":[["Jenter Queen Rearing Kit","Karl Jenter"],["Nicot Cupkit Queen Rearing System","Nicot"],["Mann Lake Complete Queen-Rearing Kit","Mann Lake"],["Bieno Queen Rearing System","Bieno"]]},
+{"n":"Grafting tool","a":"grafting needle","d":"A fine spoon, needle or spring tool that lifts young larvae into queen cups.",
+ "t":["Chinese spring tool","metal spoon or needle","punch"],
+ "s":"https://www.dadant.com/catalog/tools/queen-rearing",
+ "m":[["Master Grafting Tool","Dadant & Sons"],["Weimar Needle Punch","Weimar"],["Chinese grafting tool",""]]},
+]
+brands=[
+{"n":"BJ Sherriff","c":"United Kingdom","f":"1968","seg":"Beekeeping clothing maker","d":"Cornish maker of beekeeping suits and jackets, founded by Brian and Pat Sherriff, based near Falmouth.","lines":["Apiarist","Honey Rustler"],"eras":[],"sig":["Apiarist suit"],"sc":[],"rel":[],"s":RD},
+]
+notes=("All 7 old kinds kept; 2 new kinds (Beekeeping suit and veil, Bee brush) sourced to retrieved retailer pages. Smoker and hive tool models attached under archetypes sourced to Wikipedia; "
+ "smoker list trimmed (dropped Flexzion, Honey Keeper SM75, ThxBees kit: marketplace noise). Varroa treatment kept as tier list with types by active ingredient from the Wikipedia Varroa article; "
+ "old brand-prefix names normalised ('Dadant Apiguard' -> Apiguard, 'Chemicals ApiLife Var' -> ApiLife Var, 'Andermatt Thymovar' -> Thymovar), duplicate 'Formic Pro Mite Treatment' merged; makers left blank where old data had none. "
+ "Not added: BB Wear and Kelley (no retrieved page), MAQS (no retrieved page). Bee brush from a Blythewood page; Lyson, Swienty, Mann Lake, Nicot brand entries are in shelf 08_00/08_02.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="/home/user/Possession-Taxonomy/rebuild/work/B10/shelves/08_01.json"
+json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)

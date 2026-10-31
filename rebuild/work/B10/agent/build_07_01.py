@@ -1,0 +1,76 @@
+import json, os
+PT5='https://us.northerngecko.net/products/arcadia-prot5-uvb-kit-36'
+MR='https://www.northerngecko.net/products/mega-ray-self-ballasted-flood-uvb-lamp'
+D3='https://charterhouse-aquatics.com/products/arcadia-mercury-vapour-d3-basking-lamp-80w-2nd-generation'
+MC='https://reptilecentre.com/products/microclimate-evo-connected-3'
+ZT5='https://www.petsmart.com/reptile/environmental-control-and-lighting/bulbs-and-lamps/zoo-med-t5-high-output-10-uvb-lamp-86813.html'
+DHP='https://us.northerngecko.net/products/arcadia-deep-heat-projector'
+HAB='https://www.completeaquatics.co.uk/habistat-pro-dim-thermo-450w-5027407017856'
+CM='https://exo-terra.com/products/heating/thermo-hygrometers/combometer/'
+CHE='https://www.thatpetplace.com/ceramic-heat-emitter-30-40gal-100w'
+RM='https://reptilesmagazine.com/exo-terra-and-zoo-med-win-pet-product-news-international-editors-choice-awards/'
+def v(n,mk,y='',d=''): return {"n":n,"mk":mk,"y":y,"d":d}
+kinds=[
+{"n":"UVB lamp","a":"UV lamp · UVB tube · reptile UV light","d":"A lamp that gives ultraviolet B light to a reptile.",
+ "t":["T5 high-output tube","T8 tube","compact fluorescent","mercury vapour (self-ballasted)","metal halide","UVB LED","6% forest / 12% desert strengths"],
+ "s":"https://www.petcity.com.au/brand/arcadia-reptile/",
+ "x":[
+  {"n":"Arcadia ProT5 UVB Kit","a":"ProT5","d":"Linear T5 UVB tube in a slim controller housing with a removable twin-angle reflector; kits can be linked from one power supply.","mk":"Arcadia Reptile","y":"","s":PT5,
+   "v":[v("ProT5 Kit with 6% Forest lamp","Arcadia Reptile","","24, 39 or 54 W; 570, 870 or 1170 mm"),v("ProT5 Kit with 12% Desert lamp","Arcadia Reptile","","Arcadia Desert D3+ 12% UVB T5 lamp"),v("ProT5 Kit with 14% Dragon lamp","Arcadia Reptile"),v("Arcadia LumenIZE Terrarium Lamp Pro T5","Arcadia Reptile")],
+   "dt":"lamp strength (6, 12, 14%) · length and wattage · link cable · mounting inside, over mesh or hanging"},
+  {"n":"Zoo Med ReptiSun T5 HO","a":"T5 High Output","d":"Zoo Med's high-output T5 UVB tube and matching terrarium hood, for larger and taller enclosures.","mk":"Zoo Med","y":"","s":ZT5,
+   "v":[v("T5 HO 10.0","Zoo Med","","desert species: bearded dragons and similar"),v("T5 HO 5.0","Zoo Med"),v("T5 HO 2.5","Zoo Med")],
+   "dt":"UVB strength · length · hood"},
+  {"n":"Mega-Ray self-ballasted flood","a":"Mega-Ray MVB","d":"Self-ballasted UVB flood lamp aimed forward from the bulb face, made to limit the UVB decay of other mercury vapour lamps.","mk":"Mega-Ray","y":"","s":MR,
+   "v":[v("Mega-Ray 70 W","Mega-Ray"),v("Mega-Ray 100 W","Mega-Ray"),v("Mega-Ray 160 W","Mega-Ray"),v("Mega-Ray 275 W","Mega-Ray")],
+   "dt":"wattage by enclosure height"},
+  {"n":"Arcadia D3 UV Basking Lamp","a":"Arcadia mercury vapour","d":"Mercury vapour bulb giving heat, light and UV from one lamp; runs without a ballast or thermostat in large or open-top enclosures.","mk":"Arcadia Reptile","y":"","s":D3,
+   "v":[v("D3 UV Basking Lamp 80 W, 2nd generation","Arcadia Reptile","","about 6,000 hours")],
+   "dt":"wattage · hung vertically"}],
+ "m":[["Exo Terra Reptile UVB150 Linear","Exo Terra"],["Exo Terra Reptile UVB200 Linear","Exo Terra"],["Exo Terra Reptile UVB100 Compact","Exo Terra"],["Exo Terra Reptile UVB150 Compact","Exo Terra"],["Exo Terra Reptile UVB Nano","Exo Terra"],["Zoo Med ReptiSun T8","Zoo Med"],["Zoo Med ReptiSun Compact Fluorescent","Zoo Med"],["Zoo Med ReptiSun UVB/LED Gen 2","Zoo Med"],["Zoo Med ReptiSun Nano UVB","Zoo Med"],["Zoo Med PowerSun UV","Zoo Med"],["Zoo Med PowerSun H.I.D. Metal Halide","Zoo Med"],["Zoo Med ReptiSun 3-in-1","Zoo Med"]]},
+{"n":"Basking lamp","a":"heat lamp · basking bulb · spot lamp","d":"A lamp that gives a reptile a heated basking spot.",
+ "t":["halogen flood","incandescent spot","infrared (red) night lamp","splash-proof"],
+ "s":"https://www.petcity.com.au/brand/arcadia-reptile/",
+ "m":[["Arcadia Halogen Heat Lamp","Arcadia Reptile"],["Arcadia Solar Basking Floodlight","Arcadia Reptile"],["Exo Terra Daytime Heat Lamp","Exo Terra"],["Exo Terra Night Heat Lamp","Exo Terra"],["Zoo Med Repti Basking Spot Lamp","Zoo Med"],["Zoo Med Repti Tuff Splashproof Halogen Lamp","Zoo Med"],["Zoo Med Nano Basking Spot Lamp","Zoo Med"],["Zoo Med Nano Halogen Heat Lamp","Zoo Med"],["Zoo Med Nocturnal Infrared Heat Lamp","Zoo Med"]]},
+{"n":"Deep heat projector","a":"DHP · infrared heat projector","d":"A heat source that projects infrared heat.",
+ "s":"https://charterhouse-aquatics.com/blogs/reptiles/setting-up-a-reptile-vivarium-a-step-by-step-guide",
+ "x":[
+  {"n":"Arcadia Deep Heat Projector","a":"DHP","d":"Lamp with an internal reflector projecting infrared A and B with almost no visible light, so it can run day and night under a dimming thermostat.","mk":"Arcadia Reptile","y":"","s":DHP,
+   "v":[v("Deep Heat Projector 50 W","Arcadia Reptile"),v("Deep Heat Projector 80 W","Arcadia Reptile")],"dt":"wattage · lamp guard"}],
+ "m":[["Zoo Med ReptiCare Infrared Heat Projector","Zoo Med"]]},
+{"n":"Ceramic heat emitter","a":"CHE · ceramic heater","d":"A heat source that gives heat without light.",
+ "s":"https://charterhouse-aquatics.com/blogs/reptiles/setting-up-a-reptile-vivarium-a-step-by-step-guide",
+ "x":[
+  {"n":"Zoo Med ReptiCare Ceramic Infrared Heat Emitter","a":"Zoo Med CHE","d":"Screw-in ceramic element giving infrared heat with no light, used for night-time warmth in a porcelain socket.","mk":"Zoo Med","y":"","s":CHE,
+   "v":[v("CE-100","Zoo Med","","100 W, for 30–40 gallon terraria"),v("Zoo Med Nano Ceramic Heat Emitter","Zoo Med")],"dt":"wattage by enclosure size · lamp guard"}],
+ "m":[["Arcadia Ceramic Heater","Arcadia Reptile"],["Exo Terra Ceramic Heater","Exo Terra"]]},
+{"n":"Reptile heat mat","a":"heat pad · under-tank heater · heat cable","d":"A heating pad fitted on or against the enclosure.",
+ "t":["heat mat","under-tank heater","heat cable","heat strip for racks"],
+ "s":"https://exo-terra.com/products/heating/substrate-heaters/heat-mat-16w/",
+ "m":[["Exo Terra Heat Mat","Exo Terra"],["Exo Terra Heat Mat PTC","Exo Terra"],["Exo Terra Heat Cable","Exo Terra"],["Zoo Med ReptiTherm Under Tank Heater","Zoo Med"],["Zoo Med ReptiTherm Habitat Heater","Zoo Med"],["Zoo Med Snake Strip Under Tank Heater","Zoo Med"]]},
+{"n":"Reptile thermostat","a":"vivarium thermostat · stat","d":"A control that regulates enclosure heat.",
+ "t":["on/off (mat stat)","pulse proportional","dimming","multi-channel Wi-Fi","rheostat"],
+ "s":"https://www.completeaquatics.co.uk/habistat-mat-stat",
+ "x":[
+  {"n":"Habistat dimming thermostat","a":"HabiStat","d":"Thermostat that varies power smoothly rather than switching on and off, for heat bulbs and ceramic heaters.","mk":"Habistat","y":"","s":HAB,
+   "v":[v("Classic Pro Dimming Thermostat 450 W","Habistat"),v("Habistat Dimming Thermostat","Habistat")],"dt":"maximum load · colour"},
+  {"n":"Microclimate Evo","a":"Evo Connected","d":"Digital thermostat range with selectable dimming or pulse channels; Connected models add Wi-Fi app control.","mk":"Microclimate","y":"","s":MC,
+   "v":[v("Evo Connected 3","Microclimate","","two dimming-or-pulse channels plus one on/off channel, Wi-Fi")],"dt":"number of channels · Wi-Fi"}],
+ "m":[["Habistat Mat Stat","Habistat"],["Arcadia Dimming Thermostat","Arcadia Reptile"],["Exo Terra Thermostat","Exo Terra"],["Zoo Med ReptiTemp Digital Thermostat","Zoo Med"],["Zoo Med ReptiTemp Dimming Thermostat","Zoo Med"],["Zoo Med ReptiTemp 500R Remote Sensor Thermostat","Zoo Med"],["Zoo Med ReptiTemp Rheostat","Zoo Med"]]},
+{"n":"Thermometer and hygrometer","a":"thermo-hygrometer · combometer · humidity gauge","d":"A gauge that shows the temperature and humidity inside an enclosure.",
+ "t":["digital with remote probe","analogue dial","combined thermo-hygrometer","infrared point thermometer"],"s":CM,
+ "x":[
+  {"n":"Exo Terra Combometer","a":"PT2470","d":"Digital thermo-hygrometer with one remote sensor for both readings and min/max memory, clipping onto Exo Terra canopies.","mk":"Exo Terra","y":"","s":CM,
+   "v":[v("Combometer PT2470","Exo Terra"),v("Digital Hygrometer","Exo Terra"),v("Digital Thermometer","Exo Terra")],"dt":"probe · mounting"}]}]
+brands=[
+ {"n":"Arcadia Reptile","c":"United Kingdom","f":"","seg":"Reptile lighting and heating","d":"British maker of UVB lamps, T5 kits, heat projectors and thermostats.","lines":["ProT5","D3 UV Basking Lamp","Deep Heat Projector"],"eras":[],"sig":["Arcadia ProT5 UVB Kit","Arcadia Deep Heat Projector","Arcadia D3 UV Basking Lamp"],"sc":[],"rel":["Zoo Med","Exo Terra"],"s":"knowledge"},
+ {"n":"Zoo Med","c":"United States","f":"","seg":"Reptile and amphibian equipment","d":"Californian maker of reptile enclosures, lighting, heating, substrates and foods.","lines":["ReptiSun","ReptiCare","ReptiTemp","ReptiTherm"],"eras":[],"sig":["Zoo Med ReptiSun T5 HO","Zoo Med ReptiCare Ceramic Infrared Heat Emitter"],"sc":[],"rel":["Exo Terra","Arcadia Reptile"],"s":"knowledge"},
+ {"n":"Exo Terra","c":"Canada","f":"","seg":"Reptile and amphibian equipment","d":"Terrarium, heating, lighting and food brand of the Hagen group.","lines":["Combometer","Reptile UVB"],"eras":[],"sig":["Exo Terra Combometer"],"sc":[],"rel":["Zoo Med"],"s":"knowledge"},
+ {"n":"Mega-Ray","c":"","f":"","seg":"Reptile UVB lamps","d":"Specialist maker of self-ballasted UVB flood lamps for reptiles.","lines":["Self-Ballasted Flood"],"eras":[],"sig":["Mega-Ray self-ballasted flood"],"sc":[],"rel":[],"s":MR},
+ {"n":"Habistat","c":"","f":"","seg":"Reptile thermostats","d":"Maker of dimming, pulse and mat thermostats for vivaria.","lines":["Classic Pro","Mat Stat"],"eras":[],"sig":["Habistat dimming thermostat"],"sc":[],"rel":[],"s":HAB},
+ {"n":"Microclimate","c":"","f":"","seg":"Reptile thermostats","d":"Maker of the Evo range of digital and Wi-Fi vivarium thermostats.","lines":["Evo","Evo Connected"],"eras":[],"sig":["Microclimate Evo"],"sc":[],"rel":[],"s":MC}]
+notes=("All six old kinds kept. Models that belong to archetypes (Arcadia Pro T5 kit and Desert 12% lamp, Zoo Med ReptiSun T5 HO, Arcadia Deep Heat Projector, Zoo Med CHE, Habistat Dimming Thermostat) moved into x versions. "
+ "UVB lamp trimmed 19 -> 12 flat models (dropped near-duplicate Exo Terra UVB100/200 variants and ReptiSun Mini Compact). Dropped repeated 'Exo Terra reptile range' and the three Arcadia Desert/Forest/Shade Dweller r ranges (now covered by ProT5 lamp strengths). "
+ "New kind Thermometer and hygrometer (Exo Terra Combometer source). Not added for lack of a retrieved page: Zoo Med CE-60/CE-150 wattages, Arcadia D3 100/160 W and D3EVO, Microclimate Evo Lite, Arcadia Jungle Dawn LED, Solarmeter UV meters. Brand countries/founding years left blank where not confirmed.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/B10/shelves/07_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

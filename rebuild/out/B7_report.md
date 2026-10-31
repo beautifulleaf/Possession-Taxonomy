@@ -1,0 +1,10 @@
+# B7 Portable Climate & Air — rebuild report
+
+**Brand mode:** Air quality & humidity: tier; Cooling & fans: tier; Portable heating: tier
+
+**Counts (before → after):** 8 → 3 departments · 90 → 25 kinds · 0 → 0 archetypes · 246 → 174 flat models · 246 → 174 models+versions · 93 → 92 brands named · register 70 brands, 0 traditions · moves out 63 · dropped kinds 3.
+
+**Sources:** 257 distinct retrieved URLs logged in work/B7/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
+
+**Dropped (scope rule):** Power optimizer (Installer-level component supplied with a rooftop system; trade part, not a thing a person chooses (solar parts collapse).); Rapid shutdown device (Code-compliance installer part fitted inside a rooftop array; trade scope (solar parts collapse).); PV combiner box (Installer wiring enclosure; trade scope, covered by the collapsed solar-system-parts entry in G3 (solar parts collapse).)
+**Worker notes:** Portable heaters: Tier shelf; no archetypes. Dropped: Acova TAG/Vuelta and Reina Odet (plumbed designer radiators, Home Fixtures, not portable oil-filled); Broan 163 built-in bathroom heater (fixture); Dyson Purifier ran | Window & portable air conditioners: Shelf "Window & portable air conditioners", tier mode. Both old kinds kept (k18, k19; old kakaku "s" replaced with the retrieved Wikipedia Air conditioning page, which documents window | Fans: Tier shelf, eight kinds kept as planned (k25–k32), 5–9 models each. Vornado air-circulator SKU list cut from 12 to 3 (630, 660, 533); 783 moved to Pedestal fan as a stand circulator; 6803 OSC kept, EOS 9S, EOS 9, 2 | Air purifiers: Shelf "Air purifiers" rebuilt in tier mode: 4 old kinds (Air purifier k36, Air deodoriser k38, Ion generator k39, Replacement air filter k37) → 3 kinds. Deodoriser and ion generator dissolved into "t" type | Humidifiers & dehumidifiers: Shelf rebuilt in tier mode: three kinds (Humidifier, Dehumidifier, Desiccant moisture absorber), all old kinds kept; the old attribute-only types "Portable dehumidifier" and "Mini dehumidifie

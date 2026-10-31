@@ -1,0 +1,109 @@
+{
+ "kinds": [
+  {
+   "n": "Infant formula",
+   "a": "first formula · stage 1 · first infant milk",
+   "d": "Breast-milk substitute for babies from birth, made to meet infant formula composition rules.",
+   "t": [
+    "powder",
+    "ready-to-feed",
+    "goat's milk",
+    "hydrolysed"
+   ],
+   "tg": [
+    "baby"
+   ],
+   "s": "https://www.enfamil.com/products/enfamil-neuropro-infant-formula/",
+   "m": [
+    [
+     "Similac 360 Total Care",
+     "Abbott"
+    ],
+    [
+     "Enfamil NeuroPro",
+     "Enfamil"
+    ],
+    [
+     "HiPP Organic Combiotik PRE",
+     "HiPP"
+    ],
+    [
+     "Xingfeifan Xiaoyang",
+     "Heilongjiang Feihe Dairy"
+    ]
+   ],
+   "r": [
+    [
+     "Combiotik",
+     "HiPP"
+    ],
+    [
+     "Aptamil",
+     "Nutricia"
+    ],
+    [
+     "NAN",
+     "Nestlé"
+    ],
+    [
+     "Kendamil",
+     "Kendal Nutricare"
+    ]
+   ]
+  },
+  {
+   "n": "Follow-on formula",
+   "a": "stage 2 · follow-up formula · follow-on milk",
+   "d": "Milk formula for babies from about six months, used alongside solid food.",
+   "t": [
+    "powder",
+    "ready-to-feed",
+    "goat's milk"
+   ],
+   "tg": [
+    "baby"
+   ],
+   "s": "https://www.piccantino.com/hipp/infant-and-toddler-milk-by-hipp",
+   "m": [
+    [
+     "HiPP Organic Combiotik 2",
+     "HiPP"
+    ],
+    [
+     "Meiji Step",
+     "Meiji Co."
+    ]
+   ]
+  },
+  {
+   "n": "Growing-up milk",
+   "a": "toddler milk · stage 3 · young child formula",
+   "d": "Fortified milk drink for children from about one year, outside the infant formula rules.",
+   "t": [
+    "powder",
+    "ready-to-drink",
+    "goat's milk"
+   ],
+   "tg": [
+    "baby"
+   ],
+   "s": "https://www.piccantino.com/hipp/infant-and-toddler-milk-by-hipp",
+   "m": [
+    [
+     "HiPP Combiotik Toddler Milk 1+",
+     "HiPP"
+    ],
+    [
+     "Dutch Lady Growing Up Milk",
+     "Dutch Lady Milk Industries"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Kept the three planned kinds (k103, k104, k105) with their old sources and the baby tag. Ranges now appear once, on Infant formula, because they span all stages. HiPP Combiotik was previously repeated on all three kinds. Dropped the duplicated Zhenweiai (Junlebao) range. Trimmed the Infant formula models from 14 to 4, keeping only the market-covering brands named in the shelf brief: Similac, Enfamil, HiPP and Feihe. Dropped: Amulspray (Amul), Dutch Baby (Dutch Lady), Kebesi (Biostime), Morinaga NL33 (Kalbe), Pure (Megmilk Snow Brand), Namyang, Yubao Enbeihu (goat formula; goat is now a type), Jinlingguan (Yili) and Bekari (Yipin). These are regional or secondary lines below the brief's market-coverage bar. Moved Meiji Step to Follow-on formula, since it is Meiji's follow-up stage product (to verify). Added Aptamil (Nutricia), NAN (Nestlé) and Kendamil (Kendal Nutricare) as range names only, because the shelf brief lists them as market-covering brands. They are from general knowledge, not sourced this session: verify the maker names against the brand register. Attribute-only variants (powder, ready-to-feed or ready-to-drink, goat's milk, hydrolysed) are now t types, not kinds. No independent test winners were identified, since no web research was done on this shelf.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

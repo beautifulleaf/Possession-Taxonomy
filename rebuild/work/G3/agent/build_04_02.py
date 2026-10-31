@@ -1,0 +1,85 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+ZH='https://www.zehndergroup.com/en/company/about-us/our-history'
+RT='https://runtalnorthamerica.com/commercial-radiators/'
+kinds=[
+ {"n":"Central heating boiler","a":"Boiler · combi boiler · furnace (UK sense)",
+  "d":"Appliance that heats water for a home's radiators or underfloor heating, and often its taps.",
+  "t":["combi","system","regular (heat-only)","gas","oil","electric","condensing"],
+  "s":"https://www.screwfix.com/c/heating-plumbing/boilers/cat6660001",
+  "m":[["Greenstar 4000","Worcester Bosch"],["Greenstar 8000 Life","Worcester Bosch"],["Greenstar Ri","Worcester Bosch"],
+       ["EcoTec Plus","Vaillant"],["EcoTec Pro","Vaillant"],["Vitodens 100-W","Viessmann"],["Vitodens 200-W","Viessmann"],
+       ["Logic Max Combi2","Ideal Heating"],["Vogue Max Combi","Ideal Heating"],["E-Combi One","Ariston"],["Fusion Comet","EHC"]],
+  "r":[["Combi 2","Baxi"]]},
+ {"n":"Furnace","a":"Warm-air furnace · forced-air furnace",
+  "d":"Warm-air heating unit that heats air and sends it through ducts; any fuel.",
+  "t":["gas","oil","electric","single-stage","two-stage","modulating"],
+  "s":"https://www.lennox.com/residential/products/heating-cooling/furnaces",
+  "m":[["SLP99V","Lennox"],["EL296V","Lennox"],["ML180V","Lennox"]],
+  "r":[["Dave Lennox Signature Collection","Lennox"],["Elite Series","Lennox"],["Merit Series","Lennox"]]},
+ {"n":"Panel radiator","a":"Steel panel radiator · convector radiator",
+  "d":"Flat steel heat emitter, usually fed by hot water, with one or more panels and often convector fins.",
+  "t":["single panel","double panel","with convector fins","flat-tube panel","vertical","electric"],
+  "s":"https://www.bauhaus.at/heizung/c/10001701",
+  "x":[{"n":"Runtal flat-tube panel radiator","a":"Runtal radiator","d":"Panel built from flat steel tubes welded side by side, the first flat-panel steel radiator.",
+        "mk":"Runtal","y":"1953","s":RT,
+        "v":[{"n":"R2F Double Finned Panel","mk":"Runtal","y":"","d":"hydronic, two finned panels"},
+             {"n":"R3F Triple Finned Panel","mk":"Runtal","y":"","d":"hydronic, three finned panels"},
+             {"n":"RV Radiant Vertical Panel","mk":"Runtal","y":"","d":"hydronic, vertical"},
+             {"n":"EWP Wall Panel","mk":"Runtal","y":"","d":"electric"}],
+        "dt":"panel count · height and length · horizontal or vertical · hydronic, electric or steam · RAL colours"}],
+  "m":[["Elite","Stelrad"]]},
+ {"n":"Column radiator","a":"Multi-column radiator · sectional radiator",
+  "d":"Heater built of upright columns or sections joined side by side, in steel, cast iron or aluminium.",
+  "t":["steel tube","cast iron","aluminium","2 to 6 columns","horizontal","vertical","Victorian ornate","Rococo","Art Nouveau","school or plain column"],
+  "s":"https://www.screwfix.com/c/heating-plumbing/column-radiators/cat5840006",
+  "x":[{"n":"Zehnder Charleston","a":"Charleston","d":"Steel tube multi-column radiator, presented by Zehnder as Europe's first steel tube radiator.",
+        "mk":"Zehnder","y":"1930","s":ZH,
+        "v":[{"n":"Charleston (hydronic)","mk":"Zehnder","y":"","d":"original wet-system version"},
+             {"n":"Charleston Electric","mk":"Zehnder","y":"","d":"oil-filled electric, 3 columns, 600 mm high"},
+             {"n":"Charleston Electric Plinth","mk":"Zehnder","y":"","d":"low 5-column version, 300 mm high"}],
+        "dt":"2–6 columns · horizontal or vertical · 25 mm tubes · RAL colours, chrome"},
+       {"n":"Princess","a":"Princess cast-iron radiator","d":"Smooth, rounded cast-iron column pattern still reproduced today.",
+        "mk":"Ideal Radiator Company","y":"1898","s":"https://www.arroll.co.uk/products/18/the-princess/rp750",
+        "v":[{"n":"Princess 2 Column","mk":"Arroll","y":"","d":"modern reproduction, 748 mm leg section"}],
+        "dt":"2 or 3 columns · heights · primer or painted finish · brass or nickel valves"},
+       {"n":"Victorian ornate cast-iron radiator","a":"Decorative cast-iron radiator","d":"Late-19th-century cast-iron radiator with floral, scroll or relief patterns cast into each section.",
+        "mk":"","y":"late 1800s","s":"https://castironradiators.com/blogs/news-history-and-craftsmanship/history-of-cast-iron-radiators-from-victorian-era-to-modern-revival?srsltid=AYCX9vKhuOedFZmhL_Dit7-B8_0lx7ZBdUEvTTmGvkuywA2ZhDE4F57F",
+        "v":[{"n":"Coalbrookdale decorative radiators","mk":"Coalbrookdale Company","y":"","d":"Gothic Revival and Art Nouveau patterns"}],
+        "dt":"pattern (Rococo, Gothic, Art Nouveau) · reclaimed or reproduction · section count · finish"}]},
+ {"n":"Designer radiator","a":"Sculptural radiator · statement radiator",
+  "d":"Radiator whose shape is designed to be seen, such as coils, hoops or sculptural tubes.",
+  "t":["hydronic","electric","dual-fuel"],
+  "s":"https://www.priestmangoode.com/product-design/",
+  "x":[{"n":"Hot Spring","a":"","d":"Coiled-tube radiator designed by Geoffrey Ward and Paul Priestman for Bisque.",
+        "mk":"Bisque","y":"1997","s":"https://www.decor1988.co.uk/bathrooms/zehnder-bisque-radiators/bisque-hot-spring",
+        "v":[{"n":"Hot Spring (North America)","mk":"Runtal","y":"","d":"listed in Runtal's hydronic range"}],
+        "dt":"size · finish"},
+       {"n":"Cactus","a":"","d":"Branching design-led radiator by Priestman Goode for Bisque.",
+        "mk":"Bisque","y":"","s":"https://www.priestmangoode.com/product-design/","v":[],"dt":"size · finish"},
+       {"n":"Hot Hoops","a":"","d":"Hoop-shaped radiator by Priestman Goode for Bisque, made in three sizes.",
+        "mk":"Bisque","y":"","s":"https://www.priestmangoode.com/product-design/","v":[],"dt":"three sizes · finish"}]},
+ {"n":"Underfloor heating","a":"Underfloor heating kit · radiant floor heating · UFH",
+  "d":"Hot-water pipes or electric elements laid under a floor so the whole floor heats the room.",
+  "t":["hydronic (wet) pipe system","electric cable","electric mat","carbon film","screed-laid","low-profile overlay panels"],
+  "s":"https://www.screwfix.com/c/heating-plumbing/underfloor-heating/cat830968"}]
+brands=[
+ {"n":"Worcester Bosch","c":"United Kingdom","f":"1962","seg":"mainstream boilers","d":"Worcester-based boiler maker founded by Cecil Duckworth, now part of Bosch; Which?'s best-liked boiler brand.","lines":["Greenstar"],"eras":[],"sig":[],"sc":[],"rel":["Vaillant","Viessmann","Baxi"],"s":W+"Worcester,_Bosch_Group"},
+ {"n":"Vaillant","c":"Germany","f":"1874","seg":"mainstream boilers","d":"Family-owned Remscheid group founded by Johann Vaillant; built the first central heating boiler in 1924.","lines":["EcoTec","EcoFit"],"eras":[],"sig":[],"sc":[],"rel":["Glow-worm","Saunier Duval"],"s":W+"Vaillant_Group"},
+ {"n":"Viessmann","c":"Germany","f":"1917","seg":"premium boilers","d":"Heating maker founded by Johann Viessmann, now owned by Carrier.","lines":["Vitodens"],"eras":[],"sig":[],"sc":[],"rel":["Carrier"],"s":W+"Viessmann"},
+ {"n":"Baxi","c":"United Kingdom","f":"1866","seg":"mainstream boilers","d":"Warwick-based boiler maker founded by iron founder Richard Baxendale, part of BDR Thermea.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["Worcester Bosch"],"s":W+"Baxi"},
+ {"n":"Lennox","c":"United States","f":"1895","seg":"furnaces and HVAC","d":"Texas-based HVAC maker founded by Dave Lennox, who began with a riveted-steel coal furnace.","lines":["Dave Lennox Signature Collection","Elite Series","Merit Series"],"eras":[],"sig":[],"sc":[],"rel":["Trane","Carrier"],"s":W+"Lennox_International"},
+ {"n":"Trane","c":"United States","f":"1913","seg":"furnaces and HVAC","d":"HVAC maker from La Crosse, Wisconsin; rated among the most reliable furnace brands by Consumer Reports.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["American Standard Heating and Cooling"],"s":W+"Trane"},
+ {"n":"Carrier","c":"United States","f":"1915","seg":"furnaces and HVAC","d":"HVAC group founded by Willis Carrier; owns Bryant, Payne, Day & Night and Viessmann.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["Viessmann","Lennox"],"s":W+"Carrier_Global"},
+ {"n":"Zehnder","c":"Switzerland","f":"1912","seg":"designer radiators","d":"Gränichen firm that launched the Charleston steel tube radiator in 1930 and its first bathroom radiator in 1979.","lines":["Charleston"],"eras":[],"sig":["Zehnder Charleston"],"sc":[],"rel":["Bisque","Runtal"],"s":ZH},
+ {"n":"Runtal","c":"Switzerland","f":"1953","seg":"designer radiators","d":"Radiator brand behind the flat-tube steel panel radiator, invented by Egon Runtal and Jürg Altherr.","lines":["R","RF","R2F","R3F","RV","RS2","EB","EWP"],"eras":[],"sig":["Runtal flat-tube panel radiator"],"sc":[],"rel":["Zehnder"],"s":RT},
+ {"n":"Bisque","c":"","f":"","seg":"designer radiators","d":"Radiator brand founded by Geoffrey Ward, known for design-led radiators by Paul Priestman.","lines":[],"eras":[],"sig":["Hot Spring","Cactus","Hot Hoops"],"sc":[],"rel":["Zehnder"],"s":"https://www.priestmangoode.com/product-design/"},
+ {"n":"Stelrad","c":"United Kingdom","f":"1936","seg":"mainstream radiators","d":"Radiator maker founded as Steel Radiators in Southall; its Elite is called the UK's most popular radiator.","lines":["Elite"],"eras":[],"sig":[],"sc":[],"rel":[],"s":W+"Stelrad"}]
+notes=("Boiler models trimmed to market leaders (Worcester Bosch, Vaillant, Viessmann, Ideal) from Which? brand reviews; old Ariston/EHC/Baxi kept. "
+ "Furnace: 11 Lennox SKUs cut to 3 plus the 3 Lennox ranges; CR's most reliable furnace brands (AirEase, Trane, Payne) and Carrier/Trane go in the register only, since no model names were retrieved. "
+ "Added new kind Designer radiator (Bisque Hot Spring, Cactus, Hot Hoops). Period styles kept as types on Column radiator. "
+ "Left out: Carron cast-iron radiators (the Carron Company page does not mention radiators), Vola (a tap maker; no radiator source found), Ideal Heating brand entry (no page retrieved), "
+ "Which? scores (paywalled). No traditions: no artisan tradition applies to this shelf.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='/home/user/Possession-Taxonomy/rebuild/work/G3/shelves/04_02.json'
+json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

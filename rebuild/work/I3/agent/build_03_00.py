@@ -1,0 +1,56 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+ {"n":"Game subscription","a":"game catalogue · online play · cloud gaming",
+  "d":"Plan giving access to a catalogue of games, online play or cloud play on a platform or store.",
+  "t":["online play tier","game catalogue tier","retro classics tier","cloud gaming","PC only","family plan"],
+  "s":"https://www.xbox.com/en-US/xbox-game-pass",
+  "m":[["PlayStation Plus (Essential · Extra · Premium)","PlayStation"],["Xbox Game Pass (Essential · Premium · Ultimate · PC)","Xbox"],
+       ["Nintendo Switch Online (+ Expansion Pack)","Nintendo"],["Apple Arcade","Apple"],["Google Play Pass","Google"],
+       ["EA Play","EA Play"],["Ubisoft+ (Premium · Classics)","Ubisoft"],["GeForce Now (Performance · Ultimate)","Nvidia"]]},
+ {"n":"Single-game subscription","a":"MMO subscription · game membership",
+  "d":"Subscription required or sold to play one game in full.",
+  "t":["mandatory subscription","free tier with paid membership","in-game token for game time"],
+  "s":"https://na.finalfantasyxiv.com/product",
+  "m":[["World of Warcraft Subscription","Blizzard"],["FINAL FANTASY XIV Online Subscription","FINAL FANTASY XIV"],
+       ["EVE Online Omega","CCP Games"],["RuneScape membership","Jagex"],["Old School RuneScape membership","Jagex"]]},
+ {"n":"Season or battle pass","a":"in-game season pass · battle pass",
+  "d":"Pass bought for a season of one game that unlocks a tiered reward track.",
+  "t":["free track","paid track","premium or luxury pass"],
+  "s":"https://www.playstation.com/en-us/games/fortnite/latest-news-and-updates",
+  "m":[["Fortnite Battle Pass","Fortnite"],["Call of Duty battle pass","Call of Duty"],["Apex Legends battle pass","Apex Legends"],["Dota 2 Compendium","Valve"]]},
+ {"n":"Online class subscription","a":"recorded class subscription · online course membership · fitness app",
+  "d":"Plan giving access to a library of recorded or streamed lessons or classes, whatever the subject.",
+  "t":["general courses","creative skills","maths and science","fitness and training apps","monthly","annual"],
+  "s":"https://www.masterclass.com/checkout",
+  "m":[["MasterClass","MasterClass"],["Coursera subscription","Coursera"],["LinkedIn Learning","LinkedIn"],["Skillshare","Skillshare"],
+       ["Brilliant Premium","Brilliant"],["Apple Fitness+","Apple"],["Peloton App Membership","Peloton"],["Strava subscription","Strava"],["Zwift","Zwift"]]},
+ {"n":"Language-learning plan","a":"language app subscription · language course subscription",
+  "d":"Subscription to an app or online course for learning a foreign language.",
+  "t":["freemium upgrade","full course subscription","AI conversation tier","lifetime plan"],
+  "s":W+"Duolingo",
+  "m":[["Super Duolingo","Duolingo"],["Duolingo Max","Duolingo"],["Babbel","Babbel"],["Rosetta Stone","Rosetta Stone"],["Busuu Premium","Busuu"]]},
+]
+K="knowledge"
+brands=[
+ {"n":"PlayStation","c":"Japan","f":"1994","seg":"Mainstream","kf":"games console","d":"Sony's games platform; PlayStation Plus has Essential, Extra and Premium tiers.","lines":["PlayStation Plus"],"s":"knowledge"},
+ {"n":"Xbox","c":"United States","f":"2001","seg":"Mainstream","kf":"games console","d":"Microsoft's games platform; Xbox Game Pass launched in 2017.","lines":["Xbox Game Pass"],"s":"knowledge"},
+ {"n":"Nintendo","c":"Japan","f":"1889","seg":"Mainstream","kf":"games consoles","d":"Japanese games company; Nintendo Switch Online launched in 2018.","lines":["Nintendo Switch Online"],"s":"knowledge"},
+ {"n":"Ubisoft","c":"France","f":"1986","seg":"Mainstream","kf":"video games","d":"French games publisher running the Ubisoft+ catalogue service.","s":"knowledge"},
+ {"n":"Nvidia","c":"United States","f":"1993","seg":"Premium","kf":"graphics chips","d":"US chip maker running the GeForce Now cloud-gaming service.","s":"knowledge"},
+ {"n":"Jagex","c":"United Kingdom","f":"","seg":"Specialist","kf":"RuneScape","d":"British developer of RuneScape and Old School RuneScape, both with paid membership.","s":W+"RuneScape"},
+ {"n":"CCP Games","c":"Iceland","f":"","seg":"Specialist","kf":"EVE Online","d":"Developer of EVE Online, with free Alpha and paid Omega accounts.","s":W+"EVE_Online"},
+ {"n":"Duolingo","c":"United States","f":"2011","seg":"Mainstream","kf":"language app","d":"Pittsburgh freemium language app with Super and Max paid tiers.","lines":["Super Duolingo","Duolingo Max"],"s":W+"Duolingo"},
+ {"n":"Babbel","c":"Germany","f":"2007","seg":"Mainstream","kf":"language courses","d":"Berlin language-learning app on a subscription model since 2009.","s":W+"Babbel"},
+ {"n":"Rosetta Stone","c":"United States","f":"1992","seg":"Mainstream","kf":"language software","d":"Language software owned by IXL Learning, sold as online subscriptions of 3–36 months.","s":W+"Rosetta_Stone_Inc."},
+ {"n":"Busuu","c":"Spain","f":"2008","seg":"Mainstream","kf":"language app","d":"London-based language app owned by Chegg, with a Premium tier since 2009.","s":W+"Busuu"},
+ {"n":"Coursera","c":"United States","f":"2012","seg":"Mainstream","kf":"online courses","d":"Mountain View online-course platform offering monthly and annual subscriptions.","s":W+"Coursera"},
+ {"n":"Skillshare","c":"United States","f":"2010","seg":"Mainstream","kf":"creative classes","d":"New York membership platform of classes in creative skills and business.","s":W+"Skillshare"},
+ {"n":"Zwift","c":"United States","f":"2014","seg":"Specialist","kf":"indoor cycling","d":"Subscription virtual cycling and running training platform.","s":W+"Zwift"},
+ {"n":"Strava","c":"United States","f":"2009","seg":"Mainstream","kf":"activity tracking","d":"San Francisco freemium fitness-tracking service with a paid subscription.","s":W+"Strava"},
+]
+notes=("Battle passes kept as examples only (Fortnite, Call of Duty, Apex Legends, Dota 2 Compendium as originator), no title lists. "
+ "Coursera Plus: Wikipedia describes only monthly/annual Coursera subscriptions, so named 'Coursera subscription'. LinkedIn Learning subscription terms not on the retrieved page; kept as the market leader. "
+ "Language-learning plan is a NEW kind sourced to Wikipedia (Duolingo); each operator has its own retrieved Wikipedia page. Old kind sources kept.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/I3/shelves/03_00.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p); print('written')

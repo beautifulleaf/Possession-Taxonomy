@@ -1,0 +1,64 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+K='knowledge'
+kinds=[
+ {"n":"AI assistant subscription","a":"chatbot subscription · AI plan",
+  "d":"Paid plan for a consumer AI chat assistant, giving higher usage limits and stronger models than the free tier.",
+  "t":["entry plan","standard plan","high-usage plan","bundled with cloud storage"],
+  "s":W+"ChatGPT",
+  "m":[["ChatGPT Go · Plus · Pro","OpenAI"],["Claude Pro · Max","Anthropic"],["Google AI Pro · AI Ultra","Google"],
+       ["Copilot Pro","Microsoft"],["Perplexity Pro","Perplexity"]]},
+ {"n":"Multi-service bundle","a":"membership bundle",
+  "d":"One plan bundling several subscription services, filed here when it is named for none of them.",
+  "t":["individual","family","premier or top tier","telco bundle"],
+  "s":"https://www.apple.com/apple-one",
+  "m":[["Amazon Prime","Amazon"],["Apple One (Individual · Family · Premier)","Apple"],["Airtel XStream","Airtel XStream"]]},
+ {"n":"Creator membership","a":"fan membership · paid newsletter · channel subscription",
+  "d":"Paid membership giving one creator's paid posts, channel or feed, whatever the medium. A free follow is not included.",
+  "t":["monthly tier","annual","paid newsletter","channel subscription"],
+  "s":"https://support.patreon.com/hc/en-us/articles/203913709-Joining-a-creator-s-Patreon-as-a-paid-member",
+  "m":[["Patreon memberships","Patreon"],["Substack Paid Subscriptions","Substack"],["YouTube Channel Memberships","YouTube"],
+       ["Twitch channel subscriptions (Tier 1–3)","Twitch"]]},
+ {"n":"Personal web and game-server hosting","a":"personal hosting plan · website builder · domain name · game server",
+  "d":"Plan renting server space, a website builder or a domain for a personal site, or a game server. Business infrastructure hosting is not included.",
+  "t":["shared web hosting","website builder plan","domain name","game server"],
+  "s":"https://www.hostinger.com/shared-hosting",
+  "m":[["Squarespace","Squarespace"],["Wix Premium","Wix"],["GoDaddy hosting and domains","GoDaddy"],["Bluehost Shared Hosting","Bluehost"],
+       ["Hostinger Shared Hosting","Hostinger"],["Shockbyte Minecraft Server Hosting","Shockbyte"]]},
+ {"n":"Stock library subscription","a":"asset-library subscription",
+  "d":"Plan giving access to a library of images, video, sounds, fonts or templates for making work. Each licensed item is in Digital Media & Items.",
+  "t":["images","video","audio","templates and fonts","all-in-one"],
+  "s":"https://help.elements.envato.com/hc/en-us/articles/360000621663-About-Envato-subscription",
+  "m":[["Adobe Stock","Adobe"],["Shutterstock","Shutterstock"],["Envato Elements","Envato"]]},
+ {"n":"Dating app subscription","a":"dating app premium",
+  "d":"Paid tier of a dating app, unlocking features such as unlimited likes, seeing who liked you and profile boosts.",
+  "t":["entry tier","mid tier","top tier","one-off boosts"],
+  "s":W+"Tinder_(app)",
+  "m":[["Tinder Plus · Gold · Platinum","Match Group"],["Hinge+ · Hinge X","Match Group"],["Bumble Boost · Premium · Premium+","Bumble Inc."]]},
+ {"n":"Maps and navigation service","a":"satnav app",
+  "d":"Online map and route-finding service, free or paid.",
+  "t":["free, ad-supported","paid subscription"],
+  "s":"https://apps.apple.com/us/app/google-maps/id585027354",
+  "m":[["Google Maps","Google"],["Waze","Google"],["TomTom GO Expert","TomTom"]]},
+]
+brands=[
+ {"n":"OpenAI","c":"United States","f":"2015","seg":"Mainstream","kf":"ChatGPT","d":"US AI company behind ChatGPT, sold as Free, Go, Plus and Pro plans.","lines":["ChatGPT Go","ChatGPT Plus","ChatGPT Pro"],"s":"https://www.cometapi.com/chatgpt-pricing-2026-free-vs-go-vs-plus-vs-pro/"},
+ {"n":"Anthropic","c":"United States","f":"2021","seg":"Mainstream","kf":"Claude","d":"US AI company behind Claude, with Pro and Max consumer plans (Max from 2025).","lines":["Claude Pro","Claude Max"],"s":W+"Claude_(language_model)"},
+ {"n":"Perplexity","c":"United States","f":"2022","seg":"Specialist","kf":"AI search","d":"San Francisco AI answer-engine company with a Perplexity Pro subscription.","s":W+"Perplexity_AI"},
+ {"n":"Amazon","c":"United States","f":"1994","seg":"Mainstream","kf":"online retail","d":"US retailer whose Prime membership (2005) bundles delivery, Prime Video, Prime Music and more.","lines":["Amazon Prime"],"s":W+"Amazon_Prime"},
+ {"n":"Substack","c":"United States","f":"2017","seg":"Mainstream","kf":"paid newsletters","d":"San Francisco platform for paid subscriptions to newsletters, podcasts and video.","s":W+"Substack"},
+ {"n":"Twitch","c":"United States","f":"","seg":"Mainstream","kf":"live streaming","d":"Amazon-owned live-streaming service with tiered channel subscriptions and Twitch Turbo.","s":W+"Twitch_(service)"},
+ {"n":"Match Group","c":"United States","f":"","seg":"Mainstream","kf":"dating apps","d":"US dating-app group owning Tinder and Hinge.","lines":["Tinder","Hinge"],"s":W+"Hinge_(app)"},
+ {"n":"Bumble Inc.","c":"United States","f":"2014","seg":"Mainstream","kf":"dating app","d":"Company behind the Bumble dating app (launched 2014) and Badoo.","lines":["Bumble","Badoo"],"s":W+"Bumble"},
+ {"n":"Squarespace","c":"United States","f":"2003","seg":"Mainstream","kf":"website builder","d":"New York website builder and one of the largest domain sellers after buying Google Domains in 2023.","s":W+"Squarespace"},
+ {"n":"Wix","c":"Israel","f":"2006","seg":"Mainstream","kf":"website builder","d":"Tel Aviv freemium website builder with premium plans for custom domains and no ads.","s":W+"Wix.com"},
+ {"n":"GoDaddy","c":"United States","f":"1997","seg":"Mainstream","kf":"domains","d":"Arizona domain registrar and web host.","s":W+"GoDaddy"},
+ {"n":"Shutterstock","c":"United States","f":"2003","seg":"Mainstream","kf":"stock images","d":"New York stock-media company that pioneered subscription stock photography.","s":W+"Shutterstock"},
+ {"n":"Adobe","c":"United States","f":"1982","seg":"Professional & flagship","kf":"creative software","d":"US creative-software company running Adobe Stock.","s":K},
+ {"n":"TomTom","c":"Netherlands","f":"1991","seg":"Mainstream","kf":"satnav","d":"Amsterdam navigation company whose GO Expert app uses a freemium subscription.","s":W+"TomTom"},
+]
+notes=("AI assistant subscription and Dating app subscription are NEW kinds (Wikipedia sources). Game server hosting (k27) merged into Personal web and game-server hosting as a type; added website builders and domains (Squarespace, Wix, GoDaddy). "
+ "Creator platforms only, no creators; Ko-fi left out (Wikipedia page 404, not otherwise retrieved); OnlyFans left out (H3 territory per brief). Xbox Game Pass Ultimate stays in Games. Google AI Pro placed under AI assistants rather than bundles. "
+ "Maps: Garmin left out (no retrieved page on a Garmin subscription); Apple Maps not added (free, not retrieved). Bluehost/Hostinger/Shockbyte/Envato/Airtel kept from old data without register entries (facts not retrieved). Google, Microsoft (04_00), Apple, Patreon (01_00) are in the register already.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/I3/shelves/04_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p); print('written')

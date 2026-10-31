@@ -1,0 +1,1986 @@
+{
+ "lead": "Materials, tools and machines for making things by hand, organised by craft (painting, printmaking, sewing, yarn, paper, jewellery, pottery, glass, leather, modelling), then material kind, then maker and named line.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Painting & drawing",
+   "mode": "mixed",
+   "note": "Paint is organised by medium, then house and line; Colour Index pigment codes are the comparison axis.",
+   "b": [
+    {
+     "m": "Pigment identity",
+     "w": "Colour Index International (SDC/AATCC); printed on artist-grade tubes",
+     "v": "Colour Index codes, e.g. PB29, PR254; single-pigment vs convenience mix"
+    },
+    {
+     "m": "Lightfastness",
+     "w": "ASTM D4303 / D5098; makers' permanence ratings",
+     "v": "ASTM I–V or Blue Wool 1–8"
+    },
+    {
+     "m": "Grade",
+     "w": "Pigment load and filler; every major house sells both tiers",
+     "v": "student < artist/professional < handmade"
+    },
+    {
+     "m": "Paper content and surface",
+     "w": "Mould-made cotton papers (Arches, Saunders Waterford) are the watercolour benchmark",
+     "v": "wood pulp < cotton blend < 100% cotton; hot/cold-pressed/rough; gsm"
+    }
+   ],
+   "s": [
+    {
+     "n": "Paints & mediums",
+     "web": true,
+     "brief": "Organise each paint kind as house → line archetypes (e.g. Winsor & Newton Professional vs Cotman, Daniel Smith Extra Fine, Schmincke Horadam, Holbein, Sennelier, M. Graham, Golden Heavy Body/Fluid, Liquitex, Old Holland, Michael Harding, Williamsburg, Gamblin), originator first. Use `t` for grades and formats (tube, pan, half-pan, water-mixable oil). Trim Blick house-brand and SKU duplicates; existing lines become versions. Add dry pigment (Kremer, Sennelier) and encaustic/egg tempera as new kinds. Record Colour Index pigment as the detail axis (`dt`).",
+     "k": [
+      {
+       "n": "Watercolour paint",
+       "old": [
+        "k1"
+       ]
+      },
+      {
+       "n": "Oil paint",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Acrylic paint",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Gouache",
+       "old": [
+        "k4"
+       ]
+      },
+      {
+       "n": "Dry pigment",
+       "old": [],
+       "brief": "Loose artists' pigment for hand-mulling; Kremer, Sennelier, Natural Pigments."
+      },
+      {
+       "n": "Encaustic and egg tempera",
+       "old": [],
+       "brief": "Wax and egg-based traditional paints; R&F encaustic etc."
+      },
+      {
+       "n": "Painting medium and varnish",
+       "old": [
+        "k6"
+       ],
+       "brief": "Rename from 'Acrylic and other mediums'; types: acrylic medium, oil medium/solvent, picture varnish."
+      },
+      {
+       "n": "Gesso and primer",
+       "old": [
+        "k7"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Brushes, palettes & easels",
+     "web": true,
+     "brief": "Brushes by hair: Kolinsky sable archetypes (Winsor & Newton Series 7 first, Escoda Reserva/Kolinsky-Tajmyr, da Vinci Maestro, Rosemary & Co), synthetic sable, hog bristle. Shapes (round, flat, filbert, rigger, mop) are `t`. Easels: lyre, H-frame, French box easel (Jullian original) as archetypes; trim Blick/Meeden SKUs. Pentel Aquash water brush stays as a version under watercolour brushes.",
+     "k": [
+      {
+       "n": "Watercolour and soft-hair brush",
+       "old": [
+        "k25"
+       ],
+       "brief": "Rename from 'Artist brush'."
+      },
+      {
+       "n": "Oil and acrylic brush",
+       "old": []
+      },
+      {
+       "n": "Palette knife",
+       "old": []
+      },
+      {
+       "n": "Palette",
+       "old": [],
+       "brief": "Types: wooden, porcelain, stay-wet, enamel tin."
+      },
+      {
+       "n": "Easel",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Pochade and plein-air box",
+       "old": [],
+       "brief": "Open Box M, Guerrilla Painter, Strada etc."
+      },
+      {
+       "n": "Brush cleaner",
+       "old": [
+        "k27"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Canvas, panels & paper",
+     "web": true,
+     "brief": "Paper by maker and line: Arches, Saunders Waterford, Fabriano Artistico, Hahnemühle, Canson Mi-Teintes, Sennelier La Carte, Clairefontaine Pastelmat, Strathmore series, Stillman & Birn series (keep as versions). Weight, surface and format (pad, block, sheet) are `t`. Canvas: cotton duck vs linen (Claessens, Belle Arti) as types.",
+     "k": [
+      {
+       "n": "Watercolour paper",
+       "old": [
+        "k21"
+       ],
+       "brief": "Rename from 'Watercolour paper pad'; pads, blocks and sheets are types."
+      },
+      {
+       "n": "Drawing and mixed-media paper",
+       "old": []
+      },
+      {
+       "n": "Pastel paper",
+       "old": []
+      },
+      {
+       "n": "Sketchbook",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Stretched canvas",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "Canvas board and painting panel",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Canvas roll",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Stretcher bar",
+       "old": [
+        "k24"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Pencils, charcoal & pastels",
+     "web": true,
+     "brief": "Archetypes: graphite (Staedtler Mars Lumograph, Faber-Castell 9000, Tombow Mono, Derwent Graphic), coloured pencil (Faber-Castell Polychromos, Caran d'Ache Luminance/Pablo, Prismacolor Premier, Derwent Lightfast; watercolour pencils as type e.g. Albrecht Dürer, Museum Aquarelle), soft pastels (Sennelier, Unison, Schmincke, Rembrandt, Girault, PanPastel), oil pastels (Sennelier original 1949, Caran d'Ache Neopastel). Merge 'Other pastels' into soft pastels (PanPastel). Add an eraser and blending-tool kind.",
+     "k": [
+      {
+       "n": "Graphite pencil",
+       "old": []
+      },
+      {
+       "n": "Coloured pencil",
+       "old": [
+        "k8"
+       ]
+      },
+      {
+       "n": "Soft pastels",
+       "old": [
+        "k17",
+        "k9"
+       ],
+       "brief": "Absorbs 'Other pastels'; hard pastels and pastel pencils as types."
+      },
+      {
+       "n": "Oil pastels",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Drawing charcoal",
+       "old": [
+        "k11"
+       ],
+       "brief": "Types: vine, willow, compressed, charcoal pencil."
+      },
+      {
+       "n": "Crayon",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Eraser and blending tool",
+       "old": [],
+       "brief": "Kneaded eraser, blending stump, tortillon."
+      },
+      {
+       "n": "Fixative",
+       "old": [
+        "k13"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Inks, markers & pens",
+     "web": true,
+     "brief": "Archetypes: alcohol markers (Copic Sketch/Ciao originator, Prismacolor, Chartpak, Winsor & Newton Promarker, Ohuhu), paint markers (Posca), brush pens (Pentel, Tombow Dual Brush, Kuretake), fineliners (Sakura Pigma Micron originator, Copic Multiliner, Staedtler Pigment Liner), drawing ink (Higgins, Winsor & Newton, Dr. Ph. Martin's, Sennelier). Rename 'Other drawing pens and markers' to fineliner; move the Uni Posca there to paint markers. Add dip pen and nib (Zebra G, Nikko G, Hunt 102).",
+     "k": [
+      {
+       "n": "Drawing ink",
+       "old": [
+        "k5"
+       ],
+       "brief": "Rename from 'Art ink'."
+      },
+      {
+       "n": "Alcohol markers",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Fineliner and technical drawing pen",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "Brush pens",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Paint markers",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Dip pen and nib",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Paint-by-numbers & diamond painting",
+     "web": false,
+     "brief": "Restraint: keep kit kinds, trim to market-covering brands; theme and size as types.",
+     "k": [
+      {
+       "n": "Paint-by-numbers kit",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Diamond-painting kit",
+       "old": [
+        "k36"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Printmaking & ink painting",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Paper for printing",
+     "w": "Printmaking papers are judged on sizing and fibre",
+     "v": "Somerset, Stonehenge, BFK Rives; kozo/gampi washi for mokuhanga"
+    },
+    {
+     "m": "Four Treasures quality",
+     "w": "The Four Treasures of the Study tradition",
+     "v": "brush hair, inkstick soot (pine vs oil), inkstone origin (Duan, She), xuan grade"
+    }
+   ],
+   "s": [
+    {
+     "n": "Printmaking",
+     "web": true,
+     "brief": "Organise by process: relief (lino, woodcut, mokuhanga), intaglio (etching, drypoint), screen printing. Archetypes: Pfeil and Flexcut gouges, Speedball/Essdee lino cutters, Japanese baren (hon-baren vs plastic), etching presses (Conrad, Blick/Ternes-Burton, Xcut tabletop). Add printmaking paper and etching tools & grounds. Traditions: Japanese mokuhanga, Western etching.",
+     "k": [
+      {
+       "n": "Printing ink",
+       "old": [
+        "k28"
+       ]
+      },
+      {
+       "n": "Lino and wood cutting tool",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "Printing block and plate",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Brayer",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Baren",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Printing press",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Screen-printing screen",
+       "old": [
+        "k33"
+       ],
+       "brief": "Squeegees and emulsion as types."
+      },
+      {
+       "n": "Etching tools and grounds",
+       "old": []
+      },
+      {
+       "n": "Printmaking paper",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Ink painting & calligraphy (Four Treasures)",
+     "web": true,
+     "brief": "New shelf for the Four Treasures of the Study (brush, inkstick, inkstone, paper) plus washi and seal paste. Archetypes: Hu brush (Huzhou), Hui inkstick (Huizhou), Duan and She inkstones, Xuan paper (Jing County), Japanese sumi and Nara inksticks (Kobaien), Japanese gansai (Kuretake), washi (Mino, Echizen, Hosokawa — UNESCO). Traditions entries: Four Treasures, washi, Japanese calligraphy.",
+     "k": [
+      {
+       "n": "Calligraphy and ink-painting brush",
+       "old": []
+      },
+      {
+       "n": "Inkstick and liquid sumi ink",
+       "old": []
+      },
+      {
+       "n": "Inkstone",
+       "old": []
+      },
+      {
+       "n": "Xuan (rice) paper",
+       "old": []
+      },
+      {
+       "n": "Washi paper",
+       "old": []
+      },
+      {
+       "n": "Seal paste and seal stone",
+       "old": []
+      },
+      {
+       "n": "Gansai and East Asian watercolour",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sewing & fabric",
+   "mode": "mixed",
+   "note": "Machines are tier picks with collectable vintage versions; fabric is a variety area organised by fibre and design house.",
+   "b": [
+    {
+     "m": "Machine build",
+     "w": "Long-life metal-frame machines are the enthusiast benchmark",
+     "v": "plastic chassis < metal frame; mechanical vs computerised; throat space"
+    },
+    {
+     "m": "Fabric fibre, weave and weight",
+     "w": "How fabric shops and pattern envelopes specify cloth",
+     "v": "gsm or oz/yd²; quilting cotton, lawn, twill, knit"
+    }
+   ],
+   "s": [
+    {
+     "n": "Sewing machines",
+     "web": true,
+     "brief": "Kind → archetype → version with vintage icons: Singer 15, Singer 201, Singer 221 Featherweight, Bernina 530/830 Record, Pfaff 130, Elna Supermatic, Necchi, Juki TL-2010Q, Janome Memory Craft, Brother Innov-is; trim Singer Heavy Duty/Brother SKU runs to versions. Treadle/hand-crank as types. Collapse all spare parts into one entry (needles kept separate as a consumable: Schmetz, Organ). Add coverstitch machine.",
+     "k": [
+      {
+       "n": "Sewing machine",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Overlocker",
+       "old": [
+        "k38"
+       ],
+       "brief": "Rename from 'Overlock machine'; serger alias."
+      },
+      {
+       "n": "Coverstitch machine",
+       "old": []
+      },
+      {
+       "n": "Embroidery machine",
+       "old": [
+        "k39"
+       ]
+      },
+      {
+       "n": "Longarm quilting machine",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Sewing machine needle",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Sewing machine feet and spare parts",
+       "old": [
+        "k42",
+        "k43",
+        "k44",
+        "k45",
+        "k46",
+        "k47"
+       ],
+       "brief": "One entry: presser feet, bobbins, bobbin cases, needle plates, extension tables, oil as types."
+      }
+     ]
+    },
+    {
+     "n": "Fabric",
+     "web": true,
+     "brief": "Organise by fibre/cloth then design house and named cloth: quilting cotton (Robert Kaufman Kona, Moda, Art Gallery, FreeSpirit, Ruby Star), printed lawn (Liberty Tana Lawn), selvedge denim (Cone Mills, Kaihara, Kuroki), wool cloth (Harris Tweed, Linton, Abraham Moon), linen (Irish, Belgian), silk, wax print (Vlisco). Precuts (fat quarter, jelly roll, charm pack) as types of quilting cotton.",
+     "k": [
+      {
+       "n": "Quilting and printed cotton",
+       "old": [
+        "k48"
+       ],
+       "brief": "Rename from 'Cotton fabric'."
+      },
+      {
+       "n": "Denim",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Wool cloth and tweed",
+       "old": []
+      },
+      {
+       "n": "Linen fabric",
+       "old": []
+      },
+      {
+       "n": "Silk fabric",
+       "old": []
+      },
+      {
+       "n": "Knit jersey",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "Wax-print fabric",
+       "old": []
+      },
+      {
+       "n": "Felt",
+       "old": [
+        "k51"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Dyeing & surface design",
+     "web": true,
+     "brief": "Products for colouring cloth with tradition entries: shibori, indigo/aizome, batik, adire, bandhani, boro. Archetypes: Procion MX fibre-reactive dye (Jacquard, Dharma), Rit, Dylon; natural indigo; tjanting and batik wax. Fabric paint brands Jacquard, Pebeo Setacolor, Tulip.",
+     "k": [
+      {
+       "n": "Fabric dye",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Natural dye and indigo",
+       "old": []
+      },
+      {
+       "n": "Batik wax and tjanting",
+       "old": []
+      },
+      {
+       "n": "Fabric paint",
+       "old": [
+        "k55"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Notions & haberdashery",
+     "web": true,
+     "brief": "Mostly restraint: types for zips (coil, metal, invisible), buttons, elastic, trims. Thread by house: Gütermann, Coats, Aurifil, Mettler; YKK and Riri for zips. Interfacing (Vilene/Pellon) and batting (Warm & Natural, Hobbs) by fibre types.",
+     "k": [
+      {
+       "n": "Sewing thread",
+       "old": [
+        "k56"
+       ]
+      },
+      {
+       "n": "Zip",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "Button",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Interfacing",
+       "old": [
+        "k52"
+       ]
+      },
+      {
+       "n": "Batting",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "Ribbon",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Bias binding",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Elastic",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Trim",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Patch",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Sequin",
+       "old": [
+        "k64"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Sewing tools & patterns",
+     "web": true,
+     "brief": "Archetypes: Gingher and Kai shears, Clover/Tulip hand needles, Wonder Clips, Olfa/Creative Grids rulers, adjustable dress forms (Dritz, Adjustoform). Add sewing pattern (Big Four: Vogue, Butterick, McCall's, Simplicity; Burda; indie houses) as the object/format, and measuring & marking tools.",
+     "k": [
+      {
+       "n": "Dressmaking shears",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "Sewing pattern",
+       "old": []
+      },
+      {
+       "n": "Hand sewing needle",
+       "old": [
+        "k66"
+       ]
+      },
+      {
+       "n": "Pin and fabric clip",
+       "old": [
+        "k67"
+       ]
+      },
+      {
+       "n": "Measuring and marking tools",
+       "old": [],
+       "brief": "Tape measure, tailor's chalk, seam gauge, seam ripper."
+      },
+      {
+       "n": "Quilting ruler",
+       "old": [
+        "k68"
+       ]
+      },
+      {
+       "n": "Dress form",
+       "old": [
+        "k69"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Knitting, crochet & needlecraft",
+   "mode": "variety",
+   "note": "Yarn follows Ravelry's axes: weight, fibre and named yarn line.",
+   "b": [
+    {
+     "m": "Yarn weight",
+     "w": "Ravelry / Craft Yarn Council standard weights",
+     "v": "lace < fingering < sport < DK < worsted < aran < bulky < super bulky"
+    },
+    {
+     "m": "Fibre and processing",
+     "w": "Ravelry yarn attributes",
+     "v": "superwash vs untreated; woollen- vs worsted-spun; ply"
+    }
+   ],
+   "s": [
+    {
+     "n": "Yarn",
+     "web": true,
+     "brief": "Split the old yarn kind by fibre. Archetypes are named yarn lines (Cascade 220, Malabrigo Rios, Rowan Felted Tweed, Lion Brand Wool-Ease, Drops, Brooklyn Tweed Shelter, Jamieson's Shetland Spindrift, Lopi, Paintbox; sock: Regia, Opal, Lang Jawoll; Rowan Kidsilk Haze) with Ravelry weight in `t`/`dt`. Distribute the 53 old models to the matching fibre kind. Macramé cord stays here.",
+     "k": [
+      {
+       "n": "Wool yarn",
+       "old": [
+        "k70"
+       ],
+       "brief": "Old 'Knitting and crochet yarn'; distribute non-wool lines to the sibling kinds."
+      },
+      {
+       "n": "Sock yarn",
+       "old": []
+      },
+      {
+       "n": "Cotton and plant-fibre yarn",
+       "old": []
+      },
+      {
+       "n": "Acrylic and blend yarn",
+       "old": []
+      },
+      {
+       "n": "Mohair, alpaca, cashmere and silk yarn",
+       "old": []
+      },
+      {
+       "n": "Crochet thread",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Macramé cord",
+       "old": [
+        "k74"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Knitting & crochet tools",
+     "web": true,
+     "brief": "Archetypes: needles (addi, ChiaoGoo, HiyaHiya, Knit Picks, Lantern Moon, Clover; interchangeable sets as type), hooks (Clover Amour, Tulip Etimo, Boye, Furls). Add yarn swift and ball winder, blocking tools, and stitch markers & notions.",
+     "k": [
+      {
+       "n": "Knitting needles",
+       "old": [
+        "k76"
+       ]
+      },
+      {
+       "n": "Crochet hook",
+       "old": [
+        "k77"
+       ]
+      },
+      {
+       "n": "Yarn swift and ball winder",
+       "old": []
+      },
+      {
+       "n": "Blocking mats and wires",
+       "old": []
+      },
+      {
+       "n": "Stitch markers and knitting notions",
+       "old": []
+      },
+      {
+       "n": "Pom-pom maker",
+       "old": [
+        "k81"
+       ]
+      },
+      {
+       "n": "Yarn bowl",
+       "old": [
+        "k82"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Embroidery, cross-stitch & sashiko",
+     "web": true,
+     "brief": "Archetypes: DMC Mouliné Stranded Cotton (originator), Anchor, Appleton crewel wool, Zweigart Aida/evenweave, Olympus/Daruma sashiko thread, Oliver Twist punch needle. Traditions: sashiko, boro, crewelwork, Hardanger, kantha. Merge both kit kinds.",
+     "k": [
+      {
+       "n": "Embroidery floss",
+       "old": [
+        "k72"
+       ]
+      },
+      {
+       "n": "Pearl cotton and tapestry wool",
+       "old": [
+        "k73"
+       ]
+      },
+      {
+       "n": "Needlecraft cloth",
+       "old": [
+        "k75"
+       ],
+       "brief": "Aida, evenweave, needlepoint canvas as types."
+      },
+      {
+       "n": "Sashiko thread and needles",
+       "old": []
+      },
+      {
+       "n": "Tapestry and embroidery needle",
+       "old": [
+        "k78"
+       ]
+      },
+      {
+       "n": "Embroidery hoop",
+       "old": [
+        "k79"
+       ]
+      },
+      {
+       "n": "Punch needle",
+       "old": [
+        "k80"
+       ]
+      },
+      {
+       "n": "Needlecraft and yarn kit",
+       "old": [
+        "k95",
+        "k96"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Spinning & felting",
+     "web": true,
+     "brief": "Archetypes: Ashford Traditional and Kiwi, Schacht Matchless, Louët S10, Lendrum, Majacraft wheels; Turkish, top-whorl and support spindles; charkha; fibre by breed and preparation (Merino, BFL, Shetland; top, roving, batt). Add hand and drum carders.",
+     "k": [
+      {
+       "n": "Spinning wheel",
+       "old": [
+        "k86"
+       ]
+      },
+      {
+       "n": "Drop spindle",
+       "old": [
+        "k87"
+       ]
+      },
+      {
+       "n": "Hand and drum carder",
+       "old": []
+      },
+      {
+       "n": "Unspun fibre",
+       "old": [
+        "k88"
+       ]
+      },
+      {
+       "n": "Felting needle",
+       "old": [
+        "k89"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Weaving & knitting machines",
+     "web": true,
+     "brief": "Dissolve 'Other looms': place its Schacht models (Wolf/Baby Wolf, Jane, Lilli, Spring, David) under the right loom kinds. Archetypes: Ashford Knitter's Loom, Schacht Cricket and Flip, Louët, Glimåkra; Brother/Silver Reed and Passap knitting machines, Addi Express. Add shuttles, reeds and weaving accessories.",
+     "k": [
+      {
+       "n": "Rigid heddle loom",
+       "old": [
+        "k90"
+       ]
+      },
+      {
+       "n": "Floor loom",
+       "old": [
+        "k91",
+        "k85"
+       ],
+       "brief": "Absorbs 'Other looms'; redistribute its models across the loom kinds on this shelf."
+      },
+      {
+       "n": "Table loom",
+       "old": [
+        "k92"
+       ]
+      },
+      {
+       "n": "Inkle loom",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Tapestry loom",
+       "old": [
+        "k94"
+       ]
+      },
+      {
+       "n": "Shuttle, reed and weaving accessories",
+       "old": []
+      },
+      {
+       "n": "Knitting machine",
+       "old": [
+        "k83"
+       ]
+      },
+      {
+       "n": "Knitting loom",
+       "old": [
+        "k84"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Papercraft & bookbinding",
+   "mode": "mixed",
+   "s": [
+    {
+     "n": "Paper, card & paper arts",
+     "web": true,
+     "brief": "Archetypes: Japanese origami paper (kami, tant, Origamido), quilling strips, cardstock (Neenah, Bazzill), patterned paper ranges, washi tape (MT originator, Kamoi Kakoshi). Add marbling supplies (ebru, suminagashi traditions) and bookbinding tools & materials (awl, linen thread, book cloth). Scrapbook album stays here.",
+     "k": [
+      {
+       "n": "Cardstock",
+       "old": [
+        "k97"
+       ]
+      },
+      {
+       "n": "Patterned craft paper",
+       "old": [
+        "k98"
+       ]
+      },
+      {
+       "n": "Origami paper",
+       "old": [
+        "k100"
+       ]
+      },
+      {
+       "n": "Quilling paper",
+       "old": [
+        "k101"
+       ]
+      },
+      {
+       "n": "Washi tape",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "Marbling supplies",
+       "old": []
+      },
+      {
+       "n": "Bookbinding tools and materials",
+       "old": []
+      },
+      {
+       "n": "Bone folder",
+       "old": [
+        "k111"
+       ]
+      },
+      {
+       "n": "Scrapbook album",
+       "old": [
+        "k99"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Stamping, embossing & die-cutting",
+     "web": true,
+     "brief": "Archetypes: Sizzix Big Shot (originator manual die-cutter), Spellbinders Platinum, Tim Holtz Distress ink (Ranger), VersaFine/VersaMark (Tsukineko), Hero Arts and Altenew stamps, Fiskars punches/trimmers.",
+     "k": [
+      {
+       "n": "Craft stamp",
+       "old": [
+        "k103"
+       ]
+      },
+      {
+       "n": "Ink pad",
+       "old": [
+        "k104"
+       ]
+      },
+      {
+       "n": "Embossing powder",
+       "old": [
+        "k105"
+       ]
+      },
+      {
+       "n": "Embossing heat tool",
+       "old": [
+        "k106"
+       ]
+      },
+      {
+       "n": "Cutting die",
+       "old": [
+        "k107"
+       ]
+      },
+      {
+       "n": "Manual die-cutting machine",
+       "old": [
+        "k108"
+       ]
+      },
+      {
+       "n": "Craft paper punch",
+       "old": [
+        "k109"
+       ]
+      },
+      {
+       "n": "Craft paper trimmer",
+       "old": [
+        "k110"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Jewellery making & beads",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Bead size and uniformity",
+     "w": "Bead-weaving community standard; sizes 15/0–6/0",
+     "v": "Japanese seed beads (Miyuki, Toho) > Czech (Preciosa) > unbranded"
+    },
+    {
+     "m": "Metal quality",
+     "w": "Hallmarking and findings grades",
+     "v": "plated < gold-filled < sterling 925 / karat gold"
+    }
+   ],
+   "s": [
+    {
+     "n": "Beads & stones",
+     "web": true,
+     "brief": "Archetypes: Miyuki Delica (cylinder), Toho Treasure, Preciosa Rocailles; Czech fire-polished; shaped pressed beads (SuperDuo, Tila, Rulla, O-bead); lampwork beads (Venetian/Murano tradition); freshwater and Swarovski/Preciosa crystal pearls; Swarovski (craft-channel supply ended around 2020, to verify) and Preciosa rhinestones.",
+     "k": [
+      {
+       "n": "Seed bead",
+       "old": [
+        "k112"
+       ]
+      },
+      {
+       "n": "Fire-polished glass bead",
+       "old": [
+        "k113"
+       ]
+      },
+      {
+       "n": "Shaped pressed-glass bead",
+       "old": []
+      },
+      {
+       "n": "Lampwork bead",
+       "old": []
+      },
+      {
+       "n": "Gemstone bead",
+       "old": [
+        "k114"
+       ]
+      },
+      {
+       "n": "Pearl bead",
+       "old": [
+        "k115"
+       ]
+      },
+      {
+       "n": "Rhinestone and craft stone",
+       "old": [
+        "k116"
+       ]
+      },
+      {
+       "n": "Craft shell assortment",
+       "old": [
+        "k117"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Findings, wire & stringing",
+     "web": false,
+     "brief": "Restraint: merge small findings; metal and finish as types; keep wire/solder as kinds with gauge/hardness/alloy types.",
+     "k": [
+      {
+       "n": "Clasp",
+       "old": [
+        "k118"
+       ]
+      },
+      {
+       "n": "Jump ring",
+       "old": [
+        "k119"
+       ]
+      },
+      {
+       "n": "Earring finding",
+       "old": [
+        "k120"
+       ]
+      },
+      {
+       "n": "Pins, crimps and connectors",
+       "old": [
+        "k121",
+        "k122",
+        "k125"
+       ]
+      },
+      {
+       "n": "Bail and bead cap",
+       "old": [
+        "k123",
+        "k124"
+       ]
+      },
+      {
+       "n": "Beading wire",
+       "old": [
+        "k126"
+       ]
+      },
+      {
+       "n": "Beading thread and cord",
+       "old": [
+        "k127"
+       ]
+      },
+      {
+       "n": "Jewellery wire and sheet",
+       "old": [
+        "k128"
+       ]
+      },
+      {
+       "n": "Jewellery solder",
+       "old": [
+        "k129"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Metalsmithing & beading tools",
+     "web": true,
+     "brief": "Archetypes: Lindstrom and Wubbers pliers, Knew Concepts and Pike saw frames, Smith Little Torch, bench pin and jeweller's bench (Durston, GRS), ring mandrel; metal clay (Art Clay Silver, PMC originator); vitreous enamel (Thompson). Bead looms (Mirrix).",
+     "k": [
+      {
+       "n": "Jewellery pliers",
+       "old": [
+        "k130"
+       ]
+      },
+      {
+       "n": "Jeweller's saw",
+       "old": [
+        "k131"
+       ]
+      },
+      {
+       "n": "Jewellery soldering torch",
+       "old": [
+        "k132"
+       ]
+      },
+      {
+       "n": "Jeweller's bench and bench pin",
+       "old": []
+      },
+      {
+       "n": "Ring mandrel and jeweller's hammer",
+       "old": []
+      },
+      {
+       "n": "Metal clay",
+       "old": []
+      },
+      {
+       "n": "Enamelling supplies",
+       "old": []
+      },
+      {
+       "n": "Bead loom",
+       "old": [
+        "k133"
+       ]
+      },
+      {
+       "n": "Bead design board",
+       "old": [
+        "k134"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Pottery & sculpting",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Firing range",
+     "w": "Orton pyrometric cones; clays and glazes are rated by cone",
+     "v": "low fire cone 06–04 · mid cone 5–6 · high cone 10"
+    }
+   ],
+   "s": [
+    {
+     "n": "Clay & modelling materials",
+     "web": true,
+     "brief": "Clay bodies by firing range with named bodies (Potclays, Valentine, Laguna B-Mix, Standard 266, Limoges porcelain); polymer clay (Fimo, Sculpey, Cernit, Kato); plasticine/oil clay (Newplast, Plastiline, Chavant NSP, Monster Clay). Add pottery hand tools.",
+     "k": [
+      {
+       "n": "Stoneware clay",
+       "old": [
+        "k136"
+       ]
+      },
+      {
+       "n": "Earthenware clay",
+       "old": [
+        "k135"
+       ]
+      },
+      {
+       "n": "Porcelain clay",
+       "old": [
+        "k137"
+       ]
+      },
+      {
+       "n": "Paper clay",
+       "old": [
+        "k138"
+       ]
+      },
+      {
+       "n": "Polymer clay",
+       "old": [
+        "k140"
+       ]
+      },
+      {
+       "n": "Air-dry clay",
+       "old": [
+        "k139"
+       ]
+      },
+      {
+       "n": "Modelling clay",
+       "old": [
+        "k141"
+       ],
+       "brief": "Plasticine and oil-based sculpting clay."
+      },
+      {
+       "n": "Pottery and sculpting hand tools",
+       "old": [],
+       "brief": "Ribs, loop tools, wire cutters, banding wheel (Mudtools, Kemper, DiamondCore)."
+      }
+     ]
+    },
+    {
+     "n": "Glazes & surface finishes",
+     "web": true,
+     "brief": "Glaze archetypes are named glaze families (celadon, tenmoku, shino, ash, crackle/raku, crystalline) with commercial lines (Amaco Potter's Choice, Mayco Stroke & Coat, Coyote, Botz, Spectrum). Add kintsugi repair kit (urushi vs epoxy) with a kintsugi tradition entry.",
+     "k": [
+      {
+       "n": "Glaze",
+       "old": [
+        "k142"
+       ]
+      },
+      {
+       "n": "Underglaze",
+       "old": [
+        "k143"
+       ]
+      },
+      {
+       "n": "Wax resist",
+       "old": [
+        "k144"
+       ]
+      },
+      {
+       "n": "Kintsugi repair kit",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Wheels, kilns & studio equipment",
+     "web": true,
+     "brief": "Archetypes: Shimpo VL-Whisper, Brent CXC, kick wheels (Leach), Pacifica; kilns (Skutt, L&L, Paragon, Olympic, Nabertherm, Rohde). Kiln furniture and one spare-parts entry.",
+     "k": [
+      {
+       "n": "Potter's wheel",
+       "old": [
+        "k145"
+       ]
+      },
+      {
+       "n": "Pottery kiln",
+       "old": [
+        "k146"
+       ]
+      },
+      {
+       "n": "Slab roller",
+       "old": [
+        "k147"
+       ]
+      },
+      {
+       "n": "Pugmill",
+       "old": [
+        "k148"
+       ]
+      },
+      {
+       "n": "Kiln furniture",
+       "old": [
+        "k149"
+       ]
+      },
+      {
+       "n": "Kiln spare parts",
+       "old": [
+        "k150"
+       ],
+       "brief": "Rename from 'Kiln element and parts'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Glass, resin & candle making",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Glass compatibility",
+     "w": "Fused glass must share a coefficient of expansion",
+     "v": "COE 90 (Bullseye) vs COE 96 (Oceanside/Spectrum) vs COE 104 (Effetre)"
+    }
+   ],
+   "s": [
+    {
+     "n": "Stained glass, fusing & lampwork",
+     "web": true,
+     "brief": "Sheet glass by maker: Bullseye, Oceanside (ex-Spectrum), Kokomo, Youghiogheny, Wissmach, Uroboros, Lamberts mouth-blown; lampwork rods Effetre/Moretti, Hot Head and Nortel torches; Toyo cutters, Glastar/Inland grinders, Paragon/Skutt fusing kilns. Add copper foil and lead came. Traditions: Tiffany copper-foil, Murano lampwork.",
+     "k": [
+      {
+       "n": "Stained-glass sheet",
+       "old": [
+        "k163"
+       ],
+       "brief": "Fusing glass as COE types."
+      },
+      {
+       "n": "Copper foil and lead came",
+       "old": []
+      },
+      {
+       "n": "Stained-glass solder and flux",
+       "old": [
+        "k167"
+       ]
+      },
+      {
+       "n": "Glass cutter",
+       "old": [
+        "k168"
+       ]
+      },
+      {
+       "n": "Glass pliers",
+       "old": [
+        "k169"
+       ]
+      },
+      {
+       "n": "Glass grinder",
+       "old": [
+        "k171"
+       ]
+      },
+      {
+       "n": "Glass-fusing kiln",
+       "old": [
+        "k172"
+       ]
+      },
+      {
+       "n": "Lampwork torch and glass rod",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Mosaic",
+     "web": true,
+     "brief": "Archetypes: Venetian smalti (Orsoni), vitreous glass tile (Bisazza), ceramic and stone tesserae; Leponitt wheeled nippers. Traditions: Byzantine/Roman mosaic.",
+     "k": [
+      {
+       "n": "Mosaic tile",
+       "old": [
+        "k164"
+       ]
+      },
+      {
+       "n": "Mosaic nippers",
+       "old": [
+        "k170"
+       ]
+      },
+      {
+       "n": "Mosaic grout",
+       "old": [
+        "k165"
+       ]
+      },
+      {
+       "n": "Mosaic base",
+       "old": [
+        "k166"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Resin, moulding & casting",
+     "web": true,
+     "brief": "Restraint plus market leaders: ArtResin, Resin Obsession, Smooth-On (Mold Star, Ecoflex), Alja-Safe; types for epoxy vs polyurethane resin.",
+     "k": [
+      {
+       "n": "Casting resin",
+       "old": [
+        "k151"
+       ]
+      },
+      {
+       "n": "Mould-making rubber",
+       "old": [
+        "k153"
+       ]
+      },
+      {
+       "n": "Craft mould",
+       "old": [
+        "k152"
+       ]
+      },
+      {
+       "n": "Alginate moulding powder",
+       "old": [
+        "k154"
+       ]
+      },
+      {
+       "n": "Casting plaster",
+       "old": [
+        "k155"
+       ]
+      },
+      {
+       "n": "Plaster bandage",
+       "old": [
+        "k156"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Candle & soap making",
+     "web": false,
+     "brief": "Restraint: wax types (soy, paraffin, beeswax, coconut), wick holder merged into wick; melt-and-pour vs cold-process bases as types.",
+     "k": [
+      {
+       "n": "Candle wax",
+       "old": [
+        "k157"
+       ]
+      },
+      {
+       "n": "Candle wick",
+       "old": [
+        "k158",
+        "k160"
+       ]
+      },
+      {
+       "n": "Candle mould",
+       "old": [
+        "k159"
+       ]
+      },
+      {
+       "n": "Soap base",
+       "old": [
+        "k161"
+       ]
+      },
+      {
+       "n": "Soap mould",
+       "old": [
+        "k162"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Leather, wood & natural crafts",
+   "mode": "mixed",
+   "note": "Leather is organised by tannage, then tannery and named leather.",
+   "b": [
+    {
+     "m": "Tannage and grade",
+     "w": "Tannery specifications; thickness in oz or mm",
+     "v": "chrome < combination < vegetable-tanned; full-grain > top-grain > corrected"
+    }
+   ],
+   "s": [
+    {
+     "n": "Leather",
+     "web": true,
+     "brief": "Tannery → named leather archetypes: Horween Chromexcel, Dublin and Shell Cordovan; Badalassi Carlo Pueblo and Minerva Box; Walpier Buttero; Conceria La Bretagna; Wickett & Craig and Hermann Oak harness/tooling; Tempesta Elbamatt. Weight and colour as `dt`. Add tannery brand entries.",
+     "k": [
+      {
+       "n": "Vegetable-tanned leather",
+       "old": [
+        "k173"
+       ]
+      },
+      {
+       "n": "Chrome-tanned and combination leather",
+       "old": [
+        "k174"
+       ]
+      },
+      {
+       "n": "Suede",
+       "old": [
+        "k175"
+       ]
+      },
+      {
+       "n": "Hair-on hide",
+       "old": [
+        "k176"
+       ]
+      },
+      {
+       "n": "Leather lace",
+       "old": [
+        "k177"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Leathercraft tools & finishes",
+     "web": true,
+     "brief": "Archetypes: French pricking irons and diamond chisels (Vergez Blanchard, KS Blade, Amy Roke, Crimson Hide), round and skiving knives, Craftool stamps and swivel knife (Tandy) with Sheridan-style carving tradition, Fiebing's dyes, Ritza Tiger and Vinybond threads, stitching pony.",
+     "k": [
+      {
+       "n": "Leather punch and pricking iron",
+       "old": [
+        "k178"
+       ]
+      },
+      {
+       "n": "Leather knife",
+       "old": [],
+       "brief": "Round knife, head knife, skiving knife."
+      },
+      {
+       "n": "Swivel knife",
+       "old": [
+        "k183"
+       ]
+      },
+      {
+       "n": "Leather stamping tool",
+       "old": [
+        "k182"
+       ]
+      },
+      {
+       "n": "Edge beveller and burnisher",
+       "old": []
+      },
+      {
+       "n": "Stitching pony and leather thread",
+       "old": []
+      },
+      {
+       "n": "Leather dye",
+       "old": [
+        "k180"
+       ]
+      },
+      {
+       "n": "Leather finish",
+       "old": [
+        "k181"
+       ]
+      },
+      {
+       "n": "Leathercraft hardware",
+       "old": [
+        "k179"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Basketry & chair seating",
+     "web": true,
+     "brief": "Merge the seating materials; add basketry willow. Traditions: Somerset willow, Shaker taping, Japanese bamboo basketry, Nantucket baskets.",
+     "k": [
+      {
+       "n": "Basketry willow",
+       "old": []
+      },
+      {
+       "n": "Basketry cane, reed and splint",
+       "old": [
+        "k184",
+        "k189"
+       ]
+      },
+      {
+       "n": "Chair-seating cord and tape",
+       "old": [
+        "k186",
+        "k187",
+        "k188"
+       ],
+       "brief": "Seagrass, fibre rush, Shaker tape as types."
+      },
+      {
+       "n": "Cane webbing",
+       "old": [
+        "k190"
+       ]
+      },
+      {
+       "n": "Raffia",
+       "old": [
+        "k185"
+       ]
+      },
+      {
+       "n": "Basketry and caning tool",
+       "old": [
+        "k191"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Flower arranging & pressing",
+     "web": true,
+     "brief": "Home flower arranging (not trade floristry): trim OASIS SKUs to types. Add ikebana kenzan (Ikenobo, Sogetsu traditions) and flower press.",
+     "k": [
+      {
+       "n": "Kenzan (pin frog)",
+       "old": []
+      },
+      {
+       "n": "Floral foam",
+       "old": [
+        "k192"
+       ]
+      },
+      {
+       "n": "Florist wire",
+       "old": [
+        "k193"
+       ]
+      },
+      {
+       "n": "Floral stem tape",
+       "old": [
+        "k194"
+       ]
+      },
+      {
+       "n": "Floral pin",
+       "old": [
+        "k195"
+       ]
+      },
+      {
+       "n": "Flower press",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Wood & pyrography",
+     "web": false,
+     "brief": "Restraint: keep three kinds; trim pyrography models to market-covering makers (Razertip, Colwood, Walnut Hollow).",
+     "k": [
+      {
+       "n": "Pyrography pen",
+       "old": [
+        "k198"
+       ]
+      },
+      {
+       "n": "Craft wood blank",
+       "old": [
+        "k196"
+       ]
+      },
+      {
+       "n": "Turning blank",
+       "old": [
+        "k197"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Craft tools & adhesives",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Blade standard",
+     "w": "Interchangeable blade standards (X-Acto, OLFA)",
+     "v": "#11 scalpel-type blades; 45 mm / 60 mm rotary"
+    }
+   ],
+   "s": [
+    {
+     "n": "Cutting tools & cutting machines",
+     "web": true,
+     "brief": "Tier kinds with a few archetypes: X-Acto #1 knife with #11 blade (originator), OLFA snap-off, OLFA/Fiskars rotary cutters (rotary blades as a type), Cricut Maker/Explore, Silhouette Cameo, Brother ScanNCut; Cricut EasyPress and Siser heat presses. Add craft vinyl (Siser EasyWeed HTV, Oracal 651).",
+     "k": [
+      {
+       "n": "Craft knife",
+       "old": [
+        "k200"
+       ]
+      },
+      {
+       "n": "Craft scissors",
+       "old": [
+        "k199"
+       ]
+      },
+      {
+       "n": "Rotary cutter",
+       "old": [
+        "k201",
+        "k202"
+       ],
+       "brief": "Absorbs rotary cutter blades as a type."
+      },
+      {
+       "n": "Cutting mat",
+       "old": [
+        "k203"
+       ]
+      },
+      {
+       "n": "Hot knife",
+       "old": [
+        "k204"
+       ]
+      },
+      {
+       "n": "Craft cutting machine",
+       "old": [
+        "k205"
+       ]
+      },
+      {
+       "n": "Heat press",
+       "old": [
+        "k206"
+       ]
+      },
+      {
+       "n": "Craft vinyl",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Glues & decorating",
+     "web": false,
+     "brief": "Restraint: merge glue sticks and skillet into the glue gun kind; trim to market brands (Aleene's, UHU, Bostik, Mod Podge, DecoArt Americana, FolkArt).",
+     "k": [
+      {
+       "n": "Craft glue",
+       "old": [
+        "k207"
+       ]
+      },
+      {
+       "n": "Hot-glue gun",
+       "old": [
+        "k209",
+        "k210",
+        "k211"
+       ],
+       "brief": "Glue sticks and glue skillet as types."
+      },
+      {
+       "n": "Spray adhesive",
+       "old": [
+        "k208"
+       ]
+      },
+      {
+       "n": "Decoupage medium",
+       "old": [
+        "k212"
+       ]
+      },
+      {
+       "n": "Craft paint",
+       "old": [
+        "k214"
+       ]
+      },
+      {
+       "n": "Shrink plastic sheet",
+       "old": [
+        "k215"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Scale modelling & miniature painting",
+   "mode": "variety",
+   "note": "Supplies for building and painting kits and miniatures; the kits themselves live in Toys & Games.",
+   "b": [
+    {
+     "m": "Paint chemistry",
+     "w": "Determines thinner, primer and layering order",
+     "v": "acrylic (water) vs enamel (spirit) vs lacquer (solvent)"
+    }
+   ],
+   "s": [
+    {
+     "n": "Model paints, glues & tools",
+     "web": true,
+     "brief": "Archetypes: Tamiya Color acrylic and Extra Thin Cement, Vallejo Model Color/Model Air, Citadel (Games Workshop), Army Painter, AK Interactive, Humbrol enamel, Testors, Mr. Color/Mr. Surfacer (GSI Creos), Milliput, Mig/AK weathering. Add weathering products and hobby tools (sprue cutters: God Hand).",
+     "k": [
+      {
+       "n": "Acrylic model paint",
+       "old": [
+        "k216"
+       ]
+      },
+      {
+       "n": "Enamel model paint",
+       "old": [
+        "k217"
+       ]
+      },
+      {
+       "n": "Lacquer model paint",
+       "old": [
+        "k218"
+       ]
+      },
+      {
+       "n": "Model primer",
+       "old": [
+        "k219"
+       ]
+      },
+      {
+       "n": "Model paint thinner",
+       "old": [
+        "k220"
+       ]
+      },
+      {
+       "n": "Model varnish",
+       "old": [
+        "k221"
+       ]
+      },
+      {
+       "n": "Weathering products",
+       "old": []
+      },
+      {
+       "n": "Model cement",
+       "old": [
+        "k213"
+       ]
+      },
+      {
+       "n": "Modelling putty",
+       "old": [
+        "k222"
+       ]
+      },
+      {
+       "n": "Sprue cutter and hobby tools",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Airbrushes",
+     "web": true,
+     "brief": "Archetypes: Iwata Eclipse/HP-CS, Revolution, Custom Micron; Badger Patriot/Renegade; Paasche VL/H; Harder & Steenbeck Infinity/Evolution; Sparmax. Compressors: Iwata Smart Jet, Sparmax, SilentAire. One spare-parts entry.",
+     "k": [
+      {
+       "n": "Airbrush",
+       "old": [
+        "k223"
+       ]
+      },
+      {
+       "n": "Airbrush compressor",
+       "old": [
+        "k224"
+       ]
+      },
+      {
+       "n": "Airbrush spare parts",
+       "old": [
+        "k225",
+        "k226"
+       ],
+       "brief": "Nozzles, needles, hoses as types."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}

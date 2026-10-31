@@ -1,0 +1,937 @@
+{
+ "kinds": [
+  {
+   "n": "Image editor",
+   "a": "raster image editor",
+   "d": "Program for editing and painting pixel-based images.",
+   "t": [
+    "layer-based photo editor",
+    "free and open source",
+    "browser-based",
+    "quick viewer and editor",
+    "consumer editor",
+    "mobile editor"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors",
+   "x": [
+    {
+     "n": "Adobe Photoshop",
+     "a": "",
+     "d": "The standard layer-based photo and image editor; subscription-only since CC.",
+     "mk": "Adobe",
+     "y": "1990",
+     "s": "https://en.wikipedia.org/wiki/Adobe_Photoshop",
+     "v": [
+      {
+       "n": "Photoshop 0.87",
+       "mk": "Adobe",
+       "y": "1989",
+       "d": "Pre-release, sold as Barneyscan XP"
+      },
+      {
+       "n": "Photoshop 1.0",
+       "mk": "Adobe",
+       "y": "1990"
+      },
+      {
+       "n": "Photoshop 2.0",
+       "mk": "Adobe",
+       "y": "1991",
+       "d": "Added paths and CMYK"
+      },
+      {
+       "n": "Photoshop 2.5",
+       "mk": "Adobe",
+       "y": "1992",
+       "d": "First Windows version"
+      },
+      {
+       "n": "Photoshop 3.0",
+       "mk": "Adobe",
+       "y": "1994",
+       "d": "Introduced layers"
+      },
+      {
+       "n": "Photoshop 4.0",
+       "mk": "Adobe",
+       "y": "1996"
+      },
+      {
+       "n": "Photoshop 5.0",
+       "mk": "Adobe",
+       "y": "1998"
+      },
+      {
+       "n": "Photoshop 6.0",
+       "mk": "Adobe",
+       "y": "2000"
+      },
+      {
+       "n": "Photoshop 7.0",
+       "mk": "Adobe",
+       "y": "2002"
+      },
+      {
+       "n": "Photoshop CS",
+       "mk": "Adobe",
+       "y": "2003",
+       "d": "Version 8.0"
+      },
+      {
+       "n": "Photoshop CS2",
+       "mk": "Adobe",
+       "y": "2005"
+      },
+      {
+       "n": "Photoshop CS3",
+       "mk": "Adobe",
+       "y": "2007"
+      },
+      {
+       "n": "Photoshop CS4",
+       "mk": "Adobe",
+       "y": "2008"
+      },
+      {
+       "n": "Photoshop CS5",
+       "mk": "Adobe",
+       "y": "2010"
+      },
+      {
+       "n": "Photoshop CS6",
+       "mk": "Adobe",
+       "y": "2012"
+      },
+      {
+       "n": "Photoshop CC",
+       "mk": "Adobe",
+       "y": "2013",
+       "d": "First subscription-only release"
+      }
+     ],
+     "dt": "version · Windows or Mac · Creative Cloud plan"
+    },
+    {
+     "n": "Photoshop Elements",
+     "a": "",
+     "d": "Adobe's simpler consumer editor, sold as a one-time purchase and introduced alongside Photoshop 6.",
+     "mk": "Adobe",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Adobe_Photoshop",
+     "v": [
+      {
+       "n": "Photoshop Elements",
+       "mk": "Adobe",
+       "d": "Windows and macOS; one-time purchase, not in Creative Cloud"
+      }
+     ]
+    },
+    {
+     "n": "GIMP",
+     "a": "",
+     "d": "Free and open-source raster editor begun by Spencer Kimball and Peter Mattis.",
+     "mk": "",
+     "y": "1996",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors",
+     "v": [
+      {
+       "n": "GIMP",
+       "mk": "Gimp Developers",
+       "y": "1996",
+       "d": "Licence GPL-3.0-or-later; Windows, macOS, Linux"
+      }
+     ]
+    },
+    {
+     "n": "Affinity Photo",
+     "a": "",
+     "d": "One-time-purchase photo editor from Serif; Affinity v3 (October 2025) is a free unified app owned by Canva.",
+     "mk": "Serif (Europe)",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Affinity_(software)",
+     "v": [
+      {
+       "n": "Affinity Photo",
+       "mk": "Serif (Europe)",
+       "y": "2015"
+      },
+      {
+       "n": "Affinity Photo 2",
+       "mk": "Serif (Europe)",
+       "y": "2022",
+       "d": "Universal Licence across apps and platforms"
+      },
+      {
+       "n": "Affinity 3",
+       "mk": "Canva",
+       "y": "2025",
+       "d": "Single free app released 30 October 2025"
+      }
+     ]
+    },
+    {
+     "n": "Paint.NET",
+     "a": "",
+     "d": "Windows-only freeware editor by Rick Brewster.",
+     "mk": "",
+     "y": "2004",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors",
+     "v": [
+      {
+       "n": "Paint.NET",
+       "mk": "Rick Brewster",
+       "y": "2004"
+      }
+     ]
+    },
+    {
+     "n": "Pixelmator",
+     "a": "",
+     "d": "Mac editor family by Pixelmator Team, bought by Apple in 2025.",
+     "mk": "Pixelmator Team",
+     "y": "2007",
+     "s": "https://en.wikipedia.org/wiki/Pixelmator",
+     "v": [
+      {
+       "n": "Pixelmator Classic",
+       "mk": "Pixelmator Team",
+       "y": "2007",
+       "d": "Original Mac version, no longer updated"
+      },
+      {
+       "n": "Pixelmator for iOS",
+       "mk": "Pixelmator Team",
+       "y": "2014",
+       "d": "Updates stopped January 2026"
+      },
+      {
+       "n": "Pixelmator Pro",
+       "mk": "Pixelmator Team",
+       "y": "2017",
+       "d": "Mac; came to iPad January 2026"
+      },
+      {
+       "n": "Photomator",
+       "mk": "Pixelmator Team",
+       "y": "2019",
+       "d": "Photo editor, first on iPad"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Corel PaintShop Pro",
+     "Corel"
+    ],
+    [
+     "Photopea",
+     "Ivan Kutskir"
+    ],
+    [
+     "Pinta",
+     "Jonathan Pobst"
+    ],
+    [
+     "Krita",
+     "KDE"
+    ],
+    [
+     "Microsoft Paint",
+     "Microsoft"
+    ],
+    [
+     "IrfanView",
+     "Irfan Skiljan"
+    ],
+    [
+     "XnView MP",
+     "Pierre-emmanuel Gougelet"
+    ],
+    [
+     "Zoner Photo Studio",
+     "Zoner"
+    ],
+    [
+     "PhotoLine",
+     "Computerinsel"
+    ],
+    [
+     "GraphicConverter",
+     "Thorsten Lemke"
+    ],
+    [
+     "Acorn",
+     "Flying Meat"
+    ],
+    [
+     "Pixlr",
+     ""
+    ],
+    [
+     "PhotoScape",
+     ""
+    ],
+    [
+     "ImageJ",
+     "Wayne Rasband"
+    ],
+    [
+     "G'MIC",
+     "David Tschumperlé"
+    ],
+    [
+     "Xara Photo & Graphic Designer",
+     "Xara"
+    ]
+   ]
+  },
+  {
+   "n": "Photo manager & RAW developer",
+   "a": "RAW developer",
+   "d": "Program that catalogues, views and develops photographs, including camera RAW files.",
+   "t": [
+    "catalogue",
+    "RAW converter",
+    "free and open source",
+    "cloud photo library",
+    "built-in OS photos app"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Category:Raw_image_processing_software",
+   "x": [
+    {
+     "n": "Lightroom Classic",
+     "a": "",
+     "d": "Adobe's desktop catalogue and RAW editor storing files locally; first released as Lightroom in 2007.",
+     "mk": "Adobe",
+     "y": "2007",
+     "s": "https://en.wikipedia.org/wiki/Adobe_Lightroom",
+     "v": [
+      {
+       "n": "Lightroom",
+       "mk": "Adobe",
+       "y": "2007",
+       "d": "Released 19 February 2007"
+      },
+      {
+       "n": "Lightroom Classic CC",
+       "mk": "Adobe",
+       "y": "2017",
+       "d": "Renamed when Lightroom CC appeared"
+      },
+      {
+       "n": "Lightroom Classic",
+       "mk": "Adobe",
+       "y": "2019",
+       "d": "Current name"
+      }
+     ]
+    },
+    {
+     "n": "Lightroom",
+     "a": "",
+     "d": "Adobe's cloud-based Lightroom for phone, tablet, web and desktop.",
+     "mk": "Adobe",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/Adobe_Lightroom",
+     "v": [
+      {
+       "n": "Lightroom for iPad",
+       "mk": "Adobe",
+       "y": "2014",
+       "d": "April 2014"
+      },
+      {
+       "n": "Lightroom CC",
+       "mk": "Adobe",
+       "y": "2017",
+       "d": "Desktop version, October 2017"
+      },
+      {
+       "n": "Lightroom",
+       "mk": "Adobe",
+       "y": "2019",
+       "d": "Renamed from Lightroom CC"
+      }
+     ]
+    },
+    {
+     "n": "Capture One",
+     "a": "",
+     "d": "RAW developer and tethering tool from Phase One, first released as LightPhase Capture in 1998.",
+     "mk": "Phase One",
+     "y": "1998",
+     "s": "https://en.wikipedia.org/wiki/Capture_One",
+     "v": [
+      {
+       "n": "LightPhase Capture",
+       "mk": "Phase One",
+       "y": "1998"
+      },
+      {
+       "n": "Capture One",
+       "mk": "Phase One",
+       "y": "2002",
+       "d": "Renamed in 2002"
+      },
+      {
+       "n": "Capture One Pro",
+       "mk": "Capture One A/S",
+       "y": "2019",
+       "d": "Subscription or perpetual licence; software business separated 2019"
+      },
+      {
+       "n": "Fujifilm RAW Converter",
+       "mk": "Capture One A/S",
+       "y": "2023",
+       "d": "Free for eligible Fujifilm owners"
+      }
+     ]
+    },
+    {
+     "n": "darktable",
+     "a": "",
+     "d": "Free and open-source RAW developer and photo workflow by Johannes Hanika.",
+     "mk": "",
+     "y": "2009",
+     "s": "https://en.wikipedia.org/wiki/Darktable",
+     "v": [
+      {
+       "n": "darktable",
+       "y": "2009",
+       "d": "GPL-3.0-or-later; Linux, macOS, Windows"
+      }
+     ]
+    },
+    {
+     "n": "DxO PhotoLab",
+     "a": "",
+     "d": "RAW developer known for lens and camera corrections, first released as DxO Optics Pro in 2004.",
+     "mk": "DxO Labs",
+     "y": "2004",
+     "s": "https://en.wikipedia.org/wiki/DxO_Labs",
+     "v": [
+      {
+       "n": "DxO Optics Pro",
+       "mk": "DxO Labs",
+       "y": "2004"
+      },
+      {
+       "n": "DxO PhotoLab",
+       "mk": "DxO Labs",
+       "d": "Successor name"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Adobe Bridge",
+     "Adobe"
+    ],
+    [
+     "Photos (Apple)",
+     "Apple"
+    ],
+    [
+     "Photos (Windows)",
+     "Microsoft"
+    ],
+    [
+     "Google Photos",
+     "Google"
+    ],
+    [
+     "ON1 Photo RAW",
+     "ON1"
+    ],
+    [
+     "Luminar Neo",
+     "Skylum"
+    ],
+    [
+     "Zoner Photo Studio",
+     "Zoner"
+    ],
+    [
+     "ACDSee",
+     ""
+    ],
+    [
+     "RawTherapee",
+     ""
+    ],
+    [
+     "digiKam",
+     ""
+    ],
+    [
+     "Photo Mechanic",
+     ""
+    ],
+    [
+     "Corel AfterShot Pro",
+     "Corel"
+    ],
+    [
+     "Iridient Developer",
+     "Iridient Digital"
+    ],
+    [
+     "Silkypix Developer Studio",
+     ""
+    ],
+    [
+     "Digital Photo Professional",
+     ""
+    ],
+    [
+     "Affinity",
+     "Serif (Europe)"
+    ]
+   ]
+  },
+  {
+   "n": "AI image generator",
+   "a": "",
+   "d": "Program or hosted tool that makes or changes images from a text or image prompt; making new images and editing existing ones are the same product type.",
+   "t": [
+    "hosted chat service",
+    "Discord bot",
+    "open-weights model",
+    "built into design software"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Text-to-image_model",
+   "x": [
+    {
+     "n": "Midjourney",
+     "a": "",
+     "d": "Hosted text-to-image service by David Holz, used through Discord and a website; open beta from July 2022.",
+     "mk": "Midjourney",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Midjourney",
+     "v": [
+      {
+       "n": "Midjourney V1",
+       "mk": "Midjourney",
+       "y": "2022",
+       "d": "February 2022"
+      },
+      {
+       "n": "V2",
+       "mk": "Midjourney",
+       "y": "2022",
+       "d": "April 2022"
+      },
+      {
+       "n": "V3",
+       "mk": "Midjourney",
+       "y": "2022",
+       "d": "July 2022"
+      },
+      {
+       "n": "V4",
+       "mk": "Midjourney",
+       "y": "2022",
+       "d": "November 2022"
+      },
+      {
+       "n": "V5",
+       "mk": "Midjourney",
+       "y": "2023",
+       "d": "March 2023"
+      },
+      {
+       "n": "V5.2",
+       "mk": "Midjourney",
+       "y": "2023"
+      },
+      {
+       "n": "V6",
+       "mk": "Midjourney",
+       "y": "2023",
+       "d": "December 2023"
+      },
+      {
+       "n": "V6.1",
+       "mk": "Midjourney",
+       "y": "2024"
+      },
+      {
+       "n": "V7",
+       "mk": "Midjourney",
+       "y": "2025",
+       "d": "April 2025"
+      },
+      {
+       "n": "V8",
+       "mk": "Midjourney",
+       "y": "2026",
+       "d": "March 2026"
+      },
+      {
+       "n": "V8.1",
+       "mk": "Midjourney",
+       "y": "2026",
+       "d": "April 2026"
+      },
+      {
+       "n": "V8.2",
+       "mk": "Midjourney",
+       "y": "2026",
+       "d": "July 2026"
+      }
+     ]
+    },
+    {
+     "n": "DALL-E and GPT Image",
+     "a": "",
+     "d": "OpenAI's image generators, from DALL-E in 2021 to GPT Image inside ChatGPT.",
+     "mk": "OpenAI",
+     "y": "2021",
+     "s": "https://en.wikipedia.org/wiki/GPT_Image",
+     "v": [
+      {
+       "n": "DALL-E",
+       "mk": "OpenAI",
+       "y": "2021",
+       "d": "Revealed 5 January 2021"
+      },
+      {
+       "n": "DALL-E 2",
+       "mk": "OpenAI",
+       "y": "2022",
+       "d": "Announced April 2022"
+      },
+      {
+       "n": "DALL-E 3",
+       "mk": "OpenAI",
+       "y": "2023",
+       "d": "In ChatGPT from October 2023"
+      },
+      {
+       "n": "GPT Image 1",
+       "mk": "OpenAI",
+       "y": "2025",
+       "d": "In ChatGPT March 2025; API April 2025"
+      },
+      {
+       "n": "GPT Image 1.5",
+       "mk": "OpenAI",
+       "y": "2025",
+       "d": "December 2025"
+      },
+      {
+       "n": "GPT Image 2",
+       "mk": "OpenAI",
+       "y": "2026",
+       "d": "April 2026"
+      },
+      {
+       "n": "GPT Image 2.5",
+       "mk": "OpenAI",
+       "y": "2026",
+       "d": "September 2026"
+      }
+     ]
+    },
+    {
+     "n": "Stable Diffusion",
+     "a": "",
+     "d": "Open-weights latent diffusion model from Stability AI, Runway and CompVis, released August 2022.",
+     "mk": "Stability AI",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Stable_diffusion",
+     "v": [
+      {
+       "n": "Stable Diffusion 1.x",
+       "mk": "Stability AI",
+       "y": "2022"
+      },
+      {
+       "n": "Stable Diffusion 2.x",
+       "mk": "Stability AI",
+       "y": "2022"
+      },
+      {
+       "n": "SDXL 1.0",
+       "mk": "Stability AI",
+       "y": "2023"
+      },
+      {
+       "n": "Stable Diffusion 3",
+       "mk": "Stability AI",
+       "y": "2024",
+       "d": "Early preview"
+      },
+      {
+       "n": "Stable Diffusion 3.5",
+       "mk": "Stability AI",
+       "y": "2024"
+      }
+     ],
+     "dt": "checkpoint · front end (local UI) · licence"
+    },
+    {
+     "n": "Adobe Firefly",
+     "a": "",
+     "d": "Adobe's image generator built into Creative Cloud apps; public beta March 2023.",
+     "mk": "Adobe",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Adobe_Firefly",
+     "v": [
+      {
+       "n": "Firefly",
+       "mk": "Adobe",
+       "y": "2023",
+       "d": "Announced September 2022"
+      },
+      {
+       "n": "Firefly Image 4",
+       "mk": "Adobe",
+       "y": "2025",
+       "d": "April 2025"
+      },
+      {
+       "n": "Firefly Image Model 5",
+       "mk": "Adobe",
+       "y": "2025",
+       "d": "Announced October 2025"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Flux",
+     "Black Forest Labs"
+    ],
+    [
+     "Imagen",
+     "Google"
+    ],
+    [
+     "Ideogram",
+     "Ideogram"
+    ],
+    [
+     "Recraft",
+     "Recraft"
+    ],
+    [
+     "Qwen-Image",
+     "Alibaba"
+    ],
+    [
+     "HiDream",
+     "HiDream-AI"
+    ],
+    [
+     "Kolors",
+     "Kuaishou"
+    ],
+    [
+     "Seedream 5 Pro",
+     "ByteDance"
+    ],
+    [
+     "HunyuanImage",
+     "Tencent"
+    ],
+    [
+     "Aurora",
+     "xAI"
+    ],
+    [
+     "Krea 3",
+     "Krea"
+    ]
+   ]
+  },
+  {
+   "n": "Creative suite",
+   "a": "",
+   "d": "All-apps bundle of one maker's creative programs, sold under its own name rather than after one program. Editions and plans are the same product.",
+   "t": [
+    "subscription",
+    "one-time purchase",
+    "single-app plan",
+    "photography plan"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Adobe_Creative_Suite_4",
+   "x": [
+    {
+     "n": "Adobe Creative Suite and Creative Cloud",
+     "a": "",
+     "d": "Adobe's bundle of design, photo, video and web programs, sold as boxed suites until 2012 and by subscription from 2013.",
+     "mk": "Adobe",
+     "y": "2003",
+     "s": "https://en.wikipedia.org/wiki/Adobe_Creative_Suite",
+     "v": [
+      {
+       "n": "Creative Suite (CS1)",
+       "mk": "Adobe",
+       "y": "2003",
+       "d": "Standard, Premium"
+      },
+      {
+       "n": "CS2",
+       "mk": "Adobe",
+       "y": "2005",
+       "d": "Standard, Premium"
+      },
+      {
+       "n": "CS3",
+       "mk": "Adobe",
+       "y": "2007",
+       "d": "Design, Web, Production Premium and Master Collection editions"
+      },
+      {
+       "n": "CS4",
+       "mk": "Adobe",
+       "y": "2008",
+       "d": "Same editions as CS3"
+      },
+      {
+       "n": "CS5",
+       "mk": "Adobe",
+       "y": "2010",
+       "d": "Web Standard dropped"
+      },
+      {
+       "n": "CS5.5",
+       "mk": "Adobe",
+       "y": "2011"
+      },
+      {
+       "n": "CS6",
+       "mk": "Adobe",
+       "y": "2012",
+       "d": "Design Standard, Design & Web Premium, Production Premium, Master Collection"
+      },
+      {
+       "n": "Creative Cloud",
+       "mk": "Adobe",
+       "y": "2013",
+       "d": "Subscription-only; plans: Photography, Single App, All Apps; announced 2011"
+      }
+     ],
+     "dt": "plan (Photography, Single App, All Apps) · individual, student or business"
+    },
+    {
+     "n": "Affinity",
+     "a": "",
+     "d": "Serif's Designer, Photo and Publisher apps, merged into one free app in 2025 under Canva.",
+     "mk": "Serif (Europe)",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/Affinity_(software)",
+     "v": [
+      {
+       "n": "Affinity Designer",
+       "mk": "Serif (Europe)",
+       "y": "2014"
+      },
+      {
+       "n": "Affinity Photo",
+       "mk": "Serif (Europe)",
+       "y": "2015"
+      },
+      {
+       "n": "Affinity Publisher",
+       "mk": "Serif (Europe)",
+       "y": "2019"
+      },
+      {
+       "n": "Affinity V2",
+       "mk": "Serif (Europe)",
+       "y": "2022",
+       "d": "Universal Licence"
+      },
+      {
+       "n": "Affinity 3",
+       "mk": "Canva",
+       "y": "2025",
+       "d": "Single app, free; Canva AI features need Canva Pro"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Adobe",
+   "c": "United States",
+   "f": "1982",
+   "seg": "Professional & flagship",
+   "kf": "creative software, PDF",
+   "d": "American maker of Acrobat and the Creative Cloud apps.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Apple",
+   "c": "United States",
+   "f": "1976",
+   "seg": "Premium",
+   "kf": "Mac, iPhone",
+   "d": "American hardware and software company.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Phase One",
+   "c": "Denmark",
+   "f": "1993",
+   "seg": "Professional & flagship",
+   "kf": "medium format, Capture One",
+   "d": "Danish maker of medium-format cameras and the Capture One software.",
+   "s": "knowledge"
+  },
+  {
+   "n": "DxO Labs",
+   "c": "France",
+   "f": "2003",
+   "seg": "Specialist",
+   "kf": "RAW conversion",
+   "d": "French photography software company, formerly DO Labs.",
+   "s": "https://en.wikipedia.org/wiki/DxO_Labs"
+  },
+  {
+   "n": "Pixelmator Team",
+   "c": "Lithuania",
+   "f": "2007",
+   "seg": "Specialist",
+   "kf": "Mac image editing",
+   "d": "Vilnius company founded by Saulius and Aidas Dailide, bought by Apple in 2025.",
+   "s": "https://en.wikipedia.org/wiki/Pixelmator"
+  },
+  {
+   "n": "OpenAI",
+   "c": "United States",
+   "f": "2015",
+   "seg": "Mainstream",
+   "kf": "ChatGPT, DALL-E",
+   "d": "American AI company behind ChatGPT, DALL-E and GPT Image.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Midjourney",
+   "c": "United States",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "AI images",
+   "d": "San Francisco company behind the Midjourney image service.",
+   "s": "https://en.wikipedia.org/wiki/Midjourney"
+  },
+  {
+   "n": "Stability AI",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "Stable Diffusion",
+   "d": "Company behind Stable Diffusion.",
+   "s": "https://en.wikipedia.org/wiki/Stable_diffusion"
+  }
+ ],
+ "traditions": [],
+ "notes": "Image editor: 140-odd old names reduced to six archetypes (Photoshop with versions 0.87 to CC from the fetched page, Elements, GIMP, Affinity Photo, Paint.NET, Pixelmator) plus 16 flat tools. Digital-painting/drawing apps (ArtRage, Corel Painter, Clip Studio Paint, Procreate) belong with the Drawing shelf and were left out except Krita; dead tails dropped (MacPaint, Deluxe Paint, Aldus PhotoStyler, PhotoDeluxe, Fireworks, Serif PhotoPlus, PC Paintbrush, Picnik, Quantel Paintbox and similar). Photo manager: 5 archetypes (Lightroom Classic, Lightroom, Capture One, darktable, DxO PhotoLab) plus 16 flat; dropped dead (Aperture, iPhoto, Picasa, Bibble, F-Spot, Photoshop Album, Windows Photo Gallery, Phase One Media Pro, Shutterfly Studio) and minor Linux/viewer tools. AI image generator: 4 archetypes (Midjourney, DALL-E/GPT Image, Stable Diffusion, Firefly) plus 11; dropped Halfmoon, MiniMax H3, AuraFlow, FLUX.2 variants, Seedream Lite, Nano Banana 2, Krea 2. Creative suite: Adobe archetype with CS1-CS6 and CC from fetched pages; Affinity archetype. Corel and Serif-era Corel suites not covered by a retrieved page, so omitted."
+}

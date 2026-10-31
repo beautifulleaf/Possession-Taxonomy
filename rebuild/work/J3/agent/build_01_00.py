@@ -1,0 +1,103 @@
+import json, os
+W = 'https://en.wikipedia.org/wiki/'
+FR = 'https://fr.wikipedia.org/wiki/'
+butter = {
+ "n": "Butter", "a": "beurre · mantequilla · Butter · tereyağı · makkhan",
+ "d": "Churned milk fat and water, sold salted or unsalted, from sweet or cultured cream.",
+ "t": ["salted", "unsalted", "sweet cream", "cultured (European-style)", "whey butter", "raw-milk", "flavoured / compound", "Indian white butter (makkhan)"],
+ "s": "https://kerrygold.com/products/",
+ "x": [
+  {"n": "Beurre Charentes-Poitou PDO", "a": "Beurre des Charentes · Beurre des Deux-Sèvres", "d": "Cultured butter from raw milk of Charentes and Poitou, cream pasteurised and matured with starter cultures before churning.",
+   "mk": "", "y": "AOC 1979; AOP 2009", "s": FR + "Beurre_Charentes-Poitou",
+   "v": [{"n": "Échiré", "mk": "Échiré"}, {"n": "Pamplie"}, {"n": "Celles-sur-Belle"}, {"n": "La Viette"},
+         {"n": "Maison Lescure", "mk": "Elvir", "d": "formerly made by the GLAC cooperative at Surgères"}, {"n": "Grand Fermage", "mk": "Eurial"}, {"n": "Montaigu"}],
+   "dt": "salted or unsalted · no colourings or deacidifiers · thick-cream aroma with fruity notes"},
+  {"n": "Beurre d'Échiré", "a": "Échiré butter", "d": "Charentes-Poitou PDO butter of the Échiré dairy cooperative, cream matured 18 hours and churned in wooden churns.",
+   "mk": "Échiré", "y": "1894", "s": "https://www.niortmaraispoitevin.com/en/patrimoine-culturel/laiterie-cooperative-dechire/", "v": [],
+   "dt": "milk from farms within 50 km · wooden-churned · hazelnut notes"},
+  {"n": "Beurre d'Isigny PDO", "a": "Isigny butter", "d": "Butter from raw milk of the Baie des Veys around Isigny-sur-Mer, made and packed within the zone.",
+   "mk": "", "y": "AOC 1986; AOP 2017", "s": FR + "Beurre_d%27Isigny",
+   "v": [{"n": "Beurre d'Isigny", "mk": "Isigny Sainte-Mère"}],
+   "dt": "salt at most 2 g per 100 g · no whey cream, frozen cream or colourings · 192 communes in Manche and Calvados"},
+  {"n": "Beurre de Bresse PDO", "a": "Bresse butter", "d": "Mild churned butter from matured cream of the Bresse plain, deep yellow with hazelnut and walnut notes.",
+   "mk": "", "y": "AOC 2012; AOP 2014", "s": FR + "Beurre_de_Bresse",
+   "v": [{"n": "Étrez / Coq d'Or", "mk": "Laiterie Coopérative d'Étrez-Foissiat"}, {"n": "La Bressane", "mk": "Laiterie de Bresse"}],
+   "dt": "Ain, Saône-et-Loire, Jura · paler in winter · supple, spreadable"},
+  {"n": "Bordier butter", "a": "Le Beurre Bordier · Maison du Beurre", "d": "Butter kneaded with a teak frame and wheel and salted by hand at Jean-Yves Bordier's Saint-Malo creamery.",
+   "mk": "Bordier", "y": "1985", "s": "https://thegoodlifefrance.com/la-maison-du-beurre-butter-heaven-in-brittany", "v": [],
+   "dt": "salted or flavoured: seaweed, buckwheat, yuzu, smoked salt, raspberry, Madagascar vanilla, Espelette chilli, Szechuan pepper · hand-shaped with paddles"},
+  {"n": "Beurre Rose", "a": "Marque nationale du Grand-Duché de Luxembourg", "d": "Cultured butter of Luxembourg sold under the state's Marque nationale, named after its pink quality label.",
+   "mk": "", "y": "1932 designation; PDO 2000", "s": W + "Beurre_Rose", "v": [], "dt": ""},
+  {"n": "Mantequilla de Soria PDO", "a": "Soria butter", "d": "Butter from almost the whole province of Soria, sold natural, salted or sweetened.",
+   "mk": "", "y": "regulation 2004", "s": "https://es.wikipedia.org/wiki/Mantequilla_de_Soria",
+   "v": [{"n": "Natural"}, {"n": "Salada", "d": "salted"}, {"n": "Dulce", "d": "sugar syrup worked into natural butter, traditionally coloured"}],
+   "dt": "Consejo Regulador back label since 2007"},
+  {"n": "Beurre d'Ardenne PDO", "a": "", "d": "Protected-origin butter of the Belgian Ardennes.", "mk": "", "y": "", "s": W + "Butter", "v": [], "dt": ""},
+  {"n": "Mantega de l'Alt Urgell i la Cerdanya PDO", "a": "Mantequilla de l'Alt Urgell y la Cerdanya", "d": "Protected-origin butter of the Catalan Pyrenees.", "mk": "", "y": "", "s": W + "Butter", "v": [], "dt": ""},
+  {"n": "Rucava white butter", "a": "", "d": "Protected Latvian white butter from Rucava.", "mk": "", "y": "", "s": W + "Butter", "v": [], "dt": ""}
+ ],
+ "m": [["Lurpak Slightly Salted Butter", "Arla Foods"], ["Kerrygold Pure Irish Butter", "Kerrygold"], ["Président butter", "Lactalis"],
+       ["Anchor Butter", "Anchor"], ["Land O'Lakes Butter", "Land O'Lakes"], ["Amul Butter", "Amul"],
+       ["Meander Valley Salted Cultured Butter", "Meander Valley"], ["Snow Brand Hokkaido Butter", "Megmilk Snow Brand"],
+       ["Almarai Natural Unsalted Butter", "Almarai"], ["Clover Salted Butter", "Clover S.A."], ["Sütaş Yayık Tereyağ", "Sütaş"],
+       ["Pınar Tereyağı", "Pınar Süt Ürünleri"], ["Colun Mantequilla con Sal", "Colun"], ["Vigor Manteiga Extra", "Vigor"],
+       ["Do Me A Flavour Truffle & Pink Peppercorn Butter", "Do Me A Flavour"], ["Burro a latte crudo dell’alto Elvo", ""], ["Tonya tereyağı GI", ""]]
+}
+ghee = {
+ "n": "Ghee & clarified butter", "a": "ghee · desi ghee · samneh · clarified butter · beurre fondu",
+ "d": "Butterfat with water and milk solids removed; ghee is simmered further until the solids brown for a nutty flavour.",
+ "t": ["cow ghee", "buffalo ghee", "A2 / bilona (desi) ghee", "clarified butter", "smen (salted, fermented)", "niter kibbeh (spiced)", "manteiga-da-terra"],
+ "s": "https://www.wholefoodsmarket.com/product/organic-valley-organic-ghee-clarified-butter-75-oz-b000qx94je",
+ "x": [{"n": "Şanlıurfa sadeyağı GI", "a": "Urfa butter", "d": "Clarified butter of Şanlıurfa in south-east Turkey, protected as a geographical indication.", "mk": "", "y": "", "s": W + "Ghee", "v": [], "dt": ""}],
+ "m": [["Amul Ghee (pure, cow, Gir cow, buffalo, high-aroma, brown)", "Amul"], ["Sagar Ghee", "Amul"], ["Mother Dairy Ghee", "Mother Dairy"],
+       ["Gowardhan Ghee", "Parag Milk Foods"], ["Verka Cow Ghee", "Punjab Milk Producers Federation (Verka)"], ["Heritage Hi Aroma Ghee", "Heritage Foods"],
+       ["Hatsun Ghee", "Hatsun Agro Product"], ["Milma Ghee", "Kerala Co-operative Milk Marketing Federation (Milma)"], ["Vita Desi Cow Ghee", "Vita (Haryana state dairy)"],
+       ["Milky Mist Ghee", "Milky Mist Dairy Food"], ["Akshayakalpa Organic Desi Cow Ghee", "Akshayakalpa Organic"], ["Haleeb Asli Desi Ghee", "Haleeb Foods"],
+       ["Milk Vita Ghee", "Milk Vita (Bangladesh Milk Producers' Cooperative Union)"], ["Pelwatte Ghee Oil", "Pelwatta Dairy Industries"],
+       ["KCC Super Fine Ghee", "New Kenya Co-operative Creameries (New KCC)"], ["Organic Valley Organic Ghee", "Organic Valley"]]
+}
+spread = {
+ "n": "Spreadable butter", "a": "spreadable butter blend · butter spread",
+ "d": "Butter blended with vegetable oil so it spreads straight from the fridge.",
+ "t": ["slightly salted", "lighter / reduced fat", "with rapeseed or canola oil", "with olive oil", "organic"],
+ "s": "https://www.lurpak.com/en/products/lurpak-spreadable-slightly-salted-250g/",
+ "m": [["Lurpak Spreadable", "Arla Foods"], ["Lurpak Lighter", "Arla Foods"], ["Kerrygold Spreadable with Olive Oil", "Kerrygold"],
+       ["Anchor Spreadable", "Anchor"], ["Land O'Lakes Butter with Canola Oil", "Land O'Lakes"], ["Land O'Lakes Butter with Olive Oil & Sea Salt", "Land O'Lakes"]]
+}
+brands = [
+ {"n": "Échiré", "c": "France", "f": "1894", "seg": "PDO cooperative butter", "d": "Dairy cooperative at Échiré (Deux-Sèvres) making Charentes-Poitou PDO butter in wooden churns.",
+  "lines": ["Beurre d'Échiré"], "eras": [], "sig": ["Beurre d'Échiré"], "sc": [], "rel": [], "s": "https://www.niortmaraispoitevin.com/en/patrimoine-culturel/laiterie-cooperative-dechire/"},
+ {"n": "Bordier", "c": "France", "f": "1985", "seg": "artisan butter maker", "d": "Jean-Yves Bordier's Saint-Malo butter house, known for hand-kneaded and flavoured butters.",
+  "lines": ["flavoured butters", "La Maison du Beurre", "Autour du Beurre"], "eras": ["Jean-Yves Bordier, from 1985"], "sig": ["Bordier butter"], "sc": [], "rel": [], "s": "https://thegoodlifefrance.com/la-maison-du-beurre-butter-heaven-in-brittany"},
+ {"n": "Isigny Sainte-Mère", "c": "France", "f": "", "seg": "Normandy dairy cooperative", "d": "Isigny-sur-Mer cooperative making PDO butter and cream, Mimolette and Camembert.",
+  "lines": ["Beurre d'Isigny", "Crème d'Isigny"], "eras": [], "sig": ["Beurre d'Isigny PDO"], "sc": [], "rel": [], "s": W + "Isigny_Sainte-M%C3%A8re"},
+ {"n": "Lurpak", "c": "Denmark", "f": "1901", "seg": "mass-market premium butter", "d": "Danish butter brand of Arla Foods.",
+  "lines": ["Slightly Salted", "Unsalted", "Spreadable", "Lighter", "Softest"], "eras": [], "sig": [], "sc": [], "rel": ["Arla Foods"], "s": W + "Lurpak"},
+ {"n": "Kerrygold", "c": "Ireland", "f": "1962", "seg": "mass-market grass-fed butter", "d": "Irish butter and cheese brand of Ornua, the export cooperative of Irish dairy co-ops.",
+  "lines": ["Pure Irish Butter", "Spreadable"], "eras": [], "sig": [], "sc": [], "rel": ["Ornua"], "s": W + "Kerrygold"},
+ {"n": "Président", "c": "France", "f": "1933", "seg": "mass-market dairy", "d": "Lactalis brand for butter and industrial versions of French cheeses.",
+  "lines": ["butter", "Camembert", "Brie"], "eras": [], "sig": [], "sc": [], "rel": ["Lactalis"], "s": W + "Pr%C3%A9sident_(brand)"},
+ {"n": "Anchor", "c": "New Zealand", "f": "1886", "seg": "mass-market butter", "d": "New Zealand dairy brand of Fonterra; UK block butter made by Arla since 2012.",
+  "lines": ["Anchor Butter", "Anchor Spreadable"], "eras": [], "sig": [], "sc": [], "rel": ["Fonterra", "Arla Foods", "Lactalis"], "s": W + "Anchor_(brand)"},
+ {"n": "Land O'Lakes", "c": "United States", "f": "1921", "seg": "mass-market butter", "d": "Minnesota dairy cooperative, one of the largest US butter and cheese producers.",
+  "lines": ["sweet cream butter", "butter with oil"], "eras": [], "sig": [], "sc": [], "rel": [], "s": W + "Land_O%27Lakes"},
+ {"n": "Amul", "c": "India", "f": "1946", "seg": "cooperative dairy, mass market", "d": "Anand-based Indian dairy cooperative brand marketed by GCMMF, known for Amul butter and the Amul girl.",
+  "lines": ["Amul Butter", "Amul Ghee", "Sagar"], "eras": [], "sig": [], "sc": [], "rel": [], "s": W + "Amul"}
+]
+trads = [{"n": "Indian ghee (desi / bilona)", "g": "Food & drink", "r": "Indian subcontinent", "p": "traditional, ongoing",
+  "d": "Ghee made by culturing boiled milk into curd, churning out the butter and simmering it until the solids brown.",
+  "tech": "milk set to curd (dahi), churned in a wooden bilona to separate makhan from chaas, butter slowly heated and strained",
+  "mat": "cow or water-buffalo milk, curd starter", "forms": ["cow ghee", "buffalo ghee", "bilona ghee"],
+  "ctr": ["Maharashtra", "Rajasthan", "Karnataka", "Tamil Nadu", "Bengal", "Gujarat", "Odisha"],
+  "auth": "ingredient list of milk or butter only; nutty, caramel aroma; cream-based ghee skips the curd step", "s": W + "Ghee"}]
+notes = ("Butter: cut 54 flat models to 17 (global market brands Lurpak, Kerrygold, Président, Anchor, Land O'Lakes, Amul; CHOICE 2022 test leaders Kerrygold Pure Irish Salted 79%, "
+ "Lurpak Slightly Salted and Meander Valley Salted Cultured 76%; regional leaders in Japan, Gulf, South Africa, Turkey, Chile, Brazil; one flavoured and two GI examples). "
+ "Dropped the Turkish and South Asian SKU long tail (Eker, Enka, Taraklı, Teksüt, Torku, İtimat, İçim, Milma, Verka, Vita, Gowardhan, Heritage, Milky Mist, Akshayakalpa, Aarong, PRAN, Haleeb, Pelwatte, Kotmale), "
+ "plus Connacht Gold, Colanta, Dina Farms, Bonnita, Paulista, Milbona, KCC, Piracanjuba, Soprole, Verónica, First Choice, Kerrygold Naturally Softer. "
+ "PDO butters became archetypes with producers as versions; Lurpak range dropped (now a model). Elle & Vire not added (no page retrieved); Beurre d'Échiré has no versions because none were confirmed. "
+ "Ghee: merged old Ghee and Clarified butter; Amul's five ghees are one model; smen, niter kibbeh, manteiga-da-terra are types; Şanlıurfa sadeyağı is an archetype (Urfa butter in the Ghee article). "
+ "Spreadable butter: Lurpak Spreadable maker fixed to Arla Foods, duplicate range dropped, Anchor Spreadable added from the Anchor article. "
+ "Which? spreadable test (Aldi Nordpak winner) not used: article fetch blocked (403).")
+out = {"kinds": [butter, ghee, spread], "brands": brands, "traditions": trads, "notes": notes}
+p = 'work/J3/shelves/01_00.json'; tmp = p + '.tmp'
+json.dump(out, open(tmp, 'w'), ensure_ascii=False, indent=1); os.replace(tmp, p)

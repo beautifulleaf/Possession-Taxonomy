@@ -1,0 +1,57 @@
+import json, os
+W="https://en.wikipedia.org/wiki/"
+kinds=[
+{"n":"Guitar case and gig bag","a":"guitar case · gig bag · hard case · soft case","d":"Hard case or padded soft bag made to carry and protect one guitar or bass.",
+ "t":["hard shell (wood or moulded)","moulded polymer case","foam-core lightweight case","padded gig bag","guitar backpack","electric / acoustic / classical / bass shape"],
+ "s":"https://www.sweetwater.com/c933--Electric_Guitar_Gig_Bags",
+ "m":[["4G Series for Electric Guitar","Gator"],["Pro-Go G-PG ELECTRIC","Gator"],["Economy Gig Bag","Gator"],["The Tick 2.0","MONO"],["M80 Vertigo Ultra Electric","MONO"]],
+ "r":[["ICON","Gator"],["Transit","Gator"],["M80","MONO"],["Classic","MONO"],["Chroma","Levy's"],["Powerpad","Ibanez"],["Gigbag","Fender"]]},
+{"n":"Music stand","a":"sheet music stand · orchestral stand","d":"Stand that holds sheet music or a tablet at reading height so the player has both hands free.",
+ "t":["folding wire stand","non-folding orchestral (symphony) stand","tabletop stand","conductor's stand","wooden or brass home stand","marching lyre","tablet holder"],
+ "s":"https://www.sweetwater.com/c763--Music_Stands",
+ "m":[["Model 48 Symphony","Manhasset"],["Model 48TA Tall Symphony","Manhasset"],["Model 53 Tabletop","Manhasset"],["Model 2000 Acoustic Shield","Manhasset"],["KB400N Folding Music Stand","Hamilton"],["SMS-40","Peak"],["Rok-It Folding Sheet Music Stand","Gator"]],
+ "r":[["Topline","K&M"],["Baseline","K&M"],["Classic","Hamilton"],["Frameworks","Gator"]]},
+{"n":"Instrument stand","a":"guitar stand · keyboard stand · wall hanger · instrument rack","d":"Floor stand, rack or wall hanger that holds an instrument safely when it is not being played.",
+ "t":["guitar A-frame or tripod stand","multi-guitar rack","wall hanger","keyboard X-stand or Z-stand","wind and brass instrument peg","violin and cello stand"],
+ "s":"https://www.bonedo.de/artikel/60-jahre-koenig-meyer/",
+ "r":[["Auto Grip System stands","Hercules"],["Frameworks","Gator"]]},
+{"n":"Pedalboard","a":"guitar pedalboard · pedal board","d":"Board or case that holds a set of effects pedals, usually with power supply and patch cables fixed underneath.",
+ "t":["rail board","flat or angled board with hook-and-loop","multi-tier board","board with integrated case","with built-in power supply or patch bay"],
+ "s":W+"Guitar_pedalboard",
+ "r":[["Classic","Pedaltrain"],["Novo","Pedaltrain"],["Metro","Pedaltrain"],["Nano+","Pedaltrain"],["Terra 42","Pedaltrain"]]},
+{"n":"Drum pedal and hardware","a":"bass drum pedal · kick pedal · hi-hat stand · cymbal stand · drum throne · drum rack","d":"Pedals, stands, thrones and racks that play, mount and position the parts of a drum kit.",
+ "t":["single bass drum pedal","double bass drum pedal","chain, strap or direct drive","hi-hat stand","straight or boom cymbal stand","snare stand","tom stand","drum rack","drum throne"],
+ "s":"https://www.thomann.co.uk/onlineexpert_page_drum_kits_for_beginners_hardware.html",
+ "x":[
+  {"n":"DW 5000","a":"5000 Series · Camco-pattern pedal","d":"Chain-drive bass drum pedal sold as DW's original 'Drummer's Choice', with an accelerator cam and hinged footboard.","mk":"Drum Workshop","y":"","s":"https://www.turramusic.com.au/products/dw-5000-series-accelerator-bass-drum-pedal-dwcp5000ad4",
+   "v":[{"n":"5000 Accelerator (AD4)","mk":"Drum Workshop","y":"","d":"dual-chain accelerator drive, Delta ball-bearing hinge, tri-pivot toe clamp"}],
+   "dt":"single or double pedal · cam (accelerator) · chain count · footboard length"},
+  {"n":"Iron Cobra","a":"Tama Iron Cobra","d":"Tama's professional bass drum pedal line, mostly double-chain drive with interchangeable cam designs.","mk":"Tama","y":"1993","s":W+"Tama_Iron_Cobra",
+   "v":[{"n":"Rolling Glide","mk":"Tama","y":"","d":"round cam, even action"},{"n":"Power Glide","mk":"Tama","y":"","d":"offset cam that accelerates at the end of the stroke"},{"n":"Flexi-Glide","mk":"Tama","y":"","d":"Kevlar strap drive"},{"n":"Iron Cobra Junior","mk":"Tama","y":"1998","d":"single-chain version for non-professionals"},{"n":"Duo-Glide","mk":"Tama","y":"2013","d":"adjustable cam shape"},{"n":"Speed Cobra","mk":"Tama","y":"2013","d":"longboard version with a light sprocket cam"}],
+   "dt":"single or double pedal · cam (round, offset, adjustable) · chain or strap drive · footboard length"},
+  {"n":"Eliminator","a":"Pearl Eliminator","d":"Pearl's mid- to high-end bass drum pedal family with interchangeable cams.","mk":"Pearl","y":"","s":W+"Pearl_Drums",
+   "v":[{"n":"Eliminator Demon Drive","mk":"Pearl","y":"2009","d":"high-end 3000 series, direct drive"},{"n":"Eliminator Demon Chain","mk":"Pearl","y":"2012","d":"chain-drive Demon"},{"n":"Eliminator II (2100 series)","mk":"Pearl","y":"2012","d":"sold only in Japan"},{"n":"Eliminator Redline (2050 series)","mk":"Pearl","y":"2016","d":"upgrade of the 2000 series"}],
+   "dt":"single or double pedal · cam · chain, belt or direct drive"}
+ ],
+ "r":[["930 Series (Demonator)","Pearl"],["830 Series","Pearl"],["1030 / 2030 Series hardware","Pearl"]]}
+]
+brands=[
+{"n":"Gator","c":"United States","f":"2000","seg":"Cases, bags and stands","d":"Tampa, Florida maker of moulded and padded cases and bags, founded by Jerry Freed and Crystal Morris; owns Levy's Leathers since 2018.","lines":["Frameworks"],"eras":[],"sig":[],"sc":[],"rel":["Levy's"],"s":"https://gatorco.com/about-us/"},
+{"n":"MONO","c":"United States","f":"","seg":"Guitar cases and gig bags","d":"Design-led case and bag brand founded in San Francisco, now headquartered in Singapore, known for the M80 Vertigo case.","lines":["M80 Vertigo","Vertigo Ultra","FlyBy"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://vistamusic.com/news/9833-mono-introduces-the-m80-vertigo-ultra-electric-guitar-case-a-game-changer-in-durability-ergonomics-and-organization-for-players-on-the-move"},
+{"n":"Hiscox","c":"United Kingdom","f":"","seg":"Hard instrument cases","d":"British maker of lightweight crush-resistant hard cases for guitars and other instruments, made in the UK for over 35 years.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://johnpacker.co.uk/pages/hiscox"},
+{"n":"SKB","c":"United States","f":"1977","seg":"Moulded cases","d":"Moulded polymer case maker founded by Dave Sanderson and Steve Kottman, starting with guitar cases; based in Orange, California.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.skbcases.com/our-story"},
+{"n":"Manhasset","c":"United States","f":"1935","seg":"Music stands","d":"American music stand maker whose stand was designed by inventor and musician Otto Lagervall; known for the Symphony stand.","lines":["Symphony"],"eras":[],"sig":[],"sc":["orchestras","school bands"],"rel":[],"s":"https://www.musicincmag.com/news/detail/manhasset-specialty-company-celebrates-90-years"},
+{"n":"K&M","c":"Germany","f":"1949","seg":"Stands","d":"König & Meyer of Wertheim am Main, founded by Karl König and Erich Meyer; music, instrument and microphone stands.","lines":["Topline","Baseline","Spider"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.bonedo.de/artikel/60-jahre-koenig-meyer/"},
+{"n":"Hercules","c":"Taiwan","f":"2002","seg":"Instrument stands","d":"Stand brand of the Taiwanese music company KHS, making stands since about 2002.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://johnpacker.co.uk/pages/hercules"},
+{"n":"Pedaltrain","c":"United States","f":"","seg":"Pedalboards","d":"Nashville pedalboard maker, described in the trade press as the most popular pedalboard brand.","lines":["Classic","Novo","Metro","Nano+","Terra"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.premierguitar.com/articles/21929-pedaltrain-unveils-new-pedalboards"},
+{"n":"Drum Workshop","c":"United States","f":"1972","seg":"Drums and drum hardware","d":"California drum maker founded as a teaching studio by Don Lombardi; bought Camco's tooling after 1977.","lines":["5000 Series"],"eras":[],"sig":["DW 5000"],"sc":[],"rel":["Tama"],"s":W+"Drum_Workshop"},
+{"n":"Tama","c":"Japan","f":"1974","seg":"Drums and drum hardware","d":"Drum brand of Hoshino Gakki, Seto, Aichi; Hoshino began making drums in 1961 and introduced the Tama name in 1974.","lines":["Iron Cobra"],"eras":[],"sig":["Iron Cobra"],"sc":[],"rel":["Drum Workshop"],"s":W+"Tama_Drums"},
+{"n":"Pearl","c":"Japan","f":"1946","seg":"Drums and drum hardware","d":"Japanese drum maker founded by Katsumi Yanagisawa in Tokyo, first making music stands; hardware includes the Eliminator pedals.","lines":["Eliminator","Demon Drive"],"eras":[],"sig":["Eliminator"],"sc":[],"rel":[],"s":W+"Pearl_Drums"}
+]
+notes=("Tier shelf. Kept both old kinds (k144 Guitar case, k148 Music stand) and added Instrument stand, Pedalboard, Drum pedal and hardware. "
+ "Trimmed guitar-case ranges (dropped Gator 4G/Pro-Go duplicate ranges and MONO Vertigo range, now a model); old maker labels 'Hamilton (music stands)' and 'Peak (music stands)' shortened to Hamilton and Peak. "
+ "Drum pedals carry three archetypes (DW 5000, Tama Iron Cobra, Pearl Eliminator); DW 5000 origin year and Camco lineage left out (forum sources disagreed); Yamaha drum hardware left out (no page retrieved). "
+ "No register entries for Hamilton, Peak, Levy's, Ibanez, Fender (stand/case makers from old data only or covered elsewhere). Hiscox, SKB have no named guitar-case lines on retrieved pages. Wikidata was rate-limited.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/E3/shelves/09_00.json"; t=p+".tmp"
+json.dump(out,open(t,"w"),ensure_ascii=False,indent=1); os.replace(t,p)

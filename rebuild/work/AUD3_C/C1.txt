@@ -1,0 +1,323 @@
+C1 Tools and workshop equipment a person owns, from power tools on a battery platform and hand tools to workshop machines, measuring gear, welding, ladders, storage and protective equipment, organised by kind of work and then by tool.
+top keys ['c', 'rev', 'lead', 'b', 'depts']
+
+## DEPT Power tools mode=tier kinds=48 note=Most owners buy into one battery platform, then pick tools within it.
+  # SHELF Battery platforms (2)
+    - Tool battery | x=17 t=4 m=0 r=0 | T: compact; high-capacity; high-output (pouch or tabless cells); Bluetooth / connected | X: Makita 18V LXT(Makita); Ryobi ONE+(Ryobi); Milwaukee M18(Milwaukee); Milwaukee M18 REDLITHIUM FORGE(Milwaukee); Milwaukee M12(Milwaukee); DeWalt 20V MAX / 18V XR(DeWalt); DeWalt FlexVolt(DeWalt); Makita 12V max CXT(Makita); Makita 40V max XGT(Makita); Bosch 18V POWER FOR ALL(Bosch); Bosch AMPShare(B
+    - Battery charger | x=0 t=5 m=4 r=0 | T: standard; rapid / fast (fan-cooled); dual-port / multi-bay; charging case; vehicle (12V outlet) | X: 
+  # SHELF Drills, drivers & breakers (8)
+    - Drill driver | x=0 t=3 m=8 r=0 | T: 12 V compact; 18 V; right-angle | X: 
+    - Combi (hammer) drill | x=0 t=2 m=1 r=0 | T: corded; cordless | X: 
+    - Impact driver | x=0 t=2 m=9 r=0 | T: standard impact; hydraulic (oil-pulse) | X: 
+    - Rotary hammer | x=0 t=4 m=8 r=0 | T: SDS-plus; SDS-max; corded; cordless | X: 
+    - Impact wrench | x=0 t=5 m=7 r=0 | T: 3/8-inch drive; 1/2-inch drive; mid-torque; high-torque; right-angle | X: 
+    - Electric screwdriver | x=0 t=0 m=1 r=0 | T:  | X: 
+    - Demolition hammer | x=0 t=3 m=1 r=0 | T: electric; petrol; pneumatic | X: 
+    - Magnetic drill | x=0 t=0 m=0 r=0 | T:  | X: 
+  # SHELF Power saws (7)
+    - Circular saw | x=0 t=2 m=6 r=0 | T: corded; cordless | X: 
+    - Jigsaw | x=0 t=2 m=1 r=0 | T: corded; cordless | X: 
+    - Mitre saw | x=0 t=3 m=8 r=0 | T: compound; sliding compound; cordless | X: 
+    - Track saw | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Reciprocating saw | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Cut-off saw | x=0 t=3 m=0 r=0 | T: petrol; electric; cordless | X: 
+    - Wall chaser | x=0 t=0 m=0 r=0 | T:  | X: 
+  # SHELF Sanders, grinders & polishers (8)
+    - Angle grinder | x=0 t=5 m=4 r=0 | T: 115 mm; 125 mm; 230 mm; corded; cordless | X: 
+    - Random orbital sander | x=0 t=0 m=3 r=0 | T:  | X: 
+    - Sheet sander | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Detail sander | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Belt sander | x=0 t=2 m=2 r=0 | T: standard; narrow-belt file sander | X: 
+    - Die grinder | x=0 t=2 m=2 r=0 | T: straight; right-angle | X: 
+    - Polisher | x=0 t=2 m=1 r=0 | T: rotary; dual-action | X: 
+    - Drywall sander | x=0 t=0 m=0 r=0 | T:  | X: 
+  # SHELF Routers, joiners & multi-tools (6)
+    - Router | x=5 t=6 m=6 r=0 | T: plunge; fixed-base; compact / trim (laminate trimmer); palm; cordless; collet 1/4 in, 8 mm, 1/2 in | X: ELU plunge router(ELU); Festool OF 1400(Festool); Trend T11(Trend); Makita RT0701C(Makita); Bosch Colt(Bosch)
+    - Oscillating multi-tool | x=1 t=3 m=8 r=0 | T: corded; cordless; accessory fit: Starlock, OIS, universal | X: Fein MultiMaster(Fein)
+    - Rotary tool | x=1 t=3 m=1 r=0 | T: corded; cordless; pen-style | X: Dremel Moto-Tool(Dremel)
+    - Power planer | x=0 t=2 m=6 r=0 | T: corded; cordless | X: 
+    - Biscuit jointer | x=1 t=2 m=0 r=0 | T: corded; cordless | X: Lamello biscuit joiner(Lamello)
+    - Loose-tenon joiner | x=1 t=0 m=0 r=0 | T:  | X: Festool Domino(Festool)
+  # SHELF Nailers, staplers & heat tools (11)
+    - Framing nailer | x=0 t=4 m=4 r=0 | T: pneumatic; gas; battery; positive-placement (connector) | X: 
+    - Finish nailer | x=0 t=3 m=0 r=0 | T: pneumatic; gas; battery | X: 
+    - Brad nailer | x=0 t=3 m=0 r=0 | T: pneumatic; gas; battery | X: 
+    - Pin nailer | x=0 t=2 m=0 r=0 | T: pneumatic; battery | X: 
+    - Staple gun | x=0 t=4 m=0 r=0 | T: manual; electric; pneumatic; battery | X: 
+    - Palm nailer | x=0 t=2 m=1 r=0 | T: pneumatic; battery | X: 
+    - Flooring nailer | x=0 t=2 m=0 r=0 | T: manual; pneumatic | X: 
+    - Roofing and siding nailer | x=0 t=2 m=0 r=0 | T: roofing; siding | X: 
+    - Heat gun | x=0 t=2 m=3 r=0 | T: mains; cordless | X: 
+    - Glue gun | x=0 t=2 m=3 r=0 | T: mains; cordless | X: 
+    - Rivet gun | x=0 t=2 m=1 r=0 | T: hand riveter; powered riveter | X: 
+  # SHELF Bits, blades & abrasives (6)
+    - Drill bit | x=0 t=7 m=0 r=0 | T: twist (HSS); masonry; wood: spade; wood: auger; wood: brad point; wood: Forstner; step | X: 
+    - Screwdriver bit | x=0 t=0 m=0 r=2 | T:  | X: 
+    - Hole saw | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Saw blade | x=0 t=4 m=1 r=0 | T: circular/mitre/table; jigsaw (T- or U-shank); reciprocating; bandsaw | X: 
+    - Grinder disc | x=0 t=2 m=0 r=0 | T: cutting disc; grinding disc | X: 
+    - Sanding sheet or disc | x=0 t=2 m=1 r=0 | T: sheet; disc | X: 
+
+## DEPT Woodworking hand tools mode=variety kinds=50 note=Organised kind → archetype (Stanley number, maker pattern) → version → detail.
+  # SHELF Planes (11)
+    - Bench plane | x=5 t=5 m=4 r=1 | T: Smoothing plane; Jack plane; Fore plane; Jointer plane; Scrub plane | X: Stanley Bailey bench planes (Nos. 1–8)(Stanley); Stanley Bed Rock bench planes (600 series)(Stanley); Low-angle jack plane (No. 62)(Stanley); Norris A5 infill smoother(Norris); Infill plane
+    - Block plane | x=4 t=0 m=0 r=0 | T:  | X: Stanley No. 60½ low-angle block plane(Stanley); Stanley No. 9½ block plane(Stanley); Stanley No. 102 block plane(Stanley); No. 95 edge-trimming block plane(Stanley)
+    - Shoulder plane | x=2 t=0 m=0 r=0 | T:  | X: Stanley No. 92/93 cabinet makers' rabbet plane(Stanley); Clifton No. 420 shoulder plane(Clifton)
+    - Rebate plane | x=3 t=0 m=0 r=0 | T:  | X: Stanley No. 78 duplex filletster and rabbet plane(Stanley); Stanley No. 10 carriage maker's rabbet plane(Stanley); Stanley No. 190 series rabbet planes(Stanley)
+    - Router plane | x=2 t=0 m=0 r=0 | T:  | X: Stanley No. 71 router plane(Stanley); Quangsheng router plane(Quangsheng)
+    - Plough plane | x=1 t=0 m=0 r=0 | T:  | X: Match plane
+    - Combination plane | x=2 t=0 m=0 r=0 | T:  | X: Stanley No. 45 combination plane(Stanley); Stanley No. 55 universal combination plane(Stanley)
+    - Moulding plane | x=2 t=0 m=0 r=0 | T:  | X: Hollows and rounds; Hand beader(Stanley)
+    - Spokeshave | x=1 t=3 m=0 r=0 | T: Flat sole; Round sole; Concave sole | X: Stanley No. 151 spokeshave(Stanley)
+    - Drawknife | x=0 t=2 m=0 r=0 | T: Straight drawknife; Inshave (scorp) | X: 
+    - Scraper | x=3 t=0 m=0 r=0 | T:  | X: Card scraper; Stanley No. 80 cabinet scraper(Stanley); Stanley No. 112 scraper plane(Stanley)
+  # SHELF Japanese woodworking tools (10)
+    - Kanna (Japanese plane) | x=3 t=4 m=0 r=0 | T: white paper steel (shirogami) blade; blue paper steel (aogami) blade; white oak block; blade width (42–70 mm and up) | X: Hira-ganna; Shiage-ganna; Hikōki-ganna
+    - Ryoba saw | x=2 t=4 m=0 r=0 | T: 240 mm (general carpentry); 270 mm (larger work); replaceable blade (kaeba); traditional fixed blade | X: Ryoba; Azebiki
+    - Dozuki saw | x=1 t=4 m=0 r=0 | T: dovetail (rip) teeth; tenon (crosscut) teeth; replaceable blade; traditional fixed blade | X: Dozuki
+    - Kataba saw | x=1 t=3 m=0 r=0 | T: crosscut; rip; combination teeth | X: Kataba
+    - Flush-cut saw | x=1 t=0 m=0 r=0 | T:  | X: Kugihiki
+    - Genno (Japanese hammer) | x=5 t=3 m=1 r=0 | T: round, oval, square or octagonal face; head weight; handle wood | X: Ryōguchi genno; Kataguchi genno; Daruma genno; Funate genno; Yamakichi genno
+    - Nomi (Japanese chisel) | x=6 t=4 m=0 r=0 | T: white paper steel; blue paper steel; tang or socket; hooped (struck) or push | X: Oire-nomi; Atsu-nomi; Mukōmachi-nomi; Shinogi-nomi; Tsuki-nomi; Kote-nomi
+    - Sumitsubo (ink line) | x=0 t=3 m=0 r=0 | T: traditional carved wooden; modern plastic; decorated ceremonial (topping-out) | X: 
+    - Sashigane (carpenter's square) | x=0 t=5 m=1 r=0 | T: flat body; profiled body (thinner edges for ink); metric; with metal stop; calculated scales (square-root, pi) | X: 
+    - Kiridashi | x=0 t=5 m=1 r=0 | T: left or right bevel; kurouchi finish; tsuchime finish; damascus (kitaeji); white 2 or blue 1 steel | X: 
+  # SHELF Hand saws (7)
+    - Panel saw | x=7 t=7 m=2 r=0 | T: rip; crosscut; universal/hardpoint (hardened teeth, not resharpened); skewback; straight back; panel length (16–24 in); full-length hand saw (26 in and over) | X: Disston D-8(Disston); Disston No. 7(Disston); Disston No. 12(Disston); Disston D-23(Disston); Disston D-95 Masterpiece(Disston); Spear & Jackson skew-back saw(Spear & Jackson); Bahco Barracuda hardpoint saw(Bahco)
+    - Back saw | x=7 t=8 m=0 r=0 | T: dovetail; carcass; sash; tenon; gent's; mitre-box saw; razor saw; rip or crosscut filing | X: Western dovetail saw; Carcass saw; Tenon saw; Sash saw; Gent's saw; Mitre-box saw; Razor saw
+    - Hacksaw | x=4 t=6 m=0 r=0 | T: standard 12 in (300 mm); junior hacksaw; panel hacksaw; high-tension frame; mini saw / blade holder; blade: carbon steel, bi-metal, HSS · 14–32 tpi | X: Eclipse hacksaw frame(Eclipse); Bahco Sandflex(Bahco); Junior hacksaw; Panel hacksaw
+    - Coping saw | x=1 t=3 m=0 r=0 | T: frame depth; blade: pin end or loop end; push- or pull-stroke fitting | X: Knew Concepts coping saw(Knew Concepts)
+    - Fret saw | x=1 t=3 m=0 r=0 | T: frame depth 3–20 in; blade: toothed, spiral, abrasive wire; jeweller's piercing saw | X: Knew Concepts truss-frame fret saw(Knew Concepts)
+    - Keyhole saw | x=0 t=4 m=0 r=0 | T: fixed blade; retractable blade; drywall/jab saw; compass saw (larger, coarser) | X: 
+    - Bow saw | x=2 t=4 m=0 r=0 | T: tubular steel bow; H-frame bucksaw; folding camp bucksaw; turning saw | X: Swede saw(Sandvik); Woodworking bucksaw
+  # SHELF Chisels, carving & sharpening (10)
+    - Bench chisel | x=2 t=7 m=0 r=0 | T: bevel-edge; firmer (rectangular section); butt (short); dovetail; socket; tang; A2, O1 or PM-V11 steel | X: Stanley No. 750 socket chisel(Stanley); Ashley Iles cabinetmaker's chisel(Ashley Iles)
+    - Paring chisel | x=0 t=4 m=0 r=0 | T: straight; cranked (offset neck); slick (large, timber framing); corner chisel | X: 
+    - Mortise chisel | x=0 t=2 m=0 r=0 | T: registered mortise chisel; sash mortise chisel | X: 
+    - Carving gouge | x=3 t=9 m=0 r=0 | T: sweep #1 (flat) to #9 (semicircle); #11 U-gouge or veiner; V-tool / parting tool; straight; spoon-bent; back-bent; fishtail; crank-neck; incannel or outcannel bevel | X: Pfeil Swiss Made carving tool(Pfeil); Two Cherries carving tool(Kirschen); Flexcut carving tool(Flexcut)
+    - Turning gouge | x=0 t=4 m=2 r=2 | T: bowl gouge; spindle gouge; roughing gouge; HSS or cryogenic steel | X: 
+    - File | x=1 t=9 m=0 r=0 | T: single cut; double cut; rough to dead smooth (bastard, second cut, smooth); flat, half-round, round, triangular, square, knife; mill file; needle file; riffler; diamond file; escapement file | X: Swiss-pattern file
+    - Rasp | x=1 t=4 m=1 r=0 | T: cabinet rasp; modeller's rasp; riffler; saw rasp | X: Auriou hand-cut rasp(Auriou)
+    - Whetstone | x=7 t=6 m=1 r=0 | T: waterstone; oilstone; natural stone; diamond plate; ceramic; grit 120 to 30,000 | X: Arkansas stone; Coticule; Japanese natural stone; India stone; Shapton Glass HR(Shapton); Naniwa Professional(Naniwa); DMT diamond plate(DMT)
+    - Honing guide | x=1 t=4 m=0 r=0 | T: side-clamping; top-clamping; with angle-setting jig; micro-bevel roller | X: Veritas Mk.II honing guide(Veritas)
+    - Sharpening system | x=3 t=4 m=0 r=0 | T: slow wet grinder; dry abrasive disc; belt sharpener; jig-guided | X: Tormek wet grinder(Tormek); Work Sharp WS3000(Work Sharp); ProEdge(Robert Sorby)
+  # SHELF Braces & hand drills (4)
+    - Hand brace | x=8 t=3 m=0 r=0 | T: plain (non-ratcheting); ratchet; sweep 6–14 in | X: Millers Falls two-pin ratchet brace(Millers Falls); Barber brace(Millers Falls); Holdall brace(Millers Falls); Lion brace(Millers Falls); Parsons De Luxe brace(Millers Falls); Millers Falls Model 1950(Millers Falls); Stanley ratchet brace(Stanley); Yankee brace(North Bros.)
+    - Hand drill | x=3 t=3 m=0 r=0 | T: egg-beater; breast drill; single or double pinion | X: Millers Falls No. 2(Millers Falls); Millers Falls No. 3(Millers Falls); Millers Falls No. 4(Millers Falls)
+    - Push drill | x=1 t=0 m=0 r=0 | T:  | X: Yankee push drill(North Bros.)
+    - Bradawl | x=1 t=2 m=0 r=0 | T: bradawl; gimlet | X: Gimlet
+  # SHELF Clamps, vices & workbenches (8)
+    - Workbench | x=6 t=4 m=5 r=0 | T: traditional joiner's bench; folding/portable bench; multifunction table; workstation with storage | X: Roubo bench; Nicholson bench; Moravian workbench; Scandinavian bench; Workmate(Black & Decker); Festool MFT(Festool)
+    - Bench vice | x=3 t=7 m=3 r=0 | T: face vice; quick-release face vice; tail (end) vice; leg (post) vice; shoulder vice; engineer's vice; clamp-on vice | X: Record No. 52½(Record); Leg vice; Wilton bullet vise(Wilton)
+    - Bar clamp | x=4 t=8 m=0 r=0 | T: F-clamp; one-handed quick-release clamp; parallel-jaw clamp; sash clamp; pipe clamp; toggle clamp; handscrew; band clamp | X: Bessey F-clamp(Bessey); Bessey K-Body(Bessey); Irwin Quick-Grip(Irwin); Jorgensen handscrew(Jorgensen)
+    - C-clamp | x=0 t=3 m=0 r=0 | T: light-duty; heavy-duty forged; deep-throat | X: 
+    - Spring clamp | x=0 t=2 m=0 r=0 | T: metal; plastic | X: 
+    - Holdfast | x=1 t=3 m=0 r=0 | T: forged holdfast; cold-formed holdfast; bench dog | X: Gramercy holdfast(Gramercy Tools)
+    - Sawhorse | x=0 t=5 m=3 r=0 | T: folding; fixed wooden; plastic; metal; trestle (in pairs) | X: 
+    - Saw stand | x=0 t=2 m=0 r=0 | T: folding; wheeled | X: 
+
+## DEPT General hand tools mode=mixed kinds=39 note=Tier for everyday tools, variety at the enthusiast end (Knipex, Wera, PB Swiss, Snap-on, Estwing).
+  # SHELF Screwdrivers & spanners (10)
+    - Screwdriver | x=6 t=10 m=2 r=2 | T: slotted; Phillips; Pozidriv; Torx; hex; Robertson (square); VDE insulated; stubby; precision; interchangeable-blade | X: Phillips drive; Pozidriv; Torx; Kraftform(Wera); Wiha screwdriver(Wiha); PB Swiss screwdriver(PB Swiss Tools)
+    - Combination spanner | x=1 t=5 m=2 r=0 | T: standard; ratcheting ring end; long pattern; metric; imperial (AF) | X: Joker ratcheting combination spanner(Wera)
+    - Socket wrench | x=5 t=10 m=1 r=0 | T: 1/4 in drive; 3/8 in drive; 1/2 in drive; 3/4 in drive; fine-tooth ratchet; dual-pawl ratchet; flex-head; swivel-head; palm ratchet; deep sockets | X: Richardson ratcheting socket wrench; Snap-on interchangeable sockets(Snap-on); Quick-release ratchet; Pass-through socket system; Zyklop(Wera)
+    - Adjustable wrench | x=3 t=4 m=0 r=0 | T: worm-and-thumbwheel; monkey wrench (screw-adjusted); hex-jaw; wide-jaw | X: Clyburn adjustable spanner; Johansson adjustable spanner(Bahco); Monkey wrench
+    - Hex key | x=3 t=7 m=1 r=0 | T: L-key; T-handle; folding set; ball end; security (pin) hex; metric; imperial | X: Allen key(Allen Manufacturing Company); Ball-end hex key(Bondhus); Brugola spiral-shank key(Officine Egidio Brugola)
+    - Torque wrench | x=3 t=6 m=0 r=0 | T: beam; deflecting beam; click (micrometer); slipper; electronic; drive size | X: Sharp torque measuring wrench; Beam torque wrench; Click torque wrench
+    - Pipe wrench | x=2 t=3 m=0 r=0 | T: straight; nipple wrench (internal); compound-leverage plumber wrench | X: Stillson wrench; Ridgid red pipe wrench(Ridgid)
+    - Basin wrench | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Box spanner | x=0 t=2 m=0 r=0 | T: double-ended; spark plug spanner | X: 
+    - Tool kit | x=0 t=0 m=1 r=0 | T:  | X: 
+  # SHELF Pliers (8)
+    - Combination pliers | x=1 t=3 m=3 r=1 | T: VDE insulated; high-leverage; with crimper | X: Lineman's pliers(Klein Tools)
+    - Tongue and groove pliers | x=4 t=4 m=0 r=0 | T: straight jaw; V-jaw; push-button adjustment; parallel jaw | X: Higgins adjustable pliers; Channellock tongue-and-groove pliers(Channellock); Cobra(Knipex); Pliers Wrench(Knipex)
+    - Locking pliers | x=2 t=5 m=1 r=0 | T: curved jaw; straight jaw; long nose; C-clamp; welding clamp | X: Vise-Grip(Irwin); Mole grips(M.K. Mole and Son)
+    - Long nose pliers | x=0 t=4 m=0 r=0 | T: straight; bent nose; round nose; with cutter | X: 
+    - Cutting pliers | x=1 t=5 m=0 r=0 | T: symmetrical diagonal; flush cutter; compound-action; high-leverage; end cutter | X: TwinForce(Knipex)
+    - Slip joint pliers | x=0 t=2 m=0 r=0 | T: straight slip joint; multiple-position | X: 
+    - Wire stripper | x=1 t=3 m=0 r=0 | T: notched manual; screw-adjusted (European style); automatic (self-adjusting) | X: Compound automatic wire stripper
+    - Crimping tool | x=0 t=5 m=0 r=0 | T: ratchet crimper; insulated terminal; modular (RJ45); ferrule; hydraulic | X: 
+  # SHELF Hammers, punches & bars (13)
+    - Claw hammer | x=0 t=3 m=5 r=0 | T: steel shaft; fibreglass shaft; wooden shaft | X: 
+    - Mallet | x=0 t=4 m=1 r=0 | T: wooden; rubber; nylon-faced; dead blow | X: 
+    - Club hammer | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Ball-pein hammer | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Cross-pein hammer | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Sledgehammer | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Brick hammer | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Slater's hammer | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Punch | x=0 t=3 m=0 r=0 | T: centre punch; pin punch; nail set | X: 
+    - Wrecking bar | x=0 t=2 m=3 r=0 | T: gooseneck; flat | X: 
+    - Pry bar | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Nail puller | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Lifting bar | x=0 t=0 m=0 r=0 | T:  | X: 
+  # SHELF Decorating, plastering & tiling (8)
+    - Paintbrush | x=0 t=7 m=4 r=3 | T: sash; fitch; angled; flat; block; masonry; laying-off | X: 
+    - Paint roller | x=0 t=7 m=5 r=0 | T: short pile; medium pile; long pile; foam; mini 4-inch; double-arm 12-inch; extension pole | X: 
+    - Paint sprayer | x=0 t=4 m=7 r=0 | T: HVLP turbine; airless; air (compressor-fed); cordless handheld | X: 
+    - Filling knife and scraper | x=0 t=5 m=2 r=0 | T: flexible filling knife; stiff stripping knife; heavy-duty with hammer end; putty knife; plastic disposable | X: 
+    - Caulking gun | x=0 t=4 m=4 r=0 | T: manual skeleton; rotating; high-thrust dual ratio; cordless | X: 
+    - Plastering trowel | x=0 t=6 m=2 r=0 | T: finishing trowel; pointing trowel; gauging trowel; notched trowel; margin trowel; grout float | X: 
+    - Tile cutter | x=0 t=3 m=3 r=0 | T: rail cutter; multipoint breaker; porcelain-rated | X: 
+    - Wire brush | x=0 t=5 m=0 r=0 | T: hand brush; wheel for grinder or drill; carbon steel; stainless steel; brass | X: 
+
+## DEPT Knives, multi-tools & axes mode=variety kinds=21 note=EDC, utility and bushcraft blades live here; kitchen knives in Kitchen, fighting and hunting knives in Weapons.
+  # SHELF Folding knives (6)
+    - Slip-joint pocket knife | x=5 t=8 m=0 r=0 | T: trapper; stockman; peanut; jack; congress; canoe; sunfish; camper/scout | X: Barlow; Case Trapper(Case); Sod Buster(Case); Laguiole; Douk-Douk(Cognet)
+    - Friction folder & locking-collar knife | x=2 t=2 m=0 r=0 | T: chikiri lever; Virobloc collar | X: Opinel No. 8(Opinel); Higonokami(Nagao Kanekoma)
+    - Lockback folder | x=3 t=3 m=0 r=0 | T: Tri-Ad lock; serrated edge; FRN or G10 handle | X: Buck 110 Folding Hunter(Buck); Spyderco Delica(Spyderco); Spyderco Worker(Spyderco)
+    - Liner-lock & frame-lock folder | x=6 t=4 m=0 r=0 | T: assisted opening; flipper; pin-and-dimple lock; titanium handle | X: Chris Reeve Sebenza(Chris Reeve Knives); Walker Linerlock; Chris Reeve Umnumzaan(Chris Reeve Knives); Chris Reeve Mnandi(Chris Reeve Knives); Chris Reeve Inkosi(Chris Reeve Knives); Kershaw Leek(Kershaw)
+    - Crossbar-lock folder | x=3 t=4 m=0 r=0 | T: manual; automatic; mini; lightweight handle | X: Benchmade Griptilian(Benchmade); Benchmade Bugout(Benchmade); Benchmade 940 Osborne(Benchmade)
+    - Compression-lock folder | x=2 t=1 m=0 r=0 | T: button lock | X: Spyderco Paramilitary 2(Spyderco); Spyderco Para 3(Spyderco)
+  # SHELF Swiss Army knives (1)
+    - Swiss Army knife | x=8 t=6 m=1 r=0 | T: 58 mm; 74 mm; 84 mm; 91 mm; 111 mm; 130 mm | X: Swiss soldier's knife; Officer's knife(Victorinox); Victorinox Spartan(Victorinox); Victorinox Huntsman(Victorinox); Victorinox Classic SD(Victorinox); Victorinox Cybertool(Victorinox); SwissChamp(Victorinox); Wenger Giant(Wenger)
+  # SHELF Fixed blades & utility knives (2)
+    - Fixed-blade EDC & bushcraft knife | x=4 t=5 m=1 r=0 | T: carbon steel; stainless; laminated; Scandi grind; full tang | X: Mora knife(Morakniv); Fällkniven F1(Fällkniven); ESEE-4(ESEE); Ka-Bar Becker BK2 Companion(Ka-Bar)
+    - Utility knife | x=2 t=4 m=5 r=1 | T: retractable; fixed blade; folding; snap-off 9/18/25 mm | X: Stanley 99(Stanley); OLFA snap-off cutter(OLFA)
+  # SHELF Multi-tools (2)
+    - Plier multi-tool | x=11 t=5 m=0 r=0 | T: butterfly-opening pliers; sliding pliers; pocket size; full size; heavy duty | X: Leatherman PST(Leatherman); Leatherman Super Tool(Leatherman); Leatherman Wave(Leatherman); Leatherman Charge(Leatherman); Leatherman Surge(Leatherman); Leatherman Skeletool(Leatherman); Leatherman Rebar(Leatherman); Leatherman Free(Leatherman); Gerber Multi-Plier 600(Gerber); Gerber Suspension(Gerb
+    - Keychain & wearable multi-tool | x=4 t=2 m=0 r=0 | T: scissor-based; wearable bracelet | X: Leatherman Micra(Leatherman); Leatherman Squirt(Leatherman); Leatherman Style(Leatherman); Leatherman Tread(Leatherman)
+  # SHELF Knife sharpeners (1)
+    - Pocket knife sharpener | x=1 t=5 m=0 r=0 | T: oilstone; Arkansas stone; diamond plate; ceramic rod; guided system | X: Spyderco Tri-Angle Sharpmaker(Spyderco)
+  # SHELF Everyday-carry tools (2)
+    - EDC pen | x=2 t=3 m=0 r=0 | T: bullet pen; retractable; glass breaker | X: Fisher Bullet Space Pen(Fisher Space Pen); Tuff-Writer Frontline(Tuff-Writer)
+    - Pry bar & keychain tool | x=3 t=4 m=0 r=0 | T: titanium; stainless; with blade; with clip | X: Gerber Shard(Gerber); Gerber Prybrid(Gerber); Nite Ize DoohicKey(Nite Ize)
+  # SHELF Axes & log splitting (7)
+    - Axe | x=11 t=7 m=2 r=0 | T: felling axe; forest axe; hatchet; splitting axe; carpenter's axe; broad axe; double-bit | X: Hudson Bay axe; Dayton pattern; Michigan double bit; Jersey pattern; Council Tool Boy's Axe(Council Tool); Gränsfors Bruk Small Forest Axe(Gränsfors Bruk); Gränsfors Bruk Wildlife Hatchet(Gränsfors Bruk); Hults Bruk forest axes(Hults Bruk); Wetterlings axes(Wetterlings); Fiskars X-series splitting a
+    - Splitting maul | x=1 t=2 m=1 r=0 | T: 6–8 lb head; wood, fibreglass or steel handle | X: Monster Maul
+    - Splitting wedge | x=0 t=3 m=1 r=0 | T: plain; twisted; grenade | X: 
+    - Kindling splitter | x=1 t=0 m=0 r=0 | T:  | X: Kindling Cracker(Kindling Cracker)
+    - Log splitter | x=0 t=5 m=0 r=0 | T: electric; petrol; manual hydraulic; horizontal; vertical | X: 
+    - Folding saw | x=2 t=2 m=0 r=0 | T: fine, medium or coarse teeth; straight or curved blade | X: Silky Gomboy(Silky); Bahco Laplander(Bahco)
+    - Froe | x=0 t=0 m=0 r=0 | T:  | X: 
+
+## DEPT Workshop machinery mode=mixed kinds=26 note=Hobby and home-workshop machines; industrial-only machines dropped.
+  # SHELF Woodworking machines (11)
+    - Table saw | x=4 t=6 m=10 r=1 | T: Benchtop table saw; Jobsite table saw; Contractor table saw; Hybrid table saw; Cabinet table saw; Mini and micro table saw | X: Delta Unisaw(Delta); Powermatic Model 66(Powermatic); SawStop flesh-sensing saw(SawStop); Bosch REAXX(Bosch)
+    - Bandsaw | x=2 t=3 m=6 r=2 | T: Benchtop bandsaw; Floor-standing bandsaw; Resaw bandsaw | X: Laguna 14|BX(Laguna); Record Power Sabre 350(Record Power)
+    - Planer-thicknesser | x=1 t=0 m=4 r=0 | T:  | X: Hammer A3(Hammer)
+    - Jointer | x=0 t=0 m=3 r=0 | T:  | X: 
+    - Thicknesser | x=0 t=2 m=5 r=0 | T: Benchtop thicknesser; Floor-standing thicknesser | X: 
+    - Sliding table saw | x=2 t=0 m=3 r=0 | T:  | X: Altendorf sliding table saw(Altendorf); Hammer K3(Hammer)
+    - Combination machine | x=4 t=0 m=0 r=0 | T:  | X: Felder combination machine(Felder); Hammer C3 31(Hammer); Minimax 300 Smart(Minimax); Robland X31(Robland)
+    - Router table | x=0 t=3 m=0 r=0 | T: Benchtop router table; Floor-standing router table; Saw-wing router table | X: 
+    - Mortiser | x=0 t=2 m=0 r=0 | T: Benchtop hollow-chisel mortiser; Horizontal slot mortiser | X: 
+    - Scroll saw | x=1 t=0 m=2 r=1 | T:  | X: Delta American Boy scroll saw(Delta)
+    - Spindle moulder | x=0 t=2 m=0 r=0 | T: Fixed spindle; Tilting spindle | X: 
+  # SHELF Lathes, drill presses & CNC (4)
+    - Wood lathe | x=6 t=5 m=1 r=0 | T: Mini / midi lathe; Full-size bench lathe; Floor-standing lathe; Bowl lathe (outboard or sliding headstock); Twin-bar bed lathe | X: Coronet / Record twin-bar lathe(Coronet); Coronet Herald(Record Power); Oneway 2000 Series(Oneway); Robust lathes(Robust); JET 1642(JET); Nova DVR-XP(Teknatool)
+    - Drill press | x=1 t=4 m=1 r=1 | T: Bench drill press; Floor drill press; Radial drill press; Magnetic-base drill press | X: Nova Voyager(Teknatool)
+    - CNC router | x=3 t=3 m=0 r=1 | T: Belt-driven; Lead-screw / ball-screw; Rail type (V-wheel, linear rail) | X: Shapeoko(Carbide 3D); X-Carve(Inventables); Carvera(Makera)
+    - Laser cutter | x=3 t=6 m=0 r=0 | T: Diode laser; CO2 laser; Fibre laser; Galvo engraver; Enclosed; Open-frame | X: Epilog desktop CO2 laser(Epilog); Glowforge(Glowforge); xTool(xTool)
+  # SHELF Metalworking & smithing (7)
+    - Metal lathe | x=8 t=5 m=4 r=0 | T: Micro / miniature lathe; Mini lathe; Bench lathe; Toolroom lathe; Gap-bed lathe | X: Myford ML7(Myford); South Bend 9-inch(South Bend); Atlas 10-inch(Atlas); Boxford lathe(Boxford); Hardinge HLV(Hardinge); Unimat(Emco); Sherline lathe(Sherline); Taig micro lathe(Taig)
+    - Milling machine | x=2 t=5 m=3 r=0 | T: Turret (knee) mill; Bench mill; Mini mill; Mill-drill; CNC mill | X: Bridgeport turret mill(Bridgeport); Sieg X2 mini mill(Sieg)
+    - Lathe-mill | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Metal-cutting bandsaw | x=0 t=3 m=1 r=1 | T: Horizontal; Vertical (contour); Portable | X: 
+    - Cold cut saw | x=0 t=0 m=1 r=0 | T:  | X: 
+    - Anvil | x=3 t=4 m=0 r=0 | T: Wrought iron with steel face; Cast steel; Forged steel; Cast iron (unsuitable) | X: London pattern anvil; Double-horn anvil; Farrier's anvil
+    - Forge | x=0 t=4 m=0 r=0 | T: Coal forge; Coke forge; Charcoal forge; Gas (propane) forge | X: 
+  # SHELF Bench grinders, sanders & dust extraction (4)
+    - Dust extractor | x=0 t=4 m=9 r=0 | T: shop vac (wet and dry); mobile dust extractor; cyclone collector; cordless | X: 
+    - Bench grinder | x=0 t=2 m=0 r=0 | T: dry wheel; wet wheel | X: 
+    - Belt and disc sander | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Spindle sander | x=0 t=0 m=0 r=0 | T:  | X: 
+
+## DEPT Measuring & detecting mode=mixed kinds=23 note=Tier for site and trade instruments; variety for machinist and marking-out tools.
+  # SHELF Precision measuring & marking out (9)
+    - Caliper | x=3 t=5 m=2 r=1 | T: vernier; dial; digital (capacitive or inductive encoder); carbide-tipped jaws; with data output | X: Vernier caliper; Dial caliper; Mitutoyo Digimatic caliper(Mitutoyo)
+    - Micrometer | x=5 t=8 m=0 r=1 | T: outside; inside; depth; digital; digit counter (mechanical); blade; bench; ball and tube anvils | X: Palmer micrometer caliper; Brown & Sharpe micrometer caliper(Brown & Sharpe); Starrett micrometer(Starrett); Moore & Wright micrometer(Moore & Wright); Mitutoyo QuantuMike(Mitutoyo)
+    - Square | x=3 t=5 m=2 r=0 | T: try square (wooden stock); engineer's square (steel stock); mitre square; combination square; combination set (centre head, protractor head) | X: Combination square(Starrett); Try square; Engineer's square
+    - Steel rule | x=0 t=4 m=0 r=2 | T: engraved or photo-engraved graduations; flexible; satin chrome; metric, imperial or both | X: 
+    - Dial indicator | x=4 t=3 m=1 r=1 | T: plunger (drop) indicator; dial test indicator (lever); digital indicator | X: Starrett lever test indicators(Starrett); Lufkin No. 199A(Lufkin); Interapid dial test indicator(Interapid); Mitutoyo Digimatic Indicator(Mitutoyo)
+    - Height gauge | x=2 t=4 m=0 r=1 | T: vernier; dial; digital; motorised | X: TESA Micro-Hite(TESA); Mitutoyo ABS Digimatic height gage(Mitutoyo)
+    - Marking gauge | x=3 t=5 m=3 r=0 | T: pin; cutting (knife); wheel; mortise (two pins); panel (long beam) | X: Kebiki; Veritas wheel marking gauge(Veritas); Tite-Mark(Glen-Drake Toolworks)
+    - Marking knife | x=2 t=4 m=0 r=0 | T: single-bevel skewed (left or right); single-bevel spear point; double bevel; combination knife and awl | X: Shirabiki; Blue Spruce Classic Marking Knife(Blue Spruce Toolworks)
+    - Angle finder | x=1 t=4 m=0 r=0 | T: sliding T bevel; protractor; digital angle gauge; protractor head (combination set) | X: Sliding T bevel
+  # SHELF Tape measures, levels & lasers (6)
+    - Tape measure | x=0 t=2 m=3 r=0 | T: steel blade; long fibreglass tape | X: 
+    - Spirit level | x=0 t=3 m=3 r=0 | T: box beam; I-beam; torpedo | X: 
+    - Laser measure | x=0 t=0 m=1 r=0 | T:  | X: 
+    - Line laser | x=0 t=2 m=0 r=0 | T: red beam; green beam | X: 
+    - Rotary laser | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Optical level | x=0 t=0 m=0 r=0 | T:  | X: 
+  # SHELF Testers, detectors & cameras (8)
+    - Multimeter | x=0 t=0 m=2 r=0 | T:  | X: 
+    - Clamp meter | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Stud, pipe and cable detector | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Moisture meter | x=0 t=2 m=0 r=0 | T: pin; pinless | X: 
+    - Infrared thermometer | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Inspection camera | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Oscilloscope | x=0 t=2 m=0 r=0 | T: handheld; bench | X: 
+    - Sound level meter | x=0 t=0 m=0 r=0 | T:  | X: 
+
+## DEPT Welding & soldering mode=tier kinds=11 note=
+  # SHELF Welders & plasma cutters (5)
+    - MIG welder | x=0 t=2 m=0 r=0 | T: gas-shielded; gasless (flux-cored) | X: 
+    - Multi-process welder | x=0 t=0 m=3 r=0 | T:  | X: 
+    - TIG welder | x=0 t=2 m=0 r=0 | T: DC; AC/DC | X: 
+    - Stick welder | x=0 t=2 m=1 r=0 | T: inverter; transformer | X: 
+    - Plasma cutter | x=0 t=0 m=0 r=0 | T:  | X: 
+  # SHELF Soldering, brazing & consumables (6)
+    - Soldering iron | x=0 t=3 m=3 r=0 | T: soldering iron; soldering station; cordless | X: 
+    - Gas torch | x=0 t=2 m=0 r=0 | T: butane; propane | X: 
+    - Fume extractor | x=0 t=2 m=0 r=0 | T: benchtop soldering; welding | X: 
+    - Welding wire and rod | x=0 t=6 m=4 r=1 | T: MIG wire; flux-cored wire; stick electrode; TIG filler rod; tungsten electrode; brazing rod | X: 
+    - Solder | x=0 t=2 m=3 r=0 | T: leaded; lead-free | X: 
+    - Flux | x=0 t=3 m=0 r=0 | T: paste; liquid; powder | X: 
+
+## DEPT Ladders, lifting & moving mode=tier kinds=13 note=
+  # SHELF Ladders (7)
+    - Stepladder | x=0 t=4 m=7 r=0 | T: swingback; platform; aluminium; fibreglass | X: 
+    - Combination ladder | x=0 t=0 m=5 r=0 | T:  | X: 
+    - Extension ladder | x=0 t=2 m=4 r=0 | T: two-section; three-section | X: 
+    - Telescopic ladder | x=0 t=0 m=3 r=0 | T:  | X: 
+    - Single ladder | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Roof ladder | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Tripod ladder | x=0 t=0 m=0 r=0 | T:  | X: 
+  # SHELF Hoists, jacks & trolleys (6)
+    - Sack truck | x=0 t=3 m=0 r=0 | T: fixed; folding; stair-climbing | X: 
+    - Moving dolly | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Hand cart | x=0 t=2 m=1 r=0 | T: fixed; folding | X: 
+    - Bottle jack | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Winch | x=0 t=2 m=0 r=0 | T: hand; electric | X: 
+    - Chain hoist | x=0 t=2 m=0 r=0 | T: manual; electric | X: 
+
+## DEPT Site equipment & power mode=tier kinds=7 note=
+  # SHELF Generators, compressors, pumps & mixers (7)
+    - Portable generator | x=0 t=4 m=0 r=0 | T: inverter; open-frame (conventional); petrol; dual-fuel | X: 
+    - Air compressor | x=0 t=3 m=1 r=0 | T: oil-free; oil-lubricated; cordless | X: 
+    - Submersible pump | x=0 t=2 m=1 r=0 | T: clean water; dirty water | X: 
+    - Surface pump | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Transfer pump | x=0 t=2 m=1 r=0 | T: hand; electric | X: 
+    - Cement mixer | x=0 t=2 m=0 r=0 | T: electric; petrol | X: 
+    - Plate compactor | x=0 t=2 m=3 r=0 | T: forward; reversible | X: 
+
+## DEPT Tool storage mode=tier kinds=7 note=
+  # SHELF Toolboxes, chests & bags (7)
+    - Portable tool box | x=0 t=3 m=0 r=6 | T: portable toolbox; wheeled toolbox; stackable tool case | X: 
+    - Tool chest | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Roller cabinet | x=0 t=0 m=1 r=0 | T:  | X: 
+    - Site box | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Tool bag | x=0 t=3 m=0 r=0 | T: open tote; zipped bag; backpack | X: 
+    - Tool roll | x=0 t=0 m=0 r=0 | T:  | X: 
+    - Tool pouch | x=0 t=0 m=0 r=0 | T:  | X: 
+
+## DEPT Protective equipment (PPE) mode=mixed kinds=13 note=Receives the PPE kinds moved in from Clothing (A1); merge any duplicates with these kinds.
+  # SHELF Head, eye, ear & breathing protection (7)
+    - Safety glasses | x=1 t=6 m=5 r=0 | T: wraparound; over-glasses (OTG); reader / bifocal; tinted or amber lenses; anti-fog coating; prescription safety | X: Uvex pheos(Uvex)
+    - Ear defenders | x=2 t=6 m=1 r=0 | T: passive; electronic level-dependent; Bluetooth / radio; helmet-mounted; neckband; welding (flame-resistant) | X: Peltor Optime(3M); Peltor ProTac(3M)
+    - Earplugs | x=0 t=5 m=1 r=0 | T: disposable foam; reusable pre-moulded (flanged); corded; banded; custom moulded | X: 
+    - Respirator | x=2 t=6 m=3 r=0 | T: disposable filtering facepiece (FFP1–3, N95); valved; reusable half mask; full-face mask; powered air-purifying (PAPR); particulate, gas and vapour or combination filters | X: 3M 6000 Series half facepiece(3M); 3M Aura(3M)
+    - Hard hat | x=4 t=6 m=3 r=1 | T: cap style; full brim; climbing-style with chinstrap; vented; Type I / Type II; electrical class E, G or C | X: Bullard Hard-Boiled hat(Bullard); MSA Skullgard(MSA); MSA V-Gard(MSA); Petzl Vertex(Petzl)
+    - Welding helmet | x=3 t=4 m=4 r=1 | T: passive (fixed shade); auto-darkening, fixed or variable shade; grind mode; air-fed / PAPR | X: Speedglas(3M); Lincoln VIKING(Lincoln Electric); Miller Digital Infinity(Miller)
+    - Face shield | x=0 t=5 m=0 r=0 | T: polycarbonate visor; mesh (forestry); headband-mounted; hard-hat-mounted; chin guard | X: 
+  # SHELF Protective clothing & gloves (6)
+    - Work gloves | x=0 t=9 m=7 r=0 | T: leather rigger; coated knit (nitrile, latex or PU palm); cut-resistant (EN 388 level A–F); impact-protected (EN 388 'P'); mechanic's; insulated winter; waterproof; chainsaw gloves (EN ISO 11393-4); we | X: 
+    - Hi-vis vest | x=0 t=6 m=0 r=0 | T: ANSI/ISEA 107 Class 1, 2 or 3; EN ISO 20471 class; ANSI/ISEA 207 public-safety vest; breakaway (5-point); surveyor's (pockets); yellow, orange or green | X: 
+    - Chainsaw trousers | x=0 t=8 m=8 r=0 | T: Class 1 (20 m/s); Class 2 (24 m/s); Class 3 (28 m/s); Design A (front only); Design A Plus (adds rear ankle to knee); Design C (all-round); EN ISO 11393-2 (formerly EN 381-5); vented | X: 
+    - Chainsaw chaps | x=0 t=3 m=2 r=0 | T: front apron; 270-degree wrap; protection class | X: 
+    - Knee pads | x=0 t=6 m=8 r=0 | T: hard cap; soft foam; gel; hinged; flat stabiliser cap; trouser-insert pads | X: 
+    - Fall-arrest harness | x=0 t=6 m=4 r=0 | T: full-body (fall arrest); chest harness; work-positioning; rescue; ANSI Z359.11 / CSA Z259.10; quick-connect or tongue-buckle legs | X: 
+
+TOTAL kinds 258 archetypes 315

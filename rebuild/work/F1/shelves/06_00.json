@@ -1,0 +1,620 @@
+{
+ "kinds": [
+  {
+   "n": "Folded map",
+   "a": "sheet map · pocket map · tear-off map pad",
+   "d": "Printed map sheet folded to pocket size for carrying; the area covered and scale are noted.",
+   "t": [
+    "paper",
+    "waterproof / laminated",
+    "tear-off map pad",
+    "flat sheet",
+    "concertina fold",
+    "1:25,000",
+    "1:50,000",
+    "1:100,000",
+    "1:200,000",
+    "topographic",
+    "road",
+    "street plan",
+    "custom-centred"
+   ],
+   "s": "https://www.formaxprinting.com/blog/common-types-of-printed-maps",
+   "x": [
+    {
+     "n": "Ordnance Survey 1:25,000",
+     "a": "OS Explorer",
+     "d": "Britain's most detailed national leisure map, showing rights of way and open access, with orange covers.",
+     "mk": "Ordnance Survey",
+     "y": "1972",
+     "s": "https://ordnancesurvey.co.uk/blog/a-history-of-paper-maps",
+     "v": [
+      {
+       "n": "Outdoor Leisure",
+       "mk": "Ordnance Survey",
+       "y": "1972",
+       "d": "national parks and popular areas"
+      },
+      {
+       "n": "Pathfinder",
+       "mk": "Ordnance Survey",
+       "y": "",
+       "d": "rights of way in England and Wales"
+      },
+      {
+       "n": "Explorer",
+       "mk": "Ordnance Survey",
+       "y": "1994",
+       "d": "three times a Pathfinder's area; 403 sheets by 2003, orange cover"
+      }
+     ],
+     "dt": "sheet number · paper or weatherproof · edition"
+    },
+    {
+     "n": "Ordnance Survey 1:50,000",
+     "a": "OS Landranger",
+     "d": "Britain's general-purpose national map in 204 sheets with pink covers.",
+     "mk": "Ordnance Survey",
+     "y": "1974",
+     "s": "https://ordnancesurvey.co.uk/blog/a-history-of-paper-maps",
+     "v": [
+      {
+       "n": "One-inch",
+       "mk": "Ordnance Survey",
+       "y": "1801",
+       "d": "predecessor scale"
+      },
+      {
+       "n": "First Series",
+       "mk": "Ordnance Survey",
+       "y": "1974",
+       "d": "204 sheets, 1974–76"
+      },
+      {
+       "n": "Landranger",
+       "mk": "Ordnance Survey",
+       "y": "1980s",
+       "d": "pink cover"
+      }
+     ],
+     "dt": "sheet number · paper or weatherproof · edition"
+    },
+    {
+     "n": "IGN 1:25,000",
+     "a": "",
+     "d": "France's walking map at 1:25,000: TOP 25 for coasts, forests and mountains, Série Bleue for the rest.",
+     "mk": "IGN",
+     "y": "",
+     "s": "https://www.ffrandonnee.fr/s-informer/actualites/cartographie-la-serie-ign-top-25-se-renouvelle",
+     "v": [
+      {
+       "n": "TOP 25",
+       "mk": "IGN",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Série Bleue",
+       "mk": "IGN",
+       "y": "2014",
+       "d": "renewed 2014–18; each sheet 685 km²"
+      }
+     ],
+     "dt": "sheet number · edition"
+    },
+    {
+     "n": "IGN TOP 100",
+     "a": "",
+     "d": "France's 1:100,000 tourist and road series, successor to the Série Verte.",
+     "mk": "IGN",
+     "y": "",
+     "s": "https://blog.stanfords.co.uk/blog/2003/05/01/michelin-the-maps-they-are-a-changing/",
+     "v": [
+      {
+       "n": "Série Verte",
+       "mk": "IGN",
+       "y": "",
+       "d": "original name"
+      },
+      {
+       "n": "Série Rouge",
+       "mk": "IGN",
+       "y": "",
+       "d": "regional series, later the IGN regional maps"
+      }
+     ],
+     "dt": "sheet number"
+    },
+    {
+     "n": "Michelin 1:200,000",
+     "a": "yellow maps",
+     "d": "Michelin's concertina-folded 'yellow maps' of France, the benchmark motoring map.",
+     "mk": "Michelin",
+     "y": "1910s",
+     "s": "https://blog.stanfords.co.uk/blog/2003/05/01/michelin-the-maps-they-are-a-changing/",
+     "v": [
+      {
+       "n": "France in 47 sheets",
+       "mk": "Michelin",
+       "y": "1910s",
+       "d": "concertina format"
+      },
+      {
+       "n": "Corsica sheet",
+       "mk": "Michelin",
+       "y": "1921",
+       "d": "completed the series"
+      },
+      {
+       "n": "British Isles series",
+       "mk": "Michelin",
+       "y": "1920s",
+       "d": "31 sheets"
+      },
+      {
+       "n": "Regional maps",
+       "mk": "Michelin",
+       "y": "1970s",
+       "d": "17 sheets for mainland France"
+      },
+      {
+       "n": "Local Maps",
+       "mk": "Michelin",
+       "y": "2003",
+       "d": "replaced the concertina series"
+      }
+     ],
+     "dt": "sheet number · edition"
+    },
+    {
+     "n": "USGS 7.5-minute quadrangle",
+     "a": "quad · 24K quadrangle",
+     "d": "United States topographic map sheet at 1:24,000 covering about 50–70 square miles.",
+     "mk": "USGS",
+     "y": "",
+     "s": "https://www.fs.usda.gov/r06/umpqua/maps-guides/75-minute-quadrangle-topographic-maps",
+     "v": [],
+     "dt": "quadrangle name · colour or black and white"
+    },
+    {
+     "n": "Harvey Superwalker XT",
+     "a": "",
+     "d": "Waterproof 1:25,000 walkers' maps of British (1:30,000 Irish) hill areas.",
+     "mk": "Harvey",
+     "y": "",
+     "s": "https://www.harveymaps.co.uk/acatalog/Superwalker-XT-The-Complete-Collection-YHSWSET.html",
+     "v": [
+      {
+       "n": "Superwalker XT",
+       "mk": "Harvey",
+       "y": "",
+       "d": "1:25,000 UK, 1:30,000 Ireland; 55 titles"
+      },
+      {
+       "n": "British Mountain Map",
+       "mk": "Harvey",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Ultramap",
+       "mk": "Harvey",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Trail Map",
+       "mk": "Harvey",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "title · scale"
+    },
+    {
+     "n": "Nordeca Turkart",
+     "a": "",
+     "d": "Norwegian topographic hiking maps.",
+     "mk": "Nordeca",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Nordeca",
+     "v": [
+      {
+       "n": "Turkartserien",
+       "mk": "Nordeca",
+       "y": "",
+       "d": "hiking maps"
+      },
+      {
+       "n": "Norge-serien",
+       "mk": "Nordeca",
+       "y": "",
+       "d": "systematic topographic series"
+      }
+     ],
+     "dt": "sheet number"
+    }
+   ],
+   "m": [
+    [
+     "Fjällkartan",
+     "Norstedts"
+    ],
+    [
+     "TOP 250",
+     "IGN"
+    ],
+    [
+     "Discoverer",
+     "Ordnance Survey"
+    ],
+    [
+     "Veikart",
+     "Nordeca"
+    ]
+   ]
+  },
+  {
+   "n": "Atlas",
+   "a": "road atlas · world atlas · street atlas",
+   "d": "Bound book of maps, sold in boards, flexible cover or spiral-bound to lie flat.",
+   "t": [
+    "bound atlas",
+    "spiral-bound",
+    "lie-flat paperback",
+    "large-print (easy read)",
+    "road atlas",
+    "street atlas",
+    "world reference atlas",
+    "school atlas"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Times_Atlas_of_the_World",
+   "x": [
+    {
+     "n": "The Times Atlas of the World",
+     "a": "",
+     "d": "Large-format British world reference atlas, issued in numbered editions since 1895.",
+     "mk": "Times Books",
+     "y": "1895",
+     "s": "https://en.wikipedia.org/wiki/Times_Atlas_of_the_World",
+     "v": [
+      {
+       "n": "First edition",
+       "mk": "",
+       "y": "1895",
+       "d": "117 map pages, 130,000 index names"
+      },
+      {
+       "n": "Times Survey Atlas",
+       "mk": "",
+       "y": "1922",
+       "d": "Bartholomew, 47 × 33 cm"
+      },
+      {
+       "n": "Mid-Century Edition",
+       "mk": "",
+       "y": "1955",
+       "d": "five elephant-folio volumes, 1955–59"
+      },
+      {
+       "n": "Comprehensive Edition",
+       "mk": "",
+       "y": "1967",
+       "d": "one volume, maps both sides"
+      },
+      {
+       "n": "10th edition",
+       "mk": "Times Books",
+       "y": "1999",
+       "d": "first fully computer-produced"
+      },
+      {
+       "n": "16th edition",
+       "mk": "HarperCollins",
+       "y": "2023",
+       "d": ""
+      }
+     ],
+     "dt": "edition · binding"
+    },
+    {
+     "n": "National Geographic Atlas of the World",
+     "a": "",
+     "d": "American world reference atlas, first published after seven years' work.",
+     "mk": "National Geographic Society",
+     "y": "1963",
+     "s": "https://www.nationalgeographic.com/science/article/131103-national-geographic-maps-atlas-changes-cartography",
+     "v": [
+      {
+       "n": "First edition",
+       "mk": "National Geographic Society",
+       "y": "1963",
+       "d": "about 127,000 place names"
+      },
+      {
+       "n": "Second edition",
+       "mk": "National Geographic Society",
+       "y": "1966",
+       "d": ""
+      },
+      {
+       "n": "10th edition",
+       "mk": "National Geographic Society",
+       "y": "2014",
+       "d": ""
+      }
+     ],
+     "dt": "edition · binding"
+    },
+    {
+     "n": "Philip's Navigator",
+     "a": "",
+     "d": "British road atlas at 1:100,000 (1.5 miles to the inch), sold as the best-selling detailed road atlas.",
+     "mk": "Philip's",
+     "y": "",
+     "s": "https://www.hachette.co.uk/titles/none/philips-navigator-britain-the-champion-of-road-atlases/9781849077316/",
+     "v": [
+      {
+       "n": "Lie-flat paperback",
+       "mk": "Philip's",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Spiral-bound",
+       "mk": "Philip's",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "edition year · binding"
+    },
+    {
+     "n": "A–Z street atlas",
+     "a": "A to Z",
+     "d": "Indexed city street atlas, begun for London in the late 1930s.",
+     "mk": "Geographers' A–Z Map Company",
+     "y": "1936",
+     "s": "https://en.wikipedia.org/wiki/Geographers%27_A%E2%80%93Z_Map_Company",
+     "v": [
+      {
+       "n": "London",
+       "mk": "Geographers' A–Z Map Company",
+       "y": "",
+       "d": "first A–Z street atlas"
+      },
+      {
+       "n": "Birmingham",
+       "mk": "Geographers' A–Z Map Company",
+       "y": "1953",
+       "d": ""
+      },
+      {
+       "n": "Manchester",
+       "mk": "Geographers' A–Z Map Company",
+       "y": "1963",
+       "d": ""
+      }
+     ],
+     "dt": "city · edition · binding"
+    }
+   ],
+   "m": [
+    [
+     "AA Traveller's Atlas",
+     "AA"
+    ],
+    [
+     "AA Big Easy Read Atlas",
+     "AA"
+    ],
+    [
+     "Philip's Britain & Ireland Road Atlas",
+     "Philip's"
+    ],
+    [
+     "Great Britain A-Z Super Scale Road Atlas",
+     "Geographers' A–Z Map Company"
+    ]
+   ]
+  },
+  {
+   "n": "Wall map",
+   "a": "",
+   "d": "Map printed or mounted to hang flat on a wall, laminated or not.",
+   "t": [
+    "laminated",
+    "paper",
+    "framed",
+    "pin board",
+    "world",
+    "country",
+    "city",
+    "Peters projection"
+   ],
+   "s": "https://www.stanfords.co.uk/",
+   "m": [
+    [
+     "Bildkarten wall map",
+     "Bollmann"
+    ],
+    [
+     "London Premier A-Z Wall Map",
+     "Geographers' A–Z Map Company"
+    ]
+   ]
+  },
+  {
+   "n": "Map booklet",
+   "a": "",
+   "d": "Map issued as a small stapled or bound booklet of map sections.",
+   "t": [
+    "stapled",
+    "spiral-bound",
+    "route booklet"
+   ],
+   "s": "https://www.formaxprinting.com/blog/common-types-of-printed-maps"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Ordnance Survey",
+   "c": "United Kingdom",
+   "f": "1791",
+   "seg": "Institution & issuer",
+   "kf": "national mapping",
+   "d": "Great Britain's national mapping agency, publisher of the Explorer and Landranger series.",
+   "lines": [
+    "Explorer",
+    "Landranger",
+    "Outdoor Leisure",
+    "Pathfinder"
+   ],
+   "sig": [
+    "Ordnance Survey 1:25,000",
+    "Ordnance Survey 1:50,000"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "IGN",
+   "c": "France",
+   "f": "1940",
+   "seg": "Institution & issuer",
+   "kf": "national mapping",
+   "d": "France's national mapping institute (Institut national de l'information géographique et forestière).",
+   "lines": [
+    "TOP 25",
+    "Série Bleue",
+    "TOP 100",
+    "TOP 250"
+   ],
+   "sig": [
+    "IGN 1:25,000",
+    "IGN TOP 100"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Michelin",
+   "c": "France",
+   "f": "1889",
+   "seg": "Mainstream",
+   "kf": "road maps, guides",
+   "d": "French tyre maker publishing road maps and guides since 1900.",
+   "lines": [
+    "Local Maps",
+    "Regional maps"
+   ],
+   "sig": [
+    "Michelin 1:200,000"
+   ],
+   "s": "https://blog.stanfords.co.uk/blog/2003/05/01/michelin-the-maps-they-are-a-changing/"
+  },
+  {
+   "n": "USGS",
+   "c": "United States",
+   "f": "1879",
+   "seg": "Institution & issuer",
+   "kf": "topographic maps",
+   "d": "United States Geological Survey, publisher of the 7.5-minute quadrangle series.",
+   "sig": [
+    "USGS 7.5-minute quadrangle"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Harvey",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "walkers' maps",
+   "d": "Scottish publisher of waterproof walking and mountain maps.",
+   "lines": [
+    "Superwalker XT",
+    "British Mountain Map",
+    "Ultramap",
+    "Trail Map"
+   ],
+   "sig": [
+    "Harvey Superwalker XT"
+   ],
+   "s": "https://www.harveymaps.co.uk/acatalog/Superwalker-XT-The-Complete-Collection-YHSWSET.html"
+  },
+  {
+   "n": "Nordeca",
+   "c": "Norway",
+   "f": "1990",
+   "seg": "Specialist",
+   "kf": "leisure maps",
+   "d": "Lysaker map company, founded as Totalkart, leading Norway's printed leisure maps.",
+   "lines": [
+    "Turkartserien",
+    "Norge-serien"
+   ],
+   "sig": [
+    "Nordeca Turkart"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Nordeca"
+  },
+  {
+   "n": "Times Books",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "Premium",
+   "kf": "world atlases",
+   "d": "Imprint publishing The Times Atlas of the World, now within HarperCollins.",
+   "sig": [
+    "The Times Atlas of the World"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Times_Atlas_of_the_World"
+  },
+  {
+   "n": "National Geographic Society",
+   "c": "United States",
+   "f": "1888",
+   "seg": "Institution & issuer",
+   "kf": "maps, atlases",
+   "d": "American geographic society publishing world atlases and maps.",
+   "sig": [
+    "National Geographic Atlas of the World"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Philip's",
+   "c": "United Kingdom",
+   "f": "1834",
+   "seg": "Mainstream",
+   "kf": "road atlases",
+   "d": "British map and atlas publisher, part of Hachette UK.",
+   "sig": [
+    "Philip's Navigator"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Geographers' A–Z Map Company",
+   "c": "United Kingdom",
+   "f": "1936",
+   "seg": "Mainstream",
+   "kf": "street atlases",
+   "d": "London publisher of A–Z street atlases, founded by Alexander Gross; list sold to HarperCollins in 2019.",
+   "sig": [
+    "A–Z street atlas"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Geographers%27_A%E2%80%93Z_Map_Company"
+  },
+  {
+   "n": "AA",
+   "c": "United Kingdom",
+   "f": "1905",
+   "seg": "Mainstream",
+   "kf": "road atlases",
+   "d": "The Automobile Association, British motoring organisation publishing road atlases.",
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "Old Folded map and Tear-off map pad merged (pad as t). National survey series became archetypes (OS 1:25k/1:50k, IGN 1:25k and TOP 100, Michelin 1:200k, USGS quad, Harvey, Nordeca); Fjällkartan kept as model only (no fetchable page confirmed it; maker pages blocked). Atlases: Times Atlas, National Geographic, Philip's Navigator, A–Z as archetypes; AA atlases kept as models. Old Atlas kind had no source; now cites the Times Atlas page. Peters projection wall map moved to t (not a product). Bollmann kept as a model without a brand entry."
+}

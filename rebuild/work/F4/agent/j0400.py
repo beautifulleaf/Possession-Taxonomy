@@ -1,0 +1,36 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/F4/agent')
+from w import save
+W='https://en.wikipedia.org/wiki/'; K='https://kogeijapan.com/locale/en_US/'
+kinds=[
+{"n":"Butsudan","a":"household altar · home shrine","d":"Cabinet, shelf or box shrine kept in a Japanese Buddhist home to hold the gohonzon, memorial tablets and offerings. Comes in modern, karaki or gold-leaf styles, wall-hung or mini.",
+ "t":["floor-standing","wall-hung","mini","modern furniture-style","karaki","gold-leaf (kinbutsudan)"],"s":"https://www.hasegawa.jp/pages/butsudan",
+ "x":[
+ {"n":"Hikone butsudan","a":"","d":"Large gold-lacquer and maki-e altar from Shiga; seven trades build each one.","mk":"","y":"designated 1975","s":K+"hikonebutsudan/","dt":"zelkova or cypress · gold leaf · maki-e · over 121 cm"},
+ {"n":"Nagoya butsudan","a":"","d":"Altar with a raised platform and nail-free joinery, built by eight specialist artisans.","mk":"","y":"designated 1976","s":K+"nagoyabutsudan/","dt":"cypress, zelkova or sandalwood base · three lifting doors"},
+ {"n":"Kyo butsudan","a":"Kyoto butsudan","d":"Kyoto altar with glossy roiro lacquer, maki-e and hand-applied gold leaf.","mk":"","y":"designated 1976","s":K+"kyobutsudan/","dt":"cypress and pine · urushi · roiro"},
+ {"n":"Kanazawa butsudan","a":"","d":"Altar with maki-e, hakubori gold-leaf carving and chased metal fittings; over a thousand parts.","mk":"","y":"designated 1976","s":K+"kanazawabutsudan/","dt":"cypress, gingko · lacquer · gold leaf"},
+ {"n":"Yamagata butsudan","a":"","d":"Tohoku altar with seven processes and repeated urushi lacquering.","mk":"","y":"","s":K+"yamagatabutsudan/","dt":"zelkova or kalopanax front · lime and cypress sanctuary"}],
+ "r":[["H PREMIUM","Hasegawa"],["HASEGAWA Standard","Hasegawa"],["LIVE-ing","Hasegawa"],["MIND STYLE","Hasegawa"]],"m":[]},
+{"n":"Buddha image","a":"Buddha statue · gohonzon","d":"Statue or image of a Buddha or bodhisattva kept for devotion at home.",
+ "t":["Shakyamuni","Amida","Kannon","Medicine Buddha (Yakushi)","Gandhara style","Thai style","Tibetan style","bronze","wood","stone"],"s":W+"Buddha_in_art",
+ "x":[{"n":"Amida Buddha","a":"Amitabha","d":"Buddha of the Pure Land, shown standing with the welcoming (raigo) mudra or seated in meditation.","mk":"","y":"Kamakura Daibutsu 1252","s":W+"Amit%C4%81bha","v":[{"n":"Great Buddha of Kamakura","mk":"","y":"1252","d":"Seated Amitabha at Kotoku-in"}],"dt":"standing welcoming mudra · seated meditation mudra"},
+ {"n":"Gandharan Buddha","a":"Greco-Buddhist","d":"Realistic, Greek-influenced Buddha figure from first-century CE Gandhara.","mk":"","y":"1st century CE","s":W+"Buddha_in_art","dt":"stone or stucco"}],"m":[]},
+{"n":"Juzu","a":"nenju · Japanese Buddhist prayer beads","d":"Loop of 108 (or fewer) beads with a mother bead and tassels, differing by Japanese sect.",
+ "t":["Shingon (red string, counter strands)","Tendai (flat soroban beads)","Nichiren (five counters)","Zen (no counters)","Jodo Shinshu (short)","Jodo-shu double ring","108 beads","54 beads"],"s":W+"Juzu",
+ "x":[{"n":"Jodo-shu nikka juzu","a":"","d":"Double-ringed juzu counting nenbutsu recitations, up to 120,000 with all counters.","mk":"","y":"","s":W+"Juzu","dt":"double ring"},
+ {"n":"Shingon juzu","a":"","d":"108 beads with counter strands at both ends and a red main string.","mk":"","y":"","s":W+"Juzu","dt":"red string · white tassels"}],"m":[["Juzu",""]]},
+{"n":"Standing bowl bell","a":"rin","d":"Bowl-shaped bell that rests on a cushion or stand and is struck with a striker, rung during liturgy. A singing bowl made for music is in Musical Instruments & Music Gear.","t":["table rin","large temple rin","with cushion"],"s":"https://instruments-du-monde.com/en/products/japanese-singing-bowl","m":[["Rin",""]]},
+{"n":"Mokugyo","a":"wooden fish","d":"Hollow wooden block struck to keep rhythm in chanting; from about 150 mm for personal use to 1.2 m in temples.","t":["wood","composite","with mallet and cushion"],"s":W+"Wooden_fish","m":[["Mokugyo",""]]},
+{"n":"Memorial tablet","a":"ihai","d":"Tablet that stands for a dead person, inscribed with a name, kept at an altar or home.","t":["black lacquer","kuridashi ihai","gilt"],"s":W+"Butsudan","m":[["Ihai",""],["Kuridashi ihai",""]]},
+{"n":"Memorial register","a":"kakocho · death register","d":"Book or folding album made to record the names and death dates of the dead, kept at a household altar.","t":["bound book","folding album"],"s":W+"Butsudan","m":[]}
+]
+brands=[{"n":"Hasegawa","c":"Japan","f":"","seg":"Specialist","kf":"butsudan retail","d":"Japanese Buddhist altar retailer with more than 130 directly managed stores; lines H PREMIUM, LIVE-ing and others.","lines":["H PREMIUM","HASEGAWA Standard","LIVE-ing","MIND STYLE"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.hasegawa.jp/pages/butsudan"}]
+def T(n,r,d,tech,mat,s,p):
+    return {"n":n,"g":"Woodwork & furniture","r":r,"p":p,"d":d,"tech":tech,"mat":mat,"forms":["butsudan"],"ctr":[r],"auth":"National traditional craft designation (Japan).","s":s}
+trads=[
+T("Hikone butsudan","Hikone, Shiga","Large gold-lacquer Buddhist altars; Japan's first designated butsudan craft.","seven trades: woodwork, carving, metalwork, gilding, maki-e, lacquer","zelkova, cypress, lacquer, gold leaf",K+"hikonebutsudan/","designated 1975"),
+T("Nagoya butsudan","Nagoya, Aichi","Altars with raised platform and nail-free joinery.","hozogumi joinery, roiro lacquer, maki-e, gilding","cypress, zelkova, sandalwood, gold leaf",K+"nagoyabutsudan/","designated 1976"),
+T("Kyo butsudan","Kyoto","Altars with glossy roiro lacquer and hand-applied gold leaf.","urushi lacquer, roiro polishing, maki-e","cypress, pine, gold leaf",K+"kyobutsudan/","designated 1976"),
+T("Kanazawa butsudan","Kanazawa, Ishikawa","Altars with maki-e and hakubori gold-leaf carving.","maki-e, hakubori, metal engraving","cypress, gingko, copper, brass, gold leaf",K+"kanazawabutsudan/","designated 1976"),
+T("Yamagata butsudan","Yamagata","Tohoku altars finished by repeated urushi lacquering.","urushi, carving, maki-e, gilding","zelkova, lime, cypress, gold leaf",K+"yamagatabutsudan/","")]
+save('04_00',{"kinds":kinds,"brands":brands,"traditions":trads,"notes":"Old 'Household altar' model Kamidana dropped (own kind in Shinto shelf). Old 'Other prayer beads' catch-all dissolved into Juzu; rosary/mala/tasbih live elsewhere. Hasegawa trimmed to a brand entry (founding year not on retrieved page). Kannon/Yakushi/Shakyamuni listed as types only (no retrieved page); Yamagata designation year not on page. Rin source kept as old source."})

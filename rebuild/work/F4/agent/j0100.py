@@ -1,0 +1,29 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/F4/agent')
+from w import save
+W='https://en.wikipedia.org/wiki/'
+JCA=W+'Jewish_ceremonial_art'
+kinds=[
+{"n":"Hanukkah lamp","a":"hanukkiah · Hanukkah menorah","d":"Nine-branch lamp or candle holder, eight places for the festival lights and one for the helper light (shamash).",
+ "t":["candle","oil","wall-mounted","table","electric"],"s":"https://www.judaica.com/hanukkah/menorahs.html",
+ "x":[{"n":"Hanukkiah","a":"Hanukkah menorah","d":"Nine-branched lamp with eight lights and the shamash; any design is allowed, so artists vary it freely.","mk":"","y":"","s":W+"Hanukah","v":[{"n":"Lindo lamp","mk":"","y":"18th century","d":"Fine silver example cited in the ceremonial art article"},{"n":"Silver menorah by Ze'ev Raban","mk":"","y":"1930s","d":"Cited in the ceremonial art article"}],"dt":"candle or oil · silver, brass, pewter, aluminium"}],
+ "m":[["Nambe Illume Menorah","Nambé"],["Waterdale Collection Line Menorah","Waterdale Collection"],["Anodized Aluminum Cone Menorah","Yair Emanuel"],["Floating Cubes Menorah","Yair Emanuel"],["Multicolor Rings Hammered Menorah","Yair Emanuel"]]},
+{"n":"Seven-branch menorah","a":"Temple menorah","d":"Seven-branch lamp or candle holder, modelled on the Temple menorah.","t":["table","wall","large public"],"s":"https://www.judaica.com/hanukkah/menorahs.html",
+ "x":[{"n":"Temple menorah","a":"","d":"Seven-branched gold candelabrum of the Tabernacle and Temple, now a Jewish symbol and the emblem of Israel (1948).","mk":"","y":"","s":W+"Temple_menorah","v":[{"n":"Arch of Titus relief","mk":"","y":"70 CE","d":"Best-known depiction of the Second Temple menorah"}],"dt":"seven lamps · central shaft and six branches"}],
+ "m":[["Sderot Menorah (7 Branch)","Yaron Bob"]]},
+{"n":"Kiddush cup","a":"Kiddush goblet","d":"Cup for the wine of the Kiddush blessing, often silver; must hold a revi'it.","t":["silver","pewter","porcelain","with saucer","stemmed"],"s":W+"Kiddush","m":[]},
+{"n":"Shabbat candlesticks","a":"","d":"Pair or set of candlesticks lit by the household at sundown on Friday.","t":["silver","brass","travel","candelabrum"],"s":JCA,"m":[]},
+{"n":"Challah board & cover","a":"challah cloth · challah plate","d":"Board or tray and cloth that hold and cover the two Sabbath loaves.","t":["embroidered cover","wooden board","glass board"],"s":W+"Challah_cover","m":[]},
+{"n":"Seder plate","a":"ritual food plate · ke'arah","d":"Plate or tray made to hold the symbolic foods of the Passover seder. The food itself is not included.","t":["six-well","tiered","ceramic","silver","matching matzah plate"],"s":"https://moderntribe.com/collections/seder-plates",
+ "x":[{"n":"Six-item seder plate","a":"ke'arah","d":"Plate with places for maror, chazeret, charoset, karpas, zeroa and beitzah; three matzot go on their own plate.","mk":"","y":"","s":W+"Feast_of_Passover","dt":"ceramic, silver, glass"}],"m":[]},
+{"n":"Etrog box","a":"","d":"Ornamental case, often silver, for the citron used on Sukkot.","t":["silver","wood","cardboard"],"s":W+"Etrog","m":[]},
+{"n":"Havdalah candle","a":"Sabbath-ending candle","d":"Braided multi-wick candle lit at the close of the Sabbath, sold plain, decorated or with a spice box.","t":["braided","plain","yaknehaz (two-wick)"],"s":"https://www.ajudaica.com/category/103/Havdalah-Candles/","m":[]},
+{"n":"Spice box","a":"besamim box","d":"Small box or tower made to hold fragrant spices smelled in the Havdalah rite.",
+ "t":["tower","fruit-shaped","box","silver","Havdalah set"],"s":"https://www.ajudaica.com/Yair-Emanuel-Havdalah-Spice-Box-with-Cutout-Borei-Minei-Besamim-Blue/item21037",
+ "x":[{"n":"Havdalah spice container","a":"besamim container","d":"Decorative container for spices passed round at Havdalah; in use in Northern Europe by the 12th century.","mk":"","y":"oldest surviving mid-16th century","s":W+"Havdalah","v":[{"n":"Frankfurt spice box, Jewish Museum New York","mk":"","y":"c. 1550","d":"Oldest type cited"}],"dt":"silver · tower or box"}],
+ "m":[["Besamim box",""]]},
+{"n":"Ritual washing cup","a":"netilat yadayim cup · negl vaser cup","d":"Cup, usually two-handled, made to pour water over the hands in ritual washing.","t":["two-handled","silver","stainless steel"],"s":"https://www.judaicawebstore.co.uk/elegant-stainless-steel-netilat-yadayim-cup-with-hebrew-blessings-two-handled-design","m":[["Netilat yadayim cup",""]]},
+{"n":"Yahrzeit candle","a":"memorial candle · ner neshama","d":"Long-burning memorial candle in a glass, lit on the anniversary of a death and on festivals.","t":["24-hour","48-hour","72-hour","seven-day shiva candle"],"s":W+"Yahrzeit_candle","m":[]}
+]
+brands=[{"n":"Nambé","c":"United States","f":"1951","seg":"Premium","kf":"alloy tableware","d":"Metalware maker near Santa Fe that makes menorahs and Judaica in its eight-metal alloy; owned by Portmeirion Group since 2019.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":W+"Namb%C3%A9_Ware"}]
+trads=[{"n":"Bezalel School","g":"Metal & blades","r":"Jerusalem","p":"1906 to present","d":"Jerusalem art school whose workshops, with many Yemenite Jewish silversmiths, made Judaica in a Jewish-Zionist style.","tech":"silversmithing, filigree","mat":"silver, brass, leather, wood","forms":["Hanukkah lamps","Torah ornaments","spice boxes"],"ctr":["Bezalel Academy, Jerusalem"],"auth":"Bezalel workshop marks; check against museum examples.","s":W+"Bezalel_Academy_of_Arts_and_Design"}]
+save('01_00',{"kinds":kinds,"brands":brands,"traditions":trads,"notes":"Kiddush cup, Shabbat candlesticks, challah board, etrog box added (new). Not included for lack of a retrieved independent page: Hazorfim, Yair Emanuel and Michael Aram brand entries, Quest Collection, Eastern European silver Judaica tradition, German spice tower form. Yair Emanuel and Waterdale models kept as old-data models."})

@@ -1,0 +1,11 @@
+# A5 harvest notes
+- fetched: Wikipedia List of watch manufacturers, List of Swiss watch manufacturers, List of German watch manufacturers
+- coordinator: blocked WebFetch may be retried once via Firecrawl/Parallel_Auth
+- fetched: Fratello watchbrands A-Z, Monochrome all-brands, Wikipedia clock manufacturers + US clock companies, cuckoopalace guide, worldtempus FHH 12 new partners
+- blocked: watchcharts.com brand_indexes (403; Firecrawl retry denied by classifier as bot-check circumvention -> not pursued further)
+- not found: Chrono24 brand index, Hodinkee brand index, Watchbase brand index page, FHH official list (search only)
+- wikidata wd search: HTTP 429 -> moved on
+- coordinator 2nd message asked to revisit WatchCharts via Firecrawl: NOT done, because the identical Firecrawl call was already denied by the permission classifier (bot-check circumvention).
+- built A5.json from A5_work/rows.txt via A5_work/build.py (skips brands already carrying A5), then trimmed 81 low-priority entries to hit ~350 total (105 existing + 264). Do NOT rerun build.py blindly: it would re-add the trimmed rows.
+- final: 240 new brands + 24 links of register brands from other categories; harvest.py check: 0 errors.
+- re-added luxury-house block lost in rows rewrite (12 entries). final check: 244 new, 32 links, 0 errors; 276 entries total

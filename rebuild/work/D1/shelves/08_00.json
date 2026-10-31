@@ -1,0 +1,966 @@
+{
+ "kinds": [
+  {
+   "n": "Single-board computer",
+   "a": "SBC",
+   "d": "Complete computer on one board that runs an operating system, even when a microcontroller sits beside it.",
+   "t": [
+    "ARM",
+    "x86",
+    "RISC-V",
+    "AI / GPU accelerated",
+    "keyboard computer"
+   ],
+   "s": "https://core-electronics.com.au/raspberry-pi-5-model-b-4gb.html.plain.md",
+   "x": [
+    {
+     "n": "Raspberry Pi (Model B line)",
+     "a": "Raspberry Pi",
+     "d": "Credit-card-sized, low-cost ARM computer from the UK.",
+     "mk": "Raspberry Pi",
+     "y": "2012",
+     "s": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+     "v": [
+      {
+       "n": "Model B",
+       "mk": "Raspberry Pi",
+       "y": "2012"
+      },
+      {
+       "n": "Model A",
+       "mk": "Raspberry Pi",
+       "y": "2013"
+      },
+      {
+       "n": "Model B+",
+       "mk": "Raspberry Pi",
+       "y": "2014"
+      },
+      {
+       "n": "Model A+",
+       "mk": "Raspberry Pi",
+       "y": "2014"
+      },
+      {
+       "n": "Raspberry Pi 2",
+       "mk": "Raspberry Pi",
+       "y": "2015"
+      },
+      {
+       "n": "Raspberry Pi 3",
+       "mk": "Raspberry Pi",
+       "y": "2016"
+      },
+      {
+       "n": "Raspberry Pi 3 Model B+",
+       "mk": "Raspberry Pi",
+       "y": "2018"
+      },
+      {
+       "n": "Raspberry Pi 3 Model A+",
+       "mk": "Raspberry Pi",
+       "y": "2018"
+      },
+      {
+       "n": "Raspberry Pi 4",
+       "mk": "Raspberry Pi",
+       "y": "2019"
+      },
+      {
+       "n": "Raspberry Pi 5 Model B",
+       "mk": "Raspberry Pi",
+       "y": "2023"
+      }
+     ],
+     "dt": "RAM size · case and cooler"
+    },
+    {
+     "n": "Raspberry Pi Zero",
+     "a": "Pi Zero",
+     "d": "Smallest, cheapest Raspberry Pi board.",
+     "mk": "Raspberry Pi",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+     "v": [
+      {
+       "n": "Raspberry Pi Zero",
+       "mk": "Raspberry Pi",
+       "y": "2015"
+      },
+      {
+       "n": "Raspberry Pi Zero W",
+       "mk": "Raspberry Pi",
+       "y": "2017",
+       "d": "adds wireless"
+      },
+      {
+       "n": "Raspberry Pi Zero 2 W",
+       "mk": "Raspberry Pi",
+       "y": "2021"
+      }
+     ],
+     "dt": "with or without header"
+    },
+    {
+     "n": "Raspberry Pi 400 / 500",
+     "a": "",
+     "d": "Raspberry Pi built into a keyboard as a complete desktop computer.",
+     "mk": "Raspberry Pi",
+     "y": "2020",
+     "s": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+     "v": [
+      {
+       "n": "Raspberry Pi 400",
+       "mk": "Raspberry Pi",
+       "y": "2020"
+      },
+      {
+       "n": "Raspberry Pi 500",
+       "mk": "Raspberry Pi",
+       "y": "2024"
+      },
+      {
+       "n": "Raspberry Pi 500+",
+       "mk": "Raspberry Pi",
+       "y": "2025"
+      }
+     ],
+     "dt": "keyboard layout"
+    },
+    {
+     "n": "Raspberry Pi Compute Module",
+     "a": "CM",
+     "d": "Raspberry Pi in module form for building into carrier boards and products.",
+     "mk": "Raspberry Pi",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+     "v": [
+      {
+       "n": "Compute Module 1",
+       "mk": "Raspberry Pi",
+       "y": "2014"
+      },
+      {
+       "n": "Compute Module 3",
+       "mk": "Raspberry Pi",
+       "y": "2017"
+      },
+      {
+       "n": "Compute Module 4",
+       "mk": "Raspberry Pi",
+       "y": "2020"
+      },
+      {
+       "n": "Raspberry Pi Compute Module 5",
+       "mk": "Raspberry Pi",
+       "y": "2024"
+      }
+     ],
+     "dt": "RAM · eMMC · wireless"
+    },
+    {
+     "n": "BeagleBoard / BeagleBone",
+     "a": "Beagle",
+     "d": "Texas Instruments-designed open-hardware boards from BeagleBoard.org.",
+     "mk": "BeagleBoard.org",
+     "y": "2008",
+     "s": "https://en.wikipedia.org/wiki/BeagleBoard",
+     "v": [
+      {
+       "n": "BeagleBoard",
+       "mk": "BeagleBoard.org",
+       "y": "2008"
+      },
+      {
+       "n": "BeagleBoard-xM",
+       "mk": "BeagleBoard.org",
+       "y": "2010"
+      },
+      {
+       "n": "BeagleBone",
+       "mk": "BeagleBoard.org",
+       "y": "2011"
+      },
+      {
+       "n": "BeagleBone Black",
+       "mk": "BeagleBoard.org",
+       "y": "2013"
+      },
+      {
+       "n": "PocketBeagle",
+       "mk": "BeagleBoard.org",
+       "y": "2017"
+      },
+      {
+       "n": "BeagleBone AI",
+       "mk": "BeagleBoard.org",
+       "y": "2019"
+      },
+      {
+       "n": "BeagleBone AI-64",
+       "mk": "BeagleBoard.org",
+       "y": "2022"
+      },
+      {
+       "n": "BeaglePlay",
+       "mk": "BeagleBoard.org",
+       "y": "2023"
+      },
+      {
+       "n": "BeagleV-Ahead",
+       "mk": "BeagleBoard.org",
+       "y": "2023",
+       "d": "RISC-V"
+      }
+     ],
+     "dt": "processor · I/O headers"
+    },
+    {
+     "n": "Orange Pi",
+     "a": "",
+     "d": "Low-cost ARM single-board computers from Shenzhen Xunlong.",
+     "mk": "Orange Pi",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/Orange_Pi",
+     "v": [
+      {
+       "n": "Orange Pi 5 Ultra",
+       "mk": "Orange Pi"
+      },
+      {
+       "n": "Orange Pi Prime",
+       "mk": "Orange Pi"
+      },
+      {
+       "n": "Orange Pi R1",
+       "mk": "Orange Pi"
+      },
+      {
+       "n": "Orange Pi RV",
+       "mk": "Orange Pi",
+       "d": "RISC-V"
+      },
+      {
+       "n": "Orange Pi AIpro",
+       "mk": "Orange Pi"
+      }
+     ],
+     "dt": "RAM · processor"
+    },
+    {
+     "n": "NVIDIA Jetson Nano",
+     "a": "Jetson",
+     "d": "GPU-equipped developer board for AI and hobbyist robotics.",
+     "mk": "Nvidia",
+     "y": "2019",
+     "s": "https://en.wikipedia.org/wiki/Nvidia_Jetson",
+     "v": [
+      {
+       "n": "Jetson Nano",
+       "mk": "Nvidia",
+       "y": "2019",
+       "d": "Maxwell GPU, 4 GB"
+      },
+      {
+       "n": "Jetson Orin Nano",
+       "mk": "Nvidia",
+       "y": "2022",
+       "d": "Ampere GPU; updated 2024"
+      }
+     ],
+     "dt": "developer kit or module"
+    },
+    {
+     "n": "LattePanda",
+     "a": "",
+     "d": "x86 single-board computer running Windows or Linux, with an Arduino Leonardo co-processor.",
+     "mk": "DFRobot",
+     "y": "",
+     "s": "https://community.element14.com/products/devtools/product-pages/w/documents/23032/lattepanda---single-board-computer",
+     "v": [
+      {
+       "n": "LattePanda V1.0",
+       "mk": "DFRobot",
+       "d": "Intel Z8350, 2 GB/32 GB or 4 GB/64 GB"
+      }
+     ],
+     "dt": "RAM · eMMC · Windows licence"
+    }
+   ],
+   "m": [
+    [
+     "FS-FP5V",
+     "Sapphire"
+    ]
+   ]
+  },
+  {
+   "n": "Microcontroller board",
+   "a": "dev board · development board",
+   "d": "Board that runs one program on a microcontroller, programmed over USB.",
+   "t": [
+    "8-bit AVR",
+    "ARM Cortex-M",
+    "Wi-Fi / Bluetooth",
+    "RISC-V"
+   ],
+   "s": "https://www.mouser.se/arduino-uno-rev-4-boards",
+   "x": [
+    {
+     "n": "Arduino Uno",
+     "a": "Uno",
+     "d": "Arduino's standard-size board with headers for stacking shields.",
+     "mk": "Arduino",
+     "y": "2010",
+     "s": "https://en.wikipedia.org/wiki/Arduino_Uno",
+     "v": [
+      {
+       "n": "Arduino UNO REV3",
+       "mk": "Arduino",
+       "d": "ATmega328P"
+      },
+      {
+       "n": "Arduino Uno WiFi REV2",
+       "mk": "Arduino"
+      },
+      {
+       "n": "Arduino UNO R4 Minima",
+       "mk": "Arduino",
+       "y": "2023",
+       "d": "Renesas RA4M1"
+      },
+      {
+       "n": "Arduino UNO R4 WiFi",
+       "mk": "Arduino",
+       "y": "2023",
+       "d": "adds ESP32-S3 and LED matrix"
+      },
+      {
+       "n": "Arduino Uno Q",
+       "mk": "Arduino",
+       "y": "2025",
+       "d": "runs Linux"
+      }
+     ],
+     "dt": "DIP or SMD chip · header type"
+    },
+    {
+     "n": "Arduino Mega",
+     "a": "",
+     "d": "Large Arduino board with many more pins for bigger projects.",
+     "mk": "Arduino",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Arduino_Uno",
+     "v": [
+      {
+       "n": "Arduino Mega 2560 Rev3",
+       "mk": "Arduino",
+       "d": "ATmega2560"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Arduino Nano",
+     "a": "",
+     "d": "Breadboard-friendly small Arduino board.",
+     "mk": "Arduino",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Arduino",
+     "v": [
+      {
+       "n": "Arduino Nano",
+       "mk": "Arduino",
+       "d": "ATmega328P"
+      },
+      {
+       "n": "Arduino Nano 33 BLE Sense Rev2",
+       "mk": "Arduino"
+      },
+      {
+       "n": "Arduino Nano ESP32",
+       "mk": "Arduino"
+      }
+     ],
+     "dt": "with or without headers"
+    },
+    {
+     "n": "ESP8266 boards",
+     "a": "NodeMCU · D1 mini",
+     "d": "Cheap Wi-Fi microcontroller boards built on Espressif's ESP8266 chip.",
+     "mk": "Espressif",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/ESP8266",
+     "v": [
+      {
+       "n": "ESP-01",
+       "mk": "Ai-Thinker",
+       "y": "2014",
+       "d": "module that popularised the chip"
+      },
+      {
+       "n": "NodeMCU DEVKIT",
+       "mk": "",
+       "d": "ESP-12 module, USB serial"
+      },
+      {
+       "n": "Wemos D1 mini",
+       "mk": "WeMos"
+      }
+     ],
+     "dt": "flash size · module"
+    },
+    {
+     "n": "ESP32 boards",
+     "a": "",
+     "d": "Low-cost Wi-Fi and Bluetooth microcontroller boards on Espressif's ESP32 family.",
+     "mk": "Espressif",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/ESP32",
+     "v": [
+      {
+       "n": "ESP32-DevKitC",
+       "mk": "Espressif"
+      },
+      {
+       "n": "ESP32 DEVKIT V1",
+       "mk": "",
+       "d": "widely copied pinout"
+      },
+      {
+       "n": "ESP32-CAM",
+       "mk": "",
+       "d": "camera board"
+      },
+      {
+       "n": "Adafruit HUZZAH32",
+       "mk": "Adafruit"
+      },
+      {
+       "n": "ESP32-S3 boards",
+       "mk": "Espressif",
+       "d": "dual-core LX7, USB OTG"
+      },
+      {
+       "n": "ESP32-C3 / C6 boards",
+       "mk": "Espressif",
+       "d": "RISC-V"
+      }
+     ],
+     "dt": "chip variant · antenna · flash"
+    },
+    {
+     "n": "BBC micro:bit",
+     "a": "micro:bit",
+     "d": "Pocket-sized educational board with LED matrix and buttons, designed by the BBC for UK schools.",
+     "mk": "Micro:bit Educational Foundation",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/Micro_Bit",
+     "v": [
+      {
+       "n": "micro:bit v1",
+       "mk": "Micro:bit Educational Foundation",
+       "y": "2016",
+       "d": "nRF51822"
+      },
+      {
+       "n": "micro:bit v2",
+       "mk": "Micro:bit Educational Foundation",
+       "y": "2020",
+       "d": "nRF52833, microphone and speaker"
+      }
+     ],
+     "dt": "board alone or go kit"
+    },
+    {
+     "n": "Teensy",
+     "a": "",
+     "d": "Small, fast Arduino-compatible boards from PJRC.",
+     "mk": "PJRC",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Teensy",
+     "v": [
+      {
+       "n": "Teensy 2.0",
+       "mk": "PJRC"
+      },
+      {
+       "n": "Teensy++ 2.0",
+       "mk": "PJRC"
+      },
+      {
+       "n": "Teensy 3.0",
+       "mk": "PJRC"
+      },
+      {
+       "n": "Teensy 3.1/3.2",
+       "mk": "PJRC"
+      },
+      {
+       "n": "Teensy 3.5",
+       "mk": "PJRC"
+      },
+      {
+       "n": "Teensy 3.6",
+       "mk": "PJRC"
+      },
+      {
+       "n": "Teensy LC",
+       "mk": "PJRC"
+      },
+      {
+       "n": "Teensy 4.0",
+       "mk": "PJRC"
+      }
+     ],
+     "dt": "with or without pins"
+    },
+    {
+     "n": "Raspberry Pi Pico",
+     "a": "Pico",
+     "d": "Raspberry Pi's own low-cost microcontroller board.",
+     "mk": "Raspberry Pi",
+     "y": "2021",
+     "s": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+     "v": [
+      {
+       "n": "Raspberry Pi Pico",
+       "mk": "Raspberry Pi",
+       "y": "2021",
+       "d": "RP2040"
+      },
+      {
+       "n": "Raspberry Pi Pico H",
+       "mk": "Raspberry Pi",
+       "d": "with headers"
+      },
+      {
+       "n": "Raspberry Pi Pico W",
+       "mk": "Raspberry Pi",
+       "y": "2022",
+       "d": "wireless"
+      },
+      {
+       "n": "Raspberry Pi Pico WH",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "Raspberry Pi Pico 2",
+       "mk": "Raspberry Pi",
+       "y": "2024"
+      }
+     ],
+     "dt": "with or without headers"
+    },
+    {
+     "n": "Adafruit Feather",
+     "a": "Feather",
+     "d": "Adafruit's family of Arduino-like boards sharing one form factor and pinout.",
+     "mk": "Adafruit",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Adafruit_Industries",
+     "v": [
+      {
+       "n": "Adafruit Feather M0 WiFi",
+       "mk": "Adafruit"
+      },
+      {
+       "n": "Adafruit Feather RP2040",
+       "mk": "Adafruit"
+      },
+      {
+       "n": "Adafruit Feather nRF52840 Sense",
+       "mk": "Adafruit"
+      }
+     ],
+     "dt": "microcontroller · radio"
+    },
+    {
+     "n": "Adafruit Circuit Playground",
+     "a": "",
+     "d": "Round teaching board with built-in LEDs and sensors.",
+     "mk": "Adafruit",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/Adafruit_Industries",
+     "v": [
+      {
+       "n": "Circuit Playground",
+       "mk": "Adafruit",
+       "y": "2016",
+       "d": "ATmega32u4"
+      },
+      {
+       "n": "Circuit Playground Express",
+       "mk": "Adafruit",
+       "y": "2017",
+       "d": "SAMD21"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Seeed Studio XIAO",
+     "a": "XIAO",
+     "d": "Fingernail-sized development boards on many chip platforms.",
+     "mk": "Seeed Studio",
+     "y": "",
+     "s": "https://wiki.seeedstudio.com/xiao_topic_page",
+     "v": [
+      {
+       "n": "XIAO SAMD21",
+       "mk": "Seeed Studio"
+      },
+      {
+       "n": "XIAO RP2040",
+       "mk": "Seeed Studio"
+      },
+      {
+       "n": "XIAO nRF52840 (Sense)",
+       "mk": "Seeed Studio"
+      },
+      {
+       "n": "XIAO ESP32C3",
+       "mk": "Seeed Studio"
+      },
+      {
+       "n": "XIAO ESP32S3 (Sense)",
+       "mk": "Seeed Studio"
+      },
+      {
+       "n": "XIAO ESP32C6",
+       "mk": "Seeed Studio"
+      },
+      {
+       "n": "XIAO RP2350",
+       "mk": "Seeed Studio"
+      },
+      {
+       "n": "XIAO RA4M1",
+       "mk": "Seeed Studio"
+      }
+     ],
+     "dt": "Sense versions add sensors"
+    }
+   ],
+   "m": [
+    [
+     "Arduino Leonardo",
+     "Arduino"
+    ],
+    [
+     "Arduino Micro",
+     "Arduino"
+    ],
+    [
+     "Arduino Due",
+     "Arduino"
+    ],
+    [
+     "Arduino MKR WiFi 1010",
+     "Arduino"
+    ],
+    [
+     "FeatherS3[D]",
+     "Unexpected Maker"
+    ]
+   ]
+  },
+  {
+   "n": "Maker add-on board",
+   "a": "HAT · shield · FeatherWing",
+   "d": "Board made to plug onto one maker-board family's header (HAT, shield, FeatherWing).",
+   "t": [
+    "display",
+    "motor driver",
+    "audio / DAC",
+    "networking / PoE",
+    "sensor",
+    "storage (M.2)",
+    "AI accelerator"
+   ],
+   "s": "https://www.raspberrypi.com/products/",
+   "x": [
+    {
+     "n": "Raspberry Pi HAT",
+     "a": "HAT · HAT+",
+     "d": "Add-on board for the Raspberry Pi GPIO header, identified to the Pi over the HAT ID bus.",
+     "mk": "Raspberry Pi",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+     "v": [
+      {
+       "n": "Sense HAT",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "PoE+ HAT",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "M.2 HAT+",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "AI HAT+",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "AI HAT+ 2",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "Build HAT",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "TV HAT",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "DAC+",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "DAC Pro",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "DigiAMP+",
+       "mk": "Raspberry Pi"
+      },
+      {
+       "n": "Codec Zero",
+       "mk": "Raspberry Pi"
+      }
+     ],
+     "dt": "full-size or Zero-size"
+    },
+    {
+     "n": "Arduino shield",
+     "a": "shield",
+     "d": "Add-on board that stacks onto an Arduino's headers, e.g. for motors, displays, Ethernet or GPS.",
+     "mk": "Arduino",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Arduino",
+     "v": [],
+     "dt": "made by Arduino and by SparkFun, Adafruit, Seeed"
+    },
+    {
+     "n": "FeatherWing",
+     "a": "",
+     "d": "Adafruit expansion board for Feather boards: displays, NeoPixels, motor drivers.",
+     "mk": "Adafruit",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Adafruit_Industries",
+     "v": [],
+     "dt": "stacking or side-by-side"
+    }
+   ]
+  },
+  {
+   "n": "Electronics starter kit",
+   "a": "Arduino kit · component kit",
+   "d": "Boxed set of a board, components and project guide for learning electronics, or a component assortment.",
+   "t": [
+    "board + project book",
+    "component assortment"
+   ],
+   "s": "https://craftingtable.com/best-arduino-kit",
+   "m": [
+    [
+     "Arduino Starter Kit",
+     "Arduino"
+    ],
+    [
+     "SparkFun Inventor's Kit for Arduino Uno v4.1",
+     "SparkFun Electronics"
+    ],
+    [
+     "Super Starter Kit",
+     "Elegoo"
+    ],
+    [
+     "Starter Kit",
+     "SunFounder"
+    ],
+    [
+     "30 Days Lost in Space",
+     "CraftingTable"
+    ],
+    [
+     "SparkFun 1/4W Resistor Kit (500)",
+     "SparkFun Electronics"
+    ]
+   ]
+  },
+  {
+   "n": "Breadboard & prototyping board",
+   "a": "protoboard · perfboard · stripboard",
+   "d": "Board for building trial circuits: solderless breadboards with spring clips, or soldered perfboard and stripboard.",
+   "t": [
+    "solderless breadboard",
+    "perfboard",
+    "stripboard",
+    "jumper wires"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Breadboard"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Raspberry Pi",
+   "c": "United Kingdom",
+   "f": "2008",
+   "seg": "Mainstream",
+   "kf": "single-board computers",
+   "d": "UK foundation and company behind the Raspberry Pi computers and Pico boards.",
+   "lines": [
+    "Raspberry Pi",
+    "Zero",
+    "Compute Module",
+    "Pico"
+   ],
+   "sig": [
+    "Raspberry Pi (Model B line)",
+    "Raspberry Pi Pico"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Raspberry_Pi"
+  },
+  {
+   "n": "Arduino",
+   "c": "Italy",
+   "f": "2005",
+   "seg": "Mainstream",
+   "kf": "microcontroller boards",
+   "d": "Italian open-source hardware company, begun at Interaction Design Institute Ivrea, now owned by Qualcomm.",
+   "lines": [
+    "Uno",
+    "Nano",
+    "Mega",
+    "MKR"
+   ],
+   "sig": [
+    "Arduino Uno"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Arduino"
+  },
+  {
+   "n": "Espressif",
+   "c": "China",
+   "seg": "Value",
+   "kf": "Wi-Fi microcontrollers",
+   "d": "Shanghai chip maker of the ESP8266 and ESP32.",
+   "sig": [
+    "ESP8266 boards",
+    "ESP32 boards"
+   ],
+   "s": "https://en.wikipedia.org/wiki/ESP32"
+  },
+  {
+   "n": "Adafruit",
+   "c": "USA",
+   "f": "2005",
+   "seg": "Specialist",
+   "kf": "maker boards",
+   "d": "Brooklyn maker-electronics company founded by Limor Fried.",
+   "lines": [
+    "Feather",
+    "Circuit Playground"
+   ],
+   "sig": [
+    "Adafruit Feather",
+    "FeatherWing"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Adafruit_Industries"
+  },
+  {
+   "n": "PJRC",
+   "c": "USA",
+   "seg": "Artisan & independent",
+   "kf": "Teensy",
+   "d": "Small company making the Teensy boards.",
+   "sig": [
+    "Teensy"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Micro:bit Educational Foundation",
+   "c": "United Kingdom",
+   "f": "2016",
+   "seg": "Institution & issuer",
+   "kf": "micro:bit",
+   "d": "Not-for-profit that took over the BBC micro:bit in 2016.",
+   "sig": [
+    "BBC micro:bit"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Micro_Bit"
+  },
+  {
+   "n": "BeagleBoard.org",
+   "c": "USA",
+   "seg": "Specialist",
+   "kf": "open-hardware SBCs",
+   "d": "Organisation behind the TI-designed BeagleBoard and BeagleBone boards.",
+   "sig": [
+    "BeagleBoard / BeagleBone"
+   ],
+   "s": "https://en.wikipedia.org/wiki/BeagleBoard"
+  },
+  {
+   "n": "Orange Pi",
+   "c": "China",
+   "seg": "Value",
+   "kf": "low-cost SBCs",
+   "d": "Single-board computer brand of Shenzhen Xunlong Software.",
+   "sig": [
+    "Orange Pi"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Orange_Pi"
+  },
+  {
+   "n": "Nvidia",
+   "c": "USA",
+   "f": "1993",
+   "seg": "Professional & flagship",
+   "kf": "GPUs",
+   "d": "US graphics-chip company whose Jetson boards target AI and robotics.",
+   "sig": [
+    "NVIDIA Jetson Nano"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "DFRobot",
+   "c": "China",
+   "seg": "Value",
+   "kf": "LattePanda",
+   "d": "Chinese maker-electronics company behind the LattePanda boards.",
+   "sig": [
+    "LattePanda"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Seeed Studio",
+   "c": "China",
+   "seg": "Value",
+   "kf": "XIAO boards",
+   "d": "Shenzhen maker-hardware company known for XIAO and Grove products.",
+   "sig": [
+    "Seeed Studio XIAO"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "SparkFun Electronics",
+   "c": "USA",
+   "seg": "Specialist",
+   "kf": "kits and breakouts",
+   "d": "US maker-electronics retailer and designer of kits and breakout boards.",
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "All four old kinds kept (k10, k101, k102, k103; component kit renamed Electronics starter kit and widened to learning kits); new kind Breadboard & prototyping board added. Old flat models folded into Raspberry Pi, Arduino, Pico, Feather and HAT archetype versions; old range 'Pico 1' dropped as a duplicate of Raspberry Pi Pico. Not added for lack of a retrieved page: Radxa/Rock Pi, M5Stack, SparkFun RedBoard, Teensy 4.1, Seeed XIAO and Teensy years, Orange Pi model years."
+}

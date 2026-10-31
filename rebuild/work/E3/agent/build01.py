@@ -1,0 +1,128 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+K=[]
+K.append({"n":"Guitar pickup","a":"pickup · humbucker · single-coil","d":"Magnetic transducer under the strings of an electric guitar or bass that turns string vibration into signal; the commonest upgrade.",
+ "t":["humbucker","single-coil","P-90 single-coil","mini-humbucker","rail / hot-rail","active (onboard preamp)","passive","split-coil bass pickup","6-, 7-string versions","covered or open-coil"],
+ "s":W+"Pickup_(music_technology)",
+ "x":[
+  {"n":"PAF humbucker","a":"P.A.F. · Patent Applied For · vintage humbucker","d":"Seth Lover's two-coil hum-cancelling pickup with reverse-wound, reverse-polarity coils, named after its 'Patent Applied For' sticker.","mk":"Gibson","y":"1955 (designed); 1957 (introduced)","s":W+"Humbucker",
+   "v":[{"n":"'59 Model (SH-1)","mk":"Seymour Duncan","y":"","d":"Alnico 5 bar magnet, wax-potted, modelled on 1950s PAFs; neck, bridge and Trembucker versions"},
+        {"n":"PAF","mk":"DiMarzio","y":"1976","d":"replacement recreating the PAF sound; DiMarzio trademarked the term in 1978"}],
+   "dt":"Alnico or ceramic bar magnet · covered (nickel, gold, black) or open coil (double black, zebra, double cream) · 1- or 4-conductor lead for coil splitting · neck/bridge spacing"},
+  {"n":"Fender-style single-coil","a":"Strat pickup · Tele pickup","d":"Tall, narrow single-coil bobbin with individual magnet poles, bright and prone to hum; three on a Stratocaster, two different ones on a Telecaster.","mk":"Fender","y":"1950s","s":W+"Single-coil_guitar_pickup",
+   "v":[{"n":"Lace Sensor","mk":"Fender","y":"","d":"true single coil magnetically shielded against hum"},
+        {"n":"SA","mk":"EMG","y":"","d":"active single coil popular as a Stratocaster upgrade"}],
+   "dt":"neck, middle, bridge · Strat or Tele format · magnet grade · output"},
+  {"n":"P-90","a":"P90 · soapbar · dog-ear","d":"Gibson single-coil with a wide, shallow bobbin, sharper than a humbucker but with less top end than a Fender single-coil.","mk":"Gibson","y":"1946","s":W+"P-90",
+   "v":[{"n":"Dog-ear","mk":"Gibson","y":"1946","d":"mounting-screw ears on both sides"},
+        {"n":"Soapbar","mk":"Gibson","y":"1952","d":"rectangular cover with screws inside the coil; debuted on the Les Paul"}],
+   "dt":"soapbar or dog-ear cover · cream, black covers · neck/bridge"},
+  {"n":"Filter'Tron","a":"Filtertron","d":"Ray Butts's early humbucker, built for Chet Atkins and fitted to almost all Gretsch guitars; between a single-coil and a PAF in tone.","mk":"Gretsch","y":"1954 (prototype); 1957 (production)","s":W+"Filter%27Tron","v":[],"dt":"neck/bridge · chrome or gold cover"},
+  {"n":"Super Distortion","a":"high-output humbucker","d":"DiMarzio's ceramic-magnet, overwound humbucker sized for Gibson mounts; the template for hot replacement humbuckers.","mk":"DiMarzio","y":"1972","s":W+"DiMarzio","v":[],"dt":"open cream bobbins (trademarked) · other bobbin colours · F-spaced or standard spacing"},
+  {"n":"EMG 81/85 active humbucker","a":"EMG 81 · EMG 85 · active pickups","d":"Low-impedance humbuckers with an onboard preamp giving high output and low noise; the standard metal pairing.","mk":"EMG","y":"","s":W+"EMG,_Inc.",
+   "v":[{"n":"EMG 85","mk":"EMG","y":"","d":"usual neck partner of the 81"},
+        {"n":"EMG 60","mk":"EMG","y":"","d":"active humbucker often paired with the 81"},
+        {"n":"EMG 89","mk":"EMG","y":"","d":"active humbucker"},
+        {"n":"57/66 set","mk":"EMG","y":"2012","d":"replaced the 60/81 configuration, based on the James Hetfield set"},
+        {"n":"Kerry King KFK and Zakk Wylde ZW sets","mk":"EMG","y":"","d":"signature sets based on the 81/85"}],
+   "dt":"black or brushed covers · 9 V battery · solderless harness"},
+  {"n":"Mini-humbucker","a":"Epiphone mini-humbucker","d":"Smaller humbucker with adjustable poles, designed to fit Epiphone routs and later used on the Gibson Les Paul Deluxe.","mk":"Epiphone","y":"","s":W+"Humbucker","v":[],"dt":"chrome or gold cover"},
+  {"n":"Fender Wide Range","a":"Wide Range humbucker","d":"Fender's first humbucker, also designed by Seth Lover.","mk":"Fender","y":"","s":W+"Humbucker","v":[],"dt":"neck/bridge"},
+  {"n":"Hot-rail single-coil-size humbucker","a":"hot rails · blade humbucker","d":"Two narrow rails side by side in a single-coil-sized housing, giving hum-cancelling output for single-coil routs.","mk":"","y":"1980s","s":W+"Humbucker","v":[],"dt":"Strat or Tele size · output"},
+  {"n":"P-style split-coil bass pickup","a":"P-Bass pickup · split coil","d":"Two offset half-coils, one for the E and A strings and one for D and G, wired humbucking; the core of the Precision Bass sound.","mk":"Fender","y":"1957","s":W+"Humbucker","v":[],"dt":"4- or 5-string · magnet grade"}]})
+K.append({"n":"Bridge and tremolo","a":"bridge · vibrato · tremolo · whammy bar","d":"The anchoring and intonation hardware of an electric guitar, fixed or with a lever for pitch bends.",
+ "t":["fixed hardtail","wraparound","Tune-o-matic with stopbar tailpiece","floating tremolo","locking tremolo","roller saddles","guitar or bass bridge","headless systems"],
+ "s":W+"Vibrato_systems_for_guitar",
+ "x":[
+  {"n":"Fender synchronised tremolo","a":"Strat trem · synchronized tremolo","d":"Bridge saddles and string ends rock together as one unit against body springs; the most widely copied vibrato.","mk":"Fender","y":"1954","s":W+"Vibrato_systems_for_guitar",
+   "v":[{"n":"Original six-screw design","mk":"Fender","y":"1954","d":"introduced on the Stratocaster; still made"},{"n":"Two-point synchronised tremolo","mk":"Fender","y":"1986","d":"now Fender's standard; bent-steel saddles since 2008"}],
+   "dt":"bent-steel or block saddles · screw-in or push-in arm · string spacing"},
+  {"n":"Tune-o-matic","a":"TOM · ABR-1 · Nashville bridge","d":"Ted McCarty's adjustable-saddle bridge on two posts, usually with a stopbar tailpiece; standard on Gibson electrics.","mk":"Gibson","y":"1953","s":W+"Tune-o-matic",
+   "v":[{"n":"ABR-1 without retainer wire","mk":"Gibson","y":"1954–1962","d":""},{"n":"ABR-1 with retainer wire","mk":"Gibson","y":"1962–1975","d":""},{"n":"Wide-travel 'Harmonica' bridge","mk":"Schaller","y":"1970–1980","d":"Kalamazoo plant"},{"n":"Nashville","mk":"Gibson","y":"1975–","d":"threaded anchors; Gibson USA standard"}],
+   "dt":"nickel, chrome, gold · brass or nylon saddles · post spacing"},
+  {"n":"Floyd Rose locking tremolo","a":"Floyd · double-locking tremolo","d":"Floating vibrato that clamps strings at the nut and saddles, with fine tuners, for tuning stability under extreme bends.","mk":"Floyd Rose","y":"1976 (invented); 1979 (patent)","s":W+"Floyd_Rose",
+   "v":[{"n":"Floyd Rose Original (100 Series)","mk":"Floyd Rose","y":"1983","d":"made by Schaller in Germany 1983–2024, now in the USA"},
+        {"n":"Floyd Rose II","mk":"Floyd Rose","y":"1980s","d":"lower-end Schaller-made version with zinc baseplate"},
+        {"n":"Floyd Rose Pro","mk":"Floyd Rose","y":"","d":"low-profile, narrower string spacing"},
+        {"n":"Floyd Rose 1000 / Special","mk":"Floyd Rose","y":"c. 2008 (Special)","d":"Korean-made; Special uses zinc parts"},
+        {"n":"GE1996T","mk":"Gotoh","y":"1996","d":"licensed-pattern direct replacement"},
+        {"n":"Schaller Tremolo","mk":"Schaller","y":"","d":"Schaller-stamped licensed design"}],
+   "dt":"recessed or top-mount · fine tuners · locking nut width · steel or zinc block"},
+  {"n":"Bigsby vibrato tailpiece","a":"Bigsby","d":"Spring-loaded arm turning a bar in the tailpiece, for gentle bends; mounted on top of the guitar, common on hollow bodies.","mk":"Bigsby","y":"1951","s":W+"Bigsby_vibrato_tailpiece","v":[],"dt":"model for flat or arched tops · finish"},
+  {"n":"Fender floating tremolo","a":"Jazzmaster tremolo · Jag trem","d":"Separate floating bridge and tailpiece unit with a knife plate, used on Jazzmaster and Jaguar.","mk":"Fender","y":"1958","s":W+"Vibrato_systems_for_guitar","v":[{"n":"Jaguar","mk":"Fender","y":"1962","d":"adds a mute"}],"dt":"bridge type · arm"},
+  {"n":"Fender Dynamic Vibrato","a":"Mustang tremolo · Stang trem","d":"Floating bridge integral with the vibrato unit, balanced by two springs; introduced on the student Mustang.","mk":"Fender","y":"1964","s":W+"Vibrato_systems_for_guitar","v":[],"dt":""},
+  {"n":"Kahler Tremolo System","a":"Kahler","d":"Cam-operated locking vibrato, a 1980s rival to the Floyd Rose.","mk":"Kahler","y":"1979","s":W+"Vibrato_systems_for_guitar","v":[],"dt":""}],
+ "m":[["Bridges and Xtender","Hipshot"],["ResoMax Tune-o-Matic bridge","Graph Tech"]]})
+K.append({"n":"Tuning machines","a":"machine heads · tuners · tuning keys","d":"Geared pegs on the headstock that set string tension; swapped for stability, ratio or vintage looks.",
+ "t":["open-gear or sealed","3+3 or six-in-line","gear ratio (12:1, 14:1, 18:1)","bass 'elephant ear' tuners","locking or non-locking","classical slotted-head"],
+ "s":W+"Machine_head",
+ "x":[
+  {"n":"Kluson Deluxe","a":"Kluson · vintage tuners","d":"Stamped sheet-metal enclosed tuner fitted to Fender and many Gibson guitars of the 1950s–60s.","mk":"Kluson","y":"1925 (company)","s":"https://fuzzfaced.net/telecaster-tuning-machines.html",
+   "v":[{"n":"Single-line 'KLUSON DELUXE' stamp","mk":"Kluson","y":"to mid-1951; mid-1956 to early 1965","d":""},{"n":"No-line stamp","mk":"Kluson","y":"mid-1951 to 1957","d":""},{"n":"Double-line stamp","mk":"Kluson","y":"mid-1964","d":""},{"n":"Kluson-style replicas","mk":"Gotoh","y":"","d":"fitted to Fender vintage reissues"},{"n":"Revived Kluson brand","mk":"Kluson","y":"1993","d":"brand bought by WD Music Products"}],
+   "dt":"button shape and colour · single- or double-line stamp · bushing size"},
+  {"n":"Grover Rotomatic","a":"Rotomatics","d":"Tuner sealed in a cast-metal shell with self-locking anti-backlash gearing.","mk":"Grover","y":"","s":W+"Machine_head","v":[],"dt":"chrome, gold, black · gear ratio · button style"},
+  {"n":"Locking tuner","a":"locking machine heads","d":"Tuner with a cam or screw in the post that clamps the string, popular with heavy vibrato users since the 1980s.","mk":"","y":"1980s","s":W+"Machine_head","v":[],"dt":"rear thumbwheel or cam · staggered posts"}],
+ "m":[["Ratio machine heads","Graph Tech"],["Tuning machines","Hipshot"]]})
+K.append({"n":"Replacement neck","a":"guitar neck · bass neck","d":"Bolt-on guitar or bass neck sold separately for repairs, upgrades or parts builds.",
+ "t":["guitar or bass","neck profile","scale length","fretwire size","truss rod design","fretboard radius incl. compound radius","finished or unfinished"],
+ "s":"https://www.seymourduncan.com/blog/latest-updates/warmoth-spotlight","r":[["Necks","Warmoth"],["Necks","Allparts"]]})
+K.append({"n":"Replacement body","a":"guitar body · bass body","d":"Unloaded guitar or bass body sold separately for parts builds or refinishing.",
+ "t":["guitar or bass","solid, chambered or semi-hollow","routing (single-coil, humbucker, tremolo)","finished or unfinished","wood"],
+ "s":"https://www.seymourduncan.com/blog/latest-updates/warmoth-spotlight","r":[["Bodies","Warmoth"],["Bodies","Allparts"]]})
+K.append({"n":"Pickguard and plates","a":"scratchplate · pickguard","d":"Plate protecting the finish from the picking hand, often laminated and swapped for looks or loaded with electronics.",
+ "t":["celluloid","vinyl (PVC)","acrylic","pearloid","metal","wood","laminated plies","prewired (loaded)"],
+ "s":W+"Pickguard","m":[["Signature prewired pickguards","EMG"]]})
+K.append({"n":"Nut and saddle","a":"guitar nut · bridge saddle · bridge pins","d":"Small parts that set string spacing, height and intonation at each end of the string; upgraded for tone and tuning.",
+ "t":["bone","synthetic (TUSQ)","locking nut","compensated saddle","bridge pins"],
+ "s":"https://www.graphtech.com/","m":[["TUSQ nuts, saddles and bridge pins","Graph Tech"],["String Saver saddles","Graph Tech"]]})
+K.append({"n":"Wiring and switches","a":"pots · switches · prewired harness","d":"Potentiometers, selector switches, capacitors and jacks that control an electric guitar, sold singly or as prewired harnesses.",
+ "t":["volume and tone pots (250k, 500k)","3-way toggle","5-way blade","push-pull coil split","output jack","tone capacitors","solderless harness"],
+ "s":"https://www.thomannmusic.com/mojotone_dc_prewired_harness.htm","m":[["Prewired harness","Mojotone"],["500k split-shaft potentiometer","CTS"],["3-way toggle switch","Switchcraft"]]})
+K.append({"n":"Guitar strings","a":"string set · electric, acoustic and classical strings","d":"String set or single string for electric, steel-string acoustic or classical guitar; material, gauge and coating are attributes.",
+ "t":["electric: nickel-plated steel, pure nickel, stainless steel","acoustic: phosphor bronze, 80/20 bronze","classical: nylon, fluorocarbon, gut","gauge sets (8–12 and up)","coated or uncoated","7-, 8- and 12-string sets"],
+ "s":"https://www.long-mcquade.com/departments/75/Guitars/Strings.htm?Current=64",
+ "x":[
+  {"n":"Slinky","a":"Regular Slinky · Super Slinky","d":"Ernie Ball's nickel-wound electric sets with tin-plated plain strings, named by gauge.","mk":"Ernie Ball","y":"","s":"https://www.long-mcquade.com/2477/Guitars/Strings/Ernie-Ball/Regular-Slinky-10-46-Electric-Strings.htm",
+   "v":[{"n":"Regular Slinky 2221","mk":"Ernie Ball","y":"","d":"10-46"},{"n":"Super Slinky","mk":"Ernie Ball","y":"","d":"9-42"},{"n":"Extra Slinky","mk":"Ernie Ball","y":"","d":"8-38"},{"n":"Hybrid Slinky","mk":"Ernie Ball","y":"","d":"9-46"},{"n":"Power Slinky","mk":"Ernie Ball","y":"","d":"11-48"},{"n":"Skinny Top Heavy Bottom","mk":"Ernie Ball","y":"","d":"10-52"},{"n":"Beefy Slinky","mk":"Ernie Ball","y":"","d":"11-54"},{"n":"Not Even Slinky","mk":"Ernie Ball","y":"","d":"12-56"},{"n":"7-String Power, 8-String and 12-String Slinky","mk":"Ernie Ball","y":"","d":"11-58, 10-74, 8-40"}],
+   "dt":"gauge · nickel or other wrap"},
+  {"n":"XL Nickel Wound","a":"EXL · EXL110","d":"D'Addario's nickel-plated steel electric sets on a hexagonal core.","mk":"D'Addario","y":"","s":"https://www.musik-produktiv.com/gb/d-addario-exl110-nickel-wound-010-046.html",
+   "v":[{"n":"EXL110","mk":"D'Addario","y":"","d":"10-46 regular light"},{"n":"NYXL","mk":"D'Addario","y":"2014","d":"reformulated nickel-plated steel alloy"},{"n":"XS Electric","mk":"D'Addario","y":"2022","d":"X Series"}],
+   "dt":"gauge set"},
+  {"n":"Elixir coated strings","a":"Nanoweb · Polyweb · Optiweb","d":"Strings with a fluoropolymer coating that resists corrosion and debris for longer life.","mk":"Elixir","y":"1997 (brand)","s":"https://www.guitarinteractivemagazine.com/review/elixir-optiweb-coated-strings/",
+   "v":[{"n":"Polyweb","mk":"Elixir","y":"","d":"thicker coating, warmer, slippery"},{"n":"Nanoweb","mk":"Elixir","y":"","d":"thin coating, brighter"},{"n":"Optiweb","mk":"Elixir","y":"2017","d":"feels close to uncoated"}],
+   "dt":"electric, acoustic phosphor bronze or 80/20 · gauge"}],
+ "r":[["Paradigm","Ernie Ball"],["Guitar Boomers","GHS"],["Hi-Beams","DR Strings"],["Pure Blues","DR Strings"],["Rotos","Rotosound"],["Jazz","Thomastik-Infeld"],["Super 250","Fender"],["Signatures","Stringjoy"]]})
+K.append({"n":"Bass strings","a":"bass guitar strings","d":"String set or single string for a bass guitar, sold by string count, scale and winding.",
+ "t":["roundwound","flatwound","halfwound","4-, 5-, 6-string","short, medium, long, extra-long scale","coated"],
+ "s":"https://www.long-mcquade.com/departments/75/Guitars/Strings.htm?Current=64",
+ "x":[{"n":"Swing Bass 66","a":"RS66","d":"Rotosound's even, heavy roundwound bass set developed with John Entwistle.","mk":"Rotosound","y":"1966","s":W+"Rotosound","v":[],"dt":"gauge · scale length"}],
+ "r":[["HRS","La Bella"]]})
+B=[
+ {"n":"Gibson","c":"United States","f":"1902","seg":"guitar maker","d":"American guitar maker; originated the PAF humbucker, P-90 and Tune-o-matic.","sig":["PAF humbucker","P-90","Tune-o-matic"],"s":"knowledge"},
+ {"n":"Fender","c":"United States","f":"1946","seg":"guitar maker","d":"American guitar and amp maker; originated the Strat/Tele single-coil and synchronised tremolo.","sig":["Fender synchronised tremolo","Fender-style single-coil","P-style split-coil bass pickup"],"rel":["Bigsby"],"s":"knowledge"},
+ {"n":"Gretsch","c":"United States","f":"1883","seg":"guitar maker","d":"American guitar maker whose guitars carry the Filter'Tron humbucker.","sig":["Filter'Tron"],"s":"knowledge"},
+ {"n":"Epiphone","c":"United States","seg":"guitar maker","d":"Guitar brand owned by Gibson; origin of the mini-humbucker.","sig":["Mini-humbucker"],"rel":["Gibson"],"s":"knowledge"},
+ {"n":"Seymour Duncan","c":"United States","f":"1976","seg":"pickups","d":"Santa Barbara pickup maker founded by Seymour W. Duncan and Cathy Carter Duncan; also makes pedals.","lines":["'59 Model"],"s":W+"Seymour_Duncan"},
+ {"n":"DiMarzio","c":"United States","seg":"pickups","d":"Staten Island-born maker that popularised direct-replacement pickups, starting with the FS-1 and Super Distortion.","sig":["Super Distortion"],"lines":["PAF","FS-1"],"s":W+"DiMarzio"},
+ {"n":"EMG","c":"United States","f":"1976","seg":"pickups","d":"Santa Rosa, California maker of active pickups, founded by Rob Turner.","sig":["EMG 81/85 active humbucker"],"lines":["Standard","HZ/SRO","SA","X"],"s":W+"EMG,_Inc."},
+ {"n":"Floyd Rose","c":"United States","seg":"guitar hardware","d":"Company of inventor Floyd D. Rose, maker of the double-locking tremolo.","sig":["Floyd Rose locking tremolo"],"rel":["Schaller","Kahler","Gotoh"],"s":W+"Floyd_Rose"},
+ {"n":"Bigsby","c":"United States","seg":"guitar hardware","d":"Maker of Paul Bigsby's vibrato tailpiece; a Fender subsidiary since 2019.","sig":["Bigsby vibrato tailpiece"],"rel":["Fender","Gretsch"],"s":W+"Bigsby_vibrato_tailpiece"},
+ {"n":"Kahler","c":"United States","seg":"guitar hardware","d":"Maker of the cam-based Kahler Tremolo System.","sig":["Kahler Tremolo System"],"s":"knowledge"},
+ {"n":"Schaller","c":"Germany","seg":"guitar hardware","d":"German hardware maker that built the Floyd Rose Original from 1983 to 2024.","rel":["Floyd Rose"],"s":"knowledge"},
+ {"n":"Gotoh","c":"Japan","seg":"guitar hardware","d":"Japanese tuner and bridge maker; makes Kluson-style replicas and the GE1996T tremolo.","s":"knowledge"},
+ {"n":"Kluson","c":"United States","f":"1925","seg":"tuners","d":"Chicago tuner maker whose Deluxe machines were standard on 1950s–60s Fenders; brand revived by WD Music in 1993.","sig":["Kluson Deluxe"],"s":"https://fuzzfaced.net/telecaster-tuning-machines.html"},
+ {"n":"Grover","c":"United States","seg":"tuners","d":"Ohio tuner company descended from A. D. Grover & Son; name adopted in 1952.","sig":["Grover Rotomatic"],"s":W+"Grover_Musical_Products,_Inc."},
+ {"n":"Graph Tech","c":"Canada","seg":"guitar parts","d":"Delta, British Columbia maker of TUSQ nuts and saddles, Ratio tuners and String Saver saddles.","lines":["TUSQ","Ratio","String Saver","ResoMax"],"s":"https://www.graphtech.com/"},
+ {"n":"Hipshot","c":"United States","seg":"guitar hardware","d":"Interlaken, New York maker of bridges, tuners and Xtender drop-tuning keys.","s":"https://www.hipshotproducts.com/"},
+ {"n":"Warmoth","c":"United States","seg":"replacement necks and bodies","d":"Pacific Northwest maker of replacement guitar and bass necks and bodies, formerly Boogie Bodies.","s":"https://www.seymourduncan.com/blog/latest-updates/warmoth-spotlight"},
+ {"n":"Allparts","c":"United States","seg":"guitar parts","d":"Houston, Texas supplier of necks, bodies, hardware, pickguards and electronics.","s":"https://www.allparts.com/"},
+ {"n":"Ernie Ball","c":"United States","seg":"strings","d":"California string maker founded by Ernie Ball, owner of Music Man.","sig":["Slinky"],"rel":["Music Man"],"s":W+"Ernie_Ball"},
+ {"n":"D'Addario","c":"United States","f":"1973","seg":"strings","d":"Farmingdale, New York string and accessory maker; also owns Evans, ProMark and Rico.","sig":["XL Nickel Wound"],"lines":["XL","NYXL","XS"],"s":"https://en.wikipedia.org/wiki/D%27Addario_(manufacturer)"},
+ {"n":"Elixir","c":"United States","f":"1997","seg":"strings","d":"Coated-string brand of W. L. Gore & Associates.","sig":["Elixir coated strings"],"lines":["Nanoweb","Polyweb","Optiweb"],"s":W+"Elixir_Strings"},
+ {"n":"Rotosound","c":"United Kingdom","f":"1958","seg":"strings","d":"Sevenoaks, Kent string maker founded by James How.","sig":["Swing Bass 66"],"s":W+"Rotosound"}]
+notes=("Merged the four old guitar-string kinds (electric, acoustic, classical, 'Other') into Guitar strings with material/gauge/coating types; 'Other guitar strings' catch-all dissolved. "
+ "Old ranges kept as r except those absorbed into archetypes (Slinky, XL, XS, NYXL, Nanoweb/Polyweb/Optiweb). HRS (La Bella) moved to Bass strings. "
+ "Left out: Gibson Burstbucker (no retrievable page confirmed it), Warmoth/Allparts model families and style lists (only retrieved pages describe them generically), EMG 81 introduction year, Slinky/XL introduction years, backplates and control plates as named items, Fender Noiseless and other unconfirmed versions. "
+ "Brands Gibson, Fender, Gretsch, Epiphone, Kahler, Schaller, Gotoh recorded from knowledge (founding years only where sure).")
+out={"kinds":K,"brands":B,"traditions":[],"notes":notes}
+p='work/E3/shelves/01_00.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

@@ -1,0 +1,502 @@
+{
+ "kinds": [
+  {
+   "n": "Soy sauce",
+   "a": "shoyu",
+   "d": "Japanese soy sauces that differ by colour, saltiness, wheat share and brewing.",
+   "t": [
+    "Koikuchi soy sauce",
+    "Usukuchi soy sauce",
+    "Tamari soy sauce",
+    "Saishikomi soy sauce",
+    "Shiro soy sauce",
+    "organic",
+    "namashoyu (unpasteurised)"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Soy_sauce",
+   "m": [
+    [
+     "Yamaki Jozo Organic Shoyu",
+     "Yamaki Jozo"
+    ],
+    [
+     "Yugeta Organic Shoyu",
+     "Yugeta Shoyu"
+    ],
+    [
+     "Yamaroku Tsuru-bishio",
+     "Yamaroku Shoyu"
+    ]
+   ],
+   "x": [
+    {
+     "n": "Koikuchi shoyu",
+     "a": "dark soy sauce",
+     "d": "The standard Japanese soy sauce, roughly equal soybean and wheat, over 80% of domestic output and from the Kantō region.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Soy_sauce",
+     "v": [
+      {
+       "n": "Kikkoman",
+       "mk": "Kikkoman",
+       "y": "1917",
+       "d": "World's largest shoyu maker, Noda"
+      },
+      {
+       "n": "Yamasa",
+       "mk": "Yamasa",
+       "y": "1645",
+       "d": "Choshi, Chiba"
+      }
+     ],
+     "dt": "soybean ≈ wheat"
+    },
+    {
+     "n": "Usukuchi shoyu",
+     "a": "light soy sauce",
+     "d": "Lighter-coloured and saltier shoyu made with amazake, popular in Kansai, about 14% of output.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Soy_sauce",
+     "v": [
+      {
+       "n": "Higashimaru Usukuchi Shoyu",
+       "mk": "Higashimaru",
+       "y": "",
+       "d": "Old-data product"
+      }
+     ],
+     "dt": "light colour"
+    },
+    {
+     "n": "Tamari",
+     "a": "",
+     "d": "Little or no wheat; darker, richer and more viscous, mainly made in Chūbu; wheat-free versions suit gluten avoiders.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Soy_sauce",
+     "v": [
+      {
+       "n": "San-J Organic Tamari",
+       "mk": "San-J",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "wheat-free options"
+    },
+    {
+     "n": "Saishikomi shoyu",
+     "a": "twice-brewed · kanro shoyu",
+     "d": "Made with finished koikuchi in place of brine, giving a darker, stronger sauce; about 0.8% of output.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Soy_sauce",
+     "v": [
+      {
+       "n": "Suehiro Double Brewed Sashimi Soy Sauce",
+       "mk": "Suehiro Shoyu",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Yugeta Double Brewed Shoyu",
+       "mk": "Yugeta Shoyu",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "double brewed"
+    },
+    {
+     "n": "Shiro shoyu",
+     "a": "white soy sauce",
+     "d": "Mostly wheat with little soybean, pale and sweet, used in Kansai mainly for pickles; about 0.7% of output.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Soy_sauce",
+     "v": [
+      {
+       "n": "Nitto Jozo White Shiro Tamari",
+       "mk": "Nitto Jozo",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "pale"
+    }
+   ]
+  },
+  {
+   "n": "Miso and soybean pastes",
+   "a": "fermented soybean paste",
+   "d": "Fermented soybean paste with or without grain, in Japanese miso and Korean doenjang styles.",
+   "t": [
+    "rice miso",
+    "barley miso",
+    "soybean miso",
+    "white",
+    "red"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Miso",
+   "m": [
+    [
+     "Chung Jung One Doenjang",
+     "Chung Jung One"
+    ]
+   ],
+   "x": [
+    {
+     "n": "Hatchō miso",
+     "a": "mame miso",
+     "d": "Dark grain-free soybean miso from Okazaki, Aichi, with a long maturing time and an astringent, umami flavour.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Miso",
+     "v": [],
+     "dt": "soybean only · long aged"
+    },
+    {
+     "n": "Shiro miso",
+     "a": "white miso",
+     "d": "The most widely produced miso, mostly rice and barley with a little soybean, short-fermented, sweet and mild.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Miso",
+     "v": [],
+     "dt": "rice koji · short ferment"
+    },
+    {
+     "n": "Shinshu miso",
+     "a": "Shinshu kome miso",
+     "d": "Rice (kome) miso, the common type in eastern Japan and Hokuriku; Shinshu is a named example.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Miso",
+     "v": [],
+     "dt": "rice koji"
+    },
+    {
+     "n": "Mugi miso",
+     "a": "barley miso",
+     "d": "Whitish barley miso from Kyushu, western Chūgoku and Shikoku, with a distinctive smell; a reddish version comes from northern Kantō.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Miso",
+     "v": [],
+     "dt": "barley koji"
+    },
+    {
+     "n": "Sendai miso",
+     "a": "",
+     "d": "Miso whose soybeans are mashed much more coarsely than in standard soy miso.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Miso",
+     "v": [],
+     "dt": "coarse"
+    },
+    {
+     "n": "Doenjang",
+     "a": "Korean soybean paste",
+     "d": "Korean paste mashed from meju bricks after the brine is drawn off as ganjang soy sauce.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Meju",
+     "v": [
+      {
+       "n": "Chung Jung One Doenjang",
+       "mk": "Chung Jung One",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "meju-based"
+    }
+   ]
+  },
+  {
+   "n": "Gochujang",
+   "a": "fermented chilli paste",
+   "d": "A fermented paste of chilli, glutinous rice and soybeans used to season.",
+   "t": [
+    "traditional jar-aged",
+    "industrial"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Gochujang",
+   "m": [
+    [
+     "Sempio Gochujang",
+     "Sempio"
+    ]
+   ],
+   "x": [
+    {
+     "n": "Sunchang gochujang",
+     "a": "",
+     "d": "Regional gochujang from Sunchang County, noted in 18th-century texts and linked to Joseon palace cuisine.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Gochujang",
+     "v": [],
+     "dt": "red chilli powder · glutinous rice · meju powder · salt"
+    }
+   ]
+  },
+  {
+   "n": "Mirin",
+   "a": "",
+   "d": "Sweet rice seasoning sold for cooking, hon-mirin and mirin-style seasoning.",
+   "t": [
+    "hon-mirin (about 14% alcohol)",
+    "shio mirin (salted)",
+    "mirin-fu seasoning (under 1% alcohol)"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Mirin",
+   "m": [
+    [
+     "Takara Hon Mirin",
+     "Takara (mirin brand)"
+    ]
+   ]
+  },
+  {
+   "n": "Cooking sake",
+   "a": "ryorishu",
+   "d": "Sake made or sold for cooking.",
+   "t": [
+    "salted",
+    "unsalted"
+   ],
+   "s": "https://japanesetaste.com/blogs/japanese-taste-blog/all-you-need-to-know-about-cooking-sake-ryorishu",
+   "m": [
+    [
+     "Fukumitsuya Organic Cooking Sake",
+     "Fukumitsuya"
+    ],
+    [
+     "Morita Ryorishu Cooking Sake",
+     "Morita"
+    ],
+    [
+     "Takara Cooking Sake",
+     "Takara (mirin brand)"
+    ]
+   ]
+  },
+  {
+   "n": "Dashi and dashi ingredients",
+   "a": "",
+   "d": "Japanese stock and its ingredients: kombu, katsuobushi, niboshi and instant dashi.",
+   "t": [
+    "instant granules",
+    "liquid"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Dashi",
+   "x": [
+    {
+     "n": "Kombu",
+     "a": "konbu kelp",
+     "d": "Dried kelp for dashi, sold by origin: Ma (Hakodate, mild and sweet), Rishiri (clean, for kaiseki), Rausu (rich), Hidaka (mild, cheapest).",
+     "mk": "",
+     "y": "",
+     "s": "https://chefjacooks.com/en/types-of-kombu",
+     "v": [
+      {
+       "n": "Ma kombu",
+       "mk": "",
+       "y": "",
+       "d": "Most produced; Hakodate"
+      },
+      {
+       "n": "Rishiri kombu",
+       "mk": "",
+       "y": "",
+       "d": "Rishiri Island, northern Hokkaido"
+      },
+      {
+       "n": "Rausu kombu",
+       "mk": "",
+       "y": "",
+       "d": "Premium, rich dashi"
+      },
+      {
+       "n": "Hidaka kombu",
+       "mk": "",
+       "y": "",
+       "d": "Long ribbons, most affordable"
+      }
+     ],
+     "dt": "origin · thickness"
+    },
+    {
+     "n": "Katsuobushi",
+     "a": "bonito flakes",
+     "d": "Skipjack tuna simmered, smoked and mould-cured; graded arabushi, katsuobushi, karebushi and honkarebushi by repeated curing.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Katsuobushi",
+     "v": [
+      {
+       "n": "Arabushi",
+       "mk": "",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Karebushi",
+       "mk": "",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Honkarebushi",
+       "mk": "",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "shaved or block"
+    },
+    {
+     "n": "Niboshi",
+     "a": "iriko",
+     "d": "Small dried fish, mostly anchovies, for a strong dashi; heads and entrails removed to avoid bitterness.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Niboshi",
+     "v": [],
+     "dt": "anchovy · sardine"
+    }
+   ]
+  },
+  {
+   "n": "Ponzu and tsuyu",
+   "a": "mentsuyu",
+   "d": "Citrus-and-soy ponzu and dashi-based noodle tsuyu dipping sauces.",
+   "t": [
+    "ponzu shoyu",
+    "mentsuyu (noodle sauce)",
+    "concentrate"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_Japanese_condiments"
+  },
+  {
+   "n": "Furikake",
+   "a": "",
+   "d": "Dry seasoning sprinkled over rice: dried fish, sesame, seaweed, sugar, salt and often egg, shiso or salmon.",
+   "t": [
+    "salmon",
+    "egg",
+    "shiso",
+    "nori"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_Japanese_condiments"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Kikkoman",
+   "c": "Japan",
+   "f": "1917",
+   "seg": "Mainstream",
+   "kf": "soy sauce",
+   "d": "Noda, Chiba soy sauce maker formed from eight family firms in 1917; world's largest shoyu producer.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Kikkoman koikuchi"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Kikkoman"
+  },
+  {
+   "n": "Yamasa",
+   "c": "Japan",
+   "f": "1645",
+   "seg": "Heritage manufactory",
+   "kf": "soy sauce",
+   "d": "Choshi, Chiba soy sauce and seasoning maker.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Yamasa"
+  },
+  {
+   "n": "Yamaroku Shoyu",
+   "c": "Japan",
+   "f": "",
+   "seg": "Artisan & independent",
+   "kf": "kioke soy sauce",
+   "d": "Shodoshima brewery of fifth-generation Yasuo Yamamoto, brewing in self-made kioke barrels; flagship Tsuru-bishio.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Tsuru-bishio"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://www.japan.travel/en/uk/inspiration/one-man-and-his-barrels-yasuo-yamamoto-and-his-mission-to-keep-real-soy-sauce-alive/"
+  }
+ ],
+ "traditions": [
+  {
+   "n": "Shōyu brewing of Yuasa",
+   "g": "Food & drink",
+   "r": "Yuasa, Wakayama, Japan",
+   "p": "Edo period onward",
+   "d": "Yuasa claims to be the birthplace of Japanese soy sauce, with a soy sauce industry flourishing since the Edo period.",
+   "tech": "koji fermentation of soybean and wheat with brine, pressed and aged",
+   "mat": "soybean, wheat, salt",
+   "forms": [
+    "koikuchi shoyu"
+   ],
+   "ctr": [
+    "Yuasa"
+   ],
+   "auth": "Claim of origin is local and not settled",
+   "s": "https://en.wikipedia.org/wiki/Yuasa,_Wakayama"
+  },
+  {
+   "n": "Shōdoshima kioke soy sauce brewing",
+   "g": "Food & drink",
+   "r": "Shōdoshima, Kagawa, Japan",
+   "p": "traditional, about 150 years at Yamaroku",
+   "d": "Natural brewing of soy sauce in handmade cedar-and-bamboo kioke barrels, about 1% of Japan's soy sauce.",
+   "tech": "Tennen Jōzō Kioke Shikomi: natural wooden-barrel fermentation",
+   "mat": "cedar and bamboo barrels, soybean, wheat, salt",
+   "forms": [
+    "Tsuru-bishio"
+   ],
+   "ctr": [
+    "Yamaroku Shoyu"
+   ],
+   "auth": "Brewed in kioke barrels; barrels can last over 100 years",
+   "s": "https://www.japan.travel/en/uk/inspiration/one-man-and-his-barrels-yasuo-yamamoto-and-his-mission-to-keep-real-soy-sauce-alive/"
+  },
+  {
+   "n": "Korean jang-making",
+   "g": "Food & drink",
+   "r": "Korea",
+   "p": "UNESCO inscribed 2024",
+   "d": "Making, keeping and eating jang, the fermented sauces including soybean paste, soy sauce and red chilli paste.",
+   "tech": "meju bricks fermented, brine drawn as ganjang, remainder mashed as doenjang",
+   "mat": "soybeans, salt, chilli, glutinous rice",
+   "forms": [
+    "doenjang",
+    "ganjang",
+    "gochujang"
+   ],
+   "ctr": [
+    "Sunchang"
+   ],
+   "auth": "Family transmission, mother to daughter, in earthenware jars",
+   "s": "https://ich.unesco.org/en/RL/knowledge-beliefs-and-practices-related-to-jang-making-in-the-republic-of-korea-01975?RL=01975"
+  }
+ ],
+ "notes": "Marukin, Yamasa products, San-J and Higashimaru kept as version names from old data only; Saikyo miso not found on retrieved pages and left out. Rishiri/Rausu/Ma from chefjacooks page. Cooking sake keeps the old source (current blog URL 404). Hondashi not confirmed so omitted. Ponzu and furikake sourced to the List of Japanese condiments."
+}

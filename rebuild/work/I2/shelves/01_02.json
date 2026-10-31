@@ -1,0 +1,227 @@
+{
+ "kinds": [
+  {
+   "n": "3D model",
+   "a": "3D model file",
+   "d": "A three-dimensional model held as a file to import into 3D tools.",
+   "t": [
+    "Character",
+    "Prop",
+    "Scene",
+    "OBJ",
+    "FBX",
+    "glTF",
+    "USD"
+   ],
+   "s": "https://www.renderhub.com/3d-models?t=1",
+   "x": [
+    {
+     "n": "Utah teapot",
+     "a": "",
+     "d": "The standard reference model of computer graphics, drawn from a Melitta teapot at the University of Utah.",
+     "mk": "Martin Newell",
+     "y": "1975",
+     "s": "https://en.wikipedia.org/wiki/Utah_teapot",
+     "v": []
+    },
+    {
+     "n": "Stanford bunny",
+     "a": "",
+     "d": "Scan of a ceramic rabbit, 69,451 triangles, used to test graphics algorithms.",
+     "mk": "Greg Turk and Marc Levoy",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/Stanford_bunny",
+     "v": []
+    },
+    {
+     "n": "Poly Haven",
+     "a": "",
+     "d": "Free public library of HDRIs, textures and 3D models released under CC0, funded mainly by Patreon donors and sponsors.",
+     "mk": "Poly Haven",
+     "y": "",
+     "s": "https://polyhaven.com/about-contact",
+     "v": []
+    },
+    {
+     "n": "Quixel Megascans",
+     "a": "",
+     "d": "Photogrammetry asset library; Quixel is part of Epic and Megascans is now sold exclusively on Fab.",
+     "mk": "Quixel",
+     "y": "",
+     "s": "https://www.fab.com/sellers/Quixel%20Megascans/about",
+     "v": []
+    }
+   ]
+  },
+  {
+   "n": "3D-printable model",
+   "a": "STL file · printable file",
+   "d": "A mesh file prepared to be sliced and printed on a 3D printer.",
+   "t": [
+    "STL (1987, 3D Systems)",
+    "3MF (3MF Consortium)",
+    "OBJ",
+    "AMF"
+   ],
+   "s": "https://en.wikipedia.org/wiki/FDM_printing_file_formats",
+   "x": [
+    {
+     "n": "3DBenchy",
+     "a": "",
+     "d": "Tugboat model by Daniel Norée and Paulo Kiefe made to test printer accuracy.",
+     "mk": "Creative Tools",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/3DBenchy",
+     "v": [
+      {
+       "n": "3DBenchy STL",
+       "mk": "Creative Tools",
+       "y": "2015",
+       "d": "April 2015, originally CC-BY-ND"
+      },
+      {
+       "n": "3DBenchy multi-part, multi-colour",
+       "mk": "Creative Tools",
+       "y": "2015",
+       "d": "July 2015"
+      },
+      {
+       "n": "3DBenchy public domain",
+       "mk": "Creative Tools",
+       "y": "2025",
+       "d": "Moved to CC0 in February 2025"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Avatar model",
+   "a": "VRM · Live2D model · VTuber model",
+   "d": "A rigged character model for social VR or streaming.",
+   "t": [
+    "3D VRM",
+    "3D for VRChat",
+    "2D Live2D rig"
+   ],
+   "s": "https://en.wikipedia.org/wiki/VRM",
+   "x": [
+    {
+     "n": "VRM avatar",
+     "a": "",
+     "d": "glTF-based 3D model format for virtual-reality and metaverse avatars.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/VRM",
+     "v": []
+    },
+    {
+     "n": "Live2D model",
+     "a": "",
+     "d": "Layered 2D character rigged for 2.5D motion, used with face tracking by VTubers.",
+     "mk": "Live2D Ltd.",
+     "y": "2008",
+     "s": "https://en.wikipedia.org/wiki/Live2D",
+     "v": [
+      {
+       "n": "Live2D Vector",
+       "mk": "Live2D Ltd.",
+       "y": "2009",
+       "d": "First application"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "3D material",
+   "a": "shader",
+   "d": "A surface material or shader definition for 3D rendering.",
+   "t": [
+    "PBR texture set",
+    "Procedural shader"
+   ],
+   "s": "https://app.cinevva.com/guides/free-textures-hdris-materials",
+   "x": [
+    {
+     "n": "Poly Haven",
+     "a": "",
+     "d": "Free public library of HDRIs, textures and 3D models released under CC0, funded mainly by Patreon donors and sponsors.",
+     "mk": "Poly Haven",
+     "y": "",
+     "s": "https://polyhaven.com/about-contact",
+     "v": []
+    },
+    {
+     "n": "Quixel Megascans",
+     "a": "",
+     "d": "Photogrammetry asset library; Quixel is part of Epic and Megascans is now sold exclusively on Fab.",
+     "mk": "Quixel",
+     "y": "",
+     "s": "https://www.fab.com/sellers/Quixel%20Megascans/about",
+     "v": []
+    }
+   ]
+  },
+  {
+   "n": "HDRI and environment map",
+   "a": "HDRI · environment map",
+   "d": "An environment lighting map or light setup for 3D rendering.",
+   "t": [
+    "Studio",
+    "Outdoor",
+    "Interior"
+   ],
+   "s": "https://app.cinevva.com/guides/free-textures-hdris-materials",
+   "x": [
+    {
+     "n": "HDR light probe lighting",
+     "a": "",
+     "d": "High-dynamic-range image of a place used to light a rendered scene.",
+     "mk": "Paul Debevec",
+     "y": "1997",
+     "s": "https://en.wikipedia.org/wiki/High-dynamic-range_rendering",
+     "v": [
+      {
+       "n": "Radiance HDR format",
+       "mk": "Greg Ward",
+       "y": "1985",
+       "d": "First file format to hold a high-dynamic-range image"
+      }
+     ]
+    },
+    {
+     "n": "Poly Haven",
+     "a": "",
+     "d": "Free public library of HDRIs, textures and 3D models released under CC0, funded mainly by Patreon donors and sponsors.",
+     "mk": "Poly Haven",
+     "y": "",
+     "s": "https://polyhaven.com/about-contact",
+     "v": []
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Poly Haven",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "free CC0 assets",
+   "d": "Free library of HDRIs, textures and models under CC0.",
+   "s": "https://polyhaven.com/about-contact"
+  },
+  {
+   "n": "Quixel",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "Megascans",
+   "d": "Part of Epic; maker of the Megascans photogrammetry library.",
+   "s": "https://www.fab.com/sellers/Quixel%20Megascans/about"
+  }
+ ],
+ "traditions": [],
+ "notes": "Dropped the single RenderHub SKU (Military Avatar - Bundle); the avatar mention moved to the new Avatar model kind. No Poly Haven, Quixel Megascans or VRChat base-body archetypes: no retrieved page named them. VRM maker not stated on the fetched page, so mk blank. Suzanne page redirected to Blender and was not used. | Deepening pass: added Poly Haven and Quixel Megascans archetypes (and brands) from their own pages; VRChat base bodies still unsourced."
+}

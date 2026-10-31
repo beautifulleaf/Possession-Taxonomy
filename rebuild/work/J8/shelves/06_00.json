@@ -1,0 +1,1732 @@
+{
+ "kinds": [
+  {
+   "n": "Ice cream tub",
+   "a": "ice cream pint · carton · take-home ice cream · scoop ice cream",
+   "d": "Take-home container of scoopable ice cream bought for the freezer, from pint to multi-litre.",
+   "t": [
+    "pint (473 ml / 500 ml)",
+    "litre and 2-litre tub",
+    "mini tub",
+    "super-premium (dense, low air)",
+    "light / low-calorie",
+    "frozen dairy dessert (reduced butterfat)",
+    "dairy ice cream vs ice cream (non-milk fat)"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ice_cream ",
+   "x": [
+    {
+     "n": "Vanilla ice cream",
+     "a": "vanilla",
+     "d": "Plain ice cream flavoured with vanilla bean, extract or vanillin; the default flavour.",
+     "mk": "",
+     "y": "18th century (France)",
+     "s": "https://en.wikipedia.org/wiki/Vanilla_ice_cream ",
+     "v": [],
+     "dt": "vanilla source (bean, extract, vanillin) · French-style egg custard or Philadelphia style"
+    },
+    {
+     "n": "Chocolate ice cream",
+     "a": "",
+     "d": "Ice cream flavoured with cocoa or chocolate; one of the oldest and most popular flavours.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Chocolate_ice_cream ",
+     "v": [],
+     "dt": "cocoa intensity · inclusions"
+    },
+    {
+     "n": "Strawberry ice cream",
+     "a": "",
+     "d": "Ice cream made with strawberries or strawberry flavouring, usually pink.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Strawberry_ice_cream ",
+     "v": [
+      {
+       "n": "Strawberry ripple",
+       "mk": "",
+       "y": "",
+       "d": "vanilla with a strawberry jam or syrup ribbon"
+      },
+      {
+       "n": "Strawberry cheesecake",
+       "mk": "",
+       "y": "",
+       "d": "variation"
+      }
+     ],
+     "dt": "fresh fruit vs flavouring · ripple"
+    },
+    {
+     "n": "Neapolitan ice cream",
+     "a": "Harlequin ice cream · Fürst-Pückler-Eis",
+     "d": "Three flavours, typically vanilla, chocolate and strawberry, side by side in one block.",
+     "mk": "",
+     "y": "1839 (first recorded, Prussia)",
+     "s": "https://en.wikipedia.org/wiki/Neapolitan_ice_cream ",
+     "v": [
+      {
+       "n": "Fürst-Pückler-Eis",
+       "mk": "",
+       "y": "1839",
+       "d": "German three-flavour version credited to the cook of Prince Pückler-Muskau"
+      }
+     ],
+     "dt": "brick or tub · flavour order"
+    },
+    {
+     "n": "Mint chocolate chip",
+     "a": "mint choc chip",
+     "d": "Mint ice cream, often coloured green, with small chocolate chips.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Mint_chocolate_chip ",
+     "v": [],
+     "dt": "peppermint or spearmint · green or white base"
+    },
+    {
+     "n": "Cookies and cream",
+     "a": "cookies 'n cream",
+     "d": "Vanilla ice cream with crumbled chocolate sandwich cookies, most often Oreo under licence.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Cookies_and_cream ",
+     "v": [
+      {
+       "n": "Oreo-licensed versions",
+       "mk": "",
+       "y": "",
+       "d": "Nabisco's Oreo crumbs under licence"
+      },
+      {
+       "n": "Chocolate, coffee or mint base",
+       "mk": "",
+       "y": "",
+       "d": "variations"
+      }
+     ],
+     "dt": "cookie brand · base flavour"
+    },
+    {
+     "n": "Cookie dough",
+     "a": "",
+     "d": "Ice cream with chunks of edible (egg-free, heat-treated) cookie dough.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Cookie_dough ",
+     "v": [
+      {
+       "n": "Chocolate Chip Cookie Dough",
+       "mk": "Ben & Jerry's",
+       "y": "",
+       "d": "won a 2013 public survey of Ben & Jerry's flavours"
+      }
+     ],
+     "dt": "dough type · base flavour"
+    },
+    {
+     "n": "Rocky road",
+     "a": "",
+     "d": "Chocolate ice cream with nuts and whole or diced marshmallows.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Rocky_road_(ice_cream) ",
+     "v": [],
+     "dt": "nut type · marshmallow size"
+    },
+    {
+     "n": "Cherry ice cream",
+     "a": "",
+     "d": "Ice cream made with cherries; mass-produced in the US since at least 1917.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Cherry_ice_cream ",
+     "v": [
+      {
+       "n": "Cherry Garcia",
+       "mk": "Ben & Jerry's",
+       "y": "1987",
+       "d": "cherries and chocolate; named for Jerry Garcia"
+      }
+     ],
+     "dt": "cherry type · chocolate pieces"
+    },
+    {
+     "n": "Butter pecan",
+     "a": "",
+     "d": "Buttery vanilla ice cream with roasted pecans, prominent in the southern US.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Butter_pecan ",
+     "v": [
+      {
+       "n": "Butter almond",
+       "mk": "",
+       "y": "",
+       "d": "almonds instead of pecans"
+      }
+     ],
+     "dt": "nut roast · base"
+    },
+    {
+     "n": "Pistachio ice cream",
+     "a": "",
+     "d": "Pistachio-flavoured ice cream, often distinctively green.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Pistachio_ice_cream ",
+     "v": [],
+     "dt": "nut paste vs flavouring · colour"
+    },
+    {
+     "n": "Rum raisin",
+     "a": "rum and raisin",
+     "d": "Vanilla ice cream with rum-soaked raisins.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Rum_raisin ",
+     "v": [],
+     "dt": "rum content · raisin size"
+    },
+    {
+     "n": "Tutti frutti",
+     "a": "",
+     "d": "Ice cream with chopped candied fruits or a mixed-fruit flavour.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Tutti_frutti ",
+     "v": [],
+     "dt": "candied fruit mix · nuts"
+    },
+    {
+     "n": "Moose Tracks",
+     "a": "",
+     "d": "Licensed flavour: vanilla ice cream with peanut-butter cups and Moose Tracks fudge.",
+     "mk": "Denali Flavors",
+     "y": "1988",
+     "s": "https://en.wikipedia.org/wiki/Moose_Tracks ",
+     "v": [
+      {
+       "n": "Chocolate, mint and brownie Moose Tracks",
+       "mk": "Denali Flavors",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Light and frozen yogurt versions",
+       "mk": "Denali Flavors",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "licensee brand · base"
+    },
+    {
+     "n": "Hokey pokey",
+     "a": "",
+     "d": "New Zealand vanilla ice cream with small lumps of honeycomb toffee.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Hokey_pokey_(ice_cream) ",
+     "v": [
+      {
+       "n": "Honeycomb-ball recipe",
+       "mk": "Tip Top",
+       "y": "c. 1980",
+       "d": "replaced the original solid toffee"
+      }
+     ],
+     "dt": "toffee type"
+    },
+    {
+     "n": "Booza",
+     "a": "Arabic ice cream",
+     "d": "Arabic ice cream pounded and stretched with mastic and sahlab for a dense, elastic texture.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Booza ",
+     "v": [
+      {
+       "n": "Pistachio-coated booza",
+       "mk": "Bakdash",
+       "y": "",
+       "d": "Damascus"
+      }
+     ],
+     "dt": "mastic · rose or orange-flower water · pistachio coating"
+    },
+    {
+     "n": "Maraş dondurma",
+     "a": "Turkish ice cream · dondurma",
+     "d": "Turkish mastic ice cream thickened with salep, chewy and slow to melt.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Dondurma ",
+     "v": [],
+     "dt": "salep · mastic"
+    }
+   ],
+   "m": [
+    [
+     "Pints and Core range",
+     "Ben & Jerry's"
+    ],
+    [
+     "Pints",
+     "Häagen-Dazs"
+    ],
+    [
+     "Carte d'Or",
+     "The Magnum Ice Cream Company"
+    ],
+    [
+     "Breyers",
+     "Breyers"
+    ],
+    [
+     "Pints",
+     "Jeni's Splendid Ice Creams"
+    ],
+    [
+     "Halo Top",
+     "Halo Top Creamery"
+    ],
+    [
+     "Blue Bell",
+     "Blue Bell Creameries"
+    ],
+    [
+     "Tillamook",
+     "Tillamook County Creamery Association"
+    ],
+    [
+     "Dreyer's / Edy's Grand",
+     "Dreyer's"
+    ],
+    [
+     "Mövenpick",
+     "Mövenpick Ice Cream"
+    ],
+    [
+     "Graeter's",
+     "Graeter's"
+    ],
+    [
+     "Salt & Straw",
+     "Salt & Straw"
+    ]
+   ]
+  },
+  {
+   "n": "Gelato",
+   "a": "Italian ice cream · gelati",
+   "d": "Italian-style ice cream with less butterfat (6–9%) and less air (20–35%) than other ice creams, for intense flavour.",
+   "t": [
+    "artisanal (gelateria)",
+    "packaged pint",
+    "crema (custard) base",
+    "fruit base"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Gelato ",
+   "x": [
+    {
+     "n": "Fior di latte",
+     "a": "",
+     "d": "Plain base gelato with no flavourings and no eggs; the original gelato.",
+     "mk": "",
+     "y": "16th century (Florence)",
+     "s": "https://en.wikipedia.org/wiki/Gelato ",
+     "v": [],
+     "dt": "milk quality"
+    },
+    {
+     "n": "Stracciatella",
+     "a": "",
+     "d": "Fior di latte gelato with fine strands of drizzled chocolate.",
+     "mk": "Ristorante La Marianna",
+     "y": "1961 (Bergamo)",
+     "s": "https://en.wikipedia.org/wiki/Stracciatella_(ice_cream) ",
+     "v": [],
+     "dt": "chocolate type"
+    },
+    {
+     "n": "Spumoni",
+     "a": "",
+     "d": "Moulded gelato in layers, usually pistachio, cherry and chocolate, with candied fruit and nuts.",
+     "mk": "",
+     "y": "late 19th century (Naples)",
+     "s": "https://en.wikipedia.org/wiki/Spumoni ",
+     "v": [],
+     "dt": "layer flavours · candied fruit · whipped-cream lightened"
+    },
+    {
+     "n": "Tartufo",
+     "a": "tartufo di Pizzo",
+     "d": "Ball of two or more gelato flavours, often with a melted-chocolate centre, from Pizzo.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Tartufo ",
+     "v": [],
+     "dt": "flavours · cocoa or nut coating"
+    }
+   ],
+   "m": [
+    [
+     "Grom",
+     "Grom"
+    ],
+    [
+     "Talenti",
+     "Talenti"
+    ]
+   ]
+  },
+  {
+   "n": "Sorbet",
+   "a": "sorbetto · water ice · sherbet (US, with dairy)",
+   "d": "Frozen dessert of ice with fruit juice or purée, or wine, liqueur or honey, without dairy.",
+   "t": [
+    "fruit sorbet",
+    "wine or liqueur sorbet",
+    "palate-cleanser",
+    "sherbet (North American, with dairy)"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Sorbet ",
+   "x": [
+    {
+     "n": "Granita",
+     "a": "granita siciliana",
+     "d": "Sicilian sorbet stirred while freezing into many tiny ice crystals; lemon, coffee or fruit.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Granita ",
+     "v": [
+      {
+       "n": "Messina style",
+       "mk": "",
+       "y": "",
+       "d": "creamy, served with brioche"
+      },
+      {
+       "n": "Palermo / west-coast style",
+       "mk": "",
+       "y": "",
+       "d": "chunkiest"
+      }
+     ],
+     "dt": "texture (chunky to smooth) · flavour"
+    },
+    {
+     "n": "Italian ice",
+     "a": "",
+     "d": "Semi-frozen ice whipped with fruit concentrates, derived from granita; no dairy or egg.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Italian_ice ",
+     "v": [],
+     "dt": "consistency · flavour"
+    },
+    {
+     "n": "Givré",
+     "a": "frosted fruit · citron givré",
+     "d": "Sorbet served in a frozen coconut shell or hollowed-out fruit such as a lemon.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Sorbet ",
+     "v": [],
+     "dt": "fruit shell"
+    }
+   ]
+  },
+  {
+   "n": "Frozen yogurt",
+   "a": "froyo · frogurt",
+   "d": "Frozen dessert like ice cream but made with yogurt, often with live cultures, tarter and lower in fat.",
+   "t": [
+    "soft-serve",
+    "packaged tub",
+    "live cultures",
+    "fat-free / sugar-free"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Frozen_yogurt ",
+   "x": [
+    {
+     "n": "Tart frozen yogurt with toppings",
+     "a": "",
+     "d": "Tangy soft-serve yogurt customised with toppings.",
+     "mk": "Pinkberry",
+     "y": "2005",
+     "s": "https://en.wikipedia.org/wiki/Pinkberry ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Self-serve frozen yogurt",
+     "a": "",
+     "d": "Customers pull their own flavours and add toppings, paying by weight.",
+     "mk": "Yogurtland",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Yogurtland ",
+     "v": [],
+     "dt": "flavours · toppings"
+    }
+   ],
+   "m": [
+    [
+     "TCBY",
+     "TCBY"
+    ],
+    [
+     "llaollao",
+     "Llaollao"
+    ]
+   ]
+  },
+  {
+   "n": "Kulfi",
+   "a": "qulfi · Indian ice cream",
+   "d": "Dense frozen dairy dessert of slow-cooked, thickened milk, frozen unchurned in moulds.",
+   "t": [
+    "almond (badam)",
+    "cardamom (elaichi)",
+    "mango",
+    "pistachio",
+    "saffron (kesar)"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Kulfi ",
+   "x": [
+    {
+     "n": "Matka kulfi",
+     "a": "",
+     "d": "Kulfi frozen in sealed moulds sunk in a matka pot of ice and salt; the traditional method.",
+     "mk": "",
+     "y": "16th century (Mughal Delhi)",
+     "s": "https://en.wikipedia.org/wiki/Kulfi ",
+     "v": [
+      {
+       "n": "Kuremal Mohan Lal Kulfi Wale",
+       "mk": "",
+       "y": "1906",
+       "d": "Old Delhi kulfi shop"
+      },
+      {
+       "n": "Prakash Kulfi",
+       "mk": "",
+       "y": "1956",
+       "d": "Lucknow kulfi shop"
+      }
+     ],
+     "dt": "flavour · mould (kulhar, cone)"
+    },
+    {
+     "n": "Kulfi falooda",
+     "a": "",
+     "d": "Kulfi served with falooda: vermicelli, rose syrup and sweet basil seeds.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Falooda ",
+     "v": [],
+     "dt": "rose syrup · basil seeds"
+    }
+   ],
+   "m": [
+    [
+     "Kulfi",
+     "Vadilal"
+    ],
+    [
+     "Kulfi",
+     "Amul"
+    ],
+    [
+     "Kulfi",
+     "Bombay Kulfi"
+    ]
+   ]
+  },
+  {
+   "n": "Mochi ice cream",
+   "a": "ice cream mochi · mochi balls",
+   "d": "Small balls of ice cream wrapped in soft pounded-rice mochi.",
+   "t": [
+    "vanilla, chocolate, strawberry",
+    "green tea",
+    "mango",
+    "multipack"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Mochi_ice_cream ",
+   "x": [
+    {
+     "n": "Yukimi Daifuku",
+     "a": "snow-viewing daifuku",
+     "d": "Lotte's original mochi ice cream: rice-starch mochi around a rice-milk ice centre.",
+     "mk": "Lotte Wellfood",
+     "y": "1981",
+     "s": "https://en.wikipedia.org/wiki/Yukimi_Daifuku ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Mikawaya mochi ice cream",
+     "a": "",
+     "d": "US mochi ice cream developed by Frances Hashimoto of Mikawaya.",
+     "mk": "Mikawaya",
+     "y": "1993",
+     "s": "https://en.wikipedia.org/wiki/Mikawaya ",
+     "v": [
+      {
+       "n": "Hawaii debut",
+       "mk": "Mikawaya",
+       "y": "1994",
+       "d": ""
+      },
+      {
+       "n": "My/Mo Mochi Ice Cream",
+       "mk": "My/Mochi Ice Cream",
+       "y": "2017",
+       "d": "brand relaunch"
+      }
+     ],
+     "dt": "flavours"
+    }
+   ],
+   "m": [
+    [
+     "Little Moons",
+     "Little Moons"
+    ]
+   ]
+  },
+  {
+   "n": "Ice lolly",
+   "a": "ice pop · popsicle · icy pole · ice block · paleta · freezie",
+   "d": "Flavoured liquid, water- or cream-based, frozen at rest on a stick.",
+   "t": [
+    "water ice",
+    "fruit-juice",
+    "cream-based",
+    "multipack",
+    "freeze pop (tube, no stick)"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ice_pop ",
+   "x": [
+    {
+     "n": "Popsicle",
+     "a": "Epsicle",
+     "d": "The original fruit-flavoured ice on a stick, patented by Frank Epperson.",
+     "mk": "Popsicle",
+     "y": "1905 (claimed); patented 1923–24",
+     "s": "https://en.wikipedia.org/wiki/Popsicle_(brand) ",
+     "v": [],
+     "dt": "flavours · twin stick"
+    },
+    {
+     "n": "Paleta",
+     "a": "paleta de agua · paleta de leche",
+     "d": "Mexican ice pop of fresh fruit, milk- or water-based, sold by paleteros.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Ice_pop ",
+     "v": [
+      {
+       "n": "Paletería La Michoacana",
+       "mk": "",
+       "y": "1940s",
+       "d": "franchise from Tocumbo, Michoacán"
+      }
+     ],
+     "dt": "milk or water base · fruit · chili and chamoy"
+    },
+    {
+     "n": "Freeze pop",
+     "a": "freezie · ice pop (UK)",
+     "d": "Flavoured liquid sealed in a plastic tube, frozen without a stick.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Freezie ",
+     "v": [
+      {
+       "n": "Otter Pops",
+       "mk": "",
+       "y": "",
+       "d": "one of the earliest US brands"
+      }
+     ],
+     "dt": "tube width · flavour"
+    },
+    {
+     "n": "Bomb Pop",
+     "a": "",
+     "d": "Cherry, lime and blue-raspberry ice pop.",
+     "mk": "Wells Enterprises",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Bomb_Pop ",
+     "v": [
+      {
+       "n": "Original",
+       "mk": "Wells Enterprises",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Extremes Super Sour",
+       "mk": "Wells Enterprises",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "flavour layers"
+    },
+    {
+     "n": "Fab",
+     "a": "",
+     "d": "Strawberry, vanilla and chocolate flavoured lolly launched on the back of Thunderbirds.",
+     "mk": "J. Lyons and Co.",
+     "y": "1960s",
+     "s": "https://en.wikipedia.org/wiki/Fab_(brand) ",
+     "v": [
+      {
+       "n": "Zoom",
+       "mk": "J. Lyons and Co.",
+       "y": "1960s",
+       "d": "precursor"
+      }
+     ],
+     "dt": "sprinkles"
+    },
+    {
+     "n": "Twister",
+     "a": "Tangle Twister",
+     "d": "Spiral lolly of pineapple ice cream and lime ice around strawberry ice.",
+     "mk": "The Magnum Ice Cream Company",
+     "y": "1982",
+     "s": "https://en.wikipedia.org/wiki/Twister_(ice_cream) ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Calippo",
+     "a": "",
+     "d": "Water-ice frozen dessert introduced to European markets in 1984.",
+     "mk": "The Magnum Ice Cream Company",
+     "y": "1984",
+     "s": "https://en.wikipedia.org/wiki/Calippo ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Solero",
+     "a": "Salar",
+     "d": "Fruity Heartbrand ice cream on a stick.",
+     "mk": "The Magnum Ice Cream Company",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/Solero_(ice_cream) ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Garigari-kun",
+     "a": "",
+     "d": "Japanese soda-flavoured ice pop with an ice shell and shaved-ice centre.",
+     "mk": "Akagi Nyugyo",
+     "y": "1981",
+     "s": "https://www.staradvertiser.com/?p=805144",
+     "v": [
+      {
+       "n": "Soda",
+       "mk": "Akagi Nyugyo",
+       "y": "1981",
+       "d": "best seller"
+      },
+      {
+       "n": "Cola and grapefruit",
+       "mk": "Akagi Nyugyo",
+       "y": "1981",
+       "d": ""
+      },
+      {
+       "n": "Corn potage",
+       "mk": "Akagi Nyugyo",
+       "y": "2012",
+       "d": "novelty flavour"
+      }
+     ],
+     "dt": "flavour"
+    },
+    {
+     "n": "Paddle Pop",
+     "a": "",
+     "d": "Australian ice confection on a wooden stick with a lion mascot.",
+     "mk": "Streets",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Paddle_Pop ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Bubble O' Bill",
+     "a": "",
+     "d": "Novelty ice cream lolly named in wordplay on Buffalo Bill.",
+     "mk": "Streets",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Bubble_O%27_Bill ",
+     "v": [],
+     "dt": ""
+    }
+   ]
+  },
+  {
+   "n": "Stick bar & choc ice",
+   "a": "choc ice · ice cream bar · stick bar · novelty",
+   "d": "Block or stick of ice cream thinly coated in chocolate or compound coating.",
+   "t": [
+    "on a stick",
+    "stickless block",
+    "milk, dark or white coating",
+    "nut-coated",
+    "multipack"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Choc_ice ",
+   "x": [
+    {
+     "n": "Good Humor bar",
+     "a": "",
+     "d": "Chocolate-coated ice cream bar on a stick sold from ice cream trucks.",
+     "mk": "Good Humor",
+     "y": "1920 (patent 1923)",
+     "s": "https://en.wikipedia.org/wiki/Good_Humor ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Eskimo Pie",
+     "a": "Edy's Pie · I-Scream Bar",
+     "d": "Foil-wrapped chocolate-covered vanilla ice cream bar; the first such US dessert.",
+     "mk": "Christian Kent Nelson",
+     "y": "1921 (patent 1922)",
+     "s": "https://en.wikipedia.org/wiki/Edy%27s_Pie ",
+     "v": [
+      {
+       "n": "Edy's Pie",
+       "mk": "Dreyer's",
+       "y": "",
+       "d": "renamed version"
+      }
+     ],
+     "dt": "foil wrap · coating"
+    },
+    {
+     "n": "Klondike bar",
+     "a": "",
+     "d": "Stickless chocolate-coated ice cream bar, too big for a stick.",
+     "mk": "Isaly Dairy Company",
+     "y": "1922",
+     "s": "https://en.wikipedia.org/wiki/Klondike_bar ",
+     "v": [
+      {
+       "n": "Klondike",
+       "mk": "Good Humor-Breyers",
+       "y": "",
+       "d": "current brand owner"
+      }
+     ],
+     "dt": "flavour · coating"
+    },
+    {
+     "n": "Magnum",
+     "a": "",
+     "d": "Thick vanilla ice cream bar on a stick with a thin real-chocolate coating.",
+     "mk": "Frisko",
+     "y": "1988",
+     "s": "https://en.wikipedia.org/wiki/Magnum_(ice_cream) ",
+     "v": [
+      {
+       "n": "Magnum Classic",
+       "mk": "Frisko",
+       "y": "1988",
+       "d": "86 g, 120 ml"
+      },
+      {
+       "n": "Almond, Double Chocolate, White",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "1992",
+       "d": ""
+      },
+      {
+       "n": "Magnum Intense",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "2002",
+       "d": ""
+      },
+      {
+       "n": "7 Deadly Sins",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "2002",
+       "d": "limited edition"
+      },
+      {
+       "n": "Magnum Moments / mini",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "2002",
+       "d": ""
+      }
+     ],
+     "dt": "coating (milk, dark, white, almond) · size (mini, classic) · limited editions"
+    },
+    {
+     "n": "Dove Bar",
+     "a": "",
+     "d": "Vanilla ice cream bar in milk or dark chocolate.",
+     "mk": "Dove Candies & Ice Cream",
+     "y": "1956 (national 1984)",
+     "s": "https://en.wikipedia.org/wiki/Dove_Bar ",
+     "v": [
+      {
+       "n": "Dove Bar",
+       "mk": "Mars",
+       "y": "1986",
+       "d": "Mars ownership"
+      }
+     ],
+     "dt": "coating · nut"
+    },
+    {
+     "n": "Nogger",
+     "a": "",
+     "d": "Vanilla ice cream bar with hard chocolate and nuts.",
+     "mk": "The Magnum Ice Cream Company",
+     "y": "1964 (West Germany)",
+     "s": "https://en.wikipedia.org/wiki/Nogger ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Golden Gaytime",
+     "a": "Cookie Crumble (NZ)",
+     "d": "Toffee and vanilla ice cream dipped in chocolate and rolled in biscuit crumbs.",
+     "mk": "Streets",
+     "y": "1970",
+     "s": "https://en.wikipedia.org/wiki/Golden_Gaytime ",
+     "v": [],
+     "dt": ""
+    }
+   ]
+  },
+  {
+   "n": "Cone",
+   "a": "ice cream cone · cornet · poke",
+   "d": "Edible wafer cone, sold empty for home scooping or pre-filled and frozen as a wrapped cone.",
+   "t": [
+    "wafer (cake) cone",
+    "sugar cone",
+    "waffle cone",
+    "chocolate-lined",
+    "empty cones (box)",
+    "pre-filled frozen cone"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ice_cream_cone ",
+   "x": [
+    {
+     "n": "Cornetto",
+     "a": "",
+     "d": "Pre-filled frozen cone whose wafer is sealed with oil, sugar and chocolate against sogginess.",
+     "mk": "Spica",
+     "y": "1959 (Naples)",
+     "s": "https://en.wikipedia.org/wiki/Cornetto_(frozen_dessert) ",
+     "v": [
+      {
+       "n": "Cornetto (Algida, Wall's, Streets, HB, Frigo)",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "1962–",
+       "d": "Unilever-era brands"
+      },
+      {
+       "n": "Cornetto Enigma",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Cornetto Soft",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "",
+       "d": "made on the spot"
+      },
+      {
+       "n": "Cornetto Max",
+       "mk": "The Magnum Ice Cream Company",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "size 28–260 ml · flavour (strawberry, mint, nut)"
+    },
+    {
+     "n": "Drumstick",
+     "a": "",
+     "d": "Sugar cone with chocolate-and-nut coating and a chocolate tip; generic name in the US.",
+     "mk": "Drumstick Company",
+     "y": "1928",
+     "s": "https://en.wikipedia.org/wiki/Drumstick_(frozen_dairy_dessert) ",
+     "v": [
+      {
+       "n": "Drumstick",
+       "mk": "Froneri",
+       "y": "2016–",
+       "d": "current owner"
+      },
+      {
+       "n": "Vegan Drumstick",
+       "mk": "Froneri",
+       "y": "2020",
+       "d": "Canada"
+      }
+     ],
+     "dt": "flavour · coating"
+    },
+    {
+     "n": "99 Flake",
+     "a": "ninety-nine · 99",
+     "d": "Ice cream cone with a half-length Cadbury Flake, sold from ice cream vans.",
+     "mk": "Cadbury",
+     "y": "by 1930",
+     "s": "https://en.wikipedia.org/wiki/99_Flake ",
+     "v": [],
+     "dt": "Flake · sauce"
+    },
+    {
+     "n": "Choco Taco",
+     "a": "",
+     "d": "Folded waffle-cone 'taco' of vanilla ice cream, fudge, peanuts and chocolate (discontinued 2022).",
+     "mk": "Klondike",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Choco_Taco ",
+     "v": [],
+     "dt": "discontinued 2022"
+    }
+   ]
+  },
+  {
+   "n": "Ice cream sandwich",
+   "a": "cream-between · wafer ice cream · hokey pokey",
+   "d": "Ice cream held between two wafers, biscuits or cookies, bought wrapped or as a vendor snack.",
+   "t": [
+    "wafer",
+    "cookie",
+    "chocolate-dipped",
+    "Neapolitan filling",
+    "multipack"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ice_cream_sandwich ",
+   "x": [
+    {
+     "n": "Wafer ice cream sandwich",
+     "a": "",
+     "d": "Block of ice cream between two flat wafers; the street-vendor classic.",
+     "mk": "",
+     "y": "1890s",
+     "s": "https://en.wikipedia.org/wiki/Ice_cream_sandwich ",
+     "v": [
+      {
+       "n": "Fürst-Pückler wafer",
+       "mk": "",
+       "y": "",
+       "d": "German, Neapolitan block"
+      },
+      {
+       "n": "Singapore wafer / potong",
+       "mk": "",
+       "y": "",
+       "d": "block sliced from a bar"
+      },
+      {
+       "n": "Bastani nooni",
+       "mk": "",
+       "y": "",
+       "d": "Iranian traditional ice cream between wafers"
+      }
+     ],
+     "dt": "wafer · filling"
+    },
+    {
+     "n": "Chipwich",
+     "a": "",
+     "d": "Vanilla ice cream between two thick chocolate-chip cookies.",
+     "mk": "Crave Better Foods",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Chipwich ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "It's-It",
+     "a": "",
+     "d": "Ice cream between two oatmeal cookies, dipped in dark chocolate.",
+     "mk": "It's-It Ice Cream",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/It%27s-It_Ice_Cream ",
+     "v": [],
+     "dt": "flavours since 1980s"
+    },
+    {
+     "n": "Maxibon",
+     "a": "",
+     "d": "Chocolate-chip ice cream block half sandwiched in biscuits, half coated in chocolate.",
+     "mk": "Froneri",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Maxibon ",
+     "v": [],
+     "dt": ""
+    }
+   ]
+  },
+  {
+   "n": "Ice cream cake",
+   "a": "frozen cake · ice cream gateau · ice cream log",
+   "d": "Cake or moulded dessert made with ice cream, bought frozen for parties and celebrations.",
+   "t": [
+    "round party cake",
+    "roll / log",
+    "moulded bombe",
+    "layered slice dessert"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ice_cream_cake ",
+   "x": [
+    {
+     "n": "Viennetta",
+     "a": "",
+     "d": "Rippled layers of ice cream separated by thin sprayed sheets of compound chocolate.",
+     "mk": "Wall's",
+     "y": "by 1983",
+     "s": "https://en.wikipedia.org/wiki/Viennetta ",
+     "v": [
+      {
+       "n": "Mint and other flavours",
+       "mk": "Wall's",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Viennetta (US)",
+       "mk": "Good Humor",
+       "y": "2021",
+       "d": "reintroduction"
+      }
+     ],
+     "dt": "flavour · slice size"
+    },
+    {
+     "n": "Arctic roll",
+     "a": "",
+     "d": "Vanilla ice cream wrapped in thin sponge with raspberry sauce.",
+     "mk": "Birds Eye",
+     "y": "1958 (Eastbourne)",
+     "s": "https://en.wikipedia.org/wiki/Arctic_roll ",
+     "v": [
+      {
+       "n": "Chocolate Arctic roll",
+       "mk": "Birds Eye",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Carvel ice cream cake",
+     "a": "",
+     "d": "Soft-serve ice cream cake with a layer of chocolate 'crunchies'.",
+     "mk": "Carvel",
+     "y": "by 1950s",
+     "s": "https://en.wikipedia.org/wiki/Carvel_(franchise) ",
+     "v": [
+      {
+       "n": "Fudgie the Whale",
+       "mk": "Carvel",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Cookie Puss",
+       "mk": "Carvel",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "themed shapes"
+    },
+    {
+     "n": "Baked Alaska",
+     "a": "Bombe Alaska",
+     "d": "Ice cream on cake under browned meringue.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Baked_Alaska ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Bombe glacée",
+     "a": "",
+     "d": "French ice cream dessert frozen in a spherical mould.",
+     "mk": "",
+     "y": "by 1882",
+     "s": "https://en.wikipedia.org/wiki/Bombe_glac%C3%A9e ",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Semifreddo",
+     "a": "",
+     "d": "Half-frozen moulded dessert of egg whites, sugar and cream, lighter than ice cream.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Semifreddo ",
+     "v": [],
+     "dt": "core (nougat, fruit, cake)"
+    },
+    {
+     "n": "Cassata (ice cream)",
+     "a": "",
+     "d": "Neapolitan-style moulded ice cream with candied or dried fruit and nuts; popular in India.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Cassata ",
+     "v": [],
+     "dt": "layers · fruit"
+    }
+   ],
+   "m": [
+    [
+     "Ice cream cakes",
+     "Dairy Queen"
+    ],
+    [
+     "Ice cream cakes",
+     "Baskin-Robbins"
+    ]
+   ]
+  },
+  {
+   "n": "Dairy-free ice cream",
+   "a": "vegan ice cream · non-dairy frozen dessert · plant-based ice cream",
+   "d": "Ice cream substitute made without milk, from soy, oat, almond, coconut or similar bases.",
+   "t": [
+    "soy",
+    "oat",
+    "almond",
+    "coconut",
+    "kosher parve"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Tofutti ",
+   "x": [
+    {
+     "n": "Tofutti",
+     "a": "",
+     "d": "Soy-based non-dairy ice cream first made for kosher customers.",
+     "mk": "Tofutti",
+     "y": "1981",
+     "s": "https://en.wikipedia.org/wiki/Tofutti ",
+     "v": [
+      {
+       "n": "Tofutti Cuties",
+       "mk": "Tofutti",
+       "y": "",
+       "d": "ice cream sandwich"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Ben & Jerry's Non-Dairy",
+     "a": "",
+     "d": "Vegan pints of Ben & Jerry's flavours made without dairy.",
+     "mk": "Ben & Jerry's",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/Ben_%26_Jerry%27s ",
+     "v": [
+      {
+       "n": "Chunky Monkey",
+       "mk": "Ben & Jerry's",
+       "y": "2016",
+       "d": ""
+      },
+      {
+       "n": "Chocolate Fudge Brownie",
+       "mk": "Ben & Jerry's",
+       "y": "2016",
+       "d": ""
+      },
+      {
+       "n": "Cherry Garcia",
+       "mk": "Ben & Jerry's",
+       "y": "2017",
+       "d": ""
+      }
+     ],
+     "dt": "flavour"
+    }
+   ],
+   "m": [
+    [
+     "So Delicious",
+     "Danone North America"
+    ],
+    [
+     "Dairy-free range",
+     "Breyers"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Ben & Jerry's",
+   "c": "United States",
+   "f": "1978",
+   "seg": "Super-premium ice cream",
+   "d": "Vermont maker of chunky-flavour ice cream, sold to Unilever in 2000.",
+   "lines": [
+    "Pints",
+    "Non-Dairy"
+   ],
+   "eras": [
+    "Ben Cohen and Jerry Greenfield, 1978–2000",
+    "Unilever, 2000–2025"
+   ],
+   "sig": [
+    "Cherry Garcia",
+    "Chocolate Chip Cookie Dough",
+    "Ben & Jerry's Non-Dairy"
+   ],
+   "sc": [],
+   "rel": [
+    "The Magnum Ice Cream Company"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ben_%26_Jerry%27s "
+  },
+  {
+   "n": "Häagen-Dazs",
+   "c": "United States",
+   "f": "1960",
+   "seg": "Super-premium ice cream",
+   "d": "Bronx-founded premium ice cream, now General Mills (Froneri in North America).",
+   "lines": [
+    "Pints",
+    "Bars"
+   ],
+   "eras": [
+    "Reuben and Rose Mattus, 1960–1983",
+    "Pillsbury, 1983–2001",
+    "General Mills, 2001–"
+   ],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Froneri"
+   ],
+   "s": "https://en.wikipedia.org/wiki/H%C3%A4agen-Dazs "
+  },
+  {
+   "n": "Breyers",
+   "c": "United States",
+   "f": "1866",
+   "seg": "Mainstream ice cream",
+   "d": "Oldest US ice cream maker, now part of The Magnum Ice Cream Company.",
+   "lines": [
+    "Ice cream",
+    "Frozen dairy dessert",
+    "Dairy-free"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Good Humor",
+    "The Magnum Ice Cream Company"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Breyers "
+  },
+  {
+   "n": "Jeni's Splendid Ice Creams",
+   "c": "United States",
+   "f": "2002",
+   "seg": "Artisan ice cream",
+   "d": "Columbus, Ohio ice cream maker with scoop shops and retail pints.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Jeni%27s_Splendid_Ice_Creams "
+  },
+  {
+   "n": "Grom",
+   "c": "Italy",
+   "f": "2003",
+   "seg": "Gelato",
+   "d": "Turin gelato company, owned by Unilever from 2015.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Grom_(company) "
+  },
+  {
+   "n": "The Magnum Ice Cream Company",
+   "c": "Netherlands",
+   "f": "2025",
+   "seg": "Ice cream group",
+   "d": "World's largest ice cream maker, demerged from Unilever; owns the Heartbrand brands.",
+   "lines": [
+    "Magnum",
+    "Cornetto",
+    "Wall's",
+    "Ben & Jerry's",
+    "Breyers",
+    "Talenti",
+    "Carte d'Or"
+   ],
+   "eras": [],
+   "sig": [
+    "Magnum",
+    "Cornetto",
+    "Twister",
+    "Calippo",
+    "Solero",
+    "Nogger"
+   ],
+   "sc": [],
+   "rel": [
+    "Wall's",
+    "Kwality Wall's",
+    "Good Humor"
+   ],
+   "s": "https://en.wikipedia.org/wiki/The_Magnum_Ice_Cream_Company "
+  },
+  {
+   "n": "Wall's",
+   "c": "United Kingdom",
+   "f": "1922",
+   "seg": "Ice cream (Heartbrand)",
+   "d": "UK Heartbrand ice cream brand, market leader in hand-held ice creams.",
+   "lines": [
+    "Magnum",
+    "Cornetto",
+    "Viennetta",
+    "Mr. Whippy mix"
+   ],
+   "eras": [],
+   "sig": [
+    "Viennetta"
+   ],
+   "sc": [],
+   "rel": [
+    "The Magnum Ice Cream Company"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Wall%27s_(ice_cream) "
+  },
+  {
+   "n": "Froneri",
+   "c": "United Kingdom",
+   "f": "2016",
+   "seg": "Ice cream group",
+   "d": "Nestlé–PAI Partners ice cream joint venture, second-largest ice cream producer.",
+   "lines": [
+    "Drumstick",
+    "Maxibon",
+    "Fab",
+    "Mövenpick",
+    "Häagen-Dazs (US)"
+   ],
+   "eras": [],
+   "sig": [
+    "Drumstick",
+    "Maxibon"
+   ],
+   "sc": [],
+   "rel": [
+    "Dreyer's"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Froneri "
+  },
+  {
+   "n": "Good Humor",
+   "c": "United States",
+   "f": "1920s",
+   "seg": "Ice cream novelties",
+   "d": "Ice cream truck brand behind the Good Humor bar, now Good Humor-Breyers.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Good Humor bar"
+   ],
+   "sc": [],
+   "rel": [
+    "Breyers"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Good_Humor "
+  },
+  {
+   "n": "Lotte Wellfood",
+   "c": "South Korea",
+   "f": "1967",
+   "seg": "Confectionery and ice cream",
+   "d": "Korean confectionery group (formerly Lotte Confectionery).",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Yukimi Daifuku"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Lotte_Wellfood "
+  },
+  {
+   "n": "Mikawaya",
+   "c": "United States",
+   "f": "",
+   "seg": "Japanese confectionery",
+   "d": "Los Angeles wagashi maker that introduced mochi ice cream to the US.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Mikawaya mochi ice cream"
+   ],
+   "sc": [],
+   "rel": [
+    "My/Mochi Ice Cream"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Mikawaya "
+  },
+  {
+   "n": "Akagi Nyugyo",
+   "c": "Japan",
+   "f": "1931",
+   "seg": "Ice confectionery",
+   "d": "Saitama ice cream maker of Garigari-kun.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Garigari-kun"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://www.staradvertiser.com/?p=805144"
+  },
+  {
+   "n": "Tofutti",
+   "c": "United States",
+   "f": "1981",
+   "seg": "Dairy-free",
+   "d": "New Jersey maker of soy-based dairy-free foods and ice cream substitutes.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Tofutti"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Tofutti "
+  },
+  {
+   "n": "Halo Top Creamery",
+   "c": "United States",
+   "f": "2012",
+   "seg": "Low-calorie ice cream",
+   "d": "Lower-calorie pint brand using stevia and erythritol.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Halo_Top_Creamery "
+  },
+  {
+   "n": "Talenti",
+   "c": "United States",
+   "f": "2003",
+   "seg": "Gelato and sorbet",
+   "d": "Gelato and sorbet brand begun as a Dallas gelateria.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "The Magnum Ice Cream Company"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Talenti "
+  },
+  {
+   "n": "Dreyer's",
+   "c": "United States",
+   "f": "1928",
+   "seg": "Mainstream ice cream",
+   "d": "Oakland ice cream maker selling as Dreyer's in the West and Edy's in the East.",
+   "lines": [
+    "Dreyer's Grand",
+    "Edy's Grand",
+    "Edy's Pie"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Froneri"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Dreyer%27s "
+  },
+  {
+   "n": "Carvel",
+   "c": "United States",
+   "f": "",
+   "seg": "Soft-serve and ice cream cakes",
+   "d": "Ice cream franchise known for soft serve and themed ice cream cakes.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Carvel ice cream cake"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Carvel_(franchise) "
+  },
+  {
+   "n": "Vadilal",
+   "c": "India",
+   "f": "1907",
+   "seg": "Ice cream and kulfi",
+   "d": "Ahmedabad ice cream maker, world's top kulfi supplier.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Vadilal"
+  },
+  {
+   "n": "Kwality Wall's",
+   "c": "India",
+   "f": "",
+   "seg": "Ice cream (Heartbrand)",
+   "d": "South Asian Heartbrand ice cream company.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "The Magnum Ice Cream Company"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Kwality_Wall%27s "
+  },
+  {
+   "n": "Blue Bell Creameries",
+   "c": "United States",
+   "f": "1907",
+   "seg": "Mainstream ice cream",
+   "d": "Texas ice cream maker from Brenham.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Blue_Bell_Creameries "
+  },
+  {
+   "n": "Mövenpick Ice Cream",
+   "c": "Switzerland",
+   "f": "",
+   "seg": "Premium ice cream",
+   "d": "Swiss-origin premium ice cream made by Froneri.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Froneri"
+   ],
+   "s": "https://en.wikipedia.org/wiki/M%C3%B6venpick_Ice_Cream "
+  }
+ ],
+ "traditions": [
+  {
+   "n": "Italian gelato",
+   "g": "Food & drink",
+   "r": "Italy (Florence, Sicily, Naples)",
+   "p": "16th century–present",
+   "d": "Artisanal Italian ice cream tradition of low-fat, low-air gelato made daily in gelaterie.",
+   "tech": "custard or milk base pasteurised, batch-frozen with little air",
+   "mat": "milk, sugar, nuts, fruit",
+   "forms": [
+    "Fior di latte",
+    "Stracciatella",
+    "Spumoni",
+    "Tartufo",
+    "Granita"
+   ],
+   "ctr": [
+    "Café Procope (Procopio dei Coltelli, 1686)",
+    "Carpigiani (Bologna, batch freezers)"
+   ],
+   "auth": "6–9% butterfat, 20–35% air, served softer than ice cream",
+   "s": "https://en.wikipedia.org/wiki/Gelato "
+  },
+  {
+   "n": "Kulfi",
+   "g": "Food & drink",
+   "r": "Indian subcontinent (Delhi)",
+   "p": "16th century (Mughal)–present",
+   "d": "Unchurned frozen dessert of slow-reduced milk, sold by kulfiwallahs.",
+   "tech": "milk reduced and caramelised, frozen in sealed moulds in a matka of ice and salt",
+   "mat": "milk, sugar, pistachio, saffron, cardamom",
+   "forms": [
+    "Matka kulfi",
+    "Kulfi falooda"
+   ],
+   "ctr": [
+    "Kuremal Mohan Lal Kulfi Wale, Old Delhi (1906)",
+    "Prakash Kulfi, Lucknow (1956)"
+   ],
+   "auth": "dense, slow-melting, no ice crystals, cooked-milk taste",
+   "s": "https://en.wikipedia.org/wiki/Kulfi "
+  },
+  {
+   "n": "Mexican paleta",
+   "g": "Food & drink",
+   "r": "Mexico (Tocumbo, Michoacán)",
+   "p": "1940s–present",
+   "d": "Fresh-fruit ice pops, milk- or water-based, made by paleterías and sold by paleteros.",
+   "tech": "fresh fruit frozen on a stick",
+   "mat": "fruit, milk, chili, chamoy",
+   "forms": [
+    "Paleta"
+   ],
+   "ctr": [
+    "Paletería La Michoacana"
+   ],
+   "auth": "fresh-fruit base; local flavours such as tamarind, mamey, horchata",
+   "s": "https://en.wikipedia.org/wiki/Ice_pop "
+  },
+  {
+   "n": "Maraş dondurma",
+   "g": "Food & drink",
+   "r": "Turkey (Kahramanmaraş)",
+   "p": "",
+   "d": "Turkish mastic ice cream thickened with salep.",
+   "tech": "pounded and stretched rather than churned",
+   "mat": "cream, salep, mastic, sugar",
+   "forms": [
+    "Maraş dondurma",
+    "Booza"
+   ],
+   "ctr": [
+    "Kahramanmaraş"
+   ],
+   "auth": "chewy, elastic, slow to melt",
+   "s": "https://en.wikipedia.org/wiki/Dondurma "
+  }
+ ],
+ "notes": "All 12 planned kinds built new (shelf had no old data). Left out: Wall's Mini Milk, Feast and Zoom as own archetypes, Creamsicle/Fudgsicle (no page retrieved; Wikipedia titles missing or rate-limited); Carte d'Or kept only as a tub model (brand page 403, attested via Miko page); soft serve, sundaes, shaved ice/kakigori/bingsu/halo-halo omitted as served desserts rather than bought products; Streets, Frisko, Spica, Wells Enterprises etc. used as archetype makers without register entries (no brand page retrieved for some)."
+}

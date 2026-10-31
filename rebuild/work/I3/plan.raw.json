@@ -1,0 +1,865 @@
+{
+ "lead": "Recurring plans, memberships and online services a person pays for or signs up to for personal life, grouped by what they give access to (screen, sound, reading, play and learning, online tools, connection, memberships and clubs, deliveries, retained services and staff), with leading operators by country and their plan types rather than exhaustive provider lists; titles live in the entertainment taxonomies.",
+ "b": [],
+ "depts": [
+  {
+   "n": "TV, film & sport streaming",
+   "mode": "tier",
+   "note": "Operators listed as global leaders plus the leading services per major market; plan tiers as types.",
+   "b": [
+    {
+     "m": "Has the titles or sport you want",
+     "w": "Checked by title or competition first; catalogue size is only background."
+    },
+    {
+     "m": "Price per year, and price of the ad-free tier",
+     "v": "with ads < ad-free < premium",
+     "w": "Second; compared per year."
+    },
+    {
+     "m": "Picture and sound quality",
+     "v": "4K HDR / Dolby Atmos > HD > SD",
+     "w": "Third; often gated by plan tier."
+    },
+    {
+     "m": "Simultaneous streams and profiles",
+     "v": "family > duo > individual",
+     "w": "Fourth."
+    },
+    {
+     "m": "Devices supported and offline downloads",
+     "w": "Fifth."
+    },
+    {
+     "m": "Contract length and ease of cancelling",
+     "w": "Sixth; monthly rolling preferred."
+    }
+   ],
+   "s": [
+    {
+     "n": "Streaming services",
+     "web": true,
+     "brief": "Restraint: cut k1 from ~115 services to global leaders (Netflix, Disney+, Prime Video, HBO Max, Apple TV, Paramount+, Peacock, Hulu, YouTube Premium) plus 1–3 market leaders per major country/region (e.g. UK BritBox/NOW, India JioHotstar/ZEE5/SonyLIV, China iQIYI/Tencent Video/Youku, Japan U-Next/Abema, Korea TVING, Brazil Globoplay, Nordics Viaplay, MENA Shahid, Africa Showmax, Australia Stan/Binge) and the best-known niche services (Crunchyroll, Mubi, Shudder, CuriosityStream, Nebula). Drop micro-regional apps and adult-adjacent apps. Plan types (with ads, standard, premium/4K, annual) go in t. Use Wikipedia/Wikidata or operator pages for sources; no titles.",
+     "k": [
+      {
+       "n": "Video streaming service",
+       "old": [
+        "k1"
+       ],
+       "brief": "SVOD; types: ad-supported, ad-free, premium 4K, annual; niche genre services (anime, arthouse, horror, documentary) as t, not kinds."
+      },
+      {
+       "n": "Sports streaming service",
+       "old": [
+        "k4"
+       ],
+       "brief": "DAZN, Kayo, ESPN+, NFL+/league passes (NBA League Pass, F1 TV); league passes as types."
+      },
+      {
+       "n": "Live TV streaming",
+       "old": [
+        "k2"
+       ],
+       "brief": "vMVPDs: YouTube TV, Hulu + Live TV, Sling TV, DIRECTV Stream, Fubo; Zattoo/waipu.tv in Europe."
+      },
+      {
+       "n": "Pay-TV package",
+       "old": [
+        "k3"
+       ],
+       "brief": "Cable, satellite and IPTV packages: leading operator per major market (Sky, Canal+, Tata Play, DirecTV, Dish, Foxtel); types cable/satellite/IPTV."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Music & audio",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Catalogue has what you listen to",
+     "w": "Checked by artist, genre (e.g. classical) or audiobook first."
+    },
+    {
+     "m": "Price per year and family/duo/student plans",
+     "v": "family > duo > individual > student",
+     "w": "Second."
+    },
+    {
+     "m": "Audio quality",
+     "v": "hi-res lossless > CD lossless > lossy 320 kbps > lossy low",
+     "w": "Third; decisive for hi-fi listeners."
+    },
+    {
+     "m": "Devices and hi-fi integrations",
+     "v": "Connect/Cast, multiroom, car",
+     "w": "Fourth."
+    },
+    {
+     "m": "Offline downloads and cancelling",
+     "w": "Last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Music, audiobooks & radio",
+     "web": true,
+     "brief": "Trim music streaming to global leaders (Spotify, Apple Music, YouTube Music, Amazon Music, Tidal, Deezer, Qobuz, SoundCloud Go) plus regional leaders (QQ Music, NetEase Cloud Music, Melon, JioSaavn, Gaana, Anghami, Boomplay, KKBox, Line Music) and the classical specialists (IDAGIO, Apple Music Classical). Paid podcasts: TITLES OUT; keep only platforms (Apple Podcasts Subscriptions, Spotify, Patreon, Supercast) and drop individual shows. Audiobooks: Audible, Storytel, BookBeat, Everand, Spotify audiobook hours, Kobo Plus, Libro.fm, Nextory. Radio: SiriusXM and the main internet-radio premium tiers.",
+     "k": [
+      {
+       "n": "Music streaming",
+       "old": [
+        "k5"
+       ],
+       "brief": "Types: individual, duo, family, student, hi-res tier."
+      },
+      {
+       "n": "Audiobook subscription",
+       "old": [
+        "k6"
+       ],
+       "brief": "Types: credit-based, unlimited listening, hours-capped."
+      },
+      {
+       "n": "Satellite and internet radio",
+       "old": [
+        "k8"
+       ]
+      },
+      {
+       "n": "Paid podcast subscription",
+       "old": [
+        "k7"
+       ],
+       "brief": "Platforms only; remove individual podcast titles."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "News, books & comics",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Has the publications or library you read",
+     "w": "Checked by title first."
+    },
+    {
+     "m": "Price per year and introductory discounts",
+     "w": "Second; watch renewal price after the intro offer."
+    },
+    {
+     "m": "Format",
+     "v": "print + digital > digital only > print only",
+     "w": "Third."
+    },
+    {
+     "m": "Sharing and gifting allowances",
+     "w": "Fourth."
+    },
+    {
+     "m": "Ease of cancelling",
+     "w": "Last; some publishers require phone cancellation."
+    }
+   ],
+   "s": [
+    {
+     "n": "News, magazines, e-books & comics",
+     "web": true,
+     "brief": "Restraint; titles OUT as a list — newspapers/magazines named only as representative leading subscription products per major market (NYT, WSJ, The Guardian supporter, FT, The Economist, Le Monde, Die Zeit, Nikkei) at most ~8. Library services: Apple News+, Readly, PressReader, Zinio. E-books: Kindle Unlimited, Kobo Plus Read, Everand, Nextory. Comics/manga: Marvel Unlimited, DC Universe Infinite, Shonen Jump, Manga Plus MAX, Webtoon Canvas coins? (no — coins are I2). Plan types: digital, print, bundle, student.",
+     "k": [
+      {
+       "n": "Newspaper subscription",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "Magazine subscription",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "News and magazine library",
+       "old": [
+        "k11"
+       ]
+      },
+      {
+       "n": "E-book subscription",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Comic and manga subscription",
+       "old": [
+        "k13"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Games & learning",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Catalogue or course has what you want",
+     "w": "Checked by game library or subject first."
+    },
+    {
+     "m": "Price per year and tier",
+     "v": "e.g. Essential < Extra < Premium",
+     "w": "Second."
+    },
+    {
+     "m": "Platforms and cloud play",
+     "w": "Third."
+    },
+    {
+     "m": "Online play and saves included",
+     "w": "Fourth."
+    },
+    {
+     "m": "Ease of cancelling",
+     "w": "Last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Games & learning",
+     "web": true,
+     "brief": "Game subscriptions: PlayStation Plus, Xbox Game Pass, Nintendo Switch Online, Apple Arcade, Google Play Pass, EA Play, Ubisoft+, GeForce NOW; tiers as types. Single-game: WoW, FFXIV, EVE Online Omega, RuneScape membership, Old School RuneScape. Battle passes: Fortnite, Call of Duty, Apex as examples only (no title lists). Learning: MasterClass, Coursera Plus, LinkedIn Learning, Skillshare, Brilliant; fitness apps (Apple Fitness+, Peloton App, Strava, Zwift) under online classes; NEW language-learning plan (Duolingo Super/Max, Babbel, Rosetta Stone, Busuu).",
+     "k": [
+      {
+       "n": "Game subscription",
+       "old": [
+        "k14"
+       ],
+       "brief": "Types: catalogue, online play, cloud gaming."
+      },
+      {
+       "n": "Single-game subscription",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Season or battle pass",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Online class subscription",
+       "old": [
+        "k17"
+       ],
+       "brief": "Types: general courses, fitness and training apps, creative skills."
+      },
+      {
+       "n": "Language-learning plan",
+       "old": [],
+       "brief": "NEW kind; source each operator."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Online services",
+   "mode": "tier",
+   "note": "Personal plans only; business infrastructure is out of scope.",
+   "b": [
+    {
+     "m": "Privacy and security",
+     "v": "end-to-end encrypted > encrypted at rest > none",
+     "w": "First for storage, mail, messaging, VPN; checked against independent audits."
+    },
+    {
+     "m": "Price per year per TB or per seat",
+     "w": "Second."
+    },
+    {
+     "m": "Reliability and support",
+     "w": "Third."
+    },
+    {
+     "m": "Platform and device coverage",
+     "w": "Fourth."
+    },
+    {
+     "m": "Data export and lock-in",
+     "w": "Last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Storage, mail & messaging",
+     "web": true,
+     "brief": "Trim cloud storage to market leaders (iCloud+, Google One, OneDrive/Microsoft 365, Dropbox, Box, pCloud, Mega, Proton Drive, Tresorit, Sync.com, Baidu Netdisk) and independent test winners; drop micro providers (CloudMe, Jumpshare, TitanFile, SecureSafe). Backup: Backblaze, Carbonite, IDrive, Acronis. Email: Gmail, Outlook.com, Yahoo, iCloud Mail, Proton Mail, Tuta, Fastmail, GMX/Web.de, Mail.ru, Zoho, Posteo; drop Lycos/Kolab/Rediffmail unless market leaders. Messaging: global leaders plus regional (WeChat, LINE, KakaoTalk, Viber, Telegram, Signal); drop Skype (discontinued 2025, to verify), ICQ, Kik. NEW VPN service (NordVPN, ExpressVPN, Proton VPN, Surfshark, Mullvad).",
+     "k": [
+      {
+       "n": "Cloud storage plan",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Online backup plan",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "Email service",
+       "old": [
+        "k20"
+       ],
+       "brief": "Types: free, paid, privacy-focused, custom domain."
+      },
+      {
+       "n": "Messaging and video calls",
+       "old": [
+        "k21"
+       ]
+      },
+      {
+       "n": "VPN service",
+       "old": [],
+       "brief": "NEW kind; consumer VPN subscriptions; source operator pages or Wikipedia."
+      }
+     ]
+    },
+    {
+     "n": "Web, creators & bundles",
+     "web": true,
+     "brief": "Merge game-server hosting (k27) into personal web hosting as a type. Creator memberships: Patreon, Substack, YouTube channel memberships, Twitch subs, Ko-fi, OnlyFans? (leave out: H3 territory) — platforms only, no creators. Bundles: Amazon Prime, Apple One, Google One AI Premium, Xbox Game Pass Ultimate? (no: in games), telco bundles like Airtel Xstream. NEW AI assistant subscription (ChatGPT Plus/Pro, Claude Pro/Max, Gemini Advanced/Google AI Pro, Microsoft Copilot Pro, Perplexity Pro). NEW dating app subscription (Tinder Plus/Gold, Bumble Premium, Hinge+). Maps: keep paid navigation (TomTom GO, Garmin) and the free leaders, no more.",
+     "k": [
+      {
+       "n": "AI assistant subscription",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Multi-service bundle",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "Creator membership",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Personal web and game-server hosting",
+       "old": [
+        "k23",
+        "k27"
+       ],
+       "brief": "Types: shared web hosting, website builder plan, domain name, game server."
+      },
+      {
+       "n": "Stock library subscription",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Dating app subscription",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Maps and navigation service",
+       "old": [
+        "k22"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Phone & internet",
+   "mode": "tier",
+   "note": "Operators by country: the network operators and leading MVNOs of each major market, not every brand.",
+   "b": [
+    {
+     "m": "Coverage",
+     "w": "First; from independent drive tests (Opensignal, umlaut/Ookla, RootMetrics)."
+    },
+    {
+     "m": "Speed",
+     "v": "fibre FTTP > cable > FTTC > ADSL; 5G SA > 5G NSA > 4G",
+     "w": "Independent test categories."
+    },
+    {
+     "m": "Reliability",
+     "w": "Independent test category."
+    },
+    {
+     "m": "Customer satisfaction and complaints",
+     "w": "Which?, Consumer Reports, regulator complaint tables (e.g. Ofcom)."
+    },
+    {
+     "m": "Value and price",
+     "w": "Compared over the contract term, including price rises."
+    },
+    {
+     "m": "Roaming",
+     "w": "Included destinations and fair-use limits."
+    },
+    {
+     "m": "Contract length and perks",
+     "w": "Weighed last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Mobile plans",
+     "web": true,
+     "brief": "Restraint: cut k28 from ~230 brands to operators by country — the network operators plus 1–3 leading MVNOs in each major market (US, UK, Germany, France, Italy, Spain, Japan, India, China, Brazil, Australia, Canada, Nordics) and test/satisfaction winners (Which?, CHOICE, Consumer Reports, Opensignal). Drop dead brands (Blyk, The People's Operator) and micro-MVNOs. Plan types: contract/postpaid, SIM-only, prepaid, eSIM, family. Travel eSIM: Airalo, Holafly, Ubigi, Saily (renewing plans).",
+     "k": [
+      {
+       "n": "Mobile phone plan",
+       "old": [
+        "k28"
+       ]
+      },
+      {
+       "n": "Mobile data plan",
+       "old": [
+        "k29"
+       ],
+       "brief": "Data SIM, dongle, mobile router, home 5G/fixed wireless as types."
+      },
+      {
+       "n": "Travel eSIM plan",
+       "old": [
+        "k34"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Home internet & phone",
+     "web": true,
+     "brief": "Operators by country: leading fixed broadband providers per major market and test/satisfaction winners; satellite: Starlink, Hughesnet, Viasat, Eutelsat OneWeb (consumer?) — verify; bundles named by operator. Plan types: fibre, cable, DSL; speed tiers.",
+     "k": [
+      {
+       "n": "Broadband plan",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Phone, internet and TV bundle",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Satellite internet plan",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Home phone plan",
+       "old": [
+        "k33"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Memberships & passes",
+   "mode": "mixed",
+   "note": "Tier for gyms, passes and transport; variety at the clubs-and-status end.",
+   "b": [
+    {
+     "m": "Reach of sites, venues or network",
+     "w": "Matched to where you live and travel."
+    },
+    {
+     "m": "Price per year and joining fee",
+     "w": "Second; compared against pay-as-you-go use."
+    },
+    {
+     "m": "Benefits and perks",
+     "w": "Third; e.g. guest passes, lounge access, partner discounts."
+    },
+    {
+     "m": "Flexibility and freezing",
+     "w": "Fourth."
+    },
+    {
+     "m": "Contract length and ease of cancelling",
+     "w": "Last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Clubs & status",
+     "web": true,
+     "brief": "NEW shelf per owner findings. Private members' clubs: Soho House, Annabel's, The Groucho, Core Club, Zero Bond, gentlemen's clubs of St James's (White's, Reform, Athenaeum) as archetype-style entries with founding years. Golf/country clubs: archetypes like Augusta National, Royal & Ancient (St Andrews) as icons, plus types (private, semi-private, country club). Airline status: oneworld/Star Alliance/SkyTeam tiers and leading programmes (AAdvantage, Delta SkyMiles Medallion, United MileagePlus Premier, BA Executive Club, Lufthansa Miles & More, Emirates Skywards, Singapore KrisFlyer). Hotel status: Marriott Bonvoy, Hilton Honors, World of Hyatt, IHG One, Accor ALL. Lounge: Priority Pass, DragonPass, Amex Centurion? (card perk — types only). Warehouse clubs: Costco, Sam's Club, BJ's, Makro/Metro card. Motoring clubs: AAA, CAA, AA, RAC, ADAC, ÖAMTC, TCS, ANWB, NRMA. Hobby/social clubs: national clubs a member joins (e.g. National Geographic Society? no — sports and hobby clubs like a local tennis or sailing club, Alpine clubs, CAMRA); keep generic with types.",
+     "k": [
+      {
+       "n": "Private members' club",
+       "old": [
+        "k36"
+       ],
+       "brief": "Social members' clubs; archetypes = named clubs with founding year."
+      },
+      {
+       "n": "Golf or country club membership",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Airline status and frequent-flyer programme",
+       "old": [],
+       "brief": "NEW kind; tiers as types, alliance as axis."
+      },
+      {
+       "n": "Hotel loyalty status",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Airport lounge membership",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Warehouse club membership",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Motoring club and breakdown cover",
+       "old": [],
+       "brief": "NEW kind; AAA/AA etc. by country."
+      },
+      {
+       "n": "Sports, hobby or social club membership",
+       "old": [],
+       "brief": "NEW kind; generic, types by activity."
+      }
+     ]
+    },
+    {
+     "n": "Gyms & fitness",
+     "web": true,
+     "brief": "Restraint: cut k35 from ~49 chains to the leading chains by country (US Planet Fitness, LA Fitness, Equinox, Life Time, Crunch, 24 Hour Fitness; UK PureGym, The Gym Group, David Lloyd, Virgin Active, Nuffield; Germany McFit/RSG, FitX; Australia Anytime, Jetts; boutique F45, Orangetheory, Barry's) and drop defunct (Bally Total Fitness, Esporta, California Fitness) and non-gyms (Les Mills is a programme licensor, Hypoxi is a device). Types: budget, mid-market, premium club, boutique studio, pool/leisure centre, climbing wall. Class passes: ClassPass, Urban Sports Club, Wellhub (Gympass), EGYM Wellpass.",
+     "k": [
+      {
+       "n": "Gym or leisure membership",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Class pass",
+       "old": [
+        "k37"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Museums, attractions & season tickets",
+     "web": false,
+     "brief": "Restraint: keep the three attraction kinds with a handful of representative models; season tickets keep 2–3 examples, no club lists.",
+     "k": [
+      {
+       "n": "Annual pass",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Multi-site membership",
+       "old": [
+        "k39"
+       ],
+       "brief": "e.g. National Trust, English Heritage, US National Parks Pass (America the Beautiful)."
+      },
+      {
+       "n": "Multi-venue pass",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Season ticket",
+       "old": [
+        "k43"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Transport passes & cards",
+     "web": true,
+     "brief": "Transit passes: rail passes (Interrail/Eurail, Japan Rail Pass, Swiss Travel Pass), city passes (Travelcard, Deutschlandticket, Navigo, commuter teiki); interrail variants as versions not separate models. NEW rail discount card (UK Railcards, BahnCard, SNCF Carte Avantage, Swiss Half Fare Travelcard). Broaden car-sharing to vehicle sharing with bike and scooter share (Zipcar, Share Now, Lime, Santander Cycles, Citi Bike) as types.",
+     "k": [
+      {
+       "n": "Transit pass",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Rail discount card",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Vehicle-sharing membership",
+       "old": [
+        "k42"
+       ],
+       "brief": "Types: car share, bike share, scooter share."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Subscription boxes & deliveries",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Curation or choice",
+     "v": "member picks > provider picks with skips > surprise",
+     "w": "First; matched to how much control you want."
+    },
+    {
+     "m": "Price per delivery and value of contents",
+     "w": "Second."
+    },
+    {
+     "m": "Skipping, pausing and frequency",
+     "w": "Third."
+    },
+    {
+     "m": "Ease of cancelling",
+     "w": "Last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Boxes, kits & clubs",
+     "web": true,
+     "brief": "Dissolve the 'Other curated boxes' catch-all and the attribute-only beauty and snack box kinds into one 'Curated subscription box' with types (beauty, snack, pet, kids/STEM, clothing styling, hobby, book). Meal kits: HelloFresh, Factor, Home Chef, Gousto, Marley Spoon, Blue Apron. Producer clubs: winery/brewery/distillery clubs, keep 2–3 examples. Rental: Rent the Runway, Nuuly, Fat Llama? (one-off, no). NEW replenishment subscription (Dollar Shave Club, Harry's, Amazon Subscribe & Save, pet food autoship such as Chewy Autoship).",
+     "k": [
+      {
+       "n": "Meal kit and menu plan",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Curated subscription box",
+       "old": [
+        "k44",
+        "k48",
+        "k49"
+       ]
+      },
+      {
+       "n": "Replenishment subscription",
+       "old": [],
+       "brief": "NEW kind."
+      },
+      {
+       "n": "Producer club",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Rental subscription",
+       "old": [
+        "k47"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Services & staff",
+   "mode": "mixed",
+   "note": "Recurring and retained services (owner decision 2026-10-27): tier for everyday home contracts, variety at the luxury end (staff, concierge, private aviation and yachting). One-off services stay out.",
+   "b": [
+    {
+     "m": "Vetting and insurance",
+     "v": "agency-employed, background-checked and insured > platform-vetted freelancer > unvetted",
+     "w": "First; background checks (e.g. DBS in the UK), public-liability and employer's insurance, trade-body or regulator registration where one exists."
+    },
+    {
+     "m": "Contract terms",
+     "v": "rolling monthly > fixed term with break clause > long minimum term",
+     "w": "Second; notice period, minimum term, cancellation and price-rise clauses, who employs the worker (agency or you)."
+    },
+    {
+     "m": "Response times and service level",
+     "w": "Third; call-out or emergency response time, cover for holidays and sickness, same named person each visit."
+    },
+    {
+     "m": "Independent reviews",
+     "w": "Fourth; Which? Trusted Traders, Checkatrade, Trustpilot, Care.com or Rover reviews, regulator reports (e.g. Ofsted for childcare)."
+    },
+    {
+     "m": "Price per visit, hour or year",
+     "v": "pay-per-visit < monthly plan < retainer < full-time staff",
+     "w": "Last; compared on the same frequency of service."
+    }
+   ],
+   "s": [
+    {
+     "n": "Home upkeep contracts",
+     "web": true,
+     "brief": "Tier shelf: everyday recurring contracts that keep a home running. For each kind list the market-covering operators/franchises by major market (US, UK, EU, Australia) plus test or survey winners (Which?, Consumer Reports, CHOICE) where they exist, ≈5–10 per kind; frequency and plan levels as t. Candidates to verify (not facts): cleaning – Molly Maid, Merry Maids, The Maids, Helpling, Housekeep; laundry – Laundryheap, Rinse, Oxwash; lawn and garden – TruGreen, Green Thumb; pest control – Rentokil, Terminix, Orkin; home and appliance cover – HomeServe, British Gas HomeCare, Domestic & General, American Home Shield; alarm monitoring – ADT, Verisure/Securitas Direct, SimpliSafe, Vivint, Ring Protect. Boundaries: alarm kits, cameras and sensors stay in B8 (only the monitoring contract is here); a hot tub itself is G3; personal medical alarms stay in H2. No archetypes needed; plain definitions. Source each kind from a retrieved page (Wikipedia article, trade body, regulator or operator page). Operators go in m/r as market-covering firms by country; brand-register entries only if sourced. One-off jobs (a single deep clean, removals, a single repair, a one-off ride or charter) are OUT per BRIEF; only recurring contracts, retainers and memberships.",
+     "k": [
+      {
+       "n": "Home cleaning service",
+       "old": [],
+       "brief": "Regular cleaner via agency, franchise or platform; t: weekly, fortnightly, agency-employed, platform freelancer, eco cleaning."
+      },
+      {
+       "n": "Window and gutter cleaning",
+       "old": [],
+       "brief": "Round-based recurring window cleaning; t: traditional, water-fed pole, gutter clearing, conservatory/solar-panel cleaning."
+      },
+      {
+       "n": "Laundry and dry-cleaning subscription",
+       "old": [],
+       "brief": "Collection-and-delivery laundry plans; t: wash-and-fold, dry cleaning, shirt service, ironing service."
+      },
+      {
+       "n": "Garden maintenance contract",
+       "old": [],
+       "brief": "Gardening and landscaping on a retained schedule; t: lawn treatment plan, mowing round, full garden maintenance, tree care plan."
+      },
+      {
+       "n": "Pool and hot-tub maintenance",
+       "old": [],
+       "brief": "Weekly or seasonal pool/spa servicing; t: weekly service, opening/closing contract, chemicals-included plan."
+      },
+      {
+       "n": "Pest-control contract",
+       "old": [],
+       "brief": "Recurring inspection and treatment plans; t: general pest, termite bond, rodent, mosquito."
+      },
+      {
+       "n": "Home emergency and appliance cover",
+       "old": [],
+       "brief": "Merges boiler cover, home emergency cover, appliance cover and US home warranty; t: boiler and heating, plumbing and drains, electrics, appliance, whole-home warranty."
+      },
+      {
+       "n": "Home security monitoring",
+       "old": [],
+       "brief": "Monitored-alarm contract (B8 has no such kind, only devices); t: professional monitoring, self-monitoring plan, keyholding and guard response, video verification."
+      }
+     ]
+    },
+    {
+     "n": "Family, pet & personal services",
+     "web": true,
+     "brief": "Mixed shelf: retained help for children, pets and the person, from app platforms to elite agencies. Tier the everyday platforms (market leaders by country) and add the recognised luxury end as named entries where sourced. Candidates to verify (not facts): pets – Rover, Wag!, Pawshake, TrustedHousesitters; childcare – Care.com, Sittercity, Koru Kids, Norland-trained nannies, Cultural Care Au Pair, Au Pair in America, AuPairWorld; tutoring – Kumon, Mathnasium, MyTutor, Varsity Tutors, Wyzant, Tutors International; personal training – credential bodies (NASM, ACE, CIMSPA) as criteria, not brands; personal chef – private-chef platforms; styling – department-store personal shopping (Harrods, Selfridges, Nordstrom), independent stylists. Boundaries: gyms, class passes and fitness apps stay in Gyms & fitness / Games & learning; meal kits and ready-meal plans stay in Meal kit and menu plan; Stitch Fix-type boxes stay in Curated subscription box. Source each kind from a retrieved page (Wikipedia article, trade body, regulator or operator page). Operators go in m/r as market-covering firms by country; brand-register entries only if sourced. One-off jobs (a single deep clean, removals, a single repair, a one-off ride or charter) are OUT per BRIEF; only recurring contracts, retainers and memberships.",
+     "k": [
+      {
+       "n": "Nanny and au pair",
+       "old": [],
+       "brief": "Retained childcare; t: live-in nanny, daily nanny, nanny share, maternity nurse, au pair (via agency), babysitting membership. Regulator/registration (e.g. Ofsted register) as criterion."
+      },
+      {
+       "n": "Dog walking and pet sitting",
+       "old": [],
+       "brief": "Recurring walks, day care and sitting; t: dog walking, drop-in visits, home boarding, house-sitting membership."
+      },
+      {
+       "n": "Personal trainer",
+       "old": [],
+       "brief": "Ongoing one-to-one coaching; t: in-person, at-home, online coaching, block of sessions."
+      },
+      {
+       "n": "Private tutor",
+       "old": [],
+       "brief": "Regular tutoring; t: online platform, in-person, learning-centre programme, residential/full-time tutor (luxury end)."
+      },
+      {
+       "n": "Personal chef service",
+       "old": [],
+       "brief": "Retained chef cooking at home; t: weekly meal-prep chef, private chef on retainer, full-time household chef."
+      },
+      {
+       "n": "Personal stylist and personal shopper",
+       "old": [],
+       "brief": "Ongoing wardrobe service; t: department-store personal shopping, independent stylist retainer, online styling subscription."
+      }
+     ]
+    },
+    {
+     "n": "Household staff & concierge",
+     "web": true,
+     "brief": "Variety shelf (luxury lifestyle): named agencies and membership services, with founding year and country where sourced. Domestic staffing agencies as operators (candidates to verify: Greycoat Lumleys, Polo & Tweed, Bespoke Bureau, Silver Swan Recruitment; butler schools only as criteria); lifestyle concierge (Quintessentially, John Paul, Ten Lifestyle Group – if sourced; card-issuer concierge as a type only); concierge medicine (candidates: MDVIP, One Medical, Sollis Health; UK private GP subscriptions; executive health programmes) – check each is still trading. Staff roles are types, not kinds. Source each kind from a retrieved page (Wikipedia article, trade body, regulator or operator page). Operators go in m/r as market-covering firms by country; brand-register entries only if sourced. One-off jobs (a single deep clean, removals, a single repair, a one-off ride or charter) are OUT per BRIEF; only recurring contracts, retainers and memberships.",
+     "k": [
+      {
+       "n": "Domestic staff via staffing agency",
+       "old": [],
+       "brief": "Merges housekeeper, butler and estate staff; t: housekeeper, house manager, butler, estate manager, nanny-housekeeper, couple (live-in), yacht/chalet staff."
+      },
+      {
+       "n": "Lifestyle concierge membership",
+       "old": [],
+       "brief": "Retained personal-assistant service for bookings, access and errands; t: digital concierge, dedicated lifestyle manager, card-linked concierge."
+      },
+      {
+       "n": "Wellness and medical concierge",
+       "old": [],
+       "brief": "Subscription primary care and health concierge; t: concierge medicine, private GP membership, executive health programme, wellness coaching retainer."
+      }
+     ]
+    },
+    {
+     "n": "Chauffeur, jet & yacht",
+     "web": true,
+     "brief": "Variety shelf (luxury travel on a retained or membership basis): leading operators with founding year, country and plan types where sourced. Brand-register hints (if sourced): NetJets, VistaJet, Wheels Up, Flexjet, Sentient Jet, XO; boat clubs (candidates: Freedom Boat Club, Carefree Boat Club) as the everyday end of the yacht ladder; fractional superyacht schemes if sourced; chauffeur – Blacklane and similar hourly/retained providers, local chauffeur firms as types. Boundaries: single rides, single charters and one-off flights are OUT; owning a jet or yacht outright is G1 Vehicles; private members' and yacht clubs as social clubs stay in Clubs & status. Source each kind from a retrieved page (Wikipedia article, trade body, regulator or operator page). Operators go in m/r as market-covering firms by country; brand-register entries only if sourced. One-off jobs (a single deep clean, removals, a single repair, a one-off ride or charter) are OUT per BRIEF; only recurring contracts, retainers and memberships.",
+     "k": [
+      {
+       "n": "Chauffeur service",
+       "old": [],
+       "brief": "Retained or account chauffeur; t: monthly retainer, personal account, full-time chauffeur (agency-placed), close-protection driver."
+      },
+      {
+       "n": "Private jet card and membership",
+       "old": [],
+       "brief": "Prepaid flight hours or membership with an operator; t: jet card, membership programme, fractional share, jet lease; cabin class (light, midsize, heavy) as an axis."
+      },
+      {
+       "n": "Boat club and fractional yacht",
+       "old": [],
+       "brief": "Membership or shared ownership of boats and yachts; t: boat club membership, fractional yacht share, yacht membership programme."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}

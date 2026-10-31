@@ -1,0 +1,92 @@
+import json, os
+W="https://en.wikipedia.org/wiki/"
+HO=W+"Hammond_organ"; LE=W+"Leslie_speaker"; VC=W+"Vox_Continental"; FA=W+"Farfisa"; NE=W+"Nord_Electro"; CH=W+"Chamber_organ"; LO=W+"Lowrey_organ"; EO=W+"Electronic_organ"
+def v(n,mk,y="",d=""): return {"n":n,"mk":mk,"y":y,"d":d}
+kinds=[
+{"n":"Tonewheel organ","a":"Hammond organ · drawbar organ · clonewheel","d":"Organ that makes its tones with rotating tonewheels and drawbars, or a digital keyboard modelled on one.",
+ "t":["console (two manuals, separate pedalboard)","spinet (short manuals, one-octave pedals)","self-contained with built-in speakers","portable single-manual digital clone"],
+ "s":"https://keyboardexchange.com/inventory.html",
+ "x":[
+  {"n":"Hammond B-3","a":"B3 · C-3","d":"Two-manual console tonewheel organ with drawbars, vibrato-chorus and harmonic percussion; the reference jazz, gospel and rock organ.","mk":"Hammond","y":"1954","s":HO,
+   "v":[v("Hammond B-3","Hammond","1954","Console on four legs; made until early 1975"),v("Hammond C-3","Hammond","1954","Same instrument in a closed church-style cabinet with modesty panels"),
+        v("Hammond B-2 / C-2","Hammond","1949","Predecessor; vibrato switchable per manual, no percussion"),v("Hammond B-3000","Hammond","","Integrated-circuit replacement, about 200 lb lighter"),
+        v("New B-3","Hammond","2002","Hammond-Suzuki digital recreation with digital tonewheel simulator"),v("Hammond B-3mk2 / C-3mk2","Hammond","","Current US-built digital console versions")],
+   "dt":"cabinet (B open legs, C closed) · finish · Leslie pairing · chopped/portable conversions"},
+  {"n":"Hammond Model A","a":"Model A · BC · D · C","d":"The first production Hammond: two 61-key manuals, 25-note pedalboard and expression pedal; founder of the line.","mk":"Hammond","y":"1935","s":HO,
+   "v":[v("Model A","Hammond","1935"),v("BC / D","Hammond","1936–1939","Chorus generator added"),v("Model C","Hammond","1936–1939","Modesty panels for home and church"),v("BV / CV / BCV / DV","Hammond","post-war","Vibrato and vibrato-chorus added"),v("Concert Model E / RT","Hammond","1937 / 1949","Church models with full 32-note pedalboard")],
+   "dt":"pre-war or post-war · chorus or vibrato · cabinet style"},
+  {"n":"Hammond A-100","a":"A-100 series · A-105 · D-100 · E-100","d":"Self-contained B-3/C-3 equivalent with built-in amplifier and speakers.","mk":"Hammond","y":"1959","s":HO,
+   "v":[v("Hammond A-105","Hammond","","A-100-series cabinet variant (from old data)"),v("D-100 series","Hammond","1963","Self-contained version of the RT-3"),v("E-100","Hammond","1965","Cost-reduced A-100 with one drawbar set per manual")],
+   "dt":"cabinet style · finish"},
+  {"n":"Hammond M-3","a":"M · M-2 · M-3 · M-100 · spinet Hammond","d":"Spinet tonewheel organ with two 44-note manuals and a 12-note pedalboard; the home Hammond.","mk":"Hammond","y":"1948–1964","s":HO,
+   "v":[v("Hammond M","Hammond","1948"),v("Hammond M-3","Hammond","","Final M-series model"),v("Hammond M-100","Hammond","1961","Replaced the M series; 13-note pedals and presets")],
+   "dt":"finish · cabinet"},
+  {"n":"Hammond L-100","a":"L-100 · L-series","d":"Low-cost spinet tonewheel organ with simpler vibrato, popular in the UK.","mk":"Hammond","y":"1961","s":HO,"v":[],"dt":"finish · cabinet"},
+  {"n":"Hammond T series","a":"T-series spinet","d":"Last tonewheel spinets, all solid-state, most with a built-in Leslie.","mk":"Hammond","y":"1968–1975","s":HO,"v":[],"dt":"model number · built-in rhythm and Leslie"},
+  {"n":"Digital tonewheel clone","a":"clonewheel · drawbar keyboard","d":"Portable digital keyboard that models the Hammond tonewheel organ and Leslie, with physical drawbars.","mk":"","y":"1990s–","s":HO,
+   "v":[v("Hammond XB-2 / XB-3 / XB-5","Hammond","1990s","First Hammond-Suzuki portable digital organs"),v("Hammond XK-3","Hammond","","Single manual, expandable with lower manual and pedals"),
+        v("Hammond XK-5","Hammond","2016","Flagship portable organ"),v("Hammond XK-1c","Hammond","2014","Organ-only SK1"),v("Hammond SK1","Hammond","","Adds piano, electric piano and clavinet sounds"),v("Hammond SK-X","Hammond","2019","Stage keyboard, each manual selectable"),
+        v("Nord Electro","Clavia","2001","Original model"),v("Nord Electro 2","Clavia","2002–2009"),v("Nord Electro 3","Clavia","2009–2013","3 HP hammer-action version 2011–2013"),
+        v("Nord Electro 4","Clavia","2012–2015","4D and 4 HP versions"),v("Nord Electro 5","Clavia","2015–2018","5D and 5 HP versions"),v("Nord Electro 6","Clavia","2018–","6D and 6 HP versions")],
+   "dt":"single or dual manual · key action · drawbars physical or virtual · Leslie simulation"}]},
+{"n":"Electronic organ","a":"combo organ · home organ · transistor organ · spinet organ","d":"Organ that generates its tones electronically, analogue or digital, from portable combo organs to home and classical consoles.",
+ "t":["combo organ","home spinet organ","chord organ","synthesizer organ","classical (church-style) digital organ"],
+ "s":"https://www.thomannmusic.com/classical_organs.html",
+ "x":[
+  {"n":"Vox Continental","a":"Continental · Connie","d":"Transistorised combo organ with 49 reverse-coloured keys and drawbars; the 1960s beat-group organ.","mk":"Vox","y":"1962","s":VC,
+   "v":[v("Continental (single manual)","Vox","1962–1971","Built in England, the US (Thomas Organ) and Italy"),v("Continental II / Super Continental","Vox","1965","Two manuals; England / Italy"),
+        v("Vox Jaguar","Vox","1966","Budget model with rocker tabs; also a DIY kit"),v("Continental Baroque","Vox","1968","Multi-timbral manual and built-in amplifier"),v("Vox Continental (Korg reissue)","Vox","2017","Modern stage keyboard by Korg")],
+   "dt":"one or two manuals · country of build · bass pedals · stand"},
+  {"n":"Farfisa Compact","a":"Combo Compact · Farfisa combo organ","d":"Italian transistor combo organ series of the 1960s, the reedy alternative to the Vox.","mk":"Farfisa","y":"1964","s":FA,
+   "v":[v("Combo Compact","Farfisa","1964"),v("Mini Compact","Farfisa","1966"),v("Compact Duo","Farfisa","1966","Two manuals"),v("Compact Deluxe","Farfisa","1960s"),v("Combo Compact I","Farfisa","1968"),
+        v("FAST 2 / 3 / 4 / 5","Farfisa","1968","Successor series"),v("Professional (PP/222, PP/221)","Farfisa","1968"),v("VIP series","Farfisa","1970")],
+   "dt":"series · one or two manuals · stand and swell pedal"},
+  {"n":"Lowrey home organ","a":"Lowrey · Berkshire · Holiday · Genie","d":"American all-electronic spinet home organ line with auto-accompaniment, from the Berkshire to the Genie.","mk":"Lowrey","y":"1955","s":LO,
+   "v":[v("Model S Spinet (Berkshire)","Lowrey","1955","First commercially successful full-size model"),v("Holiday Deluxe LSL","Lowrey","1961","First with built-in Leslie"),v("DSO-1 Heritage Deluxe","Lowrey","c. 1962"),
+        v("Kalamazoo K-101 / Gibson G-101","Lowrey","1966","Combo organs made for Gibson"),v("Genie","Lowrey","1970","Automatic left hand and pedal"),v("C500 Celebration","Lowrey","1977"),
+        v("MicroGenie Pro V600","Lowrey","1980s","Programmable, MIDI"),v("NT series (Holiday, Heritage, MX-2)","Lowrey","1990")],
+   "dt":"spinet or console · auto-accompaniment (AOC, Magic Genie) · built-in Leslie"},
+  {"n":"Yamaha Electone","a":"Electone · STAGEA","d":"Yamaha's home and performance electronic organ line, from transistor spinets to digital STAGEA models.","mk":"Yamaha","y":"1959","s":EO,
+   "v":[v("Electone D-1","Yamaha","1959","First model"),v("Electone STAGEA ELS-01","Yamaha","","Digital STAGEA generation")],"dt":"generation · manuals · pedalboard"},
+  {"n":"Classical digital organ","a":"church-style digital organ · home practice organ","d":"Console organ with stops and pedalboard that reproduces pipe organ sound electronically, used for home practice.","mk":"","y":"1958–","s":EO,
+   "v":[v("Rodgers Opus 1","Rodgers","1958","First solid-state church organ"),v("Allen Digital Computer Organ","Allen","1971","First digital organ"),v("Johannus Rembrandt","Johannus","2006"),v("Johannus Vivaldi 370","Johannus","2015")],
+   "dt":"manuals · stops · AGO or radiating pedalboard · speaker system"}]},
+{"n":"Rotary speaker cabinet","a":"Leslie · rotating speaker","d":"Amplified speaker cabinet with a rotating horn and drum that gives organs a swirling chorus and tremolo.",
+ "t":["two-speed full-size cabinet","compact/portable cabinet","single-rotor (guitar) cabinet"],
+ "s":"https://keyboardexchange.com/inventory.html",
+ "x":[
+  {"n":"Leslie 122","a":"122 · 122RV · 142","d":"Two-rotor valve-amp Leslie designed for the Hammond console; the reference rotary speaker.","mk":"Leslie","y":"","s":LE,
+   "v":[v("Leslie 122","Leslie","","Hammond-specific, balanced input"),v("Leslie 122RV","Leslie","","With added reverb amplifier"),v("Leslie 142","Leslie","","Smaller 33-inch 122"),v("Leslie 122A","Leslie","","Hammond-Suzuki reissue"),v("Leslie 122XB","Leslie","","Hammond-Suzuki model")],
+   "dt":"cabinet height · valve amp · finish"},
+  {"n":"Leslie 147","a":"147 · 145 · universal Leslie","d":"Universal version of the 122 that works with many organs.","mk":"Leslie","y":"","s":LE,
+   "v":[v("Leslie 147","Leslie"),v("Leslie 145","Leslie","","Same in a 33-inch cabinet"),v("Leslie 147A","Leslie","","Hammond-Suzuki reissue")],"dt":"cabinet height · finish"},
+  {"n":"Leslie 30A / 31H","a":"Tall Boy","d":"Don Leslie's first production rotating speakers.","mk":"Leslie","y":"1941–1949","s":LE,
+   "v":[v("Leslie 30A","Leslie","","First Leslie produced"),v("Leslie 31H 'Tall Boy'","Leslie","1947–1949","Superseded the 30A"),v("Leslie 21H / 22H","Leslie","","40 W valve amp")],"dt":"cabinet · amplifier"},
+  {"n":"Leslie Pro-Line","a":"760 · 900 · 910 · 820","d":"Later Leslie line of 100 W and portable stage cabinets.","mk":"Leslie","y":"","s":LE,
+   "v":[v("Leslie 900 / 910","Leslie","","Early 100 W models"),v("Leslie 760","Leslie","","Most popular Pro-Line"),v("Leslie 820","Leslie","","Smaller, portable")],"dt":"power · portability"},
+  {"n":"Leslie Model 16 (Fender Vibratone)","a":"Vibratone · Model 16","d":"Single-rotor Leslie for guitar, later sold as the Fender Vibratone.","mk":"Leslie","y":"1970","s":LE,"v":[],"dt":"badge (Leslie or Fender)"},
+  {"n":"Leslie 3300","a":"2101 · 2121 · 3300","d":"Modern Hammond-Suzuki Leslie cabinets.","mk":"Leslie","y":"by 2005","s":LE,
+   "v":[v("Leslie 3300","Leslie"),v("Leslie 2101","Leslie"),v("Leslie 2121","Leslie")],"dt":"stage or home · amplifier"},
+  {"n":"Leslie X-77","a":"X-77","d":"Leslie made to accompany Hammond's X-66 organ.","mk":"Leslie","y":"1968","s":LE,"v":[],"dt":""}]},
+{"n":"Pipe organ","a":"chamber organ · house organ · positive organ","d":"Small wind-blown pipe organ for a home or music room, usually one manual and tracker action.",
+ "t":["chamber organ","positive organ","portative organ","regal","tracker or electropneumatic action"],
+ "s":"https://www.henrylebedinsky.com/for-sale"}]
+brands=[
+ {"n":"Hammond","c":"United States","f":"","seg":"Tonewheel and digital drawbar organs","d":"Inventor of the tonewheel organ; company closed 1985, name bought by Suzuki in 1989 (Hammond-Suzuki).",
+  "lines":["B-3/C-3","A-100","M series","XK series","SK series"],"eras":["Hammond Organ Company, 1935–1985","Hammond-Suzuki, 1989–"],"sig":["Hammond B-3","Hammond Model A","Hammond M-3"],"sc":["jazz organ","gospel","rock"],"rel":["Leslie"],"s":HO},
+ {"n":"Leslie","c":"United States","f":"1941","seg":"Rotary speaker cabinets","d":"Rotating-speaker cabinets invented by Donald Leslie; Electro Music sold to CBS in 1965, bought by Suzuki in 1992.",
+  "lines":["122","147","Pro-Line"],"eras":["Electro Music (Don Leslie), 1941–1965","CBS, 1965–","Hammond-Suzuki, 1992–"],"sig":["Leslie 122","Leslie 147"],"sc":["organ"],"rel":["Hammond"],"s":LE},
+ {"n":"Vox","c":"United Kingdom","f":"","seg":"Combo organs and amplifiers","d":"British maker of the Continental combo organ; brand owned by Korg since 1992.",
+  "lines":["Continental","Jaguar"],"eras":["Jennings Musical Instruments, 1960s","Korg, 1992–"],"sig":["Vox Continental"],"sc":["1960s beat and garage rock"],"rel":["Farfisa"],"s":VC},
+ {"n":"Farfisa","c":"Italy","f":"1946","seg":"Combo and electronic organs","d":"Osimo electronics maker formed from three accordion firms, known for the Compact combo organs.",
+  "lines":["Compact","FAST","VIP"],"eras":[],"sig":["Farfisa Compact"],"sc":["1960s garage rock"],"rel":["Vox"],"s":FA},
+ {"n":"Lowrey","c":"United States","f":"","seg":"Home electronic organs","d":"Chicago home-organ maker founded on Frederick C. Lowrey's designs; owned by Kawai from 1988, production ended 2019.",
+  "lines":["Berkshire","Holiday","Heritage","Genie"],"eras":["Kawai, 1988–2019"],"sig":["Lowrey home organ"],"sc":["home organ"],"rel":["Hammond"],"s":LO},
+ {"n":"Yamaha","c":"Japan","f":"1887","seg":"Instruments and electronics","d":"Japanese instrument maker whose Electone line is its electronic organ range.","lines":["Electone"],"eras":[],"sig":["Yamaha Electone"],"sc":[],"rel":[],"s":"knowledge"},
+ {"n":"Clavia","c":"Sweden","f":"","seg":"Stage keyboards (Nord)","d":"Swedish maker of Nord stage keyboards, including the Nord Electro.","lines":["Nord Electro","Nord C"],"eras":[],"sig":[],"sc":["stage keyboard"],"rel":["Hammond"],"s":NE}]
+notes=("Kept all 4 planned kinds. Pipe organ limited to chamber/house organs (no church installations, no models). Rotary-speaker simulators (Neo Ventilator, Rotosphere, Uni-Vibe, Leslie pedals) left out: pedals belong in Amps & effects. "
+ "Nord C1/C2/C2D left out: no retrieved page with details. Hammond Novachord, H-100, X-66, Concorde and Aurora models left out as minor. Allen, Rodgers, Johannus have no brand entries (versions only; maker-free archetype). "
+ "Many Leslie and some Hammond versions carry no year because the source gave none. No traditions: none apply to this shelf.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/E3/shelves/02_01.json"; os.makedirs("work/E3/shelves",exist_ok=True)
+json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)

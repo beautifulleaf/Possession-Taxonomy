@@ -1,0 +1,59 @@
+{
+ "kinds": [
+  {
+   "n": "Communication aid",
+   "a": "AAC device · speech-generating device · voice output communication aid",
+   "d": "Device or board that speaks or shows messages for a person who cannot rely on their own speech.",
+   "t": [
+    "dedicated speech-generating device",
+    "tablet with communication app",
+    "handheld communicator",
+    "picture or letter board",
+    "communication book"
+   ],
+   "s": "https://www.tobiidynavox.com/collections/devices",
+   "m": [
+    [
+     "TD I-13",
+     "Tobii Dynavox"
+    ],
+    [
+     "TD Navio",
+     "Tobii Dynavox"
+    ]
+   ],
+   "r": [
+    [
+     "Accent",
+     "PRC-Saltillo"
+    ],
+    [
+     "Grid Pad",
+     "Smartbox"
+    ]
+   ]
+  },
+  {
+   "n": "Eye-gaze device",
+   "a": "eye tracker · eye-gaze communication device",
+   "d": "Eye tracker fixed to a computer or tablet so a person with little movement can control it and communicate by gaze.",
+   "t": [
+    "add-on eye tracker",
+    "integrated eye-gaze tablet"
+   ],
+   "s": "https://www.tobiidynavox.com/collections/devices",
+   "m": [
+    [
+     "TD Pilot",
+     "Tobii Dynavox"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Cut the Tobii Dynavox SKUs from 5 to 3 across the shelf. I kept TD I-13, a mainstream speech tablet, and TD Navio, a handheld communicator, under Communication aid. I moved TD Pilot to Eye-gaze device, since it is an eye-gaze iPad. I dropped TD I-110 and TD I-16 as size/SKU variants of the same I-series. I dropped 'Crescendo 60 Personal Communications System' because it had no maker and could not be placed without research. I added PRC-Saltillo (Accent) and Smartbox (Grid Pad) as ranges, as the brief asked, so the list is not Tobii-only. Device formats (dedicated device, app on tablet, low-tech board or book; add-on vs integrated eye tracker) are recorded as types in 't', not as separate kinds. Old sources are kept unchanged.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

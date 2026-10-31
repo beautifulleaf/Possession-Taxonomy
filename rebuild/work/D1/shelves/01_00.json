@@ -1,0 +1,1199 @@
+{
+ "kinds": [
+  {
+   "n": "Processor",
+   "a": "CPU · central processing unit",
+   "d": "Central processing chip of a computer, bought by builders and upgraders for a socket on the motherboard.",
+   "t": [
+    "desktop (socketed)",
+    "laptop (soldered)",
+    "with integrated graphics (APU)",
+    "unlocked / overclockable",
+    "workstation / HEDT",
+    "server"
+   ],
+   "s": "https://shop.tsukumo.co.jp/dir/20",
+   "x": [
+    {
+     "n": "Intel 4004",
+     "a": "",
+     "d": "The first commercial single-chip microprocessor, a 4-bit CPU and the start of Intel's CPU line.",
+     "mk": "Intel",
+     "y": "1971",
+     "s": "https://en.wikipedia.org/wiki/Intel_4004",
+     "v": [
+      {
+       "n": "4004",
+       "mk": "Intel",
+       "y": "1971",
+       "d": "740–750 kHz, 2,300 transistors"
+      },
+      {
+       "n": "4040",
+       "mk": "Intel",
+       "y": "1974",
+       "d": "successor"
+      }
+     ]
+    },
+    {
+     "n": "Intel 8086",
+     "a": "",
+     "d": "16-bit chip that founded the x86 instruction set used by PCs ever since.",
+     "mk": "Intel",
+     "y": "1978",
+     "s": "https://en.wikipedia.org/wiki/Intel_8086",
+     "v": [
+      {
+       "n": "8086",
+       "mk": "Intel",
+       "y": "1978",
+       "d": "5 MHz; later 8086-1/-2/-4 speed grades"
+      },
+      {
+       "n": "8088",
+       "mk": "Intel",
+       "y": "1979",
+       "d": "8-bit external bus; used in the IBM PC at 4.77 MHz"
+      }
+     ]
+    },
+    {
+     "n": "Intel 80386",
+     "a": "386 · i386",
+     "d": "First 32-bit x86 processor, implementing the full IA-32 architecture.",
+     "mk": "Intel",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/I386",
+     "v": [
+      {
+       "n": "386DX",
+       "mk": "Intel",
+       "y": "1985",
+       "d": "original; 33 MHz version 1989"
+      },
+      {
+       "n": "386SX",
+       "mk": "Intel",
+       "y": "1988",
+       "d": "16-bit data bus for lower-cost PCs"
+      },
+      {
+       "n": "386SL",
+       "mk": "Intel",
+       "y": "",
+       "d": "low-power laptop version, 20 and 25 MHz"
+      }
+     ]
+    },
+    {
+     "n": "Pentium",
+     "a": "",
+     "d": "Intel's fifth-generation x86 brand, later its mid-range and entry line until 2023.",
+     "mk": "Intel",
+     "y": "1993",
+     "s": "https://en.wikipedia.org/wiki/Pentium",
+     "v": [
+      {
+       "n": "Pentium (P5)",
+       "mk": "Intel",
+       "y": "1993",
+       "d": ""
+      },
+      {
+       "n": "Pentium Pro",
+       "mk": "Intel",
+       "y": "1995",
+       "d": "P6, out-of-order execution"
+      },
+      {
+       "n": "Pentium MMX",
+       "mk": "Intel",
+       "y": "1997",
+       "d": "MMX instructions"
+      },
+      {
+       "n": "Pentium II",
+       "mk": "Intel",
+       "y": "1997",
+       "d": "Klamath"
+      },
+      {
+       "n": "Pentium III",
+       "mk": "Intel",
+       "y": "1999",
+       "d": "Katmai"
+      },
+      {
+       "n": "Pentium 4",
+       "mk": "Intel",
+       "y": "2000",
+       "d": "NetBurst"
+      },
+      {
+       "n": "Pentium M",
+       "mk": "Intel",
+       "y": "2003",
+       "d": "efficient mobile chip"
+      },
+      {
+       "n": "Pentium D",
+       "mk": "Intel",
+       "y": "2005",
+       "d": "first multi-core Pentium"
+      },
+      {
+       "n": "Pentium Dual-Core",
+       "mk": "Intel",
+       "y": "2006–2009",
+       "d": ""
+      },
+      {
+       "n": "Pentium Gold / Silver",
+       "mk": "Intel",
+       "y": "2017",
+       "d": "entry desktop / low-power; brand dropped 2023"
+      }
+     ]
+    },
+    {
+     "n": "Athlon",
+     "a": "",
+     "d": "AMD's K7 desktop processor, the first desktop CPU to reach 1 GHz; later AMD's budget brand.",
+     "mk": "AMD",
+     "y": "1999",
+     "s": "https://en.wikipedia.org/wiki/Athlon",
+     "v": [
+      {
+       "n": "Athlon (Slot A, K7)",
+       "mk": "AMD",
+       "y": "1999",
+       "d": ""
+      },
+      {
+       "n": "Thunderbird",
+       "mk": "AMD",
+       "y": "2000",
+       "d": "Socket A, on-die L2 cache"
+      },
+      {
+       "n": "Athlon XP",
+       "mk": "AMD",
+       "y": "2001",
+       "d": "Palomino to Barton cores"
+      },
+      {
+       "n": "Athlon II",
+       "mk": "AMD",
+       "y": "2009",
+       "d": ""
+      },
+      {
+       "n": "Athlon X4",
+       "mk": "AMD",
+       "y": "2013–2017",
+       "d": "FM2+, later AM4; e.g. Athlon X4 860K, 880K"
+      },
+      {
+       "n": "Athlon (Zen)",
+       "mk": "AMD",
+       "y": "2018",
+       "d": "Athlon 200GE, then 3000G (2019)"
+      },
+      {
+       "n": "Athlon Gold / Silver",
+       "mk": "AMD",
+       "y": "2022",
+       "d": "Mendocino mobile and Chromebook parts, e.g. 7220U, 7120U"
+      }
+     ]
+    },
+    {
+     "n": "Athlon 64",
+     "a": "",
+     "d": "First 64-bit x86 processor aimed at ordinary consumers (AMD64, K8 core).",
+     "mk": "AMD",
+     "y": "2003",
+     "s": "https://en.wikipedia.org/wiki/Athlon_64",
+     "v": [
+      {
+       "n": "Athlon 64",
+       "mk": "AMD",
+       "y": "2003",
+       "d": "Socket 754 and 939"
+      },
+      {
+       "n": "Athlon 64 FX",
+       "mk": "AMD",
+       "y": "2003",
+       "d": "enthusiast, unlocked; FX-51 first"
+      },
+      {
+       "n": "Athlon 64 X2",
+       "mk": "AMD",
+       "y": "2005",
+       "d": "AMD's first dual-core desktop CPU; AM2 version 2006"
+      }
+     ]
+    },
+    {
+     "n": "Core 2",
+     "a": "Core 2 Duo",
+     "d": "Intel's Core-microarchitecture family that replaced Pentium at the top and united laptop and desktop chips.",
+     "mk": "Intel",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/Intel_Core_2",
+     "v": [
+      {
+       "n": "Core 2 Duo",
+       "mk": "Intel",
+       "y": "2006",
+       "d": "Conroe, 65 W"
+      },
+      {
+       "n": "Core 2 Extreme",
+       "mk": "Intel",
+       "y": "2006",
+       "d": "enthusiast"
+      },
+      {
+       "n": "Core 2 Quad",
+       "mk": "Intel",
+       "y": "2007",
+       "d": "Kentsfield; Yorkfield 45 nm in 2008"
+      }
+     ]
+    },
+    {
+     "n": "Intel Core i3 / i5 / i7 / i9",
+     "a": "Core i7 · Core i9",
+     "d": "Intel's mainstream desktop and laptop line in good–better–best tiers, sold by generation from 2008 to 2024.",
+     "mk": "Intel",
+     "y": "2008",
+     "s": "https://en.wikipedia.org/wiki/Intel_Core",
+     "v": [
+      {
+       "n": "1st gen (Nehalem)",
+       "mk": "Intel",
+       "y": "2008–2010",
+       "d": "Bloomfield, Lynnfield, Clarkdale; Core i7-920, i7-980X"
+      },
+      {
+       "n": "2nd gen Sandy Bridge",
+       "mk": "Intel",
+       "y": "2011",
+       "d": "Core i7-2600K"
+      },
+      {
+       "n": "3rd gen Ivy Bridge",
+       "mk": "Intel",
+       "y": "2012",
+       "d": "Core i7-3770K"
+      },
+      {
+       "n": "4th gen Haswell",
+       "mk": "Intel",
+       "y": "2013",
+       "d": "Core i7-4790K"
+      },
+      {
+       "n": "5th gen Broadwell",
+       "mk": "Intel",
+       "y": "2015",
+       "d": ""
+      },
+      {
+       "n": "6th gen Skylake",
+       "mk": "Intel",
+       "y": "2015",
+       "d": "Core i7-6700K"
+      },
+      {
+       "n": "7th gen Kaby Lake",
+       "mk": "Intel",
+       "y": "2017",
+       "d": "Core i7-7700K; Core i9 tier added 2017"
+      },
+      {
+       "n": "8th gen Coffee Lake",
+       "mk": "Intel",
+       "y": "2017–2018",
+       "d": "Core i7-8700K"
+      },
+      {
+       "n": "9th gen Coffee Lake Refresh",
+       "mk": "Intel",
+       "y": "2018–2019",
+       "d": "Core i9-9900K"
+      },
+      {
+       "n": "10th gen Comet Lake",
+       "mk": "Intel",
+       "y": "2020",
+       "d": "Core i9-10900K"
+      },
+      {
+       "n": "11th gen Rocket Lake",
+       "mk": "Intel",
+       "y": "2021",
+       "d": "Core i9-11900K"
+      },
+      {
+       "n": "12th gen Alder Lake",
+       "mk": "Intel",
+       "y": "2021–2022",
+       "d": "Core i9-12900K"
+      },
+      {
+       "n": "13th gen Raptor Lake",
+       "mk": "Intel",
+       "y": "2022–2023",
+       "d": "Core i9-13900K"
+      },
+      {
+       "n": "14th gen Raptor Lake Refresh",
+       "mk": "Intel",
+       "y": "",
+       "d": "Core i9-14900K; last \"i\" generation"
+      }
+     ],
+     "dt": "tier i3 · i5 · i7 · i9 · suffix K unlocked, F no graphics, T low-power, H/U/HX laptop"
+    },
+    {
+     "n": "Intel Core Ultra",
+     "a": "",
+     "d": "Intel's successor branding to Core i, sold as Core Ultra 5/7/9 in numbered series.",
+     "mk": "Intel",
+     "y": "2023",
+     "s": "https://en.wikipedia.org/wiki/Intel_Core",
+     "v": [
+      {
+       "n": "Series 1 Meteor Lake",
+       "mk": "Intel",
+       "y": "2023–2024",
+       "d": "laptops"
+      },
+      {
+       "n": "Series 2 Arrow Lake / Lunar Lake",
+       "mk": "Intel",
+       "y": "",
+       "d": "desktop Core Ultra 9 285K, Ultra 7 265K"
+      },
+      {
+       "n": "Series 3 Panther Lake",
+       "mk": "Intel",
+       "y": "",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "n": "AMD Ryzen",
+     "a": "Ryzen 7 · Ryzen 9",
+     "d": "AMD's Zen-based desktop and laptop line in Ryzen 3/5/7/9 tiers that revived its competition with Intel.",
+     "mk": "AMD",
+     "y": "2017",
+     "s": "https://en.wikipedia.org/wiki/Ryzen",
+     "v": [
+      {
+       "n": "Ryzen 1000 (Zen)",
+       "mk": "AMD",
+       "y": "2017",
+       "d": "AM4; Ryzen 7 1800X"
+      },
+      {
+       "n": "Ryzen 2000 (Zen+)",
+       "mk": "AMD",
+       "y": "2018",
+       "d": "Ryzen 7 2700X"
+      },
+      {
+       "n": "Ryzen 3000 (Zen 2)",
+       "mk": "AMD",
+       "y": "2019",
+       "d": "Ryzen 9 3950X"
+      },
+      {
+       "n": "Ryzen 5000 (Zen 3)",
+       "mk": "AMD",
+       "y": "2020",
+       "d": "Ryzen 9 5950X; Ryzen 7 5800X3D with 3D V-Cache"
+      },
+      {
+       "n": "Ryzen 7000 (Zen 4)",
+       "mk": "AMD",
+       "y": "2022",
+       "d": "AM5; Ryzen 9 7950X, Ryzen 7 7800X3D"
+      },
+      {
+       "n": "Ryzen 8000G (Zen 4 APU)",
+       "mk": "AMD",
+       "y": "2024",
+       "d": "Ryzen 7 8700G"
+      },
+      {
+       "n": "Ryzen 9000 (Zen 5)",
+       "mk": "AMD",
+       "y": "2024",
+       "d": "Ryzen 9 9950X; Ryzen 7 9800X3D, second-generation 3D V-Cache"
+      },
+      {
+       "n": "Ryzen 9 9950X3D2 Dual Edition",
+       "mk": "AMD",
+       "y": "2026",
+       "d": "first dual 3D V-Cache CPU"
+      }
+     ],
+     "dt": "tier 3 · 5 · 7 · 9 · suffix X, X3D (stacked cache, gaming), G (graphics), U/H/HX laptop · socket AM4, AM5"
+    },
+    {
+     "n": "Ryzen Threadripper",
+     "a": "Threadripper",
+     "d": "AMD's high-core-count desktop line for workstations and enthusiasts.",
+     "mk": "AMD",
+     "y": "2017",
+     "s": "https://en.wikipedia.org/wiki/Ryzen",
+     "v": [
+      {
+       "n": "Threadripper 1000 (Whitehaven)",
+       "mk": "AMD",
+       "y": "2017",
+       "d": "TR4, 8–16 cores; 1950X"
+      },
+      {
+       "n": "Threadripper 2000 (Colfax)",
+       "mk": "AMD",
+       "y": "2018",
+       "d": "up to 32 cores; 2990WX"
+      },
+      {
+       "n": "Threadripper 3000 (Castle Peak)",
+       "mk": "AMD",
+       "y": "2019",
+       "d": "sTRX4, up to 64 cores; 3970X, 3990X"
+      },
+      {
+       "n": "Threadripper PRO 5000 (Chagall)",
+       "mk": "AMD",
+       "y": "",
+       "d": "Zen 3, sWRX8"
+      },
+      {
+       "n": "Threadripper 7000 / PRO 7000 (Storm Peak)",
+       "mk": "AMD",
+       "y": "2023",
+       "d": "sTR5, PRO up to 96 cores; 7980X, PRO 7995WX"
+      },
+      {
+       "n": "Threadripper 9000",
+       "mk": "AMD",
+       "y": "",
+       "d": "9980X"
+      }
+     ]
+    },
+    {
+     "n": "Intel Xeon",
+     "a": "",
+     "d": "Intel's server and workstation brand with ECC memory, more cores and PCIe lanes; mostly trade equipment, owned by home-lab builders.",
+     "mk": "Intel",
+     "y": "1998",
+     "s": "https://en.wikipedia.org/wiki/Xeon",
+     "v": [
+      {
+       "n": "Pentium II Xeon",
+       "mk": "Intel",
+       "y": "1998",
+       "d": "Drake"
+      },
+      {
+       "n": "Xeon E3 / E5 / E7",
+       "mk": "Intel",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Xeon Scalable",
+       "mk": "Intel",
+       "y": "2017",
+       "d": "Bronze, Silver, Gold, Platinum"
+      },
+      {
+       "n": "Xeon W",
+       "mk": "Intel",
+       "y": "2017",
+       "d": "workstation; w3–w9 tiers from 2023"
+      },
+      {
+       "n": "Xeon 6",
+       "mk": "Intel",
+       "y": "2024",
+       "d": "renaming announced April 2024"
+      }
+     ]
+    },
+    {
+     "n": "Apple M-series",
+     "a": "Apple silicon",
+     "d": "Apple's system-on-chip for Macs and iPads; built into the device, not sold as a separate part.",
+     "mk": "Apple",
+     "y": "2020",
+     "s": "https://en.wikipedia.org/wiki/Apple_silicon",
+     "v": [
+      {
+       "n": "M1 / Pro / Max / Ultra",
+       "mk": "Apple",
+       "y": "2020–2022",
+       "d": ""
+      },
+      {
+       "n": "M2 family",
+       "mk": "Apple",
+       "y": "2022–2023",
+       "d": ""
+      },
+      {
+       "n": "M3 family",
+       "mk": "Apple",
+       "y": "2023",
+       "d": "M3 Ultra 2025"
+      },
+      {
+       "n": "M4 family",
+       "mk": "Apple",
+       "y": "2024",
+       "d": ""
+      },
+      {
+       "n": "M5 family",
+       "mk": "Apple",
+       "y": "2025–2026",
+       "d": ""
+      }
+     ]
+    }
+   ],
+   "r": [
+    [
+     "Core Ultra 5",
+     "Intel"
+    ],
+    [
+     "Core Ultra 7",
+     "Intel"
+    ],
+    [
+     "Core Ultra 9",
+     "Intel"
+    ],
+    [
+     "Core i3",
+     "Intel"
+    ],
+    [
+     "Core i5",
+     "Intel"
+    ],
+    [
+     "Core i7",
+     "Intel"
+    ],
+    [
+     "Core i9",
+     "Intel"
+    ],
+    [
+     "Celeron",
+     "Intel"
+    ],
+    [
+     "Pentium",
+     "Intel"
+    ],
+    [
+     "Xeon",
+     "Intel"
+    ],
+    [
+     "Ryzen 3",
+     "AMD"
+    ],
+    [
+     "Ryzen 5",
+     "AMD"
+    ],
+    [
+     "Ryzen 7",
+     "AMD"
+    ],
+    [
+     "Ryzen 9",
+     "AMD"
+    ],
+    [
+     "Ryzen Threadripper",
+     "AMD"
+    ],
+    [
+     "Athlon",
+     "AMD"
+    ]
+   ]
+  },
+  {
+   "n": "Motherboard",
+   "a": "mainboard · mobo · マザーボード",
+   "d": "Main circuit board of a computer, into which the processor, memory and cards fit.",
+   "t": [
+    "ATX",
+    "micro-ATX",
+    "Mini-ITX",
+    "E-ATX",
+    "Intel socket (LGA)",
+    "AMD socket (AM4, AM5, sTR5)",
+    "with CPU fitted (embedded board)",
+    "rear-connector (BTF)"
+   ],
+   "s": "https://kakaku.com/pc/motherboard/",
+   "x": [
+    {
+     "n": "ASUS ROG motherboards",
+     "a": "Republic of Gamers",
+     "d": "ASUS's Republic of Gamers enthusiast boards: Maximus for Intel, Crosshair for AMD, Strix below them.",
+     "mk": "ASUS",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Asus_ROG",
+     "v": [
+      {
+       "n": "ROG Maximus",
+       "mk": "ASUS",
+       "y": "",
+       "d": "Intel flagship; e.g. Maximus Z890 Hero, Apex, Extreme; Z790 Formula"
+      },
+      {
+       "n": "ROG Crosshair",
+       "mk": "ASUS",
+       "y": "",
+       "d": "AMD flagship; e.g. Crosshair VIII Dark Hero, X670E Hero, X870E Hero, X870E Extreme"
+      },
+      {
+       "n": "ROG Strix",
+       "mk": "ASUS",
+       "y": "",
+       "d": "gaming mainstream; e.g. Strix Z890-E, X870E-E, B850-F Gaming WiFi, X870-I (Mini-ITX)"
+      }
+     ],
+     "dt": "chipset (Z/B/H Intel · X/B/A AMD) · ATX, micro-ATX, Mini-ITX · BTF rear-connector variants"
+    },
+    {
+     "n": "Gigabyte AORUS",
+     "a": "",
+     "d": "Gigabyte's gaming sub-brand of motherboards, laddered Elite, Pro, Ultra, Master and Xtreme.",
+     "mk": "Gigabyte",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Gigabyte_Technology",
+     "v": [
+      {
+       "n": "X570 AORUS Master / Xtreme",
+       "mk": "Gigabyte",
+       "y": "",
+       "d": "AMD AM4"
+      },
+      {
+       "n": "Z590 Aorus Master / Extreme",
+       "mk": "Gigabyte",
+       "y": "",
+       "d": "Intel"
+      },
+      {
+       "n": "Z690 Aorus Master / Extreme",
+       "mk": "Gigabyte",
+       "y": "",
+       "d": "Intel; Extreme Waterforce with monoblock"
+      },
+      {
+       "n": "Z690I Aorus Ultra",
+       "mk": "Gigabyte",
+       "y": "",
+       "d": "Mini-ITX"
+      }
+     ],
+     "dt": "Elite · Pro · Ultra · Master · Xtreme"
+    },
+    {
+     "n": "ASRock Taichi",
+     "a": "",
+     "d": "ASRock's flagship premium motherboard line, recognised by its cog-wheel styling.",
+     "mk": "ASRock",
+     "y": "2016",
+     "s": "https://www.funkykit.com/articles/the-asrock-taichi-journey-ten-years-of-innovation-and-stories/",
+     "v": [
+      {
+       "n": "X99 Taichi",
+       "mk": "ASRock",
+       "y": "2016",
+       "d": "first Taichi"
+      },
+      {
+       "n": "X370 Taichi",
+       "mk": "ASRock",
+       "y": "2017",
+       "d": "AMD AM4"
+      },
+      {
+       "n": "X399 Taichi",
+       "mk": "ASRock",
+       "y": "2017",
+       "d": "Threadripper"
+      },
+      {
+       "n": "Z390 Taichi / Taichi Ultimate",
+       "mk": "ASRock",
+       "y": "2018",
+       "d": ""
+      },
+      {
+       "n": "X570 Taichi",
+       "mk": "ASRock",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "TRX40 Taichi",
+       "mk": "ASRock",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "X870E / Z890 Taichi Lite",
+       "mk": "ASRock",
+       "y": "",
+       "d": "pared-down version"
+      }
+     ]
+    },
+    {
+     "n": "MSI MEG",
+     "a": "",
+     "d": "MSI's top enthusiast motherboard tier, above MPG, MAG and PRO.",
+     "mk": "MSI",
+     "y": "2018",
+     "s": "https://techpowerup.com/review/msi-meg-z390-godlike",
+     "v": [
+      {
+       "n": "MEG Z390 GODLIKE",
+       "mk": "MSI",
+       "y": "",
+       "d": "flagship with RGB mirror, M.2 card and capture card"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "ProArt Z890-Creator WiFi",
+     "ASUS"
+    ],
+    [
+     "ProArt X870E-Creator WiFi",
+     "ASUS"
+    ],
+    [
+     "TUF Gaming Z890-Plus WiFi",
+     "ASUS"
+    ],
+    [
+     "TUF Gaming X870-Plus WiFi",
+     "ASUS"
+    ],
+    [
+     "TUF Gaming B850-Plus WiFi",
+     "ASUS"
+    ],
+    [
+     "Prime B860-Plus WiFi",
+     "ASUS"
+    ],
+    [
+     "Prime B850M-A WiFi",
+     "ASUS"
+    ],
+    [
+     "Prime H810M-A",
+     "ASUS"
+    ],
+    [
+     "B650 Aero G",
+     "Gigabyte"
+    ],
+    [
+     "Z690 Aero G DDR4",
+     "Gigabyte"
+    ],
+    [
+     "1ST-MITX-ALN10",
+     "1ST-embedded"
+    ]
+   ],
+   "r": [
+    [
+     "ROG Maximus",
+     "ASUS"
+    ],
+    [
+     "ROG Crosshair",
+     "ASUS"
+    ],
+    [
+     "ROG Strix",
+     "ASUS"
+    ],
+    [
+     "TUF Gaming",
+     "ASUS"
+    ],
+    [
+     "ProArt",
+     "ASUS"
+    ],
+    [
+     "Prime",
+     "ASUS"
+    ],
+    [
+     "AORUS",
+     "Gigabyte"
+    ],
+    [
+     "Aero G",
+     "Gigabyte"
+    ],
+    [
+     "Gaming X",
+     "Gigabyte"
+    ],
+    [
+     "Vision G",
+     "Gigabyte"
+    ],
+    [
+     "Taichi",
+     "ASRock"
+    ],
+    [
+     "MEG",
+     "MSI"
+    ]
+   ]
+  },
+  {
+   "n": "Memory (RAM)",
+   "a": "RAM · memory module · DIMM · SODIMM",
+   "d": "Plug-in module of working memory for a desktop or laptop.",
+   "t": [
+    "desktop DIMM",
+    "laptop SODIMM",
+    "DDR3",
+    "DDR4",
+    "DDR5",
+    "CUDIMM / CSODIMM (clocked)",
+    "RGB lighting",
+    "kit of 2 or 4"
+   ],
+   "s": "https://shop.tsukumo.co.jp/dir/20",
+   "x": [
+    {
+     "n": "Corsair Vengeance",
+     "a": "",
+     "d": "Corsair's mainstream enthusiast memory line, with and without RGB lighting, for desktops and laptops.",
+     "mk": "Corsair",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Corsair_Gaming",
+     "v": [
+      {
+       "n": "VENGEANCE Pro",
+       "mk": "Corsair",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "VENGEANCE RGB PRO / RGB PRO SL",
+       "mk": "Corsair",
+       "y": "",
+       "d": "RGB light bar; SL low-profile"
+      },
+      {
+       "n": "VENGEANCE RGB",
+       "mk": "Corsair",
+       "y": "",
+       "d": "DDR5"
+      },
+      {
+       "n": "VENGEANCE DDR5 SODIMM",
+       "mk": "Corsair",
+       "y": "",
+       "d": "laptop"
+      }
+     ]
+    },
+    {
+     "n": "Corsair Dominator",
+     "a": "",
+     "d": "Corsair's premium overclocking memory with heavy heat spreaders.",
+     "mk": "Corsair",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Corsair_Gaming",
+     "v": [
+      {
+       "n": "Dominator Platinum",
+       "mk": "Corsair",
+       "y": "",
+       "d": "built for overclocking"
+      },
+      {
+       "n": "DOMINATOR TITANIUM RGB",
+       "mk": "Corsair",
+       "y": "",
+       "d": "DDR5"
+      }
+     ]
+    },
+    {
+     "n": "G.Skill Trident Z",
+     "a": "TridentZ",
+     "d": "G.Skill's flagship enthusiast memory line, a common pick for overclocked builds.",
+     "mk": "G.Skill",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/G.Skill",
+     "v": [
+      {
+       "n": "Trident Z",
+       "mk": "G.Skill",
+       "y": "",
+       "d": "DDR4"
+      },
+      {
+       "n": "Trident Z5 NEO RGB",
+       "mk": "G.Skill",
+       "y": "",
+       "d": "DDR5, for AMD"
+      }
+     ]
+    },
+    {
+     "n": "Kingston FURY",
+     "a": "",
+     "d": "Kingston's enthusiast memory, first under HyperX and from 2021 under its own FURY name.",
+     "mk": "Kingston",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/Kingston_Technology",
+     "v": [
+      {
+       "n": "HyperX FURY",
+       "mk": "Kingston",
+       "y": "2014",
+       "d": ""
+      },
+      {
+       "n": "Kingston FURY",
+       "mk": "Kingston",
+       "y": "2021",
+       "d": "rebrand after HyperX peripherals were sold to HP"
+      }
+     ]
+    },
+    {
+     "n": "Kingston ValueRAM",
+     "a": "",
+     "d": "Kingston's plain low-cost memory modules, built to standard specifications.",
+     "mk": "Kingston",
+     "y": "1997",
+     "s": "https://en.wikipedia.org/wiki/Kingston_Technology",
+     "v": []
+    }
+   ],
+   "r": [
+    [
+     "VENGEANCE",
+     "Corsair"
+    ],
+    [
+     "DOMINATOR",
+     "Corsair"
+    ],
+    [
+     "Trident Z",
+     "G.Skill"
+    ],
+    [
+     "FURY",
+     "Kingston"
+    ],
+    [
+     "ValueRAM",
+     "Kingston"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Intel",
+   "c": "United States",
+   "f": "1968",
+   "seg": "Professional & flagship",
+   "kf": "x86 processors",
+   "d": "Chipmaker behind the 4004, the x86 line and the Core processors.",
+   "s": "knowledge",
+   "lines": [
+    "Core",
+    "Core Ultra",
+    "Pentium",
+    "Celeron",
+    "Xeon"
+   ],
+   "sig": [
+    "Intel 8086",
+    "Intel Core i3 / i5 / i7 / i9"
+   ]
+  },
+  {
+   "n": "AMD",
+   "c": "United States",
+   "f": "1969",
+   "seg": "Professional & flagship",
+   "kf": "Ryzen processors",
+   "d": "Chipmaker of Athlon and Ryzen x86 processors and Radeon graphics.",
+   "s": "knowledge",
+   "lines": [
+    "Ryzen",
+    "Ryzen Threadripper",
+    "Athlon"
+   ],
+   "sig": [
+    "Athlon 64",
+    "AMD Ryzen"
+   ]
+  },
+  {
+   "n": "Apple",
+   "c": "United States",
+   "f": "1976",
+   "seg": "Premium",
+   "kf": "Macs, Apple silicon",
+   "d": "Computer and phone maker that designs its own M-series chips.",
+   "s": "knowledge"
+  },
+  {
+   "n": "ASUS",
+   "c": "Taiwan",
+   "f": "1989",
+   "seg": "Mainstream",
+   "kf": "motherboards, ROG",
+   "d": "Taiwanese maker of motherboards, graphics cards and laptops.",
+   "s": "knowledge",
+   "lines": [
+    "ROG",
+    "TUF Gaming",
+    "ProArt",
+    "Prime"
+   ],
+   "sig": [
+    "ASUS ROG motherboards"
+   ]
+  },
+  {
+   "n": "Gigabyte",
+   "c": "Taiwan",
+   "f": "1986",
+   "seg": "Mainstream",
+   "kf": "motherboards, AORUS",
+   "d": "Taiwanese maker of motherboards and graphics cards.",
+   "s": "https://en.wikipedia.org/wiki/Gigabyte_Technology",
+   "lines": [
+    "AORUS",
+    "Aero",
+    "Gaming"
+   ]
+  },
+  {
+   "n": "ASRock",
+   "c": "Taiwan",
+   "f": "2002",
+   "seg": "Mainstream",
+   "kf": "motherboards",
+   "d": "Taiwanese motherboard maker, part of the Pegatron group.",
+   "s": "https://en.wikipedia.org/wiki/ASRock",
+   "lines": [
+    "Taichi"
+   ],
+   "rel": [
+    "ASUS"
+   ]
+  },
+  {
+   "n": "MSI",
+   "c": "Taiwan",
+   "f": "1986",
+   "seg": "Mainstream",
+   "kf": "motherboards, gaming",
+   "d": "Taiwanese maker that built its name on motherboards.",
+   "s": "https://en.wikipedia.org/wiki/Micro-Star_International",
+   "lines": [
+    "MEG",
+    "MPG",
+    "MAG",
+    "PRO"
+   ]
+  },
+  {
+   "n": "Corsair",
+   "c": "United States",
+   "f": "1994",
+   "seg": "Premium",
+   "kf": "memory, PC parts",
+   "d": "American maker of memory and PC components, founded as Corsair Microsystems.",
+   "s": "https://en.wikipedia.org/wiki/Corsair_Gaming",
+   "lines": [
+    "Vengeance",
+    "Dominator"
+   ]
+  },
+  {
+   "n": "G.Skill",
+   "c": "Taiwan",
+   "f": "1989",
+   "seg": "Specialist",
+   "kf": "enthusiast memory",
+   "d": "Taiwanese memory maker known for high-speed kits.",
+   "s": "https://en.wikipedia.org/wiki/G.Skill",
+   "lines": [
+    "Trident Z"
+   ]
+  },
+  {
+   "n": "Kingston",
+   "c": "United States",
+   "f": "1987",
+   "seg": "Mainstream",
+   "kf": "memory",
+   "d": "Large independent memory-module maker.",
+   "s": "https://en.wikipedia.org/wiki/Kingston_Technology",
+   "lines": [
+    "FURY",
+    "ValueRAM"
+   ]
+  },
+  {
+   "n": "Crucial",
+   "c": "United States",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "memory, SSDs",
+   "d": "Micron's consumer memory and SSD brand, discontinued in February 2026.",
+   "s": "https://en.wikipedia.org/wiki/Crucial_(brand)"
+  }
+ ],
+ "traditions": [],
+ "notes": "Processor: 2,857 SKUs cut to 13 archetypes (historic icons 4004/8086/386/Pentium/Athlon/Athlon 64/Core 2, Core i, Core Ultra, Ryzen incl. X3D, Threadripper, Xeon and Apple M stubs) with generations and key SKUs from the old list; Celeron left as range only. Motherboard: \"Motherboard with CPU\" merged as type; 103 SKUs cut to 4 line archetypes + 11 models. MSI MPG/MAG and ASUS TUF/ProArt left as ranges (no retrieved page). Memory: desktop and laptop RAM merged. Crucial in brand register only (brand discontinued 2026); no Crucial model was in the old data."
+}

@@ -1,0 +1,347 @@
+{
+ "kinds": [
+  {
+   "n": "Language model weights",
+   "a": "AI model weights · LLM file",
+   "d": "The downloadable weights of a language model, run locally.",
+   "t": [
+    "safetensors",
+    "GGUF",
+    "Quantised (4-bit, 8-bit)",
+    "Base",
+    "Instruction-tuned"
+   ],
+   "s": "https://huggingface.co/mistralai/Mistral-7B-v0.1/tree/main",
+   "x": [
+    {
+     "n": "Llama",
+     "a": "",
+     "d": "Meta's model family; weights first limited to researchers, later released under use restrictions.",
+     "mk": "Meta AI",
+     "y": "2023",
+     "s": "https://en.wikipedia.org/wiki/LLaMA",
+     "v": [
+      {
+       "n": "Llama 1",
+       "mk": "Meta AI",
+       "y": "2023",
+       "d": "24 Feb 2023, 6.7B to 65.2B, non-commercial"
+      },
+      {
+       "n": "Llama 2",
+       "mk": "Meta AI",
+       "y": "2023",
+       "d": "18 Jul 2023, 7B, 13B, 70B"
+      },
+      {
+       "n": "Llama 3",
+       "mk": "Meta AI",
+       "y": "2024",
+       "d": "18 Apr 2024, 8B and 70B"
+      },
+      {
+       "n": "Llama 3.1",
+       "mk": "Meta AI",
+       "y": "2024",
+       "d": "23 Jul 2024, up to 405B"
+      },
+      {
+       "n": "Llama 4",
+       "mk": "Meta AI",
+       "y": "2025",
+       "d": "5 Apr 2025, Scout and Maverick"
+      }
+     ],
+     "dt": "sizes · base and instruct weights · licence terms"
+    },
+    {
+     "n": "Mistral 7B",
+     "a": "",
+     "d": "7.3B-parameter model released by torrent and Hugging Face under Apache 2.0.",
+     "mk": "Mistral AI",
+     "y": "2023",
+     "s": "https://en.wikipedia.org/wiki/Mistral_AI",
+     "v": [
+      {
+       "n": "Mistral 7B v0.1",
+       "mk": "Mistral AI",
+       "y": "2023",
+       "d": "27 Sep 2023, Apache 2.0"
+      },
+      {
+       "n": "Mixtral 8x7B",
+       "mk": "Mistral AI",
+       "y": "2023",
+       "d": "December 2023, Apache 2.0"
+      },
+      {
+       "n": "Mixtral 8x22B",
+       "mk": "Mistral AI",
+       "y": "2024",
+       "d": "April 2024, Apache 2.0"
+      },
+      {
+       "n": "Mistral Small 3",
+       "mk": "Mistral AI",
+       "y": "2025",
+       "d": "January 2025, 24B, Apache 2.0"
+      }
+     ]
+    },
+    {
+     "n": "Gemma",
+     "a": "",
+     "d": "Google's open-weight family, sold on size tiers.",
+     "mk": "Google DeepMind",
+     "y": "2024",
+     "s": "https://en.wikipedia.org/wiki/Gemma_(language_model)",
+     "v": [
+      {
+       "n": "Gemma 1",
+       "mk": "Google DeepMind",
+       "y": "2024",
+       "d": "21 Feb 2024, 2B and 7B"
+      },
+      {
+       "n": "Gemma 2",
+       "mk": "Google DeepMind",
+       "y": "2024",
+       "d": "27 Jun 2024, 2B, 9B, 27B"
+      },
+      {
+       "n": "Gemma 3",
+       "mk": "Google DeepMind",
+       "y": "2025",
+       "d": "12 Mar 2025, 1B to 27B"
+      },
+      {
+       "n": "Gemma 4",
+       "mk": "Google DeepMind",
+       "y": "2026",
+       "d": "2 Apr 2026, Apache 2.0"
+      }
+     ]
+    },
+    {
+     "n": "Qwen",
+     "a": "",
+     "d": "Alibaba Cloud's mostly open-weight family, first released as Tongyi Qianwen beta.",
+     "mk": "Alibaba Cloud",
+     "y": "2023",
+     "s": "https://en.wikipedia.org/wiki/Qwen",
+     "v": [
+      {
+       "n": "Qwen2",
+       "mk": "Alibaba Cloud",
+       "y": "2024",
+       "d": "June 2024"
+      },
+      {
+       "n": "Qwen2.5",
+       "mk": "Alibaba Cloud",
+       "y": "2024",
+       "d": "September 2024"
+      },
+      {
+       "n": "Qwen3",
+       "mk": "Alibaba Cloud",
+       "y": "2025",
+       "d": "28 Apr 2025, Apache 2.0"
+      }
+     ]
+    },
+    {
+     "n": "DeepSeek",
+     "a": "",
+     "d": "Chinese open-weight family, released under the MIT licence.",
+     "mk": "DeepSeek",
+     "y": "2024",
+     "s": "https://en.wikipedia.org/wiki/DeepSeek_(AI)",
+     "v": [
+      {
+       "n": "DeepSeek-V2",
+       "mk": "DeepSeek",
+       "y": "2024",
+       "d": "May 2024"
+      },
+      {
+       "n": "DeepSeek-R1",
+       "mk": "DeepSeek",
+       "y": "2025",
+       "d": "20 Jan 2025, MIT licence"
+      },
+      {
+       "n": "DeepSeek-V3",
+       "mk": "DeepSeek",
+       "y": "2025",
+       "d": "V3-0324 on 24 Mar 2025, MIT licence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Image-generation model",
+   "a": "diffusion checkpoint",
+   "d": "The downloadable weights of a model that makes images from text prompts.",
+   "t": [
+    "Checkpoint",
+    "safetensors",
+    "Distilled",
+    "Base model"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Stability_AI",
+   "x": [
+    {
+     "n": "Stable Diffusion",
+     "a": "",
+     "d": "Text-to-image model released in August 2022 with source and weights available.",
+     "mk": "Stability AI",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Stability_AI",
+     "v": [
+      {
+       "n": "SDXL 1.0",
+       "mk": "Stability AI",
+       "y": "2023",
+       "d": "28 Jul 2023 (cgpress), text-to-image with a fine-tuning option; April 2023 beta before it"
+      }
+     ]
+    },
+    {
+     "n": "Flux",
+     "a": "",
+     "d": "Text-to-image family from former Stability AI staff, first released August 2024.",
+     "mk": "Black Forest Labs",
+     "y": "2024",
+     "s": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)",
+     "v": [
+      {
+       "n": "FLUX.1 Dev",
+       "mk": "Black Forest Labs",
+       "y": "2024",
+       "d": "August 2024, non-commercial licence"
+      },
+      {
+       "n": "FLUX.1 Schnell",
+       "mk": "Black Forest Labs",
+       "y": "2024",
+       "d": "Distilled few-step model, Apache 2.0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Fine-tune or LoRA adapter",
+   "a": "LoRA · adapter · merge",
+   "d": "A small file of changed weights that adapts a base model to a style, subject or task.",
+   "t": [
+    "LoRA adapter",
+    "Full fine-tune",
+    "Merged checkpoint",
+    "Image-model LoRA",
+    "Language-model LoRA"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)"
+  },
+  {
+   "n": "Speech and audio model",
+   "a": "speech recognition model · text-to-speech model",
+   "d": "The downloadable weights of a model that transcribes, translates or generates speech or audio.",
+   "t": [
+    "Speech recognition",
+    "Text-to-speech",
+    "Music generation"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Products_and_applications_of_OpenAI",
+   "x": [
+    {
+     "n": "Whisper",
+     "a": "",
+     "d": "General-purpose speech recognition model that also translates speech and identifies language.",
+     "mk": "OpenAI",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Products_and_applications_of_OpenAI",
+     "v": []
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Mistral AI",
+   "c": "France",
+   "f": "2023",
+   "seg": "Premium",
+   "kf": "open-weight LLMs",
+   "d": "Paris company; Mistral 7B was its first release.",
+   "s": "https://en.wikipedia.org/wiki/Mistral_AI"
+  },
+  {
+   "n": "Stability AI",
+   "c": "United Kingdom",
+   "f": "2019",
+   "seg": "Premium",
+   "kf": "Stable Diffusion",
+   "d": "London company founded by Emad Mostaque and Cyrus Hodes.",
+   "s": "https://en.wikipedia.org/wiki/Stability_AI"
+  },
+  {
+   "n": "Black Forest Labs",
+   "c": "Germany",
+   "f": "2024",
+   "seg": "Premium",
+   "kf": "Flux",
+   "d": "Freiburg company founded by ex-Stability AI staff.",
+   "s": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)"
+  },
+  {
+   "n": "Alibaba Cloud",
+   "c": "China",
+   "f": "",
+   "seg": "Professional & flagship",
+   "kf": "Qwen",
+   "d": "Developer of the Qwen model family.",
+   "s": "https://en.wikipedia.org/wiki/Qwen"
+  },
+  {
+   "n": "Meta AI",
+   "c": "United States",
+   "f": "",
+   "seg": "Professional & flagship",
+   "kf": "Llama",
+   "d": "Meta Platforms research group behind Llama.",
+   "s": "https://en.wikipedia.org/wiki/LLaMA"
+  },
+  {
+   "n": "Google DeepMind",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "Professional & flagship",
+   "kf": "Gemma",
+   "d": "Developer of the Gemma open-weight models.",
+   "s": "https://en.wikipedia.org/wiki/Gemma_(language_model)"
+  },
+  {
+   "n": "DeepSeek",
+   "c": "China",
+   "f": "",
+   "seg": "Premium",
+   "kf": "open-weight LLMs",
+   "d": "Chinese company behind DeepSeek-V3 and R1.",
+   "s": "https://en.wikipedia.org/wiki/DeepSeek_(AI)"
+  },
+  {
+   "n": "OpenAI",
+   "c": "United States",
+   "f": "",
+   "seg": "Professional & flagship",
+   "kf": "Whisper",
+   "d": "Developer of the Whisper speech recognition model.",
+   "s": "https://en.wikipedia.org/wiki/Products_and_applications_of_OpenAI"
+  }
+ ],
+ "traditions": [],
+ "notes": "Old Mistral 7B v0.1 became a version of the Mistral 7B archetype. Stable Diffusion page gave no version list so no versions (SDXL not sourced). Fine-tune kind sourced to a LoRA survey PDF whose text was unreadable; the definition is general. Whisper date and description come from the OpenAI products page. Some recent generations on Wikipedia (2026) not included beyond Gemma 4. | Coordinator: LoRA kind re-sourced to the fetched Wikipedia Fine-tuning page (the survey PDF text was unreadable). | Deepening pass: added SDXL 1.0 as a version of Stable Diffusion from the cgpress release article."
+}

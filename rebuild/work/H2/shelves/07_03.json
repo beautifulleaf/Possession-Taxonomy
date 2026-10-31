@@ -1,0 +1,96 @@
+{
+ "kinds": [
+  {
+   "n": "Personal alarm",
+   "a": "care alarm · pendant alarm · telecare alarm · fall alarm · medical alert system",
+   "d": "Worn call button or sensor that summons help after a fall or medical event, often through a monitoring service.",
+   "t": [
+    "pendant",
+    "wrist",
+    "automatic fall detector",
+    "GPS"
+   ],
+   "s": "https://www.tunstall.co.uk/products/wearables",
+   "m": [
+    [
+     "Tunstall Lifeline Pendant",
+     "Tunstall Healthcare"
+    ],
+    [
+     "Tunstall MyAmie",
+     "Tunstall Healthcare"
+    ],
+    [
+     "Tunstall Lifeline Fall Detector",
+     "Tunstall Healthcare"
+    ],
+    [
+     "Tunstall Vibby Oak S",
+     "Tunstall Healthcare"
+    ]
+   ],
+   "r": [
+    [
+     "Tunstall Lifeline wearables",
+     "Tunstall Healthcare"
+    ],
+    [
+     "Lifeline24 personal alarms",
+     "Lifeline24"
+    ],
+    [
+     "Medical Guardian alert systems",
+     "Medical Guardian"
+    ]
+   ]
+  },
+  {
+   "n": "Medical ID",
+   "a": "medical alert bracelet · medic alert tag · SOS bracelet · ICE ID",
+   "d": "Worn or carried item engraved or printed with medical conditions and emergency contacts.",
+   "t": [
+    "bracelet",
+    "tag",
+    "card",
+    "keyring"
+   ],
+   "s": "https://www.americanmedical-id.com/",
+   "r": [
+    [
+     "Medical ID bracelets and tags",
+     "American Medical ID"
+    ],
+    [
+     "MedicAlert IDs",
+     "MedicAlert"
+    ],
+    [
+     "ROAD iD wearable IDs",
+     "ROAD iD"
+    ]
+   ]
+  },
+  {
+   "n": "Wandering detector",
+   "a": "wander alarm · door exit alarm · dementia door alarm",
+   "d": "Device that alerts carers when a person at risk leaves a room, bed or home.",
+   "t": [
+    "door alarm",
+    "motion sensor"
+   ],
+   "s": "https://www.mindcarestore.com/alzheimer-autism-door-motion-alarm-kit-p/mc-0070.htm",
+   "m": [
+    [
+     "SMPL Wander Alert",
+     "SMPL"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Merged 'Care pendant' and 'Fall detector' into 'Personal alarm'. Pendant, wrist, automatic fall detector and GPS are now types. All four Tunstall models are kept, and the duplicated 'Tunstall Lifeline wearables' range now appears once. Merged 'Medical ID bracelet' and 'Medical ID tag' into 'Medical ID'. Bracelet, tag, card and keyring are now types. The five American Medical ID SKUs (Action Pro, Eternity, Lynx Shine, Stainless Steel Classic, Stainless Steel Dog Tag) are cut to one brand-level range. 'Wandering detector' is kept with its one model and has door-alarm and motion-sensor types. Each kind keeps an old source URL; for Medical ID I used the American Medical ID home page rather than the bracelet listing. Brand-level ranges for Lifeline24, Medical Guardian, MedicAlert and ROAD iD were added only because the shelf brief names them. Their range labels and maker names have not been checked against a retrieved source, so they need checking before publication. No archetypes, new kinds or brand-register entries were added.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

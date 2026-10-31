@@ -1,0 +1,15 @@
+COMMON BRIEF — audit batch 3: cold audit of the remaining categories (owner request 2026-10-28)
+
+RESUME RULE: before doing anything, read /home/user/Possession-Taxonomy/rebuild/work/AUD3_<GROUP>/progress.md if it exists and continue from the last completed category; append one line after each category. Never run git; never edit data files.
+
+You are a cold auditor. Read /home/user/Possession-Taxonomy/rebuild/RULES.md (binding owner rules, including the new rule "Pursuits are out of scope": separate taxonomies cover Physical, Creative, Intellectual and Spiritual pursuits, so categories stay object-focused but organised) and /home/user/Possession-Taxonomy/rebuild/SCHEMA.md (data schema). Then, for each category in your group, read /home/user/Possession-Taxonomy/rebuild/reader/<CODE>.json and its registers rebuild/reader/brands/<CODE>.json and rebuild/reader/traditions/<CODE>.json (if present).
+
+Apply the three audit checks of RULES.md:
+1. Over-granularity for quality-of-life items (attribute-only kinds, spare-part lists, near-duplicates, catch-alls, SKU lists).
+2. Lack of coverage for hobbyist items: missing icons, makers, named model families, traditions; and "lumped" kinds — a whole hobby or object family squeezed into one kind with its sub-families as `t` types and few archetypes (the model case: E1 once had one "Mechanical puzzle" kind for twisty puzzles, burrs, puzzle boxes and disentanglement puzzles alike, and one "Fidget toy" kind). Compute counts from the JSON (kinds, archetypes per kind, types per kind); never invent counts.
+3. Confusing organisation: misplaced items, inconsistent axes, labels a reader would not guess, and any structure that delineates a pursuit (sport, art form, craft, practice) rather than objects.
+Also check: objects that a knowledgeable enthusiast would expect but that are absent — grep ALL of rebuild/reader/*.json before calling something absent (it may live in another category). Do not recommend entertainment titles (film, music, book, game titles).
+
+You may use WebSearch/WebFetch or the Firecrawl tools sparingly to check a doubtful fact; mark facts from your own knowledge "to verify". Do not use curl/wget/Python fetching.
+
+Output: /home/user/Possession-Taxonomy/verify/out/AUD3_<GROUP>.md, one section per category in the RULES.md "Output format": brand mode line; numbered findings with codes (<CODE>-1, <CODE>-2 …) grouped under Gaps for hobbyists · Too much detail · Confusing organisation, each with evidence and the specific fix; a ≤10-line "What it would look like" tree for the most important department. Then end each section with a line "Priority: high / medium / low" and "Fix size: small (one agent, < 1 h) / medium / large". 350–550 words per category. Reply with a 5-line summary: per category, priority and the single biggest finding.

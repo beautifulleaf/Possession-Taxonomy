@@ -341,3 +341,7 @@ Owner reads the reader page and the queue; moves between categories change the t
 | Cards | GC_<CODE> card passes for all 53: 81 cards over 207 kinds that shops sell as one item with options (table saw, bench plane, mattress, kitchen bin, baler…), shown as one card with a "Types" line. 5 proposed cards dropped at integration (hot tub, vaporizer, toy train, accordion, sake). |
 | Page | "Where this was checked" and "Where this scene is described" links removed. Reader republished: 6,742 kinds; every live kind on one shelf with a display row. |
 | Open | Undecided splits the reviewers left for lack of a fetched shop page are listed in verify/out/GR_<CODE>_report.md (e.g. makeup and hair brushes, melons, potatoes, special-purpose vehicles). |
+
+## Session 13 (2026-10-31) — one line of work: the rebuild joins main
+- The live artifact (https://claude.ai/artifact/C1cQq1ygVd7bWfw7Duem6n, v28) was built from branch `claude/toy-organization-system-mapqhu`, whose history is unrelated to main's. Merged into main keeping main's files and adding `rebuild/` (all of it), the AUD3 audits and FIX/E1PZ prompts, and the 2026-10-28 owner decisions in BRIEF.md. Both histories are kept; nothing rewritten.
+- From here the live taxonomy is `rebuild/` (57 categories, 7,811 kinds at v28): start with rebuild/HANDOVER.md, rebuild/RULES.md (binding owner rules), SCHEMA.md, FINDINGS.md. CLAUDE.md updated to say so. data/*.tsv and tools/ are the frozen stage-3 pipeline.

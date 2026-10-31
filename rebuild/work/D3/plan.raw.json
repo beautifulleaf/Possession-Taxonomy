@@ -1,0 +1,841 @@
+{
+ "lead": "Home and personal audio and video equipment, from headphones, loudspeakers and hi-fi separates to TVs, projectors and radios; enthusiast areas (headphones, loudspeakers, turntables, vintage hi-fi, portable players) are organised kind → archetype → version, everyday screens and smart devices by what makes a good one.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Headphones & earphones",
+   "mode": "mixed",
+   "note": "Tier for everyday wireless models; variety for the enthusiast (head-fi) end.",
+   "b": [
+    {
+     "m": "Driver type",
+     "v": "dynamic · balanced armature · hybrid · planar magnetic · electrostatic",
+     "w": "The head-fi community's primary comparison axis (Head-Fi, Crinacle, RTINGS)."
+    },
+    {
+     "m": "Measured frequency response and fit/seal",
+     "w": "RTINGS and Which? test results; target curves such as Harman."
+    }
+   ],
+   "s": [
+    {
+     "n": "Over-ear & on-ear headphones",
+     "web": true,
+     "brief": "Archetypes ordered by significance: Sennheiser HD 580/600/650/6XX lineage, HD 800, Orpheus HE 90/HE-1; Beyerdynamic DT 770/880/990 family; AKG K240/K701 lineage; Audio-Technica ATH-M50; Sony MDR-7506/V6 and MDR-CD900ST; Grado SR60/RS1; Koss Pro4AA and Porta Pro (on-ear); HiFiMAN HE-6/Sundara/Susvara; Audeze LCD series; Focal Utopia; Stax Lambda / SR-007 / SR-009 with energisers; Sony WH-1000X line, Bose QuietComfort, Apple AirPods Max for wireless noise-cancelling. Driver type as `t` (dynamic, planar magnetic). Cut flat model lists to versions under archetypes; drop SKU duplicates (DT 770 M/Pro/Pro X become versions).",
+     "k": [
+      {
+       "n": "Open-back headphones",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Closed-back headphones",
+       "old": [
+        "k1"
+       ],
+       "brief": "Move AirPods (earbuds) range out to true wireless earbuds."
+      },
+      {
+       "n": "Wireless noise-cancelling headphones",
+       "old": [],
+       "brief": "New tier kind: Sony WH-1000X, Bose QuietComfort, Apple AirPods Max, Sennheiser Momentum; test winners from RTINGS/Which?."
+      },
+      {
+       "n": "Electrostatic headphones",
+       "old": [],
+       "brief": "New kind: Stax Lambda/Earspeaker lineage, SR-007/009, Sennheiser Orpheus; electrostatic energiser as `t` or note."
+      },
+      {
+       "n": "On-ear headphones",
+       "old": [
+        "k3"
+       ],
+       "brief": "Koss Porta Pro, Grado SR series, Beats Solo."
+      },
+      {
+       "n": "Headset",
+       "old": [
+        "k4"
+       ],
+       "brief": "Gaming and office headsets; tier, few models."
+      }
+     ]
+    },
+    {
+     "n": "Earphones & in-ear monitors",
+     "web": true,
+     "brief": "IEM archetypes: Etymotic ER4, Shure SE215/SE535/SE846, Sennheiser IE 300/IE 600/IE 900, Moondrop Blessing/Aria, Truthear, 64 Audio, Campfire; custom IEMs (Ultimate Ears, JH Audio, 64 Audio). Earbud icons: Apple EarPods, Sennheiser MX500, Sony Fontopia. True wireless: Apple AirPods/AirPods Pro, Sony WF-1000X, Samsung Galaxy Buds, Bose QC Earbuds (tier, test winners). Driver type (dynamic, BA, hybrid, planar, EST) as `t`. Trim 82 IEM models to archetypes and versions.",
+     "k": [
+      {
+       "n": "In-ear monitors",
+       "old": [
+        "k7"
+       ]
+      },
+      {
+       "n": "Custom in-ear monitors",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "True wireless earbuds",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Earbuds",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Open-ear earphones",
+       "old": [
+        "k8"
+       ],
+       "brief": "Bone-conduction (Shokz) and open-ear driver as `t`."
+      }
+     ]
+    },
+    {
+     "n": "Headphone accessories & spare parts",
+     "web": false,
+     "brief": "Restraint: one spare-parts entry for pads, tips and replacement charging cases; keep cables and stands as kinds without long model lists.",
+     "k": [
+      {
+       "n": "Headphone & earbud spare parts",
+       "old": [
+        "k77",
+        "k78",
+        "k80"
+       ],
+       "brief": "Ear pads, ear tips, replacement charging cases as `t`."
+      },
+      {
+       "n": "Headphone cable",
+       "old": [
+        "k79"
+       ]
+      },
+      {
+       "n": "Headphone stand",
+       "old": [
+        "k81"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Loudspeakers",
+   "mode": "mixed",
+   "note": "Variety for hi-fi loudspeakers; tier for home-cinema, soundbars and wireless speakers.",
+   "b": [
+    {
+     "m": "Drive unit and enclosure type",
+     "v": "sealed · reflex · transmission line · horn · open baffle · electrostatic/planar",
+     "w": "Standard loudspeaker design axis in hi-fi press and Stereophile measurements."
+    },
+    {
+     "m": "Measured response and room fit",
+     "w": "Stereophile/Audio Science Review measurements; Which?/RTINGS for consumer speakers."
+    }
+   ],
+   "s": [
+    {
+     "n": "Hi-fi loudspeakers",
+     "web": true,
+     "brief": "Speaker lineages as archetypes: BBC LS3/5a (Rogers, Spendor, Harbeth, Falcon, Stirling), Harbeth P3/Compact 7/M30/M40, Spendor BC1/Classic, KEF LS50 (and Wireless), B&W 800 series (Matrix 801, Nautilus 800, 800 D4) and 600 series, Klipsch Heritage (Klipschorn, La Scala, Cornwall, Heresy), JBL L100 Century and 4300 studio monitors, Quad ESL-57/ESL-63, Magnepan, MartinLogan, Wharfedale Denton/Linton, Tannoy dual-concentric (Westminster, Autograph), Sonus Faber, Dynaudio, ProAc Tablette, Linn Isobarik, Wilson Audio WATT/Puppy, Acoustic Research AR-3, Advent, Bose 901, Genelec/Neumann active monitors (only those sold to home listeners). Enclosure/driver type as `t` (horn, electrostatic, planar, dual-concentric). Period view: vintage pre-1990 versions noted with years.",
+     "k": [
+      {
+       "n": "Bookshelf speakers",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "Floor-standing speakers",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Electrostatic and planar loudspeakers",
+       "old": [],
+       "brief": "New kind: Quad ESL, MartinLogan, Magnepan, Sound Lab."
+      },
+      {
+       "n": "Horn loudspeakers",
+       "old": [],
+       "brief": "New kind: Klipschorn, Avantgarde Duo, Tannoy Westminster, Altec Lansing Voice of the Theatre (home use)."
+      },
+      {
+       "n": "Subwoofer",
+       "old": [
+        "k21"
+       ],
+       "brief": "Tier: SVS, REL, KEF, B&W; trim to ≈10."
+      }
+     ]
+    },
+    {
+     "n": "Home cinema speakers",
+     "web": false,
+     "brief": "Restraint: tier brands only (Klipsch, KEF, B&W, Polk, Dali, Q Acoustics, Sonos, Monitor Audio); in-wall vs in-ceiling as `t`.",
+     "k": [
+      {
+       "n": "Home cinema speaker system",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Centre speaker",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Surround speakers",
+       "old": [
+        "k24"
+       ],
+       "brief": "Side, rear, height (Atmos-enabled) as `t`."
+      },
+      {
+       "n": "In-wall and in-ceiling speakers",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "On-wall speakers",
+       "old": [
+        "k26"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Soundbars & wireless speakers",
+     "web": false,
+     "brief": "Restraint: market-covering brands plus RTINGS/Which?/Consumer Reports winners (Sonos, Bose, Samsung, Sony, JBL, Ultimate Ears, Marshall). The 'Other single-box speakers' catch-all is dissolved into the portable and Wi-Fi kinds.",
+     "k": [
+      {
+       "n": "Soundbar",
+       "old": [
+        "k17"
+       ]
+      },
+      {
+       "n": "Wi-Fi and multi-room speakers",
+       "old": [
+        "k29",
+        "k18"
+       ],
+       "brief": "Absorbs the 'Other single-box speakers' catch-all; mains-powered Bluetooth speakers as `t`."
+      },
+      {
+       "n": "Portable Bluetooth speakers",
+       "old": [
+        "k27"
+       ]
+      },
+      {
+       "n": "Party speakers",
+       "old": [
+        "k28"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Turntables & vinyl playback",
+   "mode": "variety",
+   "note": "Turntable, tonearm, cartridge and phono stage kept together as the vinyl chain.",
+   "b": [
+    {
+     "m": "Drive and suspension",
+     "v": "belt · direct · idler; suspended · unsuspended",
+     "w": "Classic turntable typology used by Hi-Fi News and Stereophile."
+    },
+    {
+     "m": "Cartridge type",
+     "v": "moving magnet · moving coil · moving iron; conical · elliptical · line-contact styli",
+     "w": "Standard phono cartridge classification."
+    }
+   ],
+   "s": [
+    {
+     "n": "Turntables, tonearms & cartridges",
+     "web": true,
+     "brief": "Archetypes: Linn Sondek LP12 (versions by upgrade: Valhalla, Lingo, Radikal, Karousel), Technics SL-1200 lineage (MK2 1979 → MK7, GR/G, SL-1500C), Thorens TD 124 and TD 150/160, Garrard 301/401, Lenco L75, Rega Planar 3 (and Planar 1/2/6/8/10), Pro-Ject Debut, Michell Gyro, VPI, AR XA, Dual 1019/1219, Bang & Olufsen Beogram 4000, Braun PS series, Clearaudio, SME 20/30. Tonearms: SME 3009/3012/Series V, Rega RB300, Ittok LVII, Ortofon RMG-309. Cartridges: Denon DL-103, Ortofon SPU (1959), Ortofon 2M and Concorde, Shure V15 and M44, Audio-Technica AT95/VM/AT-OC9, Koetsu, Lyra, Grado, Goldring. Drive type as `t`. Stylus kind = one replacement-stylus entry. Plinth for idler/DIY rebuilds (Garrard/Lenco).",
+     "k": [
+      {
+       "n": "Turntable",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Phono cartridge",
+       "old": [
+        "k73"
+       ]
+      },
+      {
+       "n": "Tonearm",
+       "old": [
+        "k75"
+       ]
+      },
+      {
+       "n": "Turntable stylus",
+       "old": [
+        "k74"
+       ],
+       "brief": "Replacement styli; keep short."
+      },
+      {
+       "n": "Phono preamplifier",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Turntable plinth",
+       "old": [
+        "k76"
+       ]
+      },
+      {
+       "n": "Record cleaning machine",
+       "old": [],
+       "brief": "New kind: vacuum (VPI, Pro-Ject VC-S, Keith Monks, Okki Nokki) and ultrasonic (Degritter, Klaudio) as `t`."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Amplifiers & electronics",
+   "mode": "mixed",
+   "note": "Variety for stereo hi-fi including vintage; tier for AV gear.",
+   "b": [
+    {
+     "m": "Amplifier topology",
+     "v": "valve (tube) · solid-state · class D; class A · AB · D",
+     "w": "Standard amplifier classification in hi-fi reviews."
+    },
+    {
+     "m": "Measured distortion, noise and power",
+     "w": "Stereophile and Audio Science Review bench measurements."
+    }
+   ],
+   "s": [
+    {
+     "n": "Stereo amplifiers & receivers",
+     "web": true,
+     "brief": "Archetypes incl. vintage period view: McIntosh MC275 and MA series, Marantz Model 7/8B/2270 receivers, Sansui AU-111/AU-607/AU-α907 and receivers, Pioneer SX-1980, Quad II/33/303/405, Naim NAIT/NAC-NAP, Leak Stereo 20, Rega Brio, Cyrus, NAD 3020, Arcam A&R A60, Luxman L-series, Accuphase, Audio Research, Conrad-Johnson, Mark Levinson, Krell, Pass Labs/Nelson Pass, Yamaha CA-1000, Technics SU-V; equalisers (Technics SH-8000, dbx). Valve vs solid-state as `t`.",
+     "k": [
+      {
+       "n": "Integrated amplifier",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Stereo receiver",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Preamplifier",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Power amplifier",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "Equaliser",
+       "old": [
+        "k43"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "DACs & headphone amplifiers",
+     "web": true,
+     "brief": "Head-fi and digital source electronics: Schiit (Magni, Modi, Bifrost, Valhalla, Jotunheim, Lyr), Topping, JDS Labs (O2, Atom), FiiO, iFi, Chord (Mojo, Hugo, Qutest, DAVE), RME ADI-2, Benchmark DAC, Burson, Woo Audio (valve), Cavalli, Mytek, dCS (Bartók, Vivaldi). Portable DAC/amps and dongles as `t`. Bluetooth adapter stays tier with no models.",
+     "k": [
+      {
+       "n": "DAC and headphone amplifier",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "DAC",
+       "old": [
+        "k39"
+       ]
+      },
+      {
+       "n": "Headphone amplifier",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Master clock",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Bluetooth audio adapter",
+       "old": [
+        "k42"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Home cinema electronics",
+     "web": false,
+     "brief": "Restraint: tier brands (Denon, Marantz, Yamaha, Onkyo, Arcam, Anthem, NAD, Trinnov) plus test winners; video processor kept kind-level.",
+     "k": [
+      {
+       "n": "AV receiver",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "AV processor",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Multichannel power amplifier",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Video processor",
+       "old": [
+        "k38"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Hi-fi sources: tape, disc & streaming",
+   "mode": "mixed",
+   "note": "Variety for tape and vintage decks (period view); tier for modern disc and streaming sources.",
+   "b": [
+    {
+     "m": "Transport and format quality",
+     "v": "tape speed · head count (2/3-head) · noise reduction (Dolby B/C/S, dbx)",
+     "w": "Classic tape-deck comparison axes in hi-fi literature."
+    }
+   ],
+   "s": [
+    {
+     "n": "Tape decks",
+     "web": true,
+     "brief": "Archetypes: Nakamichi 1000/Dragon/CR-7/ZX, Tandberg TCD, Aiwa, Technics RS-B, TEAC/TASCAM, Sony TC-K, Revox B215; reel-to-reel: Revox A77/B77/PR99, Studer A810 (home use), TEAC A-3340/X-2000, Akai GX-635/GX-747, Sony TC-765, Technics RS-1500/1700, Tandberg 9000X, Pioneer RT-707, Otari; MiniDisc: Sony MDS-JA555ES/JB980; DAT: Sony DTC-ZA5ES, Pioneer D-07; 8-track players (Akai, Panasonic). Head count and NR as `t`.",
+     "k": [
+      {
+       "n": "Cassette deck",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Reel-to-reel tape deck",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "MiniDisc deck",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "DAT deck",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "8-track player",
+       "old": [
+        "k52"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "CD players, streamers & tuners",
+     "web": true,
+     "brief": "Archetypes: Sony CDP-101 and Philips CD100 (1982 first CD players), Philips CD104/Marantz CD-63 lineage, Meridian MCD/Meridian 207, Arcam Alpha, Cambridge Audio CXC/CXN, Naim CDX/ND5, Linn Klimax DS/Sneaky (first network streamers), Bluesound Node, WiiM, Lumin, Squeezebox; tuners: Sequerra, Marantz 10B, Quad FM3, Naim NAT 01, Revox B760, Accuphase T-100. SACD and transport-only as `t`.",
+     "k": [
+      {
+       "n": "CD player",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Network streamer",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "FM/DAB tuner",
+       "old": [
+        "k48"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Portable audio",
+   "mode": "variety",
+   "note": "Personal players with a strong collector following, plus portable radio-cassettes.",
+   "b": [],
+   "s": [
+    {
+     "n": "Personal players & boomboxes",
+     "web": true,
+     "brief": "Archetypes: Sony Walkman TPS-L2 (1979) and WM-2/WM-D6C Professional/WM-EX lineage, Aiwa HS-P02, Panasonic, Sony Discman D-50 (1984) and D-E01/D-NE lines, Sony MiniDisc Walkman MZ-1/MZ-R/MZ-RH1, Apple iPod (classic 2001, mini, nano, shuffle, touch), Creative Zen/Nomad, Rio PMP300, iRiver, Microsoft Zune, Sony NW (Walkman hi-res); hi-res DAPs: Astell & Kern, FiiO, HiBy, Shanling. Boombox icons: JVC RC-M90, Sharp GF-777, Panasonic RX-5350, Conion C-100F, Sony CFS. Audio figure: Toniebox/Tonies, Yoto (tag baby).",
+     "k": [
+      {
+       "n": "Portable cassette player",
+       "old": [
+        "k60"
+       ],
+       "brief": "Walkman lineage; recorders as `t`."
+      },
+      {
+       "n": "Portable CD player",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Portable MiniDisc player",
+       "old": [],
+       "brief": "New kind: Sony MZ series, Sharp, Aiwa, Panasonic."
+      },
+      {
+       "n": "MP3 player",
+       "old": [
+        "k58"
+       ],
+       "brief": "Rename candidate 'Digital audio player'; iPod lineage, hi-res DAP as `t`; Toniebox-type moves to audio figure."
+      },
+      {
+       "n": "Boombox",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Audio figure",
+       "old": [
+        "k61"
+       ],
+       "brief": "Tag baby; Tonies, Yoto."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Radios & music systems",
+   "mode": "mixed",
+   "note": "Variety for vintage radios, radiograms and jukeboxes; tier for everyday radios and compact systems.",
+   "b": [],
+   "s": [
+    {
+     "n": "Radios",
+     "web": true,
+     "brief": "Archetypes: Roberts Revival (R200 1950s lineage), Braun SK 4 'Snow White's Coffin' (radiogram) and T3 pocket radio, Regency TR-1 (first transistor radio, 1954), Ekco AD-65 Bakelite, Philips Bi-Ampli, Grundig Satellit, Sony TR-55/ICF-2001, Tivoli Model One, Zenith Trans-Oceanic, Tecsun PL-series, Eton. Placement (table, portable) and band (DAB, FM, shortwave) as `t`; scanners: Uniden, Whistler, AOR.",
+     "k": [
+      {
+       "n": "Radio",
+       "old": [
+        "k67"
+       ]
+      },
+      {
+       "n": "Shortwave and world-band receiver",
+       "old": [],
+       "brief": "New kind: Zenith Trans-Oceanic, Grundig Satellit, Sony ICF-2001D, Tecsun, Eton."
+      },
+      {
+       "n": "Clock radio",
+       "old": [
+        "k68"
+       ]
+      },
+      {
+       "n": "Radio scanner",
+       "old": [
+        "k69"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Music systems, radiograms & jukeboxes",
+     "web": true,
+     "brief": "Archetypes: Braun SK 4, Grundig and Blaupunkt radiograms, Bang & Olufsen Beocenter/Beosystem, Brionvega RR126, Wurlitzer 1015 (1946), Seeburg Select-O-Matic/M100A, Rock-Ola, AMI; compact hi-fi: Denon D-M41, Yamaha MusicCast, Marantz M-CR612 (tier); karaoke machines (Singing Machine) tier with few models.",
+     "k": [
+      {
+       "n": "Jukebox",
+       "old": [
+        "k66"
+       ]
+      },
+      {
+       "n": "Radiogram",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Compact hi-fi system",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Karaoke machine",
+       "old": [
+        "k65"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "TVs & projectors",
+   "mode": "mixed",
+   "note": "Tier for current TVs and projectors; variety for CRT and vintage projection.",
+   "b": [
+    {
+     "m": "Display technology and picture quality",
+     "v": "LCD/LED · Mini-LED · QD-OLED/WOLED · MicroLED; HDR peak brightness, contrast, motion",
+     "w": "RTINGS, HDTVTest, Which? and Consumer Reports TV tests."
+    }
+   ],
+   "s": [
+    {
+     "n": "Televisions & home projectors",
+     "web": false,
+     "brief": "Restraint: TV brands covering most of the market (Samsung, LG, Sony, TCL, Hisense, Panasonic, Philips) plus RTINGS/Which?/Consumer Reports winners; display tech and size as `t`. Projectors: Epson, BenQ, Sony, JVC, Optoma, XGIMI, Hisense; UST stays a kind.",
+     "k": [
+      {
+       "n": "Television",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "Projector",
+       "old": [
+        "k11"
+       ]
+      },
+      {
+       "n": "Ultra-short-throw projector",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Projector screen",
+       "old": [
+        "k13"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "CRT, vintage TVs & film projectors",
+     "web": true,
+     "brief": "Collector area: Sony Trinitron (KV-1310, 1968) and PVM/BVM monitors for retro gaming, Sony KV-HR/WEGA, Philips, Braun HF 1, Brionvega Algol and Doney, JVC Videosphere, Bang & Olufsen BeoVision; rear-projection (Mitsubishi, Sony Grand WEGA); slide projectors: Kodak Carousel (1961), Leitz Pradovit, Braun Paxiscope; cine projectors: Bolex, Eumig, Elmo, Bell & Howell (Super 8, 8 mm, 16 mm as `t`).",
+     "k": [
+      {
+       "n": "CRT television and video monitor",
+       "old": [],
+       "brief": "New kind: Trinitron, PVM/BVM, Videosphere, Algol."
+      },
+      {
+       "n": "Rear-projection television",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Slide projector",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Cine film projector",
+       "old": [
+        "k16"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Video players & streaming",
+   "mode": "mixed",
+   "note": "Tier for streaming boxes and disc players; variety for obsolete video formats.",
+   "b": [],
+   "s": [
+    {
+     "n": "Video players & streaming boxes",
+     "web": true,
+     "brief": "Tier: Apple TV, Roku, Google TV Streamer/Chromecast, Amazon Fire TV, Nvidia Shield; Blu-ray/UHD: Panasonic DP-UB9000/UB820, Sony, Oppo UDP-203/205, Magnetar; set-top boxes (Freeview, Sky Q, TiVo); Kaleidescape. Obsolete formats, collector icons: Sony Betamax SL-7200 (1975), JVC HR-3300 (first VHS, 1976), Panasonic AG-1970/S-VHS, Philips VCR N1500/Video 2000; LaserDisc: Pioneer CLD/LD-S1, Pioneer DVL-919; VCD/CED as `t`.",
+     "k": [
+      {
+       "n": "Streaming stick or box",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Blu-ray and DVD player",
+       "old": [
+        "k55"
+       ]
+      },
+      {
+       "n": "Set-top box",
+       "old": [
+        "k56"
+       ]
+      },
+      {
+       "n": "Movie server",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "Video cassette recorder",
+       "old": [],
+       "brief": "New kind: VHS, Betamax, S-VHS, Video 2000 as `t`."
+      },
+      {
+       "n": "LaserDisc player",
+       "old": [],
+       "brief": "New kind: Pioneer LD/CLD, combi players."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Smart speakers & displays",
+   "mode": "tier",
+   "note": "",
+   "b": [],
+   "s": [
+    {
+     "n": "Smart speakers & displays",
+     "web": false,
+     "brief": "Restraint: Amazon Echo, Google Nest, Apple HomePod, Sonos; hubs (Amazon, SmartThings, Hubitat, Home Assistant Green) kind-level.",
+     "k": [
+      {
+       "n": "Smart speaker",
+       "old": [
+        "k70"
+       ]
+      },
+      {
+       "n": "Smart display",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Smart-home hub",
+       "old": [
+        "k72"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "TV & speaker accessories",
+   "mode": "tier",
+   "note": "",
+   "b": [],
+   "s": [
+    {
+     "n": "Mounts, antennas & remotes",
+     "web": false,
+     "brief": "Restraint: one stands-and-mounts kind (speaker stands, TV wall mounts, floor stands as `t`); antenna indoor/outdoor as `t`; universal remotes (Logitech Harmony, Sofabaton) in remote control.",
+     "k": [
+      {
+       "n": "TV and speaker stands and mounts",
+       "old": [
+        "k84",
+        "k85"
+       ]
+      },
+      {
+       "n": "TV antenna",
+       "old": [
+        "k83"
+       ]
+      },
+      {
+       "n": "Remote control",
+       "old": [
+        "k82"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}

@@ -1,0 +1,1797 @@
+{
+ "lead": "Equipment, food and supplies for animals people keep -- pets, leisure horses, fish, birds, small animals, backyard flocks, reptiles and bees -- organised by animal, then by use; the animals themselves live in a separate breeds register.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Dogs",
+   "mode": "mixed",
+   "note": "Food, walking gear and beds are tier picks; toys, dog sport and gundog training lean variety.",
+   "b": [
+    {
+     "m": "Complete vs complementary food",
+     "w": "FEDIAF / AAFCO labelling: only complete foods can be fed alone",
+     "v": "complete · complementary (treat)"
+    },
+    {
+     "m": "Fit and adjustability of walking gear",
+     "w": "Behaviourist and vet guidance on pressure points; Y-front harnesses avoid restricting shoulders",
+     "v": "collar · harness (Y-front) · head halter"
+    }
+   ],
+   "s": [
+    {
+     "n": "Dog food & treats",
+     "web": false,
+     "brief": "Restraint: cut each food kind to ~8-12 market-covering brands (Royal Canin, Hill's, Purina Pro Plan, Eukanuba, Orijen/Acana, Blue Buffalo, Lily's Kitchen, Butternut Box, The Farmer's Dog, Ziwi Peak...) plus test winners; drop Chinese/regional SKU noise and flavour variants. Dissolve 'Other dog treats' into one Dog treats kind with types (training, jerky, biscuits, soft). Life stage and protein are types, not kinds.",
+     "k": [
+      {
+       "n": "Dry dog food",
+       "old": [
+        "k1"
+       ]
+      },
+      {
+       "n": "Wet dog food",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Fresh, frozen and raw dog food",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Freeze-dried and air-dried dog food",
+       "old": [
+        "k4"
+       ]
+      },
+      {
+       "n": "Veterinary dog food",
+       "old": [
+        "k5"
+       ],
+       "brief": "Prescription/therapeutic diets; types renal, urinary, gastrointestinal, hypoallergenic, weight."
+      },
+      {
+       "n": "Dog treats",
+       "old": [
+        "k6",
+        "k8",
+        "k10",
+        "k11"
+       ],
+       "brief": "Merged: types training treats, jerky, biscuits and cookies, soft treats."
+      },
+      {
+       "n": "Dog dental chews",
+       "old": [
+        "k7"
+       ]
+      },
+      {
+       "n": "Long-lasting dog chews",
+       "old": [
+        "k9"
+       ],
+       "brief": "Types bully stick, rawhide, antler, natural bone, yak chew."
+      }
+     ]
+    },
+    {
+     "n": "Collars, leads & harnesses",
+     "web": true,
+     "brief": "Tier for everyday gear (Ruffwear, Julius-K9, Kurgo, Hurtta, Flexi, Halti, Baskerville muzzle); add a variety end for luxury and maker collars (Hermès, Moncler/Poldo, Wild One) and archetypes: Julius-K9 IDC harness, Ruffwear Front Range, Flexi retractable lead, Halti and Gentle Leader head halters, Baskerville Ultra muzzle, martingale and slip collars as types. Add training aids as a new kind.",
+     "k": [
+      {
+       "n": "Dog harness",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Dog collar",
+       "old": [
+        "k12"
+       ],
+       "brief": "Types flat, martingale, slip/check, head halter (or split head halters out as a type of harness/collar)."
+      },
+      {
+       "n": "Dog lead",
+       "old": [
+        "k13"
+       ],
+       "brief": "Types fixed, retractable, long line, slip lead, hands-free."
+      },
+      {
+       "n": "Dog muzzle",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Dog training aids",
+       "old": [],
+       "brief": "NEW: clicker, dog whistle (Acme 210.5), treat pouch, long line; types not separate kinds."
+      }
+     ]
+    },
+    {
+     "n": "Beds, crates, clothing & travel",
+     "web": true,
+     "brief": "Archetypes: donut/calming bed, orthopaedic memory-foam bed, Tuffies/Kuranda chew-proof bed; crate types wire, plastic (Vari Kennel), fabric, furniture crate; Gunner G1 kennel (crash-tested); dog coats: Ruffwear, Hurtta, Equafleece, Barbour wax coat; dog boots (Ruffwear Grip Trex); life jacket; car restraint (crash-tested harness, boot guard, seat cover).",
+     "k": [
+      {
+       "n": "Dog bed",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Dog crate",
+       "old": [
+        "k17"
+       ],
+       "brief": "Indoor and travel crates; types wire, plastic, fabric, aluminium/crash-tested."
+      },
+      {
+       "n": "Dog kennel",
+       "old": [
+        "k19"
+       ],
+       "brief": "Outdoor dog house and run."
+      },
+      {
+       "n": "Dog coat",
+       "old": [
+        "k18"
+       ],
+       "brief": "Types raincoat, fleece, jumper, cooling coat."
+      },
+      {
+       "n": "Dog boots",
+       "old": [],
+       "brief": "NEW: paw boots and socks."
+      },
+      {
+       "n": "Dog life jacket",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Dog car restraint",
+       "old": [],
+       "brief": "NEW: crash-tested car harness, boot dog guard, seat cover and car booster seat as types."
+      }
+     ]
+    },
+    {
+     "n": "Toys, sport & clean-up",
+     "web": true,
+     "brief": "Dissolve 'other toys' into the specific kinds. Archetypes: KONG Classic, Nylabone, Chuckit! launcher, Frisbee/Hyperflite disc, West Paw Zogoflex, Nina Ottosson puzzles, LickiMat, Lotus ball. Dog sport: agility (jump, A-frame, weave poles, tunnel), flyball box, scent work kits; gundog training dummies (canvas dummy, Dokken). Waste bags: tier, plus dispenser and poop scooper as types.",
+     "k": [
+      {
+       "n": "Dog chew toys",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Dog fetch toys",
+       "old": [
+        "k25"
+       ],
+       "brief": "Balls, launchers, flying discs."
+      },
+      {
+       "n": "Dog puzzle and treat-dispensing toys",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Plush dog toys",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Dog rope and tug toys",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Dog agility equipment",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Gundog training dummy",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Dog waste bags",
+       "old": [
+        "k21"
+       ],
+       "brief": "Types bag, dispenser, poop scooper."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Cats",
+   "mode": "tier",
+   "note": "Pick-the-best supplies; cat trees and toys carry a few named icons.",
+   "b": [
+    {
+     "m": "Litter type",
+     "w": "Clumping and dust are what owner tests and vets compare",
+     "v": "clay (clumping) · silica · wood/pine · plant (tofu, corn, wheat) · paper"
+    },
+    {
+     "m": "Cat tree stability",
+     "w": "Large cats tip lightweight trees; sisal-wrapped posts outlast carpet",
+     "v": "free-standing · floor-to-ceiling pole · wall-mounted"
+    }
+   ],
+   "s": [
+    {
+     "n": "Cat food & treats",
+     "web": false,
+     "brief": "Restraint: ~8-12 market-covering brands per kind (Royal Canin, Hill's, Purina, Whiskas, Felix, Sheba, Applaws, Lily's Kitchen, Ziwi Peak, Smalls...) plus test winners; drop SKU and flavour noise.",
+     "k": [
+      {
+       "n": "Dry cat food",
+       "old": [
+        "k27"
+       ]
+      },
+      {
+       "n": "Wet cat food",
+       "old": [
+        "k28"
+       ]
+      },
+      {
+       "n": "Fresh, frozen and raw cat food",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Freeze-dried and air-dried cat food",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Veterinary cat food",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Cat treats",
+       "old": [
+        "k29"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Litter & toilets",
+     "web": true,
+     "brief": "Add the missing plain litter box kind (open tray, hooded, top-entry; Modkat, Catit, IKEA-style furniture enclosure). Self-cleaning boxes: Litter-Robot (Whisker), PetSafe ScoopFree, Petkit Pura. Litter: types by material; tier brands (Catsan, World's Best, Ever Clean, Dr. Elsey's, Tidy Cats). Litter Genie/Litter Locker for pails.",
+     "k": [
+      {
+       "n": "Cat litter box",
+       "old": [],
+       "brief": "NEW: tray, hooded, top-entry, litter box furniture."
+      },
+      {
+       "n": "Cat litter",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "Self-cleaning litter box",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Litter disposal pail",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Litter mat and scoop",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Trees, scratchers, beds & toys",
+     "web": true,
+     "brief": "Archetypes: floor-to-ceiling cat tree, sisal post, cardboard scratcher (Catit/Petstages), designer cat furniture; wall shelves (Catastrophic Creations, Vesper). Add missing cat bed (radiator bed, window perch, heated pad) and cat toy (wand/teaser e.g. Da Bird, Cat Dancer; laser; catnip kicker; track ball). Cat harness for walking is a type under Dog/cat harness or here.",
+     "k": [
+      {
+       "n": "Cat tree",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Cat scratcher",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Wall-mounted cat furniture",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Cat bed",
+       "old": [],
+       "brief": "NEW: radiator bed, window perch, igloo, heated pad."
+      },
+      {
+       "n": "Cat toy",
+       "old": [],
+       "brief": "NEW: wand/teaser, laser, catnip toy, track toy."
+      },
+      {
+       "n": "Cat harness and lead",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "For every pet",
+   "mode": "tier",
+   "note": "Gear used across dogs, cats and small pets.",
+   "b": [
+    {
+     "m": "Bowl material",
+     "w": "Steel and glazed ceramic are hygienic; scratched plastic harbours bacteria",
+     "v": "stainless steel · ceramic · plastic"
+    },
+    {
+     "m": "Microchip standard",
+     "w": "The international standard readers and databases use",
+     "v": "ISO 11784/11785 FDX-B"
+    }
+   ],
+   "s": [
+    {
+     "n": "Bowls & feeders",
+     "web": false,
+     "brief": "Restraint: tier brands (Petsafe, Catit, Petlibro, Sure Petcare SureFeed, Petkit); types slow-feeder, raised, microchip feeder.",
+     "k": [
+      {
+       "n": "Pet food and water bowl",
+       "old": [
+        "k149"
+       ]
+      },
+      {
+       "n": "Pet water fountain",
+       "old": [
+        "k150"
+       ]
+      },
+      {
+       "n": "Automatic pet feeder",
+       "old": [
+        "k151"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Gates, pens & doors",
+     "web": false,
+     "brief": "Restraint: tier brands (Sure Petcare SureFlap, Cat Mate, PetSafe, Staywell, Carlson, Richell).",
+     "k": [
+      {
+       "n": "Pet door",
+       "old": [
+        "k154"
+       ]
+      },
+      {
+       "n": "Pet gate",
+       "old": [
+        "k152"
+       ]
+      },
+      {
+       "n": "Pet pen",
+       "old": [
+        "k153"
+       ]
+      },
+      {
+       "n": "Electronic pet fence",
+       "old": [
+        "k155"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Carriers, ID & tech",
+     "web": false,
+     "brief": "Restraint: carriers types hard, soft, backpack, pet stroller; tier brands; microchip scanner kind-level, few models.",
+     "k": [
+      {
+       "n": "Pet carrier",
+       "old": [
+        "k156"
+       ]
+      },
+      {
+       "n": "Pet ID tag",
+       "old": [
+        "k157"
+       ]
+      },
+      {
+       "n": "GPS pet tracker",
+       "old": [
+        "k160"
+       ]
+      },
+      {
+       "n": "Pet camera",
+       "old": [
+        "k161"
+       ]
+      },
+      {
+       "n": "Identification microchip",
+       "old": [
+        "k158"
+       ]
+      },
+      {
+       "n": "Microchip scanner",
+       "old": [
+        "k159"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Health & grooming",
+     "web": true,
+     "brief": "Add missing grooming tools (slicker brush, deshedding tool e.g. FURminator, rake, comb), nail clippers/grinder, pet clippers (Wahl, Andis, Oster), recovery collar (cone, inflatable), pet first-aid kit. Parasite treatments: tier brands (Frontline, Advantage, NexGard, Bravecto, Seresto collar) as types spot-on, tablet, collar.",
+     "k": [
+      {
+       "n": "Flea, tick and worm treatment",
+       "old": [
+        "k162"
+       ]
+      },
+      {
+       "n": "Pet grooming brush and comb",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pet nail clippers",
+       "old": [],
+       "brief": "NEW: clippers and grinders."
+      },
+      {
+       "n": "Pet hair clippers",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pet shampoo",
+       "old": [
+        "k164"
+       ]
+      },
+      {
+       "n": "Pet supplement",
+       "old": [
+        "k163"
+       ]
+      },
+      {
+       "n": "Recovery collar",
+       "old": [],
+       "brief": "NEW: cone, inflatable, soft collar."
+      },
+      {
+       "n": "Pet first-aid kit",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Aquariums & ponds",
+   "mode": "mixed",
+   "note": "Tier for basic kit; variety for aquascaping, reef and koi keeping.",
+   "b": [
+    {
+     "m": "Filter turnover",
+     "w": "Common fishkeeping guidance; reef tanks run higher flow",
+     "v": "4-10× tank volume per hour"
+    },
+    {
+     "m": "Planted-tank light and CO2",
+     "w": "Aquascaping practice (ADA Nature Aquarium) ties lighting intensity to CO2 and fertiliser",
+     "v": "low-tech · liquid carbon · pressurised CO2"
+    }
+   ],
+   "s": [
+    {
+     "n": "Tanks, lighting & heating",
+     "web": true,
+     "brief": "Archetypes: ADA Cube Garden rimless tank (Takashi Amano), UNS, Juwel Rio/Lido, Fluval Flex, Red Sea Reefer, Waterbox, nano tanks; lights: ADA Solar RGB, Chihiros, Twinstar, Kessil A360, AI Hydra, Radion; heaters Eheim Jäger, Fluval E. Add stand/cabinet and chiller.",
+     "k": [
+      {
+       "n": "Aquarium",
+       "old": [
+        "k70"
+       ],
+       "brief": "Types rimless, all-in-one, nano, reef-ready, bowfront."
+      },
+      {
+       "n": "Aquarium light",
+       "old": [
+        "k74"
+       ]
+      },
+      {
+       "n": "Aquarium heater",
+       "old": [
+        "k73"
+       ]
+      },
+      {
+       "n": "Aquarium cabinet and stand",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Aquarium chiller",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Filtration, water care & feeding",
+     "web": true,
+     "brief": "Archetypes: Eheim Classic canister (1960s), Fluval FX/07 series, Oase BioMaster, AquaClear HOB, sponge filter, Tetra Whisper air pump; media Seachem Matrix; water care Seachem Prime, API Master Test Kit, Tetra test strips; RO/DI unit for reef. Fish food tier brands (Tetra, Hikari, New Life Spectrum, Sera, JBL), frozen foods as type; automatic fish feeder new.",
+     "k": [
+      {
+       "n": "Aquarium filter",
+       "old": [
+        "k80"
+       ],
+       "brief": "Types canister, hang-on-back, internal, sponge."
+      },
+      {
+       "n": "Aquarium sump",
+       "old": [
+        "k81"
+       ]
+      },
+      {
+       "n": "Under-gravel filter",
+       "old": [
+        "k82"
+       ]
+      },
+      {
+       "n": "Aquarium filter media",
+       "old": [
+        "k83"
+       ]
+      },
+      {
+       "n": "Aquarium air pump",
+       "old": [
+        "k84"
+       ]
+      },
+      {
+       "n": "Aquarium water treatment",
+       "old": [
+        "k86"
+       ]
+      },
+      {
+       "n": "Water test kit",
+       "old": [
+        "k87"
+       ]
+      },
+      {
+       "n": "RO/DI water unit",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Fish food",
+       "old": [
+        "k85"
+       ],
+       "brief": "Types flake, pellet, granule, frozen, freeze-dried, gel."
+      },
+      {
+       "n": "Automatic fish feeder",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Aquascaping & planted tanks",
+     "web": true,
+     "brief": "Variety: ADA (Aqua Soil Amazonia, Power Sand, Do!aqua), Tropica (Aquarium Soil, Specialised Nutrition), Dennerle, UNS Controsoil, Fluval Stratum; hardscape styles: Iwagumi (Seiryu, Ohko/dragon stone), Nature Aquarium, Dutch, jungle; CO2: pressurised kit, diffuser, drop checker, solenoid (CO2Art, ADA, Dennerle); tools: tweezers, scissors, spatula. Live plants (Tropica 1-2-Grow) belong to the living-plants register in C3 -- cross-link only. Merge 'Other decoration' into rock/wood/ornaments.",
+     "k": [
+      {
+       "n": "Aquarium substrate",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Aquarium hardscape rock",
+       "old": [
+        "k77",
+        "k72"
+       ]
+      },
+      {
+       "n": "Aquarium driftwood",
+       "old": [
+        "k76"
+       ]
+      },
+      {
+       "n": "Aquarium CO2 system",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Aquarium plant fertiliser",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Aquascaping tools",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Artificial aquarium plants",
+       "old": [
+        "k75"
+       ]
+      },
+      {
+       "n": "Aquarium ornaments",
+       "old": [
+        "k78"
+       ]
+      },
+      {
+       "n": "Aquarium background",
+       "old": [
+        "k79"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Marine & reef",
+     "web": true,
+     "brief": "Reef hobby kit: protein skimmer (Reef Octopus, Nyos, Bubble Magus), wavemaker/powerhead (EcoTech Vortech, Maxspect Gyre, Tunze), dosing pump, calcium reactor, reef salt (Red Sea Coral Pro, Tropic Marin), auto top-off. Invertebrates (shrimp, snails, corals) are animals -- breeds/species register; equipment only here.",
+     "k": [
+      {
+       "n": "Protein skimmer",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Wavemaker",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Reef salt mix",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Dosing pump",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Calcium reactor",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Auto top-off system",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Ponds & koi",
+     "web": true,
+     "brief": "Garden pond and koi keeping equipment (pond structure/liner itself is a garden or home fixture). Pond pump, pond filter (pressurised, gravity, drum filter), UV clarifier, air pump, koi food (Saki-Hikari, Hikari, JPD, Kusuri), koi net and show bowl, heron deterrent. Japanese koi-keeping makers (Hikari, JPD) as brands.",
+     "k": [
+      {
+       "n": "Pond pump",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pond filter",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pond UV clarifier",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pond aerator",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Koi and pond fish food",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Koi net and bowl",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pond heron deterrent",
+       "old": [],
+       "brief": "NEW: netting, decoy, sprinkler scarer."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Horses & riding",
+   "mode": "mixed",
+   "note": "Leisure horses; tier for stable supplies, variety for saddlery and bits. Rider helmets and clothing live in Sports/Clothing.",
+   "b": [
+    {
+     "m": "Saddle tree and fit",
+     "w": "Saddle fitters (Society of Master Saddlers) fit tree width and panel to the horse",
+     "v": "fixed tree · adjustable/changeable gullet · flexible · treeless"
+    },
+    {
+     "m": "Bit action",
+     "w": "Classical bitting theory; mouthpiece and cheek decide pressure points",
+     "v": "direct (snaffle) · leverage (curb) · combination (pelham, gag)"
+    },
+    {
+     "m": "Rug weight",
+     "w": "Rug makers' fill and denier ladder",
+     "v": "sheet 0g · light 100g · medium 200g · heavy 300g+ fill; denier 600-1680"
+    }
+   ],
+   "s": [
+    {
+     "n": "Saddles & fittings",
+     "web": true,
+     "brief": "Variety at the luxury end: French and English saddlery houses Hermès, Butet, CWD, Devoucoux, Antares, Voltaire, Prestige (Italy), Stübben, Passier, Albion, Bates/Wintec (adjustable gullet). Archetypes by discipline: close-contact jumping, dressage, general purpose, eventing; Western: roping, barrel racing, reining, Wade (King Ranch, Billy Cook, Circle Y, Martin); Australian stock (Syd Hill); McClellan/military; side saddle (Mayhew, Champion & Wilton); treeless (Barefoot, Ansur). Pads/girths: Mattes sheepskin, Ogilvy, Equipedia; stirrups: Fillis iron, MDC, Freejump, safety stirrups. Saddlery traditions (Walsall saddlery, Saumur/French saddle) as traditions.",
+     "k": [
+      {
+       "n": "English saddle",
+       "old": [
+        "k39"
+       ],
+       "brief": "Types jumping, dressage, general purpose, eventing, endurance."
+      },
+      {
+       "n": "Western saddle",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Australian stock saddle",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Side saddle",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Treeless saddle",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pack saddle",
+       "old": [
+        "k45"
+       ],
+       "brief": "Types sawbuck, Decker."
+      },
+      {
+       "n": "Saddle pad",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Horse girth",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Stirrup",
+       "old": [
+        "k43"
+       ],
+       "brief": "Irons and leathers; types Fillis, safety, jointed, wooden Western."
+      }
+     ]
+    },
+    {
+     "n": "Bridles & bits",
+     "web": true,
+     "brief": "Archetypes: snaffle bridle with cavesson/flash/grackle nosebands, double (Weymouth) bridle, Western headstall; bits by cheek: eggbutt, loose ring, D-ring, full cheek, Baucher, Weymouth, pelham, kimberwicke, Western curb, gag (Dutch/3-ring, Continental); bitless: mechanical hackamore, sidepull, Dr Cook cross-under. Makers Herm Sprenger, Neue Schule, Myler, Stübben. Martingale: running, standing, Irish, breastplate as types.",
+     "k": [
+      {
+       "n": "Bridle",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Snaffle bit",
+       "old": [
+        "k48"
+       ]
+      },
+      {
+       "n": "Curb bit",
+       "old": [
+        "k50"
+       ],
+       "brief": "Includes Weymouth, pelham, kimberwicke as types or archetypes."
+      },
+      {
+       "n": "Gag bit",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "Bitless bridle",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "Reins",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Martingale and breastplate",
+       "old": [
+        "k52"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Headcollars, lungeing & driving",
+     "web": true,
+     "brief": "Headcollars (leather, nylon, rope halter -- Parelli/natural-horsemanship rope halter archetype), lead ropes, lunge line, lunge roller/surcingle and side reins (new); driving harness for carriage driving (types single, pair; breast collar, full collar).",
+     "k": [
+      {
+       "n": "Headcollar",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Lead rope",
+       "old": [
+        "k55"
+       ]
+      },
+      {
+       "n": "Lunge line",
+       "old": [
+        "k56"
+       ]
+      },
+      {
+       "n": "Lunge roller and side reins",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Driving harness",
+       "old": [
+        "k46"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Rugs, boots & fly protection",
+     "web": true,
+     "brief": "Tier with icons: Horseware Rambo and Amigo, Weatherbeeta, Bucas, Shires, Premier Equine; boots: Veredus, eskadron, Le Mieux; add travel boots/wraps and ear bonnet (fly veil) as new kinds; exercise sheet as type of rug.",
+     "k": [
+      {
+       "n": "Turnout rug",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "Stable rug",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Cooler rug",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Fly rug",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Fly mask",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Ear bonnet",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Tendon and brushing boot",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Overreach boot",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Travel boots and bandages",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Grooming, hoof & coat care",
+     "web": true,
+     "brief": "Grooming kit icons: dandy brush, body brush, curry comb (rubber, metal), mane comb, hoof pick, sweat scraper; clippers (Lister, Heiniger, Liveryman); fly repellent (types spray, roll-on); hoof care (Cornucrescine, Keratex).",
+     "k": [
+      {
+       "n": "Horse grooming brush",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Curry comb",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "Hoof pick",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Sweat scraper",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Horse clippers",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Hoof care product",
+       "old": [
+        "k66"
+       ]
+      },
+      {
+       "n": "Horse fly repellent",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Feed, hay & stable",
+     "web": true,
+     "brief": "Restraint for feed: tier brands (Spillers, Baileys, Dodson & Horrell, Purina, Triple Crown, Saracen); supplements tier (types joint, hoof, calmer, electrolyte). Hay covers horses and small animals (types meadow, timothy, alfalfa, haylage). Add salt/mineral lick, feed bucket/manger and horse treats as new kinds.",
+     "k": [
+      {
+       "n": "Compound horse feed",
+       "old": [
+        "k67"
+       ]
+      },
+      {
+       "n": "Horse supplement",
+       "old": [
+        "k68"
+       ]
+      },
+      {
+       "n": "Hay",
+       "old": [
+        "k120"
+       ],
+       "brief": "Shared with small animals; types meadow, timothy, alfalfa, haylage."
+      },
+      {
+       "n": "Hay net",
+       "old": [
+        "k69"
+       ],
+       "brief": "Types slow-feed net, hay bag, hay rack."
+      },
+      {
+       "n": "Salt and mineral lick",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Feed bucket and manger",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Horse treats",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Birds",
+   "mode": "mixed",
+   "note": "Tier for pet and garden birds; variety for falconry and pigeon racing.",
+   "b": [
+    {
+     "m": "Bar spacing",
+     "w": "Bird-keeping guidance; wrong spacing traps heads or lets birds escape",
+     "v": "finches ≤1 cm · budgies 1-1.3 cm · large parrots 2-2.5 cm"
+    },
+    {
+     "m": "Feeder squirrel resistance",
+     "w": "Garden-bird tests (RSPB, Which?) compare squirrel-proof designs",
+     "v": "open · caged · weight-activated"
+    }
+   ],
+   "s": [
+    {
+     "n": "Cage & aviary birds",
+     "web": true,
+     "brief": "Tier cage-bird gear (Vision, Prevue, Montana, Ferplast; food Versele-Laga, Harrison's, Zupreem, Roudybush); add aviary (outdoor flight and shelter) as new kind.",
+     "k": [
+      {
+       "n": "Bird cage",
+       "old": [
+        "k100"
+       ]
+      },
+      {
+       "n": "Aviary",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Cage-bird food",
+       "old": [
+        "k99"
+       ]
+      },
+      {
+       "n": "Cage-bird feeder or drinker",
+       "old": [
+        "k101"
+       ]
+      },
+      {
+       "n": "Bird perch",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "Bird toy",
+       "old": [
+        "k103"
+       ]
+      },
+      {
+       "n": "Cage-bird nest box",
+       "old": [
+        "k104"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Falconry",
+     "web": true,
+     "brief": "Variety: hoods (Dutch, Anglo-Indian, Arab/Bahraini, Syrian), glove/gauntlet, jesses and aylmeri anklets, leash and swivel, bells, lure and swing lure, block and bow perches, hawking bag/vest, telemetry (Marshall Radio, Merlin), giant hood/transport box; makers and traditions (Arab falconry, UNESCO ICH falconry entry; British, Japanese takagari).",
+     "k": [
+      {
+       "n": "Falconry hood",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Falconry glove",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Jesses and anklets",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Leash and swivel",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Falconry bells",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Falconry lure",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Falconry perch",
+       "old": [],
+       "brief": "NEW: block, bow perch, screen perch."
+      },
+      {
+       "n": "Hawking bag and vest",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Falconry telemetry",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Pigeon racing & fancy",
+     "web": true,
+     "brief": "Pigeon loft (racing loft, trap/landing board), electronic timing system (Benzing, Tauris, Unikon, Bricon), traditional clock, transport basket, pigeon feed (Versele-Laga, Beyers), drinker/feeder; ring/band types. Fancy pigeons are animals -- breeds register.",
+     "k": [
+      {
+       "n": "Pigeon loft",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pigeon timing system",
+       "old": [],
+       "brief": "NEW: electronic and mechanical clocks."
+      },
+      {
+       "n": "Pigeon trap and landing board",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pigeon transport basket",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pigeon feed",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Pigeon drinker and feeder",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Wild bird feeders",
+     "web": false,
+     "brief": "Restraint: tier brands (Droll Yankees, Brome Squirrel Buster, Jacobi Jayne, CJ Wildlife, Perky-Pet, Aspects, Gardman); merge feeding station and hanger hardware.",
+     "k": [
+      {
+       "n": "Tube feeder",
+       "old": [
+        "k105"
+       ]
+      },
+      {
+       "n": "Hopper feeder",
+       "old": [
+        "k106"
+       ]
+      },
+      {
+       "n": "Suet feeder",
+       "old": [
+        "k107"
+       ]
+      },
+      {
+       "n": "Peanut mesh feeder",
+       "old": [
+        "k109"
+       ]
+      },
+      {
+       "n": "Nyjer feeder",
+       "old": [
+        "k110"
+       ]
+      },
+      {
+       "n": "Platform feeder",
+       "old": [
+        "k108"
+       ]
+      },
+      {
+       "n": "Ground feeder",
+       "old": [
+        "k111"
+       ]
+      },
+      {
+       "n": "Hummingbird feeder",
+       "old": [
+        "k112"
+       ]
+      },
+      {
+       "n": "Bird feeding station and hanger",
+       "old": [
+        "k113",
+        "k114"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Wild bird food, baths & nest boxes",
+     "web": false,
+     "brief": "Restraint: tier brands (CJ Wildlife, RSPB, Haith's, Vivara, Schwegler woodcrete nest boxes); nest-box types by hole size and open-front.",
+     "k": [
+      {
+       "n": "Wild bird seed",
+       "old": [
+        "k115"
+       ]
+      },
+      {
+       "n": "Suet or fat ball",
+       "old": [
+        "k116"
+       ]
+      },
+      {
+       "n": "Bird bath",
+       "old": [
+        "k117"
+       ]
+      },
+      {
+       "n": "Wild bird nest box",
+       "old": [
+        "k118"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Small animals & backyard poultry",
+   "mode": "tier",
+   "note": "Backyard flocks up to about six birds; larger flocks are farm equipment (C7).",
+   "b": [
+    {
+     "m": "Hutch and run space",
+     "w": "Rabbit Welfare Association & Fund 'A hutch is not enough' guidance",
+     "v": "RWAF minimum 3 m × 2 m × 1 m for a pair of rabbits"
+    },
+    {
+     "m": "Coop space",
+     "w": "Backyard poultry guidance",
+     "v": "~0.3-0.4 m² inside and ~1 m² run per hen"
+    }
+   ],
+   "s": [
+    {
+     "n": "Small animals",
+     "web": true,
+     "brief": "Tier: food (Science Selective/Supreme, Burgess, Oxbow, Versele-Laga), hutches and runs (Omlet Eglu Go hutch, Zooplus), cages (Ferplast, Savic, Prevue). Add rabbit run, exercise wheel, water bottle and small-animal bedding.",
+     "k": [
+      {
+       "n": "Small-animal food",
+       "old": [
+        "k119"
+       ]
+      },
+      {
+       "n": "Small-animal cage or hutch",
+       "old": [
+        "k121"
+       ]
+      },
+      {
+       "n": "Rabbit and guinea-pig run",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Small-animal bedding",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Exercise wheel",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Small-animal water bottle",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    },
+    {
+     "n": "Backyard poultry",
+     "web": true,
+     "brief": "Merge layer/grower/starter feed into one kind with types. Icons: Omlet Eglu coop, Brinsea incubators (Mini II), Comfort/Brinsea EcoGlow brooder plate, ChickenGuard and Omlet Autodoor automatic doors, electric poultry netting (Rappa, Electric Fencing Direct). Ducks and quail as types of coop.",
+     "k": [
+      {
+       "n": "Chicken coop",
+       "old": [
+        "k126"
+       ]
+      },
+      {
+       "n": "Chicken run",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Automatic coop door",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Poultry feed",
+       "old": [
+        "k122",
+        "k123",
+        "k124"
+       ],
+       "brief": "Types starter, grower, layer."
+      },
+      {
+       "n": "Scratch grain",
+       "old": [
+        "k125"
+       ]
+      },
+      {
+       "n": "Poultry feeder or waterer",
+       "old": [
+        "k127"
+       ]
+      },
+      {
+       "n": "Small egg incubator",
+       "old": [
+        "k128"
+       ]
+      },
+      {
+       "n": "Brooder heating plate",
+       "old": [
+        "k129"
+       ]
+      },
+      {
+       "n": "Poultry netting",
+       "old": [],
+       "brief": "NEW: electric and plain net fencing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Reptiles, amphibians & invertebrates",
+   "mode": "mixed",
+   "note": "Tier for heat and light; variety for vivarium styles and invertebrate keeping.",
+   "b": [
+    {
+     "m": "UVB zone",
+     "w": "Ferguson et al. UV-index zones are the reptile-keeping standard for UVB provision",
+     "v": "Ferguson zones 1-4"
+    },
+    {
+     "m": "Thermostat type",
+     "w": "Heat-source matching: dimming for lamps, pulse for mats and CHEs",
+     "v": "on/off · dimming · pulse-proportional"
+    }
+   ],
+   "s": [
+    {
+     "n": "Enclosures & feeding",
+     "web": true,
+     "brief": "Archetypes: Exo Terra glass terrarium (front-opening), Zoo Med ReptiBreeze screen cage, wooden/PVC vivarium (Vivexotic, Animal Plastics), bioactive and paludarium set-ups; misting/fogging (MistKing, Exo Terra Monsoon). Feeding: Repashy, Zoo Med, Arcadia, Pangea; frozen rodents; calcium/D3 supplements (Repashy Calcium Plus). Invertebrates: tarantula/insect enclosures, formicarium for ant keeping. Animals themselves → breeds/species register.",
+     "k": [
+      {
+       "n": "Vivarium",
+       "old": [
+        "k88"
+       ],
+       "brief": "Types glass terrarium, wooden vivarium, PVC, screen, paludarium."
+      },
+      {
+       "n": "Reptile substrate",
+       "old": [
+        "k91"
+       ]
+      },
+      {
+       "n": "Reptile hide",
+       "old": [
+        "k92"
+       ]
+      },
+      {
+       "n": "Misting and fogging system",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Reptile food",
+       "old": [
+        "k89"
+       ]
+      },
+      {
+       "n": "Frozen feeder animal",
+       "old": [
+        "k90"
+       ]
+      },
+      {
+       "n": "Reptile calcium and vitamin supplement",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Invertebrate enclosure",
+       "old": [],
+       "brief": "NEW: tarantula, mantis and insect enclosures."
+      },
+      {
+       "n": "Formicarium",
+       "old": [],
+       "brief": "NEW: ant nest and outworld."
+      }
+     ]
+    },
+    {
+     "n": "Heating & lighting",
+     "web": true,
+     "brief": "Archetypes: Arcadia T5 ProT, Zoo Med ReptiSun, Arcadia D3 UV Basking, Mega-Ray mercury vapour; heat: Habistat/Microclimate thermostats, Arcadia Deep Heat Projector, Zoo Med CHE; add thermometer/hygrometer.",
+     "k": [
+      {
+       "n": "UVB lamp",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Basking lamp",
+       "old": [
+        "k94"
+       ]
+      },
+      {
+       "n": "Deep heat projector",
+       "old": [
+        "k97"
+       ]
+      },
+      {
+       "n": "Ceramic heat emitter",
+       "old": [
+        "k96"
+       ]
+      },
+      {
+       "n": "Reptile heat mat",
+       "old": [
+        "k95"
+       ]
+      },
+      {
+       "n": "Reptile thermostat",
+       "old": [
+        "k98"
+       ]
+      },
+      {
+       "n": "Thermometer and hygrometer",
+       "old": [],
+       "brief": "NEW"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Beekeeping",
+   "mode": "mixed",
+   "note": "Hive designs are a variety axis; tools and treatments are tier.",
+   "b": [
+    {
+     "m": "Hive standard",
+     "w": "Frame sizes are not interchangeable; local beekeeping associations standardise on one",
+     "v": "Langstroth · National · Dadant · Commercial · Warré · top-bar · Layens"
+    },
+    {
+     "m": "Hive material",
+     "w": "Polystyrene hives (e.g. Paradise, Swienty) insulate; cedar is the traditional choice",
+     "v": "cedar · pine · polystyrene · plastic"
+    }
+   ],
+   "s": [
+    {
+     "n": "Hives & hive parts",
+     "web": true,
+     "brief": "Hive archetypes ordered by significance: Langstroth (1852), British National, Dadant, Commercial, WBC (William Broughton Carr), Warré, Kenyan/top-bar, Layens long hive, Flow Hive (2015), polystyrene hives; skep as traditional/decorative type. Makers: Thorne, Maisemore, Dadant & Sons, Mann Lake, Swienty, Lyson. Traditions: skep making, log hives (zeidlerei, UNESCO ICH tree beekeeping).",
+     "k": [
+      {
+       "n": "Framed vertical hive",
+       "old": [
+        "k130"
+       ]
+      },
+      {
+       "n": "Long hive",
+       "old": [
+        "k131"
+       ]
+      },
+      {
+       "n": "Top-bar hive",
+       "old": [
+        "k132"
+       ]
+      },
+      {
+       "n": "Warré hive",
+       "old": [
+        "k133"
+       ]
+      },
+      {
+       "n": "Hive body",
+       "old": [
+        "k134"
+       ]
+      },
+      {
+       "n": "Hive frame",
+       "old": [
+        "k135"
+       ]
+      },
+      {
+       "n": "Comb foundation",
+       "old": [
+        "k136"
+       ]
+      },
+      {
+       "n": "Queen excluder",
+       "old": [
+        "k137"
+       ]
+      },
+      {
+       "n": "Bee feeder",
+       "old": [
+        "k138"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Beekeeping tools, protective wear & bee health",
+     "web": true,
+     "brief": "Add beekeeping suit/jacket and veil (BB Wear, Sherriff, Mann Lake) and bee brush. Tools: smoker (Dadant, Kelley), J-hook/Australian hive tool, frame grip; varroa treatments tier (Apivar, ApiLife Var, oxalic acid vaporiser, MAQS); queen rearing: Jenter/Nicot cell-cup kits, Chinese grafting tool.",
+     "k": [
+      {
+       "n": "Beekeeping suit and veil",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Bee smoker",
+       "old": [
+        "k139"
+       ]
+      },
+      {
+       "n": "Hive tool",
+       "old": [
+        "k140"
+       ]
+      },
+      {
+       "n": "Hive frame grip",
+       "old": [
+        "k141"
+       ]
+      },
+      {
+       "n": "Bee brush",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Varroa treatment",
+       "old": [
+        "k142"
+       ]
+      },
+      {
+       "n": "Queen cage",
+       "old": [
+        "k143"
+       ]
+      },
+      {
+       "n": "Queen-rearing kit",
+       "old": [
+        "k144"
+       ]
+      },
+      {
+       "n": "Grafting tool",
+       "old": [
+        "k145"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Honey harvesting & wax",
+     "web": true,
+     "brief": "Extractors (tangential, radial; manual and electric; Lyson, Swienty, Thorne), uncapping knife/fork and uncapping tray, honey strainer, settling/bottling tank, honey refractometer, solar wax extractor/wax melter.",
+     "k": [
+      {
+       "n": "Honey extractor",
+       "old": [
+        "k146"
+       ]
+      },
+      {
+       "n": "Uncapping knife or fork",
+       "old": [
+        "k147"
+       ]
+      },
+      {
+       "n": "Uncapping tray",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Honey strainer",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Honey bottling bucket or tank",
+       "old": [
+        "k148"
+       ]
+      },
+      {
+       "n": "Honey refractometer",
+       "old": [],
+       "brief": "NEW"
+      },
+      {
+       "n": "Wax melter",
+       "old": [],
+       "brief": "NEW: solar and steam wax extractors."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}

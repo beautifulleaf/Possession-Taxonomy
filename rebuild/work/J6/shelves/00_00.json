@@ -1,0 +1,831 @@
+{
+ "kinds": [
+  {
+   "n": "Single-origin coffee",
+   "a": "origin coffee · estate coffee",
+   "d": "Roasted coffee sold by country, region, estate or cooperative; whole bean, ground or drip bag.",
+   "t": [
+    "whole bean",
+    "ground",
+    "drip bag"
+   ],
+   "s": "https://volcanicacoffee.com/products/2-pack-bundle-ethiopia-yirgacheffe-kenya-aa-10-discount-16-oz-each",
+   "x": [
+    {
+     "n": "Ethiopia Yirgacheffe",
+     "a": "Yirgachefe · Yirga Chefe",
+     "d": "Washed or natural arabica from the Yirgachefe district of the Gedeo zone; a trademarked regional name owned by Ethiopia.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
+     "v": [
+      {
+       "n": "Sidama and Guji neighbours",
+       "mk": "",
+       "y": "",
+       "d": "Sold as separate regional names; Wikipedia treats Sidamo as including Yirgacheffe and Guji"
+      }
+     ],
+     "dt": "variety: Ethiopian heirloom · process: washed, natural · grade: by washing station · roast: light"
+    },
+    {
+     "n": "Ethiopia Sidamo / Sidama",
+     "a": "Sidamo",
+     "d": "Arabica from the former Sidamo province, high grown at 1,500-2,200 m; a regional name trademarked by Ethiopia.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
+     "v": [
+      {
+       "n": "Strictly High Grown (SHG)",
+       "mk": "",
+       "y": "",
+       "d": "High-altitude Sidamo grade named in the source"
+      }
+     ],
+     "dt": "variety: heirloom · process: washed, natural · grade SHG"
+    },
+    {
+     "n": "Ethiopia Guji",
+     "a": "",
+     "d": "Sidamo-type arabica from the Guji area, often sold as natural or washed lots.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
+     "v": [],
+     "dt": "variety: heirloom · process: natural, washed"
+    },
+    {
+     "n": "Ethiopia Harar",
+     "a": "Harrar · Mocha Harar",
+     "d": "Dry-processed eastern-highland arabica, medium bean with a mocha-like profile; Mocha Harars are known for peaberries.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
+     "v": [
+      {
+       "n": "Longberry / Shortberry / Mocha",
+       "mk": "",
+       "y": "",
+       "d": "The three bean categories the source names"
+      }
+     ],
+     "dt": "process: natural (dry) · bean: longberry, shortberry, mocha"
+    },
+    {
+     "n": "Kenya (AA grade)",
+     "a": "Kenya AA · Nyeri · Kirinyaga",
+     "d": "Washed arabica sold through the Nairobi Coffee Exchange auction, produced by cooperative factories and estates and graded by bean size.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Kenya",
+     "v": [
+      {
+       "n": "Gikanda Cooperative Society (Mathira, Nyeri)",
+       "mk": "",
+       "y": "",
+       "d": "Factories: Gichathaini, Kangocho, Ndaroini"
+      },
+      {
+       "n": "Tekangu Cooperative Society (Mathira, Nyeri)",
+       "mk": "",
+       "y": "",
+       "d": "Factories: Tegu, Karogoto, Ngunguru"
+      },
+      {
+       "n": "Mutheka Farmers Co-operative Society (Nyeri)",
+       "mk": "",
+       "y": "",
+       "d": "Six named factories incl. Chorong'i, Kihuyo"
+      },
+      {
+       "n": "Rung'eto Farmers Co-operative Society (Kirinyaga)",
+       "mk": "",
+       "y": "",
+       "d": "Factories: Kii, Karimikui, Kiangoi"
+      },
+      {
+       "n": "Baragwi Farmers Co-operative Society (Kirinyaga)",
+       "mk": "",
+       "y": "",
+       "d": "Factories: Karumandi, Kianyaga, Gachame"
+      },
+      {
+       "n": "Thiriku Farmers Co-op (Nyeri)",
+       "mk": "",
+       "y": "",
+       "d": "Named cooperative in the source"
+      }
+     ],
+     "dt": "variety: SL28 · SL34 · Ruiru 11 · process: washed, auction lot · grade AA, AB, PB"
+    },
+    {
+     "n": "Jamaica Blue Mountain",
+     "a": "JBM · Blue Mountain",
+     "d": "Certification-mark coffee from Jamaica's Blue Mountains, graded by size and defects into numbers 1-3 plus peaberry.",
+     "mk": "",
+     "y": "1728 (coffee introduced to Jamaica)",
+     "s": "https://en.wikipedia.org/wiki/Jamaican_Blue_Mountain_Coffee",
+     "v": [
+      {
+       "n": "Jamaica High Mountain",
+       "mk": "",
+       "y": "",
+       "d": "Coffee grown outside the Blue Mountains at 460-910 m"
+      },
+      {
+       "n": "Jamaica Supreme / Low Mountain",
+       "mk": "",
+       "y": "",
+       "d": "Below 460 m"
+      }
+     ],
+     "dt": "grade: No.1, No.2, No.3, peaberry · packed in barrels · about 80% exported to Japan"
+    },
+    {
+     "n": "Kona (Hawaii)",
+     "a": "100% Kona Coffee · Kona Typica",
+     "d": "Arabica from the North and South Kona districts of Hawaii island; state law grades it and protects the name.",
+     "mk": "",
+     "y": "1828 (Ruggles planted coffee in Kona)",
+     "s": "https://en.wikipedia.org/wiki/Kona_coffee",
+     "v": [
+      {
+       "n": "Kona Extra Fancy",
+       "mk": "",
+       "y": "",
+       "d": "Type I top grade"
+      },
+      {
+       "n": "Kona Fancy",
+       "mk": "",
+       "y": "",
+       "d": "Type I"
+      },
+      {
+       "n": "Kona Number 1",
+       "mk": "",
+       "y": "",
+       "d": "Type I"
+      },
+      {
+       "n": "Kona Select",
+       "mk": "",
+       "y": "",
+       "d": "Type I"
+      },
+      {
+       "n": "Kona Prime",
+       "mk": "",
+       "y": "",
+       "d": "Type I"
+      },
+      {
+       "n": "Peaberry Number 1 / Peaberry Prime",
+       "mk": "",
+       "y": "",
+       "d": "Type II single round beans"
+      },
+      {
+       "n": "Estate",
+       "mk": "",
+       "y": "",
+       "d": "Unofficial farmer grade"
+      }
+     ],
+     "dt": "labelling: 100% Kona certification mark (2000); blends need at least 10% Kona"
+    },
+    {
+     "n": "Panama Boquete",
+     "a": "Boquete Gesha · Best of Panama",
+     "d": "Highland Panamanian arabica from the Boquete area, best known through the Best of Panama auction.",
+     "mk": "",
+     "y": "2004 (Best of Panama record)",
+     "s": "https://en.wikipedia.org/wiki/Geisha_(coffee)",
+     "v": [
+      {
+       "n": "Hacienda La Esmeralda",
+       "mk": "",
+       "y": "2004",
+       "d": "Geisha lot set a record price at the 2004 competition"
+      },
+      {
+       "n": "Peterson family lot",
+       "mk": "",
+       "y": "2005",
+       "d": "Won Best of Panama with Geisha"
+      },
+      {
+       "n": "Lamastus Family Estates",
+       "mk": "",
+       "y": "2019",
+       "d": "Elida Natural Geisha 1029 sold at $1,029/lb"
+      }
+     ],
+     "dt": "variety: Geisha · process: washed, natural · lot: auction"
+    },
+    {
+     "n": "Colombia (Café de Colombia)",
+     "a": "Café de Colombia · Huila · Nariño · Supremo · Excelso",
+     "d": "Colombian washed arabica from smallholders, promoted by the National Federation of Coffee Growers and covered by an EU protected designation of origin.",
+     "mk": "",
+     "y": "2007 (EU PDO)",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Colombia",
+     "v": [
+      {
+       "n": "Colombian coffee growing axis",
+       "mk": "",
+       "y": "2011",
+       "d": "Caldas, Quindio and Risaralda; UNESCO World Heritage cultural landscape"
+      },
+      {
+       "n": "Sierra Nevada de Santa Marta",
+       "mk": "",
+       "y": "",
+       "d": "Quality-focused area named in the source"
+      }
+     ],
+     "dt": "variety: Caturra, Castillo · process: washed · grade: Supremo, Excelso"
+    },
+    {
+     "n": "Costa Rica Tarrazú",
+     "a": "Tarrazu · SHB",
+     "d": "Costa Rican highland coffee from Tarrazú, thought to produce the country's most desirable beans.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Tarrazu_coffee",
+     "v": [
+      {
+       "n": "Barrantes Estate SHB (Cafetalera Herbazú)",
+       "mk": "",
+       "y": "",
+       "d": "Sintercafé award winner named in the source"
+      },
+      {
+       "n": "Los Santos region lots",
+       "mk": "",
+       "y": "2023",
+       "d": "Took the top three Cup of Excellence places"
+      }
+     ],
+     "dt": "grade: SHB · process: washed, honey · variety: Caturra, Catuai, Geisha (from 2012)"
+    },
+    {
+     "n": "Sumatra Mandheling",
+     "a": "Mandheling · Lintong",
+     "d": "Trade name for arabica from northern Sumatra, named after the Mandailing people; smooth, low-acid, often wet-hulled.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
+     "v": [
+      {
+       "n": "Lintong",
+       "mk": "",
+       "y": "",
+       "d": "Plateau southwest of Lake Toba, about 15,000-18,000 t of arabica"
+      }
+     ],
+     "dt": "process: giling basah (wet-hulled) · variety: Typica, Ateng · cup: cocoa, tobacco, cedar"
+    },
+    {
+     "n": "Gayo (Aceh)",
+     "a": "Kopi Arabika Gayo",
+     "d": "Smallholder arabica from hillsides around Takengon, Aceh, at 1,110-1,600 m; geographical indication in Indonesia, EU and UK.",
+     "mk": "",
+     "y": "1924 (planted); 2017 (EU protection)",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
+     "v": [],
+     "dt": "altitude 1,110-1,600 m · lighter body than Mandheling"
+    },
+    {
+     "n": "Sulawesi Toraja Kalosi",
+     "a": "Toraja · Kalosi",
+     "d": "High-altitude arabica from the Toraja highlands and Enrekang, traded through Kalosi; clean cup with nutty or spice notes.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
+     "v": [],
+     "dt": "mostly smallholder · about 5% from seven larger estates"
+    },
+    {
+     "n": "Java Estate (Old Java)",
+     "a": "Old Government Java · Ijen",
+     "d": "Arabica from large estates on the Ijen Plateau in East Java; some lots are aged for up to five years.",
+     "mk": "",
+     "y": "1711 (first Java exports to Europe)",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
+     "v": [
+      {
+       "n": "Blawan",
+       "mk": "",
+       "y": "",
+       "d": "Ijen estate"
+      },
+      {
+       "n": "Jampit",
+       "mk": "",
+       "y": "",
+       "d": "Ijen estate"
+      },
+      {
+       "n": "Pancoer",
+       "mk": "",
+       "y": "",
+       "d": "Ijen estate"
+      },
+      {
+       "n": "Kayumas",
+       "mk": "",
+       "y": "",
+       "d": "Ijen estate"
+      },
+      {
+       "n": "Tugosari",
+       "mk": "",
+       "y": "",
+       "d": "Ijen estate"
+      }
+     ],
+     "dt": "altitude above 1,400 m · process: washed · aged lots"
+    },
+    {
+     "n": "Bali Kintamani",
+     "a": "Kopi Arabica Kintamani Bali",
+     "d": "Wet-processed arabica from highlands between the Batukaru and Agung volcanoes; Indonesia's first geographical indication.",
+     "mk": "",
+     "y": "2008",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
+     "v": [],
+     "dt": "single harvest July-September · citrus notes"
+    },
+    {
+     "n": "Brazil natural (dry-processed)",
+     "a": "Brazil natural · pulped natural",
+     "d": "Brazilian arabica, nearly all dry-processed; Minas Gerais supplies about half of national output.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Brazil",
+     "v": [],
+     "dt": "regions: Minas Gerais, Sao Paulo, Espirito Santo, Bahia · process: natural"
+    },
+    {
+     "n": "Guatemala Antigua",
+     "a": "Café Antigua",
+     "d": "Coffee from the volcano-ringed valley around Antigua Guatemala, one of Guatemala's oldest regions and one of the eight Anacafé recognises.",
+     "s": "https://www.coffeereview.com/beyond-antigua-the-other-guatemalas/",
+     "dt": "region: Antigua valley, Fuego-Acatenango volcanoes · cup: fine, delicate to balanced",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Yemen Mocha",
+     "a": "Mokha · Mattari · Haraz",
+     "d": "Small, hard, dry-processed Arabica from Yemen's mountains (Haraz, Udayn, Taiz), named for the Red Sea port of Mokha.",
+     "s": "https://en.wikipedia.org/wiki/Mocha_coffee_bean",
+     "y": "exported via Mokha before the 20th century",
+     "v": [
+      {
+       "n": "Haraz",
+       "d": "Mountain district named on the page"
+      },
+      {
+       "n": "Udayn (Uden)",
+       "d": "District named on the page"
+      },
+      {
+       "n": "Taiz",
+       "d": "District to the east named on the page"
+      }
+     ],
+     "dt": "market: Bayt al-Faqih · beans: very small, hard, irregular",
+     "mk": ""
+    },
+    {
+     "n": "Rwanda",
+     "a": "Rwandan Bourbon",
+     "d": "Washing-station coffees from smallholders, mostly old Bourbon-related trees; sweet, balanced, stone fruit and citrus, with a potato-defect risk.",
+     "s": "https://www.coffeereview.com/coffee-reference/coffee-categories/geographic-origins/coffees-from-africa-and-arabia/rwanda-coffee/",
+     "y": "specialty revival after 1994",
+     "dt": "label: washing station or cooperative (e.g. COOPAC Kabirizi)",
+     "mk": "",
+     "v": []
+    },
+    {
+     "n": "Tanzania",
+     "a": "Tanzanian peaberry · Kilimanjaro · Mbeya",
+     "d": "Graded by bean size (AA, A, A/B, PB peaberry); northern Kilimanjaro-Meru lots are brightest, Mbeya and Mbinga softer and floral.",
+     "s": "https://www.coffeereview.com/coffee-reference/coffee-categories/geographic-origins/coffees-from-africa-and-arabia/tanzania/",
+     "v": [
+      {
+       "n": "Peaberry (PB)",
+       "d": "Single-seed cherries sorted out; lighter-bodied and delicate"
+      },
+      {
+       "n": "Mbeya",
+       "d": "South-western region"
+      },
+      {
+       "n": "Mbinga / Ruvuma",
+       "d": "Far south-west"
+      }
+     ],
+     "dt": "grades: AA, A, A/B, PB",
+     "mk": "",
+     "y": ""
+    },
+    {
+     "n": "Brazil Cerrado Mineiro",
+     "a": "Cerrado de Minas · West Minas",
+     "d": "Western Minas Gerais coffee, mostly natural or pulped natural; creamy, caramel-to-chocolate, called Brazil's first coffee region with a protected geographical indication.",
+     "s": "https://crema.co/countries/brazil/cerrado-minas-gerais",
+     "dt": "process: natural, pulped natural",
+     "mk": "",
+     "y": "",
+     "v": []
+    }
+   ]
+  },
+  {
+   "n": "Geisha & rare-variety coffee",
+   "a": "varietal coffee",
+   "d": "Coffee sold by cultivar rather than origin, led by Geisha, with versions at reference farms and lots.",
+   "s": "https://en.wikipedia.org/wiki/Geisha_(coffee)",
+   "x": [
+    {
+     "n": "Geisha / Gesha",
+     "a": "Gesha",
+     "d": "Tall Ethiopian-origin arabica variety prized for jasmine, black tea and tropical-fruit notes, low yield; Panama's lots set auction records.",
+     "mk": "",
+     "y": "1930s identified; 1936 seeds collected",
+     "s": "https://en.wikipedia.org/wiki/Geisha_(coffee)",
+     "v": [
+      {
+       "n": "Hacienda La Esmeralda (Boquete)",
+       "mk": "",
+       "y": "2004",
+       "d": "Best of Panama record $21/lb; natural lot $601/lb in 2017"
+      },
+      {
+       "n": "Lamastus Family Estates Elida Natural Geisha 1029",
+       "mk": "",
+       "y": "2019",
+       "d": "$1,029/lb unroasted at Best of Panama"
+      },
+      {
+       "n": "Costa Rica Tarrazú Geisha",
+       "mk": "",
+       "y": "2012",
+       "d": "Production started in the area"
+      },
+      {
+       "n": "CATIE selection",
+       "mk": "",
+       "y": "1953",
+       "d": "Plants from Lyamungu, Tanzania, sent to Costa Rica; reached Panama in the 1960s"
+      }
+     ],
+     "dt": "origin: Gesha region, Ethiopia · process: washed, natural · price: auction"
+    },
+    {
+     "n": "Pacamara",
+     "a": "",
+     "d": "Hybrid of the Pacas Bourbon mutation and Maragogype, bred in El Salvador; large beans.",
+     "mk": "",
+     "y": "1958",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "cross: Pacas x Maragogype · bean: very large"
+    },
+    {
+     "n": "SL28",
+     "a": "",
+     "d": "Kenyan selection by Scott Labs from a drought-resistant Tanganyika variety; high cup quality.",
+     "mk": "Scott Laboratories",
+     "y": "1931 (as given, citation needed)",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "origin Kenya · tall, drought-tolerant"
+    },
+    {
+     "n": "SL34",
+     "a": "",
+     "d": "Kenyan selection by Scott Labs from the French Mission variety grown for its cup quality.",
+     "mk": "Scott Laboratories",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "origin Kenya"
+    },
+    {
+     "n": "Maragogipe",
+     "a": "Maragogype · elephant bean",
+     "d": "Natural Typica mutation first found near Maragogipe, Bahia, with very large beans.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "origin Brazil (Bahia) · large bean"
+    },
+    {
+     "n": "Bourbon",
+     "a": "Red Bourbon · Orange Bourbon",
+     "d": "Variety from Reunion Island where the French planted coffee around 1708; red and orange forms are spontaneous mutations.",
+     "mk": "",
+     "y": "c.1708",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "origin Reunion"
+    },
+    {
+     "n": "Typica",
+     "a": "",
+     "d": "Original variety from Yemeni stock, spread via Malabar to Indonesia and the Philippines.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "worldwide"
+    },
+    {
+     "n": "Caturra",
+     "a": "",
+     "d": "Natural dwarf mutation of Bourbon Red found in Brazil's Serra do Caparao.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "Latin America"
+    },
+    {
+     "n": "Catuai",
+     "a": "",
+     "d": "Hybrid of Mundo Novo and Caturra bred in Brazil.",
+     "mk": "",
+     "y": "late 1940s",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "Latin America"
+    },
+    {
+     "n": "Ruiru 11",
+     "a": "",
+     "d": "Disease-resistant Kenyan hybrid with lower cup quality than K7, SL28 and SL34.",
+     "mk": "Coffee Research Station, Kenya",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "origin Kenya"
+    },
+    {
+     "n": "Villa Sarchi",
+     "a": "",
+     "d": "Costa Rican Bourbon mutation, similar to Caturra.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+     "v": [],
+     "dt": "origin Costa Rica"
+    },
+    {
+     "n": "Sidra",
+     "d": "Core-Ethiopia variety first selected in Colombia or Ecuador; floral, fruity and layered, the top scorer in Coffee Review's 2023 varietal tasting (7 samples, average 93).",
+     "s": "https://www.coffeereview.com/new-coffee-varieties/",
+     "y": "2023 tasting",
+     "a": "",
+     "mk": "",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Pink Bourbon",
+     "d": "Despite the name genetically Core Ethiopia, selected in Colombia or Ecuador; 3 samples averaged 90 in Coffee Review's 2023 tasting.",
+     "s": "https://www.coffeereview.com/new-coffee-varieties/",
+     "y": "2023 tasting",
+     "a": "",
+     "mk": "",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Chiroso",
+     "d": "Core-Ethiopia variety from Colombia or Ecuador; delicate, floral, herbal and garden-like; 5 samples averaged 89.",
+     "s": "https://www.coffeereview.com/new-coffee-varieties/",
+     "y": "2023 tasting",
+     "a": "",
+     "mk": "",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Wush Wush",
+     "d": "Ethiopian variety recently established on farms in Ecuador, Colombia and Central America; 10 samples averaged 88 in Coffee Review's tasting.",
+     "s": "https://www.coffeereview.com/new-coffee-varieties/",
+     "y": "2023 tasting",
+     "a": "",
+     "mk": "",
+     "v": [],
+     "dt": ""
+    }
+   ]
+  },
+  {
+   "n": "Special-process coffee",
+   "a": "processed coffee",
+   "d": "Coffee defined by an unusual process or digestion step, such as monsooning or animal passage.",
+   "t": [
+    "anaerobic",
+    "carbonic maceration",
+    "black honey",
+    "co-fermented"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Monsooned_Malabar",
+   "x": [
+    {
+     "n": "Monsooned Malabar",
+     "a": "MM · monsooned coffee",
+     "d": "Sun-dried arabica or robusta (AA and A grades) spread in ventilated west-coast warehouses through the monsoon, turning pale golden with lower acidity.",
+     "mk": "",
+     "y": "British Raj era; GI protected",
+     "s": "https://en.wikipedia.org/wiki/Monsooned_Malabar",
+     "v": [],
+     "dt": "process: monsooning 12-16 weeks, June-September · grades AA, A · cup: heavy body, low acid"
+    },
+    {
+     "n": "Kopi luwak (civet coffee)",
+     "a": "civet coffee · luwak",
+     "d": "Coffee from cherries eaten and excreted by Asian palm civets. Caged, force-fed production raises animal-welfare concerns; mislabelled wild claims are common.",
+     "mk": "",
+     "y": "19th century (Java)",
+     "s": "https://en.wikipedia.org/wiki/Kopi_luwak",
+     "v": [],
+     "dt": "origin Indonesia, Philippines, Vietnam · price about $100-1,000/kg · welfare caution"
+    },
+    {
+     "n": "Black Ivory coffee",
+     "a": "elephant coffee",
+     "d": "Arabica passed through elephants in Thailand and collected from dung; about 33 kg of cherries yield 1 kg.",
+     "mk": "Black Ivory Coffee Company",
+     "y": "2012",
+     "s": "https://en.wikipedia.org/wiki/Black_Ivory_Coffee",
+     "v": [],
+     "dt": "origin Surin, Thailand · founder Blake Dinkin · 20 elephants"
+    }
+   ]
+  },
+  {
+   "n": "Speciality Robusta, Liberica & Excelsa",
+   "a": "minor coffee species",
+   "d": "Fine Robusta and the lesser species Liberica and Excelsa, bought for their distinct flavour.",
+   "s": "https://en.wikipedia.org/wiki/Kapeng_barako",
+   "x": [
+    {
+     "n": "Kapeng barako (Liberica)",
+     "a": "barako · Liberica",
+     "d": "Philippine Liberica coffee from Batangas and Cavite with hooked-tip beans and an aniseed-like aroma.",
+     "mk": "",
+     "y": "1740s introduced",
+     "s": "https://en.wikipedia.org/wiki/Kapeng_barako",
+     "v": [
+      {
+       "n": "Barako-excelsa blend",
+       "mk": "",
+       "y": "",
+       "d": "Popular blend for broader flavour"
+      }
+     ],
+     "dt": "species Coffea liberica · Batangas, Cavite · Slow Food Ark of Taste"
+    }
+   ]
+  },
+  {
+   "n": "Green coffee",
+   "a": "unroasted coffee",
+   "d": "Raw, unroasted coffee beans sold to roast at home.",
+   "m": [
+    [
+     "Colombian Excelso Huila",
+     ""
+    ],
+    [
+     "Ethiopia Sidama",
+     ""
+    ],
+    [
+     "Guatemala Antigua",
+     ""
+    ]
+   ],
+   "x": [
+    {
+     "n": "Sweet Maria's green coffee range",
+     "a": "home-roast green",
+     "d": "Origin-by-origin green coffee for home roasters from a specialist supplier founded in 1997.",
+     "mk": "Sweet Maria's",
+     "y": "1997",
+     "s": "https://www.sweetmarias.com/pages/about-us",
+     "v": [],
+     "dt": "supplier · origin · grade · lot"
+    }
+   ],
+   "s": "https://kaffeemacher.de/en/products/green-coffee-for-home-roasters"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Tim Wendelboe",
+   "c": "Norway",
+   "f": "2007",
+   "seg": "Artisan & independent",
+   "kf": "light roast",
+   "d": "Oslo roastery, espresso bar and training centre buying direct from producers.",
+   "s": "https://timwendelboe.no/pages/our-story",
+   "sc": [
+    "third-wave"
+   ]
+  },
+  {
+   "n": "Sweet Maria's",
+   "c": "United States",
+   "f": "1997",
+   "seg": "Specialist",
+   "kf": "home roasting",
+   "d": "Green-coffee supplier for home roasters, founded by Thompson Owen and Maria Troy.",
+   "s": "https://www.sweetmarias.com/pages/about-us"
+  },
+  {
+   "n": "Square Mile",
+   "c": "United Kingdom",
+   "f": "2008",
+   "seg": "Artisan & independent",
+   "kf": "London roaster",
+   "d": "London third-wave roaster listed in the third-wave article.",
+   "s": "https://en.wikipedia.org/wiki/Third-wave_coffee"
+  },
+  {
+   "n": "Intelligentsia",
+   "c": "United States",
+   "f": "1995",
+   "seg": "Artisan & independent",
+   "kf": "Chicago third wave",
+   "d": "Chicago roaster, one of the US third-wave leaders.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Stumptown",
+   "c": "United States",
+   "f": "1999",
+   "seg": "Artisan & independent",
+   "kf": "Portland third wave",
+   "d": "Portland, Oregon roaster, now owned by Peet's.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Blue Bottle",
+   "c": "United States",
+   "f": "",
+   "seg": "Artisan & independent",
+   "kf": "Oakland third wave",
+   "d": "Oakland roaster and cafe chain founded by James Freeman.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Counter Culture",
+   "c": "United States",
+   "f": "",
+   "seg": "Artisan & independent",
+   "kf": "direct trade",
+   "d": "Durham, North Carolina roaster known for direct trade and transparency reports.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Black Ivory Coffee Company",
+   "c": "Thailand",
+   "f": "2012",
+   "seg": "Specialist",
+   "kf": "elephant coffee",
+   "d": "Producer of elephant-processed coffee in Surin province.",
+   "s": "https://en.wikipedia.org/wiki/Black_Ivory_Coffee"
+  },
+  {
+   "n": "La Cabra",
+   "c": "Denmark",
+   "f": "2011",
+   "seg": "Artisan & independent",
+   "kf": "light Nordic roasts",
+   "d": "Aarhus roaster, later in Copenhagen, with a single profile per coffee chosen at the cupping table.",
+   "s": "https://lacabra.com/pages/about-la-cabra"
+  },
+  {
+   "n": "Coffee Collective",
+   "c": "Denmark",
+   "f": "2007",
+   "seg": "Artisan & independent",
+   "kf": "direct trade",
+   "d": "Copenhagen roaster founded by Peter Dupont, Casper Engel Rasmussen and Klaus Thomsen; buys directly from farmers.",
+   "s": "https://coffeecollective.dk/about"
+  }
+ ],
+ "traditions": [],
+ "notes": "Guatemala Antigua, Cerrado/Sul de Minas, Yemen Mocha/Haraz, Rwanda/Burundi, Tanzania peaberry, Wush Wush, Sidra, Pink Bourbon, Laurina, anaerobic/carbonic lots, La Cabra, Coffee Collective, Sey, Gardelli, Andytown, Kaffeemacher left out: no retrieved page naming them. Anaerobic etc. kept as t types. DEEP: Archetypes added from Coffee Review, Wikipedia and Crema pages (Guatemala Antigua, Yemen Mocha, Rwanda, Tanzania, Cerrado Mineiro, Sidra, Pink Bourbon, Chiroso, Wush Wush). Still left out: Sey, Gardelli, Andytown, Kaffeemacher, Laurina, Mogiana/Sul de Minas, Burundi."
+}

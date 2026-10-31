@@ -1,0 +1,1563 @@
+{
+ "kinds": [
+  {
+   "n": "Compressor & dynamics plug-in",
+   "a": "",
+   "d": "Plug-in that evens out or shapes loudness; many emulate named hardware compressors.",
+   "s": "https://www.pluginboutique.com/categories/2-Effects",
+   "x": [
+    {
+     "n": "Teletronix LA-2A",
+     "a": "",
+     "d": "Tube optical leveller made by Teletronix from 1962 to 1969, reissued by Universal Audio from 1999; the most emulated vocal compressor.",
+     "mk": "Teletronix",
+     "y": "1962",
+     "s": "https://en.wikipedia.org/wiki/LA-2A_Leveling_Amplifier",
+     "v": [
+      {
+       "n": "UAD LA-2A",
+       "mk": "Universal Audio",
+       "y": "2002",
+       "d": "Included with the UAD-1 DSP card"
+      },
+      {
+       "n": "UAD Teletronix LA-2A Leveler Collection",
+       "mk": "Universal Audio",
+       "y": "2013",
+       "d": "LA-2, Gray and Silver versions"
+      },
+      {
+       "n": "Waves CLA-2A",
+       "mk": "Waves"
+      },
+      {
+       "n": "Avid BF-2A",
+       "mk": "Avid Technology",
+       "d": "Formerly Bomb Factory"
+      },
+      {
+       "n": "Cakewalk CA-2A",
+       "mk": "Cakewalk"
+      },
+      {
+       "n": "T-RackS White 2A",
+       "mk": "IK Multimedia"
+      },
+      {
+       "n": "VC 2A",
+       "mk": "Softube"
+      }
+     ]
+    },
+    {
+     "n": "UREI 1176",
+     "a": "",
+     "d": "FET limiter introduced by UREI in 1967, reissued by Universal Audio in 1999-2000; revisions A to H.",
+     "mk": "UREI",
+     "y": "1967",
+     "s": "https://en.wikipedia.org/wiki/1176_Peak_Limiter",
+     "v": [
+      {
+       "n": "1176 Revision A",
+       "mk": "UREI",
+       "y": "1967",
+       "d": "June 1967"
+      },
+      {
+       "n": "1176LN (Revision C)",
+       "mk": "UREI",
+       "y": "1970",
+       "d": "Black panel, low-noise circuit"
+      },
+      {
+       "n": "1176 Revision H",
+       "mk": "UREI",
+       "d": "Silver faceplate; last original series"
+      },
+      {
+       "n": "UAD 1176 Classic Limiter Collection",
+       "mk": "Universal Audio",
+       "d": "Rev A, Rev E and 1176AE"
+      }
+     ]
+    },
+    {
+     "n": "SSL bus compressor",
+     "a": "",
+     "d": "The VCA bus compressor from Solid State Logic consoles, widely copied for mix-bus glue.",
+     "mk": "Solid State Logic",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/compressor",
+     "v": [
+      {
+       "n": "SSL Native Bus Compressor 2",
+       "mk": "Solid State Logic"
+      },
+      {
+       "n": "SSL G-Master Buss Compressor",
+       "mk": "Waves"
+      },
+      {
+       "n": "The Glue",
+       "mk": "Cytomic",
+       "d": "SSL-style VCA bus compressor"
+      }
+     ]
+    },
+    {
+     "n": "Fairchild 660 and 670",
+     "a": "",
+     "d": "Tube limiters from the 1950s, modelled by Universal Audio for mix-bus glue.",
+     "mk": "Fairchild",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/compressor",
+     "v": [
+      {
+       "n": "UAD Fairchild Tube Limiter Collection",
+       "mk": "Universal Audio",
+       "d": "Mono 660 and stereo 670"
+      }
+     ]
+    },
+    {
+     "n": "Tube-Tech CL 1B",
+     "a": "",
+     "d": "Optical vocal compressor modelled by Softube.",
+     "mk": "Tube-Tech",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/compressor",
+     "v": [
+      {
+       "n": "Tube-Tech CL 1B Mk II",
+       "mk": "Softube",
+       "d": "Mk I and Mk II in one interface"
+      }
+     ]
+    },
+    {
+     "n": "FabFilter Pro-C",
+     "a": "",
+     "d": "FabFilter's modern stereo compressor with eight styles, and the multiband Pro-MB.",
+     "mk": "FabFilter",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/compressor",
+     "v": [
+      {
+       "n": "Pro-C 2",
+       "mk": "FabFilter",
+       "d": "Eight compression styles, sidechain EQ, mid/side"
+      },
+      {
+       "n": "Pro-C 3",
+       "mk": "FabFilter"
+      },
+      {
+       "n": "Pro-MB",
+       "mk": "FabFilter",
+       "d": "Multiband dynamics, up to six bands"
+      }
+     ]
+    },
+    {
+     "n": "Tokyo Dawn Labs free dynamics",
+     "a": "",
+     "d": "Free compressors from Tokyo Dawn Labs.",
+     "mk": "Tokyo Dawn Labs",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/compressor",
+     "v": [
+      {
+       "n": "TDR Kotelnikov",
+       "mk": "Tokyo Dawn Records",
+       "d": "Free wideband dynamics processor"
+      },
+      {
+       "n": "TDR Molotok",
+       "mk": "Tokyo Dawn Records",
+       "d": "Free character compressor, eleven flavours"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "hardware emulation",
+    "multiband",
+    "bus compressor",
+    "limiter",
+    "free"
+   ],
+   "m": [
+    [
+     "OTT",
+     "Xfer Records"
+    ]
+   ]
+  },
+  {
+   "n": "EQ & filter plug-in",
+   "a": "",
+   "d": "Plug-in that boosts or cuts parts of the frequency range; includes surgical, dynamic and hardware-style EQs.",
+   "s": "https://blog.dubspot.com/plugins/best/compressor",
+   "x": [
+    {
+     "n": "Pultec EQP-1A",
+     "a": "",
+     "d": "Passive tube EQ made by Pulse Techniques (EQP-1 from 1956, EQP-1A 1961), the most imitated boost-and-cut EQ.",
+     "mk": "Pulse Techniques",
+     "y": "1956",
+     "s": "https://en.wikipedia.org/wiki/Pultec_EQP-1",
+     "v": [
+      {
+       "n": "Pultec EQP-1",
+       "mk": "Pulse Techniques",
+       "y": "1956",
+       "d": "Made until 1981; revived from 2000"
+      },
+      {
+       "n": "Pultec EQP-1A",
+       "mk": "Pulse Techniques",
+       "y": "1961",
+       "d": "Added 20 Hz and 16 kHz settings"
+      },
+      {
+       "n": "Waves PuigTec EQ",
+       "mk": "Waves"
+      },
+      {
+       "n": "UA Pultec Passive EQ Collection",
+       "mk": "Universal Audio"
+      },
+      {
+       "n": "Avid Pultec Bundle",
+       "mk": "Avid Technology"
+      },
+      {
+       "n": "iZotope Ozone 8 Vintage EQ",
+       "mk": "iZotope"
+      },
+      {
+       "n": "Apogee FX Rack",
+       "mk": "Apogee"
+      }
+     ]
+    },
+    {
+     "n": "FabFilter Pro-Q",
+     "a": "",
+     "d": "FabFilter's surgical EQ, first released in 2009; Pro-Q 3 won a 2019 Engineering Emmy.",
+     "mk": "FabFilter",
+     "y": "2009",
+     "s": "https://en.wikipedia.org/wiki/FabFilter",
+     "v": [
+      {
+       "n": "Pro-Q",
+       "mk": "FabFilter",
+       "y": "2009"
+      },
+      {
+       "n": "Pro-Q 3",
+       "mk": "FabFilter",
+       "y": "2019",
+       "d": "Engineering Emmy 2019"
+      },
+      {
+       "n": "Pro-Q 4",
+       "mk": "FabFilter",
+       "d": "Spectral Dynamics mode"
+      }
+     ]
+    },
+    {
+     "n": "TDR Nova",
+     "a": "",
+     "d": "Free 4-band dynamic EQ from Tokyo Dawn Labs; the GE edition is paid.",
+     "mk": "Tokyo Dawn Labs",
+     "y": "",
+     "s": "https://samplefocus.com/blog/best-eq-plugins-of-2026",
+     "v": [
+      {
+       "n": "TDR Nova",
+       "mk": "Tokyo Dawn Records",
+       "d": "Free; GE edition $60"
+      }
+     ]
+    },
+    {
+     "n": "Neve 1081",
+     "a": "",
+     "d": "Neve console EQ emulated by Waves as V-EQ4.",
+     "mk": "Neve",
+     "y": "",
+     "s": "https://samplefocus.com/blog/best-eq-plugins-of-2026",
+     "v": [
+      {
+       "n": "V-EQ4",
+       "mk": "Waves"
+      }
+     ]
+    },
+    {
+     "n": "Dynamic EQ plug-ins",
+     "a": "",
+     "d": "EQs with dynamic processing on each band.",
+     "mk": "",
+     "y": "",
+     "s": "https://samplefocus.com/blog/best-eq-plugins-of-2026",
+     "v": [
+      {
+       "n": "Infinity EQ 2",
+       "mk": "Slate Digital"
+      },
+      {
+       "n": "TotalEQ MK2",
+       "mk": "HoRNet"
+      },
+      {
+       "n": "Carbon Q",
+       "mk": "Mastering the Mix"
+      }
+     ]
+    },
+    {
+     "n": "Kilohearts Slice EQ",
+     "a": "",
+     "d": "Surgical EQ with up to 32 filters.",
+     "mk": "Kilohearts",
+     "y": "",
+     "s": "https://samplefocus.com/blog/best-eq-plugins-of-2026",
+     "v": [
+      {
+       "n": "Slice EQ",
+       "mk": "Kilohearts"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "hardware-style passive EQ",
+    "surgical",
+    "dynamic EQ",
+    "filter",
+    "free"
+   ],
+   "m": [
+    [
+     "Flux Mini 2",
+     "Caelum Audio"
+    ],
+    [
+     "Flux Pro",
+     "Caelum Audio"
+    ]
+   ]
+  },
+  {
+   "n": "Reverb plug-in",
+   "a": "",
+   "d": "Plug-in that adds a room, plate, hall or spring space to a sound; many model named hardware units.",
+   "s": "https://blog.dubspot.com/plugins/best/reverb",
+   "x": [
+    {
+     "n": "EMT 140 plate",
+     "a": "",
+     "d": "The plate reverb introduced by EMT in the late 1950s, a metal sheet vibrated by a transducer.",
+     "mk": "EMT",
+     "y": "1957",
+     "s": "https://en.wikipedia.org/wiki/Reverb_effect",
+     "v": [
+      {
+       "n": "UA EMT 140 Classic Plate",
+       "mk": "Universal Audio"
+      },
+      {
+       "n": "SuperPlate",
+       "mk": "Soundtoys",
+       "d": "Models five electromechanical plates"
+      },
+      {
+       "n": "Valhalla Plate",
+       "mk": "Valhalla DSP"
+      },
+      {
+       "n": "ResoPlate",
+       "mk": "Reso Audio",
+       "d": "Physically modelled metal plates"
+      }
+     ]
+    },
+    {
+     "n": "Lexicon 224 and 480L",
+     "a": "",
+     "d": "Lexicon's digital reverbs: the 224 (1978) and its successor the 480L (1986).",
+     "mk": "Lexicon",
+     "y": "1978",
+     "s": "https://en.wikipedia.org/wiki/Lexicon_(company)",
+     "v": [
+      {
+       "n": "Lexicon 224",
+       "mk": "Lexicon",
+       "y": "1978",
+       "d": "Shown at the 1978 AES convention"
+      },
+      {
+       "n": "Lexicon 480L",
+       "mk": "Lexicon",
+       "y": "1986"
+      },
+      {
+       "n": "Relab LX480",
+       "mk": "Relab Development",
+       "d": "Emulates the 480L; dual engine"
+      },
+      {
+       "n": "Valhalla VintageVerb",
+       "mk": "Valhalla DSP",
+       "d": "Recreates late-1970s and 1980s digital reverbs"
+      }
+     ]
+    },
+    {
+     "n": "EMT 250",
+     "a": "",
+     "d": "The 1976 digital reverb.",
+     "mk": "EMT",
+     "y": "1976",
+     "s": "https://blog.dubspot.com/plugins/best/reverb",
+     "v": [
+      {
+       "n": "UA EMT 250 Classic Electronic Reverb",
+       "mk": "Universal Audio"
+      }
+     ]
+    },
+    {
+     "n": "Bricasti M7",
+     "a": "",
+     "d": "Studio digital reverb emulated by LiquidSonics Seventh Heaven.",
+     "mk": "Bricasti",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/reverb",
+     "v": [
+      {
+       "n": "Seventh Heaven Professional",
+       "mk": "LiquidSonics",
+       "d": "Emulates the Bricasti M7"
+      }
+     ]
+    },
+    {
+     "n": "Valhalla reverbs",
+     "a": "",
+     "d": "Low-cost reverbs from ValhallaDSP, founded by Sean Costello in 2009.",
+     "mk": "ValhallaDSP",
+     "y": "2009",
+     "s": "https://en.wikipedia.org/wiki/ValhallaDSP",
+     "v": [
+      {
+       "n": "Valhalla VintageVerb",
+       "mk": "Valhalla DSP"
+      },
+      {
+       "n": "Valhalla FutureVerb",
+       "mk": "Valhalla DSP"
+      },
+      {
+       "n": "Valhalla Room",
+       "mk": "Valhalla DSP"
+      },
+      {
+       "n": "Valhalla Shimmer",
+       "mk": "Valhalla DSP"
+      },
+      {
+       "n": "Valhalla Supermassive",
+       "mk": "Valhalla DSP",
+       "d": "Free"
+      }
+     ]
+    },
+    {
+     "n": "FabFilter Pro-R",
+     "a": "",
+     "d": "FabFilter's natural-space reverb with a Decay Rate control.",
+     "mk": "FabFilter",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/reverb",
+     "v": [
+      {
+       "n": "Pro-R 2",
+       "mk": "FabFilter"
+      }
+     ]
+    },
+    {
+     "n": "Eventide reverbs",
+     "a": "",
+     "d": "Algorithmic reverbs from Eventide.",
+     "mk": "Eventide",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/reverb",
+     "v": [
+      {
+       "n": "Blackhole",
+       "mk": "Eventide"
+      },
+      {
+       "n": "SP2016 Reverb",
+       "mk": "Eventide"
+      },
+      {
+       "n": "UltraReverb",
+       "mk": "Eventide"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "plate",
+    "room and hall",
+    "spring",
+    "shimmer",
+    "convolution",
+    "free"
+   ]
+  },
+  {
+   "n": "Delay & modulation plug-in",
+   "a": "",
+   "d": "Plug-in that repeats a sound or modulates it with short delays and low-frequency oscillators: echo, chorus, flanger, volume shaper.",
+   "s": "https://blog.dubspot.com/plugins/best/delay",
+   "x": [
+    {
+     "n": "Echoplex",
+     "a": "",
+     "d": "Tape-loop echo first made in 1959 by Mike Battle, with a moving record head to change delay time.",
+     "mk": "Maestro",
+     "y": "1959",
+     "s": "https://en.wikipedia.org/wiki/Echoplex",
+     "v": [
+      {
+       "n": "Echoplex",
+       "mk": "Maestro",
+       "y": "1959"
+      },
+      {
+       "n": "EchoBoy",
+       "mk": "Soundtoys",
+       "d": "Models about 30 vintage echo and tape units; includes EchoPlex, Space Echo, Memory Man styles"
+      }
+     ]
+    },
+    {
+     "n": "Roland RE-201 Space Echo",
+     "a": "",
+     "d": "1973 tape delay with several playback heads.",
+     "mk": "Roland",
+     "y": "1973",
+     "s": "https://en.wikipedia.org/wiki/Delay_(audio_effect)",
+     "v": [
+      {
+       "n": "Space Echo style in EchoBoy",
+       "mk": "Soundtoys"
+      }
+     ]
+    },
+    {
+     "n": "Binson Echorec",
+     "a": "",
+     "d": "Delay that uses a rotating magnetic drum instead of tape.",
+     "mk": "Binson",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Delay_(audio_effect)",
+     "v": []
+    },
+    {
+     "n": "Valhalla delays",
+     "a": "",
+     "d": "Valhalla Delay emulates vintage tape, bucket-brigade and 1980s digital units; Freq Echo is free.",
+     "mk": "ValhallaDSP",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/delay",
+     "v": [
+      {
+       "n": "Valhalla Delay",
+       "mk": "Valhalla DSP"
+      },
+      {
+       "n": "Valhalla Freq Echo",
+       "mk": "Valhalla DSP",
+       "d": "Free"
+      }
+     ]
+    },
+    {
+     "n": "FabFilter Timeless",
+     "a": "",
+     "d": "Tape-style delay with extensive modulation.",
+     "mk": "FabFilter",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/delay",
+     "v": [
+      {
+       "n": "Timeless 3",
+       "mk": "FabFilter"
+      }
+     ]
+    },
+    {
+     "n": "Character delays",
+     "a": "",
+     "d": "BBD, tape and digital character delays from several makers.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/delay",
+     "v": [
+      {
+       "n": "Colour Copy",
+       "mk": "u-he"
+      },
+      {
+       "n": "Replika XT",
+       "mk": "Native Instruments",
+       "d": "Five modelled delay modes"
+      },
+      {
+       "n": "Comeback Kid",
+       "mk": "Baby Audio"
+      },
+      {
+       "n": "H-Delay",
+       "mk": "Waves"
+      },
+      {
+       "n": "UltraTap",
+       "mk": "Eventide"
+      },
+      {
+       "n": "Crystallizer",
+       "mk": "Soundtoys",
+       "d": "Granular echo with pitch shifting and reverse echo"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "tape delay",
+    "bucket-brigade",
+    "digital delay",
+    "chorus and flanger",
+    "volume shaper",
+    "granular"
+   ],
+   "m": [
+    [
+     "LFO Tool",
+     "Xfer Records"
+    ]
+   ]
+  },
+  {
+   "n": "Saturation & distortion plug-in",
+   "a": "",
+   "d": "Plug-in that adds harmonic warmth, tape colour or overdrive.",
+   "s": "https://blog.dubspot.com/plugins/best/saturation",
+   "x": [
+    {
+     "n": "Soundtoys Decapitator",
+     "a": "",
+     "d": "Saturator based on Ampex, EMI, Neve and Culture Vulture circuit styles.",
+     "mk": "Soundtoys",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/saturation",
+     "v": [
+      {
+       "n": "Decapitator",
+       "mk": "Soundtoys",
+       "d": "Five analogue-gear styles on one switch"
+      },
+      {
+       "n": "Radiator",
+       "mk": "Soundtoys"
+      },
+      {
+       "n": "Little Radiator",
+       "mk": "Soundtoys"
+      }
+     ]
+    },
+    {
+     "n": "FabFilter Saturn",
+     "a": "",
+     "d": "Multiband distortion with 28 styles and extensive modulation.",
+     "mk": "FabFilter",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/saturation",
+     "v": [
+      {
+       "n": "Saturn 2",
+       "mk": "FabFilter"
+      }
+     ]
+    },
+    {
+     "n": "Ampex ATR-102",
+     "a": "",
+     "d": "Two-track mastering tape machine.",
+     "mk": "Ampex",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/saturation",
+     "v": [
+      {
+       "n": "UAD Ampex ATR-102",
+       "mk": "Universal Audio"
+      }
+     ]
+    },
+    {
+     "n": "Studer A800",
+     "a": "",
+     "d": "Multitrack two-inch tape machine.",
+     "mk": "Studer",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/saturation",
+     "v": [
+      {
+       "n": "UAD Studer A800",
+       "mk": "Universal Audio"
+      }
+     ]
+    },
+    {
+     "n": "Sony TC-260 tape",
+     "a": "",
+     "d": "Open-source tape model based on the Sony TC-260.",
+     "mk": "Sony",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/saturation",
+     "v": [
+      {
+       "n": "Chow Tape Model",
+       "mk": "Chowdhury DSP",
+       "d": "Free"
+      }
+     ]
+    },
+    {
+     "n": "Tape plug-ins",
+     "a": "",
+     "d": "Tape colour from several makers.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/saturation",
+     "v": [
+      {
+       "n": "Satin",
+       "mk": "u-he"
+      },
+      {
+       "n": "Softube Tape",
+       "mk": "Softube"
+      },
+      {
+       "n": "TAIP",
+       "mk": "Baby Audio"
+      }
+     ]
+    },
+    {
+     "n": "Other saturators",
+     "a": "",
+     "d": "Console and character saturators.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/saturation",
+     "v": [
+      {
+       "n": "Black Box HG-2",
+       "mk": "Plugin Alliance"
+      },
+      {
+       "n": "VintageWarmer2",
+       "mk": "PSP Audioware"
+      },
+      {
+       "n": "Kelvin Tone Shaper",
+       "mk": "Tone Projects"
+      },
+      {
+       "n": "Harmonics",
+       "mk": "Softube"
+      },
+      {
+       "n": "Saturation Knob",
+       "mk": "Softube",
+       "d": "Free"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "tape",
+    "tube and transformer",
+    "multiband",
+    "fuzz and overdrive"
+   ]
+  },
+  {
+   "n": "Amp & cabinet simulator",
+   "a": "",
+   "d": "Plug-in that models guitar and bass amps, cabinets, microphones and pedals.",
+   "s": "https://blog.dubspot.com/plugins/best/amp-sim",
+   "x": [
+    {
+     "n": "Neural DSP plug-ins",
+     "a": "",
+     "d": "Finnish company (founded 2017) known for amp-series and artist plug-ins and the Quad Cortex modeller.",
+     "mk": "Neural DSP",
+     "y": "2017",
+     "s": "https://en.wikipedia.org/wiki/Neural_DSP",
+     "v": [
+      {
+       "n": "Archetype: Nolly X",
+       "mk": "Neural DSP"
+      },
+      {
+       "n": "Archetype: Gojira X",
+       "mk": "Neural DSP"
+      },
+      {
+       "n": "Fortin Nameless Suite X",
+       "mk": "Neural DSP"
+      },
+      {
+       "n": "Quad Cortex",
+       "mk": "Neural DSP",
+       "y": "2020",
+       "d": "Hardware modeller"
+      }
+     ]
+    },
+    {
+     "n": "Line 6 Helix Native",
+     "a": "",
+     "d": "Desktop version of the Helix modeller.",
+     "mk": "Line 6",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/amp-sim",
+     "v": [
+      {
+       "n": "Helix Native",
+       "mk": "Line 6"
+      }
+     ]
+    },
+    {
+     "n": "AmpliTube",
+     "a": "",
+     "d": "IK Multimedia's amp and effects modeller, released in 2002.",
+     "mk": "IK Multimedia",
+     "y": "2002",
+     "s": "https://en.wikipedia.org/wiki/Amplifier_modeling",
+     "v": [
+      {
+       "n": "AmpliTube",
+       "mk": "IK Multimedia",
+       "y": "2002"
+      },
+      {
+       "n": "AmpliTube 5",
+       "mk": "IK Multimedia"
+      },
+      {
+       "n": "TONEX 2 Player",
+       "mk": "IK Multimedia",
+       "d": "Free capture-based modeller"
+      }
+     ]
+    },
+    {
+     "n": "Positive Grid BIAS FX",
+     "a": "",
+     "d": "Preset-rich amp and effects suite.",
+     "mk": "Positive Grid",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/amp-sim",
+     "v": [
+      {
+       "n": "BIAS FX 2",
+       "mk": "Positive Grid",
+       "d": "Standard and Pro tiers"
+      }
+     ]
+    },
+    {
+     "n": "Guitar Rig",
+     "a": "",
+     "d": "Native Instruments' multi-effects rack with amp models.",
+     "mk": "Native Instruments",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/amp-sim",
+     "v": [
+      {
+       "n": "Guitar Rig 7",
+       "mk": "Native Instruments",
+       "d": "Machine-learning circuit modelling"
+      }
+     ]
+    },
+    {
+     "n": "Neural Amp Modeler",
+     "a": "",
+     "d": "Free open-source capture-based modeller with a large library of captures.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/amp-sim",
+     "v": [
+      {
+       "n": "TONE3000 Plugin",
+       "mk": "TONE3000",
+       "d": "Free"
+      }
+     ]
+    },
+    {
+     "n": "UA Paradise Guitar Studio",
+     "a": "",
+     "d": "Eleven modelled tube amps with cabinets and mics; needs UAD hardware.",
+     "mk": "Universal Audio",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/amp-sim",
+     "v": [
+      {
+       "n": "Paradise Guitar Studio",
+       "mk": "Universal Audio"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "amp suite",
+    "capture-based",
+    "multi-effects rack",
+    "free",
+    "bass"
+   ]
+  },
+  {
+   "n": "Pitch correction & vocal plug-in",
+   "a": "",
+   "d": "Plug-in that tunes, aligns or reshapes vocals.",
+   "s": "https://blog.dubspot.com/plugins/best/vocal-pitch",
+   "x": [
+    {
+     "n": "Auto-Tune",
+     "a": "",
+     "d": "Antares pitch corrector released on 19 September 1997, created by Andy Hildebrand; the sound of the \"Cher effect\".",
+     "mk": "Antares Audio Technologies",
+     "y": "1997",
+     "s": "https://en.wikipedia.org/wiki/AutoTune",
+     "v": [
+      {
+       "n": "Auto-Tune",
+       "mk": "Antares Audio Technologies",
+       "y": "1997",
+       "d": "19 September 1997"
+      },
+      {
+       "n": "Auto-Tune Pro X",
+       "mk": "Antares Audio Technologies"
+      },
+      {
+       "n": "Auto-Tune Artist",
+       "mk": "Antares Audio Technologies"
+      },
+      {
+       "n": "AutoTune Advanced",
+       "mk": "Antares Audio Technologies"
+      }
+     ]
+    },
+    {
+     "n": "Melodyne",
+     "a": "",
+     "d": "Celemony's note-based pitch and timing editor, shown at Winter NAMM 2001.",
+     "mk": "Celemony",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Celemony_Software",
+     "v": [
+      {
+       "n": "Melodyne",
+       "mk": "Celemony",
+       "y": "2001"
+      },
+      {
+       "n": "Melodyne 5",
+       "mk": "Celemony",
+       "y": "2020"
+      },
+      {
+       "n": "Melodyne 5 Essential",
+       "mk": "Celemony",
+       "d": "Lighter edition"
+      }
+     ]
+    },
+    {
+     "n": "Synchro Arts alignment tools",
+     "a": "",
+     "d": "Tools for aligning, pitching and doubling vocals.",
+     "mk": "Synchro Arts",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/vocal-pitch",
+     "v": [
+      {
+       "n": "Revoice Pro 5",
+       "mk": "Synchro Arts"
+      },
+      {
+       "n": "VocALign Ultra",
+       "mk": "Synchro Arts"
+      }
+     ]
+    },
+    {
+     "n": "Vocal effects and suites",
+     "a": "",
+     "d": "Pitch-based vocal processors.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/vocal-pitch",
+     "v": [
+      {
+       "n": "Little AlterBoy",
+       "mk": "Soundtoys"
+      },
+      {
+       "n": "Tune Real-Time",
+       "mk": "Waves"
+      },
+      {
+       "n": "Nectar 4",
+       "mk": "iZotope"
+      },
+      {
+       "n": "VocalSynth 2",
+       "mk": "iZotope"
+      },
+      {
+       "n": "MicroPitch",
+       "mk": "Eventide"
+      },
+      {
+       "n": "Topline Vocal Tune",
+       "mk": "Universal Audio"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "automatic",
+    "note-based editing",
+    "harmony",
+    "formant",
+    "alignment"
+   ]
+  },
+  {
+   "n": "Console & channel-strip emulation",
+   "a": "",
+   "d": "Plug-in that copies a mixing console channel (preamp, EQ, dynamics) or a whole console bus.",
+   "s": "https://blog.dubspot.com/plugins/best/channel-strip",
+   "x": [
+    {
+     "n": "SSL 4000",
+     "a": "",
+     "d": "Solid State Logic console channel, emulated by several makers.",
+     "mk": "Solid State Logic",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/channel-strip",
+     "v": [
+      {
+       "n": "SSL Native Channel Strip 2",
+       "mk": "Solid State Logic"
+      },
+      {
+       "n": "bx_console SSL 4000 E",
+       "mk": "Brainworx"
+      },
+      {
+       "n": "Waves SSL E-Channel",
+       "mk": "Waves"
+      }
+     ]
+    },
+    {
+     "n": "Softube Console 1",
+     "a": "",
+     "d": "Hardware control surface with matching channel software.",
+     "mk": "Softube",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/channel-strip",
+     "v": [
+      {
+       "n": "Console 1 Mk III",
+       "mk": "Softube"
+      }
+     ]
+    },
+    {
+     "n": "Slate Digital Virtual Mix Rack",
+     "a": "",
+     "d": "Virtual mix rack sold per month or perpetual.",
+     "mk": "Slate Digital",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/channel-strip",
+     "v": [
+      {
+       "n": "Virtual Mix Rack",
+       "mk": "Slate Digital"
+      }
+     ]
+    },
+    {
+     "n": "Modular and AI strips",
+     "a": "",
+     "d": "Modular or AI-assisted channel strips.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/channel-strip",
+     "v": [
+      {
+       "n": "InfiniStrip",
+       "mk": "PSP Audioware"
+      },
+      {
+       "n": "Navy 2",
+       "mk": "Acustica Audio"
+      },
+      {
+       "n": "smart:chain",
+       "mk": "sonible"
+      },
+      {
+       "n": "Neutron 5",
+       "mk": "iZotope"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "console emulation",
+    "modular strip",
+    "AI-assisted"
+   ]
+  },
+  {
+   "n": "Mastering suite",
+   "a": "",
+   "d": "Plug-in or bundle that covers the final steps of mastering: EQ, multiband dynamics, stereo width and limiting.",
+   "s": "https://blog.dubspot.com/plugins/best/mastering",
+   "x": [
+    {
+     "n": "iZotope Ozone",
+     "a": "",
+     "d": "iZotope's all-in-one mastering suite with an AI assistant.",
+     "mk": "iZotope",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/IZotope",
+     "v": [
+      {
+       "n": "Ozone 7",
+       "mk": "iZotope"
+      },
+      {
+       "n": "Ozone 10",
+       "mk": "iZotope",
+       "y": "2022",
+       "d": "13 September 2022"
+      },
+      {
+       "n": "Ozone 11",
+       "mk": "iZotope",
+       "d": "Elements, Standard and Advanced editions"
+      },
+      {
+       "n": "Ozone 12 Advanced",
+       "mk": "iZotope",
+       "d": "20 modules"
+      }
+     ]
+    },
+    {
+     "n": "Abbey Road TG Mastering Chain",
+     "a": "",
+     "d": "Waves emulation of the EMI chain used in Abbey Road's mastering rooms.",
+     "mk": "Waves",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/mastering",
+     "v": [
+      {
+       "n": "Abbey Road TG Mastering Chain",
+       "mk": "Waves"
+      }
+     ]
+    },
+    {
+     "n": "Mastering chains from other makers",
+     "a": "",
+     "d": "Mastering processors and bus tools.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/mastering",
+     "v": [
+      {
+       "n": "bx_masterdesk",
+       "mk": "Brainworx"
+      },
+      {
+       "n": "FG-X 2",
+       "mk": "Slate Digital"
+      },
+      {
+       "n": "Portico II Master Buss Processor",
+       "mk": "Rupert Neve Designs",
+       "d": "Modelled by McDSP"
+      },
+      {
+       "n": "CenterOne 3",
+       "mk": "Leapwing Audio"
+      },
+      {
+       "n": "FASTER MASTER",
+       "mk": "Mastering The Mix"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "all-in-one suite",
+    "analog-style chain",
+    "online mastering"
+   ]
+  },
+  {
+   "n": "Audio restoration software",
+   "a": "",
+   "d": "Tools that remove noise, hum, clicks, clipping and other defects from recordings.",
+   "s": "https://blog.dubspot.com/plugins/best/restoration",
+   "x": [
+    {
+     "n": "iZotope RX",
+     "a": "",
+     "d": "The standard repair and de-noise suite; the page says RX 12 replaces RX 11.",
+     "mk": "iZotope",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/restoration",
+     "v": [
+      {
+       "n": "RX 6",
+       "mk": "iZotope"
+      },
+      {
+       "n": "RX 11",
+       "mk": "iZotope",
+       "y": "2024",
+       "d": "14 May 2024"
+      },
+      {
+       "n": "RX 11 Standard",
+       "mk": "iZotope"
+      }
+     ]
+    },
+    {
+     "n": "Steinberg SpectraLayers",
+     "a": "",
+     "d": "AI spectral editor with unmixing and reconstruction.",
+     "mk": "Steinberg",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/restoration",
+     "v": [
+      {
+       "n": "SpectraLayers 13",
+       "mk": "Steinberg"
+      }
+     ]
+    },
+    {
+     "n": "Acon Digital Acoustica",
+     "a": "",
+     "d": "Editor and mastering suite with ML-based DeNoise 3 and DeHum 3.",
+     "mk": "Acon Digital",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/restoration",
+     "v": [
+      {
+       "n": "Acoustica 8",
+       "mk": "Acon Digital"
+      }
+     ]
+    },
+    {
+     "n": "Celemony Capstan",
+     "a": "",
+     "d": "Program that removes wow and flutter from recordings.",
+     "mk": "Celemony",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Celemony_Software",
+     "v": [
+      {
+       "n": "Capstan",
+       "mk": "Celemony"
+      }
+     ]
+    },
+    {
+     "n": "Other repair tools",
+     "a": "",
+     "d": "Targeted repair tools.",
+     "mk": "",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/restoration",
+     "v": [
+      {
+       "n": "UNFILTER",
+       "mk": "Zynaptiq"
+      },
+      {
+       "n": "T-De-Breather",
+       "mk": "Techivation"
+      },
+      {
+       "n": "MDrumCleaner",
+       "mk": "MeldaProduction"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "broadband repair",
+    "spectral editor",
+    "dialogue clean-up"
+   ]
+  },
+  {
+   "n": "Metering & analysis plug-in",
+   "a": "",
+   "d": "Plug-in that shows loudness, spectrum, phase and tonal balance rather than changing the sound.",
+   "s": "https://blog.dubspot.com/plugins/best/metering",
+   "x": [
+    {
+     "n": "Voxengo SPAN",
+     "a": "",
+     "d": "Free real-time spectrum analyser.",
+     "mk": "Voxengo",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/metering",
+     "v": [
+      {
+       "n": "SPAN",
+       "mk": "Voxengo",
+       "d": "Free"
+      }
+     ]
+    },
+    {
+     "n": "Youlean Loudness Meter",
+     "a": "",
+     "d": "LUFS meter with true peak and loudness range; free with a Pro upgrade.",
+     "mk": "Youlean",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/metering",
+     "v": [
+      {
+       "n": "Youlean Loudness Meter 2",
+       "mk": "Youlean"
+      }
+     ]
+    },
+    {
+     "n": "iZotope Insight",
+     "a": "",
+     "d": "Loudness, spectrum, stereo and mix diagnostics suite.",
+     "mk": "iZotope",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/metering",
+     "v": [
+      {
+       "n": "Insight 2",
+       "mk": "iZotope"
+      },
+      {
+       "n": "Tonal Balance Control 2",
+       "mk": "iZotope"
+      }
+     ]
+    },
+    {
+     "n": "Mastering The Mix metering",
+     "a": "",
+     "d": "LUFS, phase and reference-track comparison.",
+     "mk": "Mastering The Mix",
+     "y": "",
+     "s": "https://blog.dubspot.com/plugins/best/metering",
+     "v": [
+      {
+       "n": "LEVELS",
+       "mk": "Mastering The Mix"
+      },
+      {
+       "n": "REFERENCE",
+       "mk": "Mastering The Mix"
+      }
+     ]
+    }
+   ],
+   "t": [
+    "loudness",
+    "spectrum",
+    "stereo and phase",
+    "reference comparison"
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "FabFilter",
+   "c": "Netherlands",
+   "f": "2002",
+   "seg": "Premium",
+   "kf": "EQ, dynamics, reverb",
+   "d": "Amsterdam plug-in maker founded in 2002; Pro-Q is its best-known product.",
+   "s": "https://en.wikipedia.org/wiki/FabFilter"
+  },
+  {
+   "n": "ValhallaDSP",
+   "c": "",
+   "f": "2009",
+   "seg": "Specialist",
+   "kf": "reverb, delay",
+   "d": "Sean Costello's reverb and delay plug-in company, founded in 2009.",
+   "s": "https://en.wikipedia.org/wiki/ValhallaDSP"
+  },
+  {
+   "n": "Universal Audio",
+   "c": "United States",
+   "f": "1958",
+   "seg": "Professional & flagship",
+   "kf": "UAD plug-ins, hardware",
+   "d": "Founded by Bill Putnam Sr. in 1958 and re-established in 1999; makes UAD emulations.",
+   "s": "https://en.wikipedia.org/wiki/Universal_Audio_(company)"
+  },
+  {
+   "n": "Waves Audio",
+   "c": "Israel",
+   "f": "1992",
+   "seg": "Mainstream",
+   "kf": "plug-in bundles",
+   "d": "Tel Aviv company founded in 1992 whose first product was the Q10 EQ.",
+   "s": "https://en.wikipedia.org/wiki/Waves_Audio"
+  },
+  {
+   "n": "iZotope",
+   "c": "United States",
+   "f": "2001",
+   "seg": "Professional & flagship",
+   "kf": "Ozone, RX",
+   "d": "Cambridge, Massachusetts maker of Ozone, RX and Neutron; owned by Boris FX in 2026.",
+   "s": "https://en.wikipedia.org/wiki/IZotope"
+  },
+  {
+   "n": "Soundtoys",
+   "c": "",
+   "f": "",
+   "seg": "Premium",
+   "kf": "Decapitator, EchoBoy",
+   "d": "Maker of Decapitator, EchoBoy and the Soundtoys bundle.",
+   "s": "https://blog.dubspot.com/plugins/best/saturation"
+  },
+  {
+   "n": "Antares Audio Technologies",
+   "c": "United States",
+   "f": "",
+   "seg": "Professional & flagship",
+   "kf": "Auto-Tune",
+   "d": "Maker of Auto-Tune, created by Andy Hildebrand.",
+   "s": "https://en.wikipedia.org/wiki/AutoTune"
+  },
+  {
+   "n": "Celemony",
+   "c": "Germany",
+   "f": "2000",
+   "seg": "Premium",
+   "kf": "Melodyne",
+   "d": "Munich company founded in October 2000, maker of Melodyne and Capstan.",
+   "s": "https://en.wikipedia.org/wiki/Celemony_Software"
+  },
+  {
+   "n": "Neural DSP",
+   "c": "Finland",
+   "f": "2017",
+   "seg": "Premium",
+   "kf": "amp modelling",
+   "d": "Helsinki company that makes the Quad Cortex and amp plug-ins.",
+   "s": "https://en.wikipedia.org/wiki/Neural_DSP"
+  },
+  {
+   "n": "IK Multimedia",
+   "c": "Italy",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "AmpliTube, T-RackS",
+   "d": "Maker of AmpliTube, released in 2002.",
+   "s": "https://en.wikipedia.org/wiki/Amplifier_modeling"
+  },
+  {
+   "n": "Tokyo Dawn Labs",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "free dynamics and EQ",
+   "d": "Maker of the free TDR Kotelnikov and TDR Nova.",
+   "s": "https://blog.dubspot.com/plugins/best/compressor"
+  },
+  {
+   "n": "Softube",
+   "c": "Sweden",
+   "f": "",
+   "seg": "Premium",
+   "kf": "hardware emulation",
+   "d": "Maker of Console 1 and emulations of Tube-Tech and other gear.",
+   "s": "https://blog.dubspot.com/plugins/best/channel-strip"
+  },
+  {
+   "n": "Eventide",
+   "c": "United States",
+   "f": "",
+   "seg": "Professional & flagship",
+   "kf": "reverb, effects",
+   "d": "Maker of Blackhole, SP2016 and other effects.",
+   "s": "https://blog.dubspot.com/plugins/best/reverb"
+  },
+  {
+   "n": "Solid State Logic",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "Professional & flagship",
+   "kf": "consoles",
+   "d": "Console maker whose bus compressor and channel strips are widely emulated.",
+   "s": "https://blog.dubspot.com/plugins/best/compressor"
+  },
+  {
+   "n": "Plugin Alliance",
+   "c": "",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "plug-in bundles",
+   "d": "Distributor of Brainworx, Black Box and other plug-ins.",
+   "s": "https://blog.dubspot.com/plugins/best/compressor"
+  }
+ ],
+ "traditions": [],
+ "notes": "Redistributed k125 (6 old models): Pro-C 3 into FabFilter Pro-C; TDR Kotelnikov into Tokyo Dawn dynamics; TDR Nova into EQ; Valhalla Supermassive into Valhalla reverbs; OTT into Compressor; LFO Tool into Delay & modulation volume shapers. Ten further kinds are new and built from the Dubspot 2026 rankings, a SampleFocus EQ roundup and Wikipedia articles on the hardware (LA-2A, 1176, Pultec, Lexicon, Echoplex, Reverb effect) and companies. Hardware-emulation archetypes group the community-named originals (LA-2A, 1176, SSL bus, Fairchild, Pultec, EMT 140/250, Lexicon, Echoplex, Space Echo, Ampex, Studer). Not on any retrieved page and therefore omitted: Xfer OTT details beyond the old-data entry, Lexicon 480L plug-in from Lexicon itself, Neve 1073 emulations, Pro Tools stock plug-ins, Voxengo and Youlean makers beyond the ranking. EQ coverage is thinner because the Dubspot EQ page was not found. Brand entries use fetched pages; countries blank where unsure. | Coordinator: Caelum Audio Flux Mini 2 and Flux Pro (old-data models moved out of Software synthesiser in 07_00) placed here as filter effects."
+}

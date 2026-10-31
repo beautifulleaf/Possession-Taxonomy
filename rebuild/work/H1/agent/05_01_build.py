@@ -1,0 +1,47 @@
+import json, os
+OLD="https://terrywhitechemmart.com.au/shop/products/personal-care/feminine-hygiene"
+W="https://en.wikipedia.org/wiki/"
+kinds=[
+ {"n":"Menstrual pad","a":"sanitary pad · sanitary towel · maxi pad · panty liner","d":"Absorbent pad worn in underwear to catch menstrual flow, disposable or reusable.",
+  "t":["liner","regular","ultra thin","overnight","maternity","reusable cloth"],
+  "m":[["Ultra Thin pads","Always"],["Maxi pads","Always"],["Dreamzzz night-time pads","Always"],["Ultra Thins","Libra"],["Goodnights","Libra"],["Maternity Extra Long","Libra"],["U by Kotex Maxi Ultimate Overnight","Kotex"],["U by Kotex Sport Ultra Thin","Kotex"],["Organic cotton pads","TOM Organic"],["Overnight Success pad","Hello Period"]],
+  "s":OLD},
+ {"n":"Tampon","a":"","d":"Absorbent plug inserted into the vagina to absorb menstrual flow.",
+  "t":["light","regular","super","super plus","with applicator","non-applicator","organic cotton"],
+  "m":[["Tampax tampons","Tampax"],["Compact Applicator","o.b."],["U by Kotex Click tampons","Kotex"],["Original Tampons","Libra"],["Organic cotton tampons","TOM Organic"]],
+  "s":OLD},
+ {"n":"Menstrual cup","a":"period cup","d":"Reusable bell-shaped silicone or rubber cup worn in the vagina to collect menstrual flow.",
+  "t":["small","medium","large","silicone","latex","thermoplastic"],
+  "m":[["Original Silicone Menstrual Cup (sizes A, B)","Mooncup"],["DIVA Cup Model 0","DivaCup"],["DIVA Cup Model 1","DivaCup"],["DIVA Cup Model 2","DivaCup"],["Period cup","Saalt"],["Period cup","TOM Organic"],["Cervix Cup","Hello Period"]],
+  "s":OLD},
+ {"n":"Menstrual disc","a":"period disc","d":"Flat flexible disc worn high in the vaginal fornix to collect menstrual flow.",
+  "t":["disposable","reusable"],
+  "m":[["Flex Disc (disposable)","Flex"],["DIVA Disc (reusable)","DivaCup"]],
+  "s":OLD},
+ {"n":"Period underwear","a":"period pants · menstrual underwear · period panties","d":"Underwear with built-in absorbent layers, worn instead of or as backup to other period products.",
+  "t":["light","heavy","overnight","teen","swimwear","activewear"],
+  "m":[["Thinx Air","Thinx"],["Thinx Super","Thinx"],["(BTWN) teen period underwear","Thinx"],["Period underwear","Modibodi"],["Period pants","Mooncup"],["Absorbent underwear","Saalt"],["Period underwear","Knix"]],
+  "s":W+"Period_underwear"}]
+brands=[
+ {"n":"Always","c":"United States","f":"1983","seg":"Mass-market period care","d":"Procter & Gamble pad and liner brand, sold as Whisper in parts of Asia.","lines":["Maxi","Ultra Thin","Platinum liners","Dailies","Discreet","Dreamzzz"],"eras":[],"sig":["Ultra Thin pads"],"sc":[],"rel":["Tampax"],"s":W+"Always_(brand)"},
+ {"n":"Tampax","c":"United States","f":"1931","seg":"Mass-market period care","d":"Procter & Gamble tampon brand built on Earle Haas's applicator tampon patent, sold in over 100 countries.","lines":[],"eras":[],"sig":["Applicator tampon"],"sc":[],"rel":["Always","o.b."],"s":W+"Tampax"},
+ {"n":"Kotex","c":"United States","f":"1920","seg":"Mass-market period care","d":"Kimberly-Clark pad, liner and tampon brand; relaunched as U by Kotex in 2010.","lines":["U by Kotex","Ultra Thin","Maxi","BioCare","Bamboo","Kotex Teen","Click tampons","Daily Liners"],"eras":["U by Kotex platform, from 2010"],"sig":["Maxi pad"],"sc":[],"rel":["Thinx","Always"],"s":W+"Kotex"},
+ {"n":"o.b.","c":"Germany","f":"1950","seg":"Mass-market period care","d":"Tampon brand designed by gynaecologist Judith Esser-Mittag to be inserted without an applicator; owned by Kenvue outside the US.","lines":["Compact Applicator"],"eras":[],"sig":["Non-applicator tampon"],"sc":[],"rel":["Tampax"],"s":W+"O.b._(brand)"},
+ {"n":"Libra","c":"Australia","f":"","seg":"Mass-market period care","d":"Australian pad, tampon and liner brand of Asaleo Care, owned by Essity since 2021.","lines":["Ultra Thins","Goodnights","Invisible","Maternity","Tampons"],"eras":[],"sig":[],"sc":[],"rel":["TOM Organic","Modibodi"],"s":"https://essity.com/media/press-release/today-australian-hygiene-company-asaleo-care-becomes-essity/00c07fb294661cff"},
+ {"n":"TOM Organic","c":"Australia","f":"2009","seg":"Organic period care","d":"Australian brand of organic-cotton tampons, pads and liners plus a silicone period cup.","lines":["Tampons","Pads","Liners","Period cup"],"eras":[],"sig":["Organic cotton tampon"],"sc":[],"rel":["Libra"],"s":"https://fq.co.nz/meet-the-organic-period-brand-that-understands-what-your-body-needs/"},
+ {"n":"DivaCup","c":"Canada","f":"2003","seg":"Reusable period care","d":"Kitchener, Ontario maker of the DIVA Cup menstrual cup and DIVA Disc, founded by Francine Chambers and Carinne Chambers-Saini.","lines":["DIVA Cup Model 0","DIVA Cup Model 1","DIVA Cup Model 2","DIVA Disc"],"eras":[],"sig":["DIVA Cup"],"sc":[],"rel":["Mooncup","Saalt"],"s":"https://shopdiva.com/pages/our-story"},
+ {"n":"Mooncup","c":"United Kingdom","f":"2002","seg":"Reusable period care","d":"British maker of the first medical-grade silicone menstrual cup, sold in sizes A and B.","lines":["Original Silicone Menstrual Cup","Period pants"],"eras":["2019 rebrand"],"sig":["Mooncup"],"sc":[],"rel":["DivaCup"],"s":"https://collections.vam.ac.uk/item/O1733023/mooncup-menstrual-cup-mooncup-ltd/"},
+ {"n":"Saalt","c":"United States","f":"2018","seg":"Reusable period care","d":"Boise, Idaho maker of reusable period cups and absorbent underwear, led by Cherie Hoeger.","lines":["Period cup","Absorbent underwear"],"eras":[],"sig":[],"sc":[],"rel":["DivaCup"],"s":"https://commerce.idaho.gov/blog/company-spotlight-saalt/"},
+ {"n":"Flex","c":"United States","f":"2015","seg":"Period discs","d":"Company founded by Lauren Schulte that makes the Flex disposable menstrual disc, worn up to 12 hours.","lines":["Flex Disc"],"eras":[],"sig":["Disposable menstrual disc"],"sc":[],"rel":[],"s":"https://www.core77.com/posts/56149/Designing-a-Tampon-Alternative-for-the-21st-Century"},
+ {"n":"Thinx","c":"United States","f":"2014","seg":"Period underwear","d":"New York period-underwear company, majority-owned by Kimberly-Clark since 2022.","lines":["Thinx Air","Thinx Super","Activewear","(BTWN)","Speax"],"eras":[],"sig":["Period underwear"],"sc":[],"rel":["Kotex","Knix","Modibodi"],"s":W+"Thinx"},
+ {"n":"Modibodi","c":"Australia","f":"2013","seg":"Period underwear","d":"Sydney maker of leakproof underwear, swimwear and activewear founded by Kristy Chong, bought by Essity in 2022.","lines":["Underwear","Swimwear","Activewear","Maternity"],"eras":[],"sig":["Period underwear"],"sc":[],"rel":["Thinx","Libra"],"s":"https://insideretail.com.au/business/modibodi-acquired-by-swedish-multinational-essity-for-140-million-202207"}]
+notes=("Tier shelf, no archetypes. Each old range list (Libra feminine care, U by Kotex pads and liners, Tom Organic, Hello Period) became a brand-register line list. "
+ "Pads: nine SKUs cut to ten models across Always, Libra, Kotex, TOM Organic and Hello Period; Libra Invisible, Libra Maternity Maxi and Ride Or Die were dropped as duplicates. Absorbency and size are types. "
+ "Tampon: added Tampax, o.b. and U by Kotex Click; dropped the Priceline Slim Fit store brand. Applicator and absorbency are types. "
+ "Cup: added Mooncup, DIVA Cup Models 0–2, Saalt and TOM Organic. Disc: added Flex and DIVA Disc. Period underwear is new (Wikipedia source) with Thinx, Modibodi, Mooncup, Saalt and Knix. "
+ "Hello Period and Knix have no brand entry because no page about them was retrieved. Libra's founding year is unknown: Wikipedia's Libra title redirects to Libresse, and the Essity release gives none. "
+ "Flex's 2015 date is when the founder went full-time on it (core77). Thinx uses the infobox year 2014; its history section says 2011. "
+ "The chemist page for TOM Organic returned 403, so the fq.co.nz article is cited instead. Nothing was dropped as out of scope.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/H1/shelves/05_01.json"; t=p+".tmp"
+json.dump(out,open(t,"w"),ensure_ascii=False,indent=1); os.replace(t,p)

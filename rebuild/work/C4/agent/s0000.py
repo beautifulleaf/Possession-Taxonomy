@@ -1,0 +1,112 @@
+import sys; sys.path.insert(0,'work/C4/agent'); from w import w
+WN="https://en.wikipedia.org/wiki/Winsor_%26_Newton"; GO="https://en.wikipedia.org/wiki/Golden_Artist_Colors"; LQ="https://en.wikipedia.org/wiki/Liquitex"; SN="https://en.wikipedia.org/wiki/Sennelier"
+OIL="https://artstudiolife.com/best-oil-paints/"; KR="https://www.abovegroundartsupplies.com/kremer-pigmente-48-years-of-historical-and-modern-pigments/"; RF="https://www.wyndhamartsupplies.com/collections/r-f/encaustic"
+SB="https://stephenberryart.com/blog/2018/10/13/a-basic-primer-on-watercolor-pigments-pt-3-so-what-should-i-buy"; AC="https://finearttutorials.com/?p=2671"; WC="https://finearttutorials.com/?p=4628"; GQ="https://splendith.nl/en/blogs/nieuws/de-beste-merken-gouache-vergeleken"
+CI="Colour Index pigment (single-pigment or mix) · lightfastness · transparency · granulation"
+def X(n,mk,d,s,v=(),y="",a="",dt=CI): 
+    o={"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":s,"v":[dict(zip(("n","mk","y","d"),t)) for t in v],"dt":dt}
+    return {k:val for k,val in o.items() if val or k in("mk","s")}
+kinds=[
+{"n":"Watercolour paint","a":"aquarelle · watercolor","d":"Transparent water-soluble paint in tubes or pans made for painting pictures.",
+ "t":["artist (professional) grade","student grade","tube","pan","half-pan","liquid watercolour","watercolour stick","granulating","honey-based"],
+ "x":[X("Winsor & Newton Professional Water Colour","Winsor & Newton","London colourman's artist-grade line; the house made glycerine-moist watercolour in 1835.",WC,
+        [("Cotman","Winsor & Newton","","student line, about 40 colours")],y="moist colour 1835"),
+      X("Schmincke Horadam Aquarell","Schmincke","German professional line, 139 colours, in pans and tubes.",WC,
+        [("Horadam Supergranulation","Schmincke","","granulating series"),("Aqua Drop","Schmincke","","liquid watercolour")]),
+      X("Daniel Smith Extra Fine Watercolor","Daniel Smith","American professional line with over 250 colours, known for mineral and granulating paints.",WC,
+        [("PrimaTek","Daniel Smith","","35 mineral-pigment colours"),("Luminescent","Daniel Smith","","interference and mica colours"),("Watercolor Sticks","Daniel Smith","","solid paint sticks")]),
+      X("Holbein Artists' Watercolor","Holbein","Japanese professional line of 108 tube colours made without ox gall.",WC),
+      X("Sennelier L'Aquarelle","Sennelier","French honey-based professional watercolour, over 100 colours, in half pans and tubes.",WC),
+      X("M. Graham Artists' Watercolor","M. Graham","American honey-based tube watercolour of 70 colours.",WC),
+      X("Old Holland Watercolour","Old Holland","Dutch professional tube watercolour in 168 colours.",WC),
+      X("QoR Watercolor","Golden Artist Colors","Modern-binder professional watercolour from Golden, 86 colours in 11 ml tubes.",WC),
+      X("Rembrandt Watercolour","Royal Talens","Dutch artist-grade watercolour in pans and tubes.",WC,[("Van Gogh","Royal Talens","","student line")]),
+      X("Mission Gold","Mijello","South Korean professional watercolour, 105 colours.",WC),
+      X("Da Vinci Watercolor","Da Vinci","American artist-grade tube watercolour.",SB,[("American Journey","Da Vinci","","Cheap Joe's label, reportedly made by Da Vinci")])],
+ "m":[["Handmade Watercolor","A. Gallo"],["Artists' Watercolor 10 ml","Art Spectrum"],["Watercolor Paintstones","Beam Paints"],["Blockx Watercolor","Blockx"],["Pearlcolors","Coliro"],["Aquafine","Daler-Rowney"],["Artists Watercolor","Daler-Rowney"],["Radiant Concentrated Watercolors","Dr. Ph. Martin's"],["IUILE Watercolor","IUILE"],["Finest Professional Watercolor","Jackman's Art Materials"],["Aquacryl","Lascaux"],["Sirius Fluid Watercolor","Lascaux"],["Artists Watercolor","Michael Harding"],["Aquarius","Roman Szmal"],["Rosa Gallery Watercolor","Rosa Gallery"],["PWC Premium Extra Fine","ShinHan"],["PASS Watercolor and Gouache Hybrid","ShinHan"],["Artist Watercolor","Turner Colour Works"]],
+ "s":"https://www.jacksonsart.com/en-us/color/watercolor/watercolor-paint"},
+{"n":"Oil paint","a":"oil colour","d":"Artists' paint with pigment bound in a drying oil.",
+ "t":["artist grade","student grade","water-mixable oil","alkyd (fast-drying) oil","linseed, safflower or walnut oil binder","tube","can"],
+ "x":[X("Winsor & Newton Artists' Oil Colour","Winsor & Newton","Long-established British artist-grade oil line.",OIL,
+        [("Winton Oil Colour","Winsor & Newton","","student line"),("Griffin Alkyd","Winsor & Newton","1976","fast-drying alkyd; first artists' alkyd colour 1976"),("Artisan Water Mixable Oil","Winsor & Newton","1997","water-mixable oil"),("Cadmium-Free Oil Colour","Winsor & Newton","","cadmium-free reds and yellows")]),
+      X("Old Holland Classic Oil Colours","Old Holland","Dutch premium oil with a stiff, heavily pigmented body.",OIL),
+      X("Schmincke Mussini","Schmincke","German resin-oil paint with damar resin and a high pigment-to-oil ratio.",OIL),
+      X("Sennelier Artists' Extra Fine Oil","Sennelier","French artist oil bound in safflower oil, with a runnier body.",OIL),
+      X("Michael Harding Artists Oil Colours","Michael Harding","British small-batch premium oil made without fillers.",OIL),
+      X("Williamsburg Handmade Oil Colors","Golden Artist Colors","American handmade oil of over 170 colours created by Carl Plansky, now made by Golden.",OIL),
+      X("Gamblin Artist's Oil Colors","Gamblin","American mid-priced artist oil with a stiff body.",OIL),
+      X("M. Graham Oil Color","M. Graham","American small-batch oil bound in walnut oil.",OIL),
+      X("Rembrandt Oil Colour","Royal Talens","Dutch artist oil with many transparent glazing colours.",OIL,[("Van Gogh Oil Colour","Royal Talens","","student line")]),
+      X("Georgian Oil Colour","Daler-Rowney","British student-grade oil from Daler-Rowney.",OIL)],
+ "s":"https://www.dickblick.com/categories/painting/oil-paint/"},
+{"n":"Acrylic paint","a":"acrylic colour","d":"Water-based paint with an acrylic polymer binder made for painting pictures.",
+ "t":["heavy body","soft body","fluid","high flow (ink-like)","slow-drying (open)","matte","student grade","artist grade","tube","jar","pouch"],
+ "x":[X("Liquitex Soft Body","Liquitex","The first water-based acrylic artists' paint, sold by Liquitex from 1956.",LQ,
+        [("Liquitex Heavy Body","Liquitex","1963","thick impasto line"),("Liquitex Basics","Liquitex","","student line")],y="1956"),
+      X("Golden Heavy Body Acrylics","Golden Artist Colors","Golden's original professional heavy-body acrylic with a high pigment load.",AC,
+        [("Golden Fluid Acrylics","Golden Artist Colors","","runny, for pouring and glazing"),("High Flow Acrylics","Golden Artist Colors","","ink-like"),("OPEN Acrylics","Golden Artist Colors","","slow-drying"),("SoFlat Matte Acrylic","Golden Artist Colors","","flat matte")]),
+      X("Winsor & Newton Professional Acrylic","Winsor & Newton","British professional acrylic of about 80 colours.",AC,[("Galeria","Winsor & Newton","","student line, 60 colours")]),
+      X("Cryla","Daler-Rowney","British heavy-body professional acrylic, launched 1963.",AC,[("System 3","Daler-Rowney","","student soft-body line")],y="1963"),
+      X("Amsterdam Expert","Royal Talens","Dutch professional acrylic of 70 colours with a buttery body.",AC,[("Amsterdam Standard","Royal Talens","","student line")]),
+      X("Schmincke PRIMAcryl","Schmincke","German premium paste-like acrylic in 84 colours.",AC),
+      X("Old Holland New Masters Classic Acrylics","Old Holland","Dutch heavy-body professional acrylic in 168 colours.",AC),
+      X("Vallejo Artist Acrylic","Vallejo","Spanish matte heavy-body acrylic of 89 colours, released 1972.",AC,y="1972"),
+      X("Sennelier Abstract","Sennelier","French acrylic sold in flexible pouches, 60 hues.",AC)],
+ "m":[["Acrylic Mural Paint","Chroma"],["Academy Acrylics","Grumbacher"],["Background Colors Acrylic","Matisse"]],
+ "s":"https://www.dickblick.com/categories/painting/acrylic-paint/"},
+{"n":"Gouache","a":"body colour · designers' colour","d":"Opaque water-based paint made for painting pictures.",
+ "t":["traditional (gum arabic)","acrylic gouache","poster colour","tube","pan","artist grade","student grade"],
+ "x":[X("Winsor & Newton Designers Gouache","Winsor & Newton","British opaque gouache launched 1937 and long treated as the reference line.",WN,
+        [("Cadmium-Free Designers' Gouache","Winsor & Newton","","cadmium-free version")],y="1937"),
+      X("Holbein Artists' Gouache","Holbein","Japanese professional gouache, finer and more fluid than most.",GQ,[("Acryla Gouache","Holbein","","matte acrylic gouache, water-resistant when dry")]),
+      X("Daniel Smith Extra Fine Gouache","Daniel Smith","American professional gouache.",GQ),
+      X("Talens Gouache","Royal Talens","Dutch study-quality gouache.",GQ,[("Art Creation Gouache","Royal Talens","","student line")])],
+ "m":[["Gouache Paintstones","Beam Paints"],["Professional Gouache","Da Vinci"],["Acrylic Gouache","Lascaux"],["Artist Gouache","Maimeri"],["Poster Colour Paint","Nicker"],["Studio Gouache","Pebeo"],["Akademie Gouache","Schmincke"],["Designers Gouache","Schmincke"],["Extra Fine Gouache","Sennelier"],["Professional Designers Gouache","ShinHan"]],
+ "s":"https://www.dickblick.com/categories/painting/gouache/"},
+{"n":"Dry pigment","a":"pure pigment · powder pigment","d":"Loose artists' pigment powder for mulling into oil, gum, egg or wax by hand.",
+ "t":["earth pigment","mineral pigment","synthetic inorganic","synthetic organic","historical pigment","jar","bag"],
+ "x":[X("Kremer Pigmente","Kremer Pigmente","German pigment house of about 1,500 pigments, reviving historical colours such as smalt, vermilion and lapis lazuli.",KR,y="1977",dt="Colour Index pigment · particle size · historical or modern"),
+      X("Sennelier Pure Pigments","Sennelier","Over eighty dry pure pigments from the Paris colourman.",SN,dt="Colour Index pigment · jar size")],
+ "s":KR},
+{"n":"Encaustic and egg tempera","a":"encaustic paint · wax paint · egg tempera","d":"Traditional paints bound in hot beeswax and resin (encaustic) or egg yolk (tempera).",
+ "t":["encaustic cake","encaustic medium","impasto modelling wax","egg tempera tube","pigment for egg yolk"],
+ "x":[X("R&F Encaustic Paint","R&F Handmade Paints","Wax-based encaustic paint milled in small batches in Kingston, New York, since 1988.",RF,
+        [("R&F Encaustic Medium","R&F Handmade Paints","","clear wax-resin medium")],y="1988",dt="Colour Index pigment · cake size")],
+ "s":RF},
+{"n":"Painting medium and varnish","a":"acrylic medium · oil medium · solvent · picture varnish","d":"Liquid or gel mixed with paint to change its handling, or laid over a finished picture to protect it.",
+ "t":["acrylic gel and fluid medium","pouring medium","oil medium","solvent","drying (alkyd) medium","retouch varnish","final picture varnish","gloss","satin","matte"],
+ "m":[["Matte Mediums","Golden Artist Colors"],["Artists' Acrylic Sizing","Utrecht"],["Mediums and Varnishes","Liquitex"]],
+ "s":"https://www.dickblick.com/categories/painting/mediums/acrylic/"},
+{"n":"Gesso and primer","a":"gesso · acrylic gesso · ground","d":"Ground laid on a surface before painting.",
+ "t":["acrylic gesso","traditional chalk-and-glue gesso","oil primer","coloured gesso","clear gesso","rabbit-skin glue size"],
+ "m":[["Acrylic Gesso","Liquitex"],["Acrylic Gesso","Grumbacher"],["Acryla Colored Gesso","Holbein"],["Primer Gesso","Lascaux"]],
+ "s":"https://bookstore.ualberta.ca/art-design/gm-type/Acrylic-Mediums,Drill-Bits"}]
+G="Professional & flagship"
+def B(n,c,f,seg,kf,d,s,sig=(),lines=(),rel=()):
+    o={"n":n,"c":c,"f":f,"seg":seg,"kf":kf,"d":d,"s":s,"sig":list(sig),"lines":list(lines),"rel":list(rel)}
+    return {k:v for k,v in o.items() if v}
+brands=[
+ B("Winsor & Newton","United Kingdom","1832","Professional & flagship","artists' colours","London colourman founded by William Winsor and Henry Newton, now part of Colart.",WN,["Winsor & Newton Professional Water Colour","Winsor & Newton Designers Gouache","Series 7"],["Professional","Cotman","Artists' Oil","Winton","Galeria"],["Liquitex"]),
+ B("Schmincke","Germany","1881","Professional & flagship","watercolour","German maker of artists' colours from Düsseldorf.",OIL,["Schmincke Horadam Aquarell","Schmincke Mussini"],["Horadam","Mussini","PRIMAcryl","Akademie"]),
+ B("Daniel Smith","United States","","Professional & flagship","watercolour","American colour maker known for its extensive mineral and granulating watercolour range.",WC,["Daniel Smith Extra Fine Watercolor"],["Extra Fine","PrimaTek"]),
+ B("Holbein","Japan","","Professional & flagship","watercolour, gouache","Japanese maker of artists' colours.",GQ,["Holbein Artists' Watercolor","Holbein Artists' Gouache"],["Artists' Watercolor","Acryla"]),
+ B("Sennelier","France","1887","Heritage manufactory","pigments, oil pastel","Paris colourman founded by Gustave Sennelier near the École des Beaux-Arts.",SN,["Sennelier L'Aquarelle"]),
+ B("M. Graham","United States","","Artisan & independent","honey watercolour, walnut oil","American small-batch maker using honey in watercolour and walnut oil in oils.",OIL),
+ B("Old Holland","Netherlands","1664","Heritage manufactory","oil colour","Dutch maker of premium, heavily pigmented colours.",OIL,["Old Holland Classic Oil Colours"]),
+ B("Golden Artist Colors","United States","1980","Professional & flagship","acrylic","Acrylic maker in New Berlin, New York, founded by Sam Golden and family; also makes QoR and Williamsburg.",GO,["Golden Heavy Body Acrylics"],["Heavy Body","QoR","Williamsburg"]),
+ B("Liquitex","United States","1955","Professional & flagship","acrylic","Cincinnati maker founded by Henry Levison that sold the first water-based acrylic artists' paint; owned by Colart since 2000.",LQ,["Liquitex Soft Body"],["Soft Body","Heavy Body","Basics"],["Winsor & Newton"]),
+ B("Michael Harding","United Kingdom","","Artisan & independent","oil colour","British small-batch maker of premium oil paint.",OIL),
+ B("Gamblin","United States","","Premium","oil colour","American oil colour maker.",OIL),
+ B("Royal Talens","Netherlands","1899","Mainstream","Rembrandt, Van Gogh, Amsterdam","Dutch artists' colour maker behind Rembrandt, Van Gogh, Amsterdam and Talens lines.",GQ,lines=["Rembrandt","Van Gogh","Amsterdam","Talens"]),
+ B("Daler-Rowney","United Kingdom","1783","Mainstream","acrylic, oil","Long-established London art materials maker.",OIL,lines=["Georgian","Cryla","System 3","Aquafine"]),
+ B("Mijello","South Korea","","Premium","watercolour","South Korean maker of Mission Gold watercolour.",WC),
+ B("Da Vinci","United States","","Premium","watercolour","American paint maker of artist-grade watercolour and gouache.",SB),
+ B("Vallejo","Spain","","Mainstream","acrylic","Spanish acrylic maker whose Artist Acrylic range dates from 1972.",AC),
+ B("Kremer Pigmente","Germany","1977","Specialist","historical pigments","Pigment house founded by chemist Georg Kremer, milling in a former flour mill at Aichstetten.",KR),
+ B("R&F Handmade Paints","United States","1988","Artisan & independent","encaustic","Kingston, New York maker of encaustic paint and Pigment Sticks, founded by Richard Frumess.",RF,lines=["Encaustic","Pigment Sticks","Drawing Oils"]),
+]
+notes=("Blick house-brand lines (Blick Studio oil/acrylic, Blick Artists' acrylic, Blick Liquid Watercolors, Blick gesso) and the Blick Studio range trimmed per brief. "
+ "Kuretake Gansai Tambi moved out: it belongs to the 'Gansai and East Asian watercolour' kind on the ink-painting shelf. "
+ "Old models that fit a line became archetype versions; others stay in m. Schmincke Horadam gouache and Natural Pigments left out: no retrieved page confirmed them. "
+ "No egg-tempera brand archetype: no retrieved page confirmed one. Jackson's and Jerry's pages were blocked (403); independent review pages used instead. Brand founding years only where a retrieved page gave them.")
+w('C4','00_00',{"kinds":kinds,"brands":brands,"traditions":[],"notes":notes})

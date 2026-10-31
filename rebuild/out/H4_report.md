@@ -1,0 +1,9 @@
+# H4 Fragrance — rebuild report
+
+**Brand mode:** Bottles & atomisers: variety; Perfume: variety; Perfumery materials: mixed; Samples, decants & sets: mixed
+
+**Counts (before → after):** 5 → 4 departments · 5 → 43 kinds · 0 → 190 archetypes · 121 → 66 flat models · 121 → 303 models+versions · 57 → 97 brands named · register 77 brands, 5 traditions · moves out 0 · dropped kinds 0.
+
+**Sources:** 227 distinct retrieved URLs logged in work/H4/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
+
+**Worker notes:** Fine fragrance by family: Old k1 "Alcohol-based perfume" became Floral fragrance; its ~70 models were redistributed: icons became archetypes (Portrait of a Lady, 1 Million, Diptyque Philosykos/Tam Dao/Do Son/Fleur de Pea | Attar & traditional oils: Old k3 Perfume oil redistributed: Dehnal Oud Cambodi -> Cambodi oud oil version; Musk Tahara -> Musk tahara version; Warda Taif -> Taif rose oil version; Egyptian Musk kept as a musk-oil model.  | Hair, body & solid fragrance: Body mist: Bath & Body Works SKU list trimmed to icons (Japanese Cherry Blossom archetype with Forever Cherry Blossom as version; Champagne Toast, Warm Vanilla Sugar etc. kept in m); dropped | Samples, decants & sets: New shelf (no old data). Ranges for decant services limited to the two services whose pages I retrieved (Surrender to Chance, Scento). Gift-set models are 2016 examples from one retrieved roundup | Collectible & refillable bottles: No old data for this shelf; all seven planned kinds are new and sourced. Art-glass bottles (Lalique, Webb cameo, Czech) should cross-link to F2. Left out: lay-down bottles (no retrieved  | Raw materials: New shelf (no old data). Archetypes are named key materials; versions only where the source page gives them (origins, trade names, landmark perfumes). Rose otto/absolute kept as raw materials; the attar-st | Perfumer's tools & kits: New shelf, no old data. Organ archety

@@ -1,0 +1,10 @@
+# H1 Personal Care & Beauty — rebuild report
+
+**Brand mode:** Bath, body & hygiene: mixed; Comfort & massage: tier; Hair: mixed; Make-up: mixed; Oral care: tier; Shaving & hair removal: mixed; Skincare: mixed
+
+**Counts (before → after):** 9 → 7 departments · 151 → 152 kinds · 0 → 349 archetypes · 585 → 388 flat models · 585 → 770 models+versions · 313 → 404 brands named · register 236 brands, 32 traditions · moves out 5 · dropped kinds 1.
+
+**Sources:** 801 distinct retrieved URLs logged in work/H1/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
+
+**Dropped (scope rule):** Barber chair (Barber chair is salon trade equipment, not personal-care kit; out of scope under the scope rule.)
+**Worker notes:** Cleansers & toners: Old Olive Young-skewed models trimmed: LAGOM Cellup, The Face Shop Rice Water, Youth To The People Supershroom (Face cleanser); Glow Recipe PDRN pads, ROSE Ingleton SuperFruit Tonic (Toner) dropped as | Moisturisers: Merged Moisturising cream + Lotion into Face moisturiser (lotion/emulsion as a type). Dropped as SKU noise: Anua PDRN cream, Centellian24 Madeca, S.NATURE Aqua Squalane (face); CYKLAR oil, three of four The | Serums, treatments & masks: Shelf Skincare › Serums, treatments & masks: 5 old kinds kept, 1 new kind (Gua sha & facial roller). Serum: 9 SKUs → 6 archetypes (ANR with 5 formula generations, SK-II FTE, C E Ferulic, Génif | Sun care & tanning: Dropped old SKU models Lightsaver Triplesome Serum SPF 40 and Peach & Lily Beam Blocker (niche single SKUs, not market-covering or test winners). Kind sources switched from retail pages to retrieved W | Face make-up: All 9 planned kinds kept. Archetypes sourced from fetched pages; Touche Éclat placed under Concealer (used on shadows/dark circles). Primer has no archetype (no fetched source for Smashbox Photo Finish hist | Eyes & brows: Shelf Make-up › Eyes & brows: all 7 old kinds kept (Eyebrow gel renamed Brow gel); nothing dropped. 22 archetypes added, all from pages retrieved this session. Old SKU models kept in 'm' where no archetype  | Lips: Lips shelf rebuilt into 4 kinds (Lipstick, new Lip gloss

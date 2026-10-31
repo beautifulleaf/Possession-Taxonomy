@@ -1,0 +1,48 @@
+import json, os
+W="https://www.which.co.uk/reviews/grass-trimmers-and-strimmers/article/recommendations/which-best-buy-grass-trimmers-and-strimmers"
+kinds=[
+ {"n":"String trimmer","a":"strimmer · grass trimmer · line trimmer · weed eater","d":"Powered tool that cuts grass at lawn edges and around obstacles with a spinning nylon line or light blade.",
+  "t":["cordless","corded electric","petrol","bump-feed head","fixed-line head","blade head","trimmer & brushcutter combi"],"s":W,
+  "m":[["FSA 60 R","STIHL"],["FSA 80","STIHL"],["FSA 50","STIHL"],["ST1401E-ST","EGO"],["ST1511E-T","EGO"],["RY18LT33A-140","Ryobi"],["RY36LT38A-0","Ryobi"],["UniversalGrassCut 18V-26-500","Bosch"],["215iL","Husqvarna"],["Aspire T28-P4A","Husqvarna"],["DUR189Z","Makita"],["SmallCut 23/18V P4A","Gardena"]]},
+ {"n":"Half-moon edger","a":"edging iron · lawn edger","d":"Long-handled tool with a flat half-moon blade pushed in by foot to cut a clean lawn edge.","t":["stainless steel","carbon steel"],
+  "s":"https://webbsdirect.co.uk/burgon-ball-rhs-stainless-steel-half-moon-lawn-edger",
+  "m":[["RHS Stainless Steel Half Moon Lawn Edger","Burgon & Ball"],["BoronGreen Lawn Edger","Burgon & Ball"],["4811EK Traditional Stainless Lawn Edger","Spear & Jackson"]]},
+ {"n":"Grass shears","a":"lawn shears · edging shears","d":"Short-bladed shears, one-handed or on long handles, for trimming grass at lawn edges by hand.","t":["one-handed","long-handled","battery grass shears"],
+  "s":"https://wilkinsonsword-tools.co.uk/products/ranges/cutting-range/grass-shears/long-handled-lawn-shears",
+  "m":[["Long Handled Lawn Shears 1111137WF","Wilkinson Sword"],["Grass Shears Comfort 8733-20","Gardena"]]},
+ {"n":"Scarifier","a":"lawn rake · dethatcher · verticutter","d":"Machine or tool that rakes thatch and moss out of a lawn with blades or tines.","t":["manual spring-tine rake","electric","petrol"],
+  "s":"https://www.diy.com/landingpage/outdoor-garden/garden-tools","m":[["WEPS400","Webb"]]},
+ {"n":"Lawn aerator","a":"","d":"Tool or machine that spikes or cores a lawn to let air and water into the soil.","t":["spike","hollow-tine / plug","hand fork","tow-behind"],
+  "s":"https://www.diy.com/landingpage/outdoor-garden/garden-tools",
+  "m":[["Smartlink Plug Aerator 45-0474","Agri-Fab"],["Spike Aerator PSA2-20BH","Brinly-Hardy"],["Plug Aerator DE-36L","Yard Tuff"]]},
+ {"n":"Broadcast spreader","a":"lawn spreader · seed spreader","d":"Wheeled or hand-held hopper that spreads seed or granular feed over a lawn.","t":["hand-held","wheeled broadcast","drop"],
+  "s":"https://www.hornbach.de/c/garten/gartenwerkzeug-gartengeraete/S1943/","m":[["Universal Power Spreader","Wolf-Garten"]]},
+ {"n":"Lawn roller","a":"garden roller","d":"Weighted drum pushed or pulled to firm and level a lawn.","t":["water- or sand-filled poly drum","steel drum","tow-behind"],
+  "s":"https://www.hornbach.de/c/garten/gartenwerkzeug-gartengeraete/S1943/",
+  "m":[["Poly Lawn Roller PRT-36SBH","Brinly-Hardy"],["Lawn Roller 10T","Ohio Steel"]]},
+ {"n":"Artificial turf","a":"artificial grass · synthetic turf · fake grass","d":"Synthetic grass surface sold in rolls or tiles to lay as a lawn.","t":["pile height","pet-friendly","play / fire-retardant","putting green"],
+  "s":"https://lazylawn.co.uk/product-category/artificial-grass",
+  "m":[["Lazy Supreme","LazyLawn"],["Lazy Signature","LazyLawn"],["Putting Green Pro","LazyLawn"],["Wessex","Namgrass"],["Eden","As Good As Grass"],["Lux","As Good As Grass"],["Play Care","As Good As Grass"]]},
+ {"n":"Mower & trimmer spare parts","a":"mower blade · trimmer line · spool · drive belt","d":"Replacement wear parts for mowers and trimmers: mower blades, trimmer line and spools, belts.","t":["mower blade","trimmer line","trimmer spool","drive belt"],
+  "s":"https://www.ronsmith.co.uk/shop/c/accessories/lawn-mower-accessories/rotary-blades/"},
+]
+brands=[
+ {"n":"STIHL","c":"Germany","f":"1926","seg":"Outdoor power equipment","d":"Waiblingen maker of handheld forestry and landscaping machines founded by Andreas Stihl.","lines":["FSA cordless trimmers"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Stihl"},
+ {"n":"Husqvarna","c":"Sweden","f":"1689","seg":"Outdoor power equipment","d":"Swedish group, founded as a firearms maker, selling mowers, chainsaws and trimmers; owns Gardena, Flymo, McCulloch and Weed Eater.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["Gardena","Flymo","Weed Eater"],"s":"https://en.wikipedia.org/wiki/Husqvarna_Group"},
+ {"n":"Gardena","c":"Germany","f":"1961","seg":"Garden tools & watering","d":"Ulm maker of garden tools and watering systems, part of Husqvarna Group since 2007.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["Husqvarna"],"s":"https://en.wikipedia.org/wiki/Gardena_(company)"},
+ {"n":"Ryobi","c":"Japan","f":"1943","seg":"Power tools","d":"Japanese brand whose power tools are made and sold by Techtronic Industries under licence.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Ryobi"},
+ {"n":"Spear & Jackson","c":"United Kingdom","f":"1760","seg":"Garden & hand tools","d":"Sheffield maker of garden and hand tools tracing its origins to a 1760 tool-making partnership.","lines":["Traditional Stainless","Neverbend"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Spear_%26_Jackson"},
+ {"n":"Burgon & Ball","c":"United Kingdom","f":"1730","seg":"Garden hand tools","d":"Sheffield maker of shears and garden tools, the only British maker of hand sheep shears.","lines":["RHS-endorsed tools"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Burgon_%26_Ball"},
+ {"n":"Wilkinson Sword","c":"United Kingdom","f":"1772","seg":"Garden hand tools (licensed name)","d":"Old British blade name; its garden tools are now made under licence by E.P. Barrus.","lines":[],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Wilkinson_Sword"},
+ {"n":"LazyLawn","c":"United Kingdom","f":"","seg":"Artificial grass","d":"Rutland-based artificial grass brand, landscape sister company of TigerTurf.","lines":["Lazy Supreme","Lazy Signature","Putting Green Pro"],"eras":[],"sig":[],"sc":[],"rel":["TigerTurf"],"s":"https://lazylawn.co.uk/product-category/artificial-grass"},
+ {"n":"TigerTurf","c":"United Kingdom","f":"","seg":"Synthetic turf","d":"Synthetic turf maker for sport and landscape; landscaping is handled by sister company LazyLawn.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["LazyLawn"],"s":"https://tigerturf.com/uk/?p=2529"},
+ {"n":"Namgrass","c":"Belgium","f":"","seg":"Artificial grass","d":"Belgian-made artificial grass sold through UK merchants with a 10-year product and UV warranty.","lines":["Wessex"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.jtatkinson.co.uk/pr/bmis109/namgrass-wessex-artificial-grass-32mm"},
+]
+notes=("Tier shelf, no archetypes. String trimmer: old STIHL FSA 110 R and FSA 30 dropped (FSA 50 kept); now 12 market-brand models from the Which? tested list (Best Buy labels paywalled, so no test winners named); source switched to the Which? page. "
+ "Half-moon edger/grass shears: added Burgon & Ball BoronGreen (Barnsdale test), Spear & Jackson 4811EK, Gardena Comfort 8733-20 from retrieved pages. "
+ "Artificial turf: dropped the four artificialgrass.ie retailer lines (Boyne, Corrib, Kilmore, Lansdowne); added LazyLawn and Namgrass ranges; TigerTurf as brand only (landscape sold as LazyLawn). Kept old As Good As Grass lines. "
+ "Lawn roller: dropped for_q FQ-RW (wholesale SKU). Trimmer line and mower blade merged into 'Mower & trimmer spare parts' with no models (STIHL line SKU dropped). "
+ "Not added: EGO, Bosch, Makita brand entries (no brand page retrieved); Wilkinson Sword garden-tool licence per Wikipedia; Burgon & Ball wiki URL redirects to Malin Bridge article which gives the 1730 Sheffield origin.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/C2/shelves/00_01.json"; tmp=p+".tmp"
+json.dump(out,open(tmp,"w"),ensure_ascii=False,indent=1); os.replace(tmp,p)

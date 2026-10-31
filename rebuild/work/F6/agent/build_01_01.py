@@ -1,0 +1,120 @@
+import sys; sys.path.insert(0,'work/F6/agent')
+from lib import *
+GS="https://www.gemselect.com/all-gemstones.php"
+kinds=[
+K("Ruby","Loose cut red corundum, or ruby cutting rough.",GS,[
+ X("Burmese (Mogok) ruby","Ruby from the Mogok Valley, Myanmar, for centuries the main source; the brightest red is called pigeon's blood and commands a large premium.",W+"Ruby",a="pigeon's blood ruby",
+   v=[("Smithsonian Burmese ruby","1930s","23.1 carats, mined in Mogok, National Museum of Natural History")],dt="pigeon's blood red · usually heated · few fine stones found recently"),
+ X("Thai and Cambodian ruby","Ruby historically mined in Thailand and in the Pailin and Samlout areas of Cambodia.",W+"Ruby",dt="historic sources"),
+ X("Mozambique (Montepuez) ruby","Ruby from the northeastern Montepuez mine, found in 2009 and soon the world's most productive source of gem ruby.",W+"Ruby",y="2009",dt="large supply · heat and glass-filling treatments common"),
+ X("Star ruby","Ruby cut as a cabochon to show a three- or six-ray star from oriented rutile silk.",W+"Ruby",a="asteriated ruby",dt="cabochon · asterism best seen under a single light"),
+ ],t=["Heated","Lead-glass filled"]),
+K("Sapphire","Loose cut corundum of any colour but red, or sapphire cutting rough.",GS,[
+ X("Kashmir sapphire","Cornflower-blue sapphire from the Paddar Valley in the Jammu region of India, mined mainly in the late 1800s and early 1900s.",W+"Sapphire",y="late 1800s",
+   v=[("Sotheby's record per-carat prices","2014–2015","Set for Kashmir stones in 2014 and 2015")],dt="vivid blue"),
+ X("Ceylon sapphire","Sapphire from Sri Lanka, mostly from the Ratnapura area, source of many famous stars.",W+"Sapphire",a="Sri Lankan sapphire",
+   v=[("Star of India","","563.4 carats, American Museum of Natural History"),("Logan Sapphire","","423 carats, Smithsonian"),("Star of Adam","2015","1,404.49 carats, found 2015")],dt="blue to fancy colours · stars"),
+ X("Padparadscha sapphire","Pink-orange to orange-pink sapphire, first found in Sri Lanka; the name comes from a Sanskrit word for lotus colour.",W+"Sapphire",
+   dt="pink-orange · beryllium-diffused imitations since about 2000"),
+ X("Montana (Yogo) sapphire","Cornflower-blue sapphire from Yogo Gulch near Lewistown, Montana, typically sold untreated.",W+"Yogo_sapphire",a="Yogo sapphire",dt="small stones · large faceted stones rare"),
+ X("Fancy and parti-colour sapphire","Sapphire in yellow, orange, green, brown, purple or showing two or more colours; Australia is the largest source of parti stones.",W+"Sapphire",
+   dt="yellow · orange · green · purple · parti"),
+ X("Star sapphire","Sapphire cut as a cabochon to show a six-ray star from rutile needles.",W+"Star_sapphire",dt="cabochon · asterism",
+   v=[("Star of Pure Land","2023","3,536-carat purple star sapphire from near Ratnapura")]),
+ X("Colour-change sapphire","Sapphire blue in daylight and purple under incandescent light; sources include Madagascar, Myanmar, Sri Lanka and Tanzania.",W+"Sapphire",dt="daylight blue · incandescent purple"),
+ ],t=["Heated","Diffusion-treated"]),
+K("Emerald","Loose cut green beryl, or emerald cutting rough.",GS,[
+ X("Colombian emerald","Emerald from Muzo, Coscuez and Chivor, historically the largest producer and prized for intense green.",W+"Emerald",a="Muzo emerald · Chivor emerald",
+   v=[("Mogul Mughal Emerald","1695–1696","217.80 carats cut"),("Patricia Emerald","1920","632 carats uncut"),("Gachalá Emerald","1967","858 carats uncut"),("Chalk Emerald","","Recut to 37.82 carats, Smithsonian")],dt="often heavily fractured · typically oiled"),
+ X("Zambian (Kagem) emerald","Emerald from the Kafubu River area; Zambia is the second-largest producer, with better transparency than most Colombian stones.",W+"Emerald",
+   v=[("Chipembele","2021","7,525-carat Zambian emerald")],dt="fewer inclusions · bluish green"),
+ X("Trapiche emerald","Rare Colombian emerald with ray-like spokes of dark impurities.",W+"Emerald",dt="cabochon or slice · six-ray pattern"),
+ X("Brazilian emerald","Emerald from Bahia and other Brazilian localities.",W+"Emerald",v=[("Bahia Emerald","2001","About 180,000 carats in host rock")],dt="lighter green"),
+ ],t=["Oiled","Resin-filled","Untreated"]),
+K("Aquamarine and other beryl","Cut beryl other than emerald: aquamarine, morganite, heliodor, goshenite and red beryl.",W+"Beryl",[
+ X("Aquamarine","Blue to cyan beryl coloured by iron, found in Sri Lanka, Brazil, Pakistan, Mount Antero (Colorado) and many other places.",W+"Beryl",
+   v=[("Maxixe","","Deep blue beryl whose colour fades with light or heat")],dt="pale blue to cyan · often heated"),
+ X("Morganite","Pink beryl, light pink to rose, coloured by manganese; sometimes heated to remove yellow patches.",W+"Beryl",a="pink beryl",dt="pink to rose · colour banding common"),
+ X("Heliodor","Golden-yellow to greenish-yellow beryl coloured by iron.",W+"Beryl",a="golden beryl",v=[("Smithsonian golden beryl","","Largest cut golden beryl, 2,054 carats")],dt="few flaws"),
+ X("Red beryl","Very rare red beryl first described in 1904 from Utah's Thomas Range, usually highly included.",W+"Beryl",a="bixbite",y="1904",dt="Utah and New Mexico · usually small and included"),
+ X("Goshenite","Colourless beryl named for Goshen, Massachusetts; historically used in lenses and spectacles.",W+"Beryl",dt="colourless · irradiated to other shades"),
+ ]),
+K("Cut spinel","Loose cut spinel, or spinel cutting rough.","https://www.1stdibs.com/buy/mahenge-red-spinel",[
+ X("Red and pink spinel","Spinel in red and pink, coloured by chromium, long found at Mogok and in Badakhshan.",W+"Spinel",
+   v=[("Black Prince's Ruby","","Spinel in the British Crown Jewels"),("Timur Ruby","","Spinel in the British Crown Jewels")],dt="Mogok · Badakhshan"),
+ X("Mahenge spinel","Spinel from marbles at Mahenge, Tanzania; glowing pink and blue stones found there since 2000.",W+"Spinel",y="2000",dt="neon pink · blue"),
+ X("Cobalt blue spinel","Pure blue spinel coloured by small amounts of cobalt.",W+"Spinel",dt="rare"),
+ ]),
+K("Alexandrite and chrysoberyl","Cut chrysoberyl: colour-change alexandrite, cat's-eye cymophane and plain yellow-green stones.",W+"Chrysoberyl",[
+ X("Alexandrite","Chrysoberyl that looks green in daylight and red under incandescent light, first from the Urals; larger stones now come from Brazil.",W+"Chrysoberyl",
+   dt="colour change from chromium · beware 'simulated alexandrite' corundum or spinel"),
+ X("Cymophane (cat's eye)","Translucent yellowish chrysoberyl with a chatoyant band from rutile inclusions; only chrysoberyl may be called cat's eye unqualified.",W+"Chrysoberyl",
+   a="cat's-eye chrysoberyl",v=[("Milk and honey","","The most prized colour effect")],dt="cabochon · Sri Lanka"),
+ ]),
+K("Tanzanite","Loose cut blue-violet zoisite, or tanzanite cutting rough.",GS,[
+ X("Merelani tanzanite","Blue-violet zoisite from a small mining area near the Merelani Hills, Tanzania, the only source; found in 1967 and introduced by Tiffany & Co. in 1968.",W+"Tanzanite",
+   y="1967",dt="brownish rough heated to blue-violet · trichroic unheated, dichroic after heating · no universal grading standard"),
+ ],t=["Heated","Unheated"]),
+K("Cut tourmaline","Loose faceted or cabochon tourmaline, or facet-grade tourmaline rough sold by weight. Uncut specimens are under Tourmaline in Minerals & crystals.",GS,[
+ X("Paraíba tourmaline","Copper-bearing elbaite with intense blue-green colour, from Rio Grande do Norte in Brazil, later Nigeria and Mozambique.",W+"Tourmaline",a="copper-bearing tourmaline",
+   v=[("Nigerian copper tourmaline","late 1990s","Paler and less saturated than Brazilian material"),("Mozambique copper tourmaline","","More recent source with intense stones")],dt="small stones · neon blue to green"),
+ X("Rubellite","Red or pinkish-red elbaite.",W+"Tourmaline",a="red tourmaline",dt="red to pink"),
+ X("Chrome tourmaline","Rare rich green dravite from Tanzania coloured by chromium.",W+"Tourmaline",dt="green · small stones"),
+ X("Indicolite and verdelite","Indicolite is light blue to bluish-green elbaite; verdelite is green elbaite.",W+"Tourmaline",dt="blue · green"),
+ X("Watermelon tourmaline","Bicolour tourmaline green at one end and pink at the other, or green outside and pink inside.",W+"Tourmaline",a="bicolour tourmaline",dt="slices and crystals"),
+ X("Dravite","Sodium-magnesium brown tourmaline, named by Tschermak in 1884 from Dobrova near Dravograd.",W+"Tourmaline",a="brown tourmaline",y="1884",dt="brown to yellow-brown"),
+ ]),
+K("Cut garnet","Loose faceted or cabochon garnet of any species, or garnet cutting rough. Uncut specimens are under Garnet in Minerals & crystals.",GS,[
+ X("Pyrope","Red magnesium-aluminium garnet; gem pyrope has been recovered from Colorado and Wyoming.",W+"Garnet",dt="red"),
+ X("Rhodolite","Violet-red garnet, about two parts pyrope to one part almandine, from Macon County, North Carolina.",W+"Garnet",dt="violet-red"),
+ X("Almandine","Deep red garnet known as carbuncle, the most common gem garnet; name from Alabanda in Asia Minor.",W+"Garnet",a="carbuncle",dt="deep red"),
+ X("Spessartite","Manganese-aluminium garnet named after Spessart, Bavaria; orange-yellow stones come from Madagascar.",W+"Garnet",a="spessartine",dt="orange to yellow"),
+ X("Hessonite","Yellow to cinnamon-brown grossular garnet.",W+"Garnet",dt="yellow-orange to brown"),
+ X("Tsavorite","Green grossular garnet from Kenya and Tanzania, first described in the 1960s near Tsavo.",W+"Tsavorite",y="1960s",dt="green"),
+ X("Demantoid","Green andradite garnet, one of the most prized garnets.",W+"Demantoid",dt="green · high dispersion"),
+ X("Colour-change garnet","Garnet blue-green in daylight and purple or reddish under incandescent light; blue pyrope-spessartine found at Bekily, Madagascar, in the late 1990s.",W+"Garnet",y="late 1990s",dt="pyrope-spessartine"),
+ ],m=[["Grossularite",""],["Malaya garnet",""]]),
+K("Cut topaz","Loose cut topaz, or topaz cutting rough.",GS,[
+ X("Imperial topaz","Yellow, pink-orange or rare pink topaz; Brazilian material can range to deep golden brown, and some stones fade in sunlight.",W+"Imperial_topaz",
+   v=[("Topaz of Aurangzeb","","157.75 carats, observed by Tavernier")],dt="golden to pink-orange · Brazil"),
+ X("Treated blue topaz","Naturally blue topaz is rare; colourless or pale stones are heat-treated and irradiated to a deeper blue and sold under shade names.",W+"Topaz",
+   v=[("London Blue topaz","","Deep treated blue shade"),("Swiss Blue topaz","","Mid treated blue shade"),("Sky Blue topaz","","Light treated blue shade")],dt="irradiated and heated"),
+ X("Mystic topaz","Colourless topaz with a vapour-deposited coating giving a rainbow surface.",W+"Topaz",dt="coating, not durable"),
+ ]),
+K("Cut amethyst, citrine and quartz gems","Loose faceted or cabochon quartz gems: amethyst, citrine, ametrine and prasiolite. Uncut amethyst specimens are under Amethyst in Minerals & crystals.",GS,[
+ X("Amethyst","Violet quartz coloured by iron; sources include Brazil, Uruguay, Zambia and Siberia, where Deep Siberian is the ideal grade.",W+"Amethyst",
+   dt="pale lavender to deep purple · colour strongest at tips · fades in light"),
+ X("Citrine","Yellow to orange quartz; natural citrine is rare and pale, and most sold is heat-treated amethyst.",W+"Citrine",v=[("Madeira citrine","","Heated amethyst, deep orange with red flashes")],dt="mostly heated amethyst"),
+ X("Ametrine","Quartz with purple and yellow zones; nearly all natural ametrine comes from the Anahí mine in Bolivia.",W+"Ametrine",a="bolivianite · trystine",dt="bicolour"),
+ X("Prasiolite","Green quartz; natural material is rare and most is heat-treated amethyst, notably from the Montezuma mine in Minas Gerais.",W+"Prasiolite",a="green amethyst · vermarine",dt="heated 400–500 °C"),
+ ]),
+K("Cut opal","Loose opal cut as a cabochon or faceted, or opal rough sold for cutting. Opal specimens and uncut nodules are under Opal in Minerals & crystals.",GS,[
+ X("Black opal","Opal with a dark body colour, chiefly from Lightning Ridge, New South Wales; the rarest type.",W+"Opal",dt="Lightning Ridge · Virgin Valley, Nevada",
+   v=[("Black Peacock","","From the Royal Peacock mine, Virgin Valley, Nevada")]),
+ X("Boulder opal","Opal in thin seams in dark ironstone, from western Queensland (Yowah, Koroit, Jundah, Quilpie).",W+"Opal",dt="cut with ironstone backing"),
+ X("White and crystal opal","Light-bodied white opal from Coober Pedy and crystal opal from Mintabie and Andamooka, South Australia.",W+"Opal",dt="South Australia"),
+ X("Fire opal","Transparent to translucent opal with warm yellow to red body colour, chiefly from Querétaro, Mexico.",W+"Opal",a="Mexican fire opal",y="c.1870",
+   v=[("Jalisco mines","1957","Found in 1957")],dt="faceted or cabochon · play of colour not required"),
+ X("Ethiopian Welo opal","Light-bodied opal with vivid play of colour from Wollo Province, found after 2008.",W+"Opal",y="2008",dt="hydrophane · Shewa opal 1994 dark brown"),
+ X("Peruvian blue opal","Semi-opaque blue-green opal from Peru with no play of colour, often cut with matrix.",W+"Opal",dt="no play of colour"),
+ ],t=["Solid","Doublet","Triplet"],m=[["Chocolate opal",""]]),
+K("Peridot","Loose cut olive-green peridot (gem olivine), or peridot cutting rough.",W+"Peridot",[
+ X("San Carlos peridot","Peridot from San Carlos, Arizona, now the main source.",W+"Peridot",dt="olive green"),
+ X("Zabargad peridot","Peridot from Zabargad (St John's Island) in the Red Sea, mined from about 300 BCE under the name topazios.",W+"Peridot",y="c.300 BCE",dt="historic source"),
+ X("Pakistani peridot","Peridot from the Kaghan Valley, Mansehra District, with silky and rod-like inclusions.",W+"Peridot",dt="Pakistan"),
+ X("Pallasite meteorite peridot","Peridot crystals from pallasite meteorites such as Fukang, Brenham, Esquel, Imilac and Jeppara; lacks nickel unlike terrestrial peridot.",W+"Peridot",dt="rare · cut from meteorites"),
+ ]),
+K("Jade","Jadeite and nephrite, carved or cut as cabochons, bangles and beads; graded Type A, B or C by treatment.",W+"Jade",[
+ X("Imperial jade","Translucent emerald-green jadeite, the most prized variety; Myanmar's Kachin State supplies over 70% of fine jadeite.",W+"Jade",a="fei cui · kingfisher jade",
+   dt="jadeite · Type A untreated · Myanmar"),
+ X("Hetian (Khotan) nephrite","White nephrite from Xinjiang river deposits, prized by Chinese scholars and paid as tribute to the court.",W+"Jade",dt="white nephrite"),
+ X("Canadian nephrite","Green nephrite from British Columbia, commercially mined from 1972.",W+"Jade",y="1972",dt="green nephrite"),
+ X("Pounamu","Nephrite from New Zealand's South Island, a protected taonga.",W+"Jade",a="New Zealand greenstone",dt="South Island"),
+ ],a="jadeite · nephrite",t=["Type A (untreated)","Type B (bleached and resin-impregnated)","Type C (dyed)","Type B+C","Type D (composite)"]),
+]
+S="Specialist"
+brands=[]
+trads=[{"n":"Chinese jade carving","g":"Jewellery & hardstone","r":"China","p":"Neolithic to present","d":"Carving of nephrite and, after about 1800, Burmese jadeite into ceremonial, scholar's and personal objects.",
+  "tech":"abrasive carving and polishing","mat":"nephrite, jadeite","forms":["bi discs","burial suits","brush rests","bangles"],"ctr":["Hetian (Khotan)"],
+  "auth":"test for jadeite versus nephrite; Type A/B/C treatment reports for jadeite","s":W+"Jade"}]
+save("01_01",kinds,brands,"Moved out: Ruby in fuchsite and Ruby-zoisite (rocks, belong with Corundum/Zoisite specimens in Minerals). Old Almandine, Demantoid, Hessonite, Pyrope, Rhodolite, Spessartite, Tsavorite, Rubellite, Chrome tourmaline, Imperial/London/Sky/Swiss Blue topaz, Black/Boulder/Fire opal models became archetypes or versions; Grossularite, Malaya garnet and Chocolate opal kept as models (no sourced page found). Gem laboratories are in shelf 01_00. Padparadscha, Kashmir facts from Wikipedia Sapphire page; London/Swiss/Sky shade descriptions are minimal. Lab-grown producers not duplicated here.",trads)

@@ -1,0 +1,694 @@
+{
+ "lead": "Coffee, tea, cocoa and herbal infusions bought to brew at home, organised by drink and then by origin, processing type and pack form, with tier picks for everyday packs and origin/estate/factory archetypes for speciality buyers.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Coffee",
+   "mode": "mixed",
+   "note": "Tier for supermarket, capsule and instant coffee; variety for speciality coffee organised origin → region → farm → variety → process → lot, with roasters in the brand register.",
+   "b": [
+    {
+     "m": "Cup score",
+     "v": "90-100 Outstanding > 85-89.99 Excellent > 80-84.99 Very Good > under 80 not specialty",
+     "w": "SCA cupping protocol: trained tasters score out of 100; 80+ defines specialty coffee and drives the price."
+    },
+    {
+     "m": "Competition result",
+     "v": "Cup of Excellence Presidential Award (90+) > Cup of Excellence winner (87+) > National Winner > none",
+     "w": "Blind national competitions (Cup of Excellence, Best of Panama) whose winning lots are sold at auction."
+    },
+    {
+     "m": "How exactly the origin is named",
+     "v": "single farm or lot > region or washing station > country > blend",
+     "w": "Roasters price by how precisely the origin is traceable."
+    },
+    {
+     "m": "Green-bean defects",
+     "v": "none in the worst class and at most 5 in the next, per 350 g",
+     "w": "SCA green grading: counting defects is the first check before tasting."
+    },
+    {
+     "m": "Variety",
+     "v": "rare variety (Geisha, Sidra, SL28) > named variety > unnamed",
+     "w": "Rare varieties command their own shelves and auction prices."
+    },
+    {
+     "m": "Roast date and freshness",
+     "v": "roast date printed, used within about 2–6 weeks > best-before only",
+     "w": "Speciality roasters print the roast date; staling sets in within weeks of roasting."
+    },
+    {
+     "m": "Process",
+     "v": "",
+     "w": "Washed, natural, honey or anaerobic sets the flavour; a matter of taste, not a ladder."
+    },
+    {
+     "m": "Roast level",
+     "v": "",
+     "w": "Roast matched to how you brew; a roast colour number measures it; a matter of taste."
+    },
+    {
+     "m": "Independent test result (everyday packs)",
+     "v": "test winner > recommended > rest",
+     "w": "Which?, Consumer Reports, Stiftung Warentest and CHOICE rate supermarket, capsule and instant coffee."
+    },
+    {
+     "m": "Ethical-sourcing labels",
+     "v": "",
+     "w": "Fairtrade, Rainforest Alliance and Bird Friendly sit beside the score; secondary."
+    }
+   ],
+   "s": [
+    {
+     "n": "Speciality & single-origin coffee",
+     "web": true,
+     "brief": "Variety shelf. Build origin archetypes (kind → archetype = origin appellation/region → versions = notable farms, estates, washing stations or co-ops → dt = variety · process · lot · roast). Icons: Ethiopia Yirgacheffe, Sidama, Guji, Harrar; Kenya AA (Nyeri, Kirinyaga); Jamaica Blue Mountain (Wallenford, Clifton Mount); Hawaii Kona and Ka'u; Panama Boquete (Hacienda La Esmeralda); Colombia Huila, Nariño; Costa Rica Tarrazú; Guatemala Antigua, Huehuetenango; Brazil Cerrado, Sul de Minas; Yemen Mocha (Haraz); Sumatra Mandheling and Gayo; Sulawesi Toraja; Tanzania peaberry; Rwanda, Burundi; Monsooned Malabar under special process. Rare varieties as their own archetypes: Geisha/Gesha (Esmeralda 2004 Best of Panama), Sidra, Pink Bourbon, Pacamara, SL28/SL34, Laurina (Bourbon Pointu), Maragogype, Wush Wush, Eugenioides. Special processes: Kopi luwak, Black Ivory, Monsooned Malabar, anaerobic, carbonic maceration, black honey, co-fermented/infused. Start the roaster register (variety, brand entries): e.g. Tim Wendelboe, La Cabra, Coffee Collective, Square Mile, Onyx, Counter Culture, Intelligentsia, Stumptown, Blue Bottle, George Howell, Sey, Gardelli, Andytown — only those you can source; long tail as stubs. Green coffee keeps home-roasting origins and grades (Kenya AA, Colombia Supremo/Excelso, Brazil NY2, Ethiopia Grade 1) with home-roast suppliers (Sweet Maria's, Kaffeemacher) as makers.",
+     "k": [
+      {
+       "n": "Single-origin coffee",
+       "old": [
+        "k1"
+       ],
+       "brief": "Archetypes = origin appellations, ordered by significance; old models (Kona, Blue Mountain, Yirgacheffe, Kenya AA, Tarrazu, Mandheling, Café de Colombia) become archetypes. Whole bean, ground and drip bags become t types."
+      },
+      {
+       "n": "Geisha & rare-variety coffee",
+       "old": [],
+       "brief": "Archetypes = varieties (Geisha first), versions = reference farms/lots."
+      },
+      {
+       "n": "Special-process coffee",
+       "old": [],
+       "brief": "Kopi luwak, Black Ivory, Monsooned Malabar, anaerobic and carbonic maceration lots, black honey, infused coffee; note ethical issues for civet coffee in d."
+      },
+      {
+       "n": "Speciality Robusta, Liberica & Excelsa",
+       "old": [],
+       "brief": "Fine Robusta (India, Uganda, Vietnam), Liberica (Kapeng barako), Excelsa."
+      },
+      {
+       "n": "Green coffee",
+       "old": [
+        "k4"
+       ],
+       "brief": "For home roasting; archetypes = export grades/origins."
+      }
+     ]
+    },
+    {
+     "n": "Blends & everyday coffee",
+     "web": true,
+     "brief": "Mixed shelf. Tier for supermarket packs: market-covering brands plus independent test winners (Which?, Consumer Reports, Stiftung Warentest, CHOICE), ≈5–12 per kind. Variety for espresso blends and traditional regional coffees as archetypes. Decaf: method types (Swiss Water, Mountain Water, CO2, ethyl acetate/sugarcane, methylene chloride) and the originator Kaffee HAG (Roselius, 1906). Add roasters/houses to the brand register: Illy, Lavazza, Kimbo, Segafredo, Tchibo, Jacobs, Dallmayr, Melitta, Douwe Egberts, Paulig, Löfbergs, Folgers, Maxwell House, Starbucks, Peet's, Café Bustelo, Trung Nguyên, Kurukahveci Mehmet Efendi.",
+     "k": [
+      {
+       "n": "Espresso blends",
+       "old": [],
+       "brief": "Archetypes: Mocha-Java (oldest named blend), classic Italian blends (illy Classico, Lavazza Qualità Oro / Super Crema, Kimbo), Starbucks Espresso Roast, speciality house espressos (e.g. Square Mile Red Brick, Intelligentsia Black Cat) if sourced."
+      },
+      {
+       "n": "Everyday ground & filter coffee",
+       "old": [],
+       "brief": "Tier kind: Folgers, Maxwell House, Jacobs Krönung, Tchibo Feine Milde, Dallmayr Prodomo, Melitta, Douwe Egberts, Kenco, Gevalia, Paulig Juhla Mokka, Lavazza Rossa plus test winners."
+      },
+      {
+       "n": "Decaffeinated coffee",
+       "old": [],
+       "brief": "Types = decaf method; models = test winners and originator brand."
+      },
+      {
+       "n": "Traditional regional coffee",
+       "old": [],
+       "brief": "Archetypes: Turkish coffee (Kurukahveci Mehmet Efendi), Arabic/Gulf coffee with cardamom, Vietnamese phin coffee (Trung Nguyên, butter-roasted), New Orleans coffee & chicory (Café Du Monde), Spanish torrefacto, Cuban-style espresso (Café Bustelo, Pilon), Nanyang kopi, café de olla blend."
+      }
+     ]
+    },
+    {
+     "n": "Capsules, instant & cold brew",
+     "web": true,
+     "brief": "Mixed shelf. Capsules: archetypes = capsule systems (Nespresso Original 1986, Nespresso Vertuo, Nescafé Dolce Gusto, Keurig K-Cup, Tassimo T-Disc, Lavazza A Modo Mio, illy iperEspresso, E.S.E. pod standard, Senseo pad) with versions = system-compatible ranges (compatible aluminium/compostable capsules). Instant: archetypes Nescafé (1938, original soluble), freeze-dried (Gold Blend/Taster's Choice), Starbucks VIA, speciality instant (Sudden, Swift Cup, Voilà) and 3-in-1 mixes (Nescafé 3in1, Kopiko, OldTown); plus Which?/CR test winners. Cold brew & concentrate: tier picks only; ready-to-drink milk coffees stay out (Soft Drinks).",
+     "k": [
+      {
+       "n": "Coffee capsules & pods",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Instant coffee",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Cold brew & coffee concentrate",
+       "old": [
+        "k5"
+       ],
+       "brief": "Drop the trade 6-case SKU wording; keep consumer bottles."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Tea",
+   "mode": "mixed",
+   "note": "Tier for everyday bagged tea; variety for loose-leaf tea organised by the six processing classes, then origin, estate or factory, harvest and year; tea houses in the brand register.",
+   "b": [
+    {
+     "m": "Tea type and processing",
+     "v": "",
+     "w": "The six classes (green, yellow, white, oolong, black, dark) set the taste; guides choose the type before the area."
+    },
+    {
+     "m": "Harvest season",
+     "v": "spring or first flush > second flush > monsoon and autumnal",
+     "w": "Spring leaf (pre-Qingming, shincha, Darjeeling first flush) is called best for most teas."
+    },
+    {
+     "m": "Named area, estate or mountain",
+     "v": "single estate or named mountain, 100% local leaf > region > blended or unclear origin",
+     "w": "Japanese rule: a regional name needs all-local leaf; Darjeeling GI; pu-erh priced by mountain."
+    },
+    {
+     "m": "Pu-erh factory, recipe and year",
+     "v": "named factory, recipe number and pressing year, dry-stored > unknown factory or year",
+     "w": "Collectors price pu-erh by factory (e.g. Menghai), recipe (e.g. 7542), mountain, vintage and storage."
+    },
+    {
+     "m": "Dry leaf and brewed cup",
+     "v": "whole, even leaf, clear liquor, rich aroma, no bitterness > broken, dull, bitter",
+     "w": "Guides judge tea by the leaf, the colour of the brew, the aroma and the spent leaf."
+    },
+    {
+     "m": "Black tea leaf grade",
+     "v": "SFTGFOP > FTGFOP > TGFOP > GFOP > FOP > OP > broken > fannings > dust",
+     "w": "Leaf size and tip grade; not a score for taste in the cup."
+    },
+    {
+     "m": "Shading and processing (Japanese green tea)",
+     "v": "gyokuro and kabusecha > sencha > bancha, hojicha and genmaicha (by sweetness)",
+     "w": "A Japanese guide ranks green teas by the sweetness wanted from shading."
+    },
+    {
+     "m": "Independent test result (bagged tea)",
+     "v": "test winner > recommended > rest",
+     "w": "Which?, Stiftung Warentest and CHOICE taste-test and residue-test everyday tea bags."
+    },
+    {
+     "m": "Ingredients and storage",
+     "v": "short ingredient list, airtight pack > long list, loose storage",
+     "w": "Freshness and purity matter more than origin alone for flavoured and bagged tea."
+    }
+   ],
+   "s": [
+    {
+     "n": "Everyday & breakfast tea",
+     "web": true,
+     "brief": "Tier shelf (bagged tier). Market-covering brands plus test winners (Which?, Stiftung Warentest, CHOICE, Consumer Reports): PG Tips, Yorkshire Tea, Tetley, Twinings, Typhoo, Lipton, Clipper, Barry's, Lyons, Bigelow, Teekanne, Ahmad, Dilmah, Brooke Bond, Red Rose. Archetype-level blend names allowed for the breakfast kind: English Breakfast, Irish Breakfast, Scottish Breakfast, Russian Caravan, East Frisian blend (Ostfriesentee: Bünting, Thiele, Onno Behrends). Types: tea bag, pyramid bag, loose, decaf. Brand entries for the big tea companies.",
+     "k": [
+      {
+       "n": "Breakfast & everyday black tea",
+       "old": []
+      },
+      {
+       "n": "Iced tea mixes & tea concentrates",
+       "old": [],
+       "brief": "Powdered iced-tea mixes, instant tea and tea/chai concentrates to dilute; bottled ready-to-drink tea is in Soft Drinks."
+      }
+     ]
+    },
+    {
+     "n": "Black tea",
+     "web": true,
+     "brief": "Variety shelf: archetypes = named origins/regions, versions = famous estates and gardens or named grades; dt = flush · grade · estate. Darjeeling: first/second flush, estates Castleton, Makaibari, Margaret's Hope, Jungpana, Thurbo, Glenburn (GI). Assam: Halmari, Mangalam, Harmutty; Nilgiri (frost tea), Kangra. Ceylon: the seven regions (Nuwara Eliya, Dimbula, Uva, Uda Pussellawa, Kandy, Ruhuna, Sabaragamuwa), Lion logo. Chinese: Keemun (Qimen), Dianhong, Lapsang Souchong / Zhengshan Xiaozhong (Tongmu), Jin Jun Mei, Yingde Hong, Taiwanese Ruby 18 (Sun Moon Lake). African & other: Kenya (KTDA, CTC), Malawi (Satemwa), Rwanda, Georgian, Turkish Rize (Çaykur), Nepal (Ilam). Tea houses (Mariage Frères, Fortnum & Mason, Harrods, Dammann, Kusmi, TWG, Harney & Sons, Rishi, Teekampagne) to the brand register.",
+     "k": [
+      {
+       "n": "Darjeeling tea",
+       "old": []
+      },
+      {
+       "n": "Assam & Indian black tea",
+       "old": [
+        "k6"
+       ],
+       "brief": "Old Assam/Darjeeling/Ceylon/Chinese models move to the matching kinds on this shelf; CTC and orthodox become t types."
+      },
+      {
+       "n": "Ceylon tea",
+       "old": []
+      },
+      {
+       "n": "Chinese & Taiwanese black tea",
+       "old": []
+      },
+      {
+       "n": "African, Turkish & other-origin black tea",
+       "old": [],
+       "brief": "Name the regions in the kind; avoid an 'Other' catch-all label if a better grouping emerges (e.g. 'Kenyan, African & Black Sea tea')."
+      }
+     ]
+    },
+    {
+     "n": "Japanese green tea",
+     "web": true,
+     "brief": "Variety shelf: archetypes = named styles/regions (Uji, Shizuoka, Yame, Kagoshima, Sayama), versions = named grades from tea houses (Ippodo, Marukyu Koyamaen, Kanbayashi Shunsho, Yamamotoyama, Itohkyuemon); matcha archetypes = ceremonial blends (e.g. Ippodo Ummon-no-mukashi, Marukyu Koyamaen Wako) and cultivars (Okumidori, Samidori, Yabukita). Cut the Ippodo-only SKU skew (retail-harvest skew finding): keep a few Ippodo grades as versions alongside other houses. Types: shincha, fukamushi (deep-steamed), bancha, tamaryokucha, kabusecha, usucha/koicha grade. Add tea-house brand entries.",
+     "k": [
+      {
+       "n": "Sencha & steamed green tea",
+       "old": [
+        "k11"
+       ]
+      },
+      {
+       "n": "Gyokuro & kabusecha",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Matcha",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Hojicha",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Genmaicha",
+       "old": [],
+       "brief": "Green tea with roasted rice; formerly listed under flavoured tea."
+      }
+     ]
+    },
+    {
+     "n": "Chinese, Korean & yellow green teas",
+     "web": true,
+     "brief": "Variety shelf: archetypes = the Ten Famous Chinese Teas and other named greens (West Lake Longjing, Biluochun, Huangshan Maofeng, Lu'an Guapian, Taiping Houkui, Xinyang Maojian, Anji Bai Cha, Lushan Yunwu, Duyun Maojian, Enshi Yulu), versions = sub-appellations/grades (e.g. Shi Feng Longjing, pre-Qingming). Korean green tea: Boseong, Hadong, Jeju (Osulloc); grades ujeon, sejak, jungjak, daejak. Yellow tea: Junshan Yinzhen, Huoshan Huangya, Mengding Huangya, Korean hwangcha.",
+     "k": [
+      {
+       "n": "Chinese green tea",
+       "old": [
+        "k13"
+       ]
+      },
+      {
+       "n": "Korean green tea",
+       "old": []
+      },
+      {
+       "n": "Yellow tea",
+       "old": [
+        "k20"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Oolong & white tea",
+     "web": true,
+     "brief": "Variety shelf: split oolong by tradition. Wuyi rock tea (yancha): Da Hong Pao (mother trees), Rou Gui, Shui Xian, Tie Luo Han, Bai Ji Guan, zhengyan vs banyan. Anxi & southern Fujian: Tieguanyin (light/traditional roast), Huangjin Gui, Benshan. Phoenix Dancong (Chaozhou): Mi Lan Xiang, Ya Shi Xiang, Huang Zhi Xiang. Taiwanese: Dong Ding, Alishan, Lishan, Dayuling high-mountain, Oriental Beauty (Bai Hao), Baozhong, Muzha Tieguanyin, GABA. White tea: Silver Needle, Bai Mudan, Gong Mei, Shou Mei, aged white cakes (Fuding vs Zhenghe), Darjeeling and Ceylon silver tips. Add traditions entries where sourced (e.g. Wuyi rock-tea craft, Chinese traditional tea processing — UNESCO ICH 2022).",
+     "k": [
+      {
+       "n": "Wuyi rock oolong",
+       "old": [
+        "k17"
+       ],
+       "brief": "Old Bai Hao and Tieguanyin models go to the Taiwanese and Anxi kinds."
+      },
+      {
+       "n": "Tieguanyin & Anxi oolong",
+       "old": []
+      },
+      {
+       "n": "Phoenix Dancong oolong",
+       "old": []
+      },
+      {
+       "n": "Taiwanese oolong",
+       "old": []
+      },
+      {
+       "n": "White tea",
+       "old": [
+        "k16"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Pu-erh & dark tea",
+     "web": true,
+     "brief": "Variety shelf organised mountain/factory → recipe → year. Raw (sheng) and ripe (shou) as separate kinds; archetypes = factories and their recipe numbers (Menghai/Dayi 7542, 8582, 7572, 7262; Xiaguan tuocha and Baoyan; CNNP 'Red/Green/Yellow Mark' Zhongcha era; Lancang Gu Cha, Haiwan/Lao Tong Zhi, Changtai) and famous mountains/villages (Lao Banzhang, Yiwu, Bingdao, Jingmai, Nannuo, Bulang, Xigui); forms as types (bing cake 357 g, tuocha, brick, mushroom/jincha, loose). Dark tea (hei cha): Liu Bao (Sanhe), Hunan Anhua Fu brick (golden flowers) and Qianliang, Liu'an basket tea, Sichuan Tibetan brick (Ya'an Kang zhuan). Vendors (Yunnan Sourcing, White2Tea, Bitterleaf) only as brand stubs if sourced. Traditions entry for pu-erh craft if sourced.",
+     "k": [
+      {
+       "n": "Raw pu-erh (sheng)",
+       "old": [
+        "k18"
+       ],
+       "brief": "Old 'Other pu-erh' type dissolves; ripe moves to its own kind."
+      },
+      {
+       "n": "Ripe pu-erh (shou)",
+       "old": []
+      },
+      {
+       "n": "Dark tea (hei cha)",
+       "old": [
+        "k19"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Scented, flavoured & spiced tea",
+     "web": true,
+     "brief": "Mixed shelf: Earl Grey archetypes (classic bergamot Earl Grey: Twinings, Jacksons of Piccadilly claim; Lady Grey; Earl Grey Supreme; Russian/Cream Earl Grey; Mariage Frères Earl Grey Impérial) and scented-tea archetypes (Jasmine Dragon Pearls, Jasmine Silver Needle, Fujian Fuzhou jasmine (GIAHS), Moli Hua Cha; osmanthus, rose, lychee black). Flavoured classics as archetypes: Mariage Frères Marco Polo, Kusmi Anastasia/Prince Vladimir, Fortnum's Royal Blend? (only if flavoured), Harney & Sons Hot Cinnamon Spice, Russian Caravan smoke blends. Masala chai: loose chai blends and Indian brands (e.g. Wagh Bakri masala), plus Western chai blends. Blooming tea: kind-level, a few makers. Flavoured tea types: fruit, vanilla/caramel, smoked, mint (Moroccan mint tea / gunpowder), floral.",
+     "k": [
+      {
+       "n": "Earl Grey & bergamot tea",
+       "old": []
+      },
+      {
+       "n": "Jasmine & scented tea",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "Flavoured tea",
+       "old": [
+        "k7"
+       ],
+       "brief": "Earl Grey and genmaicha models move to their own kinds."
+      },
+      {
+       "n": "Masala chai blends",
+       "old": [
+        "k8"
+       ]
+      },
+      {
+       "n": "Blooming tea",
+       "old": [
+        "k10"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Herbal & fruit infusions",
+   "mode": "tier",
+   "note": "Quality-of-life area: one kind per plant that people buy on its own, minor herbs as types, and a few market-covering brands; yerba mate and kava get variety treatment.",
+   "b": [
+    {
+     "m": "Plant and part used",
+     "v": "",
+     "w": "Infusions are chosen by plant and flavour."
+    },
+    {
+     "m": "Cut and pack form",
+     "v": "whole leaf or flower > cut and sifted > fine cut in bags",
+     "w": "Whole herbs keep more essential oil; fine-cut bag material stales faster."
+    },
+    {
+     "m": "Pharmacopoeia quality and residues",
+     "v": "medicinal-grade (Ph. Eur. monograph) or organic, residue-tested > unspecified",
+     "w": "Tests (e.g. Stiftung Warentest, Öko-Test) find pyrrolizidine alkaloids and pesticide residues in some herbal teas."
+    },
+    {
+     "m": "Independent test result",
+     "v": "test winner > recommended > rest",
+     "w": "Stiftung Warentest, Öko-Test and Which? test chamomile, peppermint, rooibos and fruit teas."
+    }
+   ],
+   "s": [
+    {
+     "n": "Herb & flower infusions",
+     "web": false,
+     "brief": "Restraint shelf: merge single-herb kinds as listed, minor plants become t types, plain definitions, keep old sources, no new kinds.",
+     "k": [
+      {
+       "n": "Peppermint & mint",
+       "old": [
+        "k28",
+        "k29"
+       ],
+       "brief": "Types: peppermint, spearmint, nana (Moroccan) mint."
+      },
+      {
+       "n": "Chamomile",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Hibiscus",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Lemongrass & lemon verbena",
+       "old": [
+        "k30",
+        "k31"
+       ],
+       "brief": "Types: lemongrass, lemon verbena."
+      },
+      {
+       "n": "Chrysanthemum",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Garden & meadow flowers",
+       "old": [
+        "k39",
+        "k40",
+        "k41",
+        "k43"
+       ],
+       "brief": "Types: lavender, elderflower, calendula, yarrow."
+      },
+      {
+       "n": "Nettle, birch & garden leaves",
+       "old": [
+        "k32",
+        "k33",
+        "k34"
+       ],
+       "brief": "Types: nettle, birch leaf, marjoram."
+      },
+      {
+       "n": "Mountain tea",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Kuding",
+       "old": [
+        "k36"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Fruit, spice & blended infusions",
+     "web": true,
+     "brief": "Tier shelf: market-covering brands plus test winners (Stiftung Warentest, Öko-Test, Which?): Pukka, Yogi Tea, Teekanne, Twinings, Celestial Seasonings (Sleepytime), Meßmer, Tee Gschwendner, Clipper, Traditional Medicinals, Hälssen & Lyon. Iconic blends may stand as models (Celestial Seasonings Sleepytime, Yogi Classic). Spice & root kind merges ginger and turmeric (types: ginger, turmeric, cinnamon, liquorice root).",
+     "k": [
+      {
+       "n": "Fruit tea",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Herbal blend",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Rose hip",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Ginger, turmeric & spice infusions",
+       "old": [
+        "k51",
+        "k52"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Mate, rooibos & kava",
+     "web": true,
+     "brief": "Mixed shelf. Yerba mate is hobbyist: archetypes = national styles (Argentine con palo, Uruguayan/despalada fine-ground, Brazilian chimarrão (green, fresh), Paraguayan (often smoked/flavoured, tereré), barbacuá smoke-dried) with versions = signature brands (Taragüi, Playadito, Rosamonte, Cruz de Malta, La Merced, Canarias, Baldo, Sara, Pajarito, Kurupí, Selecta, Barão); brand-register stubs. Guayusa kind-level (Runa). Rooibos: types red/green, grades (super grade, long cut); rooibos GI (EU PDO 2021); brands (Freshpak, Carmién, Red Espresso). Honeybush kind-level. Kava: archetypes = origins/noble cultivars (Vanuatu noble kava, Fiji waka/lawena, Tonga, Hawaiian 'awa), noble vs tudei as a quality note; traditions entry if sourced. Mate gourds and bombillas are not here (equipment).",
+     "k": [
+      {
+       "n": "Yerba mate",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Rooibos",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Honeybush",
+       "old": [
+        "k48"
+       ]
+      },
+      {
+       "n": "Guayusa",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "Kava",
+       "old": [
+        "k55"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Grain teas & coffee substitutes",
+     "web": false,
+     "brief": "Restraint shelf: plain definitions, types for grains and substitutes, keep old models and sources, no new kinds.",
+     "k": [
+      {
+       "n": "Roasted grain tea",
+       "old": [
+        "k53"
+       ],
+       "brief": "Types: barley (mugicha, boricha), corn (oksusu-cha), buckwheat (soba-cha), brown rice."
+      },
+      {
+       "n": "Coffee substitutes",
+       "old": [
+        "k54"
+       ],
+       "brief": "Types: roasted chicory, dandelion root, grain coffee."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Cocoa & drinking chocolate",
+   "mode": "mixed",
+   "note": "Tier for everyday cocoa and hot chocolate; variety for cacao beans and ceremonial cacao organised by genetic group and origin.",
+   "b": [
+    {
+     "m": "Genetics and origin",
+     "v": "fine-flavour heirloom (Criollo, Porcelana, Nacional/Arriba, Heirloom Cacao Preservation designation) > Trinitario > bulk Forastero/CCN-51",
+     "w": "ICCO fine-or-flavour classification and the Heirloom Cacao Preservation programme rank beans by genetics and origin."
+    },
+    {
+     "m": "Cocoa process",
+     "v": "",
+     "w": "Dutch (alkalised), natural or black is chosen by the recipe; no grade ladder."
+    },
+    {
+     "m": "Fat content and grind",
+     "v": "22–24% fat, fine grind > 10–12% fat-reduced, coarse",
+     "w": "Makers who publish fat and acidity (pH) signal a better powder."
+    },
+    {
+     "m": "Cocoa share of drinking chocolate",
+     "v": "real chocolate or 50%+ cocoa > cocoa-led powder > sugar-led mix",
+     "w": "Reviewers and tests rank hot chocolate by cocoa content and sugar."
+    },
+    {
+     "m": "Bean class",
+     "v": "fine or flavour > bulk (provisional)",
+     "w": "An international (ICCO) class that describes a country's exports; disputed."
+    }
+   ],
+   "s": [
+    {
+     "n": "Drinking chocolate & cocoa powder",
+     "web": true,
+     "brief": "Mixed shelf. Drinking chocolate archetypes = national styles: Spanish chocolate a la taza (Valor, Chocolates Valor), Mexican tablet chocolate (Ibarra, Abuelita, Taza; molinillo-whisked), Italian thick cioccolata calda, French chocolat chaud (Angelina), British drinking chocolate (Cadbury, Whittard), luxury flakes (Hotel Chocolat, Willie's, Domori). Cocoa powder: Van Houten (originator of Dutch process, 1828), Droste, Valrhona, Callebaut, Cacao Barry Extra Brute, Hershey's natural, Guittard, Ghirardelli; black cocoa as type. Add test winners. Malted chocolate drink powders (Milo, Ovomaltine/Ovaltine, Horlicks chocolate, Nesquik) as a new kind if they fit the scope note (cocoa or malt as the main base; check that they are not better in Soft Drinks). Brand entries for Van Houten, Droste, Valrhona, Cadbury, Ibarra etc. where sourced.",
+     "k": [
+      {
+       "n": "Drinking chocolate",
+       "old": [
+        "k21"
+       ]
+      },
+      {
+       "n": "Cocoa powder",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Malted chocolate drink powder",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Cacao beans & cacao products",
+     "web": true,
+     "brief": "Variety shelf (cocoa genetics). Cocoa beans: archetypes = genetic groups and heirloom origins (Criollo, Porcelana, Nacional/Arriba (Ecuador), Trinitario, Amelonado/Forastero, CCN-51, Chuao (Venezuela), Ocumare, Piura white bean (Peru), Madagascar Sambirano, Maranon) using Motamayor 2008 genetic clusters and Heirloom Cacao Preservation designations where sourced; types = fermented/dried, roasted, raw. Ceremonial cacao: Guatemalan and Mesoamerican ceremonial paste as archetypes (makers like Soul Lift, Keith's Cacao, Ora) — a traditions entry for Mesoamerican cacao if sourced. Cocoa nibs, butter and shells stay kind-level with a few makers.",
+     "k": [
+      {
+       "n": "Cacao beans",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Cocoa paste & ceremonial cacao",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "Cocoa nibs",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Cocoa butter",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Cocoa shells",
+       "old": [
+        "k27"
+       ],
+       "brief": "Cacao husk tea."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}

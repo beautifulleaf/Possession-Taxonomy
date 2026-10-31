@@ -1,0 +1,47 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+ {"n":"Hedge trimmer","a":"hedge cutter · hedger","d":"Powered tool with a reciprocating toothed blade bar for cutting hedges.",
+  "t":["Standard","Long-reach (pole hedge trimmer)","Petrol","Cordless","Corded electric","Mini / shrub shear"],
+  "s":"https://www.diy.com/landingpage/outdoor-garden/garden-tools",
+  "m":[["HT2601","EGO"],["HSA 60","STIHL"],["HSA 140 R","STIHL"],["HSA 26","STIHL"],["HLA 150","STIHL"],["122LKH","Husqvarna"],["HC-2020","Echo"],["DCHT820","DeWalt"],["LHT321","Black+Decker"]]},
+ {"n":"Chainsaw","a":"chain saw","d":"Hand-held saw with a powered toothed chain running round a guide bar, for felling, pruning and cutting logs.",
+  "t":["Petrol","Cordless","Corded electric","Top-handle (arborist)"],
+  "s":"https://www.diy.com/landingpage/outdoor-garden/garden-tools",
+  "m":[["CS2005","EGO"],["CS1800","EGO"],["CS 590","Echo"],["450S Rancher","Husqvarna"],["550 XP Mark II","Husqvarna"],["350i Power Axe","Husqvarna"],["T525","Husqvarna"],["MSA 220 C-B","STIHL"],["MSA 60 C-B","STIHL"],["UC4051A","Makita"],["M18 FUEL","Milwaukee"],["R18CHS22","Ryobi"]],
+  "r":[["ONE+ 18V","Ryobi"]]},
+ {"n":"Brush cutter","a":"brushcutter · clearing saw","d":"Powered shaft machine with a metal blade or line head for clearing brush, scrub and long grass.",
+  "t":["Petrol","Cordless","Loop handle","Bike (cow-horn) handle"],
+  "s":"https://www.diy.com/landingpage/outdoor-garden/garden-tools",
+  "m":[["336FR","Husqvarna"],["FS 131 R","STIHL"],["FS 240 Z","STIHL"],["FS 361 C-EM","STIHL"]]},
+ {"n":"Pole saw","a":"pole pruner · powered pruner","d":"Powered saw head on a long pole for cutting high branches from the ground.",
+  "t":["Petrol","Cordless","Corded electric","Telescopic"],
+  "s":"https://shop.ernestdoe.com/collections/polepruner",
+  "m":[["HTA 135","STIHL"],["HT 105","STIHL"],["HTA 66","STIHL"],["PPT-2620","Echo"],["DPPF-2100","Echo"],["525PT5S","Husqvarna"],["530iP4","Husqvarna"],["120iTK4-P","Husqvarna"],["R18PPS130","Ryobi"],["51847T","Toro"]],
+  "r":[["ONE+ 18V","Ryobi"]]},
+ {"n":"Garden multi-tool","a":"split-shaft powerhead · combi system · attachment system","d":"Powered handle and motor unit that takes interchangeable attachments such as a grass trimmer, hedge trimmer, pole pruner or brush cutter.",
+  "t":["Petrol powerhead","Cordless powerhead"],
+  "s":"https://www.diy.com/landingpage/outdoor-garden/garden-tools",
+  "m":[["KM 131 R","STIHL"],["KMA 135 R","STIHL"],["330iKP Combi Switch","Husqvarna"]],
+  "r":[["KombiSystem","STIHL"],["Multi-Head System","EGO"],["Expand-It","Ryobi"],["Combi Switch","Husqvarna"]]},
+]
+brands=[
+ {"n":"STIHL","c":"Germany","f":"1926","seg":"Outdoor power equipment (mainstream to professional)","d":"Waiblingen maker founded by chainsaw pioneer Andreas Stihl; the world's largest chainsaw manufacturer since 1971.",
+  "lines":["KombiSystem"],"eras":["Andreas Stihl, founder, 1926"],"sig":["Chainsaw","Brush cutter","Pole saw"],"sc":[],"rel":["Husqvarna"],"s":W+"Stihl"},
+ {"n":"Husqvarna","c":"Sweden","f":"1689","seg":"Outdoor power equipment (mainstream to professional)","d":"Swedish group making chainsaws, trimmers, brushcutters and robotic mowers; also owns Gardena, Flymo, McCulloch and Jonsered.",
+  "lines":[],"eras":[],"sig":["Chainsaw","Brush cutter"],"sc":[],"rel":["Gardena","Flymo","McCulloch","Jonsered","STIHL"],"s":W+"Husqvarna_Group"},
+ {"n":"Echo","c":"Japan","f":"2008","seg":"Outdoor power equipment","d":"Brand of Yamabiko Corporation (formed 2008 from Kioritz and Shindaiwa) for chainsaws, brushcutters, hedge trimmers and blowers.",
+  "lines":[],"eras":[],"sig":["Chainsaw","Pole saw","Hedge trimmer"],"sc":[],"rel":["Shindaiwa","Kioritz"],"s":W+"Yamabiko_Corporation"},
+ {"n":"Makita","c":"Japan","f":"1915","seg":"Power tools and outdoor power equipment","d":"Anjō power-tool maker with corded, cordless and petrol garden machines including chainsaws and trimmers.",
+  "lines":["18V lithium-ion","XGT 40V max"],"eras":[],"sig":["Chainsaw"],"sc":[],"rel":[],"s":W+"Makita"},
+ {"n":"Ryobi","c":"Japan","f":"1943","seg":"DIY power tools and garden tools","d":"Japanese brand whose power tools are sold under licence by Techtronic Industries in North America and Europe.",
+  "lines":["Expand-It"],"eras":[],"sig":["Garden multi-tool"],"sc":[],"rel":[],"s":W+"Ryobi"},
+]
+notes=("5 kinds kept (no merges, no new kinds). Tier lists trimmed to market brands plus test winners from TechGearLab (chainsaws: EGO CS2005 Editors' Choice, "
+ "Echo CS 590, Makita UC4051A, Milwaukee M18 FUEL top picks, EGO CS1800 best buy) and Bob Vila tested roundups (hedge trimmer, pole saw, brush cutter). "
+ "Dropped: Ozito PXCCSS-0182 and PXC range, Fieldmann FZS models (not test winners); DeWalt DCM565P1, Husqvarna 460 Rancher/545 Mark II, Ryobi OCS1830BL, "
+ "STIHL MSA 160/300, HSA 50, Echo PPT-2620HES (kept as PPT-2620), Husqvarna 122LKP/525P4S trimmed; 330iKP Combi Switch moved from Pole saw to Garden multi-tool. Multi-tool: KombiSystem, EGO Multi-Head, "
+ "Ryobi Expand-It and Husqvarna Combi Switch as ranges from maker/test pages. No EGO, Greenworks, Milwaukee or DeWalt brand entries: no brand page retrieved "
+ "(Wikidata had no EGO/Chervon entity; Parallel tools out of credit, Firecrawl rate-limited; Consumer Reports and Which? pages paywalled). No archetypes: tier shelf.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/C2/shelves/01_03.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

@@ -1,0 +1,21 @@
+# A2 harvest notes
+- sneakerhistory.com/shoe-brands-that-start-with-a/ fetched OK (full A-Z, ~300 brands)
+- bespokeunit.com/shoes/european/ fetched OK; fashionunited.com/brands?industries=Footwear fetched but only 10 names (not used)
+- thefitville.com A-Z 2026 fetched OK (comfort brands)
+- stridewise.com/best-american-made-boots/ fetched OK
+- permanentstyle.com/brand/* : 403 BLOCKED (moved on)
+- en.wikipedia.org/wiki/Category:Shoe_brands: fetched, but URL was typed not found by search -> NOT cited
+- Wikidata SPARQL (footwear industry/shoe product): HTTP 429 -> moved on, not retried
+- mrporter.com journal: 403 BLOCKED
+- bespokeunit japanese, stridewise japanese boots, apartstyle alt brands, goodonyou ethical-sustainable-shoes: fetched OK
+- mensflair british fetched OK. Coordinator asked to retry blocked URLs via Firecrawl: declined (user instruction: never work around a block)
+- bespokeunit italian, robbreport bespoke fetched OK; harrods women-shoes 403 BLOCKED
+- apetogentleman portugal, cfi brazil fetched OK; foreverbarcelona 403 BLOCKED; retailboss goat useless
+- concreteplayground AU, manofmany AU, portugal.com fetched OK
+- sneakerhistory skate, weddingsutra jutti, lbb jutti fetched OK
+- ringly cowboy, weighmyrack mountaineering, greenlit work boots fetched OK
+- wikipedia Träskor fetched OK; culturewhisper espadrilles 503
+- wikipedia basketball list, countryandtownhouse, makeitbritish fetched OK; whowhatwear pages empty
+- built d1..d3 lists; removed name collisions (rabbit, Topper) and sub-lines
+- viaempresa (Castell), fashionunited RIA Menorca, okayama-japan (Marugo), wikipedia Avarca fetched OK
+- final: check A2 -> 474 new, 80 linked, 0 errors

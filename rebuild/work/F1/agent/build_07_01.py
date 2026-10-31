@@ -1,0 +1,36 @@
+import json, os
+K = 'knowledge'
+YSM = 'https://www.yoursoundmatters.com/best-vinyl-record-inner-sleeves/'; BCWB = 'https://www.bcwsupplies.com/blog/?p=9343'; ODP = 'https://en.wikipedia.org/wiki/Optical_disc_packaging'
+SC = 'https://elusivedisc.com/diskeeper-ultimate-audiophile-inner-sleeve-50-pack'; MOFI = 'https://store.acousticsounds.com/d/65705/Mobile_Fidelity-MFSL_Original_Master_Sleeves-Record_Supplies'
+NAG = 'https://www.auditorium.de/en/hi-fi/equipment/bags-covers/nagaoka-rs-lp2-anti-static-record-sleeves'; BU = 'https://www.bagsunlimited.com/12-vinyl-record-storage-box-archival-holds-45-50-lp-records-13-116-x-13-116-x-7'
+BCWM = 'https://www.bcwsupplies.com/music/cardboard-mixed'
+kinds = [
+ {"n": "Record inner sleeve", "a": "inner sleeve · rice-paper sleeve · anti-static sleeve", "d": "Paper or poly sleeve that holds one record disc inside its jacket.",
+  "t": ["plain paper", "poly-lined paper", "HDPE anti-static", "paper and HDPE three-ply ('rice paper')", "round bottom", "with centre hole", "12-inch", "7-inch"],
+  "s": "https://dutchvinyl.com.au/blogs/news/the-best-inner-sleeves-for-vinyl-records-and-lpss",
+  "m": [["MFSL Original Master Sleeves", "Mobile Fidelity"], ["RS-LP2 (formerly No. 102)", "Nagaoka"], ["Diskeeper Ultimate Audiophile Inner Sleeve", "Sleeve City"],
+        ["Audiophile Inner Sleeves", "BCW"], ["Anti-Static Inner Sleeves", "BCW"], ["Polylined Paper Sleeves", "BCW"], ["GrooveGuard", "GrooveWasher"], ["Rice Paper Sleeves", "Invest In Vinyl"]]},
+ {"n": "Record outer sleeve", "a": "jacket sleeve · outer bag", "d": "Clear protective sleeve made to cover one record jacket.",
+  "t": ["polypropylene (clearer, stiffer)", "polyethylene (softer)", "2 mil", "3 mil", "4 mil", "resealable flap", "gatefold size", "12-inch", "7-inch"],
+  "s": "https://www.turntablelab.com/collections/stereo-accessories-alpha/products/mobile-fidelity-archival-record-outer-sleeves-50-units",
+  "m": [["Archival Record Outer Sleeves", "Mobile Fidelity"], ["Polypropylene outer sleeves (2 and 4 mil)", "BCW"], ["Polyethylene outer sleeves (3 mil)", "BCW"]]},
+ {"n": "CD jewel case", "a": "CD case", "d": "Hinged polystyrene case, about 142 × 125 × 10 mm, holding a compact disc with its booklet and back card.",
+  "t": ["standard", "slimline (5 mm)", "double (Smart Tray / Brilliant Box)", "multi-disc (chubby)", "Super Jewel Box", "clear tray", "black tray"],
+  "s": ODP},
+ {"n": "Record storage box", "a": "LP box · 45 box", "d": "Cardboard box sized to hold records upright in their jackets, for 12-inch LPs or 7-inch singles.",
+  "t": ["12-inch LP", "7-inch singles", "archival barrier board", "corrugated", "with handles", "latching case"], "s": BU,
+  "m": [["12\" Vinyl Record Storage Box", "Bags Unlimited"], ["33 RPM Record Storage Box", "BCW"], ["45 RPM Record Storage Box", "BCW"]]},
+]
+brands = [
+ {"n": "Mobile Fidelity", "c": "United States", "f": "1977", "seg": "Premium", "kf": "audiophile records", "d": "Mobile Fidelity Sound Lab, audiophile reissue label also making record sleeves.", "s": K},
+ {"n": "Nagaoka", "c": "Japan", "f": "", "seg": "Specialist", "kf": "phono accessories", "d": "Tokyo maker of phono cartridges and anti-static record sleeves.", "s": NAG},
+ {"n": "Sleeve City", "c": "United States", "f": "", "seg": "Specialist", "kf": "record sleeves", "d": "Maker of Diskeeper record sleeves.", "s": SC},
+ {"n": "BCW", "c": "United States", "f": "", "seg": "Mainstream", "kf": "collectible storage", "d": "American maker of record sleeves, CD cases and storage boxes.", "s": BCWB},
+ {"n": "Bags Unlimited", "c": "United States", "f": "", "seg": "Specialist", "kf": "archival media storage", "d": "American maker of archival record sleeves and storage boxes.", "s": BU},
+]
+notes = ("All three old kinds kept; Record storage box added because media-specific LP and 45 boxes exist (general record furniture left to Furniture). "
+         "Inner-sleeve models limited to MoFi, Nagaoka, Sleeve City and BCW plus two reviewer picks (GrooveWasher, Invest In Vinyl). Jewel case types as t. No independent test ranking found, so no test winners named.")
+out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
+p = 'work/F1/shelves/07_01.json'
+json.dump(out, open(p + '.tmp', 'w'), ensure_ascii=False, indent=1); os.replace(p + '.tmp', p)
+print('written')

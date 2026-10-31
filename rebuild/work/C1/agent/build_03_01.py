@@ -1,0 +1,47 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+def A(n,a,d,mk,y,s,v=(),dt=""): return {"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":s,"v":[dict(n=x[0],mk=x[1],y=x[2],d=x[3]) for x in v],"dt":dt}
+CT="https://www.awesomeaxes.com/how-to-choose-a-council-tool-axe"
+kinds=[
+{"n":"Axe","a":"felling axe · forest axe · hatchet · splitting axe","d":"Long- or short-handled tool with a bladed head for felling, limbing, hewing or splitting wood.",
+ "t":["felling axe","forest axe","hatchet","splitting axe","carpenter's axe","broad axe","double-bit"],"s":"https://www.toolstation.com/landscaping/axes-mauls-log-splitting/c405",
+ "x":[A("Hudson Bay axe","Hudson's Bay pattern","Compact fur-trade axe with a teardrop eye, square poll and swept head, for canoe and foot travel.","","17th century","https://counciltool.com/forging-friday-the-hudson-bay-axe/",[("Hudson Bay","Council Tool","","2 lb head, 24 in hickory handle")],"head weight · handle length"),
+  A("Dayton pattern","Dayton axe","Heavy single-bit felling pattern from Dayton, Ohio blacksmiths, with long curved bit, thin cheeks and flat poll.","","","https://counciltool.com/forging-friday/",[("Dayton","Council Tool","","36 in handle")],"head 3.5–6 lb · handle 30–36 in"),
+  A("Michigan double bit","Michigan pattern","Double-bit felling pattern named for its region of use.","","",CT,[("Michigan Double Bit","Council Tool","","3.5 lb head, 36 in handle")],"head weight · handle length"),
+  A("Jersey pattern","Jersey axe","Regional American felling pattern.","","",CT,[("Jersey","Council Tool","","3.5 lb head, 36 in handle")],""),
+  A("Council Tool Boy's Axe","Boy's axe · three-quarter axe","Mid-size American axe on a shortened handle, between hatchet and felling axe.","Council Tool","",CT,[("Boy's Axe","Council Tool","","2.25 lb head, 24–28 in handle")],"head weight · handle length"),
+  A("Gränsfors Bruk Small Forest Axe","Small Forest Axe","Swedish forged forest axe about 50 cm long, signed with the smith's initials.","Gränsfors Bruk","","https://woodland-ways.co.uk/products/gransfors-bruk-small-forest-axe",[("GBSFA420","Gränsfors Bruk","","50 cm, about 1 kg")],"length · sheath"),
+  A("Gränsfors Bruk Wildlife Hatchet","Wildlife Hatchet","Hatchet with the Hand Hatchet head on a longer 35 cm handle for limbing and small splitting.","Gränsfors Bruk","","https://woodland-ways.co.uk/products/gransfors-bruk-wildlife-hatchet",[("GBWH415","Gränsfors Bruk","","35 cm, 0.6 kg")],""),
+  A("Hults Bruk forest axes","","Hand-forged Swedish axes on hickory handles from a forge founded in 1697.","Hults Bruk","","https://www.insidehook.com/gear/hults-bruk-hand-forged-swedish-axes-history/amp",[("Akka Forester's Axe","Hults Bruk","","finger notch, leather sheath"),("Jonaker Hatchet","Hults Bruk","","1.5 lb, 9.5 in"),("Sarek Splitting Axe","Hults Bruk","","3.5 lb head"),("American Felling Axe","Hults Bruk","","5 lb, with Dave Canterbury"),("Motala Double Bit Axe","Hults Bruk","","")],"head weight · handle length"),
+  A("Wetterlings axes","","Swedish axes forged in Storvik since the late 19th century.","Wetterlings","","https://visitgavle.se/en/wetterlings-axe-factory",[],""),
+  A("Fiskars X-series splitting axe","X25 · X27","Composite-handled splitting axe with a carbon-steel head, sold by length.","Fiskars","","https://www.knivesandtools.com/en/ct/fiskars-x25-vs-x27.htm",[("X25","Fiskars","","72.3 cm, 1830 g"),("X27","Fiskars","","91.5 cm, 1830 g"),("X28 Splitting Axe M","Fiskars","","update"),("X32 Splitting Axe L","Fiskars","","update")],"length S–XL"),
+  A("Estwing Camper's Axe","ES44A","One-piece forged-steel hatchet with a shock-reduction grip.","Estwing","","https://www.dlttrading.com/estwing-campers-axe",[("Campers Axe ES44A","Estwing","","18 in, 1055 carbon steel")],"grip leather or shock-reduction")],
+ "m":[["AX 15 P Forestry Axe","STIHL"],["AX 6 P Loggers Hatchet","STIHL"]]},
+{"n":"Splitting maul","a":"maul · log splitting maul","d":"Heavy-headed tool with a wedge face on one side and a flat sledge face on the other, for splitting logs.","t":["6–8 lb head","wood, fibreglass or steel handle"],"s":"https://www.toolstation.com/landscaping/axes-mauls-log-splitting/c405",
+ "x":[A("Monster Maul","","Maul with a triangular head and a reinforced metal handle.","","early 1970s",W+"Splitting_maul",[],"")],
+ "m":[["Roughneck Gorilla Log Splitting Maul","Roughneck"]]},
+{"n":"Splitting wedge","a":"","d":"Steel wedge driven into wood with a hammer or maul to split it.","t":["plain","twisted","grenade"],"s":"https://www.toolstation.com/landscaping/axes-mauls-log-splitting/c405","m":[["Wood Grenade","Roughneck"]]},
+{"n":"Kindling splitter","a":"kindling cracker","d":"Cast-iron frame with a fixed upward blade, into which a small log is struck with a hammer to split kindling.","s":"https://www.toolstation.com/landscaping/log-splitters/c1084",
+ "x":[A("Kindling Cracker","","Cast-iron ring with an upturned blade, invented in New Zealand; the originator of the kindling splitter.","Kindling Cracker","","https://luxebbq.ca/products/kindling-cracker-king-1",[("Original","Kindling Cracker","",""),("King","Kindling Cracker","","9 in ring, 17 in tall")],"ring diameter · height")]},
+{"n":"Log splitter","a":"","d":"Machine (hydraulic or other power, not tractor-driven) that forces a log against a wedge.","t":["electric","petrol","manual hydraulic","horizontal","vertical"],"s":"https://www.toolstation.com/landscaping/log-splitters/c1084"},
+{"n":"Folding saw","a":"pruning saw · bushcraft saw · pocket saw","d":"Saw whose pull-cut blade folds into the handle, for pruning and camp wood.","t":["fine, medium or coarse teeth","straight or curved blade"],"s":"https://www.advnture.com/reviews/silky-pocketboy-170-outback-edition",
+ "x":[A("Silky Gomboy","","Japanese folding saw with a rubber-clad handle.","Silky","1985","https://www.advnture.com/reviews/silky-pocketboy-170-outback-edition",[("PocketBoy 170","Silky","","smaller sibling, 9 tpi")],"blade length · tooth size"),
+  A("Bahco Laplander","396-LAP","Swedish folding saw with an 18.5 cm coarse blade.","Bahco","","https://www.knivesandtools.com/en/pt/-bahco-laplander-396-lap-folding-saw.htm",[("396-LAP","Bahco","","")],"")]},
+{"n":"Froe","a":"frow · shake axe · paling knife","d":"L-shaped riving blade struck with a club and levered by its haft to split shakes, shingles and green wood.","s":W+"Froe"}]
+SEG={"Council Tool":"Heritage manufactory","Gränsfors Bruk":"Heritage manufactory","Hults Bruk":"Heritage manufactory","Wetterlings":"Heritage manufactory","Fiskars":"Mainstream","Estwing":"Mainstream","Silky":"Specialist","Bahco":"Mainstream","Kindling Cracker":"Specialist"}
+def B(n,c,f,kf,d,sig,s): return dict(n=n,c=c,f=f,seg=SEG[n],kf=kf,d=d,lines=[],eras=[],sig=sig,sc=[],rel=[],s=s)
+K='knowledge'
+brands=[B("Council Tool","United States","1886","axes","Lake Waccamaw, North Carolina maker of drop-forged American axe patterns.",["Hudson Bay axe","Council Tool Boy's Axe","Dayton pattern"],"https://counciltool.com/forging-friday-the-hudson-bay-axe/"),
+B("Gränsfors Bruk","Sweden","1902","axes","Swedish forge making signed hand-forged axes.",["Gränsfors Bruk Small Forest Axe","Gränsfors Bruk Wildlife Hatchet"],K),
+B("Hults Bruk","Sweden","1697","axes","Swedish forge founded in 1697, making axes as a main line since the 1870s.",["Hults Bruk forest axes"],"https://www.insidehook.com/gear/hults-bruk-hand-forged-swedish-axes-history/amp"),
+B("Wetterlings","Sweden","","axes","Axe factory in Storvik, Sweden.",["Wetterlings axes"],"https://visitgavle.se/en/wetterlings-axe-factory"),
+B("Fiskars","Finland","1649","garden and hand tools","Finnish tool and homeware group, maker of composite-handled X-series axes.",["Fiskars X-series splitting axe"],K),
+B("Estwing","United States","1923","striking tools","Rockford, Illinois maker of one-piece forged-steel hammers and axes.",["Estwing Camper's Axe"],K),
+B("Silky","Japan","1919","saws","Japanese saw maker founded by Katsuji Miyawaki.",["Silky Gomboy"],"https://www.advnture.com/reviews/silky-pocketboy-170-outback-edition"),
+B("Bahco","Sweden","","hand tools","Swedish hand-tool brand, part of Snap-on.",["Bahco Laplander"],K),
+B("Kindling Cracker","New Zealand","","kindling splitters","Cast-iron kindling splitter invented in New Zealand, made in Australia.",["Kindling Cracker"],"https://luxebbq.ca/products/kindling-cracker-king-1")]
+trads=[{"n":"Swedish axe forging","g":"Metal & blades","r":"Sweden","p":"1697–present","d":"Swedish forges making hand-forged axes, each signed by its smith.","tech":"hand-forging","mat":"Swedish steel, hickory","forms":["Gränsfors Bruk Small Forest Axe","Hults Bruk forest axes","Wetterlings axes"],"ctr":["Hults Bruk","Gränsfors Bruk","Wetterlings, Storvik"],"auth":"smith's initials stamped on each head","s":"https://www.insidehook.com/gear/hults-bruk-hand-forged-swedish-axes-history/amp"}]
+notes=("Kinds kept as planned; Folding saw and Froe added. Left out: Kent and generic Scandinavian forest-axe pattern archetypes, Gränsfors and Fiskars splitting mauls, Kindling Cracker year and inventor (no retrieved page states them). "
+ "Log splitter kept kind-level (no trade machines). STIHL axes kept in m. Gränsfors, Fiskars, Estwing, Bahco founding facts from knowledge.")
+out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+p='work/C1/shelves/03_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

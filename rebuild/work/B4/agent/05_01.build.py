@@ -1,0 +1,87 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+AT='https://www.antiquesandthearts.com/american-weathervanes-the-art-of-the-winds-american-folk-art-museum'
+kinds=[
+{"n":"Wind chime","a":"wind bell · windchime","d":"Set of hanging tubes, rods or bells that sound when moved by the wind.",
+ "t":["Tuned metal tube","Bamboo","Glass","Shell","Ceramic","Bell","Solar-lit"],
+ "s":"https://oldrailwaylinegc.co.uk/collections/wind-chimes-spinners?page=1",
+ "x":[
+  {"n":"Tintinnabulum","a":"Roman wind bell","d":"Ancient Roman bronze bell cluster hung in gardens and porticoes to ward off evil spirits.","mk":"","y":"1st century CE","s":W+"Wind_chime",
+   "dt":"bronze · number of bells · figural hanger"},
+  {"n":"Fūrin","a":"furin · Japanese wind bell","d":"Small bowl-shaped Japanese summer wind bell rung by a hanging paper strip (tanzaku).","mk":"","y":"Heian period; glass from late Edo period","s":W+"F%C5%ABrin",
+   "v":[{"n":"Edo fūrin (glass)","mk":"Shinohara Maruyoshi Fūrin","y":"late Edo period onward","d":"mouth-blown without a mould, jagged ground rim, painted from inside"},
+        {"n":"Nanbu ironware fūrin","mk":"","y":"","d":"cast-iron bell from Iwate; displayed in hundreds at Mizusawa Station each summer"}],
+   "dt":"glass or cast iron · painted motif · tanzaku colour and text"},
+  {"n":"Chimes of Olympos","a":"Olympos chime","d":"Six aluminium tubes tuned to the ancient Greek pentatonic Scale of Olympos; the first Woodstock chime.","mk":"Woodstock Chimes","y":"c. 1979","s":"https://chimes.com/products/ows",
+   "v":[{"n":"Chimes of Olympos (36 in)","mk":"Woodstock Chimes","y":"","d":"six silver aluminium tubes, cherry-finish ash top and windcatcher, just intonation"}],
+   "dt":"length · tube finish · wood finish"},
+  {"n":"Music of the Spheres pentatonic chime","a":"MotS chime","d":"Precision-tuned (A440) tempered-aluminium tube chime handmade in Austin, Texas, in a major pentatonic scale.","mk":"Music of the Spheres","y":"","s":"https://zillymonkey.com/products/pentatonic-windchimes-by-music-of-the-spheres",
+   "v":[{"n":"Soprano","mk":"Music of the Spheres","y":"","d":"7/8 in tubes, 30 in overall"},
+        {"n":"Mezzo","mk":"Music of the Spheres","y":"","d":"1-3/16 in tubes, 38 in"},
+        {"n":"Alto","mk":"Music of the Spheres","y":"","d":"1-1/2 in tubes, 50 in"},
+        {"n":"Tenor","mk":"Music of the Spheres","y":"","d":"2 in tubes, 60 in"},
+        {"n":"Bass","mk":"Music of the Spheres","y":"","d":"2-1/2 in tubes, 90 in"}],
+   "dt":"voice (size) · scale (pentatonic, whole tone, quartal and others) · tube coating"},
+  {"n":"Koshi chime","a":"Koshi","d":"Handmade French chime of eight tuned metal rods inside a bamboo cylinder, sold in four named tunings (Terra, Aria, Ignis, Aqua).","mk":"Koshi","y":"","s":"https://www.thomann.co.uk/koshi_chimes_aria.htm",
+   "v":[{"n":"Terra","mk":"Koshi","y":"","d":""},
+        {"n":"Aria","mk":"Koshi","y":"","d":"tuning A C E A B C E B; 6.3 × 16.5 cm"},
+        {"n":"Ignis","mk":"Koshi","y":"","d":""},
+        {"n":"Aqua","mk":"Koshi","y":"","d":""}],
+   "dt":"tuning · oiled bamboo body"},
+  {"n":"Zaphir chime","a":"Zaphir","d":"French chime of eight tuned metal bars in a marbled cellulose sound box, with tunings named for the seasons.","mk":"Zaphir","y":"","s":"https://www.feeltone.com/en/collections/wind-chimes-zaphir",
+   "v":[{"n":"Crystalide","mk":"Zaphir","y":"","d":"spring"},
+        {"n":"Sunray","mk":"Zaphir","y":"","d":"summer"},
+        {"n":"Twilight","mk":"Zaphir","y":"","d":"autumn"},
+        {"n":"Blue Moon","mk":"Zaphir","y":"","d":"winter"},
+        {"n":"Sufi","mk":"Zaphir","y":"","d":"F A D F A G A D"}],
+   "dt":"tuning · sound-box colour"}],
+ "m":[["King David Chime","Woodstock Chimes"],["Classic Wind Chime","Flamboya"],["Zen Stainless Steel Wind Bells","Panacea"],["Orbis Solar Windchime","Smart Solar"]]},
+{"n":"Wind spinner","a":"whirligig · kinetic spinner · windmill ornament","d":"Garden ornament of vanes, cups or spirals that turns in the wind, staked or hung.",
+ "t":["Hanging spiral","Staked kinetic","Windmill","Figural whirligig"],
+ "s":"https://oldrailwaylinegc.co.uk/collections/wind-chimes-spinners?page=1",
+ "x":[{"n":"Whirligig","a":"wind toy · yard whirligig","d":"Wind-driven folk ornament whose propeller drives moving figures, an American folk-art collecting field.","mk":"","y":"spread across the US 1880–1900","s":W+"Whirligig",
+   "v":[{"n":"Folk-art whirligigs","mk":"","y":"20th century","d":"pieces by Reuben Aaron Miller are highly collected"}],
+   "dt":"carved wood or sheet metal · figure theme · painted finish"}]},
+{"n":"Weathervane","a":"weather vane · wind vane · weathercock","d":"Rotating ornament on a rod that turns to show the wind direction.",
+ "t":["Roof-mounted","Garden-staked","With compass points","Copper","Cast iron","Steel silhouette"],
+ "s":"https://www.heritagegardens.co.uk/products/cat-ball-weathervane",
+ "x":[
+  {"n":"Weathercock","a":"rooster vane · cockerel","d":"Vane in the form of a cockerel, the traditional church-steeple design.","mk":"","y":"9th century (Gallo di Ramperto, 820)","s":W+"Weather_vane",
+   "v":[{"n":"Gallo di Ramperto","mk":"","y":"820","d":"oldest surviving rooster vane"},
+        {"n":"Portland Rooster","mk":"","y":"18th century","d":"carved and gilded pine"},
+        {"n":"Howard rooster","mk":"J. & C. Howard & Co.","y":"c. 1856–67","d":"small moulded copper rooster"}],
+   "dt":"moulded or sheet copper · gilding or verdigris · compass points"},
+  {"n":"Running horse","a":"trotter vane","d":"Moulded copper vane of a galloping or trotting horse, the most popular American form.","mk":"","y":"19th century","s":AT,
+   "v":[{"n":"Ethan Allen and Dexter","mk":"L.W. Cushing & Sons","y":"after 1867","d":"trotters modelled by carver Harry Leach for Leonard W. Cushing"},
+        {"n":"Tuckerman horse","mk":"William F. Tuckerman","y":"from late 1830s","d":"some stamped 'Tuckerman Boston'"},
+        {"n":"'Index' horse","mk":"J. & C. Howard & Co.","y":"","d":"named after the Index of American Design (1940)"}],
+   "dt":"moulded copper · cast-zinc head · gilt or verdigris"},
+  {"n":"Banner vane","a":"bannerette","d":"Vane shaped as a pennant or scrolled banner, often on churches.","mk":"","y":"c. 1840 and earlier","s":AT,
+   "v":[{"n":"Orono church banner","mk":"","y":"c. 1840","d":"sheet iron and blown glass, Maine"}],
+   "dt":"sheet iron or copper · scrollwork · cut-out date or initials"},
+  {"n":"Figural vane","a":"figure weathervane","d":"Vane of a human, mythical or modern figure, from goddesses to cars and aeroplanes.","mk":"","y":"19th–20th century","s":AT,
+   "v":[{"n":"Goddess of Liberty","mk":"A.L. Jewell & Co.","y":"1865–67","d":""},
+        {"n":"Native American archer","mk":"","y":"c. 1870","d":""},
+        {"n":"Fame","mk":"E.G. Washburne & Co.","y":"c. 1890","d":"attributed"},
+        {"n":"Touring car and driver","mk":"W.A. Snow & Co.","y":"c. 1910","d":""}],
+   "dt":"figure · moulded copper · cast-zinc parts"}],
+ "m":[["Cat & Ball","Heritage Gardens"]]},
+{"n":"Garden fountain","a":"water feature","d":"Ornamental fountain or flowing-water feature for a garden (its pump is in Garden & Grounds).",
+ "t":["Tiered","Wall fountain","Bubbler or ball","Cascade","Self-contained","Solar-powered"],
+ "s":"https://gardenornaments.com/"}]
+brands=[
+ {"n":"Woodstock Chimes","c":"United States","seg":"Tuned wind chimes","d":"Family firm of Garry and Diane Kvistad in New York's Hudson Valley, making chimes tuned to historic and world scales.","sig":["Chimes of Olympos"],"lines":["Chimes of Olympos","King David Chime"],"s":"https://www.nexuspercussion.com/2009/03/garry-chimes-in/"},
+ {"n":"Music of the Spheres","c":"United States","seg":"Tuned wind chimes","d":"Austin, Texas maker of precision-tuned aluminium chimes in many scales and sizes.","sig":["Music of the Spheres pentatonic chime"],"s":"https://zillymonkey.com/products/pentatonic-windchimes-by-music-of-the-spheres"},
+ {"n":"Koshi","c":"France","seg":"Sound-healing chimes","d":"Handmade bamboo-bodied chimes in four named tunings.","sig":["Koshi chime"],"lines":["Terra","Aria","Ignis","Aqua"],"s":"https://www.thomann.co.uk/koshi_chimes_aria.htm"},
+ {"n":"Zaphir","c":"France","seg":"Sound-healing chimes","d":"Chimes of eight tuned bars in a marbled sound box, in four seasonal tunings plus Sufi.","sig":["Zaphir chime"],"lines":["Crystalide","Sunray","Twilight","Blue Moon","Sufi"],"s":"https://www.feeltone.com/en/collections/wind-chimes-zaphir"},
+ {"n":"Shinohara Maruyoshi Fūrin","c":"Japan","seg":"Edo glass wind bells","d":"Tokyo workshop of Yoshiharu Shinohara, mouth-blowing and inside-painting Edo fūrin.","sig":["Fūrin"],"s":"https://edo-fuurin.com/en/about"}]
+trads=[
+ {"n":"Edo fūrin","g":"Ceramics & glass","r":"Tokyo, Japan","p":"late Edo period to present","d":"Mouth-blown glass summer wind bells from Tokyo, painted from the inside.","tech":"glass blown without a mould; rim ground jagged for the ring; inside painting","mat":"glass, oil- and water-based paints, paper strip","forms":["Fūrin"],"ctr":["Shinohara Maruyoshi Fūrin (Yoshiharu Shinohara)"],"auth":"uneven ground rim, painting on the inside, traditional vermilion-and-green strip","s":"https://edo-fuurin.com/en/about"},
+ {"n":"Nanbu tekki","g":"Metal & blades","r":"Iwate Prefecture, Japan (Morioka, Oshu)","p":"17th century to present (Koizumi Nizaemon, 1659)","d":"Cast-iron ware of the old Nanbu domain, known for tea kettles and iron wind bells.","tech":"hand iron casting; some pieces finished with Joboji urushi","mat":"cast iron, urushi lacquer","forms":["Fūrin","Iron tea kettle"],"ctr":["Morioka","Oshu (Mizusawa)","Iwachu","Oigen"],"auth":"made in Morioka or Oshu by recognised workshops","s":"https://japan-guide.com/e/e5055.html"}]
+notes=("Dropped the Flamboya SKU list (7 models) and Smart Garden models as retail noise, keeping one Flamboya, Panacea and Smart Solar as leftovers; "
+ "weathervane makers (Cushing, Jewell, Howard, Fiske, Mott) appear only as version makers, not brand entries, since they are defunct 19th-century firms; "
+ "Garden fountain kept kind-level per brief. Wikidata rate-limited; Colonial Williamsburg emuseum blocked (403), not retried. "
+ "Koshi Terra/Ignis/Aqua element meanings beyond names not confirmed; Woodstock founding year left out (1979 is the Hudson Valley move).")
+out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+p='/home/user/Possession-Taxonomy/rebuild/work/B4/shelves/05_01.json'
+json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

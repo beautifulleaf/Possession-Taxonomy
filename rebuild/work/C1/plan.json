@@ -1,0 +1,2039 @@
+{
+ "lead": "Tools and workshop equipment a person owns, from power tools on a battery platform and hand tools to workshop machines, measuring gear, welding, ladders, storage and protective equipment, organised by kind of work and then by tool.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Power tools",
+   "mode": "tier",
+   "note": "Most owners buy into one battery platform, then pick tools within it.",
+   "b": [
+    {
+     "m": "How hard it works under load",
+     "v": "torque, drilling and driving speed",
+     "w": "Tests weigh this first (Consumer Reports power score; CHOICE gives drilling and torque 30 percent each)."
+    },
+    {
+     "m": "How it handles",
+     "v": "weight and balance with the battery fitted",
+     "w": "CHOICE gives handling 40 percent."
+    },
+    {
+     "m": "Battery run time and platform",
+     "v": "higher amp-hours and a wider range of tools on the same battery",
+     "w": "Most people buy into one battery platform, then choose tools within it."
+    },
+    {
+     "m": "Durability and safety",
+     "v": "battery life over many charges; kick-back cut-off",
+     "w": "Tested separately from power."
+    },
+    {
+     "m": "Motor and warranty",
+     "v": "brushless beats brushed",
+     "w": "Checked after the measured results."
+    },
+    {
+     "m": "Voltage",
+     "v": "",
+     "w": "Only a rough guide to power (Consumer Reports)."
+    }
+   ],
+   "s": [
+    {
+     "n": "Battery platforms",
+     "web": true,
+     "brief": "Make the cordless battery platform the organising archetype: Tool battery kind with one archetype per platform (DeWalt 20V MAX / 18V XR and FlexVolt, Milwaukee M18 and M12, Makita 18V LXT, 40V XGT and 12V CXT, Ryobi ONE+, Bosch Professional 18V / Power for All / AMPShare, Festool 18V, Metabo CAS, Hilti Nuron, Einhell Power X-Change, Ridgid, Ego for garden crossover). Versions = generations/cell formats (e.g. tabless/pouch packs). Detail = Ah and voltage. Charger merged with its platform as a type, not a SKU list. Remove platform ranges repeated across power-tool kinds (they live here and in the brand register).",
+     "k": [
+      {
+       "n": "Tool battery",
+       "old": [
+        "k221"
+       ],
+       "brief": "Archetypes = platforms; source each from maker or Wikipedia page."
+      },
+      {
+       "n": "Battery charger",
+       "old": [
+        "k222"
+       ],
+       "brief": "Types: standard, rapid, multi-bay; cut Makita SKU list to one line per platform."
+      }
+     ]
+    },
+    {
+     "n": "Drills, drivers & breakers",
+     "web": false,
+     "brief": "Restraint: trim SKU lists to market-covering makers plus Which?/CHOICE/Consumer Reports winners (≈5–8). Drop repeated platform ranges (now in Battery platforms). Magnetic drill stays kind-level with no models (trade). Demolition hammer moves here from the old breakers shelf.",
+     "k": [
+      {
+       "n": "Drill driver",
+       "old": [
+        "k1"
+       ]
+      },
+      {
+       "n": "Combi (hammer) drill",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Impact driver",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Rotary hammer",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Impact wrench",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Electric screwdriver",
+       "old": [
+        "k4"
+       ]
+      },
+      {
+       "n": "Demolition hammer",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Magnetic drill",
+       "old": [
+        "k7"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Power saws",
+     "web": false,
+     "brief": "Restraint: trim mitre-saw and circular-saw SKU lists; sliding/compound as types; wall chaser and cut-off saw join from the old breakers shelf, kind-level.",
+     "k": [
+      {
+       "n": "Circular saw",
+       "old": [
+        "k8"
+       ]
+      },
+      {
+       "n": "Jigsaw",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "Mitre saw",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Track saw",
+       "old": [
+        "k11"
+       ]
+      },
+      {
+       "n": "Reciprocating saw",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "Cut-off saw",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Wall chaser",
+       "old": [
+        "k39"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Sanders, grinders & polishers",
+     "web": false,
+     "brief": "Restraint: trim models; keep distinct sander kinds; drywall sander kind-level.",
+     "k": [
+      {
+       "n": "Angle grinder",
+       "old": [
+        "k13"
+       ]
+      },
+      {
+       "n": "Random orbital sander",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Sheet sander",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Detail sander",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "Belt sander",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Die grinder",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Polisher",
+       "old": [
+        "k17"
+       ]
+      },
+      {
+       "n": "Drywall sander",
+       "old": [
+        "k20"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Routers, joiners & multi-tools",
+     "web": true,
+     "brief": "Enthusiast end: Festool Domino as the originating archetype of the new loose-tenon joiner kind (DF 500, DF 700 versions), Lamello as the biscuit-joiner originator, Dremel as the rotary-tool originator (Moto-Tool era, 3000/4000/8220 versions), Fein MultiMaster as the oscillating multi-tool originator, Makita RT0701C / Bosch Colt as compact-router archetypes, Festool OF 1400 / Trend T11. Trim the Trend and DeWalt SKU lists; plunge/fixed/trim as router types.",
+     "k": [
+      {
+       "n": "Router",
+       "old": [
+        "k21"
+       ]
+      },
+      {
+       "n": "Oscillating multi-tool",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Rotary tool",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "Power planer",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Biscuit jointer",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Loose-tenon joiner",
+       "old": [],
+       "brief": "NEW: Festool Domino-type joiner; source from Festool or Wikipedia."
+      }
+     ]
+    },
+    {
+     "n": "Nailers, staplers & heat tools",
+     "web": false,
+     "brief": "Restraint: dissolve the 'Other nail guns' catch-all into Framing nailer (positive-placement/connector as a type); power source (air, gas, battery) is a type, not a kind. Trim models.",
+     "k": [
+      {
+       "n": "Framing nailer",
+       "old": [
+        "k31",
+        "k26"
+       ]
+      },
+      {
+       "n": "Finish nailer",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Brad nailer",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "Pin nailer",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Staple gun",
+       "old": [
+        "k27"
+       ]
+      },
+      {
+       "n": "Palm nailer",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Flooring nailer",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Roofing and siding nailer",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Heat gun",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Glue gun",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "Rivet gun",
+       "old": [
+        "k28"
+       ],
+       "brief": "Hand and powered riveters as types."
+      }
+     ]
+    },
+    {
+     "n": "Bits, blades & abrasives",
+     "web": false,
+     "brief": "Restraint: one entry per accessory family, patterns as types. Dissolve 'Other saw blades' into Saw blade. No SKU lists; at most a few market-covering makers.",
+     "k": [
+      {
+       "n": "Drill bit",
+       "old": [
+        "k223",
+        "k228",
+        "k229",
+        "k231"
+       ],
+       "brief": "Types: twist (HSS), masonry, wood (spade, auger, brad point, Forstner), step."
+      },
+      {
+       "n": "Screwdriver bit",
+       "old": [
+        "k224"
+       ]
+      },
+      {
+       "n": "Hole saw",
+       "old": [
+        "k230"
+       ]
+      },
+      {
+       "n": "Saw blade",
+       "old": [
+        "k232",
+        "k225",
+        "k233",
+        "k234",
+        "k235"
+       ],
+       "brief": "Types: circular/mitre/table, jigsaw, reciprocating, bandsaw."
+      },
+      {
+       "n": "Grinder disc",
+       "old": [
+        "k226"
+       ]
+      },
+      {
+       "n": "Sanding sheet or disc",
+       "old": [
+        "k227"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Woodworking hand tools",
+   "mode": "variety",
+   "note": "Organised kind → archetype (Stanley number, maker pattern) → version → detail.",
+   "b": [
+    {
+     "m": "Steel and hardening of the edge",
+     "v": "Aogami Super > Blue #1 > Blue #2 > White #1 > White #2 (Japanese edge steels); A2, O1, PM-V11 (Western)",
+     "w": "Leads for planes, chisels and other edged tools."
+    },
+    {
+     "m": "Accuracy and fit",
+     "v": "flat soles, square sides, no play",
+     "w": "Comes right after the steel."
+    },
+    {
+     "m": "Maker or smith",
+     "v": "",
+     "w": "Premium hand tools are compared maker by maker; vintage Stanley/Record judged by type study and era."
+    }
+   ],
+   "s": [
+    {
+     "n": "Planes",
+     "web": true,
+     "brief": "Archetype standard by Stanley number: Bailey bench planes Nos. 1–8 (No. 4 smoother, No. 5 jack, No. 7 jointer), Bedrock 600 series, No. 4½, low-angle jack No. 62, block planes (No. 60½, No. 9½), No. 92/93 shoulder, No. 71 router, No. 45/55 combination, No. 78 rebate, No. 151 spokeshave, No. 80 cabinet scraper. Versions: original Stanley (type study eras), Record, modern Lie-Nielsen, Veritas (bevel-up line), Clifton, Quangsheng/Luban, Woodriver, Axminster/Rider. Infill planes (Norris, Spiers, Mathieson) as archetypes under Bench plane. Keep smoothing/jack/jointer as types on Bench plane; existing models become versions. Kanna is on the Japanese shelf.",
+     "k": [
+      {
+       "n": "Bench plane",
+       "old": [
+        "k89"
+       ]
+      },
+      {
+       "n": "Block plane",
+       "old": [
+        "k90"
+       ]
+      },
+      {
+       "n": "Shoulder plane",
+       "old": [
+        "k91"
+       ]
+      },
+      {
+       "n": "Rebate plane",
+       "old": [],
+       "brief": "NEW (Stanley No. 78, No. 10)."
+      },
+      {
+       "n": "Router plane",
+       "old": [
+        "k92"
+       ]
+      },
+      {
+       "n": "Plough plane",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Combination plane",
+       "old": [],
+       "brief": "NEW (Stanley 45/55, Record 405)."
+      },
+      {
+       "n": "Moulding plane",
+       "old": [],
+       "brief": "NEW: wooden profile planes (hollows and rounds, beading)."
+      },
+      {
+       "n": "Spokeshave",
+       "old": [],
+       "brief": "NEW (Stanley 151, Veritas, Lie-Nielsen Boggs)."
+      },
+      {
+       "n": "Drawknife",
+       "old": [],
+       "brief": "NEW: two-handled blade for green woodwork."
+      },
+      {
+       "n": "Scraper",
+       "old": [],
+       "brief": "NEW: card scraper and cabinet scraper (Stanley No. 80), scraper plane (No. 112)."
+      }
+     ]
+    },
+    {
+     "n": "Japanese woodworking tools",
+     "web": true,
+     "brief": "Tradition-led shelf: add a tradition entry for Japanese carpentry tools (daiku dōgu; Miki and Sanjo/Yoita smithing centres, Banshu Miki designated traditional craft) with steel ladder (Shirogami/Aogami). Archetypes: kanna (hira-ganna smoother, kiwa-ganna), ryoba, dozuki, kataba, kugihiki/azebiki, genno patterns (hakkaku, daruma), oire-nomi and tataki-nomi, sumitsubo, sashigane, kiridashi. Makers: Gyokucho/Razorsaw, Z-Saw (Okada), Shokunin, Tasai, Koyamaichi, Matsumura. Move Western flush-cut models (Veritas) to versions noted as Western interpretations.",
+     "k": [
+      {
+       "n": "Kanna (Japanese plane)",
+       "old": [
+        "k94"
+       ]
+      },
+      {
+       "n": "Ryoba saw",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "Dozuki saw",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Kataba saw",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Flush-cut saw",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Genno (Japanese hammer)",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Nomi (Japanese chisel)",
+       "old": [],
+       "brief": "NEW: oire-nomi (bench), tataki-nomi, mukomachi (mortise), usu-nomi (paring)."
+      },
+      {
+       "n": "Sumitsubo (ink line)",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Sashigane (carpenter's square)",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Kiridashi",
+       "old": [],
+       "brief": "NEW: Japanese marking and utility knife."
+      }
+     ]
+    },
+    {
+     "n": "Hand saws",
+     "web": true,
+     "brief": "Archetypes: Disston D-8 and No. 7 (originator of the American handsaw), Spear & Jackson, Bahco hardpoint saw (Barracuda/ProfCut), Western dovetail saw (Lie-Nielsen, Veritas, Pax/Thomas Flinn), tenon and carcass back saws, Olson/Knew Concepts coping and fret saws, Eclipse/Bahco hacksaw frames. Japanese saws live on the Japanese shelf.",
+     "k": [
+      {
+       "n": "Panel saw",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "Back saw",
+       "old": [
+        "k53"
+       ],
+       "brief": "Types: dovetail, carcass, tenon, gents."
+      },
+      {
+       "n": "Hacksaw",
+       "old": [
+        "k52"
+       ]
+      },
+      {
+       "n": "Coping saw",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Fret saw",
+       "old": [],
+       "brief": "NEW: deep-throated fine saw (Knew Concepts)."
+      },
+      {
+       "n": "Keyhole saw",
+       "old": [
+        "k55"
+       ]
+      },
+      {
+       "n": "Bow saw",
+       "old": [
+        "k56"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Chisels, carving & sharpening",
+     "web": true,
+     "brief": "Archetypes: Marples Blue Chip/Irwin, Narex, Lie-Nielsen socket chisels, Veritas PM-V11, Ashley Iles, Robert Sorby; carving gouges with the Sheffield/Swiss sweep-number system (Pfeil Swiss Made, Two Cherries, Flexcut); turning gouges (Crown, Sorby, Hamlet); Auriou hand-stitched rasps, Grobet/Vallorbe and Nicholson files; whetstones (Shapton, Naniwa, King, Norton India, Arkansas natural stones, Japanese natural stones as a tradition link), diamond plates (DMT, Atoma), honing guide (Eclipse, Veritas Mk II) as a new kind; Tormek T-series and Work Sharp as sharpening-system archetypes.",
+     "k": [
+      {
+       "n": "Bench chisel",
+       "old": [
+        "k95"
+       ]
+      },
+      {
+       "n": "Paring chisel",
+       "old": [
+        "k96"
+       ]
+      },
+      {
+       "n": "Mortise chisel",
+       "old": [
+        "k97"
+       ]
+      },
+      {
+       "n": "Carving gouge",
+       "old": [],
+       "brief": "NEW: hand-carving chisels and gouges by sweep number."
+      },
+      {
+       "n": "Turning gouge",
+       "old": [
+        "k98"
+       ]
+      },
+      {
+       "n": "File",
+       "old": [
+        "k99"
+       ]
+      },
+      {
+       "n": "Rasp",
+       "old": [
+        "k100"
+       ]
+      },
+      {
+       "n": "Whetstone",
+       "old": [
+        "k101"
+       ],
+       "brief": "Types: waterstone, oilstone, natural stone, diamond plate."
+      },
+      {
+       "n": "Honing guide",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Sharpening system",
+       "old": [
+        "k102"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Braces & hand drills",
+     "web": true,
+     "brief": "Archetypes: Stanley/Millers Falls ratchet braces, Millers Falls and Stanley hand (egg-beater) drills, Yankee push drill (North Bros. No. 41/44), gimlets and bradawls. Vintage makers matter more than current ones.",
+     "k": [
+      {
+       "n": "Hand brace",
+       "old": [
+        "k112"
+       ]
+      },
+      {
+       "n": "Hand drill",
+       "old": [
+        "k113"
+       ]
+      },
+      {
+       "n": "Push drill",
+       "old": [],
+       "brief": "NEW: Yankee-type spiral push drill."
+      },
+      {
+       "n": "Bradawl",
+       "old": [],
+       "brief": "NEW: awl and gimlet for starting holes."
+      }
+     ]
+    },
+    {
+     "n": "Clamps, vices & workbenches",
+     "web": true,
+     "brief": "Dissolve 'Other clamps' into Bar clamp (F, quick-release, parallel-jaw as types). Archetypes: Bessey KRE parallel clamp and Bessey F-clamp, Jorgensen, Irwin Quick-Grip; Record No. 52½ quick-release vice, leg vice, engineer's vice (Record No. 6, Wilton bullet vise); workbench patterns (Roubo, Nicholson/English, Moravian, Klughammer/Sjöbergs Scandinavian, Festool MFT, Black & Decker Workmate as the originator of the folding bench); Gramercy/holdfast. Merge trestle into sawhorse.",
+     "k": [
+      {
+       "n": "Workbench",
+       "old": [
+        "k82"
+       ]
+      },
+      {
+       "n": "Bench vice",
+       "old": [
+        "k81"
+       ],
+       "brief": "Types: woodworking (face, tail, leg) and engineer's vice."
+      },
+      {
+       "n": "Bar clamp",
+       "old": [
+        "k86",
+        "k80"
+       ]
+      },
+      {
+       "n": "C-clamp",
+       "old": [
+        "k87"
+       ]
+      },
+      {
+       "n": "Spring clamp",
+       "old": [
+        "k88"
+       ]
+      },
+      {
+       "n": "Holdfast",
+       "old": [],
+       "brief": "NEW: bench holdfast and bench dogs."
+      },
+      {
+       "n": "Sawhorse",
+       "old": [
+        "k83",
+        "k84"
+       ]
+      },
+      {
+       "n": "Saw stand",
+       "old": [
+        "k85"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "General hand tools",
+   "mode": "mixed",
+   "note": "Tier for everyday tools, variety at the enthusiast end (Knipex, Wera, PB Swiss, Snap-on, Estwing).",
+   "b": [
+    {
+     "m": "Steel, hardening and fit",
+     "v": "chrome-vanadium or better; accurate tips and jaws that do not cam out or slip",
+     "w": "What separates good spanners, screwdrivers and pliers in independent tests."
+    },
+    {
+     "m": "Grip and safety rating",
+     "v": "VDE/insulated to 1000 V where electrical",
+     "w": "Required for electrical work."
+    }
+   ],
+   "s": [
+    {
+     "n": "Screwdrivers & spanners",
+     "web": true,
+     "brief": "Archetypes: Johansson/Bahco adjustable spanner (originator), Stillson pipe wrench (Ridgid), Snap-on and Britool combination spanners, Gedore, Wera Kraftform, Wiha, PB Swiss, Phillips and Pozidriv/Torx drive systems as named patterns, Allen key, Wera Joker ratcheting spanner, click-type torque wrench. Trim SKU lists. Merge basin wrench into pipe wrench as a type if thin.",
+     "k": [
+      {
+       "n": "Screwdriver",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Combination spanner",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Socket wrench",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "Adjustable wrench",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Hex key",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Torque wrench",
+       "old": [
+        "k66"
+       ]
+      },
+      {
+       "n": "Pipe wrench",
+       "old": [
+        "k67"
+       ]
+      },
+      {
+       "n": "Basin wrench",
+       "old": [
+        "k68"
+       ]
+      },
+      {
+       "n": "Box spanner",
+       "old": [
+        "k69"
+       ]
+      },
+      {
+       "n": "Tool kit",
+       "old": [
+        "k70"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Pliers",
+     "web": true,
+     "brief": "Rename 'Combination and other pliers' to Combination pliers. Archetypes: Knipex Cobra and Pliers Wrench (originator), Channellock 400-series tongue-and-groove (originator), Vise-Grip 10WR locking pliers (originator, Petersen), Knipex/Klein side cutters, Lineman's pliers (Klein). New: wire stripper, crimping tool.",
+     "k": [
+      {
+       "n": "Combination pliers",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Tongue and groove pliers",
+       "old": [
+        "k78"
+       ]
+      },
+      {
+       "n": "Locking pliers",
+       "old": [
+        "k77"
+       ]
+      },
+      {
+       "n": "Long nose pliers",
+       "old": [
+        "k75"
+       ]
+      },
+      {
+       "n": "Cutting pliers",
+       "old": [
+        "k76"
+       ]
+      },
+      {
+       "n": "Slip joint pliers",
+       "old": [
+        "k79"
+       ]
+      },
+      {
+       "n": "Wire stripper",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Crimping tool",
+       "old": [],
+       "brief": "NEW."
+      }
+     ]
+    },
+    {
+     "n": "Hammers, punches & bars",
+     "web": false,
+     "brief": "Restraint: trim hammer models to a few market-covering makers (Estwing, Stanley, Thor); keep pein patterns as kinds; pry bars kind-level. Japanese genno moved to the Japanese shelf.",
+     "k": [
+      {
+       "n": "Claw hammer",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Mallet",
+       "old": [
+        "k43"
+       ]
+      },
+      {
+       "n": "Club hammer",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Ball-pein hammer",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Cross-pein hammer",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Sledgehammer",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Brick hammer",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Slater's hammer",
+       "old": [
+        "k48"
+       ]
+      },
+      {
+       "n": "Punch",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "Wrecking bar",
+       "old": [
+        "k103"
+       ]
+      },
+      {
+       "n": "Pry bar",
+       "old": [
+        "k104"
+       ]
+      },
+      {
+       "n": "Nail puller",
+       "old": [
+        "k105"
+       ]
+      },
+      {
+       "n": "Lifting bar",
+       "old": [
+        "k106"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Decorating, plastering & tiling",
+     "web": true,
+     "brief": "QoL tier shelf: keep paintbrush (Purdy, Hamilton, Harris; sash/fitch as types), add the decorating kinds a householder expects with a few market-covering makers each (rollers, sprayers such as Wagner/Graco, filling knives, caulking gun, plastering trowel (Marshalltown, Refina), manual tile cutter (Rubi, Sigma)). No SKU lists.",
+     "k": [
+      {
+       "n": "Paintbrush",
+       "old": [
+        "k114"
+       ]
+      },
+      {
+       "n": "Paint roller",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Paint sprayer",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Filling knife and scraper",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Caulking gun",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Plastering trowel",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Tile cutter",
+       "old": [],
+       "brief": "NEW: manual rail cutter."
+      },
+      {
+       "n": "Wire brush",
+       "old": [
+        "k115"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Knives, multi-tools & axes",
+   "mode": "variety",
+   "note": "EDC, utility and bushcraft blades live here; kitchen knives in Kitchen, fighting and hunting knives in Weapons.",
+   "b": [
+    {
+     "m": "Blade steel",
+     "v": "powder steels (S30V, M390, 20CV) > stainless (VG-10, 14C28N) > carbon (1095, Sandvik 12C27, Aogami)",
+     "w": "The axis knife communities compare first."
+    },
+    {
+     "m": "Lock and action",
+     "v": "frame lock, liner lock, back lock, slip joint, friction folder",
+     "w": "Defines the pattern and legal carry in many countries."
+    },
+    {
+     "m": "Maker and pattern",
+     "v": "",
+     "w": "Collectors compare by maker and named pattern."
+    }
+   ],
+   "s": [
+    {
+     "n": "Pocket knives & multi-tools",
+     "web": true,
+     "brief": "Split the flat pocket-knife list. Modern folding knife archetypes: Chris Reeve Sebenza (originator of the integral frame lock), Spyderco Delica/Endura and Paramilitary 2, Benchmade Griptilian and Bugout, Buck 110 Folding Hunter (originator of the lockback hunter), Kershaw Leek, Civivi. Traditional/regional folding knives: Opinel, Laguiole, Higonokami, Douk-Douk, Barlow, Case trapper/stockman/peanut patterns, Svord Peasant, Okapi. Swiss Army knife: Victorinox Officer's/Spartan, Huntsman, SwissChamp, Classic SD; Wenger. Multi-tool: Leatherman PST (originator), Wave, Charge, Skeletool; Gerber Multi-Plier, SOG PowerAccess, Victorinox SwissTool. Fixed-blade/bushcraft: Mora Companion and Mora Classic, Fällkniven F1, ESEE, Ka-Bar Becker. Utility knife: Stanley 99 (originator of the retractable trade knife), Olfa snap-off (originator of the snap-off blade). Add tradition entries where relevant (Laguiole/Thiers, Miki higonokami). Existing models become versions.",
+     "k": [
+      {
+       "n": "Folding knife",
+       "old": [
+        "k73"
+       ],
+       "brief": "Modern locking folders (EDC)."
+      },
+      {
+       "n": "Traditional folding knife",
+       "old": [],
+       "brief": "NEW: regional and slip-joint patterns (Opinel, Laguiole, Higonokami, Barlow, stockman)."
+      },
+      {
+       "n": "Swiss Army knife",
+       "old": [],
+       "brief": "NEW: multi-blade pocket knife (Victorinox, Wenger)."
+      },
+      {
+       "n": "Multi-tool",
+       "old": [
+        "k74"
+       ]
+      },
+      {
+       "n": "Fixed-blade bushcraft knife",
+       "old": [],
+       "brief": "NEW: outdoor/utility fixed blade (Mora, Fällkniven, ESEE)."
+      },
+      {
+       "n": "Utility knife",
+       "old": [
+        "k72"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Axes & log splitting",
+     "web": true,
+     "brief": "Archetypes by pattern and maker: Gränsfors Bruk Small Forest Axe and Wildlife Hatchet, Hults Bruk, Wetterlings, Council Tool Boy's Axe, Fiskars X-series splitting axe, Estwing camper's axe; patterns (Hudson Bay, Dayton, Michigan, Kent, Scandinavian forest axe) as archetypes without makers. Splitting maul (Gränsfors, Fiskars), Kindling Cracker (originator of the kindling splitter). Folding pruning/bushcraft saw (Silky, Bahco Laplander) as new kind. Froe as new kind. Log splitter kind-level, no trade machines.",
+     "k": [
+      {
+       "n": "Axe",
+       "old": [
+        "k107"
+       ],
+       "brief": "Types: felling axe, forest axe, hatchet, splitting axe."
+      },
+      {
+       "n": "Splitting maul",
+       "old": [
+        "k108"
+       ]
+      },
+      {
+       "n": "Splitting wedge",
+       "old": [
+        "k109"
+       ]
+      },
+      {
+       "n": "Kindling splitter",
+       "old": [
+        "k110"
+       ]
+      },
+      {
+       "n": "Log splitter",
+       "old": [
+        "k111"
+       ]
+      },
+      {
+       "n": "Folding saw",
+       "old": [],
+       "brief": "NEW: folding pruning/bushcraft saw."
+      },
+      {
+       "n": "Froe",
+       "old": [],
+       "brief": "NEW: riving blade for splitting shakes and green wood."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Workshop machinery",
+   "mode": "mixed",
+   "note": "Hobby and home-workshop machines; industrial-only machines dropped.",
+   "b": [
+    {
+     "m": "Duty class",
+     "v": "frequent use > regular use > occasional use",
+     "w": "Workshop machines are sorted by duty first."
+    },
+    {
+     "m": "Build, motor power and accuracy",
+     "v": "cast iron over sheet steel; induction over universal motors",
+     "w": "Compared within the same duty class."
+    }
+   ],
+   "s": [
+    {
+     "n": "Woodworking machines",
+     "web": true,
+     "brief": "Archetypes: Delta Unisaw (originator of the cabinet saw), Powermatic Model 66, SawStop (flesh-sensing originator; PCS, ICS, JSS versions), Felder/Hammer combination machines (K3, A3 41, C3 31), Laguna and Record Power bandsaws, Startrite, Scheppach, Grizzly G0690-type cabinet saws, Bosch REAXX. Table-saw duty classes stay as types. Trim the long Grizzly/Felder SKU lists to versions of archetypes. New kind: combination machine (saw-spindle-planer).",
+     "k": [
+      {
+       "n": "Table saw",
+       "old": [
+        "k116"
+       ]
+      },
+      {
+       "n": "Bandsaw",
+       "old": [
+        "k120"
+       ]
+      },
+      {
+       "n": "Planer-thicknesser",
+       "old": [
+        "k126"
+       ]
+      },
+      {
+       "n": "Jointer",
+       "old": [
+        "k124"
+       ]
+      },
+      {
+       "n": "Thicknesser",
+       "old": [
+        "k125"
+       ]
+      },
+      {
+       "n": "Sliding table saw",
+       "old": [
+        "k117"
+       ]
+      },
+      {
+       "n": "Combination machine",
+       "old": [],
+       "brief": "NEW: universal woodworker combining saw, spindle and planer."
+      },
+      {
+       "n": "Router table",
+       "old": [
+        "k129"
+       ]
+      },
+      {
+       "n": "Mortiser",
+       "old": [
+        "k128"
+       ]
+      },
+      {
+       "n": "Scroll saw",
+       "old": [
+        "k123"
+       ]
+      },
+      {
+       "n": "Spindle moulder",
+       "old": [
+        "k127"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Lathes, drill presses & CNC",
+     "web": true,
+     "brief": "Archetypes: wood lathes (Record Power CL/Coronet, Jet 1642, Oneway, Robust, Nova), drill presses (Clarke, Record Power, Nova Voyager), desktop CNC routers (Shapeoko, X-Carve, Onefinity, Carvera), and a NEW laser cutter/engraver kind (Glowforge, xTool, Epilog hobby models). Shapeoko generations become versions.",
+     "k": [
+      {
+       "n": "Wood lathe",
+       "old": [
+        "k136"
+       ]
+      },
+      {
+       "n": "Drill press",
+       "old": [
+        "k131"
+       ]
+      },
+      {
+       "n": "CNC router",
+       "old": [
+        "k130"
+       ]
+      },
+      {
+       "n": "Laser cutter",
+       "old": [],
+       "brief": "NEW: desktop laser cutter and engraver."
+      }
+     ]
+    },
+    {
+     "n": "Metalworking & smithing",
+     "web": true,
+     "brief": "Machinist/model-engineering archetypes: Myford ML7 and Super 7, South Bend 9/10K, Atlas, Sherline, Taig, Emco Unimat, Boxford, Hardinge; Bridgeport milling machine (originator of the turret mill), Warco, Sieg mini lathe/mill (C3, X2) and its rebrands; Grizzly and Shop Fox trimmed to versions. Blacksmithing: NEW anvil (London pattern, German/double-horn; Peter Wright, Hay-Budden, Fisher, Refflinghaus, Vaughan Brooks) and NEW forge (coal, gas). Metal bandsaw and cold saw kind-level with a few makers.",
+     "k": [
+      {
+       "n": "Metal lathe",
+       "old": [
+        "k137"
+       ]
+      },
+      {
+       "n": "Milling machine",
+       "old": [
+        "k138"
+       ]
+      },
+      {
+       "n": "Lathe-mill",
+       "old": [
+        "k139"
+       ]
+      },
+      {
+       "n": "Metal-cutting bandsaw",
+       "old": [
+        "k121"
+       ]
+      },
+      {
+       "n": "Cold cut saw",
+       "old": [
+        "k122"
+       ]
+      },
+      {
+       "n": "Anvil",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Forge",
+       "old": [],
+       "brief": "NEW: hobby coal or gas forge."
+      }
+     ]
+    },
+    {
+     "n": "Bench grinders, sanders & dust extraction",
+     "web": false,
+     "brief": "Restraint: trim the dust-extractor SKU list (18 models) to market-covering makers and test winners; shop vac and cyclone collector as types.",
+     "k": [
+      {
+       "n": "Dust extractor",
+       "old": [
+        "k135"
+       ]
+      },
+      {
+       "n": "Bench grinder",
+       "old": [
+        "k132"
+       ]
+      },
+      {
+       "n": "Belt and disc sander",
+       "old": [
+        "k134"
+       ]
+      },
+      {
+       "n": "Spindle sander",
+       "old": [
+        "k133"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Measuring & detecting",
+   "mode": "mixed",
+   "note": "Tier for site and trade instruments; variety for machinist and marking-out tools.",
+   "b": [
+    {
+     "m": "Accuracy and resolution",
+     "v": "",
+     "w": "The one thing that matters for measuring and test tools."
+    },
+    {
+     "m": "Safety category (electrical testers)",
+     "v": "CAT IV > CAT III > CAT II",
+     "w": "IEC 61010 rating for meters."
+    }
+   ],
+   "s": [
+    {
+     "n": "Precision measuring & marking out",
+     "web": true,
+     "brief": "Machinist and woodworker icons: Starrett combination square (originator, No. 11/C33) and steel rules, Mitutoyo Digimatic/ABSOLUTE calipers and micrometers, TESA (Swiss) height gauges and micrometers, Brown & Sharpe, Moore & Wright, Etalon, Interapid lever indicators; Japanese kebiki as marking-gauge archetypes; Veritas wheel marking gauge, Tite-Mark; marking knives (new). Drop institutional CMM and hardness tester (done in plan).",
+     "k": [
+      {
+       "n": "Caliper",
+       "old": [
+        "k148"
+       ]
+      },
+      {
+       "n": "Micrometer",
+       "old": [
+        "k149"
+       ]
+      },
+      {
+       "n": "Square",
+       "old": [
+        "k153"
+       ]
+      },
+      {
+       "n": "Steel rule",
+       "old": [],
+       "brief": "NEW: engraved steel rule (Starrett, Shinwa)."
+      },
+      {
+       "n": "Dial indicator",
+       "old": [
+        "k150"
+       ]
+      },
+      {
+       "n": "Height gauge",
+       "old": [
+        "k151"
+       ]
+      },
+      {
+       "n": "Marking gauge",
+       "old": [
+        "k152"
+       ]
+      },
+      {
+       "n": "Marking knife",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Angle finder",
+       "old": [
+        "k154"
+       ],
+       "brief": "Sliding bevel and digital angle gauge as types."
+      }
+     ]
+    },
+    {
+     "n": "Tape measures, levels & lasers",
+     "web": false,
+     "brief": "Restraint: trim models (Stanley, Stabila, Bosch, Leica DISTO for laser measures); rotary laser and optical level kind-level (trade).",
+     "k": [
+      {
+       "n": "Tape measure",
+       "old": [
+        "k142"
+       ]
+      },
+      {
+       "n": "Spirit level",
+       "old": [
+        "k143"
+       ]
+      },
+      {
+       "n": "Laser measure",
+       "old": [
+        "k144"
+       ]
+      },
+      {
+       "n": "Line laser",
+       "old": [
+        "k145"
+       ]
+      },
+      {
+       "n": "Rotary laser",
+       "old": [
+        "k146"
+       ]
+      },
+      {
+       "n": "Optical level",
+       "old": [
+        "k147"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Testers, detectors & cameras",
+     "web": false,
+     "brief": "Restraint: keep Fluke models as tier picks; other kinds kind-level or with a few market-covering makers.",
+     "k": [
+      {
+       "n": "Multimeter",
+       "old": [
+        "k157"
+       ]
+      },
+      {
+       "n": "Clamp meter",
+       "old": [
+        "k158"
+       ]
+      },
+      {
+       "n": "Stud, pipe and cable detector",
+       "old": [
+        "k160"
+       ]
+      },
+      {
+       "n": "Moisture meter",
+       "old": [
+        "k161"
+       ]
+      },
+      {
+       "n": "Infrared thermometer",
+       "old": [
+        "k162"
+       ]
+      },
+      {
+       "n": "Inspection camera",
+       "old": [
+        "k163"
+       ]
+      },
+      {
+       "n": "Oscilloscope",
+       "old": [
+        "k159"
+       ]
+      },
+      {
+       "n": "Sound level meter",
+       "old": [
+        "k164"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Welding & soldering",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Duty cycle and output",
+     "v": "higher duty cycle at rated amps",
+     "w": "Main measured difference between welders."
+    },
+    {
+     "m": "Processes supported",
+     "v": "multi-process > single process",
+     "w": "Hobby buyers often pick one machine for several jobs."
+    }
+   ],
+   "s": [
+    {
+     "n": "Welders & plasma cutters",
+     "web": false,
+     "brief": "Restraint: remove repeated SIP Weldmate range from every kind; a few market-covering makers (Lincoln, Miller, ESAB, R-Tech, SIP).",
+     "k": [
+      {
+       "n": "MIG welder",
+       "old": [
+        "k165"
+       ]
+      },
+      {
+       "n": "Multi-process welder",
+       "old": [
+        "k168"
+       ]
+      },
+      {
+       "n": "TIG welder",
+       "old": [
+        "k166"
+       ]
+      },
+      {
+       "n": "Stick welder",
+       "old": [
+        "k167"
+       ]
+      },
+      {
+       "n": "Plasma cutter",
+       "old": [
+        "k169"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Soldering, brazing & consumables",
+     "web": false,
+     "brief": "Restraint: merge welding wire, rods, tungsten and brazing rod into one consumables kind with types; keep solder and flux.",
+     "k": [
+      {
+       "n": "Soldering iron",
+       "old": [
+        "k170"
+       ]
+      },
+      {
+       "n": "Gas torch",
+       "old": [
+        "k171"
+       ]
+      },
+      {
+       "n": "Fume extractor",
+       "old": [
+        "k172"
+       ]
+      },
+      {
+       "n": "Welding wire and rod",
+       "old": [
+        "k173",
+        "k174",
+        "k175",
+        "k176"
+       ],
+       "brief": "Types: MIG wire, flux-cored wire, stick electrode, TIG filler rod, tungsten electrode, brazing rod."
+      },
+      {
+       "n": "Solder",
+       "old": [
+        "k177"
+       ]
+      },
+      {
+       "n": "Flux",
+       "old": [
+        "k178"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Ladders, lifting & moving",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Safety standard and duty rating",
+     "v": "EN 131 Professional > EN 131 Non-Professional",
+     "w": "EN 131 replaced the BS 2037 classes in 2018."
+    }
+   ],
+   "s": [
+    {
+     "n": "Ladders",
+     "web": false,
+     "brief": "Restraint: merge platform stepladder into Stepladder as a type; trim models.",
+     "k": [
+      {
+       "n": "Stepladder",
+       "old": [
+        "k179",
+        "k180"
+       ]
+      },
+      {
+       "n": "Combination ladder",
+       "old": [
+        "k181"
+       ]
+      },
+      {
+       "n": "Extension ladder",
+       "old": [
+        "k182"
+       ]
+      },
+      {
+       "n": "Telescopic ladder",
+       "old": [
+        "k183"
+       ]
+      },
+      {
+       "n": "Single ladder",
+       "old": [
+        "k184"
+       ]
+      },
+      {
+       "n": "Roof ladder",
+       "old": [
+        "k185"
+       ]
+      },
+      {
+       "n": "Tripod ladder",
+       "old": [
+        "k186"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Hoists, jacks & trolleys",
+     "web": false,
+     "brief": "Restraint: vehicle jacks and stands move to Vehicles; keep general lifting and carrying kinds, kind-level.",
+     "k": [
+      {
+       "n": "Sack truck",
+       "old": [
+        "k196"
+       ]
+      },
+      {
+       "n": "Moving dolly",
+       "old": [
+        "k197"
+       ]
+      },
+      {
+       "n": "Hand cart",
+       "old": [
+        "k198"
+       ]
+      },
+      {
+       "n": "Bottle jack",
+       "old": [
+        "k188"
+       ]
+      },
+      {
+       "n": "Winch",
+       "old": [
+        "k195"
+       ]
+      },
+      {
+       "n": "Chain hoist",
+       "old": [
+        "k194"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Site equipment & power",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Output and noise",
+     "v": "rated watts or CFM; dB at 7 m",
+     "w": "Main measured differences for generators and compressors."
+    }
+   ],
+   "s": [
+    {
+     "n": "Generators, compressors, pumps & mixers",
+     "web": false,
+     "brief": "Restraint: merge inverter and open-frame generators into Portable generator with types; drop repeated PREDATOR range. Trade plant (excavators, loaders, forklifts, dumpers) is out.",
+     "k": [
+      {
+       "n": "Portable generator",
+       "old": [
+        "k200",
+        "k201"
+       ]
+      },
+      {
+       "n": "Air compressor",
+       "old": [
+        "k202"
+       ]
+      },
+      {
+       "n": "Submersible pump",
+       "old": [
+        "k203"
+       ]
+      },
+      {
+       "n": "Surface pump",
+       "old": [
+        "k205"
+       ]
+      },
+      {
+       "n": "Transfer pump",
+       "old": [
+        "k204"
+       ]
+      },
+      {
+       "n": "Cement mixer",
+       "old": [
+        "k213"
+       ]
+      },
+      {
+       "n": "Plate compactor",
+       "old": [
+        "k212"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Tool storage",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "System compatibility",
+     "v": "stacks with the owner's battery-tool brand",
+     "w": "Modular systems (PACKOUT, TSTAK, Systainer, L-BOXX) lock only within their family."
+    }
+   ],
+   "s": [
+    {
+     "n": "Toolboxes, chests & bags",
+     "web": false,
+     "brief": "Restraint: modular systems stay as ranges on Portable tool box; trim others.",
+     "k": [
+      {
+       "n": "Portable tool box",
+       "old": [
+        "k214"
+       ]
+      },
+      {
+       "n": "Tool chest",
+       "old": [
+        "k215"
+       ]
+      },
+      {
+       "n": "Roller cabinet",
+       "old": [
+        "k216"
+       ]
+      },
+      {
+       "n": "Site box",
+       "old": [
+        "k217"
+       ]
+      },
+      {
+       "n": "Tool bag",
+       "old": [
+        "k218"
+       ]
+      },
+      {
+       "n": "Tool roll",
+       "old": [
+        "k219"
+       ]
+      },
+      {
+       "n": "Tool pouch",
+       "old": [
+        "k220"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Protective equipment (PPE)",
+   "mode": "mixed",
+   "note": "Receives the PPE kinds moved in from Clothing (A1); merge any duplicates with these kinds.",
+   "b": [
+    {
+     "m": "Certified protection level",
+     "v": "EN/ANSI rating (EN 166, EN 352 SNR, EN 149 FFP1–3, EN 381 class 0–3, ANSI Z89.1)",
+     "w": "The rating is what makes it PPE; compare comfort only within a rating."
+    }
+   ],
+   "s": [
+    {
+     "n": "Head, eye, ear & breathing protection",
+     "web": true,
+     "brief": "Archetypes: MSA V-Gard (hard-hat icon), Petzl Vertex climbing-style helmet, 3M Peltor Optime (earmuff icon) and ProTac, 3M Speedglas (originator of auto-darkening welding filters), Lincoln Viking, Miller Digital Infinity; 3M 6000/7500 half masks, 3M Aura; Uvex pheos, Bollé. Trim the Pyramex safety-glasses SKU list (16 models) to a few versions.",
+     "k": [
+      {
+       "n": "Safety glasses",
+       "old": [
+        "k241"
+       ]
+      },
+      {
+       "n": "Ear defenders",
+       "old": [
+        "k244"
+       ]
+      },
+      {
+       "n": "Earplugs",
+       "old": [
+        "k245"
+       ]
+      },
+      {
+       "n": "Respirator",
+       "old": [
+        "k243"
+       ]
+      },
+      {
+       "n": "Hard hat",
+       "old": [
+        "k239"
+       ]
+      },
+      {
+       "n": "Welding helmet",
+       "old": [
+        "k240"
+       ]
+      },
+      {
+       "n": "Face shield",
+       "old": [
+        "k242"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Protective clothing & gloves",
+     "web": true,
+     "brief": "Restraint on chainsaw trousers (trim the 13-model list; protection class as type), merge chaps as a type if thin. Add work gloves (cut and impact ratings, EN 388), knee pads and fall-arrest harness with a few market-covering makers. Incoming A1 kinds (hi-vis clothing, workwear) merge here.",
+     "k": [
+      {
+       "n": "Work gloves",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Hi-vis vest",
+       "old": [
+        "k236"
+       ]
+      },
+      {
+       "n": "Chainsaw trousers",
+       "old": [
+        "k237"
+       ]
+      },
+      {
+       "n": "Chainsaw chaps",
+       "old": [
+        "k238"
+       ]
+      },
+      {
+       "n": "Knee pads",
+       "old": [],
+       "brief": "NEW."
+      },
+      {
+       "n": "Fall-arrest harness",
+       "old": [],
+       "brief": "NEW."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "old": "k140",
+   "to": "E4",
+   "dept": "Ammunition & reloading"
+  },
+  {
+   "old": "k141",
+   "to": "E4",
+   "dept": "Ammunition & reloading"
+  },
+  {
+   "old": "k187",
+   "to": "G1",
+   "dept": "Vehicle care & detailing"
+  },
+  {
+   "old": "k189",
+   "to": "G1",
+   "dept": "Vehicle care & detailing"
+  },
+  {
+   "old": "k190",
+   "to": "G1",
+   "dept": "Vehicle care & detailing"
+  },
+  {
+   "old": "k191",
+   "to": "G1",
+   "dept": "Vehicle care & detailing"
+  },
+  {
+   "old": "k192",
+   "to": "G1",
+   "dept": "Vehicle care & detailing"
+  },
+  {
+   "old": "k193",
+   "to": "G1",
+   "dept": "Vehicle care & detailing"
+  },
+  {
+   "old": "k206",
+   "to": "C7",
+   "dept": "Loaders & earthmoving"
+  },
+  {
+   "old": "k207",
+   "to": "C7",
+   "dept": "Loaders & earthmoving"
+  },
+  {
+   "old": "k208",
+   "to": "C7",
+   "dept": "Loaders & earthmoving"
+  },
+  {
+   "old": "k209",
+   "to": "C7",
+   "dept": "Loaders & earthmoving"
+  }
+ ],
+ "drop": [
+  {
+   "old": "k156",
+   "why": "Coordinate measuring machine is institutional metrology plant (findings: trade plant out)."
+  },
+  {
+   "old": "k155",
+   "why": "Hardness tester is laboratory/trade equipment, not personally owned."
+  },
+  {
+   "old": "k210",
+   "why": "Forklift is trade plant (findings: trade plant out)."
+  },
+  {
+   "old": "k211",
+   "why": "Site dumper is construction plant."
+  },
+  {
+   "old": "k199",
+   "why": "Pallet truck is warehouse equipment."
+  },
+  {
+   "old": "k118",
+   "why": "Vertical panel saw is a trade/industrial machine."
+  },
+  {
+   "old": "k119",
+   "why": "Straight-line rip saw is an industrial sawmill machine."
+  }
+ ]
+}

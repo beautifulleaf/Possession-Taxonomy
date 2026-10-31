@@ -1,0 +1,118 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+SP=W+'Silverpoint'; TC=W+'Trois_crayons'; CH=W+'Charcoal_(art)'; AD=W+'Architectural_drawing'
+NG='https://www.nationalgallery.org.uk/paintings/french-an-academie-1'
+PA='https://nationalgallery.org.uk/paintings/glossary/pastel'
+MET='https://www.metmuseum.org/de/collections/612'
+GS='https://getty.edu/news/but-first-sketch'
+CP='https://cameo.mfa.org/wiki/Colored_pencil'
+RI='https://risdmuseum.org/art-design/collection/portrait-thomas-charles-naudet-29087'
+NGA='https://www.nga.gov/exhibitions/portraits-ingres'
+kinds=[
+ {"n":"Pencil drawing","a":"graphite drawing · lead-pencil drawing","d":"An image drawn with graphite pencils on paper.",
+  "t":["portrait","landscape","figure study","finished drawing","preparatory study","on wove paper","on tracing paper"],
+  "s":"https://www.1stdibs.com/art/drawings-watercolor-paintings/material/graphite/?page=35",
+  "x":[
+   {"n":"Graphite portrait drawing","a":"pencil portrait","d":"A small, finely finished likeness drawn in hard graphite on smooth paper, often given as a token of friendship.","mk":"Jean-Auguste-Dominique Ingres","y":"early 19th century","s":RI,
+    "v":[{"n":"Portrait of Thomas-Charles Naudet","mk":"Jean-Auguste-Dominique Ingres","y":"1806","d":"graphite on cream wove paper, 23.7 × 17.8 cm; made in Rome; RISD Museum"},
+         {"n":"Portraits by Ingres exhibition","mk":"Jean-Auguste-Dominique Ingres","y":"1999","d":"68 drawings shown with 38 paintings; National Gallery of Art, London National Gallery and the Met"}],
+    "dt":"sitter · size · signed and dated or not · paper (wove, tinted) · provenance"},
+   {"n":"Artist's sketchbook","a":"sketch book · carnet · artist's notebook","d":"A bound book of an artist's quick studies, notes and ideas, kept whole or broken up into single sheets.","mk":"","y":"Renaissance onward; most survivors late 18th – early 20th century","s":GS,
+    "v":[{"n":"Notebooks","mk":"Leonardo da Vinci","y":"","d":"early example of ideas recorded in bound volumes"},
+         {"n":"Architects' and designers' sketchbooks","mk":"","y":"","d":"held alongside artists' books at the Getty Research Institute"}],
+    "dt":"intact or disbound · number of leaves · media (pencil, ink, watercolour) · binding · attribution"}]},
+ {"n":"Charcoal drawing","a":"","d":"An image drawn with charcoal sticks or pencils, often fixed to stop smudging.",
+  "t":["vine charcoal","willow charcoal","compressed charcoal","charcoal pencil","with white chalk heightening","on toned paper"],
+  "s":"https://WWW.RISEART.COM/art/drawings/charcoal/realistic",
+  "x":[
+   {"n":"Charcoal sketch","a":"","d":"A loose study or sketch in vine or willow charcoal, quick to lay down and easy to rub out.","mk":"","y":"","s":CH,
+    "v":[{"n":"A charcoal sketch","mk":"Winslow Homer","y":"1883","d":""},
+         {"n":"Portrait of Artist's Wife","mk":"Henryk Grombecki","y":"1906","d":""},
+         {"n":"Drawing XIII","mk":"Georgia O'Keeffe","y":"1915","d":"abstract charcoal"}],
+    "dt":"size · paper · fixed or unfixed · condition (flaking, smudging)"},
+   {"n":"Contemporary large-scale charcoal drawing","a":"","d":"A finished work made with charcoal as the main medium by a living artist, often large and densely worked.","mk":"","y":"late 20th – 21st century","s":CH,
+    "v":[{"n":"Charcoal drawings","mk":"Robert Longo","y":"","d":""},
+         {"n":"Charcoal drawings for animated films","mk":"William Kentridge","y":"","d":""},
+         {"n":"Charcoal drawings","mk":"Joel Daniel Phillips","y":"","d":""}],
+    "dt":"size · framing and glazing · edition of related prints"}]},
+ {"n":"Chalk drawing","a":"sanguine · red chalk · black chalk · trois crayons","d":"An image drawn with natural red, black or white chalk, often on mid-tone paper.",
+  "t":["red chalk (sanguine)","black chalk","white chalk heightening","trois crayons","aux deux crayons","on blue paper","on tan or grey paper","counterproof"],
+  "s":TC,
+  "x":[
+   {"n":"Trois crayons study","a":"aux trois crayons","d":"A head, figure or drapery study combining red, black and white chalk on toned paper.","mk":"Peter Paul Rubens","y":"early 17th century; fullest in the 18th century","s":TC,
+    "v":[{"n":"Portrait of Isabella Brant","mk":"Peter Paul Rubens","y":"c. 1621","d":"British Museum"},
+         {"n":"Figure and drapery studies","mk":"Antoine Watteau","y":"c. 1716","d":""},
+         {"n":"Study of a Young Woman","mk":"François Boucher","y":"c. 1740","d":""}],
+    "dt":"paper colour · subject (head, figure, drapery) · attribution and school"},
+   {"n":"Old Master red chalk drawing","a":"sanguine drawing","d":"A study drawn in natural red chalk, a European workshop medium from the later 15th century.","mk":"","y":"later 15th century onward","s":TC,
+    "v":[{"n":"Portrait Study of Dorothea Meyer","mk":"Hans Holbein the Younger","y":"1516","d":"silverpoint, red chalk and black pencil on white-coated paper; Kunstmuseum Basel"}],
+    "dt":"subject · paper · counterproof or original · attribution"},
+   {"n":"Academic figure study","a":"académie · life study","d":"A study made from a live model in the studio, usually in chalk, as part of academic art training.","mk":"","y":"18th – mid-19th century, mainly France","s":NG,
+    "v":[{"n":"An Académie (back view of a male nude)","mk":"","y":"early 19th century","d":"French, oil on canvas, false 'david 1805' signature; National Gallery NG4061"},
+         {"n":"Aux deux crayons figure drawings","mk":"Pierre-Paul Prud'hon","y":"","d":"black and white chalk"}],
+    "dt":"pose (action pose, raised foot) · props · chalk or oil · school or studio"}]},
+ {"n":"Pastel drawing","a":"pastel · pastel painting","d":"An image made with sticks of pigment bound in gum (soft pastel) or oil and wax (oil pastel) on paper or a similar ground.",
+  "t":["soft pastel","hard pastel","oil pastel","portrait","landscape","on blue paper"],
+  "s":"https://www.1stdibs.com/buy/pastel-drawing-woman",
+  "x":[
+   {"n":"18th-century pastel portrait","a":"","d":"A portrait in pastel, favoured in the 18th century because it was quicker than oil painting.","mk":"Maurice Quentin de La Tour","y":"18th century","s":PA,
+    "dt":"sitter · size · original frame and glass · condition (flaking, mould)"},
+   {"n":"Impressionist pastel","a":"","d":"A late-19th-century pastel reviving the medium for modern subjects.","mk":"Edgar Degas","y":"late 19th century","s":PA,
+    "dt":"subject · paper · fixative · size"}]},
+ {"n":"Coloured-pencil drawing","a":"colored-pencil drawing","d":"An image drawn with pigmented, wax- or oil-bound pencils.",
+  "t":["wax-based","oil-based","water-soluble","layered","burnished","with graphite"],
+  "s":"https://www.1stdibs.com/buy/vintage-colored-pencils/",
+  "x":[
+   {"n":"Fine-art coloured-pencil drawing","a":"","d":"A finished drawing built up in many layers of artist-grade coloured pencil, a medium marketed to artists since the 1920s.","mk":"","y":"20th century onward","s":CP,
+    "dt":"size · paper · lightfastness of pencils · fixed or varnished"}]},
+ {"n":"Pen-and-ink drawing","a":"ink drawing","d":"An image drawn in ink with a pen, nib, brush or marker.",
+  "t":["pen and wash (ink and wash)","iron gall ink","brown ink","black ink","reed pen","quill","ballpoint","brush and ink","heightened with white"],
+  "s":"https://www.1stdibs.com/buy/pen-and-ink-drawings-with-color",
+  "x":[
+   {"n":"Old Master pen-and-wash drawing","a":"pen and brown ink with brown wash","d":"A composition drawn in pen and brown ink and modelled with brush washes, often over black chalk.","mk":"","y":"16th–17th century","s":MET,
+    "v":[{"n":"Samson Captured by the Philistines","mk":"Guercino","y":"1619","d":"iron gall ink with two hues of brown wash; Met"},
+         {"n":"Bacchanal","mk":"Nicolas Poussin","y":"c. 1635–36","d":"over faint black chalk; Met"},
+         {"n":"Cottage among Trees","mk":"Rembrandt","y":"c. 1650","d":"on paper washed with brown; Met"},
+         {"n":"Queen Esther Approaching the Palace of Ahasuerus","mk":"Claude Lorrain","y":"1658","d":"heightened with white; Met"}],
+    "dt":"ink (brown, iron gall) · wash colour · underdrawing · laid paper · attribution and school"},
+   {"n":"Renaissance pen study","a":"","d":"A figure or composition study in pen and brown ink, sometimes pricked or incised for transfer.","mk":"","y":"c. 1500–1620","s":MET,
+    "v":[{"n":"Two Satyrs in a Landscape","mk":"Titian","y":"c. 1505–10","d":"Met"},
+         {"n":"Lucretia","mk":"Raphael","y":"1508–10","d":"incised with a stylus for transfer; Met"},
+         {"n":"Anatomical Studies","mk":"Peter Paul Rubens","y":"c. 1600–05","d":"Met"}],
+    "dt":"recto/verso · incised or squared for transfer · attribution"},
+   {"n":"Modern pen drawing","a":"","d":"A 19th- or 20th-century drawing in reed pen, quill, ink or ballpoint.","mk":"","y":"19th–20th century","s":MET,
+    "v":[{"n":"Street in Saintes-Maries-de-la-Mer","mk":"Vincent van Gogh","y":"1888","d":"reed pen, quill and brown ink over graphite"},
+         {"n":"Standing Female Nude","mk":"Pablo Picasso","y":"1910","d":"pen and ink"},
+         {"n":"Studies of Diego","mk":"Alberto Giacometti","y":"1962","d":"red ballpoint and black ink"}],
+    "dt":"pen type · ink · size · signed or stamped"},
+   {"n":"Architectural drawing","a":"architectural rendering · presentation drawing","d":"A plan, elevation, section or perspective of a building, kept as art when finely drawn or by a noted architect.","mk":"","y":"","s":AD,
+    "v":[{"n":"Two-point interior perspective","mk":"Robert Adam","y":"1777","d":""},
+         {"n":"Panopticon drawings","mk":"Willey Reveley","y":"1791","d":"elevation, section and plan combined"},
+         {"n":"Bank of England as a ruin","mk":"J. M. Gandy","y":"","d":"cutaway perspective"},
+         {"n":"Chinese Bed, in Chippendale Drawings, Vol. I","mk":"Thomas Chippendale","y":"1754","d":"furniture design; pen and ink with grey wash; Met"}],
+    "dt":"plan · elevation · section · perspective · ink, wash or watercolour · architect"}]},
+ {"n":"Metalpoint drawing","a":"silverpoint · goldpoint · copperpoint","d":"A fine-line drawing made by dragging a metal stylus, usually silver, over a prepared ground.",
+  "t":["silverpoint","goldpoint","copperpoint","leadpoint","on gesso or bone-ash ground","on coated paper","on prepared vellum"],
+  "s":SP,
+  "x":[
+   {"n":"Renaissance silverpoint","a":"","d":"A precise silverpoint study on a prepared ground, a Flemish and Florentine workshop technique of the 15th–16th centuries.","mk":"","y":"15th–16th century","s":SP,
+    "v":[{"n":"Self-Portrait at the Age of 13","mk":"Albrecht Dürer","y":"1484","d":""},
+         {"n":"Portrait Study of Dorothea Meyer","mk":"Hans Holbein the Younger","y":"1516","d":"with red chalk; Kunstmuseum Basel"},
+         {"n":"Portrait of Saskia","mk":"Rembrandt","y":"1633","d":"silverpoint on prepared vellum; Berlin"}],
+    "dt":"ground colour · paper or vellum · tarnish tone · attribution"},
+   {"n":"Modern metalpoint","a":"metalpoint revival","d":"A metalpoint drawing from the 19th-century revival onward, sometimes mixing several metals.","mk":"","y":"late 19th century onward","s":SP,
+    "v":[{"n":"Portrait of Marcel Duchamp","mk":"Joseph Stella","y":"1921","d":"MoMA"},
+         {"n":"The Last of the Old Woodstock Inn","mk":"Ivan Albright","y":"1968","d":"silver, platinum, gold, copper and brass"},
+         {"n":"The Great Autobiographical Silverpoint Drawing","mk":"John Wilde","y":"1986","d":"about 38 × 91 in; Art Institute of Chicago"}],
+    "dt":"metals used · ground (gesso, claycoat, casein) · size"}]}]
+def B(n,c,kf,d,s,sig): return {"n":n,"c":c,"f":"","seg":"Artisan & independent","kf":kf,"d":d,"s":s,"sig":sig}
+brands=[
+ B("Jean-Auguste-Dominique Ingres","France","graphite portraits","French Neoclassical painter whose graphite portrait drawings, many made in Rome, are prized.",RI,["Graphite portrait drawing"]),
+ B("Peter Paul Rubens","Belgium","trois crayons","Flemish Baroque painter who pioneered and popularised the trois crayons technique.",TC,["Trois crayons study"]),
+ B("Maurice Quentin de La Tour","France","pastel portraits","French 18th-century portraitist, one of the most accomplished pastellists.",PA,["18th-century pastel portrait"]),
+ B("Edgar Degas","France","pastel","French painter and one of the most accomplished pastellists.",PA,["Impressionist pastel"]),
+]
+out={"kinds":kinds,"brands":brands,"traditions":[],
+ "notes":"All five old kinds kept; Chalk drawing and Metalpoint drawing added. Ink-and-wash is a 't' of Pen-and-ink. Archetypes: Old Master pen-and-wash, red chalk and trois crayons, academic figure study (in Chalk), architectural drawing (in Pen-and-ink), sketchbook (in Pencil). Only archetype originators go in the register; version artists are named in versions. No ULAN pages retrieved, so artist entries cite fetched museum/Wikipedia pages and leave founding year blank. Art UK sanguine story unreachable (DNS); Met English page rate-limited, German-language page of the same collection used. Pastel archetypes have no versions because the fetched glossary names no works. No traditions for this shelf (East Asian ink painting sits on the painting shelf)."}
+p='work/F2/shelves/01_00.json'; t=p+'.tmp'
+json.dump(out,open(t,'w'),ensure_ascii=False,indent=1); os.replace(t,p)

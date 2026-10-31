@@ -1,0 +1,62 @@
+{
+ "kinds": [
+  {
+   "n": "Toiletry & make-up bag",
+   "a": "toiletry bag · wash bag · washbag · dopp kit · make-up bag · cosmetic bag · vanity case",
+   "d": "Zipped case or pouch for carrying toiletries or make-up at home or when travelling.",
+   "t": [
+    "wash bag",
+    "hanging toiletry bag",
+    "dopp kit",
+    "make-up bag",
+    "train case"
+   ],
+   "s": "https://bagsmart.com/collections/toiletry",
+   "m": [
+    [
+     "Blast 4.5L Hanging Toiletry Bag",
+     "BAGSMART"
+    ],
+    [
+     "Paz 2L Dopp Kit",
+     "BAGSMART"
+    ]
+   ],
+   "r": [
+    [
+     "BAGSMART toiletry bags",
+     "BAGSMART"
+    ]
+   ]
+  },
+  {
+   "n": "Grooming mirror",
+   "a": "make-up mirror · vanity mirror · magnifying mirror · shaving mirror",
+   "d": "Lit or magnifying mirror made for close grooming; wall and dresser mirrors are in Decor.",
+   "t": [
+    "lit",
+    "magnifying",
+    "wall-mounted extending",
+    "travel/compact"
+   ],
+   "s": "https://www.manomano.co.uk/p/flexible-gooseneck-10x-magnifying-led-light-makeup-mirror-bathroom-91551599"
+  },
+  {
+   "n": "Bathroom scale",
+   "a": "body scale · weighing scale · smart scale",
+   "d": "Floor scale for weighing the body, sometimes also estimating body composition.",
+   "t": [
+    "mechanical",
+    "digital",
+    "smart/body-composition"
+   ],
+   "s": "https://salter.com/bathroom-scales/digital-scales/"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Merged 'Makeup bag' (k45, no models) into 'Toiletry bag' (k143) as 'Toiletry & make-up bag'. Bag styles (wash bag, hanging, dopp kit, make-up bag, train case) are now types, not kinds. Cut the BAGSMART list from 7 SKUs to 2, one per main style: hanging bag and dopp kit. The other 5 were near-identical SKUs from a single shop. The brand range stays. The brief asks for 3–5 brands, but other market-covering brands were not added because this pass allows no research. A sourced pass should add them, since BAGSMART is still the only maker listed. Grooming mirror got types taken from its existing definition (lit, magnifying) plus common mounting forms. It has no models, as the old data had none. Bathroom scale got the planned types (mechanical, digital, smart/body-composition) and no models for the same reason. All old source URLs are kept.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

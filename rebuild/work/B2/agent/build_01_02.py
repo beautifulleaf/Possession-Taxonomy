@@ -1,0 +1,92 @@
+import json, os
+W = "https://en.wikipedia.org/wiki/"
+HBC = W + "Hudson's_Bay_point_blanket"; PEN = W + "Pendleton_Woolen_Mills"
+kinds = [
+ {"n":"Blanket","a":"throw · wool blanket · bed blanket","d":"A woven, knitted or fleece cover without fill, for a bed or a sofa, made in many sizes and weights.",
+  "t":["wool","cashmere","cotton cellular","linen","fleece","knitted","weighted (glass, plastic or knitted fill)"],
+  "s":"https://www.ikea.com/qa/en/cat/bedding-tl004",
+  "x":[
+   {"n":"Hudson's Bay point blanket","a":"HBC blanket · multi-stripe blanket","d":"Heavy wool trade blanket with short woven 'points' marking its size, best known in the green, red, yellow and indigo multi-stripe.",
+    "mk":"Hudson's Bay Company","y":"1779","s":HBC,
+    "v":[{"n":"Multi-stripe ('Queen Anne' colours)","mk":"Hudson's Bay Company","y":"1798","d":"first documented four-colour order; modern stripe order standardised late 1800s"},
+         {"n":"Early's of Witney weaving","mk":"Early's of Witney","y":"","d":"woven for HBC for over a century until the mill closed in 2002"},
+         {"n":"John Atkinson weaving","mk":"A.W. Hainsworth","y":"","d":"current maker, under the John Atkinson sub-brand"},
+         {"n":"Pink stripe on white","mk":"Hudson's Bay Company","y":"2006","d":"made for the Canadian Breast Cancer Foundation"},
+         {"n":"Vancouver Olympic blue and green multi-stripe","mk":"Hudson's Bay Company","y":"2010","d":"Winter Olympics edition"},
+         {"n":"Caribou Throw","mk":"Hudson's Bay Company","y":"","d":"smaller, lower-cost wool throw"}],
+    "dt":"size 3.5, 4, 6, 8 points · multi-stripe or plain white, scarlet, green, blue with indigo end stripes"},
+   {"n":"Pendleton trade blanket","a":"Indian trade blanket · Pendleton robe","d":"Jacquard-woven wool robe with bold geometric patterns, made for Native American customers; fringed shawls for women.",
+    "mk":"Pendleton Woolen Mills","y":"1896","s":PEN,
+    "v":[{"n":"Square-corner Jacquard robes","mk":"Pendleton Woolen Mills","y":"1909","d":"Bishop family restart; new designs and colours, corners changed from round to square"},
+         {"n":"Fringed shawl","mk":"Pendleton Woolen Mills","y":"1896","d":"women's version"}],
+    "dt":"robe (men) or fringed shawl (women) · geometric patterns · tribal colour preferences researched by Joe Rawnsley"},
+   {"n":"Chief Joseph blanket","a":"","d":"Pendleton pattern with arrowhead motifs for the Four Sacred Directions, honouring the Nez Perce leader Chief Joseph.",
+    "mk":"Pendleton Woolen Mills","y":"1920s","s":"https://www.pendleton-usa.com/home-blankets/featured/chief-joseph-collection/",
+    "v":[{"n":"Crib blanket","mk":"Pendleton Woolen Mills","y":"","d":"baby size"},{"n":"Shawl","mk":"Pendleton Woolen Mills","y":"","d":""}],
+    "dt":"arrowhead motifs · colourways · full, crib and shawl sizes"},
+   {"n":"Glacier National Park blanket","a":"Glacier Park stripe","d":"Pendleton's multi-stripe wool blanket adapting the Hudson's Bay candy-stripe style.",
+    "mk":"Pendleton Woolen Mills","y":"","s":PEN,"v":[],"dt":"multi-stripe colours · bed sizes"},
+   {"n":"Welsh tapestry blanket","a":"carthen · Welsh double-weave blanket","d":"Reversible double-cloth wool blanket from Welsh woollen mills, its geometric pattern showing in reversed colours on each side.",
+    "mk":"","y":"19th century","s":W+"Trefriw_Woollen_Mills",
+    "v":[{"n":"Trefriw tapestry bedspread","mk":"Trefriw Woollen Mills","y":"c. 1825","d":"mill in Conwy weaving double-weave blankets and travelling rugs"},
+         {"n":"Melin Tregwynt blanket","mk":"Melin Tregwynt","y":"1819","d":"Pembrokeshire mill (site dated 1819), weaving blankets and cushions"}],
+    "dt":"double cloth · colourway · single, double, bedspread and throw sizes · vintage or new"},
+   {"n":"Caernarfon blanket","a":"","d":"Welsh woven blanket with jacquard centre panels picturing Caernarfon Castle, inside a plain border.",
+    "mk":"","y":"","s":"https://museum.wales/collections/online/object/9e7c78ff-754d-397e-9192-664bce838bc1?page=5",
+    "v":[{"n":"Trefriw reproduction","mk":"Trefriw Woollen Mills","y":"1969","d":"reproduction of originally hand-woven cloth; blue and white border"}],
+    "dt":"jacquard centre panels · border colour"},
+   {"n":"Saltillo sarape","a":"serape · zarape","d":"Long fringed Mexican woollen blanket-shawl, classically a dark ground with bands of bright colour, from Saltillo, Coahuila.",
+    "mk":"","y":"c. 1825 (classic)","s":W+"Serape",
+    "v":[{"n":"Classic Saltillo","mk":"","y":"c. 1825","d":"reference example of the classic style"},
+         {"n":"Maximilian sarape","mk":"","y":"","d":"European flowers, animals and architecture mixed with traditional patterns"},
+         {"n":"Highland sarape","mk":"","y":"","d":"two-tone natural sheep colours"}],
+    "dt":"handwoven or machine yarn · natural or synthetic dyes · fringed ends"},
+   {"n":"Andean manta","a":"lliqlla","d":"Square Andean cloth of two backstrap-woven halves joined by a decorated central seam, worn as a shawl and used to carry loads.",
+    "mk":"","y":"","s":"https://threadsofperu.com/blogs/blog/product-feature-the-manta-an-andean-blanket",
+    "v":[{"n":"Discontinuous-warp manta","mk":"","y":"","d":"rare technique, now found in one Cusco-region community"}],
+    "dt":"woven symbols (pallay) · seam stitching · sheep or alpaca wool"}]},
+ {"n":"Electric blanket","a":"heated throw · heated underblanket · electric mattress pad","d":"A blanket, mattress cover or throw with built-in heating wires and a controller.",
+  "t":["underblanket (heated mattress pad)","overblanket","heated throw","dual control","low-voltage"],
+  "s":W+"Electric_blanket",
+  "m":[["Yours & Mine Dual Control","Silentnight"],["Comfort Control Electric Blanket","Silentnight"],
+       ["Snowed In Organic Cotton Electric Mattress Protector","Dreamland"],["Hunker Down Scandi Sherpa","Dreamland"],["Luxury Heated Throw","Dreamland"],
+       ["Monogram Komfort Heated Mattress","Beurer"],["Fully Fitted Fleece","Homefront"],["Intelligent Heated Underblanket","Snuggledown"],
+       ["RHEDB8002 Double","Russell Hobbs"],["Sleep Perfect Wool Fleece Electric Blanket","Sunbeam"],["Sleep Perfect Antibacterial Electric Blanket","Sunbeam"],
+       ["Feel Perfect Faux Fur Heated Throw","Sunbeam"]]},
+ {"n":"Swaddle","a":"swaddling cloth · swaddle blanket · receiving blanket","d":"Soft fabric, square or shaped, made to wrap a baby snugly.",
+  "t":["muslin wrap","receiving blanket","winged swaddle (fastened)","sleep sack"],"tg":["baby"],
+  "s":"https://swaddledesigns.com/products/muslin-swaddle-blankets-set-of-4-pure-white-muslin-white"},
+ {"n":"Kotatsu futon","a":"kotatsu cover · kotatsu-gake","d":"A quilted cover draped over a heated low table (kotatsu) to hold its warmth in.",
+  "t":["shitagake (under-cover)","kotatsu-gake (top cover)","kotatsushiki (floor mat)"],
+  "s":"https://www.nitori-net.jp/ec/keyword/%E3%81%93%E3%81%9F%E3%81%A4%E3%80%80%E5%B8%83%E5%9B%A3%E3%80%80%E3%82%AB%E3%83%90%E3%83%BC%E3%80%80%E9%95%B7%E6%96%B9%E5%BD%A2%E3%80%80%E3%81%8A%E3%81%97%E3%82%83%E3%82%8C/cat1_Kotatu/cat2_KotatuOtherKakefutonc/"}]
+B = lambda **k: k
+brands = [
+ B(n="Hudson's Bay Company",c="Canada",f="1670",seg="Heritage department store / trade blankets",d="Fur-trading company whose point blanket has been sold since 1779; brand rights bought by Canadian Tire in 2025.",lines=["Point blankets","Hudson's Bay Stripes"],sig=["Hudson's Bay point blanket"],rel=["Pendleton Woolen Mills","A.W. Hainsworth","Early's of Witney"],s=HBC),
+ B(n="Pendleton Woolen Mills",c="United States",f="1909",seg="Heritage wool mill",d="Oregon mill making Jacquard trade blankets since 1896, incorporated under the Bishop family in 1909.",sig=["Pendleton trade blanket","Chief Joseph blanket","Glacier National Park blanket"],rel=["Hudson's Bay Company"],s=PEN),
+ B(n="Early's of Witney",c="United Kingdom",seg="Blanket mill (closed)",d="Witney blanket maker that wove Hudson's Bay point blankets for over a century until closing in 2002.",sig=["Hudson's Bay point blanket"],rel=["Hudson's Bay Company"],s=HBC),
+ B(n="A.W. Hainsworth",c="United Kingdom",seg="Wool cloth mill",d="Yorkshire cloth maker whose John Atkinson sub-brand now weaves Hudson's Bay point blankets.",lines=["John Atkinson"],sig=["Hudson's Bay point blanket"],rel=["Hudson's Bay Company"],s=HBC),
+ B(n="Trefriw Woollen Mills",c="United Kingdom",f="c. 1825",seg="Welsh woollen mill",d="Conwy mill weaving traditional double-weave tapestry bedspreads, tweeds and travelling rugs.",sig=["Welsh tapestry blanket","Caernarfon blanket"],rel=["Melin Tregwynt"],s=W+"Trefriw_Woollen_Mills"),
+ B(n="Melin Tregwynt",c="United Kingdom",f="1819",seg="Welsh woollen mill",d="Pembrokeshire mill weaving blankets, cushions and accessories on a site dated 1819.",sig=["Welsh tapestry blanket"],rel=["Trefriw Woollen Mills"],s=W+"Melin_Tregwynt"),
+ B(n="Faribault Woolen Mill",c="United States",f="1865",seg="Heritage wool mill",d="Minnesota mill known for washable wool and thermal weave blankets, and army blankets in both world wars.",s=W+"Faribault_Woolen_Mill_Company"),
+ B(n="Johnstons of Elgin",c="United Kingdom",f="1797",seg="Scottish woollen and cashmere mill",d="Elgin weaving mill and Hawick knitting mill making blankets, scarves and cloth.",s=W+"Johnstons_of_Elgin"),
+ B(n="Avoca",c="Ireland",f="1723",seg="Irish weaving mill and retailer",d="County Wicklow handweavers selling throws and rugs worldwide; owned by Aramark since 2015.",s=W+"Avoca_Handweavers"),
+ B(n="Klippan Yllefabrik",c="Sweden",f="1879",seg="Wool throw maker",d="Swedish wool mill making about 600,000 throws a year, with designs by Lisa Larsson, Olle Eksell and Tove Jansson.",s="https://scanmagazine.co.uk/klippan-yllefabrik-145-years-of-experience-in-wool-integrated-with-modern-design/"),
+ B(n="Lapuan Kankurit",c="Finland",f="1973",seg="Weaving mill",d="Family weaving mill in Lapua making wool and linen blankets, towels and table linen.",s="https://lapuankankurit.fi/our-history"),
+ B(n="Silentnight",c="United Kingdom",seg="Mass-market bedding",d="British bed and bedding brand; its Comfort Control and Yours & Mine underblankets are common review picks.",s="https://www.expertreviews.co.uk/bedroom/1406299/best-electric-blanket"),
+ B(n="Dreamland",c="United Kingdom",seg="Heated bedding",d="British maker of electric blankets, heated mattress protectors and heated throws.",s="https://www.which.co.uk/reviews/mattresses/article/best-electric-blankets-avrLG0b2886v"),
+ B(n="Beurer",c="Germany",f="1919",seg="Health and wellbeing appliances",d="German maker of heating pads, electric blankets and health devices.",s="knowledge"),
+ B(n="Sunbeam",c="United States",seg="Small appliances",d="Appliance brand selling electric blankets and heated throws, strong in North America and Australasia.",s="knowledge"),
+]
+trads = [
+ {"n":"Welsh tapestry weaving","g":"Textiles & rugs","r":"Wales","p":"19th century – present","d":"Welsh woollen mills weaving reversible double-cloth tapestry blankets and bedspreads.","tech":"double-cloth (double-weave) weaving, jacquard panels","mat":"wool","forms":["Welsh tapestry blanket","Caernarfon blanket"],"ctr":["Trefriw Woollen Mills","Melin Tregwynt"],"auth":"Pattern reversed in colour on each side; mill label; older pieces often two narrow widths seamed down the centre.","s":W+"Trefriw_Woollen_Mills"},
+ {"n":"Hudson's Bay point blanket","g":"Textiles & rugs","r":"England (woven) · Canada (sold)","p":"1779 – present","d":"English-woven wool trade blankets sold by the Hudson's Bay Company, sized by woven points.","tech":"heavy milled wool weaving with woven point marks","mat":"wool","forms":["Hudson's Bay point blanket"],"ctr":["Early's of Witney","John Atkinson (A.W. Hainsworth)"],"auth":"Points woven into the edge show size, not price; label with maker and points.","s":HBC},
+ {"n":"Native American trade blanket","g":"Textiles & rugs","r":"United States (Pacific Northwest, Southwest)","p":"1896 – present","d":"Jacquard-woven wool robes and shawls made by mills for Native American customers, with patterns researched from tribal preferences.","tech":"Jacquard weaving","mat":"wool","forms":["Pendleton trade blanket","Chief Joseph blanket"],"ctr":["Pendleton Woolen Mills"],"auth":"Mill label; corner shape (round before 1909 at Pendleton, square after).","s":PEN},
+ {"n":"Saltillo sarape weaving","g":"Textiles & rugs","r":"Mexico (Saltillo, Coahuila; Tlaxcala)","p":"17th century – present","d":"Mexican weaving of long fringed sarapes brought north by Tlaxcalan weavers.","tech":"handloom weaving","mat":"wool; machine yarn and synthetic dyes from the mid-1850s","forms":["Saltillo sarape"],"ctr":["Saltillo","Teocaltiche"],"auth":"Handspun yarn and natural dyes point to pieces before the mid-1850s.","s":W+"Serape"},
+ {"n":"Andean manta weaving","g":"Textiles & rugs","r":"Andes (Cusco region)","p":"traditional – present","d":"Backstrap-loom weaving of two-panel mantas with woven symbols, worn and used as carrying cloths.","tech":"backstrap loom, warp-faced pallay patterning, discontinuous warp","mat":"sheep or alpaca wool","forms":["Andean manta"],"ctr":["Cusco region communities"],"auth":"Two halves joined by a full-length decorated central seam.","s":"https://threadsofperu.com/blogs/blog/product-feature-the-manta-an-andean-blanket"},
+]
+notes = ("All four planned kinds kept. Weighted blanket kept as a type of Blanket, not a kind. Heritage mills without a named pattern on a retrieved page (Faribault, Klippan, Lapuan Kankurit, Avoca, Johnstons of Elgin) are brand-register entries only (no archetypes or ranges). "
+ "Left out for lack of a retrievable source: Pendleton pattern years beyond Chief Joseph (1920s), Klippan/Lapuan named designs, Welsh-blanket Wikipedia article (404), Navajo chief blankets (belong with Navajo rug on the Rugs shelf). Andean manta also overlaps Carry cloth (Towels shelf). "
+ "Electric blanket models trimmed to 12 from Expert Reviews / Which? lists plus old Sunbeam entries; Which? Best Buy winners not visible (members only).")
+out = {"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+p = "work/B2/shelves/01_02.json"; tmp = p + ".tmp"
+json.dump(out, open(tmp,"w"), ensure_ascii=False, indent=1); os.replace(tmp, p)

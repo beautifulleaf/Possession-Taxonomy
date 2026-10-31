@@ -1,0 +1,61 @@
+import sys; sys.path.insert(0, '/home/user/Possession-Taxonomy/rebuild/work/F3/agent')
+from hb import *
+SOV = WP + "Orders,_decorations,_and_medals_of_the_Soviet_Union"
+JAP = WP + "Orders,_decorations,_and_medals_of_Japan"
+fr = K("French orders and decorations", "Orders, decorations and medals of France, from the Legion of Honour to the war crosses.", WP + "Legion_of_Honour",
+  t=["regime type (Empire, Restoration, Republic)", "degree", "citation device", "miniature"],
+  x=[X("Legion of Honour", "France's highest order, founded by Napoleon, in five degrees on a red ribbon.", WP + "Legion_of_Honour", y="1802", a="Légion d'honneur",
+       v=[("First Empire type", "", "1804–1814", "Napoleon obverse, imperial eagle"), ("Restoration type", "", "1814–1830", "Henry IV, fleurs-de-lis"),
+          ("July Monarchy type", "", "1830–1848", "Henry IV, crossed tricolours"), ("Second Republic type", "", "1848–1852", "Napoleon as First Consul"),
+          ("Second Empire type", "", "1852–1870", "Napoleon I, imperial eagle"), ("Third Republic type", "", "1870–1940", "Marianne, dated 1870"),
+          ("Fourth and Fifth Republic type", "", "1946–", "star in place of the date")],
+       dt="degree: Chevalier, Officier, Commandeur, Grand officier, Grand-croix · gold or silver"),
+     X("Médaille militaire", "Military medal for other ranks and for senior commanders, 'Valeur et Discipline'.", WP + "M%C3%A9daille_militaire", y="1852",
+       v=[("Second Empire", "", "1852–1870", "Louis-Napoléon profile, eagle"), ("Third Republic", "", "1870–1940", "dated 1870"), ("Fourth Republic", "", "1946–1958", "one star"),
+          ("Fifth Republic", "", "1958–", "three stars")], dt="yellow ribbon with green edges"),
+     X("Croix de guerre 1914–1918", "Cross for French and Allied soldiers cited for valour in the First World War.", WP + "Croix_de_guerre_1914%E2%80%931918_(France)", y="1915",
+       v=[("1914–1915 reverse", "", "1915", "Paul-Albert Bartholomé design"), ("1914–1916 reverse", "", "1916", ""), ("1914–1917 reverse", "", "1917", ""), ("1914–1918 reverse", "", "1918", "")],
+       dt="citation devices: bronze, silver, silver-gilt star; bronze or silver palm")])
+de = K("German and Prussian orders and decorations", "Orders and decorations of Prussia, the German Empire and later German states.", WP + "Iron_Cross",
+  t=["class", "with swords", "with oak leaves", "miniature"],
+  x=[X("Iron Cross", "Black cross for military merit, reissued in each war and dated by year of institution.", WP + "Iron_Cross", y="1813", a="Eisernes Kreuz · EK",
+       v=[("1813 Iron Cross", "", "1813", "Frederick William III; 'FW' cypher"), ("1870 Iron Cross", "", "1870", "Wilhelm I"),
+          ("1914 Iron Cross", "", "1914", "2nd class, 1st class, Grand Cross"), ("Star of the Grand Cross (Blücher Star)", "", "", "two awards: Blücher, Hindenburg"),
+          ("1939 Iron Cross", "", "1939", "with Knight's Cross in five degrees"), ("1957 replacement", "", "1957", "oak leaves replace the swastika")],
+       dt="dated year · class · ribbon or pin-back"),
+     X("Pour le Mérite", "Prussia's highest order of merit, the 'Blue Max', famous through First World War aviators.", WP + "Pour_le_M%C3%A9rite", y="1740", a="Blue Max · Blauer Max",
+       v=[("Military class", "", "1740–1918", ""), ("With oak leaves", "", "1813", "higher distinction"), ("Civil class", "", "1842", "still awarded")]),
+     X("Order of the Red Eagle", "Prussian order second only to the Black Eagle, in four classes with a Grand Cross.", WP + "Order_of_the_Red_Eagle", y="1792", a="Roter Adlerorden",
+       v=[("Ordre de la Sincérité", "", "1705", "Bayreuth predecessor"), ("Prussian royal order", "", "1792", ""), ("With swords", "", "1848", "military awards"),
+          ("Grand Cross", "", "1861", ""), ("Medal of the order", "", "", "for enlisted men")], dt="class 1–4 · swords · oak leaves")])
+ru = K("Russian and Soviet orders and medals", "Orders and medals of the Russian Empire, the Soviet Union and the Russian Federation.", SOV,
+  t=["screwback", "ribbon suspension", "class", "with document (orden book)"],
+  x=[X("Order of Saint George", "The highest Russian military order, in four classes, on an orange and black ribbon.", WP + "Order_of_Saint_George_(Russia)", y="1769",
+       v=[("Imperial order", "", "1769", "Catherine the Great"), ("White movement awards", "", "to 1921", ""), ("Russian Federation order", "", "2000", "statute; revived by 1992 decree")],
+       dt="class 4 to 1 · cross and star"),
+     X("Order of Lenin", "The highest Soviet civil decoration, with a portrait of Lenin.", WP + "Order_of_Lenin", y="1930",
+       v=[("Type 1", "", "1930–1932", "silver, screwback"), ("Type 2", "", "1934–1936", "solid gold"), ("Type 3", "", "1936–1943", "platinum portrait, screwback"),
+          ("Type 4", "", "1943–1991", "ribbon suspension")], dt="serial number · type"),
+     X("Hero of the Soviet Union", "The highest Soviet title, marked by the Gold Star medal with the Order of Lenin.", WP + "Hero_of_the_Soviet_Union", y="1934",
+       v=[("Title with Order of Lenin", "", "1934", ""), ("Gold Star medal", "", "1939", ""), ("Double, triple and quadruple heroes", "", "", "Zhukov and Brezhnev four times")]),
+     X("Order of the Red Star", "Soviet military order instituted in 1930.", SOV, y="1930", v=[("Order of the Red Star", "", "1930", "")]),
+     X("Order of the Patriotic War", "Soviet order for Second World War combat merit, in two classes.", SOV, y="1942",
+       v=[("1st class", "", "1942", ""), ("2nd class", "", "1942", "")])],
+  m=[["Order of the Red Banner", ""], ["Order of Glory", ""], ["Order of Victory", ""], ["Medal 'For Courage'", ""]])
+jp = K("Japanese orders and decorations", "Orders and decorations of the Empire and State of Japan.", JAP, t=["class", "with case", "breast or neck badge"],
+  x=[X("Order of the Rising Sun", "Japan's first national order, a red sun disc with white rays.", WP + "Order_of_the_Rising_Sun", y="1875", a="Kyokujitsu-shō",
+       v=[("Eight-class order", "", "1875–2003", "1st to 8th class"), ("Six-class order", "", "2003", "7th and 8th classes abolished; Paulownia Flowers split off")]),
+     X("Order of the Golden Kite", "Imperial Japanese military order for bravery or command in battle, abolished in 1947.", WP + "Order_of_the_Golden_Kite", y="1890",
+       v=[("1st class", "", "", "41 awarded"), ("2nd class", "", "", "201 awarded"), ("6th and 7th classes", "", "", "most of 1,067,492 awards")]),
+     X("Order of the Sacred Treasure", "Japanese order for long and meritorious service.", WP + "Order_of_the_Sacred_Treasure", y="1888",
+       v=[("Eight-class order", "", "1888–2003", ""), ("Six-class order", "", "2003", "Grand Cordon to Silver Rays")])],
+  m=[["Order of the Chrysanthemum", ""], ["Order of the Precious Crown", ""], ["Order of Culture", ""]])
+oth = K("Orders of chivalry of other states", "Notable orders of chivalry of other states and dynasties.", WP + "Order_of_the_Golden_Fleece", a="foreign orders",
+  x=[X("Order of the Golden Fleece", "Burgundian order of chivalry, now in Spanish and Austrian branches; badge is a sheepskin hung from a collar of firesteels.",
+       WP + "Order_of_the_Golden_Fleece", y="1430",
+       v=[("Burgundian order", "", "1430", "Philip the Good"), ("Spanish branch", "", "", "solid gold collar"), ("Austrian branch", "", "", "treasure in Vienna")]),
+     X("Order of the Elephant", "Denmark's highest order, a single class; badge is an enamelled elephant with a tower.", WP + "Order_of_the_Elephant", y="1693",
+       v=[("Order of the Elephant", "", "1693", "Christian V")], dt="collar · badge · star · light-blue sash")])
+save("06_02", [fr, de, ru, jp, oth], [], [],
+ "All five kinds are new; kind sources are the main Wikipedia hub or lead article for each state. 3–6 archetypes per kind from retrieved Wikipedia pages; other orders named on the hub pages kept as flat entries. "
+ "Planned kind 'Other national orders' renamed 'Orders of chivalry of other states' because 'Other …' catch-all names are not allowed. Issuers are states, so no brand entries.")

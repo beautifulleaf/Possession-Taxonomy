@@ -1,0 +1,16 @@
+import sys; sys.path.insert(0,'work/I2/agent')
+from put import put
+U='https://en.wikipedia.org/wiki/'
+A="https://www.orion.de/katalog/sextoys/anal-toys"
+kinds=[
+{"n":"Dildo","a":"crystal dildo · anal probe","d":"Solid insertable made for penetration; variants differ by material and by realistic or non-realistic shape.","t":["Silicone","Glass (borosilicate)","Stainless steel","Realistic","Non-realistic","Suction-cup base","Harness-compatible","Anal (slim, flared base)"],"m":[["Tantus silicone range","Tantus"],["Fun Factory silicone range","Fun Factory"]],"s":A},
+{"n":"Double-ended dildo","a":"","d":"Dildo with an insertable end at each side, for two users or two openings.","t":["Flexible","Strap-on version"],"m":[["Sex Talent","You2Toys"]],"s":A},
+{"n":"Butt plug","a":"anal plug · 肛塞","d":"Tapered insertable with a narrow neck and a flared base, made to be held in the anus.","t":["Silicone","Glass","Steel","Jewelled base","Vibrating"],"m":[["The One Anal Plug Set","The One"]],"r":[["The One","The One"]],"s":A},
+{"n":"Prostate massager","a":"","d":"Curved anal insertable shaped to press on the prostate, often with a perineum arm.","t":["Hands-free","Powered","Silicone"],"s":A},
+{"n":"Anal beads","a":"拉珠","d":"Three or more beads in a row on a cord or flexible stem, with a retrieval handle or ring.","t":["Silicone","Cord","Graduated"],"s":A},
+{"n":"Kegel balls","a":"Ben Wa balls · 縮陰球 · Liebeskugeln","d":"Weighted balls held in the vagina, with or without a retrieval cord; with a motor they stay in this group.","t":["Metal-covered","Silicone-coated","Linked on a cord","Duotone (ball in ball)","Vibrating"],"m":[["Inner Goddess Silver Pleasure Balls","Fifty Shades of Grey"],["ELORIN","beau coeur"]],"r":[["Fifty Shades of Grey","Lovehoney"]],"s":"https://www.orion.de/katalog/sextoys/liebeskugeln"},
+{"n":"Dilator","a":"","d":"Graduated insertable sold as a sex toy. One whose maker states a medical purpose is in Health, Medical & Mobility.","t":["Graduated set","Silicone"],"s":"https://www.orion.de/katalog/sextoys/dilatoren"},
+{"n":"Urethral sound","a":"","d":"Smooth rod made to be inserted into the urethra for sexual stimulation. One made to carry a current is an electro-stimulation kit; one with a stated medical purpose is in Health, Medical & Mobility.","t":["Dittel shape","Hegar shape","Pratt shape","Van Buren shape","Stainless steel"],"s":"https://painfulpleasures.com/products/13-piece-sounding-wands-urethra-play-sound-wand-set-dittel-sounds"},
+]
+brands=[{"n":"Tantus","c":"United States","f":"1998","seg":"Premium","kf":"silicone","d":"Sparks, Nevada maker of medical-grade silicone toys, founded by Kris Victor and Metis Black; sold to a private equity firm in 2021.","s":U+"Tantus"}]
+put('H3','03_00',{"kinds":kinds,"brands":brands,"traditions":[],"notes":"Dildos: 'Other dildos' type dropped; material and shape are types (silicone, glass, steel, suction base, harness-compatible), with the material list backed by the Dildo and Sex toy pages. Anal dildo merged in as a type. Adam & Eve Kegel Training Set dropped. Medical sound names (Dittel, Hegar, Pratt, Van Buren) turned from models into shape types. Leaders Tantus (retrieved) and Fun Factory (retrieved earlier) shown as ranges; Njoy, Icicles, b-Vibe, Aneros, LELO Luna Beads have no retrieved page, so omitted. Neutral wording."})

@@ -1,0 +1,379 @@
+import json, os
+W = 'https://en.wikipedia.org/wiki/'
+def X(n, mk, y, s, d, v=(), a='', dt=''):
+    return {"n": n, "a": a, "d": d, "mk": mk, "y": y, "s": s,
+            "v": [dict(zip(("n", "mk", "y", "d"), t)) for t in v], "dt": dt}
+
+kinds = [
+ {"n": "Standard motorcycle", "a": "naked motorcycle · roadster · streetfighter · modern classic",
+  "d": "General-purpose motorcycle with an upright riding position and little or no fairing.",
+  "t": ["naked", "retro / modern classic", "streetfighter", "learner-legal (A2)"],
+  "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
+  "x": [
+   X("Honda CB750", "Honda", "1969", W + "Honda_CB750",
+     "Air-cooled inline-four roadster regarded as the first motorcycle called a superbike.", [
+      ("CB750 Four K0", "Honda", "1969", "original SOHC model"),
+      ("CB750F", "Honda", "1975", "SOHC F series, 1975–1978"),
+      ("CB750A Hondamatic", "Honda", "1976", "semi-automatic"),
+      ("CB750K / CB750F DOHC", "Honda", "1979", "DOHC generation"),
+      ("Nighthawk 750", "Honda", "1991", "RC38, 1991–2003"),
+      ("CB750 Hornet", "Honda", "2023", "755 cc parallel twin, not a direct successor")],
+     a="CB750 Four", dt="SOHC or DOHC four · K, F and Nighthawk lines · paint schemes"),
+   X("Kawasaki Z1", "Kawasaki", "1972", W + "Kawasaki_Z1",
+     "903 cc DOHC inline-four that defined the big Japanese four of the 1970s.", [
+      ("Z1", "Kawasaki", "1972", "900 Super Four"),
+      ("Z1-B", "Kawasaki", "1975", "more power, stiffer frame"),
+      ("Z900 / KZ900", "Kawasaki", "1976", "replaced the Z1"),
+      ("Z1000 / KZ1000", "Kawasaki", "1977", ""),
+      ("Z900RS", "Kawasaki", "2018", "modern tribute to the Z1")],
+     a="900 Super Four", dt="Z1 to Z1000 · original paint (candy tone) · retro tribute"),
+   X("Triumph Bonneville", "Triumph", "1959", W + "Triumph_Bonneville",
+     "British parallel-twin roadster, built at Meriden and revived at Hinckley in 2001.", [
+      ("T120", "Triumph", "1959", "650 cc, Meriden"),
+      ("T140", "Triumph", "1973", "750 cc class, to 1983"),
+      ("Bonneville (Hinckley)", "Triumph", "2001", "new 790 cc design"),
+      ("Bonneville T100", "Triumph", "2005", "865 cc up-spec"),
+      ("Bonneville T120 1200", "Triumph", "2016", "liquid-cooled 1200 cc"),
+      ("Bonneville T100 900", "Triumph", "2017", "liquid-cooled 900 cc")],
+     dt="Meriden or Hinckley · 650–1200 cc · spoked or cast wheels"),
+   X("Ducati Monster", "Ducati", "early 1990s", W + "Ducati_Monster",
+     "Naked bike by Miguel Angel Galluzzi using a trellis frame and Ducati V-twin.", [
+      ("M900", "Ducati", "", "first model"),
+      ("M600", "Ducati", "1994", ""),
+      ("M750", "Ducati", "1996", ""),
+      ("S4", "Ducati", "2001", "liquid-cooled four-valve Superbike engine"),
+      ("696", "Ducati", "2008", ""),
+      ("1200", "Ducati", "2013", "1200 and 1200 S"),
+      ("821", "Ducati", "2014", ""),
+      ("Monster (937)", "Ducati", "2021", "")],
+     dt="air- or liquid-cooled · 600–1200 cc · trellis frame"),
+   X("Royal Enfield Bullet", "Royal Enfield", "1932", W + "Royal_Enfield_Bullet",
+     "Single-cylinder roadster first built in Redditch and in production in India since 1955.", [
+      ("Bullet 350", "Royal Enfield", "1932", "original 350 cc"),
+      ("Bullet 500", "Royal Enfield", "1953", "499 cc, about 1953"),
+      ("Enfield India Bullet", "Royal Enfield", "1955", "built under licence in Chennai"),
+      ("Classic", "Royal Enfield", "2007", "UCE engine"),
+      ("Bullet 350 (new generation)", "Royal Enfield", "2023", "")],
+     dt="350 or 500 cc single · UK or Indian build · paint and pinstriping"),
+   X("Vincent Black Shadow", "Vincent", "1948", W + "Vincent_Black_Shadow",
+     "998 cc V-twin from Stevenage, announced at 125 mph; about 1,774 built.", [
+      ("Series B", "Vincent", "1948", "Brampton girder fork"),
+      ("Series C", "Vincent", "", "Girdraulic fork"),
+      ("Series D", "Vincent", "1955", "final version"),
+      ("Black Lightning", "Vincent", "", "racing derivative")],
+     dt="Series B, C, D · black engine finish · matching numbers"),
+   X("BMW R nineT", "BMW Motorrad", "2014", W + "BMW_R_nineT",
+     "1,170 cc air/oil-cooled boxer roadster built as a platform for custom-style variants.", [
+      ("R nineT", "BMW Motorrad", "2014", ""),
+      ("R nineT Pure", "BMW Motorrad", "", "classic roadster"),
+      ("R nineT Urban G/S", "BMW Motorrad", "", "styled after the R80G/S"),
+      ("R 12 nineT", "BMW Motorrad", "2024", "successor")],
+     dt="boxer twin · variant styling · spoked or cast wheels")],
+  "m": [["Streetfighter V2", "Ducati"], ["Z900", "Kawasaki"], ["GSX-8S", "Suzuki"], ["GSX-S 750", "Suzuki"],
+        ["MT-03", "Yamaha Motor"], ["MT-07", "Yamaha Motor"], ["MT-09", "Yamaha Motor"]]},
+
+ {"n": "Sport motorcycle", "a": "sportbike · superbike · supersport",
+  "d": "Motorcycle built for speed and handling, with a forward-leaning position and full fairing.",
+  "t": ["supersport (600–750 cc)", "superbike (1000 cc class)", "hypersport", "sport-touring", "lightweight sport"],
+  "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
+  "x": [
+   X("Honda CBR900RR Fireblade", "Honda", "1992", W + "Honda_CBR900RR",
+     "Tadao Baba's light, compact superbike that set the template for the 1990s litre sport bike.", [
+      ("CBR900RR (SC28)", "Honda", "1992", ""),
+      ("CBR919RR (SC33)", "Honda", "1996", ""),
+      ("CBR929RR (SC44)", "Honda", "2000", ""),
+      ("CBR954RR (SC50)", "Honda", "2002", ""),
+      ("CBR1000RR", "Honda", "2004", "successor")],
+     a="Fireblade", dt="generation codes SC28–SC50 · Urban Tiger and other liveries"),
+   X("Ducati 916", "Ducati", "1994", W + "Ducati_916",
+     "Massimo Tamburini's V-twin superbike with single-sided swingarm and under-seat exhausts; 18,006 built.", [
+      ("916", "Ducati", "1994", "1994–1998"),
+      ("916 Senna", "Ducati", "1995", "special editions 1995, 1998, 2001"),
+      ("916 SPS", "Ducati", "", ""),
+      ("996", "Ducati", "1999", "successor"),
+      ("998", "Ducati", "", "final development")],
+     dt="Biposto, SP, SPS, Senna · red or special-edition paint"),
+   X("Yamaha YZF-R1", "Yamaha Motor", "1998", W + "Yamaha_YZF-R1",
+     "Litre-class superbike with a stacked gearbox; from 2009 the first production sport bike with a crossplane crank.", [
+      ("R1 (RN01)", "Yamaha Motor", "1998", ""),
+      ("R1 (RN09)", "Yamaha Motor", "2002", "fuel injection"),
+      ("R1 (RN12)", "Yamaha Motor", "2004", ""),
+      ("R1", "Yamaha Motor", "2007", "four valves per cylinder"),
+      ("R1 (RN22)", "Yamaha Motor", "2009", "crossplane crankshaft"),
+      ("R1 (RN32)", "Yamaha Motor", "2015", "M1-styled"),
+      ("R1M", "Yamaha Motor", "2015", "semi-active Öhlins, carbon bodywork")],
+     dt="generation codes · R1 vs R1M · race liveries"),
+   X("Kawasaki GPZ900R", "Kawasaki", "1984", W + "Kawasaki_GPZ900R",
+     "First Ninja and first stock road bike over 150 mph, with a 16-valve liquid-cooled four.", [],
+     a="Ninja 900", dt="908 cc · red/grey and other period liveries"),
+   X("Suzuki Hayabusa", "Suzuki", "1999", W + "Suzuki_Hayabusa",
+     "1,300 cc hypersport once called the fastest production motorcycle, prompting the 299 km/h speed agreement.", [
+      ("GSX1300R first generation", "Suzuki", "1999", "1999–2007"),
+      ("Second generation", "Suzuki", "2008", "2008–2020"),
+      ("Third generation", "Suzuki", "2022", "")],
+     a="GSX1300R · Busa", dt="first, second, third generation · speed-limited or not"),
+   X("Moto Guzzi Le Mans", "Moto Guzzi", "1976", W + "Moto_Guzzi_Le_Mans",
+     "Shaft-drive V-twin sport bike with a small nose fairing, made in successive series to 1992.", [
+      ("850 Le Mans I", "Moto Guzzi", "1976", "bikini fairing"),
+      ("850 Le Mans II", "Moto Guzzi", "", "full fairing"),
+      ("850 Le Mans III", "Moto Guzzi", "1981", ""),
+      ("Le Mans 1000", "Moto Guzzi", "1984", "949 cc"),
+      ("Ultima Edizione", "Moto Guzzi", "1992", "final model")],
+     dt="Series I–V · 844 or 949 cc"),
+   X("Ducati Panigale V4", "Ducati", "2018", W + "Ducati_Panigale_V4",
+     "V4 superbike that replaced the V-twin 1299, with WSBK homologation and limited editions.", [
+      ("Panigale V4", "Ducati", "2018", "1,103 cc"),
+      ("Panigale V4 S", "Ducati", "", "Öhlins electronic suspension, forged wheels"),
+      ("Panigale V4 Speciale", "Ducati", "2018", ""),
+      ("Panigale V4 R", "Ducati", "2019", "998 cc homologation special"),
+      ("Panigale V4 Superleggera", "Ducati", "2020", "500 units, carbon frame")],
+     dt="base, S, R, Speciale, Superleggera · limited liveries")],
+  "m": [["SuperSport 950", "Ducati"], ["Ninja 400", "Kawasaki"], ["Ninja 650", "Kawasaki"],
+        ["Ninja ZX-6R", "Kawasaki"], ["Ninja 1100SX", "Kawasaki"]]},
+
+ {"n": "Cruiser motorcycle", "a": "custom · factory custom",
+  "d": "Low-seated motorcycle with feet-forward controls and a laid-back riding position.",
+  "t": ["classic cruiser", "power cruiser", "bagger", "factory custom"],
+  "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
+  "x": [
+   X("Harley-Davidson Sportster", "Harley-Davidson", "1957", W + "Harley-Davidson_Sportster",
+     "Harley-Davidson's smaller-frame V-twin line, in production from 1957.", [
+      ("XL Ironhead", "Harley-Davidson", "1957", "cast-iron heads, to 1985"),
+      ("XLCH", "Harley-Davidson", "1958", "Competition Hot"),
+      ("Evolution Sportster", "Harley-Davidson", "1986", "883/1100/1200 cc, to 2022"),
+      ("Iron 883", "Harley-Davidson", "2009", ""),
+      ("Forty-Eight", "Harley-Davidson", "2010", "peanut tank"),
+      ("Sportster S", "Harley-Davidson", "2021", "Revolution Max engine")],
+     dt="Ironhead or Evolution · 883/1200 cc · tank and trim"),
+   X("Harley-Davidson Softail", "Harley-Davidson", "1984", W + "Softail",
+     "Big-twin cruiser frame that hides its rear shock to mimic a hardtail; designed by Bill Davis.", [
+      ("FXST Softail", "Harley-Davidson", "1984", "first model"),
+      ("Heritage Softail", "Harley-Davidson", "1986", "styled after the Hydra-Glide"),
+      ("Fat Boy", "Harley-Davidson", "", ""),
+      ("Breakout", "Harley-Davidson", "", ""),
+      ("Street Bob", "Harley-Davidson", "", ""),
+      ("Low Rider S", "Harley-Davidson", "", "current model"),
+      ("Softail (new frame)", "Harley-Davidson", "2018", "single shock under the seat")],
+     dt="Evolution, Twin Cam or Milwaukee-Eight engine · model family"),
+   X("Indian Chief", "Indian", "1922", W + "Indian_Chief_(motorcycle)",
+     "Indian's big V-twin cruiser, revived by later owners in 1999 and 2014.", [
+      ("Chief", "Indian", "1922", "61 cu in"),
+      ("Big Chief", "Indian", "1923", "74 cu in"),
+      ("Gilroy Chief", "Indian", "1999", "1999–2003"),
+      ("Chief (Polaris)", "Indian", "2014", "new engine")],
+     dt="original, Gilroy or Polaris era · valanced fenders"),
+   X("Yamaha VMAX", "Yamaha Motor", "1985", W + "Yamaha_VMAX",
+     "V4 power cruiser built around straight-line acceleration.", [
+      ("V-Max", "Yamaha Motor", "1985", "1,197 cc V4"),
+      ("VMAX", "Yamaha Motor", "2009", "1,679 cc V4, to 2020")],
+     a="V-Max", dt="first or second generation"),
+   X("Triumph Rocket III", "Triumph", "2004", W + "Triumph_Rocket_III",
+     "2,294 cc three-cylinder cruiser.", [
+      ("Rocket III", "Triumph", "2004", ""),
+      ("Rocket III Classic", "Triumph", "2006", "floorboards"),
+      ("Rocket III Tourer", "Triumph", "2007", ""),
+      ("Rocket III Roadster", "Triumph", "2010", ""),
+      ("Rocket 3", "Triumph", "2019", "successor")],
+     a="Rocket 3", dt="cruiser, touring or roadster form")],
+  "m": [["Diavel", "Ducati"], ["Vulcan 900", "Kawasaki"], ["Vulcan S", "Kawasaki"], ["MGX-21", "Moto Guzzi"]]},
+
+ {"n": "Touring motorcycle", "a": "tourer · full dresser · bagger",
+  "d": "Large motorcycle made for long distances, with wind protection, luggage and passenger comfort.",
+  "t": ["full dresser", "bagger", "sport-tourer", "luxury tourer"],
+  "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
+  "x": [
+   X("Honda Gold Wing", "Honda", "1974", W + "Honda_Gold_Wing",
+     "Flat-four, later flat-six, touring motorcycle.", [
+      ("GL1000", "Honda", "1974", "999 cc flat-four"),
+      ("GL1100", "Honda", "1980", ""),
+      ("GL1200", "Honda", "1983", ""),
+      ("GL1500", "Honda", "1987", "flat-six"),
+      ("GL1800", "Honda", "2001", "1,832 cc"),
+      ("Gold Wing F6B", "Honda", "2013", "bagger without trunk"),
+      ("Gold Wing / Gold Wing Tour (GL1800)", "Honda", "2018", "sixth generation")],
+     dt="generation · trunk or bagger · trim levels"),
+   X("Harley-Davidson Electra Glide", "Harley-Davidson", "1965", W + "Harley-Davidson_FL",
+     "Big-twin FL tourer named for its electric starter, the classic American full dresser.", [
+      ("Hydra-Glide", "Harley-Davidson", "1950", "hydraulic front forks"),
+      ("Duo-Glide", "Harley-Davidson", "1958", "rear suspension"),
+      ("Electra Glide", "Harley-Davidson", "1965", "electric start"),
+      ("Tour Glide (FLT)", "Harley-Davidson", "1980", ""),
+      ("Road Glide (FLTR)", "Harley-Davidson", "1998", "frame-mounted fairing"),
+      ("Electra Glide Ultra Classic", "Harley-Davidson", "", "batwing fairing")],
+     a="FL · FLH", dt="Panhead to Milwaukee-Eight · batwing or frame-mounted fairing")]},
+
+ {"n": "Adventure motorcycle", "a": "adventure tourer · dual-sport motorcycle",
+  "d": "Motorcycle made for both road and unpaved riding, with long suspension travel.",
+  "t": ["adventure-touring", "dual-sport", "rally replica", "middleweight adventure"],
+  "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
+  "x": [
+   X("BMW GS", "BMW Motorrad", "1980", W + "BMW_R80G/S",
+     "Boxer-twin dual-sport family begun by the R 80 G/S, often considered the first adventure bike.", [
+      ("R 80 G/S", "BMW Motorrad", "1980", "Paris-Dakar winner"),
+      ("R 100 GS", "BMW Motorrad", "1986", "Paralever"),
+      ("R 80 GS / R 65 GS", "BMW Motorrad", "1987", ""),
+      ("R 1250 GS", "BMW Motorrad", "2019", "ShiftCam boxer, to 2023"),
+      ("R 1250 GS Adventure", "BMW Motorrad", "", "larger tank, heavier"),
+      ("R 1300 GS", "BMW Motorrad", "", "successor")],
+     a="Gelände/Straße", dt="standard or Adventure · boxer generation"),
+   X("Ducati Multistrada", "Ducati", "2003", W + "Ducati_Multistrada",
+     "Road-biased adventure/sport-touring line.", [
+      ("Multistrada 1000 DS", "Ducati", "2003", ""),
+      ("Multistrada 1200", "Ducati", "2010", ""),
+      ("Multistrada 1200 DVT", "Ducati", "2015", "variable valve timing"),
+      ("Multistrada 1260", "Ducati", "2018", ""),
+      ("Multistrada V4", "Ducati", "2021", "Pikes Peak, Rally, RS versions"),
+      ("Multistrada V2", "Ducati", "2025", "")],
+     dt="generation · S, Pikes Peak, Enduro, Rally"),
+   X("Kawasaki KLR650", "Kawasaki", "1987", W + "Kawasaki_KLR650",
+     "Simple single-cylinder dual-sport with a long production run.", [
+      ("First generation", "Kawasaki", "1987", "1987–2007"),
+      ("Second generation", "Kawasaki", "2008", "2008–2018"),
+      ("Third generation", "Kawasaki", "2022", "")],
+     dt="generation")]},
+
+ {"n": "Café racer", "a": "cafe racer · ton-up bike",
+  "d": "Stripped sport roadster with low clip-on bars and rear-set footrests, from London's 1960s rocker scene; factory and custom built.",
+  "t": ["factory café racer", "custom café racer"],
+  "s": W + "Café_racer",
+  "x": [
+   X("Norton Commando", "Norton", "1967", W + "Norton_Commando",
+     "British parallel-twin roadster, 745 then 828 cc; a 961 Café Racer revived the name.", [
+      ("750 Fastback", "Norton", "1968", ""),
+      ("Roadster", "Norton", "1970", "most popular model"),
+      ("Production Racer", "Norton", "1970", "Yellow Peril"),
+      ("Interstate", "Norton", "1972", ""),
+      ("850", "Norton", "1973", "828 cc, to 1977"),
+      ("961 Commando", "Norton", "2010", "revival; 961 Café Racer version")],
+     dt="750 or 850 · Fastback, Roadster, Interstate"),
+   X("Triumph Thruxton", "Triumph", "2004", W + "Triumph_Bonneville",
+     "Bonneville-based factory café racer.", [
+      ("Thruxton 865", "Triumph", "2004", ""),
+      ("Thruxton 1200", "Triumph", "2016", "water-cooled"),
+      ("Thruxton R", "Triumph", "", "1200 cc")],
+     dt="865 or 1200 cc · bar-end mirrors, fly screen"),
+   X("Harley-Davidson XLCR", "Harley-Davidson", "1977", W + "Café_racer",
+     "Sportster-based factory café racer made 1977–1979.", [], dt="black finish"),
+   X("Honda GB500 TT", "Honda", "1985", W + "Café_racer",
+     "Single-cylinder retro café racer from Honda's GB line.", []),
+   X("Ducati SportClassic", "Ducati", "2006", W + "Café_racer",
+     "Retro air-cooled V-twin range made 2006–2009.", []),
+   X("BMW R nineT Racer", "BMW Motorrad", "", W + "BMW_R_nineT",
+     "Half-faired café-racer variant of the R nineT without a passenger seat.", [])]},
+
+ {"n": "Scrambler", "a": "street scrambler",
+  "d": "Road motorcycle styled for light dirt use, with high exhaust, wide bars and semi-knobbly tyres.",
+  "t": ["classic scrambler", "modern-classic scrambler"],
+  "s": "https://www.bikebound.com/2025/12/08/what-is-a-scrambler/",
+  "x": [
+   X("Ducati Scrambler", "Ducati", "1962", W + "Ducati_Scrambler_(original)",
+     "Single-cylinder scrambler made for the US market from 1962, revived as a V-twin range in 2015.", [
+      ("Scrambler 250 (narrow-case)", "Ducati", "1962", "first series"),
+      ("Scrambler 450 / Jupiter", "Ducati", "", "wide-case; R/T 450 desmo"),
+      ("Scrambler Icon", "Ducati", "2015", "803 cc revival"),
+      ("Scrambler Sixty2", "Ducati", "2015", "399 cc"),
+      ("Scrambler Desert Sled", "Ducati", "", ""),
+      ("Scrambler 1100", "Ducati", "2018", "1,079 cc")],
+     dt="single or V-twin · Icon, Full Throttle, Café Racer, Desert Sled"),
+   X("Triumph Scrambler", "Triumph", "2006", W + "Triumph_Bonneville",
+     "Bonneville-based scrambler with high-level pipes, recalling the Meriden TR6C and T120C.", [
+      ("TR6C / T120C", "Triumph", "", "classic Meriden scramblers"),
+      ("Scrambler 865", "Triumph", "2006", ""),
+      ("Scrambler 900 / 1200", "Triumph", "", "modern range")],
+     dt="865, 900 or 1200 cc"),
+   X("Honda CL scrambler", "Honda", "", "https://www.bikebound.com/2025/12/08/what-is-a-scrambler/",
+     "Classic Honda street scrambler.", [
+      ("CL72", "Honda", "", ""), ("CL77", "Honda", "", "")]),
+   X("BMW R nineT Scrambler", "BMW Motorrad", "", W + "BMW_R_nineT",
+     "Scrambler variant of the R nineT with a 19-inch front wheel.", [])]},
+
+ {"n": "Chopper and bobber", "a": "custom motorcycle · bob-job",
+  "d": "Custom motorcycle either stripped to a minimum (bobber) or cut and stretched with raked forks (chopper).",
+  "t": ["chopper", "bobber", "factory custom"],
+  "s": W + "Chopper_(motorcycle)",
+  "x": [
+   X("Bob-job", "", "mid-1930s", W + "Bobber_(motorcycle)",
+     "American custom stripped of front fender and excess parts on an unmodified frame.", [
+      ("Honda Shadow Spirit 750", "Honda", "2001", "production bobber styling"),
+      ("Softail Cross Bones", "Harley-Davidson", "2008", "springer fork, cut-down fender"),
+      ("Yamaha XV950", "Yamaha Motor", "2014", "production bobber")],
+     a="bobber", dt="springer fork · solo sprung saddle · flat paint"),
+   X("Captain America chopper", "", "1969", W + "Chopper_(motorcycle)",
+     "Panhead Harley-Davidson chopper built by Benjamin F. Hardy for the film Easy Rider.", [
+      ("Billy Bike", "", "1969", "companion bike in the film")],
+     dt="extended forks · ape hangers · sissy bar"),
+   X("Triumph Bonneville Bobber", "Triumph", "2017", W + "Triumph_Bonneville",
+     "1200 cc factory bobber based on the Bonneville.", [], a="Bobber")]},
+
+ {"n": "Trike", "a": "three-wheeled motorcycle · reverse trike",
+  "d": "Three-wheeled motorcycle, with two wheels at the rear or two at the front.",
+  "t": ["conventional trike (two rear wheels)", "reverse trike (two front wheels)", "trike conversion"],
+  "s": "https://can-am.brp.com/on-road/us/en",
+  "x": [
+   X("Can-Am Spyder", "Can-Am", "2007", W + "Can-Am_Spyder",
+     "Reverse trike with two front steering wheels and one rear drive wheel.", [
+      ("Spyder RS", "Can-Am", "", "sports, to 2016"),
+      ("Spyder ST", "Can-Am", "", "sport-touring, to 2016"),
+      ("Spyder RT", "Can-Am", "", "touring"),
+      ("Spyder F3", "Can-Am", "", "sport-cruising"),
+      ("Ryker", "Can-Am", "2019", "entry-level line"),
+      ("Canyon", "Can-Am", "", "")],
+     dt="touring or sport trim"),
+   X("Harley-Davidson Tri Glide Ultra Classic", "Harley-Davidson", "2009", W + "Harley-Davidson_FL",
+     "Factory three-wheeler based on the Electra Glide.", [], a="FLHTCUTG")]},
+
+ {"n": "Motorcycle with sidecar", "a": "sidecar outfit · combination",
+  "d": "Motorcycle sold with a one-wheeled passenger car attached at the side.",
+  "t": ["sidecar-wheel drive (2WD)", "single-wheel drive", "sidecar conversion"],
+  "s": "https://www.ural.cc/modelle?lang=en",
+  "x": [
+   X("Ural sidecar outfit", "Ural", "1941", W + "IMZ-Ural",
+     "Boxer-twin sidecar outfit descended from the IMZ M-72, a copy of the BMW R71.", [
+      ("M-72", "Ural", "1941", "wartime original"),
+      ("Gear Up", "Ural", "", "2WD, main current model"),
+      ("Ranger", "Ural", "", ""),
+      ("Ranger Expedition", "Ural", "", ""),
+      ("cT", "Ural", "", ""),
+      ("T TWD", "Ural", "", "")],
+     dt="2WD or single drive · trim and colour"),
+   X("Dnepr sidecar outfit", "Dnepr", "1967", W + "Dnepr_(motorcycle)",
+     "Kyiv-built heavy boxer-twin sidecar outfit sharing the M-72 lineage.", [
+      ("MV-750", "Dnepr", "1964", "military, sidecar-wheel drive"),
+      ("MT-9", "Dnepr", "", "650 cc"),
+      ("MT-10", "Dnepr", "", "first Soviet 12-volt motorcycle"),
+      ("MT-11", "Dnepr", "", ""),
+      ("MT-16", "Dnepr", "", "sidecar-wheel drive")],
+     dt="solo or sidecar · 650 cc boxer")]},
+]
+
+K = "knowledge"
+brands = [
+ {"n": "Honda", "c": "Japan", "f": "1948", "seg": "mass-market and performance", "d": "Japanese maker of motorcycles, cars and power equipment, the world's largest motorcycle manufacturer.", "sig": ["Honda CB750", "Honda CBR900RR Fireblade", "Honda Gold Wing"], "s": K},
+ {"n": "Triumph", "c": "United Kingdom", "seg": "modern classic and performance", "d": "British motorcycle marque, built at Meriden until 1983 and revived at Hinckley.", "sig": ["Triumph Bonneville", "Triumph Thruxton", "Triumph Scrambler", "Triumph Rocket III"], "s": W + "Triumph_Bonneville"},
+ {"n": "Kawasaki", "c": "Japan", "seg": "mass-market and performance", "d": "Motorcycle arm of Kawasaki Heavy Industries.", "lines": ["Ninja", "Z", "Vulcan", "KLR"], "sig": ["Kawasaki Z1", "Kawasaki GPZ900R", "Kawasaki KLR650"], "s": K},
+ {"n": "Ducati", "c": "Italy", "f": "1926", "seg": "performance", "d": "Bologna maker of desmodromic V-twin and V4 sport motorcycles.", "lines": ["Panigale", "Monster", "Multistrada", "Scrambler", "Diavel"], "sig": ["Ducati 916", "Ducati Monster", "Ducati Panigale V4", "Ducati Scrambler"], "s": K},
+ {"n": "Yamaha Motor", "c": "Japan", "f": "1955", "seg": "mass-market and performance", "d": "Japanese motorcycle and marine engine maker.", "lines": ["YZF-R", "MT"], "sig": ["Yamaha YZF-R1", "Yamaha VMAX"], "s": K},
+ {"n": "Suzuki", "c": "Japan", "seg": "mass-market and performance", "d": "Japanese maker of motorcycles and cars.", "lines": ["GSX-R", "GSX-S", "Hayabusa"], "sig": ["Suzuki Hayabusa"], "s": K},
+ {"n": "Harley-Davidson", "c": "United States", "f": "1903", "seg": "heavyweight cruiser and touring", "d": "Milwaukee maker of big V-twin cruisers and tourers.", "lines": ["Sportster", "Softail", "Touring"], "sig": ["Harley-Davidson Sportster", "Harley-Davidson Softail", "Harley-Davidson Electra Glide"], "s": K},
+ {"n": "BMW Motorrad", "c": "Germany", "f": "1923", "seg": "premium touring and adventure", "d": "Motorcycle division of BMW, known for boxer twins.", "lines": ["GS", "RT", "R nineT"], "sig": ["BMW GS", "BMW R nineT"], "s": K},
+ {"n": "Royal Enfield", "c": "India", "seg": "classic singles and twins", "d": "Marque founded in Redditch, England, now built in Chennai, India.", "sig": ["Royal Enfield Bullet"], "s": W + "Royal_Enfield_Bullet"},
+ {"n": "Norton", "c": "United Kingdom", "seg": "British classic and premium", "d": "British motorcycle marque; the 961 revival is built by later owners.", "sig": ["Norton Commando"], "s": W + "Norton_Commando"},
+ {"n": "Vincent", "c": "United Kingdom", "seg": "classic high-performance", "d": "Vincent H.R.D. of Stevenage, maker of V-twin road bikes until 1955.", "sig": ["Vincent Black Shadow"], "s": W + "Vincent_Black_Shadow"},
+ {"n": "Moto Guzzi", "c": "Italy", "f": "1921", "seg": "transverse V-twin", "d": "Italian maker of shaft-drive transverse V-twin motorcycles.", "sig": ["Moto Guzzi Le Mans"], "s": K},
+ {"n": "Indian", "c": "United States", "f": "1901", "seg": "cruiser and touring", "d": "American V-twin marque, revived in 1999 and since 2011 owned by Polaris.", "sig": ["Indian Chief"], "s": K},
+ {"n": "Ural", "c": "Russia / United States", "f": "1941", "seg": "sidecar outfits", "d": "IMZ-Ural, Soviet-founded maker of boxer-twin sidecar outfits, now headquartered in Redmond, Washington.", "sig": ["Ural sidecar outfit"], "s": W + "IMZ-Ural"},
+ {"n": "Dnepr", "c": "Ukraine", "f": "1967", "seg": "sidecar outfits", "d": "Brand of the Kyiv Motorcycle Plant (KMZ), heavy boxer twins made in Kyiv since 1946.", "sig": ["Dnepr sidecar outfit"], "s": W + "Dnepr_(motorcycle)"},
+ {"n": "Can-Am", "c": "Canada", "seg": "three-wheelers and off-road", "d": "BRP brand whose on-road line is the Spyder and Ryker three-wheelers.", "lines": ["Spyder", "Ryker", "Canyon"], "sig": ["Can-Am Spyder"], "s": W + "Can-Am_Spyder"},
+]
+
+notes = ("All 7 old kinds kept (ids k21–k25, k27, k28); 3 new kinds added (Café racer, Scrambler, Chopper and bobber). "
+         "Ducati/Kawasaki skew trimmed: Panigale V4 R/S became Panigale V4 versions, Gold Wing Tour a Gold Wing version, Low Rider S a Softail version, "
+         "Ural models Ural-outfit versions, Spyder/Ryker/Canyon Spyder versions; dropped flat Ninja 500 and Ninja 7 Hybrid (Kawasaki skew), Multistrada and KLR650 are now archetypes. "
+         "Left out: Harley Knucklehead/Panhead customs as separate archetypes, Honda CB750 Hornet as its own archetype, Indian Scout Bobber and Harley Street Bob as bobbers, "
+         "R 1300 GS year, Fat Boy/Breakout years: not confirmed on retrieved pages. Wikidata rate-limited (429) mid-run; Wikipedia pages fetched with WebFetch.")
+
+out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
+p = 'work/G1/shelves/01_00.json'
+json.dump(out, open(p + '.tmp', 'w'), ensure_ascii=False, indent=1)
+os.replace(p + '.tmp', p)
+print('written', len(kinds), 'kinds', sum(len(k.get('x', [])) for k in kinds), 'archetypes', len(brands), 'brands')
