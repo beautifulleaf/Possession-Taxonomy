@@ -1,0 +1,7 @@
+start
+fetched calls1-3: G2,G3,B7 fans(MoMA),B1 String,B3 gubi/vitra/compasso. next: edits + MoMA lists + Thonet + B5 + Resident Home
+call4-5: MoMA lists fetched (vase p2-5, cabinet/desk/bed/screen p2-3, fan, lamp p1-2); raw in tool-results; parse to moma_items.tsv
+B4 vases done (116 entries, validated?)
+B7 fans done
+G2,G3 done; next B1(String,Thonet,Vitra,Resident Home,MoMA screen), B3 (lamps), B5
+B3 done (3 lamps)

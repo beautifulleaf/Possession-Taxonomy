@@ -3531,7 +3531,7 @@
         ]
        ],
        "nl": "One entry is a solid-body electric guitar model or series sold under its own name; signature, reissue and import versions sit under it.",
-       "sel": "Wikipedia's lists of Gibson and Fender products (solid-body rows), the model sections of the Ibanez, ESP, Jackson, Epiphone, Gretsch, Rickenbacker and Martin articles, Yamaha's Pacifica history and Premier Guitar's SG2000 article; a few rows from a Wikidata query of guitar models (109 rows). Sections are maker country, then maker. Also the Taylor, PRS, Guild, Ovation, Schecter, Music Man, Washburn, Takamine, Hofner, Danelectro, Squier, Warwick, Spector, Steinberger, Yamaha electric guitar models and vintagemartin.com sizes pages. Maker country is taken from the maker page or a Wikidata country query; where none was fetched the section reads Country not stated on a fetched page. No complete list exists; follows Wikipedia: Washburn Guitars, Wikipedia: Yamaha electric guitar models, Wikipedia: PRS Guitars, Wikipedia: List of Rickenbacker products, hub.yamaha.com, Wikipedia: ESP Guitars and 35 other pages (357 entries).",
+       "sel": "Wikipedia's lists of Gibson and Fender products (solid-body rows), the model sections of the Ibanez, ESP, Jackson, Epiphone, Gretsch, Rickenbacker and Martin articles, Yamaha's Pacifica history and Premier Guitar's SG2000 article; a few rows from a Wikidata query of guitar models (109 rows). Sections are maker country, then maker. Also the Taylor, PRS, Guild, Ovation, Schecter, Music Man, Washburn, Takamine, Hofner, Danelectro, Squier, Warwick, Spector, Steinberger, Yamaha electric guitar models and vintagemartin.com sizes pages. Maker country is taken from the maker page or a Wikidata country query; where none was fetched the section reads Country not stated on a fetched page. No complete list exists; follows Wikipedia: Washburn Guitars, Wikipedia: Yamaha electric guitar models, Wikipedia: PRS Guitars, Wikipedia: List of Rickenbacker products, hub.yamaha.com, Wikipedia: ESP Guitars and 35 other pages (357 entries). Jackson (18 models of the 2021 list on Wikipedia, plus the minor models) and ESP lines were re-read from Wikipedia and Reverb on 2026-10-31; all are held.",
        "xg": "by maker country, then maker, then year"
       },
       {
@@ -11423,7 +11423,14 @@
          "mk": "Mesa/Boogie",
          "y": "1991",
          "s": "https://en.wikipedia.org/wiki/Mesa/Boogie",
-         "v": [],
+         "v": [
+          {
+           "n": "90s Dual Rectifier",
+           "mk": "Mesa/Boogie",
+           "y": "1992",
+           "d": "100 W; the retailer says the model was released in 1992"
+          }
+         ],
          "dt": "channels and revisions · head or combo · matching Rectifier cabinets",
          "g": "United States · Mesa/Boogie"
         },
@@ -11433,7 +11440,21 @@
          "mk": "Mesa/Boogie",
          "y": "2021",
          "s": "https://en.wikipedia.org/wiki/Mesa_Boogie",
-         "g": "United States · Mesa/Boogie"
+         "g": "United States · Mesa/Boogie",
+         "v": [
+          {
+           "n": "Mark VII rackmount",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "25/45/90 W"
+          },
+          {
+           "n": "Mark VII 6L6/EL34",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "25/45/90 W"
+          }
+         ]
         },
         {
          "n": "Mesa/Boogie Road King II",
@@ -11516,6 +11537,130 @@
          ],
          "dt": "head or combo · 120 W",
          "g": "United States · Peavey"
+        },
+        {
+         "n": "Mesa/Boogie Mark Five",
+         "a": "Mark V",
+         "d": "Two-channel, six-mode Mark head sold in a 35 W version.",
+         "mk": "Mesa/Boogie",
+         "y": "",
+         "s": "https://www.americanmusical.com/c/brands/mesa-boogie/mesa-boogie-heads",
+         "v": [
+          {
+           "n": "Mark Five 35",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "10/25/35 W"
+          }
+         ],
+         "g": "United States · Mesa/Boogie"
+        },
+        {
+         "n": "Mesa/Boogie Mark IIC+",
+         "a": "Mark II C Plus",
+         "d": "Vintage Boogie head based on the original Mark II dual-mode design.",
+         "mk": "Mesa/Boogie",
+         "y": "",
+         "s": "https://www.americanmusical.com/c/brands/mesa-boogie/mesa-boogie-heads",
+         "v": [
+          {
+           "n": "Mark IIC+ HRG",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "60/100 W, reverb and graphic EQ"
+          }
+         ],
+         "g": "United States · Mesa/Boogie"
+        },
+        {
+         "n": "Mesa/Boogie Triple Rectifier",
+         "a": "",
+         "d": "Three-channel high-gain Rectifier head, listed as a 90s reissue.",
+         "mk": "Mesa/Boogie",
+         "y": "",
+         "s": "https://www.americanmusical.com/c/brands/mesa-boogie/mesa-boogie-heads",
+         "v": [
+          {
+           "n": "90s Triple Rectifier Standard",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "150 W"
+          },
+          {
+           "n": "90s Triple Rectifier Solo",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "150 W"
+          }
+         ],
+         "g": "United States · Mesa/Boogie"
+        },
+        {
+         "n": "Mesa/Boogie Badlander",
+         "a": "",
+         "d": "Rectifier-family head with tighter low end and less mid scoop than the Dual Rectifier.",
+         "mk": "Mesa/Boogie",
+         "y": "",
+         "s": "https://www.americanmusical.com/c/brands/mesa-boogie/mesa-boogie-heads",
+         "v": [
+          {
+           "n": "Badlander 25",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "10/25 W"
+          },
+          {
+           "n": "Badlander 100",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "100 W"
+          }
+         ],
+         "g": "United States · Mesa/Boogie"
+        },
+        {
+         "n": "Mesa/Boogie California Tweed",
+         "a": "",
+         "d": "Vintage-voiced 6V6 head.",
+         "mk": "Mesa/Boogie",
+         "y": "",
+         "s": "https://www.americanmusical.com/c/brands/mesa-boogie/mesa-boogie-heads",
+         "v": [
+          {
+           "n": "California Tweed 6V6 4:40",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "2/40 W"
+          }
+         ],
+         "g": "United States · Mesa/Boogie"
+        },
+        {
+         "n": "Mesa/Boogie Fillmore",
+         "a": "",
+         "d": "Vintage-styled head from the other branch of the Boogie family tree.",
+         "mk": "Mesa/Boogie",
+         "y": "",
+         "s": "https://www.americanmusical.com/c/brands/mesa-boogie/mesa-boogie-heads",
+         "v": [
+          {
+           "n": "Fillmore 50",
+           "mk": "Mesa/Boogie",
+           "y": "",
+           "d": "40/60 W"
+          }
+         ],
+         "g": "United States · Mesa/Boogie"
+        },
+        {
+         "n": "Mesa/Boogie JP-2C",
+         "a": "",
+         "d": "John Petrucci signature head, the maker's first unlimited-build signature model.",
+         "mk": "Mesa/Boogie",
+         "y": "",
+         "s": "https://www.americanmusical.com/c/brands/mesa-boogie/mesa-boogie-heads",
+         "v": [],
+         "g": "United States · Mesa/Boogie"
         }
        ],
        "r": [
@@ -11605,7 +11750,7 @@
         ]
        ],
        "nl": "One entry is a head or piggyback amp model line.",
-       "sel": "Wikipedia's Marshall Amplification, Vox, Mesa Boogie and Fender amplifier articles. Also the Orange, Peavey, Ampeg, Warwick, Music Man and PRS pages. Maker country is taken from the maker page or a Wikidata country query; where none was fetched the section reads Country not stated on a fetched page. No complete list exists; follows Wikipedia: Marshall Amplification, Wikipedia: Orange Music Electronic Company, Wikipedia: Ampeg, Wikipedia: Warwick (guitar manufacturer), Wikipedia: Fender amplifier, Wikipedia: Vox (musical equipment) and 7 other pages (74 entries).",
+       "sel": "Wikipedia's Marshall Amplification, Vox, Mesa Boogie and Fender amplifier articles. Also the Orange, Peavey, Ampeg, Warwick, Music Man and PRS pages. Maker country is taken from the maker page or a Wikidata country query; where none was fetched the section reads Country not stated on a fetched page. No complete list exists; follows Wikipedia: Marshall Amplification, Wikipedia: Orange Music Electronic Company, Wikipedia: Ampeg, Wikipedia: Warwick (guitar manufacturer), Wikipedia: Fender amplifier, Wikipedia: Vox (musical equipment) and 7 other pages (74 entries). Mesa/Boogie head list read from the American Musical Supply category (17 items: Mark, Rectifier, Badlander, California Tweed, Fillmore and JP-2C lines).",
        "xg": "by maker country, then maker, then year"
       },
       {
