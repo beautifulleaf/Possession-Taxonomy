@@ -21,3 +21,4 @@ R2 step3: appended BMW Mercedes Audi Porsche Opel Peugeot Renault Citroen first 
 R2 step4: category API done for Rover(3 pages of ~5, incl continue), Humber Hillman Singer Borgward Wartburg Koenigsegg Pagani Lynk Venturi Smart Rimac; Trabant category not found. RR list added. ~40 fetches. Next: build2.py with y_updates, rewrite EUROPE.json + report
 R2 step5: build2.py run -> EUROPE.json rewritten (1489 entries, 641 y_updates). Remaining: update report.
 R2 done: report updated
+ROUND3 started: finish VW/BMW/Mercedes/Audi/Peugeot windows; categories Alfa Lancia Jaguar LandRover Bentley Morris Triumph Lada Pagani Trabant + Rover next page; generation versions v. Backup EUROPE_r2.json
