@@ -19,3 +19,4 @@ r2: ~85 fetches. added Miracle Homme, California for Men. Max Factor owner P&G s
 r2: ~90 fetches. Red Door, Dream Angels x2, Dream added. Next: A-Z pages n1p4 g3p3 b3p7 c7p6 s5p4 f2p3 e6p5 h2p5 j1p4 m4p7 (found by search)
 r2: ~95 fetches. Narcisse Noir, Spirit added. Now owners searches (Houbigant, Piguet, Guy Laroche, Faberge, Gres) then apply+report
 r2 done: 444->373; report updated; ~100 fetches
+ROUND3 started (budget 60): houses Guerlain, Coty, Tom Ford, VS, Avon, then rest. hits to r3hits.tsv, apply via apply_r2.py reading r3hits too
