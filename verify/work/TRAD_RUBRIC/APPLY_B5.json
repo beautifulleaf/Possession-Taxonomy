@@ -183,6 +183,333 @@
    "why": "Product: page names Iga donabe pots and the Doraku kiln that specialises in them."
   },
   {
+   "rubric_id": "B5-23",
+   "tradition": "Arita ware (incl. Imari, Kakiemon, Nabeshima)",
+   "decision": "skip",
+   "dept": "Tableware",
+   "shelf": "Services & houses",
+   "kind": "Tableware house",
+   "record": {},
+   "makers": [],
+   "ve_link": "Arita ware",
+   "why": "Already present: 'Arita ware' (alias Hizen ware, version Imari), 'Kakiemon' and 'Nabeshima ware' are archetypes under Tableware house; rubric exists flag missed them."
+  },
+  {
+   "rubric_id": "B5-24",
+   "tradition": "Hasami ware",
+   "decision": "add_archetype",
+   "dept": "Tableware",
+   "shelf": "Services & houses",
+   "kind": "Tableware house",
+   "record": {
+    "n": "Hasami ware",
+    "a": "Hasami-yaki · 波佐見焼",
+    "d": "Everyday porcelain tableware from Hasami, Nagasaki, with a 400-year history, Japan's largest producer of blue-and-white porcelain in the late Edo period and sold under its own label since 2002.",
+    "mk": "",
+    "y": "c. 1600–",
+    "s": "https://en.wikipedia.org/wiki/Hasami_ware",
+    "v": [
+     {
+      "n": "Hasami celadon (Mimata celadon)",
+      "mk": "",
+      "y": "17th–early 18th century",
+      "d": "Japan's first celadon, from the Mimata kiln"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Nakaoue kiln",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Hasami_ware"
+    }
+   ],
+   "ve_link": "Hasami ware",
+   "why": "Product: tableware bought under the Hasami ware label."
+  },
+  {
+   "rubric_id": "B5-25",
+   "tradition": "Mino ware",
+   "decision": "add_archetype",
+   "dept": "Tableware",
+   "shelf": "Services & houses",
+   "kind": "Tableware house",
+   "record": {
+    "n": "Mino ware",
+    "a": "Mino-yaki · 美濃焼",
+    "d": "Pottery and stoneware from Tajimi, Toki, Mizunami and Kani in Gifu, about half of all Japanese pottery produced.",
+    "mk": "",
+    "y": "Azuchi–Momoyama period–",
+    "s": "https://en.wikipedia.org/wiki/Mino_ware",
+    "v": [
+     {
+      "n": "Shino",
+      "mk": "",
+      "y": "",
+      "d": "grey with white autumn grasses; Muji-, E-, Beni-, Aka-, Nezumi-Shino"
+     },
+     {
+      "n": "Oribe",
+      "mk": "",
+      "y": "",
+      "d": "green and black; Ao-, So-, Aka-, Narumi-, Shino-, Kuro-Oribe"
+     },
+     {
+      "n": "Ki-Seto",
+      "mk": "",
+      "y": "",
+      "d": "yellow"
+     },
+     {
+      "n": "Setoguro",
+      "mk": "",
+      "y": "",
+      "d": "black"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Mino ware",
+   "why": "Product: ware bought by name; Shino chawan already exists under Chawan and can stay."
+  },
+  {
+   "rubric_id": "B5-26",
+   "tradition": "Delftware",
+   "decision": "add_archetype",
+   "dept": "Tableware",
+   "shelf": "Services & houses",
+   "kind": "Tableware house",
+   "record": {
+    "n": "Delftware",
+    "a": "Delft Blue · Delfts blauw · Delft pottery",
+    "d": "Dutch tin-glazed earthenware, mostly blue and white, made chiefly in Delft from about 1600 as plates, vases, figurines and tiles, still produced and marked 'Delfts Blauw'.",
+    "mk": "",
+    "y": "c. 1600–",
+    "s": "https://en.wikipedia.org/wiki/Delftware",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Delftware",
+   "why": "Product: Delft Blue pieces are bought; page names no current factory."
+  },
+  {
+   "rubric_id": "B5-28",
+   "tradition": "Deruta maiolica",
+   "decision": "skip",
+   "dept": "Tableware",
+   "shelf": "Services & houses",
+   "kind": "Tableware house",
+   "record": {},
+   "makers": [],
+   "ve_link": "Deruta maiolica",
+   "why": "Already present: 'Deruta' is an archetype under Tableware house."
+  },
+  {
+   "rubric_id": "B5-29",
+   "tradition": "Talavera of Puebla and Tlaxcala",
+   "decision": "add_archetype",
+   "dept": "Tableware",
+   "shelf": "Services & houses",
+   "kind": "Tableware house",
+   "record": {
+    "n": "Talavera poblana",
+    "a": "Talavera · Mexican Talavera",
+    "d": "Tin-glazed majolica from Puebla and San Pablo del Monte, Tlaxcala, made since the 16th century and protected since 1997 by a denomination of origin certified by the Consejo Regulador de la Talavera.",
+    "mk": "",
+    "y": "16th century–",
+    "s": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Uriarte Talavera",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera La Reyna",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera Armando",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera Celia",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera Santa Catarina",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera de la Nueva España",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera de la Luz",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera de las Americas",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    },
+    {
+     "n": "Talavera Virglio Perez",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala"
+    }
+   ],
+   "ve_link": "Artisanal Talavera of Puebla and Tlaxcala",
+   "why": "Product with protected denomination and certified workshops."
+  },
+  {
+   "rubric_id": "B5-31",
+   "tradition": "French silver plate (Christofle)",
+   "decision": "skip",
+   "dept": "Tableware",
+   "shelf": "Cutlery",
+   "kind": "Cutlery set",
+   "record": {},
+   "makers": [],
+   "ve_link": "",
+   "why": "Ambiguous resolved: Christofle is a brand, not a tradition, and electroplating is a process; Christofle patterns (Marly, Albi etc.) already sit under Cutlery set, so the brand layer covers it."
+  },
+  {
+   "rubric_id": "B5-34",
+   "tradition": "Wajima-nuri",
+   "decision": "add_archetype",
+   "dept": "Tableware",
+   "shelf": "Plates, bowls & cups",
+   "kind": "Bowl",
+   "record": {
+    "n": "Wajima lacquer bowl",
+    "a": "Wajima-nuri · Wajima lacquerware",
+    "d": "Robust lacquered bowls from Wajima, Ishikawa, made with a diatomaceous-earth base since the early Edo period and sold today as high-class lacquerware.",
+    "mk": "",
+    "y": "Kanbun era (1661–73)–",
+    "s": "https://en.wikipedia.org/wiki/Wajima-nuri",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Unryuan",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Wajima-nuri"
+    },
+    {
+     "n": "Ross Studios",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Wajima-nuri"
+    }
+   ],
+   "ve_link": "Wajima-nuri",
+   "why": "Product: lacquered bowls; lacquer-decoration technique (chinkin, maki-e) stays in VE."
+  },
+  {
+   "rubric_id": "B5-35",
+   "tradition": "Edo kiriko",
+   "decision": "add_archetype",
+   "dept": "Glassware & bar",
+   "shelf": "Drinking glasses",
+   "kind": "Tumbler",
+   "record": {
+    "n": "Edo kiriko glass",
+    "a": "Edo kiriko · 江戸切子",
+    "d": "Tokyo cut glass with bold geometric patterns such as nanako, first produced in 1834 by Edo glassware merchant Kagaya Kyūbei.",
+    "mk": "",
+    "y": "1834–",
+    "s": "https://en.wikipedia.org/wiki/Edo_kiriko",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Edo kiriko",
+   "why": "Product: cut-glass tumblers sold as Edo kiriko; cutting technique to VE."
+  },
+  {
+   "rubric_id": "B5-36",
+   "tradition": "Bohemian glass",
+   "decision": "add_archetype",
+   "dept": "Glassware & bar",
+   "shelf": "Glass houses",
+   "kind": "Glassware house",
+   "record": {
+    "n": "Bohemian glass",
+    "a": "Bohemia crystal · české sklo · český křišťál",
+    "d": "Cut, engraved, blown and painted glassware from Bohemia and Silesia, called Bohemian crystal since the 16th century.",
+    "mk": "",
+    "y": "16th century–",
+    "s": "https://en.wikipedia.org/wiki/Bohemian_glass",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Moser",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Bohemian_glass"
+    },
+    {
+     "n": "Rückl (Nižbor glassworks)",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Bohemian_glass"
+    },
+    {
+     "n": "Crystalex",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Bohemian_glass"
+    }
+   ],
+   "ve_link": "Bohemian glass",
+   "why": "Product: glassware bought as Bohemian crystal; placed beside its houses (Moser, Nižbor, Crystalex already there) rather than under Wine glass because it spans all glass forms."
+  },
+  {
+   "rubric_id": "B5-37",
+   "tradition": "Laguiole knife-making",
+   "decision": "skip",
+   "dept": "Tableware",
+   "shelf": "Cutlery",
+   "kind": "Steak knife",
+   "record": {},
+   "makers": [],
+   "ve_link": "Laguiole knife",
+   "why": "Already present in B5 as 'Laguiole steak knife' (versions Forge de Laguiole, Thiers-made laguiole); the folding knife is added in C1 (C1-4)."
+  },
+  {
+   "rubric_id": "B5-39",
+   "tradition": "Magewappa",
+   "decision": "add_archetype",
+   "dept": "Food storage & on-the-go",
+   "shelf": "Meal carriers",
+   "kind": "Lunch box",
+   "record": {
+    "n": "Magewappa bento box",
+    "a": "magewappa · Odate magewappa",
+    "d": "Steam-bent Akita cedar container from Odate, Akita, often used to hold bento.",
+    "mk": "",
+    "y": "Edo period–",
+    "s": "https://en.wikipedia.org/wiki/Magewappa",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Magewappa",
+   "why": "Product: bent-wood bento boxes are bought."
+  },
+  {
    "rubric_id": "B5-4",
    "tradition": "Solingen cutlery",
    "decision": "add_archetype",

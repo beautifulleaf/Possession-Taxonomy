@@ -3,7 +3,46 @@
  "status": "partial",
  "brand_led": true,
  "sweeps": [],
- "regions": [],
+ "regions": [
+  {
+   "region": "Japan",
+   "speciality": "Cylinder locks (MIWA ~60% domestic share, GOAL, Opnus)",
+   "src": "https://key.asti24.co.jp/article/4443",
+   "brands": [
+    "MIWA",
+    "GOAL",
+    "Opnus",
+    "Alpha (Japan lock maker)",
+    "U-Shin Showa",
+    "Royal Guardian"
+   ]
+  },
+  {
+   "region": "South Korea",
+   "speciality": "Smart digital door locks (>80% household use)",
+   "src": "https://www.solitykorea.com/en/about",
+   "brands": [
+    "Solity",
+    "Samsung SDS (smart door lock)"
+   ]
+  },
+  {
+   "region": "India",
+   "speciality": "Locks and safes since 1897 (springless lock patent 1909)",
+   "src": "https://shop.godrejsecure.com/about-us",
+   "brands": [
+    "Godrej Security Solutions"
+   ]
+  },
+  {
+   "region": "Israel",
+   "speciality": "High-security cylinders",
+   "src": "https://key.asti24.co.jp/article/4443",
+   "brands": [
+    "Mul-T-Lock"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Lock_manufacturers",
@@ -154,6 +193,36 @@
    "new_names": 0,
    "status": "partial",
    "note": "industrial directory, not parsed"
+  },
+  {
+   "url": "https://key.asti24.co.jp/article/4443",
+   "title": "玄関の鍵メーカー一覧 (Japanese entrance lock makers)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 3,
+   "status": "done",
+   "note": "locksmith article via search excerpt; MIWA ~60% share, GOAL, Opnus known"
+  },
+  {
+   "url": "https://www.solitykorea.com/en/about",
+   "title": "Solity about",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://shop.godrejsecure.com/about-us",
+   "title": "Godrej Security about",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -1036,6 +1105,54 @@
    "says": "Listed in Wikipedia Category:Home automation companies (security camera/monitoring)",
    "country": "US",
    "dept": "Cameras & alarms"
+  },
+  {
+   "n": "Royal Guardian",
+   "layer": "cultural",
+   "src": "https://key.asti24.co.jp/article/4443",
+   "says": "Japanese lock-maker list: first deadlock mechanism, exited business 2022 (Toshow Service)",
+   "country": "Japan",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "Alpha (Japan lock maker)",
+   "layer": "cultural",
+   "src": "https://key.asti24.co.jp/article/4443",
+   "says": "Named as one of Japan's lock makers alongside MIWA, GOAL, U-SHIN-SHOWA",
+   "country": "Japan",
+   "dept": "Locks"
+  },
+  {
+   "n": "U-Shin Showa",
+   "layer": "cultural",
+   "src": "https://key.asti24.co.jp/article/4443",
+   "says": "Named as Japanese lock maker behind door-maker branded locks",
+   "country": "Japan",
+   "dept": "Locks"
+  },
+  {
+   "n": "Solity",
+   "layer": "cultural",
+   "src": "https://www.solitykorea.com/en/about",
+   "says": "Korean smart door-lock leader since 2004 BON series; Korea >80% households use smart locks",
+   "country": "South Korea",
+   "dept": "Smart lock"
+  },
+  {
+   "n": "Godrej Security Solutions",
+   "layer": "cultural",
+   "src": "https://shop.godrejsecure.com/about-us",
+   "says": "India's first indigenous lock 1897, safes, lockers; 125+ years",
+   "country": "India",
+   "dept": "Locks & safes"
+  },
+  {
+   "n": "Samsung SDS (smart door lock)",
+   "layer": "cultural",
+   "src": "https://www.samsungsds.com/en/news/smart-door-lock.html",
+   "says": "First Wi-Fi IoT smart door lock in Korea; Gold Prize Beijing Smart Home Innovation",
+   "country": "South Korea",
+   "dept": "Smart lock"
   }
  ]
 }
