@@ -50,6 +50,27 @@ button.seel { font: inherit; color: var(--accent); background: none; border: 0; 
 button.seel i { font-style: normal; color: var(--muted); }
 ol.keylist { display: grid; gap: 6px; padding-left: 22px; max-width: 90ch; }
 section.guide p { max-width: 80ch; margin: 0; }
+.dtabs { display: flex; flex-wrap: wrap; gap: 4px; }
+.dtabs button { font: 600 13px/1.2 var(--body); padding: 6px 11px; border-radius: 999px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); cursor: pointer; }
+.dtabs button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.gjump { display: flex; flex-wrap: wrap; gap: 4px; margin: 0; }
+.gjump .tag span, .dtabs span { opacity: .7; }
+.dnav { display: flex; justify-content: space-between; gap: 8px; margin-top: 18px; }
+p.desc.clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+article.item.open p.desc.clamp { -webkit-line-clamp: unset; display: block; }
+.kfoot { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 2px; }
+.kfacts { font: 12px/1.3 var(--mono); color: var(--muted); }
+.open-btn { border: 1px solid var(--rule); background: var(--bg); color: var(--accent); border-radius: 999px; padding: 3px 12px; font: 600 13px/1.4 var(--body); cursor: pointer; }
+.kbody { display: grid; gap: 8px; margin-top: 6px; border-top: 1px solid var(--rule); padding-top: 8px; }
+.entries { display: grid; gap: 6px; }
+.ehead { margin: 4px 0 0; font-size: 13.5px; color: var(--muted); } .ehead b { color: var(--ink); }
+.erows { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 2px 14px; align-items: start; }
+details.erow > summary { cursor: pointer; list-style: none; padding: 4px 2px; border-bottom: 1px dotted var(--rule); display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: baseline; font-size: 14.5px; }
+details.erow > summary::-webkit-details-marker { display: none; }
+details.erow > summary i { font-style: normal; color: var(--muted); font-size: 12.5px; }
+details.erow .vc { font: 11px/1.4 var(--mono); color: var(--muted); }
+details.erow[open] { grid-column: 1 / -1; }
+details.erow[open] > .arch { margin: 4px 0 8px; }
 .role { font: 600 10.5px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .05em; border-radius: 999px; padding: 1px 7px; background: var(--flag); color: var(--flag-ink); }
 .arch.r-landmark, .arch.r-origin { border-left-color: var(--flag); }
 .nl { display: grid; gap: 2px; font-size: 13.5px; color: var(--muted); border-left: 2px solid var(--rule); padding-left: 8px; }
@@ -83,6 +104,8 @@ for c in meta['cats']:
                 n += 1; index.append([c['c'], k['n'], k.get('a', ''), ''])
                 for x in k.get('x', []) or []:
                     index.append([c['c'], x['n'], x.get('a', '') or '', k['n']])
+                    for v in x.get('v', []) or []:  # versions (revisions, cuvées, bottlings) are findable too
+                        if isinstance(v, dict) and v.get('n'): index.append([c['c'], v['n'], x['n'], k['n']])
                 for m in k.get('m', []) or []:  # models (incl. versions the structure pass demoted) are findable too
                     index.append([c['c'], m[0], m[1] if len(m) > 1 else '', k['n']])
     r = REG.get(c['c'], {})
@@ -99,7 +122,8 @@ for c in meta['cats']:
                     for v in x.get('v', []) or []:
                         if isinstance(v, dict) and v.get('alc'): NOLOW.append([c['c'], k['n'], x['n'], v['n'], v['alc']])
 FW = '../framework/key_v0_8.json'
-S = {'domains': meta['domains'], 'cats': cats, 'index': index, 'nolow': NOLOW, 'fw': json.load(open(FW)) if os.path.exists(FW) else {}}
+json.dump(index, open('reader/_index.json', 'w'), ensure_ascii=False, separators=(',', ':'))  # search index loads on first search
+S = {'domains': meta['domains'], 'cats': cats, 'index': [], 'nolow': NOLOW, 'fw': json.load(open(FW)) if os.path.exists(FW) else {}}
 app = open('app.js').read()
 html = head + '\n' + header + '\n<script>\nconst S = ' + json.dumps(S, ensure_ascii=False, separators=(',', ':')) + ';\n' + app + '</script>\n'
 open('index.html', 'w').write(html)

@@ -37,30 +37,51 @@ function arch(x) {
   if (x.s) box.append($('p', { class: 'src' }, $('a', { href: x.s, target: '_blank', rel: 'noopener', text: 'source' })));
   return box;
 }
-function item(k, term) {
-  const a = $('article', { class: 'item' + (k.x && k.x.length ? ' wide' : ''), 'data-n': k.n, id: k.code ? 'k-' + k.code : null }, $('h5', {}, hl(k.n, term), k.code ? $('span', { class: 'kc', text: k.code }) : null));
+function erow(x) {  // one line per named entry; details are built when the row is opened
+  const d = $('details', { class: 'erow' + (x.role ? ' r-' + x.role : '') }, $('summary', {}, $('b', { text: x.n }), x.role ? $('span', { class: 'role', text: x.role === 'origin' ? 'Origin' : 'Landmark' }) : null,
+    x.mk || x.y || x.cty ? $('i', { text: meta(x.mk, x.y, x.mk ? '' : x.cty) }) : null, x.v && x.v.length ? $('span', { class: 'vc', text: x.v.length + (x.v.length === 1 ? ' version' : ' versions') }) : null));
+  d.addEventListener('toggle', () => { if (!d.open || d.dataset.f) return; d.dataset.f = 1; const b = arch(x); b.querySelector('.ah')?.remove(); d.append(b); });
+  return d;
+}
+function entries(k) {
+  const box = $('div', { class: 'entries' }), gs = [];
+  k.x.forEach(x => { const g = x.g || ''; let e = gs.find(z => z[0] === g); if (!e) gs.push(e = [g, []]); e[1].push(x); });
+  const sectioned = (gs.length > 1 || gs[0][0]) && k.x.length >= 2 * gs.length;
+  box.append($('p', { class: 'ehead' }, $('b', { text: k.x.length + (k.x.length === 1 ? ' named entry' : ' named entries') }), k.xg ? ' · ' + k.xg : ''));
+  if (!sectioned) { box.append($('div', { class: 'erows' }, k.x.map(erow))); return box; }
+  const ids = gs.map((g, n) => (k.code || 'k') + '-g' + n);
+  if (gs.length > 4) box.append($('p', { class: 'gjump' }, gs.map(([g, xs], n) => { const b = $('button', { type: 'button', class: 'tag' }, (g || 'Other') + ' ', $('span', { text: xs.length })); b.addEventListener('click', () => document.getElementById(ids[n])?.scrollIntoView({ block: 'start' })); return b; })));
+  gs.forEach(([g, xs], n) => box.append($('h6', { class: 'xg', id: ids[n] }, g || 'Other', $('span', { text: ' ' + xs.length })), $('div', { class: 'erows' }, xs.map(erow))));
+  return box;
+}
+function item(k, term, openNow) {
+  const nx = (k.x || []).length, m = k.m || [], r = k.r || [];
+  const a = $('article', { class: 'item', 'data-n': k.n, id: k.code ? 'k-' + k.code : null }, $('h5', {}, hl(k.n, term), k.code ? $('span', { class: 'kc', text: k.code }) : null));
   if (k.a) a.append($('p', { class: 'also' }, 'Also called ', hl(k.a, term)));
-  if (k.d) a.append($('p', { class: 'desc', text: k.d }));
-  if (k.tt && k.tt.length) a.append($('div', { class: 'tt' }, k.tt.map(([ax, ts]) => $('p', { class: 'also' }, $('b', { text: ax + ': ' }), hl(ts.join(' · '), term)))));
-  else if (k.t && k.t.length) a.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
-  if (k.see && k.see.length) a.append($('p', { class: 'also see' }, 'See also: ', k.see.flatMap(([c, n, why], i) => { const b = $('button', { class: 'seel', type: 'button', title: why || '' }, n, c !== cur ? $('i', { text: ' (' + catName(c) + ')' }) : null); b.addEventListener('click', () => jump(c, n)); return i ? [' · ', b] : [b]; })));
-  if (k.tg && k.tg.length) a.append($('p', { class: 'tags' }, k.tg.map(t => $('span', { class: 'tag', text: t }))));
-  if (k.nl || k.sel) a.append($('div', { class: 'nl' }, k.nl ? $('p', {}, $('b', { text: 'One entry is ' }), k.nl.replace(/^one entry is /i, '')) : null, k.sel ? $('p', {}, $('b', { text: 'This list: ' }), k.sel) : null));
-  if (k.x && k.x.length) { const det = $('details', { class: 'models', open: '' }, $('summary', { text: k.x.length + (k.x.length === 1 ? ' named entry' : ' named entries') + (k.xg ? ', ' + k.xg : '') }));
-    const gs = []; k.x.forEach(x => { const g = x.g || ''; let e = gs.find(z => z[0] === g); if (!e) gs.push(e = [g, []]); e[1].push(x); });
-    if ((gs.length > 1 || gs[0][0]) && k.x.length >= 2 * gs.length) gs.forEach(([g, xs]) => det.append($('h6', { class: 'xg' }, g || 'Other', $('span', { text: ' ' + xs.length })), $('div', { class: 'archs' }, xs.map(arch))));
-    else det.append($('div', { class: 'archs' }, k.x.map(arch)));
-    a.append(det); }
-  const m = k.m || [], r = k.r || [];
-  if (m.length || r.length) {
-    const lab = [m.length ? m.length + (m.length === 1 ? ' model' : ' models') : '', r.length ? r.length + (r.length === 1 ? ' range' : ' ranges') : ''].filter(Boolean).join(' · ');
-    const det = $('details', { class: 'models' }, $('summary', { text: (k.x && k.x.length ? 'Other ' : '') + lab }));
-    det.addEventListener('toggle', () => { if (!det.open || det.dataset.f) return; det.dataset.f = 1; const ch = $('div', { class: 'chips' });
+  if (k.d) a.append($('p', { class: 'desc clamp', text: k.d }));
+  const hasMore = nx || m.length || r.length || (k.tt && k.tt.length) || (k.t && k.t.length) || (k.see && k.see.length) || k.nl || k.sel || k.s;
+  if (!hasMore) return a;
+  const facts = [nx ? nx + ' named' : '', m.length ? m.length + ' models' : '', r.length ? r.length + ' ranges' : '', k.tt && k.tt.length ? k.tt.length + ' type groups' : ''].filter(Boolean).join(' · ');
+  const body = $('div', { class: 'kbody' }); body.hidden = true;
+  const btn = $('button', { type: 'button', class: 'open-btn' }, 'Show');
+  a.append($('div', { class: 'kfoot' }, $('span', { class: 'kfacts', text: facts }), btn), body);
+  let built = false;
+  const build = () => { if (built) return; built = true;
+    if (k.tt && k.tt.length) body.append($('div', { class: 'tt' }, k.tt.map(([ax, ts]) => $('p', { class: 'also' }, $('b', { text: ax + ': ' }), hl(ts.join(' · '), term)))));
+    else if (k.t && k.t.length) body.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
+    if (k.see && k.see.length) body.append($('p', { class: 'also see' }, 'See also: ', k.see.flatMap(([c, n, why], i) => { const b = $('button', { class: 'seel', type: 'button', title: why || '' }, n, c !== cur ? $('i', { text: ' (' + catName(c) + ')' }) : null); b.addEventListener('click', () => jump(c, n)); return i ? [' · ', b] : [b]; })));
+    if (k.tg && k.tg.length) body.append($('p', { class: 'tags' }, k.tg.map(t => $('span', { class: 'tag', text: t }))));
+    if (k.nl || k.sel) body.append($('div', { class: 'nl' }, k.nl ? $('p', {}, $('b', { text: 'One entry is ' }), k.nl.replace(/^one entry is /i, '')) : null, k.sel ? $('p', {}, $('b', { text: 'This list: ' }), k.sel) : null));
+    if (nx) body.append(entries(k));
+    if (m.length || r.length) { const ch = $('div', { class: 'chips' });
       r.forEach(([n, mk]) => ch.append($('span', { class: 'chip range', title: "a maker's range covering several models" }, n, mk ? $('i', {}, makerEl(mk)) : null)));
-      m.forEach(([n, mk]) => ch.append($('span', { class: 'chip' }, n, mk ? $('i', {}, makerEl(mk)) : null))); det.append(ch); });
-    a.append(det);
-  }
-  if (k.s) a.append($('p', { class: 'src' }, $('a', { href: k.s, target: '_blank', rel: 'noopener', text: 'source' })));
+      m.forEach(([n, mk]) => ch.append($('span', { class: 'chip' }, n, mk ? $('i', {}, makerEl(mk)) : null)));
+      body.append($('p', { class: 'ehead' }, $('b', { text: [m.length ? m.length + ' models' : '', r.length ? r.length + ' ranges' : ''].filter(Boolean).join(' · ') })), ch); }
+    if (k.s) body.append($('p', { class: 'src' }, $('a', { href: k.s, target: '_blank', rel: 'noopener', text: 'source' }))); };
+  const toggle = show => { if (show) build(); body.hidden = !show; a.classList.toggle('wide', show); a.classList.toggle('open', show); btn.textContent = show ? 'Hide' : 'Show'; };
+  btn.addEventListener('click', () => toggle(body.hidden));
+  a.openCard = () => toggle(true);
+  if (openNow) toggle(true);
   return a;
 }
 const TIERS = ['Global group', 'National champion', 'Independent', 'Craft & indie', 'Own label'];
@@ -133,39 +154,50 @@ function renderScenes() {
     if (gi < data.scenes.length) setTimeout(step, 0); else spy(); };
   step();
 }
+let di = 0, diCat = null;  // the open department of the open category
 function renderTree() {
+  if (diCat !== cur) { di = 0; diCat = cur; }
   const total = data.depts.reduce((a, d) => a + d.s.reduce((b, s) => b + s.k.length, 0), 0);
+  data.depts.forEach((d, i) => { d.code = cur + '-' + (i + 1); d.s.forEach((s, j) => { s.code = d.code + '-' + (j + 1); s.k.forEach((k, m) => { k.code = s.code + '-' + String(m + 1).padStart(2, '0'); }); }); });
+  if (di >= data.depts.length) di = 0;
+  const d = data.depts[di];
   const ol = $('ol');
-  data.depts.forEach((d, i) => { const n = d.s.reduce((a, s) => a + s.k.length, 0); d.code = cur + '-' + (i + 1);
-    d.s.forEach((s, j) => { s.code = d.code + '-' + (j + 1); s.k.forEach((k, m) => { k.code = s.code + '-' + String(m + 1).padStart(2, '0'); }); });
-    const li = $('li', { class: 'd' }, $('a', { href: '#' + slug('d', i) }, d.n, $('span', { text: n })));
-    if (d.s.length > 1) li.append($('ol', {}, d.s.map((s, j) => $('li', {}, $('a', { href: '#' + slug('s', i, j) }, s.n, $('span', { text: s.k.length }))))));
+  data.depts.forEach((dd, i) => { const n = dd.s.reduce((a, s) => a + s.k.length, 0);
+    const link = $('a', { href: '#', class: i === di ? 'on' : '' }, dd.n, $('span', { text: n }));
+    link.addEventListener('click', e => { e.preventDefault(); di = i; renderTree(); window.scrollTo({ top: 0 }); });
+    const li = $('li', { class: 'd' }, link);
+    if (i === di && dd.s.length > 1) li.append($('ol', {}, dd.s.map((s, j) => $('li', {}, $('a', { href: '#' + slug('s', i, j) }, s.n, $('span', { text: s.k.length }))))));
     ol.append(li); });
   side.replaceChildren($('h2', { text: catName(cur) }), ol);
   main.replaceChildren();
   const fwc = (S.fw && S.fw.cats && S.fw.cats[cur]) || {};
-  const arch = data.depts.reduce((a, d) => a + d.s.reduce((b, s) => b + s.k.reduce((c, k) => c + (k.x || []).length, 0), 0), 0);
+  const archN = data.depts.reduce((a, dd) => a + dd.s.reduce((b, s) => b + s.k.reduce((c, k) => c + (k.x || []).length, 0), 0), 0);
   const ci = S.cats.find(x => x.c === cur) || {};
-  const head = $('div', { class: 'cat-head' }, $('h2', {}, $('span', { class: 'cc', text: cur }), catName(cur)), $('p', { text: data.lead || '' }));
-  if (fwc.test) head.append($('p', { class: 'test' }, $('b', { text: 'Belongs here: ' }), fwc.test));
-  head.append($('p', { class: 'stats' }, [[total, 'kinds'], [data.depts.length, data.depts.length === 1 ? 'department' : 'departments'], [data.depts.reduce((a, d) => a + d.s.length, 0), 'shelves'], [arch, 'archetypes'], [ci.nb || 0, 'brands']].filter(([n]) => n).map(([n, l]) => $('span', {}, $('b', { text: n.toLocaleString() }), ' ' + l))));
-  if (data.ax) head.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), data.ax));
+  const head = $('div', { class: 'cat-head' }, $('h2', {}, $('span', { class: 'cc', text: cur }), catName(cur)));
+  head.append($('p', { class: 'stats' }, [[total, 'kinds'], [data.depts.length, data.depts.length === 1 ? 'department' : 'departments'], [archN, 'named entries'], [ci.nb || 0, 'brands']].filter(([n]) => n).map(([n, l]) => $('span', {}, $('b', { text: n.toLocaleString() }), ' ' + l))));
+  const about = $('details', { class: 'key' }, $('summary', { text: 'About this category' }), data.lead ? $('p', { text: data.lead }) : null, fwc.test ? $('p', { class: 'test' }, $('b', { text: 'Belongs here: ' }), fwc.test) : null, data.ax ? $('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), data.ax) : null);
+  head.append(about);
   const keySteps = [...(data.key || [])], prec = fwc.prec || [];
   if (keySteps.length || prec.length) head.append($('details', { class: 'key' }, $('summary', { text: 'Key to this category' }), keySteps.map(p => { const e = $('p'); e.innerHTML = p; return e; }), prec.length ? $('p', {}, $('b', { text: 'Edges with other categories' })) : null, prec.map(p => $('p', { class: 'prec', text: p }))));
+  if ((data.b || []).length) head.append($('details', { class: 'key' }, $('summary', { text: 'What makes a good one' }), best(data.b)));
   main.append(head);
   const tb = tabBar(); if (tb) main.append(tb);
-  if ((data.b || []).length) main.append(best(data.b));
-  data.depts.forEach((d, i) => {
-    const sec = $('section', { class: 'dept', id: slug('d', i) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null));
-    if (d.t) sec.append($('p', { class: 'test', text: d.t }));
-    if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), d.ax));
-    if (d.note) sec.append($('p', { class: 'note', text: d.note }));
-    const mk = market(d); if (mk) sec.append(mk);
-    if ((d.b || []).length) sec.append(best(d.b));
-    d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', i, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, $('span', { class: 'cc', text: s.code }), s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') })) : null,
-      s.t ? $('p', { class: 'defn', text: s.t }) : null, s.ax ? $('p', { class: 'axis' }, $('b', { text: 'Order: ' }), s.ax.replace(/^kinds (are )?(ordered |sorted )?by /i, 'by ')) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
-    main.append(sec);
-  });
+  const tabs = $('nav', { class: 'dtabs', 'aria-label': 'Departments' }, data.depts.map((dd, i) => { const b = $('button', { type: 'button', 'aria-pressed': String(i === di) }, dd.n); b.addEventListener('click', () => { di = i; renderTree(); window.scrollTo({ top: 0 }); }); return b; }));
+  if (data.depts.length > 1) main.append(tabs);
+  const sec = $('section', { class: 'dept', id: slug('d', di) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null));
+  if (d.t) sec.append($('p', { class: 'test', text: d.t }));
+  if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), d.ax));
+  if (d.note) sec.append($('p', { class: 'note', text: d.note }));
+  const mk = market(d); if (mk) sec.append(mk);
+  if ((d.b || []).length) sec.append($('details', { class: 'key' }, $('summary', { text: 'What makes a good one' }), best(d.b)));
+  if (d.s.length > 1) sec.append($('p', { class: 'gjump' }, d.s.map((s, j) => { const b = $('button', { type: 'button', class: 'tag' }, s.n + ' ', $('span', { text: s.k.length })); b.addEventListener('click', () => document.getElementById(slug('s', di, j))?.scrollIntoView({ block: 'start' })); return b; })));
+  d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', di, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, $('span', { class: 'cc', text: s.code }), s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') })) : null,
+    s.t ? $('p', { class: 'defn', text: s.t }) : null, s.ax ? $('p', { class: 'axis' }, $('b', { text: 'Order: ' }), s.ax.replace(/^kinds (are )?(ordered |sorted )?by /i, 'by ')) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
+  const nav = $('p', { class: 'dnav' });
+  if (di > 0) { const b = $('button', { type: 'button', class: 'tag' }, '← ' + data.depts[di - 1].n); b.addEventListener('click', () => { di--; renderTree(); window.scrollTo({ top: 0 }); }); nav.append(b); }
+  if (di < data.depts.length - 1) { const b = $('button', { type: 'button', class: 'tag' }, data.depts[di + 1].n + ' →'); b.addEventListener('click', () => { di++; renderTree(); window.scrollTo({ top: 0 }); }); nav.append(b); }
+  sec.append(nav);
+  main.append(sec);
   spy();
 }
 const SEG_ORDER = ["Luxury house", "Designer", "Contemporary & premium", "Heritage & workwear", "Japanese & denim", "Streetwear", "Outdoor & technical", "Athletic & sportswear", "High street", "Value & basics", "Bespoke & artisan", "Traditional & national dress", "Subculture & alternative", "Haute maison", "Independent maker", "Premium", "Mainstream", "Value", "Traditional & regional", "Professional & flagship", "Heritage manufactory", "Artisan & independent", "Specialist", "Own-label & retailer", "Institution & issuer"];
@@ -278,11 +310,17 @@ function openGuide() {
   sec('g-cats', 'Categories and edges', $('div', { class: 'items' }, S.cats.map(c => { const f = (fw.cats || {})[c.c] || {}; const a = $('article', { class: 'item' }, $('h5', {}, $('span', { class: 'cc', text: c.c }), c.n)); if (f.test) a.append($('p', { class: 'desc', text: f.test })); (f.prec || []).forEach(p => a.append($('p', { class: 'also', text: p }))); a.addEventListener('dblclick', () => open(c.c, true)); return a; })));
   spy(); window.scrollTo({ top: 0 });
 }
-async function jump(c, n) { q.value = ''; await open(c, true, null, 'kinds'); if (mode === 'scene' && data && data.scenes && data.scenes.length) { mode = 'tree'; render(); } const el = [...main.querySelectorAll('article.item')].find(a => a.dataset.n === n); if (el) { el.scrollIntoView({ block: 'center' }); el.style.outline = '2px solid var(--flag)'; } }
-function search() {
+async function jump(c, n) { q.value = ''; await open(c, true, null, 'kinds');
+  if (mode === 'scene' && data && data.scenes && data.scenes.length) mode = 'tree';
+  const k = data.depts.findIndex(d => d.s.some(s => s.k.some(k => k.n === n))); if (k >= 0) di = k; diCat = cur; renderTree();
+  const el = [...main.querySelectorAll('article.item')].find(a => a.dataset.n === n);
+  if (el) { el.openCard && el.openCard(); el.scrollIntoView({ block: 'start' }); el.style.outline = '2px solid var(--flag)'; } }
+let IDX = null;
+async function search() {
   const term = q.value.trim().toLowerCase();
+  if (term && !IDX) { try { IDX = await getJSON('reader/_index.json'); } catch (e) { IDX = S.index || []; } if (q.value.trim().toLowerCase() !== term) return; }
   if (!term) { if (view === 'cat' && data) render(); else if (view === 'brands') openBrandIndex(); return; }
-  const hits = S.index.filter(([c, n, a]) => (n + ' ' + a).toLowerCase().includes(term)).slice(0, 200);
+  const hits = (IDX || []).filter(([c, n, a]) => (n + ' ' + a).toLowerCase().includes(term)).slice(0, 200);
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Search' }), $('p', { text: hits.length ? (hits.length === 200 ? 'The first 200 results' : hits.length + (hits.length === 1 ? ' result' : ' results')) + ' for "' + q.value.trim() + '". Choose one to open it in its category.' : 'Nothing is named "' + q.value.trim() + '". Try another word for it, or browse a category above.' })));
   main.append($('div', { class: 'hits' }, hits.map(([c, n, a, p]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', {}, hl(n, term), p ? $('span', { class: 'also' }, ' · ', p) : null, a ? $('span', { class: 'also' }, ' · ', hl(a, term)) : null), $('i', { text: catName(c) }));
     b.addEventListener('click', () => jump(c, p || n)); return b; })));
