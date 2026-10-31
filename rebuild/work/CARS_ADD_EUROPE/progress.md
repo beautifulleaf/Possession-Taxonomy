@@ -4,3 +4,4 @@ step2: q2.py (country-filter query, class regex) run for UK (wd:Q145) -> rows_uk
 step3: Germany done -> rows_de.txt
 step4: France done -> rows_fr.txt (note Peugeot/Citroen/DS excluded as covered; PSA rows dropped). u_it.txt = Italy query url
 step5: Italy done -> rows_it.txt. REVISION read (end of CARS_ADD_COMMON.txt): unstated-class models go to kind 'Car, body style not stated' sectioned by marque; prefer Wikipedia 'List of <marque> vehicles' tables with years read in offset windows; tier Global group if sourced parent is a global carmaker else Independent. ~10 fetches used. Next: List-of pages per marque (Triumph, Rover, Austin, Morris, Vauxhall...), then facts query
+step6: rows_uk_all.txt = full unfiltered rows for 11 British marques (batch1). Wikipedia category API guess for Triumph failed (empty). Next: unfiltered Wikidata (no class filter) for other countries, q3.py
