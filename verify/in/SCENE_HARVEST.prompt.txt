@@ -1,0 +1,11 @@
+Batch SCENE_HARVEST (brands for clothing scenes). Never run git; never edit rebuild/out or rebuild/reader. Your only output file is /home/user/Possession-Taxonomy/verify/work/SCENE_AUDIT/harvest.json; notes only in /home/user/Possession-Taxonomy/verify/work/SCENE_AUDIT/harvest_notes/.
+
+RESUME RULE: if harvest.json exists, read it and continue with scenes not yet in it.
+
+Input: /home/user/Possession-Taxonomy/verify/work/SCENE_AUDIT/harvest_input.json has "missing" (12 dressed scenes not yet in the clothing scenes, each with a source page that describes the dress) and "thin" (scenes that list only 0–2 brands, with their current source and brands). Do not read the old Possessions taxonomy or the Pleasure taxonomy.
+
+For each MISSING scene: fetch its source page; write a one-sentence description of the dress (the garments and look, in your own words, no template phrasing); then find the clothing brands that dress the scene, from fetched pages only (the source page itself, Wikipedia, fashion press, subculture guides, retailer guides). For each THIN scene: add further brands from fetched pages. A brand counts only if a fetched page names it in connection with that scene's dress. Mark each brand core 1 (the page presents it as defining or central to the scene) or 0 (worn or adjacent), and give up to two signature pieces only where the page names them. Clothing brands only (garments, headwear, tracksuits; footwear and bag brands may be listed as 0 only if the page makes them central). No music artists, no titles.
+
+Tools: WebFetch first; if WebFetch is blocked (402/403), mcp__Parallel__web_fetch / mcp__Parallel__web_search with session_id "c0f3a7e2b9d14e6f8a21c5d7e9b0f3a1" and model_name "claude-opus-5-5" (one query per call). Never guess a URL; use only URLs you were given or that search returned. Read long pages in offset windows.
+
+Write harvest.json as {"missing":[{"n":scene name,"d":description,"src":source URL,"b":[[brand,1|0,[signature pieces]]],"bsrc":{brand: URL of the page that names it}}], "thin":[{"scene":exact scene name as given,"add":[[brand,1|0,[pieces]]],"bsrc":{brand:URL}}], "unsourced":[scene names where no fetched page names any brand]}. Write after every two scenes. Aim for 5–20 brands per scene where sources allow; do not pad. Use the whole budget; reply with counts only.
