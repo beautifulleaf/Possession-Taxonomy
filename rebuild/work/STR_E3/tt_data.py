@@ -172,6 +172,8 @@ TT = {
 'Barrel organ': [['Programme', ['Pinned barrel', 'Book music', 'Paper roll']], ['Drive', ['Hand-cranked', 'Motor-driven']], ['Sound source', ['Pipes', 'Free reeds']]],
 'Musical saw': [['Played', ['Bowed', 'Struck with mallet']], ['Voice', ['Soprano', 'Tenor', 'Bass']], ['Pickup', ['Acoustic', 'With pickup']]],
 'Glass harmonica': [['Form', ['Spindle armonica', 'Upright glasses (glass harp)']], ['Drive', ['Pedal-driven', 'Motor-driven']]],
+'Omnichord': [['Playing surface', ['Touch-sensitive strum plate', 'Chord buttons']]],
+'Stylophone': [['Playing surface', ['Metal keyboard played with a stylus']]],
 # ---- Amps & effects
 'Combo amp': [['Technology', ['Valve (tube)', 'Solid-state', 'Modelling', 'Hybrid']], ['Instrument', ['Guitar', 'Bass', 'Acoustic', 'Keyboard']], ['Speaker layout', ['1x8 to 1x12', '2x10', '2x12', '4x10']]],
 'Amp head': [['Technology', ['Valve (tube)', 'Solid-state', 'Hybrid']], ['Size', ['Full-size', 'Lunchbox / mini head']], ['Instrument', ['Guitar', 'Bass']]],

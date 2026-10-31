@@ -1,0 +1,587 @@
+
+## Operating systems & system tools
+  # Operating systems & virtualisation
+   - Desktop operating system |  | D: Operating system that runs a desktop or laptop computer and its applications.
+       T: ['Home edition', 'Pro edition', 'Education edition', 'ARM build', 'install-on-old-PC edition']
+       X: ['Windows', 'macOS', 'ChromeOS']
+   - Linux distribution | distro · GNU/Linux | D: Complete operating system built around the Linux kernel, grouped here by the distribution it descends from.
+       T: ['GNOME edition', 'KDE Plasma edition', 'Xfce edition', 'MATE edition', 'Cinnamon edition', 'LXQt edition', 'rolling release', 'point release', 'immutable', 'live USB', 'gaming', 'security testing', 'privacy-focused']
+       X: ['Debian lineage', 'Red Hat and Fedora lineage', 'Arch lineage', 'openSUSE lineage', 'Mandriva lineage', 'Slackware lineage', 'Gentoo lineage', 'NixOS']
+       M: ['Void Linux', 'Alpine', 'Solus', 'Puppy Linux', 'Tiny Core Linux', 'Guix System', 'Linux From Scratch', 'GoboLinux', 'CRUX', 'Source Mage']
+   - Alternative & hobby operating system | hobby OS · niche OS | D: Desktop operating system outside Windows, macOS and Linux, kept alive by enthusiasts, such as BSDs, BeOS and Amiga descendants, and new from-scratch systems.
+       T: ['BSD on the desktop', 'Unix-like from scratch', 'legacy-system continuation', 'retro platform']
+       X: ['FreeBSD and desktop BSDs', 'Haiku', 'RISC OS', 'OS/2 continuations', 'AmigaOS and descendants', 'ReactOS', 'SerenityOS', 'FreeDOS']
+   - Virtual machine software | virtualisation software | D: Program that runs one or more virtual machines or whole guest systems on the owner's computer.
+       T: ['hosted hypervisor', 'built-in OS hypervisor', 'full-system emulator', 'Apple silicon virtualiser']
+       X: []
+       M: ['VirtualBox', 'VMware Workstation', 'VMware Fusion', 'VMware Player', 'Parallels Desktop for Mac', 'Hyper-V', 'QEMU', 'UTM', 'KVM', 'Virtual Machine Manager', 'Proxmox VE', 'bhyve', 'Windows Virtual PC', 'Virtual PC', 'DOSBox', '86Box', 'Bochs']
+   - App compatibility layer |  | D: Program that runs another operating system's applications directly, without a virtual machine or emulated hardware.
+       T: ['Windows apps on Linux', 'Windows apps on Mac', 'x86 on ARM translation', 'Android apps on desktop']
+       X: []
+       M: ['Wine', 'Proton', 'CrossOver', 'Bottles', 'Wineskin', 'Rosetta 2', 'Box64', 'FEX', 'Hangover', 'Winlator', 'WOW64']
+  # Emulators & game tools
+   - Game emulator |  | D: Program that imitates a game console's, arcade board's or home computer's hardware so that its games run on the owner's computer or phone.
+       T: ['console emulator', 'arcade emulator', 'home-computer emulator', 'multi-system front end', 'phone emulator', 'browser emulator']
+       X: ['MAME', 'RetroArch', 'OpenEmu', 'Dolphin', 'Cemu', 'PCSX2', 'RPCS3', 'PPSSPP', 'DOSBox', 'ScummVM', 'VICE', 'WinUAE']
+       M: ['Mednafen', 'Delta', 'Yuzu', 'Ryujinx', 'Suyu', 'Torzu', 'Eden', 'Citron', 'Citra', 'FCEUX', 'Nestopia', 'NESticle', 'Snes9x', 'ZSNES', 'higan', 'UltraHLE', 'Project64', 'Mupen64Plus', 'Project Unreality', 'VisualBoyAdvance', 'VisualBoyAdvance-M', 'Wzonka-Lad', 'DuckStation', 'ePSXe', 'PCSX-Reloaded', 'bleem!', 'bleemcast!', 'Connectix Virtual Game Station', 'shadPS4', 'KytyPS5', 'Vita3K', 'Stella', 'NeoCD', 'Visual Pinball']
+   - Game mod manager |  | D: Program that downloads, installs, orders and switches game mods in a game's files without being a game or a mod itself.
+       T: ['virtual file system', 'Nexus-linked', 'Thunderstore profiles', 'Minecraft platform', 'load-order sorter']
+       X: ['Vortex', 'Mod Organizer 2', 'Nexus Mods App', 'Thunderstore Mod Manager', 'Minecraft mod platforms']
+       M: ['ME3Tweaks Mod Manager', 'CKAN', 'RimSort', 'Stardrop', 'Wrye Bash', 'LOOT']
+  # Clean, tune & repair
+   - PC cleaner | system cleaner · optimiser | D: Program that removes junk files and tunes settings to keep a computer or phone clean and fast.
+       T: ['disk cleanup', 'registry cleaner', 'privacy cleaner', 'phone cleaner', 'built-in storage tool']
+       X: []
+       M: ['CCleaner', 'Windows Storage Sense', 'Advanced SystemCare', 'AVG TuneUp', 'Avast Cleanup', 'Norton Utilities Premium', 'System Mechanic', 'Ashampoo WinOptimizer', 'Glary Utilities', 'BleachBit', 'SD Maid SE']
+   - Uninstaller |  | D: Program that removes installed applications together with their leftover files and settings.
+       T: ['leftover scanner', 'portable', 'batch uninstall']
+       X: []
+       M: ['Revo Uninstaller', 'IObit Uninstaller', 'Geek Uninstaller', 'Ashampoo Uninstaller', 'Wise Program Uninstaller', 'HiBit Uninstaller', 'Total Uninstall', 'Advanced Uninstaller Pro', 'Soft Organizer']
+   - Driver updater |  | D: Program that finds out-of-date device drivers and installs newer ones.
+       T: ['online updater', 'offline driver pack']
+       X: []
+       M: ['Driver Booster', 'Driver Easy', 'Auslogics Driver Updater', 'Avast Driver Updater', 'Glary Drivers Manager', 'DriverPack Solution']
+   - Partition manager |  | D: Program that creates, resizes, moves, merges and converts disk partitions.
+       T: ['graphical', 'command-line', 'bootable live disc', 'built-in OS tool']
+       X: []
+       M: ['GParted', 'MiniTool Partition Wizard', 'AOMEI Partition Assistant', 'DiskGenius', 'Acronis Disk Director', 'KDE Partition Manager', 'GNOME Disks', 'Disk Utility', 'Logical Disk Manager', 'diskpart', 'fdisk (Unix-like)', 'PartitionMagic']
+   - System utility suite |  | D: Bundle of small system tools, such as window, file, keyboard and settings utilities, sold or given as one set rather than as a cleaner.
+       T: None
+       X: []
+       M: ['Microsoft PowerToys', 'Windows Repair Toolbox', 'WinTools.net']
+  # Backup & recovery
+   - Backup software | disk-cloning software | D: Program that copies files, a disk or a whole system image to the owner's own drives; backup to a provider's servers is in Subscriptions, Memberships & Online Services.
+       T: ['system image', 'file backup', 'folder sync', 'disk cloning', 'bootable rescue media', 'built-in OS tool']
+       X: []
+       M: ['Time Machine', 'Windows Backup and Restore', 'Acronis True Image', 'Macrium Reflect', 'Carbon Copy Cloner', 'Retrospect', 'Clonezilla', 'Restic', 'BorgBackup']
+   - Data recovery software |  | D: Program that recovers deleted, lost or corrupted files from drives, memory cards and damaged partitions.
+       T: ['deleted-file recovery', 'formatted-partition recovery', 'memory-card recovery', 'phone recovery']
+       X: []
+       M: ['Disk Drill', 'EaseUS Data Recovery Wizard', 'Stellar Data Recovery', 'Recoverit', 'MiniTool Power Data Recovery', 'Windows File Recovery', '4DDiG Data Recovery', 'iBoysoft Data Recovery', 'Wise Data Recovery', 'Puran File Recovery']
+   - PC migration software |  | D: Program that moves installed applications, settings and files from one computer to another.
+       T: ['network transfer', 'cable transfer', 'image-based transfer']
+       X: []
+       M: ['Laplink PCmover', 'EaseUS Todo PCTrans', 'Zinstall WinWin', 'Zinstall Easy Transfer', 'Windows Easy Transfer', 'Transwiz']
+  # Files, archives & remote access
+   - File manager |  | D: Program for browsing, copying, moving, renaming and organising files and folders, often in two panes.
+       T: ['built-in OS file manager', 'dual-pane (orthodox)', 'terminal/CLI', 'mobile']
+       X: []
+       M: ['File Explorer', 'Finder', 'Files by Google', 'Total Commander', 'Directory Opus', 'XYplorer', 'Dolphin', 'Midnight Commander']
+   - File archiver |  | D: Program that packs files into compressed archives and unpacks them.
+       T: ['built-in OS tool', 'graphical', 'command-line']
+       X: []
+       M: ['7-Zip', 'WinRAR', 'WinZip', 'Compressed Folders', 'Archive Utility', 'PeaZip', 'Bandizip', 'PowerArchiver', 'The Unarchiver', 'BetterZip', 'Archive Manager (File Roller)', 'Ark', 'GNU tar', 'Info-ZIP', 'PKZIP', 'StuffIt']
+   - Remote desktop software |  | D: Program that shows and controls another computer's screen over a network, here for personal and home use.
+       T: ['remote support', 'unattended access', 'game streaming', 'VNC client/server', 'built-in OS tool']
+       X: []
+       M: ['TeamViewer', 'AnyDesk', 'Chrome Remote Desktop', 'Remote Desktop Services', 'Apple Screen Sharing', 'RustDesk', 'Splashtop', 'Parsec', 'RealVNC', 'TightVNC', 'UltraVNC', 'NoMachine', 'GoToMyPC', 'Remmina']
+   - Desktop search tool |  | D: Program that indexes a computer's files and finds them by name or content.
+       T: ['built-in OS search', 'filename search', 'full-text search']
+       X: []
+       M: ['Windows Search', 'Spotlight', 'Everything', 'Copernic Desktop Search', 'X1 Desktop Search', 'Lookeen', 'DocFetcher', 'Recoll', 'Baloo', 'Tracker', 'Google Desktop']
+   - App launcher | application launcher | D: Program that opens applications, files and commands from a typed name or shortcut.
+       T: ['keyboard launcher', 'dock', 'menu launcher']
+       X: []
+       M: ['Alfred', 'Raycast', 'LaunchBar', 'Quicksilver', 'Microsoft PowerToys Run', 'Launchy', 'Wox', 'ueli', 'Synapse', 'dmenu']
+   - Disc burning software |  | D: Program that writes data, audio or disc images to optical discs.
+       T: ['data disc', 'audio CD', 'disc image (ISO) tool', 'video DVD/Blu-ray authoring']
+       X: []
+       M: ['Nero Burning ROM', 'Roxio Creator', 'Roxio Toast', 'ImgBurn', 'CDBurnerXP', 'Ashampoo Burning Studio', 'AnyBurn', 'PowerISO', 'UltraISO', 'Alcohol 120%', 'K3b', 'Brasero', 'Xfburn', 'DVDStyler']
+  # Home server & self-hosting
+   - Home server software | self-hosted server · NAS software | D: Software that turns a spare computer or NAS box into a media, storage or home-automation server.
+       T: ['home automation', 'NAS operating system', 'media server']
+       X: ['Home Assistant', 'TrueNAS', 'Unraid', 'Plex Media Server', 'Jellyfin']
+  # Desktop customisation & automation
+   - Desktop customisation tool | desktop skin · automation scripting | D: Windows software that restyles the desktop or automates keystrokes and tasks.
+       T: ['desktop skin', 'live wallpaper', 'keystroke scripting']
+       X: ['Rainmeter', 'Wallpaper Engine', 'AutoHotkey']
+
+## Security & privacy
+  # Antivirus, firewalls & parental controls
+   - Antivirus software | antivirus and security suite · internet security | D: Program that protects a computer or phone from malware and online threats; free antivirus, internet-security and total-security editions are one kind.
+       T: ['free edition', 'antivirus only', 'internet security', 'total security suite', 'Mac edition', 'mobile edition', 'built-in OS protection']
+       X: []
+       M: ['Microsoft Defender Antivirus', 'Norton 360', 'Bitdefender Total Security', 'Kaspersky Premium', 'McAfee Total Protection', 'Avast One', 'AVG AntiVirus', 'ESET Security Ultimate', 'Malwarebytes Premium', 'TotalAV', 'Trend Micro Internet Security', 'F-Secure Total']
+       R: [['Avira Internet Security', 'Avira'], ['G DATA Total Security', 'G Data CyberDefense'], ['Sophos Home Premium', 'Sophos'], ['Panda Dome Advanced', 'Panda Security'], ['K7 Total Security', 'K7 Computing'], ['Quick Heal Total Security', 'Quick Heal'], ['AhnLab V3 Internet Security', 'AhnLab'], ['Intego ONE Complete', 'Intego'], ['VIPRE Advanced Security', 'VIPRE Security Group'], ['Total Defense Essential Anti-Virus', 'Total Defense']]
+   - Firewall | firewall software | D: Program that allows or blocks a computer's or phone's network connections by application, port or address, sold on its own rather than inside a security suite. A firewall appliance is in Computers & Components.
+       T: ['outbound per-app prompts', 'Windows Firewall front end', 'no-root Android', 'network monitor']
+       X: []
+       M: ['Little Snitch', 'LuLu', 'GlassWire', 'simplewall', 'TinyWall', 'Portmaster', 'OpenSnitch', 'NetGuard', 'Comodo Firewall', 'ZoneAlarm Free Firewall', 'AFWall+', 'RethinkDNS']
+   - Parental controls | parental-control software · content-filter software | D: Program or hosted filter that blocks or limits web content, apps and screen time for chosen users or devices.
+       T: ['web filter', 'screen-time limits', 'social-media monitoring', 'location sharing', 'built-in OS family settings']
+       X: []
+       M: ['Qustodio', 'Bark', 'Aura Family Plan', 'Kaspersky Safe Kids', 'Net Nanny', 'Mobicip', 'Covenant Eyes', 'ScreenLimit']
+  # Passwords, VPN & encryption
+   - Password manager |  | D: App that stores, generates and fills in passwords, passkeys and logins.
+       T: ['free plan', 'premium plan', 'family plan', 'built-in to OS or browser', 'local vault file']
+       X: []
+       M: ['1Password', 'Bitwarden', 'Dashlane', 'Keeper', 'NordPass', 'Proton Pass', 'LastPass', 'RoboForm', 'Passwords', 'Google Password Manager', 'KeePassXC']
+   - VPN | VPN service and client | D: VPN client, with the service it connects to, that encrypts the owner's connection and routes it through a private network.
+       T: ['single-device plan', 'multi-device plan', 'free tier', 'bundled with security suite']
+       X: []
+       M: ['NordVPN', 'ExpressVPN', 'Surfshark', 'ProtonVPN', 'Mullvad', 'Private Internet Access', 'CyberGhost', 'IPVanish', 'Windscribe', 'TunnelBear']
+   - Encryption software | disk and file encryption software | D: Program that encrypts whole drives, partitions, containers or single files so they open only with a key or password.
+       T: ['full-disk encryption', 'encrypted container', 'file and email encryption', 'cloud-folder encryption', 'built-in OS tool']
+       X: []
+       M: ['BitLocker', 'FileVault', 'dm-crypt / LUKS', 'VeraCrypt', 'BestCrypt', 'Cryptomator', 'GnuPG', 'TrueCrypt']
+   - Password recovery software |  | D: Program that recovers or removes forgotten passwords of files, archives, accounts or devices.
+       T: None
+       X: []
+       M: ['Passware Kit', 'PassFab 4WinKey']
+   - Data eraser | data-erasure software | D: Program that overwrites storage so that the erased data cannot be recovered.
+       T: ['bootable drive wiper', 'file shredder', 'built-in OS tool']
+       X: []
+       M: ['Eraser', "Darik's Boot and Nuke", 'nwipe', 'ShredOS', 'Active@ KillDisk', 'BleachBit', 'CCleaner', 'Disk Utility', 'shred']
+
+## Office & productivity
+  # Office suites & documents
+   - Office suite | spreadsheet program · presentation program | D: Bundle of word-processing, spreadsheet and presentation programs sold as one product.
+       T: ['one-time purchase', 'subscription', 'free and open source', 'web-based', 'mobile office app', 'word processor', 'spreadsheet', 'presentation']
+       X: ['Microsoft Office', 'iWork', 'Google Workspace', 'LibreOffice', 'WPS Office', 'OnlyOffice']
+       M: ['Apache OpenOffice', 'SoftMaker Office', 'Zoho Workplace', 'Hancom Office', 'WordPerfect Office', 'Calligra Suite', 'Collabora Online', 'Apple Creator Studio', 'Microsoft Word', 'Pages', 'Google Docs', 'Microsoft Excel', 'Numbers', 'Google Sheets', 'Microsoft PowerPoint', 'Apple Keynote', 'Google Slides']
+   - PDF editor | PDF reader | D: Program that views, annotates, edits, fills or signs PDF files.
+       T: ['reader only', 'editor', 'built-in OS viewer', 'online tool', 'PDF printer']
+       X: ['Adobe Acrobat']
+       M: ['Foxit PDF Editor', 'Preview', 'PDF Expert', 'PDFelement', 'Nitro PDF Pro', 'PDF-XChange', 'Sumatra PDF', 'Okular', 'PDFgear', 'PDF24 Creator', 'Adobe Reader']
+   - OCR software |  | D: Program that turns scanned pages, images and image-only PDFs into editable, searchable text.
+       T: ['desktop application', 'open-source engine', 'screenshot OCR', 'Indic-language']
+       X: ['ABBYY FineReader']
+       M: ['OmniPage', 'Tesseract', 'OCRFeeder', 'OCRopus', 'GOCR', 'Ocrad', 'CuneiForm', 'E-aksharayan']
+  # Notes, tasks & calendars
+   - Note-taking app |  | D: App for writing, organising and searching personal notes.
+       T: ['plain notes', 'linked notes and personal wiki', 'outliner', 'handwritten notes', 'journal']
+       X: []
+       M: ['Microsoft OneNote', 'Apple Notes', 'Google Keep', 'Evernote', 'Notion', 'Obsidian', 'Samsung Notes', 'Joplin', 'Bear', 'Notability', 'Simplenote', 'Day One']
+   - Task manager | to-do app · project planner | D: App for listing tasks, tracking their progress and planning personal or small-team projects.
+       T: ['to-do list', 'kanban board', 'Gantt planner', 'habit tracker']
+       X: []
+       M: ['Todoist', 'Microsoft To Do', 'Apple Reminders', 'TickTick', 'Things', 'OmniFocus', 'Any.do', 'Remember the Milk', 'Trello', 'Asana', 'ClickUp', 'Basecamp']
+   - Calendar app | scheduling app | D: App for keeping a calendar and scheduling appointments.
+       T: ['family calendar', 'booking link', 'AI auto-scheduler']
+       X: []
+       M: ['Google Calendar', 'Apple Calendar', 'Outlook Calendar', 'Fantastical', 'Proton Calendar', 'Notion Calendar', 'Morgen', 'Cozi Central', 'Calendly', 'Motion']
+   - Mind mapping software |  | D: Program for laying out ideas as branching maps around a central topic.
+       T: ['mind map', 'concept map', 'personal knowledge graph']
+       X: []
+       M: ['XMind', 'MindManager', 'MindMeister', 'MindView', 'Mindomo', 'MindMapper', 'ConceptDraw MINDMAP', 'TheBrain', 'CmapTools']
+   - Diagramming software |  | D: Program for drawing flowcharts, org charts and network or floor diagrams from connected shapes.
+       T: ['desktop', 'browser-based', 'online whiteboard']
+       X: []
+       M: ['Microsoft Visio', 'draw.io', 'Lucidchart', 'OmniGraffle', 'SmartDraw', 'EdrawMax', 'yEd', 'Google Drawings', 'LibreOffice Draw', 'Dia', 'Gliffy', 'Creately', 'Miro', 'Excalidraw', 'Whimsical']
+   - Long-form writing app | manuscript software · writing studio | D: Writing software that organises a book-length manuscript with research, outline and drafts together.
+       T: None
+       X: ['Scrivener']
+  # Language, typing & voice
+   - Language-learning software |  | D: Interactive program that teaches a language by testing, correcting or adapting to the user's answers.
+       T: ['course app', 'flashcard (spaced repetition)', 'audio course', 'reading and immersion', 'conversation exchange', 'dictionary app']
+       X: []
+       M: ['Duolingo', 'Babbel', 'Rosetta Stone', 'Busuu', 'Memrise', 'Pimsleur', 'Mondly', 'Drops', 'LingQ', 'Anki', 'HelloTalk', 'Pleco']
+   - Machine translation software |  | D: Program that translates text between languages automatically.
+       T: ['text', 'document', 'camera', 'conversation (speech)']
+       X: []
+       M: ['Google Translate', 'DeepL', 'Microsoft Translator', 'Apple Translate', 'Naver Papago', 'Baidu Fanyi', 'Yandex Translate', 'Reverso', 'PROMT', 'SYSTRAN']
+   - Dictation software | speech-recognition software · voice typing | D: Program that turns the user's speech into typed text and voice commands.
+       T: ['built-in OS voice typing', 'desktop dictation', 'mobile dictation', 'AI transcription', 'voice control', 'legal or medical edition']
+       X: []
+       M: ['Dragon Professional', 'Dragon Anywhere Mobile', 'Dragon NaturallySpeaking', 'Apple Dictation', 'Windows Voice Typing', 'Windows Voice Access', 'Google Docs Voice Typing', 'Microsoft 365 Dictation', 'Wispr Flow', 'SuperWhisper', 'Otter.ai', 'Talon Voice']
+   - Text-to-speech software | AI voice generator | D: Program that turns written text into spoken audio with synthetic voices.
+       T: ['screen reader voice', 'read-aloud app', 'AI voice generator', 'open-source synthesiser']
+       X: []
+       M: ['Typecast', 'CereProc', 'Cepstral', 'VoiceText', 'Nuance Vocalizer', 'Microsoft Speech API', 'eSpeak', 'Festival Speech Synthesis System', 'Balabolka', 'NaturalReader', 'Panopreter Basic']
+   - Input method editor |  | D: Program that turns keystrokes into the characters of a language such as Japanese or Chinese, using conversion dictionaries.
+       T: ['built-in OS input method', 'on-screen phone keyboard', 'Japanese', 'Chinese pinyin', 'Korean']
+       X: []
+       M: ['Microsoft IME', 'Microsoft Pinyin IME', 'Kotoeri', 'Gboard', 'Google Japanese Input', 'Google Input Tools', 'ATOK', 'Sogou Pinyin', 'Baidu Input', 'QQ Pinyin', 'Anthy']
+   - Typing tutor |  | D: Program that teaches touch typing with drills that test and correct the user's keystrokes.
+       T: None
+       X: []
+       M: ['Ratatype', 'TIPP10', 'KTouch', 'Klavaro', 'Tux Typing', 'FingerGo', 'Open-Typer']
+   - Computer-assisted translation tool | CAT tool | D: Program that helps a human translator with translation memories, term bases and segment-by-segment editing.
+       T: ['desktop', 'cloud']
+       X: []
+  # Money, tax & freelance work
+   - Personal finance manager | budgeting app · 家計簿 | D: Program for tracking accounts, budgets and household money.
+       T: ['budgeting app', 'desktop ledger', 'net-worth tracker', 'couples budget', 'kakeibo']
+       X: []
+       M: ['Quicken', 'You Need a Budget', 'Monarch Money', 'Copilot Money', 'Empower Personal Dashboard', 'EveryDollar', 'Goodbudget', 'GnuCash', 'Moneydance', 'Banktivity', 'Money Forward ME', 'Zaim']
+   - Tax software | tax-preparation software | D: Program that prepares and files a personal tax return.
+       T: ['free filing', 'self-employed edition', 'government portal']
+       X: []
+       M: ['TurboTax', 'H&R Block Tax Software', 'TaxAct', 'FreeTaxUSA', 'TaxSlayer', 'Cash App Taxes', 'ELSTER', 'WISO Steuer', 'Taxfix', 'smartsteuer', 'Steuer-Spar-Erklärung']
+   - Accounting software |  | D: Program for bookkeeping, invoicing and financial reporting for a freelancer or small business.
+       T: ['cloud', 'desktop', 'sole-trader self-assessment']
+       X: []
+   - Time-tracking software |  | D: Program that records time spent on tasks and projects for billing or personal review.
+       T: ['timer app', 'automatic activity log']
+       X: []
+       M: ['Toggl', 'Harvest', 'Everhour', 'ManicTime', 'Fanurio']
+   - Survey and form software |  | D: Program or hosted tool for building questionnaires and forms, collecting answers and reporting them.
+       T: None
+       X: []
+
+## Internet & AI
+  # Browsers, email & downloads
+   - Web browser |  | D: Program for viewing websites.
+       T: ['Blink engine', 'Gecko engine', 'WebKit engine', 'privacy-focused', 'mobile', 'AI browser']
+       X: []
+       M: ['Google Chrome', 'Microsoft Edge', 'Safari', 'Mozilla Firefox', 'Samsung Browser', 'Opera', 'Brave', 'Vivaldi', 'DuckDuckGo Browser', 'Tor Browser', 'Internet Explorer', 'Netscape Navigator']
+   - Email client |  | D: Program that reads and sends email from a mailbox hosted elsewhere; the mailbox itself is in Subscriptions, Memberships & Online Services.
+       T: ['built-in OS mail app', 'desktop', 'mobile', 'terminal']
+       X: []
+       M: ['Microsoft Outlook', 'Apple Mail', 'Mozilla Thunderbird', 'Samsung Email', 'Spark', 'EM Client', 'Mailbird', 'Superhuman', 'Canary Mail', 'K-9 Mail', 'Mutt', 'Eudora']
+   - Download manager |  | D: Program that queues, accelerates, pauses and resumes file downloads over HTTP, FTP and similar protocols.
+       T: ['desktop', 'browser-integrated', 'link grabber']
+       X: []
+       M: ['Internet Download Manager', 'Free Download Manager', 'JDownloader', 'Xunlei', 'Download Accelerator Plus', 'KGet', 'FlashGet', 'GetRight']
+   - BitTorrent client |  | D: Program that downloads and shares files over the BitTorrent protocol.
+       T: ['desktop', 'web UI and headless', 'terminal']
+       X: []
+       M: ['qBittorrent', 'Transmission', 'Deluge', 'uTorrent', 'BitTorrent', 'BiglyBT', 'Vuze', 'BitComet', 'Tixati', 'KTorrent', 'rTorrent', 'Tribler']
+  # AI assistants & agents
+   - AI assistant | conversational AI assistant · chatbot · voice assistant | D: AI assistant the user talks or writes to for answers, drafting, coding and other general tasks.
+       T: ['chat assistant', 'voice assistant', 'companion chatbot', 'free tier', 'paid plan']
+       X: []
+       M: ['ChatGPT', 'Gemini', 'Claude', 'Microsoft Copilot', 'Meta AI', 'Grok', 'DeepSeek', 'Doubao', 'Qwen', 'Siri', 'Alexa', 'Google Assistant']
+   - AI answer engine | AI research engine | D: AI tool that answers questions or researches a topic with cited sources.
+       T: ['web answer engine', 'scholarly research assistant']
+       X: []
+       M: ['Perplexity', 'Kagi', 'You.com', 'Genspark', 'Andi', 'Consensus', 'Elicit']
+   - AI agent platform |  | D: AI tool that carries out multi-step tasks or automations on the user's behalf.
+       T: ['general agent', 'no-code automation', 'personal agent']
+       X: []
+       M: ['Manus', 'OpenClaw', 'Zapier Agents', 'Make AI Agents', 'n8n', 'Lindy', 'Gumloop', 'Bardeen', 'Activepieces', 'Magic Loops', 'Replit Agent']
+  # Add-ons & device apps
+   - Browser extension |  | D: Add-on that adds features to a web browser.
+       T: ['ad and tracker blocker', 'password manager', 'writing aid', 'video and media tool', 'appearance and reading', 'tab manager']
+       X: []
+       M: ['uBlock Origin', 'Adblock Plus', 'AdGuard AdBlocker', 'Privacy Badger', 'Ghostery', 'Bitwarden Password Manager', 'LastPass', 'Grammarly', 'Dark Reader', 'SponsorBlock', 'Return YouTube Dislike', 'Video DownloadHelper']
+   - Office suite add-in | productivity-suite add-in | D: Add-in that adds features to an office or workspace suite.
+       T: ['email add-in', 'document add-in', 'spreadsheet add-in', 'presentation add-in']
+       X: []
+       M: ['MathType', 'DocuSign', 'DocHub', 'Mailtrack', 'Boomerang', 'Yet Another Mail Merge', 'GPT for Excel & Sheets', 'Canva for Google Workspace', 'Lucidchart', 'draw.io', 'Zoom for Gmail', 'Dropbox for Gmail']
+   - Device companion app |  | D: App that records and shows the readings of one device and does nothing medical.
+       T: None
+       X: []
+       M: ['Garmin Connect', 'Fitbit', 'Polar Flow', 'Mi Fit']
+   - Device feature unlock | paid feature unlock for built-in device software | D: Paid unlock or subscription that switches on a function of software built into one device.
+       T: ['one-off unlock', 'subscription']
+       X: []
+       M: ['Tesla rear heated seats unlock', 'BMW heated seats activation', 'BMW adaptive cruise control subscription', 'BMW Apple CarPlay preparation', 'BMW remote engine start', 'Audi Virtual Cockpit Functions on Demand', 'Porsche adaptive steering Plus', 'Porsche Intelligent Range Manager', 'Volkswagen voice control', 'Opel live data']
+       R: [['ConnectedDrive Store', 'BMW']]
+
+## Photo, design & 3D
+  # Photo editing & imaging
+   - Image editor | raster image editor | D: Program for editing and painting pixel-based images.
+       T: ['layer-based photo editor', 'free and open source', 'browser-based', 'quick viewer and editor', 'consumer editor', 'mobile editor']
+       X: ['Adobe Photoshop', 'Photoshop Elements', 'GIMP', 'Affinity Photo', 'Paint.NET', 'Pixelmator']
+       M: ['Corel PaintShop Pro', 'Photopea', 'Pinta', 'Krita', 'Microsoft Paint', 'IrfanView', 'XnView MP', 'Zoner Photo Studio', 'PhotoLine', 'GraphicConverter', 'Acorn', 'Pixlr', 'PhotoScape', 'ImageJ', "G'MIC", 'Xara Photo & Graphic Designer']
+   - Photo manager & RAW developer | RAW developer | D: Program that catalogues, views and develops photographs, including camera RAW files.
+       T: ['catalogue', 'RAW converter', 'free and open source', 'cloud photo library', 'built-in OS photos app']
+       X: ['Lightroom Classic', 'Lightroom', 'Capture One', 'darktable', 'DxO PhotoLab']
+       M: ['Adobe Bridge', 'Photos (Apple)', 'Photos (Windows)', 'Google Photos', 'ON1 Photo RAW', 'Luminar Neo', 'Zoner Photo Studio', 'ACDSee', 'RawTherapee', 'digiKam', 'Photo Mechanic', 'Corel AfterShot Pro', 'Iridient Developer', 'Silkypix Developer Studio', 'Digital Photo Professional', 'Affinity']
+   - AI image generator |  | D: Program or hosted tool that makes or changes images from a text or image prompt; making new images and editing existing ones are the same product type.
+       T: ['hosted chat service', 'Discord bot', 'open-weights model', 'built into design software']
+       X: ['Midjourney', 'DALL-E and GPT Image', 'Stable Diffusion', 'Adobe Firefly']
+       M: ['Flux', 'Imagen', 'Ideogram', 'Recraft', 'Qwen-Image', 'HiDream', 'Kolors', 'Seedream 5 Pro', 'HunyuanImage', 'Aurora', 'Krea 3']
+   - Creative suite |  | D: All-apps bundle of one maker's creative programs, sold under its own name rather than after one program. Editions and plans are the same product.
+       T: ['subscription', 'one-time purchase', 'single-app plan', 'photography plan']
+       X: ['Adobe Creative Suite and Creative Cloud', 'Affinity']
+  # Drawing, design & type
+   - Digital painting app | digital art app · illustration app | D: Program that imitates brushes, paint and paper for drawing and painting on a tablet or pen display.
+       T: ['iPad app', 'pen-tablet desktop app', 'comic and manga tools', 'natural-media simulator', 'free and open source']
+       X: ['Procreate', 'Clip Studio Paint', 'Krita', 'Corel Painter', 'Rebelle', 'PaintTool SAI', 'ArtRage']
+   - Vector graphics editor |  | D: Program for drawing and editing shape-based graphics that scale without loss.
+       T: ['illustration', 'UI design', 'free and open source', 'browser-based', 'diagramming']
+       X: ['Adobe Illustrator', 'CorelDRAW', 'Inkscape', 'Affinity Designer', 'Sketch', 'Figma', 'Adobe FreeHand']
+       M: ['Penpot', 'Boxy SVG', 'Xara Designer Pro+', 'OmniGraffle', 'LibreOffice Draw', 'VectorStyler', 'Google Drawings']
+   - Desktop publishing software | page layout software | D: Program for laying out multi-page documents such as magazines, books and brochures from text and images for print or screen.
+       T: ['print layout', 'ebook layout', 'technical documentation', 'free and open source']
+       X: ['Adobe InDesign', 'QuarkXPress', 'Aldus PageMaker', 'Affinity Publisher', 'Scribus']
+       M: ['Microsoft Publisher', 'Adobe FrameMaker', 'Swift Publisher', 'PageStream', 'Xara Page & Layout Designer', 'InPage', 'VivaDesigner']
+   - Graphic design app |  | D: Template-driven design app for flyers, social posts, resumes and similar layouts, fitting neither raster nor vector editing alone.
+       T: ['browser-based', 'mobile', 'brand kit', 'social-media templates']
+       X: ['Canva', 'Adobe Express']
+       M: ['VistaCreate', 'BeFunky', 'Fotor', 'PicMonkey', 'Piktochart', 'Visme', 'Snappa', 'Desygner', 'Stencil', 'Placeit', 'Pixlr', 'Marq']
+   - Font manager |  | D: Program that installs, organises and previews fonts.
+       T: ['activation manager', 'font viewer', 'team font server', 'built-in OS font book']
+       X: []
+       M: ['Suitcase Fusion', 'Connect', 'Font Explorer X Pro', 'FontBase', 'NexusFont', 'MainType', 'FontExpert', 'Font-Manager', 'Fontmatrix', 'RightFont', 'Fontcase']
+       R: [['Extensis font managers', 'Extensis']]
+  # 3D, CAD & making
+   - 3D modelling software |  | D: Program for modelling, sculpting and rendering three-dimensional objects.
+       T: ['general-purpose suite', 'digital sculpting', 'character and figure posing', 'procedural and node-based', 'architectural and interior', 'rendering']
+       X: ['Blender', 'Autodesk Maya', 'Autodesk 3ds Max', 'Cinema 4D', 'ZBrush', 'Houdini', 'Rhinoceros 3D']
+       M: ['LightWave 3D', 'Modo', 'Wings 3D', '3D-Coat', 'Shapr3D', 'Plasticity', 'OpenSCAD', 'Sweet Home 3D', 'Daz Studio', 'Poser', 'iClone', 'Bryce', 'Carrara', 'Cheetah3D', 'form-Z', 'POV-Ray', 'MeshLab', 'BrickLink Studio', 'LeoCAD', 'Autodesk Mudbox']
+   - CAD software |  | D: Program for computer-aided design and drafting of parts, buildings and drawings.
+       T: ['2D drafting', 'parametric solid modelling', 'browser-based', 'free and open source', 'architectural']
+       X: ['AutoCAD', 'Autodesk Fusion', 'SolidWorks', 'FreeCAD', 'SketchUp', 'Onshape', 'Tinkercad']
+       M: ['Autodesk Inventor', 'BricsCAD', 'LibreCAD', 'QCAD', 'DraftSight', 'SolveSpace', 'TurboCAD', 'Vectorworks Fundamentals', 'Archicad', 'Solid Edge', 'Alibre Design', 'ZWCAD']
+   - 3D printing slicer |  | D: Program that prepares a 3D model for printing by slicing it into printer instructions.
+       T: ['filament (FDM)', 'resin', 'printer-maker slicer', 'open source']
+       X: ['Cura', 'Slic3r lineage']
+       M: ['CHITUBOX', 'Lychee Slicer', 'Simplify3D', 'KISSlicer', 'Elegoo Print', 'Anycubic Slicer Next', 'Formlabs PreForm', 'ideaMaker', 'Voxeldance Tango']
+   - Laser & CNC control software | laser software · CNC CAM | D: Program that lays out designs and sends them to a hobby laser cutter, engraver or CNC router.
+       T: ['G-code laser (GRBL)', 'DSP controller laser', 'desktop CAM', 'cloud CAM']
+       X: ['LightBurn', 'LaserGRBL', 'Easel', 'Carbide Create']
+   - Circuit design software | EDA software · PCB design software | D: Program for drawing electronic schematics, laying out printed circuit boards and checking them for manufacture.
+       T: ['schematic and PCB layout', 'circuit simulator', 'browser-based', 'free and open source', 'beginner breadboard view']
+       X: ['KiCad', 'EAGLE', 'Altium Designer', 'EasyEDA']
+       M: ['DipTrace', 'LibrePCB', 'Fritzing', 'Proteus Design Suite', 'OrCAD', 'LTspice', 'Qucs', 'gEDA', 'DesignSpark PCB', 'NI Multisim', 'FreePCB', 'TINA']
+   - Photogrammetry software |  | D: Program that builds 3D models or measured maps from sets of overlapping photographs.
+       T: ['desktop reconstruction', 'phone scanning app', 'drone mapping', 'free and open source']
+       X: ['Agisoft Metashape', 'RealityCapture', 'Meshroom', 'Polycam']
+       M: ['3DF Zephyr', 'Pix4Dmapper', 'OpenDroneMap', 'PhotoModeler', 'Qlone']
+   - Embroidery digitising software | embroidery software | D: Program that turns artwork or lettering into stitch files for an embroidery machine.
+       T: ['digitising', 'editing and lettering only', 'free and open source', 'machine-maker software']
+       X: ['Hatch Embroidery', 'Embrilliance', 'Ink/Stitch']
+       M: ['Wilcom', 'Embird', 'Bernina Embroidery Software', 'PE-Design', 'Janome Digitizer']
+
+## Video & animation
+  # Video editing, effects & animation
+   - Video editor |  | D: Program for cutting, arranging and finishing video.
+       T: ['professional timeline editor', 'consumer editor', 'phone editor', 'browser editor', 'free and open source']
+       X: ['Adobe Premiere Pro', 'Final Cut Pro', 'DaVinci Resolve', 'Avid Media Composer', 'Vegas Pro', 'iMovie', 'CapCut']
+       M: ['Microsoft Clipchamp', 'Wondershare Filmora', 'CyberLink PowerDirector', 'Corel VideoStudio', 'Pinnacle Studio', 'Magix Movie Edit Pro', 'Shotcut', 'Kdenlive', 'OpenShot', 'Lightworks', 'EDIUS', 'VSDC Free Video Editor', 'Flowblade']
+   - Visual effects software | compositing software | D: Program that layers, keys and tracks video and CG elements into finished shots.
+       T: ['layer-based', 'node-based', 'motion graphics']
+       X: ['After Effects', 'Nuke', 'Fusion', 'Apple Motion']
+   - 2D animation software |  | D: Program for drawing, rigging and timing two-dimensional animation, frame by frame or with cut-out puppets.
+       T: ['frame by frame', 'cut-out and rigging', 'Flash-style vector', 'free and open source', 'phone flipbook']
+       X: ['Toon Boom Harmony', 'Adobe Animate', 'OpenToonz', 'TVPaint Animation', 'Moho']
+       M: ['Adobe Character Animator', 'Synfig Studio', 'Pencil2D', 'FlipaClip', 'Live2D', 'Pivot Animator', 'Flipnote Studio', 'TupiTube', 'Glaxnimate', 'ToonSquid', 'CrazyTalk', 'RETAS']
+   - Stop-motion software | stop motion capture software | D: Program that captures and reviews single frames from a camera to build a stop-motion film.
+       T: ['professional frame capture', 'phone app', 'brickfilm']
+       X: ['Dragonframe', 'Stop Motion Studio']
+   - Screenwriting software |  | D: Program that formats scripts for film, TV and stage and manages scenes and characters.
+       T: ['desktop standalone', 'cloud and collaborative', 'Apple-only', 'story-planning']
+       X: ['Final Draft', 'Fade In', 'WriterDuet', 'Celtx', 'Highland', 'Movie Magic Screenwriter']
+       M: ['Arc Studio Pro', 'Slugline', 'Trelby', 'Beat', 'KIT Scenarist', 'Storyist', 'Sophocles', 'Dramatica', 'Scriptware', 'Cherry Draft', 'Scrite']
+   - Video converter |  | D: Program that converts video and audio files between formats and settings.
+       T: ['GUI transcoder', 'command-line toolkit', 'free ad-supported converter', 'all-in-one video suite']
+       X: []
+       M: ['HandBrake', 'FFmpeg', 'Avidemux', 'VirtualDub', 'Freemake Video Converter', 'Format Factory', 'Any Video Converter', 'MiniTool Video Converter', 'Wondershare UniConverter', 'MediaCoder', 'Movavi Video Converter', 'VideoProc']
+  # Screen capture & streaming
+   - Screen recorder and streaming software |  | D: Program that records the screen or camera, or streams it live.
+       T: ['screen recording', 'game capture', 'live streaming', 'screencast with editor', 'built-in OS tool', 'screenshot tool']
+       X: []
+       M: ['OBS Studio', 'Xbox Game Bar', 'Nvidia ShadowPlay', 'QuickTime X', 'Camtasia', 'Bandicam', 'ShareX', 'XSplit Broadcaster', 'Snipping Tool', 'Snagit', 'Greenshot']
+
+## Music & audio
+  # Music making & notation
+   - Digital audio workstation | DAW · music production software · recording software | D: Program for composing, arranging and recording music.
+       T: ['loop and clip based', 'linear recording and mixing', 'pattern-based beat maker', 'free and open source', 'phone and tablet DAW', 'tracker']
+       X: ['Pro Tools', 'Logic Pro', 'Cubase', 'Ableton Live', 'FL Studio', 'Studio One', 'Reaper', 'Bitwig Studio', 'GarageBand', 'Reason', 'Digital Performer']
+       M: ['Ardour', 'LMMS', 'Mixcraft', 'Cakewalk Sonar', 'Samplitude', 'Waveform', 'Mixbus', 'Band-in-a-Box', 'BandLab', 'Soundtrap', 'Renoise', 'Sonic Pi', 'Magix Music Maker', 'ACID Pro', 'OpenMPT', 'MilkyTracker']
+   - Music notation software | scorewriter | D: Program for writing, engraving and playing back sheet music in standard notation.
+       T: ['professional engraving', 'free and open source', 'text-based engraving', 'browser-based', 'guitar tab and notation']
+       X: ['Sibelius', 'Dorico', 'Finale', 'MuseScore', 'LilyPond', 'Notion']
+       M: ['NoteWorthy Composer', 'Overture', 'Capella', 'SmartScore', 'Noteflight', 'Encore', 'Denemo', 'Frescobaldi', 'ScoreCloud', 'Forte']
+   - Guitar tablature software | tab editor | D: Program for writing, playing back and sharing guitar and bass tablature alongside standard notation.
+       T: ['commercial tab editor', 'free and open source', 'tab-only editor']
+       X: ['Guitar Pro', 'TuxGuitar', 'Power Tab Editor']
+   - Audio editor | wave editor | D: Program for recording, editing and mastering sound. Restoration plug-ins such as iZotope RX are on the Audio plug-ins shelf.
+       T: ['free and open source', 'multitrack editor', 'broadcast and podcast', 'spectral editor', 'batch converter']
+       X: ['Audacity', 'Adobe Audition', 'Sound Forge']
+       M: ['WaveLab', 'GoldWave', 'SpectraLayers', 'Acoustica', 'SoX', 'WavePad Audio Editor', 'mp3DirectCut', 'Total Recorder']
+   - DJ software |  | D: Program for mixing and beat-matching music tracks live on two or more virtual decks, often with a controller.
+       T: ['controller-led', 'streaming DJ', 'mobile DJ', 'mix planning']
+       X: ['Rekordbox', 'Serato DJ', 'Traktor', 'VirtualDJ', 'djay']
+       M: ['Beatport DJ', 'DJ.Studio', 'Mixxx', 'CrossDJ', 'Deckadance']
+   - Singing voice synthesiser | vocal synthesiser | D: Program that sings entered lyrics and melody with a synthetic or sampled voice (Vocaloid type).
+       T: ['concatenative', 'neural network', 'voicebank', 'character voice']
+       X: ['Vocaloid', 'Hatsune Miku', 'UTAU', 'Synthesizer V', 'CeVIO']
+   - Music-learning app |  | D: App that teaches an instrument or music theory by listening to the player or testing answers.
+       T: ['piano and keyboard', 'guitar and bass', 'singing', 'rhythm and pads', 'video courses']
+       X: ['Simply Piano', 'Yousician']
+       M: ['Melodics', 'BBC Maestro']
+   - Show-control software |  | D: Program that plays audio, video and lighting cues in order for a live show.
+       T: ['theatre cue playback', 'projection mapping', 'sound-effects pad']
+       X: []
+   - Modular and visual audio environment | patching environment · visual programming for audio | D: Software where users build synths and effects by wiring modules or objects on a canvas.
+       T: None
+       X: ['Max', 'Pure Data', 'VCV Rack']
+   - Music tracker | module tracker | D: Sequencer that places notes and samples in channels down a vertical, pattern-based timeline.
+       T: None
+       X: ['Ultimate Soundtracker', 'FastTracker 2', 'Impulse Tracker', 'OpenMPT', 'Renoise']
+  # Players & readers
+   - Media player | music library manager | D: Program that plays video and audio files of many formats.
+       T: ['built-in OS player', 'DVD/Blu-ray player suite', 'media centre', 'lightweight player', 'music player']
+       X: []
+       M: ['VLC media player', 'Windows Media Player', 'QuickTime', 'Kodi', 'Plex Media Player', 'mpv', 'PotPlayer', 'iTunes', 'Winamp', 'foobar2000', 'MusicBee', 'AIMP']
+   - E-book reader | e-book reader app | D: Program that opens and shows e-book files (EPUB, MOBI and similar) and manages the owner's e-book library.
+       T: ['store app', 'open-format reader']
+       X: []
+       M: ['Kindle', 'Apple Books', 'Google Play Books', 'Kobo Reading App', 'FBReader', 'Aldiko Book Reader', 'Cool Reader', 'calibre']
+
+## Audio plug-ins & virtual instruments
+  # Virtual instruments
+   - Software synthesiser | VST instruments · software synths · virtual synths | D: Synth that runs inside a music program and makes sound when played, whether built from oscillators and filters or emulating a hardware classic.
+       T: ['wavetable', 'virtual analogue', 'FM', 'sample-based', 'modular', 'physical modelling', 'hardware emulation']
+       X: ['Serum', 'Massive', 'Omnisphere', 'Sylenth1', 'Diva', 'Pigments', 'Vital', 'Phase Plant', 'Surge XT', 'Minimoog', 'Roland Jupiter-8', 'Yamaha DX7', 'Yamaha CS-80', 'Sequential Prophet-5', 'ARP 2600 and Oberheim classics', 'Reaktor']
+       M: ['Analog Lab Pro', 'Spire', 'Nexus', 'Vanguard', 'Falcon', 'Gladiator', 'Discovery', 'GForce Axxess', 'M-Tron Select 2', 'JE-8086', 'OB-Xd', 'Splice INSTRUMENT', 'Myth', 'Zyklop']
+   - Sampler & sample player | software sampler | D: Instrument that plays back recorded sounds across the keyboard and hosts sample libraries; many libraries run only inside one.
+       T: ['library host', 'free player', 'scripted instrument engine', 'multi-format hybrid']
+       X: ['Kontakt', 'HALion', 'EXS24', 'Decent Sampler']
+       M: ['DYSEKT', 'Shortcircuit XT']
+   - Orchestral sample library | orchestral library · virtual orchestra | D: Recorded orchestra sold as a playable instrument, with sections, solo players and articulations, usually run inside Kontakt or its own player.
+       T: ['full orchestra', 'strings', 'brass', 'woodwinds', 'percussion and choir', 'free entry library']
+       X: ['Spitfire BBC Symphony Orchestra', 'EastWest Hollywood Orchestra', 'Vienna Symphonic Library', 'Orchestral Tools']
+   - Virtual piano & keys | piano plug-in | D: Plug-in that plays pianos and other keyboard instruments from sampled recordings or physical models.
+       T: ['sampled', 'physically modelled', 'free', 'keyboard collection']
+       X: ['Keyscape', 'Pianoteq', 'Addictive Keys', 'Noire', 'EZkeys 2', 'Arturia Piano V', 'Garritan CFX Concert Grand', 'Spitfire LABS Soft Piano']
+   - Virtual drum instrument | drum plug-in · drum sampler | D: Plug-in that plays multi-sampled drum kits with built-in grooves or a one-shot sampler for building your own kits.
+       T: ['acoustic kit engine', 'pre-processed rock and metal kits', 'one-shot sampler']
+       X: ['Superior Drummer', 'EZdrummer', 'BFD', 'Addictive Drums', 'Steven Slate Drums', 'Battery', 'XLN Audio XO', 'GetGood Drums']
+  # Audio effects
+   - Compressor & dynamics plug-in |  | D: Plug-in that evens out or shapes loudness; many emulate named hardware compressors.
+       T: ['hardware emulation', 'multiband', 'bus compressor', 'limiter', 'free']
+       X: ['Teletronix LA-2A', 'UREI 1176', 'SSL bus compressor', 'Fairchild 660 and 670', 'Tube-Tech CL 1B', 'FabFilter Pro-C', 'Tokyo Dawn Labs free dynamics']
+       M: ['OTT']
+   - EQ & filter plug-in |  | D: Plug-in that boosts or cuts parts of the frequency range; includes surgical, dynamic and hardware-style EQs.
+       T: ['hardware-style passive EQ', 'surgical', 'dynamic EQ', 'filter', 'free']
+       X: ['Pultec EQP-1A', 'FabFilter Pro-Q', 'TDR Nova', 'Neve 1081', 'Kilohearts Slice EQ']
+       M: ['Flux Mini 2', 'Flux Pro', 'Infinity EQ 2', 'TotalEQ MK2', 'Carbon Q']
+   - Reverb plug-in |  | D: Plug-in that adds a room, plate, hall or spring space to a sound; many model named hardware units.
+       T: ['plate', 'room and hall', 'spring', 'shimmer', 'convolution', 'free']
+       X: ['EMT 140 plate', 'Lexicon 224 and 480L', 'EMT 250', 'Bricasti M7', 'Valhalla reverbs', 'FabFilter Pro-R', 'Eventide reverbs']
+   - Delay & modulation plug-in |  | D: Plug-in that repeats a sound or modulates it with short delays and low-frequency oscillators: echo, chorus, flanger, volume shaper.
+       T: ['tape delay', 'bucket-brigade', 'digital delay', 'chorus and flanger', 'volume shaper', 'granular']
+       X: ['Echoplex', 'Roland RE-201 Space Echo', 'Binson Echorec', 'Valhalla delays', 'FabFilter Timeless']
+       M: ['LFO Tool', 'Colour Copy', 'Replika XT', 'Comeback Kid', 'H-Delay', 'UltraTap', 'Crystallizer']
+   - Saturation & distortion plug-in |  | D: Plug-in that adds harmonic warmth, tape colour or overdrive.
+       T: ['tape', 'tube and transformer', 'multiband', 'fuzz and overdrive']
+       X: ['Soundtoys Decapitator', 'FabFilter Saturn', 'Ampex ATR-102', 'Studer A800', 'Sony TC-260 tape']
+       M: ['Satin', 'Softube Tape', 'TAIP', 'Black Box HG-2', 'VintageWarmer2', 'Kelvin Tone Shaper', 'Harmonics', 'Saturation Knob']
+   - Amp & cabinet simulator |  | D: Plug-in that models guitar and bass amps, cabinets, microphones and pedals.
+       T: ['amp suite', 'capture-based', 'multi-effects rack', 'free', 'bass']
+       X: ['Neural DSP plug-ins', 'Line 6 Helix Native', 'AmpliTube', 'Positive Grid BIAS FX', 'Guitar Rig', 'Neural Amp Modeler', 'UA Paradise Guitar Studio']
+   - Pitch correction & vocal plug-in |  | D: Plug-in that tunes, aligns or reshapes vocals.
+       T: ['automatic', 'note-based editing', 'harmony', 'formant', 'alignment']
+       X: ['Auto-Tune', 'Melodyne', 'Synchro Arts alignment tools']
+       M: ['Little AlterBoy', 'Tune Real-Time', 'Nectar 4', 'VocalSynth 2', 'MicroPitch', 'Topline Vocal Tune']
+   - Console & channel-strip emulation |  | D: Plug-in that copies a mixing console channel (preamp, EQ, dynamics) or a whole console bus.
+       T: ['console emulation', 'modular strip', 'AI-assisted']
+       X: ['SSL 4000', 'Softube Console 1', 'Slate Digital Virtual Mix Rack']
+       M: ['InfiniStrip', 'Navy 2', 'smart:chain', 'Neutron 5']
+   - Mastering suite |  | D: Plug-in or bundle that covers the final steps of mastering: EQ, multiband dynamics, stereo width and limiting.
+       T: ['all-in-one suite', 'analog-style chain', 'online mastering']
+       X: ['iZotope Ozone', 'Abbey Road TG Mastering Chain']
+       M: ['bx_masterdesk', 'FG-X 2', 'Portico II Master Buss Processor', 'CenterOne 3', 'FASTER MASTER']
+   - Audio restoration software |  | D: Tools that remove noise, hum, clicks, clipping and other defects from recordings.
+       T: ['broadband repair', 'spectral editor', 'dialogue clean-up']
+       X: ['iZotope RX', 'Steinberg SpectraLayers', 'Acon Digital Acoustica', 'Celemony Capstan']
+       M: ['UNFILTER', 'T-De-Breather', 'MDrumCleaner']
+   - Metering & analysis plug-in |  | D: Plug-in that shows loudness, spectrum, phase and tonal balance rather than changing the sound.
+       T: ['loudness', 'spectrum', 'stereo and phase', 'reference comparison']
+       X: ['Voxengo SPAN', 'Youlean Loudness Meter', 'iZotope Insight', 'Mastering The Mix metering']
+
+## Hobbies, science & sky
+  # Hobby & home software
+   - Collection cataloguing software |  | D: Program that catalogues the owner's books, media or other collections, often by barcode scan.
+       T: ['book catalogue', 'movie and music catalogue', 'comics and games', 'vinyl and Discogs-linked', 'cloud service', 'desktop database']
+       X: ['CLZ']
+       M: ['Libib', 'LibraryThing', 'BookBuddy', 'Delicious Library', 'Data Crow', 'Tellico', 'Vinyl Manager', 'Digs for Discogs', 'Movienizer', 'Shelves', 'Griffith', 'Book Catalogue']
+   - Genealogy software | family tree software | D: Program that records ancestors and relatives, sources and events, and prints charts and reports; most exchange data in the GEDCOM format.
+       T: ['desktop database', 'Mac-native', 'free and open source', 'GEDCOM exchange', 'web-based tree']
+       X: ['Family Tree Maker', 'RootsMagic', 'Legacy Family Tree', 'Gramps', 'MacFamilyTree']
+       M: ['Ancestral Quest', 'Reunion', "Brother's Keeper"]
+   - Home & garden design software | floor plan software · landscape planner | D: Program for drawing a house, room or garden plan, furnishing or planting it, and previewing it in 3D.
+       T: ['floor plan and interior', 'architectural DIY', 'vegetable garden planner', 'landscape design', 'phone room scanning']
+       X: ['Sweet Home 3D', 'Home Designer', 'Planner 5D', 'Vegetable garden planners']
+       M: ['Live Home 3D', 'Magicplan']
+   - Ham radio software | amateur radio software | D: Program for amateur radio operators: logging contacts, decoding digital modes, controlling the radio and tuning software-defined receivers.
+       T: ['logging', 'digital modes', 'SDR receiver', 'rig control', 'satellite tracking']
+       X: ['WSJT-X', 'fldigi', 'N1MM Logger+', 'Ham Radio Deluxe']
+       M: ['SDR#', 'DXLab', 'MacLoggerDX', 'Log4OM', 'flrig']
+   - SDR software | software-defined radio software | D: Programs that tune and decode radio signals from an SDR receiver on a computer.
+       T: None
+       X: ['GNU Radio']
+       M: ['SDR#', 'Gqrx', 'SDRangel', 'HDSDR']
+   - Medical app | software as a medical device · SaMD · digital therapeutic | D: Software that itself diagnoses or treats, or is cleared as a medical device; an app that only shows readings from a separate device is not this.
+       T: ['digital contraception', 'digital therapeutic (prescription)']
+       X: []
+       M: ['Natural Cycles', 'SleepioRx']
+  # Science, maps & sky
+   - Planetarium software |  | D: Program that shows the sky for a chosen place and time and simulates the motion of sky objects.
+       T: ['desktop planetarium', 'phone sky map', '3D universe explorer', 'telescope control']
+       X: ['Stellarium', 'Celestia', 'KStars', 'Cartes du Ciel', 'SkySafari']
+       M: ['Starry Night', 'TheSky', 'WorldWide Telescope', 'Google Sky', 'XEphem']
+   - Astrophotography software | astro imaging software | D: Program that captures, stacks and processes images of the night sky, or controls the camera, mount and guiding that make them.
+       T: ['capture and sequencing', 'stacking', 'processing', 'autoguiding', 'planetary']
+       X: ['PixInsight', 'DeepSkyStacker', 'Siril', 'N.I.N.A.', 'SharpCap', 'Astro Photography Tool']
+       M: ['Astro Pixel Processor', 'Sequator', 'AutoStakkert!', 'StarTools', 'PHD2', 'TheSkyX Professional', 'ASI Air app', 'CPWI']
+   - GIS and mapping software | earth-mapping software | D: Program on the owner's machine that edits, analyses or views geographic data. A hosted map or navigation service is in Subscriptions, Memberships & Online Services.
+       T: ['desktop GIS', 'free and open source', 'globe viewer', 'Windows-only commercial']
+       X: ['QGIS', 'ArcGIS Pro', 'Google Earth Pro', 'GRASS GIS']
+       M: ['MapInfo Pro', 'Maptitude', 'Manifold System', 'SAGA GIS', 'gvSIG', 'uDig', 'ILWIS', 'MapWindow GIS']
+   - Scientific and statistics software | scientific and analytical software | D: Program for scientific computation, statistics and data analysis.
+       T: ['statistics package', 'numerical computing', 'computer algebra', 'notebook environment', 'graphing', 'free and open source']
+       X: ['R', 'MATLAB', 'Mathematica', 'Jupyter', 'Origin']
+       M: ['GNU Octave', 'Julia', 'JASP', 'jamovi', 'PSPP', 'gretl', 'GraphPad Prism', 'Maple', 'SageMath', 'Scilab', 'Igor Pro', 'Orange', 'Weka', 'EViews']
+
+## Developer tools
+  # Coding & game making
+   - Code editor | IDE | D: Program for writing, running and debugging source code.
+       T: ['general-purpose editor', 'full IDE', 'terminal editor', 'language-specific IDE', 'cloud IDE', 'AI-first editor']
+       X: ['Visual Studio Code', 'Visual Studio', 'JetBrains IDEs', 'Xcode', 'Vim', 'GNU Emacs', 'Sublime Text', 'Notepad++']
+       M: ['Eclipse', 'NetBeans', 'Code::Blocks', 'Qt Creator', 'Lazarus', 'Delphi', 'Arduino IDE', 'Thonny', 'Geany', 'KDevelop', 'Spyder', 'Atom', 'Replit', 'GitHub Codespaces', 'BlueJ', 'Dev-C++']
+   - AI coding assistant |  | D: Assistant sold or used as a tool that suggests, writes or reviews code.
+       T: ['editor extension', 'AI-first editor', 'terminal agent', 'cloud agent', 'open-source agent']
+       X: ['GitHub Copilot', 'Claude Code', 'OpenAI Codex', 'Cursor', 'Windsurf']
+       M: ['Tabnine', 'Amazon Q Developer', 'Cline', 'Aider', 'Continue', 'Zed Agent', 'Devin', 'Sourcegraph Cody', 'Google Antigravity']
+   - Code editor plug-in | IDE plug-in · extension | D: Add-on that adds features to one code editor or development environment.
+       T: ['linter and formatter', 'AI assistant', 'theme and icons', 'language support', 'Git tooling']
+       X: ['Visual Studio Code extensions', 'JetBrains Marketplace plug-ins']
+       M: ['ESLint', 'Prettier', 'GitLens', 'Live Server', 'IdeaVim', 'SonarLint', 'Error Lens', 'Gemini Code Assist']
+   - Compiler and runtime | language runtime and compiler | D: Program that compiles or runs code in a programming language.
+       T: ['C and C++ compiler', 'managed runtime', 'interpreter', 'JavaScript runtime', 'free implementation of a niche language']
+       X: ['GCC', 'Clang and LLVM', 'Microsoft Visual C++', '.NET', 'OpenJDK', 'Python', 'Node.js']
+       M: ['rustc', 'GHC', 'Free Pascal', 'Intel oneAPI DPC++/C++ Compiler', 'Steel Bank Common Lisp', 'Racket', 'Mono', 'SDCC (Small Device C Compiler)', 'cc65', 'FreeBASIC']
+   - Version control software | version-control client | D: Program for tracking and sharing changes to source code.
+       T: ['distributed', 'centralised', 'Git GUI client', 'hosted service']
+       X: ['Git', 'Mercurial', 'Subversion']
+       M: ['GitHub Desktop', 'Sourcetree', 'GitKraken', 'TortoiseGit', 'SmartGit', 'Fork', 'Git Extensions', 'Gitg', 'Git Cola', 'Fossil', 'Perforce P4', 'darcs']
+   - Game engine |  | D: Program and framework for building video games, with rendering, physics, scripting and an editor (Unity, Unreal Engine, Godot).
+       T: ['general 3D engine', '2D engine', 'no-code game maker', 'visual novel engine', 'fantasy console', 'interactive fiction', 'retro engine port']
+       X: ['Unity', 'Unreal Engine', 'Godot', 'GameMaker', 'RPG Maker', 'Construct', 'PICO-8', "Ren'Py", 'Twine', 'Adventure Game Studio']
+       M: ['GDevelop', 'Clickteam Fusion', 'Stencyl', 'GameSalad', 'Buildbox', 'Defold', 'LÖVE', 'MonoGame', 'LibGDX', 'Phaser', 'Three.js', 'Babylon.js', 'PlayCanvas', 'Panda3D', 'Open 3D Engine', 'CryEngine', 'Stride', 'Solar2D', 'AppGameKit', 'Scratch']
+   - Web design software |  | D: Program for designing and building websites visually or in code, then publishing them.
+       T: ['visual editor', 'hosted site builder', 'WYSIWYG HTML editor', 'template-based builder']
+       X: ['Adobe Dreamweaver', 'Webflow', 'Adobe GoLive', 'iWeb']
+       M: ['Wix Editor', 'Jimdo', 'Google Web Designer', 'CoffeeCup HTML Editor', 'Xara Web Designer', 'Microsoft Expression Web', 'Microsoft FrontPage', 'Adobe Muse', 'Adobe PageMill']
+  # Databases, terminals & networks
+   - Desktop database software | personal database | D: Program for building and querying a database on one's own computer, with forms and reports or as a single file.
+       T: ['form-and-report database', 'embedded file database']
+       X: []
+       M: ['FileMaker', 'Microsoft Access', 'SQLite', '4D', 'Omnis Studio', 'R:Base', 'Paradox', 'Microsoft Visual FoxPro', 'Superbase', 'LibreOffice Base', 'DB Browser for SQLite']
+   - Terminal emulator |  | D: Program that shows a text terminal for a local shell, serial line or remote connection.
+       T: ['built-in OS terminal', 'GPU-accelerated', 'drop-down', 'mobile']
+       X: []
+       M: ['Windows Terminal', 'Terminal.app', 'iTerm2', 'GNOME Terminal', 'Konsole', 'Alacritty', 'kitty', 'WezTerm']
+   - SSH and FTP client | SFTP client | D: Program that connects to remote servers by SSH or transfers files by FTP or SFTP.
+       T: ['SSH terminal', 'file transfer', 'mobile']
+       X: []
+       M: ['OpenSSH', 'PuTTY', 'KiTTY', 'WinSCP', 'FileZilla', 'Cyberduck', 'Transmit', 'SmartFTP', 'Termius', 'SecureCRT', 'MobaXterm', 'Bitvise SSH Client', 'Xshell', 'Blink Shell', 'ConnectBot', 'Secure ShellFish']
+   - Network analyser | network protocol analyser · packet sniffer | D: Program that captures and inspects network traffic.
+       T: ['packet capture', 'web debugging proxy', 'wireless survey']
+       X: []
+       M: ['Wireshark', 'tcpdump', 'Fiddler', 'Charles Web Debugging Proxy', 'Kismet', 'EtherApe', 'CommView']
+
+## Classic software
+  # Classic & discontinued software
+   - Screen saver |  | D: Program that shows animation or images on an idle screen, sold or distributed as its own product.
+       T: ['module pack', 'built-in OS saver', 'aquarium and nature', 'clock', 'fractal and generative', 'Unix display hack']
+       X: ['After Dark', 'SCRNSAVE', 'Johnny Castaway', 'Windows built-in savers', 'XScreenSaver', 'Flurry', 'Electric Sheep']
+       M: ['Fliqlo', 'Plane9', 'Aerial', 'Hyperspace', 'Nixie', 'Polar Clock', 'Another Matrix', 'Bliss', 'Aerial Views', 'Dream Aquarium 3D', 'Living Marine Aquarium 2', 'Starfield Simulation', 'Mamesaver', 'YoWindow', 'Helios', 'Felix', 'FlipCloc']
+   - Reference CD-ROM |  | D: Dictionary, encyclopedia or similar reference work delivered as its own program, or on a disc as a program. As an e-book file it is in Digital Media & Items.
+       T: ['multimedia encyclopedia', 'dictionary', 'atlas', 'almanac']
+       X: ['Microsoft Encarta', 'Microsoft Bookshelf', "Compton's Encyclopedia", 'Grolier Electronic Encyclopedia', 'Encyclopaedia Britannica on disc']
+       M: ['World Book Encyclopedia electronic edition', 'Merriam-Webster CD-ROM dictionary', 'Macmillan Dictionary for Children', 'The 20th Century Almanac', 'The Guinness Disc of Records', 'World Atlas CD-ROM']
+   - Home publishing software |  | D: Program for making cards, calendars, labels and similar printed items at home.
+       T: ['cards and banners', 'calendars and labels', 'clip-art library']
+       X: ['The Print Shop', 'PrintMaster', 'Print Artist']
+       M: ['Print Explosion']
+   - Peer-to-peer file sharing client |  | D: Program that shares and downloads files over Gnutella, eDonkey and similar networks other than BitTorrent.
+       T: ['central-index network', 'Gnutella client', 'eDonkey and Kad', 'Direct Connect hub', 'friend-to-friend', 'music-focused']
+       X: ['Napster', 'Gnutella clients', 'Kazaa', 'eDonkey and eMule', 'Soulseek', 'WinMX', 'Direct Connect clients']
+       M: ['Ares Galaxy', 'Morpheus', 'Grokster', 'iMesh', 'BitComet', 'Winny', 'Perfect Dark', 'Share', 'Freenet FProxy', 'Fopnu', 'I2Phex', 'KCeasy', 'Shareaza', 'Retroshare', 'Tribler']
