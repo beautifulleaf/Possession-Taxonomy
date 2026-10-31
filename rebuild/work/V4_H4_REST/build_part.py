@@ -40,7 +40,7 @@ k['x']+= [
 ]
 k['x'][0]['role']='origin' if False else k['x'][0].get('role')
 k['nl']="One entry is a named attar, a flower, herb or earth distillate captured in a sandalwood or paraffin base; brand bottlings are not entries."
-k['sel']="Named attars from the fetched Attar and Kannauj articles, a Kannauj feature and an Indian attars guide (Kannauj attars; Yemen). Covers 10 attars named on these pages; henna (hina) attar appears only in search excerpts and is left out. Not a complete list: no whole-space reference exists."
+k['sel']="Named attars from the fetched Attar and Kannauj articles, a Kannauj feature and an Indian attars guide (Kannauj attars; Yemen). Covers 10 of 10 attars these pages name; henna (hina) attar appears only in search excerpts and is left out. No whole-space reference exists."
 k['xg']="Grouped by tradition: Kannauj and India, then Yemen."
 k['d']="Natural distillate of flowers, herbs, earth or spices captured in a sandalwood or paraffin base by deg-bhapka distillation, then aged; Kannauj holds a protected geographical indication (2014)."
 k['s']=KAN
@@ -160,7 +160,7 @@ k['sel']="Wikipedia List of essential oils (every row except Attar, which has it
 k['xg']="Grouped by plant use: citrus, wood and conifer, spice and seed, herb and mint, flower, then other."
 k['x'].sort(key=lambda e:(e['g'],e['n']))
 EOc=len(k['x'])
-k['sel']+=f" Complete: {len(EO)-2-0} of {len(EO)} list rows in scope as entries or merged ({EOc} entries including category additions)."
+k['sel']+=f" Complete: {len(EO)+2} of {len(EO)+2} rows in Wikipedia List of essential oils (Attar and Linalool moved to their own kinds; {len(EO)-0} rows give {EOc-len(extra_cat)} entries after merging the seven earlier ones); {len(extra_cat)} oils added from the category."
 # natural plant extracts
 ABS=[("Orris butter","Orris oil and butter from iris rhizome; kept from the earlier list."),("Oakmoss absolute","Absolute from the oakmoss lichen; kept from the earlier list.")]
 k=kind(m,'Absolute & CO2 extract')
