@@ -5,3 +5,4 @@ step3 done: fetched Waxed_jacket Perfecto_motorcycle_jacket Jean_jacket Harringt
 step4 done: fetched Bomber_jacket Chore_jacket Boilersuit Overalls Lab_coat Scrubs_(clothing) Chef%27s_uniform Donkey_jacket Mackinaw_coat (total 34)
 step5 done: 41 wiki fetches total; planning build script (build.py in work dir). Decision: register s pages accepted as sources for sig pieces; own/tier only where register states ownership
 step6: build.py written (rebuild/work/V4_A1_OUTER/build.py) -> stage1.json; next: sel/coverage lines, fix countries, write part file, validate, report
+step7 done: part file written + validated OK; remaining: report
