@@ -127,3 +127,7 @@ Agreed with the owner on 2026-10-17.
 ## Museum design collections belong to Visual Entertainment (owner, 2026-10-31)
 "The MoMa stuff is probably more appropriate for a design section in the VE taxonomy anyway, it isnt like it's available to purchase."
 → Do not mine museum collection listings (MoMA and similar) for kinds or archetypes here. A designed object stays in this taxonomy only as something a person can buy (new, reissued or second-hand), sourced to a page about the product or its maker; a museum holding may still be cited as a brand's or design's standing, but is not a reason to add an entry.
+
+## Publishers and record labels belong to a Literary (and music) taxonomy (owner, 2026-10-31)
+"I think most of that F1 stuff will be deferred to a Literary Taxonomy, since certain publishers are known for certain types of books much like a record label, etc."
+→ F1's brand register keeps only makers known for the physical object itself: fine-press and collectors' editions, globe and map makers, scholarly music editions known for edition quality, audiophile pressings and boutique disc editions. General, genre and comics/manga publishers and record labels — known for what they publish — are deferred: kept in verify/work/BRANDLAYER/DEFER_F1.json for that future taxonomy, not merged here.
