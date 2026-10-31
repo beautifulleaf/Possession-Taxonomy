@@ -18,3 +18,4 @@ step16: sail8.tsv (OFFSET 1133 to Mumm 36). nread.txt=1283. Next OFFSET 1283
 step17: sail9.tsv (OFFSET 1283 to Ross 930). nread.txt=1433. Next OFFSET 1433
 step18: sail10.tsv (OFFSET 1433 to Swan 431). nread.txt=1583. Next OFFSET 1583
 step19: sail11.tsv + dufour.txt written; windows done to end (1892 English-labelled rows; rest of tail = French windsurf/board names, left to E2). Next: add Dufour builder to build.py, then aircraft makers
+step20: Wikidata makers: Bell/Aviat/Extra/Van's/Slingsby/Cameron/AutoGyro/DG/LAK/Mooney labels empty; used Wikipedia pages Aviat, CubCrafters, DA62, P2012, Vans, Extra, Slingsby, Cameron (data in conversation). Next: jets (Wikidata), then data_air2.py + air.py extension + finalize.py
