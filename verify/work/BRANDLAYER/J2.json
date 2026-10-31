@@ -80,6 +80,33 @@
    ],
    "found": 6,
    "note": "Korea jeotgal, China not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Riga sprats PGI producers brands"
+   ],
+   "found": 1,
+   "note": "Brīvais Vilnis; other Riga sprat trademark owners not named"
+  },
+  {
+   "axis": "kind",
+   "item": "Caviar & roe > Sturgeon caviar (houses)",
+   "queries": [
+    "best caviar brands houses Kaluga Queen Calvisius Petrossian Kaspia"
+   ],
+   "found": 1,
+   "note": "Petrossian fetched; Kaluga Queen, Kaspia, Calvisius not yet"
+  },
+  {
+   "axis": "kind",
+   "item": "Fresh & frozen fish > Protected fish names / Oysters",
+   "queries": [
+    "Marennes-Oléron huîtres producteurs marques Label Rouge"
+   ],
+   "found": 1,
+   "note": "collective only"
   }
  ],
  "regions": [
@@ -136,6 +163,30 @@
     "José Gourmet",
     "Conservas Zallo",
     "Matiz"
+   ]
+  },
+  {
+   "region": "France (Marennes-Oléron, Atlantic coast)",
+   "speciality": "Oysters finished in claires; PGI 2009 and Label Rouge Fine de Claire Verte / Pousse en Claire",
+   "src": "https://www.huitresmarennesoleron.info/UK-info.html",
+   "brands": [
+    "Groupement Qualité Huîtres Marennes Oléron"
+   ]
+  },
+  {
+   "region": "Latvia (Riga, Salacgrīva)",
+   "speciality": "Smoked Riga sprats in oil, 'Rīgas šprotes' trademark",
+   "src": "https://brivaisvilnis.lv/en/about-the-company",
+   "brands": [
+    "Brīvais Vilnis"
+   ]
+  },
+  {
+   "region": "France (Paris)",
+   "speciality": "Caviar houses (Ossetra, Kaluga, Beluga hybrid)",
+   "src": "https://petrossian.com/",
+   "brands": [
+    "Petrossian"
    ]
   }
  ],
@@ -259,6 +310,36 @@
    "new_names": 0,
    "status": "partial",
    "note": "picks not visible; only sellers"
+  },
+  {
+   "url": "https://brivaisvilnis.lv/en/about-the-company",
+   "title": "Brīvais Vilnis about",
+   "kind": "pdo",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Riga sprats trademark co-owner; other owners not named on page"
+  },
+  {
+   "url": "https://petrossian.com/",
+   "title": "Petrossian",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "CITES flag"
+  },
+  {
+   "url": "https://www.huitresmarennesoleron.info/UK-info.html",
+   "title": "Marennes Oléron oysters practical info",
+   "kind": "pdo",
+   "years": "2009",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "PGI + Label Rouge; individual producers not listed on this page"
   }
  ],
  "brands": [
@@ -1084,6 +1165,24 @@
    "src": "https://www.nytimes.com/wirecutter/reviews/best-tinned-fish?eafs_enabled=false",
    "says": "Named by Wirecutter as seller of tinned fish from East Asian countries",
    "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Brīvais Vilnis",
+   "layer": "cultural",
+   "src": "https://brivaisvilnis.lv/en/about-the-company",
+   "says": "Salacgrīva fish cannery est. 1949, one of the owners of the 'Rīgas šprotes' (Riga sprats) trademark, exports to 40+ countries; 'Tsar Sprat' label from 1905",
+   "country": "Latvia",
+   "dept": "tinned sprats",
+   "already": false
+  },
+  {
+   "n": "Groupement Qualité Huîtres Marennes Oléron",
+   "layer": "cultural",
+   "src": "https://www.huitresmarennesoleron.info/UK-info.html",
+   "says": "Producers' quality group for Marennes Oléron oysters: PGI (EU 2009) and two Label Rouge (Fines de Claires Vertes 1989, Pousse en Claire 1999)",
+   "country": "France",
+   "dept": "oysters",
    "already": false
   }
  ]
