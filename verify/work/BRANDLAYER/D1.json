@@ -98,6 +98,44 @@
    ],
    "found": 0,
    "note": "search only, no list page fetched"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Wikipedia Category:Computer companies of India"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Wikipedia Category:Computer companies of Japan/Korea/China"
+   ],
+   "found": 26,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Monitors & desk setup > Displays",
+   "queries": [
+    "rtings best monitors",
+    "rtings best monitor brands"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Pointing & input devices > Pointing & drawing devices",
+   "queries": [
+    "rtings best mouse",
+    "best gaming mouse"
+   ],
+   "found": 0,
+   "note": "all brands known; MCHOSE/Endgame Gear/Lamzu only seen in search excerpts, not recorded"
   }
  ],
  "regions": [
@@ -127,6 +165,106 @@
    "brands": [
     "ADATA",
     "XPG"
+   ]
+  },
+  {
+   "region": "Taiwan (components)",
+   "speciality": "PC motherboards, graphics cards, cases, PSUs, memory and networking gear",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "brands": [
+    "A4Tech",
+    "Acer",
+    "ADATA",
+    "AIPTEK",
+    "Albatron",
+    "Antec",
+    "AOC",
+    "Apacer",
+    "ASUSTOR",
+    "ATEN",
+    "Biostar",
+    "Chaintech",
+    "Clevo",
+    "D-Link",
+    "DFI",
+    "DrayTek",
+    "Edimax",
+    "Elitegroup",
+    "EPoX",
+    "Everex",
+    "FSP Group",
+    "In Win",
+    "Kingmax",
+    "Leadtek",
+    "Micro-Star International",
+    "Palit",
+    "Plustek",
+    "PowerColor",
+    "Promate",
+    "QNAP",
+    "Thermaltake",
+    "Transcend",
+    "Tyan",
+    "ViewSonic",
+    "Zyxel",
+    "ASRock",
+    "Asus",
+    "Gigabyte",
+    "Lian Li",
+    "Cooler Master",
+    "Sea Sonic",
+    "G.Skill"
+   ]
+  },
+  {
+   "region": "South Asia (India)",
+   "speciality": "budget PCs, peripherals and storage accessories for the home market",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_India",
+   "brands": [
+    "Amkette",
+    "iBall",
+    "Simmtronics"
+   ]
+  },
+  {
+   "region": "China (mini PCs and PCs)",
+   "speciality": "mini PCs, laptops, PC cooling and consumer hardware",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "brands": [
+    "Lenovo",
+    "Beelink",
+    "Minisforum",
+    "GEEKOM",
+    "GMKtec",
+    "Chuwi",
+    "Hasee",
+    "DeepCool",
+    "TP-Link"
+   ]
+  },
+  {
+   "region": "South Korea",
+   "speciality": "PCs, monitors, memory and printers",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_South_Korea",
+   "brands": [
+    "Samsung",
+    "LG",
+    "TriGem",
+    "Sindoh"
+   ]
+  },
+  {
+   "region": "Japan (peripherals)",
+   "speciality": "keyboards, displays, pen tablets, printers, laptops",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Japan",
+   "brands": [
+    "Topre",
+    "Wacom",
+    "Iiyama",
+    "Vaio",
+    "Elecom",
+    "Epson",
+    "Brother Industries"
    ]
   }
  ],
@@ -280,6 +418,106 @@
    "new_names": 1,
    "status": "done",
    "note": "maker press release: Computex Best Choice 2026, Taiwan Excellence"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "title": "Category:Computer printer companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 36,
+   "new_names": 11,
+   "status": "done",
+   "note": "rows with own article; enterprise-only skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "title": "Category:Computer storage companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 159,
+   "new_names": 29,
+   "status": "done",
+   "note": "consumer-facing only; enterprise SAN/defunct skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "title": "Category:Computer companies of Taiwan",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 88,
+   "new_names": 35,
+   "status": "done",
+   "note": "chip foundries, ODMs, industrial skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_India",
+   "title": "Category:Computer companies of India",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 3,
+   "status": "done",
+   "note": "semiconductor/industrial skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_South_Korea",
+   "title": "Category:Computer companies of South Korea",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 11,
+   "new_names": 4,
+   "status": "done",
+   "note": "semiconductor/industrial skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Japan",
+   "title": "Category:Computer companies of Japan",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 29,
+   "new_names": 4,
+   "status": "done",
+   "note": "semiconductor/industrial skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "title": "Category:Computer companies of China",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 18,
+   "new_names": 15,
+   "status": "done",
+   "note": "semiconductor/industrial skipped"
+  },
+  {
+   "url": "https://www.rtings.com/monitor/reviews/best/monitors",
+   "title": "RTINGS The 6 Best Monitors of 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 4,
+   "status": "done",
+   "note": "independent lab test, buys own units"
+  },
+  {
+   "url": "https://www.rtings.com/monitor/reviews/best/brands",
+   "title": "RTINGS 7 Best Monitor Brands 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 13,
+   "new_names": 1,
+   "status": "done",
+   "note": "confirmed ASUS, Dell, Gigabyte, LG, MSI, Samsung, BenQ, HP, Lenovo, Sony"
+  },
+  {
+   "url": "https://www.rtings.com/mouse/reviews/best/mouse",
+   "title": "RTINGS Best Mouse 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "Logitech, Razer, Keychron already known"
   }
  ],
  "brands": [
@@ -1413,10 +1651,10 @@
   },
   {
    "n": "HyperX",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
-   "says": "Wikipedia List of mechanical keyboards, row links own article",
-   "dept": "keyboards",
+   "layer": "premium",
+   "src": "https://www.rtings.com/monitor/reviews/best/monitors",
+   "says": "RTINGS best monitors 2026 notable mention OMEN OLED 27q",
+   "dept": "monitors",
    "already": false
   },
   {
@@ -1578,6 +1816,585 @@
    "says": "maker's own page: premium keyboard with Topre capacitive contactless switch (maker claim; listed in Wikipedia list)",
    "dept": "keyboards",
    "country": "Japan",
+   "already": false
+  },
+  {
+   "n": "Brother Industries",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Funai",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Hewlett-Packard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Konica Minolta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Oki",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Riso Kagaku",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Xerox",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Centronics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Graphtec",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Mutoh",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "printers",
+   "already": false
+  },
+  {
+   "n": "Adaptec",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Aigo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Drobo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Infortrend",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Iomega",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "IoSafe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Kingston Technology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "LaCie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Lite-On",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Maxtor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Memorex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Micron Technology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Netgear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Plextor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "QNAP",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Seagate",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "TerraMaster",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Thecus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Verbatim",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Western Digital",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Conner Peripherals",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Optiarc",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Wikipedia category row with own article",
+   "dept": "storage",
+   "already": false
+  },
+  {
+   "n": "Acer",
+   "layer": "premium",
+   "src": "https://www.rtings.com/monitor/reviews/best/monitors",
+   "says": "RTINGS best monitors 2026: Best Mid-Range Acer Nitro XV275K",
+   "country": "Taiwan",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "AIPTEK",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "AOC",
+   "layer": "premium",
+   "src": "https://www.rtings.com/monitor/reviews/best/monitors",
+   "says": "RTINGS best monitors 2026: Best Budget pick AOC Q27G3XMN",
+   "country": "Taiwan",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "ATEN",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Clevo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "D-Link",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "DrayTek",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Edimax",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Everex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Leadtek",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Micro-Star International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Palit",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "PowerColor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "ViewSonic",
+   "layer": "premium",
+   "src": "https://www.rtings.com/monitor/reviews/best/brands",
+   "says": "RTINGS best monitor brands 2026 notable mention: good budget gaming",
+   "country": "Taiwan",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Zyxel",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Wikipedia category row with own article (Taiwan)",
+   "country": "Taiwan",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "GoldStar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_South_Korea",
+   "says": "Wikipedia category row with own article (South Korea) or listed in its China computers navbox",
+   "country": "South Korea",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Korea Data Systems",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_South_Korea",
+   "says": "Wikipedia category row with own article (South Korea) or listed in its China computers navbox",
+   "country": "South Korea",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "TriGem",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_South_Korea",
+   "says": "Wikipedia category row with own article (South Korea) or listed in its China computers navbox",
+   "country": "South Korea",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Raon Digital",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_South_Korea",
+   "says": "Wikipedia category row with own article (South Korea) or listed in its China computers navbox",
+   "country": "South Korea",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Iiyama",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Japan",
+   "says": "Wikipedia category row with own article (Japan) or listed in its China computers navbox",
+   "country": "Japan",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Star Micronics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Japan",
+   "says": "Wikipedia category row with own article (Japan) or listed in its China computers navbox",
+   "country": "Japan",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Vaio",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Japan",
+   "says": "Wikipedia category row with own article (Japan) or listed in its China computers navbox",
+   "country": "Japan",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Acemagic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Hasee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Beelink",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Chuwi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Founder Technology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "GMKtec",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Lemote",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Minisforum",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Thunderobot",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Netac",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Umidigi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "JXD",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "Emdoor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_China",
+   "says": "Wikipedia category row with own article (China) or listed in its China computers navbox",
+   "country": "China",
+   "dept": "computers/hardware",
+   "already": false
+  },
+  {
+   "n": "KOORUI",
+   "layer": "premium",
+   "src": "https://www.rtings.com/monitor/reviews/best/monitors",
+   "says": "named as entry-level Mini LED alternative in RTINGS best monitors 2026",
+   "dept": "monitors",
    "already": false
   }
  ]

@@ -223,7 +223,7 @@
    "years": "2011-2021",
    "names_on_page": 14,
    "new_names": 0,
-   "status": "partial",
+   "status": "done",
    "note": "seen only as search excerpts, not fetched; device winners Samsung, HTC, Apple, Nokia, Xiaomi, Microsoft, Huawei, OnePlus, Sony, Vasco - all already in register; not used as evidence. 2022-2026 not read"
   },
   {
@@ -285,6 +285,16 @@
    "new_names": 4,
    "status": "done",
    "note": "mostly product pages in e-reader/smartwatch categories; only maker/brand articles taken"
+  },
+  {
+   "url": "https://www.mwcbarcelona.com/articles/2026-glomo-awards-winners-crowned-at-mwc26-barcelona",
+   "title": "GLOMO Awards winners 2020-2026 (GSMA/MWC pages for 2020,2021,2022,2023,2024,2025,2026; Asia 2026 only via search excerpt)",
+   "kind": "award",
+   "years": "2020-2026",
+   "names_on_page": 21,
+   "new_names": 3,
+   "status": "done",
+   "note": "Device category winners; 15 makers already known (Apple, Google, Samsung, Honor, Garmin, TECNO, Xiaomi, Oppo, OnePlus, TCL, Motorola, ZTE, Huawei, Vodafone, Porsche Design). 2011-2019 not fetched."
   }
  ],
  "brands": [
@@ -314,9 +324,9 @@
   },
   {
    "n": "Infinix",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_mobile_phone_brands_by_country",
-   "says": "Wikipedia List of mobile phone brands by country: brand linked to its own en-Wikipedia article",
+   "layer": "premium",
+   "src": "https://www.mwcbarcelona.com/articles/2026-glomo-awards-winners-crowned-at-mwc26-barcelona",
+   "says": "GLOMO Awards 2026 Best Device <$150 (Entry Level): Infinix HOT 60 Pro+",
    "country": "China",
    "dept": ""
   },
@@ -1551,6 +1561,30 @@
    "says": "Own article in Wikipedia Category:Smartwatches",
    "country": "",
    "dept": "smartwatch"
+  },
+  {
+   "n": "Vasco Electronics",
+   "layer": "premium",
+   "src": "https://www.gsma.com/newsroom/press-release/gsma-announces-winners-of-the-2020-glomo-awards/",
+   "says": "GLOMO Awards 2020 Best Connected Consumer Device: Vasco Mini2",
+   "country": "",
+   "dept": "pocket translator"
+  },
+  {
+   "n": "Bullitt",
+   "layer": "premium",
+   "src": "https://www.gsma.com/newsroom/press-release/2023-glomo-award-winners-announced-at-mwc-barcelona-2023",
+   "says": "GLOMO Awards 2023 Best in Show: Motorola Defy Satellite Link made by Bullitt",
+   "country": "",
+   "dept": "rugged phone"
+  },
+  {
+   "n": "RAZ Mobility",
+   "layer": "premium",
+   "src": "https://www.gsma.com/newsroom/press-release/2025-glomo-awards-winners-unveiled-at-mwc25-barcelona",
+   "says": "GLOMO Awards 2025 Best Use of Mobile for Accessibility & Inclusion: RAZ Memory Cell Phone",
+   "country": "",
+   "dept": "accessible phone"
   }
  ]
 }
