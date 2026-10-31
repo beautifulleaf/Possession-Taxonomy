@@ -11,6 +11,16 @@ ox.append({'n':'City II','d':'John Lobb plain-toe ready-to-wear oxford on the 70
 ox.sort(key=lambda e:(e.get('g',''), e.get('y') or '9999', e['n']))
 K['Oxford']['sel']=K['Oxford']['sel'].replace('No complete list exists;','No complete list exists;',1)
 b=K['Basketball sneaker']['sel'].replace(', Superstar, Forum)',', Superstar)'); K['Basketball sneaker']['sel']=b
+
+reg={x['n']:x for x in B['b']}
+for mk,o,t,y,src in [('Dansko','Employees (employee stock ownership plan)','Independent','2012','https://en.wikipedia.org/wiki/Dansko'),('Vibram','Family-owned (family not named)','Independent','','https://www.wallpaper.com/architecture/carlo-ratti-objectify-vibram-sole')]:
+    r=reg[mk]; r['own']=o; r['tier']=t; r['own_s']=src
+    if y: r['own_y']=y
+    for k in K.values():
+        for e in k.get('x',[]):
+            if e.get('mk')==mk:
+                e['own']=o; e['tier']=t
+                if y: e['own_y']=y
 old="Boot types come from Wikipedia's List of boots (all in-scope types for this kind held); makers' models follow the maker pages named on each entry. No complete list of makers' models exists."
 for kn in ('Over-the-knee boot','Work boot','Combat & military boot','Cowboy boot','Equestrian riding boot'):
     K[kn]['sel']=K[kn]['sel'].replace(old,"Complete: all in-scope boot types of Wikipedia's List of boots are held (sport boots belong to E2). No complete list exists for makers' models; those follow the maker pages named on each entry.")
