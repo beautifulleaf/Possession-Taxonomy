@@ -320,6 +320,44 @@
    ],
    "found": 0,
    "note": "Search surfaced no North African craft-supply maker; not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Model paints & hobby tools",
+   "queries": [
+    "best model paint brands review",
+    "best airbrush brands review"
+   ],
+   "found": 5,
+   "note": "Hobbylinc/HobbyLink Japan brand list not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Beads, findings & jewellery tools",
+   "queries": [
+    "Preciosa Toho Miyuki seed bead quality Jablonex"
+   ],
+   "found": 2,
+   "note": "Fire Mountain Gems / Beadaholique brand lists still unharvested"
+  },
+  {
+   "axis": "kind",
+   "item": "Leather, cane, floral & wood supplies",
+   "queries": [
+    "vegetable tanned leather tannery Wickett Craig Hermann Oak",
+    "bookbinding leather Hewit"
+   ],
+   "found": 1,
+   "note": "Wickett & Craig already held; Horween/Hermann Oak/Weaver/Sheridan not evidenced; floristry/kenzan, cane/willow not searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Paper, card & binding materials",
+   "queries": [
+    "bookbinding tool and bookcloth brands Talas Hewit"
+   ],
+   "found": 2,
+   "note": "Bookbinding brand lists (Talas, Hewit) done; origami/marbling/papermaking makers not searched"
   }
  ],
  "regions": [
@@ -542,6 +580,37 @@
    "speciality": "Ebru paper marbling (UNESCO ICH 2014), bookbinding decoration",
    "src": "https://ich.unesco.org/en/RL/ebru-turkish-art-of-marbling-00644",
    "brands": []
+  },
+  {
+   "region": "Germany",
+   "speciality": "Precision airbrushes (Harder & Steenbeck) and quality sewing thread (Gutermann, Mettler is Swiss-German)",
+   "src": "https://modelersalliance.org/threads/tool-time-comparison-badger-and-harder-steenbeck-airbrushes.157989",
+   "brands": [
+    "Harder & Steenbeck",
+    "Gutermann",
+    "Mettler"
+   ]
+  },
+  {
+   "region": "Spain / Japan / UK",
+   "speciality": "Model and miniature paints: Vallejo, AK Interactive, AMMO (Spain); Tamiya, Mr. Hobby (Japan); Citadel (UK)",
+   "src": "https://happibee.com/blogs/guides/best-hobby-modeling-paints-2026",
+   "brands": [
+    "AK Interactive",
+    "Mr. Hobby (GSI Creos)",
+    "AMMO by Mig Jimenez",
+    "Citadel",
+    "Vallejo",
+    "Tamiya"
+   ]
+  },
+  {
+   "region": "United Kingdom (Scotland)",
+   "speciality": "Bookbinding and leathercraft leather (Hewit tannery, Royal Warrant)",
+   "src": "https://www.hewit.com/?country=GB",
+   "brands": [
+    "J Hewit & Sons"
+   ]
   }
  ],
  "sources": [
@@ -814,6 +883,66 @@
    "new_names": 0,
    "status": "done",
    "note": "tradition only, no maker named"
+  },
+  {
+   "url": "https://happibee.com/blogs/guides/best-hobby-modeling-paints-2026",
+   "title": "Happibee best hobby modeling paints 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 3,
+   "status": "done",
+   "note": "independent-ish buying guide"
+  },
+  {
+   "url": "https://airbrushdoc.com/blog/best-airbrush",
+   "title": "AirbrushDoc best airbrush 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 5,
+   "new_names": 0,
+   "status": "done",
+   "note": "Iwata, Badger, Paasche, GSI Creos already held"
+  },
+  {
+   "url": "https://www.maggieframes.com/el/blogs/embroidery-blogs/is-mettler-thread-good-an-in-depth-review-for-embroidery-professionals",
+   "title": "MaggieFrames Mettler thread review",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 5,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.hewit.com/?country=GB",
+   "title": "J Hewit & Sons Scottish Leather",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Royal Warrant holder"
+  },
+  {
+   "url": "https://www.preciosa-ornela.com/seed-beads",
+   "title": "Preciosa Ornela / Jablonex Czech beads",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.talasonline.com/bookbinding-supplies?page=2",
+   "title": "TALAS bookbinding supplies",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "existence only"
   }
  ],
  "brands": [
@@ -3034,6 +3163,103 @@
    "country": "Uzbekistan",
    "dept": "ikat silk",
    "role": "seller"
+  },
+  {
+   "n": "AK Interactive",
+   "layer": "premium",
+   "src": "https://happibee.com/blogs/guides/best-hobby-modeling-paints-2026",
+   "says": "Happibee 2026 hobby-paint comparison (AK vs Vallejo vs Tamiya vs Mr. Hobby); AK 3rd Gen acrylic 477 colours (Basecoat Lab)",
+   "country": "Spain",
+   "dept": "model paint"
+  },
+  {
+   "n": "Mr. Hobby (GSI Creos)",
+   "layer": "premium",
+   "src": "https://happibee.com/blogs/guides/best-hobby-modeling-paints-2026",
+   "says": "Happibee 2026 comparison names Mr. Hobby / GSI Creos lacquers among the best airbrush-specific paints; Bandai Gundam kits reference Mr. Color",
+   "country": "Japan",
+   "dept": "model paint"
+  },
+  {
+   "n": "AMMO by Mig Jimenez",
+   "layer": "premium",
+   "src": "https://happibee.com/blogs/guides/best-hobby-modeling-paints-2026",
+   "says": "Happibee: 'excellent', purpose-built weathering products other brands do not match",
+   "country": "Spain",
+   "dept": "model weathering"
+  },
+  {
+   "n": "Citadel",
+   "layer": "premium",
+   "src": "https://www.gallantgoblin.com/lpp/reviews/my-top-10-citadel-paints",
+   "says": "Gallant Goblin reviewer: Citadel 'probably the best mini paints on the market' by coatings grading",
+   "country": "United Kingdom",
+   "dept": "miniature paint"
+  },
+  {
+   "n": "Harder & Steenbeck",
+   "layer": "premium",
+   "src": "https://modelersalliance.org/threads/tool-time-comparison-badger-and-harder-steenbeck-airbrushes.157989",
+   "says": "Modelers Alliance forum: H&S and Iwata 'very good high quality air brushes', named over and over as favourites of modellers",
+   "country": "Germany",
+   "dept": "airbrush"
+  },
+  {
+   "n": "Mettler",
+   "layer": "premium",
+   "src": "https://www.maggieframes.com/el/blogs/embroidery-blogs/is-mettler-thread-good-an-in-depth-review-for-embroidery-professionals",
+   "says": "MaggieFrames review: strong, minimal thread breakage; technicians recommend; compared with Aurifil, Gutermann (tensile data ~830 cN)",
+   "country": "Switzerland",
+   "dept": "sewing thread"
+  },
+  {
+   "n": "Gutermann",
+   "layer": "cultural",
+   "src": "https://www.maggieframes.com/el/blogs/embroidery-blogs/is-mettler-thread-good-an-in-depth-review-for-embroidery-professionals",
+   "says": "Major sewing-thread brand compared in MaggieFrames review; Whipstitch survey: 'solid German brand with long history'",
+   "country": "Germany",
+   "dept": "sewing thread"
+  },
+  {
+   "n": "Sulky",
+   "layer": "premium",
+   "src": "https://whip-stitch.com/survey-what-thread-do-you-use",
+   "says": "Whipstitch reader survey: Sulky embroidery threads favoured for decorative stitching/satin applique",
+   "country": "United States",
+   "dept": "embroidery thread"
+  },
+  {
+   "n": "Jablonex",
+   "layer": "cultural",
+   "src": "https://shop.jablonex.com/about-us",
+   "says": "Czech pressed-glass bead specialist from Jablonec nad Nisou, tradition from 16th century; first to offer recycled pressed beads",
+   "country": "Czech Republic",
+   "dept": "glass beads"
+  },
+  {
+   "n": "Preciosa Ornela",
+   "layer": "premium",
+   "src": "https://www.preciosa-ornela.com/seed-beads",
+   "says": "Czech seed-bead maker: 'Traditional Czech Beads' rocailles, cut beads distinguished by high quality and regularity",
+   "country": "Czech Republic",
+   "dept": "seed beads"
+  },
+  {
+   "n": "TALAS",
+   "layer": "premium",
+   "src": "https://www.talasonline.com/bookbinding-supplies?page=2",
+   "says": "Brooklyn specialist bookbinding/conservation supplier (seller role; carries Franz Hoffmann leathers)",
+   "country": "United States",
+   "dept": "bookbinding",
+   "role": "seller"
+  },
+  {
+   "n": "Franz Hoffmann (Gutenberg)",
+   "layer": "premium",
+   "src": "https://www.talasonline.com/bookbinding-supplies?page=2",
+   "says": "Archival calf and goatskin binding leathers stocked by specialist retailer TALAS",
+   "country": "Germany",
+   "dept": "bookbinding leather"
   }
  ]
 }
