@@ -1,25 +1,18 @@
-# CARS_ADD_ASIA report
+# CARS_ADD_ASIA report (round 2)
 
-Output: rebuild/out/G1_parts/cars_add/ASIA.json (loads with python3 -I). 1,003 new model entries, 38 brand_updates, 19 register entries (sourced country only).
+File: rebuild/out/G1_parts/cars_add/ASIA.json (loads with python3 -I). 1,206 new entries (round 1: 1,003), 38 brand_updates, 19 register entries, plus `y_updates` (586 "marque|model" -> first year for models already in CARS.json whose `y` is blank; the coordinator can apply them).
 
-Method: Wikipedia MediaWiki API category members with wikibase-shortdesc (class stated by the page), Wikidata SPARQL for marque country (P17) and parent (P749). About 66 fetches. Firecrawl not called.
+Round 2 sources (WebFetch, about 30 fetches): "List of Toyota vehicles" (windows 0-200000), Honda automobiles, Nissan, Mitsubishi Motors, Subaru, Suzuki automobiles, Mazda, Hyundai, Kia, Daihatsu, Isuzu, Holden, Proton vehicles; Tata and Mahindra have no list page (404), so the "Tata Motors Passenger Vehicles" and "Mahindra & Mahindra" pages' model tables were used. Firecrawl not called.
 
-Entries by kind: SUV 232, Saloon 54, Hatchback 51, MPV 40, City car 21, Luxury saloon 20, Kei car 9, Sports car 6, Utility coupé 3, Coupé 3, Off-roader 2, Estate 1, "Car, body style not stated" 561 (sectioned by marque via `sec`/`mk`).
-Class kinds use the page's short description (stored in `d`); mapping to body kind is by its wording (e.g. "compact car" -> Hatchback, "mid-size car" -> Saloon).
+Kinds: SUV 271, Saloon 64, Hatchback 57, MPV 49, City car 24, Luxury saloon 21, Kei car 20, Sports car 10, Coupé 6, Estate 6, Utility coupé 5, Off-roader 2, Microcar 1, "Car, body style not stated" 670 (sectioned by marque). New models in round 2: Toyota 43, Datsun 20, Mazda 23 (incl. Autozam, Eunos, Efini), Honda 18, Tata 15, Hyundai 12, Isuzu 11, Mitsubishi 10, Suzuki 9, Daihatsu 7, Mahindra 7, Proton 7, Nissan 6, Kia 6, Holden 5, Subaru 4.
 
-Marques with new models (all kinds): Chery, Haval, Changan, FAW, Hongqi, Roewe, Trumpchi, Aion/Hyptec, BAIC, JAC, Baojun, Li Auto, Zeekr, Leapmotor, Xiaomi, Jetour, Proton, Perodua, VinFast, Holden, HSV, Daewoo, Isuzu, Mitsuoka, Genesis, Iran Khodro, Saipa, Daihatsu, Tata, Great Wall/Tank, Maruti Suzuki, Hindustan, Dongfeng (Aeolus, Fengon, Forthing, Voyah, Nammi, M-Hero), Wuling, XPeng, Ora, SsangYong/KGM, Renault Samsung, Naza; plus gaps in Toyota (63), Mazda (47), Honda, Nissan, Mitsubishi, Subaru, Suzuki, Hyundai, Mahindra.
+Years: the lists give first years; 418 entries now carry `y` (all round-2 entries and 216 earlier ones). Class kinds follow the list's class text only; rows with no class (most "Former" tables) went to the not-stated kind.
 
-Not reached / limits
-- Years: category shortdescs rarely state years, so `y` is blank except a few; the "List of <marque> vehicles" tables were NOT read (budget). This is the main gap.
-- Honda, Nissan, Mitsubishi, Subaru, Suzuki, Hyundai, Kia: only members with a shortdesc were seen (about 38/72/82/45/42/42/33 members without one were omitted by the fetch), so their class-less models are missing; Kia had no gaps among the classified ones.
-- Not reached: Premier, Dongfeng-owned Venucia, Tank/Wey/Ora beyond listed, SAIC MG China, NIO (category holds brands only: Firefly, Onvo, Hycan), Laraki (category absent), Samsung/Daewoo subcats, Holden Commodore/Caprice subcategories, Lexus (already complete), Geely/BYD/Datsun gaps, Hyundai/Kia/Toyota subcategories (Corolla, Camry, Prius, Land Cruiser).
-- Tata Motors, Great Wall, Premier, Perodua etc. have no P17/P749 row: country/owner left blank. No acquisition years (P580 absent): `own_y` omitted.
+Owner: Nissan, Mitsubishi and Hindustan owner/tier updates removed (country kept). Remaining owners come from Wikidata P749 (Lexus, Daihatsu: Toyota; Genesis: Hyundai Motor Company; Kia, Hyundai: Hyundai Motor Group; Maruti Suzuki: Suzuki; Holden: General Motors; others in file). Not checked against infoboxes: Lexus/Daihatsu/Holden/Genesis parents look current, but Holden (GM, brand closed 2020) is a former parent; treat as a candidate to drop. No acquisition years sourced (`own_y` omitted).
 
-Pickups/commercial skipped (not entered): Tata Telcoline; Great Wall Cannon, Cannon Alpha, Wingle; Jetour Zongheng F700; JAC T9, Ruiling, Shuailing T6/T8, V7; Holden Colorado, Rodeo; Isuzu D-Max, Faster, Traga, Panther, KB/LB/P'up/Hombre; Chery Himla, Rely R08, Stockman; Dongfeng Z9; KGM Musso EV; Toyota Hilux, Tacoma, Tundra; Nissan Navara, Frontier, Titan, Datsun truck; Honda Ridgeline; Hyundai Santa Cruz; Kia Tasman; Mahindra Scorpio Getaway, Genio; Mitsubishi Triton; Subaru Baja, BRAT; Suzuki Equator; Wuling Zhengtu; Daihatsu Delta. Vans/buses/military also skipped.
+Stored vs sourced differences: Lexus and Daihatsu `own` ("Toyota Motor Corporation" vs "Toyota"); no `cty` differences.
 
-Stored values differing from sourced (cty/own):
-- Lexus own: "Toyota Motor Corporation" vs "Toyota"
-- Daihatsu own: "Toyota Motor Corporation" vs "Toyota"
-- Nissan own: "Nissan Motor Company" vs "Renault" (and Renault-Nissan-Mitsubishi Alliance)
-- Mitsubishi own: "Mitsubishi Motors" vs "Mitsubishi"
-No stored cty differed. Tier follows the coordinator rule (Global group if sourced parent is a global carmaker, else Independent); Honda/Mazda/Toyota have no sourced parent, tier left blank there.
+Not done
+- Chinese, Malaysian and other marques still have blank `y` (no list pages read; budget used on item 1). Honda page second window and Toyota offset 200000 were nav/concept sections and skipped. Nissan list rows for Nissan race cars (R38x etc.) and concepts, Proton concept cars, Mazda concept cars were excluded.
+- Item 2 (subcategories) skipped: every named marque had a list page except Tata/Mahindra, which were covered by their company pages.
+- Pickups/vans/trucks excluded as before (lists already separate them).

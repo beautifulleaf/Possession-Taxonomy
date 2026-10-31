@@ -10,3 +10,4 @@ ROUND2 step1: fetched circulating currencies list (offsets 0, 90000, complete to
 ROUND2 step2: currencies added (edit4: +145 coin, +145 note). next: coverage-line fix, definitive stamps, G20 orders
 ROUND2 step3: fetched G20 OD&M articles (Brazil, Germany FRG, Argentina, Australia, Canada, China, India, Indonesia, Italy, Mexico, Russia, Saudi, S.Africa, S.Korea, Turkey); next write awards.txt + edit5
 ROUND2 step4: awards added (edit5). next: definitive stamps, coverage line fix, report
+ROUND2 step5: definitives done (edit6). next: report update

@@ -1,6 +1,6 @@
 # GAP_F4 report (F4 Religious & Ceremonial Objects)
 
-validate.py --v3 out/F4.json: OK. Entries 102 -> 303 in 154 kinds. About 47 fetches and 5 searches; log in rebuild/work/GAP_F4/sources.tsv. Firecrawl not used. Brands, moves and renames files unchanged.
+validate.py --v3 out/F4.json: OK. Entries 102 -> 311 in 156 kinds (two kinds added). About 47 fetches and 5 searches; log in rebuild/work/GAP_F4/sources.tsv. Firecrawl not used. Brands, moves and renames files unchanged.
 
 ## Gaps closed (kind: before -> after, reference)
 - Rosary 5 -> 28: Chaplet (prayer), complete 24 of 24 (Seven Sorrows chaplet = Servite rosary).
@@ -15,10 +15,10 @@ validate.py --v3 out/F4.json: OK. Entries 102 -> 303 in 154 kinds. About 47 fetc
 - No loose models (m) remained.
 
 ## Remaining
-- Torah shield (tas) and Torah mantle have no kind in F4; sourced on a Hebrew Union College page and Chabad (shield first dedicated Amsterdam 1612; Italian, Turkish, German forms). Needs a decision on adding a kind: owner queue.
+- Torah shield (tas) and Torah mantle: added as kinds on the Torah finials shelf (d, tt, see to Torah finials) per coordinator. Shield has 4 entries (Hebrew Union College page), mantle 1 (Jewish Museum, Istanbul c. 1881). POLIN mantle page 403, deferred to Firecrawl list. The Sephardic tik case has only search excerpts and is not added.
 - Bible (only Family Bible): Wikipedia has no page of Bible object forms; searched "types of Bible editions pulpit lectern pocket study" (retail pages only) and Family Bible page. Left at 1.
 - Devotional medal: searched twice for a list; only Catholic devotions, Miraculous Medal pages are fetched. Saint Christopher medal has no dated fetched page.
-- Yad (Torah pointer): Wikipedia page Yad_(Torah_pointer) returned 404; the name was not found by search, so left at 1.
+- Yad (Torah pointer) 1 -> 4: found at Wikipedia Yad by search; Mountain Jews flat-bar and twisted forms, plus a 19th-century Russian silver yad from a Hebrew Union College record. The article names no other forms; the Ferrara late-15th-century yad appears only in a search excerpt and is not added.
 - Mushaf 2 of 31: the 29 others are manuscripts and text editions (Literature). Reliquary, Oil lamp, Incense and Ofuda exclusions are stated in each sel.
 - Pages read only to 100,000 characters: Incense, Oil lamp, Chorten, Advent wreath, Nativity scene, Islamic calligraphy, Catholic devotions; the unread tails are references and navigation boxes as far as the answers show.
 - Prayer wheel, Tallit, Prayer rug, Torah scroll and other zero-entry kinds hold types in tt; no named canon was attempted.

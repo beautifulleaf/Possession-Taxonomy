@@ -6,3 +6,4 @@ step5: build.py run -> rebuild/out/G1_parts/cars_add/ASIA.json written and loads
 step6: report written; DONE
 ROUND2 started: read list pages (Toyota,Honda,Nissan,Mitsubishi,Subaru,Suzuki,Mazda,Hyundai,Kia,Daihatsu,Isuzu,Holden,Tata,Mahindra,Proton); drop Nissan/Mitsubishi own updates; fill y; rewrite ASIA.json
 r2: lists fetched Toyota,Honda,Nissan,Mitsubishi,Subaru,Suzuki,Mazda,Hyundai,Kia,Daihatsu,Isuzu,Holden,Proton,Tata,Mahindra (Tata/Mahindra via Tata_Motors_Passenger_Vehicles and Mahindra_&_Mahindra pages); writing lists.txt
+r2: build2.py merged lists; ASIA.json rewritten (1206 entries, y_updates 586); report next

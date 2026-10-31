@@ -10,3 +10,4 @@ step8: edit3 applied; 47 fetches. next report
 step9: edit4 sections applied
 done: report written
 step10: coordinator asks: add kinds Torah shield (tas), Torah mantle; retry Yad
+step11: edit5 applied (kinds added, yad)

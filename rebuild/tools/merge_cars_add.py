@@ -26,6 +26,11 @@ for f in sorted(glob.glob('out/G1_parts/cars_add/*.json')):
                     if not old.get(fld) and x.get(fld): old[fld] = x[fld]
             else:
                 tgt.setdefault('x', []).append(x); have[key(x)] = (tgt['n'], x); added[reg] = added.get(reg, 0) + 1
+    yu = {k.lower(): v for k, v in (a.get('y_updates') or {}).items()}
+    for kk in kinds.values():
+        for x in kk.get('x') or []:
+            y = yu.get(((x.get('mk') or x.get('g') or '') + '|' + x['n']).lower())
+            if y and not x.get('y'): x['y'] = y
     names = {b['n'].lower() for b in brands}
     brands += [b for b in a.get('brands') or [] if b.get('n') and b['n'].lower() not in names]
     for m, u in (a.get('brand_updates') or {}).items(): bu.setdefault(m, {}).update(u)
