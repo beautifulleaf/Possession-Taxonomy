@@ -142,5 +142,8 @@ B={
 'Tupperware':('Party Products LLC',IN,'United States','2024'),
 'Thermos':(NS,IN,'Germany',''),
 'Sigg':(NS,IN,'Switzerland',''),
+'GE Appliances':('Haier',GG,'United States','2016'),
+'Krups':('Groupe SEB',GG,'Germany',''),
+'Toshiba':('Midea Group',GG,'Japan','2016'),
 'CamelBak':(NS,IN,'United States',''),
 }
