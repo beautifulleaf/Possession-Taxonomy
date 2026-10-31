@@ -3,7 +3,30 @@
  "status": "partial",
  "brand_led": true,
  "sweeps": [],
- "regions": [],
+ "regions": [
+  {
+   "region": "Italy (Milan, Campania)",
+   "speciality": "Artisanal panettone and pandoro",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "brands": [
+    "Pasticceria Cucchi",
+    "Marchesi 1824",
+    "Pasticceria Cova",
+    "Fiasconaro",
+    "Olivieri 1882"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "Wagashi and shinise confectioners",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "brands": [
+    "Ueno Fugetsudo",
+    "Kikumi Senbei Sohonten",
+    "Nakatani Seika"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2025-winners",
@@ -124,6 +147,56 @@
    "new_names": 178,
    "status": "partial",
    "note": "2025 and 2024 pages parsed; 2021, 2022 pages fetched but no medal table in the text; 2005 page empty; Golden Awards page seen in search only. Excluded schools/museum/duplicates of ICA names."
+  },
+  {
+   "url": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "title": "IRCA Panettone Awards 2024",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 13,
+   "new_names": 9,
+   "status": "done",
+   "note": "juried; trade-sponsored competition"
+  },
+  {
+   "url": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "title": "II Panettone World Championship 2021",
+   "kind": "award",
+   "years": "2021",
+   "names_on_page": 20,
+   "new_names": 13,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "title": "11 best panettoni (Luigi Cremona)",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 11,
+   "new_names": 7,
+   "status": "done",
+   "note": "critic pick"
+  },
+  {
+   "url": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "title": "Italy Segreta guide to best artisanal panettoni",
+   "kind": "retailer",
+   "years": "2022",
+   "names_on_page": 34,
+   "new_names": 30,
+   "status": "done",
+   "note": "contributor nominations, treated as listed/cultural"
+  },
+  {
+   "url": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "title": "Agata Japan shinise: Traditional Japanese Sweets",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 9,
+   "status": "done",
+   "note": "one page of the category; other sweets shinise (Toraya, Aono Sohonpo, Mannendo) seen only in search excerpts, not counted"
   }
  ],
  "brands": [
@@ -5052,7 +5125,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Denmark",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5060,7 +5133,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United States",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5068,7 +5141,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Germany",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5076,7 +5149,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5084,7 +5157,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5092,7 +5165,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Poland",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5100,7 +5173,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Germany",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5108,7 +5181,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Ukraine",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5116,7 +5189,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Indonesia",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5124,7 +5197,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Russia",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5132,7 +5205,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Spain",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5140,7 +5213,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5148,7 +5221,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Canada",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5156,7 +5229,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Japan",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5164,7 +5237,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Russia",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5172,7 +5245,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5180,7 +5253,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5188,7 +5261,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5196,7 +5269,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5204,7 +5277,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Australia",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5212,7 +5285,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5220,7 +5293,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Poland",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5228,7 +5301,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Poland",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5236,7 +5309,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United Kingdom",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5244,7 +5317,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United States",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5252,7 +5325,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United States",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5260,7 +5333,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "Netherlands",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5268,7 +5341,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_confectionery_brands",
    "says": "Listed in Wikipedia \"List of confectionery brands\"",
-   "country": "United States",
+   "country": "",
    "dept": "Sweets & confectionery"
   },
   {
@@ -5276,7 +5349,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bean-to-bar_chocolate_manufacturers",
    "says": "Listed in Wikipedia \"List of bean-to-bar chocolate manufacturers\"",
-   "country": "Philippines",
+   "country": "",
    "dept": "Chocolate"
   },
   {
@@ -5284,7 +5357,7 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bean-to-bar_chocolate_manufacturers",
    "says": "Listed in Wikipedia \"List of bean-to-bar chocolate manufacturers\"",
-   "country": "United States",
+   "country": "",
    "dept": "Chocolate"
   },
   {
@@ -5292,8 +5365,552 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bean-to-bar_chocolate_manufacturers",
    "says": "Listed in Wikipedia \"List of bean-to-bar chocolate manufacturers\"",
-   "country": "New Zealand",
+   "country": "",
    "dept": "Chocolate"
+  },
+  {
+   "n": "Pasticceria Don Nino",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Memmolo",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Caesar",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Squisito Barbagallo",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Panificio Il Buongustaio",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Panificio Andrea Giannone",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Dolce Millennio",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Roberto Pastry & Bakery",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Arte del Dolce",
+   "layer": "premium",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "says": "Panettone Awards 2024 (IRCA) final: podium or finalist",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Sal De Riso",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Saporè Verona",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "El Sombrero di Napoli",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Wu Pao Chun Bakery",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Taiwan",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Confiteria Artiaga",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Argentina",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Martesana",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Tiri 1957",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Comi",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Rigacci '48",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Mazzali",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Pepe",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Dolciarte",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Non Solo Pane",
+   "layer": "premium",
+   "src": "https://www.sogoodmagazine.com/pastry-blog/pastry-competition/italian-chef-salvatore-riso-wins-panettone-world-championship",
+   "says": "Finalist/winner, II Panettone World Championship 2021 (Host Milano)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Natural Sweets by Claudio Gatti",
+   "layer": "premium",
+   "src": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "says": "Selected among 11 best panettoni by food journalist Luigi Cremona (pastry competition wins cited)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Casa Mastroianni",
+   "layer": "premium",
+   "src": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "says": "Selected among 11 best panettoni by food journalist Luigi Cremona (pastry competition wins cited)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Olivieri 1882",
+   "layer": "premium",
+   "src": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "says": "Selected among 11 best panettoni by food journalist Luigi Cremona (pastry competition wins cited)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Ferrante",
+   "layer": "premium",
+   "src": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "says": "Selected among 11 best panettoni by food journalist Luigi Cremona (pastry competition wins cited)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Roberto",
+   "layer": "premium",
+   "src": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "says": "Selected among 11 best panettoni by food journalist Luigi Cremona (pastry competition wins cited)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Lombardi",
+   "layer": "premium",
+   "src": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "says": "Selected among 11 best panettoni by food journalist Luigi Cremona (pastry competition wins cited)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Salvatore Tortora",
+   "layer": "premium",
+   "src": "https://www.theitalyinsider.com/luigi-cremona-panettoni",
+   "says": "Selected among 11 best panettoni by food journalist Luigi Cremona (pastry competition wins cited)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Panificio Davide Longoni",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Cracco",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Peck",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Cucchi",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Marchesi 1824",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Cova",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Ferdy Wild",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Marlà",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pompilio",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Vincenzo Bellavia",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Iodio",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Regoli",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Biscottificio Innocenti",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Nero Vaniglia",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Forno Monteforte",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Forno Conti",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Laboratorio Niko Romito",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Fiasconaro",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Vincente Delicacies",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Buonamici",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Leonardo",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Manalù",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Nono Colussi",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Quadri",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Pasticceria Alverà",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Panegiro",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Forno Brisa",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Giamberlano",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "Italy",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Lina Stores",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "United Kingdom",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Sullivan Street Bakery",
+   "layer": "cultural",
+   "src": "https://italysegreta.com/the-italy-segreta-guide-to-the-best-artisanal-panettoni/",
+   "says": "Named in Italy Segreta contributors' guide to best artisanal panettoni (34 picks)",
+   "country": "United States",
+   "dept": "Panettone"
+  },
+  {
+   "n": "Shinshōdō",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Kanda Miharado",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Nakatani Seika",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Mikado Mitsuharado Main Store",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Kikumi Senbei Sohonten",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Ueno Fugetsudo",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Otsunoya Tamaya",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Nihonbashi Nagato",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
+  },
+  {
+   "n": "Toranomon Okano Eizen",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/en/category/shinise-en/traditional-japanese-sweets-en",
+   "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
+   "country": "Japan",
+   "dept": "Wagashi"
   }
  ]
 }
