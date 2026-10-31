@@ -1,1 +1,2 @@
 step1 read brief, F3, E1 pilot; design done; fetched exonumia, scripophily, postage_due, official_mail, postage_meter, military awards, booster pack, traveller cheque, RHS (all en.wikipedia.org); next: fetch few more refs, then build.py
+step2 fetched Sigloi, Wound_Badge, bullionstar supplies, Non-sports card, Coin_collecting, ceskaposta stationery (banknote ref: IBNS/britishnotes/numisview blocked); backups in bak/; next: write build.py (structure, tt, new kinds, see), run, validate, report
