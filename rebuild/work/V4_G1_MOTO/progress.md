@@ -19,3 +19,4 @@ wp_india.txt (Bajaj/KTM/Hero/TVS from Wikipedia company pages & KTM cat). fetche
 marques.txt written (owner/tier table). fetches ~62; no more fetching. next: build.py in work dir producing rebuild/out/G1_parts/MOTO.json
 build.py run OK, part file written & validated. remaining: sources.tsv, report
 REVISION 2 started: restore type kinds, wikidata owners, finish Honda table, US/world shares. v1 backups in bak2/
+type-category files saved (cat_*.txt): Standard,Sport(+Sport touring merged in Touring),Cruiser,Touring,Dual-sport,Trail(offroad cat),Scooter,Moped,Underbone,Trike. fetches this revision ~17. Note Sport touring merged into cat_Touring. TODO: list-section types (Yamaha/Honda/Kawasaki/Suzuki), Honda eng table, wikidata owners, US/world shares, rebuild build2.py
