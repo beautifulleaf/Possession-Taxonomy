@@ -39,6 +39,22 @@
     "Masenghini",
     "Italcards"
    ]
+  },
+  {
+   "region": "Israel",
+   "speciality": "hand-made silver Judaica",
+   "src": "https://hazorfim.com/about-us/about-us.html",
+   "brands": [
+    "Hazorfim"
+   ]
+  },
+  {
+   "region": "Italy (Rome)",
+   "speciality": "ecclesiastical tailoring and vestments",
+   "src": "https://www.catholicworldreport.com/2024/12/03/romes-famous-tailor-prepares-for-the-catholic-churchs-new-cardinals",
+   "brands": [
+    "Ditta Annibale Gammarelli"
+   ]
   }
  ],
  "sources": [
@@ -71,6 +87,26 @@
    "new_names": 3,
    "status": "done",
    "note": "specialist tarot directory; lists general book publishers too, only card-making houses kept. Known: Lo Scarabeo, Llewellyn, US Games Systems, Grimaud, AGM Muller; E1-only homonym-cross_tags: Dal Negro, Modiano, Heraclio Fournier, Piatnik, Cartamundi"
+  },
+  {
+   "url": "https://www.catholicworldreport.com/2024/12/03/romes-famous-tailor-prepares-for-the-catholic-churchs-new-cardinals",
+   "title": "Rome's famous tailor prepares for new cardinals (CNA/CWR)",
+   "kind": "heritage",
+   "years": "2024",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Gammarelli on list of historic shops of Rome (2000); religious dress is A1 but sacred vestments are made here; kept as cultural"
+  },
+  {
+   "url": "https://hazorfim.com/about-us/about-us.html",
+   "title": "Hazorfim Our Story",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own page; quality claim is self-statement, see also third-party retailer Judaica Webstore (excerpt only, not fetched)"
   }
  ],
  "brands": [
@@ -187,6 +223,23 @@
    "dept": "Tarot decks",
    "already": true,
    "cross_tag": "F4"
+  },
+  {
+   "n": "Ditta Annibale Gammarelli",
+   "layer": "cultural",
+   "src": "https://www.catholicworldreport.com/2024/12/03/romes-famous-tailor-prepares-for-the-catholic-churchs-new-cardinals",
+   "says": "ecclesiastical tailor and vestment maker since 1798, added to a list of historic shops in Rome in 2000",
+   "country": "Italy",
+   "dept": "Clerical vestments (dress is A1; vestments for liturgy)",
+   "homonym": false
+  },
+  {
+   "n": "Hazorfim",
+   "layer": "premium",
+   "src": "https://hazorfim.com/about-us/about-us.html",
+   "says": "Israeli silversmith house founded 1952, hand-crafted sterling silver Judaica, stamped",
+   "country": "Israel",
+   "dept": "Judaica silver"
   }
  ]
 }
