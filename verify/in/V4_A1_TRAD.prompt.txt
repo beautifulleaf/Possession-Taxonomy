@@ -1,0 +1,13 @@
+BATCH V4_A1_TRAD — clothing, part TRAD.
+
+Follow /home/user/Possession-Taxonomy/verify/in/PARTS_COMMON.txt exactly with <CODE> = A1, <PART> = TRAD, <BATCH> = V4_A1_TRAD. Your part file: rebuild/out/A1_parts/TRAD.json. Departments you replace (exact names): Traditional dress.
+
+CLOTHING RULES (A1, owner decisions in BRIEF.md: 2026-10-17 scenes are the way in; 2026-10-31 clothing three layers, traditional dress tentative). Clothing is done last, with the same standard as the rest:
+- Layer 1, the garment tree, is the home: kinds stay garment kinds (keep t, ax, tt, see).
+- Layer 2, named entries in a garment kind, are signature pieces: a garment sold under its own name by its originating brand (Levi's 501, Burberry Heritage Trench, Barbour Bedale, Schott Perfecto, Alpha Industries MA-1, Lacoste L.12.12, Fred Perry M12, Champion Reverse Weave, Canada Goose Expedition, The North Face Nuptse, Uniqlo Heattech, Spanx). Versions are fits, generations and fabrics the brand lists. Canon: (a) every signature piece in the `sig` and `lines` fields of rebuild/out/A1_brands.json whose garment matches the kind (read the whole register with a script; 2,531 brands), confirmed on a fetched page (the brand's own page counts; a register entry's `s` page counts if it names the piece); (b) every originator a fetched Wikipedia article on the garment names (the trench coat article names Burberry and Aquascutum). Sections `g` by brand country then brand; `role` origin for the originator of the garment.
+- Named garment forms without a brand (regional variants such as Banarasi sari) are entries only where a fetched Wikipedia list of that garment's types names them.
+- Remove loose models (`m`): each becomes a signature-piece entry, a version, or is removed.
+- Scenes stay as they are in the file (do not edit `scenes`).
+Traditional dress (owner, tentative 2026-10-31): garments stay as kinds sectioned by region; no exhaustive national-costume canon. The shelf "Named cloths & textiles" is dissolved: each of its kinds (kente, batik, ikat, khadi, tartan, tweed and the rest) becomes a value of a "Cloth" tt group on the garments that use it, with a see-note pointing to the visual-art taxonomy (cloth and textile traditions belong there); its entries are removed from A1 and listed in the report and in a `ve` list on the garment kind ("Named cloths covered by the visual-art taxonomy"). Named regional forms of a garment (Banarasi, Kanjivaram, Paithani saris; longyi, sinh, sampot) stay as entries where a fetched Wikipedia list of that garment's types names them; complete each such list.
+
+Owner (2026-10-31): nothing should be left unfinished. Do not stop at a sample; say exactly where you stopped.

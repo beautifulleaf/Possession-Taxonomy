@@ -1,1 +1,2 @@
 step0 started: read briefs; plan: knife types+maker lines, cookware by material, tools icon rule
+step1 done: fetched knife types, centres, makers (Zwilling, Wüsthof, Victorinox, Shun, Global, Sabatier), cookware (Le Creuset, Staub, All-Clad, de Buyer, Lodge, Mauviel), market gminsights. 404s: Global_(knife_maker), Kai_Group, Lodge_Cast_Iron, Mauviel wiki. Next: SEB/Newell/Tefal, Misono/Tojiro/MAC/Opinel, tools icon rule, then build

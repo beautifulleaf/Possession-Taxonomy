@@ -31,6 +31,10 @@ moved = {m['kind']['n'] for m in moves if isinstance(m.get('kind'), dict)}
 lost = sorted(oldk - newk - set(ren) - moved)
 print(code, 'parts', list(parts), 'depts', len(old['depts']), '->', len(depts), 'kinds', len(oldk), '->', len(newk), 'lost', len(lost), lost[:30])
 key = [k for p in parts.values() for k in (p.get('key') or [])]
+for p in parts.values():
+    for dn, facts in (p.get('dept_ms') or {}).items():
+        for d in depts:
+            if d['n'] == dn: d['ms'] = (d.get('ms') or []) + facts
 new = dict(old, depts=depts)
 if write:
     os.makedirs(f'work/ASM_{code}', exist_ok=True)

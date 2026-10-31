@@ -1,0 +1,13 @@
+BATCH V4_A1_UNDER — clothing, part UNDER.
+
+Follow /home/user/Possession-Taxonomy/verify/in/PARTS_COMMON.txt exactly with <CODE> = A1, <PART> = UNDER, <BATCH> = V4_A1_UNDER. Your part file: rebuild/out/A1_parts/UNDER.json. Departments you replace (exact names): Underwear, nightwear & swim; Hats & headwear; Scarves, gloves & belts.
+
+CLOTHING RULES (A1, owner decisions in BRIEF.md: 2026-10-17 scenes are the way in; 2026-10-31 clothing three layers, traditional dress tentative). Clothing is done last, with the same standard as the rest:
+- Layer 1, the garment tree, is the home: kinds stay garment kinds (keep t, ax, tt, see).
+- Layer 2, named entries in a garment kind, are signature pieces: a garment sold under its own name by its originating brand (Levi's 501, Burberry Heritage Trench, Barbour Bedale, Schott Perfecto, Alpha Industries MA-1, Lacoste L.12.12, Fred Perry M12, Champion Reverse Weave, Canada Goose Expedition, The North Face Nuptse, Uniqlo Heattech, Spanx). Versions are fits, generations and fabrics the brand lists. Canon: (a) every signature piece in the `sig` and `lines` fields of rebuild/out/A1_brands.json whose garment matches the kind (read the whole register with a script; 2,531 brands), confirmed on a fetched page (the brand's own page counts; a register entry's `s` page counts if it names the piece); (b) every originator a fetched Wikipedia article on the garment names (the trench coat article names Burberry and Aquascutum). Sections `g` by brand country then brand; `role` origin for the originator of the garment.
+- Named garment forms without a brand (regional variants such as Banarasi sari) are entries only where a fetched Wikipedia list of that garment's types names them.
+- Remove loose models (`m`): each becomes a signature-piece entry, a version, or is removed.
+- Scenes stay as they are in the file (do not edit `scenes`).
+Hats: originators of named hat forms (Stetson Open Road, Borsalino fedora, Lock & Co. bowler, Kangol 504, New Era 59FIFTY) are entries.
+
+Owner (2026-10-31): nothing should be left unfinished. Do not stop at a sample; say exactly where you stopped.
