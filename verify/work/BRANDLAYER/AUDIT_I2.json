@@ -1,6 +1,6 @@
 {
  "cat": "I2",
- "status": "partial",
+ "status": "done",
  "accuracy": {
   "checked": 25,
   "wrong": 0,
@@ -1636,7 +1636,7 @@
    "dept": "Personal media files > E-books & documents"
   }
  ],
- "notes": "",
+ "notes": "Accuracy: 25/25 names shown on their src pages and every 'says' line true (0 wrong); but 21/25 carry layer 'premium' on directory evidence only (Atlas of Type / Type Design Class rows): file all Atlas, Type Network and Type Design Class rows as 'listed'. TDC-archive rows are juried (quality); Wikipedia category rows are cultural (own article). HOMONYM MASKING: the harvest's suffix-stripped dedupe (key() removes type/foundry/studio/design/co) matched 30 Atlas foundries to unrelated register brands (Storm->bowling balls, Indian Type Foundry->Indian motorcycles, Black Foundry->Black energy drink, Signal->toothpaste, Sharp Type->Sharp, Nova->paragliders, Atlas->lathes...) and silently skipped them; all re-added here (homonym_masked:true), 4 with TDC award evidence (src2). Upgrades: 31 harvest rows gain juried-award evidence (TDC 2023 One Club archive, Granshan 2024, TDC 2019 Fontscape list). Retry results: Japanese foundries found (FontShop overview + Monotype release); Arabic: 29LT/Boutros only on own sites, Boharat (Cairo) and Frontline Typo (Doha/Tehran) via TDC; Indic: Ek Type, Universal Thirst upgraded via TDC 2023; Africa: Afrotype, Udi Foundry (Lagos), HadiType (Egypt, directory); SE Asia: Cadson Demak region, Toko (ID), Produce/Superstore (TH) directory; sample/instrument makers: 26 new via Sample Library Review Best of 2021 (advisory-board award; affiliate site); 3D: TurboSquid, Sketchfab, CGTrader, Daz 3D; DRM-free/game stores: GOG.com, itch.io, Humble Store, Game Jolt, GamersGate, DLsite, IndieGala, Gamesplanet (sellers; note game titles themselves are deferred to Interactive Entertainment, stores kept as sellers); e-book stores: Apple Books, Kindle Store, Google Play Books, BookWalker, Smashwords, Feedbooks, Rokomari (BD), Taaghche (IR), eSentral (MY), Bookmate, Bol.com, Scribd, DMM.com, Mofibo; stock: Pond5, Unsplash, Freepik; NFT: Nifty Gateway, SuperRare; sewing patterns: 26 indie makers (Our Daily Craft blog 'reputation for quality' = weak quality; Les Tissees shop list = listed). TDC 2020-2022/2024 typeface winners: oneclub archive pages are JS-filtered; only 2023 Type Design archive and a 2024 North America region page fetched (2024 NA page is mostly communication design; only Sakkal Design, Frere-Jones Type type-design rows). Granshan 2009-2017 Devroye pages name mostly individual designers, few foundries (Dalton Maag, Monotype, Letterjuice, Sandoll already known). Persons (type designers) kept, matching register convention. Content identity: no content creators found among additions except none; game stores kept as sellers per coordinator brief.",
  "upgrade": [
   {
    "n": "Universal Thirst",
@@ -1935,5 +1935,31 @@
    "in": "F2",
    "why": "licenses stock/editorial images"
   }
- ]
+ ],
+ "blind_spots": [
+  "Chinese foundries beyond FounderType/Hanyi/HelloFont/Arphic/DynaComware (justfont, Hanyi upgraded only via Granshan)",
+  "Arabic foundries with independent pages (Boutros, 29LT, Khatt members as foundries)",
+  "Cyrillic/Greek/Hebrew foundries outside Atlas (CSTM, type.today, Greek Font Society)",
+  "knitting/crochet and cross-stitch pattern makers (Drops/Garnstudio, PetiteKnit, Heaven and Earth Designs)",
+  "presets/LUT/brush makers (Mastin Labs, Dehancer, Kyle T. Webster)",
+  "game-skin marketplaces (Steam Community Market, Skinport, CSFloat) and domain registrars (Namecheap, Gandi, Porkbun, Verisign)",
+  "TDC 2020-2022/2024 typeface winner lists (JS archive)",
+  "Latin American and Oceanian foundries rest on Atlas directory only"
+ ],
+ "stats": {
+  "add_brands": 139,
+  "by_dept": {
+   "Fonts & typefaces": 55,
+   "Creative assets > Music production assets": 27,
+   "Personal media files": 8,
+   "Personal media files > E-books & documents": 14,
+   "Creative assets > 3D assets": 4,
+   "Creative assets > Artwork & layouts": 3,
+   "Domains & tokens > NFTs & digital collectibles": 2,
+   "Creative assets > Patterns for making": 26
+  },
+  "upgrades": 31,
+  "homonym_masked_readded": 28,
+  "drops": 6
+ }
 }
