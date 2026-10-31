@@ -5,7 +5,8 @@ For category C reads ../verify/work/BRANDLAYER/VERIFY_<C>.json and writes:
                         in the verify file or its cross_tag list get a minimal entry so merge.py adds category C, plus
                         tier/rg where they had none.
   out/<C>.json key 'rg': regional divisions whose source page states renown: {n, sp, s, q, b:[brand names shown]}.
-Backups in work/BRANDLAYER_MERGE/. Usage: python3 tools/brandlayer_merge.py A1 A2 ..."""
+Backups in work/BRANDLAYER_MERGE/. Brands listed for C in any MOVES_<X>.json are merged too.
+Usage: python3 tools/brandlayer_merge.py A1 A2 ..."""
 import json,sys,os,re,shutil,unicodedata
 R=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); V=f'{R}/../verify/work/BRANDLAYER'
 os.makedirs(f'{R}/work/BRANDLAYER_MERGE',exist_ok=True)
@@ -16,6 +17,11 @@ glob_idx={norm(r[0]):r[0] for r in json.load(open(f'{R}/reader/_brand_index.json
 RANK={'quality':0,'cultural':1,'seller':2,'listed':3}
 for c in sys.argv[1:]:
     v=json.load(open(f'{V}/VERIFY_{c}.json'))
+    import glob as _g
+    for mp in sorted(_g.glob(f'{V}/MOVES_*.json')):  # brands verified in another category's pass that belong here
+        mv=json.load(open(mp)).get('to',{}).get(c,[])
+        for b in mv: b.setdefault('shown',True); b['note']=(b.get('note','')+f' [moved from {os.path.basename(mp)[6:-5]}]').strip()
+        v['brands']=v['brands']+mv
     bp=f'{R}/out/{c}_brands.json'; cp=f'{R}/out/{c}.json'
     for p in (bp,cp): shutil.copy(p,f'{R}/work/BRANDLAYER_MERGE/{os.path.basename(p)}.before')
     B=json.load(open(bp)); cat=json.load(open(cp))
