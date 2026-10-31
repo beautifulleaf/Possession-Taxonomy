@@ -119,7 +119,7 @@ DP("Skirts, jumpsuits & sets","Garments for the lower body or whole body that ar
   "SK_PENCIL","SK_ALINE","SK_CIRCLE","SK_PLEAT","SK_WRAP","SK_TIER","SK_MINI","SK_TUTU","SK_CULOTTE"]),
  SH("Jumpsuits & playsuits","One-piece garments covering torso and legs, worn as everyday or fashion clothes; workwear coveralls → Workwear & uniform clothing.",
   "kinds by leg length and fit",[
-  K("Jumpsuit","Leg: Full-length | Wide | Shorts (playsuit or romper) ;; Cut: Utility or boiler-style | Tailored | Catsuit ;; Top: Strapless | Halter | Sleeved ;; Cloth: Denim | Crepe | Jersey",see=S(("Boiler suit","workwear original")))),
+  K("Jumpsuit","Leg: Full-length | Wide | Shorts (playsuit or romper) ;; Cut: Utility or boiler-style | Tailored | Catsuit ;; Top: Strapless | Halter | Sleeved ;; Cloth: Denim | Crepe | Jersey",see=S(("Boiler suit","workwear original"))),
  ]),
  SH("Sets & costumes","Garments sold together as a matching set, or dressed in as a character.",
   "kinds by purpose: a matching outfit for wear, or a costume for play",[
@@ -135,7 +135,7 @@ SKIRT_KINDS={
 "SK_CIRCLE":N("Circle & poodle skirt","skater skirt · swing skirt","Full skirt cut as a circle, with a smooth flare at the hem, including the 1950s poodle skirt.",WP+"Skirt","Cut: Full circle | Half circle | Skater (short) ;; Era: 1950s poodle skirt | Modern ;; Cloth: Felt | Cotton | Jersey",take={"Skirt":["Poodle skirt"]}),
 "SK_PLEAT":N("Pleated skirt","kilt-skirt · tennis skirt","Skirt folded into pleats that open as the wearer moves.",WP+"Skirt","Pleat: Knife | Box | Inverted | Accordion ;; Length: Mini | Midi | Maxi ;; Cloth: Wool | Chiffon | Tartan ;; Use: Fashion | School | Tennis"),
 "SK_WRAP":N("Wrap skirt","wraparound skirt · sarong skirt","Skirt cut from a panel that wraps round the waist and ties or buttons.",WP+"Skirt","Closure: Tie | Button | Snap ;; Length: Mini | Midi | Maxi ;; Cloth: Cotton | Silk | Linen"),
-"SK_TIER":N("Tiered & prairie skirt","gypsy skirt · broomstick skirt","Skirt built from gathered horizontal layers, as in the prairie and gypsy styles.",WP+"Skirt","Tiers: Two | Three or more ;; Hem: Midi | Maxi ;; Cloth: Cotton | Crinkle voile | Denim",take={"Skirt":["Prairie skirt"]}),
+"SK_TIER":N("Tiered & prairie skirt","gypsy skirt · broomstick skirt","Skirt built from gathered horizontal layers, as in the prairie and gypsy styles.",WP+"Skirt","Tiers: Two | Three or more ;; Hem: Midi | Maxi ;; Cloth: Cotton | Crinkle voile | Denim"),
 "SK_MINI":N("Miniskirt","mini skirt · micro skirt","Skirt ending well above the knee, popularised by Mary Quant in the 1960s.",WP+"Skirt","Length: Mini | Micro ;; Cut: A-line | Pleated | Straight ;; Cloth: Denim | Leather | Wool ;; Style: Rah-rah | Mini-crini",take={"Skirt":["Miniskirt","Rah-rah skirt","Mini-Crini"]}),
 "SK_TUTU":N("Tutu & ballerina skirt","tutu · net skirt","Skirt of layered net or tulle, standing out stiffly or falling soft, worn on stage and for fashion.",WP+"Skirt","Shape: Classical (flat) | Romantic (bell) | Fashion tulle ;; Length: Short | Midi | Maxi"),
 "SK_CULOTTE":N("Culottes & skort","split skirt · divided skirt","Wide shorts cut to look like a skirt, or a skirt with built-in shorts.",WP+"Skirt","Form: Culottes (wide leg) | Skort (shorts under a skirt) ;; Length: Knee | Midi ;; Use: Fashion | Tennis or golf"),

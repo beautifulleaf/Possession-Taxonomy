@@ -6,3 +6,6 @@ step4: spec_a, spec_a2 written (Tops..Coats)
 step5: cricket src ok; dropped american football jersey (unsourced)
 step6: spec_b first part (suits..scarves) written
 step7: spec_c (traditional, workwear) written; next build.py
+step8: build.py staged ok (stage.json); next finalize.py
+step9: finalize ok, tt patched, validate OK; next: report, brands check, sources log
+step10 done: report written. COMPLETE
