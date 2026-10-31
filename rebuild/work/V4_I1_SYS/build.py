@@ -357,3 +357,153 @@ for kn,rows,desc,srcs in [
         if not e['mk'] and not e['y']: e['d']='Discontinued program named in Wikipedia\'s Category:Discontinued software.' if srcs=='disc' else 'Early program named in Wikipedia\'s History of software.'
         elif srcs=='hos' and e['y']: e['d']=f"Early program, {e['y']}, named in Wikipedia's History of software."
         elif not e['y'] or not e['mk']: e['d']=(f"Discontinued program by {e['mk']}." if e['mk'] else 'Discontinued program.')
+
+# ================= stage 2: nl / sel / coverage / market =================
+def n_of(dn,kn): return len(kx(dn,kn)['x'])
+SPEC={}
+def spec(dn,kn,nl,ref,covtxt,xg=None): SPEC[(dn,kn)]=(nl,ref,covtxt,xg)
+dwtotal=len(DW)
+spec(OS,'Desktop operating system','One entry is a desktop or laptop operating system line sold or distributed under one name; major releases are versions.',
+ "Windows, macOS and ChromeOS, each with the major releases of its own version-history page (Wikipedia's Microsoft Windows and macOS version histories); the desktop systems of Wikipedia's List of operating systems.",
+ "Complete: 3 of 3 current desktop system lines in that list; Windows Server, embedded editions and historic DOS products are left out as business or historic, and Linux and BSD systems have their own kinds.")
+spec(OS,'Linux distribution',"One entry is a Linux distribution a person can download and install; spins and flavours that DistroWatch ranks separately are separate entries, releases are versions.",
+ "Every row of DistroWatch's Page Hit Ranking for the last 12 months, grouped by the first family DistroWatch names in its 'Based on' column, plus the distributions of the major-family sections of Wikipedia's List of Linux distributions that DistroWatch's ranking lacks (marked as Wikipedia list only; this includes some discontinued systems).",
+ f"Complete: {dwtotal} of {dwtotal} rows in DistroWatch's ranking (the page itself says it measures page visits, not use); {dw_in_linux} are here, {len(to_alt)} BSD, Solaris and Haiku-family rows are under Alternative & hobby operating system and {len(to_mobile)} Android-based rows under Mobile operating system. Wikipedia: the Debian, Arch, RPM, Gentoo, Slackware, Source-based and Other sections were read in full; {wcount} names not in DistroWatch were added; the Android-based and Historical sections are not included.",'by DistroWatch family')
+spec(OS,'Alternative & hobby operating system',"One entry is an operating system other than Windows, macOS, ChromeOS or Linux that a person can install, buy or build today; releases are versions.",
+ "The installable systems of Wikipedia's List of operating systems (non-proprietary Unix and non-Unix, hobby and research, disc operating systems, Amiga, Atari and Acorn lines, OS/2 lines, commercial Unix still sold) plus the BSD, Solaris and Haiku-family rows of DistroWatch's ranking.",
+ "Covers the installable part of the roughly 1,100 names in Wikipedia's List of operating systems (read in full, 0 to 200,000 characters); mainframe, minicomputer, real-time, router, network-device and long-discontinued systems are left out as trade or historic.",'by family')
+spec(OS,'Mobile operating system',"One entry is a phone, tablet, wearable or TV operating system, or an Android build that replaces the maker's system; major releases are versions.",
+ "The embedded and mobile sections of Wikipedia's List of operating systems and the Apple, Google, Huawei, Samsung and Amazon sections, plus the Android-based rows of DistroWatch's ranking.",
+ "Covers the systems of those sections that a person can use on a device today, with a short group of retired systems; embedded, router and real-time systems are out of scope.",'by system type')
+spec(OFF,'Office suite','One entry is an office suite sold or distributed under one name; major releases are versions.',
+ "Every suite of Wikipedia's Comparison of office suites, with older entries moved here from the earlier pass.",
+ "Complete: 21 of 21 suites named in that comparison table, with versions for Microsoft Office (Wikipedia's Microsoft Office page, names only) and LibreOffice (Wikipedia's LibreOffice page, 3.3 to 7.5 only because the fetched text stopped there).")
+spec(SEC,'Password manager','One entry is a password manager sold or distributed under one name.',
+ "Every entry of Wikipedia's List of password managers (the page gives names only), with those of the earlier pass.",
+ "Complete: 32 of 32 names on that list; the page gives no makers or years.")
+spec(SEC,'VPN','One entry is a VPN service sold under its own name.',
+ "Every consumer service of Wikipedia's Comparison of virtual private network services except the enterprise-only products Check Point VPN-1 and LogMeIn Hamachi.",
+ "Complete: 24 of 24 names on that page less the two enterprise-only products.")
+spec(SEC,'Antivirus software','One entry is an antivirus or internet-security product sold under its own name; free, internet-security and total-security editions are versions or attributes.',
+ "The pages of Wikipedia's Category:Antivirus software (the Comparison of antivirus software and List of antivirus software pages returned HTTP 404), plus the products of the earlier pass drawn from the AV-Comparatives consumer test; sectioned into current and discontinued.",
+ "Covers the product pages of that category (about 85 pages, of which the antivirus products are here; labs, concepts and company pages are left out); no whole-space product table could be fetched.",'by status')
+spec(NET,'Web browser','One entry is a web browser sold or distributed under one name; major releases are versions.',
+ "Every browser of Wikipedia's Comparison of web browsers, with the earlier pass's browsers, sectioned into current and retired.",
+ "Complete: the General information table of that page (about 60 browsers) was read in full across both windows (112,122 characters); the page gives latest-release dates, not first-release years.",'by status')
+spec(NET,'Email client','One entry is an email program or webmail front end sold or distributed under one name.',
+ "Every client of Wikipedia's Comparison of email clients.",
+ "Covers the clients of that page's first 100,000 characters (about 50) in full; the rest of the page (33,000 characters of feature tables) repeats the same names.")
+spec(NET,'BitTorrent client','One entry is a BitTorrent or file-sharing client sold or distributed under one name.',
+ "Every client of Wikipedia's Comparison of BitTorrent clients.",
+ "Covers the clients of the page's first 100,000 of 133,140 characters; the remainder (feature tables) was not read.")
+spec(NET,'AI assistant','One entry is a chat assistant or voice assistant app sold or distributed under one name; model generations are the AI model families of I2.',
+ "The LLM chatbots and General chatbots sections of Wikipedia's List of chatbots; the Historical chatbots section (ELIZA, Tay, Cortana and others, none installable today) is left out.",
+ "Complete: 22 of 22 LLM chatbots and 20 of 20 general chatbots on that page. Model families by lab are in I2.",'by assistant type')
+spec(NET,'Local AI model runner','One entry is a program that runs open-weight language models on the owner\'s own computer.',
+ "The local model runners named in the navigation of Wikipedia's List of chatbots: Ollama, LM Studio, llama.cpp, vLLM, SGLang and TensorRT-LLM.",
+ "Covers 6 of the 6 named on that page; no complete reference list of local runners was found.")
+spec(OS,'Virtual machine software','One entry is a program that runs another operating system in a window or emulates a machine, for use on a personal computer; releases are versions.',
+ "The desktop and hobby entries of Wikipedia's Comparison of platform virtualization software, with the earlier pass's entries.",
+ "Covers the personal and hobby products of the page's first 100,000 of 121,196 characters (about 70 names); mainframe, embedded and data-centre hypervisors such as z/VM, PowerVM, PikeOS and ESX are left out as trade equipment.")
+spec(OS,'File archiver','One entry is a file compression and archive program.',
+ "Every archiver of Wikipedia's Comparison of file archivers, with the earlier pass's entries.",
+ "Complete: the General information table of that page (31 archivers); bsdtar, libarchive and Star appear only in later tables and are not entries.")
+spec(OFF,'Note-taking app','One entry is a note-taking application.',
+ "Every application of Wikipedia's Comparison of note-taking software, with the earlier pass's entries.",
+ "Complete: the 38 applications named on that page.")
+spec(DEV,'Code editor','One entry is a code editor or integrated development environment sold or distributed under one name; a language package of an IDE is a version.',
+ "Every IDE of Wikipedia's Comparison of integrated development environments, with the earlier pass's entries; text editors are under Text editor.",
+ "Covers the language tables of that page read in two windows (0 to 200,000 of 186,082 characters); the boundary between windows cut part of the Pascal table, so a few Pascal and Object Pascal IDEs may be missing.")
+spec(DEV,'Text editor','One entry is a general-purpose text or source-code editor.',
+ "Every editor of Wikipedia's Comparison of text editors not already a Code editor entry.",
+ "Complete: the editor table of that page (about 70 editors, read in two windows); 8 that were already Code editor entries are left there.")
+for kn,srcn in [('Classic word processor','History of software and Category:Discontinued software'),('Classic spreadsheet or database','History of software and Category:Discontinued software'),('Classic office suite','Category:Discontinued software'),('Classic graphics and publishing program','Category:Discontinued software'),('Classic utility','Category:Discontinued software'),('Classic internet software','Category:Discontinued software')]:
+    spec(CLS,kn,'One entry is a discontinued program of its kind, kept for collectors and for people running it on old machines; releases are versions.',
+     f"Programs named in Wikipedia's {srcn} that belong to this kind.",
+     "Covers part of the 204 pages of Category:Discontinued software (the first 200 were read) and the History of software page (first 100,000 of 114,786 characters); entries for games, libraries and services are out of scope, and Winamp belongs to the Music & audio department.")
+DEFAULT_COV="No whole-space reference list for this kind was fetched, so coverage is open and not claimed complete."
+for dn,d in D.items():
+    for sh in d['s']:
+        for k in sh['k']:
+            k.pop('_before',None); k.pop('_mcount',None); k.pop('m',None); k.pop('r',None)
+            if not k.get('x'): 
+                k.pop('x',None); continue
+            for e in k['x']: mkt(e)
+            sp=SPEC.get((dn,k['n']))
+            if sp:
+                nl,ref,cv,xg=sp
+                k['nl']=nl; k['sel']=f"{ref} {cv}"
+                if xg: k['xg']=xg
+            else:
+                low=k['n'][0].lower()+k['n'][1:]
+                k['nl']=f"One entry is a {low} product sold or distributed under its own name; releases and editions are versions."
+                k['sel']=f"The products named on {k.get('s','the kind source')} that the earlier pass collected, with any entries it already held. {DEFAULT_COV}"
+            for e in k['x']:
+                if 'dt' not in e: e['dt']=''
+                e.setdefault('a','')
+                e.setdefault('v',[])
+            # count line
+            k['sel']+=f" Entries: {len(k['x'])}."
+# market summaries
+SC='https://gs.statcounter.com/'
+D[OS]['msum']="StatCounter's September 2026 shares show Windows leading desktops and Android leading phones; DistroWatch ranks Linux distributions by page visits only, not use."
+D[OS]['ms']=[
+ {'mkt':'Desktop operating systems, worldwide','who':'Windows','share':'76.41 %','yr':2026,'s':SC+'os-market-share/desktop/worldwide','note':'StatCounter, September 2026, page views'},
+ {'mkt':'Desktop operating systems, worldwide','who':'OS X (Apple, older Mac releases)','share':'10.65 %','yr':2026,'s':SC+'os-market-share/desktop/worldwide','note':'StatCounter, September 2026; listed separately from macOS'},
+ {'mkt':'Desktop operating systems, worldwide','who':'macOS (Apple)','share':'6.09 %','yr':2026,'s':SC+'os-market-share/desktop/worldwide','note':'StatCounter, September 2026'},
+ {'mkt':'Desktop operating systems, worldwide','who':'Linux','share':'4.54 %','yr':2026,'s':SC+'os-market-share/desktop/worldwide','note':'StatCounter, September 2026'},
+ {'mkt':'Desktop operating systems, worldwide','who':'Chrome OS (Google)','share':'2.31 %','yr':2026,'s':SC+'os-market-share/desktop/worldwide','note':'StatCounter, September 2026'},
+ {'mkt':'Mobile operating systems, worldwide','who':'Android (Google)','share':'69.31 %','yr':2026,'s':SC+'os-market-share/mobile/worldwide','note':'StatCounter, September 2026, page views'},
+ {'mkt':'Mobile operating systems, worldwide','who':'iOS (Apple)','share':'30.66 %','yr':2026,'s':SC+'os-market-share/mobile/worldwide','note':'StatCounter, September 2026'},
+ {'mkt':'Mobile operating systems, worldwide','who':'Linux','share':'0.01 %','yr':2026,'s':SC+'os-market-share/mobile/worldwide','note':'StatCounter, September 2026'},
+ {'mkt':'Mobile operating systems, worldwide','who':'KaiOS','share':'0.01 %','yr':2026,'s':SC+'os-market-share/mobile/worldwide','note':'StatCounter, September 2026'},
+ {'mkt':'Linux distribution page hits (not use), last 12 months','who':'CachyOS','share':'3,266 hits a day','yr':2026,'s':SRC['dw'],'note':'DistroWatch rank 1; the page says the ranking does not measure use'},
+ {'mkt':'Linux distribution page hits (not use), last 12 months','who':'Linux Mint','share':'1,979 hits a day','yr':2026,'s':SRC['dw'],'note':'DistroWatch rank 2'},
+ {'mkt':'Linux distribution page hits (not use), last 12 months','who':'MX Linux','share':'1,768 hits a day','yr':2026,'s':SRC['dw'],'note':'DistroWatch rank 3'}]
+D[NET]['msum']="StatCounter's September 2026 figures: Chrome leads browsers worldwide and ChatGPT leads AI chatbot referrals."
+D[NET]['ms']=[
+ {'mkt':'Web browsers, worldwide, all platforms','who':'Chrome (Google)','share':'66.45 %','yr':2026,'s':SC+'browser-market-share','note':'StatCounter, September 2026, page views'},
+ {'mkt':'Web browsers, worldwide, all platforms','who':'Safari (Apple)','share':'18.2 %','yr':2026,'s':SC+'browser-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'Web browsers, worldwide, all platforms','who':'Edge (Microsoft)','share':'6.02 %','yr':2026,'s':SC+'browser-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'Web browsers, worldwide, all platforms','who':'Firefox (Mozilla)','share':'2.79 %','yr':2026,'s':SC+'browser-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'Web browsers, worldwide, all platforms','who':'Samsung Internet (Samsung)','share':'2.31 %','yr':2026,'s':SC+'browser-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'Web browsers, worldwide, all platforms','who':'Opera','share':'1.77 %','yr':2026,'s':SC+'browser-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'AI chatbots, worldwide','who':'ChatGPT (OpenAI)','share':'80.47 %','yr':2026,'s':SC+'ai-chatbot-market-share','note':'StatCounter, September 2026, share of AI chatbot referrals'},
+ {'mkt':'AI chatbots, worldwide','who':'Google Gemini','share':'10.94 %','yr':2026,'s':SC+'ai-chatbot-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'AI chatbots, worldwide','who':'Perplexity','share':'5.84 %','yr':2026,'s':SC+'ai-chatbot-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'AI chatbots, worldwide','who':'Microsoft Copilot','share':'1.78 %','yr':2026,'s':SC+'ai-chatbot-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'AI chatbots, worldwide','who':'Claude (Anthropic)','share':'0.95 %','yr':2026,'s':SC+'ai-chatbot-market-share','note':'StatCounter, September 2026'},
+ {'mkt':'AI chatbots, worldwide','who':'DeepSeek','share':'0.02 %','yr':2026,'s':SC+'ai-chatbot-market-share','note':'StatCounter, September 2026'}]
+for dn in (SEC,OFF,DEV,CLS):
+    D[dn]['msum']="No share or sales figure for this department was found on a fetched page, so none is given."
+# brands
+oldb=json.load(open(R+'out/I1_brands.json'))['b']; oldn={b['n'] for b in oldb}
+used={}
+for dn,d in D.items():
+    for sh in d['s']:
+        for k in sh['k']:
+            for e in k.get('x',[]):
+                if e.get('mk') and e['mk'] not in oldn: used[e['mk']]=e
+                if e.get('own') and e['own'] not in oldn: used.setdefault(e['own'],e)
+brands=[{'n':n,'c':'','f':'','seg':'','kf':e['n'],'d':f"Maker or owner of {e['n']}.",'s':''} for n,e in sorted(used.items())]
+upd={}
+for dn,d in D.items():
+    for sh in d['s']:
+        for k in sh['k']:
+            for e in k.get('x',[]):
+                for nm in {e.get('mk'),e.get('own')}:
+                    if nm in oldn and e.get('tier') and nm not in upd:
+                        upd[nm]={'own':e.get('own',nm),'tier':e['tier'],'c':e.get('cty','')}
+out={'replaces':NAMES_REPL if False else [n for n in NAMES],'depts':[D[n] for n in NAMES],'brands':brands,'brand_updates':upd,'renames':{},'moves':[]}
+os.makedirs(R+'out/I1_parts',exist_ok=True)
+json.dump(out,open(R+'out/I1_parts/SYS.json.tmp','w'),ensure_ascii=False,indent=0)
+os.replace(R+'out/I1_parts/SYS.json.tmp',R+'out/I1_parts/SYS.json')
+# stats
+tot=0
+for dn in NAMES:
+    for sh in D[dn]['s']:
+        for k in sh['k']:
+            n=len(k.get('x',[])); tot+=n
+            print(dn[:10],'|',k['n'],n)
+print('TOTAL',tot,'dropped',len(dropped)); print(dropped)
+print('wcount',wcount,'dw in linux',dw_in_linux,len(to_alt),len(to_mobile))

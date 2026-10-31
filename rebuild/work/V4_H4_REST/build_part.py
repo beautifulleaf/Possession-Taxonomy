@@ -156,7 +156,7 @@ for (n,) in extra_cat:
     new.append({"n":n,"a":"","d":"Essential oil named in Wikipedia's Essential oils category.","mk":"","y":"","s":CEO,"v":[],"g":eofam(n)})
 k['x']=keep+new
 k['nl']="One entry is an essential oil or plant oil named on the reference list; origin, species and grade are versions or attributes."
-k['sel']="Wikipedia List of essential oils (every row except Attar, which has its own kind, and Linalool, which is an aroma chemical) plus the oils named in Wikipedia's Essential oils category; seven earlier entries are kept. Plant-family sections are the compiler's grouping of the names, as the page has none."
+k['sel']="Wikipedia List of essential oils (every row except Attar, which has its own kind, and Linalool, which is an aroma chemical) plus the oils named in Wikipedia's Essential oils category; seven earlier entries are kept. Plant-use sections are the compiler's grouping; no fetched source gives material families for essential oils (the Fragrance Wheel classifies finished perfumes)."
 k['xg']="Grouped by plant use: citrus, wood and conifer, spice and seed, herb and mint, flower, then other."
 k['x'].sort(key=lambda e:(e['g'],e['n']))
 EOc=len(k['x'])
@@ -172,10 +172,12 @@ for n in PL:
 for n,u in [("Valeriana celtica",CAT),("Cyperus articulatus",CAT),("Nardostachys (spikenard)",CAT),("Polianthes tuberosa",CAT),("Pelargonium graveolens",CAT),("Artemisia pallens (davana)",CAT)]:
     pass
 k['x']=[e for e in k['x'] if e['n']!='Tuberose']+[{"n":"Tuberose (Polianthes tuberosa)","a":"","d":"Plant material the Perfume article names as used in perfumery; also in the Perfume ingredients category.","mk":"","y":"","s":PER,"v":[],"g":"Flower"}]
+for n,g in [("Gardenia","Flower"),("Hyacinth","Flower"),("Grapefruit extract","Seed, bean & leaf"),("Celery extract","Seed, bean & leaf")]:
+    k['x'].append({"n":n,"a":"","d":"Plant material named in the later part of the Perfume article."+(" Its scent cannot be extracted, so perfumers build it as a base." if n in("Gardenia","Hyacinth") else ""),"mk":"","y":"","s":PER,"v":[],"g":g})
 for n in ["Valeriana celtica","Cyperus articulatus (adrue)","Artemisia pallens (davana)","Pelargonium graveolens (geranium)"]:
     k['x'].append({"n":n,"a":"","d":"Plant material in Wikipedia's Perfume ingredients category.","mk":"","y":"","s":CAT,"v":[],"g":"Root, moss & lichen" if 'Valeriana' in n or 'Cyperus' in n else "Seed, bean & leaf"})
 k['nl']="One entry is a plant material used in perfumery as an absolute, concrete, butter or extract; the extraction is a version."
-k['sel']="Plant materials named in the first 100,000 characters of Wikipedia Perfume and in the Perfume ingredients category; the page does not state which are absolutes, so the kind lists the materials. The rest of the Perfume article (91,793 characters) was not read. Essential-oil plants are in the Essential oil kind."
+k['sel']="Plant materials named in the whole Wikipedia Perfume article (read to its end in two windows, 0 to 100,000 and 100,000 to 191,793 characters) and in the Perfume ingredients category; the page does not state which are absolutes, so the kind lists the materials. Oakmoss absolute is already an entry. Essential-oil plants are in the Essential oil kind."
 k['xg']="Grouped by plant part: flower, seed, bean and leaf, then root, moss and lichen."
 # animal & resin
 k=kind(m,'Animalic & resin material')
@@ -187,13 +189,13 @@ for n,u in [("Amber (fossil resin)",PER),("Copal (fossil resin)",PER),("Honeycom
     g='Animal' if 'Honeycomb' in n else 'Resin & balsam'
     k['x'].append({"n":n,"a":"","d":("Animal-derived material" if g=='Animal' else "Resin or balsam")+" named on the cited reference page.","mk":"","y":"","s":u,"v":[],"g":g})
 k['nl']="One entry is an animal-derived or resin material used in perfumery; synthetic replacements are aroma chemicals."
-k['sel']="Animal and resin materials named in Wikipedia Perfume (first 100,000 characters) and its Perfume ingredients category, plus ten earlier entries. Agarwood, labdanum and spikenard sit in the category list but are treated as oils or plant materials."
+k['sel']="Animal and resin materials named in Wikipedia Perfume (read in full) and its Perfume ingredients category, plus ten earlier entries. Agarwood, labdanum and spikenard sit in the category list but are treated as oils or plant materials."
 k['xg']="Grouped by source: animal, then resin and balsam."
 # aroma chemicals
 k=kind(m,'Aroma chemical')
 CATX="""Acetoin|Ambrein|Ambroxide|Ambrinol 95|Amber Xtreme|Ambermor Ketal IPM|Benzyl acetate|Benzyl alcohol|Benzyl benzoate|Benzyl cinnamate|Benzylacetone|Bisabolol|Bornafix|Bourgeonal|Calone|Camphene|Camphor|Cashmeran|Cetalor|Chavicol|Cinnamyl alcohol|Citral|Citronellol|Citronellyl acetate|Citronellyl formate|Citronellyl propionate|Civetone|Cuminaldehyde|Cyclamen aldehyde|Cyclododecanone|Cyclohexadecanone|5-Cyclohexadecenone|Cyclopentadecanolide|Cyclopentanone|Damascenone|Damascone|Diethyl malonate|Dihydromyrcenol|3,7-Dimethyl-1-octanol|Dodecanenitrile|Estragole|Ethyl benzoate|Ethyl maltol|Ethyl methylphenylglycidate|Ethyl salicylate|Ethylvanillin|Eugenol|Farnesene|Farnesol|Filbertone|Fructone|Galaxolide|Gastrodigenin|Geraniol|Geranyl acetate|Geranyl formate|Geranyl propionate|Geranyl-linalool|Grapefruit mercaptan|Grisalva|Helional|Heptyl acetate|2-Heptylcyclopentanone|Hexyl benzoate|α-Hexylcinnamaldehyde|Hydroxycitronellal|Hydroxymethylpentylcyclohexenecarboxaldehyde|Indole|Ionone|Irone|Isoamyl butyrate|Isobornyl cyclohexanol|α-Isomethyl ionone|Isopropyl salicylate|Isovanillin|Jasminaldehyde|Juniperol|γ-Lactone|Lilial|Linalool|p-Menthane-3,8-diol|p-Menthane|Menthone|Methyl benzoate|Methyl butyrate|Methyl dihydrojasmonate (Hedione)|Methyl heptanoate|Methyl isobutyrate|Methyl pivalate|2-(2-(4-Methyl-3-cyclohexen-1-yl)propyl)cyclopentanone|Muscone|Musk xylene|Myrcene|Nerol|Nerolidol|2-Octanone|3-Octanone|2-Ethylhexyl salicylate|Patchoulol|Perillaldehyde|Phellandrene|Phenethyl alcohol|Phenethyl benzoate|Phenylacetic acid|Phenylisohexanol|β-Pinene|Pomarose|Pulegone|Raspberry ketone|Rhodinol|Safrole|Sandalore|α-Santalol|β-Santalol|Skatole|Synthetic musk|Tetramethyl acetyloctahydronaphthalenes (Iso E Super)|Thujone|Vanillin|o-Vanillin|α-Vetivone|Floralozone"""
 ACPX="""Methyl formate|Methyl acetate|Methyl propionate|Ethyl acetate|Ethyl butyrate|Pentyl butyrate|Pentyl pentanoate|Octyl acetate|Methyl anthranilate|Hexyl acetate|Limonene|Menthol|Carvone|Terpineol|Eucalyptol|Jasmone|Anisole|Anethole|Thymol|Furaneol|1-Hexanol|cis-3-Hexen-1-ol|Acetaldehyde|Hexanal|cis-3-Hexenal|Furfural|Hexyl cinnamaldehyde|Isovaleraldehyde|Anisic aldehyde|Dihydrojasmone|Oct-1-en-3-one|2-Acetyl-1-pyrroline|6-Acetyl-2,3,4,5-tetrahydropyridine|Diacetyl|gamma-Decalactone|gamma-Nonalactone|delta-Octalactone|Jasmine lactone|Massoia lactone|Wine lactone|Sotolon|Cinnamaldehyde|Benzaldehyde|Methyl salicylate|Citronellal|Ocimene|Coumarin"""
-famrx=[("Musks",r"musk|muscone|civetone|cyclopentadecanolide|cyclohexadecanone|cyclohexadecenone|cyclododecanone|galaxolide|ambrettolide|hexadecanolide|zenolide|celestolide|luminide|muscemor|edenolide"),
+famrx=[("Musks",r"ahtn|musk|muscone|civetone|cyclopentadecanolide|cyclohexadecanone|cyclohexadecenone|cyclododecanone|galaxolide|ambrettolide|hexadecanolide|zenolide|celestolide|luminide|muscemor|edenolide"),
 ("Woody & amber",r"ambr|amber|cashmeran|bornafix|cetalor|grisalva|iso e super|tetramethyl|santalol|sandalore|patchoulol|vetivone|juniperol|isobornyl|bisabolol|farnes|operanide|trisamber|cedr"),
 ("Floral",r"hedione|dihydrojasmonate|bourgeonal|lilial|cyclamen|helional|hydroxy|hexylcinnam|jasmin|phenethyl|phenylisohexanol|rhodinol|geraniol|nerol\b|citronellol|linalool|indole|skatole|ionone|irone|damasc|pomarose|floralozone|geranyl-linalool|benzyl alcohol|cinnamyl alcohol|nerolidol|phenylacetic"),
 ("Citrus, green & marine",r"citral|dihydromyrcenol|mercaptan|calone|hexen|hexanol|hexanal|limonene|ocimene|myrcene|phellandrene|pinene|citronellal|terpineol|dimethyl-1-octanol|perillaldehyde|menthane|menthol|menthone|carvone|pulegone|eucalyptol|camphene|camphor|thujone|dodecanenitrile"),
@@ -223,6 +225,9 @@ def add(n,src,fam_=None):
     ents[low(n)]=e
 for n in CATX.split('|'): add(n,CAT)
 for n in ACPX.split('|'): add(n,ACP)
+for n in ["Musk ketone","Musk tibetene","AHTN","Acetophenone","Acetone"]:
+    add(n,PER)
+    ents[low(n)]['d']="Compound named in the later part of the Perfume article."
 ents[low("Tetramethyl acetyloctahydronaphthalenes (Iso E Super)")]['role']='landmark'
 ents[low("Cinnamaldehyde")]['role']='origin'
 ents[low("Tetramethyl acetyloctahydronaphthalenes (Iso E Super)")]['a']='Iso E Super · IFF'
@@ -244,7 +249,7 @@ for e in chem:
 k['x']=sorted(chem,key=lambda e:(e['g'],e['n']))
 k['nl']="One entry is a single aroma compound or a trade-named specialty chemical; grades and dilutions of one compound are versions."
 k['sel']=("Wikipedia's Perfume ingredients category (155 pages, compounds only), the aroma compounds named in Wikipedia Aroma compound, and the trade names on Wikipedia's List of fragrance compounds with grade and dilution variants merged. "
- "Family sections are the compiler's chemical and olfactive grouping, as the pages give none. Years are given only where a fetched page states them (Hedione, Iso E Super, Galaxolide, Calone, musk xylene, muscone, ethyl vanillin).")
+ "Family sections are the compiler's chemical and olfactive grouping: Michael Edwards' Fragrance Wheel (Wikipedia, fetched; Floral, Amber, Woody, Fresh with Citrus, Water, Green, Aromatic, and Fruity) classifies finished perfumes, and no fetched page gives odour classes for raw materials, so its labels are not used here. Years are given only where a fetched page states them (Hedione, Iso E Super, Galaxolide, Calone, musk xylene, muscone, ethyl vanillin).")
 k['xg']="Grouped by family: musks, woody and amber, floral, citrus green and marine, sweet fruity and gourmand, spice and aromatic, other."
 kind(m,'Perfumer\'s alcohol & carrier oil')['x']=[]
 # counts

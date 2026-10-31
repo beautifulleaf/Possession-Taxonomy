@@ -4,10 +4,10 @@ Part file: rebuild/out/H4_parts/REST.json (140 KB; validates OK, 34 kinds, 489 e
 
 **Perfumery materials (all new canons).**
 - Essential oil: 7 → 135. Wikipedia List of essential oils, complete: 127 of 127 rows (Attar and Linalool placed in their own kinds), plus 10 oils from the Essential oils category. Plant-use sections are my grouping.
-- Absolute & CO2 extract: 2 → 28, plant materials from the Perfume article (first 100,000 of 191,793 characters read; the rest not read).
+- Absolute & CO2 extract: 2 → 32, plant materials from the Perfume article, now read in full (both windows to character 191,793).
 - Animalic & resin material: 10 → 20.
-- Aroma chemical: 10 → 277, from the Perfume ingredients category (155 pages), the Aroma compound article and the List of fragrance compounds (trade names, grades merged). Years sourced: Hedione 1966, Iso E Super 1973 (landmark), Galaxolide 1965, Calone 1966, musk xylene 1888, muscone 1926, ethyl vanillin (Jicky 1889), cinnamaldehyde (origin, 19th century). Ambroxide: no year on its page.
-- Stopped: the fetched trade-name list has no section headings, so family sections are mine.
+- Aroma chemical: 10 → 282, from the Perfume ingredients category (155 pages), the Aroma compound article and the List of fragrance compounds (trade names, grades merged). Years sourced: Hedione 1966, Iso E Super 1973 (landmark), Galaxolide 1965, Calone 1966, musk xylene 1888, muscone 1926, ethyl vanillin (Jicky 1889), cinnamaldehyde (origin, 19th century). Ambroxide: no year on its page.
+- Families: Wikipedia's Fragrance Wheel (Floral, Amber, Woody, Fresh, Fruity) classifies finished perfumes; a search found no fetched source with odour classes for raw materials, so the sections stay mine and each kind's sel says so. Trade-name list has no headings.
 
 **Oils, attars.** Attar 5 → 10 (Kannauj, Yemen); rose oil 2 → 3; oud oil 0 → 8 agarwood origins (Agarwood article); musk oil 1; body mist 3 with owners (Bath & Body Works, Inc.; Victoria's Secret & Co., spun off 2021; Groupe L'Occitane for Sol de Janeiro, 2021). Not sourced: henna attar (search excerpt only), oud oil grades beyond agarwood names, any market share. All loose models removed as brand SKUs (about 40).
 
