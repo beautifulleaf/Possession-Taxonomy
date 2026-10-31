@@ -233,4 +233,127 @@ bdk=[cogk,crk,agk,
  plain('Fruit brandy',"One entry is a fruit brandy style or producer.","The entries sourced in the previous edition; no complete list was fetched.")]
 # fix Calvados/Armagnac leftovers: old Calvados entries shared names already
 brandy=dept('Brandy','Spirits distilled from grape wine, grape pomace, apples or other fruit: Cognac, Armagnac, Calvados, pisco, grappa and fruit brandy; a sweetened one → Liqueurs.','Which protected brandy is it: Cognac, Armagnac, Calvados, pisco, another grape brandy, pomace brandy or fruit brandy?','Protected category or area first, then house or producer; age grades as versions.',[{'m':'Age grade','v':'VS < VSOP < XO','w':'The Cognac age grades in Wikipedia: VS at least 2 years, VSOP 4, Napoléon 6, XO 10.'}]+SB[:1],
-  [{'n':'Cognac','t':'Brandy from the Cognac region, by cru and house.','ax':'kinds by area and house','k':[cogk,crk]},{'n':'Armagnac, Calvados & pisco','t':'Protected brandies of south-west France, Normandy and the Andes.','ax':'one kind per protected name','k':[agk,cal,pis]},{'n':'Other brandy','t':'Grape, pomace and fruit brandies without a single protected name.','ax':'kinds by raw material','k':[bdk[3-2],bdk[4+0],bdk[6]]}])
+  [{'n':'Cognac','t':'Brandy from the Cognac region, by cru and house.','ax':'kinds by area and house','k':[cogk,crk]},{'n':'Armagnac, Calvados & pisco','t':'Protected brandies of south-west France, Normandy and the Andes.','ax':'one kind per protected name','k':[agk,bdk[6],pis]},{'n':'Other brandy','t':'Grape, pomace and fruit brandies without a single protected name.','ax':'kinds by raw material','k':[bdk[3],bdk[5],bdk[7]]}])
+# ---- rum
+rum_e=[];agri=[]
+for reg,cs in RUM.items():
+    for c,names in cs.items():
+        for n in names.split(';'):
+            e=new(n,f"Rum brand or producer from {c}.",W+'List_of_rum_producers',mk=n,cty=c if c!='Several' else '',g=f"{reg}: {c}" if c!='Several' else 'Several countries')
+            rum_e.append(e)
+for n in MARTINIQUE.split(';'):
+    agri.append(new(n,"Martinique rhum brand or distillery.",W+'List_of_rum_producers',mk=n,cty='Martinique',g='Martinique'))
+for n in GUADELOUPE.split(';'):
+    agri.append(new(n,"Guadeloupe rhum brand or distillery.",W+'List_of_rum_producers',mk=n,cty='Guadeloupe',g='Guadeloupe'))
+rx=merge('Molasses rum',rum_e,oldx('Molasses rum'),oldm('Molasses rum'),'Other brands')
+for e in rx:
+    if e.get('own') in('Rémy Cointreau',) : pass
+RUMNL="One entry is a rum brand or producer; age statements and editions are versions."
+rumk=K('Molasses rum',RUMNL,"Every brand and producer in Wikipedia's List of rum producers outside Martinique and Guadeloupe (listed under Rhum agricole), by region and country.",'by region and country',rx,src=W+'List_of_rum_producers')
+spk=plain('Spiced rum',RUMNL,"The brands sourced in the previous edition; no complete list was fetched.")
+agx=merge('Rhum agricole',agri,oldx('Rhum agricole'),oldm('Rhum agricole'),'Other')
+agrk=K('Rhum agricole',"One entry is a rhum brand or distillery of Martinique or Guadeloupe; age grades are versions.","The Martinique and Guadeloupe entries of Wikipedia's List of rum producers; the AOC Martinique rhum agricole is named in the previous edition only.",'by island',agx,src=W+'List_of_rum_producers')
+cach=plain('Cachaça',"One entry is a cachaça brand; ageing and editions are versions.","The brands sourced in the previous edition; no complete list was fetched.")
+ague=plain('Aguardiente',"One entry is an aguardiente brand.","None sourced yet; the kind is kept for the category.")
+arr=plain('Arrack',"One entry is an arrack style or brand.","The styles sourced in the previous edition.")
+rumdept=dept('Rum & cane spirits','Spirits distilled from sugar cane juice, syrup or molasses: rum, rhum agricole, cachaça, aguardiente and arrack.','What is it distilled from and where: molasses rum, spiced rum, cane-juice rhum or cachaça?','Region and country first; brand or producer as the entry.',SB[:1],
+  [{'n':'Rum','t':'Rum from molasses or syrup, plain or spiced, by region.','ax':'kinds by whether spices are added','k':[rumk,spk]},{'n':'Cane juice and other cane spirits','t':'Spirits from fresh cane juice or sugar cane in the French islands, Brazil, Latin America and Asia.','ax':'kinds by tradition','k':[agrk,cach,ague,arr]}])
+# ---- agave
+tq=[]
+for l in TEQUILA.splitlines():
+    n,y=l.split('|')
+    tq.append(new(n,"Tequila brand"+(f"; production began {y}." if y else "."),W+'List_of_tequilas',mk=n,y=y,cty='Mexico'))
+tqx=merge('Tequila',tq,oldx('Tequila'),oldm('Tequila'),'Other brands')
+tqk=K('Tequila',"One entry is a tequila brand sold under its own name; blanco, reposado and añejo expressions are versions.","Every brand in Wikipedia's List of tequilas, which is partial; brands from the previous edition are added. The NOM distillery register was not fetched.",'',tqx,src=W+'List_of_tequilas')
+mzx=[new('Mezcal',"Certification category for mezcal.",W+'Mezcal',cty='Mexico',g='NOM categories'),new('Mezcal artesanal',"Certification category: traditional, artisanal production.",W+'Mezcal',cty='Mexico',g='NOM categories'),new('Mezcal ancestral',"Certification category: ancestral production.",W+'Mezcal',cty='Mexico',g='NOM categories')]
+mz=merge('Mezcal',mzx+[new('Pierde Almas',"Mezcal brand founded by Jonathan Barbeiri.",W+'Mezcal',cty='Mexico',g='Brands'),new('Macario Partida distilleries',"Mezcal distilleries at Zapotitlán de Vadillo, Jalisco.",W+'Mezcal',cty='Mexico',g='Brands')],oldx('Mezcal'),oldm('Mezcal'),'Brands')
+mzk=K('Mezcal',"One entry is a mezcal certification category or brand; classes (joven, reposado, añejo) are versions.","The three NOM categories and brands in Wikipedia's Mezcal article (first 100,000 characters read), plus brands from the previous edition.",'by kind of entry',mz,src=W+'Mezcal')
+agt=K('Mezcal agave',"One entry is an agave species used for mezcal.","The agave types in Wikipedia's Mezcal article.",'',[new(n,f"Agave used for mezcal ({sp}).",W+'Mezcal',cty='Mexico') for n,sp in [('Espadín','Agave angustifolia, the most common'),('Arroqueño','Agave americana var. oaxacensis'),('Cirial','Agave karwinskii'),('Barril','Agave rodacantha'),('Mexicano','Agave macroacantha or rhodacantha'),('Cincoañero','Agave canatala'),('Tobalá','Agave potatorum, a famous wild agave'),('Madrecuixe','agave type named in the article'),('Tepeztate','agave type named in the article'),('Jabalí','agave type named in the article'),('Bicuixe','agave type named in the article')]],src=W+'Mezcal',d='Agave species named on mezcal labels.',a='mezcal agave types',tt=False)
+for e in agt['x']: e['v']=[]
+agave=dept('Agave','Spirits distilled from agave: tequila, mezcal, raicilla, bacanora and sotol.','Which agave spirit is it: tequila, mezcal or another desert-plant spirit?','Protected name first; brand as the entry; class as version.',SB[:1],
+  [{'n':'Tequila','t':'Spirit from blue agave in the tequila region.','ax':'one kind','k':[tqk]},{'n':'Mezcal and other agave spirits','t':'Mezcal by category and agave, raicilla, bacanora and sotol.','ax':'kinds by name','k':[mzk,agt,plain('Raicilla',"One entry is a raicilla brand.","None sourced yet; the kind is kept for the category."),plain('Bacanora',"One entry is a bacanora brand.","None sourced yet; the kind is kept for the category."),plain('Sotol',"One entry is a sotol brand.","None sourced yet; the kind is kept for the category.")]}])
+# ---- gin vodka aquavit
+vx=[]
+for c,ns in VODKA.items():
+    for n in ns.split(';'):
+        vx.append(new(n,f"Vodka brand from {c}.",W+'List_of_vodkas',mk=n,cty=c,g=c))
+vx=merge('Vodka',vx,oldx('Vodka'),oldm('Vodka'),'Other brands')
+vk=K('Vodka',"One entry is a vodka brand sold under its own name; flavours and sizes are versions.","Every brand in Wikipedia's List of vodkas (alphabetical by country), plus brands from the previous edition.",'by home country',vx,src=W+'List_of_vodkas')
+fvx=plain('Flavoured vodka',"One entry is a flavoured vodka sold under its own name.","The vodkas sourced in the previous edition.")
+gx=[new(n,f"Gin brand from {c}.",W+'List_of_gins',mk=n,cty=c,g=c) for n,c in (l.split('|') for l in GIN.splitlines())]
+gx=merge('Gin',gx,oldx('Gin'),oldm('Gin'),'Other brands')
+gk=K('Gin',"One entry is a gin brand sold under its own name; strengths and editions are versions.","Every brand in Wikipedia's List of gins (first 100,000 characters read), plus brands from the previous edition.",'by home country',gx,src=W+'List_of_gins')
+gen=plain('Genever',"One entry is a genever style or brand.","The styles sourced in the previous edition.")
+aq=plain('Aquavit',"One entry is an aquavit brand.","The brands sourced in the previous edition; Wikipedia's Aquavit article names none.")
+ginv=dept('Gin, vodka & aquavit','Spirits distilled from grain or potato, plain or flavoured with botanicals: vodka, gin, genever and aquavit.','Which neutral or botanical spirit is it: vodka, flavoured vodka, gin, genever or aquavit?','Style first; brand as the entry; owner group and tier on each.',SB[:1],
+  [{'n':'Vodka','t':'Neutral grain or potato spirit, plain or flavoured.','ax':'kinds by flavouring','k':[vk,fvx]},{'n':'Gin, genever & aquavit','t':'Spirits flavoured with juniper or caraway.','ax':'kinds by botanical','k':[gk,gen,aq]}])
+# ---- anise & absinthe
+anise=dept('Anise & absinthe','Spirits flavoured with aniseed, fennel or wormwood: pastis, ouzo, arak, rakı and absinthe.','Where is it from and what is it flavoured with: French pastis, Greek ouzo, Levantine arak, Turkish rakı or absinthe?','Style first; brand as the entry.',SB[:1],
+  [{'n':'Anise spirits & absinthe','t':oldd['Spirits']['s'][3]['t'],'ax':oldd['Spirits']['s'][3]['ax'],'k':[plain('Pastis',"One entry is a pastis brand.","The brands sourced in the previous edition; no complete list was fetched."),plain('Ouzo',"One entry is an ouzo brand.","The brands sourced in the previous edition; no complete list was fetched."),plain('Arak & rakı',"One entry is an arak or rakı brand.","The brands sourced in the previous edition; no complete list was fetched."),plain('Absinthe',"One entry is an absinthe brand; verte and blanche are versions.","The brands sourced in the previous edition; the planned Wikipedia list of absinthe brands was not found.")]}])
+# ---- asian
+bt=K('Baijiu aroma type',"One entry is a baijiu aroma type; the brands named for it are versions.","The aroma types in Wikipedia's Baijiu article, with the example brands it gives.",'',
+  [dict(new(n,"Baijiu aroma type."+(f" Example brands: {b}." if b else ' No brand named in the article.'),W+'Baijiu',cty='China'),v=[{'n':x.strip(),'mk':'','y':'','d':''} for x in b.split(';') if x.strip()]) for n,b in BAIJIU_TYPES],src=W+'Baijiu',d='A baijiu style defined by its aroma.',a='baijiu aroma types',tt=False)
+bjx=[]
+for n,o in BAIJIU:
+    e=new(n,f"Baijiu brand from {o}.",W+'Baijiu',mk=n,cty='China',g='Brands')
+    bjx.append(e)
+bjx=merge('Baijiu',bjx,oldx('Baijiu'),oldm('Baijiu'),'Brands')
+for e in bjx:
+    if e['n'] in('Kweichow Moutai','Wuliangye','Luzhou Laojiao'): e['tier']='National champion'
+bjk=K('Baijiu',"One entry is a baijiu brand sold under its own name; vintages and strengths are versions.","The brand table in Wikipedia's Baijiu article (first 100,000 characters read), plus brands from the previous edition.",'',bjx,src=W+'Baijiu')
+shx=merge('Shochu',[new(n,f"Shōchū type from {r}; base ingredient {b}.",W+'Shōchū',cty='Japan',g='Regional types') for n,b,r in [('Satsuma shōchū','sweet potato','Kagoshima'),('Kuma shōchū','rice','Hitoyoshi-bonchi, Kumamoto'),('Iki shōchū','barley','Iki, Nagasaki'),('Ryūkyū awamori','rice','Okinawa'),('Amami kokutō shōchū','brown sugar','the Amami Islands'),('Soba shōchū','buckwheat','Miyazaki'),('Kasutori shōchū','sake lees','northern Kyūshū')]],oldx('Shochu'),oldm('Shochu'),'Producers')
+shk=K('Shochu',"One entry is a regional shōchū type or a producer; bottlings are versions.","The seven regional types in Wikipedia's Shōchū article (first 100,000 characters read) plus producers from the previous edition.",'by kind of entry',shx,src=W+'Shōchū')
+awk=plain('Awamori',"One entry is an awamori brand.","None sourced yet; the previous edition held only models.")
+sjx=merge('Soju',[new('Jinro',"Largest soju maker; reported as the world's best-selling branded spirit in 2019.",W+'Soju',mk='HiteJinro',cty='South Korea',own='HiteJinro',g='Makers',a='HiteJinro'),new('Chum-Churum',"Soju brand of Lotte Chilsung.",W+'Soju',mk='Lotte Chilsung',cty='South Korea',own='Lotte Chilsung',g='National brands'),new('Good Day',"Soju brand of Muhak, popular in South Gyeongsang and Ulsan.",W+'Soju',mk='Muhak',cty='South Korea',own='Muhak',g='Regional brands'),new('Cham',"Soju brand from Daegu.",W+'Soju',mk='Kumbokju',cty='South Korea',g='Regional brands'),new('Pureun-bam',"Soju brand from Jeju.",W+'Soju',mk='Jeju-soju',cty='South Korea',g='Regional brands'),new('Hwayo',"Distilled soju sold in five mixes, 17 to 53 % ABV.",W+'Soju',cty='South Korea',g='Distilled soju'),new('Andong Soju',"Traditionally distilled soju from Andong.",W+'Soju',cty='South Korea',g='Distilled soju'),new('Tokki Soju',"United States soju brand.",W+'Soju',cty='United States',g='Made outside Korea'),new('West 32',"United States soju brand.",W+'Soju',cty='United States',g='Made outside Korea'),new('Yong Soju',"Soju brand of Minhwa Spirits, Georgia, United States.",W+'Soju',cty='United States',g='Made outside Korea'),new('ISAE',"Soju brand of Kyopo Spirits, Germany.",W+'Soju',cty='Germany',g='Made outside Korea')],oldx('Soju'),oldm('Soju'),'Other brands')
+for e in sjx:
+    if e['n']=='Jinro': e['role']='landmark'; e['tier']='National champion'; e['own']='HiteJinro'
+    if e['n']=='Chum-Churum': e['tier']='National champion'
+sjk=K('Soju',"One entry is a soju brand or maker; flavours and strengths are versions.","The brands and makers named in Wikipedia's Soju article, plus brands from the previous edition.",'',sjx,src=W+'Soju')
+SOJU_MS=[{"mkt":"South Korean soju","who":"HiteJinro","share":"almost half of the market","yr":2023,"s":W+'Soju',"note":"as of October 2023, per the article; four smaller companies together hold about 40 %"}]
+asian=dept('Asian spirits','Spirits distilled from rice, sorghum and other grains in China, Japan and Korea: baijiu, shōchū, awamori and soju.','Where and from what: Chinese sorghum baijiu, Japanese shōchū and awamori, or Korean soju?','Aroma type or regional type first; brand as the entry.',SB[:1],
+  [{'n':'China','t':'Chinese grain spirit sold by aroma type.','ax':'kinds by aroma and brand','k':[bt,bjk]},{'n':'Japan and Korea','t':'Japanese shōchū and awamori and Korean soju.','ax':'kinds by country','k':[shk,awk,sjk]}],ms=SOJU_MS)
+# ---- liqueurs
+def liqkind(name,nl):
+    names=LIQ.get(name,'').split(';') if LIQ.get(name) else []
+    es=[new(n,f"{name.capitalize() if False else 'Liqueur'} named in Wikipedia's List of liqueurs.",W+'List_of_liqueurs',mk=n,g='Brands and styles') for n in names]
+    es=merge(name,es,oldx(name),oldm(name),'Brands and styles')
+    return K(name,nl,"Every matching entry of Wikipedia's List of liqueurs (sections mapped to this kind), plus brands from the previous edition.",'',es,src=W+'List_of_liqueurs')
+LNL="One entry is a liqueur brand or traditional style sold under its own name; flavours and strengths are versions."
+LQ={n:liqkind(n,LNL) for n in LIQ}
+for k in LQ.values():
+    for e in k.get('x',[]):
+        if 'List of liqueurs' in e['d']: e['d']=f"{k['n']} named in Wikipedia's List of liqueurs."
+liq=dept('Liqueurs',oldd['Liqueurs']['t'],oldd['Liqueurs']['ax'],'Flavour family first; brand as the entry; owner group on each.',oldd['Liqueurs']['b'],
+ [{'n':'Fruit & flower liqueurs','t':oldd['Liqueurs']['s'][0]['t'],'ax':oldd['Liqueurs']['s'][0]['ax'],'k':[LQ[n] for n in('Orange liqueur','Limoncello','Fruit liqueur','Sloe gin','Flower liqueur')]},
+  {'n':'Herb, spice & bitter liqueurs','t':oldd['Liqueurs']['s'][1]['t'],'ax':oldd['Liqueurs']['s'][1]['ax'],'k':[LQ[n] for n in('Herb & spice liqueur','Anise liqueur','Amaro & bitter liqueur')]},
+  {'n':'Cream, coffee & nut liqueurs','t':oldd['Liqueurs']['s'][2]['t'],'ax':oldd['Liqueurs']['s'][2]['ax'],'k':[LQ[n] for n in('Cream liqueur','Coffee liqueur','Nut liqueur','Chocolate liqueur','Honey liqueur','Whisky liqueur')]}])
+depts=[whisky,brandy,rumdept,agave,ginv,anise,asian,liq]
+# dedupe entries by name within a kind; fill missing nl on kinds; ensure g on all entries of kinds with xg
+for d in depts:
+    for s in d['s']:
+        for k in s['k']:
+            seen={}
+            xs=[]
+            for e in k.get('x',[]):
+                key=norm(e['n'])
+                if key in seen: STATS['duplicate removed']+=1; continue
+                seen[key]=1; xs.append(e)
+            if xs: k['x']=xs
+            elif 'x' in k: del k['x']
+            for e in xs:
+                if k.get('xg') and not e.get('g'): e['g']='Other'
+brands=[]
+for o,c in sorted(REG.items()):
+    b={'n':o}
+    if c: b['c']=c
+    brands.append(b)
+# move check: all old kinds
+newk={k['n'] for d in depts for s in d['s'] for k in s['k']}
+missing=[n for n in oldk if n not in newk]
+renames={}
+json.dump({'depts':depts,'brands':brands,'renames':renames,'moves':[]},open('/home/user/Possession-Taxonomy/rebuild/out/J7_parts/SPIRITS.json.tmp','w'),ensure_ascii=False,indent=1)
+import os; os.replace('/home/user/Possession-Taxonomy/rebuild/out/J7_parts/SPIRITS.json.tmp','/home/user/Possession-Taxonomy/rebuild/out/J7_parts/SPIRITS.json')
+print('missing old kinds:',missing)
+print(dict(STATS)); print({k:len(v) for k,v in DROP.items()})
+print('entries',sum(len(k.get('x',[])) for d in depts for s in d['s'] for k in s['k']))
+json.dump(DROP,open('dropped_models.json','w'),ensure_ascii=False,indent=0)
