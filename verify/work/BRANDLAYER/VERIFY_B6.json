@@ -564,7 +564,7 @@
    "src": "https://www.goodhousekeeping.com/what-to-buy/g71498211/the-best-clothes-drying-racks/",
    "src2": "",
    "shown": true,
-   "region": "",
+   "region": "Denmark / Northern Europe",
    "dept": "Clothes lines / rotary dryers",
    "country": "",
    "note": "Good Housekeeping tested drying racks: Brabantia Lift-O-Matic Rotary Dryer, Best Outdoor (cached excerpt). Product line of Brabantia: merged into the register row Brabantia. Lift-O-Matic is a Brabantia rotary dryer line; register row Brabantia (B6, B5).",
@@ -2528,11 +2528,11 @@
    "layer_harvest": "cultural",
    "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A16",
    "src2": "",
-   "shown": true,
+   "shown": false,
    "region": "",
    "dept": "Furniture and carpet care (service)",
    "country": "United Kingdom",
-   "note": "Royal Warrant holder; a cleaning SERVICE (curtains, carpets), not a product brand: consider dropping at merge.",
+   "note": "Royal Warrant holder; a cleaning SERVICE (curtains, carpets), not a product brand: consider dropping at merge. [coordinator: cleaning service, not a product brand → dropped]",
    "origin": "harvest"
   },
   {
@@ -4408,11 +4408,12 @@
    "brands": [
     "Sidolin",
     "Heitmann",
-    "Dalli",
+    "Dalli"
+   ],
+   "dropped": [
     "Domol",
     "Waschkönig"
    ],
-   "dropped": [],
    "note": "Not a regional speciality: a drugstore brand filter of imported brands; drop as a division."
   },
   {
@@ -4585,9 +4586,10 @@
    "renown": false,
    "quote": "",
    "brands": [
-    "Sunlight"
+    "Sunlight (cleaning products)"
    ],
    "dropped": [
+    "Sunlight",
     "Handy Andy"
    ],
    "note": "Source names the brands/firms but does not say the region is renowned for the speciality."
@@ -4859,7 +4861,7 @@
   "regions": 40,
   "regions_renown": 5,
   "regions_no_renown": 35,
-  "brands_with_region": 63,
+  "brands_with_region": 64,
   "cross_tag": 15
  }
 }

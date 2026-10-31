@@ -2,8 +2,256 @@
  "cat": "C5",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Fountain pens, ink & calligraphy",
+   "queries": [
+    "Wikipedia categories of pen and ink makers",
+    "Goldspot brand directory"
+   ],
+   "found": 60,
+   "note": "open 'best makers' searches in other languages not yet run"
+  },
+  {
+   "axis": "kind",
+   "item": "Everyday pens & pencils",
+   "queries": [
+    "Wikipedia Category:Pencil brands",
+    "Category:Pen manufacturers",
+    "Wirecutter best pens/pencils (paywalled, full page empty)"
+   ],
+   "found": 30,
+   "note": "Wirecutter full text unavailable"
+  },
+  {
+   "axis": "kind",
+   "item": "Notebooks, planners & paper",
+   "queries": [
+    "Category:Notebooks",
+    "Stationery Awards 2026",
+    "Japan Stationery Award 2026",
+    "best notebook/paper maker search (excerpts only)"
+   ],
+   "found": 15,
+   "note": "paper-maker candidates from search excerpts still need fetch (see notes)"
+  },
+  {
+   "axis": "kind",
+   "item": "Desk & filing supplies",
+   "queries": [
+    "Category:Office supply companies of US/UK/DE/JP/CN/IN/KR/CH/FR/NZ/AU/CA"
+   ],
+   "found": 25,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Calculators & machines",
+   "queries": [
+    "Category:Mechanical calculator companies"
+   ],
+   "found": 7,
+   "note": "typewriter and electronic calculator categories not fetched (typewriter category 404)"
+  },
+  {
+   "axis": "kind",
+   "item": "Seals, stamps & sealing wax",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe, UK, Japan, India, China, Korea, Taiwan, North America, Italy, Germany",
+   "queries": [
+    "category-based, see regions array"
+   ],
+   "found": 0,
+   "note": "covered only through encyclopedia categories and shop directories"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East, North Africa, Sub-Saharan Africa, Central Asia, Oceania, Latin America & Caribbean, Southeast Asia, Eastern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Japan",
+   "speciality": "fountain pens, gel/ballpoint pens, notebooks and planners, washi tape; annual Japan Stationery Award",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "brands": [
+    "Pilot",
+    "Sailor",
+    "Platinum",
+    "Kokuyo",
+    "Midori",
+    "Sun-Star",
+    "Kamoi Kakoshi (mt)",
+    "Sakura Craypas",
+    "King Jim",
+    "Raymay Fujii",
+    "Plus",
+    "KAYOU+",
+    "Seed",
+    "Kumpel",
+    "Sonic"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "fine paper and stationery; state EPV (living heritage) label for papeterie & écriture",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/produits/arts-graphiques-impression-papier/papeterie-ecriture/",
+   "brands": [
+    "Fila Arches",
+    "Ets Roze",
+    "Maison Alivon",
+    "Papeteries Léon Martin",
+    "Pastels Girault",
+    "Clairefontaine",
+    "Rhodia",
+    "Caran d'Ache"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "historic fountain pen and ink trade (Birmingham pen trade), fine stationers, annual Stationery Awards",
+   "src": "https://en.wikipedia.org/wiki/Category:Fountain_pen_and_ink_manufacturers",
+   "brands": [
+    "Conway Stewart",
+    "Onoto",
+    "Yard-O-Led",
+    "Diamine",
+    "Macniven and Cameron",
+    "Andhand (Method Pen)",
+    "Tom's Studio",
+    "Coffeenotes",
+    "Derwent"
+   ]
+  },
+  {
+   "region": "Germany / Austria",
+   "speciality": "writing instruments and pencils (Faber-Castell, Staedtler, Lamy, Pelikan, Kaweco); listed makers",
+   "src": "https://en.wikipedia.org/wiki/Category:Office_supply_companies_of_Germany",
+   "brands": [
+    "Faber-Castell",
+    "Staedtler",
+    "Schwan-Stabilo",
+    "Rotring",
+    "Herlitz",
+    "Esselte Leitz",
+    "Heintze & Blanckertz",
+    "Cretacolor",
+    "Kores",
+    "Lamy",
+    "Pelikan",
+    "Kaweco"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "fountain pens and stationery houses",
+   "src": "https://goldspot.com/collections/brands",
+   "brands": [
+    "Aurora",
+    "OMAS",
+    "Visconti",
+    "Montegrappa",
+    "Delta",
+    "Pineider",
+    "Leonardo Officina Italiana",
+    "Scribo",
+    "Borghini"
+   ]
+  },
+  {
+   "region": "Taiwan",
+   "speciality": "fountain pens and OEM nib/pen makers",
+   "src": "https://goldspot.com/collections/brands",
+   "brands": [
+    "Opus 88",
+    "Laban",
+    "Magna Carta",
+    "Penlux"
+   ]
+  },
+  {
+   "region": "India",
+   "speciality": "mass-market pens, pencils, notebooks; handmade pens (listed makers)",
+   "src": "https://en.wikipedia.org/wiki/Category:Pen_manufacturers",
+   "brands": [
+    "Camlin",
+    "Doms",
+    "Luxor",
+    "Hindustan Pencils",
+    "Classmate",
+    "Rotomac",
+    "Chelpark",
+    "Karatis"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "Four Treasures of the Study (brush, ink, paper, inkstone) heritage houses; modern pen and stationery makers",
+   "src": "https://en.wikipedia.org/wiki/Category:Office_supply_companies_of_China",
+   "brands": [
+    "Rong Bao Zhai",
+    "Lao Feng Xiang",
+    "Hero",
+    "M&G Stationery",
+    "Deli",
+    "Morning Glory",
+    "Hu Kaiwen"
+   ]
+  },
+  {
+   "region": "South Korea",
+   "speciality": "pens and inks",
+   "src": "https://en.wikipedia.org/wiki/Category:Office_supply_companies_of_South_Korea",
+   "brands": [
+    "Monami",
+    "Colorverse",
+    "Wearingeul"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "pencils, office machines and supplies, small-batch pens and notebooks",
+   "src": "https://en.wikipedia.org/wiki/Category:Pencil_brands",
+   "brands": [
+    "Dixon Ticonderoga",
+    "Musgrave Pencil Company",
+    "Prismacolor",
+    "Swingline",
+    "Edison Pen Co.",
+    "Retro 51",
+    "Field Notes",
+    "Baron Fig"
+   ]
+  },
+  {
+   "region": "Northern Europe",
+   "speciality": "pens and calculating machines",
+   "src": "https://en.wikipedia.org/wiki/List_of_pen_types,_brands_and_companies",
+   "brands": [
+    "Ballograf",
+    "Esselte",
+    "Facit"
+   ]
+  },
+  {
+   "region": "Southeast Europe",
+   "speciality": "origin of the mechanical pencil and penkala pens",
+   "src": "https://en.wikipedia.org/wiki/List_of_pen_types,_brands_and_companies",
+   "brands": [
+    "TOZ Penkala",
+    "Penkala"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/List_of_pen_types,_brands_and_companies",
@@ -168,6 +416,39 @@
    "status": "done",
    "note": "country office-supply category",
    "new_names": 1,
+   "known_confirmed": 1
+  },
+  {
+   "url": "https://www.reseauexcellence.fr/fr/organisations/categories/produits/arts-graphiques-impression-papier/papeterie-ecriture/",
+   "title": "Réseau Excellence (EPV) Papeterie & écriture",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 5,
+   "status": "done",
+   "note": "Entreprise du Patrimoine Vivant, stationery category",
+   "new_names": 5,
+   "known_confirmed": 0
+  },
+  {
+   "url": "https://www.stationerynews.net/stationery-awards-2026-the-winners",
+   "title": "Stationery Awards 2026: The Winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 14,
+   "status": "done",
+   "note": "one year only found",
+   "new_names": 6,
+   "known_confirmed": 0
+  },
+  {
+   "url": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "title": "Japanese Stationery Award 2026 Winners & Trends",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 32,
+   "status": "done",
+   "note": "only 2026 page; earlier years not fetched",
+   "new_names": 14,
    "known_confirmed": 1
   }
  ],
@@ -1043,6 +1324,206 @@
    "says": "Wikipedia Category:Office supply companies of New Zealand",
    "country": "Australia",
    "dept": "office"
+  },
+  {
+   "n": "Ets Roze",
+   "layer": "cultural",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/produits/arts-graphiques-impression-papier/papeterie-ecriture/",
+   "says": "Entreprise du Patrimoine Vivant (EPV) holder, Papeterie & écriture category (Réseau Excellence)",
+   "country": "France",
+   "dept": "paper/stationery"
+  },
+  {
+   "n": "Fila Arches",
+   "layer": "cultural",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/produits/arts-graphiques-impression-papier/papeterie-ecriture/",
+   "says": "Entreprise du Patrimoine Vivant (EPV) holder, Papeterie & écriture category (Réseau Excellence)",
+   "country": "France",
+   "dept": "paper/stationery"
+  },
+  {
+   "n": "Maison Alivon",
+   "layer": "cultural",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/produits/arts-graphiques-impression-papier/papeterie-ecriture/",
+   "says": "Entreprise du Patrimoine Vivant (EPV) holder, Papeterie & écriture category (Réseau Excellence)",
+   "country": "France",
+   "dept": "paper/stationery"
+  },
+  {
+   "n": "Papeteries Léon Martin",
+   "layer": "cultural",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/produits/arts-graphiques-impression-papier/papeterie-ecriture/",
+   "says": "Entreprise du Patrimoine Vivant (EPV) holder, Papeterie & écriture category (Réseau Excellence)",
+   "country": "France",
+   "dept": "paper/stationery"
+  },
+  {
+   "n": "Pastels Girault",
+   "layer": "cultural",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/produits/arts-graphiques-impression-papier/papeterie-ecriture/",
+   "says": "Entreprise du Patrimoine Vivant (EPV) holder, Papeterie & écriture category (Réseau Excellence)",
+   "country": "France",
+   "dept": "paper/stationery"
+  },
+  {
+   "n": "Andhand (Method Pen)",
+   "layer": "premium",
+   "src": "https://www.stationerynews.net/stationery-awards-2026-the-winners",
+   "says": "Stationery Awards 2026 (UK, London International Stationery Show) winner: Writing Instrument of the Year over £25",
+   "country": "UK",
+   "dept": "pens"
+  },
+  {
+   "n": "Coffeenotes",
+   "layer": "premium",
+   "src": "https://www.stationerynews.net/stationery-awards-2026-the-winners",
+   "says": "Stationery Awards 2026 (UK, London International Stationery Show) winner: Notebook/Journal of the Year",
+   "country": "UK",
+   "dept": "notebooks"
+  },
+  {
+   "n": "AIM Studio",
+   "layer": "premium",
+   "src": "https://www.stationerynews.net/stationery-awards-2026-the-winners",
+   "says": "Stationery Awards 2026 (UK, London International Stationery Show) winner: Diary/Organiser of the Year",
+   "country": "UK",
+   "dept": "planners"
+  },
+  {
+   "n": "West Design Products",
+   "layer": "premium",
+   "src": "https://www.stationerynews.net/stationery-awards-2026-the-winners",
+   "says": "Stationery Awards 2026 (UK, London International Stationery Show) winner: Filing/Storage of the Year",
+   "country": "UK",
+   "dept": "filing"
+  },
+  {
+   "n": "Maped Helix",
+   "layer": "premium",
+   "src": "https://www.stationerynews.net/stationery-awards-2026-the-winners",
+   "says": "Stationery Awards 2026 (UK, London International Stationery Show) winner: Icon Award (Oxford Maths Set)",
+   "country": "UK",
+   "dept": "geometry sets"
+  },
+  {
+   "n": "Fred Aldous",
+   "layer": "cultural",
+   "src": "https://www.stationerynews.net/stationery-awards-2026-the-winners",
+   "says": "Stationery Awards 2026 (UK, London International Stationery Show) winner: Best Independent Stationery Retailer North",
+   "country": "UK",
+   "dept": "retailer"
+  },
+  {
+   "n": "KAYOU+",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Seed",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Sonic",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Laconic",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Kumpel",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Daigo",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Kamoi Kakoshi (mt)",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Sakura Craypas",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Raymay Fujii",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Plus",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Q-Lia",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "UHOLABO",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "King Jim",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
+  },
+  {
+   "n": "Nakabayashi",
+   "layer": "premium",
+   "src": "https://zenpop.jp/en/blog/post/5815/japanese-stationery-award-2026",
+   "says": "Japan Stationery Award 2026 winner (via ZenPop)",
+   "country": "Japan",
+   "dept": "stationery"
   }
  ]
 }
