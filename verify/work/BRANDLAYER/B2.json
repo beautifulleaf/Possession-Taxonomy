@@ -43,10 +43,12 @@
    "axis": "kind",
    "item": "Rugs & mats > Mats",
    "queries": [
-    "best door mats coir rubber makers award"
+    "best door mats coir rubber makers award",
+    "best coir door mats makers tested handmade",
+    "The Spruce best doormats"
    ],
    "found": 0,
-   "note": "No usable quality page"
+   "note": "No usable quality page | pass 3: Spruce tested WaterHog; no maker with quality evidence taken"
   },
   {
    "axis": "kind",
@@ -88,28 +90,33 @@
    "axis": "kind",
    "item": "Bedding > Mattress toppers & protectors",
    "queries": [
-    "Wirecutter mattress toppers; GH awards toppers"
+    "Wirecutter mattress toppers; GH awards toppers",
+    "best mattress topper tested Which? Wirecutter winners brands",
+    "GH best mattress toppers",
+    "CNET best mattress toppers"
    ],
-   "found": 0,
-   "note": "Wirecutter blocked"
+   "found": 2,
+   "note": "Wirecutter blocked | pass 3: Avocado, Nest Bedding"
   },
   {
    "axis": "kind",
    "item": "Cushions & covers > Cushions & seat pads",
    "queries": [
-    "cushion makers"
+    "cushion makers",
+    "best scatter cushions tested makers award cushion maker craftsmanship"
    ],
-   "found": 0,
-   "note": "Not searched specifically"
+   "found": 4,
+   "note": "Not searched specifically | pass 3: Woven Rosa list; no tests of cushions or seat pads found"
   },
   {
    "axis": "kind",
    "item": "Cushions & covers > Covers & slipcovers",
    "queries": [
-    "slipcover makers"
+    "slipcover makers",
+    "best sofa slipcover makers tested Comfort Works Bemz Ikea Sure Fit review"
    ],
-   "found": 0,
-   "note": "Not searched specifically"
+   "found": 2,
+   "note": "Not searched specifically | pass 3: Bemz, Comfort Works"
   },
   {
    "axis": "kind",
@@ -124,28 +131,31 @@
    "axis": "kind",
    "item": "Curtains & blinds > Curtains",
    "queries": [
-    "EPV rideaux sur mesure"
+    "EPV rideaux sur mesure",
+    "Heimtextil Trend Award OR Green Responsible winners curtain fabric bed linen manufacturers"
    ],
    "found": 2,
-   "note": "Cousins Associes, Jouffre"
+   "note": "Cousins Associes, Jouffre | pass 3: Heimtextil returned only exhibitor pages (Textile World, Italian exhibitors); no winner list"
   },
   {
    "axis": "kind",
    "item": "Curtains & blinds > Blinds & shades",
    "queries": [
-    "Hunter Douglas Luxaflex Silent Gliss tested"
+    "Hunter Douglas Luxaflex Silent Gliss tested",
+    "best roller blinds makers award tested Hunter Douglas Luxaflex Which?"
    ],
    "found": 0,
-   "note": "Only installer pages; no quality evidence"
+   "note": "Only installer pages; no quality evidence | pass 3: no test or award page returned"
   },
   {
    "axis": "kind",
    "item": "Curtains & blinds > Poles, tracks & fittings",
    "queries": [
-    "EPV mecanisme de rideaux, tringles"
+    "EPV mecanisme de rideaux, tringles",
+    "best curtain poles makers craftsmanship Silent Gliss Rothley Hallis Hardware"
    ],
    "found": 0,
-   "note": "Gauthier & Cie, Metzger seen, not shown to be soft furnishing; not taken"
+   "note": "Gauthier & Cie, Metzger seen, not shown to be soft furnishing; not taken | pass 3: no test or award page returned"
   },
   {
    "axis": "kind",
@@ -182,10 +192,11 @@
    "axis": "kind",
    "item": "Table & kitchen linen > Kitchen cloth",
    "queries": [
-    "tea towel Irish linen makers"
+    "tea towel Irish linen makers",
+    "best tea towels linen makers award Irish linen tea towel"
    ],
    "found": 0,
-   "note": "Ulster Weavers known; Samuel Lamont seen only on a retailer page"
+   "note": "Ulster Weavers known; Samuel Lamont seen only on a retailer page | pass 3: search returned no tea towel page"
   },
   {
    "axis": "region",
@@ -831,6 +842,56 @@
    "new_names": 0,
    "status": "partial",
    "note": "Excerpt names Riley and Kontex (towel tested, not winner); Wirecutter pick list not obtained; Choice (Australia) pages not retrieved by search"
+  },
+  {
+   "url": "https://abcnews.com/GMA/Shop/good-housekeeping-2026-bedding-awards-picks-gma/story?id=131100690",
+   "title": "GH 2026 Bedding Awards (ABC/GMA) toppers",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": "Avocado topper; Beautyrest and Sealy are mattress brands, left to other category"
+  },
+  {
+   "url": "https://www.cnet.com/health/sleep/best-mattress-toppers/",
+   "title": "CNET best mattress toppers 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "partial",
+   "note": "Nest Bedding, Avocado, Plushbeds (excerpt only; Plushbeds not taken); Wirecutter toppers page names FXI Novaform only, not taken (private-label)"
+  },
+  {
+   "url": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
+   "title": "Woven Rosa best 20 handmade cushions UK",
+   "kind": "retailer",
+   "years": "2022",
+   "names_on_page": 20,
+   "new_names": 4,
+   "status": "partial",
+   "note": "Independent-homeware retailer list; only the makers visible in excerpt (4 of 20) taken"
+  },
+  {
+   "url": "https://thefurnishedreview.com/guides/ikea-soderhamn-cover-replacement",
+   "title": "Furnished Review slipcover makers",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": "Bemz, Comfort Works, Soferia; weak (reader-supported)"
+  },
+  {
+   "url": "https://www.thespruce.com/best-outdoor-doormats-5080283",
+   "title": "The Spruce best doormats",
+   "kind": "award",
+   "years": "2020",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "M+A Matting WaterHog diamond mat is a tested pick; commercial matting maker; only excerpt seen, not taken"
   }
  ],
  "brands": [
@@ -1716,6 +1777,70 @@
    "says": "Better Homes & Gardens Best Sheets Tests, 12 winners: Coyuchi Organic Relaxed Linen Sheets, Best Splurge (French flax linen, no fading, pilling or shrinkage)",
    "country": "US",
    "dept": "Bed linen"
+  },
+  {
+   "n": "Avocado Green Mattress",
+   "layer": "premium",
+   "src": "https://abcnews.com/GMA/Shop/good-housekeeping-2026-bedding-awards-picks-gma/story?id=131100690",
+   "says": "Good Housekeeping 2026 Bedding Awards: Eco Organic Mattress Topper (testers unanimous sleep improved); also GH latex topper list and CNET toppers 'most sustainable'",
+   "country": "US",
+   "dept": "Mattress toppers"
+  },
+  {
+   "n": "Nest Bedding",
+   "layer": "premium",
+   "src": "https://www.cnet.com/health/sleep/best-mattress-toppers/",
+   "says": "CNET best mattress toppers 2026: Nest Bedding Cooling Topper named Best overall",
+   "country": "US",
+   "dept": "Mattress toppers"
+  },
+  {
+   "n": "Bemz",
+   "layer": "premium",
+   "src": "https://bemz.com/en-gb/categories/home-textiles/curtains",
+   "says": "Maker's own site: made-to-order slipcovers and curtains sewn in Europe, B Corp Certified, designer collaborations (Designers Guild, Romo); seen via search excerpt of own pages, no independent test",
+   "country": "Sweden",
+   "dept": "Covers & slipcovers"
+  },
+  {
+   "n": "Comfort Works",
+   "layer": "premium",
+   "src": "https://thefurnishedreview.com/guides/ikea-soderhamn-cover-replacement",
+   "says": "The Furnished Review compares slipcover makers Bemz, Comfort Works and Soferia for IKEA Soderhamn (reader-supported review site)",
+   "country": "",
+   "dept": "Covers & slipcovers"
+  },
+  {
+   "n": "Lucy Fry Designs",
+   "layer": "premium",
+   "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
+   "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)' independent homeware list; Swansea maker",
+   "country": "UK",
+   "dept": "Cushions"
+  },
+  {
+   "n": "Prints By Nature",
+   "layer": "premium",
+   "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
+   "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)'; organic block-printed homeware label",
+   "country": "UK",
+   "dept": "Cushions"
+  },
+  {
+   "n": "Emodi",
+   "layer": "premium",
+   "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
+   "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)'; designed by owner Egle",
+   "country": "UK",
+   "dept": "Cushions"
+  },
+  {
+   "n": "True Linen",
+   "layer": "premium",
+   "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
+   "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)'; washed French/Scandinavian-style linen cushions",
+   "country": "UK",
+   "dept": "Cushions"
   }
  ]
 }
