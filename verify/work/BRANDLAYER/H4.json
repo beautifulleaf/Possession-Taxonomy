@@ -13,6 +13,24 @@
     "Molinard",
     "Galimard"
    ]
+  },
+  {
+   "region": "Kannauj, India (attar)",
+   "speciality": "India's perfume capital; Kannauj Perfume (attar, deg-bhapka distillation) registered as a Geographical Indication 2013-14",
+   "src": "https://en.wikipedia.org/wiki/Kannauj_Perfume",
+   "brands": [
+    "M.L. Ramnarain Perfumers",
+    "Gulabsingh Johrimal"
+   ]
+  },
+  {
+   "region": "Turkey (kolonya)",
+   "speciality": "Kolonya: traditional lemon cologne offered to guests; Turkish cologne houses",
+   "src": "https://www.bbc.com/travel/article/20200407-turkeys-unique-hand-sanitiser",
+   "brands": [
+    "Atelier Rebul",
+    "Eyüp Sabri Tuncer"
+   ]
   }
  ],
  "sources": [
@@ -112,6 +130,56 @@
    "kind": "heritage",
    "years": "n/a",
    "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Kannauj_Perfume",
+   "title": "Wikipedia: Kannauj Perfume (GI)",
+   "kind": "heritage",
+   "years": "2013-14",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "GI statement, no houses named"
+  },
+  {
+   "url": "https://mlramnarain.com/",
+   "title": "M.L. Ramnarain Perfumers (Kannauj)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker own site"
+  },
+  {
+   "url": "https://gulabsinghjohrimal.com/about-us",
+   "title": "Gulabsingh Johrimal about us",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "own-site heritage claim"
+  },
+  {
+   "url": "https://www.bbc.com/travel/article/20200407-turkeys-unique-hand-sanitiser",
+   "title": "BBC Travel: Turkey kolonya",
+   "kind": "encyclopedia",
+   "years": "2020",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": "Rebul named; Tuncer on BI page"
+  },
+  {
+   "url": "https://www.businessinsider.com/turkey-kolonya-cologne-covid-coronavirus-hand-sanitizer-2020-11",
+   "title": "Business Insider: Turkish kolonya",
+   "kind": "encyclopedia",
+   "years": "2020",
+   "names_on_page": 1,
    "new_names": 0,
    "status": "done",
    "note": ""
@@ -9173,6 +9241,48 @@
    "codes": [
     "H4"
    ]
+  },
+  {
+   "n": "M.L. Ramnarain Perfumers",
+   "layer": "cultural",
+   "src": "https://mlramnarain.com/",
+   "says": "maker rooted in Kannauj (perfume capital of India), centuries-old distillation techniques; own site (existence/heritage claim)",
+   "country": "India",
+   "dept": "Attars and oils",
+   "already": false
+  },
+  {
+   "n": "Gulabsingh Johrimal",
+   "layer": "cultural",
+   "src": "https://gulabsinghjohrimal.com/about-us",
+   "says": "Old Delhi (Chandni Chowk) attar house est. 1816, preserves deg-bhapka distillation; own-site heritage claim",
+   "country": "India",
+   "dept": "Attars and oils",
+   "already": true,
+   "codes": [
+    "H4"
+   ]
+  },
+  {
+   "n": "Atelier Rebul",
+   "layer": "cultural",
+   "src": "https://www.bbc.com/travel/article/20200407-turkeys-unique-hand-sanitiser",
+   "says": "named as one of the oldest and most famous (Rebul) / well-known (Tuncer) kolonya brands in Turkey",
+   "country": "Turkey",
+   "dept": "Citrus and eau de cologne",
+   "already": true,
+   "codes": [
+    "H1"
+   ]
+  },
+  {
+   "n": "Eyüp Sabri Tuncer",
+   "layer": "cultural",
+   "src": "https://www.businessinsider.com/turkey-kolonya-cologne-covid-coronavirus-hand-sanitizer-2020-11",
+   "says": "CEO calls it a well known kolonya producer (Business Insider)",
+   "country": "Turkey",
+   "dept": "Citrus and eau de cologne",
+   "already": false
   }
  ]
 }
