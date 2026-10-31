@@ -2,8 +2,93 @@
  "cat": "G1",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Cars",
+   "queries": [
+    "Wikipedia list of manufacturers",
+    "TheFramebuilders / Practical Caravan / coachbuilder lists"
+   ],
+   "found": 0,
+   "note": "covered by list sources only; open 'best makers' search not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Motorcycles & scooters",
+   "queries": [
+    "Wikipedia list of manufacturers",
+    "TheFramebuilders / Practical Caravan / coachbuilder lists"
+   ],
+   "found": 0,
+   "note": "covered by list sources only; open 'best makers' search not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Bicycles",
+   "queries": [
+    "Wikipedia list of manufacturers",
+    "TheFramebuilders / Practical Caravan / coachbuilder lists"
+   ],
+   "found": 0,
+   "note": "covered by list sources only; open 'best makers' search not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Boats",
+   "queries": [
+    "Wikipedia list of manufacturers",
+    "TheFramebuilders / Practical Caravan / coachbuilder lists"
+   ],
+   "found": 0,
+   "note": "covered by list sources only; open 'best makers' search not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Caravans, motorhomes & trailers",
+   "queries": [
+    "Wikipedia list of manufacturers",
+    "TheFramebuilders / Practical Caravan / coachbuilder lists"
+   ],
+   "found": 0,
+   "note": "covered by list sources only; open 'best makers' search not run"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Italy",
+   "speciality": "carrozzeria coachbuilding",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "brands": [
+    "Allemano",
+    "Maggiora",
+    "Marazzi",
+    "Manifattura Automobili Torino"
+   ]
+  },
+  {
+   "region": "Netherlands",
+   "speciality": "large custom yachts (Feadship, Royal Huisman, Heesen)",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "brands": [
+    "Feadship",
+    "Royal Huisman",
+    "Heesen Yachts",
+    "Holland Jachtbouw"
+   ]
+  },
+  {
+   "region": "Sweden/Finland",
+   "speciality": "blue-water sailing yachts",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "brands": [
+    "Hallberg-Rassy",
+    "Nautor's Swan",
+    "Najad Yachts",
+    "Nauticat Yachts"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/List_of_car_brands",
@@ -54,6 +139,66 @@
    "new_names": 54,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "title": "Coachbuilder - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 187,
+   "new_names": 155,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "title": "Wikipedia List of sailboat designers and manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 61,
+   "new_names": 60,
+   "status": "done",
+   "note": "manufacturers section only (designers skipped)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "title": "Wikipedia Category:Yacht building companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 39,
+   "new_names": 34,
+   "status": "done",
+   "note": "subcategory and page names, selection"
+  },
+  {
+   "url": "https://theframebuilders.com/list/",
+   "title": "TheFramebuilders directory",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 362,
+   "new_names": 351,
+   "status": "done",
+   "note": "directory of independent framebuilders in 33 countries; existence only"
+  },
+  {
+   "url": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "title": "Practical Caravan: best caravan manufacturers",
+   "kind": "award",
+   "years": "2022-2025",
+   "names_on_page": 17,
+   "new_names": 12,
+   "status": "done",
+   "note": "known: Adria, Airstream, Bailey of Bristol, Eriba, Swift Group"
+  },
+  {
+   "url": "https://www.worldcarawards.com/files/WCA_History_Category.pdf",
+   "title": "World Car Awards / European Car of the Year",
+   "kind": "award",
+   "years": "1964-2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "seen in search excerpts only, not fetched; winners are models of major known brands; not harvested"
   }
  ],
  "brands": [
@@ -9984,6 +10129,4902 @@
    "says": "listed with own article in Wikipedia List of boat builders",
    "country": "",
    "dept": "Boats"
+  },
+  {
+   "n": "Pourtout drophead coupé on a Lancia Belna chassis 1935",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Gallery)",
+   "country": "Gallery",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Touring 2-seater body on a 1938 Alfa Romeo 6C 2300B chassis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Gallery)",
+   "country": "Gallery",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Fixed head coupé by Ghia 1954 on an Alfa Romeo 1900 SS chassis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Gallery)",
+   "country": "Gallery",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Hebmüller Cabriolet modifications upon a mass-produced Volkswagen platform chassis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Gallery)",
+   "country": "Gallery",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Jacques Coune",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Belgium)",
+   "country": "Belgium",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "D'Ieteren",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Belgium)",
+   "country": "Belgium",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Jonckheere",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Belgium)",
+   "country": "Belgium",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Van Hool",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Belgium)",
+   "country": "Belgium",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Sodomka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Czech Republic)",
+   "country": "Czech Republic",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Antem",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Autobineau",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Belvallette Frères",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Billeter & Cartier",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Chappe et Gessalin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Chapron",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Philippe Charbonneaux",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Chausson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Darl'mat",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Facel-Métallon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Fernandez & Darrin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Figoni et Falaschi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Franay",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Gaston Grümmer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Heuliez",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Hibbard & Darrin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Lamberet",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Letourneur et Marchand",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Million-Guiet",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Pourtout",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Saoutchik",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Vanvooren",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Weymann",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (France)",
+   "country": "France",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Ambi-Budd",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Autenrieth",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Baur",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Binz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Dannenhauer & Stauss",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Deutsch",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Erdmann & Rossi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Hebmüller",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Kässbohrer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Karmann",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Keinath",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Kühlstein",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Neoplan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Reutter",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Rometsch",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Setra",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Styling Garage",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Wendler",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Germany)",
+   "country": "Germany",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "DC Design",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (India)",
+   "country": "India",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "O'Gorman",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Ireland)",
+   "country": "Ireland",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Ala d'Oro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Boano",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Boneschi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Caselani",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Castagna",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Cecomp",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Coggiola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Colli",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Coriasco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "De Simon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Fissore",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Frua",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Garavini",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Ghia-Aigle",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Giugiaro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "I.DE.A",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Lombardi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Maggiora",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "MAT",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Meade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Morelli",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Motto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Nembo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "OSI",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Pavesi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Sala",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Scaglietti",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Sports Cars (Drogo)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Stola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Studiotorino",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Touring",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Varesina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Viotti",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Italy)",
+   "country": "Italy",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Bij 't Vuur",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Netherlands)",
+   "country": "Netherlands",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Pennock",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Netherlands)",
+   "country": "Netherlands",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Vandenbrink Design",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Netherlands)",
+   "country": "Netherlands",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Plage i Laśkiewicz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Poland)",
+   "country": "Poland",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Abadal",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Spain)",
+   "country": "Spain",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Ayats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Spain)",
+   "country": "Spain",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Irizar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Spain)",
+   "country": "Spain",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Beutler",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Switzerland)",
+   "country": "Switzerland",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "C. & R. Geissberger",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Switzerland)",
+   "country": "Switzerland",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Graber",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Switzerland)",
+   "country": "Switzerland",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Ramseier",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Switzerland)",
+   "country": "Switzerland",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Worblaufen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Switzerland)",
+   "country": "Switzerland",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Abbey Coachworks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Alexander Dennis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Arthur Mulliner",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Carbodies",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Crayford Engineering",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Charlesworth",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Corsica",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Croall",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Cunard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Gordon England",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Freestone and Webb",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Grose",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Harold Radford",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Harrington",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Hooper",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Hoyal",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "H. J. Mulliner & Co.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "J Gurney Nutting & Co",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "James Young",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Jones Brothers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Jarvis of Wimbledon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Lancefield",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Martin Walter",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Mulliners",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "New Avon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Nu-Track",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Optare",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Park Ward",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Rippon Bros",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Salmons",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Tickford",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Thrupp & Maberly",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Vince & Son",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Walter Alexander Coachbuilders",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Vincent of Reading",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Wrightbus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United Kingdom)",
+   "country": "United Kingdom",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Abbot-Downing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Biddle and Smart",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Bohman & Schwartz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Brewster",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Briggs",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Brunn",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Budd",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Coachcraft",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Darrin of Paris",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Derham",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Dietrich Inc.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Earl Automobile Works",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Albert Fisher",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Judkins",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "LeBaron",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Murphy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Rollson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Rollston",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Walker",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Waterhouse",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Willoughby",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (United States)",
+   "country": "United States",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Overfinch",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+   "says": "listed with own article in Wikipedia Coachbuilder: List of automobile coachbuilders (Survivors of the unibody production-line system)",
+   "country": "",
+   "dept": "Cars (coachbuilt)"
+  },
+  {
+   "n": "Aegean Yacht",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Albin Marine",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Alexander Stephen and Sons",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Alloy Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Aloha Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Alsberg Brothers Boatworks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Archambault Boats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Austral Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Baltic Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Bayfield Boat Yard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Bowman Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Bristol Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "C&C Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Cabo Rico Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Cal Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Cape Dory Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Catalina Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Cavalier Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Columbia Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Com-Pac Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Cornish Crabbers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Dehler Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Dragonfly Trimarans",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Ericson Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "ETAP Yachting",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Freedom Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Hans Christian Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Hinckley Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Hinterhoeller Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Hodgdon Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Holland Jachtbouw",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Hunter Boats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Island Packet Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Jakobson Shipyard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Jeremy Rogers Limited",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Johnson Boat Works",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Jongert",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "J. Samuel White",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Laser Performance",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Lockley Newport Boats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "MacGregor Yacht Corporation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Melges Performance Sailboats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Mirage Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Najad Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Nauticat Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Ontario Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Oyster Marine",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Pacific Seacraft",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Palmer Johnson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Rustler Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "S2 Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Sparkman and Stephens",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Tartan Marine",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Tanzer Industries",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Vanguard Sailboats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "X-Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Skene Boats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Seidelmann Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "George Lawley and Son",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Hughes Boat Works",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_sailboat_designers_and_manufacturers",
+   "says": "listed with own article in Wikipedia List of sailboat designers and manufacturers",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Abeking and Rasmussen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Baglietto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Fairline Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Fairey Marine",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Moody Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Nelo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Palumbo Shipyards",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Persico Marine",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Riviera Australia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Rossinavi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Royal Hakvoort Shipyards",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Sanlorenzo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Sealine",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "The Italian Sea Group",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "VanDutch",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Viksund Boats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Maritimo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Luke and Co",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Heesen Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Contest Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "RS Sailing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Topper International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Lagoon Catamaran",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Leonardo Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Anesty Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Westerly Marine Construction",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "McConaghy Boats",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Sunbeam Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Folkebadcentralen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Edey and Duff",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Henry B. Nevins",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Derecktor Shipyards",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Aura Yachts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "Mader Bootswerft",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Yacht_building_companies",
+   "says": "listed with own article in Wikipedia Category:Yacht building companies",
+   "country": "",
+   "dept": "Boats"
+  },
+  {
+   "n": "3angles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "22. Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "44 Bike Co.",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "47 Nord",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "333 Fab.",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "616 Bicycle",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "ADV Paris",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Agresti",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ahearne Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Airtight Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Alan Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Alchemy bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Alex Meade Bikeworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Alex Singer",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Alliance Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Alman cicli",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Aloueta",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Amapola cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Netherlands",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Anderson Custom Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Angel Cycle Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Spain",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Appleman",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Arcane",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Ireland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "AR Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Argonaut Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ari Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Israel",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Arregui Velazquez",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Spain",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Art bike bamboo",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Brazil",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "August Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Auro Sukrit",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "India",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Avio Bike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bamboo Bicycle Club",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bantam Bicycles Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Basica Studio",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Mexico",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bastion Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Baum Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bearclaw Bicycle Co",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bedovelo",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Belle Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Spain",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Berthoud Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bicebicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bicycle Engineering Academy",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Ireland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bicycles by Design",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Big Forest Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bilenky Cycle Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Binghambuilt",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bishop Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bixxis",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Black Cat Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Black Sheep Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Blacksmith Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Blaze Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Blue Steel Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bob Brown Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Boedie Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Boo Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bordure cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bornia & Cox Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Brazil",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Braun Cycling",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Netherlands",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Breadwinner Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Breismeister Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Brelis Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Turkey",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Breton Bicyclettes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Thailand",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Brew Bikes llc",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bringheli frames",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Bubba",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Calleti Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Caminade",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Carlos C Cruz",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ceremony Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chapman Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chelichana",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Croatia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chelsea Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cherubim",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chesini",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chocolate Spokes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chris Chance",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chris Kvale Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Chumba USA",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cicli Barco",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cicli Bonanno",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cicli Casati",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cicli Drali Milano",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ciclos Helike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Spain",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Clemente Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Clockwork Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Coast Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Colossi",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Netherlands",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Condor Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Crema Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Crisp Titanium",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Crowbar Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Belgium",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Crumpton Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Curt Goodrich Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cycles D Gudon",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cycles Lamoure",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cycles Steil",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Cyfac International",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "DaamBuilt",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Daccordi",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Davidson Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Da Vinci Tandems",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Demon Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "De Salvo Custom Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Devlin Custom Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Dobbat's Bicycle Studio",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Dogwood Cycleworx",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Dominguez Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Donard Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Ireland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Donhou Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Downland Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Draper Cycles LLC",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "DREIERCYCLES",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Drummond Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Edelbikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "eiglbikescom",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Austria",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Elephant Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Elite Velo Solutions",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "EllisBriggs Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ellis Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Emmeakka",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "emmezeta snc",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Endemit",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Poland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Engin Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "English Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Enigma",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Epsilon Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Equilibrium Cycle Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Equinox Bicycleworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Faggin",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Fahrradbaukurse",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Falkenjagd Titan Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Favaloro",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Feather Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Fern Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ferretti Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ferrum Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Festka",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Czech Republic",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Field Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Firefly Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Fitz Cyclez",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Flansberrium",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Formigli",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Frances Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Frank Wadelton",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Funk Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Gallus Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Gangl Custom Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Geekhouse Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "George Reynolds",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Gibson Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "GRADE9",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Grey Steel Bikeworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Groovy Cycleworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Guipago Custom Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Gunnar Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Halekai Machine",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Hampsten Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Hartley Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "HBM Biciclette Artigianali",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Hillbrick Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Holand Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "HotSalad Bicycles LLC",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Hunter Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Igleheart Frames",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "iokln frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Taiwan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Jaegher",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Belgium",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Javelin",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Jeffson Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "New Zealand",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Jerome Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Joe Bike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Jones Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Jonny Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "K.Bedford Customs",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kajak Custom",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Poland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Karussell Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Slovenia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kelson Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kent Eriksen Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ketelaar Frame Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "KillenBike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kirk Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kish Fabrication",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Klaus Poloni",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Brazil",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kobo Akamatsu",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kolb Rahmenbau",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kory York",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Krmer",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kualis Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Kumo Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Lambert Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "landyachtz",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Legend by Bertoletti",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Legor Cicli",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Spain",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Level Cycle",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Liberation Fabrication",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Llewellyn bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Low Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Lynskey",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Magic Cycle Werks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mahall Bikeworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mandaric",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Manivelle",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Manzanita Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Map bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Marino Bike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Peru",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mariposa Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Marschall Framework",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Martelly Frames",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Belgium",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Maruya",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Maurer Framewerks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mawis Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "MDE",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Meech Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Meerglas",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Memento Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mercer Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "South Africa",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mercian",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Metal Guru",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Metrofiets",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Michael A Terraferma",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Middleeasta",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Israel",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mikkelsen Frames",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mjolnir Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "MOKO Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Poland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Monsoon Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Montauk Hardwood Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Moonmen Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "moosbike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Austria",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Moots",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Mosaic Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Myth Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Nakagawa Cycle Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Naked Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Nevi Bike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Nobilette",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Noble Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Belgium",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Normal Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Norther Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Northern Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "NSGK Nagasawa Giken",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Oasis cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Officina Battaglin",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Oswald Cycle Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Oxia Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Spain",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Paramour Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Parlee Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Passoni",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Paulus Quiros",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Pavarin",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "PechTregon cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Pedemonte",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Pegoretti",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Peter Verdone Designs",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Praveen Prabhakaran",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "India",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Project 12",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Netherlands",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Projeto Hito",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Brazil",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Prova Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Australia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Quiring Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "RAP Round Brezze",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Reeb Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Reilly The Titanium Bike Co",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Repete Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Czech Republic",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "RepublicDutch",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Netherlands",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Revlrevl cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rex Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rhode Fabrication",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ricardo Navarro",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Brazil",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Richard Sachs Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Roark Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rock Lobster Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rodriguez Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rookey Bike Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "South Korea",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rossman Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rourke Framesets",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Royal H Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rychtarski",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Poland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Saffron Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Saline Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Scarab Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Colombia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Selemma Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Shamrock Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Silva Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Silver Cat Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Brazil",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Simoncini",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Single Be",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Czech Republic",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Siren Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Sklar Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Snyder Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Sol Wrks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Sotherland Custom Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Soul Craftbikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Souvenir Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Spectrum Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Speedvagen",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Spicer Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Spino Bike",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Brazil",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Squarebuilt",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Standert",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Standridge Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Stanforth",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Stayer Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Stelbel",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Steve Potts Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Stinner Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Stoemper",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Stooge Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Strato Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Strong Frames",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "STS",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "SUEESS Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Switzerland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Sven Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Sycip",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Talbot Frameworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Tamarack Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Terra",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Thompson Custom Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Thrive Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Thursday Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ti Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Toivo Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "South Korea",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Tomii Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Tommasini",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Tonic Fab",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Toyo Frame",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Japan",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "TRED",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Triton Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Russia",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "True North Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Canada",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Unique Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Germany",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "United Bicycle Institute",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "UP Electromods SPC",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "VELOCTOPUS",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Portugal",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ventana",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Vetta",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Italy",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Vicious Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Victoire Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "France",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Victoria Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Vlad Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Von Hof Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Vulpe",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Mexico",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Waltworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Waterford Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Weaver Cycle Works",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Wilco Cycleworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Wind Cycleworks",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Netherlands",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Winter Bicycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Wizjoner bike frame painting",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Poland",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Woodrup Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United Kingdom",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Wyganowski",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Xclusive Bikes",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Spain",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Zafi Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "Belgium",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Zanconato Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Zinn Cycles",
+   "layer": "premium",
+   "src": "https://theframebuilders.com/list/",
+   "says": "listed in TheFramebuilders directory of independent handmade-bicycle framebuilders (directory listing only)",
+   "country": "United States",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Buccaneer Caravans",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: described as synonymous with luxury; Practical Caravan Awards 2022 winner",
+   "country": "United Kingdom",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Coachman Caravans",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: Best Overall Manufacturer Owner Satisfaction Awards 2023, 2024, 2025",
+   "country": "United Kingdom",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Elddis",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: Silver Awards Owner Satisfaction Awards 2023-2025",
+   "country": "United Kingdom",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Hobby Caravans",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: listed among best caravan brands",
+   "country": "Germany",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Knaus",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: Best New Caravan Manufacturer Owner Satisfaction Awards 2023",
+   "country": "Germany",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Lunar Caravans",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: Gold Award pre-owned 2023-2025",
+   "country": "United Kingdom",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Mink Campers",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: teardrop caravans, listed",
+   "country": "Iceland/Latvia",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Xplore Caravans",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: Practical Caravan Awards 2025 winner",
+   "country": "United Kingdom",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Weinsberg",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: Practical Caravan Awards winner",
+   "country": "Germany",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Go-Pod",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: micro tourers, shortlisted repeatedly",
+   "country": "United Kingdom",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Freedom Caravans",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: lightweight caravans, shortlisted",
+   "country": "Poland/UK",
+   "dept": "Caravans"
+  },
+  {
+   "n": "Camperlands",
+   "layer": "premium",
+   "src": "https://www.practicalcaravan.com/buying-guides/best-caravan-manufacturers-the-10-best-caravan-brands",
+   "says": "Practical Caravan best caravan makes: Campmaster tourers, shortlisted",
+   "country": "United Kingdom",
+   "dept": "Caravans"
   }
  ]
 }

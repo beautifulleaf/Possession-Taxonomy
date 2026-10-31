@@ -608,6 +608,24 @@
    "country": "Hong Kong",
    "dept": "auction house (Chinese coins)",
    "region": "Hong Kong"
+  },
+  {
+   "n": "Osborne Coinage",
+   "layer": "cultural",
+   "src": "https://www.bizjournals.com/cincinnati/news/2023/04/11/osborne-coinage-royal-united-mint.html",
+   "says": "Cincinnati, 1835; 'the oldest private coin mint in America' (Cincinnati Business Courier), maker of tokens, scrip, challenge coins and rounds; acquired 2023 by Royal United Mint (HM Precious Metals group)",
+   "country": "United States",
+   "dept": "tokens, challenge coins, rounds",
+   "region": "Cincinnati"
+  },
+  {
+   "n": "Northwest Territorial Mint",
+   "layer": "cultural",
+   "src": "https://www.coinbooks.org/esylum_v16n36a22.html",
+   "says": "(1984-2018) largest private mint in the US: bullion coins, bronze stars and most military, Boy Scouts and VFW medals; owned Medallic Art Co. from 2009; folded into Medalcraft Mint (historic)",
+   "country": "United States",
+   "dept": "medals, challenge coins, bullion",
+   "region": ""
   }
  ],
  "add_regions": [
@@ -715,6 +733,14 @@
   {
    "n": "Colnect-only stamp printers (55 rows)",
    "why": "Colnect printer list is existence only; none of these 55 may stand as cultural on that src. Re-source those with own Wikipedia articles or independent histories (e.g. Joh. Enschedé, De La Rue, Harrison & Sons, Bradbury Wilkinson, Waterlow, House of Questa, Walsall, Cartor, Bundesdruckerei, Giesecke & Devrient, PWPW, BEP, Canadian/British American Bank Note, Courvoisier) and drop the rest (e.g. Southern Colour Print, AS Vaba Maa, Oriental Press Bahrain, Litografia Maia, Rosenbaum Bros., Tunisia Post Printing House, Government Printer Pretoria, Imprenta Nacional Montevideo) unless another page supports them"
+  },
+  {
+   "n": "Pinnacle Brands",
+   "why": "not new: same company as register 'Pinnacle' (F3, premium cards 1992): merge/cross_tag, no new row"
+  },
+  {
+   "n": "Leaf / Merlin / Score / Pacific Trading Cards (homonym check)",
+   "why": "Leaf (register F3 autograph cards) = Leaf Trading Cards; Merlin (register F3 stickers) = Merlin Publishing; Score (register F3) = Pinnacle's Score brand; Pacific Trading Cards has no F3 namesake (register 'Pacific …' rows are fashion/beauty, different firms: if added, name it 'Pacific Trading Cards' in full)"
   }
  ],
  "defer": [
@@ -905,5 +931,5 @@
    "src": "https://www.borsaistanbul.com/files/borsa-istanbul-as-list-of-refineries-bars-ingots-and-granules-of-which-can-be-traded-in-the-precious-metals-and-precious-stones-market.pdf"
   }
  ],
- "notes": ""
+ "notes": "Accuracy 8/25 flagged: 4 LBMA-sourced rows are true but the cited LBMA page renders its list by script (raw fetch shows no refiner names) - re-source all 52 LBMA rows to the Borsa Istanbul PDF (LBMA lists reproduced under licence, updated 02/10/2026), which also covers the SILVER list (the harvest's blocked item); 4 rows have claims the source cannot carry: 2 Colnect stamp printers (existence only), 1 Trading-card table row without own article (Maxx), and The Mint (Carlingford), a tower house where no coin was ever found. Structural problems beyond the sample: all 55 Colnect printers sit at 'cultural' on an existence-only page; 31 of the 42 'Trading card' table rows have no article of their own; 6 game publishers (AEG, Bushiroad, Chaosium, Cryptozoic, Decipher, Renegade) are content-identity and must be deferred; duplicates (Bavarian Central/State Mint, SkyBox x2, Tristar x2, Mennica Polska x2); Shandong Gold Smelting left the LBMA gold list 05.08.2026; SEGS rated 'Poor' by PNG. Central banks: keep as issuers (dept 'issuer'): an issuer is part of a coin's or note's identity and the register already files Bank of England, Fed, ECB etc. under F3 'Institution & issuer'; Bangko Sentral is also a maker (LBMA gold refiner). Bullion dealers -> role seller; graders -> role service (harvest already does this for the 5 graders).\nHomonym masking: register 'Baldwin' (B8) is a lock brand - Baldwin's coin dealers is a different firm (the harvest notes wrongly treat it as known); 'Courvoisier' (J7) is cognac - Hélio Courvoisier stamp printer is a homonym; 'Crane' (H2) is inhalers, not Crane Currency. Same-company cross_tags: Mennica Polska (F5), Mitsubishi Materials (C4), Bradbury Wilkinson and Waterlow (F5), De La Rue (E1), Tiffany & Co., Jostens (A3), Calbee (J8), Heritage Auctions (F2), In the Game / Dart Flipcards / Parkhurst Products (E1, trading-card makers).\nAdditions: medal/trophy summit (Thomas Fattorini, GDE Bertoni, Thomas Lyte, Vaughtons; Tiffany cross-tag), banknote-printer summit via IBNS Bank Note of the Year and IACA (Crane Currency, Note Printing Australia, Orell Füssli; De La Rue and Bundesdruckerei upgrades), Courvoisier, sellers for traditions (Stephen Album for Islamic/Indian/Chinese coins; Ginza Coins, Taisei, Sekiguchi for Japanese and Chinese cash coins; Champion Auctions HK; Noonans; Baldwin's), album/catalogue houses (Yvert et Tellier, Michel/Schwaneberger), US private mints (Osborne Coinage, Northwest Territorial Mint) for tokens/challenge coins, and 29 LBMA silver-list refiners (flagged: mostly base-metal smelters; the coordinator may keep only the bullion-relevant ones such as KGHM, SAXONIA, Doduco, Korea Zinc, Hindustan Zinc, Planta Recuperadora). Regions: Ticino (BBC), Pforzheim Goldstadt (Wikipedia), Kremnica (Wikipedia).\nStill thin / not found: Noble Numismatics (only its own site), Kingsbury Mint, Franklin Mint (already in register), Krause Publications (Numista only), Kongsberg and Llantrisant renown (only own pages of the Mint of Norway / Royal Mint), Thai pot-duang and amulet coins (makers are temples/monks, not brands; leave to a religious-objects category), challenge coins beyond US private mints (custom-order makers have no cultural standing), non-sports card makers beyond Dart / In the Game (Rittenhouse etc. lack own articles), Chinese mainland auction houses (only existence pages, e.g. Beijing Cheng Xuan). Regions not quotas: mints and refiners are state or concentrated industries, already covered worldwide through the global lists; no padding attempted. Firecrawl out of credits; all fetches via Parallel web_fetch (accuracy pages with full_content).\n"
 }

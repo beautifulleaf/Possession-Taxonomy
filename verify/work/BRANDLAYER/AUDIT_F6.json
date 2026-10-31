@@ -219,9 +219,114 @@
    "country": "UK/US",
    "dept": "mineral and gem auctions",
    "region": ""
+  },
+  {
+   "n": "Conchology, Inc.",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://en.wikipedia.org/wiki/Guido_Poppe",
+   "says": "Wikipedia: Guido T. Poppe, Belgian malacologist and shell dealer (moved to the Philippines 2003), discovered 1000+ mollusc species, described 500+; his firm's journal Visaya is cited as 'Journal of Conchology Inc., Cebu'; Houston Museum of Natural Science exhibited 'Gems of the Sea: The Guido T. Poppe Collection' (standing only)",
+   "country": "Philippines/Belgium",
+   "dept": "specimen seashells",
+   "region": "Philippines (Cebu, Mactan)",
+   "cites": "some shells traded are CITES-listed (Tridacnidae giant clams, Strombus/Aliger gigas queen conch, Nautilidae, stony/black corals): legality note needed"
+  },
+  {
+   "n": "Femorale",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.conchology.be/?id=34832&t=9001",
+   "says": "'Shellers from the Past and Present' biography (Conchology Inc. site, not Femorale's own): Marcus and José Coltro 'built Femorale into an internationally known shell business in São Paulo, active since 1989, now established in Italy'; many species named after the Coltros",
+   "country": "Brazil/Italy",
+   "dept": "specimen seashells",
+   "region": "Brazil (São Paulo)",
+   "cites": "shell dealer: CITES note as for Conchology, Inc."
+  },
+  {
+   "n": "Mushi-sha (むし社)",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://brutus.jp/post-65888",
+   "says": "BRUTUS: oldest surviving Japanese insect specialist shop (founded 1971), 'the leader of Japan's insect shops', thousands of specimens plus specimen-making tools; publishes Gekkan Mushi, Japan's only general insect magazine. Nakano City tourism page (https://www.city.tokyo-nakano.lg.jp/kanko/machiaruki/mushi-sha_01.html) calls it a 'holy place' of Japan's distinctive insect-collecting culture",
+   "country": "Japan",
+   "dept": "pinned insect specimens, entomology tools",
+   "region": "Japan (Tokyo)",
+   "cites": "some butterflies (Ornithoptera, Troides, Teinopalpus, Bhutanitis) are CITES-listed: legality note"
+  },
+  {
+   "n": "Shiga Konchu Fukyusha (志賀昆虫普及社)",
+   "layer": "premium",
+   "src": "https://www.matsunoyama.com/kyororo/usuke-collection",
+   "says": "Tokamachi city Kyororo science museum biography of founder Shiga Usuke ('father of Japanese insect collecting', 'Japan's No.1 insect dealer'): firm founded 1931; its headed stainless 'Shiga insect pins' took 20+ years to develop and are 'still used and loved worldwide'; also collecting tools; founder received the Medal with Yellow Ribbon (1974). Museum page used for standing only",
+   "country": "Japan",
+   "dept": "insect pins, collecting & mounting tools",
+   "region": "Japan (Tokyo)"
+  },
+  {
+   "n": "Kaliningrad Amber Combine",
+   "layer": "cultural",
+   "src": "https://www.aa.com.tr/en/europe/amber-ancient-treasure-from-the-sea-that-could-reshape-russia-s-future/3269236",
+   "says": "Anadolu Agency: Rostec's Kaliningrad Amber Combine is 'the only enterprise in the world that mines amber on an industrial scale' (Yantarny holds most of Russia's ~90% share of extractable amber); sells raw amber nuggets and pieces with fossil inclusions; record 630 t in 2023",
+   "country": "Russia",
+   "dept": "Baltic amber (raw, inclusions)",
+   "region": "Russia (Kaliningrad, Yantarny)"
+  },
+  {
+   "n": "W Hamond",
+   "layer": "cultural",
+   "src": "https://www.darlingtonandstocktontimes.co.uk/news/8399210.a-gem-of-an-industry-with-a-fascinating-past-and-a-bright-future/",
+   "says": "Darlington & Stockton Times: Whitby jet house founded by James Storr in 1860 (150th birthday 2010), uses only Whitby jet, owns a 21 ft piece of jet; recreated a Roman jet object for the Yorkshire Museum; owner says 'the best quality of all is found in Whitby'. Mainly jet jewellery: primary home A3, F6 for loose jet",
+   "country": "UK",
+   "dept": "Whitby jet",
+   "region": "UK (Whitby)",
+   "note": "jewellery maker; tag A3 primarily, F6 only via jet"
   }
  ],
- "add_regions": [],
+ "add_regions": [
+  {
+   "region": "Japan (Tokyo) - insect collecting and specimen culture",
+   "speciality": "a collecting culture described as unique to Japan (beetle/stag-beetle keeping, pinned specimens), with specialist shops and toolmakers",
+   "src": "https://www.city.tokyo-nakano.lg.jp/kanko/machiaruki/mushi-sha_01.html",
+   "brands": [
+    "Mushi-sha (むし社)",
+    "Shiga Konchu Fukyusha (志賀昆虫普及社)"
+   ]
+  },
+  {
+   "region": "Russia (Kaliningrad / Sambia) - Baltic amber",
+   "speciality": "most of the world's extractable amber; raw amber and inclusions",
+   "src": "https://www.aa.com.tr/en/europe/amber-ancient-treasure-from-the-sea-that-could-reshape-russia-s-future/3269236",
+   "brands": [
+    "Kaliningrad Amber Combine"
+   ]
+  },
+  {
+   "region": "UK (Whitby, Yorkshire) - jet",
+   "speciality": "Jurassic jet worked since the Bronze Age; 'best quality' jet; 200 workshops in the 1870s",
+   "src": "https://www.darlingtonandstocktontimes.co.uk/news/8399210.a-gem-of-an-industry-with-a-fascinating-past-and-a-bright-future/",
+   "brands": [
+    "W Hamond"
+   ]
+  },
+  {
+   "region": "China (Lingbi, Anhui; Lake Tai, Jiangsu; Yingde, Guangdong) - scholar's rocks (gongshi)",
+   "speciality": "viewing stones; the three main Chinese sources named on the page",
+   "src": "https://en.wikipedia.org/wiki/Gongshi",
+   "brands": []
+  },
+  {
+   "region": "Japan (Kamo, Seta, Saji, Ibi, Abe rivers) - suiseki",
+   "speciality": "viewing stones classified by source river",
+   "src": "https://www.vsana.org/ar-49-introduction-to-japanese-suiseki",
+   "brands": []
+  },
+  {
+   "region": "South Korea - suseok",
+   "speciality": "viewing stones; ~80,000 collectors, 200 clubs, an estimated 500 stone dealers (none named)",
+   "src": "https://www.vsana.org/ar-163-2025--korean-suseok--an-introduction",
+   "brands": []
+  }
+ ],
  "drop": [],
  "notes": "In progress.\n"
 }
