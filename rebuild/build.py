@@ -50,6 +50,12 @@ button.seel { font: inherit; color: var(--accent); background: none; border: 0; 
 button.seel i { font-style: normal; color: var(--muted); }
 ol.keylist { display: grid; gap: 6px; padding-left: 22px; max-width: 90ch; }
 section.guide p { max-width: 80ch; margin: 0; }
+.role { font: 600 10.5px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .05em; border-radius: 999px; padding: 1px 7px; background: var(--flag); color: var(--flag-ink); }
+.arch.r-landmark, .arch.r-origin { border-left-color: var(--flag); }
+.nl { display: grid; gap: 2px; font-size: 13.5px; color: var(--muted); border-left: 2px solid var(--rule); padding-left: 8px; }
+.nl p { margin: 0; } .nl b { color: var(--ink); font-weight: 600; }
+h6.xg { font: 700 14px/1.2 var(--sign); letter-spacing: .03em; text-transform: uppercase; margin: 12px 0 0; border-bottom: 1px solid var(--rule); padding-bottom: 2px; }
+h6.xg span { font: 500 11px/1 var(--mono); color: var(--muted); text-transform: none; }
 """
 head = head.replace('</style>', extra + '</style>', 1) if head.count('</style>') == 1 else head[::-1].replace('>elyts/<', ('>elyts/<' + extra[::-1]), 1)[::-1]
 header = """<header>

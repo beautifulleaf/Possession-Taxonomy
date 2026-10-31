@@ -26,7 +26,8 @@ const meta = (...p) => p.filter(Boolean).join(' · ');
 function makerEl(name) { if (!name) return null; const s = $('span', { class: 'mk' }, name);
   brands().then(m => { if (m.has(name.toLowerCase())) { s.classList.add('link'); s.setAttribute('role', 'link'); s.tabIndex = 0; const go = () => openBrand(name); s.addEventListener('click', go); s.addEventListener('keydown', e => { if (e.key === 'Enter') go(); }); } }); return s; }
 function arch(x) {
-  const box = $('div', { class: 'arch' }, $('div', { class: 'ah' }, $('b', { text: x.n }), x.mk || x.y ? $('i', {}, x.mk ? makerEl(x.mk) : null, x.mk && x.y ? ' · ' : '', x.y || '') : null));
+  const ROLE = { origin: 'Origin', landmark: 'Landmark' };
+  const box = $('div', { class: 'arch' + (x.role ? ' r-' + x.role : '') }, $('div', { class: 'ah' }, $('b', { text: x.n }), x.role ? $('span', { class: 'role', title: x.role === 'origin' ? 'First of its kind or of a lineage' : 'Best-selling, defining or most influential of its generation', text: ROLE[x.role] || x.role }) : null, x.mk || x.y ? $('i', {}, x.mk ? makerEl(x.mk) : null, x.mk && x.y ? ' · ' : '', x.y || '') : null));
   if (x.a) box.append($('p', { class: 'also', text: 'Also called ' + x.a }));
   if (x.d) box.append($('p', { class: 'desc', text: x.d }));
   if (x.v && x.v.length) box.append($('div', { class: 'vers' }, x.v.map(v => $('span', { class: 'chip ver', title: v.d || '' }, v.n, v.mk || v.y ? $('i', { text: meta(v.mk, v.y) }) : null))));
@@ -43,8 +44,12 @@ function item(k, term) {
   else if (k.t && k.t.length) a.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
   if (k.see && k.see.length) a.append($('p', { class: 'also see' }, 'See also: ', k.see.flatMap(([c, n, why], i) => { const b = $('button', { class: 'seel', type: 'button', title: why || '' }, n, c !== cur ? $('i', { text: ' (' + catName(c) + ')' }) : null); b.addEventListener('click', () => jump(c, n)); return i ? [' · ', b] : [b]; })));
   if (k.tg && k.tg.length) a.append($('p', { class: 'tags' }, k.tg.map(t => $('span', { class: 'tag', text: t }))));
-  if (k.x && k.x.length) { const det = $('details', { class: 'models', open: '' }, $('summary', { text: k.x.length + (k.x.length === 1 ? ' archetype' : ' archetypes') }));
-    det.append($('div', { class: 'archs' }, k.x.map(arch))); a.append(det); }
+  if (k.nl || k.sel) a.append($('div', { class: 'nl' }, k.nl ? $('p', {}, $('b', { text: 'One entry is ' }), k.nl.replace(/^one entry is /i, '')) : null, k.sel ? $('p', {}, $('b', { text: 'This list: ' }), k.sel) : null));
+  if (k.x && k.x.length) { const det = $('details', { class: 'models', open: '' }, $('summary', { text: k.x.length + (k.x.length === 1 ? ' named entry' : ' named entries') + (k.xg ? ', ' + k.xg : '') }));
+    const gs = []; k.x.forEach(x => { const g = x.g || ''; let e = gs.find(z => z[0] === g); if (!e) gs.push(e = [g, []]); e[1].push(x); });
+    if (gs.length > 1 || gs[0][0]) gs.forEach(([g, xs]) => det.append($('h6', { class: 'xg' }, g || 'Other', $('span', { text: ' ' + xs.length })), $('div', { class: 'archs' }, xs.map(arch))));
+    else det.append($('div', { class: 'archs' }, k.x.map(arch)));
+    a.append(det); }
   const m = k.m || [], r = k.r || [];
   if (m.length || r.length) {
     const lab = [m.length ? m.length + (m.length === 1 ? ' model' : ' models') : '', r.length ? r.length + (r.length === 1 ? ' range' : ' ranges') : ''].filter(Boolean).join(' · ');
