@@ -25,7 +25,7 @@ for fn in ('harvest_missing.json','harvest_thin.json'):
     if not os.path.exists(H+fn): print('no',fn); continue
     h=json.load(open(H+fn))
     for m in h.get('missing',[]):
-        if not m.get('b'): continue
+        if not m.get('b') and not m['n'].startswith('Yanki'): continue
         key=[k for k in PLACE if m['n'].startswith(k)]; assert key,m['n']
         gname,flag=PLACE[key[0]]
         sc={"n":m['n'],"d":m.get('d',''),"src":m['src'],"b":[[x[0],int(x[1]),x[2] if len(x)>2 else []] for x in m['b']]}
