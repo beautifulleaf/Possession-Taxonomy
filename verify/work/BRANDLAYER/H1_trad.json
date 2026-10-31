@@ -193,6 +193,36 @@
    "new_names": 1,
    "status": "done",
    "note": " known=0"
+  },
+  {
+   "url": "https://www.duduosun.com/our-story",
+   "title": "Dudu-Osun - Our Story",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "maker's own page known=0"
+  },
+  {
+   "url": "https://www.akomaskincare.co.uk/pages/about-us",
+   "title": "Akoma Skincare - About",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "maker's own page known=0"
+  },
+  {
+   "url": "http://www.afrobella.com/2016/07/26/nubian-heritage",
+   "title": "Afrobella - Nubian Heritage",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 1,
+   "status": "done",
+   "note": " known=2"
   }
  ],
  "brands": [
@@ -551,6 +581,49 @@
    "tradition": "Moroccan argan",
    "country": "Morocco",
    "role": "seller"
+  },
+  {
+   "n": "Dudu-Osun",
+   "layer": "cultural",
+   "src": "https://www.duduosun.com/our-story",
+   "says": "Dudu-Osun African black soap, Tropical Naturals Ltd Nigeria founded 1995; shea butter, honey, camwood",
+   "tradition": "African black soap and shea",
+   "country": "Nigeria",
+   "also_in_H1_json": true
+  },
+  {
+   "n": "Tropical Naturals",
+   "layer": "cultural",
+   "src": "https://www.duduosun.com/our-story",
+   "says": "Dudu-Osun African black soap, Tropical Naturals Ltd Nigeria founded 1995; shea butter, honey, camwood",
+   "tradition": "African black soap and shea",
+   "country": "Nigeria"
+  },
+  {
+   "n": "Akoma",
+   "layer": "cultural",
+   "src": "https://www.akomaskincare.co.uk/pages/about-us",
+   "says": "Akoma: raw shea butter and black soap made by cooperatives in Ghana, Fairtrade certified",
+   "tradition": "Shea butter and black soap",
+   "country": "Ghana",
+   "role": "seller"
+  },
+  {
+   "n": "Akoma Cooperative Multipurpose Society",
+   "layer": "cultural",
+   "src": "https://www.akomaskincare.co.uk/pages/about-us",
+   "says": "Akoma: raw shea butter and black soap made by cooperatives in Ghana, Fairtrade certified",
+   "tradition": "Shea butter and black soap",
+   "country": "Ghana",
+   "role": "seller"
+  },
+  {
+   "n": "Sundial Brands",
+   "layer": "cultural",
+   "src": "http://www.afrobella.com/2016/07/26/nubian-heritage",
+   "says": "Nubian Heritage (Sundial Brands): African black soap and shea butter products, shea sourced from 13 women's cooperatives in Northern Ghana; sister brand SheaMoisture",
+   "tradition": "Shea butter and black soap",
+   "country": "United States"
   }
  ],
  "regions": [
@@ -626,6 +699,17 @@
    "src": "https://en.wikipedia.org/wiki/Truefitt_%26_Hill",
    "brands": [
     "Truefitt & Hill"
+   ]
+  },
+  {
+   "region": "West Africa (Ghana, Nigeria, Burkina Faso, Mali)",
+   "speciality": "shea butter ('women's gold') and African black soap",
+   "src": "http://www.afrobella.com/2016/07/26/nubian-heritage",
+   "brands": [
+    "Dudu-Osun",
+    "Akoma",
+    "Nubian Heritage",
+    "SheaMoisture"
    ]
   }
  ],
@@ -722,6 +806,16 @@
     "Amlou (food)"
    ],
    "src": "https://coopmarketplace.ma/An/cooperative/ajddigue/364"
+  },
+  {
+   "t": "Shea butter and African black soap",
+   "kinds": [
+    "Shea butter",
+    "African black soap",
+    "Body butter",
+    "Baobab oil"
+   ],
+   "src": "http://www.afrobella.com/2016/07/26/nubian-heritage"
   }
  ],
  "sweeps": []
