@@ -23,5 +23,12 @@ Puzzles, fidgets & desk toys and Building & construction untouched. About 21 pag
 ## Market facts
 Statista page (2025): LEGO ranked first, Bandai Namco second; revenue figures masked. Mattel, Hasbro, Spin Master shares not found: Brickfanatics and Corp Magazine returned 403, Parallel is out of credit. Panel sits on Action figures department.
 
-## Not done
-own/tier/cty on branded entries; remaining Category:Action figures lines (~130); resin/metal kit makers; die-cast S to Z; narrow-gauge scales; Brand-register sources for toy makers.
+## Completion pass (second round, about 45 further fetches)
+- Owner fields: own, tier and cty set on all 273 branded entries; own_y where a fetched page gives it. Owners from the Wikipedia pages of Mattel, Hasbro, Spin Master, Bandai Namco, MGA, Jakks, Simba Dickie, Ravensburger, LEGO Group, Hornby, Bachmann, Marklin, Playmobil, Funko, Takara Tomy, Games Workshop, Tamiya, Estes, Wham-O, Pop Mart, Good Smile, Radio Flyer, Sylvanian Families. 137 entries stay "owner not stated" (tier Independent, no cty), the soft-drink convention. Lionel's page returned 404.
+- Scale model kit: Complete 385 of 385 makers (all nine sections of the Wikipedia list).
+- Die-cast: Complete 240 of 240 brands of the List of model car brands, A to Z (it mixes die-cast, plastic, resin, slot-car and RC makers).
+- Railway scales: 78 (NEM table, live steam, Lego-based, historical, other scales incl. OO9, EM, P4, On30, HOn3, Nn3, ZZ, T). The first 20,000 characters of the page were not itemised.
+- Playing cards: read to the end; Portuguese and Chinese money suits, nine tarot decks and four early decks added.
+- Action figures: about 50 toy-line pages added from Category:Action figures (companies, people, TV series and films excluded).
+- Market: no page gave market-share percentages (Circana award page 404, Toy Association H1 2024 gives none, Brickfanatics 403). Panel now holds 2021-2025 revenue for Mattel, Hasbro, Spin Master, LEGO, Bandai Namco, Jakks, plus US H1 2024 sales -0.4 %. Firecrawl not used.
+- Brand register: 14 owner groups added.

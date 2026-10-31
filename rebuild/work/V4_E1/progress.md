@@ -10,3 +10,5 @@ step8 (finishing pass) started: read dump; fetching canons: List of dolls, teddy
 step9 fetched 21 pages (see sources.tsv). next: write rebuild/work/V4_E1/edit2.py (backups in bak2), validate, report
 step10 edit2.py applied, validated OK, report written
 step11 (continuation): fetching kit makers other sections, diecast S-Z, rail scale tables, playing card rest, market shares, owner pages; then edit3.py
+step12 fetched all (kit rest, diecast R-Z, playing card end, rail tables, owners, market). no share percentages exist on fetched pages. next: edit3.py
+step13 edit3 applied, validated, report updated
