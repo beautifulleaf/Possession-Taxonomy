@@ -504,6 +504,42 @@
    "country": "AT",
    "dept": "masonry heater (Kachelofen)",
    "region": "Central Europe (Austria, Kachelofen)"
+  },
+  {
+   "n": "Eggersmann",
+   "layer": "premium",
+   "src": "https://www.sanier.de/kueche/luxuskuechenhersteller",
+   "says": "sanier.de (renovation portal) 'Die Top 7 der deutschen Luxusküchenhersteller' #4: one of Germany's seven luxury kitchen makers, 'Exportschlager der Küchenbranche' (editorial guide, not a test)",
+   "country": "DE",
+   "dept": "fitted kitchen",
+   "region": "Germany (kitchens)"
+  },
+  {
+   "n": "Leicht Küchen",
+   "layer": "premium",
+   "src": "https://www.sanier.de/kueche/luxuskuechenhersteller",
+   "says": "sanier.de (renovation portal) 'Die Top 7 der deutschen Luxusküchenhersteller' #5: one of Germany's seven luxury kitchen makers, 'Exportschlager der Küchenbranche' (editorial guide, not a test)",
+   "country": "DE",
+   "dept": "fitted kitchen",
+   "region": "Germany (kitchens)"
+  },
+  {
+   "n": "Next125",
+   "layer": "premium",
+   "src": "https://www.sanier.de/kueche/luxuskuechenhersteller",
+   "says": "sanier.de (renovation portal) 'Die Top 7 der deutschen Luxusküchenhersteller' #6: one of Germany's seven luxury kitchen makers, 'Exportschlager der Küchenbranche' (editorial guide, not a test)",
+   "country": "DE",
+   "dept": "fitted kitchen",
+   "region": "Germany (kitchens)"
+  },
+  {
+   "n": "Allmilmö",
+   "layer": "premium",
+   "src": "https://www.sanier.de/kueche/luxuskuechenhersteller",
+   "says": "sanier.de (renovation portal) 'Die Top 7 der deutschen Luxusküchenhersteller' #7: one of Germany's seven luxury kitchen makers, 'Exportschlager der Küchenbranche' (editorial guide, not a test)",
+   "country": "DE",
+   "dept": "fitted kitchen",
+   "region": "Germany (kitchens)"
   }
  ],
  "add_regions": [
@@ -537,6 +573,22 @@
     "Tulikivi"
    ],
    "note": "designation (UNESCO ICH); page names no makers - brands kept only where the harvest region page (saunamarketplace) shows them; this supplies the independent renown quote the harvest's Finland/Nordics entry lacks"
+  },
+  {
+   "region": "Germany (fitted kitchens)",
+   "speciality": "fitted kitchens, luxury segment",
+   "src": "https://www.sanier.de/kueche/luxuskuechenhersteller",
+   "quote": "Deutschland ist das Land der Küchenbauer – in jeglicher Hinsicht: Selbst im Premiumsegment ... sieben Luxusküchenherstellern",
+   "brands": [
+    "Poggenpohl",
+    "SieMatic",
+    "Bulthaup",
+    "Eggersmann",
+    "Leicht Küchen",
+    "Next125",
+    "Allmilmö"
+   ],
+   "note": "independent renown quote for the harvest's 'Germany' region, whose src (BKU awards) states no renown"
   }
  ],
  "drop": [
@@ -557,5 +609,5 @@
    "why": "register Calypso is A5 budget watches; replaced by add_brands 'Calypso (bathroom furniture)' homonym:true"
   }
  ],
- "notes": ""
+ "notes": "Cold audit, Opus, 2026-10-31. ACCURACY: 25 sampled (random.seed(7)); all 25 names shown on their src pages; 1 wrong (Tapworks: src is a softener retailer's blog that criticises it). Systemic issues (not counted as wrong): (a) all 10 KBB Readers' Choice and the BKU rows carry layer 'premium' but are trade/reader votes -> standing (cultural), not quality; (b) Pure Choice (purechoice.co.uk) and Scott Jenkins (sjwatersofteners) are softener sellers and Paul Heat Recovery is an MVHR installer/seller -> SELLER PRAISE, tier 'listed' for Kinetico, EcoWater, Hague, Harvey, BWT, Culligan, Monarch, Ubbink, bluMartin, Nilan unless another page supports them; the harvest calls Pure Choice 'independent', it is not; (c) Italian kitchen rows cite valcucine.com (own site of a competitor): originals fetched - Remodelista https://www.remodelista.com/posts/best-italian-kitchen-systems/ names Alpes Inox, Arclinea, Boffi, Dada, Poliform, Rossana, Schiffini, Valcucine; Futurist Architecture https://www.futuristarchitecture.com/90569-6-of-the-best-italian-kitchen-brands.html names Schiffini, Snaidero, Valcucine, Varenna Poliform, Pedini -> use these as src2; the harvest 'Italy (kitchens)' region rests on the own site (OWN-SITE RENOWN fails); (d) EnergySage is a marketplace score, KNX list is membership only (standing). HOMONYMS: harvest cross_tags Pella->A1 (heritage workwear clothing), Ideal->J8 (bread) and Calypso->A5 (budget watches) are all different companies: Pella and Calypso become qualified homonym rows; Ideal boilers are already in the register as 'Ideal Heating' (G3). New homonyms found: Wolf (heating) vs register Wolf ranges; VitrA (sanitaryware) vs Vitra furniture. Same-company cross_tags confirmed: Rinnai (B7), California Closets (B1), Alitex (C2, via Marston & Langinger garden rooms); AEG, Jablotron, Tesla, Samsung plausible as harvest says. Hartley Botanic and Gabriel Ash make greenhouses only on fetched pages (C2 stays; no G3 kind shown). MOVES_C8 overlap: none of the audit additions duplicate the 52 C8->G3 moves (Duravit, Roca, Ideal Standard, American Standard, flooring makers etc. are already there); harvest 'Delta Faucet' vs moves 'Delta Faucet Company' and harvest 'Elkay Sinks + Faucets'(KBB) vs moves 'Elkay' should merge as aliases. TALAVERA: the workshops are C8 tiles; the only G3 kind that could apply is Washbasin (hand-painted Talavera sinks), not evidenced on a fetched page - keep as C8, no G3 tag. THIN AREAS retried: pools/spas (Endless Pools, Hydropool, Arctic Spas, SwimEx via Top Ten Reviews editorial guide - not a test; Compass Pools not reached); Turkish hammam builders (English and Turkish searches: only Juno Spa on ArchiExpo vendor pages - not recorded); garden buildings (Country & Town House luxury conservatory guide: David Salisbury, Vale, Westbury, Marston & Langinger, Oakwrights; shepherd's huts via Good Web Guide); fitted storage (California Closets Wikipedia; Rimadesio only on seller/own pages - not recorded; Hülsta not reached); built-in lighting (Kreon only on directory/curated pages - not recorded); Stiebel Eltron already registered G3; Masonry Heater Association certified-mason pages 404; BWF 2024 winners fetched (D Foord Joinery); Which? boiler tables paywalled; Stiftung Warentest heat-pump test fetched (Viessmann known, Wolf added); Japan (Shimizu Mokuzai hinoki baths via JR East; Bartok Design via Dwell; Rinnai; Takara Standard weak); Sub-Saharan Africa (Kwikot); Southeast Asia: one search, global brands only (TOTO, LIXIL/American Standard, Rinnai, Stiebel Eltron) - 'global market, nothing distinctive'. RENOWN: Finland sauna (UNESCO 2020, designation), Israel solar water heaters (Wikipedia), Alto Livenza kitchen district (01net), Germany kitchens (sanier.de). Kachelofen heritage listing not found (no Austrian ICH entry surfaced); only a tourism-board Hafner POI (Ehrentraut)."
 }

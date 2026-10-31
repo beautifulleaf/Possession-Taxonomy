@@ -5841,5 +5841,188 @@
    "why": "same company as register row; motorcycle boots are G1 riding gear",
    "tier": "cultural"
   }
- ]
+ ],
+ "accuracy": {
+  "checked": 25,
+  "wrong": 2,
+  "method": "random.seed(7) sample of 25 harvest rows; Wikipedia list rows located line by line in the harvester's saved raw pages (G1_tmp/cars.txt, moto.txt, bike.txt, coach.txt, fb.txt, all fetched 2026-10-31); List of boat builders and the Eurobike 2026 release re-fetched raw (Parallel web_fetch full_content)",
+  "items": [
+   {
+    "n": "Pakistan",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": false,
+    "note": "navbox link ('Automotive industry' template under References > Bibliography), not a brand: drop"
+   },
+   {
+    "n": "Avinya",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "India > Active row with own article"
+   },
+   {
+    "n": "Miyata",
+    "src": "https://en.wikipedia.org/wiki/List_of_motorcycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Japan, former makers; links Miyata (bicycle)"
+   },
+   {
+    "n": "Beutler",
+    "src": "https://en.wikipedia.org/wiki/Coachbuilder",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Switzerland coachbuilder row"
+   },
+   {
+    "n": "Sundown Motos",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Brazil row; same article as harvest row 'Brasil & Movimento' (merge); country field wrongly 'Automobiles'"
+   },
+   {
+    "n": "Beijing Automobile Works",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "China Active row linking BAW; BAIC marque: merge"
+   },
+   {
+    "n": "Legor Cicli",
+    "src": "https://theframebuilders.com/list/",
+    "shown": true,
+    "claim_supported": false,
+    "note": "directory entry (Barcelona, steel) shown, but layer premium is unsupported: directory is existence only -> listed"
+   },
+   {
+    "n": "Priority Bicycles",
+    "src": "https://en.wikipedia.org/wiki/List_of_bicycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": ""
+   },
+   {
+    "n": "FAW Tianjin (Xiali)",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "China Former 1986-2020"
+   },
+   {
+    "n": "Nougier",
+    "src": "https://en.wikipedia.org/wiki/List_of_motorcycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": "France, former"
+   },
+   {
+    "n": "Chaparral Boats",
+    "src": "https://en.wikipedia.org/wiki/List_of_boat_builders",
+    "shown": true,
+    "claim_supported": true,
+    "note": "re-fetched raw: Motorboats section"
+   },
+   {
+    "n": "Prevost",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Canada Active (coaches; motorhome shells)"
+   },
+   {
+    "n": "BikeFolder",
+    "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Gold Award 2026 'Mr Spoke' in Digital Solutions: award real, but a digital product, weak fit as a vehicle brand"
+   },
+   {
+    "n": "Jan Janssen",
+    "src": "https://en.wikipedia.org/wiki/List_of_bicycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": ""
+   },
+   {
+    "n": "Nexus Automotive",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Pakistan Former"
+   },
+   {
+    "n": "Alatac",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Belgium 1913-1914: obscure defunct marque, cultural standing thin"
+   },
+   {
+    "n": "Yutong",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "China Active (bus maker; buses are in G1 kinds)"
+   },
+   {
+    "n": "Cushman",
+    "src": "https://en.wikipedia.org/wiki/List_of_motorcycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": "US scooters 1936-1965"
+   },
+   {
+    "n": "Francis-Barnett",
+    "src": "https://en.wikipedia.org/wiki/List_of_motorcycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": ""
+   },
+   {
+    "n": "Monarch",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "Canada Former (Ford of Canada marque)"
+   },
+   {
+    "n": "Spirra",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "South Korea Former"
+   },
+   {
+    "n": "Foday",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "China Former"
+   },
+   {
+    "n": "Serotta",
+    "src": "https://en.wikipedia.org/wiki/List_of_bicycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": ""
+   },
+   {
+    "n": "OK-Supreme",
+    "src": "https://en.wikipedia.org/wiki/List_of_motorcycle_manufacturers",
+    "shown": true,
+    "claim_supported": true,
+    "note": ""
+   },
+   {
+    "n": "Toyota Canada",
+    "src": "https://en.wikipedia.org/wiki/List_of_car_brands",
+    "shown": true,
+    "claim_supported": true,
+    "note": "national subsidiary of Toyota: merge"
+   }
+  ],
+  "also": "2 of 23 correct rows are duplicates to merge (Beijing Automobile Works, Toyota Canada) and 1 an internal duplicate (Sundown Motos)"
+ }
 }
