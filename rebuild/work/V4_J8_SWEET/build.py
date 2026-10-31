@@ -72,6 +72,7 @@ for r in rows:
 def tier_of(r):
     if r['t']: return r['t']
     o=r['o']
+    if not o: return ''
     if o=='owner not stated': return ''
     return 'Global group' if o in GLOBAL else 'Independent'
 # ---------- existing entries: market fields via maker
@@ -176,6 +177,44 @@ for kn,(dn,k) in kinds.items():
     for e in k['x']:
         if e.get('role') and e['n'] not in OKROLE and 'orig' not in e['role'] and e.get('_old') is None:
             pass
+
+# ---- follow-up round tuning
+def getent(name):
+    k0,e=find_existing(name); return e
+for nm,(sk,txt) in GI_ANNOT.items():
+    e=getent(nm)
+    if e is not None:
+        e['d']=(e.get('d','').rstrip()+' '+txt).strip()
+e=getent('Meiji Milk Chocolate')
+if e is not None:
+    e.update(y='1926',s=SRC['MEIM'],tier='National champion',own='Meiji',cty='Japan',d='Launched in 1926; Meiji describes it as the leading chocolate brand in Japan for nearly 100 years.')
+e=getent('Pocky')
+if e is not None:
+    e.setdefault('v',[]).append({'n':'Mikado','y':'1982','d':"European brand of Pocky; sales started in France in 1982 per Wikipedia's Ezaki Glico page"})
+    e['y']=e.get('y') or '1966'
+    e['d']=(e.get('d') or 'Chocolate-coated biscuit sticks.')
+    e['own']='Ezaki Glico';e['tier']='Independent';e['cty']='Japan'
+e=getent('Choco pie')
+if e is not None:
+    e.setdefault('v',[]).append({'n':'Lotte Choco Pie','y':'1979','d':'Lotte Confectionery, South Korea; sold in Japan from 1983'})
+# ---- d cleaning: keep only facts from pages
+KEEP=re.compile(r'\d{4}|sold in|acquired|launched|introduced|founded|announced|bought|best-selling|awareness|[Rr]egional|brand named|Brand named|listed|Listed|named in|named on|named among|on Morinaga|on Glico|in the .* section|made by|from [A-Z]|Subsidiary|subsidiary|ranked|former|Former|discontinued|Discontinued|Haribo|wafer|Nougat|nougat|Kit Kat|renamed|name for|called|known as|sold as')
+TEMPL=re.compile(r'(range of .* with \d+ named lines|product in the .* kind|^.* range\.$|Named as the owner)')
+dropped=0
+for kn,(dn,k) in kinds.items():
+    for e in k['x']:
+        d=e.get('d','')
+        if TEMPL.search(d) and not e.get('_keepd'): e.pop('d',None); dropped+=1; continue
+        if e.get('s','').startswith('https://en.wikipedia.org/wiki/List_of') or e.get('s') in (SRC['CF'],):
+            pass
+# newly added rows only: those whose d is generic (no fact keyword)
+newnames={canon(r['n']) for r in rows}
+for kn,(dn,k) in kinds.items():
+    for e in k['x']:
+        if canon(e['n']) in newnames and e.get('d') and not KEEP.search(e['d']) and e.get('s') in (SRC['CF'],SRC['CB'],SRC['IC'],SRC['MDLZ'],SRC['MARS'],SRC['NES'],SRC['HSY'],SRC['FER'],SRC['LIN'],SRC['PLA'],SRC['HAR'],SRC['MICC'],SRC['FRO'],SRC['ARC'],SRC['BIM'],SRC['LOT'],SRC['CR']):
+            e.pop('d'); dropped+=1
+print('d dropped',dropped)
+
 # ---------- g, sort, nl, sel, xg
 GL=['Mars','Mondelēz International','Nestlé','Ferrero','The Hershey Company','Lindt & Sprüngli','Meiji','Lotte','Haribo','The Magnum Ice Cream Company','Froneri','Pladis','Arcor','Grupo Bimbo','Perfetti Van Melle']
 def grank(e):
@@ -208,7 +247,8 @@ for kn,(dn,k) in kinds.items():
     cap=max(1,math.ceil(len(k['x'])/5))
     rl=[e for e in k['x'] if e.get('role')]
     for e in rl[cap:]: e.pop('role'); roles_dropped+=1
-    k['xg']='by tier, then owner group'
+    k['xg']='by tier, then owner group; named traditional forms by country'
+    for e in k['x']: e.pop('_g',None)
 # remove roles that I set without page backing
 for r in rows:
     pass
@@ -240,8 +280,8 @@ for kn,(dn,k) in kinds.items():
         k.setdefault('sel','')
 COV={
 'Chocolate':"Covers the stand-alone bar and brand rows of Wikipedia's List of chocolate bar brands (about 330 rows read through its raw wikitext; flavour and regional variants of one bar are versions) and all 35 rows of the List of bean-to-bar chocolate manufacturers (large makers sit under their own tier).",
-'Sweets & confectionery':"Covers the brands named for Mars, Mondelēz, Nestlé, Ferrero, Hershey and Haribo on their fetched pages and the nested rows of Wikipedia's List of confectionery brands, which calls itself a dynamic list that is never complete; the Meiji and Lotte pages name only a few brands (Hello Panda, Yan Yan, Kinoko no Yama, Ghana, Xylitol gum, Cool Mint, Crunky, Pepero), so their portfolios are short.",
-'Biscuits & crackers':"Covers the biscuit and cracker brands named on the Mondelēz, Pladis, Ferrero, Bimbo, Lotte and Meiji pages, the brand-name rows of Wikipedia's List of crackers and the named biscuits already held from the List of biscuits and cookies; the cookie list's many traditional biscuits (about 190 rows) were not all turned into entries.",
+'Sweets & confectionery':"Covers the brands named for Mars, Mondelēz, Nestlé, Ferrero, Hershey and Haribo on their fetched pages and the nested rows of Wikipedia's List of confectionery brands, which calls itself a dynamic list that is never complete; the Meiji and Lotte pages name only a few brands (Hello Panda, Yan Yan, Kinoko no Yama, Ghana, Xylitol gum, Cool Mint, Crunky, Pepero), so their portfolios there come from Meiji's own brand-site list and Lotte Japan's product catalogue and from the Morinaga, Glico, Orion and Haitai product pages; Meiji's Karl snack and the licensed Pokémon, Calpis, Dole and Hershey's lines of Lotte are left out as snacks or licences. Protected sweets come from the EU–Mercosur annex 13-B and the EU list sent to New Zealand (2018); no per-country designation register was fetched, so other designated sweets (for example Nougat de Montélimar, Calisson d'Aix, Gaziantep baklava) stay as earlier entries.",
+'Biscuits & crackers':"Covers the biscuit and cracker brands named on the Mondelēz, Pladis, Ferrero, Bimbo, Lotte and Meiji pages, the brand-name rows of Wikipedia's List of crackers and the named biscuits already held from the List of biscuits and cookies; all rows of the List of biscuits and cookies are placed (as entries, aliases or versions) except its three generic rows Biscuit, Wafer and Biscotti, which are kinds. Orion, Haitai, Glico, Morinaga and Lotte Japan are read from their own product pages; protected names from the EU–Mercosur annex 13-B and the EU list sent to New Zealand (2018).",
 'Ice cream':"Covers the global and regional brands of The Magnum Ice Cream Company and Froneri on their pages and the packaged-ice-cream rows of Wikipedia's List of ice cream brands (about 170 rows); parlour and shop chains (Cold Stone, Dairy Queen, Friendly's, Marble Slab, J.P. Licks, Mado and others) and defunct brands are left out as not products."}
 for kn,(dn,k) in kinds.items():
     if not k['x']: continue
@@ -307,6 +347,39 @@ ms['Ice cream']=('Ice cream is led by The Magnum Ice Cream Company and Froneri. 
  ('Group valuation','Froneri','€15 billion',2025,SRC['FRO'],'valuation at the October 2025 investment of €1.4 billion by PAI Partners and ADIA'),
  ('UK own-brand 2-litre ice cream','Froneri','over 70 %','n/s',SRC['FRO'],'share of 2-litre own-brand tubs; year not stated'),
  ])
+
+CNB='https://www.confectionerynews.com/Article/2018/01/11/Ferrero-more-likely-than-Hershey-to-buy-Nestle-s-US-candy-business/'
+ms['Chocolate'][1].extend([
+ ('US chocolate and candy','Hershey','31.5 %',2018,CNB,'Euromonitor data in a ConfectioneryNews article of 11 January 2018; the data year is not stated'),
+ ('US chocolate and candy','Mars','27.1 %',2018,CNB,'same article; data year not stated'),
+ ('US chocolate and candy','Lindt & Sprüngli','9.3 %',2018,CNB,'same article; data year not stated'),
+ ('US chocolate and candy','Nestlé','7.9 %',2018,CNB,'same article; data year not stated'),
+ ('US chocolate and candy','Ferrero','around 3 %',2018,CNB,'same article; data year not stated'),
+ ('Japan chocolate','Meiji','17.9 %',2013,'https://www.confectionerynews.com/Markets/Nestle-claims-chocolate-top-spot-over-Meiji-in-Japan','ConfectioneryNews, 18 February 2013, probably 2012 data; Nestlé 7.3 %, behind Lotte and Morinaga'),
+ ('China chocolate by value','Mars','39.8 %',2017,'https://www.just-food.com/features/global-brands-to-see-stiffer-competition-in-chinas-chocolate-market/','Industrial Information via Just Food, 8 January 2019'),
+ ('China chocolate by value','Ferrero','17.8 %',2017,'https://www.just-food.com/features/global-brands-to-see-stiffer-competition-in-chinas-chocolate-market/','same source'),
+ ('China chocolate by value','Nestlé','9.7 %',2017,'https://www.just-food.com/features/global-brands-to-see-stiffer-competition-in-chinas-chocolate-market/','same source; Hershey 8.6 %, Mondelez 3 %'),
+ ('China chocolate','Mars','about 40 %','not stated','https://www.china-briefing.com/news/Chinas-chocolate-market-trends-and-industry-overview','China Briefing, 23 May 2024, no data year or underlying source; Ferrero 28 %; market US$3.65 billion in 2023 (Statista)'),
+ ('UK chocolate','Mondelēz International','more than one-fourth',2020,'https://www.globaldata.com/data-insights/consumer/the-market-value-retail-sales-value-of-chocolate-industry-in-united-kingdom-210449/','by value; Mars second, Nestlé third, Lindt fourth; top five hold more than half; market US$6,168 million'),
+ ('UK chocolate brands','Cadbury Dairy Milk','£491 million',2014,'https://confectionerynews.com/Markets/Top-10-UK-chocolate-brands','IRI value sales, 52 weeks to 16 August 2014; whole market £2.52 billion'),
+])
+ms['Sweets & confectionery'][1].extend([
+ ('US chocolate and candy','Hershey','31.5 %',2018,CNB,'Euromonitor data in a ConfectioneryNews article of 11 January 2018; data year not stated; Mars 27.1 %'),
+])
+ms['Biscuits & crackers'][1].extend([
+ ('China cookies','Orion Choco Pie','about two-thirds',2006,SRC['ORW'],'share of the Chinese cookie market by 2006, as the page states'),
+])
+ms['Ice cream'][1].extend([
+ ('US ice cream and sherbet','All brands','US$8.65 billion',2024,'https://digitaledition.dairyfoods.com/january-2025/market-trends/','52 weeks ending 3 November (issue of January 2025, so 2024); Circana data'),
+ ('US ice cream','Private label','US$1.6 billion',2024,'https://digitaledition.dairyfoods.com/january-2025/market-trends/','dollar sales, same period; about 21 % of ice cream sales of US$7.5 billion'),
+ ('US ice cream','Ben & Jerry\'s','US$1.02 billion',2024,'https://digitaledition.dairyfoods.com/january-2025/market-trends/','dollar sales, same period; Tillamook just under US$400 million'),
+ ('US ice milk and frozen desserts','Breyers','over US$200 million',2024,'https://digitaledition.dairyfoods.com/january-2025/market-trends/','dollar sales, same period; Blue Bunny US$105 million'),
+])
+
+ms['Chocolate']=(ms['Chocolate'][0].replace('The figures below are','The figures below, from fetched pages, are'),ms['Chocolate'][1])
+ms['Sweets & confectionery']=('Confectionery is led by a handful of groups. The figures below are the ones stated on the cited pages, with their years; no Germany or France sweet-market share was found on a fetched page.',ms['Sweets & confectionery'][1])
+ms['Biscuits & crackers']=('Biscuits are sold by Mondelēz, Pladis, Ferrero and strong national makers. The figures below are the ones stated on the cited pages, with their years; no UK, Japan, Germany or France biscuit share was found on a fetched page.',ms['Biscuits & crackers'][1])
+ms['Ice cream']=('Ice cream is led by The Magnum Ice Cream Company and Froneri. The figures below are the ones stated on the cited pages, with their years; no Japan, Germany or France ice cream share was found on a fetched page.',ms['Ice cream'][1])
 for dn,(sm,lst) in ms.items():
     depts[dn]['msum']=sm
     depts[dn]['ms']=[{'mkt':a,'who':b,'share':c,'yr':('not stated' if y=='n/s' else y),'s':s,'note':n} for a,b,c,y,s,n in lst]

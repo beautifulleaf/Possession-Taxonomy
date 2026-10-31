@@ -1,20 +1,16 @@
-# V4_I1_CREATIVE report
+# V4_I1_CREATIVE report (second pass)
 
-Part file: rebuild/out/I1_parts/CREATIVE.json (439 KB; validates, 0 errors; 67 kinds, 1,010 entries). Replaces the five departments by exact name. Builder: rebuild/work/V4_I1_CREATIVE/build.py and data.py; sources.tsv logs the pages fetched (about 38 fetches).
+Part file: rebuild/out/I1_parts/CREATIVE.json (444 KB; validates, 0 errors; 67 kinds, 1,089 entries). Builder and data: rebuild/work/V4_I1_CREATIVE/ (build.py, data.py, data2.py; sources.tsv lists every fetched page, about 75 fetches in all).
 
-Method: every former model (`m`) became an entry (sourced at kind level to the old kind page); entries from fetched list pages were added; dedupe by name and alias across all five departments; `g` is the maker; order is maker, year, name. Kinds with entries now carry `nl`, `sel` (with the "Covers n of about m" line) and `xg`.
+Coordinator list
+1. List of music software: read in one window (the page ended inside it). Added trackers (SoundMonitor, NoiseTracker, OctaMED, Protracker, ScreamTracker, SoundTracker, Buzztrax, Jeskola Buzz; Music tracker 5 -> 13), Ecasound and WaveSurfer, Final Scratch, AudioMulch and nine music-education programs.
+2. References found: Comparison of photogrammetry software (13 entries, 9 of 12), List of amateur radio software (ham radio 9 -> 45), rtl-sdr.com BIG List (SDR software 4 -> 24; the first 100,000 of 138,121 characters read, which holds the whole general-purpose and research lists; the single-purpose tail and piping list are not entries). No list page exists or was found for 3D slicers, laser and CNC control, astrophotography and home design: WebSearch returned only vendor and review pages. Their `sel` says so; they stay at previous-edition entries.
+3. Versions added from the products' own pages: Blender (1.00 to 4.2 LTS), Maya (13 releases, replaced), 3ds Max (11, replaced), Cinema 4D (11, replaced), Stellarium, Lightroom and Lightroom Classic, Cubase, FL Studio, Kontakt. Not found on fetched pages: Reaper, Omnisphere, Photoshop beyond the 16 versions already held. Premiere Pro, Final Cut Pro, DaVinci Resolve, Ableton Live, Logic Pro, Pro Tools and Illustrator keep their first-pass versions.
+4. Converted loose models: 269 now confirmed on a fetched table or list page (their `s` and year changed to it). The remaining converted entries have no fetched page of their own (mostly plug-in lines, e-book readers, cataloguing and font tools) and still cite the kind page; not folded away.
+5. Templated d removed from every new and converted entry; d is now blank unless a fetched page gave a fact (for example 3D list notes, ham-radio categories). 746 of 1,089 entries have no d.
+6. tier and cty set for Adobe and Autodesk (Global group), Ableton (Germany), Avid (owner Symphony Technology Group, United States), Blackmagic Design (Australia), Steinberg (owner Yamaha, Germany) and Image-Line (Belgium). own_y: Mudbox 2007, EAGLE 2016, PageMaker 1994, Audition 2003, Sibelius 2006, Substance 3D 2019, DaVinci Resolve 2009 (da Vinci Systems), Fusion 2014, Fairlight 2016, Avid entries 2023.
+7. Market facts (ms/msum) added: Adobe Digital Media segment US$17.65 billion and annual recurring revenue US$19.20 billion (fiscal 2025, Adobe 8-K); Autodesk fiscal 2026 revenue by product family (AutoCAD US$1,787 million, AECO US$3,583 million, manufacturing US$1,379 million, media and entertainment US$332 million of US$7,206 million; Autodesk 8-K); Production Expert 2025 DAW survey ranking (Pro Tools first; rankings only, no percentages, 2,500+ responses). No page gave DAW or creative-software shares with a year.
 
-Entries before -> after (named + former models -> total), main kinds: Image editor 6+15 -> 40; Photo manager 5+14 -> 23; Vector 7+7 -> 29; CAD 7+12 -> 39; 3D modelling 7+19 -> 40; new 3D renderer 12; Circuit design 4+12 -> 27; Video editor 7+13 -> 33; DAW 11+14 -> 37; Notation 6+10 -> 32; Media player 0+12 -> 60; Software synthesiser 16+16 -> 55; Genealogy 5+3 -> 26; new Online family-tree service 13; Planetarium 5+5 -> 26; GIS 4+8 -> 21; Science and statistics 5+14 -> 44; new Plug-in format 13 and Instrument & effect bundle 2.
-
-References fetched (Wikipedia): comparisons of raster editors, vector editors, video editing, audio editors (DAW table), scorewriters, GIS, CAD (all but the first row of the tail), EDA, screencasting, audio and video players, statistical packages (first 100,000 characters; the tail held only four already-listed names); lists of 3D software and screenwriting software; Planetarium software, Software synthesizer, Virtual Studio Technology, Audio plug-in, Genealogy software, Text-to-image model; company pages for Native Instruments, Waves Audio, FabFilter, Universal Audio, Spectrasonics, Xfer Records.
-
-Removed as out of scope: Quad Cortex (hardware), Gardena, duplicate range-like models (Neural DSP plug-ins, Valhalla reverbs, Lexicon 224 and 480L, Tokyo Dawn free dynamics, Mastering The Mix metering), DNA-testing services, server and trade GIS products, discontinued products. ShareX and Snagit sit under Screenshot tool only.
-
-Not done or not sourced:
-- No market figures (`ms`/`msum`): no fetched page gave shares for these departments. `tier` and `cty` are not set; `own` equals the maker named on the fetched page. `own_y` not set.
-- Roles: only Neon and VST (first VST instrument and plug-ins, per the VST page); older roles kept.
-- New entries have no versions (the product history pages were not fetched); old versions are kept. Serum 2 (2025) added to Serum from the Xfer page.
-- Not completed: Wikipedia list of music software (DJ, wave editors, trackers, VST hosts) was only summarised by the fetch tool; the music tracker, DJ, audio editor and orchestral/drum/amp kinds stay at previous-edition entries. Notation tablature, slicers, photogrammetry, laser, ham radio, SDR, astrophotography and home-design kinds have no complete reference read. Their `sel` says so.
-- AAX, TDM and RTAS appear on the Audio plug-in page without years; CLAP has no maker there.
-- Brand register: 356 makers added to `brands` with name only; country and founding year were not on the fetched pages.
-- Entry descriptions for converted and new rows are templated (maker, year), not hand-written.
+Still not done
+- No per-product pages for the other converted models, and no versions for new entries beyond those above.
+- 399 makers in `brands` have names only.

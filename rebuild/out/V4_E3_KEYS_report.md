@@ -1,22 +1,21 @@
-# V4_E3_KEYS report
+# V4_E3_KEYS report (second round)
 
-Part file: rebuild/out/E3_parts/KEYS.json (about 345 KB). Validates (0 errors, 87 kinds, 704 entries). Builder: rebuild/work/V4_E3_KEYS/build_part.py; stats in stats.json; sources in sources.tsv (about 38 fetches).
+Part: rebuild/out/E3_parts/KEYS.json. Validates (0 errors, 87 kinds, 656 entries). Builder: rebuild/work/V4_E3_KEYS/build_part.py and extra.py; sources.tsv lists about 86 fetches in all.
 
-## Entries before -> after (all four departments)
-232 -> 704. 253 loose models: 198 became entries, 47 became versions, 8 were removed (Volca duplicates, a hex-key tuning feature, three generic cymbal types, one single-size china, one range heading). 273 entries are new from fetched pages. One new kind: Mixing console (Recording & live sound), for SSL and Neve consoles. Departments: Keyboards 355 entries, Drums 132, Recording 164, DJ 53. Entries are sectioned by maker (`g`), then year, then name.
+## Entries before -> after
+232 originally -> 656: Keyboards 391, Drums 116, Recording 118, DJ 31. Of 253 loose models: 30 became entries (each confirmed on a fetched maker page), 41 became versions, 14 were removed as duplicates, features or generic types, and the rest are kept as ranges (`r`, 307 range items in all) because no fetched page named them. That is why the count fell from 704: 198 retailer-sourced entries are now ranges unless a maker or Wikipedia page confirmed them. No entry cites only a retailer page.
 
-## References and coverage
-- Synthesizers: Wikipedia "List of synthesizers" read in full (43 rows, 42 in scope; ReBirth is software, I1). Wikidata (Q163829) holds 155 items, mostly software; not used.
-- Korg: "List of Korg products", both windows (offset 0, 100000; page ends). The summariser condensed rows, so coverage is partial and the sel line says so.
-- Drum machines: Wikipedia "Drum machine" (all hardware models named). Akai MPC, Roland Jupiter, Roland, Moog, Sequential, Oberheim, Hammond, Rhodes, Wurlitzer, Bösendorfer, Steinway pages for lines and years.
-- Drums: Pearl (whole line list), Paiste, Ludwig, Tama, Drum Workshop, Zildjian, Electronic drum.
-- Recording: Neumann, Shure, SSL, Neve. DJ: CDJ (31 models with dates), DJM (names only).
+## Pages finished
+Yamaha, Steinway, Hammond and Fender read to the end: no further models, years or figures. Korg list read to character 135,000 of 139,084 (rest is references): all Korg instruments added (workstations, arrangers, synthesizers, drum machines, digital pianos, controllers, Wavedrum); tuners, effects, recorders, software and amplifiers are out of scope.
 
-## Market facts (department `ms`, Keyboards only)
-Yamaha Corporation revenue 462.08 billion yen (2025); Roland Corporation revenue 102.4 billion yen (2023); Paulson & Co. bought Steinway for $512 million (2013). All company or deal figures, not market shares. Ownership on entries: Steinway (Paulson, 2013), Bösendorfer (Yamaha, 2008), Moog (inMusic, 2023), Ludwig (Conn-Selmer, 1981), Drum Workshop (Roland, 2022), Paiste AG, Roland, Yamaha, Shure, Sabian. Fender and Gibson are not in these departments' pages; no figures used.
+## New makers read
+AKG, Sennheiser, Electro-Voice, Allen & Heath, Sonor, Fazioli, Kawai, Teenage Engineering, Nord (Clavia), Arturia, Elektron, Novation, Akai (MPC to 2026, S-series, MPK, MPD), Native Instruments, E-mu, Ensoniq, Kurzweil, Technics SL-1200 (all variants with years), Pioneer DJ, Behringer, Audio-Technica, Alesis, Universal Audio, Zoom, Focusrite, Casio, Zildjian site (line names).
 
-## Not done / could not be sourced
-- Where the work stopped: no page for AKG, Sennheiser, Electro-Voice, RCA, Universal Audio, Rane, Allen & Heath, Denon DJ, Native Instruments, Zildjian lines, Sabian lines (Sabian page is a stub), Gretsch, Sonor, DW lines, Yamaha drums, Fazioli, Kawai, Akai other models, Teenage Engineering, Elektron beyond three models, Casio, Roland other than the pages above. These makers' lists remain as in the earlier pass.
-- Yamaha and Steinway pages were read only to character 100,000 (of 157,712 and 218,013); Hammond to 100,000 of 150,692; Fender to 100,000 of 125,762.
-- No `role` badges added (no fetched page named a first or best-selling model clearly). Converted loose models use the kind's earlier retail or reference page as `s`; their `d` says so. 63 new makers were added to the brand register with name only (country and year not fetched).
-- DJM years not given on the page; left blank.
+## Role badges (7, each per a fetched page)
+Origin: Sequential Prophet-5 (first polyphonic synthesizer with fully programmable memory), Minimoog Model D (first synthesizer sold in retail stores), Linn LM-1 (first drum machine to use samples of acoustic drums), Neumann U 47 (first switchable-pattern condenser). Landmark: Yamaha DX7 (first commercially successful digital synthesizer, over 100,000 sold), Roland TR-808 (used on more hit records than any other drum machine), Shure SM58 (most popular live vocal microphone).
+
+## Market facts added (with year)
+Kawai revenue ¥80,192 million (2024); Sennheiser revenue EUR 507.4 million (2022) and EUR 756.7 million (2019); Roland to buy Drum Workshop for $65 million (2022); KKR 86 % stake in the Pioneer DJ business (2014); earlier Yamaha, Roland and Steinway figures. Ownership with year added on entries for Focusrite (Sequential 2021, Novation 2004, ADAM 2019), inMusic (Alesis 2012, Akai 2012, Rane 2016, Native Instruments 2026), Kurzweil (HDC 2006), E-mu (Creative 1993), Ensoniq (Creative 1998), AKG (Samsung 2017), Electro-Voice (Bosch 2006), Elektron (Bonnier Capital 2026), Pioneer DJ (Noritsu 2020).
+
+## Still not sourced
+RCA 44 (404), Rane models, Gretsch and Sabian lines (pages give ownership only or nothing), Mackie (disambiguation page), Casio models (sparse), Zildjian line years, Native Instruments hardware years, Roland model list beyond the pages read. Fender and Gibson have no figures. Wikipedia pages were guessed by title; one 404 was logged.

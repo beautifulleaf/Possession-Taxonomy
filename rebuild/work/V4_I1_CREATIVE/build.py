@@ -123,7 +123,7 @@ for d in depts:
             om=OWNMAP.get(x.get('mk',''))
             if om:
                 x['own'],x['tier'],x['cty']=om
-            oy=OWNY.get(x['n'])
+            oy=OWNY.get(x['n']) or ({'Avid Technology':'2023'}.get(x.get('mk','')) if om else None)
             if oy: x['own_y']=oy
         for x in xs:
             x['g']=grp(x)
@@ -148,6 +148,7 @@ for d in depts:
                 refcount={r:cnt[R[r]] for r in TOT if TOT[r][1] and R.get(r) in cnt}
                 for ref,c in refcount.items():
                     t,tot=TOT[ref]
+                    if ref=='MUS': tot={'Music tracker':13,'DJ software':9,'Audio editor':12,'Music-learning app':13,'Digital audio workstation':45,'Music notation software':45}.get(kn,60)
                     parts.append(f"{c} of about {tot} in {t}")
                 refs='; '.join(sorted({TOT[r][0] for r in refcount})) or ''
                 nconf=sum(1 for x in xs if x['n'] in FACTD)
