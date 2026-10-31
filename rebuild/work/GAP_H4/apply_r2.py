@@ -35,7 +35,7 @@ src['sel']=re.sub(r'Covers \d+ of the 611 named perfumes in this department[^.]*
 if 'Round two' not in src['sel']:
     src['sel']+=" Round two placed more from Perfume Intelligence house pages (perfumeintelligence.co.uk/library); its A-Z pages and the other houses were only partly read."
 # owners
-OW={'Dana Perfumes':('Dana Classic Fragrances','2003'),'Dana':('Dana Classic Fragrances','2003'),'Britney Spears':('Elizabeth Arden',''),'Gloria Vanderbilt':('Selective Beauté International',''),'Prince Matchabelli':('DeCoeur Fragrances','')}
+OW={'Dana Perfumes':('Dana Classic Fragrances','2003'),'Dana':('Dana Classic Fragrances','2003'),'Britney Spears':('Elizabeth Arden',''),'Gloria Vanderbilt':('Selective Beauté International',''),'Prince Matchabelli':('DeCoeur Fragrances',''),'Guy Laroche':('L\'Oréal','')}
 ONAME={'Rebelle':'Parlux Fragrances','Rogue by Rihanna':'Parlux Fragrances','Fame':'Coty','Glowing by JLo':'Coty','Celine Dion Parfums':'Coty','Rise':'Coty'}
 on=0
 for k in kinds.values():
