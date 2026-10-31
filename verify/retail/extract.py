@@ -14,8 +14,8 @@ best=None
 for line in open(tr):
     try: d=json.loads(line)
     except: continue
-    if d.get('type')!='user': continue
-    for t in texts(d.get('message',{})):
+    if d.get('type') not in ('user','attachment','queue-operation'): continue
+    for t in texts(d.get('message') or d.get('attachment') or d.get('content') or {}):
         f=pat.findall(t)
         if len(f)>=20: best=f
 names=[];seen=set()

@@ -192,7 +192,7 @@
    "src": "https://kbbonline.com/awards/readers-choice-awards",
    "src2": "",
    "shown": true,
-   "region": "North America",
+   "region": "",
    "dept": "kitchen/bath",
    "country": "US",
    "note": "KBB Readers' Choice 2026 winner (reader vote = standing, not quality)",
@@ -276,7 +276,7 @@
    "src": "https://kbbonline.com/awards/readers-choice-awards",
    "src2": "",
    "shown": true,
-   "region": "Germany",
+   "region": "",
    "dept": "kitchen/bath",
    "country": "US",
    "note": "KBB Readers' Choice 2026 winner (reader vote = standing, not quality)",
@@ -641,7 +641,7 @@
    "layer_harvest": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Window_manufacturers",
    "src2": "",
-   "shown": false,
+   "shown": true,
    "region": "",
    "dept": "windows",
    "country": "US",
@@ -1069,7 +1069,7 @@
    "src": "https://saunamarketplace.com/best-wood-sauna-stoves/",
    "src2": "",
    "shown": true,
-   "region": "Finland / Nordics",
+   "region": "Finland",
    "dept": "sauna heater",
    "country": "Finland",
    "note": "saunamarketplace.com is a sauna retailer (cart, brand shop pages): seller praise, not independent",
@@ -1364,7 +1364,7 @@
    "layer_harvest": "cultural",
    "src": "https://www.stovemason.com/about",
    "src2": "",
-   "shown": false,
+   "shown": true,
    "region": "",
    "dept": "masonry heater / tiled stove",
    "country": "UK",
@@ -1380,7 +1380,7 @@
    "layer_harvest": "cultural",
    "src": "https://tadelaktmarrakesh.com/tadelakt-bathroom.php",
    "src2": "",
-   "shown": false,
+   "shown": true,
    "region": "",
    "dept": "tadelakt / hammam",
    "country": "Morocco",
@@ -3047,10 +3047,9 @@
    "renown": false,
    "quote": "",
    "brands": [
-    "Schüller",
-    "Blum"
+    "Schüller"
    ],
-   "note": "src page states no regional renown"
+   "note": "Blum removed (not from this region: Blum is Austrian, Blanco German); src page states no regional renown"
   },
   {
    "region": "East Asia (Japan, Korea, China)",
@@ -3106,10 +3105,9 @@
     "KraftMaid",
     "Brizo",
     "ROHL",
-    "Blanco",
     "Kohler"
    ],
-   "note": "src page states no regional renown"
+   "note": "Blanco removed (not from this region: Blum is Austrian, Blanco German); src page states no regional renown"
   },
   {
    "region": "Eastern Europe",
@@ -3267,15 +3265,15 @@
    "why": "audit drop: only source a seller blog that criticises it"
   },
   {
-   "n": "Ideal",
-   "why": "audit cross_tag drop: different register company (Ideal->register Ideal Heating, no new row; Pella/Calypso replaced by qualified homonym rows)"
-  },
-  {
    "n": "Calypso",
    "why": "audit cross_tag drop: different register company (Ideal->register Ideal Heating, no new row; Pella/Calypso replaced by qualified homonym rows)"
   },
   {
    "n": "Pella",
+   "why": "audit cross_tag drop: different register company (Ideal->register Ideal Heating, no new row; Pella/Calypso replaced by qualified homonym rows)"
+  },
+  {
+   "n": "Ideal",
    "why": "audit cross_tag drop: different register company (Ideal->register Ideal Heating, no new row; Pella/Calypso replaced by qualified homonym rows)"
   },
   {
@@ -3317,7 +3315,7 @@
  ],
  "stats": {
   "checked": 209,
-  "shown_false": 3,
+  "shown_false": 0,
   "by_tier": {
    "cultural": 106,
    "listed": 67,
@@ -3328,6 +3326,6 @@
   "regions": 23,
   "regions_renown": 5,
   "regions_no_renown": 18,
-  "brands_with_region": 42
+  "brands_with_region": 40
  }
 }

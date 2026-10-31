@@ -41,3 +41,6 @@ Ranked by value for the effort (top = most brands per paste, or a page no tool c
 | 24 | G1 | European / World Car of the Year (Wikipedia covers it — low priority) | — |
 
 Earlier blocked pages (A–E) remain in verify/PASTE_REQUESTS.md.
+
+## Received
+- 2026-10-31 H3: WhatToy brand directory (247 brands) → verify/retail/whattoy.txt, whattoy.match.json (188 new).
