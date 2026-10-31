@@ -9,3 +9,4 @@ step5 fetched (25 so far incl. searches): thermometer, quadrant; smart-telescope
 step6: fetched dobsonian, unistellar, robotic telescope, stellina (31 calls incl searches); applying step6.py then coverage lines (step7)
 step7 fetched (36): astro filter, opera glasses, solar telescope, planetarium, spyglass(disambig); applying step7.py
 step8 fetched (41): spotting scope, monocular, stevenson, weather station, barlow; applying step8.py
+step9 fetched (45): stereo, digital microscope, pyranometer, campbell-stokes; then final step10 (g fill, coverage lines, report)
