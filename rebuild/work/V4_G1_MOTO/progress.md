@@ -6,3 +6,5 @@ wd offset 600 done (wd3.txt; stopped at Matchless G50; next offset 800)
 wd offset 800 done (wd4.txt; stopped at Triumph TT600; next offset 1000)
 wd offset 1000 done (wd5.txt; stopped at Yamaha YZR-M1; next check offset 1180)
 wd all done (1194 rows, wd0-wd5, tail added). next: Wikipedia lists by manufacturer
+wp_honda.txt written (curated extras from Wikipedia List_of_Honda_motorcycles engine-size table); fetches used ~16. next lists: Yamaha, Suzuki, Kawasaki, HD, BMW, RE, Triumph, Guzzi, others
+wp_yamaha.txt done (concepts/prototypes excluded as out of scope: not sold). fetches ~17
