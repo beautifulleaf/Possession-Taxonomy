@@ -20,3 +20,7 @@ r2: ~90 fetches. Red Door, Dream Angels x2, Dream added. Next: A-Z pages n1p4 g3
 r2: ~95 fetches. Narcisse Noir, Spirit added. Now owners searches (Houbigant, Piguet, Guy Laroche, Faberge, Gres) then apply+report
 r2 done: 444->373; report updated; ~100 fetches
 ROUND3 started (budget 60): houses Guerlain, Coty, Tom Ford, VS, Avon, then rest. hits to r3hits.tsv, apply via apply_r2.py reading r3hits too
+r3: ~13 fetches; r3hits.tsv started (apply_r2.py reads both). Coty1-5, Coty Prestige, Avon1, faberge, Shiseido2, Caswell, Bijan, Claibourne, Rallet read
+r3: ~29 fetches; hits added (Dior, Lauren, Taylor, Giorgio, Samsara, Velvet Orchid). Owners Giorgio->Avon 1987, E.Taylor->Parfums International
+r3: ~37 fetches, applied; remaining plan: a few more then report
+r3 done; report updated

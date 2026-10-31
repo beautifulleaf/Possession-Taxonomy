@@ -15,7 +15,7 @@ def period(y):
 def key(x):
     m=re.search(r'\d{4}',x.get('y') or '')
     return (ORDER.index(period(x.get('y'))), int(m.group()) if m else 0, x['n'])
-rows=[l.rstrip('\n').split('\t') for l in open('r2hits.tsv')][1:]
+rows=[l.rstrip('\n').split('\t') for f in ('r2hits.tsv','r3hits.tsv') for l in list(open(f))[1:]]
 moved=[]
 for n,tk,words,url in rows:
     hit=[x for x in src['x'] if x['n']==n]
@@ -35,7 +35,7 @@ src['sel']=re.sub(r'Covers \d+ of the 611 named perfumes in this department[^.]*
 if 'Round two' not in src['sel']:
     src['sel']+=" Round two placed more from Perfume Intelligence house pages (perfumeintelligence.co.uk/library); its A-Z pages and the other houses were only partly read."
 # owners
-OW={'Dana Perfumes':('Dana Classic Fragrances','2003'),'Dana':('Dana Classic Fragrances','2003'),'Britney Spears':('Elizabeth Arden',''),'Gloria Vanderbilt':('Selective Beauté International',''),'Prince Matchabelli':('DeCoeur Fragrances',''),'Guy Laroche':('L\'Oréal','')}
+OW={'Dana Perfumes':('Dana Classic Fragrances','2003'),'Dana':('Dana Classic Fragrances','2003'),'Britney Spears':('Elizabeth Arden',''),'Gloria Vanderbilt':('Selective Beauté International',''),'Prince Matchabelli':('DeCoeur Fragrances',''),'Guy Laroche':('L\'Oréal',''),'Giorgio Beverly Hills':('Avon Products','1987'),'Elizabeth Taylor':('Parfums International',''),'Acqua di Parma':('LVMH','2005')}
 ONAME={'Rebelle':'Parlux Fragrances','Rogue by Rihanna':'Parlux Fragrances','Fame':'Coty','Glowing by JLo':'Coty','Celine Dion Parfums':'Coty','Rise':'Coty'}
 on=0
 for k in kinds.values():
