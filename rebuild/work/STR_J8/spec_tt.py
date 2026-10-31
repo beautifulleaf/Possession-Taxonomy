@@ -3,7 +3,7 @@ def G(*pairs):
     return [[a,[x.strip() for x in b.split('|')]] for a,b in pairs]
 TT={
 "Sliced & tin loaf":G(("Flour","white|wholemeal|seeded|multigrain|gluten-free"),("Shape","tin loaf|Pullman square|farmhouse|cob"),("Slice","thick|medium|thin|unsliced")),
-"Sourdough bread":G(("Flour","white|wholemeal|rye|spelt"),("Shape","boule|bâtard|batard long loaf|tin loaf")),
+"Sourdough bread":G(("Flour","white|wholemeal|rye|spelt"),("Shape","boule|bâtard|tin loaf")),
 "Baguette & French bread":G(("Shape","baguette|bâtard|ficelle|boule|fougasse"),("Flour","white|tradition (no additives)|wholemeal")),
 "Rye & wholegrain bread":G(("Rye content","light rye|mixed rye and wheat|dark rye|100 % rye"),("Seasoning","plain|caraway|seeded"),("Texture","soft sliced|dense steamed|crusty")),
 "Italian bread":G(("Shape","long loaf|round loaf|flat slab|thin flat disc|roll"),("Fat","olive oil|lard|none")),

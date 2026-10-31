@@ -179,6 +179,7 @@ TT={
 "Kashk":[["Form",["liquid","dried (soak before use)","powder"]],["Base",["grain-based"]]],
 "Aaruul":[["Sweetness",["sweetened","unsweetened"]],["Texture",["firm and chewy","soft and crumbly"]]],
 "Chhurpi":[["Hardness",["soft","hard (dog chew)"]],["Milk",["yak","cow"]]],
+"Stilton":[["Veining",["blue","white (unveined)"]],["Farming",["organic"]]],
 "Processed cheese":[["Format",["slices","triangles","blocks","spread","cubes"]]],
 "Cheese selection":[["Presentation",["gift box","cheese board","tasting set"]]],
 "Hen's egg":[["Size grade",["small","medium","large","very large"]],["Housing",["caged / enriched colony","barn","free-range","organic","pasture-raised"]],["Shell colour",["white","brown","blue or green"]],["Breed",["breed egg"]],["Feed",["enriched (omega-3)"]],["Quality grade",["AA","A","B"]]],
