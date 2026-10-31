@@ -222,7 +222,7 @@ for dp in depts:
     for sh in dp['s']:
         for k in sh['k']:
             for e in k.get('x',[]):
-                if e['n'] in ("Lay's",'Hovis','Kettle Brand','Poilâne','Bimbo'): e.pop('role',None)
+                if e['n'] in ("Lay's",'Hovis','Kettle Brand','Poilâne','Bimbo','Pringles'): e.pop('role',None)
 # renames and moves
 renames={}
 out={'replaces':['Bread & bakery','Crisps & savoury snacks','Snack nuts & bars'],'depts':depts,'brands':[],'brand_updates':{},'renames':renames,'moves':[]}

@@ -93,7 +93,7 @@ def conv_kind(k,dname):
     k=json.loads(json.dumps(k)); x=k.get('x',[]); kn=k['n']; ms=k.pop('m',[]) or []; k.pop('r',None)
     kfall=k.get('s') or ''
     if kn not in LINE:
-        keep=[e for e in x if re.search(r'\bfirst\b',e.get('d','')) ]
+        keep=[e for e in x if e['n'] in ('CamelBak hydration pack','Jumar','Morey Boogie')]
         for e in x:
             if e not in keep: removed[kn].append(e['n'])
         for n,mk in ms: removed[kn].append(f'{n} ({mk})')
@@ -104,6 +104,8 @@ def conv_kind(k,dname):
         return k
     # --- line kind
     for e in x:
+        mk0=e.get('mk') or ''
+        if mk0 and mk0.lower().split()[0] not in e['n'].lower() and len(e['n'].split())<=2 and e['n'] not in ('Snurfer','Winterstick'): e['n']=mk0+' '+e['n']
         e.setdefault('g',e.get('mk') or 'Unattributed')
         if e['n'] in SKIP_ROLE: e['role']=SKIP_ROLE[e['n']]
         o=ownkeys(e.get('mk',''))
@@ -192,8 +194,8 @@ def conv_kind(k,dname):
         if kn=='Artificial fly': k['nl']='One entry is a named fly pattern tied to a recipe; size and colour variants are versions.'
         pg=sorted({re.sub(r'^https?://(www\.)?','',u).split('/')[0] for u in pages})
         n=len(x); weak=sum(1 for e in x if e['s']==kfall and e['n'].endswith(' models'))
-        sel=f'Lines read from fetched maker or retailer range pages ({", ".join(pg) if pg else "none for this kind"}), plus Wikipedia class and shape articles where noted, plus lines grouped from models of the earlier retail harvest (each group carries its page; models of a maker with no per-model page sit under one maker entry on the kind\'s retail category page).'
-        sel+=f' Covers {canon_added+wnew} lines or classes read from range pages and {n-canon_added-wnew} entries from earlier pages ({weak} of them maker groups); no whole-space reference lists this kind, so this is not a complete list.'
+        sel=f'Lines read from fetched maker or retailer range pages ({", ".join(pg) if pg else "no range page was fetched for this kind"}), plus Wikipedia class and shape articles where noted, plus lines grouped from models of the earlier retail harvest (each group carries its page; models of a maker with no per-model page sit under one maker entry on the kind\'s retail category page).'
+        sel+=f' Covers {canon_added+wnew} lines or classes read from fetched pages (range pages, Wikipedia or DHV) and {n-canon_added-wnew} entries from earlier pages ({weak} of them maker groups); no whole-space reference lists this kind, so this is not a complete list.'
         if kn=='Artificial fly': sel+=' The Orvis dry-flies and streamer-flies pages were cut off by the fetch (about 105 and 80 results listed); the nymph page is page 1 of 2.'
         k['sel']=sel; k['xg']='by section: '+', '.join(dict.fromkeys(e['g'] for e in x))[:90] if kn in ('Artificial fly','Paraglider','Surfboard','Kitesurf kite','Kiteboard','Skateboard deck') else 'by maker'
         x.sort(key=lambda e:(e['g'],e.get('y') or '9999',e['n']))

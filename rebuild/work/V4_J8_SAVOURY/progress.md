@@ -9,3 +9,4 @@ step7: all fetching done (~75 fetches, over budget); next: write build script da
 step8: loafmark.txt saved (227 lines?)
 step9: lib.py bread.py crisps.py written (entries); next nuts.py then build.py
 step10: build.py runs, part file written; validating
+step11: report written, done

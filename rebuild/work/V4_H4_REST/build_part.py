@@ -160,7 +160,7 @@ k['sel']="Wikipedia List of essential oils (every row except Attar, which has it
 k['xg']="Grouped by plant use: citrus, wood and conifer, spice and seed, herb and mint, flower, then other."
 k['x'].sort(key=lambda e:(e['g'],e['n']))
 EOc=len(k['x'])
-k['sel']+=f" Complete: {len(EO)+2} of {len(EO)+2} rows in Wikipedia List of essential oils (Attar and Linalool moved to their own kinds; {len(EO)-0} rows give {EOc-len(extra_cat)} entries after merging the seven earlier ones); {len(extra_cat)} oils added from the category."
+k['sel']+=f" Complete: {len(EO)+2} of {len(EO)+2} rows in Wikipedia List of essential oils (Attar and Linalool sit in their own kinds; the other {len(EO)} are entries, seven of them the earlier entries); {len(extra_cat)} oils added from the category, {EOc} entries in all."
 # natural plant extracts
 ABS=[("Orris butter","Orris oil and butter from iris rhizome; kept from the earlier list."),("Oakmoss absolute","Absolute from the oakmoss lichen; kept from the earlier list.")]
 k=kind(m,'Absolute & CO2 extract')
