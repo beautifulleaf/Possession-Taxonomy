@@ -1,0 +1,7 @@
+call	query/urls	date	status
+1	search Mugler/Burberry perfumes (only first 5 queries used); found Mugler designer page + Alien, Womanity, Mugler Cologne, B*Men, Ice*Men URLs	2026-10-31	ok
+2	search designer pages Burberry/VS/Avon/MFK/Lutens	2026-10-31	ok (designer URLs only)
+3	fetch 10 designer pages (Burberry, MFK, Lutens, Versace, VS, Avon, YSL, Chanel, Givenchy, JPG)	2026-10-31	ok but excerpts only, no families; designer-page route low yield
+4	search Chanel Allure Sensuelle, YSL Mon Paris, Kenzo World, Good Girl, Ultra Male	2026-10-31	ok 2 URLs (Mon Paris page is 2016 not 2017: skip)
+5	search Armani Code, D&G The One, JPG Fleur du Male, Believe, Idole	2026-10-31	ok 2 URLs
+6	fetch 10 perfume pages (Mugler x5, Burberry Her, Allure Sensuelle, Kenzo World, Armani Code, Fleur du Male 2007 .com.br)	2026-10-31	ok; Womanity page states no family
