@@ -3,3 +3,4 @@ step2 done: fetched houses Dior/Hermes/Chanel/Celine/Prada/Loewe/LV(links)/Fendi
 step3 todo: fetch Ergobaby, BabyBjorn, Babywearing; then build part file via build.py script in this dir
 step3 done: ALL.json built via build_part.py, validated
 done
+step4 start: round 2 (houses, owners, eyewear, luggage); data.py/build_part.py are the sources, append to them

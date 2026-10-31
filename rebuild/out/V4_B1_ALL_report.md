@@ -11,3 +11,16 @@ Part file: rebuild/out/B1_parts/ALL.json (196 KB; replaces all ten departments).
 **Loose models (m/r):** all removed. IKEA SKU ranges (about 70, e.g. MALM, HEMNES, BESTÅ, SAMLA) dropped as SKU-level; Billy, Poäng, Kallax, IVAR, Lack and Klippan stay as entries. Baby-gear models (about 60, Maxi-Cosi, DaVinci, TotCraft etc.), sit-stand desk, lap-desk and TV-stand models, Airbed and futon models dropped as retail SKUs. Mattress models became versions of brand entries (Simba Hybrid, TEMPUR-Adapt, Posturepedic, Leesa Reserve, Nectar Ultra Hybrid); Origin, Dormeo, Jay-Be, SleepSoul, GhostBed dropped (no fetched page). Historic regional pieces (refectory tables, byōbu, commodes) dropped as styles; Racks, boxes and Spare parts kept as commodity kinds with no entries. No moves, no renames.
 
 **Not done / not sourced:** Emma (Wikipedia 404, no entry); Wikidata non-chair furniture query timed out; Vitra Design Museum, MoMA, V&A, Design Museum collection lists, Wikipedia furniture-design lists and makers' own collections (Vitra, Hay, &Tradition, Thonet, Muuto) were not fetched, so tables, sofas, beds and storage hold only designs named on fetched pages. Chair types and historic styles in the list (Windsor variants, Chippendale, Shaker) are see-note, not entries. No tier given for Serta and Simmons (ownership not stated). Wikipedia IKEA product list 404; IKEA lines beyond those above unsourced. Fetch budget was the limit, not size.
+
+## Round 2 (continuation)
+About 52 further fetches. Part file now 398 entries (was 263), 259 KB, validates OK.
+
+**Design-museum canon:** MoMA's and Vitra's sites gave no furniture list (WebFetch 403; Firecrawl returned only the collection landing page and a 404). V&A search gave five chairs. The usable route was Wikidata (P195 collection MoMA, V&A, Vitra Design Museum, Design Museum): 58 rows, of which about 30 furniture pieces are entries (Pratt Chair, Selene Chair, Great Bed of Ware, Golden Bed, King Rene's Honeymoon Cabinet, Mae West Lips Sofa and others); no rows for Vitra Design Museum or Design Museum. This is not the full holdings.
+
+**Maker and designer pages:** Wikipedia pages of 22 designers (Wegner, Jacobsen, Juhl, Panton, Eames, Aalto, Perriand, Kjaerholm, Mogensen, Nelson, Castiglioni, Ponti, Sottsass, Saarinen, Gray and others) and of B&B Italia, Ligne Roset, Poltrona Frau, Flexform and Vitsoe added about 135 designs, now also in tables, sofas, storage, shelving and stools. Wikipedia pages for Hay, &Tradition, Gubi, USM Haller, String, De Sede and Togo were 404 or disambiguation; Thonet, Muuto and Vitra pages hold no collection list. These makers' collections are still missing. Windows past 100,000 characters of List of chairs, Alvar Aalto, Gio Ponti, Hans Wegner were read (no further designs); Isamu Noguchi, Mies and Le Corbusier pages were only read in the first window.
+
+**IKEA:** Hunker's list (fetched) gave Ektorp, Malm, Docksta, Frosta, Raskog, Klippan, Lack, Kallax, Poang, Billy; no years except Billy and Poang. Hemnes and Stockholm: no fetched page, left out.
+
+**Emma:** sourced from tech.eu (founded 2013, Frankfurt, Haniel 50.1% April 2020): entry and register brand added.
+
+**Still short:** no complete museum holdings list; many tables, beds and storage kinds hold only a few designs because designer pages name mostly chairs; years missing for some entries.

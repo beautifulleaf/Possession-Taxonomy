@@ -3,7 +3,7 @@ W="https://en.wikipedia.org/wiki/"
 WDQ="https://query.wikidata.org/sparql?format=json&query=SELECT%20DISTINCT%20%3FiLabel%20%3FcLabel%20%3FdLabel%20%3Fy%20WHERE%20%7BVALUES%20%3Fc%20%7Bwd%3AQ188740%20wd%3AQ213322%20wd%3AQ689651%20wd%3AQ1236619%7D%20%3Fi%20wdt%3AP195%20%3Fc.%20%3Fi%20wdt%3AP31%2Fwdt%3AP279*%20wd%3AQ14745%7D"
 J=W+"Finn_Juhl";WG=W+"Hans_Wegner";AJ=W+"Arne_Jacobsen";PK=W+"Poul_Kj%C3%A6rholm";EA=W+"Charles_and_Ray_Eames"
 CAS=W+"Achille_Castiglioni";PO=W+"Gio_Ponti";NE=W+"George_Nelson_(designer)"
-U="Upholstered lounge chair";D="Dining chair";S="Sofa"
+M="Moulded, shell & bentwood lounge chair";U="Upholstered lounge chair";D="Dining chair";S="Sofa"
 # Finn Juhl
 for n,al,y,k,d in [("Pelican chair","","1940",U,""),("NV45 chair","","1945",U,""),("Chieftain chair","FJ49A","1949",U,""),("Egyptian chair","","1949",U,""),("Japan chair","FD137","1953",D,""),("Bwana chair","FD152","1962",U,""),("Diplomat chair","209","1965",U,"")]:
     a(k,n,al,"",y,"Designed by Finn Juhl.",J)
@@ -36,7 +36,6 @@ for k,n,al,y,d in [(U,"PK25","PK25 lounge chair","1951","Lounge chair; productio
 # Eames
 a(D,"Kleinhans Music Hall Chair","","","1939–1940","Eames and Saarinen design for Kleinhans Music Hall.",EA)
 a(U,"Conversation Armchair","","","1940","Eames and Saarinen design.",EA)
-a(M:="Moulded, shell & bentwood lounge chair","Lounge Chair Wood","LCW","Herman Miller","1945–1946","Moulded plywood lounge chair by Charles and Ray Eames; the page dates the Eames Lounge Chair Wood to 1946.",EA)
 a(D,"Dining Chair Wood","DCW","Herman Miller","1945–1946","Moulded plywood dining chair by Charles and Ray Eames.",EA)
 a("Coffee table","Molded Plywood Coffee Table","","Herman Miller","1945–1946","Coffee table by Charles and Ray Eames.",EA)
 a(D,"Wire Mesh Side Chair","DKR","Herman Miller","1951","Wire chair by Charles and Ray Eames.",EA)
