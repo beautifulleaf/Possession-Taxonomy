@@ -1,0 +1,12 @@
+import json,re
+d=json.load(open('/home/user/Possession-Taxonomy/rebuild/out/E4.json'))
+have={}
+for dep in d['depts']:
+  for sh in dep['s']:
+    for k in sh['k']:
+      for e in k.get('x') or []:
+        have[re.sub(r'\W','',e['n'].lower())]=(k['n'],e['n'])
+pist="""2mm Kolibri;Akdal Ghost TR01;ALFA Combat;AMT AutoMag II;Arsenal Firearms AF2011A1;Arsenal Firearms AF1 Strike One;Armatix iP1;ASAI One Pro 45;Ashani;Astra 300;Astra 400;Astra 600;Astra A-60;Astra A-70;Astra A-80;Astra A-100;Astra Model 900;Auto Mag Pistol;Ballester–Molina;Bauer Automatic;Bayard 1908;Beholla pistol;Benelli B76;Beretta M1915;Beretta M1923;Beretta M1934;Beretta M1935;Beretta M1951;Beretta M9;Browning Hi-Power;Colt M1911;CZ 75 Tactical Sports;ČZ vz. 27;ČZ vz. 38;Glock;Grand Power K100;Grendel P30;GSh-18;Guncrafter Industries Model No. 1;Gyrojet;Haenel Schmeisser;Hamada Type pistol;HD66;Heckler & Koch HK4;Heckler & Koch HK45;Heckler & Koch Mark 23;Heckler & Koch P7;PSS Silent Pistol;QSW-06;QSZ-11;QSZ-92;QX-04;Remington 1911 R1;Remington Model 51;Remington R51;Remington RM380;Rock Island Armory 1911 series;Rohrbaugh R9;Roth Steyr M1907;Roth-Theodorovic pistol;RS9 Vampir;Ruby pistol;Ruger-5.7;Ruger American Pistol;Ruger LC9;Ruger LCP;Ruger MK II;Ruger MK III;Ruger MK IV;Ruger P series;Ruger PC Charger;Ruger Security-9;Ruger SR series;Ruger SR22;Ruger SR1911;Ruger Standard;Salvator Dormus pistol;Sarsılmaz Kılınç 2000;STP9;Sauer 38H;Savage Model 1907;SCCY CPX-1;Schouboe Automatic Pistol;Schönberger-Laumann 1892;Schüler Reform;Schwarzlose Model 1898;Schwarzlose Model 1908;Scorpion silent pistol;SIG 1911;SIG M17;SIG Sauer Mosquito;SIG P210;SIG P220;SIG P226;SIG P227;SIG P228;SIG P229;SIG P230;SIG P238;SIG P239;SIG P250;SIG P290;SIG P320;SIG P365;SIG P938;SIG Pro;Smith & Wesson 459;Smith & Wesson Bodyguard 380;Smith & Wesson M&P;Smith & Wesson M&P22;Smith & Wesson Model 22A;Walther HP;Walther Model 8;Walther Model 9;Walther Olympia;Walther OSP;Walther P5;Walther P22;Walther P38;Walther P88;Walther P99;Walther PDP;Walther PK380;Walther PP;Walther PPK;Walther PPQ;Walther PPS;Walther PPX;Walther Q4;Walther SP22;Walther SSP;Walther TPH;Webley Self-Loading Pistol;Whitney Wolverine;Wildebeest Pistol;Wildey;WIST-94;Yavuz 16;Zafar;Zaragoza Corla;Zastava CZ99;Zastava M57;Zastava M70;Zastava M88;Zastava P25;Zastava PPZ;Zigana""".split(';')
+for n in pist:
+  k=re.sub(r'\W','',n.lower())
+  if k not in have: print('PIST MISSING',n)
