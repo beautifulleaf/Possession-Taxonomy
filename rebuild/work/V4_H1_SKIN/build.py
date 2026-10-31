@@ -98,7 +98,7 @@ for dn,dp in (('Skincare','S'),('Make-up','M')):
                         fold(dp,kd,b,{'n':v['n'],'y':v.get('y',''),'d':(v.get('d') or '')+(' ('+x['n']+')' if x['n'] not in v['n'] else '')},x['s'])
                     continue
                 for v in x.get('v',[]):
-                    if v.get('n') and v['n']!=x['n']:
+                    if v.get('n') and v['n'] not in x['n'] and x['n'] not in v['n']:
                         vs.append({'n':(v['n'] if x['n'].lower() in v['n'].lower() else x['n']+': '+v['n']),'y':v.get('y',''),'d':(v.get('d') or '')[:160]})
                 if len(vs)>1 and vs[1]['n']==x['n']: vs.pop(1)
                 for v in vs: fold(dp,kd,brand,v,x['s'])
@@ -142,7 +142,7 @@ def entry_out(e,dp):
     tier=e['tier'];own=e['own']
     g=e['g'] if e['g'] in DIV_OK else ''
     if tier=='Global group':
-        where=(f"in {own}'s {g} division" if g else f"in the {own} portfolio")
+        where=((f"in the {g} division" if g.startswith(own) else f"in {own}'s {g} division") if g else f"in the {own} portfolio")
         d=f"{cap(W_)} brand {where}"+(f"; {e['note']}" if e['note'] else '')+'.'
     elif e['note'] and e['depts']  and e['s'] in set(DG.SRC.values()) :
         d=cap(e['note']).rstrip('.')+'.'
