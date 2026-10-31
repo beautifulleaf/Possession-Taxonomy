@@ -52,6 +52,105 @@
    ],
    "found": 0,
    "note": "covered by list sources only; open 'best makers' search not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Bicycles",
+   "queries": [
+    "Eurobike Award 2025/2026; keirin builders"
+   ],
+   "found": 12,
+   "note": "continuation round"
+  },
+  {
+   "axis": "kind",
+   "item": "Motorcycle riding gear",
+   "queries": [
+    "SHARP helmet brands; Which?/MadeForMums prams searched"
+   ],
+   "found": 36,
+   "note": "continuation round"
+  },
+  {
+   "axis": "kind",
+   "item": "Vans, trucks & buses",
+   "queries": [
+    "auto rickshaw makers; jeepney builders"
+   ],
+   "found": 14,
+   "note": "continuation round"
+  },
+  {
+   "axis": "kind",
+   "item": "Boats",
+   "queries": [
+    "gondola squeri; dhow yards Sur/Beypore; canoe makers search (forum only, no fetched list)"
+   ],
+   "found": 2,
+   "note": "continuation round"
+  },
+  {
+   "axis": "kind",
+   "item": "Heritage rail & horse-drawn",
+   "queries": [
+    "Amish buggy search found only an essay naming one Mennonite buggy maker; nothing fetched"
+   ],
+   "found": 0,
+   "note": "continuation round"
+  },
+  {
+   "axis": "kind",
+   "item": "Aircraft",
+   "queries": [
+    "Schempp-Hirth search found only production list; nothing new"
+   ],
+   "found": 0,
+   "note": "continuation round"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "auto rickshaw makers India/Pakistan"
+   ],
+   "found": 13,
+   "note": "continuation round"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japan keirin builders"
+   ],
+   "found": 4,
+   "note": "continuation round"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Philippine jeepney builders"
+   ],
+   "found": 2,
+   "note": "continuation round"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Sur dhow yard unnamed"
+   ],
+   "found": 0,
+   "note": "continuation round"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Venice squeri"
+   ],
+   "found": 1,
+   "note": "continuation round"
   }
  ],
  "regions": [
@@ -86,6 +185,59 @@
     "Nautor's Swan",
     "Najad Yachts",
     "Nauticat Yachts"
+   ]
+  },
+  {
+   "region": "Philippines",
+   "speciality": "hand-built jeepneys",
+   "src": "https://laspinascity.gov.ph/lifestyle/21/sarao-jeepney",
+   "brands": [
+    "Sarao Motors",
+    "Francisco Motors"
+   ]
+  },
+  {
+   "region": "Venice, Italy",
+   "speciality": "hand-built gondolas in squeri",
+   "src": "http://www.seevenice.it/en/gondola-builders-in-venice-the-courage-of-tramontins-sisters",
+   "brands": [
+    "Tramontin"
+   ]
+  },
+  {
+   "region": "Beypore, Kerala, India",
+   "speciality": "hand-built wooden urus (dhows)",
+   "src": "https://www.thehindu.com/life-and-style/boatmakers-of-the-south-beypore-uru-kozhikode-chaliyar-river/article68225043.ece",
+   "brands": [
+    "Hashim's Beypore uru yard"
+   ]
+  },
+  {
+   "region": "Sur, Oman",
+   "speciality": "traditional wooden dhow yard since 1730 (single unnamed yard 'Boat Factory')",
+   "src": "https://oceanographicmagazine.com/features/omans-dhow-culture-or-convenience",
+   "brands": []
+  },
+  {
+   "region": "Rajkot, India / Lahore, Pakistan / Italy",
+   "speciality": "auto rickshaws and tuk-tuk three-wheelers",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "brands": [
+    "Bajaj Auto",
+    "Atul Auto",
+    "Piaggio Ape",
+    "Sazgar Automobiles"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "hand-built keirin (NJS) steel track frames",
+   "src": "https://velo.outsideonline.com/road/road-culture/the-home-of-cherubim",
+   "brands": [
+    "Cherubim",
+    "3Rensho",
+    "Miyuki",
+    "Nagasawa Racing Cycle"
    ]
   }
  ],
@@ -199,6 +351,106 @@
    "new_names": 0,
    "status": "partial",
    "note": "seen in search excerpts only, not fetched; winners are models of major known brands; not harvested"
+  },
+  {
+   "url": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "title": "Eurobike Award winners 2025",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 12,
+   "new_names": 10,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "title": "Eurobike Awards 2026 press release",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 7,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://sharp.dft.gov.uk/helmet-brands",
+   "title": "SHARP (UK DfT) helmet brands tested",
+   "kind": "ranking",
+   "years": "2007-2026",
+   "names_on_page": 66,
+   "new_names": 36,
+   "status": "done",
+   "note": "Listing proves a brand tested, not quality; merge should file as listed. Generic names (Black, Box, Premier, Urban, Roof, Fusion, Stealth) are ambiguous"
+  },
+  {
+   "url": "https://franciscomotors.com/our-history.php",
+   "title": "Francisco Motors history",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://laspinascity.gov.ph/lifestyle/21/sarao-jeepney",
+   "title": "Las Piñas city: Sarao Jeepney",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "http://www.seevenice.it/en/gondola-builders-in-venice-the-courage-of-tramontins-sisters",
+   "title": "SeeVenice: Tramontin gondola yard",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "title": "Wikipedia: Auto rickshaw (manufacturers)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 14,
+   "new_names": 12,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.thehindu.com/life-and-style/boatmakers-of-the-south-beypore-uru-kozhikode-chaliyar-river/article68225043.ece",
+   "title": "The Hindu: Beypore urus",
+   "kind": "encyclopedia",
+   "years": "2024",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://velo.outsideonline.com/road/road-culture/the-home-of-cherubim",
+   "title": "Velo/Peloton: The home of Cherubim",
+   "kind": "guild",
+   "years": "2019",
+   "names_on_page": 3,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Yoshiaki_Nagasawa",
+   "title": "Wikipedia: Yoshiaki Nagasawa",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -15025,6 +15277,583 @@
    "says": "Practical Caravan best caravan makes: Campmaster tourers, shortlisted",
    "country": "United Kingdom",
    "dept": "Caravans"
+  },
+  {
+   "n": "Supernova",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "PUKY",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "vit:bikes",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Urbanisto",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Polisport",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Leatt",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Ampler Bikes",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Hepha",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Selle Royal",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "UTO",
+   "layer": "premium",
+   "src": "https://www.showdaily.net/2025/06/eurobike-award-winners-2025/",
+   "says": "Eurobike Award 2025 (Gold/Green/Start-up winner; jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "BikeFolder",
+   "layer": "premium",
+   "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "says": "Eurobike Gold/Green Award 2026 (jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Croozer",
+   "layer": "premium",
+   "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "says": "Eurobike Gold/Green Award 2026 (jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Lion Bikes",
+   "layer": "premium",
+   "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "says": "Eurobike Gold/Green Award 2026 (jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Nijland Cycling",
+   "layer": "premium",
+   "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "says": "Eurobike Gold/Green Award 2026 (jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Rohloff",
+   "layer": "premium",
+   "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "says": "Eurobike Gold/Green Award 2026 (jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "T&D",
+   "layer": "premium",
+   "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "says": "Eurobike Gold/Green Award 2026 (jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "Smoovotech",
+   "layer": "premium",
+   "src": "https://eurobike.com/frankfurt/en/press-and-media/press-releases/press-releases/eurobike-awards-2026-honor-innovative-products-in-bike-and-mobility-industry.html",
+   "says": "Eurobike Gold/Green Award 2026 (jury criteria incl. quality of workmanship)",
+   "country": "",
+   "dept": "Bicycles"
+  },
+  {
+   "n": "3GO",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Agrius",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Airoh",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Arashi",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "AXOR",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "BKS",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Caberg",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "CMS",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Duchinni",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Frank Thomas",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Fusion",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "G-Mac",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Givi",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Grex",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Kabuto",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "KBC",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Lazer",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "LS2",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Marushin",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "MDS",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "MT Helmets",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Nankai",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Nexx",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Nuvo",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "NZI",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Osbe",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Shox",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "SMK",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Spada",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Stealth",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Suomy",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Takachi",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "V-Can",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Vemar",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Viper",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "X-Lite",
+   "layer": "cultural",
+   "src": "https://sharp.dft.gov.uk/helmet-brands",
+   "says": "Motorcycle helmet brand independently tested by UK DfT SHARP scheme (listed; quality via ratings, not recorded per-brand)",
+   "country": "",
+   "dept": "Motorcycle riding gear"
+  },
+  {
+   "n": "Francisco Motors",
+   "layer": "cultural",
+   "src": "https://franciscomotors.com/our-history.php",
+   "says": "Filipino jeepney builder since 1947; 'King of the Road'; built Pope Mobile 1995",
+   "country": "Philippines",
+   "dept": "Vans, trucks & buses (jeepney)"
+  },
+  {
+   "n": "Sarao Motors",
+   "layer": "cultural",
+   "src": "https://laspinascity.gov.ph/lifestyle/21/sarao-jeepney",
+   "says": "Sarao: brand name that came to mean jeepney; hand-built since 1953",
+   "country": "Philippines",
+   "dept": "Vans, trucks & buses (jeepney)"
+  },
+  {
+   "n": "Tramontin",
+   "layer": "cultural",
+   "src": "http://www.seevenice.it/en/gondola-builders-in-venice-the-courage-of-tramontins-sisters",
+   "says": "Squero Tramontin, Venice gondola builders since 1884, 3,500 gondolas built",
+   "country": "Italy",
+   "dept": "Boats (gondola)"
+  },
+  {
+   "n": "Atul Auto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Piaggio Ape",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Kerala Automobiles Limited",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Sazgar Automobiles",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Siwa Industries",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Imperial Engineering Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "STAHLCO Motors",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Hende Moto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Automobile Products of India",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Jinan Qingqi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Erisha E Mobility",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "TVS Motor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Auto_rickshaw",
+   "says": "Named auto rickshaw / tuk-tuk manufacturer on Wikipedia 'Auto rickshaw'",
+   "country": "",
+   "dept": "Vans, trucks & buses (three-wheelers)"
+  },
+  {
+   "n": "Hashim's Beypore uru yard",
+   "layer": "cultural",
+   "src": "https://www.thehindu.com/life-and-style/boatmakers-of-the-south-beypore-uru-kozhikode-chaliyar-river/article68225043.ece",
+   "says": "Beypore uru (dhow) yard run by P.O. Hashim; urus renowned for superior craftsmanship and durability",
+   "country": "India",
+   "dept": "Boats (dhow)"
+  },
+  {
+   "n": "3Rensho",
+   "layer": "premium",
+   "src": "https://velo.outsideonline.com/road/road-culture/the-home-of-cherubim",
+   "says": "Japanese keirin hand-built frame makers; 'as many as 30 companies building competitive racing frames'; Cherubim a name known worldwide for craftsmanship",
+   "country": "Japan",
+   "dept": "Bicycles (track/keirin frames)"
+  },
+  {
+   "n": "Nagasawa Racing Cycle",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Yoshiaki_Nagasawa",
+   "says": "Keirin frame builder; Koichi Nakano won 10 world titles on Nagasawa frames",
+   "country": "Japan",
+   "dept": "Bicycles (track/keirin frames)"
+  },
+  {
+   "n": "Miyuki (bicycle frame builder)",
+   "layer": "premium",
+   "src": "https://velo.outsideonline.com/road/road-culture/the-home-of-cherubim",
+   "says": "Japanese keirin bicycle brand founded by Shin Konno; register 'Miyuki' is in C4 (likely different)",
+   "country": "Japan",
+   "dept": "Bicycles",
+   "homonym": true
   }
  ]
 }
