@@ -8792,7 +8792,7 @@
   {
    "n": "Matsukiya (Omi beef)",
    "aliases": [],
-   "tier": "seller",
+   "tier": "listed",
    "layer_harvest": "cultural",
    "src": "https://www.matsukiya.net/en.html",
    "src2": "",
@@ -9189,7 +9189,7 @@
   {
    "n": "Sai Ua La Wan",
    "aliases": [],
-   "tier": "seller",
+   "tier": "listed",
    "layer_harvest": "cultural",
    "src": "https://www.eatingthaifood.com/sai-ua-chiang-mai-sausage",
    "src2": "",
@@ -9288,7 +9288,7 @@
   {
    "n": "Dario Cecchini (Antica Macelleria Cecchini)",
    "aliases": [],
-   "tier": "seller",
+   "tier": "cultural",
    "layer_harvest": "cultural",
    "src": "https://en.wikipedia.org/wiki/Dario_Cecchini",
    "src2": "",
@@ -9473,7 +9473,7 @@
   {
    "n": "Bedo (basterma, Beirut)",
    "aliases": [],
-   "tier": "seller",
+   "tier": "listed",
    "layer_harvest": "cultural",
    "src": "https://www.spottedbylocals.com/beirut/bedo",
    "src2": "",
@@ -9503,7 +9503,7 @@
   {
    "n": "Kings Meat Deli",
    "aliases": [],
-   "tier": "seller",
+   "tier": "cultural",
    "layer_harvest": "cultural",
    "src": "https://www.citizen.co.za/network-news/?p=1230087",
    "src2": "",
@@ -9546,7 +9546,7 @@
   {
    "n": "Licious",
    "aliases": [],
-   "tier": "seller",
+   "tier": "cultural",
    "layer_harvest": "cultural",
    "src": "https://www.foodbusinessmea.com/meat-startup-licious-becomes-latest-india-unicorn-after-raising-us52m-in-latest-funding-round/",
    "src2": "",
@@ -9611,7 +9611,7 @@
    "region": "",
    "dept": "Sausages; Other meats > Horse meat",
    "country": "Mongolia",
-   "note": "press/market report (audit judgement)",
+   "note": "MSE sector report (re-fetched raw, fetch1.json): founded 1946, 36% market share, meat products and sausages; market layer",
    "origin": "audit"
   },
   {
@@ -9710,7 +9710,7 @@
    "region": "",
    "dept": "Sausages > British sausage",
    "country": "UK",
-   "note": "own encyclopedia article",
+   "note": "own encyclopedia article; re-fetched raw: brand of meat products best known for sausages, founded London 1786, Royal Appointment 1812; distinct from Wall's ice cream (J8)",
    "origin": "audit",
    "homonym": true
   },
@@ -9877,7 +9877,7 @@
    "speciality": "Prosciutto di Parma PDO dry-cured ham",
    "src": "https://www.prosciuttodiparma.com/tutti-i-produttori-del-consorzio-del-prosciutto-di-parma",
    "renown": true,
-   "quote": "#### LUIGI UGOLOTTI S",
+   "quote": "",
    "brands": [
     "Agricola Tre Valli",
     "Alcar Uno",
@@ -10622,8 +10622,8 @@
    "region": "Argentina (export beef)",
    "speciality": "export grass-fed beef meatpackers (frigoríficos)",
    "src": "https://economis.com.ar/?p=439340",
-   "renown": true,
-   "quote": "ranking de frigoríficos exportadores (enero–agosto 2025) - market ranking, not renown",
+   "renown": false,
+   "quote": "",
    "brands": [
     "Swift (meat, JBS)",
     "Arre Beef",
@@ -10631,7 +10631,7 @@
     "Grupo Lequio",
     "Quickfood"
    ],
-   "note": "quote found on raw page",
+   "note": "export ranking (market layer); ranking is not a renown statement",
    "origin": "audit"
   },
   {
@@ -10742,14 +10742,14 @@
   "shown_by_script": 667,
   "shown_harvest_only": 31,
   "by_tier": {
-   "cultural": 276,
+   "cultural": 279,
    "quality": 292,
-   "listed": 76,
-   "seller": 54
+   "listed": 79,
+   "seller": 48
   },
   "homonyms": 6,
   "dropped": 14,
   "regions": 49,
-  "regions_renown": 18
+  "regions_renown": 17
  }
 }
