@@ -1,0 +1,636 @@
+{
+ "cat": "E1",
+ "accuracy": {
+  "checked": 25,
+  "wrong": 3,
+  "items": [
+   {
+    "n": "Holzwaren Egermann",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "named in Erzgebirge-Palace manufacturer menu; existence only (retailer list) -> listed"
+   },
+   {
+    "n": "Imaginarium SA",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Necromancer Games",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "role-playing accessories only; RPG books are publishing, weak E1 fit"
+   },
+   {
+    "n": "The Game Crafter",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "print-on-demand service, not a brand of note; listed"
+   },
+   {
+    "n": "Simulations Publications, Inc.",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Ferdinand Strauss Company",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Alea",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "JKLM Games",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Review and Herald Publishing Association",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "in category, but an Adventist book publisher, not a toy/game brand -> drop"
+   },
+   {
+    "n": "My Little Pony",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "Hasbro product line"
+   },
+   {
+    "n": "Bestime",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Buddy L",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Automobile",
+    "shown": "no",
+    "supported": "no",
+    "note": "navbox link 'List of automobile manufacturers' on the list page, parsed as a brand"
+   },
+   {
+    "n": "Socks",
+    "shown": "no",
+    "supported": "no",
+    "note": "navbox link 'List of sock manufacturers'"
+   },
+   {
+    "n": "Renegade Game Studios",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Aoshima Bunka Kyozai",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Discovery Toys",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Casual dining",
+    "shown": "no",
+    "supported": "no",
+    "note": "navbox link 'List of casual dining restaurant chains'"
+   },
+   {
+    "n": "Late for the Sky Production Company",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Shindana Toys",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Safir (models)",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Mantic Games",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Palladium Books",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "RPG books only"
+   },
+   {
+    "n": "Gamewright Games",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "RAMI by J.M.K.",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   }
+  ]
+ },
+ "add_brands": [],
+ "add_regions": [],
+ "drop": [
+  {
+   "n": "Lists of video game companies",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Outline of games",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "t",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "e",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Lingerie",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Socks",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Sporting goods",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Swimwear",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Oil and gas",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Oil exploration and production",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Oilfield service",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Public utilities",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Solar thermal power",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Banks",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Hedge funds",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Private equity",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Stock exchanges",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Venture capital",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Casual dining",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Champagne houses",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Cheesemakers",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Chocolate",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Coffee",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Coffeehouses",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Fast food",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Food",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Ice cream parlors",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Pizza",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Restaurant chains",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Revolving",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Soft drinks",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Tea",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Vineyards and wineries",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Health club",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Pharmaceutical",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Aircraft",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Astronomical instruments",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Automobile",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Bicycles",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "CIGS",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Cymbals",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Dump trucks",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Horns",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Locomotive",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Microphone",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Modern armament",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Motorcycles",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Radio-controlled model aircraft kits",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Rolling stock",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Scooters",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Silicon",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Steel",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Stuffed toys",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Traction motors",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Tractors",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Tram",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Wind turbines",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Cable television",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Children's book publishers",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Film production",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Home video",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Pornography",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Record labels",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Satellite television",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Streaming television",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Television networks",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Television production",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Video games",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Bookstores",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Convenience",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Cooperatives",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Department",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Games",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Hypermarkets",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Pharmacies",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Supermarkets",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Superstores",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Hotels",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Law firms",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Management consulting",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Marketing research",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Disc golf",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Golf",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Mountaineering",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Skateboarding",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Skiing",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Swimming",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Artificial intelligence",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Computer hardware",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Computer systems",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Consumer electronics",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Electric vehicle batteries",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Electronic design automation",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Flash memory controllers",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Graphics chips and cards",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Hard disk drives",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Photovoltaics",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Printers",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Semiconductor",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Solid-state drives",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Telecommunications",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Touch input",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "VoIP",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Bus",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Cruise lines",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Ferry",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Railway",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Ship",
+   "why": "not a game maker: navbox/footer link text on Wikipedia 'List of game manufacturers' (e.g. List of ... manufacturers) parsed as a brand"
+  },
+  {
+   "n": "Yowie (chocolate)",
+   "why": "confectionery with toy inside; food, not E1 (or keep only as cultural note)"
+  },
+  {
+   "n": "Model Car Hall of Fame",
+   "why": "an institution, not a brand"
+  },
+  {
+   "n": "Review and Herald Publishing Association",
+   "why": "Adventist book publisher in a card-game category; not a toy/game brand"
+  },
+  {
+   "n": "The Railway Series and Thomas & Friends merchandise",
+   "why": "article title about merchandise, not a brand name; Thomas & Friends is a licence"
+  },
+  {
+   "n": "Ystari Games",
+   "why": "not on the cited Spiel des Jahres page (src wrong); re-source to fr.wikipedia As d'or Jeu de l'annee page, which names Ystari as a winning publisher"
+  },
+  {
+   "n": "Bethesda Softworks",
+   "why": "video-game company (move to E5, not E1)"
+  },
+  {
+   "n": "THQ",
+   "why": "video-game company (move to E5, not E1)"
+  },
+  {
+   "n": "Melbourne House",
+   "why": "video-game company (move to E5, not E1)"
+  },
+  {
+   "n": "Holistic Design",
+   "why": "video-game company (move to E5, not E1)"
+  },
+  {
+   "n": "Humanhead Studios",
+   "why": "video-game company (move to E5, not E1)"
+  }
+ ],
+ "notes": "draft\n"
+}

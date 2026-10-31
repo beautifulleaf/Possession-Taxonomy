@@ -1688,6 +1688,81 @@
    "dept": "Radios & music systems > Radios",
    "region": "",
    "note": "RadioShack house brand with cultural footprint; register has it under D2; add D3"
+  },
+  {
+   "n": "Transrotor",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: JR Transrotor Orion Reference FMD (turntable)",
+   "country": "Germany",
+   "dept": "Turntables & vinyl playback > Record players & turntables",
+   "region": ""
+  },
+  {
+   "n": "Lumin",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: Lumin X1 (network streamer); also in Stereophile 2026 disc/file players",
+   "country": "Hong Kong",
+   "dept": "Hi-fi sources: tape, disc & streaming > Network & broadcast sources",
+   "region": "East Asia"
+  },
+  {
+   "n": "Kalista",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: Kalista DreamPlay XC and Kalista Mantax",
+   "country": "France",
+   "dept": "Hi-fi sources: tape, disc & streaming > Disc players",
+   "region": "",
+   "note": "country from general knowledge (Metronome group); verify"
+  },
+  {
+   "n": "AGD Productions",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: AGD Solo",
+   "country": "United States",
+   "dept": "Amplifiers & electronics > Stereo amplifiers & receivers",
+   "region": "",
+   "note": "page names 'AGD'; full company name and country from general knowledge"
+  },
+  {
+   "n": "Aesthetix",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: Aesthetix Pallene; also Stereophile 2026 phono accessories (demagnetizer)",
+   "country": "United States",
+   "dept": "Amplifiers & electronics > Stereo amplifiers & receivers",
+   "region": "valve amplification"
+  },
+  {
+   "n": "Aqua Acoustic Quality",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: Aqua LinQ",
+   "country": "Italy",
+   "dept": "Amplifiers & electronics > DACs & headphone amplifiers",
+   "region": "",
+   "note": "page names 'Aqua'; generic word"
+  },
+  {
+   "n": "Crystal Cable",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: Crystal Cable Art Series Da Vinci",
+   "country": "Netherlands",
+   "dept": "Stands, cables & accessories > For speakers & hi-fi",
+   "region": ""
+  },
+  {
+   "n": "Sonorus Audio",
+   "layer": "premium",
+   "src": "https://www.theabsolutesound.com/tag/editors-choice",
+   "says": "The Absolute Sound Editors' Choice: Sonorus Audio ATR10 MKII (reel-to-reel tape deck)",
+   "country": "United States",
+   "dept": "Hi-fi sources: tape, disc & streaming > Tape decks",
+   "region": ""
   }
  ],
  "add_regions": [
@@ -1730,8 +1805,79 @@
     "Steinway Lyngdorf"
    ],
    "note": "independent renown statement; stronger source than harvest's SoundStage page for the same region"
+  },
+  {
+   "region": "Japan",
+   "speciality": "valve amplification: Luxman's SQ-38 valve amplifiers became an icon 'particularly in Japanese jazz cafés'",
+   "src": "https://hifihalloffame.com/business/luxman",
+   "brands": [
+    "Luxman"
+   ],
+   "note": "renown page for the Japanese valve tradition. Kondo (Audio Note Japan) rests on a Stereophile page and YL Acoustic (legendary Japanese horn speakers) on Resistor Magazine; see add_brands"
+  },
+  {
+   "region": "Poland",
+   "speciality": "loudspeakers and valve electronics; Pylon is 'the largest Central European manufacturer of loudspeakers'",
+   "src": "https://highfidelity.pl/@main-1215&lang=en",
+   "brands": [
+    "Pylon Audio"
+   ],
+   "note": "Fezz Audio, J.Sikora and Ferrum are already in the harvest from EISA/Stereophile"
+  },
+  {
+   "region": "Italy",
+   "speciality": "historic radio and TV brands; Phonola (1931) is 'one of the oldest brands in the sector, especially in radios'",
+   "src": "https://it.wikipedia.org/wiki/Phonola",
+   "brands": [
+    "Phonola",
+    "Brionvega",
+    "Mivar",
+    "Sèleco"
+   ],
+   "note": "Mivar is in MOVES_D2; Brionvega is already known; the it.wikipedia navbox also lists Geloso, Irradio, Radiomarelli, Voxson and Galactron (existence only)"
   }
  ],
- "drop": [],
- "notes": ""
+ "drop": [
+  {
+   "n": "B&W",
+   "why": "duplicate of Bowers & Wilkins (already in register); src (Son-Video blog) does not name it in fetched text: the per-section winners lists are product widgets that do not render"
+  },
+  {
+   "n": "Grado",
+   "why": "duplicate of Grado Labs (already in register); not named in the fetched Son-Video text"
+  },
+  {
+   "n": "Anker Soundcore",
+   "why": "duplicate of Soundcore (harvest row from Wikipedia Headphones manufacturers); keep one row"
+  },
+  {
+   "n": "Moondrop",
+   "why": "duplicate of register 'Moondrop Audio'; merge as alias"
+  },
+  {
+   "n": "Etymotic",
+   "why": "duplicate of register 'Etymotic Research'; merge as alias"
+  },
+  {
+   "n": "Cyrus Audio",
+   "why": "duplicate of register 'Cyrus'; merge as alias"
+  },
+  {
+   "n": "Avantree",
+   "why": "only source is The Master Switch tabletop-radio roundup, which states no hands-on testing; budget accessory brand with no cultural footprint"
+  },
+  {
+   "n": "The+Radio",
+   "why": "only source is the Master Switch roundup (no stated testing); no cultural footprint"
+  },
+  {
+   "n": "Grace Digital",
+   "why": "only source is the Master Switch roundup (no stated testing); tier 'listed' at most, drop unless an independent test is found"
+  },
+  {
+   "n": "Audio Pro",
+   "why": "not drop-worthy as a brand (Swedish speaker maker) but its only src, the Son-Video recap, does not name it in fetched text: re-source or hold"
+  }
+ ],
+ "notes": "ACCURACY: 4/25 wrong, all source-level, none invented: iFi Audio and Moon by Simaudio cite the EISA history index (https://www.eisa-awards.org/history/hi-fi/), which names no brands; Clearaudio cites the container category 'Audio equipment manufacturers by country' (it is listed in the Germany subcategory); Chario cites the Stereophile 2026 loudspeakers page, where it appears only under Deletions (it is listed on the 2025 page). SYSTEMATIC FIXES: (1) all 24 EISA Hi-Fi rows share the index-page src: repoint each to its year page (iFi 2018-19/2020-21/2022-23/2023-24/2024-25; Moon 2022-23 as 'MOON Voice 22 & ACE'; MoFi 2019-20 UltraDeck+M and 2023-24 SourcePoint 8; Hegel 2019-20 H390 etc.; mapping in AUDIT_D3_tmp/raw/ey_*.md). Fezz Audio is not on the EISA home-theatre page: use Stereophile 2026 (Fezz Audio Equinox/Silver). (2) Uher, Audio Analogue and Clearaudio cite the by-country container: repoint to the Germany or Italy country category. (3) JansZen Audio, Fleetwood Sound Company and Chario appear on the Stereophile 2026 loudspeakers page only under Deletions: use the 2025 page. (4) Scan-Speak, Peerless, Peak-Consult and Gamut (and Jamo in the Denmark region) are not on the cited SoundStage page; Stereophile's 'A Visit to the DALI Factory' names them all (see add_regions Denmark). (5) Libratone's Crinacle grade is B (Track Air Plus), not S/A as the 'says' claims. (6) Not verifiable from fetched text: Ruark Audio (What Hi-Fi best-radios-2025 page renders no body text in Parallel or Firecrawl; the og image shows Roberts) and Fluance (Wirecutter page returned empty, paywalled). Spelling: 132 of 164 harvest names with a saved src were found verbatim; no misspelt names found; Castle Acoustics is 'Castle (company)' on Wikipedia, and it sits in the China category.\nCAVEATS CHECKED: Son-Video's What Hi-Fi 2024 recap is a dealer blog. Its text faithfully quotes What Hi-Fi for the products it names (LG C4, Hisense PX3-Pro, Marantz Cinema 30, Sonos, Q Acoustics 5040, KEF LSX II LT, Rega, WiiM, Sony), but the full winners lists are shop widgets with no text, so B&W, Audio Pro and Grado are not attested there. Official whathifi.com award pages are readable through Firecrawl (2019 radios and accessories, 2022 accessories, turntables and portable players were read; each page says products are tested in-house); Firecrawl credits ran out after 8 calls. The Master Switch tabletop-radio page is a roundup with no stated testing, so it is not an independent test. Wikipedia country categories state location only: Castle and Rogers International sit under China, for example. Royal Warrant: Linn's 2002 warrant is confirmed (Linn and Wikipedia pages in search results; Linn is already known); the RWHA directory pages for B&W, Naim and Tannoy were not found. Marchi Storici 2026 list (MIMIT PDF, 1000 entries) has no audio or TV brand (no Brionvega, Sonus faber, Mivar or Phonola).\nNEW ADDITIONS rest on: Stereophile Recommended Components 2025/2026 (all sections, Deletions excluded); EISA year pages 2000-2026 incl. Home Theatre Audio/Video; Wikipedia country categories (US both pages, UK, DE, NL, SE, AT, CA, AU, NZ, IL, BR, RU, CN, KR, TW, FI, BE, LV, SI, RO, SG, PH, IN, NO, DK); Wikipedia phonograph and TV manufacturer lists; Crinacle IEM grades; What Hi-Fi official award pages; TAS Editors' Choice; Hi-Fi Hall of Fame; Audio Science Review, The Audiophile Man and High Fidelity (PL) reviews.\nHOMONYMS flagged in add notes: Loewe (TV vs fashion), Morel (speakers vs A4), Kuzma (A1), AVM (D2 router maker), Pathos (E2), Esoteric (F1), Göbel (B5), Schick (H1), Pure (A1), Tesla (Czechoslovak vs car), Kenwood (JVCKenwood vs UK kitchen B5), The Chord Company vs Chord Electronics, Kondo/Audio Note Japan vs Audio Note UK, Victor Talking Machine vs modern Victrola, Fisher (G1), Columbia (A1), E.M.G. gramophones vs EMG pickups (E3). REGISTER ROW: 'Garrard | Haute maison | crown jewellery' carries D3 in its 4th field: Garrard turntables (D3) and Garrard the jeweller (A3) are different companies and should be split.\nREGIONS ARE NOT QUOTAS: Middle East, Africa, Central Asia and Latin America still have few or no makers. Hi-fi making is concentrated in Europe, North America and East Asia, so these gaps are not counted as omissions. Brazil (Gradiente), Indonesia (Polytron, 7th Acoustics), India (Onida, BPL, Sonodyne) and Russia (Vega, StereoPravda) now have entries.\n"
 }

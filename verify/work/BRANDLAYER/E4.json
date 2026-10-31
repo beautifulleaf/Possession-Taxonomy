@@ -255,6 +255,33 @@
    ],
    "found": 1,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Sights & mounts (riflescopes)",
+   "queries": [
+    "Schmidt & Bender Kahles riflescope manufacturers"
+   ],
+   "found": 7,
+   "note": "Nightforce, Hensoldt not found on a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Archery > Bows (manufacturers)",
+   "queries": [
+    "Wikipedia Category:Archery manufacturers bow companies Hoyt Mathews"
+   ],
+   "found": 0,
+   "note": "no archery manufacturer category surfaced; Hoyt Wikipedia article exists (Hoyt already known)"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia (Philippines)",
+   "queries": [
+    "Philippine blade makers Batangas balisong Taal named workshop"
+   ],
+   "found": 4,
+   "note": "Indonesian keris empu: no named maker on a fetched page in this round either"
   }
  ],
  "regions": [
@@ -602,6 +629,28 @@
     "Česká zbrojovka Uherský Brod",
     "Zbrojovka Brno",
     "FB Łucznik Radom"
+   ]
+  },
+  {
+   "region": "Germany / Austria",
+   "speciality": "premium riflescopes (Vienna, Biebertal)",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "brands": [
+    "Schmidt & Bender",
+    "Kahles",
+    "Steiner",
+    "Zeiss",
+    "Swarovski Optik"
+   ]
+  },
+  {
+   "region": "Philippines (Batangas/Taal)",
+   "speciality": "balisong butterfly knives, Barangay Balisong, Taal",
+   "src": "https://verafiles.org/articles/the-blade-that-defines-the-batangueno",
+   "brands": [
+    "Ona Blades (Taal)",
+    "Bautista Brothers (Taal balisong makers)",
+    "Leo Rivera balisong shop (Taal)"
    ]
   }
  ],
@@ -1025,6 +1074,36 @@
    "new_names": 0,
    "status": "done",
    "note": "reached via link on search-result Category:Firearm manufacturers by country; many are state arsenals"
+  },
+  {
+   "url": "https://www.optics-trade.eu/en/riflescopes.html",
+   "title": "Optics Trade riflescopes (specialist optics retailer directory)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 14,
+   "new_names": 7,
+   "status": "partial",
+   "note": "only popular-brand slugs and first five of the manufacturer filter were readable; existence only (listed-level). Wikipedia/Kahles pages seen only as search excerpts, not fetched"
+  },
+  {
+   "url": "https://knb29.org/knb-balisong-makers",
+   "title": "Meet KNB's Balisong Makers (Kultura Ng Balisong)",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "cultural organisation and seller page; makers' standing stated by organisation"
+  },
+  {
+   "url": "https://verafiles.org/articles/the-blade-that-defines-the-batangueno",
+   "title": "The blade that defines the Batangueno (VERA Files)",
+   "kind": "encyclopedia",
+   "years": "2011",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "news feature"
   }
  ],
  "brands": [
@@ -3466,14 +3545,6 @@
    "dept": "sword polishing"
   },
   {
-   "n": "Sumitani Masamine",
-   "layer": "premium",
-   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E5%88%80",
-   "says": "Living National Treasure; three Masamune Prizes (confirms swordis entry)",
-   "country": "Japan",
-   "dept": "Japanese swords"
-  },
-  {
    "n": "AYA (Aguirre y Aranzabal)",
    "layer": "premium",
    "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
@@ -3833,6 +3904,96 @@
    "says": "in Wikipedia Category:Firearm manufacturers of Australia (own article)",
    "country": "Australia",
    "dept": "firearms"
+  },
+  {
+   "n": "Steiner",
+   "layer": "premium",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "says": "riflescope brand listed in specialist optics retailer directory (listed-level)",
+   "country": "Germany",
+   "dept": "sights & scopes"
+  },
+  {
+   "n": "Kahles",
+   "layer": "premium",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "says": "riflescope brand listed in specialist optics retailer directory (listed-level)",
+   "country": "Austria",
+   "dept": "sights & scopes"
+  },
+  {
+   "n": "Leupold",
+   "layer": "premium",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "says": "riflescope brand listed in specialist optics retailer directory (listed-level)",
+   "country": "US",
+   "dept": "sights & scopes"
+  },
+  {
+   "n": "Schmidt & Bender",
+   "layer": "premium",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "says": "riflescope brand listed in specialist optics retailer directory (listed-level)",
+   "country": "Germany",
+   "dept": "sights & scopes"
+  },
+  {
+   "n": "Sightron",
+   "layer": "premium",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "says": "riflescope brand listed in specialist optics retailer directory (listed-level)",
+   "country": "Japan/US",
+   "dept": "sights & scopes"
+  },
+  {
+   "n": "Alpen Optics",
+   "layer": "premium",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "says": "riflescope brand listed in specialist optics retailer directory (listed-level)",
+   "country": "US",
+   "dept": "sights & scopes"
+  },
+  {
+   "n": "Arken Optics",
+   "layer": "premium",
+   "src": "https://www.optics-trade.eu/en/riflescopes.html",
+   "says": "riflescope brand listed in specialist optics retailer directory (listed-level)",
+   "country": "US",
+   "dept": "sights & scopes"
+  },
+  {
+   "n": "Ona Blades (Taal)",
+   "layer": "cultural",
+   "src": "https://verafiles.org/articles/the-blade-that-defines-the-batangueno",
+   "says": "balisong store in Barangay Balisong, Taal; founded 1999 by Diosdado Ona, known worldwide per VERA Files",
+   "country": "Philippines",
+   "dept": "balisong (butterfly knife)"
+  },
+  {
+   "n": "Bautista Brothers (Taal balisong makers)",
+   "layer": "cultural",
+   "src": "https://knb29.org/knb-balisong-makers",
+   "says": "described as among the best balisong makers in Taal, Batangas, by Kultura Ng Balisong",
+   "country": "Philippines",
+   "dept": "balisong"
+  },
+  {
+   "n": "Leo Rivera balisong shop (Taal)",
+   "layer": "cultural",
+   "src": "https://knb29.org/knb-balisong-makers",
+   "says": "balisong shop well-known in Taal (seller)",
+   "country": "Philippines",
+   "dept": "balisong",
+   "role": "seller"
+  },
+  {
+   "n": "Kultura Ng Balisong (KNB)",
+   "layer": "cultural",
+   "src": "https://knb29.org/knb-balisong-makers",
+   "says": "cultural organisation selling Taal-made balisongs, all profit to makers (seller)",
+   "country": "Philippines",
+   "dept": "balisong",
+   "role": "seller"
   }
  ]
 }
