@@ -1,6 +1,8 @@
 import json,re,os,copy
 R='/home/user/Possession-Taxonomy/rebuild/'
+OUT='/home/user/Possession-Taxonomy/rebuild/work/V4_C4/'
 d=json.load(open(R+'out/C4.json')); bj=json.load(open(R+'out/C4_brands.json')); B={x['n']:x for x in bj['b']}
+BL={n.lower():n for n in B}
 ren=json.load(open(R+'out/C4_renames.json'))
 log={'conv_ver':0,'conv_ent':0,'dropped':[],'removed_x':[]}
 # --- owners (fetched) ---
@@ -29,7 +31,7 @@ for n,c,f,dd,s in newbrands:
 def brandify(x):
     mk=x.get('mk'); 
     if not mk: return
-    b=B.get(mk)
+    b=B.get(BL.get(mk.lower(),mk))
     if b and b.get('c'): x['cty']=b['c']; x['g']=b['c']
     elif b: x['g']='Country not stated'
     else: x['g']='Country not stated'
@@ -67,6 +69,7 @@ for dp in d['depts']:
       byk={}
       for e in x: byk.setdefault(e.get('mk'),e)
       for m,mk in k.get('m',[]) or []:
+        mk=BL.get(mk.lower(),mk) if mk else mk
         if mk in byk:
           e=byk[mk]; vs=e.setdefault('v',[])
           if not any(v['n']==m for v in vs) and e['n']!=m:
@@ -164,5 +167,5 @@ for dp in d['depts']:
 json.dump(d,open(R+'out/C4.json.tmp','w'),ensure_ascii=False,indent=1); os.replace(R+'out/C4.json.tmp',R+'out/C4.json')
 json.dump(bj,open(R+'out/C4_brands.json.tmp','w'),ensure_ascii=False,indent=1); os.replace(R+'out/C4_brands.json.tmp',R+'out/C4_brands.json')
 json.dump(ren,open(R+'out/C4_renames.json.tmp','w'),ensure_ascii=False,indent=1); os.replace(R+'out/C4_renames.json.tmp',R+'out/C4_renames.json')
-json.dump(log,open('log.json','w'),ensure_ascii=False,indent=1)
+json.dump(log,open(OUT+'log.json','w'),ensure_ascii=False,indent=1)
 print({k:(v if isinstance(v,int) else len(v)) for k,v in log.items()})
