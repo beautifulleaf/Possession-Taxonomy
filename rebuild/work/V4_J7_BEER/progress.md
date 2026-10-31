@@ -6,3 +6,5 @@ step4 fetched region/market pages India Brazil Mexico SA Germany, own label punc
 step5 fetched 9 more Beer_in_ pages (done)
 step6 sources done; writing build.py (data + old-entry mapping) next
 step7 data1-3 + build.py written; coordinator asks: add alcohol-free versions with alc from fetched pages (Heineken 0.0, Guinness 0.0, Erdinger, Clausthaler, Beck's Blue, Bavaria 0.0, Peroni Libera, Corona Cero, Budweiser Zero, Asahi Dry Zero, Kirin Zero ICHI, Carlsberg 0.0, San Miguel 0.0, Stella 0.0)
+step8 fetched alcohol-free product pages (all 14 named); now patching data2/data3 with the versions, then run build
+step9 built, validated OK, report written (done)

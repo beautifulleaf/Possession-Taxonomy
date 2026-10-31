@@ -19,7 +19,7 @@ def many(kind, own, tier, src, items, what='beer brand'):
 A = 'Anheuser-Busch InBev'
 B('AB', 'Budweiser', A, 'United States', GR, 'United States', U['AB'], old=['Budweiser'],
   d='American pale lager from St. Louis, the reference for the American lager style; named a global brand by the owner.',
-  v=[('Budweiser 66', 'UK, 4% ABV', ''), ('Bud Zero', 'Alcohol-free version', 'alcohol-free')])
+  v=[('Budweiser 66', 'UK, 4% ABV', ''), ('Budweiser Zero', 'Alcohol-free version, 0.00 % ABV as stated by the product page', 'alcohol-free')])
 B('AB', 'Bud Light', A, 'United States', GR, 'United States', U['AB'], old=['Bud Light'])
 B('AB', 'Michelob Ultra', A, 'United States', GR, 'United States', U['AB'], d='American light lager brand of AB InBev, listed on the portfolio page.')
 B('AB', 'Busch', A, 'United States', GR, 'United States', U['AB'])
@@ -29,11 +29,15 @@ B('AB', 'Shock Top', A, 'United States', GR, 'United States', U['AB'], d='Belgia
 B('AB', 'Rolling Rock', A, 'United States', GR, 'United States', U['AB'])
 B('AB', 'Goose Island', A, 'United States', GR, 'United States', U['AB'], old=['Bourbon County Brand Stout'],
   d='Chicago craft brewery in the Anheuser-Busch craft-partner group; Bourbon County Brand Stout is its imperial stout.')
-B('AB', 'Stella Artois', A, 'Belgium', GR, 'Belgium', U['AB'], own_y='2008', d='Belgian pilsner from Leuven, named a global brand by AB InBev.')
+B('AB', 'Stella Artois', A, 'Belgium', GR, 'Belgium', U['AB'], own_y='2008', d='Belgian pilsner from Leuven, named a global brand by AB InBev.',
+  v=[('Stella Artois 0.0', 'Alcohol-free version, 0.0 % ABV', 'alcohol-free')])
+B('AB', "Beck's", A, 'Germany', GR, 'Germany', U['AB'], d='Bremen pilsner in the AB InBev European list.',
+  v=[("Beck's Blue", 'Alcohol-free version, 0.05 % ABV', 'alcohol-free')])
 B('AB', 'Hoegaarden', A, 'Belgium', GR, 'Belgium', U['AB'], own_y='2008', old=['Hoegaarden'])
 B('AB', 'Leffe', A, 'Belgium', GR, 'Belgium', U['AB'], old=['Leffe Blond'])
 B('AB', 'Corona', A, 'Mexico', GR, 'Mexico', U['MEX'], old=['Corona Extra'],
-  d='Mexican pale lager in a clear bottle from Grupo Modelo, now AB InBev; Constellation Brands holds the US rights.')
+  d='Mexican pale lager in a clear bottle from Grupo Modelo, now AB InBev; Constellation Brands holds the US rights.',
+  v=[('Corona Cero', 'Alcohol-free version, 0.0 % ABV', 'alcohol-free')])
 B('AB', 'Modelo', A, 'Mexico', GR, 'Mexico', U['MEX'], old=['Modelo Especial'],
   d='Pilsner-style Mexican lager from Grupo Modelo; Constellation Brands holds the US rights since 2013.')
 B('AB', 'Victoria', A, 'Mexico', GR, 'Mexico', U['MEX'], old=['Victoria'])
@@ -42,7 +46,7 @@ many('AB', A, GR, U['AB'], [
  ('Estrella Jalisco', 'Mexico', '2013'), ('Presidente', 'Dominican Republic', '2012'), ('Bohemia', 'Brazil'), ('Brahma', 'Brazil'),
  ('Skol', 'Brazil'), ('Antarctica', 'Brazil'), ('Quilmes', 'Argentina'), ('Aguila', 'Colombia'), ('Poker', 'Colombia'),
  ('Cusqueña', 'Peru'), ('Pilsener', 'Ecuador'), ('Labatt', 'Canada'), ("Alexander Keith's", 'Canada'), ('Kokanee', 'Canada'),
- ('Beck\'s', 'Germany'), ('Franziskaner', 'Germany'), ('Löwenbräu', 'Germany'), ('Hasseröder', 'Germany'), ('Diebels', 'Germany'),
+ ('Franziskaner', 'Germany'), ('Löwenbräu', 'Germany'), ('Hasseröder', 'Germany'), ('Diebels', 'Germany'),
  ('St. Pauli Girl', 'Germany'), ('Haake-Beck', 'Germany'), ('Jupiler', 'Belgium'), ('Belle-Vue', 'Belgium'), ('Bosteels', 'Belgium'),
  ('Boddingtons', 'United Kingdom'), ('Camden Town Brewery', 'United Kingdom'), ('Dommelsch', 'Netherlands'), ('Hertog Jan', 'Netherlands'),
  ('Oranjeboom', 'Netherlands'), ('Diekirch', 'Luxembourg'), ('Mousel', 'Luxembourg'), ('Chernigivske', 'Ukraine'), ('Klinskoye', 'Russia'),
@@ -60,7 +64,7 @@ many('AB', 'South African Breweries', GR, U['ZAF'], [('Carling Black Label', 'So
 # ---------------- Heineken ----------------
 H = 'Heineken'
 B('HE', 'Heineken', H, 'Netherlands', GR, 'Netherlands', U['HE'], old=['Heineken'],
-  v=[('Heineken 0.0', 'Alcohol-free version, launched 2017', 'alcohol-free')], d='Dutch pale lager of 5% ABV, the company flagship, first brewed with the Heineken yeast in 1873.')
+  v=[('Heineken 0.0', 'Alcohol-free version, 0.0 % ABV, launched 2017', 'alcohol-free')], d='Dutch pale lager of 5% ABV, the company flagship, first brewed with the Heineken yeast in 1873.')
 B('HE', 'Amstel', H, 'Netherlands', GR, 'Netherlands', U['HE'], own_y='1968', d='Dutch lager brand taken over by Heineken in 1968.', v=[('Amstel Light', 'Light lager', ''), ('Amstel 1870', 'Premium lager', '')])
 B('HE', 'Tecate', H, 'Mexico', GR, 'Mexico', U['HE'], own_y='2010', role='landmark', d='Mexican lager named on the page as the group\'s largest brand by volume; Heineken took the FEMSA brewery in 2010.')
 many('HE', H, GR, U['MEX'], [('Sol', 'Mexico', '2010'), ('Dos Equis', 'Mexico', '2010'), ('Carta Blanca', 'Mexico', '2010'), ('Superior', 'Mexico', '2010'),
@@ -90,7 +94,8 @@ many('SN', 'China Resources Snow Breweries', GR, U['SN'], [(n, 'China') for n in
 
 # ---------------- Carlsberg ----------------
 C = 'Carlsberg Group'
-B('CA', 'Carlsberg', C, 'Denmark', GR, 'Denmark', U['CA'], d='Danish lager and flagship of the group, named after Carl Jacobsen.')
+B('CA', 'Carlsberg', C, 'Denmark', GR, 'Denmark', U['CA'], d='Danish lager and flagship of the group, named after Carl Jacobsen.',
+  v=[('Carlsberg 0.0', 'Alcohol-free lager, 0.0 % ABV', 'alcohol-free')])
 B('CA', 'Tuborg', C, 'Denmark', GR, 'Denmark', U['CA'], own_y='1970', d='Danish brewery merged with Carlsberg in 1970.')
 B('CA', 'Kronenbourg 1664', C, 'France', GR, 'France', U['CA'], own_y='2008', d='French lager from Kronenbourg, acquired through the 2008 Scottish & Newcastle deal.')
 B('CA', 'Grimbergen', C, 'Belgium', GR, 'Belgium', U['CA'], d='Belgian abbey beer brand taken over by Carlsberg; Alken-Maes brews it for Belgium.')
@@ -134,9 +139,10 @@ B('MC', 'Worthington White Shield', M, 'United Kingdom', GR, 'United Kingdom', U
 # ---------------- Asahi ----------------
 S = 'Asahi Group Holdings'
 B('AS', 'Asahi Super Dry', S, 'Japan', GR, 'Japan', U['AS'], old=['Asahi Super Dry'], role='origin',
-  v=[('Asahi Draft', 'In-house brand', ''), ('Asahi Gold', 'In-house brand', ''), ('Asahi Z', 'In-house brand', ''), ('Asahi Black', 'In-house brand', ''), ('Asahi Prime Time', 'In-house brand', '')])
+  v=[('Asahi Super Dry 0.0%', 'Alcohol-free version, 0.0 % ABV', 'alcohol-free'), ('Asahi Dry Zero', 'Japanese beer-taste drink, 0.00 % alcohol', 'alcohol-free'), ('Asahi Draft', 'In-house brand', ''), ('Asahi Gold', 'In-house brand', ''), ('Asahi Z', 'In-house brand', ''), ('Asahi Black', 'In-house brand', ''), ('Asahi Prime Time', 'In-house brand', '')])
 B('AS', 'Pilsner Urquell', S, 'Czech Republic', GR, 'Czech Republic', U['AS'], old=['Pilsner Urquell'], own_y='2016', role='origin')
-B('AS', 'Peroni', S, 'Italy', GR, 'Italy', U['AS'], own_y='2016', d='Italian lager bought by Asahi with Grolsch and Meantime in a deal closed on 12 October 2016.')
+B('AS', 'Peroni', S, 'Italy', GR, 'Italy', U['AS'], own_y='2016', d='Italian lager bought by Asahi with Grolsch and Meantime in a deal closed on 12 October 2016.',
+  v=[('Peroni Libera 0.0%', 'Alcohol-free version launched in January 2019, 0.0 % ABV', 'alcohol-free'), ('Peroni Nastro Azzurro 0.0%', 'Alcohol-free successor to Libera, 0.0 % ABV', 'alcohol-free')])
 B('AS', 'Grolsch', S, 'Netherlands', GR, 'Netherlands', U['AS'], own_y='2016', d='Dutch lager brand bought in the October 2016 deal.')
 B('AS', 'Meantime', S, 'United Kingdom', GR, 'United Kingdom', U['AS'], own_y='2016', d='London brewery bought in the October 2016 deal.')
 B('AS', 'Dreher', S, 'Hungary', GR, 'Hungary', U['AS'], own_y='2016', old=['Dreher Vienna lager'])
@@ -152,7 +158,7 @@ B('AS', 'Cascade', S, 'Australia', GR, 'Australia', U['AUS'], d='Australia\'s ol
 
 # ---------------- Kirin ----------------
 K = 'Kirin Holdings'
-B('KI', 'Kirin Lager', K, 'Japan', GR, 'Japan', U['KI'], y='1888', d='Kirin\'s own lager, brewed since 1888.', v=[('Ichiban Shibori', 'Kirin product', ''), ('Kirin Tanrei', 'Happoshu product', '')])
+B('KI', 'Kirin Lager', K, 'Japan', GR, 'Japan', U['KI'], y='1888', d='Kirin\'s own lager, brewed since 1888.', v=[('Kirin Zero ICHI', 'Non-alcoholic beer-taste drink, 0.00 % alcohol, launched 11 April 2017', 'alcohol-free'), ('Ichiban Shibori', 'Kirin product', ''), ('Kirin Tanrei', 'Happoshu product', '')])
 B('KI', "Bell's Brewery", K, 'United States', GR, 'United States', U['KI'], old=["Bell's Two Hearted Ale", "Bell's Hopslam", "Bell's Oberon"],
   d='Michigan craft brewery listed as owned by Kirin; Two Hearted Ale is its American IPA.')
 B('KI', 'New Belgium Brewing', K, 'United States', GR, 'United States', U['KI'], d='Colorado craft brewery listed as owned by Kirin; BA lists Kirin-Lion at Fort Collins among the overall top 50.')

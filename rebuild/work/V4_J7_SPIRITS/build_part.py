@@ -22,15 +22,24 @@ def tier_for(own,cat=None,y=None):
     if not own or own=='Independent': return 'Independent' if own else None
     if own in GLOBAL: return 'Global group'
     return cat or 'Independent'
+VER={}
+for l in open('verified.txt'):
+    p=(l.rstrip('\n').split('|')+['','','','',''])[:5]
+    VER.setdefault(norm(p[0]),(p[1],p[3],p[4]))
 def market(e,name=None,mk=None,own=None,cty=None,craft=False,nat=False,y=None):
-    o=c=None
+    c=None;vk=None
     for key in (name or e['n'],mk or e.get('mk','')):
-        if key and norm(key) in OWN: o,c=OWN[norm(key)]; break
-    own=own or o; cty=cty or c
+        if key and norm(key) in OWN and c is None: c=OWN[norm(key)][1]
+        if key and norm(key) in VER and vk is None: vk=VER[norm(key)]
+    cty=cty or c
     if own:
-        e['own']=own
-        e['tier']='National champion' if nat else ('Global group' if own in GLOBAL else ('Craft & indie' if craft else 'Independent'))
-        REG[own]=cty
+        e['own']=own; e['os']=e.get('s','')
+    elif vk:
+        e['own']=vk[0]; e['os']=vk[1]
+        if vk[2]: e['own_y']=int(vk[2])
+    if e.get('own'):
+        REG[e['own']]=cty
+    if nat: e['_nat']=1
     if cty: e['cty']=cty
     return e
 STATS=collections.Counter(); DROP=collections.defaultdict(list)
@@ -174,7 +183,7 @@ shelf4={'n':'Irish whiskey','t':oldd['Whisky']['s'][3]['t'],'ax':oldd['Whisky'][
 # Japanese etc
 jo=[]
 for n,o,loc,y in (l.split('|') for l in JAPAN.splitlines()):
-    own={'Suntory':'Suntory Global Spirits','Nikka':'Asahi Group Holdings','Kirin':'Kirin Holdings'}.get(o,o)
+    own={'Suntory':'Suntory Global Spirits'}.get(o,o)
     closed=y.startswith('closed')
     g='Established before 2008' if y=='pre-2008' else ('Closed' if closed else 'Opened or restarted from 2008')
     e=new(n,f"Japanese whisky distillery in {loc}"+(f", {y}" if y and y!='pre-2008' else '')+f"; operated by {o}.",WIKI+'Japanese_whisky',mk=n,y='' if y=='pre-2008' else y,cty='Japan',g=g,own=own)
@@ -328,6 +337,47 @@ liq=dept('Liqueurs',oldd['Liqueurs']['t'],oldd['Liqueurs']['ax'],'Flavour family
   {'n':'Herb, spice & bitter liqueurs','t':oldd['Liqueurs']['s'][1]['t'],'ax':oldd['Liqueurs']['s'][1]['ax'],'k':[LQ[n] for n in('Herb & spice liqueur','Anise liqueur','Amaro & bitter liqueur')]},
   {'n':'Cream, coffee & nut liqueurs','t':oldd['Liqueurs']['s'][2]['t'],'ax':oldd['Liqueurs']['s'][2]['ax'],'k':[LQ[n] for n in('Cream liqueur','Coffee liqueur','Nut liqueur','Chocolate liqueur','Honey liqueur','Whisky liqueur')]}])
 depts=[whisky,brandy,rumdept,agave,ginv,anise,asian,liq]
+
+GP={'Chivas Brothers':(W+'Pernod_Ricard',2001),'John Dewar & Sons':(W+'Bacardi',1998)}
+for d in depts:
+    for s_ in d['s']:
+        for k in s_['k']:
+            for e in k.get('x',[]):
+                if e.get('own') in('Pernod Ricard','Bacardi Limited') and 'List_of_whisky_distilleries_in_Scotland' in e['s'] and e['y'].endswith('(distillery)'):
+                    if e['own']=='Pernod Ricard': e['os']=W+'Pernod_Ricard'; e['own_y']=2001
+                    else: e['os']=W+'Bacardi'; e['own_y']=1998
+                e.pop('tier',None)
+                if e.get('own'):
+                    v=VER.get(norm(e['n']))
+                    if v and v[0]==e['own']:
+                        e['os']=v[1]
+                        if v[2]: e['own_y']=int(v[2])
+                    elif not e.get('os'): e['os']=e['s']
+                if e.get('own') in GLOBAL: e['tier']='Global group'
+                if e['n']=='Jinro': e['tier']='National champion'
+                if not e.get('own') and 'independently owned' in e.get('d',''): e['tier']='Independent'; e['os']=e['s']
+                if e.get('own')=='Independent': pass
+
+# restore dropped models whose maker matches an existing entry
+REST=collections.Counter(); STILL=collections.defaultdict(list)
+allents=[(d['n'],k['n'],e) for d in depts for s_ in d['s'] for k in s_['k'] for e in k.get('x',[])]
+for kind,names in DROP.items():
+    mods={m[0]:m for m in oldk[kind].get('m',[])}
+    kdept=[d['n'] for d in depts for s_ in d['s'] for k in s_['k'] if k['n']==kind][0]
+    for nm in names:
+        m=mods.get(nm); mk=m[1] if len(m)>1 else ''
+        nn=norm(nm); tgt=None
+        cands=[x for x in allents if x[0]==kdept]
+        cands.sort(key=lambda x:(x[1]!=kind,-len(norm(x[2]['n']))))
+        for dn,kn,e in cands:
+            en=norm(e['n']); em=norm(e.get('mk',''))
+            if len(en)>=3 and ((mk and norm(mk)==en) or (mk and em and norm(mk)==em and em!='') or nn.startswith(en+' ')):
+                tgt=e;break
+        if tgt is None: STILL[kind].append(nm+(' ('+mk+')' if mk else '')); continue
+        v=tgt.setdefault('v',[])
+        if nm not in [x['n'] for x in v]: v.append({'n':nm,'mk':mk,'y':'','d':'bottling'}); REST[kind]+=1
+print('restored',sum(REST.values()),'still dropped',sum(len(v) for v in STILL.values()))
+json.dump(STILL,open('still_dropped.json','w'),ensure_ascii=False,indent=0)
 # dedupe entries by name within a kind; fill missing nl on kinds; ensure g on all entries of kinds with xg
 for d in depts:
     for s in d['s']:

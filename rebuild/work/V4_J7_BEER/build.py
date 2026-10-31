@@ -18,6 +18,8 @@ for sh in beer['s']:
             OLDE[e['n']] = (e, k['n'])
 
 def norm(s): return re.sub(r'[^a-z0-9]', '', s.lower())
+STRIP = r'\b(brewing|brewery|brewers|breweries|company|co|inc|brasserie|brouwerij|brauerei|gesellschaft|bräu|brau|and sons|sons|family|gruppe|group)\b'
+def nk(s): return norm(re.sub(STRIP, '', re.sub(r'\(.*?\)', '', s.lower())))
 def alc_of(name):
     return 'alcohol-free' if re.search(r'0[.,]0|zero', name, re.I) else ''
 
@@ -66,6 +68,7 @@ for E in ENT:
         styles[E['kind']].add(st)
         addv(oe['n'], f"{st}. {oe['d']}".strip(), oe.get('y', ''))
         for ov in oe.get('v', []):
+            if ov['n'] in ('Bud Zero', 'Dry Zero'): continue
             addv(ov['n'], (ov.get('d') or ''), ov.get('y', ''))
     for t in E['v']:
         addv(t[0], t[1], '', t[2] if len(t) > 2 else '')
@@ -80,18 +83,18 @@ for E in ENT:
 dropped = []; attached = 0
 allentries = [e for k in byk.values() for e in k]
 def keys(e):
-    ks = {norm(e['n']), norm(e['own'])}
+    ks = {nk(e['n'])}
     for E_ in [x for x in ENT if x['n'] == e['n']]:
-        for o in E_['old']: ks.add(norm(OLDE[o][0].get('mk', '')))
+        for o in E_['old']: ks.add(nk(OLDE[o][0].get('mk', '')))
     return {k for k in ks if len(k) >= 4}
 KEYS = [(e, keys(e)) for e in allentries]
 for kname, k in OLDK.items():
     for model, br in k.get('m', []) or []:
-        b = norm(br)
+        b = nk(br)
         hit = None
         if len(b) >= 4:
             for e, ks in KEYS:
-                if any(b == x or (len(b) >= 5 and (b in x or x in b)) for x in ks):
+                if b in ks:
                     hit = e; break
         if hit and model not in {v['n'] for v in hit['v']}:
             hit['v'].append({'n': model, 'y': '', 'd': f'{kname}. Earlier loose model, now a version of this entry.'})

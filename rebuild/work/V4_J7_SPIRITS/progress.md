@@ -8,3 +8,6 @@ step6: build_part.py part A (whisky, brandy) written; part B (rum, agave, gin/vo
 step7: build_part.py run OK, SPIRITS.json written (1400 entries); next validate + report
 step8 done: validated and report written
 audit: started; plan: wikidata SPARQL for ownmap owners, set os, fix craft tier, restore dropped models as versions
+audit: wikidata batch gave few clean hits (label collisions, one query Invalid URL); switched to owner groups' Wikipedia pages (Diageo, Pernod Ricard, Bacardi, Campari, Rémy Cointreau, Brown-Forman, Beam Suntory, LVMH) as fetched owner records; logged
+audit: owners re-sourced (verified.txt -> os/own_y), tiers recomputed, dropped models restored where maker matches; next validate+report
+audit: done; validated, report updated

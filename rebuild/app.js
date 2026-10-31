@@ -112,7 +112,9 @@ function sceneBox(x, id, depth) {
   if (x.d) box.append($('p', { text: x.d }));
   if (x.g && x.g.length) box.append($('p', { class: 'also' }, 'Defining garments: ', x.g.join(' · ')));
   const br = $('div', { class: 'brands' });
-  x.b.forEach(([nm, c, pcs]) => br.append($('details', { class: 'brand' + (c ? ' core' : '') }, $('summary', {}, nm, $('i', { text: c ? 'defines it' : 'also worn' })), $('div', {}, pcs && pcs.length ? 'Signature pieces: ' + pcs.join(', ') + '. ' : '', $('span', {}, 'Brand page: ', makerEl(nm))))));
+  x.b.forEach(([nm, c, pcs]) => { const det = $('details', { class: 'brand' + (c ? ' core' : '') }, $('summary', {}, nm, $('i', { text: c ? 'defines it' : 'also worn' })));
+    det.addEventListener('toggle', () => { if (!det.open || det.dataset.f) return; det.dataset.f = 1; det.append($('div', {}, pcs && pcs.length ? 'Signature pieces: ' + pcs.join(', ') + '. ' : '', $('span', {}, 'Brand page: ', makerEl(nm)))); });  // built on open: 9,000+ placements
+    br.append(det); });
   box.append(br);
   (x.c || []).forEach((y, k) => box.append(sceneBox(y, id + '-' + k, depth + 1)));
   return box;
@@ -124,9 +126,12 @@ function renderScenes() {
   side.replaceChildren($('h2', { text: catName(cur) + ' by scene' }), ol);
   const n = data.scenes.reduce((a, c) => a + c.s.reduce((b, x) => b + 1 + (x.c || []).length, 0), 0);
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', { text: n + ' scenes and styles in ' + data.scenes.length + ' groups. Each lists its defining garments and the brands that define it; sub-styles sit under their parent. Brand names open the brand register.' })));
-  data.scenes.forEach((c, i) => { const sec = $('section', { class: 'dept', id: slug('c', i) }, $('h3', { class: 'dept-name', text: c.n }));
-    c.s.forEach((x, j) => sec.append(sceneBox(x, slug('x', i, j), 0))); main.append(sec); });
-  spy();
+  const c0 = cur; let gi = 0;  // one scene group per tick so the page stays responsive (233 scenes, 9,000+ brand placements)
+  const step = () => { if (cur !== c0 || view !== 'cat' || tab !== 'kinds' || mode !== 'scene') return; const c = data.scenes[gi], i = gi++;
+    const sec = $('section', { class: 'dept', id: slug('c', i) }, $('h3', { class: 'dept-name', text: c.n }));
+    c.s.forEach((x, j) => sec.append(sceneBox(x, slug('x', i, j), 0))); main.append(sec);
+    if (gi < data.scenes.length) setTimeout(step, 0); else spy(); };
+  step();
 }
 function renderTree() {
   const total = data.depts.reduce((a, d) => a + d.s.reduce((b, s) => b + s.k.length, 0), 0);

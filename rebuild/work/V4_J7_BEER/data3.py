@@ -54,20 +54,23 @@ B('SE', 'Myanmar Beer', 'Myanmar Brewery', 'Myanmar', '', 'Myanmar', U['REG'], d
 
 # Oceania
 B('OC', 'Coopers', "Coopers Brewery", 'Australia', IN, 'Australia', U['AUS'], d='Largest Australian-owned brewery and the only major one not owned by a multinational since 2011; over 5% of the market (2016).',
-  old=['Coopers Best Extra Stout'])
+  )
 
 # ---------------- Independents ----------------
 # Europe
 B('IE', 'Guinness', 'Diageo', 'Ireland', IN, 'Ireland', U['VP'], old=['Guinness Draught', 'Guinness Foreign Extra Stout', 'Guinness West Indies Porter'], role='landmark',
-  v=[('Guinness 0.0', 'Zero-alcohol stout; relaunched 2021', 'alcohol-free')])
+  v=[('Guinness 0.0', 'Zero-alcohol stout, 0 % ABV; relaunched 2021', 'alcohol-free')])
 B('IE', 'Oettinger', 'Oettinger Gruppe', 'Germany', IN, 'Germany', U['GER'], d='Germany\'s best-selling brand by output in 2012 (5.89 million hl); 5.39 million hl in 2015.')
 B('IE', 'Krombacher', 'Krombacher Gruppe', 'Germany', IN, 'Germany', U['GER'], d='Kreuztal pilsner brewery; 5.49 million hl in 2015.')
 B('IE', 'Bitburger', 'Bitburger Braugruppe', 'Germany', IN, 'Germany', U['GER'], old=['Bitburger Pilsner'], d='Bitburg pilsner; 3.84 million hl in 2015.')
 B('IE', 'Warsteiner', '', 'Germany', IN, 'Germany', U['GER'], d='Warstein pilsner brewery; 2.34 million hl in 2015.')
 B('IE', 'Veltins', '', 'Germany', IN, 'Germany', U['GER'], d='Meschede pilsner brewery; 2.79 million hl in 2015.')
+B('IE', 'Clausthaler', 'Radeberger Gruppe', 'Germany', IN, 'Germany', 'https://www.srf.ch/sendungen/kassensturz-espresso/services/interaktiv/etiketten-schwindel/clausthaler-verschleiert-seinen-alkohol-gehalt', d='German alcohol-free beer brand; a Swiss report measured 0.45 % ABV in Clausthaler Classic.',
+  v=[('Clausthaler Classic Premium Alkoholfrei', 'Alcohol-free lager, 0.45 % ABV as reported', 'de-alcoholised')])
 B('IE', 'Radeberger', 'Radeberger Gruppe', 'Germany', IN, 'Germany', U['GER'], d='Radeberg pilsner; 1.90 million hl in 2015.')
 B('IE', 'Paulaner', 'Paulaner Gruppe', 'Germany', IN, 'Germany', U['GER'], old=['Paulaner Salvator', 'Paulaner Hefe-Weissbier'], d='Munich brewery; 2.42 million hl in 2015. Salvator is its Doppelbock of 1751.')
-B('IE', 'Erdinger', '', 'Germany', IN, 'Germany', U['GER'], old=['Erdinger Weissbier'], d='Erding wheat-beer brewery; 1.80 million hl in 2015.')
+B('IE', 'Erdinger', '', 'Germany', IN, 'Germany', U['GER'], old=['Erdinger Weissbier'], d='Erding wheat-beer brewery; 1.80 million hl in 2015.',
+  v=[('Erdinger Alkoholfrei', 'Alcohol-free wheat beer, under 0.5 % ABV, marketed since 2015 as a sports drink', 'de-alcoholised')])
 B('IE', 'Jever', '', 'Germany', IN, 'Germany', 'https://en.wikipedia.org/wiki/Jever_Pilsener', old=['Jever Pilsener'])
 B('IE', 'Augustiner-Bräu', '', 'Germany', IN, 'Germany', 'https://en.wikipedia.org/wiki/Augustiner_Brewery', old=['Augustiner Lagerbier Hell', 'Munich Oktoberfestbier'])
 B('IE', 'Ayinger', '', 'Germany', IN, 'Germany', 'https://en.wikipedia.org/wiki/Ayinger', old=['Ayinger Altbairisch Dunkel', 'Ayinger Celebrator'])
@@ -91,13 +94,13 @@ B('IE', 'Budějovický Budvar', 'Budějovický Budvar', 'Czech Republic', IN, 'C
 B('IE', 'U Fleků', 'U Fleků', 'Czech Republic', IN, 'Czech Republic', 'https://en.wikipedia.org/wiki/U_Flek%C5%AF', old=['U Fleků Flekovský tmavý ležák 13°'])
 B('IE', 'Duvel Moortgat', 'Duvel Moortgat', 'Belgium', IN, 'Belgium', 'https://en.wikipedia.org/wiki/Duvel_Moortgat_Brewery', old=['Duvel'])
 B('IE', 'Swinkels (Bavaria, La Trappe, Rodenbach)', 'Swinkels Family Brewers', 'Netherlands', IN, 'Netherlands', U['SWI'],
-  old=['La Trappe Tripel', 'La Trappe Quadrupel', 'Rodenbach Grand Cru'], d='Family-owned Dutch brewer for seven generations; its brands include Bavaria, Swinckels\', La Trappe and Rodenbach.')
+  old=['La Trappe Tripel', 'La Trappe Quadrupel', 'Rodenbach Grand Cru'], v=[('Bavaria 0.0', 'Alcohol-free pilsner, 0.0 % ABV', 'alcohol-free')], d='Family-owned Dutch brewer for seven generations; its brands include Bavaria, Swinckels\', La Trappe and Rodenbach.')
 B('IE', 'Brasserie Dupont', '', 'Belgium', IN, 'Belgium', 'https://en.wikipedia.org/wiki/Brasserie_Dupont', old=['Saison Dupont'])
 B('IE', 'Jenlain', 'Brasserie Duyck', 'France', IN, 'France', 'https://en.wikipedia.org/wiki/Jenlain', old=['Jenlain Ambrée'])
 B('IE', 'Mahou', 'Mahou San Miguel', 'Spain', IN, 'Spain', U['MAH'], y='1890', d='Madrid brewery founded in 1890; Mahou Clásica is the leading beer in Spain.',
   v=[('Mahou Cinco Estrellas', '1969', ''), ('Mahou Negra', '2003', ''), ('Mahou Sin', '1990, first called Laiker', '')])
 B('IE', 'San Miguel (Spain)', 'Mahou San Miguel', 'Spain', IN, 'Spain', U['MAH'], own_y='2000', d='Spanish San Miguel; Mahou took 70% from Danone in 2000.',
-  v=[('San Miguel Especial', '1957', ''), ('San Miguel 0,0', '2001', 'alcohol-free'), ('San Miguel 1516', '2003', ''), ('San Miguel ECO', '2003', '')])
+  v=[('San Miguel Especial', '1957', ''), ('San Miguel 0,0', 'Spain\'s first alcohol-free beer, 2001; 0.0 % ABV', 'alcohol-free'), ('San Miguel 1516', '2003', ''), ('San Miguel ECO', '2003', '')])
 B('IE', 'Alhambra', 'Mahou San Miguel', 'Spain', IN, 'Spain', U['MAH'], d='Granada beer in the Mahou San Miguel group.', v=[('Alhambra Reserva 1925', '', ''), ('Alhambra Negra', '', ''), ('Mezquita', '', ''), ('Alhambra Sin', '', '')])
 B('IE', 'Estrella Damm', 'Damm', 'Spain', IN, 'Spain', U['REG'], d='Barcelona lager; the Damm group brewed 12.65 million hl in 2024.')
 B('IE', 'Estrella Galicia', 'Estrella de Galicia', 'Spain', IN, 'Spain', U['REG'], d='Galician lager; the group brewed 5.3 million hl in 2024.')
