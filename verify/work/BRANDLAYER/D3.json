@@ -2,7 +2,251 @@
  "cat": "D3",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Over-ear & on-ear headphones",
+   "queries": [
+    "Stereophile headphones 2026; EISA headphones 2020-26; RTINGS"
+   ],
+   "found": 11,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Earphones & in-ear monitors",
+   "queries": [
+    "RTINGS only; IEM makers (Campfire in register) not swept"
+   ],
+   "found": 2,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Hi-fi loudspeakers",
+   "queries": [
+    "Stereophile 2025/2026, EISA, Wikipedia loudspeaker category"
+   ],
+   "found": 60,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Home cinema speakers",
+   "queries": [
+    "EISA home theatre 2026 only"
+   ],
+   "found": 3,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Soundbars & wireless speakers",
+   "queries": [
+    "EISA 2024-27"
+   ],
+   "found": 5,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Turntables & vinyl playback (all 4 sections)",
+   "queries": [
+    "Stereophile 2025 turntables/tonearms/cartridges/phono"
+   ],
+   "found": 30,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Amplifiers & electronics (3 sections)",
+   "queries": [
+    "Stereophile amps/DAC; EISA; Wikipedia amplifier category"
+   ],
+   "found": 60,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Hi-fi sources",
+   "queries": [
+    "Stereophile disc/file players; Wikipedia CD player category"
+   ],
+   "found": 15,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "TVs, projectors & video players",
+   "queries": [
+    "EISA home theatre 2026, RTINGS excerpt; brands mostly known"
+   ],
+   "found": 4,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Radios & music systems",
+   "queries": [
+    "What Hi-Fi 2025 radios; D2 MOVES file absent"
+   ],
+   "found": 1,
+   "note": "partial: sources listed; open per-section queries not run"
+  },
+  {
+   "axis": "kind",
+   "item": "Portable audio",
+   "queries": [
+    "Wikipedia portable audio category only partial"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Smart speakers & displays",
+   "queries": [
+    "not swept (global market)"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Stands, cables & accessories",
+   "queries": [
+    "not swept"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Wikipedia country categories UK/Germany/France"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "SoundStage Denmark/Norway"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Wikipedia Italy only"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Stereophile mentions only (Poland: J.Sikora, Ferrum)"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Wikipedia Japan category; Korean/Chinese categories gave empty excerpts"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Wikipedia US not fetched; Stereophile US makers"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "NOT TRIED"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "NOT TRIED"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "NOT TRIED"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Wikipedia India: Sonodyne, iBall only"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "NOT TRIED"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "NOT TRIED"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Antipodes (NZ), Duntech, Wikipedia AU/NZ not fetched"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "NOT TRIED"
+   ],
+   "found": 0,
+   "note": "NOT TRIED - next agent"
+  }
+ ],
  "regions": [
   {
    "region": "Denmark",
@@ -357,6 +601,26 @@
    "new_names": 13,
    "status": "done",
    "note": "trade-press feature naming makers; premium on independent statement of craft where reviewed (known confirmed: 3)"
+  },
+  {
+   "url": "https://www.rtings.com/headphones/reviews",
+   "title": "RTINGS headphones reviews (recommended)",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 12,
+   "new_names": 2,
+   "status": "partial",
+   "note": "mostly known; Soundcore already via Wikipedia (known confirmed: 10)"
+  },
+  {
+   "url": "https://www.whathifi.com/hi-fi/radio/best-radios-2025",
+   "title": "What Hi-Fi? Awards 2025 (radios, projectors, headphones, streamers)",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 5,
+   "new_names": 1,
+   "status": "partial",
+   "note": "What Hi-Fi pages thin in excerpt; other award categories (TVs, speakers, turntables, 2018-2024) not fetched (known confirmed: 4)"
   }
  ],
  "brands": [
@@ -1906,6 +2170,27 @@
    "src": "https://www.soundstagehifi.com/index.php/opinion/1916-september-speaker-week-in-denmark-dali-treble-clef-audio-and-radiant-acoustics",
    "says": "SoundStage feature on Denmark/Norway hi-fi makers (Denmark: most hi-fi companies per capita)",
    "dept": ""
+  },
+  {
+   "n": "Anker Soundcore",
+   "layer": "premium",
+   "src": "https://www.rtings.com/headphones/reviews",
+   "says": "RTINGS headphones: recommended in best lists",
+   "dept": ""
+  },
+  {
+   "n": "Turtle Beach",
+   "layer": "premium",
+   "src": "https://www.rtings.com/headphones/reviews",
+   "says": "RTINGS headphones: recommended in best lists",
+   "dept": ""
+  },
+  {
+   "n": "Ruark Audio",
+   "layer": "premium",
+   "src": "https://www.whathifi.com/hi-fi/radio/best-radios-2025",
+   "says": "What Hi-Fi? Awards 2025 winner/best-of",
+   "dept": "Radios"
   }
  ]
 }
