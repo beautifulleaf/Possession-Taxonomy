@@ -3,7 +3,37 @@
  "status": "partial",
  "brand_led": true,
  "sweeps": [],
- "regions": [],
+ "regions": [
+  {
+   "region": "Austria (Tyrol)",
+   "speciality": "premium binoculars and spotting scopes",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-binoculars",
+   "brands": [
+    "Swarovski Optik"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "top-tier binoculars",
+   "src": "https://www.fieldandstream.com/outdoor-gear/hunting-gear/optics/binoculars/best-binoculars",
+   "brands": [
+    "Carl Zeiss",
+    "Leica Camera",
+    "GPO German Precision Optics"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "binoculars (Nikon, Kowa) and image-stabilised binoculars",
+   "src": "https://www.birdwatching.com/optics/2019_mid-sized_bins/review.html",
+   "brands": [
+    "Nikon",
+    "Kowa",
+    "Vixen",
+    "Canon"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Telescope_manufacturers",
@@ -14,6 +44,56 @@
    "new_names": 24,
    "status": "done",
    "note": "persons skipped except named workshops"
+  },
+  {
+   "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-binoculars",
+   "title": "OutdoorGearLab The Best Binoculars (16 tested, 2025)",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 9,
+   "new_names": 1,
+   "status": "done",
+   "note": "Zeiss, Leica, Swarovski, Nikon, Vortex, Celestron, Bushnell known"
+  },
+  {
+   "url": "https://www.fieldandstream.com/outdoor-gear/hunting-gear/optics/binoculars/best-binoculars",
+   "title": "Field & Stream Best Binoculars of 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 3,
+   "status": "done",
+   "note": "Best Overall/Value/Any Price awards"
+  },
+  {
+   "url": "https://www.birdwatching.com/optics/2019_mid-sized_bins/review.html",
+   "title": "Birdwatching.com Mid-Sized Binoculars Review",
+   "kind": "award",
+   "years": "2019",
+   "names_on_page": 10,
+   "new_names": 0,
+   "status": "done",
+   "note": "all known (Swarovski, Leica, Kowa, Zeiss, Vortex, Opticron, Vanguard, Celestron)"
+  },
+  {
+   "url": "https://www.skyatnightmagazine.com/advice/best-binoculars-for-astronomy/",
+   "title": "BBC Sky at Night best binoculars for astronomy",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 14,
+   "new_names": 1,
+   "status": "done",
+   "note": "Helios new"
+  },
+  {
+   "url": "https://www.audubon.org/gear/binocular-guide",
+   "title": "Audubon Guide to Binoculars",
+   "kind": "award",
+   "years": "2019",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "only intro text returned"
   }
  ],
  "brands": [
@@ -200,6 +280,46 @@
    "says": "Wikipedia category (own article)",
    "country": "",
    "dept": "educational refractor"
+  },
+  {
+   "n": "Maven",
+   "layer": "premium",
+   "src": "https://www.fieldandstream.com/outdoor-gear/hunting-gear/optics/binoculars/best-binoculars",
+   "says": "Maven B.6 10x50 in Field & Stream 2026 test, 'very good' optics at about $1,000",
+   "country": "USA",
+   "dept": "binoculars"
+  },
+  {
+   "n": "GPO German Precision Optics",
+   "layer": "premium",
+   "src": "https://www.fieldandstream.com/outdoor-gear/hunting-gear/optics/binoculars/best-binoculars",
+   "says": "GPO Passion HD 10x42 in Field & Stream 2026 test, near-perfect weather-resistance, top-four resolution",
+   "country": "Germany/USA",
+   "dept": "binoculars"
+  },
+  {
+   "n": "Tract Optics",
+   "layer": "premium",
+   "src": "https://www.fieldandstream.com/outdoor-gear/hunting-gear/optics/binoculars/best-binoculars",
+   "says": "Tract Toric UHD 10x42 'very good' at $800 in Field & Stream 2026",
+   "country": "USA",
+   "dept": "binoculars"
+  },
+  {
+   "n": "Helios Optics",
+   "layer": "premium",
+   "src": "https://www.skyatnightmagazine.com/advice/best-binoculars-for-astronomy/",
+   "says": "Helios Stellar II 10x50/7x50 listed in BBC Sky at Night best binoculars for astronomy",
+   "country": "UK",
+   "dept": "binoculars"
+  },
+  {
+   "n": "NOCS Provisions",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-binoculars",
+   "says": "Nocs Provisions 8x25 Waterproof tested in OutdoorGearLab binocular roundup (GearJunkie also best monocular earlier)",
+   "country": "USA",
+   "dept": "binoculars/monoculars"
   }
  ]
 }

@@ -1,0 +1,243 @@
+{
+ "cat": "E5",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Home consoles; Handhelds & hybrids; Built-in game units",
+   "queries": [
+    "List of home video game consoles Wikipedia",
+    "List of handheld game consoles Wikipedia"
+   ],
+   "found": 10,
+   "note": "Wikipedia dedicated/handheld lists fetched (excerpts); new names recorded"
+  },
+  {
+   "axis": "kind",
+   "item": "Game media (editions & reprints)",
+   "queries": [
+    "physical video game publishers collector's editions Strictly Limited Super Rare iam8bit"
+   ],
+   "found": 3,
+   "note": "shop pages, existence only"
+  },
+  {
+   "axis": "kind",
+   "item": "Controllers > Pads & sticks",
+   "queries": [
+    "RTINGS best gaming controllers",
+    "List of game controllers Wikipedia"
+   ],
+   "found": 0,
+   "note": "RTINGS best page 404 on fetch; controller list names only console-maker controllers; 8BitDo, GameSir, Hori, Qanba etc already known or in MOVES_D1"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia (China/Japan)",
+   "queries": [
+    "best retro handheld makers Anbernic Ayaneo Retroid"
+   ],
+   "found": 2,
+   "note": "Ayaneo, Dingoo"
+  },
+  {
+   "axis": "region",
+   "item": "all other regions",
+   "queries": [],
+   "found": 0,
+   "note": "NOT RUN: global concentrated market; context exhausted by large Parallel outputs. Next: one search per region"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Japan",
+   "speciality": "consoles, handheld electronic games, controllers",
+   "src": "https://en.wikipedia.org/wiki/List_of_dedicated_video_game_consoles",
+   "brands": [
+    "Tomy",
+    "Bandai",
+    "Epoch",
+    "Nintendo"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "retro/open-source handhelds and handheld gaming PCs",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "brands": [
+    "Ayaneo",
+    "Dingoo",
+    "Anbernic",
+    "GPD"
+   ]
+  },
+  {
+   "region": "USA",
+   "speciality": "early consoles and handheld electronic games",
+   "src": "https://en.wikipedia.org/wiki/List_of_dedicated_video_game_consoles",
+   "brands": [
+    "Parker Brothers",
+    "Mattel",
+    "Coleco",
+    "Milton Bradley"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_dedicated_video_game_consoles",
+   "title": "List of dedicated video game consoles",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 12,
+   "new_names": 3,
+   "status": "done",
+   "note": "excerpt fetch"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "title": "List of handheld game consoles",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 30,
+   "new_names": 8,
+   "status": "partial",
+   "note": "excerpt fetch only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_game_controllers",
+   "title": "List of game controllers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 0,
+   "status": "done",
+   "note": "console-maker controllers only"
+  },
+  {
+   "url": "https://www.iam8bit.com/pages/about-iam8bit",
+   "title": "iam8bit/Strictly Limited/Super Rare",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": "existence only"
+  },
+  {
+   "url": "https://www.rtings.com/gamepad/reviews/best/controllers",
+   "title": "RTINGS best controllers",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "404"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Grandstand",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_dedicated_video_game_consoles",
+   "says": "Manufacturer of Astro Wars (1981), listed with own article (Grandstand (game manufacturer))",
+   "country": "UK",
+   "dept": "handheld electronic games",
+   "already": false
+  },
+  {
+   "n": "Palmtex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "says": "Palmtex Portable Videogame System row with own article in list of handheld game consoles",
+   "country": "USA",
+   "dept": "handheld console",
+   "already": false
+  },
+  {
+   "n": "Cybiko",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "says": "Cybiko row (PDA/handheld) with own article",
+   "country": "",
+   "dept": "handheld console",
+   "already": false
+  },
+  {
+   "n": "Tapwave",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "says": "Tapwave Zodiac row with own article",
+   "country": "USA",
+   "dept": "handheld console",
+   "already": false
+  },
+  {
+   "n": "Ayaneo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "says": "Ayaneo listed with own article in handheld console navbox",
+   "country": "China",
+   "dept": "handheld gaming PC",
+   "already": false
+  },
+  {
+   "n": "OpenPandora",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "says": "Pandora open-source handheld row (OpenPandora)",
+   "country": "",
+   "dept": "handheld console",
+   "already": false
+  },
+  {
+   "n": "Dingoo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "says": "Dingoo A320 row (Dingo Digital Technology) with own article",
+   "country": "China",
+   "dept": "handheld console",
+   "already": false
+  },
+  {
+   "n": "Welback Holdings",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_handheld_game_consoles",
+   "says": "Mega Duck row (Welback Holdings) with own article",
+   "country": "Hong Kong",
+   "dept": "handheld console",
+   "already": false
+  },
+  {
+   "n": "iam8bit",
+   "layer": "cultural",
+   "src": "https://www.iam8bit.com/pages/about-iam8bit",
+   "says": "Own about page: premium physical editions of games, since 2005 (self-description; existence only)",
+   "country": "USA",
+   "dept": "game media editions",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Strictly Limited Games",
+   "layer": "cultural",
+   "src": "https://www.strictlylimitedgames.com/",
+   "says": "Own shop: physical collector's editions for Switch/PS/retro; existence only",
+   "country": "Germany",
+   "dept": "game media editions",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Super Rare Games",
+   "layer": "cultural",
+   "src": "https://www.mobygames.com/company/32230/super-rare-games-limited",
+   "says": "MobyGames: London publisher of limited physical Switch games",
+   "country": "UK",
+   "dept": "game media editions",
+   "role": "seller",
+   "already": false
+  }
+ ]
+}
