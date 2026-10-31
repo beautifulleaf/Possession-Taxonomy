@@ -93,3 +93,6 @@ Agreed with the owner on 2026-10-17.
 
 ## Owner clarification 2026-10-31 (sellers of traditional crafts)
 - Owner: "while like 'Navajo jewelry' in itself is a tradition, *sellers* of such jewelry are still valid." A craft tradition (Navajo silverwork, Zuni inlay, a weaving or dyeing school) is a Visual Entertainment entry; a named maker, workshop, trading post or brand that sells pieces in that tradition is a brand-register entry in the product category, with the tradition as a tag that links out to the Visual Entertainment handover. A bare tradition label used as a "maker" on a retailer list (1stDibs "Navajo", "Zuni") is not itself a brand.
+
+## Owner decision 2026-10-31 (premium and craft grocery brands)
+- Owner: "for the groceries stuff, a specific *luxury*/high end/craft brand fetch may be worth it, obviously not any given label at the dollar store." In J1–J10 the brand registers add a premium, luxury and craft layer; everyday private labels and budget labels are not chased. Proposed basis (so the layer is a canon, not a selection): producers recognised by a fetched award or guild list (e.g. Great Taste, Good Food Awards, sofi Awards, World Cheese Awards, International Chocolate Awards, NYIOOC, World Beer Cup/GABF, IWSC) or carried by a named fine-food house list, each with its source page.
