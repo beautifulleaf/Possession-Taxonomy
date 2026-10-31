@@ -12,3 +12,4 @@ step10: France unfiltered -> rows_fr2.txt. ~20 fetches. Next: IT unfiltered, the
 step11: Italy unfiltered -> rows_it2.txt (race-only Lancia LC1/LC2/037/S4 skipped). ~21 fetches. Next: remaining countries one query (SE Q34, NL Q55, CZ Q213, ES Q29, RU Q159, PL Q36, RO Q218, RS Q403, others), then facts, then build
 step12: other countries (SE NL CZ ES RU PL RO RS UA) unfiltered -> rows_oth.txt (skipped vans/pickups: Dacia Pick-Up, GAZelle, Sobol, Sprinter Classic, GAZ-2332, UAZ-452, KrAZ Shrek; non-cars). ~22 fetches used. Next: marque facts (P17/P749) query, then build JSON + report
 step13: GDR/CH/AT/TR/HR etc -> appended to rows_oth.txt. ~23 fetches. Next: marque facts query then build
+step14: facts queries A,B done (~25 fetches). Labels not matched: Triumph/Rover/Austin/Morris Motors partially, Venturi, Tatra, Trabant, Wartburg, Hispano-Suiza, Borgward, Lada label etc. Next: build.py -> out/G1_parts/cars_add/EUROPE.json, report
