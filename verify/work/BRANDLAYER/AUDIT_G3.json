@@ -181,8 +181,76 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Wolf (heating)",
+   "homonym": true,
+   "layer": "premium",
+   "src": "https://www.test.de/presse/pressemitteilungen/Waermepumpen-Viele-Geraete-ueberzeugen-Unterschiede-in-der-Effizienz-6048068-0/",
+   "src2": "https://www.inside-digital.de/news/stiftung-warentest-kuert-beste-waermepumpen-im-test",
+   "says": "Stiftung Warentest 10/2023 air-to-water heat pump test: Wolf CHA-10 rated GUT (2,3), second place; better efficiency than Daikin/Mitsubishi using propane (independent test)",
+   "country": "DE",
+   "dept": "heat pumps / boilers",
+   "region": ""
+  },
+  {
+   "n": "Nibe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Nibe_Industrier",
+   "says": "own Wikipedia article: Swedish maker of domestic stoves, air- and ground-source heat pumps",
+   "country": "SE",
+   "dept": "heat pumps",
+   "region": ""
+  },
+  {
+   "n": "Lorenzetti",
+   "layer": "cultural",
+   "src": "https://www.abcdacomunicacao.com.br/pela-10a-vez-lorenzetti-e-top-of-mind-na-categoria-chuveiro-eletrico-segundo-o-maior-estudo-de-lembranca-de-marca-da-america-latina/",
+   "src2": "https://italianismo.com.br/lorenzetti-da-italia-para-a-memoria-dos-brasileiros/",
+   "says": "Datafolha Top of Mind (long-running brand-recall ranking) for the 10th time in Chuveiro Elétrico; 'famosa marca de chuveiros elétricos' - Brazilian electric shower icon",
+   "country": "BR",
+   "dept": "electric shower / point-of-use water heater",
+   "region": "Latin America (Brazil)"
+  },
+  {
+   "n": "Chromagen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Solar_power_in_Israel",
+   "says": "Wikipedia: 'Chromagen dominates the Israeli market in which 85% of the households rely on thermal solar systems for hot water' (no own en article; standing via the national solar-water-heater story)",
+   "country": "IL",
+   "dept": "solar water heater",
+   "region": "Israel (dud shemesh)"
+  },
+  {
+   "n": "Kwikot",
+   "layer": "cultural",
+   "src": "https://www.engineeringnews.co.za/print-version/geyser-manufacturer-highlights-local-plumber-shortage-2025-03-10",
+   "says": "South African geyser (hot-water cylinder) maker founded 1903, Benoni factory, supplies households across Africa (trade-press article; everyday SA icon)",
+   "country": "ZA",
+   "dept": "storage water heater / solar geyser",
+   "region": "Sub-Saharan Africa"
+  },
+  {
+   "n": "Rotoplas",
+   "layer": "cultural",
+   "src": "https://expansion.mx/expansion/2011/09/14/rotoplas-inund-las-azoteas",
+   "says": "Expansión feature 'Rotoplas inundó las azoteas': 700,000 tinacos a year, 'se tragó el mercado' - the Mexican rooftop water tank icon",
+   "country": "MX",
+   "dept": "rooftop water storage tank (tinaco); no exact kind - nearest Home systems > Water",
+   "region": "Latin America (Mexico)"
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Israel",
+   "speciality": "rooftop solar water heaters (dud shemesh), mandatory since 1980",
+   "src": "https://en.wikipedia.org/wiki/Solar_power_in_Israel",
+   "quote": "solar water heater now used in over 90% of Israeli homes ... Israel was in 2007 the world leader in the use of solar energy per capita",
+   "brands": [
+    "Chromagen"
+   ]
+  }
+ ],
  "drop": [
   {
    "n": "Tapworks",
