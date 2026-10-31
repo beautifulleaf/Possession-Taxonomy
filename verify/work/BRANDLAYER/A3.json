@@ -1,6 +1,6 @@
 {
  "cat": "A3",
- "status": "partial",
+ "status": "done",
  "brand_led": true,
  "sources": [
   {
@@ -582,6 +582,16 @@
    "new_names": 41,
    "status": "partial",
    "note": "open discovery sweeps; gaps listed in sweeps array"
+  },
+  {
+   "url": "https://www.russh.com/australian-jewellery-brands",
+   "title": "Raw check of excerpt-only list pages (Russh, Visi, TSCentral)",
+   "kind": "ranking",
+   "years": "2024-2026",
+   "names_on_page": 8,
+   "new_names": 7,
+   "status": "done",
+   "note": "Sarah & Sebastian, Amber Sceats, NAJO, Pina Jewels, Skermunkil, Nina Bosch, Mary Jean, Tateossian all shown on raw pages; none dropped"
   }
  ],
  "brands": [
@@ -2173,7 +2183,7 @@
    "n": "Nina Bosch",
    "layer": "premium",
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
-   "says": "South African brand renowned for bespoke porcelain jewellery",
+   "says": "South African brand renowned for bespoke porcelain jewellery [raw-verified]",
    "country": "South Africa",
    "dept": "jewellery",
    "already": false
@@ -2182,7 +2192,7 @@
    "n": "Mary Jean Jewellery",
    "layer": "premium",
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
-   "says": "South African fine handcrafted jewellery inspired by African symbols",
+   "says": "South African fine handcrafted jewellery inspired by African symbols [raw-verified]",
    "country": "South Africa",
    "dept": "jewellery",
    "already": false
@@ -2191,7 +2201,7 @@
    "n": "Skermunkil",
    "layer": "premium",
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
-   "says": "Cape Town handmade enamel jewellery",
+   "says": "Cape Town handmade enamel jewellery [raw-verified]",
    "country": "South Africa",
    "dept": "jewellery",
    "already": false
@@ -2200,7 +2210,7 @@
    "n": "Pina Jewels",
    "layer": "cultural",
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
-   "says": "South African brand listed among 32 to know",
+   "says": "South African brand listed among 32 to know [raw-verified]",
    "country": "South Africa",
    "dept": "jewellery",
    "already": false
@@ -2227,7 +2237,7 @@
    "n": "Sarah & Sebastian",
    "layer": "premium",
    "src": "https://www.russh.com/australian-jewellery-brands",
-   "says": "listed in Russh best Australian jewellery brands 2026",
+   "says": "listed in Russh best Australian jewellery brands 2026 [raw-verified]",
    "country": "Australia",
    "dept": "jewellery",
    "already": false
@@ -2236,7 +2246,7 @@
    "n": "Amber Sceats",
    "layer": "premium",
    "src": "https://www.russh.com/australian-jewellery-brands",
-   "says": "Russh best Australian jewellery brands 2026",
+   "says": "Russh best Australian jewellery brands 2026 [raw-verified]",
    "country": "Australia",
    "dept": "jewellery",
    "already": false
@@ -2245,7 +2255,7 @@
    "n": "NAJO",
    "layer": "premium",
    "src": "https://www.russh.com/australian-jewellery-brands",
-   "says": "Russh best Australian jewellery brands 2026",
+   "says": "Russh best Australian jewellery brands 2026 [raw-verified]",
    "country": "Australia",
    "dept": "jewellery",
    "already": false
@@ -2266,6 +2276,69 @@
    "says": "hand-carved lapidary and goldsmith workshop, Design Ireland",
    "country": "Ireland",
    "dept": "stone jewellery",
+   "already": false
+  },
+  {
+   "n": "Pichulik",
+   "layer": "premium",
+   "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
+   "says": "South African handcrafted jewellery inspired by African ornamentation (raw page)",
+   "country": "South Africa",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Mamabolo Jewellers",
+   "layer": "premium",
+   "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
+   "says": "Pretoria nature-inspired jewellery, Ndebele influence (raw page)",
+   "country": "South Africa",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Grace Lee",
+   "layer": "premium",
+   "src": "https://www.whowhatwear.com/fashion/jewelry/asian-founded-jewelry-brands",
+   "says": "Seoul-born designer, renowned for classic collections emphasising craftsmanship (Who What Wear)",
+   "country": "South Korea",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Kinn Studio",
+   "layer": "cultural",
+   "src": "https://www.whowhatwear.com/fashion/jewelry/asian-founded-jewelry-brands",
+   "says": "Asian-founded heritage jewellery brand (Who What Wear)",
+   "country": "United States",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Moko Pounamu",
+   "layer": "cultural",
+   "src": "https://www.mokopounamu.co.nz/about-moko-pounamu",
+   "says": "Moreton family pounamu carving, hei tiki, generations; Hokitika Jade Company legacy",
+   "country": "New Zealand",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Mountain Jade",
+   "layer": "cultural",
+   "src": "https://www.mountainjade.co.nz/",
+   "says": "family-run NZ pounamu jewellery; Rotorua Business Awards 2023 Supreme Winner",
+   "country": "New Zealand",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Burhouse",
+   "layer": "premium",
+   "src": "https://www.burhouse.com/jewellery-findings",
+   "says": "UK findings supplier; plated findings meet BS EN 1811 / EU nickel directive",
+   "country": "United Kingdom",
+   "dept": "jewellery parts",
    "already": false
   }
  ],
@@ -2450,6 +2523,38 @@
     "Mary Jean Jewellery",
     "Skermunkil",
     "Pina Jewels"
+   ]
+  },
+  {
+   "region": "Morocco: Tiznit (Amazigh)",
+   "speciality": "Amazigh silver jewellery, fibula (tizerzai); Morocco's silver capital",
+   "src": "https://www.slowmorocco.com/places/tiznit-jewellers",
+   "brands": []
+  },
+  {
+   "region": "New Zealand: West Coast (Hokitika)",
+   "speciality": "pounamu (greenstone) carving, hei tiki",
+   "src": "https://www.mokopounamu.co.nz/about-moko-pounamu",
+   "brands": [
+    "Moko Pounamu",
+    "Mountain Jade"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "gold filigree (UNESCO-partnered intangible heritage listing claimed on brand page), China's oldest jewellery brand 1848",
+   "src": "https://lfxjewelry.com/",
+   "brands": [
+    "Lao Feng Xiang",
+    "Chow Sang Sang"
+   ]
+  },
+  {
+   "region": "South Korea",
+   "speciality": "contemporary fine jewellery (Seoul)",
+   "src": "https://www.whowhatwear.com/fashion/jewelry/asian-founded-jewelry-brands",
+   "brands": [
+    "Grace Lee"
    ]
   }
  ],
@@ -2653,19 +2758,19 @@
    "axis": "kind",
    "item": "Anklets & body chains > Ankle & toe",
    "queries": [
-    "not searched individually"
+    "best anklet and body chain makers handmade quality"
    ],
    "found": 0,
-   "note": "gap: no open search run for this section yet"
+   "note": "search returned only findings suppliers; no anklet/body chain maker surfaced"
   },
   {
    "axis": "kind",
    "item": "Anklets & body chains > Waist & torso",
    "queries": [
-    "not searched individually"
+    "best anklet and body chain makers handmade quality"
    ],
    "found": 0,
-   "note": "gap: no open search run for this section yet"
+   "note": "search returned only findings suppliers; no anklet/body chain maker surfaced"
   },
   {
    "axis": "kind",
@@ -2698,29 +2803,21 @@
    "axis": "kind",
    "item": "Traditional & regional jewellery > South Asian jewellery",
    "queries": [
-    "Tuareg silver jewellery Agadez makers renowned",
-    "Kanzashi hair ornament makers Tokyo traditional workshop",
-    "Claddagh ring Gerard of Galway oldest maker",
-    "Hawaiian heirloom jewelry makers renowned",
-    "Native American jewelers (see earlier sweep)",
-    "temple jewellery Kerala Tamil Nadu renowned jewellers (queued; only first 5 of 6 run)"
+    "temple jewellery Tamil Nadu Kerala renowned jewellers"
    ],
-   "found": null,
-   "note": "grouped open search by department; per-section results not isolated"
+   "found": 0,
+   "note": "query returned no relevant page; gap remains"
   },
   {
    "axis": "kind",
    "item": "Traditional & regional jewellery > East Asian jewellery",
    "queries": [
-    "Tuareg silver jewellery Agadez makers renowned",
-    "Kanzashi hair ornament makers Tokyo traditional workshop",
-    "Claddagh ring Gerard of Galway oldest maker",
-    "Hawaiian heirloom jewelry makers renowned",
-    "Native American jewelers (see earlier sweep)",
-    "temple jewellery Kerala Tamil Nadu renowned jewellers (queued; only first 5 of 6 run)"
+    "Korean jewelry brands renowned",
+    "Chinese jewellery heritage gold craft",
+    "Japanese jewellery makers renowned Ginza Tanaka Tasaki"
    ],
-   "found": null,
-   "note": "grouped open search by department; per-section results not isolated"
+   "found": 3,
+   "note": "Grace Lee, Kinn Studio; Lao Feng Xiang/Chow Sang Sang already known; Japanese query surfaced no maker"
   },
   {
    "axis": "kind",
@@ -2740,15 +2837,12 @@
    "axis": "kind",
    "item": "Traditional & regional jewellery > European, American & Oceanic jewellery",
    "queries": [
-    "Tuareg silver jewellery Agadez makers renowned",
-    "Kanzashi hair ornament makers Tokyo traditional workshop",
-    "Claddagh ring Gerard of Galway oldest maker",
-    "Hawaiian heirloom jewelry makers renowned",
-    "Native American jewelers (see earlier sweep)",
-    "temple jewellery Kerala Tamil Nadu renowned jewellers (queued; only first 5 of 6 run)"
+    "Maori pounamu hei-tiki carvers renowned",
+    "Scottish Celtic Sami solje traditional jewellery makers renowned",
+    "Claddagh ring oldest maker"
    ],
-   "found": null,
-   "note": "grouped open search by department; per-section results not isolated"
+   "found": 4,
+   "note": "Moko Pounamu, Mountain Jade, Thomas Dillon's, Fallers; Scottish/Sami query returned no page"
   },
   {
    "axis": "kind",
@@ -2768,24 +2862,19 @@
    "axis": "kind",
    "item": "Traditional & regional jewellery > Regional Indian jewellery",
    "queries": [
-    "Tuareg silver jewellery Agadez makers renowned",
-    "Kanzashi hair ornament makers Tokyo traditional workshop",
-    "Claddagh ring Gerard of Galway oldest maker",
-    "Hawaiian heirloom jewelry makers renowned",
-    "Native American jewelers (see earlier sweep)",
-    "temple jewellery Kerala Tamil Nadu renowned jewellers (queued; only first 5 of 6 run)"
+    "temple jewellery Tamil Nadu Kerala renowned jewellers"
    ],
-   "found": null,
-   "note": "grouped open search by department; per-section results not isolated"
+   "found": 0,
+   "note": "query returned no relevant page; gap remains"
   },
   {
    "axis": "kind",
    "item": "Jewellery parts > Jewellery parts",
    "queries": [
-    "not searched individually"
+    "jewellery findings clasps components suppliers best quality award"
    ],
-   "found": 0,
-   "note": "gap: no open search run for this section yet"
+   "found": 1,
+   "note": "Burhouse (UK findings, BS EN 1811) added; Platinum Guild findings directory lists suppliers (A&A Jewelry Supply, Alrue, Bhamra Chain) without quality evidence, not added"
   },
   {
    "axis": "kind",
@@ -2926,10 +3015,10 @@
    "axis": "region",
    "item": "Central & Eastern Europe",
    "queries": [
-    "Polish Czech Georgian Russian renowned jewellery houses amber enamel"
+    "Faberge Russian Polish Czech Hungarian renowned jewellery houses heritage"
    ],
-   "found": null,
-   "note": "query returned no relevant page; gap"
+   "found": 0,
+   "note": "query returned no relevant page; Russian/Polish brands only via Wikipedia categories (Sokolov, Sunlight, Moiseikin)"
   },
   {
    "axis": "region",
@@ -2944,10 +3033,10 @@
    "axis": "region",
    "item": "North Africa",
    "queries": [
-    "Ethiopian Amazigh silver jewellery workshop renowned"
+    "Moroccan Amazigh silver jewellery Tiznit renowned workshops"
    ],
-   "found": null,
-   "note": "query not run (limit of 5 queries); gap"
+   "found": 0,
+   "note": "Tiznit silver capital and Berber jewellery tradition (Slow Morocco, Met Museum, Wikipedia) found; no named maker brands"
   },
   {
    "axis": "region",
@@ -2972,10 +3061,10 @@
    "axis": "region",
    "item": "East Asia",
    "queries": [
-    "Mikimoto Ise-Shima (earlier); Kanzashi query returned no maker"
+    "Korean, Chinese, Japanese makers beyond Mikimoto"
    ],
-   "found": null,
-   "note": "partial"
+   "found": 3,
+   "note": "see East Asian jewellery row"
   },
   {
    "axis": "region",
