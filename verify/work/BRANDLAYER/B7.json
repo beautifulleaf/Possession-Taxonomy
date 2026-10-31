@@ -298,6 +298,26 @@
    ],
    "found": 1,
    "note": "Arçelik/Vestel only in Wikipedia home appliance brands category (not added: general appliance makers)"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditional heating (kotatsu, hibachi, brazier, charcoal) - extra",
+   "queries": [
+    "kotatsu hibachi brazier makers sellers",
+    "mangal kanoun sandali kangri",
+    "desert cooler maker"
+   ],
+   "found": 2,
+   "note": "Japanese sellers fetched; Central Asia sandali/Iran korsi/North Africa kanoun/Spain brasero seen only on Wikipedia without named makers; desert coolers, punkah, tiled stoves (kachelofen/kachlova kamna) not run because search returned 5 queries per call and context ran short"
+  },
+  {
+   "axis": "kind",
+   "item": "Personal fans (neck fans)",
+   "queries": [
+    "neck fan wearable best brands tested"
+   ],
+   "found": 0,
+   "note": "query not executed (search cap of 5 per call); still open"
   }
  ],
  "regions": [
@@ -502,6 +522,34 @@
     "Robbins & Myers",
     "Menominee",
     "General Electric"
+   ]
+  },
+  {
+   "region": "Japan (traditional heating)",
+   "speciality": "Hibachi, irori and kotatsu: charcoal braziers and heated tables; Shigaraki-ware hibachi",
+   "src": "https://en.wikipedia.org/wiki/Kotatsu",
+   "brands": [
+    "Tanaka Shoten (Hibachi)",
+    "Irori Honpo (Chirori)"
+   ]
+  },
+  {
+   "region": "Japan (design-awarded climate appliances)",
+   "speciality": "Red Dot / Good Design winning air purifiers and humidifiers",
+   "src": "https://news.panasonic.com/global/topics/18875",
+   "brands": [
+    "Panasonic",
+    "Daikin",
+    "Balmuda",
+    "Iwatani"
+   ]
+  },
+  {
+   "region": "South Korea (air purifiers)",
+   "speciality": "Red Dot winning air purifiers",
+   "src": "https://www.red-dot.org/project/noble-20-air-purifier-series-80839",
+   "brands": [
+    "Coway"
    ]
   }
  ],
@@ -905,6 +953,256 @@
    "new_names": 0,
    "status": "blocked",
    "note": "paywalled; brand pages seen only in search (Princess, Challenge, Swan, Electriq known)"
+  },
+  {
+   "url": "https://www.g-mark.org/zh-CN/gallery/companies/2898379a-3625-4231-9944-a09e4644e896",
+   "title": "Good Design Award - Iwatani company page",
+   "kind": "award",
+   "years": "1971-2010",
+   "names_on_page": 8,
+   "new_names": 1,
+   "status": "partial",
+   "note": "Humidifier IMT-37SW 2006, ceramic fan heater ICH-S121 2007; per-company page only, Good Design database for fan/heater/purifier categories not enumerable by category"
+  },
+  {
+   "url": "https://news.panasonic.com/global/topics/18875",
+   "title": "Panasonic Red Dot 2026 Best of the Best (air purifier F-PX70C)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Panasonic known"
+  },
+  {
+   "url": "https://www.daikin.com/press/2022/20220427",
+   "title": "Daikin Red Dot/iF 2022, Good Design 2021 humidifying air purifier",
+   "kind": "award",
+   "years": "2021-2022",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Daikin known"
+  },
+  {
+   "url": "https://www.red-dot.org/project/airengine-30490",
+   "title": "Red Dot 2013 AirEngine (Balmuda)",
+   "kind": "award",
+   "years": "2013",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Balmuda known"
+  },
+  {
+   "url": "https://www.red-dot.org/project/noble-20-air-purifier-series-80839",
+   "title": "Red Dot 2025 Noble 2.0 air purifier (Coway)",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Coway known; Red Dot/iF winner lists are dynamic and not enumerable by category through the fetch tool; iF not fetched as list"
+  },
+  {
+   "url": "https://hibachi.tanakashop.net/",
+   "title": "Tanaka Shoten - irori and hibachi tools",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller of hibachi/irori, Tanabe, Wakayama"
+  },
+  {
+   "url": "https://www.fnw.gr.jp/irorihonpo",
+   "title": "Irori Honpo - irori and hibachi shop",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller, own brand Chirori"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Algeria",
+   "title": "Wikipedia Home appliance manufacturers of Algeria",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Argentina",
+   "title": "Wikipedia Home appliance manufacturers of Argentina",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Bangladesh",
+   "title": "Wikipedia Home appliance manufacturers of Bangladesh",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Belarus",
+   "title": "Wikipedia Home appliance manufacturers of Belarus",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Denmark",
+   "title": "Wikipedia Home appliance manufacturers of Denmark",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_France",
+   "title": "Wikipedia Home appliance manufacturers of France",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Iran",
+   "title": "Wikipedia Home appliance manufacturers of Iran",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Italy",
+   "title": "Wikipedia Home appliance manufacturers of Italy",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Pakistan",
+   "title": "Wikipedia Home appliance manufacturers of Pakistan",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Russia",
+   "title": "Wikipedia Home appliance manufacturers of Russia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Singapore",
+   "title": "Wikipedia Home appliance manufacturers of Singapore",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Slovenia",
+   "title": "Wikipedia Home appliance manufacturers of Slovenia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Spain",
+   "title": "Wikipedia Home appliance manufacturers of Spain",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_manufacturers_of_Turkey",
+   "title": "Wikipedia Home appliance manufacturers of Turkey",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": null,
+   "new_names": 0,
+   "status": "done",
+   "note": "general appliance makers, no portable-climate specificity on the category page; not added (Poland, Egypt, Ukraine categories 404)"
+  },
+  {
+   "url": "https://www.ariete.net/en/profile/history",
+   "title": "Ariete history",
+   "kind": "heritage",
+   "years": "1964-2024",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "manufacturer's own page: fans and radiators range, founded 1964 Tuscany, De'Longhi 2001; Marchi Storici register itself not confirmed"
+  },
+  {
+   "url": "https://simple.wikipedia.org/wiki/Taurus_Group",
+   "title": "Taurus Group (Simple Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Spanish maker, founded 1962 Oliana"
+  },
+  {
+   "url": "https://uk.trotec.com/contact/overview/the-company",
+   "title": "Trotec company",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "self-description only (Heinsberg, air purification/dehumidifier apps); weak"
+  },
+  {
+   "url": "http://www.mellerware.co.za/about-us",
+   "title": "Mellerware about",
+   "kind": "heritage",
+   "years": "1986",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "self-description, small appliances not shown to include climate; not added"
   }
  ],
  "brands": [
@@ -1312,6 +1610,56 @@
    "country": "USA",
    "dept": "Design & vintage fans",
    "already": false
+  },
+  {
+   "n": "Iwatani",
+   "layer": "premium",
+   "src": "https://www.g-mark.org/zh-CN/gallery/companies/2898379a-3625-4231-9944-a09e4644e896",
+   "says": "Good Design Award: humidifier IMT-37SW (2006), ceramic fan heater ICH-S121 with photocatalyst purifier (2007)",
+   "country": "Japan",
+   "dept": "Humidifiers; warm-air heaters"
+  },
+  {
+   "n": "Taurus Group",
+   "layer": "cultural",
+   "src": "https://simple.wikipedia.org/wiki/Taurus_Group",
+   "says": "Encyclopedia entry: Spanish small-appliance maker, founded 1962 in Oliana, in 80 countries by 2014",
+   "country": "Spain",
+   "dept": "small climate appliances"
+  },
+  {
+   "n": "Ariete",
+   "layer": "cultural",
+   "src": "https://www.ariete.net/en/profile/history",
+   "says": "Brand history page: founded 1964 Tuscany, 'iconic brand', range includes fans and radiators (company-stated)",
+   "country": "Italy",
+   "dept": "fans, radiators"
+  },
+  {
+   "n": "Trotec",
+   "layer": "premium",
+   "src": "https://uk.trotec.com/contact/overview/the-company",
+   "says": "Company page: made in Heinsberg, air purification and dehumidifier products, ISO 9001 (company-stated, weak)",
+   "country": "Germany",
+   "dept": "dehumidifiers; air purifiers"
+  },
+  {
+   "n": "Tanaka Shoten (Hibachi)",
+   "layer": "cultural",
+   "src": "https://hibachi.tanakashop.net/",
+   "says": "Sells irori, wooden hibachi, ash, tools made of Kishu hinoki, Tanabe, Wakayama",
+   "country": "Japan",
+   "dept": "hibachi, irori",
+   "role": "seller"
+  },
+  {
+   "n": "Irori Honpo (Chirori)",
+   "layer": "cultural",
+   "src": "https://www.fnw.gr.jp/irorihonpo",
+   "says": "Online shop for irori and hibachi (iron, ash, mini hibachi), own Chirori brand",
+   "country": "Japan",
+   "dept": "hibachi, irori",
+   "role": "seller"
   }
  ]
 }
