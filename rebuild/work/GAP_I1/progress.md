@@ -15,3 +15,4 @@ step13 done: ms for password managers (Security.org) and AI providers (Ramp) pat
 step14 done: adds_12 code editor pascal, VM page end, tax
 step15 done: final_cov.py fallback coverage lines for all kinds
 step16 done: sections.py xg for VCS, game engine, terminal, backup, compiler, remote desktop
+step17 done: brand register names added
