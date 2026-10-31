@@ -270,6 +270,24 @@
    "country": "Pakistan",
    "dept": "Table, floor & stand fans",
    "region": "South Asia"
+  },
+  {
+   "n": "Muji",
+   "layer": "premium",
+   "src": "https://ifdesign.com/en/winner-ranking/project/muji-air-circulator/124548",
+   "says": "iF Design Award winner pages: MUJI Air Circulator (low-noise, large-airflow circulator) and MUJI Air Purifier (https://ifdesign.com/en/winner-ranking/project/muji-air-purifier/146835), both by MIYAKE Design Office (already in index as Muji A1/B4: add B7)",
+   "country": "Japan",
+   "dept": "Table, floor & stand fans; air purifier",
+   "region": "East Asia"
+  },
+  {
+   "n": "cado",
+   "layer": "premium",
+   "src": "https://en.cado.com/about/philosophy",
+   "says": "Self-description: cado AP-C700 the first Japanese air purifier to reach the world's highest AHAM CADR rating; design-led purifiers and humidifiers since 2012 (already in index as B6: add B7; self-sourced)",
+   "country": "Japan",
+   "dept": "Air purifier; humidifier",
+   "region": "East Asia"
   }
  ],
  "add_regions": [
@@ -325,8 +343,25 @@
    ]
   }
  ],
- "drop": [],
- "notes": "",
+ "drop": [
+  {
+   "n": "Vortice",
+   "why": "duplicate of existing index entry 'Vortice Elettrosociali' (B7); merge the Compasso d'Oro/MoMA evidence into that row instead of a new brand"
+  },
+  {
+   "n": "Activa",
+   "why": "only source is a CashKaro CEILING-fan list; ceiling fans are G3, no evidence for any B7 product"
+  },
+  {
+   "n": "Candes",
+   "why": "same CashKaro ceiling-fan source only (G3); re-source with a table/pedestal fan page or drop"
+  },
+  {
+   "n": "Orpat",
+   "why": "same CashKaro ceiling-fan source only (G3); re-source with a table/pedestal fan page or drop"
+  }
+ ],
+ "notes": "Accuracy 5/25 wrong: all 25 names appear on their pages, but five rows do not support a B7 entry: three rest on ceiling-fan lists (Atomberg, Khaitan, Activa; ceiling fans are G3), Mallory is marked premium on a page that says it had no approved wall model, and the Defy page mentions no climate product. Re-source Atomberg/Khaitan (both make pedestal and table fans) and Defy; set Mallory to cultural. Weak but accepted rows: FREGO, Trotec, Argo, Rinnai, Ballu, Rubson, cado (self-descriptions); Senko (retailer blog); Indian/Philippine fan lists (affiliate). Khind and Taurus Wikipedia pages name the companies but do not mention fans or heaters. Thin areas retried: neck/personal fans (the CNN, Wirecutter, Good Housekeeping and Independent tests name only Torras, Jisulife and Shark, all already known, plus Amazon labels; nothing added); desert coolers (Kenstar and Orient Electric added; Symphony known); punkah (no named maker or seller found); tiled stoves (kachelofen are built-in heating, G3; not searched further); sandali/korsi (heated low tables, B1 by the category exclusion); kanoun/mangal braziers (search found no specialist maker or seller pages; still a gap); Central Asia (Artel, Uzbekistan, is the region's appliance leader, but the pages show split ACs and white goods, not portable climate; not added); North Africa (Fresh Electric, Egypt, added; Algeria's Condor only named as an OEM customer); CEE (Ballu added, self-sourced; Timberk and Polaris only on their own homepages); EPV heaters (Noirot, Atlantic, Thermor, Sauter make wall-mounted electric radiators and towel rails, which are G3 built-in, so not added to B7); Japanese shinise (Rinnai 1920, Zojirushi 1918, Iwatani already in; Mizutori-zousan desiccant search returned nothing); Imetec (Tenacta page: Italian category leader, but no climate product named), Bimar (self history only), Cecotec (retail/affiliate rankings only) and Princess (only a Consumentenbond brand list) remain without quality evidence; Goldair added as cultural (RNZ); uHoo added as premium (SafeWise award). Also: Pakistan's Gujrat/Gujranwala fan cluster (TDAP, World Bank) added as a region with 5 tier-1 makers; Korea's Shinil, Taiwan's Tatung, Thailand's Hatari, Argentina's Liliana and Nigeria's Binatone fill everyday-icon gaps; British paraffin heaters (Aladdin, Valor) and US Perfection fill heritage gaps. Existing index rows to extend with B7: Tatung (D1), Zojirushi (B6/B5), Hitachi (B6/G3), Aladdin Industries (B3), Valor (G3), Miyako (B5), cado (B6), Muji (A1/B4). Remaining blind spots: Turkish/Iranian/Moroccan braziers and their sellers; Gulf brands (only FREGO); Sub-Saharan Africa beyond Nigeria and South Africa; Japanese kotatsu/hibachi makers beyond two sellers; Mexican and Andean brands; quality summit for heaters (no independent test lists fetched; Which?, CHOICE and Consumer Reports are paywalled).",
  "accuracy": {
   "checked": 25,
   "wrong": 5,
