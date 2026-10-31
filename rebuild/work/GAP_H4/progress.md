@@ -8,3 +8,4 @@ step6: apply3 (LouLou, Eden) done; 24 perfumes moved in total; fetches ~58. Writ
 ROUND2 started: read PI A-Z pages for remaining 444; then owners. fetch count reset (r2=0)
 r2: 10 fetches used; hits in r2hits.tsv (apply later via apply_r2.py). Tip: next-chapter p1 prev link gives last page of previous chapter; chapters ~3-8 pages
 r2: 15 fetches used (k1p3,k1p4,a5p4-6 etc). Owners part next.
+r2: ~27 fetches used. Owners found: Dana->Dana Classic Fragrances 2003 (Tabu page); Britney->Elizabeth Arden; Rebelle/Rogue->Parlux; Fame/Glowing/Celine/Rise->Coty (r2owners.tsv). Houbigant, Piguet, Guy Laroche, Faberge, Gres: no owner stated on en wiki (2 attempts each incl. search). Back to PI pages.
