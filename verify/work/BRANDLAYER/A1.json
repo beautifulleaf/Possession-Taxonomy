@@ -480,7 +480,7 @@
    "years": "1953-2025",
    "names_on_page": 11,
    "new_names": 2,
-   "status": "partial",
+   "status": "done",
    "note": "raw; about-page alumni only; history/finals/designers pages being fetched; 0 known, 0 pending elsewhere"
   },
   {
@@ -492,6 +492,66 @@
    "new_names": 19,
    "status": "done",
    "note": "raw; designers page (winners/finalists 2019-2025) and news/history-international-woolmark-prize (1953-2022 winners); both URLs; 27 known, 17 pending elsewhere"
+  },
+  {
+   "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "title": "Japanese Wikipedia: list of Japanese long-established firms (shinise), raw",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 25,
+   "new_names": 10,
+   "status": "done",
+   "note": "raw; clothing/kimono/tailor/hat/hosiery entries only (textile mills skipped as fabric); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://andam.fr/en/winners/",
+   "title": "ANDAM Fashion Awards winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": "6",
+   "new_names": 0,
+   "status": "partial",
+   "note": "only the 2026 winners page is fetchable (Marie Adam-Leenaerdt, Pauline Dujancourt, Anthony Calydon, Philéo, Alphalyr, Pili); older years exist only as per-laureate pages not listed on a fetched index (wikipedia Andam URL is a surname page); the Y/Project, Pigalle Paris, AMI winners are known/ not enumerated. 2026 winners are single-designer labels not in register but not recorded as brands (names are persons/startups)"
+  },
+  {
+   "url": "https://interbrand.com/best-global-brands/global/hermes",
+   "title": "Interbrand Best Global Brands 2026 (apparel/luxury rows)",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": "100",
+   "new_names": 0,
+   "status": "done",
+   "note": "raw search-excerpt of ranking page lists Hermès, Louis Vuitton, Chanel, Nike, Zara, UNIQLO, adidas, H&M, Dior, Gucci, Prada: all already known; no new"
+  },
+  {
+   "url": "https://brandfinance.com/press-releases/nike-is-strongest-apparel-brand-globally-in-2025-chanel-is-most-valuable",
+   "title": "Brand Finance Apparel 50 2025 press release (raw)",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": "6",
+   "new_names": 0,
+   "status": "partial",
+   "note": "names Nike, Chanel, Louis Vuitton, Reebok, Adidas, New Balance, Bosideng (all known); full 50-name table not published on the fetched page (locked PDFs)"
+  },
+  {
+   "url": "https://uibm.mise.gov.it/index.php/it/marchio-storico-di-interesse-nazionale",
+   "title": "Italian Registro speciale dei marchi storici di interesse nazionale",
+   "kind": "heritage",
+   "years": "2019-2025",
+   "names_on_page": "0",
+   "new_names": 0,
+   "status": "blocked",
+   "note": "register is a JS database (uibm.gov.it/bancadati); no static list page found; marchistorici.com report PDF gives sector stats only"
+  },
+  {
+   "url": "https://www.economie.gouv.fr/entreprises/developper-son-entreprise/labels-qualite-et-valorisation-du-savoir-faire/le-label-entreprise-du-patrimoine-vivant-epv-quels-avantages",
+   "title": "Entreprise du Patrimoine Vivant label",
+   "kind": "heritage",
+   "years": "2005-2026",
+   "names_on_page": "0",
+   "new_names": 0,
+   "status": "blocked",
+   "note": "official EPV directory not found as a fetchable list; only label description and company self-descriptions (e.g. A&B Couture ateliers) found"
   }
  ],
  "brands": [
@@ -2338,6 +2398,96 @@
    "says": "International Woolmark Prize winner/finalist",
    "country": "",
    "dept": "",
+   "already": false
+  },
+  {
+   "n": "Fukusuke",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "福助 1882 tabi, socks, underwear",
+   "already": false
+  },
+  {
+   "n": "Obex",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "オーベクス (Tokyo Boshi, 1892) hats",
+   "already": false
+  },
+  {
+   "n": "Hasegawa Somemono-ten",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "長谷川染物店 1754 dyeing",
+   "already": false
+  },
+  {
+   "n": "Tomita-ya",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "冨田屋 1885 kimono",
+   "already": false
+  },
+  {
+   "n": "Tomihiro",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "とみひろ 1578 kimono",
+   "already": false
+  },
+  {
+   "n": "Ginza Echigoya",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "銀座越後屋 1755 kimono",
+   "already": false
+  },
+  {
+   "n": "Chikusen",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "竺仙 1841 kimono",
+   "already": false
+  },
+  {
+   "n": "Shibata Otokichi Yofukuten",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "柴田音吉洋服店 1880 tailor",
+   "already": false
+  },
+  {
+   "n": "Horiuchi Yofukuten",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "堀内洋服店 1895 tailor",
+   "already": false
+  },
+  {
+   "n": "Takahashi Yofukuten",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E8%80%81%E8%88%97%E4%B8%80%E8%A6%A7",
+   "says": "listed as a Japanese shinise (long-established firm)",
+   "country": "Japan",
+   "dept": "高橋洋服店 1903 tailor",
    "already": false
   }
  ],
