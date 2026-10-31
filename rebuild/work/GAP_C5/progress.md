@@ -8,3 +8,4 @@ step6: TI versions, Sailor Realo/1911 Jr done (fetches ~29)
 step7: abacus +8, mech pencil +6 (fetches ~33)
 step8: Kaweco +12 (fetches ~37)
 step9: Iroshizuku 23, Noodlers 30 colours as versions (fetches ~41)
+step10: coverage lines rewritten on all 70 kinds with entries (fetches ~42). Next: marker market page, then report

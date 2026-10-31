@@ -97,6 +97,53 @@ bu={"Oldsmobile":{"own":GM,"c":US},"Saturn":{"own":GM,"c":US},"Auburn":{"own":"C
 "Ram":{"c":"United States; Canada"},"Ford":{"c":US},"Tesla":{"c":US},"Lincoln":{"c":US},"AMC":{"c":US},"GMC":{"c":"United States; Canada"}}
 for n,c,i in B:
     if n not in bu and c: bu[n]={"c":c}
+
+import re,json as _j
+KM={"S":"Saloon","E":"Estate","M":"MPV","U":"SUV","MC":"Muscle car","SP":"Sports car","R":"Roadster","C":"Coupé","H":"Hatchback","LS":"Luxury saloon","GT":"Grand tourer","L":"Limousine","CV":"Convertible","N":"Car, body style not stated"}
+cars=_j.load(open("/home/user/Possession-Taxonomy/rebuild/out/G1_parts/CARS.json"))
+ex=set()
+for dp in cars["depts"]:
+  for sh in dp["s"]:
+    for k in sh["k"]:
+      for e in k.get("x",[]): ex.add(e["n"].lower())
+for k,v in K.items():
+  for e in v: ex.add(e["n"].lower())
+GG="Global group";IN="Independent"
+META={"Oldsmobile":(GM,GG,US),"Saturn":(GM,GG,US),"Buick":(GM,GG,US),"Cadillac":(GM,GG,US),"Chevrolet":(GM,GG,US),"Dodge":("Stellantis North America",GG,US),"Jeep":("Stellantis North America",GG,US),"Chrysler":("Stellantis",GG,US),"Ford":("Ford Motor Company",GG,US),"Troller":("Ford do Brasil",GG,"Brazil"),"Auburn":("Cord Automobile",IN,US),"Nash":("Nash-Kelvinator Corporation",IN,US),"Gurgel":("",IN,"Brazil")}
+CT={"Brazil":["Puma","Brasinca","FNM","Santa Matilde","Dardo","Lobini","Gurgel","Troller"],"Argentina":["Anasagasti","Sero"]}
+def meta(mk):
+    if mk in META: return META[mk]
+    c=US if mk in ("Hudson","Studebaker","Edsel","Imperial","Eagle","Geo","Duesenberg","Cord","DeLorean","Mercury","Plymouth","DeSoto","Hummer","GMC","AMC","Tesla","Shelby","Rivian","Lucid","Fisker") else ("Brazil" if mk in CT["Brazil"] else ("Argentina" if mk in CT["Argentina"] else ""))
+    return ("",IN,c)
+for line in open("work/CARS_ADD_AMERICAS/data2b.txt"):
+    if line.startswith("#") or not line.strip(): continue
+    kc,mk,n,y=line.rstrip("\n").split("|")
+    if n.lower() in ex: continue
+    ex.add(n.lower())
+    own,tier,c=meta(mk)
+    e={"n":n,"mk":mk,"y":y,"g":mk,"s":"https://en.wikipedia.org/wiki/"+n.replace(" ","_"),"v":[],"tier":tier}
+    if own:e["own"]=own
+    if c:e["cty"]=c
+    K[KM[kc]].append(e)
+for k,v in K.items():
+  for e in v:
+    if "tier" not in e:
+      own,tier,c=meta(e["mk"]); e["tier"]=tier
+      if own: e["own"]=own
+      if c: e["cty"]=c
 out={"kinds":dict(K),"brands":brands,"brand_updates":bu}
+
+for n,b in bu.items():
+    o,t,c=meta(n) if n not in ("Ram",) else ("Stellantis",GG,US)
+    b["tier"]=t if n not in ("Tesla","Lincoln","Jeep","Ford") else b.get("tier",t)
+bu["Ford"]={"own":"Ford Motor Company","tier":GG,"c":US}
+bu["Lincoln"]={"own":"Ford Motor Company","tier":GG,"c":US}
+bu["Tesla"]["tier"]=IN
+bu["Ram"]={"own":"Stellantis","tier":GG,"c":"United States; Canada"}
+bu["Jeep"]["tier"]=GG
+bu["Chrysler"]={"own":"Stellantis","tier":GG,"c":US}
+for n,c,u in [("Puma","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Brasinca","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("FNM","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Santa Matilde","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Dardo","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Lobini","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Anasagasti","Argentina","https://en.wikipedia.org/wiki/List_of_car_models_commercialized_in_Argentina"),("Sero","Argentina","https://en.wikipedia.org/wiki/List_of_car_models_commercialized_in_Argentina")]:
+    brands.append({"n":n,"c":c,"s":u}); bu[n]={"c":c,"tier":IN}
+out["brands"]=brands;out["brand_updates"]=bu
 json.dump(out,open("out/G1_parts/cars_add/AMERICAS.json","w"),ensure_ascii=False,indent=1)
 print(sum(len(v) for v in K.values()))
