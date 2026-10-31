@@ -28,3 +28,4 @@ Rules for the enrichment pass:
 - INDEX CLEANUP (E4): also Browning ('gun safes') and Wilkinson Sword ('razors') rows carry wrong E4 descriptions.
 - INDEX CLEANUP (E6): 'Fischer' row mixes fixings company with the barometer maker — split into Fischer (barometers). Open: Apogee Instruments vs Apogee Imaging Systems.
 - INDEX CLEANUP (F1): register 'Linn' row carries E3 (likely Roger Linn's drum machines, a different company) — split.
+- INDEX CLEANUP (E3): register 'King' row tagged J8 (crisps) and E3 — split.
