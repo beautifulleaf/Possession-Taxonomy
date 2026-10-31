@@ -170,6 +170,54 @@
    "status": "partial",
    "note": "portfolio grid (151 brands; hair care 37, hair color 46, styling 25, body care 8) is JavaScript-loaded; only names in prose/link slugs recorded. BLOCKED for owner paste.",
    "saturation": "1/4 new this source; earlier sources: 77/318 new"
+  },
+  {
+   "url": "https://www.elfbeauty.com/brands",
+   "title": "e.l.f. Beauty brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 0,
+   "known_confirmed": 6,
+   "status": "done",
+   "note": "complete: 5 brand pages + Keys Soulcare named in timeline",
+   "saturation": "0/6 new this source; earlier sources: 78/322 new"
+  },
+  {
+   "url": "https://www.revloncorp.com/pages/brands",
+   "title": "Revlon Our Brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 13,
+   "new_names": 5,
+   "known_confirmed": 8,
+   "status": "done",
+   "note": "Alfred Sung is a logo link only",
+   "saturation": "5/13 new this source; earlier sources: 78/328 new"
+  },
+  {
+   "url": "https://www.interparfumsinc.com/",
+   "title": "Interparfums brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 23,
+   "new_names": 0,
+   "known_confirmed": 23,
+   "status": "done",
+   "note": "fashion/jewellery houses licensed for fragrance; relevant to H1 as fragrance makers only",
+   "saturation": "0/23 new this source; earlier sources: 83/341 new"
+  },
+  {
+   "url": "https://www.groupeclarins.com/brands-clarins/",
+   "title": "Clarins Group brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 1,
+   "known_confirmed": 1,
+   "status": "partial",
+   "note": "page names Clarins and myBlend; group site also lists Thierry Mugler/Azzaro parfums in the past (not on fetched page); Orlane not named",
+   "saturation": "1/2 new this source; earlier sources: 83/364 new"
   }
  ],
  "brands": [
@@ -882,13 +930,66 @@
    "says": "listed in Henkel Consumer Brands (hair/beauty named in text)",
    "owner": "Henkel",
    "already": false
+  },
+  {
+   "n": "Revlon Colorsilk",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.revloncorp.com/pages/brands",
+   "says": "listed in Revlon Our Brands",
+   "owner": "Revlon",
+   "already": false,
+   "variant_of": "Revlon"
+  },
+  {
+   "n": "Revlon Professional",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.revloncorp.com/pages/brands",
+   "says": "listed in Revlon Our Brands",
+   "owner": "Revlon",
+   "already": false,
+   "variant_of": "Revlon"
+  },
+  {
+   "n": "Creme of Nature",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.revloncorp.com/pages/brands",
+   "says": "listed in Revlon Our Brands",
+   "owner": "Revlon",
+   "already": false
+  },
+  {
+   "n": "Cutex",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.revloncorp.com/pages/brands",
+   "says": "listed in Revlon Our Brands",
+   "owner": "Revlon",
+   "already": false
+  },
+  {
+   "n": "SinfulColors",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.revloncorp.com/pages/brands",
+   "says": "listed in Revlon Our Brands",
+   "owner": "Revlon",
+   "already": false
+  },
+  {
+   "n": "myBlend",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.groupeclarins.com/brands-clarins/",
+   "says": "listed in Clarins Group brands",
+   "owner": "Clarins Group",
+   "already": false
   }
  ],
  "next": [
-  "Revlon",
-  "e.l.f.",
   "Natura &Co",
-  "Interparfums",
   "Clarins",
   "Pierre Fabre",
   "Galderma",

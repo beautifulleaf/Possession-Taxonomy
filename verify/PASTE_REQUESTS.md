@@ -20,3 +20,4 @@ Collected from BRANDLAYER and retailer work; one line per page, with why it matt
 | J7 | IDAC 2019 press kit PDF (Normandy cider, perry and pommeau appellations) | all fetchers fail | appellation list |
 | H1 | Allure Best of Beauty winners pages (all categories, any years) | allure.com returns 1–4 lines to every fetcher | juried beauty awards |
 | H1 | Hwahae Awards winners (the Google Sheet linked from the awards page) | sheet not readable by fetchers | Korean skincare awards |
+| H1 | Marie Claire UK Prix d'Excellence winners; Good Housekeeping UK Beauty Awards; Cosmopolitan UK Readers' Choice; Byrdie Beauty Awards; @cosme Best Cosmetics; Nykaa Femina Beauty Awards; National Eczema Association Seal of Acceptance directory | navigation-only or JavaScript pages | beauty quality evidence |

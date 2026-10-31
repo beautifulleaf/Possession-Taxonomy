@@ -1337,12 +1337,6 @@
    "why": "TheFramebuilders directory entry: existence only (no quality judgement on page)"
   },
   {
-   "n": "Cherubim",
-   "from": "premium",
-   "to": "listed",
-   "why": "TheFramebuilders directory entry: existence only (no quality judgement on page)"
-  },
-  {
    "n": "Chesini",
    "from": "premium",
    "to": "listed",
@@ -3265,6 +3259,20 @@
    "from": "premium",
    "to": "listed",
    "why": "Practical Caravan best-makes page: shortlisted only"
+  },
+  {
+   "n": "Cherubim",
+   "from": "premium",
+   "to": "premium",
+   "src": "https://velo.outsideonline.com/road/road-culture/the-home-of-cherubim",
+   "why": "keep premium but re-source: harvest src is TheFramebuilders (existence only); Velo page names Cherubim 'known worldwide for craftsmanship'"
+  },
+  {
+   "n": "Fairey Marine",
+   "from": "cultural",
+   "to": "premium",
+   "src": "https://www.classicboat.co.uk/events/classic-boat-awards-2026-results",
+   "why": "Classic Boat Awards 2026 Restored Power Vessels winner: Double Century (Fairey Huntsman)"
   }
  ],
  "field_fixes": {
@@ -3702,6 +3710,69 @@
    "says": "A1 Steam Locomotive Trust: Tornado's main frames assembled at Tyseley Locomotive Works, Birmingham",
    "country": "United Kingdom",
    "dept": "Heritage rail"
+  },
+  {
+   "n": "Squero di San Trovaso",
+   "layer": "cultural",
+   "src": "https://www.mycornerofitaly.com/venetian-squero/",
+   "says": "one of only 5 surviving Venetian squeri building gondolas (Dorsoduro, dating to c.1600); also named by Meeting Venice (Coop. di S. Trovaso)",
+   "country": "Italy",
+   "dept": "Boats (gondola)",
+   "region": "Venice, Italy"
+  },
+  {
+   "n": "Squero Crea",
+   "layer": "cultural",
+   "src": "https://www.mycornerofitaly.com/venetian-squero/",
+   "says": "one of the 5 surviving Venetian squeri (Giudecca 212)",
+   "country": "Italy",
+   "dept": "Boats (gondola)",
+   "region": "Venice, Italy"
+  },
+  {
+   "n": "Squero Costantini-Dei Rossi",
+   "layer": "cultural",
+   "src": "https://www.mycornerofitaly.com/venetian-squero/",
+   "says": "one of the 5 surviving Venetian squeri (Giudecca 866/A)",
+   "country": "Italy",
+   "dept": "Boats (gondola)",
+   "region": "Venice, Italy"
+  },
+  {
+   "n": "Squero di San Giuseppe",
+   "layer": "cultural",
+   "src": "https://www.mycornerofitaly.com/venetian-squero/",
+   "says": "one of the 5 surviving Venetian squeri (Castello 625/A)",
+   "country": "Italy",
+   "dept": "Boats (gondola)",
+   "region": "Venice, Italy"
+  },
+  {
+   "n": "Saverio Pastor (Le Fórcole)",
+   "layer": "cultural",
+   "src": "https://www.meetingvenice.it/it/arte-e-storia/tradizioni/gondole-forcole-e-remi",
+   "says": "one of the very few remaining Venetian remeri making gondola forcole (oarlocks) and oars",
+   "country": "Italy",
+   "dept": "Boats (gondola parts)",
+   "region": "Venice, Italy"
+  },
+  {
+   "n": "Furlanetto (remer, Venice)",
+   "layer": "cultural",
+   "src": "https://www.meetingvenice.it/it/arte-e-storia/tradizioni/gondole-forcole-e-remi",
+   "says": "F. Furlanetto, one of the very few Venetian remeri still making forcole and oars",
+   "country": "Italy",
+   "dept": "Boats (gondola parts)",
+   "region": "Venice, Italy"
+  },
+  {
+   "n": "Paolo Brandolisio (remer, Venice)",
+   "layer": "cultural",
+   "src": "https://www.meetingvenice.it/it/arte-e-storia/tradizioni/gondole-forcole-e-remi",
+   "says": "P. Brandolisio, one of the very few Venetian remeri still making forcole and oars",
+   "country": "Italy",
+   "dept": "Boats (gondola parts)",
+   "region": "Venice, Italy"
   }
  ],
  "add_regions": [
@@ -3769,6 +3840,22 @@
     "Woodbridge and Waldringfield Boatyard",
     "Dennetts Boatbuilders"
    ]
+  },
+  {
+   "region": "Venice, Italy",
+   "speciality": "gondolas built in squeri by maestri d'ascia from eight woods; forcole and oars by remeri",
+   "src": "https://www.mycornerofitaly.com/venetian-squero/",
+   "brands": [
+    "Tramontin",
+    "Squero di San Trovaso",
+    "Squero Crea",
+    "Squero Costantini-Dei Rossi",
+    "Squero di San Giuseppe",
+    "Saverio Pastor (Le Fórcole)",
+    "Furlanetto (remer, Venice)",
+    "Paolo Brandolisio (remer, Venice)"
+   ],
+   "note": "extends the harvest's Venice region (Tramontin only)"
   }
  ],
  "homonym_adds": [
