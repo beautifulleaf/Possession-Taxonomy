@@ -88,3 +88,69 @@ for n in SO: B.append(dict(n=n,dept='B',own='',own_y='',cty='Bangladesh' if 'Ban
 B.append(dict(n='Proraso',dept='S',own='',own_y='',cty='',d=None,src='CSO'))
 B.append(dict(n='Dollar Shave Club',dept='S',own='',own_y='',cty='United States',d='Direct-to-consumer razor club; 8.5% of the US razor-blade market in 2018 and 16% of cartridge share in 2016 per Beautymatter.',src='BM'))
 TIER_GLOBAL=set(GROUPS+[HULn])
+
+# ---- round 2 additions ----
+U.update({
+'PGUS':'https://us.pg.com/brands/','PGARS':'https://www.sec.gov/Archives/edgar/data/0000080424/000119312526372220/pg_ars_2026.pdf',
+'CPOWN':'https://www.colgatepalmolive.com/en-us/brands','EDOWN':'https://edgewell.com/pages/our-brands','KENOWN':'https://www.kenvue.com/brands',
+'HALOWN':'https://www.haleon.com/our-brands','HALF':'https://www.haleon.com/who-we-are/facts-and-figures','BEIOWN':'https://www.beiersdorf.com/brands','BEIOTH':'https://www.beiersdorf.com/brands/other-iconic-brands',
+'LOROWN':'https://www.loreal.com/en/our-global-brands-portfolio/','UNICAT':'https://en.wikipedia.org/wiki/Category:Unilever_brands','PGCAT':'https://en.wikipedia.org/wiki/Category:Procter_%26_Gamble_brands',
+'CPCAT':'https://en.wikipedia.org/wiki/Category:Colgate-Palmolive_brands','HALCAT':'https://en.wikipedia.org/wiki/Category:Haleon_brands','LG':'https://en.wikipedia.org/wiki/LG_Household_%26_Health_Care',
+'GOL':'https://en.wikipedia.org/wiki/Golrang_Industrial_Group','BID':'https://en.wikipedia.org/wiki/Bidco_Africa','PZ':'https://en.wikipedia.org/wiki/PZ_Cussons','MGC':'https://mygreencloset.com/small-batch-beauty-brands/',
+'GD':'https://www.globaldata.com/store/?p=2597555','RP':'https://www.reportprime.com/electric-toothbrush-r2919/company','PHIL':'https://en.wikipedia.org/wiki/Philishave','ELS':'https://en.wikipedia.org/wiki/Electric_shaver'})
+SRC_OVR={}  # (dept,name)->src key
+def ov(dept,src,names):
+    for n in names: SRC_OVR[(dept,n.lower())]=src
+ov('H','PGUS',['Aussie','Head & Shoulders','Herbal Essences','Pantene'])
+ov('S','PGUS',['Gillette','Braun','Old Spice'])
+ov('O','PGUS',['Crest','Oral-B','Scope','Fixodent'])
+ov('B','PGUS',['Always','Tampax','Ivory','Native','Secret','Olay','Pampers','Luvs'])
+ov('O','CPOWN',['Colgate','Tom\'s of Maine','Elmex','Meridol'])
+ov('B','CPOWN',['Palmolive','Protex','Irish Spring','Softsoap','Sanex','Speed Stick'])
+ov('S','EDOWN',['Schick','Wilkinson Sword','Edge','Skintimate','Billie','Cremo','Jack Black'])
+ov('O','KENOWN',['Listerine']); ov('B','KENOWN',['Johnson\'s Baby'])
+ov('O','HALOWN',['Sensodyne','Polident','Parodontax'])
+ov('B','BEIOWN',['Nivea']); ov('B','BEIOTH',['8x4'])
+ov('H','LOROWN',['Biolage','Color Wow','Kérastase','L\'Oréal Professionnel','Matrix','Mizani','PulpRiot','Pureology','Redken','Shu Uemura Art of Hair','Garnier','L\'Oréal Paris','Dark and Lovely'])
+a('H',PGn,'PGUS',['My Black Is Beautiful'])
+a('H',PGn,'PGARS',['Rejoice'])
+a('S',PGn,'PGUS',['joy+glee','The Art of Shaving'])
+a('S',PGn,'PGARS',['Venus'])
+a('B',PGn,'PGUS',['Always Discreet','This is L','Safeguard','Ninjamas'])
+a('B',PGn,'PGUS',[])
+a('O',CPn,'CPOWN',['Sorriso'])
+a('B',CPn,'CPOWN',['Lady Speed Stick','Tahiti'])
+a('B',CPn,'CPCAT',['Baby Magic','Soaky','Teen Spirit','Vel Soap'])
+a('S',EDn,'EDOWN',['Intuition','Hydro Silk'])
+a('H',KEn,'KENOWN',['OGX']); a('B',KEn,'KENOWN',['Neutrogena','Aveeno'])
+a('O',HAn,'HALOWN',['Aquafresh'])  # facts page lists Aquafresh
+ov('O','HALF',['Aquafresh'])
+a('H',BEn,'BEIOTH',['Beiersdorf Hair Care China (Maestro)'],cty='China'); a('B',BEn,'BEIOTH',['D\'Dusch Shower','Hidrofugal'])
+a('H',UNn,'UNICAT',['Aqua Net','Salon Selectives','Timotei'])
+a('B',UNn,'UNICAT',['Lady\'s Choice','Crisp \'n Dry'])
+a('S',UNn,'UNICAT',['Brut'])
+# national champions / independents
+for n in ['Elastine','Reen']:
+    B.append(dict(n=n,dept='H',own='LG Household & Health Care',own_y='',cty='South Korea',d=None,src='LG',tier_o='National champion',g_o='National champions and independents'))
+B.append(dict(n='Perioe',dept='O',own='LG Household & Health Care',own_y='',cty='South Korea',d=None,src='LG',tier_o='National champion'))
+B.append(dict(n='ON: THE BODY',dept='B',own='LG Household & Health Care',own_y='',cty='South Korea',d=None,src='LG',tier_o='National champion'))
+B.append(dict(n='Pakshoo',dept='B',own='Golrang Industrial Group',own_y='',cty='Iran',d='Iranian hygiene, cosmetics and detergent maker, described on Wikipedia as the biggest private-sector maker of its range in Iran.',src='GOL',tier_o='National champion'))
+B.append(dict(n='Golrang',dept='B',own='Golrang Industrial Group',own_y='',cty='Iran',d=None,src='GOL'))
+for n,y in [('Cowboy',None),('Pure and Natural',None),('Nuru',None),('Gaea',None),('Germonil',None)]:
+    B.append(dict(n=n,dept='B',own='Bidco Africa',own_y='2002' if n=='Cowboy' else '',cty='Kenya',d=('Kenyan soap brand that came to Bidco with the 2002 purchase of Unilever\'s Kenyan edible-oil and soap business.' if n=='Cowboy' else None),src='BID'))
+OVR={('B','imperial leather'):dict(own='PZ Cussons',src='PZ',d='Soap range that Wikipedia calls PZ Cussons\' main brand; Nigeria is the company\'s largest market.')}
+CR=[('The Innate Life','H','Canada','Hair care: shampoo, conditioner, scalp treatment and hair oil.'),('Less is More','H','Austria','Hair care: Neem scalp-relief shampoo and herbal tonic.'),
+('Oil + Water','B','United States','New York maker of soaps, face oil, face mist and clay mask.'),('Magic Organic Apothecary','B','United Kingdom','English maker of body oil and multi-purpose balm.'),
+('Sḵwálwen Botanicals','B','Canada','Hand-made cleansing bar and facial serums, made in small batches.'),('Pure Skin Food','B','Austria','Body and face care products.'),('Meow Meow Tweet','B','','Baking-soda-free deodorant.')]
+for n,dp,c,d in CR:
+    B.append(dict(n=n,dept=dp,own=n,own_y='',cty=c,d=d,src='MGC',tier_o='Craft & indie',g_o='Craft and indie'))
+# L'Oréal Carol's Daughter sold
+OVR[('H',"carol's daughter")]=dict(own='',d='Hair-care brand L\'Oréal acquired in 2014 and sold in March 2025, per Wikipedia; no current owner on a fetched page.',src='LOR')
+B.sort(key=lambda b: 0 if b['own'] else 1)
+for b in B:
+    k=(b['dept'],b['n'].lower())
+    if k in SRC_OVR: b['src']=SRC_OVR[k]
+    if k in OVR: b.update(OVR[k])
+TIER_GLOBAL=set(GROUPS+[HULn])
+DEV_OWN2={'braun':(PGn,''),'oral-b':(PGn,''),'waterpik':(CDn,'2017'),'philips sonicare':('Philips','2000'),'sonicare':('Philips','2000'),'philips':('Philips',''),'philishave':('Philips',''),'gillette':(PGn,''),
+ 'wahl':('Wahl',''),'remington':('Remington Products',''),'panasonic':('Panasonic',''),'dyson':('Dyson',''),'homedics':('HoMedics',''),'therabody':('Therabody',''),'schick':(EDn,''),'oster':('Oster',''),'andis':('Andis',''),'babyliss':('BaByliss',''),'conair':('Conair','')}

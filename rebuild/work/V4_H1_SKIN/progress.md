@@ -9,3 +9,4 @@ step7: wrote data_groups.py (group portfolios)
 step8: wrote data_others.py
 step9: build.py assembly functions written (build_dept, product_shelves); next: ms panels, dept dicts, validate
 step10: build.py runs; part written; validating
+step11 done: report written; DONE

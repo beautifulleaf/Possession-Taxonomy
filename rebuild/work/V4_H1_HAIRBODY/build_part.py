@@ -19,7 +19,7 @@ def ownfields(name):
     b=OWNMAP.get(name.lower())
     if b:
         return b['own'],b['own_y'],b['cty']
-    k=DEV_OWN.get(name.lower())
+    k=DEV_OWN2.get(name.lower())
     if k: return k[0],k[1],''
     return '','',''
 def tier(own,name):
@@ -41,6 +41,7 @@ def gkey(e):
     if g.startswith('Global group: '):
         o=g[14:]; return (0,GROUPS.index(o),e['n'].lower())
     if g.startswith('Indep'): return (1,0,e['n'].lower())
+    if g.startswith('Craft'): return (1,1,e['n'].lower())
     return (2,0,e['n'].lower())
 for dn,code in NAMES.items():
     d=old[dn]; reg={}
@@ -54,6 +55,9 @@ for dn,code in NAMES.items():
             if b['dept']!=code: continue
             e=brand(b['n'],U[b['src']],b['d'])
             e['own']=b['own'];e['own_y']=b['own_y'];e['cty']=b['cty']
+            if b.get('tier_o'): e['tier_o']=b['tier_o']
+            if b.get('g_o'): e['g_o']=b['g_o']
+            if b.get('d') and not e['d']: e['d']=b['d']
     cnt={'moved_x':0,'m_ver':0,'m_ent':0,'r_drop':0}
     samekinds=[]
     for sh in d['s']:
@@ -139,12 +143,12 @@ for dn,code in NAMES.items():
             e['d']=(e['n']+' is a '+bt+' brand of '+ow+'.') if ow else (e['n']+' is a '+bt+' brand; no fetched page names its owner.')
             if e.get('own_y'): e['d']=e['d'][:-1]+', acquired '+e['own_y']+'.'
         e['mk']=e['n']
-        e['tier']=tier(e.get('own',''),e['n'])
+        e['tier']=e.pop('tier_o',None) or tier(e.get('own',''),e['n'])
         if not e.get('own'): e.pop('own',None);e.pop('tier',None)
         if not e.get('own_y'): e.pop('own_y',None)
         if not e.get('cty'): e.pop('cty',None)
         if not e['v']: e.pop('v')
-        e['g']=gname(e)
+        e['g']=e.pop('g_o',None) or gname(e)
         ents.append(e)
     # roles
     for e in ents:
