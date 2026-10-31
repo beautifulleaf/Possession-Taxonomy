@@ -265,6 +265,71 @@
    ],
    "found": 3,
    "note": "Poland/Czech/Hungary not tried"
+  },
+  {
+   "axis": "kind",
+   "item": "Enthusiast keyboards > Switches (switch makers)",
+   "queries": [
+    "mechanical keyboard switch brands guide"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "African computer manufacturer laptop brand",
+    "Sub-Saharan Africa PC hardware maker"
+   ],
+   "found": 0,
+   "note": "global market, nothing distinctive (only assembly for Positivo BGH in Rwanda, distributors Syntech/Mitsumi; Taifa laptop prototype)"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Egypt Morocco Tunisia computer hardware manufacturer brand"
+   ],
+   "found": 0,
+   "note": "global market, nothing distinctive (distributors only)"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Kazakhstan Uzbekistan computer hardware manufacturer brand"
+   ],
+   "found": 0,
+   "note": "global market, nothing distinctive (importers only)"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Category:Computer companies of Iran/Jordan"
+   ],
+   "found": 0,
+   "note": "global market, nothing distinctive"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Category:Computer companies of Mexico",
+    "Positivo (Brazil) seen in Yahoo profile only"
+   ],
+   "found": 0,
+   "note": "global market, nothing distinctive (Positivo Tecnologia named in search excerpts only, not recorded)"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Category:Computer companies of Malaysia"
+   ],
+   "found": 0,
+   "note": "global market, nothing distinctive"
   }
  ],
  "regions": [
@@ -516,6 +581,34 @@
     "Ei Niš",
     "Elektronorgtechnica",
     "Iskra Delta"
+   ]
+  },
+  {
+   "region": "Japan (switches)",
+   "speciality": "Topre electrocapacitive switches (HHKB, Realforce)",
+   "src": "https://hhkeyboard.us/guide/mechanical-keyboard-switches",
+   "brands": [
+    "Topre",
+    "HHKB",
+    "Realforce"
+   ]
+  },
+  {
+   "region": "Germany (switches)",
+   "speciality": "Cherry MX, origin of MX switch",
+   "src": "https://mkbguide.com/blog/best-mechanical-keyboard-switches-guide",
+   "brands": [
+    "Cherry"
+   ]
+  },
+  {
+   "region": "China (switches)",
+   "speciality": "Gateron, Kailh, Akko MX-compatible switches",
+   "src": "https://mkbguide.com/blog/best-mechanical-keyboard-switches-guide",
+   "brands": [
+    "Gateron",
+    "Kailh",
+    "Akko"
    ]
   }
  ],
@@ -989,6 +1082,26 @@
    "new_names": 1,
    "status": "done",
    "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://mkbguide.com/blog/best-mechanical-keyboard-switches-guide",
+   "title": "MKB Guide best mechanical keyboard switches 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 14,
+   "new_names": 3,
+   "status": "done",
+   "note": "review/affiliate guide; confirmed Cherry, Gateron, Kailh, Glorious, Wooting, ZealPC as known"
+  },
+  {
+   "url": "https://hhkeyboard.us/guide/mechanical-keyboard-switches",
+   "title": "HHKB guide to keyboard switches",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own guide; Topre 'lauded by enthusiasts' (not independent)"
   }
  ],
  "brands": [
@@ -3246,6 +3359,41 @@
    "says": "Wikipedia category row with own article (Serbia)",
    "country": "Serbia",
    "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Akko",
+   "layer": "cultural",
+   "src": "https://mkbguide.com/blog/best-mechanical-keyboard-switches-guide",
+   "says": "named low-cost CS switch brand in 2026 switch guide",
+   "country": "China",
+   "dept": "switches",
+   "already": false
+  },
+  {
+   "n": "Gazzew",
+   "layer": "cultural",
+   "src": "https://mkbguide.com/blog/best-mechanical-keyboard-switches-guide",
+   "says": "named enthusiast switch designer in 2026 switch guide",
+   "dept": "switches",
+   "already": false
+  },
+  {
+   "n": "Xtrfy",
+   "layer": "cultural",
+   "src": "https://mkbguide.com/blog/best-mechanical-keyboard-switches-guide",
+   "says": "K5 Pro TMR keyboard named in 2026 switch guide",
+   "country": "Sweden",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "HHKB",
+   "layer": "cultural",
+   "src": "https://hhkeyboard.us/guide/mechanical-keyboard-switches",
+   "says": "Happy Hacking Keyboard line featuring Topre switches, called notable by maker's guide",
+   "country": "Japan",
+   "dept": "keyboards",
    "already": false
   }
  ]
