@@ -7,7 +7,8 @@ def kind(name):
     for D in d['depts']:
         for S in D['s']:
             for K in S['k']:
-                if K['n']==name: return K
+                if K['n']==name:
+                    K.setdefault('x',[]); return K
     raise KeyError(name)
 def dept(name):
     return [D for D in d['depts'] if D['n']==name][0]
@@ -132,7 +133,7 @@ for kn,cty in kc.items():
         e.setdefault('g',e['own'] if e['own']!='owner not stated' else 'Owner not stated')
 cnt=0
 for kn,n,cty,own,tier in rows:
-    Kk=kind(kn)
+    Kk=kind(kn); Kk.setdefault('x',[])
     ex={norm(e['n']) for e in Kk['x']}|{norm(e.get('mk','')) for e in Kk['x']}
     if norm(n) in ex: continue
     Kk['x'].append({'n':n,'a':'','d':f'Cigar marque made in {cty}; the list names {own} as maker or owner.','mk':n,'y':'','s':LIST,'g':own,'own':own,'tier':tier,'cty':cty})
@@ -163,6 +164,7 @@ def famof(n):
     return 'Other shapes'
 alias={'vestpocket':'vestpocket'}
 Kb=kind('Briar pipe'); Kf=kind('Freehand pipe'); Kc=kind('Calabash pipe')
+for _k in (Kb,Kf,Kc): _k.setdefault('x',[])
 allex={norm(e['n']) for k in (Kb,Kf,Kc) for e in k['x']}|{'vestpocket'}
 for e in Kb['x']:
     e['g']=famof(e['n']) if e['n'] not in('Sitter','Vest pocket','Tankard') else 'Other shapes'

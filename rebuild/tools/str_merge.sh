@@ -5,7 +5,7 @@ for c in "$@"; do
   python3 merge.py "$c" 2>&1 | grep -v '^done' | tail -4
   python3 validate.py --v3 "reader/$c.json" || exit 1
 done
-cd .. && git add -A && git commit -qm "Structure pass merged: $*
+cd .. && git add -A && git commit -qm "Merged: $*
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01E7ZePoyt9poV565DQZwoZn" && git push -q origin main && echo pushed
