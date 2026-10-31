@@ -12,3 +12,4 @@ OUTPUT verify/work/BRANDLAYER/AUDIT_<CODE>.json: {"cat","accuracy":{"checked":25
 REPLY: code, accuracy (wrong/checked), additions (brands/regions), drops, main blind spots.
 
 SELLERS OF TRADITIONAL ITEMS (owner 2026-10-31): when no named maker can be found for a traditional or regional product, a specialist retailer, cooperative, trading post or workshop shop that sells it may be recorded instead (layer "cultural", add "role":"seller"), on a fetched page naming it as a seller of that item. Prefer makers where they exist; general marketplaces (Etsy, Amazon) are not sellers in this sense.
+SELLER PRAISE: a shop's or dealer's praise of a brand it stocks (product page, brand page, shop blog) is not independent; tier such a brand "listed" unless another independent page supports quality.
