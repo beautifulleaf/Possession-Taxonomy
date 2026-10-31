@@ -4,3 +4,4 @@ step2 done: cigar additions applied (cigars.py), new kind country-not-stated, va
 step3: heated+vape pages read to end; applying vape.py
 step4 done: clean.py (loose models removed 98, nl/sel everywhere, pouch/snus entries). next: pipe blends gaps, makers unregistered, report
 step5 done: report written
+step6: second round started (items 1-5 from coordinator)

@@ -10,3 +10,4 @@ step8: build.py (boats) + air.py done -> boats_out.json air_out.json; next vehic
 step9: sail3 (rows to 533) added; part written+validated. Remaining: check counts, write report
 step10: report written. DONE.
 step11: coordinator follow-up: continue sail tail from OFFSET 533 (150/window), then aircraft makers, restore jets, add Husky/XCub/DA62/P2012
+step12: sail4.tsv (OFFSET 533 window, to Aero 20; ended in sitelinks=1 tier at 'A'). Next OFFSET 683 (u_683.txt)

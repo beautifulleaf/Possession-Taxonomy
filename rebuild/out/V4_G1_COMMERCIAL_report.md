@@ -1,23 +1,24 @@
-# V4_G1_COMMERCIAL report
+# V4_G1_COMMERCIAL report (round 2)
 
-Part file: rebuild/out/G1_parts/COMMERCIAL.json (about 297 KB). Validates OK (42 kinds, 834 entries). Replaces the four departments by their exact names.
+Part file: rebuild/out/G1_parts/COMMERCIAL.json (about 418 KB, 43 kinds, 1,374 entries); validates OK. Replaces the four departments by exact name. About 90 fetches in total.
 
 ## Entries before -> after (references)
-- Panel van 6 -> 173; Window van 2 -> 17: Wikipedia List of vans, read whole. Minivans and MPVs are left to Cars. The page is dated 2013 and gives class and years for only about half the rows. Volkswagen Type 2 became Volkswagen Transporter (T1 to T7 versions); Sprinter gained eSprinter and Classic versions.
-- Utility pickup (new kind, new shelf Pickups) 0 -> 275 from 282 rows of List of pickup trucks, read to the end (173,911 characters); concepts excluded; F-Series, Silverado, Sierra, Ram, Wingle and International Harvester weight classes folded into versions. Cars also holds a "Pickup truck" kind, so the two parts overlap; the merger should keep one.
-- Minibus 0 -> 1 (Toyota Coaster); Taxi 2 -> 2; Bus or coach 2 -> 3 (Bedford OB). Rigid truck, Tractor unit, Special-purpose truck stay kind-level: List of trucks (read 100,000 of 269,154 characters) is trade equipment under the scope rule.
-- Caravans and motorhomes 33 -> 167 entries: Thor Industries, Hymer, Winnebago Industries, Airstream, Swift Leisure and List of recreational vehicle manufacturers articles, plus the Knaus Tabbert press release. Utility trailer and Horsebox are commodity kinds with no entries.
-- Off-road 36 -> 95: All-terrain vehicle, Utility terrain vehicle, Polaris Inc., Arctic Cat, Club Car, Snowmobile, Golf cart and the BRP list. Complete for Club Car's named models. The ATV article was read only to 100,000 of 131,840 characters.
-- Heritage 36 -> 101: carriage, wagon and sleigh types from Horse-drawn vehicle (Wikipedia has no separate list of horse-drawn vehicles). Locomotive classes unchanged; no fetched page lists privately owned classes.
-
-## Market facts (department `ms`)
-Pickups: Ford Ranger 27,300 units in Europe (2015); China 378,000 (2010). RVs: 11.3 million US households (2021); Indiana about 85 % of sales (2019). Snowmobiles: 500,000 units (1971), 260,000 (1997).
+- Panel van 6 -> 173, Window van 2 -> 17: Wikipedia List of vans, read whole (dated 2013; minivans and MPVs left to Cars). Volkswagen Transporter carries T1 to T7 versions.
+- Utility pickup (new kind) 275 entries from 282 rows of List of pickup trucks, read to the end. The CARS part drops its Pickup truck kind.
+- Rigid truck 0 -> 237 and Heavy truck (new kind) 288: List of trucks, now read to its end (three windows, characters 0-269,154), split by the page's class column. Rows already under vans or pickups are not repeated. The Actros row was cut at a window edge.
+- Minibus 1, Taxi 2, Bus or coach 3. Tractor unit and Special-purpose truck have no entries (Tractor unit points to Heavy truck).
+- Caravans and motorhomes 33 -> 168 (Thor, Hymer, Winnebago, Airstream, Swift Leisure, RV manufacturers list, Knaus Tabbert release).
+- Off-road 36 -> 109. ATV article now read to its end (nothing after 100,000). Added Yamaha Kodiak, YFZ450R, Wolverine and Viking (atv.com, 2021 model year), Kawasaki Bayou, Brute Force, Prairie, KFX, Lakota and Mojave (List of Kawasaki motorcycles, no years), Suzuki KingQuad, Eiger, QuadSport and LT-R450 (atv.com, Powersports Business 2007).
+- Heritage 36 -> 101 (Horse-drawn vehicle article).
 
 ## Owners
-Thor Industries (Airstream 1980, Keystone 2001, Jayco 2016, Hymer 2019 per the Thor article; the Hymer article says 2018), Winnebago Industries (Newmar 2019), Club Car (Platinum Equity 2021), Arctic Cat (investment group 2025). Owners and tiers of road-vehicle marques are not from a fetched page and carry no `own_y`.
+`own`, `tier`, `cty` and `own_y` now come only from the fetched Wikipedia articles of Ford, Toyota (Daihatsu 2016, Hino to Archion 2026), Stellantis (2021), Isuzu (UD Trucks 2021), Traton (2021), Volvo Group (Renault Trucks, Mack 2000), Daimler Truck (2021), Paccar, Iveco (2022), Tata, Ashok Leyland, Mahindra (KGM 2022), Nissan, Mitsubishi, Hyundai (Kia 1998), Renault (Dacia 1999), Mercedes-Benz, GM, BRP, Honda, Suzuki and Kawasaki. Blank where a page is silent (Yamaha, Subaru, Mazda, Great Wall, Tesla). Hymer 2019 (Thor page) against 2018 (Hymer page) is unresolved. 15 owner brands added to the register; about 150 truck makers used as `mk` are not registered.
 
-## Removed loose models (`m`)
-Folded into entries or versions: Sportsman, Outlander, Maverick R. Removed as trade or unattested: Ifor Williams trailers, Rimor and Swift Voyager motorhomes, Polaris Outlaw and General, Ski-Doo Expedition, Skandic, Tundra, Freeride, Arctic Cat M800, kart SKUs, handcar makers, G&F carriages.
+## Market facts (`ms`)
+EU 2024: vans 1,586,688 (+8.3 %, diesel 84.5 %), trucks 327,896 (-6.3 %), buses 35,579 (+9.2 %). Volvo Trucks 2024: Europe 17.9 %, Brazil 23.7 %, North America 10.5 %. Ford F-Series US 2024: 765,649. Earlier RV, snowmobile, European Ranger and China pickup figures stay. Unsourced: brand shares for vans and rival truck makers (ACEA and fleet.ie pages blocked; Firecrawl out of credits).
 
-## Not sourced
-Per-entry articles were not fetched, so most entries cite their list page. Market shares by group, van and bus sales, and Yamaha, Kawasaki and Suzuki ATV line pages are missing. Winnebago Chieftain and Brave variants are unplaced. About 31 fetches were used.
+## Winnebago Chieftain
+Placed in A-class motorhome with year 1969 (Winnebago milestones page); the fetched pages do not state its class (a search excerpt calls it Class A, not fetched). Winnie Wagon 1974, LeSharo 1983 and Rialta 1995 corrected from that page; the Minnie Winnie year conflicts (1973 against 1994) and is noted.
+
+## Still short
+Most entries cite their list page. Removed loose models are as in round 1.
