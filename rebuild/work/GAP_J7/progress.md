@@ -4,3 +4,4 @@ step2: phaseA+A2 done and installed in out/J7.json (m removed, coverage lines on
 step3: tails fetched: Carlsberg,bourbon,Japanese,gin,Croatia,Georgia,Armenia,Chile,Argentina,NZ (10). Chile/NZ names to compare
 step4: tails Beer India/Australia, Mezcal, Shochu, Baijiu fetched: all end (17 fetches total). Next: brand pages for no-complete whisky/brandy/anise kinds, French cider, Cognac, IGP, Italy DOC count
 step5: brand pages fetched (29 fetches total): Tennessee,rye,cachaça,ouzo,pastis,pot still,arak,grappa. Next apply entries; then searches for French cider, Cognac, IGP, DOC count
+step6: fetched oriGIn cider list, Italian Wine Central 332-DOC list (saved iwc_docs.json), Cognac category (32 fetches). Found 44 DOC missing -> add; French cider +Poiré Domfront etc.
