@@ -834,9 +834,140 @@
    "country": "Germany",
    "dept": "kitchen bins",
    "region": "Western Europe"
+  },
+  {
+   "n": "Prodigia",
+   "layer": "cultural",
+   "role": "maker",
+   "src": "https://www.prodigia-cosmetics.com/categorie-produit/nos-produits/savonnerie",
+   "says": "Moroccan artisanal savonnerie whose savon noir is 'produced in the pure Moroccan tradition' (also bulk/private label); savon noir beldi is used in Morocco for hammam and house cleaning (lespetitesexperiences.com)",
+   "country": "Morocco",
+   "dept": "savon noir (black soap)",
+   "region": "North Africa"
   }
  ],
- "add_regions": [],
- "drop": [],
- "notes": "in progress"
+ "add_regions": [
+  {
+   "region": "Russia (Kazan)",
+   "speciality": "Domestic household chemistry: Nefis Cosmetics (Krestovnikov Brothers works, 1855), Russia's largest domestic maker and No.1 in dishwashing liquid; Soviet-era washing machines (Vyatka, Kirov)",
+   "src": "https://www.kommersant.ru/doc/5502490",
+   "brands": [
+    "Sorti",
+    "AOS",
+    "BiMAX",
+    "Vyatka"
+   ]
+  },
+  {
+   "region": "South Korea",
+   "speciality": "First-generation Korean kitchen detergents (Trio 1966, Pong Pong 1972) and domestic laundry/softener brands of Aekyung and LG H&H",
+   "src": "https://view.asiae.co.kr/article/2016022905455081085",
+   "brands": [
+    "Trio (Aekyung)",
+    "Pong Pong (LG H&H)",
+    "Saffron (Shafran, LG H&H)",
+    "Pigeon (Pigeon Corp., Korea)",
+    "Tech (LG H&H)",
+    "LiQ (Aekyung)"
+   ]
+  },
+  {
+   "region": "Argentina (Córdoba / Buenos Aires)",
+   "speciality": "Washing machines from Luque, Córdoba (Alladio: two of three sold in Argentina) and emblematic home-care brands",
+   "src": "https://www.lanacion.com.ar/economia/negocios/como-es-empresa-familiar-fabrica-dos-cada-nid2549714/",
+   "brands": [
+    "Drean",
+    "Ayudín",
+    "Magistral"
+   ]
+  },
+  {
+   "region": "Andean countries and Venezuela",
+   "speciality": "Laundry bar soaps and multi-purpose cleaners that are national household icons (Colombia, Peru, Venezuela, Chile)",
+   "src": "https://dersa.com.co/jabon-rey",
+   "brands": [
+    "Jabón Rey",
+    "Sapolio",
+    "Bolívar",
+    "Opal",
+    "Las Llaves",
+    "Quix",
+    "Mademsa"
+   ]
+  },
+  {
+   "region": "Brazil (São Bernardo / Joinville)",
+   "speciality": "Brazilian white goods: first automatic washing machine in Brazil (Brastemp 1959), Consul",
+   "src": "https://www.saobernardo.sp.gov.br/web/cultura/a-brastemp-e-a-fabricacao-de-eletrodomesticos-em-sao-bernardo",
+   "brands": [
+    "Brastemp",
+    "Consul"
+   ]
+  },
+  {
+   "region": "West Africa (Nigeria, Ghana)",
+   "speciality": "Household icons: dishwash, sachet bleach and multi-purpose laundry bar soap",
+   "src": "https://www.pzcussons.com/wp-content/uploads/2024/11/PZCN-Annual-Report-and-Accounts-for-the-year-ended-31-May-2024.pdf",
+   "brands": [
+    "Morning Fresh",
+    "Hypo",
+    "Key Soap"
+   ]
+  },
+  {
+   "region": "Southern Africa (South Africa)",
+   "speciality": "Century-old household cleaning icons (Sunlight bar since 1891, Handy Andy cream)",
+   "src": "https://www.sunlight.co.za/about-us.html",
+   "brands": [
+    "Sunlight",
+    "Handy Andy"
+   ]
+  },
+  {
+   "region": "Northern Italy (Brianza, Pordenone)",
+   "speciality": "Italian washing-machine industry: first Italian washer (Candy, 1945), Zanussi (Compasso d'Oro washers)",
+   "src": "https://www.candy-home.com/en_GB/about-us",
+   "brands": [
+    "Candy",
+    "Zanussi",
+    "Chanteclair"
+   ]
+  },
+  {
+   "region": "Israel",
+   "speciality": "Domestic household chemistry led by Sano (every third household uses Sano Maxima)",
+   "src": "https://www.sano-international.com/about",
+   "brands": [
+    "Sano"
+   ]
+  },
+  {
+   "region": "Morocco",
+   "speciality": "Savon noir beldi (olive-oil black soap) for hammam and house cleaning; few named makers online",
+   "src": "https://www.lespetitesexperiences.com/2023/04/29/le-savon-noir-produit-miracle-made-in-morocco",
+   "brands": [
+    "Prodigia"
+   ]
+  },
+  {
+   "region": "Belgium and US (window-cleaning tools)",
+   "speciality": "Professional squeegee making: Moerman (Belgium, since 1885), Ettore (inventor of the modern squeegee, Oakland 1936)",
+   "src": "https://moermangroup.com/en/about-us",
+   "brands": [
+    "Moerman",
+    "Ettore"
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "n": "Domol",
+   "why": "Duplicate of the harvest entry 'Domol (Rossmann)'; source is only a drugstore brand filter; Rossmann own-label"
+  },
+  {
+   "n": "Waschkönig",
+   "why": "Only evidence is the Rossmann Azerbaijan brand filter (spelled 'Waschkonig'); budget detergent with no cultural or quality evidence shown"
+  }
+ ],
+ "notes": "ACCURACY: 25 sampled (random.seed(7), random.sample of harvest brands), all raw-fetched via Parallel web_fetch full_content; 0 wrong (every name shown, every 'says' supported). Minor: Brilhante 'since 1986' not on the Kantar page; Domol is a duplicate of 'Domol (Rossmann)' and an own-label; Waschkönig/Sidolin/Domol rest only on a drugstore brand filter (rossmann.az), which is weak evidence of cultural standing. 10 of 25 sampled items rest on bare Wikipedia category listings ('listed in category'), which proves existence, not standing.\nOMISSIONS: the harvest missed several global everyday icons outright (Sunlight, Ajax, Comet, Pine-Sol, Bon Ami, Murphy Oil Soap, Vim, Handy Andy, Glad, Hefty, Rubbermaid BRUTE, Hills Hoist) and three entries on a de.wikipedia category page it claims to have done (Ata, Rei, Handy: name collisions with unrelated rows in _brand_index, e.g. ATA workwear; same risk for Sunlight = A3 jewellery, Roma = grooming tools, Pigeon = baby care, Era, Cheer, Duck).\nCROSS-TAG CANDIDATES (in _brand_index under other categories, not B6, but clearly B6 makers): Hotpoint, Indesit, Siemens, Smeg, Gorenje (harvest region text names Gorenje but row is B5 only), Toshiba, Sharp, Midea, Zanussi row is B7 (added here with B6 evidence), Candy row is B7 (added), Fer à Cheval and Marius Fabre (H1; Marseille laundry soap, harvest region lists them), Palmolive (dish liquid), Zote, Fels-Naptha, Sapolio (H1 rows; laundry bar soaps), Rubbermaid (B5). Meister Proper/Svelto/Quix/Vim are national names of known global brands; keep or fold per register policy.\nTHIN AREAS RETRIED: Russia (Nefis brands via Kommersant/Nefis; Vyatka via Candy) found; Central Asia: only a Kazakh factory directory (no brand with standing), Nefis says it sells in Kazakhstan; Latin America beyond BR/MX: Argentina, Colombia, Peru, Chile, Venezuela found; Korea found (Trio, Pong Pong, Saffron, Pigeon, Tech, LiQ); Nigeria/Ghana/South Africa found; Moroccan savon noir: only one named maker (Prodigia, weak); laundry baskets (Korbo), bin liners (Glad, Hefty), ironing aids (Faultless starch/Niagara), squeegees (Moerman, Ettore) found. Royal Warrant 'Cleaning Products & Services' page 2 could not be addressed directly (would need a guessed facet URL); general directory pages surfaced Prochem Europe (added); the other unseen holders are services (Powerwasher Services, Perfect Hygiene, Perfectshine, PHS, Dunedin Merchiston, Jeeves, Continental Dry Cleaners, Mitie, Total Support, Milborrow) - not product brands. test.de Vollwaschmittel 4/2025 table read raw: 20 products; winners are private labels (Aldi Tandil, dm Denkmit, Lidl Formil); only unrecorded name is Weißer Riese (added, cultural).\nSTILL THIN: Kyoto shuro brooms (Naito Shoten, since 1818: two fetches returned no content, not added), clothes pegs, ironing boards (Foppapedretti not evidenced), lint removers, trash compactors, Gulf states, Central Asia, Ethiopia/Francophone Africa, Philippines locals (Champion, Calla), Vietnam locals, Japanese brush makers beyond tawashi (Kanaya, Azuma, Teramoto) and Korean appliances beyond LG/Samsung.\nNOTE: Candy is named in the harvest's Southern Europe region list but has no brand entry and its _brand_index row is B7 only; added here with B6 evidence. Retail 'new' names were matched across all retail files (e.g. 'Trio' from 1stdibs jewelry is unrelated to Aekyung Trio)."
 }
