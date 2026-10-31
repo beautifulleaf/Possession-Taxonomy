@@ -31,7 +31,7 @@ for f in sorted(glob.glob('/home/user/Possession-Taxonomy/rebuild/work/GAP_I1/ad
         sel=re.sub(r'\s*Entries: \d+\.?$','',sel)
         sel=sel.rstrip()
         if sel and sel[-1] not in '.;': sel+='.'
-        sel+=' '+job['cov']+f" Entries: {len(x)}."
+        sel+=' '+job['cov'].replace('{N}',str(len(x)))+f" Entries: {len(x)}."
         k['sel']=sel
         log.append((job['kind'],added,len(x)))
         if job.get('xg'): k['xg']=job['xg']
