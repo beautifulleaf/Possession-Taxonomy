@@ -252,6 +252,16 @@
    "new_names": 0,
    "status": "done",
    "note": "used for regions array (raw page text)"
+  },
+  {
+   "url": "various (see sweeps)",
+   "title": "Open discovery sweeps (kind and region)",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 47,
+   "status": "done",
+   "note": "35 sweep items logged in sweeps array; pages fetched via Parallel excerpts"
   }
  ],
  "brands": [
@@ -6239,18 +6249,6 @@
    "quality_price_note": ""
   },
   {
-   "n": "IWC",
-   "layer": "premium",
-   "src": "https://timeandtidewatches.com/the-10-best-clocks-if-youve-run-out-of-space-in-your-watch-box/",
-   "says": "Time+Tide 10 best clocks (Mondaine Swiss Railways clock, JLC Atmos, IWC Portugieser clock, Seiko world time clock)",
-   "country": "",
-   "dept": "design clock",
-   "already": false,
-   "pending_retail": true,
-   "discovery": "sweep",
-   "quality_price_note": ""
-  },
-  {
    "n": "Accurate Sundials",
    "layer": "cultural",
    "src": "https://sundials.org/dial-links/sundial-artisans",
@@ -6415,18 +6413,6 @@
    "dept": "watches",
    "already": false,
    "pending_retail": true,
-   "discovery": "sweep",
-   "quality_price_note": ""
-  },
-  {
-   "n": "Ma Xushu",
-   "layer": "cultural",
-   "src": "https://timeandtidewatches.com/best-chinese-watches/",
-   "says": "Time+Tide 12 Chinese watch brands",
-   "country": "China",
-   "dept": "watches",
-   "already": false,
-   "pending_retail": false,
    "discovery": "sweep",
    "quality_price_note": ""
   },
@@ -6917,6 +6903,336 @@
     "Rönkkö Watches",
     "AndoAndoAndo"
    ]
+  }
+ ],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Wristwatches > Tool & sports watches",
+   "queries": [
+    "best dive watches independent test affordable under $1000 review",
+    "best field watches pilot watches makers renowned craftsmanship"
+   ],
+   "found": 6,
+   "note": "InsideHook page fetched (Tissot, Baltic, Certina, Traska, Glycine, Unimatic, Dan Henry); pilot search lists not fetched (IWC, Breitling, Laco, Stowa, Hanhart all already known); no independent lab test exists"
+  },
+  {
+   "axis": "kind",
+   "item": "Wristwatches > Tool & sports watches (chronograph kinds)",
+   "queries": [
+    "best chronograph watch makers award winners flyback split-seconds"
+   ],
+   "found": 0,
+   "note": "Results name GPHG chronograph winners (Petermann Bédat, Parmigiani, Lange) - already captured via GPHG page; no new"
+  },
+  {
+   "axis": "kind",
+   "item": "Wristwatches > Style & dress watches",
+   "queries": [
+    "best dress watches affordable quality independent review brands",
+    "best everyday watches prestige everyday watch integrated bracelet sports watch jewellery watch makers independent review"
+   ],
+   "found": 4,
+   "note": "Gear Patrol page fetched (Defakto new; Hamilton, Oris, Longines known); integrated-bracelet roundups located but not fetched (Citizen Tsuyosa, Christopher Ward)"
+  },
+  {
+   "axis": "kind",
+   "item": "Wristwatches > Electronic watches",
+   "queries": [
+    "best quartz watches digital solar radio-controlled watch brands reviewed"
+   ],
+   "found": 0,
+   "note": "Teddy Baldassarre page fetched; all brands named already in register (Citizen, Seiko, Grand Seiko, Girard-Perregaux, Sinn, Casio, Junghans)"
+  },
+  {
+   "axis": "kind",
+   "item": "Wristwatches > Complication & precision watches",
+   "queries": [
+    "best skeleton watch tourbillon chiming watch makers independent grande complication",
+    "best chronometer watch COSC alarm watch calendar watch Vulcain Cricket jumping hours makers"
+   ],
+   "found": 0,
+   "note": "Results are all known luxury makers (Cartier, Vacheron, De Bethune, Chopard, Patek, Franck Muller, Vulcain); Vulcain known; no new"
+  },
+  {
+   "axis": "kind",
+   "item": "Wristwatches > Movements",
+   "queries": [
+    "best watch movement manufacturers Sellita Miyota ETA Soprod independent movement makers"
+   ],
+   "found": 2,
+   "note": "WatchGecko page fetched: Ronda, Soprod new; Miyota, Sellita, ETA known"
+  },
+  {
+   "axis": "kind",
+   "item": "Pocket watches > Movement eras",
+   "queries": [
+    "Nuremberg egg early pocket watch makers lever pocket watch English makers Dent Frodsham Dollar watch Ingersoll Waterbury"
+   ],
+   "found": 0,
+   "note": "Only Peter Henlein (person, historical) surfaced; no brand"
+  },
+  {
+   "axis": "kind",
+   "item": "Pocket watches > Grade & complexity",
+   "queries": [
+    "railroad grade pocket watch makers best American pocket watch Hamilton Ball Waltham collectors"
+   ],
+   "found": 0,
+   "note": "Search only (dealer pages): Ball, Hamilton, Waltham, Elgin, Howard, Illinois - all known"
+  },
+  {
+   "axis": "kind",
+   "item": "Pocket watches > Special forms",
+   "queries": [
+    "coin watch purse watch makers"
+   ],
+   "found": 0,
+   "note": "Not separately searched beyond pocket-watch sweeps; no result"
+  },
+  {
+   "axis": "kind",
+   "item": "Collectible clocks > Floor & wall clocks (longcase, cuckoo etc.)",
+   "queries": [
+    "best carriage clock makers longcase clock makers renowned craftsmanship contemporary"
+   ],
+   "found": 0,
+   "note": "Historic names only (Drocourt, Jacot, Frodsham, Dent); no contemporary longcase makers surfaced; cuckoo clock covered by Black Forest region"
+  },
+  {
+   "axis": "kind",
+   "item": "Collectible clocks > Table & mantel clocks",
+   "queries": [
+    "Wadokei Japanese clock makers history Edo period; Japanese clock brands Seiko Rhythm Citizen clocks",
+    "electric synchronous clock flip clock Telechron Copal Solari brands design clocks Atmos Jaeger-LeCoultre anniversary clock Kundo"
+   ],
+   "found": 0,
+   "note": "Wadokei: Tanaka Hisashige (person), Seiko/Rhythm/Citizen known; Telechron known"
+  },
+  {
+   "axis": "kind",
+   "item": "Collectible clocks > Precision clocks",
+   "queries": [
+    "marine chronometer wall regulator makers renowned Thomas Mercer Erwin Sattler Riefler"
+   ],
+   "found": 0,
+   "note": "Thomas Mercer, Sattler, Riefler already in register"
+  },
+  {
+   "axis": "kind",
+   "item": "Collectible clocks > Electric & design clocks",
+   "queries": [
+    "best design wall clocks desk clocks makers Nomos Braun Lemnos Karlsson Newgate designer clock brands"
+   ],
+   "found": 1,
+   "note": "Time+Tide 10 best clocks fetched: Mondaine, JLC Atmos, IWC, Seiko known; Karlsson, Braun, Chelsea known; Italian design clock brands (Bosa, Normon) from retailer only, not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Collectible clocks > Clockmakers & factories",
+   "queries": [
+    "Wikipedia list of clock manufacturers; category clock manufacturing companies of US/UK/DE/CH/JP"
+   ],
+   "found": 54,
+   "note": "See encyclopedia sources (raw pages)"
+  },
+  {
+   "axis": "kind",
+   "item": "Everyday clocks > Bedside clocks",
+   "queries": [
+    "best alarm clock sunrise alarm clock wall clock independent test Wirecutter"
+   ],
+   "found": 2,
+   "note": "Popular Science page fetched: JALL, Hatch new; hOmeLabs known/unmatched"
+  },
+  {
+   "axis": "kind",
+   "item": "Everyday clocks > Room clocks",
+   "queries": [
+    "best design wall clocks desk clocks makers"
+   ],
+   "found": 0,
+   "note": "See design clock row; retailer lists only"
+  },
+  {
+   "axis": "kind",
+   "item": "Timers & timing instruments > Interval timers",
+   "queries": [
+    "best stopwatch interval timer visual timer hourglass makers renowned"
+   ],
+   "found": 0,
+   "note": "Only Amazon-style product roundups (EooCoo, SWISSELITE) not fetched; no renowned maker found"
+  },
+  {
+   "axis": "kind",
+   "item": "Timers & timing instruments > Sundials",
+   "queries": [
+    "best sundial makers renowned craftsmanship bronze sundials maker"
+   ],
+   "found": 8,
+   "note": "North American Sundial Society artisans directory fetched; British Sundial Society directory located not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Straps, storage & parts > Straps, bracelets & chains",
+   "queries": [
+    "best watch straps makers leather NATO strap bracelet brands craftsmanship"
+   ],
+   "found": 4,
+   "note": "Time+Tide strap guide fetched: Bark & Jack, Helvetus, ISOfrane, Montreux new"
+  },
+  {
+   "axis": "kind",
+   "item": "Straps, storage & parts > Storage & winding",
+   "queries": [
+    "best watch winders watch boxes brands Wolf Scatola del Tempo Underwood"
+   ],
+   "found": 2,
+   "note": "Teddy Baldassarre winders page fetched: Scatola del Tempo, Buben & Zorweg new; WOLF known"
+  },
+  {
+   "axis": "kind",
+   "item": "Straps, storage & parts > Watch modding parts",
+   "queries": [
+    "watch modding parts dial hands case crystal bezel insert makers best aftermarket"
+   ],
+   "found": 0,
+   "note": "Retailer/forum results only (Namoki, Uncle Seiko, Watch&Style, Caroline Mod Shop, Long Island Watch) - no fetched list page"
+  },
+  {
+   "axis": "kind",
+   "item": "Straps, storage & parts > Clock parts",
+   "queries": [
+    "clock repair parts movement suppliers Hermle Quartz clock movement makers Seiko Youngtown best"
+   ],
+   "found": 0,
+   "note": "Hermle known; Takane, Youngtown from listings only; no fetched list"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Swiss/German/French/UK sources already swept by encyclopedia and award lists"
+   ],
+   "found": 0,
+   "note": "Covered in main sources (Switzerland, Germany, France, UK regions)"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Scandinavian Nordic watch brands Sweden Denmark Norway Finland design watchmakers"
+   ],
+   "found": 9,
+   "note": "WatchProSite Nordic overview and Time+Tide fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Southern Europe Italian Spanish Portuguese Greek watch brands"
+   ],
+   "found": 2,
+   "note": "Time+Tide Spanish brands fetched; Italian (Panerai, Anonimo, Locman) known; no Portuguese or Greek brand found"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Central and Eastern Europe watch brands Czech Prim Poland Hungary Romania Bulgaria Ukraine independent watchmakers"
+   ],
+   "found": 1,
+   "note": "Hype&Hyper fetched (Optimef); Prim/Elton/Robot/JVD from search only; none for Bulgaria/Ukraine"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Middle East Arab watch brands Dubai Saudi Turkey Israel Iran watchmakers independent luxury"
+   ],
+   "found": 1,
+   "note": "WatchProSite overview fetched; Maghnam/Beda'a/Itay Noy already in lists; nothing found for Turkey/Iran"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "watch brands from Africa African watchmakers Nigeria South Africa Morocco Egypt watch brand"
+   ],
+   "found": 0,
+   "note": "No Egyptian or Moroccan brand found"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "watch brands from Africa African watchmakers Nigeria South Africa Morocco Egypt watch brand"
+   ],
+   "found": 3,
+   "note": "BusinessDay fetched: Asorock, Micserah, Caveman (all assemble from Japanese/Asian movements)"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "South Asia India Pakistan Sri Lanka watch brands Titan Sonata Fastrack Indian watchmaker"
+   ],
+   "found": 0,
+   "note": "Titan/Fastrack/Sonata already known; HMT in regions; nothing for Pakistan/Sri Lanka"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "East Asia Korea Taiwan Hong Kong Japan Chinese watch brands Time and Tide best Chinese watches"
+   ],
+   "found": 8,
+   "note": "Time+Tide Chinese brands and Hour Markers Japanese guide fetched; nothing for Korea/Taiwan"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Southeast Asia watch brands Singapore Thailand Malaysia Indonesia Vietnam Philippines watchmakers"
+   ],
+   "found": 2,
+   "note": "Harper's Bazaar Singapore fetched (Arcturus, Delugs); no Thai/Malaysian/Indonesian/Vietnamese/Philippine maker found"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Central Asia Kazakhstan Uzbekistan Mongolia watchmakers watch brand; Georgia Armenia Azerbaijan watch"
+   ],
+   "found": 0,
+   "note": "Only Amir Watches (Kazakhstan, 2016 article) in search excerpts, not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Australia New Zealand watch brands Australian made watches clockmakers"
+   ],
+   "found": 9,
+   "note": "WatchGecko best Australian brands fetched; no New Zealand brand found"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "North America watch brands American Canadian independent watchmakers"
+   ],
+   "found": 3,
+   "note": "WristEnthusiast American brands fetched; no Canadian brand found"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Latin America watch brands Brazil Mexico Argentina Colombia Chile watchmakers independent"
+   ],
+   "found": 2,
+   "note": "WatchProSite South America fetched (Agavus, Eurotime; Technos known); SIAR Mexico show located"
   }
  ]
 }

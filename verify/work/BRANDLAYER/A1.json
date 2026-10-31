@@ -712,6 +712,36 @@
    "new_names": 1,
    "status": "partial",
    "note": "sweep kind: Neckwear; own-label ties, pocket squares, jackets (search excerpt); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://www.wsj.com/articles/we-testedand-ranked45-mens-underwear-brands-1520356403",
+   "title": "WSJ: we tested and ranked 45 men's underwear brands",
+   "kind": "award",
+   "years": "2018",
+   "names_on_page": 5,
+   "new_names": 2,
+   "status": "partial",
+   "note": "sweep kind: Underwear; independent test (search excerpt); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://www.permanentstyle.com/2012/06/the-perfect-pants-stocking-up-on-zimmerli.html",
+   "title": "Permanent Style: best underwear in the world project",
+   "kind": "award",
+   "years": "2012",
+   "names_on_page": 5,
+   "new_names": 1,
+   "status": "partial",
+   "note": "sweep kind: Underwear; quality test (search excerpt); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://www.thequalityedit.com/articles/guide-to-underwear",
+   "title": "The Quality Edit: 13 bestselling women's underwear brands tested",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 2,
+   "status": "partial",
+   "note": "sweep kind: Underwear; tested (search excerpt); 0 known, 0 pending elsewhere"
   }
  ],
  "brands": [
@@ -2865,6 +2895,51 @@
    "country": "UK",
    "dept": "ties, pocket squares",
    "already": false
+  },
+  {
+   "n": "Hamilton & Hare",
+   "layer": "premium",
+   "src": "https://www.wsj.com/articles/we-testedand-ranked45-mens-underwear-brands-1520356403",
+   "says": "named in WSJ test of 45 men's underwear brands",
+   "country": "",
+   "dept": "underwear",
+   "already": false
+  },
+  {
+   "n": "Neasden Control Centre",
+   "layer": "premium",
+   "src": "https://www.wsj.com/articles/we-testedand-ranked45-mens-underwear-brands-1520356403",
+   "says": "named in WSJ test of 45 men's underwear brands",
+   "country": "",
+   "dept": "underwear",
+   "already": false
+  },
+  {
+   "n": "The White Briefs",
+   "layer": "premium",
+   "src": "https://www.permanentstyle.com/2012/06/the-perfect-pants-stocking-up-on-zimmerli.html",
+   "says": "interviewed/tested in Permanent Style best-underwear project",
+   "country": "",
+   "dept": "underwear",
+   "already": false
+  },
+  {
+   "n": "Underdays",
+   "layer": "premium",
+   "src": "https://www.thequalityedit.com/articles/guide-to-underwear",
+   "says": "named in tested women's underwear guide",
+   "country": "",
+   "dept": "underwear",
+   "already": false
+  },
+  {
+   "n": "Lake Jane",
+   "layer": "premium",
+   "src": "https://www.thequalityedit.com/articles/guide-to-underwear",
+   "says": "named in tested women's underwear guide",
+   "country": "",
+   "dept": "Supima cotton underwear",
+   "already": false
   }
  ],
  "regions": [
@@ -3214,19 +3289,46 @@
    "axis": "kind",
    "item": "Underwear, nightwear & swim > Underwear & foundation",
    "queries": [
-    "best underwear socks makers quality tested"
+    "best underwear brands tested quality Which? best buy men women"
    ],
-   "found": 0,
-   "note": "query dropped by 5-query cap; retry"
+   "found": 12,
+   "note": "Zimmerli, Hanro, Sunspel, CDLP, Saxx, Tommy John, Uniqlo known/pending; Hamilton & Hare, Neasden Control Centre, The White Briefs, Underdays, Lake Jane new"
+  },
+  {
+   "axis": "kind",
+   "item": "Underwear, nightwear & swim > Hosiery & base layers",
+   "queries": [
+    "best socks makers quality hosiery tights stockings renowned"
+   ],
+   "found": 2,
+   "note": "Bombas known; socks query result mostly underwear"
   },
   {
    "axis": "kind",
    "item": "Underwear, nightwear & swim > Nightwear & robes",
    "queries": [
-    "best pyjamas bathrobe makers quality Derek Rose"
+    "best pyjamas nightwear makers luxury and affordable"
    ],
    "found": 0,
-   "note": "query dropped by 5-query cap; retry"
+   "note": "results dominated by underwear; no nightwear list surfaced; retry"
+  },
+  {
+   "axis": "kind",
+   "item": "Hats & headwear > Brimmed hats",
+   "queries": [
+    "best hat makers hatters felt fedora Panama renowned Borsalino Stetson"
+   ],
+   "found": 0,
+   "note": "no usable result (cap on queries); retry"
+  },
+  {
+   "axis": "kind",
+   "item": "Hats & headwear > Caps & knit headwear",
+   "queries": [
+    "best flat cap beret knitted hat beanie makers heritage"
+   ],
+   "found": 0,
+   "note": "no usable result (cap on queries); retry"
   }
  ]
 }
