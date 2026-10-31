@@ -1,0 +1,352 @@
+{
+ "cat": "F3",
+ "accuracy": {
+  "checked": 25,
+  "wrong": 8,
+  "items": [
+   {
+    "n": "British American Bank Note Company",
+    "shown": "yes",
+    "supported": "no",
+    "note": "Colnect printer list is existence only; cultural layer not supported by src (an own Wikipedia article would be needed)"
+   },
+   {
+    "n": "Great Wall Precious Metals",
+    "shown": "no",
+    "supported": "yes",
+    "note": "LBMA page loads the list dynamically; raw fetch shows no refiner names. Supported by Borsa Istanbul PDF reproducing the LBMA gold list"
+   },
+   {
+    "n": "DGSE Companies",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "Wikipedia List of bullion dealers row with own article; should carry role seller"
+   },
+   {
+    "n": "Perum Peruri",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "List of mints row with own article"
+   },
+   {
+    "n": "Pakistan Mint",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Fábrica Nacional de Moneda y Timbre",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Security Printing Press Nashik",
+    "shown": "yes",
+    "supported": "no",
+    "note": "Colnect existence only; cultural not supported"
+   },
+   {
+    "n": "Central Bank of Lesotho",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "listed in List of mints, but it is an issuer (central bank), not a maker: dept should be issuer"
+   },
+   {
+    "n": "Maxx",
+    "shown": "yes",
+    "supported": "no",
+    "note": "Trading card manufacturers table row links to Upper Deck Company, no own article; cultural not supported"
+   },
+   {
+    "n": "Royal Canadian Mint",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "many COTY wins"
+   },
+   {
+    "n": "Zimbabwean Mint",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Czech Mint",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Central Bank of Iraq",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "issuer, not maker"
+   },
+   {
+    "n": "Tokuriki Honten",
+    "shown": "no",
+    "supported": "yes",
+    "note": "LBMA list dynamic; supported by Borsa Istanbul PDF (gold and silver GDL)"
+   },
+   {
+    "n": "Sumitomo Metal Mining",
+    "shown": "no",
+    "supported": "yes",
+    "note": "as above"
+   },
+   {
+    "n": "Hamburgische Münze",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "also a COTY winner (Landesbetrieb Hamburgische Münze) - upgrade to premium"
+   },
+   {
+    "n": "Soho Mint",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "historic (1788-1848)"
+   },
+   {
+    "n": "India Government Mint",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "Pro Set",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "Category:Trading card companies, own article"
+   },
+   {
+    "n": "Tanaka Precious Metals",
+    "shown": "no",
+    "supported": "yes",
+    "note": "as Tanaka Kikinzoku Kogyo in Borsa Istanbul PDF; Wikipedia bullion-dealer list also names Tanaka Kikinzoku"
+   },
+   {
+    "n": "Bavarian Central Mint",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "duplicate of harvested 'Bavarian State Mint' (same Munich mint, mint mark D): merge"
+   },
+   {
+    "n": "Independent Coin Graders (ICG)",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "one of four services eBay accepts; PNG survey 'Good'"
+   },
+   {
+    "n": "SkyBox International",
+    "shown": "yes",
+    "supported": "yes",
+    "note": "duplicate of harvested 'SkyBox'"
+   },
+   {
+    "n": "Royal Mint of Malaysia",
+    "shown": "yes",
+    "supported": "yes",
+    "note": ""
+   },
+   {
+    "n": "The Mint (Carlingford)",
+    "shown": "yes",
+    "supported": "no",
+    "note": "Wikipedia: a 15th/16th-century fortified house (National Monument); 'no coin minted at Carlingford has ever been found'. Not a maker"
+   }
+  ]
+ },
+ "add_brands": [],
+ "add_regions": [],
+ "drop": [
+  {
+   "n": "The Mint (Carlingford)",
+   "why": "a fortified tower house / National Monument; Wikipedia says no coin minted at Carlingford has ever been found. Not a brand"
+  },
+  {
+   "n": "Shandong Gold Smelting",
+   "why": "unlisted from the LBMA gold Good Delivery List on 05.08.2026 (Borsa Istanbul PDF 'former refinery group'); premium basis gone. Keep at most as cultural only with another page"
+  },
+  {
+   "n": "SEGS Coin Grading Company",
+   "why": "Wikipedia Third-party grading: PNG dealer survey rated SEGS 'Poor'; no quality or cultural standing shown"
+  },
+  {
+   "n": "Bavarian Central Mint",
+   "why": "duplicate of 'Bavarian State Mint' (Bayerisches Hauptmünzamt, Munich); keep one row, premium (COTY 'German Mints')"
+  },
+  {
+   "n": "SkyBox International",
+   "why": "duplicate of 'SkyBox'; keep one"
+  },
+  {
+   "n": "Tristar Productions",
+   "why": "duplicate of 'Tristar'; keep one"
+  },
+  {
+   "n": "Polish Mint (Mennica Polska)",
+   "why": "duplicate of 'Mennica Polska' row; keep one, premium (COTY). HOMONYM: Mennica Polska in F5? check same company (it is the same Warsaw mint company) -> cross_tag"
+  },
+  {
+   "n": "Central Mint",
+   "why": "not a drop: it is the Central Mint of Taiwan (List of mints, Taiwan row); rename \"Central Mint (Taiwan)\" to separate it from the COTY row \"Central Mint (China)\""
+  },
+  {
+   "n": "Alderac Entertainment Group",
+   "why": "trading-card GAME publisher (content identity): defer, not F3"
+  },
+  {
+   "n": "Bushiroad",
+   "why": "TCG publisher: defer"
+  },
+  {
+   "n": "Chaosium",
+   "why": "tabletop game publisher: defer"
+  },
+  {
+   "n": "Cryptozoic Entertainment",
+   "why": "game publisher: defer"
+  },
+  {
+   "n": "Decipher",
+   "why": "TCG publisher: defer"
+  },
+  {
+   "n": "Renegade Game Studios",
+   "why": "game publisher: defer"
+  },
+  {
+   "n": "Action Packed",
+   "why": "Trading card table row links to Donruss (a Donruss brand), no own article"
+  },
+  {
+   "n": "Maxx",
+   "why": "table row links to Upper Deck, no own article"
+  },
+  {
+   "n": "Allworld; Classic Games, Inc.; Collect-A-Card; Courtside; Extreme Sports; Front Row; Genuine Article; Grand Slam Ventures; Grandstand; Hi-Tech; JOGO Inc.; Just Minors; Kayo; Multi-Ad; National Chicle; NetPro; ProCards; Razor Entertainment; Rittenhouse; Royal Rookies; SA-GE Collectibles; Signature Rookies; Stampii; Star Co.; Star Pics; Superior Pix; Superior Rookies; Traks; USA Baseball; Wild Card",
+   "why": "Wikipedia Trading card manufacturers table rows with no own article (owner caveat: list rows need their own article for cultural). Select Australia likewise (and 'Select' is already known)"
+  },
+  {
+   "n": "Colnect-only stamp printers (55 rows)",
+   "why": "Colnect printer list is existence only; none of these 55 may stand as cultural on that src. Re-source those with own Wikipedia articles or independent histories (e.g. Joh. Enschedé, De La Rue, Harrison & Sons, Bradbury Wilkinson, Waterlow, House of Questa, Walsall, Cartor, Bundesdruckerei, Giesecke & Devrient, PWPW, BEP, Canadian/British American Bank Note, Courvoisier) and drop the rest (e.g. Southern Colour Print, AS Vaba Maa, Oriental Press Bahrain, Litografia Maia, Rosenbaum Bros., Tunisia Post Printing House, Government Printer Pretoria, Imprenta Nacional Montevideo) unless another page supports them"
+  }
+ ],
+ "defer": [
+  {
+   "n": "Wizards of the Coast",
+   "why": "TCG publisher (Magic) - known F3 row; content identity"
+  },
+  {
+   "n": "The Pokémon Company",
+   "why": "TCG publisher - known F3 row"
+  },
+  {
+   "n": "Konami",
+   "why": "TCG publisher (Yu-Gi-Oh!) - F3 tag only"
+  },
+  {
+   "n": "Bushiroad",
+   "why": "TCG publisher"
+  },
+  {
+   "n": "Media Factory",
+   "why": "published Pokémon TCG in Japan - known F3 row"
+  },
+  {
+   "n": "Alderac Entertainment Group",
+   "why": "game publisher"
+  },
+  {
+   "n": "Chaosium",
+   "why": "game publisher"
+  },
+  {
+   "n": "Cryptozoic Entertainment",
+   "why": "game publisher"
+  },
+  {
+   "n": "Decipher",
+   "why": "game publisher"
+  },
+  {
+   "n": "Renegade Game Studios",
+   "why": "game publisher"
+  }
+ ],
+ "tier_changes": [
+  {
+   "n": "Istituto Poligrafico e Zecca dello Stato",
+   "to": "premium",
+   "why": "COTY wins (Italian Mint / Italian State Mint)",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "Kremnica Mint",
+   "to": "premium",
+   "why": "COTY row 'Mincovna Kremnica, Slovakia'",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "Pobjoy Mint",
+   "to": "premium",
+   "why": "COTY wins for BIOT and BVI",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "Staatliche Münze Berlin",
+   "to": "premium",
+   "why": "COTY winner",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "Staatliche Münzen Baden-Württemberg",
+   "to": "premium",
+   "why": "COTY winner (Karlsruhe)",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "Hamburgische Münze",
+   "to": "premium",
+   "why": "COTY winner",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "Saint Petersburg Mint",
+   "to": "premium",
+   "why": "COTY winner (for Kyrgyzstan)",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "Moscow Mint",
+   "to": "premium",
+   "why": "COTY winner (for Belarus)",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "China Banknote Printing and Minting Corporation",
+   "to": "premium",
+   "why": "COTY winner",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year"
+  },
+  {
+   "n": "all 52 LBMA refiners",
+   "to": "premium (re-source)",
+   "why": "replace src https://www.lbma.org.uk/good-delivery-list (raw fetch shows no names) with the Borsa Istanbul PDF reproducing the LBMA lists under licence",
+   "src": "https://www.borsaistanbul.com/files/borsa-istanbul-as-list-of-refineries-bars-ingots-and-granules-of-which-can-be-traded-in-the-precious-metals-and-precious-stones-market.pdf"
+  },
+  {
+   "n": "Central banks from List of mints (Costa Rica, Cyprus, Fiji, Iceland, Iraq, Jordan, Lesotho, Sierra Leone, Bank of Greece, Bangko Sentral, Bank of Latvia, National Bank of Ukraine, Kazakhstan National Bank mint)",
+   "to": "keep, dept 'issuer'",
+   "why": "a coin's or note's issuer is part of the object's identity, as the register already holds (Bank of England, Federal Reserve... are 'Institution & issuer'); where the bank itself runs a minting works (Kazakhstan, Bangko Sentral, NBU's Banknote Printing and Minting Works) it is also a maker",
+   "src": ""
+  },
+  {
+   "n": "DGSE Companies; Goldline International; Monex Precious Metals; Texas Precious Metals; Chards Coin and Bullion; Sharps Pixley; Emirates Gold; Garfield Refining",
+   "to": "role seller",
+   "why": "bullion dealers are sellers (Emirates Gold and Garfield also refine)",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers"
+  }
+ ],
+ "notes": ""
+}

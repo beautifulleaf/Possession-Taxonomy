@@ -3,7 +3,16 @@
  "status": "partial",
  "brand_led": true,
  "sweeps": [],
- "regions": [],
+ "regions": [
+  {
+   "region": "Japan",
+   "speciality": "photo albums (free-page 'Fueru' albums)",
+   "src": "https://nclalbum.com/",
+   "brands": [
+    "Nakabayashi"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Postcard_publishers",
@@ -74,6 +83,56 @@
    "new_names": 20,
    "status": "partial",
    "note": "page 1 member filter list (about 170 firms) read; only firms with autograph/manuscript/ephemera/documents/paper in name or focus kept; pure book dealers skipped; dealer list proves existence only"
+  },
+  {
+   "url": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "title": "Kategorie:Ansichtskartenverlag (de.wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 116,
+   "new_names": 37,
+   "status": "partial",
+   "note": "excerpt omitted entries under H-J, L, S-U; individual persons skipped; rerun with full_content to complete"
+  },
+  {
+   "url": "https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:%C3%89diteur_de_cartes_postales",
+   "title": "Catégorie:Éditeur de cartes postales (fr.wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 32,
+   "new_names": 0,
+   "status": "done",
+   "note": "category holds persons (editors) only, no company brands"
+  },
+  {
+   "url": "https://nclalbum.com/",
+   "title": "Nakabayashi Fueru Album",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "manufacturer page, own claims"
+  },
+  {
+   "url": "https://www.artnews.com/art-news/product-recommendations/best-archival-photo-albums-1234602608",
+   "title": "ARTnews The Best Archival Photo Albums (2022)",
+   "kind": "ranking",
+   "years": "2022",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "fetch returned only the Semikolon passage; other picks not visible"
+  },
+  {
+   "url": "https://www.rarebookhub.com/auction_houses",
+   "title": "Rare Book Hub: List of Auction House",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 364,
+   "new_names": 59,
+   "status": "done",
+   "note": "existence only; 60 selected of 364 (book, manuscript, autograph, ephemera houses and major generalists); Christie's and Heritage Auctions already in register under J8/F2 (cross_tag F5)"
   }
  ],
  "brands": [
@@ -1019,6 +1078,873 @@
    "says": "member bookseller of the Antiquarian Booksellers' Association of America (ABAA) listed on its Member Catalogues page",
    "country": "",
    "dept": "autographs, manuscripts, ephemera dealer"
+  },
+  {
+   "n": "A. & R. Adam",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Aristophot AG",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Avancarte",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Bild und Heimat",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Bildverlag Böttger",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Brück & Sohn",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Cramers Kunstanstalt",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Dimitri Tarazi & Fils",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Edler & Krische",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Fischer & Wittig",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Flugphoto Verlags-Gesellschaft",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Ansichtskartenverlag Franco-Suisse",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Frobenius AG",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Gebrüder Höltje",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Gebrüder Wehrli",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "G. H. Rehfeld & Sohn",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "M. Glückstadt & Münden",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Graphische Kunst- und Verlagsanstalt A. Weber & Co.",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "D. & M. Grootes",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Postkarten-Verlagsanstalt Kosmos",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Gebrüder Metz",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "A. Molling & Comp.",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Nenke & Ostermaier",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Neue Photographische Gesellschaft",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Norddeutsche Papier-Industrie",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Papyruswerk Kötzschenbroda",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Photoglob",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Planet-Verlag Berlin",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Postkarten-Verlag Berlin",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Reinicke & Rubin",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Reisinger & Co.",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Rolf & Co.",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Römmler & Jonas",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Verlag Louis Blumenthal",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Zedler & Vogel",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Chr. Harbers",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Fingershop.ch",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Ansichtskartenverlag",
+   "says": "listed in German Wikipedia Kategorie:Ansichtskartenverlag (postcard publishers)",
+   "country": "",
+   "dept": "postcards"
+  },
+  {
+   "n": "Nakabayashi",
+   "layer": "cultural",
+   "src": "https://nclalbum.com/",
+   "says": "Japanese album maker (Fueru Album since 1968), describes itself as a leading Japanese album maker exporting to 30+ countries; own claim",
+   "country": "Japan",
+   "dept": "photo albums"
+  },
+  {
+   "n": "Semikolon",
+   "layer": "premium",
+   "src": "https://www.artnews.com/art-news/product-recommendations/best-archival-photo-albums-1234602608",
+   "says": "ARTnews 'The Best Archival Photo Albums' recommends Semikolon Black Page spiral albums (linen cover, heavy book board)",
+   "country": "",
+   "dept": "photo albums"
+  },
+  {
+   "n": "Alexander Autographs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Alexander Historical Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Amsterdam Book Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Netherlands",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Archives International Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Autographes Encheres",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Switzerland",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Bloomsbury Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Bonhams",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Bubb Kuyper",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Netherlands",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Chiswick Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Cohasco",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Dominic Winter Book Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Forum Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Galerie Bassenge",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Gonnelli Casa d'Aste",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Italy",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Goldin Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Hauswedell and Nolte",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "International Autograph Auctions Europe SL",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Spain",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "JA Stargardt Autographenhandlung",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Kiefer Buch und Kunstauktionen",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "L'Autographe Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Lion Heart Autographs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Mayfair Book Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Michael Treloar",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Australia",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Nate D. Sanders Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Nosbüsch & Stucke",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Potter and Potter Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Profiles in History",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Propstore",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "PBA Galleries",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "RJM Autographs and Antiques",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "RM Smythe",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "RR Auction",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Swann Galleries",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Sydney Rare Book Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Australia",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Sotheby's",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "China",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Christie's",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "China",
+   "dept": "autographs, manuscripts, ephemera auction",
+   "already": true,
+   "cross_tag": "F5",
+   "note": "same company as register row (J8 Christie's / F2 Heritage Auctions); add F5"
+  },
+  {
+   "n": "University Archives",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "The Written Word Autographs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Venator and Hanstein",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Zisska and Lacher",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Zisska and Schauer",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Germany",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Hake's Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Antiquarian Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "South Africa",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Dreweatts",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Lyon and Turnbull",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Sworders",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Tennants",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Mallams",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Bearnes Hampton and Littlewood",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Cheffins Fine Art",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Dorotheum",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Austria",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Bruun Rasmussen",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Denmark",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Bukowskis",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Finland",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Koller Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Switzerland",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Saffronart",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "India",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Stephan Welz & Co.",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "South Africa",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Kedem Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Israel",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Aste Bolaffi",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Italy",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Pandolfini",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Italy",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Catawiki",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "Netherlands",
+   "dept": "autographs, manuscripts, ephemera auction"
+  },
+  {
+   "n": "Heritage Auctions",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rarebookhub.com/auction_houses",
+   "says": "listed in Rare Book Hub 'List of Auction House' (auction house handling books, manuscripts, autographs or ephemera)",
+   "country": "United States",
+   "dept": "autographs, manuscripts, ephemera auction",
+   "already": true,
+   "cross_tag": "F5",
+   "note": "same company as register row (J8 Christie's / F2 Heritage Auctions); add F5"
   }
  ]
 }

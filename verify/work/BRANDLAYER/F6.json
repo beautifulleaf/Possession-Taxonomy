@@ -81,6 +81,56 @@
    ],
    "found": 1,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Mineral dealers history (label archive)",
+   "queries": [
+    "Mineralogical Record Label Archive"
+   ],
+   "found": 16,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Tsumeb mine renowned mineral specimens"
+   ],
+   "found": 0,
+   "note": "locality only"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Dalnegorsk datolite specimens renowned",
+    "Sainte-Marie exhibitor list"
+   ],
+   "found": 0,
+   "note": "Sainte-Marie exhibitor-list URL 404; Dalnegorsk page not yet fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Taxidermy mounts (UK studios)",
+   "queries": [
+    "Guild of Taxidermists studios",
+    "Get Stuffed Leicester taxidermy",
+    "Emily Mayer taxidermy"
+   ],
+   "found": 1,
+   "note": "Guild directory not fetchable; Emily Mayer and Polly Morgan are artists (individuals), Museums Association article not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Pinned, pressed & wet specimens (entomology)",
+   "queries": [
+    "entomological supplies dealers list pinned insect specimens",
+    "BugsDirect",
+    "BicBugs"
+   ],
+   "found": 4,
+   "note": "BugsDirect/BicBugs/Pin-It seen in search excerpts only (not fetched), not recorded"
   }
  ],
  "regions": [
@@ -135,6 +185,24 @@
    "brands": [
     "Deyrolle"
    ]
+  },
+  {
+   "region": "Namibia (Tsumeb)",
+   "speciality": "IUGS Geological Heritage Site: 'one of the richest ore deposits with respect to variety, rarity and aesthetics of minerals in the world'; ~489 minerals, 72 type species (azurite, dioptase, cerussite, mimetite, smithsonite specimens)",
+   "src": "https://iugs-geoheritage.org/geoheritage_sites/tsumeb-ore-deposit/",
+   "brands": []
+  },
+  {
+   "region": "Germany (Solnhofen, Bavaria)",
+   "speciality": "Solnhofen limestone: 'world's most famous lithographer's stone', IUGS Global Heritage Stone 2024; the area's Plattenkalk also yields Archaeopteryx fossils",
+   "src": "https://iugs-geoheritage.org/geoheritage_stones/solnhofen-limestone",
+   "brands": []
+  },
+  {
+   "region": "Germany (Messel Pit, Hesse)",
+   "speciality": "UNESCO World Heritage 1995: richest Eocene fossil site, articulated mammal skeletons, feathers, skin and stomach contents",
+   "src": "https://whc.unesco.org/en/list/720",
+   "brands": []
   }
  ],
  "sources": [
@@ -187,6 +255,76 @@
    "new_names": 2,
    "status": "done",
    "note": " (0 already in register)"
+  },
+  {
+   "url": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "title": "Mineralogical Record Biographical & Label Archive",
+   "kind": "collection",
+   "years": "historic (two centuries of labels)",
+   "names_on_page": 16,
+   "new_names": 16,
+   "status": "done",
+   "note": "index runs names together without type markers; only recognisable historic dealer/company names copied (16 of ~240 company-like strings); persons and generic rock shops skipped. Seller role. (0 already in register)"
+  },
+  {
+   "url": "https://iugs-geoheritage.org/geoheritage_sites/tsumeb-ore-deposit/",
+   "title": "Namibia (Tsumeb)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "locality renown only; no maker named; fossil/mineral material from here is CITES-irrelevant but export laws apply"
+  },
+  {
+   "url": "https://iugs-geoheritage.org/geoheritage_stones/solnhofen-limestone",
+   "title": "Germany (Solnhofen, Bavaria)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "locality renown only; no maker named; fossil/mineral material from here is CITES-irrelevant but export laws apply"
+  },
+  {
+   "url": "https://whc.unesco.org/en/list/720",
+   "title": "Germany (Messel Pit, Hesse)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "locality renown only; no maker named; fossil/mineral material from here is CITES-irrelevant but export laws apply"
+  },
+  {
+   "url": "https://extension.entm.purdue.edu/401Book/default.php?page=where_to_get_supplies",
+   "title": "Purdue Extension: Where to Get Supplies (insect collecting)",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 3,
+   "status": "done",
+   "note": "Ward's already added from Label Archive; role seller (0 already in register)"
+  },
+  {
+   "url": "https://www.thegetstuffed.co.uk/",
+   "title": "Get Stuffed - Taxidermy Specialists London",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "studio as business (0 already in register)"
+  },
+  {
+   "url": "https://www.taxidermy.org.uk/",
+   "title": "Guild of Taxidermists (UK)",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "states an official directory of Accredited Members exists, but the list is behind members pages not linked; no studio names obtainable"
   }
  ],
  "brands": [
@@ -1116,6 +1254,206 @@
    "country": "Morocco",
    "dept": "mineral specimens",
    "already": false
+  },
+  {
+   "n": "Ward's Natural Science Establishment",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Mineral Classics",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Microminerals International",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Pala International",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Heidelberger Mineralien-Comptoir",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Comptoir Central d'Histoire Naturelle",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "American Meteorite Laboratory",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Western Meteorite Laboratory",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Schortmann's Minerals",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Mineralienhaus Droop",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Upper Crust Fine Mineral Specimens",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Tejon Gallery",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Pequa Rare Minerals",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Mineral Kingdom of Woodmere",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Bayerisches Petrefacten und Mineralien",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Mineral Cabinet, The",
+   "layer": "cultural",
+   "src": "https://mineralogicalrecord.com/new-biographies-biographical-and-label-archive",
+   "says": "listed in the Mineralogical Record Biographical and Label Archive (historic dealers and companies whose specimen labels are preserved)",
+   "country": "",
+   "dept": "mineral/fossil/meteorite dealing",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "BioQuip Products",
+   "layer": "cultural",
+   "src": "https://extension.entm.purdue.edu/401Book/default.php?page=where_to_get_supplies",
+   "says": "named by Purdue University Extension entomology as supply houses for insect pins, display cases and specimens (BioQuip closed 2022 per another page)",
+   "country": "US",
+   "dept": "entomology supplies, specimen cases",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Carolina Biological Supply Co.",
+   "layer": "cultural",
+   "src": "https://extension.entm.purdue.edu/401Book/default.php?page=where_to_get_supplies",
+   "says": "named by Purdue University Extension entomology as supply houses for insect pins, display cases and specimens (BioQuip closed 2022 per another page)",
+   "country": "US",
+   "dept": "entomology supplies, specimen cases",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "NASCO",
+   "layer": "cultural",
+   "src": "https://extension.entm.purdue.edu/401Book/default.php?page=where_to_get_supplies",
+   "says": "named by Purdue University Extension entomology as supply houses for insect pins, display cases and specimens (BioQuip closed 2022 per another page)",
+   "country": "US",
+   "dept": "entomology supplies, specimen cases",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Get Stuffed",
+   "layer": "cultural",
+   "src": "https://www.thegetstuffed.co.uk/",
+   "says": "self-described long-established London taxidermy company, 40+ years at its Islington premises, family trade; display cases made to order (existence/self-claim only; independent standing not yet found)",
+   "country": "UK",
+   "dept": "taxidermy mounts, hire, restoration, display cases",
+   "already": false,
+   "role": "seller"
   }
  ],
  "notes_next": "TODO: shells/coral dealers, entomology dealers (Bugs and bits), display-case makers, element samples (Luciteria known), gem specimen dealers, Japan/India/Russia/Central Asia/SE Asia/Oceania regions, Messel/Solnhofen/Dalnegorsk/Tsumeb pages, Sainte-Marie-aux-Mines, Mineralogical Record label archive page. CITES flags: ivory, coral, some shells, taxidermy of listed taxa (Deyrolle page notes CITES compliance)."
