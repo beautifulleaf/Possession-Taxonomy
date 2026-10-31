@@ -262,6 +262,43 @@
    ],
    "found": 0,
    "note": "search returned no relevant fetched page; Mammotion/Dreame not evidenced"
+  },
+  {
+   "axis": "kind",
+   "item": "Clearing, cleaning & snow > Snow clearing",
+   "queries": [
+    "best snow blower brands tested"
+   ],
+   "found": 3,
+   "note": "Ego, Snow Joe, Toro, Honda, Husqvarna known"
+  },
+  {
+   "axis": "kind",
+   "item": "Soil, feed & plant care > Composting & soil testing",
+   "queries": [
+    "best compost bin tumbler brands tested"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Cutting & pruning / Digging & planting > Hoes (ho-mi)",
+   "queries": [
+    "Korean ho-mi hand hoe maker"
+   ],
+   "found": 1,
+   "note": "Youngju; other results anonymous exporters/retailers"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia (Korea)",
+   "queries": [
+    "Korean ho-mi hand hoe maker",
+    "Youngju Korea hoe blacksmith brand"
+   ],
+   "found": 1,
+   "note": ""
   }
  ],
  "regions": [
@@ -390,6 +427,14 @@
     "Gransfors Bruk",
     "Husqvarna",
     "Gardena"
+   ]
+  },
+  {
+   "region": "South Korea (Yeongju)",
+   "speciality": "hand-forged ho-mi hoe, a tool standard since the Bronze Age",
+   "src": "https://www.diggers.com.au/products/youngju-homi-medium",
+   "brands": [
+    "Youngju"
    ]
   }
  ],
@@ -713,6 +758,36 @@
    "new_names": 1,
    "status": "done",
    "note": "axes: borderline fit for forestry/garden cutting"
+  },
+  {
+   "url": "https://www.royalwarrant.org/company/toro-uk-limited",
+   "title": "Royal Warrant Holders Association - Toro UK (Hayter)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Hayter known; Bartram via Pitchcare; full holder list PDF not fetched"
+  },
+  {
+   "url": "https://www.bobvila.com/reviews/best-snow-blower-brands/",
+   "title": "Bob Vila best snow blower brands",
+   "kind": "ranking",
+   "years": "2024",
+   "names_on_page": 7,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.compostmagazine.com/best-compost-bins",
+   "title": "Compost Magazine best compost bins",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 4,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -1440,6 +1515,65 @@
    "says": "Israeli-origin irrigation leader, 80+ years, world's largest dripper factory (2025), exports to 120 countries",
    "country": "Israel",
    "dept": "drip irrigation"
+  },
+  {
+   "n": "Bartram Mowers",
+   "layer": "cultural",
+   "src": "https://www.pitchcare.com/blogs/news/bartram-mowers-celebrates-45-years-in-business-and-the-renewal-of-its-royal-warrant",
+   "says": "Royal Warrant 1978 for machinery to Sandringham Estate, renewed to 2023",
+   "country": "United Kingdom",
+   "dept": "Lawn care"
+  },
+  {
+   "n": "Youngju",
+   "layer": "premium",
+   "src": "https://www.forestrytools.com.au/collections/digging-tools/products/youngju-homi-large",
+   "says": "Youngju Homi hand-forged by master blacksmith Seok No-Ki, one piece spring steel, made in Korea",
+   "country": "South Korea",
+   "dept": "Hoes (ho-mi)"
+  },
+  {
+   "n": "Joraform",
+   "layer": "premium",
+   "src": "https://www.compostmagazine.com/best-compost-bins",
+   "says": "Joraform JK270 best premium insulated tumbler",
+   "dept": "Composting"
+  },
+  {
+   "n": "Green Johanna",
+   "layer": "premium",
+   "src": "https://www.compostmagazine.com/best-compost-bins",
+   "says": "great hot composting bin, Compost Magazine pick",
+   "dept": "Composting"
+  },
+  {
+   "n": "Maze",
+   "layer": "premium",
+   "src": "https://www.gardenersworld.com/reviews/gardening-kit/which-type-of-compost-bin-is-best",
+   "says": "Maze 180 litre compost tumbler, best compost tumbler, BBC Gardeners World 4.5/5",
+   "dept": "Composting"
+  },
+  {
+   "n": "Ariens",
+   "layer": "premium",
+   "src": "https://www.bobvila.com/reviews/best-snow-blower-brands/",
+   "says": "listed among best snow blower brands (tested guide)",
+   "dept": "Snow clearing"
+  },
+  {
+   "n": "Cub Cadet",
+   "layer": "premium",
+   "src": "https://www.bobvila.com/reviews/best-snow-blower-brands/",
+   "says": "best snow blower brand; 2X 30 EFI praised",
+   "dept": "Snow clearing"
+  },
+  {
+   "n": "Troy-Bilt",
+   "layer": "cultural",
+   "src": "https://www.consumerreports.org/home-garden/snow-blowers/best-and-worst-snow-blowers-of-the-year-a6557947100",
+   "says": "Consumer Reports tests snow blowers from Ariens, Craftsman, Cub Cadet, Honda, Husqvarna, Toro, Troy-Bilt",
+   "country": "United States",
+   "dept": "Snow clearing"
   }
  ]
 }
