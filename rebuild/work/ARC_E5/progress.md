@@ -5,3 +5,4 @@ step3 wrote data_new.py (home new entries)
 step4 build_e5.py written and run; out/E5.json written; validate next, then diff check + report
 step5 report written; DONE
 gen-fix started: fetching per-generation articles
+gen-fix done: g from per-generation articles; single-entry sections dropped

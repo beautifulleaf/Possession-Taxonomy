@@ -1,6 +1,6 @@
 # ARC_E5 report: Consoles & handhelds, named-entry standard
 
-Only the department "Consoles & handhelds" changed (other departments verified identical). Backup: work/ARC_E5/bak/E5.json. validate --v3: OK (461 archetypes). No kind has `m` or `r` now. Generation sections: the list page has no generation headings, so entries are placed by release year into the generation ranges named on Home video game console generations (2nd 1976-92 ... 9th 2020-present); handhelds use the same ranges.
+Only the department "Consoles & handhelds" changed (other departments verified identical). Backup: work/ARC_E5/bak/E5.json. validate --v3: OK (461 archetypes). No kind has `m` or `r` now. Generation sections (gen-fix): `g` follows each console's membership in the Second to Ninth generation of video game consoles articles (names and ranges from Home video game console generations); consoles those articles do not name (list below) keep a year-based placement. Articles were read only to ~100k characters, so late handheld lists may be incomplete. Handheld gaming PC, Tabletop and Hardware upgrade add-on have no sections (one entry each); Disk and Converter add-ons keep host-maker sections.
 
 | Kind | Arch before > after | Models before > after | Sections | Reference |
 |---|---|---|---|---|
@@ -28,3 +28,6 @@ Roles: 7 on home consoles, 3 handhelds, 1 plug-and-play, 2 LCD (all from stateme
 - No kind for Satellaview; iQue Player left out of microconsoles.
 - Years missing: ten early home consoles (placed by table position), ONEXPLAYER, MSI Claw, Anbernic Android line, Miyoo Flip, TrimUI, Ayaneo Pocket, Coleco Telstar, APF TV Fun. Makers blank: MiSTer, C64 Direct-to-TV, Retro Station, Vectrex Mini, Flynn's Generation, Game Gadget, Arduboy, Go Retro!, Atari Pocket Player.
 - Kept entries keep earlier `s` pages; new ones cite the list page. Promoted entries have no versions. Stunt Cycle and Video Pinball omitted (sidebar only). FPGA vs clone split to verify. No brands added to E5_brands.json.
+
+## Placed by year (in no generation article read)
+APF Imagination Machine; Videosmarts; Video Art; Zemmix; Video Driver; Picno; Terebikko; Video Challenger; DVD Kids; Advanced Pico Beena; V.Smile Baby Infant Development System; Sport Vii; CT510; Evercade VS; Nex Playground; Digi Casse; Etch A Sketch Animator 2000; Gamate; Game Master; Watara Supervision; Mega Duck; Design Master Senshi Mangajukuu; Game.com; P/ECE; GameKing; Gizmondo; Game Gadget; Neo Geo X; Nvidia Shield Portable; Arduboy; Evercade; Analogue Pocket; Playdate; Thumby

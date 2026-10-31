@@ -363,12 +363,39 @@ for kn in (D1,HU,CC):
     for x in K[kn]['x']: x["g"]=HOSTG[x["n"]]
     K[kn]['xg']="by host console maker"
     K[kn]['x'].sort(key=lambda x:(x['g'],int(x['y']) if x.get('y') else 9999,x['n']))
+
+# ---- gen-fix: explicit membership from per-generation articles
+MEM={2:["Fairchild Channel F","Atari 2600","Atari 5200","Bally Astrocade","Magnavox Odyssey 2","Intellivision","ColecoVision","Vectrex","Arcadia 2001","RCA Studio II","1292 Advanced Programmable Video System","Interton VC 4000","APF-MP1000","Champion 2711","Bandai Super Vision 8000","Cassette Vision","VTech CreatiVision","Compact Vision TV Boy","Microvision","Entex Select-A-Game","Entex Adventure Vision","Palmtex Portable Videogame System","Epoch Game Pocket Computer"],
+3:["SG-1000","Master System","Nintendo Entertainment System","Atari 7800","Atari XEGS","Super Cassette Vision","Videopac+ G7400","My Vision","PV-1000","Pyuuta Jr.","Bridge Companion","Action Max","View-Master Interactive Vision","VTech Socrates","Amstrad GX4000","Commodore 64 Games System"],
+4:["PC Engine","Mega Drive","Super Nintendo Entertainment System","CD-i","Neo Geo AES","SuperGrafx","CDTV","Video Information System","Sega Pico","Pioneer LaserActive","Super A'Can","Game Boy","Atari Lynx","Game Gear","TurboExpress"],
+5:["3DO Interactive Multiplayer","Sega Saturn","PlayStation","Nintendo 64","Atari Jaguar","PC-FX","Amiga CD32","FM Towns Marty","Playdia","Casio Loopy","Apple Pippin","CPS Changer","Neo Geo CD","Sega Nomad","Game Boy Color","Neo Geo Pocket","Virtual Boy"],
+6:["Dreamcast","PlayStation 2","GameCube","Xbox","Nuon","Xavix PORT","V.Smile","WonderSwan","Game Boy Advance","N-Gage","Cybiko","GP32","Tapwave Zodiac","Pokémon mini"],
+7:["Xbox 360","PlayStation 3","Wii","Game Wave Family Entertainment System","HyperScan","V.Flash","Zeebo","Nintendo DS","PlayStation Portable"],
+8:["Wii U","PlayStation 4","Xbox One","Nintendo Switch","Nintendo 3DS","PlayStation Vita"],
+9:["PlayStation 5","Xbox Series X|S","Nintendo Switch 2"]}
+M2={n:g for g,l in MEM.items() for n in l}
+placed=[]
+for kn in("Home console","Handheld console","Hybrid console"):
+    for x in K[kn]['x']:
+        if x['n'] in M2: x['g']=GEN[M2[x['n']]]
+        else: placed.append(x['n'])
+    K[kn]['x'].sort(key=lambda x:([i for i,v in GEN.items() if v==x['g']][0],int(x['y']) if x.get('y') else 9999,x['n']))
+    K[kn]['sel']=K[kn]['sel'].replace("placed by release year","placed by the membership lists of the per-generation articles (Second to Ninth generation of video game consoles), by release year where no article names the console").replace("by release year.","by the per-generation articles' membership lists, by release year where none names it.")
+open('/home/user/Possession-Taxonomy/rebuild/work/ARC_E5/placed_by_year.txt','w').write('\n'.join(placed))
+# drop single-entry sections
+for kn in("Handheld gaming PC","Tabletop electronic game","Hardware upgrade add-on"):
+    for x in K[kn]['x']: x.pop('g',None)
+    K[kn].pop('xg',None)
+K["Handheld gaming PC"]['sel']=K["Handheld gaming PC"]['sel'].replace("; sections are by maker","; ordered by release year")
+K["Handheld gaming PC"]['x'].sort(key=lambda x:(int(x['y']) if x.get('y') else 9999,x['n']))
+K["Tabletop electronic game"]['x'].sort(key=lambda x:(int(x['y']),x['n']))
+K["Hardware upgrade add-on"]['x'].sort(key=lambda x:(int(x['y']) if x.get('y') else 9999,x['n']))
 # validate fields
 for n,k in K.items():
     assert 'm' not in k and 'r' not in k
 for k in K.values():
     for x in k['x']:
-        assert x.get('g') and x.get('s') and x.get('d') and x.get('mk') is not None, (k['n'],x['n'])
+        assert (x.get('g') or k['n'] in('Handheld gaming PC','Tabletop electronic game','Hardware upgrade add-on')) and x.get('s') and x.get('d') and x.get('mk') is not None, (k['n'],x['n'])
 tmp=OUT+'.tmp'
 json.dump(d,open(tmp,'w'),ensure_ascii=False,indent=None,separators=(',',':'))
 os.replace(tmp,OUT)
