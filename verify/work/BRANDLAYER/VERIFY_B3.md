@@ -1,0 +1,57 @@
+# VERIFY B3 Lighting (Opus verifier, BRANDLAYER)
+
+Rows: 433 (harvest 344 minus 7 audit drops, plus 100 audit adds, minus 4 duplicate rows merged). Every distinct source URL fetched raw once (Parallel web_fetch, full_content); pages in VERIFY_B3_tmp/pages.
+
+## Tiers
+- cultural: 47
+- listed: 299
+- quality: 80
+- seller: 7
+- not shown: 0 (4 names not on their cited page recovered via src2: Delta Electric Company (own en.wikipedia article), Globen Lighting and Briloner Leuchten (German Design Award gallery pages), Hatch (Tom's Guide test; the Strategist fetch was truncated))
+- src2 recorded on 19 rows (the 4 above plus cross-support from other fetched award/test/heritage pages and the Royal Warrant Holders Association page for Wilkinson Ltd)
+
+## Rules applied
+- Lumens, Lampenwelt (and the Lightology half of harvest claims) are retailer A-Z directories: "listed" unless another fetched page gives award, test, heritage or article evidence (upgrades: Lasvit, Kuzco, Vibia, Il Fanale, Mazzega 1946, Selène, Leucos, Thorn, Zumtobel, Linea Light, Briloner).
+- Retailer brand bios, design directories (Architonic, Dexigner, Archello, Maison&Objet), list rows with no quality statement (Homes & Gardens, Livingetc picks, SheerLuxe) and own websites: "listed". Own websites of sellers of traditional lamps (Moroccan brass, Turkish mosaic, Bolgatanga woven shades, Tamil brass vilakku, Hoi An lanterns): "seller", no quality and no region.
+- Audit drops applied: Aputure (D4), Eutrac (G3), Theben, Tridonic, Thomas Research Products, Lighting Ever. ED Ellen DeGeneres merged into Generation Lighting as an alias (licence).
+- Merges: Thorn into Thorn Lighting, Zumtobel into Zumtobel Group, Linea Light into Linea Light Group, Briloner into Briloner Leuchten.
+- Homonym check against rebuild/reader/_brand_index.json: SIN, Rolren's, Hatch, Konstsmide, Salviati and Zishta are already in other categories; all treated as the same company (SIN noted as not confirmed). No homonym flags.
+- Region placement only when the region renown is shown, the brand is named on the region source, and the source is not the brand's own site.
+
+## Regions (30 checked; renown shown 7, not shown 23)
+- no renown: Northern Europe (Denmark/Scandinavia) [https://www.finnishdesignshop.com/en-ca/manufacturer/frandsen]. directory/retailer page; src page has no statement that the region is renowned for the speciality; not on src page: Le Klint, Lyfa, Louis Poulsen; shown but not placed (renown not shown): Frandsen
+- RENOWN: Southern Europe (Italy) [https://www.casadiluce.ca/blogs/how-to/compasso-doro-award-winners] — "Atollo has become a symbol of Italian design excellence"; brands: Artemide, Oluce, Luceplan, Foscarini. page also: Compasso d'Oro promotes "the quality of Made in Italy"; not on src page: Flos, Davide Groppi, Lym, Viabizzuno
+- RENOWN: Central & Eastern Europe (Czechia/Bohemia) [https://www.visitczechia.com/en-us/news/2025/08/n-czech-glass-craft-crystal-art] — "join us for a walk into this hot yet fragile world, listed as UNESCO World Heritage"; brands: Preciosa, Lasvit, Bomma. Czech glass craft; also "world-famous Czech glass company Lasvit"; not on src page: Brokis
+- no renown: Western Europe (Germany, Bauhaus) [https://www.architonic.com/it/b/tecnolumen/3100132]. src page has no statement that the region is renowned for the speciality; not on src page: Osram, Ledvance, Trilux, Ledlenser; shown but not placed (renown not shown): Tecnolumen
+- no renown: Western Europe (UK) [https://www.wilkinson-ltd.com/royal-warrant/]. src page has no statement that the region is renowned for the speciality; not on src page: Anglepoise, Thorn Lighting, Mathmos, Tilley lamp; shown but not placed (renown not shown): Wilkinson Ltd
+- no renown: Southern Europe (Spain) [https://www.amstudio.ca/home]. src page has no statement that the region is renowned for the speciality; not on src page: Marset, LZF, Estiluz, Santa & Cole; shown but not placed (renown not shown): Vibia
+- RENOWN: East Asia (Japan) [https://kogeijapan.com/locale/en_US/gifuchochin/] — "They were designated a Traditional Craft by the Japanese government in 1995.". Gifu chochin; none of the listed makers named on the page; not on src page: Ozeki & Co., Ito Gonjiro Shoten, Yoshinoya Shoten, Akari Lighting & Technology, Yamagiwa
+- no renown: East Asia (China) [https://www.flashlightratings.com/brands]. directory/retailer page; src page has no statement that the region is renowned for the speciality; not on src page: Opple Lighting, NVC International; shown but not placed (renown not shown): Olight, Nitecore, Fenix, Sofirn, Wurkkos, ThruNite, Klarus
+- no renown: North America (USA/Canada) [https://www.flashlightratings.com/brands]. directory/retailer page; src page has no statement that the region is renowned for the speciality; not on src page: Pelican Products, Goal Zero, Rejuvenation, Dainolite; shown but not placed (renown not shown): SureFire, Streamlight, Maglite, Armytek
+- no renown: Southeast Asia (Philippines) [https://thebeat.asia/manila/nomads/explore/brighten-up-your-holidays-heres-where-to-find-the-best-parol-makers-in-the-philippines]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): Rolren's Lantern and General Merchandise
+- RENOWN: North Africa / Middle East (Egypt) [https://egyptianstreets.com/2016/06/10/exploring-the-industry-behind-egypts-colourful-ramadan-lanterns/] — "just a few workshops in Cairo's local districts are at the center of the manufacturing industry for the fanous". fanous; no makers listed
+- no renown: Latin America (Mexico) [https://www.lafuente.com/Lighting/Mexican-Tin-Lighting/Hanging-Lanterns/8707/]. src page has no statement that the region is renowned for the speciality
+- no renown: Oceania (New Zealand) [https://www.lumens.com/brands]. directory/retailer page; src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): David Trubridge
+- no renown: North Africa (Morocco) [https://www.marrakeche.com/moroccan-brass-lamp-collection]. src page has no statement that the region is renowned for the speciality; not on src page: Marrakech Lights; shown but not placed (renown not shown): Marrakeche Crafts (Abdul Jalil workshop)
+- no renown: Middle East / Anatolia (Turkey) [https://www.grandturkishbazaar.com/category/mosaic-lamp/]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): Grand Turkish Bazaar
+- no renown: Southern Europe (Venice/Murano) [https://www.barovier.com/en/floor-lamps]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): Barovier & Toso
+- no renown: Sub-Saharan Africa (South Africa) [https://visi.co.za/south-african-lighting-design-shines-at-decorex-2026]. src page has no statement that the region is renowned for the speciality; not on src page: Clarisse Design, Ikhaya Africa, MashT; shown but not placed (renown not shown): Mema Designs, Bofred, One to One, MOS Products
+- no renown: South Asia (India) [https://designwanted.com/oorjaa-studio-circular-lighting-design]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): Oorjaa
+- no renown: Oceania (Australia) [https://limelighting.com.au/products-and-technical/brightgreen]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): Brightgreen
+- no renown: Southern Europe (Venice/Murano) [https://vintageinfo.be/list-of-murano-companies-labels/]. src page has no statement that the region is renowned for the speciality; not on src page: Barovier & Toso; shown but not placed (renown not shown): Venini, Salviati, La Murrina, De Majo, Mazzega 1946, Leucos, Seguso, Carlo Moretti
+- no renown: Latin America (Mexico) [https://www.admagazine.com/diseno/seis-marcas-mexicanas-con-lamparas-que-seguro-te-encantaran-20210422-8258-articulos]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): CU29 lightware, Filamento, Studio davidpompa, Glassford Moncada, Marcelo Suro, Natural Urbano
+- RENOWN: Southeast Asia (Vietnam, Hoi An) [https://www.insideasiatours.com/us/blog/hoi-an-vietnam-land-of-lanterns] — "It is famous for its food and delicate lanterns.". Huynh Van Ba not named on the page; not on src page: Huynh Van Ba Lanterns (Hoi Ba Lantern)
+- RENOWN: South Asia (Tamil Nadu, India) [https://zishta.com/blogs/bodha/launching-beautiful-handcrafted-traditional-brass-lamps] — "The craftsmen here are known to make the best handcrafted brass lamps in the whole of Tamilnadu.". statement on a seller's own blog (Nachiar Kovil, Vagaikulam); Zishta not placed (own-website rule)
+- no renown: Oceania (Australia) [https://thedesignfiles.net/2019/07/awards-design-tdfdesignawards-lighting-finalists]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): Christopher Boots, Coco Flip, Ross Gardam, Anna Charlesworth, Apparentt
+- RENOWN: North Africa (Egypt, Cairo) [https://qantara.de/en/article/cairos-ramadan-lanterns-more-decoration] — "the traditional Egyptian lantern ... is a key part of the country's cultural identity"; brands: Mohamed Fawzi (fanous workshop). Cairo fanous; Mohamed Fawzi named
+- no renown: Sub-Saharan Africa (Ghana, Bolgatanga) [https://babatree.com/en-ca/collections/the-baba-tree-pendant-lampshade-collection]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): The Baba Tree
+- no renown: Latin America (Argentina) [https://www.diariodecuyo.com.ar/tendencia/Las-lamparas-colgantes-de-diseno-que-distinguen-la-casa-20221118-0045.html]. src page has no statement that the region is renowned for the speciality; not on src page: Manfroni, Indigo Lumieres; shown but not placed (renown not shown): Objetos Luminosos, Kinetic Decó, Lämmin
+- no renown: Latin America (Brazil) [https://www.lumini.com.br/sobre/premios]. src page has no statement that the region is renowned for the speciality; shown but not placed (renown not shown): Lumini
+- no renown: Southeast Asia (Philippines, capiz) [https://www.negrosseasonofculture.com/2026/07/the-shimmer-of-hinigaran-preserving.html]. src page has no statement that the region is renowned for the speciality; not on src page: Venzon Lighting; shown but not placed (renown not shown): Ruby Shells Crafts and Arts
+- no renown: Latin America (Brazil, Jalapão) [https://elle.com.br/lifestyle/vencedores-edida-br-2026]. src page has no statement that the region is renowned for the speciality; not on src page: Itens; shown but not placed (renown not shown): Jalapoeira Apurada
+
+## Points for the merge
+- Lava Lite (Lava World International) rests only on the en.wikipedia Lava lamp article (no own article): listed, candidate for cultural if a second page is found.
+- Murano: neither region page (Barovier own site, vintageinfo label list) states renown, so no Murano division yet; Salviati, La Murrina, De Majo, Mazzega 1946, Selène and Leucos are "cultural" through the official Vetri Murano label list.
+- Italy region also names known register brands (Artemide, Oluce, Luceplan, Foscarini) that are not harvest rows; Czechia names Preciosa (also not a row).
+- Oveready and Prometheus Lights rest on a ToolGuyd reader comment only: listed.
