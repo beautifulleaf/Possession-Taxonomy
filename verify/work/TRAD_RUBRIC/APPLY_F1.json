@@ -1,0 +1,69 @@
+{
+ "cat": "F1",
+ "items": [
+  {
+   "rubric_id": "F1-4",
+   "tradition": "Islamic manuscript and binding",
+   "decision": "skip",
+   "dept": "Books",
+   "shelf": "Manuscripts & early printed books",
+   "kind": "Manuscript book",
+   "record": {},
+   "makers": [],
+   "ve_link": "Islamic manuscript illumination and binding",
+   "why": "Already present: 'Islamic manuscript in flap binding' under Manuscript book and 'Illuminated Qur'an' under Illuminated manuscript."
+  },
+  {
+   "rubric_id": "F1-5",
+   "tradition": "Ethiopian manuscript tradition",
+   "decision": "add_archetype",
+   "dept": "Books",
+   "shelf": "Manuscripts & early printed books",
+   "kind": "Manuscript book",
+   "record": {
+    "n": "Ethiopian manuscript",
+    "a": "Ge'ez manuscript · Ethiopian psalter",
+    "d": "Ge'ez manuscript on parchment from Ethiopia's living scribal culture, its quires link-stitched and laced into wooden boards in a structure like early Coptic codices; the psalter is the commonest kind.",
+    "mk": "",
+    "y": "to 19th–20th century",
+    "s": "https://www.textmanuscripts.com/medieval/ethiopian-psalter-in-geez-141654",
+    "v": [
+     {
+      "n": "Ethiopian psalter",
+      "mk": "",
+      "y": "",
+      "d": "psalms, canticles and Wǝddase Maryam, copied in great numbers for private devotion"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Les Enluminures (Textmanuscripts)",
+     "role": "seller",
+     "src": "https://www.textmanuscripts.com/medieval/ethiopian-psalter-in-geez-141654"
+    },
+    {
+     "n": "Hartung u. Hartung",
+     "role": "seller",
+     "src": "https://www.textmanuscripts.com/medieval/ethiopian-psalter-in-geez-141654"
+    }
+   ],
+   "ve_link": "Ethiopian manuscript tradition",
+   "why": "Product: Ethiopian manuscripts are bought from dealers; scribal art and illumination stay in VE."
+  },
+  {
+   "rubric_id": "F1-9",
+   "tradition": "Dutch and Flemish golden-age cartography",
+   "decision": "skip",
+   "dept": "Maps, atlases & globes",
+   "shelf": "Antique & vintage maps",
+   "kind": "Antique atlas",
+   "record": {},
+   "makers": [],
+   "ve_link": "Dutch and Flemish golden-age cartography",
+   "why": "Already present: 'Dutch golden-age atlas map' (versions Blaeu, Mercator–Hondius) under Antique map, and Theatrum Orbis Terrarum, Mercator–Hondius Atlas and Atlas Maior under Antique atlas."
+  }
+ ],
+ "done": true
+}

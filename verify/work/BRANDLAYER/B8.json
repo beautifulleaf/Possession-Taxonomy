@@ -291,6 +291,45 @@
    ],
    "found": 0,
    "note": "no ranking page surfaced in results"
+  },
+  {
+   "axis": "kind",
+   "item": "Pest & insect control > Mosquito net & insect screen",
+   "queries": [
+    "best mosquito nets tested bed net brands",
+    "insect screen mosquito net makers traditional kaya Japan Nara"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "leading lock and safe manufacturer South Africa",
+    "Nigeria Kenya padlock manufacturer"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Egypt lock manufacturer door locks largest",
+    "Morocco Tunisia serrures fabricant marocain sécurité"
+   ],
+   "found": 0,
+   "note": "no North African maker surfaced in results; retry needed"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Thailand Solex locks"
+   ],
+   "found": 1,
+   "note": "Solex (Thailand) found via Africa search; dedicated SE Asia search still pending"
   }
  ],
  "regions": [
@@ -486,6 +525,37 @@
     "Bison",
     "Godzilla",
     "Jambo"
+   ]
+  },
+  {
+   "region": "Japan (Nara, mosquito nets)",
+   "speciality": "Kaya mosquito netting woven in Nara since c.1700 (once ~70% of Japan's nets)",
+   "src": "https://www.gltjp.com/en/directory/item/13240",
+   "brands": [
+    "Yoshida Kaya",
+    "Shirayuki Fuukin",
+    "BAN INOUE",
+    "Nakagawa Masashichi Shoten"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa (Kenya, South Africa)",
+   "speciality": "Padlocks and door locks (Kenya), security gates and burglar bars (South Africa)",
+   "src": "https://trellidor.co.za/",
+   "brands": [
+    "Tenacity Locks",
+    "Viro",
+    "Trellidor",
+    "Mutual Safe & Security",
+    "The Lockshop (David Miller Security)"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Thailand)",
+   "speciality": "Padlocks and car/motorcycle locks",
+   "src": "https://www.solextoplock.com/about4.php",
+   "brands": [
+    "Solex"
    ]
   }
  ],
@@ -899,6 +969,46 @@
    "new_names": 4,
    "status": "done",
    "note": "Raid known"
+  },
+  {
+   "url": "https://made-in-japan.jp/en/guide/fukin-cloth",
+   "title": "MADE in Japan: Fukin / Nara kaya; plus gltjp Yoshida Kaya, J-Star Shirayuki, shoukakukou BAN INOUE",
+   "kind": "heritage",
+   "years": "2019-2026",
+   "names_on_page": 6,
+   "new_names": 3,
+   "status": "done",
+   "note": "Nara has woven kaya (mosquito netting) since c.1700; Nakagawa Masashichi known"
+  },
+  {
+   "url": "https://www.fireprotectiononline.co.uk/1.8m-x-1.2m-fire-blanket",
+   "title": "Fire Protection Online - Vigil fire blankets",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "no independent fire blanket ranking found; CR article on blankets paywalled/untitled brands"
+  },
+  {
+   "url": "http://superbrands.s3.amazonaws.com/AAA%20MASTER%202%20PAGE%20PDF%20Case%20Studies/East%20Africa/East%20Africa%20Edition%202/East%20Africa%20Edition%202%20Viro.pdf",
+   "title": "Superbrands East Africa: Viro",
+   "kind": "ranking",
+   "years": "2016",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.sourcesecurity.com/companies/locks-manufacturers-south-africa/directory.html",
+   "title": "Source Security locks manufacturers directory",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 5,
+   "new_names": 1,
+   "status": "partial",
+   "note": "Directory page 1 only; CISA SA, ASSA ABLOY, BTV"
   }
  ],
  "brands": [
@@ -2426,6 +2536,104 @@
    "says": "Mosquito coil brand bought on the market and emission-tested in a peer-reviewed study (PMC2859469)",
    "country": "Asia",
    "dept": "Mosquito coils"
+  },
+  {
+   "n": "Yoshida Kaya",
+   "layer": "cultural",
+   "src": "https://www.gltjp.com/en/directory/item/13240",
+   "says": "Nara (est. 1921), the only one remaining of 100+ Naramachi kaya mosquito-net shops; still sells mosquito nets plus kaya goods; shop building a registered cultural property",
+   "country": "Japan",
+   "dept": "Mosquito nets (kaya)",
+   "role": "seller"
+  },
+  {
+   "n": "Shirayuki Fuukin",
+   "layer": "cultural",
+   "src": "https://www.j-star.co.jp/wp-content/uploads/2020/11/Shirayuki-Fuukin-20201126-E.pdf",
+   "says": "Nara maker upgrading kaya mosquito-net fabric into kitchen cloths; top kaya fukin market share, 700+ shops, used for Todaiji Great Buddha cleaning ceremony",
+   "country": "Japan",
+   "dept": "Kaya (mosquito net fabric)"
+  },
+  {
+   "n": "BAN INOUE",
+   "layer": "cultural",
+   "src": "https://en.shoukakukou.com/view/item/000000000294",
+   "says": "Nara lifestyle brand (1988) weaving traditional kaya mosquito-net fabric into goods",
+   "country": "Japan",
+   "dept": "Kaya (mosquito net fabric)"
+  },
+  {
+   "n": "Vigil Products",
+   "layer": "premium",
+   "src": "https://www.fireprotectiononline.co.uk/1.8m-x-1.2m-fire-blanket",
+   "says": "Fire blankets tested to BS EN 1869:2019 by SGS, 5-year warranty (retailer page)",
+   "country": "UK",
+   "dept": "Fire blankets"
+  },
+  {
+   "n": "Insect Shield",
+   "layer": "premium",
+   "src": "https://www.insectshield.com/products/insect-repellent-rectangular-mosquito-net",
+   "says": "EPA-registered permethrin built into mesh mosquito net fabric",
+   "country": "US",
+   "dept": "Mosquito nets"
+  },
+  {
+   "n": "Viro",
+   "layer": "cultural",
+   "src": "http://superbrands.s3.amazonaws.com/AAA%20MASTER%202%20PAGE%20PDF%20Case%20Studies/East%20Africa/East%20Africa%20Edition%202/East%20Africa%20Edition%202%20Viro.pdf",
+   "says": "Superbrands East Africa case study: Italian padlock brand (1942), assembled in Kenya since 1992, Viro Locks (K) Ltd",
+   "country": "Italy/Kenya",
+   "dept": "Padlocks & locks"
+  },
+  {
+   "n": "Tenacity Locks",
+   "layer": "cultural",
+   "src": "https://www.tenacitylocks.com/",
+   "says": "Kenya's premier locks company (self-described): door locks with non-duplicatable keys, padlocks",
+   "country": "Kenya",
+   "dept": "Door locks & padlocks"
+  },
+  {
+   "n": "Trellidor",
+   "layer": "cultural",
+   "src": "https://trellidor.co.za/",
+   "says": "South African maker of expanding security gates and burglar bars for 45+ years; 'Trellidor' is the brand name of the SA security barrier maker",
+   "country": "South Africa",
+   "dept": "Gates & burglar bars"
+  },
+  {
+   "n": "Solex",
+   "layer": "cultural",
+   "src": "https://www.solextoplock.com/about4.php",
+   "says": "Thai lock maker (padlocks, car locks, safes) exporting to 30+ countries incl. Africa, Asia, Europe, Americas",
+   "country": "Thailand",
+   "dept": "Padlocks & car locks"
+  },
+  {
+   "n": "The Lockshop (David Miller Security)",
+   "layer": "cultural",
+   "src": "https://www.lockshop.co.za/about",
+   "says": "Cape Town lock and security-hardware supplier since 1975, one of SA's most respected",
+   "country": "South Africa",
+   "dept": "Locks & security hardware",
+   "role": "seller"
+  },
+  {
+   "n": "Mutual Safe & Security",
+   "layer": "cultural",
+   "src": "https://mobile.listcompany.org/Mutual_Safe_Security_Pty_Ltd_Info.html",
+   "says": "South African safe, vault and door manufacturer est. 1984 (directory listing)",
+   "country": "South Africa",
+   "dept": "Safes"
+  },
+  {
+   "n": "BTV",
+   "layer": "premium",
+   "src": "https://www.sourcesecurity.com/companies/locks-manufacturers-south-africa/directory.html",
+   "says": "Spanish family-owned maker of safes, locks, access and key-management products (La Puebla de Alfindén, Zaragoza) per Source Security directory",
+   "country": "Spain",
+   "dept": "Safes & locks"
   }
  ]
 }

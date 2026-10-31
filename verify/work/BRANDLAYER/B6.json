@@ -236,19 +236,21 @@
    "axis": "kind",
    "item": "Cleaning products > Bathroom & drain cleaners",
    "queries": [
-    "de.wikipedia Markenname Haushaltschemie"
+    "de.wikipedia Markenname Haushaltschemie",
+    "best drain unblocker toilet cleaner tested (search surfaced no page)"
    ],
    "found": 1,
-   "note": "WC-Ente"
+   "note": "nothing independent surfaced in this query"
   },
   {
    "axis": "kind",
    "item": "Cleaning products > Kitchen & appliance cleaners",
    "queries": [
-    "de.wikipedia Markenname Haushaltschemie"
+    "de.wikipedia Markenname Haushaltschemie",
+    "best descaler kettle washing machine Durgol Kilrock tested"
    ],
    "found": 1,
-   "note": "Durgol descaler"
+   "note": "Durgol known; no new test page surfaced"
   },
   {
    "axis": "kind",
@@ -263,33 +265,40 @@
    "axis": "kind",
    "item": "Cleaning products > Dishwashing",
    "queries": [
-    "de.wikipedia Markenname Haushaltschemie"
+    "de.wikipedia Markenname Haushaltschemie",
+    "test.de Geschirrspültabs Test Testsieger",
+    "best dishwasher tablets tested Which? Telegraph"
    ],
-   "found": 4,
-   "note": ""
+   "found": 9,
+   "note": "Fairy, Finish, Somat, Ecover known"
   },
   {
    "axis": "kind",
    "item": "Washing machines & dryers > Washing machines",
    "queries": [
-    "best makers / independent test (partial)"
+    "best makers / independent test (partial)",
+    "CR most reliable laundry brands; Which? washing machines; Asko verification"
    ],
    "found": 0,
-   "note": ""
+   "note": "Asko downgraded to cultural after raw check"
   },
   {
    "axis": "kind",
    "item": "Washing machines & dryers > Dryers",
-   "queries": [],
+   "queries": [
+    "best heat pump tumble dryer tested"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "Miele, Hisense, Whirlpool known"
   },
   {
    "axis": "kind",
    "item": "Washing machines & dryers > Washer-dryers & laundry centres",
-   "queries": [],
+   "queries": [
+    "Wikipedia home appliance brands; CR washer dryer sets"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "no distinct brands beyond washer makers"
   },
   {
    "axis": "kind",
@@ -314,16 +323,21 @@
   {
    "axis": "kind",
    "item": "Ironing & drying > Pressing",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "best steam generator iron tested",
+    "best garment steamer tested"
+   ],
+   "found": 2,
+   "note": "Laurastar, Rowenta, Tefal, Philips, Miele, Steamery known"
   },
   {
    "axis": "kind",
    "item": "Ironing & drying > Drying",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "best clothes airer washing line brand tested"
+   ],
+   "found": 1,
+   "note": "Brabantia known; Hills not evidenced"
   },
   {
    "axis": "kind",
@@ -1057,6 +1071,56 @@
    "new_names": 0,
    "status": "done",
    "note": "Asko premium claim not independently supported: CR places Asko mid/low; downgraded to cultural. LG, Speed Queen, Miele, Insignia, Hotpoint, Electrolux, Amana, GE, Maytag known/top"
+  },
+  {
+   "url": "https://www.consumerreports.org/appliances/best-clothes-steamers-a9575794982/",
+   "title": "CR 5 best clothes steamers 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 1,
+   "status": "done",
+   "note": "others known"
+  },
+  {
+   "url": "https://www.wired.com/story/best-iron-review-prices-tefal-effectis-philips",
+   "title": "WIRED best irons tested by Savile Row tailor (Tefal, Miele, Laurastar, Philips)",
+   "kind": "award",
+   "years": "2016",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "all known; Laurastar 10-year repair commitment (gadgetceo 2026)"
+  },
+  {
+   "url": "https://www.telegraph.co.uk/recommended/home/best-tumble-dryer",
+   "title": "Telegraph 14 best tumble dryers",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Miele, Hisense, Whirlpool, Russell Hobbs known"
+  },
+  {
+   "url": "https://www.test.de/Geschirrspuelmittel-Multitabs-im-Test-4840806-0",
+   "title": "Stiftung Warentest Spülmaschinentabs im Test (7/2026)",
+   "kind": "award",
+   "years": "2023-2026",
+   "names_on_page": 16,
+   "new_names": 4,
+   "status": "done",
+   "note": "winners Aldi, Rossmann Domol (private labels); Finish, Somat, Frosch, Claro, Lidl, dm"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/dishwasher-tablets/article/full-dishwasher-detergent-test-results-ahYsX3O3Mm9Z",
+   "title": "Which? best dishwasher tablets (Fairy, Finish, Ecover, supermarket)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Fairy Platinum best per BBC Sliced Bread; Ecover, Finish known"
   }
  ],
  "brands": [
@@ -2525,6 +2589,70 @@
    "says": "MexMax: Pinol Mexican cleaning product in the Latin American cleaning aisle",
    "country": "Mexico",
    "dept": "Floor cleaner"
+  },
+  {
+   "n": "Jiffy",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/appliances/best-clothes-steamers-a9575794982/",
+   "says": "Consumer Reports 2026 lab-tested clothes steamers: Jiffy Travel Steamer among models tested",
+   "country": "United States",
+   "dept": "Garment steamers"
+  },
+  {
+   "n": "Tower",
+   "layer": "premium",
+   "src": "https://www.theenglishhome.co.uk/buyers-guide/shopping/best-clothes-cleaners",
+   "says": "The English Home 2026 steamer test: Tower CeraGlide best for delicate fabrics",
+   "country": "United Kingdom",
+   "dept": "Garment steamers"
+  },
+  {
+   "n": "Lift-O-Matic",
+   "layer": "premium",
+   "src": "https://www.goodhousekeeping.com/what-to-buy/g71498211/the-best-clothes-drying-racks/",
+   "says": "Good Housekeeping tested clothes drying racks: Lift-O-Matic Rotary Dryer Clothes Line best outdoor",
+   "country": "",
+   "dept": "Clothes lines / rotary dryers"
+  },
+  {
+   "n": "Claro",
+   "layer": "premium",
+   "src": "https://produkte-im-test.de/geschirrspueltabs-test-stiftung-warentest",
+   "says": "Stiftung Warentest 2026 dishwasher tabs: Claro Multi Next best cleaning performance (overall befriedigend)",
+   "country": "Germany",
+   "dept": "Dishwasher detergent"
+  },
+  {
+   "n": "Denkmit (dm)",
+   "layer": "premium",
+   "src": "https://www.chip.de/artikel/Spuelmaschinentabs-Test-Sieger-der-Stiftung-Warentest_181239707.html",
+   "says": "Stiftung Warentest: Denkmit (dm own brand) best conventional multitab and best eco multitab in CHIP summary of tests; affordable quality",
+   "country": "Germany",
+   "dept": "Dishwasher detergent"
+  },
+  {
+   "n": "everdrop",
+   "layer": "premium",
+   "src": "https://www.chip.de/artikel/Spuelmaschinentabs-Test-Sieger-der-Stiftung-Warentest_181239707.html",
+   "says": "Stiftung Warentest mono-tab test (02/2024) best monotab: everdrop starter set (via CHIP)",
+   "country": "Germany",
+   "dept": "Dishwasher detergent (eco)"
+  },
+  {
+   "n": "Domol (Rossmann)",
+   "layer": "premium",
+   "src": "https://www.zdfheute.de/ratgeber/stiftung-warentest-spuelmaschine-spuelmaschinentabs-100.html",
+   "says": "Stiftung Warentest July 2026: Rossmann Domol Ultra Power All-in-One test winner 'gut' at about 9 cent per tab (own brand of a drugstore chain)",
+   "country": "Germany",
+   "dept": "Dishwasher detergent"
+  },
+  {
+   "n": "Diversey (SUN Professional)",
+   "layer": "cultural",
+   "src": "https://www.testbericht.de/spuelmittel/tabs",
+   "says": "testbericht.de aggregates 18 tests: Diversey SUN Professional Classic tablets average 69/100",
+   "country": "",
+   "dept": "Dishwasher detergent (professional)"
   }
  ]
 }
