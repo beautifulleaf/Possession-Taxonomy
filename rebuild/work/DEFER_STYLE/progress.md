@@ -11,3 +11,4 @@ step10: H4 done 43 placed, sel fixed
 step11: final fetch batch done (Fineline review, LV handbags, MoMA Max Bill, Supreme preview=no Crest Coaches; searches for Alden/Happi/Mexico only excerpts). Now applying A1-A4,A5 clock,H1,H2 edits
 step12: A1,A2 brands/entries edited (A2 Consul pending)
 step13: A3,A4,H1,H2 edits applied
+step14: H1 indie brands added; next: validate all, report

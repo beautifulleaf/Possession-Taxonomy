@@ -4,7 +4,7 @@ About 22 Parallel calls. All files validate (--v3 OK). Backups in rebuild/work/D
 
 **B1** done except as noted.
 - MoMA cabinet/desk/bed: page 2 empty, so page 1 was complete. Screen pages 2-3: textiles and posters, no furniture; nothing added.
-- Vitra Design Museum chair searches (Saarinen, Nelson, Pesce, Magistretti, Wegner, Juhl, Sottsass, Arad, Morrison, Eames): 105 new entries in Dining chair. Nelson sofa groups left out. Eames read to result 32 of 74; the site's page parameter is unknown, so 33-74 stay blocked.
+- Vitra Design Museum chair searches (Saarinen, Nelson, Pesce, Magistretti, Wegner, Juhl, Sottsass, Arad, Morrison, Eames): 102 new entries, placed by the type their title states: Armchair 7, Dining chair 5 (side chairs), Office chair 3, Folding chair 1, Rocking chair 1; the other 85 state no type and sit in the new kind "Chair, type not stated" (decade sections). Nelson sofa groups left out. Eames read to result 32 of 74; the site's page parameter is unknown, so 33-74 stay blocked.
 - String: owner String Furniture AB (rights bought 2004 by Erlandsson and Josefsson), Pocket (2005), Museum (2018), Pira G2 (2023) added; coverage text and brand register updated. Thonet: only the Design Museum No. 14 page read; Thonet's own product list not found.
 - Nectar: owner Resident Home Inc., bought by Ashley Home March 2024, now cited from fetched pages.
 
