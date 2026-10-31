@@ -46,7 +46,7 @@ def pt(s): return s if s.endswith('.') else s+'.'
 
 # 1 RICE
 rice_kinds=[x for x in K if K[x][1]['n']=='Rice']
-k=newkind('Rice','Other national rice cultivars',"Named rice cultivars and landraces from national and state lists outside the Italian, Spanish, Japanese, Californian, Carolina, Australian, Thai and Vietnamese lists.",W+'List_of_rice_cultivars',
+k=newkind('Rice','Rice cultivars by country',"Named rice cultivars and landraces from national and state lists outside the Italian, Spanish, Japanese, Californian, Carolina, Australian, Thai and Vietnamese lists.",W+'List_of_rice_cultivars',
  "One entry is a named rice cultivar or landrace from Wikipedia's list of rice cultivars; brands and pack sizes are not entries.")
 rice_total=0
 for cty,s in RICE.items():
@@ -55,14 +55,14 @@ for cty,s in RICE.items():
         nn=norm(nme)
         found=any(nn in names(kn(x)) for x in rice_kinds)
         if found: continue
-        addx('Other national rice cultivars',{"n":nme,"d":f"Rice cultivar listed for {cty} by Wikipedia.","s":W+'List_of_rice_cultivars',"g":cty})
-rn=len(kn('Other national rice cultivars')['x'])
-kn('Other national rice cultivars')['xg']='by country or state'
-kn('Other national rice cultivars')['sel']=f"Follows Wikipedia, List of rice cultivars, every national and state list not already placed in the other rice kinds. Complete: the whole page was read to its end; {rn} further cultivars added here. Left out as not cultivars: group labels (for example Rice specific to Karnataka, Medicinal Rice, Diabetic Rice), wild rice (Zizania) and repeated names within a list."
+        addx('Rice cultivars by country',{"n":nme,"d":f"Rice cultivar listed for {cty} by Wikipedia.","s":W+'List_of_rice_cultivars',"g":cty})
+rn=len(kn('Rice cultivars by country')['x'])
+kn('Rice cultivars by country')['xg']='by country or state'
+kn('Rice cultivars by country')['sel']=f"Follows Wikipedia, List of rice cultivars, every national and state list not already placed in the other rice kinds. Complete: the whole page was read to its end; {rn} cultivars of other countries and states held here. Left out as not cultivars: group labels (for example Rice specific to Karnataka, Medicinal Rice, Diabetic Rice), wild rice (Zizania) and repeated names within a list."
 for x in rice_kinds:
-    if x=='Other national rice cultivars': continue
+    if x=='Rice cultivars by country': continue
     kk=kn(x); kk['xg']='by country'
-    setsel(x,"Follows Wikipedia, List of rice cultivars, country by country. Complete: with Other national rice cultivars, every list on the page (read to its end) is placed; this kind holds the cultivars of that list by grain type.")
+    setsel(x,"Follows Wikipedia, List of rice cultivars, country by country. Complete: with Rice cultivars by country, every list on the page (read to its end) is placed; this kind holds the cultivars of that list by grain type.")
 
 # 2 INSTANT NOODLES
 U=W+'List_of_instant_noodle_brands'
@@ -101,24 +101,10 @@ ADD=[('Adjika','European herb and spice blends','Caucasus','Blend listed in the 
 ('Bouquet garni','European herb and spice blends','France','Herb bundle listed in the Spice mix navigation box.'),
 ('Persillade','European herb and spice blends','France','Parsley and garlic mix listed in the Spice mix navigation box.'),
 ('Powder-douce','European herb and spice blends','Europe','Medieval spice powder listed in the Spice mix navigation box.'),
-('Herbes de Provence','European herb and spice blends','France','Thyme, marjoram, rosemary, basil, bay leaf and sometimes lavender.'),
 ('Cinnamon sugar','Barbecue rubs and seasonings','North America','Sweet spice mix listed in the Spice mix navigation box.'),
 ('Crab boil','Barbecue rubs and seasonings','North America','Seafood-boil seasoning listed in the Spice mix navigation box.'),
 ('Recado rojo','Barbecue rubs and seasonings','Mexico','Yucatán red seasoning paste listed in the Spice mix navigation box.'),
-('Idli podi','South Asian masalas','India','Dry chutney powder listed in the Spice mix navigation box.'),
-('Berbere','Middle Eastern and African spice blends','Eritrea and Ethiopia','Blend of chilies and spices.'),
-('Baharat','Middle Eastern and African spice blends','Middle East','Blend used throughout the region.'),
-('Ras el hanout','Middle Eastern and African spice blends','Maghreb','Blend including cinnamon and cumin among other spices.'),
-("Za'atar",'Middle Eastern and African spice blends','Middle East','Herb blend with sesame seeds and sometimes sumac.'),
-('Harissa','Middle Eastern and African spice blends','North Africa','Chilli blend listed in the Spice mix navigation box.'),
-('Five-spice powder','East and Southeast Asian spice blends','China','Cassia, star anise, cloves, fennel seeds and Sichuan peppercorns.'),
-('Shichimi','East and Southeast Asian spice blends','Japan','Red chili, Japanese pepper, orange peel, sesame, hemp seed, ginger and nori.'),
-('Chaat masala','South Asian masalas','Indian subcontinent','Ground spices for flavouring chaat.'),
-('Garam masala','South Asian masalas','Indian subcontinent','Most common spice blend in the region.'),
-('Panch phoron','South Asian masalas','Indian subcontinent','Fenugreek, nigella, fennel, cumin and mustard or radhuni seeds.'),
-('Tandoori masala','South Asian masalas','Indian subcontinent','Blend for tandoor-cooked meats.'),
-('Mixed spice','European herb and spice blends','United Kingdom','Cinnamon, nutmeg, allspice and other spices.'),
-('Quatre épices','European herb and spice blends','France','Ground pepper, cloves, nutmeg and ginger.')]
+('Idli podi','South Asian masalas','India','Dry chutney powder listed in the Spice mix navigation box.')]
 added_blend=0
 for n,kind,g,d in ADD:
     if addx(kind,{"n":n,"d":d,"s":SM,"g":g},glob=True): added_blend+=1
