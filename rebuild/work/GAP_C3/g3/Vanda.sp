@@ -1,0 +1,1 @@
+ampullacea bensonii christensoniana coerulea coerulescens cristata curvifolia denisoniana dives falcata flabellata garayi hindsii insignis javierae jennae lamellata limbata luzonica roeblingiana sanderiana scandens tessellata testacea tricolor ustii wightii xichangensis

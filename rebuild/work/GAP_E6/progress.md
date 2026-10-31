@@ -8,3 +8,4 @@ step4 fetched (21 fetches): sundial end, astrolabe end, night vision, seismomete
 step5 fetched (25 so far incl. searches): thermometer, quadrant; smart-telescope + guide-scope pages being fetched
 step6: fetched dobsonian, unistellar, robotic telescope, stellina (31 calls incl searches); applying step6.py then coverage lines (step7)
 step7 fetched (36): astro filter, opera glasses, solar telescope, planetarium, spyglass(disambig); applying step7.py
+step8 fetched (41): spotting scope, monocular, stevenson, weather station, barlow; applying step8.py

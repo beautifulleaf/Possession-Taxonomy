@@ -850,9 +850,33 @@
      "yr": 2024,
      "s": "https://en.wikipedia.org/wiki/Persimmon_plc",
      "note": "completions, not a share"
+    },
+    {
+     "mkt": "UK housebuilding",
+     "who": "Barratt Developments",
+     "share": "14,004 homes completed",
+     "yr": 2024,
+     "s": "https://projectscot.com/2024/07/barratt-delivers-strong-operational-performance-despite-sector-challenges",
+     "note": "year to 30 June 2024, including 536 from joint ventures; completions, not a share"
+    },
+    {
+     "mkt": "UK housebuilding",
+     "who": "Vistry",
+     "share": "17,225 homes completed",
+     "yr": 2024,
+     "s": "https://en.wikipedia.org/wiki/Vistry_Group",
+     "note": "total completions, up 7 % on 2023; completions, not a share"
+    },
+    {
+     "mkt": "UK housebuilding",
+     "who": "Taylor Wimpey",
+     "share": "10,593 homes completed",
+     "yr": 2024,
+     "s": "https://www.investegate.co.uk/announcement/rns/taylor-wimpey--tw./taylor-wimpey-plc-full-year-results/9459165",
+     "note": "group completions including joint ventures (9,972 UK homes excluding them), as the 2025 results state; completions, not a share"
     }
    ],
-   "msum": "The ten largest US builders closed a record 44.7 % of new single-family homes in 2024, led by D.R. Horton (NAHB). In the UK, Vistry overtook Barratt as the largest builder in September 2024; Barratt then merged with Redrow in October 2024."
+   "msum": "The ten largest US builders closed a record 44.7 % of new single-family homes in 2024, led by D.R. Horton (NAHB). In the UK, Vistry overtook Barratt as the largest builder in September 2024; Barratt then merged with Redrow in October 2024. 2024 completions: Vistry 17,225, Barratt 14,004 (year to June), Taylor Wimpey 10,593 and Persimmon 10,664; these are counts, not shares, and the reporting years differ."
   },
   {
    "n": "Flats & apartments",
@@ -1102,7 +1126,10 @@
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
          "g": "Hotel brands",
-         "tier": "Independent"
+         "tier": "Global group",
+         "own": "Marriott International",
+         "cty": "United States",
+         "own_y": 1998
         },
         {
          "n": "Mandarin Oriental Residences",
@@ -1113,7 +1140,9 @@
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
          "g": "Hotel brands",
-         "tier": "Independent"
+         "tier": "Independent",
+         "own": "Jardine Matheson",
+         "cty": "Hong Kong"
         },
         {
          "n": "Trump International Residences",
@@ -1134,7 +1163,11 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Hotel brands"
+         "g": "Hotel brands",
+         "own": "Accor",
+         "tier": "Global group",
+         "cty": "Canada",
+         "own_y": 2016
         },
         {
          "n": "St Regis Residences",
@@ -1144,7 +1177,11 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Hotel brands"
+         "g": "Hotel brands",
+         "own": "Marriott International",
+         "tier": "Global group",
+         "cty": "United States",
+         "own_y": 2016
         },
         {
          "n": "Banyan Tree Residences",
@@ -1154,7 +1191,10 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Hotel brands"
+         "g": "Hotel brands",
+         "own": "Banyan Group",
+         "tier": "Independent",
+         "cty": "Singapore"
         },
         {
          "n": "Kempinski Residences",
@@ -1164,7 +1204,10 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Hotel brands"
+         "g": "Hotel brands",
+         "own": "Kempinski AG",
+         "tier": "Independent",
+         "cty": "Germany"
         },
         {
          "n": "Marriott International residences",
@@ -1175,7 +1218,9 @@
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
          "g": "Hotel brands",
-         "tier": "Global group"
+         "tier": "Global group",
+         "own": "Marriott International",
+         "cty": "United States"
         },
         {
          "n": "Accor residences",
@@ -1186,7 +1231,9 @@
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
          "g": "Hotel brands",
-         "tier": "Global group"
+         "tier": "Global group",
+         "own": "Accor",
+         "cty": "France"
         },
         {
          "n": "Hilton residences",
@@ -1197,7 +1244,9 @@
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
          "g": "Hotel brands",
-         "tier": "Global group"
+         "tier": "Global group",
+         "own": "Hilton",
+         "cty": "United States"
         },
         {
          "n": "Banyan Group residences",
@@ -1207,7 +1256,10 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Hotel brands"
+         "g": "Hotel brands",
+         "own": "Banyan Group",
+         "tier": "Independent",
+         "cty": "Singapore"
         },
         {
          "n": "Armani residences",
@@ -1217,7 +1269,8 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Fashion brands"
+         "g": "Fashion brands",
+         "cty": "Italy"
         },
         {
          "n": "Elie Saab residences",
@@ -1227,7 +1280,8 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Fashion brands"
+         "g": "Fashion brands",
+         "cty": "Lebanon"
         },
         {
          "n": "Missoni residences",
@@ -1237,7 +1291,10 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Fashion brands"
+         "g": "Fashion brands",
+         "own": "Missoni family and Fondo Strategico Italiano",
+         "tier": "Independent",
+         "cty": "Italy"
         },
         {
          "n": "Aston Martin residences",
@@ -1247,7 +1304,10 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Car and design brands"
+         "g": "Car and design brands",
+         "own": "Aston Martin Lagonda Global Holdings PLC",
+         "tier": "Independent",
+         "cty": "United Kingdom"
         },
         {
          "n": "Pininfarina residences",
@@ -1257,7 +1317,11 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Branded_residence",
          "v": [],
-         "g": "Car and design brands"
+         "g": "Car and design brands",
+         "own": "Mahindra Group",
+         "tier": "Independent",
+         "cty": "Italy",
+         "own_y": 2015
         },
         {
          "n": "Tonino Lamborghini residences",
@@ -1310,7 +1374,7 @@
         ]
        ],
        "nl": "One entry is a residence brand under which homes are sold with the brand's name and services; individual developments are versions.",
-       "sel": "Every brand the fetched Wikipedia article Branded residence names as a branded-residence brand (hotel, fashion, car and design brands), plus Aman, which the article does not list. The two early apartment hotels it names (Sherry-Netherland, Carlyle) are precedents, not brands, and are left out.",
+       "sel": "Every brand the fetched Wikipedia article Branded residence names as a branded-residence brand (hotel, fashion, car and design brands), plus Aman, which the article does not list. The two early apartment hotels it names (Sherry-Netherland, Carlyle) are precedents, not brands, and are left out. Covers 20 of an unknown total: the article lists no whole-space register (Knight Frank counts 903 schemes worldwide), so brands named on no fetched page are left out. Trump International has no fetched owner; Tonino Lamborghini page returned 404.",
        "xg": "by brand type"
       },
       {

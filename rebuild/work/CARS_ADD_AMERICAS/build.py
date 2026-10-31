@@ -106,10 +106,33 @@ for dp in cars["depts"]:
   for sh in dp["s"]:
     for k in sh["k"]:
       for e in k.get("x",[]): ex.add(e["n"].lower())
-for k,v in K.items():
-  for e in v: ex.add(e["n"].lower())
+import re
+def full(mk,n):
+    n=n.lower(); m=mk.lower()
+    if n.startswith(m): n=n[len(m):]
+    n=re.sub(r"^[\s\-]*(rambler)?","",n) if mk=="AMC" else n
+    return re.sub(r"[^a-z0-9()]","",n)
+def stem(mk,n): return re.sub(r"\(.*?\)","",full(mk,n))
+FULL=set();STEM=set()
+for dp in cars["depts"]:
+  for sh in dp["s"]:
+    for k in sh["k"]:
+      for e in k.get("x",[]):
+        FULL.add((e["g"],full(e["g"],e["n"])));STEM.add((e["g"],stem(e["g"],e["n"])))
+SKIPPED=[]
+def dup(mk,n):
+    f=full(mk,n);st=stem(mk,n)
+    if (mk,f) in FULL: return True
+    if "(" not in n and (mk,st) in STEM: return True
+    return False
+for kk in list(K):
+    keep=[]
+    for e in K[kk]:
+        if dup(e["mk"],e["n"]): SKIPPED.append(e["n"]); continue
+        FULL.add((e["mk"],full(e["mk"],e["n"])));STEM.add((e["mk"],stem(e["mk"],e["n"])));keep.append(e)
+    K[kk]=keep
 GG="Global group";IN="Independent"
-META={"Oldsmobile":(GM,GG,US),"Saturn":(GM,GG,US),"Buick":(GM,GG,US),"Cadillac":(GM,GG,US),"Chevrolet":(GM,GG,US),"Dodge":("Stellantis North America",GG,US),"Jeep":("Stellantis North America",GG,US),"Chrysler":("Stellantis",GG,US),"Ford":("Ford Motor Company",GG,US),"Troller":("Ford do Brasil",GG,"Brazil"),"Auburn":("Cord Automobile",IN,US),"Nash":("Nash-Kelvinator Corporation",IN,US),"Gurgel":("",IN,"Brazil")}
+META={"Oldsmobile":(GM,GG,US),"Saturn":(GM,GG,US),"Buick":(GM,GG,US),"Cadillac":(GM,GG,US),"Chevrolet":(GM,GG,US),"Dodge":("Stellantis North America",GG,US),"Jeep":("Stellantis North America",GG,US),"Chrysler":("Stellantis",GG,US),"Ford":("Ford Motor Company",GG,US),"Lincoln":("Ford Motor Company",GG,US),"Ram":("Stellantis",GG,US),"Troller":("Ford do Brasil",GG,"Brazil"),"Auburn":("Cord Automobile",IN,US),"Nash":("Nash-Kelvinator Corporation",IN,US),"Gurgel":("",IN,"Brazil")}
 CT={"Brazil":["Puma","Brasinca","FNM","Santa Matilde","Dardo","Lobini","Gurgel","Troller"],"Argentina":["Anasagasti","Sero"]}
 def meta(mk):
     if mk in META: return META[mk]
@@ -118,8 +141,8 @@ def meta(mk):
 for line in open("work/CARS_ADD_AMERICAS/data2b.txt"):
     if line.startswith("#") or not line.strip(): continue
     kc,mk,n,y=line.rstrip("\n").split("|")
-    if n.lower() in ex: continue
-    ex.add(n.lower())
+    if dup(mk,n): SKIPPED.append(n); continue
+    FULL.add((mk,full(mk,n)));STEM.add((mk,stem(mk,n)))
     own,tier,c=meta(mk)
     e={"n":n,"mk":mk,"y":y,"g":mk,"s":"https://en.wikipedia.org/wiki/"+n.replace(" ","_"),"v":[],"tier":tier}
     if own:e["own"]=own
@@ -140,6 +163,8 @@ bu["Ford"]={"own":"Ford Motor Company","tier":GG,"c":US}
 bu["Lincoln"]={"own":"Ford Motor Company","tier":GG,"c":US}
 bu["Tesla"]["tier"]=IN
 bu["Ram"]={"own":"Stellantis","tier":GG,"c":"United States; Canada"}
+bu["Lincoln"]["own_y"]="1922"
+print("skipped dup",len(SKIPPED),SKIPPED[:400])
 bu["Jeep"]["tier"]=GG
 bu["Chrysler"]={"own":"Stellantis","tier":GG,"c":US}
 for n,c,u in [("Puma","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Brasinca","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("FNM","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Santa Matilde","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Dardo","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Lobini","Brazil","https://en.wikipedia.org/wiki/List_of_automobiles_manufactured_in_Brazil"),("Anasagasti","Argentina","https://en.wikipedia.org/wiki/List_of_car_models_commercialized_in_Argentina"),("Sero","Argentina","https://en.wikipedia.org/wiki/List_of_car_models_commercialized_in_Argentina")]:

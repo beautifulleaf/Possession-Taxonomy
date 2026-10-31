@@ -9,3 +9,4 @@ step7: rows_uk2.txt = UK unfiltered window 1 (chars 0-100000, cars only, compact
 step8: UK window 2 appended to rows_uk2.txt. UK done. ~17 fetches used. Next: DE/FR/IT unfiltered (class-less), then SE NL CZ ES RU PL RO RS etc; then facts query; then build JSON
 step9: Germany unfiltered -> rows_de2.txt (adds to rows_de.txt classed rows; dedupe by model). ~19 fetches. Next: FR/IT unfiltered, then others
 step10: France unfiltered -> rows_fr2.txt. ~20 fetches. Next: IT unfiltered, then SE NL CZ ES RU PL RO RS other; facts
+step11: Italy unfiltered -> rows_it2.txt (race-only Lancia LC1/LC2/037/S4 skipped). ~21 fetches. Next: remaining countries one query (SE Q34, NL Q55, CZ Q213, ES Q29, RU Q159, PL Q36, RO Q218, RS Q403, others), then facts, then build
