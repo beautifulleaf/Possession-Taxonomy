@@ -212,7 +212,6 @@ A('Gooseberry bush',('Use','Culinary|Dessert'),('Fruit colour','Red|Yellow|Green
 A('Grapevine',('Use','Dessert (table)|Wine'),('Fruit','Seeded|Seedless'),('Growing','Outdoor|Greenhouse'))
 A('Kiwi vine',('Flowers','Female|Male|Self-fertile'),('Fruit','Fuzzy|Hardy kiwiberry'))
 A('Elderberry bush',('Leaf','Green|Black-leaved|Cut-leaved|Golden'))
-A('Cranberry plant',('Species','American large cranberry|European small cranberry'),('Growing','Bog|Container'))
 # herbs & veg plants
 A('Rosemary',('Habit','Upright|Prostrate|Hedging'),('Hardiness','Hardy|Tender'))
 A('Thyme',('Use','Culinary|Creeping|Lemon-scented'),('Leaf','Plain|Variegated'))
@@ -321,7 +320,7 @@ A('Reishi spawn',('Spawn form','Grain|Sawdust|Plug|Liquid culture|Agar'),('Fruit
 A('King oyster spawn',('Spawn form','Grain|Sawdust|Plug'),('Fruit','Thick-stemmed'))
 A('Enoki spawn',('Spawn form','Grain|Sawdust|Liquid culture'),('Cultivation','Cold-fruiting'))
 A('Shimeji spawn',('Spawn form','Grain|Sawdust|Liquid culture'),('Cap colour','Brown|White'))
-A('Mushroom grow kit',('Kit form','Bag or block|Log|Garden bed|Spray-and-grow'),('Species','Oyster|Shiitake|Lion\'s mane|Other cultivated'))
+A('Mushroom grow kit',('Kit form','Bag or block|Log|Garden bed|Spray-and-grow'),('Species','Oyster|Shiitake|Lion\'s mane'))
 A('Sourdough starter',('State','Fresh (wet)|Dried'),('Flour','Rye|Wheat'),('Hydration','Stiff|High-hydration'))
 A('Kombucha SCOBY',('Sold as','SCOBY pellicle|Liquid starter|Dehydrated'))
 A('Milk kefir grains',('State','Live grains|Dried grains'),('Starter without grains','Freeze-dried powder'))
