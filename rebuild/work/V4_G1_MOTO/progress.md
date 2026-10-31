@@ -13,3 +13,4 @@ wp_kawasaki.txt, wp_hd.txt done (hd has years in parens). fetches ~22
 wp_re.txt wp_triumph.txt done; BMW list URL returned cars (skip). fetches ~25
 wp_guzzi/norton/bsa done. fetches ~28. BMW list needs a different URL. next: Benelli,Bimota,Laverda,AMC,Ariel,Douglas,Greeves,James,Peugeot,Velocette,Vincent, then Hero/Bajaj/TVS/Ducati/KTM/Piaggio/Vespa/Lambretta/Aprilia/Indian brand pages
 vincent/velocette/laverda/benelli/bimota done. fetches ~33
+AMC/ariel/greeves/james/peugeot/douglas done. fetches ~39. next: BMW (find URL), Ducati, KTM, Hero, Bajaj, TVS, Piaggio, Vespa, Lambretta, Aprilia, Indian, + market

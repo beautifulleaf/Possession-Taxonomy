@@ -9,7 +9,7 @@ SEP|Cessna 170|1948|Cessna|Q767382
 SEP|Cessna 180 Skywagon|1952|Cessna|Q1057101
 SEP|Cessna 185 Skywagon|1960|Cessna|Q1057123
 SEP|Cessna 195|1945|Cessna|Q1057137
-SEP|Cessna 206|||Cessna|Q1057183
+SEP|Cessna 206||Cessna|Q1057183
 SEP|Cessna 177 Cardinal|1966|Cessna|Q1057100
 SEP|Cessna 210 Centurion|1957|Cessna|Q1057193
 SEP|Cessna 162 Skycatcher|2006|Cessna|Q1057063
@@ -47,7 +47,7 @@ SEP|Maule M-5||Maule|Q6792452
 SEP|Tecnam P92||Tecnam|Q1335867
 SEP|Tecnam P96 Golf|1996|Tecnam|Q3982418
 SEP|Tecnam P2010|2012|Tecnam|Q2399653
-SEP|Grob G 115|||Grob|Q671321
+SEP|Grob G 115||Grob|Q671321
 SEP|Lancair 320||Lancair|Q6482962
 SEP|Lancair Legacy||Lancair|Q6482967
 SEP|Lancair ES||Lancair|Q6482964
@@ -59,7 +59,7 @@ MEP|Beechcraft Duchess|1974|Beechcraft|Q2893628
 MEP|Beechcraft 18|1937|Beechcraft|Q814006
 MEP|Cessna 310 and 320|1953|Cessna|Q1057187
 MEP|Cessna 335|1970|Cessna|Q2530939
-MEP|Cessna 401 and 402|||Cessna|Q1057203
+MEP|Cessna 401 and 402||Cessna|Q1057203
 MEP|Cessna 404 Titan|1975|Cessna|Q1057252
 MEP|Cessna 414|1968|Cessna|Q1057233
 MEP|Cessna 421 Golden Eagle|1965|Cessna|Q164293

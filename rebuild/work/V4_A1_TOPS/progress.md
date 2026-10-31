@@ -6,3 +6,4 @@ step4 done: fetched Capri Bermuda Tutu Culottes Wedding_dress Western_wear Dress
 step5: fetched tails of Miniskirt Jeans Shorts Football_kit Western_wear at offset 100000 (40 fetches). Decisions made per kind in head; next write build_part.py
 step6: wrote rebuild/out/A1_parts/TOPS.json from build_part.py+assemble.py+brands_new.py; next validate, fix, report
 step7: coordinator correction: restore removed m via data/named_forms.tsv; country rule; tier; empty kinds
+step8: fetched McCoys Lot001XX, Edwin wiki(503 1997 Itochu Tokyo), orSlow meadow (105,107), Barbour Radial, ReigningChamp (47 fetches total). named_forms.tsv hits found for 104 of 178 removed m (removed_m.json). Next: searches/fetches for unrecorded pieces, empty kinds wiki fetches, then rebuild with country rule + tier
