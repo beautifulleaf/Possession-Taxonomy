@@ -16,7 +16,7 @@ CAT_KEY = [
 # shelves: list of (name, t, ax, [kind names])
 DEPTS = [
  dict(n="Books",
-  t="Bound, folded or rolled sheets read as a book, whether everyday, collectable or hand-made; a comic or manga volume → Comics & manga; printed music → Sheet music; a periodical → Magazines & newspapers.",
+  t="Bound, folded or rolled sheets read as a book, everyday or collectable; a comic → Comics & manga; printed music → Sheet music; a periodical → Magazines & newspapers.",
   ax="What is the book for and how was it made: everyday reading, young readers, collectors, hand-crafting, cheap mass print or the age before industrial printing?",
   shelves=[
    ("Everyday books", "Current books in ordinary trade formats, split by how the pages are held; a children's format → Children's books shelf; a collector's special state → Publisher special editions.",
@@ -25,7 +25,7 @@ DEPTS = [
    ("Children's books", "Books built for young children, from baby books to series and annuals; an adult pop-up art book → Coffee table book.",
     "kinds by how the book is built or sold for children: sturdy materials, moving parts, folded sheet, uniform series, yearly annual",
     ["Board book","Cloth, bath or foam book","Novelty book","Fold-out book","Children's series book","Big Little Book","Children's annual"]),
-   ("Publisher special editions", "Copies a publisher issues in a special state, such as a numbered run, a subscription series or a pre-publication proof; a book bound or printed by hand → Hand-crafted books.",
+   ("Publisher special editions", "Copies a publisher issues in a special state, such as a numbered run or a pre-publication proof; a book made by hand → Hand-crafted books.",
     "kinds by why the copy is special: a subscription series, a numbered run, a club reprint, a copy of an older original, a pre-publication state",
     ["Subscription collector edition","Limited signed edition","Book club edition","Facsimile edition","Proof copy"]),
    ("Hand-crafted books", "Books where the maker's hand shows in the printing, binding or concept, such as private press books and artist's books; a publisher's limited run → Publisher special editions.",
@@ -45,7 +45,7 @@ DEPTS = [
     ["Japanese thread-bound book","Chinese thread-bound book","Palm-leaf manuscript","Pothi"]),
   ]),
  dict(n="Records & audio",
-  t="Discs, cylinders, tapes and rolls that carry recorded sound, plus the audiobook player sold with one work; a player or deck → D3; a sleeve or case → Storage & protection.",
+  t="Discs, cylinders, tapes and rolls that carry recorded sound, plus the audiobook player sold with one work; a deck → D3; a sleeve → Storage & protection.",
   ax="What holds the sound: a grooved disc or cylinder, an optical disc, magnetic tape, or another carrier?",
   shelves=[
    ("Vinyl records", "Microgroove vinyl discs played on a turntable, split by diameter and role; a 78 rpm shellac disc → Early & special-build records.",
@@ -82,7 +82,7 @@ DEPTS = [
     ["35 mm print","28 mm print","16 mm print","9.5 mm print","Regular 8 mm print","Super 8 print"]),
   ]),
  dict(n="Comics & manga",
-  t="Comics and manga as printed objects, by how they are issued; a graded comic in a slab → F3; a comic file → I2; series titles are out of scope.",
+  t="Comics and manga as printed objects, by how they are issued; a graded slab → F3; a comic file → I2; series titles are out of scope.",
   ax="How is the comic issued: as serial issues, as collected or deluxe volumes, or as an original book or album?",
   shelves=[
    ("Serial issues", "Comics issued in parts on a regular schedule, by a publisher or by fans themselves; a bound collection of issues → Collected & deluxe volumes.",
@@ -499,7 +499,7 @@ SEE = {
  "Hardback book":[["I2","E-book","the same text as a file"]],
  "Paperback book":[["I2","E-book","the same text as a file"]],
  "Collected softcover volume":[["I2","Comic or manga file","the same comic as a file"]],
- "Fine binding":[["C4","Bookbinding tools and materials","materials for binding"]],
+ "Fine binding":[["C4","Bookcloth and binding board","materials for binding"]],
  "Photobook":[["F5","Photo album","a made-up album of prints"]],
  "Popular song sheet":[["I2","Digital sheet music","the same music as a file"]],
  "Audiobook player":[["I2","Audiobook file","the same book as a file"]],
