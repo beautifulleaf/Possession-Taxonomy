@@ -7,3 +7,5 @@ item1 done -> F1.s4a.json (commodity removals)
 item2: fetched List_of_atlases, omniterrum globe makers, storytellingdb pulp (882 rows, all windows), IMSLP publishers (not usable), BPI 2023 cassette page, MBW IFPI 2025; writing pulp_rows.txt in parts
 pulp1.txt written (rows 1-300)
 pulp2.txt written (rows 301-600)
+pulp3 written; pulp_rows.txt assembled
+globes.txt written (Archimedes excluded, Replogle/Bellerby exist)

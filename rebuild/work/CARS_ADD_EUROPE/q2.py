@@ -1,0 +1,5 @@
+import urllib.parse,sys
+# argv1 = country QIDs space sep, argv2 = exclude regex
+cs=sys.argv[1]; ex=sys.argv[2]
+s='''SELECT ?mkl ?xl (MIN(COALESCE(YEAR(?inc),YEAR(?pub))) AS ?y) (GROUP_CONCAT(DISTINCT ?cl;separator=",") AS ?cls) (SAMPLE(?an) AS ?art) WHERE { VALUES ?co {%s} ?mk wdt:P17 ?co. ?x wdt:P176 ?mk; wdt:P31/wdt:P279* wd:Q3231690; rdfs:label ?xl. ?mk rdfs:label ?mkl. FILTER(LANG(?xl)="en"&&LANG(?mkl)="en"&&!REGEX(?mkl,"%s")) ?a schema:about ?x; schema:isPartOf <https://en.wikipedia.org/>; schema:name ?an. OPTIONAL{?x wdt:P571 ?inc} OPTIONAL{?x wdt:P577 ?pub} ?x (wdt:P31|wdt:P279) ?c. ?c rdfs:label ?cl. FILTER(LANG(?cl)="en"&&REGEX(?cl,"city car|hatchback|saloon|sedan|estate|wagon|MPV|minivan|SUV|crossover|luxury|grand tour|limousine|sports car|coup|convertible|roadster|muscle|supercar|hypercar|race|racing|off-road|microcar|kei|three-wheel|kit car|hot rod|compact|mini|spider|berlinetta|cabriolet|pony|family|executive|supermini","i")) } GROUP BY ?mkl ?xl ORDER BY ?mkl ?y'''%(cs,ex)
+print('https://query.wikidata.org/sparql?format=json&query='+urllib.parse.quote(s,safe=''))

@@ -6,3 +6,5 @@ step4 done: clean.py (loose models removed 98, nl/sel everywhere, pouch/snus ent
 step5 done: report written
 step6: second round started (items 1-5 from coordinator)
 step7: item1 fetched; applying habvit.py
+step8: item2 brand pages fetched (SG, Peterson, C&D, MacBaren); applying blends.py
+step9: blends applied (fixed C&D mis-typed three)

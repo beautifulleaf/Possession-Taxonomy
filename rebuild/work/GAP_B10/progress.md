@@ -5,3 +5,4 @@ petfood: fetched truthaboutpetfood, Royal Canin, Whiskas, Iams, Friskies; next a
 petfood applied; next coverage lines on NOCOV kinds + report
 all done, report written
 pass2 started: national champions, home countries, owners of independents (fetch count so far 12)
+pass2: ~55 fetches; fetched sources logged; next apply pass2.py
