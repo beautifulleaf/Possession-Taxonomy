@@ -1,2 +1,3 @@
 step0: read briefs, gaps analysis; A5.json has 863 entries, 0 m; wrist kinds lack coverage lines (sel ends w/ Watchbase text); backups in bak/
 step1 done: Wikidata Q178794 (246 items, mostly museum objects) + Category:Watch models read; missing in-scope: Amfibia (Vostok 1967), Movado Ermeto (1926-85). Tour de l'Ile: Wikidata item has no facts -> not added. Junghans Mega, W.W.W. already present.
+step2: read Longines/Tissot/Panerai/Hamilton/Zenith/Seiko/Citizen/Vacheron wiki; to add: Amfibia, Ermeto, BeLOWZERO, Vantage, Pearl, Wood, PR516, Longines flyback 1934, Tour de l'Ile 2005 + Seiko/Citizen gaps

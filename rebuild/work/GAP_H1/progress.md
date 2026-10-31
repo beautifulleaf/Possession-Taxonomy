@@ -7,3 +7,4 @@ step E: report written
 ROUND 2 started: MediaWiki extracts for ownerless brands, then markets
 step R2a: 14 MediaWiki extracts calls done (batches 0-14); results in notes2.md; yield low (most pages missing/no owner)
 step R2b: markets fetched (Euromonitor public summaries for 14 markets). Next apply2.py
+step R2c: applied, validated, report updated
