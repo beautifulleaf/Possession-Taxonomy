@@ -13,3 +13,5 @@ Parts:
 - Report: rebuild/out/<BATCH>_report.md (≤ 450 words): per kind entries before → after, references and coverage, market facts with years, what could not be sourced. Reply with a short summary.
 
 LONG PAGES: WebFetch returns at most about 100,000 characters per call. For a longer page, call it again with the offset parameter (100000, 200000, …) until the page ends, and ask for rows verbatim ("name | year | maker"), not a summary. A page read only to its first window is not read. Never guess a URL: find every page with WebSearch.
+
+FIRECRAWL (2026-10-31): credits are used up until about 21:00 UTC. Do not call Firecrawl; log blocked pages to /home/user/Possession-Taxonomy/verify/work/GEN/firecrawl_deferred.md instead.
