@@ -1,0 +1,9 @@
+LEAN MODE (owner, 2026-10-31: finish within the token limit)
+- Harvest: ONE round per category. Stop at about 150k tokens of your own work; write the file incrementally. Prefer one big fetched list page (award year page, consortium list, Wikipedia list) over many small pages. Do at most 15 searches.
+- Audit and verify are ONE Opus pass, written straight to VERIFY_<CODE>.json/.md in the verify format of BRANDLAYER_VERIFY_COMMON.txt:
+  1. Accuracy sample of 15 rows (random.seed(7)) against saved raw pages; re-fetch only if the saved page is missing.
+  2. Apply the tier rules mechanically (directories listed, juried awards quality, rankings/votes/designations cultural, own site listed, shops sellers, content creators to DEFER_<CODE>.json).
+  3. Homonym check against reader/_brand_index.json by script.
+  4. Retry research: at most 8 fetches, spent only on the biggest regional gap. No other new research.
+  5. Do not re-check names a script can match against a saved page.
+- Keep reports short (under 300 words).

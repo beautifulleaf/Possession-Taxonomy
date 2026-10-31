@@ -2,8 +2,875 @@
  "cat": "J5",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Oils, vinegars & fats > Olive oil",
+   "queries": [
+    "NYIOOC winners list",
+    "Flos Olei"
+   ],
+   "found": 372,
+   "note": "NYIOOC 2026 Official Guide (358) + World Ranking top 50; Flos Olei guide not fetched; Spain MAPA Premio Alimentos de España prize seen in search only"
+  },
+  {
+   "axis": "kind",
+   "item": "Oils, vinegars & fats > Vinegars",
+   "queries": [
+    "Aceto balsamico consortium members",
+    "Chinese time-honored vinegars"
+   ],
+   "found": 75,
+   "note": "Modena IGP consortium (46); China TOP30 (Hengshun, Baoning, Donghu etc.)"
+  },
+  {
+   "axis": "kind",
+   "item": "Oils, vinegars & fats > Seed, fruit & nut oils",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched openly; only Cuizipai sesame oil via China list"
+  },
+  {
+   "axis": "kind",
+   "item": "Oils, vinegars & fats > Animal & hardened fats",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched; margarine/lard are commodity; Italy Marchi Storici seed oils (Olita, Dante)"
+  },
+  {
+   "axis": "kind",
+   "item": "Oils, vinegars & fats > Protected oil names",
+   "queries": [
+    "EU eAmbrosia (JS-only)"
+   ],
+   "found": 0,
+   "note": "eAmbrosia not fetched; PGI/PDO fish sauce Phu Quoc and Modena balsamic noted"
+  },
+  {
+   "axis": "kind",
+   "item": "Rice, pasta & noodles > Pasta",
+   "queries": [
+    "best dried pasta taste test",
+    "Marchi storici pasta"
+   ],
+   "found": 20,
+   "note": "Saveur 50-pasta tasting; MIMIT historic brands (De Cecco, Granoro, Felicetti, Riscossa, Rana)"
+  },
+  {
+   "axis": "kind",
+   "item": "Rice, pasta & noodles > Noodles",
+   "queries": [
+    "Wikipedia instant noodle brands"
+   ],
+   "found": 40,
+   "note": "List of instant noodle brands"
+  },
+  {
+   "axis": "kind",
+   "item": "Rice, pasta & noodles > Rice",
+   "queries": [
+    "Riso Gallo via Marchi Storici"
+   ],
+   "found": 1,
+   "note": "no open rice sweep (basmati/jasmine/sake rice) done"
+  },
+  {
+   "axis": "kind",
+   "item": "Grains, pulses & seeds > Breakfast cereals",
+   "queries": [
+    "Wikipedia list of breakfast cereals"
+   ],
+   "found": 34,
+   "note": "cereal companies and icons"
+  },
+  {
+   "axis": "kind",
+   "item": "Grains, pulses & seeds > Grains/Dried beans/Lentils",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched (Legumi Select via Marchi Storici only)"
+  },
+  {
+   "axis": "kind",
+   "item": "Flour, sugar & baking",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched (Shipton Mill royal warrant seen in a search snippet only)"
+  },
+  {
+   "axis": "kind",
+   "item": "Herbs, spices & salt > Spice blends/spices",
+   "queries": [
+    "Indian masala brands tested",
+    "China Wang Shouyi"
+   ],
+   "found": 14,
+   "note": "Mishry tested masala brands; Wang Shouyi 13-spice"
+  },
+  {
+   "axis": "kind",
+   "item": "Herbs, spices & salt > Salt",
+   "queries": [
+    "best sea salt brands",
+    "TasteAtlas sea salts"
+   ],
+   "found": 9,
+   "note": "TasteAtlas Top 26 sea salts"
+  },
+  {
+   "axis": "kind",
+   "item": "Sauces & condiments > Table sauces & condiments",
+   "queries": [
+    "Wikipedia brand-name condiments",
+    "mustard brands list (fetched, 0 new)"
+   ],
+   "found": 38,
+   "note": "mustard brand list fetched and all names already known/or not extracted"
+  },
+  {
+   "axis": "kind",
+   "item": "Sauces & condiments > Hot sauces & chilli condiments",
+   "queries": [
+    "Wikipedia hot sauces",
+    "Scovie awards"
+   ],
+   "found": 12,
+   "note": "Scovie full list not fetched (JS / paste)"
+  },
+  {
+   "axis": "kind",
+   "item": "Sauces & condiments > Japanese & Korean seasonings",
+   "queries": [
+    "Japanese soy sauce makers",
+    "Korean jang brands"
+   ],
+   "found": 0,
+   "note": "search only (Yamasa 1645, Higashimaru, Yamaroku, Sempio, Chungjungone); no fetched list page; next step"
+  },
+  {
+   "axis": "kind",
+   "item": "Sauces & condiments > Chinese & Southeast Asian sauces",
+   "queries": [
+    "China time-honored condiments TOP30",
+    "Phu Quoc fish sauce",
+    "Wikipedia fish sauces"
+   ],
+   "found": 29,
+   "note": "CNPP TOP30; fish sauce list has no brands (Red Boat already in register)"
+  },
+  {
+   "axis": "kind",
+   "item": "Sauces & condiments > Cooking sauces, pastes & stock",
+   "queries": [
+    "Nigeria seasoning cubes"
+   ],
+   "found": 7,
+   "note": "Maggi/Knorr/Royco/Onga etc."
+  },
+  {
+   "axis": "kind",
+   "item": "Tins, jars & preserves > Pickles/Tinned goods",
+   "queries": [
+    "Marchi Storici (Cirio, Valfrutta)"
+   ],
+   "found": 5,
+   "note": "no open sweep for kimchi/olives/capers"
+  },
+  {
+   "axis": "kind",
+   "item": "Dried fruit & vegetables",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Honey, syrups & spreads > Honey",
+   "queries": [
+    "UMF certified brands"
+   ],
+   "found": 7,
+   "note": "only 8 of 199 licensees render without JS"
+  },
+  {
+   "axis": "kind",
+   "item": "Honey, syrups & spreads > Jams & marmalade",
+   "queries": [
+    "World Marmalade Awards Dalemain"
+   ],
+   "found": 70,
+   "note": "2026 Artisan Gold fetched; earlier years known to exist (21 years)"
+  },
+  {
+   "axis": "kind",
+   "item": "Honey, syrups & spreads > Syrups / Nut spreads",
+   "queries": [
+    "Nutella etc. via condiment list"
+   ],
+   "found": 1,
+   "note": "maple syrup and peanut butter NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Home brewing",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Prepared & frozen foods",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched (Good Food Awards snippet only; Pagani, Rana via Marchi Storici)"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "France/UK via NYIOOC, sea salt, balsamic neighbours; no dedicated search"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "Italy/Spain/Greece/Portugal olive oil, pasta, balsamic, Marchi Storici"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "Croatia/Bosnia/Montenegro/Albania olive oils from NYIOOC"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "Lebanon/Israel/Turkey in NYIOOC; tahini/za'atar search found only retailer listings (Al Wadi, Ziyad), not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "Tunisia/Morocco/Algeria in NYIOOC; Afrina salt"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "Nigeria seasonings; South Africa olive oil, Salté salt, Bokomo/Pronutro"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "Indian masala brands (Mishry)"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "China TOP30, instant noodles; Japan/Korea soy/jang search-only"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "noodles, condiment brands, fish sauce page"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "UMF manuka, marmalade, NYIOOC Australia, Uncle Tobys"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "US olive oils, hot sauces, Rao's, Jacobsen salt seen only in snippets"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "see note"
+   ],
+   "found": 0,
+   "note": "NYIOOC Chile/Brazil/Argentina/Uruguay; hot sauces; Mexican pantry search found no list page"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Italy",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: most-awarded country at NYIOOC 2026 olive oil competition",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Tenuta la Poggiona",
+    "Azienda Agricola Depalo Luigi",
+    "Frantoio Chiodi",
+    "Societa Agricola Sergio Delle Monache",
+    "Marsicani Nicolangelo",
+    "Gnavolini Raccolta Sapore",
+    "Entimio",
+    "Badia a Coltibuono"
+   ]
+  },
+  {
+   "region": "Croatia",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: second most-awarded olive oil country (Istria, Dalmatia)",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "OPG Nikša Trebotić",
+    "Tree Drops d.o.o.",
+    "Kalavojna d.o.o",
+    "Grupa Nida",
+    "Mudrina",
+    "E Pluribus Unum",
+    "OPG Bajkin",
+    "Braniteljska Zadruga Lintar"
+   ]
+  },
+  {
+   "region": "Greece",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Koroneiki olive oils, Peloponnese and Crete",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Olivatria",
+    "Papa Spyros Olive Oil",
+    "Polymenakos Maxouli",
+    "Kasell S.A.",
+    "Agricultural Cooperative of Papadianika",
+    "Renieris PC",
+    "SIA Natures Icons",
+    "Agricultural Cooperative of Petrina"
+   ]
+  },
+  {
+   "region": "Spain",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Picual, Arbequina, Hojiblanca extra virgin oils (Jaén, Andalusia)",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Montetucci",
+    "Hacienda De Colchado, SL",
+    "La Biodiversa",
+    "Aceites Yllanes Marini",
+    "370 Alis SL",
+    "Cooperativa La Granadella SCCL",
+    "Sucesores de Hermanos López",
+    "Palacio Oliaxi"
+   ]
+  },
+  {
+   "region": "United States",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: California extra virgin olive oils",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Inez Olive Oil",
+    "Boccabella Farms",
+    "Corto Olive",
+    "Organic Roots",
+    "Rio Bravo Ranch",
+    "Durant Olive Mill",
+    "Apollo Olive Oil",
+    "Nuvo.Oil"
+   ]
+  },
+  {
+   "region": "Turkey",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Aegean olive oils entering NYIOOC winners",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Kozaklı",
+    "Orfion Olive Oil",
+    "Coccinella",
+    "AKG Zeytincilik Gıda Tarım",
+    "Garisar",
+    "Gökduman Tarım",
+    "Ravla Tarım Gıda Sanayi",
+    "Mesogis Zeytin Zeytinyağı"
+   ]
+  },
+  {
+   "region": "Portugal",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Alentejo and Trás-os-Montes extra virgin oils",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Sementestaladica",
+    "Quinta dos Olmais",
+    "O&C Olive Company",
+    "José Maria Eugénio de Almeida LDA",
+    "Uncommon Time",
+    "Casa Agricola Roboredo Madeira",
+    "Viveiros Monterosa",
+    "Pereira & Fragoso"
+   ]
+  },
+  {
+   "region": "Brazil",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Serra da Mantiqueira and southern Brazil olive oils",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Verde Louro Azeites",
+    "Tenuta do Bosque Ltda.",
+    "Lagar H Agroindústria",
+    "Azeite Pedregais MF Agropastoril",
+    "Nostra Terra Agroindustrial",
+    "Vinicola Essenza",
+    "Fazendas do Azeite Sabiá",
+    "Zait Agronegócios Ltda"
+   ]
+  },
+  {
+   "region": "Chile",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: high-density grove olive oils of Chile",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Las Gaitas",
+    "Olivos del Sur",
+    "Agroindustrial El Olivar de Llancay Ltda",
+    "Olivares de Quepu",
+    "Soho",
+    "Agrícola Pobena",
+    "Olivos Ruta del Sol S.A."
+   ]
+  },
+  {
+   "region": "Tunisia",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: North African olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Heritage Olive Company, LLC",
+    "Farmers Union for Development and Sustainability (FUDS)",
+    "Oilyssa",
+    "Rivière d'Or",
+    "Siclani",
+    "Eya Aouida",
+    "Les Montagnes du Nord"
+   ]
+  },
+  {
+   "region": "Lebanon",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Levant olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Olivello",
+    "Solar"
+   ]
+  },
+  {
+   "region": "Israel",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Levant olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Jerusalem Olive Oil",
+    "Tamir Farm"
+   ]
+  },
+  {
+   "region": "Morocco",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: North African olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Dar Idrissi",
+    "Noor Fès"
+   ]
+  },
+  {
+   "region": "Algeria",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: North African olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Dahbia Olive Oil"
+   ]
+  },
+  {
+   "region": "Australia",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Southern Hemisphere olive oil (Victoria)",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Rio Vista Olives",
+    "Rich Glen",
+    "Quartz Hill Olive Oil",
+    "Cape Schanck Olive Estate Pty Ltd"
+   ]
+  },
+  {
+   "region": "South Africa",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Western Cape olive oils",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Porterville Olives",
+    "Kielder South Africa",
+    "Rio Largo Olive Estate",
+    "Tokara Olives"
+   ]
+  },
+  {
+   "region": "Argentina",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Mendoza/San Juan olive oils",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Agropecuaria El Mistol",
+    "La Colorada S.A.",
+    "Primis LLC"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: East Asian olive oil (Shodoshima)",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "National Spring Co., Ltd.",
+    "Libera Group",
+    "Maedaya"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Provence olive oils",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Château d'Estoublon",
+    "Domaine de Panéry",
+    "Domaine de la Cavalerie",
+    "SCEA Leos",
+    "Moulin Les Bugadelles",
+    "Moulin a Huile du Partegal"
+   ]
+  },
+  {
+   "region": "Cyprus",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Eastern Mediterranean olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "To Pervoli Tou Theodorou, Ltd",
+    "V. Atsas Organic Products"
+   ]
+  },
+  {
+   "region": "Albania",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Balkan olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Musaj Olive Oil",
+    "Donika Olive Oil",
+    "The Illyrian Press"
+   ]
+  },
+  {
+   "region": "Montenegro",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Balkan olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Odiva",
+    "Miranovic",
+    "Agricultural Farm Ivetic",
+    "Diva Star D.O.O.",
+    "Kuća Maslina / House of Olives"
+   ]
+  },
+  {
+   "region": "Bosnia and Herzegovina",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Balkan olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Paxa Dola",
+    "Podrumi Vukoje 1982",
+    "Filsonići Radišići",
+    "Murić",
+    "OPG Kažić",
+    "OPG Ramljak",
+    "Obitelj Medić"
+   ]
+  },
+  {
+   "region": "Slovenia",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Istrian Slovenia olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Morgan",
+    "Lisjak D.O.O."
+   ]
+  },
+  {
+   "region": "Uruguay",
+   "speciality": "NYIOOC 2026 award-winning extra virgin olive oil: Southern Cone olive oil",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Agroland S.A.",
+    "Nuevo Manantial"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "soy sauce, vinegar (Zhenjiang, Shanxi aged vinegar, Baoning), fermented bean curd, doubanjiang, spice blends — 30 time-honored condiment houses",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "brands": [
+    "Haitian 海天",
+    "Hengshun 恒顺",
+    "Liubiju 六必居",
+    "Wang Zhihe 王致和",
+    "Wang Shouyi 王守义",
+    "Juancheng 鹃城牌",
+    "Laohenghe 老恒和"
+   ]
+  },
+  {
+   "region": "India",
+   "speciality": "masala and spice blends (tested/reviewed by Mishry)",
+   "src": "https://mishry.com/best-masala-brands-in-india",
+   "brands": [
+    "Catch",
+    "Everest",
+    "MDH",
+    "Orika",
+    "Badshah",
+    "Eastern",
+    "Goldiee",
+    "Tata Sampann",
+    "Aachi",
+    "Roopak",
+    "Keya"
+   ]
+  },
+  {
+   "region": "West Africa (Nigeria)",
+   "speciality": "seasoning cubes and powders (Maggi/Knorr/Royco, local Doyin, Onga, Mamador)",
+   "src": "https://nairametrics.com/2018/11/15/seasoning-brands-in-the-nigerian-market/",
+   "brands": [
+    "Maggi",
+    "Knorr",
+    "Royco",
+    "Onga",
+    "Doyin",
+    "Suppy",
+    "Mamador",
+    "Davon"
+   ]
+  },
+  {
+   "region": "Italy (Modena/Emilia)",
+   "speciality": "balsamic vinegar (IGP consortium of 46 members)",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "brands": [
+    "Acetaia Giusti",
+    "Acetum",
+    "Fini",
+    "Giacobazzi",
+    "Monari Federzoni"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "dried pasta and historic food houses (Marchi Storici register)",
+   "src": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "brands": [
+    "De Cecco",
+    "Granoro",
+    "Felicetti",
+    "Riscossa",
+    "Rana",
+    "Riso Gallo",
+    "Olio Carli",
+    "Cirio",
+    "Star"
+   ]
+  },
+  {
+   "region": "Italy (pasta, Saveur test)",
+   "speciality": "pasta tested best by Saveur 2021 (Campania Montebello, Faella)",
+   "src": "https://www.saveur.com/shop/best-pasta-brands",
+   "brands": [
+    "Montebello",
+    "Pastificio Faella",
+    "Rao's Homemade",
+    "De Cecco"
+   ]
+  },
+  {
+   "region": "New Zealand",
+   "speciality": "mānuka honey (UMF licence scheme, 199 licensed brands)",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "brands": [
+    "Comvita",
+    "Mānuka Health",
+    "Steens",
+    "Settlers Honey",
+    "Jade Valley"
+   ]
+  },
+  {
+   "region": "United Kingdom and Ireland",
+   "speciality": "sea salt (Maldon, Anglesey, Cornwall, Dorset, Oriel, Achill)",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "brands": [
+    "Maldon",
+    "Halen Môn",
+    "Cornish Sea Salt",
+    "Dorset Sea Salt",
+    "Oriel Sea Salt",
+    "Achill Island Sea Salt"
+   ]
+  },
+  {
+   "region": "Portugal / South Africa / Algeria",
+   "speciality": "sea salts rated by TasteAtlas",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "brands": [
+    "Da Silva Gaspar",
+    "Salté Sea Salt",
+    "Afrina"
+   ]
+  },
+  {
+   "region": "East Asia (Japan, Korea, Taiwan, China) and Southeast Asia",
+   "speciality": "instant noodles (Nissin, Acecook, Nongshim, Samyang, Paldo, Uni-President, Indomie, Wai Wai, MAMA, Vifon, Lucky Me!, Mamee)",
+   "src": "https://en.wikipedia.org/wiki/List_of_instant_noodle_brands",
+   "brands": [
+    "Nissin",
+    "Acecook",
+    "Sanyo Foods",
+    "Myojo",
+    "Nongshim",
+    "Samyang",
+    "Paldo",
+    "Uni-President",
+    "A-Sha Noodles",
+    "Indomie",
+    "Mie Sedaap",
+    "Wai Wai",
+    "MAMA",
+    "Vifon",
+    "Lucky Me!",
+    "Mamee Chef",
+    "Kang Shi Fu"
+   ]
+  },
+  {
+   "region": "Latin America & Caribbean",
+   "speciality": "hot sauces and chilli condiments (Mexico, Panama, Jamaica, Guatemala)",
+   "src": "https://en.wikipedia.org/wiki/List_of_brand_name_condiments",
+   "brands": [
+    "Valentina",
+    "Tapatío",
+    "Cholula",
+    "El Yucateco",
+    "Tamazula",
+    "Maga",
+    "Búfalo",
+    "D'Elidas",
+    "Pickapeppa"
+   ]
+  },
+  {
+   "region": "Philippines and Indonesia",
+   "speciality": "soy sauce, vinegar, banana ketchup and sambal condiment brands",
+   "src": "https://en.wikipedia.org/wiki/List_of_brand_name_condiments",
+   "brands": [
+    "Datu Puti",
+    "Mama Sita's",
+    "Mang Tomas",
+    "ABC",
+    "Indofood Sambal"
+   ]
+  },
+  {
+   "region": "Australia, New Zealand, South Africa",
+   "speciality": "yeast spreads (condiments page) and cereals (cereal page)",
+   "src": "https://en.wikipedia.org/wiki/List_of_breakfast_cereals",
+   "brands": [
+    "Sanitarium",
+    "Uncle Tobys",
+    "Bokomo",
+    "Pronutro",
+    "AussieMite",
+    "Promite",
+    "Cenovis"
+   ]
+  },
+  {
+   "region": "Greece",
+   "speciality": "NYIOOC 2026: 52 winning producers in the Official Guide, mostly Koroneiki",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "The Master Miller",
+    "Laconiko",
+    "Kosterina",
+    "Papa Spyros Olive Oil"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Vietnam, Thailand, Philippines, Laos, Cambodia)",
+   "speciality": "fish sauce (nuoc mam/Nước mắm, nam pla, patis, padaek, prahok-type pastes) incl. Phú Quốc fish sauce, per Wikipedia list; no brand list on page",
+   "src": "https://en.wikipedia.org/wiki/List_of_fish_sauces",
+   "brands": [
+    "Lea & Perrins (Worcestershire sauce, listed on page)"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe (Croatia, Bosnia, Montenegro, Albania, Slovenia)",
+   "speciality": "NYIOOC-winning olive oils; Croatia 2nd most awarded in 2026",
+   "src": "https://bestoliveoils.org/search",
+   "brands": [
+    "Avistria",
+    "Oleum Maris",
+    "OPG Ivica Vlatkovic",
+    "Monastic Olive Oil (Manastir Tvrdoš)"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/List_of_brand_name_condiments",
@@ -94,6 +961,66 @@
    "new_names": 7,
    "status": "done",
    "note": "2 known; "
+  },
+  {
+   "url": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "title": "Consorzio Aceto Balsamico di Modena IGP: consortium members",
+   "kind": "pdo",
+   "years": "2026",
+   "names_on_page": 46,
+   "new_names": 46,
+   "status": "done",
+   "note": "0 known; IGP member list"
+  },
+  {
+   "url": "https://www.saveur.com/shop/best-pasta-brands",
+   "title": "Saveur: Best Pasta Brands (50 pastas tasted)",
+   "kind": "ranking",
+   "years": "2021",
+   "names_on_page": 5,
+   "new_names": 3,
+   "status": "done",
+   "note": "1 known;  not on page: ['Semolina Artisanal Pasta']"
+  },
+  {
+   "url": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "title": "TasteAtlas: Top 26 Sea Salts in the World",
+   "kind": "ranking",
+   "years": "updated 2026-10-28 (audience ratings)",
+   "names_on_page": 9,
+   "new_names": 8,
+   "status": "done",
+   "note": "1 known; "
+  },
+  {
+   "url": "https://www.umf.org.nz/certified-brands",
+   "title": "UMF Honey Association certified brands (licence holders)",
+   "kind": "guild",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 7,
+   "status": "partial",
+   "note": "1 known; 199 licensed brands; only first 8 render without JS load-more"
+  },
+  {
+   "url": "https://www.cnpp.cn/focus/3508022.html",
+   "title": "2024中华老字号调味品TOP30 (CNPP)",
+   "kind": "heritage",
+   "years": "2024",
+   "names_on_page": 30,
+   "new_names": 29,
+   "status": "done",
+   "note": "1 known (pinyin match); China Time-honored Brand condiment makers"
+  },
+  {
+   "url": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "title": "Dalemain World Marmalade Awards 2026: Artisan Gold winners (blind-tasted, Fortnum & Mason-supported jury)",
+   "kind": "award",
+   "years": "2026 (2024/2025 Double Gold winners from Herdwick news pages; other years/levels not fetched)",
+   "names_on_page": 71,
+   "new_names": 70,
+   "status": "done",
+   "note": "1 known; 2026 Gold only; Silver/Bronze/Merit PDFs and the 20 earlier years not fetched"
   }
  ],
  "brands": [
@@ -771,46 +1698,6 @@
   },
   {
    "n": "Intermi",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_instant_noodle_brands",
-   "says": "listed in Wikipedia List of instant noodle brands",
-   "country": "",
-   "dept": "Instant noodles"
-  },
-  {
-   "n": "Tekki",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_instant_noodle_brands",
-   "says": "listed in Wikipedia List of instant noodle brands",
-   "country": "",
-   "dept": "Instant noodles"
-  },
-  {
-   "n": "Quickchow",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_instant_noodle_brands",
-   "says": "listed in Wikipedia List of instant noodle brands",
-   "country": "",
-   "dept": "Instant noodles"
-  },
-  {
-   "n": "Foodles",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_instant_noodle_brands",
-   "says": "listed in Wikipedia List of instant noodle brands",
-   "country": "",
-   "dept": "Instant noodles"
-  },
-  {
-   "n": "Cuppa Mania",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_instant_noodle_brands",
-   "says": "listed in Wikipedia List of instant noodle brands",
-   "country": "",
-   "dept": "Instant noodles"
-  },
-  {
-   "n": "Buitoni",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_instant_noodle_brands",
    "says": "listed in Wikipedia List of instant noodle brands",
@@ -4392,6 +5279,1310 @@
    "says": "named as a seasoning cube/powder brand in the Nigerian market (market layer: Nestlé Maggi, Unilever Knorr/Royco; Doyin, Daily Need local players)",
    "country": "Nigeria",
    "dept": "Stock cubes & seasonings"
+  },
+  {
+   "n": "Acetaia Borgo Castello",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Cazzola E Fiorini",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Fini Modena",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Giuseppe Cremonini",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Giusti",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Guerzoni",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia La Bonissima",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Malpighi",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Manicardi",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetaia Tradizionale Filippi",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetificio Andrea Milano",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetificio Aretino",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetificio Carandini Emilio",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetificio Del Balsamico Di Modena",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Aceto Balsamico Del Duca Di Adriano Grosoli",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Acetum",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Agricola Due Vittorie",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Agricola Famiglia Mazzarrini",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Alico",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Antica Acetaia Dodi",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Antichi Colli",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Azienda Agricola Agribar Di Barbieri Annarosa & C",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Azienda Agricola Lucenti Societa' Agricola",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Azienda Agricola Pedroni Di Giuseppe Pedroni",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Bellei Luigi & Figli",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Caviro Extra  S.U.",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Compagnia Alimentare Italiana",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Compagnia Del Montale",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Elsa Di Domeneghetti Maurizio Società Agricola",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Emiliaceti",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Emiliani",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Fattorie Giacobazzi",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Fondo Montebello",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Galletti Di Galletti Aurelio E C.",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "La Collina Toscana",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "La Vecchia Dispensa",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Monari Federzoni",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Neromodena",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Ponti",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Pramarzoni Morena Azienda Agricola",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Società Agricola Acetomodena",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Società Agricola Eredi Bertoni Sante",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Società Agricola Ferrarini",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Toschi Vignola",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Varvello Giovanni & C. L'Aceto Reale",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Villa Modena",
+   "layer": "cultural",
+   "src": "https://www.consorziobalsamico.it/consortium-members/?lang=en",
+   "says": "member of the Consorzio Tutela Aceto Balsamico di Modena (IGP) producer list",
+   "country": "Italy",
+   "dept": "Balsamic vinegar"
+  },
+  {
+   "n": "Montebello",
+   "layer": "premium",
+   "src": "https://www.saveur.com/shop/best-pasta-brands",
+   "says": "Saveur 2021 tasting of 50+ pastas: Best Overall Montebello Torchiette; Best Brand Rao's; Best Long Noodle Faella bucatini; Best Short Noodle Semolina rigatoni",
+   "country": "Italy",
+   "dept": "Pasta"
+  },
+  {
+   "n": "Rao's Homemade",
+   "layer": "premium",
+   "src": "https://www.saveur.com/shop/best-pasta-brands",
+   "says": "Saveur 2021 tasting of 50+ pastas: Best Overall Montebello Torchiette; Best Brand Rao's; Best Long Noodle Faella bucatini; Best Short Noodle Semolina rigatoni",
+   "country": "Italy",
+   "dept": "Pasta"
+  },
+  {
+   "n": "Mixtape Pasta",
+   "layer": "premium",
+   "src": "https://www.saveur.com/shop/best-pasta-brands",
+   "says": "Saveur 2021 tasting of 50+ pastas: Best Overall Montebello Torchiette; Best Brand Rao's; Best Long Noodle Faella bucatini; Best Short Noodle Semolina rigatoni",
+   "country": "United States",
+   "dept": "Pasta"
+  },
+  {
+   "n": "Maldon",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "United Kingdom",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Cornish Sea Salt",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "United Kingdom",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Dorset Sea Salt",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "United Kingdom",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Oriel Sea Salt",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "Ireland",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Achill Island Sea Salt",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "Ireland",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Da Silva Gaspar",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "Portugal",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Salté Sea Salt",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "South Africa",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Afrina",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-sea-salts-in-the-world",
+   "says": "listed in TasteAtlas Top 26 sea salts (reader/audience rated, standing not jury)",
+   "country": "Algeria",
+   "dept": "Sea salt"
+  },
+  {
+   "n": "Jade Valley",
+   "layer": "cultural",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "says": "UMF Honey Association licensed (certified) mānuka honey brand",
+   "country": "New Zealand",
+   "dept": "Manuka honey"
+  },
+  {
+   "n": "Steens",
+   "layer": "cultural",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "says": "UMF Honey Association licensed (certified) mānuka honey brand",
+   "country": "New Zealand",
+   "dept": "Manuka honey"
+  },
+  {
+   "n": "Rua Mānuka",
+   "layer": "cultural",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "says": "UMF Honey Association licensed (certified) mānuka honey brand",
+   "country": "New Zealand",
+   "dept": "Manuka honey"
+  },
+  {
+   "n": "NZ Bees",
+   "layer": "cultural",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "says": "UMF Honey Association licensed (certified) mānuka honey brand",
+   "country": "New Zealand",
+   "dept": "Manuka honey"
+  },
+  {
+   "n": "Mānuka Health",
+   "layer": "cultural",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "says": "UMF Honey Association licensed (certified) mānuka honey brand",
+   "country": "New Zealand",
+   "dept": "Manuka honey"
+  },
+  {
+   "n": "New Image",
+   "layer": "cultural",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "says": "UMF Honey Association licensed (certified) mānuka honey brand",
+   "country": "New Zealand",
+   "dept": "Manuka honey"
+  },
+  {
+   "n": "Settlers Honey",
+   "layer": "cultural",
+   "src": "https://www.umf.org.nz/certified-brands",
+   "says": "UMF Honey Association licensed (certified) mānuka honey brand",
+   "country": "New Zealand",
+   "dept": "Manuka honey"
+  },
+  {
+   "n": "Haitian 海天",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Chubang 厨邦",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Hengshun 恒顺",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Vinegar"
+  },
+  {
+   "n": "Liubiju 六必居",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Pickles & sauces"
+  },
+  {
+   "n": "Cuizipai 崔字牌",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Sesame oil"
+  },
+  {
+   "n": "Tianwei Tianche 天车",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Chilli sauces/condiments"
+  },
+  {
+   "n": "Wang Shouyi 王守义",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Spice blends"
+  },
+  {
+   "n": "Qiaoxifu 巧媳妇",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce & vinegar"
+  },
+  {
+   "n": "Baoyuan Laocufang 宝源老醋坊",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Vinegar"
+  },
+  {
+   "n": "Baoning 保宁",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Vinegar"
+  },
+  {
+   "n": "Tianli 天立",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Vinegar"
+  },
+  {
+   "n": "Huai Salt 淮",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Salt"
+  },
+  {
+   "n": "Yutang 玉堂",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Pickles & soy sauce"
+  },
+  {
+   "n": "Donggu 东古",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Zhimeizhai 致美斋",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Donghu 东湖",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Vinegar"
+  },
+  {
+   "n": "Zhujiangqiao 珠江桥牌",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Laohenghe 老恒和",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Rice wine & soy"
+  },
+  {
+   "n": "Longpai 龙牌",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Dingfeng 鼎丰",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Yuetu 玉兔",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Huyumei 胡玉美",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Bean paste"
+  },
+  {
+   "n": "Dengta 灯塔",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Soy sauce"
+  },
+  {
+   "n": "Juancheng 鹃城牌",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Doubanjiang"
+  },
+  {
+   "n": "Yuchuanju 玉川居",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Condiments"
+  },
+  {
+   "n": "Dexinzhai 德馨斋",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Condiments"
+  },
+  {
+   "n": "Hongmei 红梅",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Condiments"
+  },
+  {
+   "n": "Huaimao 槐茂",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Pickles"
+  },
+  {
+   "n": "Luhua 芦花",
+   "layer": "cultural",
+   "src": "https://www.cnpp.cn/focus/3508022.html",
+   "says": "China Time-honored Brand (中华老字号) in 2024 Chinese condiment TOP30 list (2024 Zhonghua tiaoweipin chanye fazhan dahui, Jinan)",
+   "country": "China",
+   "dept": "Salt"
+  },
+  {
+   "n": "Annie's Delights",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Bessie's Yorkshire Preserves",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Black Mountains Preserves",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Cakebole Orchard",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Canning Shop Lamp",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Casa Da Roseira",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Chez.BonBon",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Confituras Tradicionales",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Cosakuu",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Country Markets",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Cross Partnership Design Co",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Cuisine Maruko",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "D-1",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Daisy Graze",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Enami Farm",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "English Kitchen",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "EwigLeben mit Genuss",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Fuyubagel",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Gaye Neve",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Gela 319",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Helen's Jams & Jellies",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Hemelhuijs",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Honeybee Jam",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "IMCB - TASTIN",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Irene's Kitchen Delights",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "It's Garden",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Izu Jouzanen",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Jackal & Wolf",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "J'aime Sweets",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Jam Itsuka",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Kigyoukumiai Takanoji Fruits Club",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Kitazawa International Food and Beverage Business",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Kotorino",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Kudamono Danshi",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Lappy Kobo",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Lohas Edible Rose Garden",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Lulus Leckereien",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Marge Jars",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Marmalada Z Posumavi",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Marmalade Obasan",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Mogu Kitchen",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Monsieur Louis",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Moor Meadow Marmalade",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Old School House",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Onni Marmalade",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Papa's Jam",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Perfectly Preserved",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Prairial Seijo",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Radnor Preserves",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "RFG Foods",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Rigsbys Seasonal Foods",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Rose Cottage Country Kitchen",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Rosebud Preserves",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Rosons",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Shi Ying Food Corporation",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Shishitotora-Asano Farm",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Stokoe House 1611",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Stylish Fruits Kagoshima",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Sue the Jam",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "The Jam Queen",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "The Mad Jam Woman",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "The Proper Marmalade Co",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Tian Ben Jam",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Vegetus Matsuoka",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Water Lane",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Wexford Home Preserves",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Willow & Greene",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Woodcrest Kitchen",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "Yokikana",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
+  },
+  {
+   "n": "you-ichi",
+   "layer": "premium",
+   "src": "https://www.dalemain.com/s/2026-ARTISAN-GOLD.pdf",
+   "says": "Gold award in Artisan class, Dalemain World Marmalade Awards 2026 (blind judging)",
+   "country": "",
+   "dept": "Jams & marmalade"
   }
  ]
 }
