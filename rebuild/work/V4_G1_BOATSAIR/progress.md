@@ -8,3 +8,4 @@ step6: data_boats.py written (Beneteau/Jeanneau/HR rows)
 step7: data_air.py written
 step8: build.py (boats) + air.py done -> boats_out.json air_out.json; next vehicle care + assemble part + validate + report
 step9: sail3 (rows to 533) added; part written+validated. Remaining: check counts, write report
+step10: report written. DONE.

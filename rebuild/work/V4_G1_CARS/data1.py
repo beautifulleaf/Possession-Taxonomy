@@ -104,3 +104,28 @@ D['Geely']=('Geely','China','', 'Global group',
 "C:Panda Mini EV|H:Yuanjing;Yuanjing S1;Yuanjing X1;MK;CK;LC;GC2;Binrui;Binyue;EX2;Galaxy E8;Galaxy L6;Galaxy M7;Galaxy A7|S:Emgrand GL;Borui;Borui GE;Binray;EC7;CD;BL;Galaxy L7;Galaxy Starshine 8;Preface TCR;Yuanjing X6|M:Jiaji;Haoyue;Galaxy M9|U:Boyue;Boyue REV;Coolray;Azkarra;Monjaro;Xingyue S;Xingyue L;Yuanjing X3;GX9;Icon;EX5;Galaxy Starship 7;Galaxy Starshine 6;Galaxy Starshine 7|I:Galaxy Cruiser 700|Q:Galaxy V900")
 D['Mahindra']=('Mahindra & Mahindra','India','', 'National champion',
 "O:Thar;Thar ROXX;Bolero;Bolero Neo;Roxor;Major;Armada;Legend;Marksman|U:Scorpio;Scorpio Getaway;Scorpio-N;XUV300;XUV500;XUV700;XUV 3XO;XUV 7XO;XEV 9e;XEV 9S;BE 6;KUV100;NuvoSport;Xylo;Marazzo|S:Verito Vibe;eVerito;Maxximo|C:e2o;e2o Plus|I:Genio;Gio;Goa;Jeeto;Maxx")
+D['Aston Martin']=('Aston Martin Lagonda Global Holdings','United Kingdom','', 'Independent',
+"G:DB2;DB2/4;DB Mark III;DB4;DB5;DB6;DBS;DB7;DB9;DB11;DB12;V8;Virage;Vanquish;Vanquish (2012)~2012;Vantage;Vantage (2005);Vantage (2018);Rapide;Lagonda;Lagonda Rapide;Lagonda Taraf|P:DB AR1;V8 Zagato;V12 Zagato;DB4 GT Zagato;DB7 Zagato;Vulcan|Z:One-77;Valkyrie;Valhalla;Valour|U:DBX|V:Short Chassis Volante")
+D['Alpine']=('Renault Group','France','', 'Global group',"P:A106;A108~1959;A110;A110 (2017);GTA;Alpine A210|c:A441")
+D['AC Cars']=('AC Cars','United Kingdom','', 'Independent',"R:Ace;Aceca;Cobra;Brooklands Ace;Greyhound~1959;Petite;3000ME;378 GT Zagato;428;2-Litre;MK VI")
+D['Abarth']=('Stellantis','Italy','2014', 'Global group',"T:595;695;500;600e;Fiat Abarth 850 TC|P:1000 GT Coupé;124 Spider;1500 Biposto~1950;Simca 1300 GT;Simca 2000")
+D['Acura']=('Honda Motor Company','Japan','', 'Independent',"S:CL;CL-X;EL;ILX;Integra (2023);Legend;RL;RLX;TL;TLX;TSX;CSX;RSX|U:ADX;CDX;MDX~2000;RDX;SLX;ZDX|P:NSX")
+D['Infiniti']=('Nissan Motor Company','Japan','', 'Independent',"S:G Line;J30;M;M30;Q30;Q45;Q50;Q70;Q40|X:Q60|U:EX;QX;QX30;QX50;QX55;QX60;QX65;QX70;QX80")
+D['Datsun']=('Nissan Motor Company','Japan','', 'Independent',"S:DA;DC-3;DS series;DB series;Type 11;Type 12;Type 13;Type 14;Type 15;Type 16;Type 17;210;510;200B~1959;Go;Go Plus;mi-Do;on-Do;redi-Go|P:Roadster;Sports~1959;160Z|H:Go;redi-Go")
+D['Dodge']=('Stellantis','United States','1928', 'Global group',
+"C:Colt|H:Omni;Omni 024;Neon;Neon SRT-4~2003;Dart (PF);Caliber;Attitude;Brisa|S:Coronet~1949;Dart~1959;Polara~1960;Monaco~1965;Aspen;Diplomat;Mirada;St. Regis;Intrepid;Stratus~1994;Avenger;Shadow;Spirit;Aries;Dynasty;Lancer;Matador~1959;Custom;Custom Royal;Custom 880;Regent;Royal;Meadowbrook;Wayfarer;Mayfair;330;400;440;600;Series 116;30-35;Model 30;Fast Four;Deluxe;Luxury Liner Special;Phoenix;Kingsway;Hornet|X:Daytona;Challenger (1970);Magnum|W:Charger~1966;Charger (1966);Charger (1981)~1981;Charger (2006)~2005;Charger (2024);Charger Daytona~1969;Super Bee|P:Viper;Viper (SR I);Stealth;Venom|M:Caravan|U:Journey;Durango;Nitro;Hornet|I:Dakota;Ram 50;Ramcharger;Rampage|c:La Femme")
+D['Chrysler']=('Stellantis','United States','', 'Global group',
+"S:300~2004;300M~1999;200;Concorde;LHS;Cirrus;Neon~1993;Cordoba;Fifth Avenue;Executive;Imperial Parade Phaeton;Airflow;Airstream;Royal;Royal (Australia);Six;Valiant;Valiant (RV1);Valiant Charger;Centura;Sigma;VIP;by Chrysler;E-Class|X:Crossfire;TC by Maserati|M:Voyager;Pacifica (minivan);Pacifica (crossover)~2003|U:Aspen|H:PT Cruiser;Sunbeam")
+D['AMC']=('Stellantis','United States','1987', 'Global group',
+"S:AMC Ambassador;AMC Concord;AMC Eagle;AMC Hornet;AMC Matador;AMC Rebel;AMC Spirit;Rambler American;Rambler Classic;Rambler Rebel;Rambler Six and V8|C:AMC Gremlin;AMC Pacer|W:AMC AMX;AMC Javelin;Rambler Marlin|H:AMC Cavalier")
+D['Alvis']=('Alvis Car and Engineering Company','United Kingdom','', 'Independent',"S:10/30;12/50;12/60;12/70;14.75;Silver Eagle;Silver Crest;Speed 20;Speed 25;TA 21;TB 14;TB 21;TC 21;TC 108G;TD 21;TE 21;TF 21;Crested Eagle")
+D['Allard']=('Allard Motor Company','United Kingdom','', 'Independent',"R:J2;M;M2;P1;Clipper")
+D['Armstrong Siddeley']=('Armstrong Siddeley','United Kingdom','', 'Independent',"S:Hurricane;Lancaster;Sapphire (motor car);Typhoon;Whitley 18")
+D['Adler']=('Adler','Germany','', 'Independent',"S:2 Liter;2.5-litre~1937;Diplomat;Favorit;Primus;Standard 6;Standard 8;Trumpf~1932;Trumpf Junior")
+D['Ariel']=('Ariel Motor Company','United Kingdom','', 'Craft & indie',"R:Atom")
+D['Artega']=('Artega Automobile','Germany','', 'Craft & indie',"P:GT")
+D['Ascari']=('Ascari Cars','United Kingdom','', 'Craft & indie',"Z:A10;Ecosse;KZ1")
+D['Aiways']=('Aiways','China','', 'Independent',"U:U5;U6")
+D['Aixam']=('Aixam','France','', 'Independent',"B:City")
+D['AITO']=('Seres Group','China','', 'Independent',"U:M5;M6;M7;M8;M9")
+D['Arcfox']=('BAIC Group','China','', 'Independent',"U:Alpha T5;Alpha-T6;Alpha S5")

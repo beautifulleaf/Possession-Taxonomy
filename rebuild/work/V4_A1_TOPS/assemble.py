@@ -30,8 +30,8 @@ for dp in B.OLD['depts']:
             if n:
                 nk['x'] = ents
                 nk['xg'] = spec['xg']
-                nk['sel'] = (f"Canon: every signature piece in the brand register that matches this garment, confirmed on its register page, and every originator named in {spec['ref']}. "
-                             f"Complete: {n} of {n} in the brand register and the fetched Wikipedia articles.")
+                nk['sel'] = (f"Canon: every signature piece in the brand register that matches this garment, every piece the earlier harvests recorded with a source page (data/named_forms.tsv) or a fetched brand page names, and every originator named in {spec['ref']}. "
+                             f"Complete: {n} of {n} in those sources.")
             else:
                 nk['sel'] = (f"Canon: {spec['ref']}. Complete: 0 of 0, so the kind has no named entries; the garment is described by its attributes.")
             ns['k'].append(nk)
@@ -49,6 +49,7 @@ for mk, e in brands_in_entries.items():
             u = {'c': B.REG[mk].get('c','')}
             if mk in B.OWN:
                 u['own'] = B.OWN[mk][0]
+                u['tier'] = B.TIER[B.OWN[mk][0]]
                 if B.OWN[mk][1]:
                     u['own_y'] = B.OWN[mk][1]
             upd[mk] = u
