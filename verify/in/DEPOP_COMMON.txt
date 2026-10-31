@@ -1,4 +1,4 @@
-Batch DEPOP_<PART> (copy Depop's A-Z brand index). Never run git; never edit rebuild/. Output only in /home/user/Possession-Taxonomy/verify/work/DEPOP/: one file per page, <letter>.txt (the 0-9 page is other.txt), one brand name per line, exactly as the page shows it (keep capitals, accents and punctuation; drop the link; keep duplicates out), then a final line "#END <count>" only once the whole page has been copied. Notes in verify/work/DEPOP/notes_<PART>.txt.
+Batch DEPOP_<PART> (copy Depop's A-Z brand index). Never run git; never edit rebuild/. Output only in /home/user/Possession-Taxonomy/verify/depop/: one file per page, <letter>.txt (the 0-9 page is other.txt), one brand name per line, exactly as the page shows it (keep capitals, accents and punctuation; drop the link; keep duplicates out), then a final line "#END <count>" only once the whole page has been copied. Notes in verify/work/DEPOP/notes_<PART>.txt.
 
 RESUME RULE: if a letter file already ends with "#END", skip that letter; if it exists without "#END", re-fetch that page and rewrite the file.
 
