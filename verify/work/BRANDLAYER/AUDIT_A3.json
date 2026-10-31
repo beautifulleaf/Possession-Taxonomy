@@ -181,8 +181,403 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Gimel",
+   "layer": "premium",
+   "src": "http://www.premium-j.jp/en/premiumx/20191002_3105?gt_lang=en",
+   "says": "Premium Japan: 'Japan's leading jeweler', founded 1974, pavé-set nature motifs (Japanese high jewellery)",
+   "country": "Japan",
+   "dept": "fine jewellery",
+   "region": "Japan"
+  },
+  {
+   "n": "Ginza Tanaka",
+   "layer": "cultural",
+   "src": "https://www.25ans.jp/wedding/jewelry/a55142/wj-brandno-1-17-0202-brandno-114-17-2202",
+   "says": "25ans: founded 1892, one of Japan's leading precious-metal jewellers, industry-top quality standards for platinum and diamonds",
+   "country": "Japan",
+   "dept": "bridal/precious-metal jewellery",
+   "region": "Japan: Ginza Tokyo"
+  },
+  {
+   "n": "PNJ (Phu Nhuan Jewelry)",
+   "layer": "cultural",
+   "src": "https://export.pnj.com.vn/about-us",
+   "says": "leading jewellery brand in Vietnam, ~200+ stores, Manufacturer of the Year at Jewellery World Awards 2021",
+   "country": "Vietnam",
+   "dept": "gold and diamond jewellery",
+   "region": "Vietnam"
+  },
+  {
+   "n": "Poh Kong",
+   "layer": "cultural",
+   "src": "https://www.pohkong.com.my/pages/poh-kong-story",
+   "says": "Malaysia's largest jewellery retail chain and maker (Shah Alam factory), est. 1976, World Gold Council Gold Design Award 1996",
+   "country": "Malaysia",
+   "dept": "gold jewellery",
+   "region": "Malaysia"
+  },
+  {
+   "n": "Birdhichand Ghanshyamdas",
+   "layer": "cultural",
+   "src": "https://www.gia.edu/gems-gemology/winter-2016-jaipur-india",
+   "says": "GIA G&G: Jaipur goldsmith house from the 1700s serving maharajas; brought kundan meena with polki to mainstream India (Hunar collection)",
+   "country": "India",
+   "dept": "kundan meena jewellery",
+   "region": "India: Jaipur"
+  },
+  {
+   "n": "Surana Jewellers",
+   "layer": "cultural",
+   "src": "https://www.gia.edu/gems-gemology/winter-2016-jaipur-india",
+   "says": "GIA G&G: Jaipur family jeweller since 1735, jeweller to the maharajas",
+   "country": "India",
+   "dept": "traditional Rajasthani jewellery",
+   "region": "India: Jaipur"
+  },
+  {
+   "n": "C. Krishniah Chetty & Co",
+   "layer": "cultural",
+   "src": "https://krishniahchetty.co/aboutus",
+   "says": "Bangalore jeweller, silversmith and diamond merchant since 1869, 5th generation; South Indian heritage jewellery",
+   "country": "India",
+   "dept": "South Indian heritage jewellery",
+   "region": "India: Karnataka"
+  },
+  {
+   "n": "Nada Ghazal",
+   "layer": "premium",
+   "src": "https://www.jckonline.com/editorial-article/nada-ghazal-eyes-expansion",
+   "says": "JCK: Beirut fine jeweller (founded 2004, JCK Rising Star 2012), atelier of 16 in Beirut, 18k gold and diamonds",
+   "country": "Lebanon",
+   "dept": "fine jewellery",
+   "region": "Lebanon: Beirut"
+  },
+  {
+   "n": "Altınbaş",
+   "layer": "cultural",
+   "src": "https://www.altinbas.us/pages/about-us",
+   "says": "Gaziantep 1975; Turkey's leading jewellery brand, largest gold factory in Turkey, Superbrands Türkiye, most recognised gold and diamond brand",
+   "country": "Turkey",
+   "dept": "gold jewellery",
+   "region": "Turkey"
+  },
+  {
+   "n": "Ascione",
+   "layer": "cultural",
+   "src": "https://www.napolike.com/coralli-torre-del-greco",
+   "says": "Torre del Greco coral and cameo house founded 1855, 'one of the iconic brands of coral jewelry', museum in Naples",
+   "country": "Italy",
+   "dept": "coral and cameo jewellery",
+   "region": "Italy: Torre del Greco (Naples)"
+  },
+  {
+   "n": "Antonino De Simone",
+   "layer": "cultural",
+   "src": "https://www.napolike.com/coralli-torre-del-greco",
+   "says": "Torre del Greco Mediterranean red coral house since 1830, family runs the Coral Museum, entirely handcrafted",
+   "country": "Italy",
+   "dept": "coral jewellery",
+   "region": "Italy: Torre del Greco (Naples)"
+  },
+  {
+   "n": "Kazuri",
+   "layer": "cultural",
+   "src": "https://en.kazuri.nl/kazuri-jewelry",
+   "says": "Nairobi hand-made ceramic bead jewellery since 1975 (Lady Susan Wood), clay from Mount Kenya, women's workshop",
+   "country": "Kenya",
+   "dept": "beaded jewellery",
+   "region": "Kenya: Nairobi"
+  },
+  {
+   "n": "Philip Rickard",
+   "layer": "premium",
+   "src": "https://www.philiprickard.com/pages/about",
+   "says": "Honolulu maker of Hawaiian heirloom jewellery, deep hand-engraved scrollwork and enamel names; author of the history of the tradition",
+   "country": "United States (Hawaii)",
+   "dept": "Hawaiian heirloom jewellery",
+   "region": "Hawaii"
+  },
+  {
+   "n": "Maui Divers Jewelry",
+   "layer": "cultural",
+   "src": "https://www.mauidivers.com/pages/maui-divers-jewelry-make-a-wish-hawaii-april-1-2026",
+   "says": "founded 1959, 'Hawaii's most celebrated fine jewelry brand', made in Hawaii: Hawaiian heirloom, black coral, pearls",
+   "country": "United States (Hawaii)",
+   "dept": "Hawaiian heirloom and coral jewellery",
+   "region": "Hawaii"
+  },
+  {
+   "n": "Robert Wan",
+   "layer": "premium",
+   "src": "https://www.robertwan.com/custom-necklace",
+   "says": "Tahitian pearl house (own farms, Pearl Museum), styled 'Emperor of Tahitian pearls'; boutique Bora Bora",
+   "country": "French Polynesia",
+   "dept": "Tahitian pearl jewellery",
+   "region": "French Polynesia: Tahiti"
+  },
+  {
+   "n": "Ilaria",
+   "layer": "cultural",
+   "src": "https://indagare.com/destination/cusco/shops?tags=local-treasures",
+   "says": "Indagare: Lima/Cusco silver house founded 1992 that raised the profile of Peruvian silversmith traditions; 'the Elsa Peretti of her country'",
+   "country": "Peru",
+   "dept": "silver jewellery",
+   "region": "Peru: Lima and Cusco silver"
+  },
+  {
+   "n": "Graziella Laffi",
+   "layer": "premium",
+   "src": "https://unframed.lacma.org/2015/02/25/now-view-graziella-laffi",
+   "says": "LACMA: 'Spratling of Peru', modern Peruvian silver jewellery joining pre-Columbian imagery with modern design; collected by LACMA",
+   "country": "Peru",
+   "dept": "silver jewellery",
+   "region": "Peru: Lima and Cusco silver"
+  },
+  {
+   "n": "Tawapa",
+   "layer": "premium",
+   "src": "https://evolutionpiercing.com/news/tawapa",
+   "says": "woman-owned LA body-jewellery maker (~30 years), solid gold and precious-stone piercing jewellery, APP conference regular",
+   "country": "United States",
+   "dept": "piercing jewellery",
+   "region": ""
+  },
+  {
+   "n": "Glasswear Studios",
+   "layer": "premium",
+   "src": "https://www.glasswearstudios.com/",
+   "says": "handcrafted lead-free Pyrex and quartz glass body jewellery (plugs, weights) made in Ashland, Oregon since 1998",
+   "country": "United States",
+   "dept": "stretched-ear / piercing jewellery",
+   "region": ""
+  },
+  {
+   "n": "J.Estina",
+   "layer": "cultural",
+   "src": "https://www.jwawards.com/results/j-estina",
+   "says": "Jewellery World Awards honouree: Korean brand est. 1988, leading retailer of diamond and precious-metal jewellery; tiara emblem",
+   "country": "South Korea",
+   "dept": "fashion fine jewellery",
+   "region": "South Korea"
+  },
+  {
+   "n": "Chow Tai Seng",
+   "layer": "cultural",
+   "src": "https://shop.chowtaiseng.com/",
+   "says": "founded 1999, listed jeweller with 5,165+ stores, top tier of China's jewellery industry (Deloitte Global Powers of Luxury 62nd 2021)",
+   "country": "China",
+   "dept": "gold and diamond jewellery",
+   "region": "China"
+  },
+  {
+   "n": "Hazoorilal",
+   "layer": "premium",
+   "src": "https://hazoorilaljewellers.com/our-world/history-3",
+   "says": "Delhi house since 1952 (Dariba Kalan), renowned for diamonds, polki and kundan heirloom jewellery; early pioneer of coloured diamonds and certified diamonds",
+   "country": "India",
+   "dept": "polki/kundan and diamond jewellery",
+   "region": "India: Delhi"
+  },
+  {
+   "n": "Senco Gold & Diamonds",
+   "layer": "cultural",
+   "src": "https://sencogoldanddiamonds.ae/about-us",
+   "says": "Kolkata jeweller with 85+ year legacy; Bengali karigars make filigree, meenakari, polki, jadau and temple jewellery",
+   "country": "India",
+   "dept": "gold jewellery",
+   "region": "India: Kolkata (Bengal)"
+  },
+  {
+   "n": "Waman Hari Pethe",
+   "layer": "cultural",
+   "src": "https://wamanharipethejewellers.in/",
+   "says": "Mumbai (Dadar) jeweller 'pure trust since 1909', traditional Maharashtrian craftsmanship with modern designs",
+   "country": "India",
+   "dept": "gold jewellery",
+   "region": "India: Maharashtra"
+  },
+  {
+   "n": "Raja Jewellers",
+   "layer": "cultural",
+   "src": "https://www.rajajewellers.com/latest-organization-updates/",
+   "says": "Sri Lankan gold jeweller since 1928; four Presidential Gold Awards from the National Gem and Jewellery Authority incl. Best Jewellery Manufacturer and Highest Quality Standards",
+   "country": "Sri Lanka",
+   "dept": "gold and gem jewellery",
+   "region": "Sri Lanka"
+  },
+  {
+   "n": "Glenn Spiro",
+   "layer": "premium",
+   "src": "https://www.admiddleeast.com/story/for-the-london-jeweller-glenn-spiro-creating-future-heirlooms-is-a-family-affair",
+   "says": "AD Middle East: appointment-only Mayfair high-jewellery atelier (G by Glenn Spiro), ~150 unique pieces a year built around exceptional stones",
+   "country": "United Kingdom",
+   "dept": "high jewellery",
+   "region": "UK: London Mayfair"
+  },
+  {
+   "n": "W.KRUK",
+   "layer": "cultural",
+   "src": "https://retailnet.pl/2026/05/05/w-kruk-umacnia-pozycje-na-wegrzech-i",
+   "says": "Retailnet: the oldest jewellery brand in Poland (185 years), 185 salons, own-design collections",
+   "country": "Poland",
+   "dept": "fine jewellery",
+   "region": "Poland"
+  },
+  {
+   "n": "Cedi Beads",
+   "layer": "cultural",
+   "src": "https://ghanatrvl.com/places-to-see/adventure-and-outdoors/cedi-bead-factory",
+   "says": "Odumase Krobo bead factory of master bead maker Cedi (Nomoda Djaba), recycled-glass Krobo beads, one of Ghana's most distinguished bead makers",
+   "country": "Ghana",
+   "dept": "beads and beaded jewellery",
+   "region": "Ghana: Krobo (Eastern Region)"
+  },
+  {
+   "n": "Falanga Coralli",
+   "layer": "cultural",
+   "src": "https://www.napolike.com/coralli-torre-del-greco",
+   "says": "Torre del Greco coral workshop (30+ years), handcrafted 18k gold and coral in the town's tradition",
+   "country": "Italy",
+   "dept": "coral jewellery",
+   "region": "Italy: Torre del Greco (Naples)"
+  },
+  {
+   "n": "Laopu Gold",
+   "layer": "premium",
+   "src": "https://www.bjreview.com/China/202602/t20260210_800430239.html",
+   "says": "Beijing Review: heritage-gold (gufa) jeweller with cult status; filigree and hand-chased pure gold; leads China's heritage-gold renaissance",
+   "country": "China",
+   "dept": "heritage gold jewellery",
+   "region": "China: heritage gold (gufa huangjin)"
+  },
+  {
+   "n": "Granát Turnov",
+   "layer": "cultural",
+   "src": "https://expo2025czechia.com/en/partners/granat-turnov",
+   "says": "leading Czech maker of Bohemian garnet jewellery, cooperative since 1953, owns the garnet mines and the 'Bohemian Garnet' trademark",
+   "country": "Czech Republic",
+   "dept": "garnet jewellery",
+   "region": "Czechia: Turnov (Bohemian garnet)"
+  },
+  {
+   "n": "Manaba Magomedova",
+   "layer": "premium",
+   "src": "https://www.themoscowtimes.com/2013/11/06/manaba-magomedova-retrospective-attracts-important-guests-a29295/pdf",
+   "says": "Kubachi goldsmith of a family working since the 15th century; retrospective at the State Historical Museum, jewellery and silverwork",
+   "country": "Russia (Dagestan)",
+   "dept": "Kubachi silver and jewellery",
+   "region": "Russia: Kubachi (Dagestan)"
+  },
+  {
+   "n": "Ileana Makri",
+   "layer": "premium",
+   "src": "https://ileanamakri.com/pages/about-ileana",
+   "says": "Athens fine jeweller since 1998, own atelier in Athens, internationally recognised designs",
+   "country": "Greece",
+   "dept": "fine jewellery",
+   "region": "Greece: Athens"
+  },
+  {
+   "n": "Balfour",
+   "layer": "cultural",
+   "src": "https://www.balfour.com/",
+   "says": "US class and championship ring maker since 1913; official championship rings for Texas UIL and Florida FHSAA",
+   "country": "United States",
+   "dept": "class rings",
+   "region": ""
+  },
+  {
+   "n": "Herff Jones",
+   "layer": "cultural",
+   "src": "https://www.herffjones.com/class-rings-and-jewelry",
+   "says": "US official class-ring, college-ring and championship-ring supplier to schools",
+   "country": "United States",
+   "dept": "class rings",
+   "region": ""
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Italy: Torre del Greco (Naples)",
+   "speciality": "Mediterranean red coral jewellery and hand-carved shell cameos since the 19th century",
+   "src": "https://www.napolike.com/coralli-torre-del-greco",
+   "brands": [
+    "Ascione",
+    "Antonino De Simone",
+    "Falanga Coralli"
+   ]
+  },
+  {
+   "region": "India: Jaipur (addition to harvest region)",
+   "speciality": "kundan meena with polki; 18th-century houses serving the maharajas",
+   "src": "https://www.gia.edu/gems-gemology/winter-2016-jaipur-india",
+   "brands": [
+    "Birdhichand Ghanshyamdas",
+    "Surana Jewellers"
+   ]
+  },
+  {
+   "region": "Hawaii",
+   "speciality": "Hawaiian heirloom jewellery (engraved scroll, enamel names) and black coral",
+   "src": "https://www.mauidivers.com/pages/maui-divers-jewelry-make-a-wish-hawaii-april-1-2026",
+   "brands": [
+    "Maui Divers Jewelry",
+    "Philip Rickard"
+   ]
+  },
+  {
+   "region": "Ghana: Krobo (Eastern Region)",
+   "speciality": "recycled powder-glass Krobo beads made in clay moulds",
+   "src": "https://ghanatrvl.com/places-to-see/adventure-and-outdoors/cedi-bead-factory",
+   "brands": [
+    "Cedi Beads"
+   ]
+  },
+  {
+   "region": "Peru: Lima and Cusco",
+   "speciality": "Andean and colonial-tradition silver jewellery",
+   "src": "https://unframed.lacma.org/2015/02/25/now-view-graziella-laffi",
+   "brands": [
+    "Graziella Laffi",
+    "Ilaria"
+   ]
+  },
+  {
+   "region": "Czechia: Turnov",
+   "speciality": "Bohemian (Czech) garnet jewellery, hand-set, protected designation 'Bohemian Garnet Jewellery'",
+   "src": "https://expo2025czechia.com/en/partners/granat-turnov",
+   "brands": [
+    "Granát Turnov"
+   ]
+  },
+  {
+   "region": "Russia: Kubachi (Dagestan)",
+   "speciality": "engraved, niello and filigree silver jewellery and arms; ~300 masters (Wikipedia Kubachi silver)",
+   "src": "https://www.themoscowtimes.com/2013/11/06/manaba-magomedova-retrospective-attracts-important-guests-a29295/pdf",
+   "brands": [
+    "Manaba Magomedova"
+   ]
+  },
+  {
+   "region": "China: heritage gold (gufa huangjin)",
+   "speciality": "hand-hammered, filigree and chased pure-gold jewellery revived from imperial techniques",
+   "src": "https://www.bjreview.com/China/202602/t20260210_800430239.html",
+   "brands": [
+    "Laopu Gold",
+    "Chow Tai Fook"
+   ]
+  },
+  {
+   "region": "Lebanon: Beirut",
+   "speciality": "Beirut fine-jewellery ateliers",
+   "src": "https://www.jckonline.com/editorial-article/nada-ghazal-eyes-expansion",
+   "brands": [
+    "Nada Ghazal"
+   ]
+  }
+ ],
  "drop": [
   {
    "n": "Pailin",

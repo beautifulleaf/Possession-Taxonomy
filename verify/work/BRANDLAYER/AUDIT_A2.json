@@ -181,8 +181,351 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Neiliansheng",
+   "layer": "cultural",
+   "src": "https://www.chinatoday.com.cn/ctenglish/2018/cs/201803/t20180308_800120841.html",
+   "says": "Beijing time-honored cloth-shoe maker founded 1853, made Qing court boots; its qiancengdi cloth-shoe craft on China's national intangible cultural heritage list (2008)",
+   "country": "China",
+   "dept": "traditional cloth shoes",
+   "region": "Beijing"
+  },
+  {
+   "n": "Nanyang",
+   "layer": "cultural",
+   "src": "https://nanyang.co.th/home-eng",
+   "says": "leading Thai canvas shoe and ChangDao flip-flop maker since 1953, 300m+ pairs; declared 'The Pride of Thai' by the Thai government",
+   "country": "Thailand",
+   "dept": "canvas shoes, flip-flops",
+   "region": ""
+  },
+  {
+   "n": "Biti's",
+   "layer": "cultural",
+   "src": "https://vietnam.vnanet.vn/english/tin-tuc/bitis-the-pride-of-a-vietnamese-footwear-brand-129644.html",
+   "says": "'The Pride of a Vietnamese Footwear Brand': leading Vietnamese footwear maker since 1982 (Biti's Hunter sneakers)",
+   "country": "Vietnam",
+   "dept": "sandals, sneakers",
+   "region": ""
+  },
+  {
+   "n": "Wojas",
+   "layer": "cultural",
+   "src": "https://www.wojas.eu/en_EE/company/about-us",
+   "says": "maker's page: 'one of the largest and most respected Polish footwear manufacturers', Nowy Targ (Podhale), ~180 stores; supplies uniformed services",
+   "country": "Poland",
+   "dept": "leather shoes and boots",
+   "region": "Podhale"
+  },
+  {
+   "n": "Servis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Service_Industries_Limited",
+   "says": "Servis shoes: opened Pakistan's first organized shoe factory (Gujrat, 1959); overtook Bata Pakistan in sales by 2007; brands Servis, Cheetah, Ndure",
+   "country": "Pakistan",
+   "dept": "everyday footwear",
+   "region": "Gujrat, Punjab"
+  },
+  {
+   "n": "Kaptaan Chappal (ChaCha Noor Din)",
+   "layer": "cultural",
+   "src": "https://kaptaanchappal.net/story-of-kaptaan-chappal",
+   "says": "Peshawar chappal maker Nooruddin Shinwari; his chappal for Imran Khan became the widely known 'Kaptaan Chappal', earlier made Peshawari chappals for Benazir Bhutto",
+   "country": "Pakistan",
+   "dept": "Peshawari chappal",
+   "region": "Peshawar"
+  },
+  {
+   "n": "Paez",
+   "layer": "cultural",
+   "src": "https://www.lanacion.com.ar/economia/paez-se-reinventa-para-seguir-dando-batalla-con-sus-alpargatas-nid1923110/",
+   "says": "La Nación: Argentine brand that turned the alpargata into an aspirational shoe ('no existía una marca referente'), compared to Havaianas; 550,000 pairs a year",
+   "country": "Argentina",
+   "dept": "alpargatas (espadrilles)",
+   "region": ""
+  },
+  {
+   "n": "Bosi",
+   "layer": "cultural",
+   "src": "https://www.larepublica.co/empresas/entrevista-con-la-gerente-general-de-bosi-clemencia-velez-4244283",
+   "says": "Colombian leather shoe maker founded 1975, 160+ stores; page links Superindustria naming Bosi a 'marca notoria' (2020); 'orgullosamente colombiana'",
+   "country": "Colombia",
+   "dept": "leather shoes",
+   "region": ""
+  },
+  {
+   "n": "Vélez",
+   "layer": "cultural",
+   "src": "https://www.velez.com.co/",
+   "says": "Colombian leather house; shoes and boots 'hecha a mano, uno a uno, por artesanos expertos' (maker's own claim)",
+   "country": "Colombia",
+   "dept": "leather shoes and boots",
+   "region": "Medellín"
+  },
+  {
+   "n": "Samello",
+   "layer": "cultural",
+   "src": "https://www.samello.com.br/index.php?information_id=2&route=information%2Finformation",
+   "says": "Franca (SP) men's shoe brand, 'uma das marcas mais reconhecidas no segmento de calçados e acessórios de couro' (maker's claim)",
+   "country": "Brazil",
+   "dept": "men's leather shoes",
+   "region": "Franca, São Paulo"
+  },
+  {
+   "n": "Zapateria (Sta. Ana family)",
+   "layer": "premium",
+   "src": "https://www.spot.ph/newsfeatures/culture/108781/zapateria-hub-marikina-interview-feature-a4373-20240501-lfrm",
+   "says": "Marikina shoe brand and hub run by the Sta. Ana cobbler family, making shoes since 1887 for five generations",
+   "country": "Philippines",
+   "dept": "handmade shoes",
+   "region": "Marikina"
+  },
+  {
+   "n": "Cayucas",
+   "layer": "cultural",
+   "src": "https://www.cayucashoes.com/",
+   "says": "huaraches handwoven by artisans in Sahuayo, Michoacán, 'a town known for generations of huarache-making'",
+   "country": "Mexico",
+   "dept": "huaraches",
+   "region": "Sahuayo, Michoacán"
+  },
+  {
+   "n": "Kineya Tabi",
+   "layer": "cultural",
+   "src": "https://www.kineyatabi.com/",
+   "says": "tabi maker established 1929 in Gyoda, 'a leading center for the Tabi industry'; traditional methods, also tabi running shoes (Muteki)",
+   "country": "Japan",
+   "dept": "tabi, tabi running shoes",
+   "region": "Gyoda, Saitama"
+  },
+  {
+   "n": "Marugo",
+   "layer": "cultural",
+   "src": "https://www.marugo.ne.jp/en",
+   "says": "jika-tabi maker since 1919 (Kurashiki); integrated jika-tabi production; 'Kurashiki long history company' award 2020",
+   "country": "Japan",
+   "dept": "jika-tabi, split-toe and work shoes",
+   "region": "Kurashiki, Okayama"
+  },
+  {
+   "n": "Tsujiya Honten (辻屋本店)",
+   "layer": "premium",
+   "src": "https://getaya.jp/about/",
+   "says": "Asakusa wasō hakimono specialist founded 1912; resident artisans fit geta/zōri/setta hanao to each foot; all hand-made from selected makers",
+   "country": "Japan",
+   "dept": "geta, zōri, setta",
+   "region": "Asakusa, Tokyo"
+  },
+  {
+   "n": "Gakuya (ガクヤ)",
+   "layer": "cultural",
+   "src": "https://gakuya.co.jp/gakuya",
+   "says": "tabi maker founded 1922 in Gyoda ('足袋の行田か、行田の足袋か'); still domestic production",
+   "country": "Japan",
+   "dept": "tabi",
+   "region": "Gyoda, Saitama"
+  },
+  {
+   "n": "Boot Black (Columbus)",
+   "layer": "premium",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing shoe-care guide: Japanese premium range by Columbus, 'when the Japanese do something, they often do it properly'; Columbus 'the biggest shoe care company in Japan'",
+   "country": "Japan",
+   "dept": "shoe polish and care",
+   "region": ""
+  },
+  {
+   "n": "Columbus",
+   "layer": "cultural",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing: 'The biggest shoe care company in Japan', company behind Boot Black",
+   "country": "Japan",
+   "dept": "shoe care",
+   "region": ""
+  },
+  {
+   "n": "Collonil",
+   "layer": "premium",
+   "src": "https://www.collonil.com/en/magazine/collonil-co/100-years-of-collonil-a-story-of-success",
+   "says": "Berlin shoe-care maker since 1909, Made in Germany, sold in 82+ countries; listed in Shoegazing guide among good shoe-care makers",
+   "country": "Germany",
+   "dept": "shoe polish and care",
+   "region": "Berlin"
+  },
+  {
+   "n": "Famaco",
+   "layer": "premium",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: French shoe-care manufacturer since 1931",
+   "country": "France",
+   "dept": "shoe polish and care",
+   "region": "Paris"
+  },
+  {
+   "n": "Tarrago",
+   "layer": "cultural",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: 'another of the big names in shoe care', Spanish, good reputation",
+   "country": "Spain",
+   "dept": "shoe care",
+   "region": ""
+  },
+  {
+   "n": "Siegol",
+   "layer": "premium",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: Swiss (ex-Burgol) cream and wax 'really nice', recommended by makers using crust leather",
+   "country": "Switzerland",
+   "dept": "shoe polish",
+   "region": ""
+  },
+  {
+   "n": "Burgol",
+   "layer": "cultural",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: historic Swiss Burgol polish (now German-made relaunch)",
+   "country": "Germany",
+   "dept": "shoe polish",
+   "region": ""
+  },
+  {
+   "n": "Turms",
+   "layer": "premium",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: small Marche (Italy) company, formerly wooden lasts maker, now shoe care and accessories",
+   "country": "Italy",
+   "dept": "shoe care, shoe trees",
+   "region": "Marche"
+  },
+  {
+   "n": "Brift-H",
+   "layer": "premium",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: brand started by first shoe-shining world champion Yuya Hasegawa (Japan)",
+   "country": "Japan",
+   "dept": "shoe care",
+   "region": "Tokyo"
+  },
+  {
+   "n": "La Cordonnerie Anglaise",
+   "layer": "cultural",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: old French shoe-care company (Avel group)",
+   "country": "France",
+   "dept": "shoe polish",
+   "region": ""
+  },
+  {
+   "n": "Pure Polish (GlenKaren)",
+   "layer": "premium",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: Oregon-made natural shoe polish, founded as GlenKaren",
+   "country": "USA",
+   "dept": "shoe polish",
+   "region": "Oregon"
+  },
+  {
+   "n": "Shoeboy's",
+   "layer": "cultural",
+   "src": "https://shoegazing.com/2021/07/30/guide-shoe-care-brands",
+   "says": "Shoegazing guide: long-established German shoe-care and accessories brand",
+   "country": "Germany",
+   "dept": "shoe care",
+   "region": ""
+  },
+  {
+   "n": "Melissinos (Poet Sandal Maker of Athens)",
+   "layer": "premium",
+   "src": "https://www.travel.gr/en/experiences-ee/greek-sandals-made-for-walking",
+   "says": "century-old Athens sandal-making family (Stavros 'the Poet Sandal Maker', Pantelis, Olgianna); made-to-order Greek sandals worn by the Beatles, Onassis, Elizabeth Taylor, Jackie O",
+   "country": "Greece",
+   "dept": "Greek leather sandals",
+   "region": "Athens"
+  },
+  {
+   "n": "Kyma Sandals",
+   "layer": "premium",
+   "src": "https://www.travel.gr/en/experiences-ee/greek-sandals-made-for-walking",
+   "says": "handmade in Athens from vegetable-tanned vachetta leather (est. 2014); in travel.gr Greek sandal makers list",
+   "country": "Greece",
+   "dept": "Greek leather sandals",
+   "region": "Athens"
+  },
+  {
+   "n": "Elina Linardaki",
+   "layer": "cultural",
+   "src": "https://www.travel.gr/en/experiences-ee/greek-sandals-made-for-walking",
+   "says": "Athens made-to-order sandal brand with 'international acclaim'",
+   "country": "Greece",
+   "dept": "sandals",
+   "region": "Athens"
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Peshawar (Jahangirpura, Qissa Khwani), Khyber Pakhtunkhwa, Pakistan",
+   "speciality": "Peshawari chappal, handmade; ~50,000 people in the craft; 'a cultural emblem'",
+   "src": "https://www.app.com.pk/features/peshawari-chappal-a-saga-of-decade-old-long-craftsmanship",
+   "brands": [
+    "Kaptaan Chappal (ChaCha Noor Din)"
+   ]
+  },
+  {
+   "region": "Marikina, Metro Manila, Philippines",
+   "speciality": "'Shoe Capital of the Philippines'; handmade leather shoes since 1887 (Kapitan Moy)",
+   "src": "https://www.pna.gov.ph/articles/1085636",
+   "brands": [
+    "Gibson's (Antonio Andres, PFFI chairman)",
+    "Zapateria (Sta. Ana family)"
+   ]
+  },
+  {
+   "region": "Sahuayo, Michoacán, Mexico",
+   "speciality": "'Ciudad de los Huaraches': centre of huarache sandal making",
+   "src": "https://en.wikipedia.org/wiki/Sahuayo",
+   "brands": [
+    "Cayucas"
+   ]
+  },
+  {
+   "region": "Gyoda, Saitama, Japan",
+   "speciality": "行田足袋: Japan's top tabi town (c.80% of national output at 1938-39 peak, '日本一の足袋のまち')",
+   "src": "https://kogeijapan.com/locale/ja_JP/gyodatabi",
+   "brands": [
+    "Kineya Tabi",
+    "Gakuya (ガクヤ)"
+   ]
+  },
+  {
+   "region": "Kurashiki, Okayama, Japan",
+   "speciality": "tabi and jika-tabi production area (Unsai-ori cotton)",
+   "src": "https://www.marugo.ne.jp/en",
+   "brands": [
+    "Marugo"
+   ]
+  },
+  {
+   "region": "Athens (Monastiraki/Plaka/Makrygianni), Greece",
+   "speciality": "handmade Greek leather sandals (ancient-style)",
+   "src": "https://www.travel.gr/en/experiences-ee/greek-sandals-made-for-walking",
+   "brands": [
+    "Melissinos (Poet Sandal Maker of Athens)",
+    "Ancient Greek Sandals",
+    "Kyma Sandals",
+    "Elina Linardaki",
+    "Alessandra Sandals",
+    "Valia Gabriel",
+    "Sandalmania"
+   ]
+  },
+  {
+   "region": "Kermanshah, Marivan, Senejan (Markazi), Yazd, Iran",
+   "speciality": "giveh / klash handmade shoes; Senejan ajideh giveh with UNESCO recognition",
+   "src": "https://en.wikipedia.org/wiki/Giveh",
+   "brands": []
+  }
+ ],
  "drop": [
   {
    "n": "EG Cappelli",

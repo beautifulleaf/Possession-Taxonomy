@@ -181,8 +181,301 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Marco Lang",
+   "layer": "premium",
+   "src": "https://www.marcolangwatches.com/en/main-page",
+   "says": "Fifth-generation Dresden watchmaker, founder of Lang & Heyne; own atelier since 2020; 'Quality, precision and the finest finish'",
+   "country": "Germany",
+   "dept": "independent watchmaker",
+   "region": "Saxony"
+  },
+  {
+   "n": "Garrick",
+   "layer": "premium",
+   "src": "https://garrick.co.uk/pages/about-us",
+   "says": "'Fine British-made Watches': hand-finished watches with in-house dials and movement parts made in its Norfolk workshop",
+   "country": "United Kingdom",
+   "dept": "watches",
+   "region": "England"
+  },
+  {
+   "n": "RGM Watch Co.",
+   "layer": "premium",
+   "src": "https://www.rgmwatches.com/history",
+   "says": "Founded 1992 by Roland G. Murphy, 'a symbol of America's horological revival'; first high-grade series mechanical movement made in the US since 1969",
+   "country": "United States",
+   "dept": "watches",
+   "region": "Pennsylvania"
+  },
+  {
+   "n": "Simon Brette",
+   "layer": "premium",
+   "src": "https://simonbrette.com/en/",
+   "says": "Independent Geneva watchmaker, 'Maker of exceptional watches' (Chronomètre Artisans)",
+   "country": "Switzerland",
+   "dept": "independent watchmaker",
+   "region": "Geneva"
+  },
+  {
+   "n": "Jaipur Watch Company",
+   "layer": "cultural",
+   "src": "https://www.europastar.com/the-watch-files/watchmaking-in-india/1004115572-jaipur-watch-company-fragments-of-indian-history.html",
+   "says": "Europa Star: founded 2013 in Rajasthan, incorporates ancient coins, rare stamps, Pichhwai and Jaipur miniature art into bespoke watches",
+   "country": "India",
+   "dept": "watches",
+   "region": "Rajasthan"
+  },
+  {
+   "n": "Bangalore Watch Company",
+   "layer": "cultural",
+   "src": "https://teddybaldassarre.com/blogs/watches/top-10-watch-brands-in-india",
+   "says": "Founded 2018; 'the leading indie watch brand' in India; Apogee inspired by ISRO",
+   "country": "India",
+   "dept": "watches",
+   "region": "Karnataka"
+  },
+  {
+   "n": "Delhi Watch Company",
+   "layer": "cultural",
+   "src": "https://teddybaldassarre.com/blogs/watches/top-10-watch-brands-in-india",
+   "says": "Listed among the top 10 watch brands in India",
+   "country": "India",
+   "dept": "watches",
+   "region": ""
+  },
+  {
+   "n": "Ajwain",
+   "layer": "cultural",
+   "src": "https://teddybaldassarre.com/blogs/watches/top-10-watch-brands-in-india",
+   "says": "Listed among the top 10 watch brands in India",
+   "country": "India",
+   "dept": "watches",
+   "region": ""
+  },
+  {
+   "n": "Allwyn",
+   "layer": "cultural",
+   "src": "https://teddybaldassarre.com/blogs/watches/top-10-watch-brands-in-india",
+   "says": "'a very popular Indian watch brand' of the 1980s-90s, Seiko partner and HMT competitor; collected today",
+   "country": "India",
+   "dept": "watches",
+   "region": ""
+  },
+  {
+   "n": "Lemnos",
+   "layer": "premium",
+   "src": "https://www.lemnos.jp/en/about-lemnos",
+   "says": "TAKATA Lemnos, Takaoka: design clocks 'made carefully in Japan', many Good Design Awards; recognised as global design clock brand (HOLA, Riki Clock)",
+   "country": "Japan",
+   "dept": "clocks",
+   "region": "Takaoka, Toyama"
+  },
+  {
+   "n": "Lumie",
+   "layer": "cultural",
+   "src": "https://www.lumie.com/en-us/pages/about",
+   "says": "Invented the world's first wake-up light (Natural Alarm Clock, 1992); Bodyclock range",
+   "country": "United Kingdom",
+   "dept": "sunrise alarm clock",
+   "region": ""
+  },
+  {
+   "n": "Matthew Norman",
+   "layer": "premium",
+   "src": "https://timeforaclock.com/pages/matthew-norman-clock-review",
+   "says": "Carriage clocks 'hand made in Switzerland by master craftsmen with a long heritage of quality clockwork'",
+   "country": "Switzerland",
+   "dept": "clocks",
+   "region": ""
+  },
+  {
+   "n": "Bayard",
+   "layer": "cultural",
+   "src": "https://www.culture-aliermont.fr/musee/decouvrir/saint-nicolas-daliermont-cite-horlogere",
+   "says": "Saint-Nicolas d'Aliermont clock firm founded 1867 (travel and marine clocks), the town's best-known maker (Bayard alarm clocks)",
+   "country": "France",
+   "dept": "clocks",
+   "region": "Saint-Nicolas-d'Aliermont, Normandy"
+  },
+  {
+   "n": "Vaucanson",
+   "layer": "cultural",
+   "src": "https://www.culture-aliermont.fr/musee/decouvrir/saint-nicolas-daliermont-cite-horlogere",
+   "says": "One of the principal clock firms of Saint-Nicolas d'Aliermont, 'cité horlogère'",
+   "country": "France",
+   "dept": "clocks",
+   "region": "Saint-Nicolas-d'Aliermont, Normandy"
+  },
+  {
+   "n": "Denis Frères",
+   "layer": "cultural",
+   "src": "https://www.culture-aliermont.fr/musee/decouvrir/saint-nicolas-daliermont-cite-horlogere",
+   "says": "One of the principal clock firms of Saint-Nicolas d'Aliermont (movements, timers)",
+   "country": "France",
+   "dept": "clocks",
+   "region": "Saint-Nicolas-d'Aliermont, Normandy"
+  },
+  {
+   "n": "AAS Mora (Krång Anders Andersson)",
+   "layer": "cultural",
+   "src": "https://www.moraclock.com/collections/all",
+   "says": "Early and famous Mora clockmaker; 'AAS Mora' dial mark became a regional brand",
+   "country": "Sweden",
+   "dept": "clocks",
+   "region": "Mora, Dalarna"
+  },
+  {
+   "n": "Rapport London",
+   "layer": "premium",
+   "src": "https://rapportlondon.com/en-us",
+   "says": "'Preservers of time since 1898': fine watch winders, boxes and cases 'designed to be passed down for generations'",
+   "country": "United Kingdom",
+   "dept": "watch winder",
+   "region": "London"
+  },
+  {
+   "n": "SwissKubik",
+   "layer": "premium",
+   "src": "https://www.fhs.swiss/eng/2019_11_28_07_Swisskubik.html",
+   "says": "FH (Swiss watch federation) feature: '100% Swiss made watch winders', Fribourg maison controlling all manufacturing",
+   "country": "Switzerland",
+   "dept": "watch winder",
+   "region": "Fribourg"
+  },
+  {
+   "n": "Bonetto Cinturini",
+   "layer": "premium",
+   "src": "https://www.bonettocinturini.it/en",
+   "says": "Italian rubber watch-strap specialist, '40 years of history'; 'Quality is our beacon'",
+   "country": "Italy",
+   "dept": "watch strap",
+   "region": "Veneto"
+  },
+  {
+   "n": "RIOS1931",
+   "layer": "premium",
+   "src": "https://www.rios1931.de/en",
+   "says": "'Traditional manufacture': hand-folded, hand-stitched (saddler's seam) leather watch straps",
+   "country": "Germany",
+   "dept": "watch strap",
+   "region": ""
+  },
+  {
+   "n": "Staib",
+   "layer": "premium",
+   "src": "https://watches-jewellery-germany.com/en/marken/staib-germany",
+   "says": "Hermann Staib, Pforzheim (1922): 'world-renowned premium manufacturer' of Milanese mesh watch bands",
+   "country": "Germany",
+   "dept": "watch bracelet",
+   "region": "Pforzheim"
+  },
+  {
+   "n": "Ruhla",
+   "layer": "cultural",
+   "src": "https://wornandwound.com/ruhla-the-east-german-watch-brand-that-went-to-space/",
+   "says": "'The East German watch brand that went to space' (Sigmund Jähn); GDR watch town beside Glashütte",
+   "country": "Germany",
+   "dept": "watches/clocks",
+   "region": "Thuringia"
+  },
+  {
+   "n": "ZIM (Maslennikov factory)",
+   "layer": "cultural",
+   "src": "https://vintagewatchinc.com/ussr/",
+   "says": "Major Soviet watch factory (Kuibyshev/Samara), made Pobeda watches 1951-2004",
+   "country": "Russia",
+   "dept": "watches",
+   "region": "Samara"
+  },
+  {
+   "n": "Schatz (Jahresuhrenfabrik)",
+   "layer": "cultural",
+   "src": "https://billsclockworks.com/repair/400Day.htm",
+   "says": "One of 'the two major German makers' of 400-day anniversary clocks",
+   "country": "Germany",
+   "dept": "clocks",
+   "region": "Black Forest"
+  },
+  {
+   "n": "Kundo (Kieninger & Obergfell)",
+   "layer": "cultural",
+   "src": "https://billsclockworks.com/repair/400Day.htm",
+   "says": "One of 'the two major German makers' of 400-day anniversary clocks",
+   "country": "Germany",
+   "dept": "clocks",
+   "region": "Black Forest"
+  },
+  {
+   "n": "Japy Frères",
+   "layer": "cultural",
+   "src": "https://clockguy.com/SiteRelated/SiteReferencePages/JapyFreresHistory.html",
+   "says": "Beaucourt clockmaker; Frédéric Japy 'a pioneer in the industrialization of clocks'; Japy enamel dials the standard for 150 years; 1878 Grand Prize",
+   "country": "France",
+   "dept": "clocks",
+   "region": "Beaucourt, Franche-Comté"
+  },
+  {
+   "n": "Romanson",
+   "layer": "cultural",
+   "src": "https://www.korea.net/NewsFocus/Business/view?articleId=118887",
+   "says": "Seoul watch maker, 'a small hidden champion' vying with Swiss brands; V&A holds its 2005 Nuri reunification watch",
+   "country": "South Korea",
+   "dept": "watches",
+   "region": "Seoul"
+  },
+  {
+   "n": "Nacar",
+   "layer": "cultural",
+   "src": "https://timeandtidewatches.com/yusuf-dikec-turkish-olympic-sport-shooter-nacar-watch-pop-culture/",
+   "says": "Turkish brand founded 1921 by the Nacaroglu brothers; worn by Olympic shooter Yusuf Dikeç (pop-culture moment)",
+   "country": "Turkey",
+   "dept": "watches",
+   "region": "Istanbul"
+  },
+  {
+   "n": "Quantum",
+   "layer": "cultural",
+   "src": "https://www.ablogtowatch.com/the-first-istanbul-watch-festival-and-celebrating-30-years-of-quantum-watches/",
+   "says": "'The first Turkish watch brand to cater to an international market', widest distribution among Turkish brands",
+   "country": "Turkey",
+   "dept": "watches",
+   "region": "Istanbul"
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Saint-Nicolas-d'Aliermont, Normandy, France",
+   "speciality": "'Cité horlogère': carriage/travel clocks, marine chronometers, alarm clocks (Bayard)",
+   "src": "https://www.culture-aliermont.fr/musee/decouvrir/saint-nicolas-daliermont-cite-horlogere",
+   "brands": [
+    "Bayard",
+    "Couaillet",
+    "Denis Frères",
+    "Garçonnet Frères",
+    "Lambert",
+    "Vaucanson",
+    "Lemaignen-Lechevallier et Mercier"
+   ]
+  },
+  {
+   "region": "Mora, Dalarna, Sweden",
+   "speciality": "Gustavian Mora longcase clocks, cottage industry late 18th-19th c.",
+   "src": "https://www.moraclock.com/collections/all",
+   "brands": [
+    "AAS Mora (Krång Anders Andersson)"
+   ]
+  },
+  {
+   "region": "Bornholm, Denmark",
+   "speciality": "Bornholm longcase clocks made 1745-1900",
+   "src": "https://en.wikipedia.org/wiki/Grandfather_clock",
+   "brands": [
+    "Edvart Sonne"
+   ]
+  }
+ ],
  "drop": [],
  "notes": ""
 }
