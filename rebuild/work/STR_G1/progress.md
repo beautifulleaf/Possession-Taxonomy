@@ -11,3 +11,4 @@ step done dept Off-road & leisure vehicles
 step done dept Aircraft
 step done dept Heritage rail & horse-drawn
 step done dept Prams & strollers
+step done dept Vehicle care & detailing
