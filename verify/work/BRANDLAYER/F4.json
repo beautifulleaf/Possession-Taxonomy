@@ -1,0 +1,192 @@
+{
+ "cat": "F4",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [],
+ "regions": [
+  {
+   "region": "Japan (Takaoka, Toyama)",
+   "speciality": "cast Buddhist bells, statues and altar fittings (Takaoka copperware, designated 1975)",
+   "src": "https://en.bunkasouzou-takaoka.jp/factory",
+   "brands": [
+    "Shimatani Syouryu Koubou",
+    "Kajihara Seisakusho",
+    "Yamaguchi Kyujo",
+    "Koizumi Seisakusho",
+    "Heiwa Gokin",
+    "Nousaku"
+   ]
+  },
+  {
+   "region": "Japan (Kyoto)",
+   "speciality": "traditional incense houses",
+   "src": "https://en.wikipedia.org/wiki/Category:Japanese_incense_companies",
+   "brands": [
+    "Baieido",
+    "Kyukyodo",
+    "Nippon Kodo",
+    "Shoyeido"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "tarot card printing",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "brands": [
+    "Lo Scarabeo",
+    "Dal Negro",
+    "Modiano",
+    "Masenghini",
+    "Italcards"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://en.bunkasouzou-takaoka.jp/factory",
+   "title": "Takaoka City factory guide (Culture Creating City Takaoka)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 15,
+   "new_names": 6,
+   "status": "done",
+   "note": "raw Parallel fetch; Takaoka copperware nationally designated traditional craft 1975; Nousaku already known (B5, cross_tag F4)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Japanese_incense_companies",
+   "title": "Category:Japanese incense companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "Baieido, Kyukyodo, Nippon Kodo, Shoyeido all already known"
+  },
+  {
+   "url": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "title": "Aeclectic Tarot: Tarot Decks by Publisher",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 330,
+   "new_names": 3,
+   "status": "done",
+   "note": "specialist tarot directory; lists general book publishers too, only card-making houses kept. Known: Lo Scarabeo, Llewellyn, US Games Systems, Grimaud, AGM Muller; E1-only homonym-cross_tags: Dal Negro, Modiano, Heraclio Fournier, Piatnik, Cartamundi"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Shimatani Syouryu Koubou",
+   "layer": "premium",
+   "src": "https://en.bunkasouzou-takaoka.jp/factory",
+   "says": "makes and tunes keisu, rin and daikin temple bells and gongs; founded 1909",
+   "country": "Japan",
+   "dept": "Buddhist bells and statues"
+  },
+  {
+   "n": "Kajihara Seisakusho",
+   "layer": "premium",
+   "src": "https://en.bunkasouzou-takaoka.jp/factory",
+   "says": "foundry est. 1902: large Buddha statues, temple bells, Buddhist equipment",
+   "country": "Japan",
+   "dept": "Buddhist bells and statues"
+  },
+  {
+   "n": "Yamaguchi Kyujo",
+   "layer": "premium",
+   "src": "https://en.bunkasouzou-takaoka.jp/factory",
+   "says": "Kyujo Orin brand of Buddhist altar rin bells; opened 1907",
+   "country": "Japan",
+   "dept": "Buddhist bells and statues"
+  },
+  {
+   "n": "Koizumi Seisakusho",
+   "layer": "premium",
+   "src": "https://en.bunkasouzou-takaoka.jp/factory",
+   "says": "copper-alloy caster est. 1889 making Orin hand bells, Good Design awards",
+   "country": "Japan",
+   "dept": "Buddhist bells and statues"
+  },
+  {
+   "n": "Heiwa Gokin",
+   "layer": "premium",
+   "src": "https://en.bunkasouzou-takaoka.jp/factory",
+   "says": "est. 1909 Buddha statues and bronze casting, formerly Buddhist altar fittings",
+   "country": "Japan",
+   "dept": "Buddhist bells and statues"
+  },
+  {
+   "n": "Masenghini",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as a tarot deck publisher on Aeclectic Tarot",
+   "country": "",
+   "dept": "Tarot decks"
+  },
+  {
+   "n": "Camoin",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as a tarot deck publisher on Aeclectic Tarot",
+   "country": "",
+   "dept": "Tarot decks"
+  },
+  {
+   "n": "Italcards",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as a tarot deck publisher on Aeclectic Tarot",
+   "country": "",
+   "dept": "Tarot decks"
+  },
+  {
+   "n": "Dal Negro",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as tarot deck publisher (already in register under E1; cross_tag F4)",
+   "country": "",
+   "dept": "Tarot decks",
+   "already": true,
+   "cross_tag": "F4"
+  },
+  {
+   "n": "Modiano",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as tarot deck publisher (already in register under E1; cross_tag F4)",
+   "country": "",
+   "dept": "Tarot decks",
+   "already": true,
+   "cross_tag": "F4"
+  },
+  {
+   "n": "Heraclio Fournier",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as tarot deck publisher (already in register under E1; cross_tag F4)",
+   "country": "",
+   "dept": "Tarot decks",
+   "already": true,
+   "cross_tag": "F4"
+  },
+  {
+   "n": "Piatnik",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as tarot deck publisher (already in register under E1; cross_tag F4)",
+   "country": "",
+   "dept": "Tarot decks",
+   "already": true,
+   "cross_tag": "F4"
+  },
+  {
+   "n": "Cartamundi",
+   "layer": "cultural",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "says": "listed as tarot deck publisher (already in register under E1; cross_tag F4)",
+   "country": "",
+   "dept": "Tarot decks",
+   "already": true,
+   "cross_tag": "F4"
+  }
+ ]
+}
