@@ -181,8 +181,45 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "JA Yubari",
+   "layer": "cultural",
+   "src": "https://pd.jgic.jp/en/register/entry/4.html",
+   "says": "Applicant for Japan GI No.4 Yubari Melon (Yubari King), MAFF GI register; cultivation standards since 1960",
+   "country": "Japan",
+   "dept": "Grapes, kiwifruit & melons",
+   "region": "Yubari, Hokkaido (Japan)"
+  },
+  {
+   "n": "Amaou",
+   "layer": "cultural",
+   "src": "https://www.freshplaza.com/asia/article/9772692/japan-protects-amaou-strawberry-brand-after-rights-expire",
+   "says": "Fukuoka strawberry brand, trademark held by Zen-Noh Fukuren; 'among Japan's highest-priced fruits', reputation for high quality",
+   "country": "Japan",
+   "dept": "Soft fruit",
+   "region": "Fukuoka (Japan)"
+  },
+  {
+   "n": "Taiyo no Tamago",
+   "layer": "cultural",
+   "src": "https://www.m-tokusan.or.jp/en/main-products/mango",
+   "says": "Top-grade brand for Miyazaki Irwin mango (Brix 15+, 350 g+, net-harvested), JA Miyazaki Keizairen standard; prefectural promotion centre page",
+   "country": "Japan",
+   "dept": "World-traded tropical fruit",
+   "region": "Miyazaki (Japan)"
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Yubari, Hokkaido (Japan)",
+   "speciality": "Yubari King melon, Japan GI No.4 (designation)",
+   "src": "https://pd.jgic.jp/en/register/entry/4.html",
+   "brands": [
+    "JA Yubari"
+   ]
+  }
+ ],
  "drop": [
   {
    "n": "Honeycrisp",
