@@ -47,6 +47,24 @@
    "queries": [],
    "found": 0,
    "note": "NOT RUN: global concentrated market; context exhausted by large Parallel outputs. Next: one search per region"
+  },
+  {
+   "axis": "kind",
+   "item": "Controllers > Pads & sticks (arcade sticks)",
+   "queries": [
+    "best fight sticks arcade stick review"
+   ],
+   "found": 1,
+   "note": "TechRadar"
+  },
+  {
+   "axis": "kind",
+   "item": "Controllers > Flying (flight sim)",
+   "queries": [
+    "best flight sim joysticks HOTAS review"
+   ],
+   "found": 1,
+   "note": "Windows Central; VKB/Winwing known"
   }
  ],
  "regions": [
@@ -134,6 +152,46 @@
    "new_names": 0,
    "status": "blocked",
    "note": "404"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles",
+   "title": "List of retro style video game consoles",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 22,
+   "new_names": 5,
+   "status": "done",
+   "note": "manufacturer column; 15 already known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_microconsoles",
+   "title": "List of microconsoles",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 4,
+   "status": "done",
+   "note": "manufacturer column"
+  },
+  {
+   "url": "https://www.techradar.com/best/the-best-fight-sticks-in-2023",
+   "title": "The best fight sticks in 2026 | TechRadar",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "partial",
+   "note": "extract gave 2 picks only; Razer known"
+  },
+  {
+   "url": "https://www.windowscentral.com/best-joysticks-and-flight-sticks-microsoft-flight-simulator",
+   "title": "Best flight sticks for MSFS | Windows Central",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 1,
+   "status": "done",
+   "note": "Honeycomb, Thrustmaster already known"
   }
  ],
  "brands": [
@@ -238,6 +296,94 @@
    "dept": "game media editions",
    "role": "seller",
    "already": false
+  },
+  {
+   "n": "Toymax International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles",
+   "says": "maker of Activision TV Games gamepad plug-and-play (2001)",
+   "country": "USA",
+   "dept": "Plug-and-play & mini console"
+  },
+  {
+   "n": "Techno Source",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles",
+   "says": "maker of Intellivision TV Play Power plug-and-play (2003)",
+   "country": "",
+   "dept": "Plug-and-play & mini console"
+  },
+  {
+   "n": "MSI Entertainment",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles",
+   "says": "maker of Midway Arcade Classics plug-and-play",
+   "country": "",
+   "dept": "Plug-and-play & mini console"
+  },
+  {
+   "n": "Team-Neo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles",
+   "says": "maker of Zemmix Super Mini retro console",
+   "country": "",
+   "dept": "Home console"
+  },
+  {
+   "n": "Flynn's Generation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles",
+   "says": "maker of Vectrex Mini (2026)",
+   "country": "",
+   "dept": "Home console"
+  },
+  {
+   "n": "iQue",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_microconsoles",
+   "says": "maker of iQue Player microconsole (2003)",
+   "country": "China",
+   "dept": "Microconsole"
+  },
+  {
+   "n": "OnLive",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_microconsoles",
+   "says": "maker of OnLive microconsole (2010)",
+   "country": "USA",
+   "dept": "Microconsole"
+  },
+  {
+   "n": "Ouya",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_microconsoles",
+   "says": "Ouya Inc. (formerly Boxer8), Ouya microconsole 2013",
+   "country": "USA",
+   "dept": "Microconsole"
+  },
+  {
+   "n": "PlayJam",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_microconsoles",
+   "says": "maker of GameStick microconsole (2013)",
+   "country": "UK",
+   "dept": "Microconsole"
+  },
+  {
+   "n": "Victrix",
+   "layer": "premium",
+   "src": "https://www.techradar.com/best/the-best-fight-sticks-in-2023",
+   "says": "Victrix Pro FS named best premium fight stick (TechRadar best fight sticks 2026)",
+   "country": "",
+   "dept": "Arcade stick"
+  },
+  {
+   "n": "Turtle Beach",
+   "layer": "premium",
+   "src": "https://www.windowscentral.com/best-joysticks-and-flight-sticks-microsoft-flight-simulator",
+   "says": "VelocityOne Flightdeck named best overall flight stick/HOTAS (Windows Central 2026)",
+   "country": "USA",
+   "dept": "Flight controllers"
   }
  ]
 }
