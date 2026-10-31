@@ -1,0 +1,3 @@
+SELECT (CONCAT(?l,"|",COALESCE(STR(YEAR(?y)),""),"|",COALESCE(?m,""),"|",STRAFTER(STR(?a),"/wiki/")) AS ?r) WHERE {
+{SELECT ?i (SAMPLE(?y0) AS ?y) (SAMPLE(?ml) AS ?m) WHERE { ?i wdt:P31/wdt:P279* wd:Q23866334. OPTIONAL{?i wdt:P571|wdt:P577 ?y0.} OPTIONAL{?i wdt:P176 ?mm. ?mm rdfs:label ?ml. FILTER(LANG(?ml)="en")} } GROUP BY ?i}
+?a schema:about ?i; schema:isPartOf <https://en.wikipedia.org/>. ?i rdfs:label ?l. FILTER(LANG(?l)="en") } ORDER BY ?m ?l LIMIT 200 OFFSET %d

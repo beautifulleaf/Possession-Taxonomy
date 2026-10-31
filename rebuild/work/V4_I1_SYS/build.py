@@ -12,7 +12,7 @@ assert len(depts)==6
 def norm(s):
     s=s.lower().replace('\\_','_')
     s=re.sub(r'\(.*?\)','',s); s=re.sub(r'[^a-z0-9]','',s)
-    for suf in ('linux','os'):
+    for suf in ('linux',):
         if s.endswith(suf) and len(s)>len(suf)+2: s=s[:-len(suf)]
     return s
 ALIASN={'lfs':'linuxfromscratch','netscapenavigatorv14':'netscapenavigator'}
@@ -64,6 +64,7 @@ def take_m(k,sn,d_noun=None,g=None):
     for key in ('m','r'):
         for t in k.get(key,[]) or []:
             name,mk=t
+            if name=='Dolphin' and k['n']=='File manager': name='Dolphin (file manager)'
             if name in SPECIAL_REMOVE:
                 dropped.append((k['n'],name,'family or group label, not a product'));continue
             if nk(name) in sn:

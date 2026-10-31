@@ -368,7 +368,7 @@ for k in ['Garden statue', 'Garden gnome', 'Lawn ornament', 'Gazing ball', 'Bird
         x.setdefault('g', x.get('mk') or 'Not stated')
     kk['sel'] = ("Commodity plus icon rule: one origin entry where a fetched page names it, plus named historic types from Wikipedia pages cited on each entry. "
                  "Covers %d entries; no complete list exists." % len(kk['x']))
-KINDS['Garden gnome']['sel'] = "Commodity plus icon rule: the origin entry follows Wikipedia's Garden gnome article (Griebel, Isham 1847, Gräfenroda). Complete: 4 of 4 gnomes the article names, plus the earlier Brienz dwarf from the existing list."
+KINDS['Garden gnome']['sel'] = "Commodity plus icon rule: the origin entry follows Wikipedia's Garden gnome article (Griebel, Isham 1847, Gräfenroda). Covers 4 entries; the article also credits Baehr and Maresch of Dresden (1841) with the first gnomes, a contested claim not listed here."
 # ---------- Flags ----------
 D[NAMES[7]]['note'] = "National flags are content, not objects: the kinds stay as kinds and carry no named flags."
 D[NAMES[4]]['note'] = (D[NAMES[4]].get('note') or "Fireworks, stage effects and party decorations.") + " The piñata is a toy in E1."
