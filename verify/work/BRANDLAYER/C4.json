@@ -13,7 +13,48 @@
    "note": ""
   }
  ],
- "regions": [],
+ "regions": [
+  {
+   "region": "France",
+   "speciality": "Art brushes, pigments, lace (Calais-Caudry), passementerie, ribbons and yarn: state EPV label",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "brands": [
+    "Établissements Bullier (Léonard pinceaux)",
+    "Chassis France",
+    "Société des Ocres de France",
+    "Le Moulin à Couleurs",
+    "Bergère de France",
+    "Dentelles André Laude",
+    "Beauvillain Davoine",
+    "Sophie Hallette",
+    "Société Choletaise de Fabrication",
+    "Blanchard Franges",
+    "Carlhian",
+    "AJBiais",
+    "Sin-Rejac",
+    "Satab",
+    "Neyret",
+    "Declercq Passementiers",
+    "Passementerie Michel Sahuc",
+    "Effet Passementeries",
+    "Julien Faure",
+    "Fontanille",
+    "Ardelaine",
+    "Toulemonde Père et Fils",
+    "Janvier Gruson Prat",
+    "Artamin",
+    "Clayrton's",
+    "Usine Gallia",
+    "Corderie Palus",
+    "Girault",
+    "Sennelier",
+    "Canson",
+    "Clairefontaine",
+    "Conté à Paris",
+    "Lefranc & Bourgeois"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Art_materials_brands",
@@ -84,6 +125,26 @@
    "new_names": 10,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "title": "Entreprises du patrimoine vivant (EPV) dataset, data.gouv.fr (CSV 1266 firms)",
+   "kind": "heritage",
+   "years": "2005-2026",
+   "names_on_page": 1266,
+   "new_names": 27,
+   "status": "done",
+   "note": "filtered by NAF/description to C4 materials"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_royal_warrant_holders_of_the_British_royal_family",
+   "title": "List of royal warrant holders of the British royal family (+Swedish court)",
+   "kind": "heritage",
+   "years": "to 2021",
+   "names_on_page": 210,
+   "new_names": 3,
+   "status": "done",
+   "note": "craft-relevant holders extracted; Swedish court list had none"
   }
  ],
  "brands": [
@@ -443,9 +504,10 @@
    "n": "Handover",
    "layer": "premium",
    "src": "https://www.jacksonsart.com/brands",
-   "says": "Listed in Jackson's Art (specialist fine-art retailer, 300+ brands) brand directory",
+   "says": "Listed in Jackson's Art (specialist fine-art retailer, 300+ brands) brand directory ; also Royal Warrant holder 2019 (Brushes, Paints and Gilding Materials) per Wikipedia list",
    "country": "United Kingdom",
-   "dept": "paper"
+   "dept": "paper",
+   "src2": "https://en.wikipedia.org/wiki/List_of_royal_warrant_holders_of_the_British_royal_family"
   },
   {
    "n": "Jakar",
@@ -1582,6 +1644,222 @@
    "says": "Listed in Sewing Machines Plus brand directory (sewing cabinets)",
    "country": "United States",
    "dept": "sewing furniture"
+  },
+  {
+   "n": "Établissements Bullier (Léonard pinceaux)",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2022-11-28) ; hand-made art brushes since 1779",
+   "country": "France",
+   "dept": "art brushes"
+  },
+  {
+   "n": "Chassis France",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2023-12-21) ; artists' stretcher frames",
+   "country": "France",
+   "dept": "stretcher frames"
+  },
+  {
+   "n": "Société des Ocres de France",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2023-05-09) ; last ochre makers in Europe",
+   "country": "France",
+   "dept": "pigments"
+  },
+  {
+   "n": "Le Moulin à Couleurs",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2022-04-14) ; earth and ochre pigments since 1866",
+   "country": "France",
+   "dept": "pigments"
+  },
+  {
+   "n": "Bergère de France",
+   "layer": "cultural",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2025-11-03) ; last combed-wool spinning mill in France; knitting yarns",
+   "country": "France",
+   "dept": "yarn"
+  },
+  {
+   "n": "Dentelles André Laude",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2022-04-06) ; Leavers lace",
+   "country": "France",
+   "dept": "lace"
+  },
+  {
+   "n": "Beauvillain Davoine",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2021-09-27) ; Leavers lace since 1902",
+   "country": "France",
+   "dept": "lace"
+  },
+  {
+   "n": "Sophie Hallette",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2023-07-17) ; luxury lace and tulle, Caudry 1887",
+   "country": "France",
+   "dept": "lace"
+  },
+  {
+   "n": "Blanchard Franges",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2022-03-24) ; traditional fringes",
+   "country": "France",
+   "dept": "fringe"
+  },
+  {
+   "n": "Carlhian",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2025-04-21) ; Lyon gold/silver thread, braids, fringes",
+   "country": "France",
+   "dept": "passementerie"
+  },
+  {
+   "n": "AJBiais",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2022-07-06) ; bias binding and braids",
+   "country": "France",
+   "dept": "bias binding"
+  },
+  {
+   "n": "Sin-Rejac",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2025-10-28) ; high-end ribbons",
+   "country": "France",
+   "dept": "ribbon"
+  },
+  {
+   "n": "Satab",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2022-07-06) ; ribbons, webbing, braids since 1905",
+   "country": "France",
+   "dept": "ribbon/tape"
+  },
+  {
+   "n": "Neyret",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2023-03-27) ; ribbons and textile accessories since 1823",
+   "country": "France",
+   "dept": "ribbon/labels"
+  },
+  {
+   "n": "Declercq Passementiers",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV): passementerie since 1852 ; passementerie since 1852",
+   "country": "France",
+   "dept": "passementerie"
+  },
+  {
+   "n": "Passementerie Michel Sahuc",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV): passementerie ; passementerie",
+   "country": "France",
+   "dept": "passementerie"
+  },
+  {
+   "n": "Effet Passementeries",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2023-12-08) ; trimmings for haute couture",
+   "country": "France",
+   "dept": "passementerie"
+  },
+  {
+   "n": "Julien Faure",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2022-03-22) ; narrow woven textiles",
+   "country": "France",
+   "dept": "narrow woven textiles"
+  },
+  {
+   "n": "Fontanille",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV): elastic ribbons SCOP ; elastic ribbons SCOP",
+   "country": "France",
+   "dept": "elastic ribbons"
+  },
+  {
+   "n": "Toulemonde Père et Fils",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2024-04-30) ; cotton and linen threads and yarns for the public since 1903",
+   "country": "France",
+   "dept": "thread/yarn"
+  },
+  {
+   "n": "Janvier Gruson Prat",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2024-03-18) ; stamped brass findings and metal buttons",
+   "country": "France",
+   "dept": "findings/buttons"
+  },
+  {
+   "n": "Artamin",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2026-01-05) ; artificial petals, pistils, leaves for adornment",
+   "country": "France",
+   "dept": "floral parts"
+  },
+  {
+   "n": "Clayrton's",
+   "layer": "cultural",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2025-12-30) ; floral packaging and creative supplies (Créastyl)",
+   "country": "France",
+   "dept": "floristry supplies"
+  },
+  {
+   "n": "Usine Gallia",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV): woven braids and ribbons ; woven braids and ribbons",
+   "country": "France",
+   "dept": "galons/ribbons"
+  },
+  {
+   "n": "Corderie Palus",
+   "layer": "premium",
+   "src": "https://www.data.gouv.fr/fr/datasets/66fde00a0d497789e7436d9f",
+   "says": "French state label Entreprise du Patrimoine Vivant (EPV), dataset data.gouv.fr (fetched CSV, labelled 2023-01-03) ; cords and upholstery supplies",
+   "country": "France",
+   "dept": "cords"
+  },
+  {
+   "n": "J. Hewit & Sons",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_royal_warrant_holders_of_the_British_royal_family",
+   "says": "Royal Warrant holder (Wikipedia list): manufacturers of leather, bookbinding material retailer, since 1849",
+   "country": "United Kingdom",
+   "dept": "leather/bookbinding"
+  },
+  {
+   "n": "Joel & Son Fabrics",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_royal_warrant_holders_of_the_British_royal_family",
+   "says": "Royal Warrant holder (Wikipedia list): suppliers of fabrics and textiles",
+   "country": "United Kingdom",
+   "dept": "fabric"
   }
  ]
 }
