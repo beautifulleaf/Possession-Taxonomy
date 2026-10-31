@@ -23,7 +23,7 @@ def norm_c(c):
 
 def cty(mk):
     e = REG.get(mk)
-    return norm_c(e['c']) if e else ''
+    return norm_c(e.get('c','')) if e else ''
 
 
 old_entries = {}
@@ -42,7 +42,7 @@ def V(mk, items):
 def N(n, mk, y, d, s=None, g=None, role=None, v=None, a=None, dt=None):
     """new entry"""
     if s is None:
-        s = REG[mk]['s']
+        s = REG[mk].get('s') or ''
     e = {'n': n, 'a': a or '', 'd': d, 'mk': mk, 'y': y, 's': s}
     e['_g'] = g
     if role:
@@ -344,7 +344,7 @@ kind('Fashion & designer jeans',
      'the brand register, confirmed on each brand\'s page',
      [K('Fashion & designer jeans', 'A.P.C. Petit Standard', v=V('A.P.C.', [('New Standard', '', 'A.P.C. fit'), ('Petit New Standard', '', 'A.P.C. fit')])),
       K('Fashion & designer jeans', 'Nudie Jeans named fits'), K('Fashion & designer jeans', 'JNCO wide-leg', v=V('JNCO', [('Cannon series', '', 'JNCO series')])),
-      N('Diesel named fits', 'Diesel', '', 'Diesel names its fits Larkee, Sleenker and D-Strukt.', v=V('Diesel', [('Larkee', '', 'Diesel fit; the 1985 Larkee is a earlier cut'), ('Sleenker', '', 'Diesel fit'), ('D-Strukt', '', 'Diesel fit')])),
+      N('Diesel named fits', 'Diesel', '', 'Diesel names its fits Larkee, Sleenker and D-Strukt.', v=V('Diesel', [('Larkee', '', 'Diesel fit; the 1985 Larkee is an earlier cut'), ('Sleenker', '', 'Diesel fit'), ('D-Strukt', '', 'Diesel fit')])),
       N('True Religion Ricky', 'True Religion', '', 'Ricky and Billy are the named cuts in the True Religion entry of the brand register.', v=V('True Religion', [('Billy', '', 'True Religion cut')]))])
 
 kind('Trousers',
@@ -444,7 +444,7 @@ kind('Sheath & bodycon dress',
      'the Little black dress article (Wikipedia, fetched), which names Chanel, Givenchy and Dior; the others come from the brand register',
      [K('Sheath & bodycon dress', 'Little black dress', role='origin', mk='Chanel'),
       N('Givenchy little black dress', 'Givenchy', '1961', 'Hubert de Givenchy\'s black dress for Audrey Hepburn in Breakfast at Tiffany\'s set the standard for little black dresses.', s=W + 'Little_black_dress', role='landmark'),
-      K('Sheath & bodycon dress', 'Bandage dress', v=V('Hervé Léger', [])),
+      K('Sheath & bodycon dress', 'Bandage dress'),
       N('Alaïa bandage dress', 'Azzedine Alaïa', '', 'Bandage dress named in the Azzedine Alaïa entry of the brand register.'),
       K('Sheath & bodycon dress', 'Latex dress'),
       N('Collectif 1950s wiggle dress', 'Collectif', '', '1950s-style wiggle dress.', v=V('Collectif', [('Dolores doll dress', '', 'Collectif wiggle style')])),

@@ -4,3 +4,5 @@ step2 done: fetched Wrap_dress LBD Slip_dress Pencil_skirt Poodle_skirt Miniskir
 step3 done: fetched Aran Guernsey FairIsle Lopapeysa Cowichan Sweatshirt Leggings Bodysuit Cargo_pants (26 fetches)
 step4 done: fetched Capri Bermuda Tutu Culottes Wedding_dress Western_wear Dress_shirt Shorts Tank_top Football_kit (35 fetches). Next: write build script build_part.py
 step5: fetched tails of Miniskirt Jeans Shorts Football_kit Western_wear at offset 100000 (40 fetches). Decisions made per kind in head; next write build_part.py
+step6: wrote rebuild/out/A1_parts/TOPS.json from build_part.py+assemble.py+brands_new.py; next validate, fix, report
+step7: coordinator correction: restore removed m via data/named_forms.tsv; country rule; tier; empty kinds

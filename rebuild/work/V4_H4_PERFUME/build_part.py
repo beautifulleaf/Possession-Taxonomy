@@ -65,8 +65,10 @@ FAMTXT={ # why placed (fetched statement)
  'S by Shakira':'amber','Youth-Dew':'powdery amber','Angel':'gourmand','Narciso Rodriguez for Her':'musk, amber, orange blossom','Bois des Îles':'woody','Fierce':'woody aromatic','Santal 33':'sandalwood',
  'Mitsouko':'fruity chypre, mossy woods on the Edwards wheel','Femme':'chypre','Aventus':'fruity chypre','Bandit':'leather','Aramis':'leather chypre','Antaeus':'leather, chypre','Azurée':'leather or animalic chypre',
  '4711 Eau de Cologne':'citrus','Eau de Cologne Impériale':'citrus','Florida Water':'citric, sweet orange with clove and floral qualities','Lacoste Essential':'citrus, woody','CK One':'citrus, aromatic',
- 'Vent Vert':'green','Chanel No. 19':'balsamic-green','Eternity':'green','Aliage':'green','Cool Water':'aquatic, ozonic','Dune':'aquatic, ozonic',"L'Eau d'Issey":'aquatic floral','Brut':'fougère','Drakkar Noir':'fougère'}
+ 'Calèche':'floral chypre','Krasnaya Moskva':'floral chypre','Knowing':'floral chypre','Diorama':'fruity chypre','Ma Griffe':'green chypre','Aromatics Elixir':'woody chypre','Paco Rabanne Pour Homme':'fougère','Boss':'fougère','Canoe':'fougère (Canoe for Men)','Michael for Men by Michael Kors':'fougère','Kouros':'fougère','Vent Vert':'green','Chanel No. 19':'balsamic-green','Eternity':'green','Aliage':'green','Cool Water':'aquatic, ozonic','Dune':'aquatic, ozonic',"L'Eau d'Issey":'aquatic floral','Brut':'fougère','Drakkar Noir':'fougère'}
 FAMSRC={'Quelques Fleurs':'https://en.wikipedia.org/wiki/Perfume','Joy':'https://en.wikipedia.org/wiki/Perfume'}
+fam('Chypre fragrance','Calèche','Krasnaya Moskva','Knowing','Diorama','Ma Griffe','Aromatics Elixir')
+fam('Fougère fragrance','Paco Rabanne Pour Homme','Boss','Canoe','Michael for Men by Michael Kors','Kouros')
 # house table: name -> (own, tier, cty, own_y, src)
 G='Global group'; I='Independent'; C='Craft & indie'
 H={}
@@ -103,6 +105,42 @@ for h in ['Jimmy Choo','Montblanc','Coach','GUESS','Donna Karan','DKNY','Lacoste
 house(['Diptyque'],'Manzanita Capital',I,'France','2005',W_+'Diptyque')
 house(['Amouage'],'Oman Perfumery LLC',I,'Oman','',W_+'Amouage')
 house(['Serge Lutens'],'owner not stated',C,'France','',W_+'Serge_Lutens')
+
+# ---- follow-up: owners from Wikipedia API intros (houses.json batches) ----
+WA='https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=1&explaintext=1&format=json&redirects=1&titles='
+for h in ['Coty','Coty Prestige','Coty US','Coty US LLC','Coty Beauty US','Coty, Inc.','Coty Inc.','Calvin Klein Cosmetics','Max Factor','Davidoff','Zino Davidoff','Zino Davidoff Group']:
+    house([h],'Coty',G,'','',W_+'Coty,_Inc.')
+for h in ['Tom Ford Beauty','The Estée Lauder Companies','Estée Lauder Companies','Estée Lauder Companies/Givaudan','Estée Lauder Cos./Ermenegildo Zegna','Estée Lauder USA','Prescriptives','Aramis (Estée Lauder)']:
+    house([h],'The Estée Lauder Companies',G,'United States' if h=='Prescriptives' else '','',W_+'Est%C3%A9e_Lauder_Companies')
+for h in ['Puig USA','Puig Prestige Beauty','Puig Beauty & Fashion Group']: house([h],'Puig',G,'','',W_+'Puig_(company)')
+for h in ['Inter Parfums USA','Cosmopolitan Cosmetics / Inter Parfums','Interparfums']: house([h],'Interparfums',I,'','',IP)
+for h in ["L'Oréal","L'Oréal/dsm-firmenich","Giorgio Armani Parfums","Giorgio Armani Beauty","Ralph Lauren Fragrances","Cacharel","Lancôme"]:
+    house([h],"L'Oréal",G,'France' if h in('Cacharel','Lancôme') else '','',W_+'L%27Or%C3%A9al')
+for h in ['Christian Dior Perfumes','Parfums Dior']: house([h],'LVMH',G,'France','',W_+'LVMH')
+house(['Bulgari'],'LVMH',G,'Italy','2011',W_+'Bulgari')
+house(['Parfums Fendi','Fendi'],'LVMH',G,'Italy','2001',W_+'Fendi')
+house(['Gucci Parfums'],"L'Oréal",G,'','2026',W_+'L%27Or%C3%A9al')
+house(['Elizabeth Arden'],'Revlon, Inc.',I,'United States','2016',W_+'Elizabeth_Arden,_Inc.')
+house(['Revlon'],'Revlon',I,'United States','',W_+'Revlon')
+house(["Victoria's Secret","Victoria's Secret Beauty"],"Victoria's Secret & Co.",I,'United States','2021',W_+"Victoria%27s_Secret")
+house(['Versace'],'Prada Group',I,'Italy','2025',W_+'Versace')
+house(['Hermès'],'H51 (descendants of the founder)',I,'France','',W_+'Herm%C3%A8s')
+house(['Prince Matchabelli'],'Parfums de Coeur',I,'','1993',W_+'Prince_Matchabelli')
+house(['Caron'],'Cattleya',I,'France','',W_+'Parfums_Caron')
+house(['Roger & Gallet'],'Impala SAS',I,'France','2020',W_+'Roger_%26_Gallet')
+house(['Mäurer & Wirtz'],'Dalli Group',I,'Germany','1990',W_+'M%C3%A4urer_%26_Wirtz')
+house(['Chopard'],'Scheufele family',I,'Switzerland','1963',W_+'Chopard')
+house(['Lalique'],'Lalique Group SA',I,'France','2010',W_+'Lalique')
+house(['Cartier','Parfums Cartier Paris'],'Richemont Group',I,'France','',W_+'Cartier_(brand)')
+house(['Banana Republic'],'The Gap',I,'United States','1983',W_+'Banana_Republic')
+house(['Geoffrey Beene'],'Authentic Brands Group',I,'United States','2021',W_+'Geoffrey_Beene')
+house(['Trussardi'],'Miroglio Group',I,'Italy','2024',W_+'Trussardi')
+house(['Escada','Escada Beauté'],'Regent, L.P.',I,'Germany','',W_+'Escada')
+house(['Schiaparelli'],'Tod\'s Group',I,'','',W_+'Schiaparelli_(fashion_house)')
+CTY={'Carven':'France','Houbigant':'France','Houbigant Paris':'France','Robert Piguet':'Switzerland','Jean Patou':'France','Parfums de Marly':'France','Xerjoff':'Italy','Nishane':'Turkey','Lattafa':'United Arab Emirates','Bath & Body Works':'United States','Bond No. 9':'United States','Bond No. 9 New York':'United States','Caswell-Massey':'United States','Glossier':'United States','Halston':'United States','Halston Fragrances':'United States','Shiseido':'Japan','Gloria Vanderbilt':'United States','Charles of the Ritz':'United States','Molinard':'France','Issey Miyake':'Japan','Lolita Lempicka':'France','Elie Saab':'Lebanon','Christian Lacroix':'France','Farina':'Germany','Novaya Zarya':'Russia','Demeter Fragrance Library':'United States','The Demeter Fragrance Library':'United States','Sean John Fragrances':'United States','Dolce & Gabbana':'Italy','Yohji Yamamoto':'Japan','Gaultier':'France','Avon Products':'United States','Rochas':'France','Worth':'France'}
+CTYH={norm(k):v for k,v in CTY.items()}
+SRC_CTY='https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=1&explaintext=1&format=json&redirects=1&titles=Wikipedia+house+articles'
+
 HP=sorted(H.items(),key=lambda kv:-len(kv[0]))
 def house_of(mk,name=''):
     if not mk: return None
@@ -284,8 +322,7 @@ def mkentry(k,kindname):
         if not bits: bits.append("Named perfume from the cited list.")
         base['d']=' '.join(bits)
     else:
-        aw=[a for a in dict.fromkeys(e['awards']) if not (e.get('hof') and a.startswith('Fragrance Hall of Fame'))]
-        if aw: base['d']=base['d'].rstrip('.')+'. FiFi: '+'; '.join(aw[:3])+'.'
+        pass
     # versions
     vs=base.get('v') or []
     names={v['n'].lower() for v in vs}
@@ -299,6 +336,8 @@ def mkentry(k,kindname):
     if vs: base['v']=vs
     # market
     h=house_of(base.get('mk',''))
+    if not h and norm(base.get('mk','')) in CTYH:
+        base['own']='owner not stated'; base['cty']=CTYH[norm(base['mk'])]
     if h:
         base['own'],base['tier']=h[0],h[1]
         if h[2]: base['cty']=h[2]
@@ -306,7 +345,9 @@ def mkentry(k,kindname):
     if e.get('hof') or k in PUIGLM:
         base['role']='landmark'
         hy=[a.split()[-1] for a in e['awards'] if a.startswith('Fragrance Hall of Fame')]
-        base['d']=base['d'].rstrip()+((' Inducted into the FiFi Fragrance Hall of Fame in '+' and '.join(hy)+'.') if e.get('hof') else ' '+PUIGLM[k])
+        if 'Inducted into' not in base['d'] and 'ranked' not in base['d'] and 'top women' not in base['d']: base['d']=base['d'].rstrip()+((' Inducted into the FiFi Fragrance Hall of Fame in '+' and '.join(hy)+'.') if e.get('hof') else ' '+PUIGLM[k])
+    if not base.get('own'): base['own']='owner not stated'
+    base.pop('g',None)
     if kindname==UNST: base['g']=era(base.get('y'))
     return base
 KIND_ENT={}
@@ -338,7 +379,7 @@ for sh in dept['s']:
         nk['nl']="One entry is a perfume sold under its own name; flankers and concentrations (EDT, EDP, parfum, intense) are versions of it."
         if kd['n']==UNST:
             nk['d']="Perfume sold under its own name for which the cited pages state no olfactive family; strength (parfum, eau de parfum, eau de toilette) still tells versions apart."
-            nk['sel']=COMMON+f" Covers {len(xs)} of the {N_ALL} named perfumes in this department. "+COV
+            nk['sel']=COMMON+f" Covers {len(xs)} of the {N_ALL} named perfumes in this department. A second pass tried Wikipedia intros for 165 of them (most have no article) and a Fragrantica designer page (it gives no family); the Chypre and Fougère articles then placed 10 more. "+COV
             nk['xg']="by launch period, then year, then name"
         else:
             nk['sel']=f"The {len(xs)} perfumes here are the ones a fetched page places in this family (Wikipedia's Perfume page, the Fragrance wheel page or the perfume's own Wikipedia article), or that the earlier structure pass placed here; all other perfumes are in Alcohol-based perfume. "+COV
@@ -380,7 +421,15 @@ owners=[("LVMH",'', "Owner group of Parfums Christian Dior, Guerlain, Givenchy, 
  ("Interparfums",'',"Licence-based fragrance group whose largest brands are Jimmy Choo, Montblanc and Coach; it owns Rochas and Lanvin's class 3 rights.",IP),
  ("Chanel Limited",'United Kingdom',"London holding company, set up in 2018, through which the Wertheimer brothers own Chanel.",W_+'Chanel'),
  ("Manzanita Capital",'United Kingdom',"London private equity firm that bought Diptyque in 2005.",W_+'Diptyque'),
- ("Oman Perfumery LLC",'Oman',"Omani company of the SABCO Group that owns Amouage.",W_+'Amouage')]
+ ("Oman Perfumery LLC",'Oman',"Omani company of the SABCO Group that owns Amouage.",W_+'Amouage'),
+ ("Revlon, Inc.",'United States',"US beauty company whose wholly owned subsidiary is Elizabeth Arden, Inc. (as of 2016).",W_+'Elizabeth_Arden,_Inc.'),
+ ("Prada Group",'Italy',"Italian luxury group that bought Versace in 2025.",W_+'Versace'),
+ ("Richemont Group",'',"Swiss luxury group that owns Cartier.",W_+'Cartier_(brand)'),
+ ("Cattleya",'Luxembourg',"Luxembourg-based owner of Caron as of 2019.",W_+'Parfums_Caron'),
+ ("Impala SAS",'France',"French company that took over Roger & Gallet in 2020.",W_+'Roger_%26_Gallet'),
+ ("Dalli Group",'Germany',"German group that owns Mäurer & Wirtz (since 1990).",W_+'M%C3%A4urer_%26_Wirtz'),
+ ("Parfums de Coeur",'',"Owner of Prince Matchabelli since 1993.",W_+'Prince_Matchabelli'),
+ ("Lalique Group SA",'France',"Lalique group, formerly Art & Fragrance SA, owner of the Lalique fragrance business since 2010.",W_+'Lalique')]
 part['brands']=[{'n':n,'c':c,'seg':'Owner group','d':d,'s':s} for n,c,d,s in owners if norm(n) not in bn]
 part['renames']={}
 part['moves']=[]

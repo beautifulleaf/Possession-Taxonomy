@@ -12,3 +12,4 @@ step10: part validated OK (611 entries). Next: report
 step11: report written; DONE
 step12: coordinator follow-up started: owners (houses), families via firecrawl, chypre/fougere retry
 step13: owners via 5 wikipedia api batches fetched; firecrawl fragrantica designer page has no family; next: extracts for lop-unstated entries to get family; fetch chypre/fougere done (pages Chypre, Fougère)
+step14: owners applied (485 with real owner or cty; rest 'owner not stated'), chypre/fougere placements, part rebuilt+validated; family via other sites not obtainable; report to update

@@ -9,3 +9,5 @@ step8 done: fetched Utility_terrain_vehicle, All-terrain_vehicle, List_of_trucks
 step9 done: wrote raw_pickups.txt (rows C=current, D=discontinued; concepts omitted)
 step10 done: wrote raw_vans.txt (minivans excluded)
 step11 done: fetched Recreational_vehicle, Snowmobile, Pickup_truck, Golf_cart (market facts). ~31 fetches. Next: write build.py
+step12 done: build.py runs -> out/G1_parts/COMMERCIAL.json; next validate + review + report
+step13 done: validated OK; remaining: report + final reply

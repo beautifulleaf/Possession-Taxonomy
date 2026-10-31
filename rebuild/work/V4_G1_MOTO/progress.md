@@ -10,3 +10,6 @@ wp_honda.txt written (curated extras from Wikipedia List_of_Honda_motorcycles en
 wp_yamaha.txt done (concepts/prototypes excluded as out of scope: not sold). fetches ~17
 wp_suzuki.txt done (concepts excluded). fetches ~18
 wp_kawasaki.txt, wp_hd.txt done (hd has years in parens). fetches ~22
+wp_re.txt wp_triumph.txt done; BMW list URL returned cars (skip). fetches ~25
+wp_guzzi/norton/bsa done. fetches ~28. BMW list needs a different URL. next: Benelli,Bimota,Laverda,AMC,Ariel,Douglas,Greeves,James,Peugeot,Velocette,Vincent, then Hero/Bajaj/TVS/Ducati/KTM/Piaggio/Vespa/Lambretta/Aprilia/Indian brand pages
+vincent/velocette/laverda/benelli/bimota done. fetches ~33
