@@ -21,3 +21,4 @@ Rules for the enrichment pass:
 - MOVES: verify agents may write MOVES_<C>.json ({"to":{CODE:[verified brands]}}) for brands that belong in another category; feed them to that category's harvest as ALREADY KNOWN and merge them with its verify (C8 → G3 sanitaryware/taps/flooring, B8 locks).
 - INDEX CLEANUP: Ferrari (cars/fragrance) and Deutz (champagne) rows carry a C7 tag meant for the tractor makers; remove it (VERIFY_C7 creates Ferrari (tractors) and Deutz-Fahr).
 - C5 open questions (coordinator, index cleanup): Uni-ball vs Mitsubishi Pencil rows (brand of that maker: add rel), Helix (now Maped), Wahl-Eversharp vs Eversharp, Camlin vs Camel (same Kokuyo Camlin company: link with rel).
+- INDEX CLEANUP: register row 'Garrard' mixes the crown jeweller with the turntable maker (D3 tag) — split (VERIFY_D3 creates Garrard (turntables)).
