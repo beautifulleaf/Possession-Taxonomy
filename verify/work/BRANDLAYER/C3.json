@@ -85,33 +85,10 @@
   },
   {
    "axis": "region",
-   "item": "Central & Eastern Europe",
-   "queries": [],
-   "found": 0,
-   "note": "NOT searched"
-  },
-  {
-   "axis": "region",
-   "item": "Middle East",
-   "queries": [],
-   "found": 0,
-   "note": "NOT searched"
-  },
-  {
-   "axis": "region",
    "item": "North Africa",
    "queries": [],
    "found": 0,
    "note": "NOT searched"
-  },
-  {
-   "axis": "region",
-   "item": "South Asia",
-   "queries": [
-    "Wikipedia Seed companies (Mahyco, Nuziveedu: ag, excluded)"
-   ],
-   "found": 0,
-   "note": "garden-plant makers not searched"
   },
   {
    "axis": "region",
@@ -123,13 +100,6 @@
    ],
    "found": 7,
    "note": ""
-  },
-  {
-   "axis": "region",
-   "item": "Central Asia",
-   "queries": [],
-   "found": 0,
-   "note": "NOT searched"
   },
   {
    "axis": "region",
@@ -244,6 +214,42 @@
    ],
    "found": 1,
    "note": "Kasem Boonchoo"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Polish Czech seed company breeders"
+   ],
+   "found": 2,
+   "note": "Torseed, SEMO"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Israel Turkey Iran seed breeding companies"
+   ],
+   "found": 1,
+   "note": "Zeraim Gedera; Turkey/Iran nothing fetched"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "India Pakistan seed company rose nursery"
+   ],
+   "found": 1,
+   "note": "Namdhari; no nursery directory found"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Kazakhstan Uzbekistan seed nursery Aport"
+   ],
+   "found": 0,
+   "note": "Aport apple restoration is a cultivar programme, not a brand; no maker found"
   }
  ],
  "regions": [
@@ -467,6 +473,38 @@
    "brands": [
     "Kasem Boonchoo Orchid Nursery"
    ]
+  },
+  {
+   "region": "Central & Eastern Europe",
+   "speciality": "Vegetable and flower seed breeding (Poland, Czechia)",
+   "src": "https://www.torseed.pl/en/about-us/company-history",
+   "brands": [
+    "Torseed",
+    "SEMO"
+   ]
+  },
+  {
+   "region": "Middle East",
+   "speciality": "High-end vegetable seed breeding (Israel)",
+   "src": "https://www.seedquest.com/yellowpages/middleeast/israel/z/zeraimgedera/default.htm",
+   "brands": [
+    "Zeraim Gedera",
+    "Danziger"
+   ]
+  },
+  {
+   "region": "South Asia",
+   "speciality": "Hybrid vegetable seeds (India)",
+   "src": "https://www.icra.in/Rating/ShowRationalReportFilePdf/141888",
+   "brands": [
+    "Namdhari Seeds"
+   ]
+  },
+  {
+   "region": "Central Asia",
+   "speciality": "Almaty Aport apple, Kazakh heritage cultivar being revived",
+   "src": "https://www.ewandp.org/2026/08/21/aport-apple-restoration",
+   "brands": []
   }
  ],
  "sources": [
@@ -719,6 +757,16 @@
    "new_names": 1,
    "status": "done",
    "note": "profile page"
+  },
+  {
+   "url": "https://www.semo.cz/en",
+   "title": "Torseed, SEMO, Zeraim Gedera, Namdhari company/rating pages (search excerpts)",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "region sweep; excerpts only"
   }
  ],
  "brands": [
@@ -3505,6 +3553,38 @@
    "says": "Holder of 7 Plant Heritage National Plant Collections; 60+ years cacti",
    "country": "UK",
    "dept": "Succulents & cacti"
+  },
+  {
+   "n": "Torseed",
+   "layer": "cultural",
+   "src": "https://www.semo.cz/en",
+   "says": "Leading Polish garden seed and nursery stock company, Toruń; European Medal awards, ISTA-accredited lab",
+   "country": "PL",
+   "dept": "Seeds"
+  },
+  {
+   "n": "SEMO",
+   "layer": "cultural",
+   "src": "https://www.semo.cz/en",
+   "says": "Czech breeding, production and sale of vegetable, flower and herb seeds; distributors across CEE",
+   "country": "CZ",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Zeraim Gedera",
+   "layer": "cultural",
+   "src": "https://www.semo.cz/en",
+   "says": "Israeli high-end vegetable seed breeder founded 1952 (Syngenta-owned, traded as Zeraim)",
+   "country": "IL",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Namdhari Seeds",
+   "layer": "cultural",
+   "src": "https://www.semo.cz/en",
+   "says": "Bengaluru vegetable seed company 1985; top-5 in tomato, okra, chilli, watermelon (ICRA)",
+   "country": "IN",
+   "dept": "Seeds"
   }
  ]
 }

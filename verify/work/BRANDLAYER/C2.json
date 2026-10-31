@@ -430,6 +430,34 @@
    ],
    "found": 0,
    "note": "no maker named; Twool/Nutscene found via RHS"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe (second pass: Poland, Czechia)",
+   "queries": [
+    "Kategoria producenci narzędzi ogrodowych Polska",
+    "výrobce zahradního náčiní česká značka"
+   ],
+   "found": 5,
+   "note": "only retailer filter lists; Nohel Garden is a Czech wholesaler/Fiskars distributor (not a brand)"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East (Turkey)",
+   "queries": [
+    "Turkish garden tool manufacturer brand barbecue mangal Turkey"
+   ],
+   "found": 0,
+   "note": "search returned Polish/Czech pages only"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean (Mexico talavera pots)",
+   "queries": [
+    "Mexican talavera terracotta macetas maker Tlaquepaque"
+   ],
+   "found": 0,
+   "note": "no result on this query"
   }
  ],
  "regions": [
@@ -1013,6 +1041,16 @@
    "kind": "ranking",
    "years": "2026",
    "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://grillmangal.com/en",
+   "title": "Grill&Mangal Home",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
    "new_names": 1,
    "status": "done",
    "note": ""
@@ -2049,6 +2087,46 @@
    "says": "Real Simple: Stack-n-Grow Lights System best for seedlings",
    "country": "United States",
    "dept": "Grow lights"
+  },
+  {
+   "n": "Grill&Mangal Home",
+   "layer": "cultural",
+   "src": "https://grillmangal.com/en",
+   "says": "Polish manufacturer of mangal grills, skewers, garden stoves and fire pits",
+   "country": "Poland",
+   "dept": "Open grills"
+  },
+  {
+   "n": "Cellfast",
+   "layer": "cultural",
+   "src": "https://www.goodmajster.pl/pl/c/Narzedzia-ogrodnicze/103",
+   "says": "Polish garden tool/irrigation producer listed in retailer producer filter (weak)",
+   "country": "Poland",
+   "dept": "Hoses & irrigation"
+  },
+  {
+   "n": "Prosperplast",
+   "layer": "cultural",
+   "src": "https://www.goodmajster.pl/pl/c/Narzedzia-ogrodnicze/103",
+   "says": "Polish producer of pots/containers listed in retailer producer filter (weak)",
+   "country": "Poland",
+   "dept": "Pots"
+  },
+  {
+   "n": "Walkiewicz",
+   "layer": "cultural",
+   "src": "https://www.goodmajster.pl/pl/c/Narzedzia-ogrodnicze/103",
+   "says": "Polish garden tool producer in retailer producer filter (weak)",
+   "country": "Poland",
+   "dept": "Hand tools"
+  },
+  {
+   "n": "Esschert Design",
+   "layer": "cultural",
+   "src": "https://sklep-kwiecisty.pl/narzedzia-ogrodnicze",
+   "says": "Dutch garden accessories brand listed in retailer brand filter (weak)",
+   "country": "Netherlands",
+   "dept": "Garden accessories"
   }
  ]
 }
