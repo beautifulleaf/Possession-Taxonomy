@@ -9,3 +9,4 @@ COORDINATOR NOTE: drop kind 'Pickup truck' (renames {'Pickup truck':'Utility pic
 step7: BMW, Mercedes-Benz, Tesla, Renault done
 step8: Peugeot (Type N early cars omitted), Citroën, Fiat, Opel
 step9: Kia, Volvo, Jaguar done; Hyundai category name TBD (try Hyundai_vehicles)
+step10: Hyundai, Land Rover, Lotus done. Ferrari category name TBD
