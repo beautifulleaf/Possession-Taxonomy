@@ -4,3 +4,4 @@ step2: fetched Italian PDO, Swiss, British lists (British 0-100000 of 116486), I
 step3: rows.txt (candidate additions with kind mapping) written in work/V4_J3; next: apply.py
 step4: market pages fetched (31 fetches + 1 firecrawl), logged in sources.tsv; next: write apply.py (rows, m removal, nl/sel, own/tier, ms, brands), validate, report
 step5: apply.py run OK (178 added, 500 m removed, validate OK); next PDO check, report
+step6: report written; DONE
