@@ -218,6 +218,78 @@
    "status": "partial",
    "note": "page names Clarins and myBlend; group site also lists Thierry Mugler/Azzaro parfums in the past (not on fetched page); Orlane not named",
    "saturation": "1/2 new this source; earlier sources: 83/364 new"
+  },
+  {
+   "url": "https://ri.natura.com.br/en/company/history/",
+   "title": "Natura history timeline (+naturaeco.com/brands)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 5,
+   "known_confirmed": 4,
+   "status": "partial",
+   "note": "no single portfolio page; names from history timeline and naturaeco.com/brands (Avon, Natura, Body Shop). Tododia, Erva Doce, Faces not on a fetched page.",
+   "saturation": "6/10 new this source; earlier sources: 84/366 new"
+  },
+  {
+   "url": "https://www.pierre-fabre.com/en/our-company/our-brands",
+   "title": "Pierre Fabre Our brands & franchises",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 10,
+   "new_names": 6,
+   "known_confirmed": 4,
+   "status": "done",
+   "note": "pharma franchises excluded; Pierre Fabre Oral Care is a franchise label not recorded",
+   "saturation": "6/10 new this source; earlier sources: 90/376 new"
+  },
+  {
+   "url": "https://www.galderma.com/our-brands",
+   "title": "Galderma Our brands (skincare subset)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 2,
+   "known_confirmed": 2,
+   "status": "partial",
+   "note": "aesthetic/prescription brands (Restylane, Sculptra, Relfydess, Actinica, Aklief) excluded; list partly collapsed in excerpt",
+   "saturation": "2/4 new this source; earlier sources: 96/386 new"
+  },
+  {
+   "url": "https://global.oliveyoung.com/display/page/brand",
+   "title": "Olive Young Global Brands A-Z",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "known_confirmed": 0,
+   "status": "blocked",
+   "note": "A-Z list is JavaScript-rendered; fetched/search text shows only the A..Z/#BEAUTY/#MUSIC tabs, no names. Owner paste needed. corp.oliveyoung.com/en/business/brand lists its private labels (BIOHEAL BOH, BRINGGREEN, WAKEMAKE, colorgram, Fillimilli, Ideal for Men, round a'round, Shingmulnara, CAREPLUS, tantan, Delight Project) but was only seen in a search excerpt, not recorded.",
+   "saturation": "not ingested"
+  },
+  {
+   "url": "https://www.nykaa.com/brand?eq=desktop",
+   "title": "Nykaa brand directory (nav A-Z)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "known_confirmed": 0,
+   "status": "partial",
+   "note": "page located (4,200+ beauty brands per annual report; nav lists brands A-Z) but tool returns page text into context only, no file, so a 4,000-name list cannot be ingested safely; not recorded. Needs owner paste or a dedicated run.",
+   "saturation": "not ingested"
+  },
+  {
+   "url": "https://www.douglas.de/de/brands",
+   "title": "Douglas.de Marken A-Z",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "known_confirmed": 0,
+   "status": "partial",
+   "note": "page located (3,000+ brands, A-Z) but too large to ingest through tool output; not recorded. Needs owner paste or dedicated run.",
+   "saturation": "not ingested"
   }
  ],
  "brands": [
@@ -986,14 +1058,147 @@
    "says": "listed in Clarins Group brands",
    "owner": "Clarins Group",
    "already": false
+  },
+  {
+   "n": "Chronos",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://ri.natura.com.br/en/company/history/",
+   "says": "listed in Natura history timeline (+naturaeco.com/brands)",
+   "owner": "Natura &Co",
+   "already": false,
+   "variant_of": null,
+   "homonym_risk": "Chronos: generic Greek word"
+  },
+  {
+   "n": "Kaiak",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://ri.natura.com.br/en/company/history/",
+   "says": "listed in Natura history timeline (+naturaeco.com/brands)",
+   "owner": "Natura &Co",
+   "already": false,
+   "variant_of": null,
+   "homonym_risk": "Kaiak: also canoe word"
+  },
+  {
+   "n": "Ekos",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://ri.natura.com.br/en/company/history/",
+   "says": "listed in Natura history timeline (+naturaeco.com/brands)",
+   "owner": "Natura &Co",
+   "already": false,
+   "variant_of": null,
+   "homonym_risk": "Ekos: Natura line; other Ekos brands"
+  },
+  {
+   "n": "Mamãe e Bebê",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://ri.natura.com.br/en/company/history/",
+   "says": "listed in Natura history timeline (+naturaeco.com/brands)",
+   "owner": "Natura &Co",
+   "already": false
+  },
+  {
+   "n": "Sr. N",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://ri.natura.com.br/en/company/history/",
+   "says": "listed in Natura history timeline (+naturaeco.com/brands)",
+   "owner": "Natura &Co",
+   "already": false
+  },
+  {
+   "n": "Eau Thermale Avène",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.pierre-fabre.com/en/our-company/our-brands",
+   "says": "listed in Pierre Fabre Our brands & franchises",
+   "owner": "Pierre Fabre",
+   "already": false,
+   "variant_of": "Avène"
+  },
+  {
+   "n": "Darrow",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.pierre-fabre.com/en/our-company/our-brands",
+   "says": "listed in Pierre Fabre Our brands & franchises",
+   "owner": "Pierre Fabre",
+   "already": false
+  },
+  {
+   "n": "Même",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.pierre-fabre.com/en/our-company/our-brands",
+   "says": "listed in Pierre Fabre Our brands & franchises",
+   "owner": "Pierre Fabre",
+   "already": false,
+   "variant_of": null,
+   "homonym_risk": "Même: French word; Même Cosmetics"
+  },
+  {
+   "n": "Naturactive",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.pierre-fabre.com/en/our-company/our-brands",
+   "says": "listed in Pierre Fabre Our brands & franchises",
+   "owner": "Pierre Fabre",
+   "already": false
+  },
+  {
+   "n": "Ladrôme Laboratoire",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.pierre-fabre.com/en/our-company/our-brands",
+   "says": "listed in Pierre Fabre Our brands & franchises",
+   "owner": "Pierre Fabre",
+   "already": false
+  },
+  {
+   "n": "MiYé",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.pierre-fabre.com/en/our-company/our-brands",
+   "says": "listed in Pierre Fabre Our brands & franchises",
+   "owner": "Pierre Fabre",
+   "already": false
+  },
+  {
+   "n": "Alastin",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.galderma.com/our-brands",
+   "says": "listed in Galderma Our brands (skincare subset)",
+   "owner": "Galderma",
+   "already": false
+  },
+  {
+   "n": "Benzac",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.galderma.com/our-brands",
+   "says": "listed in Galderma Our brands (skincare subset)",
+   "owner": "Galderma",
+   "already": false
   }
  ],
  "next": [
-  "Natura &Co",
-  "Clarins",
-  "Pierre Fabre",
-  "Galderma",
-  "then retailers: Olive Young, Nykaa, @cosme/Matsukiyo, Douglas, Boots, Superdrug, Space NK, Mecca, Shoppers Drug Mart, Watsons, Credo, Purplle"
+  "Purplle",
+  "@cosme or Matsukiyo",
+  "Boots",
+  "Superdrug",
+  "Space NK",
+  "Mecca",
+  "Shoppers Drug Mart",
+  "Watsons",
+  "Credo (all need search to locate the page, then excerpt-mode fetch; large directories may need owner paste)",
+  "Nykaa/Douglas full ingestion",
+  "traditions part not started",
+  "Henkel/Amorepacific cosmetics/LG H&H full portfolios (JS)"
  ],
  "blocked": [
   {
@@ -1007,7 +1212,20 @@
   {
    "source": "apgroup.com Cosmetics submenu",
    "note": "partly covered from home carousel; IOPE, Hera, Espoir, Aritaum not shown in fetched text"
+  },
+  {
+   "source": "global.oliveyoung.com/display/page/brand",
+   "note": "JS-only A-Z"
+  },
+  {
+   "source": "nykaa.com brand directory",
+   "note": "located, ~4,200 names, not ingested (tool output cannot be saved to file)"
+  },
+  {
+   "source": "douglas.de/de/brands",
+   "note": "located, 3,000+ names, not ingested"
   }
  ],
- "tradition_part": "not started"
+ "tradition_part": "not started",
+ "tool_note": "2026-10-31: Parallel_Auth out of credit (402) and Firecrawl out of credit; used mcp__Parallel__web_fetch/web_search in excerpt mode. These tools return text only into context (no file), so very long directories are not safely ingestible."
 }

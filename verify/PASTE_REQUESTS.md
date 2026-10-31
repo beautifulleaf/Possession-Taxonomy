@@ -21,3 +21,7 @@ Collected from BRANDLAYER and retailer work; one line per page, with why it matt
 | H1 | Allure Best of Beauty winners pages (all categories, any years) | allure.com returns 1–4 lines to every fetcher | juried beauty awards |
 | H1 | Hwahae Awards winners (the Google Sheet linked from the awards page) | sheet not readable by fetchers | Korean skincare awards |
 | H1 | Marie Claire UK Prix d'Excellence winners; Good Housekeeping UK Beauty Awards; Cosmopolitan UK Readers' Choice; Byrdie Beauty Awards; @cosme Best Cosmetics; Nykaa Femina Beauty Awards; National Eczema Association Seal of Acceptance directory | navigation-only or JavaScript pages | beauty quality evidence |
+| H1 | Nykaa brand directory (~4,200 beauty brands) | too large for inline fetch | Indian and global beauty brands |
+| H1 | Douglas.de brands A–Z (3,000+) | too large for inline fetch | European beauty brands |
+| H1 | Olive Young Global brand A–Z | JavaScript-only | Korean beauty brands |
+| H1 | Henkel brand portfolio grid (151 brands) | JavaScript-loaded | haircare and body care brands |

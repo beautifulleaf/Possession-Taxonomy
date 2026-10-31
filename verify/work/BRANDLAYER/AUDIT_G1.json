@@ -2039,12 +2039,6 @@
    "why": "TheFramebuilders directory entry: existence only (no quality judgement on page)"
   },
   {
-   "n": "Level Cycle",
-   "from": "premium",
-   "to": "listed",
-   "why": "TheFramebuilders directory entry: existence only (no quality judgement on page)"
-  },
-  {
    "n": "Liberation Fabrication",
    "from": "premium",
    "to": "listed",
@@ -3273,6 +3267,27 @@
    "to": "premium",
    "src": "https://www.classicboat.co.uk/events/classic-boat-awards-2026-results",
    "why": "Classic Boat Awards 2026 Restored Power Vessels winner: Double Century (Fairey Huntsman)"
+  },
+  {
+   "n": "Level Cycle",
+   "from": "premium",
+   "to": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Keirin",
+   "why": "Wikipedia Keirin names Level among popular NJS frame manufacturers (harvest src TheFramebuilders is existence only)"
+  },
+  {
+   "n": "Spada",
+   "from": "cultural",
+   "to": "cultural",
+   "src": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-boots/best-motorcycle-boots-touring-street-adventure-sport",
+   "why": "rename 'Spada (motorcycle clothing)'; BikeSocial tested Spada Strider Pro boots (independent support beyond SHARP listing)"
+  },
+  {
+   "n": "Duchinni",
+   "from": "cultural",
+   "to": "cultural",
+   "src": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-boots/best-motorcycle-boots-touring-street-adventure-sport",
+   "why": "BikeSocial: Duchinni Quest 'good-value protective adventure boots a worthy recommendation' (beyond SHARP listing)"
   }
  ],
  "field_fixes": {
@@ -3773,6 +3788,96 @@
    "country": "Italy",
    "dept": "Boats (gondola parts)",
    "region": "Venice, Italy"
+  },
+  {
+   "n": "Makino (keirin frames)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Keirin",
+   "says": "Wikipedia Keirin: popular NJS keirin frame manufacturers include Nagasawa, 3Rensho, Makino, Kalavinka, Level, Bridgestone, Panasonic and Samson",
+   "country": "Japan",
+   "dept": "Bicycles (track/keirin frames)",
+   "region": "Japan (keirin)",
+   "homonym": true
+  },
+  {
+   "n": "Kalavinka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Keirin",
+   "says": "Wikipedia Keirin: popular NJS frame manufacturer; also a frame supplier for Girls' Keirin",
+   "country": "Japan",
+   "dept": "Bicycles (track/keirin frames)",
+   "region": "Japan (keirin)"
+  },
+  {
+   "n": "Samson (keirin frames)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Keirin",
+   "says": "Wikipedia Keirin: popular NJS keirin frame manufacturer",
+   "country": "Japan",
+   "dept": "Bicycles (track/keirin frames)",
+   "region": "Japan (keirin)",
+   "homonym": true
+  },
+  {
+   "n": "Daytona (motorcycle boots)",
+   "layer": "premium",
+   "src": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-boots/best-motorcycle-boots-touring-street-adventure-sport",
+   "says": "BikeSocial tested best boots 2026: Daytona Roadstar 'top-spec boots hand-made in Germany, very highly protective, repairable, premium materials'; tester's pair still like new after eight years",
+   "country": "Germany",
+   "dept": "Motorcycle riding gear (boots)",
+   "homonym": true
+  },
+  {
+   "n": "Soft99",
+   "layer": "premium",
+   "src": "https://www.autoexpress.co.uk/product-group-tests/63776/best-car-wax-and-sealant",
+   "says": "Auto Express wax and sealant group test: Soft99 a past winner (Fusso Coat), Water Block 'got closest' to the winner; Fusso Coat 'remains a top performer'",
+   "country": "Japan",
+   "dept": "Vehicle care (wax)"
+  },
+  {
+   "n": "Sonax",
+   "layer": "premium",
+   "src": "https://www.autoexpress.co.uk/product-group-tests/63776/best-car-wax-and-sealant",
+   "says": "Auto Express wax test: Sonax had 'a slight edge on the bonnet' over the winner; Profiline Polymer-Netshield 'another top performance from the revitalised Sonax range'",
+   "country": "Germany",
+   "dept": "Vehicle care (wax, shampoo)"
+  },
+  {
+   "n": "Angelwax",
+   "layer": "premium",
+   "src": "https://www.autoexpress.co.uk/product-group-tests/63776/best-car-wax-and-sealant",
+   "says": "Auto Express wax test: Angelwax Formulation #1 (handmade, hand-poured wax) runner-up",
+   "country": "United Kingdom",
+   "dept": "Vehicle care (wax)"
+  },
+  {
+   "n": "Simoniz",
+   "layer": "cultural",
+   "src": "https://www.autoexpress.co.uk/product-group-tests/63776/best-car-wax-and-sealant",
+   "says": "Auto Express: Simoniz Original Wax 'around for years', a regular in the wax top 10, 'a proper blast from the past'",
+   "country": "",
+   "dept": "Vehicle care (wax)"
+  },
+  {
+   "n": "Barkat Ali, Body Maker (Rawalpindi)",
+   "layer": "cultural",
+   "role": "maker",
+   "src": "https://www.npr.org/2022/02/05/1076102464/pakistan-truck-art-painting",
+   "says": "NPR: one-stop Rawalpindi workshop maintaining, building and decorating Pakistani truck bodies in the truck-art tradition",
+   "country": "Pakistan",
+   "dept": "Vans, trucks & buses (decorated truck bodies)",
+   "region": "Pakistan truck art"
+  },
+  {
+   "n": "Hassan Autos (Rawalpindi)",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.npr.org/2022/02/05/1076102464/pakistan-truck-art-painting",
+   "says": "NPR: Javed Iqbal's Hassan Autos sells horns and other decorative parts for Pakistani art trucks",
+   "country": "Pakistan",
+   "dept": "Vans, trucks & buses (truck-art parts)",
+   "region": "Pakistan truck art"
   }
  ],
  "add_regions": [
@@ -3856,6 +3961,22 @@
     "Paolo Brandolisio (remer, Venice)"
    ],
    "note": "extends the harvest's Venice region (Tramontin only)"
+  },
+  {
+   "region": "Pakistan (Rawalpindi, Karachi, Peshawar)",
+   "speciality": "truck art: hand-painted, mirror-worked and wood-carved truck bodies, a distinctively Pakistani form",
+   "src": "https://www.npr.org/2022/02/05/1076102464/pakistan-truck-art-painting",
+   "brands": [
+    "Barkat Ali, Body Maker (Rawalpindi)",
+    "Hassan Autos (Rawalpindi)"
+   ]
+  },
+  {
+   "region": "Bulukumba (Tana Beru, Bira, Ara), South Sulawesi, Indonesia",
+   "speciality": "pinisi wooden schooners built plank-first by panrita lopi master shipwrights (UNESCO ICH 2017)",
+   "src": "https://ich.unesco.org/en/RL/pinisi-art-of-boatbuilding-in-south-sulawesi-01197",
+   "brands": [],
+   "note": "no independently named yard found: the named 'Bulukumba Shipyard'/'Tana Beru Boat Builder' pages are SEO sites of one holding (Juara Holding Group) - not independent, not added"
   }
  ],
  "homonym_adds": [
@@ -5687,6 +5808,38 @@
    "src": "https://sharp.dft.gov.uk/helmet-brands",
    "says": "SHARP lists Ruroc motorcycle helmets as tested",
    "why": "same company as register row; tier listed for G1"
+  },
+  {
+   "n": "Altberg",
+   "add_cat": "G1",
+   "src": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-boots/best-motorcycle-boots-touring-street-adventure-sport",
+   "says": "BikeSocial best boots 2026: Altberg Roadrunner custom fitted, made in UK, 'long-term investment' - same company as register A2 bootmaker",
+   "why": "same company as register row; motorcycle boots are G1 riding gear",
+   "tier": "premium"
+  },
+  {
+   "n": "TCX",
+   "add_cat": "G1",
+   "src": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-boots/best-motorcycle-boots-touring-street-adventure-sport",
+   "says": "BikeSocial best boots 2026: several TCX models recommended (Drifter, Infinity 3, Street 3 benchmark)",
+   "why": "same company as register row; motorcycle boots are G1 riding gear",
+   "tier": "premium"
+  },
+  {
+   "n": "Sidi",
+   "add_cat": "G1",
+   "src": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-boots/best-motorcycle-boots-touring-street-adventure-sport",
+   "says": "BikeSocial best boots 2026: Sidi Taurus 'a flagship product and a new benchmark'; Sidi Rex flagship sport boot",
+   "why": "same company as register row; motorcycle boots are G1 riding gear",
+   "tier": "premium"
+  },
+  {
+   "n": "Stylmartin",
+   "add_cat": "G1",
+   "src": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-boots/best-motorcycle-boots-touring-street-adventure-sport",
+   "says": "BikeSocial best boots 2026: Stylmartin Vertigo and Shadow recommended",
+   "why": "same company as register row; motorcycle boots are G1 riding gear",
+   "tier": "cultural"
   }
  ]
 }
