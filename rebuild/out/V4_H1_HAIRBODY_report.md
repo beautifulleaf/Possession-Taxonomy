@@ -1,24 +1,28 @@
-# V4_H1_HAIRBODY report
+# V4_H1_HAIRBODY report (round 2)
 
-Part file: rebuild/out/H1_parts/HAIRBODY.json (about 0.45 MB; validates OK, 109 kinds, 618 entries). Replaces Hair; Shaving & hair removal; Oral care; Bath, body & hygiene; Comfort & massage. All 109 earlier kinds reappear; no renames or moves.
+Part file: rebuild/out/H1_parts/HAIRBODY.json (0.48 MB; validates OK, 109 kinds, 662 entries; round-1 copy in rebuild/work/V4_H1_HAIRBODY/bak/). Replaces Hair; Shaving & hair removal; Oral care; Bath, body & hygiene; Comfort & massage. All earlier kinds reappear; no renames or moves. 263 new register brands, 117 brand updates.
 
-## Structure
-Each of the first four departments gets a first shelf "Brands by market" with one brand kind (Hair-care 150 entries, Shaving & grooming 44, Oral-care 96, Body-care & hygiene 109), grouped by owner: the twelve groups in the owner order, then independents, then owner not stated. Brand entries carry own, tier, cty (only where a page gives it) and own_y. Comfort & massage has no brand kind (device makers only).
+## Structure and counts
+First shelf "Brands by market" in four departments: Hair-care brand 158, Shaving & grooming brand 50, Oral-care brand 98, Body-care & hygiene brand 137. Brand entries carry own, tier, cty, own_y where a page states them. Loose models became versions or maker-line entries (about 125); range lines r were merged; none removed as out of scope. Old branded x entries in product kinds became versions of brand entries.
 
-## Loose models and earlier entries (before -> after)
-- Product kinds (shampoo, styling, dye, toothpaste, pads, deodorant and so on): 71 earlier branded entries and 128 loose models became entries or versions of brand entries; kind-level ranges (r, 28) were dropped because the maker is now an entry.
-- Device and tool kinds (dryers, brushes, razors, shavers, trimmers, clippers, epilators, IPL, toothbrushes, flossers, massagers): each loose model became a version of a maker line entry (about 125 maker-line entries, e.g. Braun Series, Oral-B iO, Philips Sonicare DiamondClean, Waterpik, Theragun). Existing collector entries (safety razors, hones, brushes) kept.
-- Removed: none as out of scope, except that the range lines r were merged. Hair straightener "Isaac K. Shero patent" kept as a version of an entry with no stated maker.
+## Group portfolios (item 1)
+Read from the owners' own pages: P&G (us.pg.com/brands, US portfolio, plus its FY2026 annual report), Colgate-Palmolive, Edgewell, Kenvue, Haleon (brands and facts pages), Beiersdorf (brands and other-brands pages), L'Oréal (global brands portfolio page), Lion (oral-care product page). Unilever (page lists logos only), Henkel, Kao (no names in text), Church & Dwight (404) and the rest of Lion could not be read; they use Wikipedia lists and Wikipedia brand categories (Unilever, P&G, Colgate, Haleon, L'Oréal, Beiersdorf), cut to the five departments. Those portfolios are therefore not confirmed complete; the kind sel lines say so.
 
-## References (all fetched)
-Wikipedia brand lists: Procter & Gamble, Unilever, L'Oreal, Colgate-Palmolive, Haleon, Kenvue, Beiersdorf, Henkel, Edgewell, Kao, Church & Dwight, Hindustan Unilever, Marico, Dabur, Mandom, Natura, Yunnan Baiyao; Wikipedia List of toothpaste brands, Category:Shampoo brands, Category:Soap brands; Lion oral-care product page. Coverage lines state counts per kind.
+## National champions and independents (item 2)
+Sourced for India (Marico, Dabur, Patanjali), China (Yunnan Baiyao), Japan (Mandom, Lion), South Korea (LG H&H: Elastine, Reen, Perioe, ON: THE BODY, "number one in Korean household goods"), Indonesia (Formula), Philippines (Hapee), Vietnam (P/S), Iran (Pakshoo, Golrang), Kenya (Bidco: Cowboy, Pure and Natural, Nuru), Nigeria/UK (PZ Cussons), Brazil (Natura), Australia, Spain, Finland, Bulgaria, Bangladesh, Sweden, Netherlands, Italy, Germany. Not reached (pages 404 or silent): Thailand, Turkey, Saudi Arabia, Egypt, South Africa, Mexico, Argentina, Russia, Poland, France.
 
-## Market facts (ms)
-Oral care: Colgate-Palmolive share, global toothpaste 41.1 %, global manual toothbrush 31.5 %, US toothpaste 33.7 %, US manual toothbrush 41.1 % (all 2023 year to date, company 8-K); China toothpaste Yunnan Baiyao fifth by revenue (2008, uncited on Wikipedia). Shaving: US razors Gillette 47.3 %, Edgewell brands 13.6 %, Dollar Shave Club 8.5 %, Harry's 2.6 % (Euromonitor via Beautymatter, 2018). Hair, bath and comfort: no share figure found.
+## Craft & indie (item 3)
+Seven brands from one small-batch overview (mygreencloset.com): The Innate Life, Less is More, Oil + Water, Magic Organic Apothecary, Sḵwálwen Botanicals, Pure Skin Food, Meow Meow Tweet. Happi indie list was blocked (403).
 
-## Not done / not sourced
-- Group portfolios came from Wikipedia lists and one Lion page, not from each group's own brand page; Lion's hair/body brands, Haleon/Kenvue lists beyond what Wikipedia gives, and L'Oreal consumer brands beyond hair are not complete. Scope cut to the five departments; skin care, make-up, OTC medicines and household brands omitted.
-- National champions: only India (Marico, Dabur, Patanjali), Japan (Mandom, Lion, Sunstar), Brazil (Natura), China (Yunnan Baiyao), Indonesia, Philippines, Spain, Finland, Bulgaria, Vietnam, Bangladesh via the toothpaste/soap lists; about 20 markets with sourced leaders were not reached. Craft and indie tiers unsourced (no fetched overview), so those brands carry no tier.
-- Market panels for UK, Japan, India, Brazil, Germany, France not found. Electric toothbrush/shaver/dryer/massage share panels not found; Therabody, Sonicare and Dyson pages gave no model lists (404 or thin), so device generations are those from the earlier retail pages.
-- Device-maker owner fields set only for Braun, Oral-B (P&G), Waterpik (Church & Dwight 2017), Philips Sonicare (Philips 2000).
-- Stopped at the fetch budget (about 60); lists were not read to the end of every reference.
+## Market panels (item 4)
+- P&G FY2026 (annual report): hair care about 20 %, personal care about 20 %, grooming over 50 %, blades and razors over 60 %, male electric shavers nearly 30 %, oral care nearly 30 %, feminine care nearly 30 %, menstrual care nearly 35 %, baby care over 30 %.
+- Western Europe hair care 2020 (GlobalData summary): L'Oréal 26.5, Henkel 13.5, P&G 10.2, Coty 7.4, Unilever 6.9 %.
+- Electric toothbrushes 2024 (Report Prime, method unstated): Philips 39.8, Oral-B 30.8, Colgate 8.2, Panasonic 4.8, FOREO 3.9, Waterpik 3.0 %.
+- Kept: Colgate 2023 toothpaste and toothbrush shares; US razors 2018.
+- Not found: hair dryers/stylers, clippers, massage devices, and any national hair, soap or deodorant shares for UK, Japan, India, Brazil, Germany, France.
+
+## Device owners (item 5)
+Set for Braun, Oral-B, Gillette (P&G); Waterpik (Church & Dwight, 2017); Philips Sonicare and Philishave (Philips; Sonicare maker bought 2000); Panasonic, Remington Products, Wahl, Dyson, HoMedics, Therabody, BaByliss, Conair as their own makers (tier Independent). Ordo and SURI: no owner on a fetched page.
+
+## Remaining gaps
+Unilever, Henkel, Kao, Lion and Church & Dwight own pages; the ten uncovered markets; indie coverage is thin; no Nexxus, Squatch or other Unilever brands that appear only in search excerpts.
