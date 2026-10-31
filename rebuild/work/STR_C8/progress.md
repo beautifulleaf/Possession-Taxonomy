@@ -1,2 +1,3 @@
 step0: read brief, backed up C8.json to bak/; plan: merge to 11 depts (Electrical into plumbing dept, Fuel+Batteries merged)
 step1: fetched refs (Wikipedia Hinge, Latch, battery sizes, Nail, Engineered wood, Piping fittings, Fence, Wood finishing, Screw, Adhesive, Insulation, Roof shingle, Charcoal, Paint, Electrical cable, Rain gutter, Wallpaper, Mortar, Tile, Paver, Firelighter); design done; next: write build.py
+step2: build.py run, out/C8.json written, validate OK, renames written; next: report
