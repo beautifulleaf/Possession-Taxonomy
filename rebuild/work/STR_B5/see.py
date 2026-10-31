@@ -17,7 +17,6 @@ SEE={
  'Sujihiki':[['B5','Carving knife','Western counterpart']],
  'Grill pan':[['B5','Griddle & tawa','flat plate without ridges']],
  'Griddle & tawa':[['B5','Grill pan','ridged pan']],
- 'Whetstone ':[],
  'Knife sharpener':[['B5','Whetstone','loose stone']],
  'Tea caddy':[['B5','Japanese tea caddy','natsume and chaire']],
  'Japanese tea caddy':[['B5','Tea caddy','Western caddy']],
@@ -26,5 +25,4 @@ SEE={
  'Milk pitcher':[['B5','Milk frother','makes the foam']],
  'Milk frother':[['B5','Milk pitcher','jug for steaming']],
  'Percolator':[['B5','Moka pot','stovetop pressure brewer']],
- 'Camping':[],
 }
