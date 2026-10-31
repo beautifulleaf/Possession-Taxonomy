@@ -387,7 +387,7 @@ lf = sh('Licence-free & citizens-band radios', 'Radios anyone can use without an
 
 cr = take('Communications receiver')
 tt(cr, [['Era', ['Valve (wartime)', 'Transistor', 'Digital']], ['Origin', ['Civil', 'Military surplus']]])
-see(cr, ['D3', 'Radio', 'broadcast radio for listening'])
+see(cr, ['D3', 'Portable radio', 'broadcast and shortwave listening sets'])
 rs = take('Radio scanner')
 tt(rs, [['Format', ['Handheld', 'Base or mobile']], ['Decoding', ['Analogue', 'Digital trunking (P25, DMR, NXDN)']]])
 sd = take('SDR receiver')
