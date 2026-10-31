@@ -17,6 +17,14 @@ Old entries are covered: Mittelburgenland, Leithaberg, Eisenberg, Egri Bikavér 
 ## Dropped or left
 No kind dropped. Left for other parts: Riesling, Grüner Veltliner, Chasselas, Petite Arvine, Savagnin (Heida), Sekt, Retsina, Gemischter Satz, Commandaria entry in the passito kind (now also in Cyprus), Georgian qvevri amber wine entry. Brands: none added (no classified producers used). Moves: none.
 
-## Gaps (honest)
-- The EU register (eAmbrosia) and national lists were not retrievable; WebFetch summaries of Wikipedia were the canon. Greece lists only the 19 PDOs named on fetched pages (33 PDOs and 114 PGIs exist), Swiss cantonal AOCs (62) are missing apart from Vaud, Hungarian PDO sub-districts and Czech/Slovak districts are missing, Austrian ÖTW Erste Lage, German VDP Grosse Lage and Tokaj named first-growth vineyards are not on fetched pages, so no landmark badges beyond Weinviertel (origin).
-- Armenian Artsakh was left out. Pages for the Georgian list were read to 100,000 characters only. Alcohol field not needed (no alcohol-free items). No department market summary (`ms`) was added: no share figures were fetched.
+## Complete-lists pass (step "complete-lists")
+Firecrawl was used only for eAmbrosia-related pages WebFetch could not read (JS lists). The eAmbrosia register itself is a JavaScript app and was not readable; national and trade lists stand in.
+- Greece: all 33 PDOs and the full PGI list (114 names, matching the stated count, incl. retsina and Verdea) from the Wines of Greece appellations page (Firecrawl). Old Retsina kind merged into "Greece: PGI wines".
+- Switzerland: new kind of cantonal wine areas with communes (German Wikipedia); the 62-AOC federal list was not found.
+- Hungary: 22 regions plus 9 sub-region/large-area PDOs and 6 PGIs (Taste Hungary, 2023: 31 PDOs, 6 PGIs). Kőszeg, Füred and Mura PDOs (2025-26 news) not added.
+- Slovakia: all 40 districts; Czechia: six sub-regions only (municipalities sit in decree 254/2010, not fetched).
+- Cyprus: 5 PDOs and 4 PGIs (government Labels of Taste); Romania: 4 IGP regions added.
+- VDP Grosse Lage: only 5 sites on a fetched page (as versions); OeTW Erste Lage not fetchable (401).
+- Still missing: Bulgarian PDO/PGI (page 503/404), Romanian 33 DOC and 8 other IGP names, Slovenian and Croatian PDO lists, German Einzellagen. Totals: 33 kinds, 587 entries; check OK.
+
+## Remaining gaps
