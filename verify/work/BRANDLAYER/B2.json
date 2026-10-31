@@ -7,10 +7,13 @@
    "axis": "kind",
    "item": "Rugs & mats > Oriental knotted-pile rugs",
    "queries": [
-    "Hereke carpet makers; Persian rug workshops Tabriz; Jaipur Rugs; Tibetan carpets"
+    "Hereke carpet makers; Persian rug workshops Tabriz; Jaipur Rugs; Tibetan carpets",
+    "Caucasian rugs Kazak Shirvan specialist dealer antique",
+    "Afghan Baluch rugs Turkmen specialist dealer hand-knotted",
+    "Iranian carpet company Tabriz Qom hand-knotted manufacturer exporter"
    ],
-   "found": 9,
-   "note": "Persian/Afghan/Caucasian/Central Asian: retailer pages only, no maker brand evidenced; sellers recorded per 2026-10-31 rule"
+   "found": 17,
+   "note": "Persian/Afghan/Caucasian/Central Asian: retailer pages only, no maker brand evidenced; sellers recorded per 2026-10-31 rule | pass 3: Caucasian, Afghan, Baluch, Central Asian sellers and Aria Carpet (Iran)"
   },
   {
    "axis": "kind",
@@ -122,10 +125,12 @@
    "axis": "kind",
    "item": "Cushions & covers > Furnishing fabrics",
    "queries": [
-    "EPV tissu d'ameublement; Wallpaper Design Awards 2026"
+    "EPV tissu d'ameublement; Wallpaper Design Awards 2026",
+    "suzani Uzbekistan embroidery textiles artisans workshop Bukhara",
+    "kantha quilt artisans cooperative Bangladesh West Bengal"
    ],
-   "found": 6,
-   "note": "Zinc Textile, Toiles de Mayenne, Jouffre"
+   "found": 8,
+   "note": "Zinc Textile, Toiles de Mayenne, Jouffre | pass 3: Nazmiyal suzani; Kantha Bae"
   },
   {
    "axis": "kind",
@@ -211,10 +216,11 @@
    "axis": "region",
    "item": "Northern Europe",
    "queries": [
-    "Swedish Klippan; Nordic Knots"
+    "Swedish Klippan; Nordic Knots",
+    "Lithuania Latvia Estonia linen manufacturer heritage textiles"
    ],
    "found": 2,
-   "note": "Danish/Irish/Finnish makers not searched"
+   "note": "Danish/Irish/Finnish makers not searched | pass 3: Baltic query returned nothing (dropped by search limit); Baltic untested"
   },
   {
    "axis": "region",
@@ -229,19 +235,21 @@
    "axis": "region",
    "item": "Central & Eastern Europe",
    "queries": [
-    "Lithuania Poland Czech linen damask; Ukraine Gushka"
+    "Lithuania Poland Czech linen damask; Ukraine Gushka",
+    "Lithuanian linen Baltic linen manufacturer heritage"
    ],
    "found": 1,
-   "note": "Gushka only"
+   "note": "Gushka only | pass 3: nothing usable returned; Baltic textiles not evidenced"
   },
   {
    "axis": "region",
    "item": "Middle East",
    "queries": [
-    "Hereke; Persian rug workshops; Turkish towels"
+    "Hereke; Persian rug workshops; Turkish towels",
+    "Iranian carpet company Iran Tabriz Qom hand-knotted manufacturer"
    ],
-   "found": 2,
-   "note": "Persian maker brands not evidenced"
+   "found": 3,
+   "note": "Persian maker brands not evidenced | pass 3: Aria Carpet"
   },
   {
    "axis": "region",
@@ -265,10 +273,11 @@
    "axis": "region",
    "item": "South Asia",
    "queries": [
-    "Jaipur Rugs; Obeetee; Manglam Arts"
+    "Jaipur Rugs; Obeetee; Manglam Arts",
+    "kantha quilt artisans Bangladesh West Bengal seller"
    ],
-   "found": 5,
-   "note": ""
+   "found": 6,
+   "note": "pass 3: Kantha Bae; no Bengal maker"
   },
   {
    "axis": "region",
@@ -283,19 +292,21 @@
    "axis": "region",
    "item": "Southeast Asia",
    "queries": [
-    "Cambodian silk ikat; Jim Thompson"
+    "Cambodian silk ikat; Jim Thompson",
+    "Indonesian songket batik tulis home textile maker heritage"
    ],
-   "found": 1,
-   "note": "Thai/Indonesian songket/batik makers not evidenced"
+   "found": 3,
+   "note": "Thai/Indonesian songket/batik makers not evidenced | pass 3: Nusantara Heritage, La Tazha; Thai silk not retrieved"
   },
   {
    "axis": "region",
    "item": "Central Asia",
    "queries": [
-    "Uzbekistan Margilan ikat suzani"
+    "Uzbekistan Margilan ikat suzani",
+    "suzani Uzbekistan embroidery textiles workshop Bukhara"
    ],
-   "found": 0,
-   "note": "Tradition page only; no maker brand named"
+   "found": 1,
+   "note": "Tradition page only; no maker brand named | pass 3: only dealer Nazmiyal; no Uzbek maker brand"
   },
   {
    "axis": "region",
@@ -559,6 +570,44 @@
     "Bremworth",
     "Godfrey Hirst",
     "Dena Lawrence"
+   ]
+  },
+  {
+   "region": "Caucasus, Central Asia and Afghanistan",
+   "speciality": "Tribal knotted rugs: Kazak, Shirvan, Karabagh (Caucasus); Turkmen, Baluch, Ersari (Afghanistan, Central Asia); Uzbek suzani embroidery and ikat",
+   "src": "https://nazmiyalantiquerugs.com/uzbekistani/",
+   "brands": [
+    "Nazmiyal",
+    "Ararat Rugs",
+    "Rugistan",
+    "Aladdin Rugs",
+    "Al Safi Rug House",
+    "Yildiz Rugs"
+   ]
+  },
+  {
+   "region": "Bengal (Bangladesh and West Bengal)",
+   "speciality": "Nakshi kantha embroidered quilts; Jamalpur kantha registered as a Bangladeshi GI (2024 per BangladeshExport)",
+   "src": "https://www.aramcoworld.com/articles/2025/ma25/nakshi-kantha-tradition-and-identity-in-every-stitch",
+   "brands": [
+    "Kantha Bae"
+   ]
+  },
+  {
+   "region": "Indonesia",
+   "speciality": "Batik tulis, tenun ikat and songket (batik UNESCO 2009)",
+   "src": "https://modest.nusantaraheritage.com/",
+   "brands": [
+    "Nusantara Heritage",
+    "La Tazha"
+   ]
+  },
+  {
+   "region": "Iran",
+   "speciality": "Persian carpets, Tabriz and Qom designs",
+   "src": "https://ariacarpet.com/about-us/",
+   "brands": [
+    "Aria Carpet"
    ]
   }
  ],
@@ -892,6 +941,46 @@
    "new_names": 0,
    "status": "partial",
    "note": "M+A Matting WaterHog diamond mat is a tested pick; commercial matting maker; only excerpt seen, not taken"
+  },
+  {
+   "url": "https://nazmiyalantiquerugs.com/uzbekistani/",
+   "title": "Nazmiyal Uzbek textiles (and sister pages)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 6,
+   "status": "partial",
+   "note": "Six specialist rug sellers (Caucasian, Central Asian, Afghan, Baluch, suzani). Seen as Parallel search excerpts of the pages themselves, not raw-saved; no named maker found for Caucasian or Central Asian rugs (traditional village weaving)"
+  },
+  {
+   "url": "https://www.aramcoworld.com/articles/2025/ma25/nakshi-kantha-tradition-and-identity-in-every-stitch",
+   "title": "AramcoWorld nakshi kantha",
+   "kind": "encyclopedia",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "Kantha Bae seller; no Bangladeshi or Bengal maker brand obtained from a non-personal page"
+  },
+  {
+   "url": "https://modest.nusantaraheritage.com/",
+   "title": "Indonesian batik/songket sellers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "partial",
+   "note": "Ellylle is mainly fashion (not taken); Thai silk maker not retrieved"
+  },
+  {
+   "url": "https://ariacarpet.com/about-us/",
+   "title": "Aria Carpet about",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "Only Iranian maker page found; Persian hand-knotted Iranian maker brands otherwise not evidenced; Baltic linen makers query returned nothing usable"
   }
  ],
  "brands": [
@@ -1736,7 +1825,8 @@
    "src": "https://www.japanlifelab.com/best-japanese-towels-imabari-2026",
    "says": "Japan Life Lab 2026 guide (raw-verified): one of five best Japanese towel brands, smooth vivid colours, own Shirokane store; weak source",
    "country": "Japan",
-   "dept": "Towels"
+   "dept": "Towels",
+   "already": false
   },
   {
    "n": "REST",
@@ -1744,7 +1834,8 @@
    "src": "https://shopping.yahoo.com/health/sleep/articles/testing-over-215-pillows-were-150300812.html",
    "says": "REST Evercool Cooling Pillow: 2026 Good Housekeeping Bedding Award winner (raw-verified)",
    "country": "US",
-   "dept": "Pillows"
+   "dept": "Pillows",
+   "already": false
   },
   {
    "n": "Joias",
@@ -1752,7 +1843,8 @@
    "src": "https://www.domotex.de/en/press/press-releases/domotex/winner",
    "says": "Carpet Design Awards 2023 winner, Best Studio Artist Design (Omaggio a Maria Lai), Tortoli (Sardinia, IT); also floordaily.net and COVER magazine winners pages",
    "country": "Italy",
-   "dept": "Oriental/European rugs"
+   "dept": "Oriental/European rugs",
+   "already": true
   },
   {
    "n": "Saraswati Global",
@@ -1760,7 +1852,8 @@
    "src": "https://www.domotex.de/en/press/press-releases/domotex/winner",
    "says": "Carpet Design Awards 2023 winner, Best Modern Design Superior (Enclosure of Life), Jaipur IN; also COVER magazine",
    "country": "India",
-   "dept": "Oriental rugs"
+   "dept": "Oriental rugs",
+   "already": false
   },
   {
    "n": "Creative Matters",
@@ -1768,7 +1861,8 @@
    "src": "https://creativemattersinc.com/history",
    "says": "Own history page: won Domotex Carpet Design Award 2021 Best Flatweave (Stripes - Olive)",
    "country": "Canada",
-   "dept": "Flatweave rugs"
+   "dept": "Flatweave rugs",
+   "already": false
   },
   {
    "n": "Coyuchi",
@@ -1776,7 +1870,8 @@
    "src": "https://www.bhg.com/best-sheets-8646788",
    "says": "Better Homes & Gardens Best Sheets Tests, 12 winners: Coyuchi Organic Relaxed Linen Sheets, Best Splurge (French flax linen, no fading, pilling or shrinkage)",
    "country": "US",
-   "dept": "Bed linen"
+   "dept": "Bed linen",
+   "already": false
   },
   {
    "n": "Avocado Green Mattress",
@@ -1784,7 +1879,8 @@
    "src": "https://abcnews.com/GMA/Shop/good-housekeeping-2026-bedding-awards-picks-gma/story?id=131100690",
    "says": "Good Housekeeping 2026 Bedding Awards: Eco Organic Mattress Topper (testers unanimous sleep improved); also GH latex topper list and CNET toppers 'most sustainable'",
    "country": "US",
-   "dept": "Mattress toppers"
+   "dept": "Mattress toppers",
+   "already": false
   },
   {
    "n": "Nest Bedding",
@@ -1792,7 +1888,8 @@
    "src": "https://www.cnet.com/health/sleep/best-mattress-toppers/",
    "says": "CNET best mattress toppers 2026: Nest Bedding Cooling Topper named Best overall",
    "country": "US",
-   "dept": "Mattress toppers"
+   "dept": "Mattress toppers",
+   "already": false
   },
   {
    "n": "Bemz",
@@ -1800,7 +1897,8 @@
    "src": "https://bemz.com/en-gb/categories/home-textiles/curtains",
    "says": "Maker's own site: made-to-order slipcovers and curtains sewn in Europe, B Corp Certified, designer collaborations (Designers Guild, Romo); seen via search excerpt of own pages, no independent test",
    "country": "Sweden",
-   "dept": "Covers & slipcovers"
+   "dept": "Covers & slipcovers",
+   "already": false
   },
   {
    "n": "Comfort Works",
@@ -1808,7 +1906,8 @@
    "src": "https://thefurnishedreview.com/guides/ikea-soderhamn-cover-replacement",
    "says": "The Furnished Review compares slipcover makers Bemz, Comfort Works and Soferia for IKEA Soderhamn (reader-supported review site)",
    "country": "",
-   "dept": "Covers & slipcovers"
+   "dept": "Covers & slipcovers",
+   "already": false
   },
   {
    "n": "Lucy Fry Designs",
@@ -1816,7 +1915,8 @@
    "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
    "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)' independent homeware list; Swansea maker",
    "country": "UK",
-   "dept": "Cushions"
+   "dept": "Cushions",
+   "already": false
   },
   {
    "n": "Prints By Nature",
@@ -1824,7 +1924,8 @@
    "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
    "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)'; organic block-printed homeware label",
    "country": "UK",
-   "dept": "Cushions"
+   "dept": "Cushions",
+   "already": false
   },
   {
    "n": "Emodi",
@@ -1832,7 +1933,8 @@
    "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
    "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)'; designed by owner Egle",
    "country": "UK",
-   "dept": "Cushions"
+   "dept": "Cushions",
+   "already": false
   },
   {
    "n": "True Linen",
@@ -1840,7 +1942,107 @@
    "src": "https://www.wovenrosa.com/journal/20-handmade-cushions-independent-uk",
    "says": "Listed in Woven Rosa 'Best 20 Handmade Cushions (UK 2022)'; washed French/Scandinavian-style linen cushions",
    "country": "UK",
-   "dept": "Cushions"
+   "dept": "Cushions",
+   "already": false
+  },
+  {
+   "n": "Nazmiyal",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://nazmiyalantiquerugs.com/uzbekistani/",
+   "says": "Specialist antique-rug dealer with sections for Caucasian (Kazak, Shirvan, Karabagh), Central Asian, Afghan, Baluch rugs and Uzbek suzani and ikat textiles (page text seen via Parallel search excerpt of the page itself)",
+   "country": "US",
+   "dept": "Caucasian, Central Asian, Afghan, suzani",
+   "already": false
+  },
+  {
+   "n": "Ararat Rugs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.araratrugs.com/pages/oriental-rug-shirvan",
+   "says": "Sells Caucasian rugs (Shirvan, Kazak, Kuba) in a 'Caucasian rugs family' of pages (page text seen via Parallel search excerpt of the page itself)",
+   "country": "US",
+   "dept": "Caucasian rugs",
+   "already": false
+  },
+  {
+   "n": "Rugistan",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rugistan.com/collections/all-rugs",
+   "says": "Rug seller with collections Afghan, Baluch, Caucasian and Kazak, Persian, Turkish, kilim (page text seen via Parallel search excerpt of the page itself)",
+   "country": "US",
+   "dept": "Afghan, Baluch, Caucasian",
+   "already": false
+  },
+  {
+   "n": "Aladdin Rugs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.aladdinrugs.com/",
+   "says": "States 'We specialize in Afghan hand-knotted tribal rugs'; Baluch gallery (page text seen via Parallel search excerpt of the page itself)",
+   "country": "US",
+   "dept": "Afghan and Baluch rugs",
+   "already": false
+  },
+  {
+   "n": "Al Safi Rug House",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://alsafirughouse.com/",
+   "says": "Family seller shipping hand-knotted rugs woven in Kabul: Ersari, Baluch, Afghan Mauri (page text seen via Parallel search excerpt of the page itself)",
+   "country": "Afghanistan",
+   "dept": "Afghan and Baluch rugs",
+   "already": false
+  },
+  {
+   "n": "Yildiz Rugs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://yildizrugs.com/",
+   "says": "Production in Northern Afghanistan with weavers from the Turkmen tribe; Baluch, Gabbeh, Waziri rugs (page text seen via Parallel search excerpt of the page itself)",
+   "country": "Afghanistan",
+   "dept": "Afghan Turkmen rugs",
+   "already": false
+  },
+  {
+   "n": "Kantha Bae",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.aramcoworld.com/articles/2025/ma25/nakshi-kantha-tradition-and-identity-in-every-stitch",
+   "says": "AramcoWorld article on nakshi kantha: Kantha Bae, Tennessee company transforming kantha textiles (page text seen via Parallel search excerpt of the page itself)",
+   "country": "US",
+   "dept": "Kantha",
+   "already": false
+  },
+  {
+   "n": "Nusantara Heritage",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://modest.nusantaraheritage.com/",
+   "says": "Seller of handmade Indonesian batik tulis, tenun ikat and songket from Java, Sumatra, Bali, NTT (page text seen via Parallel search excerpt of the page itself)",
+   "country": "Indonesia",
+   "dept": "Batik, songket, ikat",
+   "already": false
+  },
+  {
+   "n": "Aria Carpet",
+   "layer": "cultural",
+   "src": "https://ariacarpet.com/about-us/",
+   "says": "Tehran company with 35+ years in machine-made Persian-pattern carpets, claims leading production and export (own page, no independent evidence)",
+   "country": "Iran",
+   "dept": "Machine-made rugs",
+   "already": false
+  },
+  {
+   "n": "La Tazha",
+   "layer": "cultural",
+   "src": "https://latazha.com/",
+   "says": "Indonesian home decor maker since 2012: bedding sets, table cloths, bed covers in batik tulis, tenun and songket (own page)",
+   "country": "Indonesia",
+   "dept": "Bedding, table linen",
+   "already": false
   }
- ]
+ ],
+ "next": "Baltic/Nordic textile makers; Heimtextil/Which?/Choice winner lists; Carpet Design Awards 2015,2016,2018,2019,2021(rest),2022,2025,2026 winners; blinds, poles, kitchen cloth, mats quality evidence; Thai silk; Persian makers in Iran"
 }
