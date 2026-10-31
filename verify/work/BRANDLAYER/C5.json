@@ -76,6 +76,36 @@
    "queries": [],
    "found": 0,
    "note": "NOT TRIED"
+  },
+  {
+   "axis": "kind",
+   "item": "Awards: Red Dot / iF / Good Design stationery",
+   "queries": [
+    "Red Dot writing instruments winners",
+    "iF writing instrument winners",
+    "Good Design stationery"
+   ],
+   "found": 1,
+   "note": "search only surfaced maker pages (SIGEL, Leuchtturm Drehgriffel Red Dot 2020/2022, Montblanc M Red Dot BotB 2016); no winner list fetched; red-dot.org search is JS filter URL"
+  },
+  {
+   "axis": "kind",
+   "item": "UK Stationery Awards 2024-2025",
+   "queries": [
+    "Stationery Awards 2025 winners"
+   ],
+   "found": 9,
+   "note": "2024,2025 done; 2022-2023 pages not located"
+  },
+  {
+   "axis": "kind",
+   "item": "Heritage: Royal Warrant, shinise",
+   "queries": [
+    "Royal Warrant stationers",
+    "Japanese shinise stationery"
+   ],
+   "found": 14,
+   "note": "Royal Warrant PDF excerpt only; Marchi Storici not located"
   }
  ],
  "regions": [
@@ -249,6 +279,46 @@
    "brands": [
     "TOZ Penkala",
     "Penkala"
+   ]
+  },
+  {
+   "region": "Japan (shinise stationers)",
+   "speciality": "long-established stationers and paper/calligraphy suppliers",
+   "src": "https://en.wikipedia.org/wiki/Kyukyodo",
+   "brands": [
+    "Kyukyodo",
+    "Itoya"
+   ]
+  },
+  {
+   "region": "United Kingdom (Royal Warrant)",
+   "speciality": "warranted stationers, printers, pen and handmade paper makers",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "brands": [
+    "Frank Smythson",
+    "Griffen Mill",
+    "The Wren Press",
+    "Parker Pen Company"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "papermaking since 1584 (Hahnemuhle), stationery design awards",
+   "src": "https://www.hahnemuehle.com/en/stationery/finenotes.html",
+   "brands": [
+    "Hahnemühle",
+    "SIGEL",
+    "Kaweco",
+    "Leuchtturm1917"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "papermaking since 1264 (Fabriano)",
+   "src": "https://fabriano.com/en/",
+   "brands": [
+    "Fabriano",
+    "Legami"
    ]
   }
  ],
@@ -527,6 +597,39 @@
    "note": "some categories elided by fetch",
    "new_names": 2,
    "known_confirmed": 3
+  },
+  {
+   "url": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "title": "Royal Warrant holders list 2026",
+   "kind": "heritage",
+   "years": "2026",
+   "names_on_page": 10,
+   "status": "partial",
+   "note": "fetch returned excerpts only; stationery-relevant holders listed",
+   "new_names": 11,
+   "known_confirmed": 0
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Kyukyodo",
+   "title": "Kyukyodo",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "status": "done",
+   "note": "",
+   "new_names": 0,
+   "known_confirmed": 1
+  },
+  {
+   "url": "https://www.ito-ya.co.jp/ext/lang/en/index.html",
+   "title": "Itoya",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 2,
+   "status": "done",
+   "note": "",
+   "new_names": 2,
+   "known_confirmed": 0
   }
  ],
  "brands": [
@@ -1713,6 +1816,110 @@
    "says": "Diary/Organiser of the Year 2025",
    "country": "UK",
    "dept": ""
+  },
+  {
+   "n": "Frank Smythson",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Suppliers of Stationery & Office Equipment",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "Griffen Mill",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Manufacturers of Archival Handmade Paper",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "The Wren Press",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Printers & Stationers",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "Langstane Press",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Printers & Stationers",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "Mount Street Printers and Stationers",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Printers",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "Barnard & Westwood",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Printers and Bookbinders",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "C.O.S. Office Supplies",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Stationery and Office Equipment Suppliers",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "Paragon Business Essentials",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Supplier of Stationery, Furniture and Printed Stationery",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "Parker Pen Company",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Manufacturers of Writing Instruments & Inks",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "OES (London)",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Supplier of Office Furniture and Equipment",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "G. Ryder & Co.",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder to the King/Queen (list May 2026): Specialist Box Makers",
+   "country": "UK",
+   "dept": ""
+  },
+  {
+   "n": "Itoya",
+   "layer": "cultural",
+   "src": "https://www.ito-ya.co.jp/ext/lang/en/index.html",
+   "says": "Ginza stationer founded 1904; own lines (ROMEO fountain pen 1914 revived 2009, Color Chart, Helvetica); Good Design Award 2016 building",
+   "country": "Japan",
+   "dept": "seller/own brand"
+  },
+  {
+   "n": "ROMEO (Itoya)",
+   "layer": "cultural",
+   "src": "https://www.ito-ya.co.jp/ext/lang/en/index.html",
+   "says": "Itoya fountain pen line launched 1914, revived 2009",
+   "country": "Japan",
+   "dept": "pens"
   }
  ]
 }
