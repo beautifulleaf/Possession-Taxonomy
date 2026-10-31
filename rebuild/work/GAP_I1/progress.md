@@ -4,3 +4,4 @@ step2 done: adds_02 emulator(xg), partition, remote desktop
 step3 done: adds_03 game engine, terminal, ssh, download manager
 step4 done: adds_04 encryption, eraser, OCR, PDF
 step5 done: adds_05 finance, disc burning, launcher, p2p
+step6 done: adds_06 packet, dictation, tts, ai coding

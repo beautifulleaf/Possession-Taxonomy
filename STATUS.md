@@ -376,3 +376,11 @@ Owner reads v30 and the session-13 owner queue above. Suggested follow-ups: reta
 ## Session 13, continued — named-entry standard (owner discussion)
 Owner decisions recorded in BRIEF.md ("Owner decisions 2026-10-31"). Pilot ARC_E5 (video game consoles) published as artifact v31–v32.
 Next: write the v4 brief (named-entry standard + market layer + No & low), then pilots in this order: J9 Soft Drinks & Water (market layer), J7 Wine, Beer & Spirits (appellations, styles, distilleries, No & low), A1 Clothing (patterns + brand market), then roll out by treatment group.
+
+## Session 13, 2026-10-31 (continued): completion to the owner's "nothing should be left unfinished"
+- All 57 categories have had the V4 named-entry pass; the heavy group ran in parts (tools/assemble_parts.py), clothing in five parts (garments with signature pieces, traditional dress by region with cloth link-outs, brand market register), vehicles with regional car add-ons (tools/merge_cars_add.py).
+- GAP passes (verify/in/GAP_COMMON.txt) close each category's open list; tools/gaps.py is the register. No loose models remain anywhere; every kind with entries has a coverage line except the categories whose gap pass is still running.
+- Page: one department at a time, compact cards, Copy button on every kind card (formatted like Culinary). Published v38.
+- Waiting on Firecrawl credits (about 21:00 UTC): verify/work/GEN/firecrawl_deferred.md (MoMA/Vitra furniture, EU eAmbrosia register, cognac houses, blocked brand pages). A reminder is scheduled.
+- Rules learnt this session and now in the briefs: one named level per kind; no template descriptions; long pages read in offset windows; never guess URLs; no alphabetical sections; use the whole fetch budget.
+- Next: finish the running gap passes (A5, H4, J8, I1, E1, E2, B1, B4, small commodity batch), start A1, A2, A3, A4, G1 gap passes, then the Firecrawl pass, then a final tools/gaps.py check and publish.

@@ -6,3 +6,4 @@ step4: apply3 done (coverage lines on all kinds, sections, Kyosho etc. pending a
 step5: report written; done
 round2 start: coordinator asked MediaWiki extracts for countries/owners (kits, diecast, toy soldiers, no-owner brands), sections by country, add Neocube/Giiker/Roco/Lima
 r2 batches 0-4 done (toy soldier makers: nearly all no article; facts.json holds results)
+r2: extracts via exact link titles from kit list done (facts_b.json); batches 0-9 earlier in facts.json. Next: links for List_of_model_car_brands, no-owner brands, Neocube/Giiker/Roco/Lima, apply, sections, report. fetches r2 so far ~25

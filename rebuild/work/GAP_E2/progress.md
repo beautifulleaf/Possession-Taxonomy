@@ -7,3 +7,5 @@ apply2 done (flies +, Cleto Reyes, Anaris, notes). next: Winning search/fetch, s
 apply3 done (Völkl, coverage-line wording); remaining: report
 report written; done
 ROUND2 started: owners via MediaWiki extracts, lines, target-sports market panel
+round2: owners fetched (5 API batches, Codan, Edelrid), lines fetched (ski, board, rods), market facts fetched; next apply4.py
+apply4 done (lines, owners, target ms); next: second owner pass if budget, report

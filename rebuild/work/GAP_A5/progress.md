@@ -1,3 +1,5 @@
 step0: read briefs, gaps analysis; A5.json has 863 entries, 0 m; wrist kinds lack coverage lines (sel ends w/ Watchbase text); backups in bak/
 step1 done: Wikidata Q178794 (246 items, mostly museum objects) + Category:Watch models read; missing in-scope: Amfibia (Vostok 1967), Movado Ermeto (1926-85). Tour de l'Ile: Wikidata item has no facts -> not added. Junghans Mega, W.W.W. already present.
 step2: read Longines/Tissot/Panerai/Hamilton/Zenith/Seiko/Citizen/Vacheron wiki; to add: Amfibia, Ermeto, BeLOWZERO, Vantage, Pearl, Wood, PR516, Longines flyback 1934, Tour de l'Ile 2005 + Seiko/Citizen gaps
+step3: owner fetches done: Chopard(Scheufele 1963), GP(Sowind), Doxa(Jenny/Walca 1997), Glycine(Invicta 2016), UG(Breitling SA 2023), Waltham(DiBenedetto 2011), GF(private,Richemont minority 2006); Nomos/Tutima not stated; Sellita, ChristopherWard 404 -> search
+step4: Sellita (searched: 'Sellita owner Miguel Garcia'; wiki page no owner), CW London Holdings 2014, Vostok Watch Factory LTD, Baltic indie/Malec fetched
