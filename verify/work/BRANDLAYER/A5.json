@@ -1,6 +1,6 @@
 {
  "cat": "A5",
- "status": "partial",
+ "status": "done",
  "brand_led": true,
  "sources": [
   {
@@ -89,7 +89,7 @@
    "kind": "encyclopedia",
    "years": "n/a",
    "names_on_page": 708,
-   "new_names": 347,
+   "new_names": 350,
    "status": "done",
    "note": "Raw table parsed (708 rows); movement makers, groups, individuals excluded; 254 candidates already known"
   },
@@ -140,8 +140,28 @@
    "years": "2025",
    "names_on_page": 17,
    "new_names": 0,
-   "status": "partial",
+   "status": "blocked",
    "note": "Ranking is an image chart; text names only Rolex Cartier AP Patek Omega Richard Mille Longines Swatch Hamilton Blancpain Breguet Panerai Roger Dubuis Zenith Girard-Perregaux Franck Muller Christopher Ward - all known; 0 candidates already known"
+  },
+  {
+   "url": "n/a",
+   "title": "PDO/PGI producer lists: no protected designation covers watches/clocks except Swiss Made (legal label, no brand list) and Besançon/Black Forest cuckoo clocks (no producer register fetched)",
+   "kind": "pdo",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tried-but-empty"
+  },
+  {
+   "url": "n/a",
+   "title": "Museum/design collection holdings: not tried (would yield models, not brands)",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tried-but-empty"
   }
  ],
  "brands": [
@@ -2236,6 +2256,16 @@
    "pending_retail": true
   },
   {
+   "n": "Bethge & Söhne",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Liste_von_Uhrenherstellern",
+   "says": "Listed in German Wikipedia \"Liste von Uhrenherstellern\"",
+   "country": "Deutschland",
+   "dept": "watches",
+   "already": false,
+   "pending_retail": false
+  },
+  {
    "n": "Bifora",
    "layer": "cultural",
    "src": "https://de.wikipedia.org/wiki/Liste_von_Uhrenherstellern",
@@ -3096,6 +3126,16 @@
    "pending_retail": false
   },
   {
+   "n": "Guinand Watch Co S.A.",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Liste_von_Uhrenherstellern",
+   "says": "Listed in German Wikipedia \"Liste von Uhrenherstellern\"",
+   "country": "Schweiz",
+   "dept": "watches",
+   "already": false,
+   "pending_retail": false
+  },
+  {
    "n": "H. Barbezat-Bôle SA",
    "layer": "cultural",
    "src": "https://de.wikipedia.org/wiki/Liste_von_Uhrenherstellern",
@@ -3131,6 +3171,16 @@
    "src": "https://de.wikipedia.org/wiki/Liste_von_Uhrenherstellern",
    "says": "Listed in German Wikipedia \"Liste von Uhrenherstellern\"",
    "country": "Großbritannien",
+   "dept": "watches",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Hasler & Co.",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Liste_von_Uhrenherstellern",
+   "says": "Listed in German Wikipedia \"Liste von Uhrenherstellern\"",
+   "country": "Schweiz",
    "dept": "watches",
    "already": false,
    "pending_retail": false
