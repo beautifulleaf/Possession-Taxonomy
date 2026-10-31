@@ -18,3 +18,4 @@ wd6.txt = wikidata series+motorcycle classes (extra ~225 rows). Concerns: out-of
 wp_india.txt (Bajaj/KTM/Hero/TVS from Wikipedia company pages & KTM cat). fetches ~53. Next: Vespa page + market share pages
 marques.txt written (owner/tier table). fetches ~62; no more fetching. next: build.py in work dir producing rebuild/out/G1_parts/MOTO.json
 build.py run OK, part file written & validated. remaining: sources.tsv, report
+REVISION 2 started: restore type kinds, wikidata owners, finish Honda table, US/world shares. v1 backups in bak2/
