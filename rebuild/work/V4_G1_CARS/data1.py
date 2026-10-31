@@ -89,3 +89,8 @@ D['MG']=('SAIC Motor','United Kingdom','2007', 'Global group',
 "C:Mulan|H:=MG3 (automobile);=MG4 EV;Metro;Maestro;1100;1300;Comet EV;=MGS6 EV;ZR;ZS (2001)|S:=MG6 (automobile);=MG5 (automobile);ZA;ZB;ZT;Magnette;Majestor;Montego;Princess;=MG7;Sports Sedan;WA;VA;SA;14/28;14/40;18/80;Express;Extender;One|X:GT;MGA;MGB;MGC;=MGB Roadster;RV8;TF (2002-2011);F / MG TF|R:Midget;Magic Midget;TA Midget;TB Midget;TC Midget;TD Midget;TF Midget;Cyberster;XPower SV|U:ZS (crossover);HS;Hector;Astor;4X;07 (vehicle);=MGS5 EV;GS;Marvel R|M:Mifa 9;iEV12")
 D['Rolls-Royce']=('BMW Group','United Kingdom','2003', 'Global group',
 "L:Silver Ghost;Silver Cloud;Silver Dawn;Silver Shadow;Silver Spirit;Silver Spur;Silver Seraph;Silver Wraith;Silver Wraith II;Twenty;20/25;25/30;40/50 hp;30 hp;Wraith (1938);10 hp;15 hp;20 hp (1905);V-8 (1905);=Rolls-Royce Phantom VII;Park Ward|G:Camargue;Corniche;Corniche (2000)|Y:100EX")
+D['Rolls-Royce#2']=('BMW Group','United Kingdom','2003', 'Global group',
+"L:Ghost;Phantom;Silent Shadow|U:Cullinan|V:Dawn|X:Wraith (2013)|G:Spectre|c:Boat Tail;Droptail;Sweptail")
+D['Alfa Romeo']=('Stellantis','Italy','', 'Global group',
+"H:145;146;147;33;Alfasud;Alfasud Sprint;Arna;MiTo;Junior (2024);Giulietta (2010);Giulietta (1977)|S:75;90;155;156;159;164;166;1750 Berlina;1900;2000;2000 Berlina;2300;2600;Alfa 6;Alfetta;Giulia;Giulia (2015);Giulietta (1954);Giulietta;Dauphine;6C;8C|X:Sprint;Sprint Veloce;GT;GT 1300 Junior;GTA;GTV 2.0;2000 GTV;105/115 Series Coupés;Giulia TZ;Giulietta Sprint Speciale;Montreal;Brera and Spider|R:Spider;GTV and Spider;2000 Spider Veloce|P:4C;SZ;33 Stradale;8C Competizione;RZ;2000 Sportiva|Z:33 Stradale (2023)|U:Stelvio;Tonale|O:Matta")
+D['Tesla']=D.pop('Tesla')

@@ -246,6 +246,55 @@ ADDV={ ('Biker jacket','Schott Perfecto'):[
 }
 ROLE={'Burberry Heritage trench':'origin','Aquascutum trench':'origin','Mackintosh':'origin',"Levi's Type I (506XX)":'origin',
  'Baracuta G9':'origin','Yokosuka sukajan':'origin','Dinner jacket':'origin','Bleu de travail':'origin'}
+
+# ---- continuation: restored pieces (data/named_forms.tsv pages) and brand pages fetched in the second pass
+RJ=json.load(open(R+'rebuild/work/V4_A1_OUTER/restore.json'))
+EXC=RJ['excountry']
+for r in RJ['entries']:
+    NEW.setdefault(r['kind'],[]).append(E(r['n'],r['mk'],'','',s=r['s']))
+for r in RJ['vers']:
+    par=r['parent']
+    if par: ADDV.setdefault((r['kind'],par),[]).append({'n':r['n'],'mk':r['mk'],'y':'','d':''})
+def M(kind,n,mk,y,d,s,**kw): NEW.setdefault(kind,[]).append(E(n,mk,y,d,s,**kw))
+M('Business suit','Ossie Clark Lamborghini trouser suit','Ossie Clark','1969','Cotton satin trouser suit with a Celia Birtwell print; Clark was among the first to produce trouser suits for women.','https://collections.vam.ac.uk/item/O86592/lamborghini-trouser-suit-clark-ossie/')
+M('Trench coat',"Nobis Nord Men's Tailored Trench Coat",'Nobis','','Down trench coat with an Embrace membrane laminated construction.','https://us.nobis.com/products/nord-mens-tailored-trench-coat')
+M('Waxed cotton jacket','Barbour Classic Northumbria','Barbour','','Heavyweight 8oz Sylkoil waxed cotton outer.','https://www.barbour.com/gb/classic-northumbria%C2%AE-waxed-jacket-MWX0009OL91.html')
+M('Waxed cotton jacket','Barbour Corbridge','Barbour','','Made from 6oz Sylkoil waxed cotton.','https://www.barbour.com/gb/corbridge-waxed-jacket-MWX0340RU94.html')
+M('Puffer coat','Patagonia Jackson Glacier','Patagonia','','Insulated with 700-fill-power recycled down.','https://www.patagoniabend.com/collections/jackson-glacier')
+M('Puffer coat','Outdoor Research Coze Down Parka','Outdoor Research','','240 grams of 700-fill down insulation.','https://www.outdoorgearlab.com/reviews/clothing-womens/winter-jacket-womens/outdoor-research-coze-down-parka')
+M('Puffer coat','Fjallraven Nuuk Parka','Fjällräven','','Supreme Micro Loft padding; previously known as the Yupik parka.','https://www.nordicoutdoor.co.uk/products/fjallraven-mens-nuuk-parka')
+M('Puffer jacket','Eddie Bauer CirrusLite Hooded','Eddie Bauer','','Uses 650 fill power down.','https://www.outdoorgearlab.com/reviews/clothing-mens/down-jacket-men/eddie-bauer-cirruslite-hooded')
+M('Puffer jacket','Decathlon Simond MT100','Decathlon','','Insulated with 800-fill-power down.','https://www.outdoorgearlab.com/reviews/clothing-mens/down-jacket-men/decathlon-simond-mt100-hooded-puffer')
+M('Puffer jacket','Stio Hometown Down Hooded Jacket','Stio','','Insulated with 800-fill down.','https://elevationoutdoors.com/?p=44444')
+M('Fleece jacket & pullover',"Arc'teryx Kyanite Lightweight Hoody","Arc'teryx",'','Weighs 10.8 ounces in a men\'s medium.','https://www.outdoorgearlab.com/reviews/clothing-mens/fleece-jacket-men/arcteryx-kyanite-lightweight-hoody')
+M('Flight jacket','Type A1 flight jacket','Chapal','1925','Leather flight jacket created by Chapal in 1925 and standard US military issue from 1927.',W+'Leather_jacket')
+M('Leather & suede jacket','Eight-ball jacket','','1990s','Leather jacket that was briefly trendy in the 1990s.',W+'Leather_jacket')
+M('Cut-off vest','Battle jacket','','','Leather or denim jacket developed by the early punk movement.',W+'Leather_jacket')
+M('Tailcoat','Mess jacket','','','Short formal jacket named with the tailcoat among formal day and evening wear.',W+'Tuxedo')
+M('Blazer','Teba jacket','','','Jacket type named among black-tie alternatives.',W+'Tuxedo')
+EXTRA.update({'Outdoor Research':('United States',''),'Decathlon':('France',''),'Stio':('United States',''),'Nobis':('Canada',''),'Ossie Clark':('United Kingdom',''),'Chapal':('France',''),'John Askin Jr.':('United States','')})
+for k_,v_ in EXC.items():
+    if v_: EXTRA.setdefault(k_,(v_,''))
+OWN.update({
+ 'Schott NYC':('Schott family','Independent',''),'Burberry':('Burberry Group plc','Independent',''),
+ 'Canada Goose':('Bain Capital and others','Independent','2013'),'Barbour':('J. Barbour & Sons Limited (family)','Independent',''),
+ 'Carhartt':('Carhartt (Hamilton Carhartt descendants)','Independent',''),'Dickies':('Bluestar Alliance','Independent','2025'),
+ 'Belstaff':('Castore','Independent','2025'),'Pendleton Woolen Mills':('Pendleton Woolen Mills (privately held)','Independent',''),
+ 'Lee':('Kontoor Brands','Global group','2019'),'Wrangler':('Kontoor Brands','Global group','2019'),
+ 'Uniqlo':('Fast Retailing','Global group',''),'Moncler':('Moncler','Global group',''),
+ "Arc'teryx":('Amer Sports','Global group',''),'Stubbies':('Workwear Group','Independent',''),
+ 'Fjällräven':('Fenix Outdoor International AG','Independent',''),'Rab':('Equip Outdoor Technologies','Independent',''),
+})
+DPATCH={ # (kind,entry) -> (d, y)
+ ('Biker jacket','Schott Cafe Racer'):('Single-rider jacket with a stand collar; Peter Fonda wore a cafe racer style jacket in Easy Rider (1969).',''),
+ ('Trench coat','Sanyo Shokai 100-Year Coat'):('Brand name 100 Year Coat in Sanyo Shokai\'s list of brands.',''),
+ ('Waxed cotton jacket','Lewis Leathers Aviakit Wax Cotton Jacket'):('Wax cotton jacket from the Aviakit range, which Lewis Leathers introduced in 1930.','1930'),
+ ('Business suit','Kariba suit'):('Jamaican suit; Ivy Ralph\'s Kareeba suit joined The Met\'s collection (2025).','2025'),
+ ('Mackinaw','Pendleton 49er'):('Women\'s wool jacket from the 1949 women\'s sportswear line; it proved extremely popular.','1949'),
+ ('Mackinaw','Swanndri bush shirt'):('Original long heavy bush shirt of the brand: a hooded woollen garment known as the swanny.',''),
+ ('Boiler suit','Lee Union-All'):('Work jumpsuit introduced in 1913 that prompted the company\'s growth.','1913'),
+ ('Work trousers','Stubbies workwear shorts'):('Stubbies shorts were first introduced in Australia in 1972; the range later grew to include workwear.','1972'),
+}
 SEEMIL=['E4','Militaria & replicas','issued military kit is not bought by owners; surplus and replicas are listed here']
 SEEKINDS={'Flight jacket','Field jacket','Deck jacket'}
 EXCL_G={'Named forms without a brand'}
@@ -286,6 +335,10 @@ for dp in A['depts']:
                 if ne.get('g'): ent['_g']=ne['g']
                 ents.append(ent)
             for e in ents:
+                dp_=DPATCH.get((k['n'],e['n']))
+                if dp_:
+                    e['d']=dp_[0]
+                    if dp_[1]: e['y']=dp_[1]
                 e.pop('dt',None) if False else None
                 mk=(e.get('mk') or '').split(',')[0].strip()
                 c=None
