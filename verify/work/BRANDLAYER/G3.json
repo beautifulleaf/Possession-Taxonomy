@@ -2,8 +2,379 @@
  "cat": "G3",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Kitchen > Units, worktops & sinks",
+   "queries": [
+    "KBB Readers' Choice 2026",
+    "BKU Awards 2025/2026",
+    "Homes & Gardens Design Awards 2025"
+   ],
+   "found": 40,
+   "note": "cabinetry, worktops, sinks, taps"
+  },
+  {
+   "axis": "kind",
+   "item": "Bath & wellness > Baths/basins/taps/comfort",
+   "queries": [
+    "KBB Readers' Choice",
+    "BKU",
+    "H&G"
+   ],
+   "found": 20,
+   "note": "shower, sanitaryware, vanities"
+  },
+  {
+   "axis": "kind",
+   "item": "Bath & wellness > Saunas & steam rooms",
+   "queries": [
+    "wood sauna stove review",
+    "sauna heater brands"
+   ],
+   "found": 5,
+   "note": "Narvi, Kuuma, Nippa, Stoveman, Finnleo; steam room/tadelakt: Tadelakt Marrakesh"
+  },
+  {
+   "axis": "kind",
+   "item": "Living > Fireplaces & stoves",
+   "queries": [
+    "masonry heater / Kachelofen search",
+    "Tulikivi"
+   ],
+   "found": 2,
+   "note": "only Tulikivi and Stovemason fetched; Jotul, Morso, Contura, Stuv already known; Scandinavian stove award lists not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Structure > Doors & windows",
+   "queries": [
+    "Wikipedia Category:Window manufacturers"
+   ],
+   "found": 13,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Home systems > Heating & radiators, heat pumps, hot water",
+   "queries": [
+    "Which? boilers",
+    "Wikipedia HVAC companies"
+   ],
+   "found": 21,
+   "note": "Which? table paywalled"
+  },
+  {
+   "axis": "kind",
+   "item": "Home systems > Water treatment, ventilation, solar, smart home",
+   "queries": [
+    "(not run)"
+   ],
+   "found": 0,
+   "note": "UNTRIED: next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Home systems > Switches, sockets, wiring",
+   "queries": [
+    "(not run)"
+   ],
+   "found": 0,
+   "note": "UNTRIED: Jung/Gira/Berker known; Legrand, MK, Clipsal, HPM, Eaton new but need a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Structure > Stairs, lifts, flooring, fitted storage; Outdoor garden buildings, pools; Built-in lighting",
+   "queries": [
+    "(not run beyond MOVES_C8 flooring)"
+   ],
+   "found": 0,
+   "note": "UNTRIED"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "via category lists above"
+   ],
+   "found": 0,
+   "note": "partial: covered only through award/Wikipedia lists, no dedicated regional search"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "(not run)"
+   ],
+   "found": 0,
+   "note": "UNTRIED"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "(not run)"
+   ],
+   "found": 0,
+   "note": "UNTRIED"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "(not run)"
+   ],
+   "found": 0,
+   "note": "AKFA via Wikipedia window category only"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "(not run)"
+   ],
+   "found": 0,
+   "note": "UNTRIED"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Finland / Nordics",
+   "speciality": "wood-fired sauna heaters and soapstone fireplaces",
+   "src": "https://saunamarketplace.com/best-wood-sauna-stoves/",
+   "brands": [
+    "Harvia",
+    "Narvi",
+    "Tulikivi",
+    "HUUM",
+    "Tylö",
+    "Helo"
+   ]
+  },
+  {
+   "region": "Estonia",
+   "speciality": "wood-burning sauna stoves (HUUM, Stoveman)",
+   "src": "https://saunamarketplace.com/best-wood-sauna-stoves/",
+   "brands": [
+    "HUUM",
+    "Stoveman"
+   ]
+  },
+  {
+   "region": "North America (US Upper Midwest)",
+   "speciality": "cast/welded wood sauna stoves built to last decades",
+   "src": "https://saunamarketplace.com/best-wood-sauna-stoves/",
+   "brands": [
+    "Lamppa Kuuma",
+    "Nippa",
+    "Finnleo"
+   ]
+  },
+  {
+   "region": "Morocco / North Africa",
+   "speciality": "tadelakt waterproof lime plaster for baths and hammams",
+   "src": "https://tadelaktmarrakesh.com/tadelakt-bathroom.php",
+   "brands": [
+    "Tadelakt Marrakesh"
+   ]
+  },
+  {
+   "region": "Central Europe (Austria, Germany)",
+   "speciality": "tiled stoves (Kachelofen, Grundofen) and masonry heaters",
+   "src": "https://www.stovemason.com/about",
+   "brands": [
+    "Stovemason Masonry Heater Builders"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "British kitchen, bathroom and hardware makers (awarded 2025-2026)",
+   "src": "https://www.homesandgardens.com/interior-design/the-annual-homes-and-gardens-design-awards-shine-a-spotlight-on-the-most-inspiring-kitchen-and-bathroom-designs-here-are-our-winners",
+   "brands": [
+    "Blakes London",
+    "Ledbury Studio",
+    "Pluck",
+    "Armac Martin",
+    "Matki",
+    "Drummonds",
+    "Fired Earth",
+    "Wodar",
+    "Foresso",
+    "Worcester Bosch",
+    "Ideal"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "design kitchens and professional ranges",
+   "src": "https://www.homesandgardens.com/interior-design/the-annual-homes-and-gardens-design-awards-shine-a-spotlight-on-the-most-inspiring-kitchen-and-bathroom-designs-here-are-our-winners",
+   "brands": [
+    "Boffi",
+    "Officine Gullo"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "complete kitchens, sanitaryware and boilers",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "brands": [
+    "Schüller",
+    "Nobilia",
+    "Duravit",
+    "Vaillant",
+    "Viessmann",
+    "Blum"
+   ]
+  },
+  {
+   "region": "East Asia (Japan, Korea, China)",
+   "speciality": "air conditioning and heat pumps",
+   "src": "https://en.wikipedia.org/wiki/Category:Heating,_ventilation,_and_air_conditioning_companies",
+   "brands": [
+    "Daikin",
+    "Mitsubishi Electric",
+    "Panasonic",
+    "Hitachi",
+    "Toshiba",
+    "Fujitsu General",
+    "LG",
+    "Samsung",
+    "Gree",
+    "Midea"
+   ]
+  },
+  {
+   "region": "South Asia",
+   "speciality": "air conditioning and heating",
+   "src": "https://en.wikipedia.org/wiki/Category:Heating,_ventilation,_and_air_conditioning_companies",
+   "brands": [
+    "Voltas",
+    "Thermax"
+   ]
+  },
+  {
+   "region": "Oceania",
+   "speciality": "evaporative and air conditioning",
+   "src": "https://en.wikipedia.org/wiki/Category:Heating,_ventilation,_and_air_conditioning_companies",
+   "brands": [
+    "Seeley International",
+    "Temperzone"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "cabinetry, faucets, windows",
+   "src": "https://kbbonline.com/awards/readers-choice-awards",
+   "brands": [
+    "Dura Supreme",
+    "KraftMaid",
+    "Brizo",
+    "ROHL",
+    "Blanco",
+    "Pella",
+    "Andersen Windows",
+    "Kohler"
+   ]
+  },
+  {
+   "region": "Eastern Europe",
+   "speciality": "plastic window systems",
+   "src": "https://en.wikipedia.org/wiki/Category:Window_manufacturers",
+   "brands": [
+    "Oknoplast",
+    "Eko-Okna"
+   ]
+  },
+  {
+   "region": "Central Asia",
+   "speciality": "windows (Uzbekistan)",
+   "src": "https://en.wikipedia.org/wiki/Category:Window_manufacturers",
+   "brands": [
+    "AKFA"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://kbbonline.com/awards/readers-choice-awards",
@@ -11,7 +382,7 @@
    "kind": "award",
    "years": "2026",
    "names_on_page": 34,
-   "new_names": 0,
+   "new_names": 33,
    "status": "done",
    "note": "1 already in register"
   },
@@ -21,7 +392,7 @@
    "kind": "award",
    "years": "2026",
    "names_on_page": 15,
-   "new_names": 0,
+   "new_names": 12,
    "status": "done",
    "note": "2 already in register"
   },
@@ -41,7 +412,7 @@
    "kind": "encyclopedia",
    "years": "n/a",
    "names_on_page": 13,
-   "new_names": 0,
+   "new_names": 12,
    "status": "done",
    "note": "1 already in register"
   },
@@ -51,7 +422,7 @@
    "kind": "encyclopedia",
    "years": "n/a",
    "names_on_page": 46,
-   "new_names": 0,
+   "new_names": 18,
    "status": "done",
    "note": "industrial/commercial-only members (AAON, Bitzer, Thermo King etc.) left out 28 already in register"
   },
@@ -74,6 +445,46 @@
    "new_names": 9,
    "status": "done",
    "note": "4 already in register"
+  },
+  {
+   "url": "https://bkuawards.co.uk/2025-winners",
+   "title": "BKU Awards 2025 winners",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 14,
+   "new_names": 6,
+   "status": "done",
+   "note": "5 already in register"
+  },
+  {
+   "url": "https://tulikivi.com/en_gb/at-the-heart-of-tulikivi/",
+   "title": "Tulikivi: at the heart of Tulikivi",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker page, existence only 0 already in register"
+  },
+  {
+   "url": "https://www.stovemason.com/about",
+   "title": "Stovemason about",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller/builder 0 already in register"
+  },
+  {
+   "url": "https://tadelaktmarrakesh.com/tadelakt-bathroom.php",
+   "title": "Tadelakt Marrakesh bathroom page",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller of a traditional craft 0 already in register"
   }
  ],
  "brands": [
@@ -788,6 +1199,80 @@
    "says": "Homes & Gardens Design Awards 2025 winner, best bathroom fitting (EauZone Arch wet room panel)",
    "country": "UK",
    "dept": "shower enclosure"
+  },
+  {
+   "n": "Flair Showers",
+   "layer": "premium",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025 winner best shower brand",
+   "country": "UK",
+   "dept": "showers"
+  },
+  {
+   "n": "Utopia",
+   "layer": "premium",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025 winner best bathroom furniture brand (Utopia Bathrooms)",
+   "country": "UK",
+   "dept": "bathroom furniture"
+  },
+  {
+   "n": "Miro",
+   "layer": "premium",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025 highly commended appliance brand",
+   "country": "UK",
+   "dept": "appliances"
+  },
+  {
+   "n": "Schüller",
+   "layer": "premium",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025 winner best complete kitchen brand",
+   "country": "Germany",
+   "dept": "fitted kitchen"
+  },
+  {
+   "n": "Aria Stone",
+   "layer": "premium",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025 highly commended work surface brand",
+   "country": "UK",
+   "dept": "worktops"
+  },
+  {
+   "n": "Uform",
+   "layer": "premium",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025 highly commended component brand",
+   "country": "UK",
+   "dept": "kitchen components"
+  },
+  {
+   "n": "Tulikivi",
+   "layer": "premium",
+   "src": "https://tulikivi.com/en_gb/at-the-heart-of-tulikivi/",
+   "says": "maker's own page: soapstone fireplaces and sauna heaters from Finland; roots in Suomen Vuolukivi Oy founded 1893; claims 300,000 homes heated (maker claim, existence only)",
+   "country": "Finland",
+   "dept": "masonry heater"
+  },
+  {
+   "n": "Stovemason Masonry Heater Builders",
+   "layer": "cultural",
+   "src": "https://www.stovemason.com/about",
+   "says": "UK builder of Kachelofen, Grundofen, Kakelugn and Tulikivi stoves; HETAS registered; member of Masonry Heater Association of North America, French AFPMA and Austrian Kachelofen Association (role seller/builder)",
+   "country": "UK",
+   "dept": "masonry heater / tiled stove",
+   "role": "seller"
+  },
+  {
+   "n": "Tadelakt Marrakesh",
+   "layer": "cultural",
+   "src": "https://tadelaktmarrakesh.com/tadelakt-bathroom.php",
+   "says": "Marrakech tadelakt workshop/seller: Berber craftsmen apply tadelakt under a Maalem (master craftsman), for bathrooms and hammams (role seller)",
+   "country": "Morocco",
+   "dept": "tadelakt / hammam",
+   "role": "seller"
   }
  ],
  "cross_tag": [
@@ -924,6 +1409,15 @@
    "src": "https://en.wikipedia.org/wiki/Category:Heating,_ventilation,_and_air_conditioning_companies",
    "says": "Wikipedia category member (Samsung Electronics)",
    "layer": "cultural"
+  },
+  {
+   "n": "Calypso",
+   "register_cats": [
+    "A5"
+   ],
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025 highly commended bathroom furniture",
+   "layer": "premium"
   }
  ]
 }
