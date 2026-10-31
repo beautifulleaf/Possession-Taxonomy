@@ -28,3 +28,14 @@ validate.py --v3 OK (142 kinds). Backups in work/GAP_J8/bak/. About 23 fetches; 
 - Saudi 2001 Tasali/PepsiCo 45% share: foodnavigator 404, Progressive Grocer 403; logged in firecrawl_deferred.md, as is lsa-conso.fr (French sweets).
 
 **5. Sections.** Every entry in every kind with `xg` already has `g`; all kinds over 12 entries have `xg`. No change.
+
+## Round 2
+About 40 further fetches (13 MediaWiki extract calls, 4 list pages, 12 share pages). validate.py --v3 OK (142 kinds).
+
+**Lists read to their end:** List of confectionery brands (286 rows), List of ice cream brands (150 rows), List of brand name breads (27 rows) and the snack, popcorn, nut and cracker rows of List of brand name food products. The separate "List of brand name snack foods" page could not be found by search (only an archive mirror, not used).
+**Added 88 entries** under their flagship kind with owner, tier and country from the list or the brand's intro: sweets and chocolate 41 (Allen's, Brach's, Ferrero Rocher, Heath, Hot Tamales, Rowntree's Fruit Gums, Tootsie Pop family and others), ice cream 26 (Good Humor, Kibon, Paddle Pop, Ben & Jerry's, regional dairies), bread 14 (Wonder Bread, Tip Top, King's Hawaiian, Lender's, Wibs), snacks 15 (popcorn, Cheezies, San Nicasio, Twiglets, Nobby's). 52 owner stubs added to the register. Loaf & Bundt cake gained its first entry (Entenmann's).
+**Left out:** company names with no product brand (Arcor, Storck, Ferrara, Tangerine, Froneri), parlour and shop chains, defunct brands (Hippy Sippy, Ipso, Milkfuls, McCowan's, Texan, Tudor Crisps), generic sweet names (Humbugs, Wine gum), and items without a kind (Peperami, Slim Jim: no meat-snack kind; Nutella: J5).
+
+**Share markets, second attempt**
+- Germany biscuits: Bahlsen market leader with rising share, 2015 (Lebensmittelzeitung, no figure); the 11.7 % excerpt came from a PDF that now redirects.
+- UK biscuits, France bread (Harrys about 36 % volume, Jacquet about 15 %, seen only in a search excerpt), Brazil snacks, Japan (Meiji 10 %, Lotte 9 % in 2021, seen only in a Statista excerpt): no fetched page states a figure. Pladis, Meiji, Barilla and Bimbo annual reports were searched for; none was found with a share. Blocked pages are in firecrawl_deferred.md.
