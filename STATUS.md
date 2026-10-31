@@ -345,3 +345,16 @@ Owner reads the reader page and the queue; moves between categories change the t
 ## Session 13 (2026-10-31) — one line of work: the rebuild joins main
 - The live artifact (https://claude.ai/artifact/C1cQq1ygVd7bWfw7Duem6n, v28) was built from branch `claude/toy-organization-system-mapqhu`, whose history is unrelated to main's. Merged into main keeping main's files and adding `rebuild/` (all of it), the AUD3 audits and FIX/E1PZ prompts, and the 2026-10-28 owner decisions in BRIEF.md. Both histories are kept; nothing rewritten.
 - From here the live taxonomy is `rebuild/` (57 categories, 7,811 kinds at v28): start with rebuild/HANDOVER.md, rebuild/RULES.md (binding owner rules), SCHEMA.md, FINDINGS.md. CLAUDE.md updated to say so. data/*.tsv and tools/ are the frozen stage-3 pipeline.
+- Framework v0.8 (framework/CATEGORIES_v0_8.md, framework/key_v0_8.json): the 57 rebuild categories, each with a membership test and precedence sentences, a 62-question placement key and a change table against v0.7.1. The reader page shows it under "How to place" and on each category ("Belongs here", "Key to this category").
+- Structure pass STR (verify/in/STR_COMMON.txt, owner: a shelf should read like Culinary's Stews): every department gets a test and an axis, every shelf a definition and an axis, types grouped by named axes (`tt`), generic archetypes demoted, missing kinds added against a fetched reference per shelf, cross-links (`see`). Pilot E1 done (fidgets by what the hand does); rollout to the other 56 categories running.
+
+## Owner queue (session 13, from framework v0.8)
+1. BRIEF.md scope still says all animals are out; RULES.md makes living animals possessions via a breeds register. v0.8 follows RULES. Confirm the BRIEF line is superseded.
+2. With titles out, I2 has no shelf for bought e-books, music, film or game downloads: out entirely, or format-only kinds?
+3. Meat alternatives: FINDINGS says J3, the data keeps a J1 department. v0.8 follows the data. Which?
+4. Single trading cards sit in both E1 and F3 (two views by rule). Which is the home?
+5. Archery: bows and accessories in E4, quivers and bow slings in E2. Which?
+6. Duplicates across categories (trail camera D4/E2, pond pump B10/C2, toiletry bag A4/H1, brewing yeast C3/J5, charcoal C2/C8, magnifiers E6/H2): apply v0.8's proposed precedence and keep one home each?
+7. Portable power station has no home (B7 is air only, home battery is G3): C1 or D2?
+8. Portable saunas and inflatable hot tubs in G3 (built-in rule) although movable: keep?
+9. Fresh ready-to-eat food (sandwiches, salads, takeaway): in J5, or out as dishes?
