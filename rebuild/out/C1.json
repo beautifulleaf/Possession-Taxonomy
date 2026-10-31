@@ -53,8 +53,32 @@
        "a": "",
        "d": "Maker sold under its own name whose cordless and corded tools are bought as a range.",
        "nl": "One entry is one power tool brand sold under its own name; battery platforms are listed separately.",
-       "sel": "Brands of the owner groups named in the department's market panel (Stanley Black & Decker, Techtronic Industries, Bosch, Makita, Hilti, Festool), from each brand's Wikipedia article. Covers 9 of about 9 brands requested; Porter-Cable, Irwin, Lenox and AEG are not listed because the fetched pages give no country or founding year.",
+       "sel": "Brands of the owner groups named in the department's market panel (Stanley Black & Decker, Techtronic Industries, Bosch, Makita, Hilti, Festool) from each brand's Wikipedia article, plus Porter-Cable, Metabo, Einhell and Ridgid. No complete list exists; 13 brands are listed. Irwin, Lenox and AEG are not listed because no fetched page gives their country or founding year (the AEG article is a disambiguation page).",
        "x": [
+        {
+         "n": "Einhell",
+         "d": "German electrical tool maker listed on the Xetra exchange; founded as Hans Einhell GmbH.",
+         "mk": "Einhell",
+         "y": "1964",
+         "s": "https://en.wikipedia.org/wiki/Einhell",
+         "own": "Einhell Germany AG",
+         "tier": "Independent",
+         "cty": "Germany",
+         "g": "Owned by Einhell Germany AG",
+         "v": []
+        },
+        {
+         "n": "Ridgid",
+         "d": "American tool maker owned by Emerson since 1966; its power tools are largely made by Techtronic Industries.",
+         "mk": "Ridgid",
+         "y": "1923",
+         "s": "https://en.wikipedia.org/wiki/Ridgid",
+         "own": "Emerson Electric Co.",
+         "tier": "Independent",
+         "cty": "United States",
+         "g": "Owned by Emerson Electric Co.",
+         "v": []
+        },
         {
          "n": "Hilti",
          "d": "Liechtenstein maker whose registered shares are all held by the Martin Hilti Family Trust; ranked fifth in the 2021 GLG ranking.",
@@ -65,6 +89,18 @@
          "tier": "Global group",
          "cty": "Liechtenstein",
          "g": "Owned by Hilti",
+         "v": []
+        },
+        {
+         "n": "Metabo",
+         "d": "German power tool maker bought by Hitachi Koki in 2016; Hitachi Koki was sold to HK Holdings, a KKR entity, in 2017.",
+         "mk": "Metabo",
+         "y": "1924",
+         "s": "https://en.wikipedia.org/wiki/Metabo",
+         "own": "KKR (through HK Holdings)",
+         "tier": "Independent",
+         "cty": "Germany",
+         "g": "Owned by KKR (through HK Holdings)",
          "v": []
         },
         {
@@ -120,7 +156,7 @@
          "n": "Black+Decker",
          "d": "Brand combined with Stanley in the 2010 merger that formed Stanley Black & Decker.",
          "mk": "Black+Decker",
-         "y": "",
+         "y": "1910",
          "s": "https://en.wikipedia.org/wiki/Stanley_Black_%26_Decker",
          "own": "Stanley Black & Decker",
          "tier": "Global group",
@@ -128,6 +164,19 @@
          "g": "Owned by Stanley Black & Decker",
          "v": [],
          "own_y": "2010"
+        },
+        {
+         "n": "Porter-Cable",
+         "d": "American power tool maker; the Pentair Tools Group, which included it, was sold to Black & Decker in October 2004.",
+         "mk": "Porter-Cable",
+         "y": "1906",
+         "s": "https://en.wikipedia.org/wiki/Porter-Cable",
+         "own": "Stanley Black & Decker",
+         "tier": "Global group",
+         "cty": "United States",
+         "g": "Owned by Stanley Black & Decker",
+         "v": [],
+         "own_y": "2004"
         },
         {
          "n": "Festool",
@@ -167,7 +216,8 @@
          "v": [],
          "own_y": "2000"
         }
-       ]
+       ],
+       "xg": "Owner group"
       }
      ]
     },
@@ -181,50 +231,6 @@
        "d": "Rechargeable pack made for one maker's cordless tool platform; packs fit only that platform's tools.",
        "s": "https://www.toolnut.com/collections/makita-18v-max-lxt-batteries",
        "x": [
-        {
-         "n": "Makita 18V LXT",
-         "a": "LXT · 18V Li-ion",
-         "d": "Makita's 18V lithium-ion slide-pack platform, the first 18V Li-ion cordless tool battery.",
-         "mk": "Makita",
-         "y": "2005",
-         "s": "https://en.wikipedia.org/wiki/Makita",
-         "v": [
-          {
-           "n": "BL1820B",
-           "mk": "Makita",
-           "y": "",
-           "d": "2.0Ah compact"
-          },
-          {
-           "n": "BL1830B",
-           "mk": "Makita",
-           "y": "",
-           "d": "3.0Ah"
-          },
-          {
-           "n": "BL1840B",
-           "mk": "Makita",
-           "y": "",
-           "d": "4.0Ah"
-          },
-          {
-           "n": "BL1850B",
-           "mk": "Makita",
-           "y": "",
-           "d": "5.0Ah"
-          },
-          {
-           "n": "BL1860B",
-           "mk": "Makita",
-           "y": "",
-           "d": "6.0Ah"
-          }
-         ],
-         "dt": "18V · 2.0–6.0Ah · compact or full-size pack",
-         "own": "Makita Corporation",
-         "tier": "Global group",
-         "cty": "Japan"
-        },
         {
          "n": "Ryobi ONE+",
          "a": "ONE+ System · 18V ONE+",
@@ -267,7 +273,8 @@
          "dt": "18V · Ah capacity · Lithium+, High Energy, EDGE grades",
          "own": "Techtronic Industries",
          "tier": "Global group",
-         "cty": "Japan"
+         "cty": "Japan",
+         "g": "Owned by Techtronic Industries"
         },
         {
          "n": "Milwaukee M18",
@@ -293,7 +300,8 @@
          "dt": "18V · Ah capacity · standard, FORGE grades",
          "own": "Techtronic Industries",
          "tier": "Global group",
-         "cty": "United States"
+         "cty": "United States",
+         "g": "Owned by Techtronic Industries"
         },
         {
          "n": "Milwaukee M18 REDLITHIUM FORGE",
@@ -325,7 +333,8 @@
          "dt": "18V · 6.0–12.0Ah · pouch or tabless cells",
          "own": "Techtronic Industries",
          "tier": "Global group",
-         "cty": "United States"
+         "cty": "United States",
+         "g": "Owned by Techtronic Industries"
         },
         {
          "n": "Milwaukee M12",
@@ -345,65 +354,136 @@
          "dt": "12V · Ah capacity",
          "own": "Techtronic Industries",
          "tier": "Global group",
-         "cty": "United States"
+         "cty": "United States",
+         "g": "Owned by Techtronic Industries"
         },
         {
-         "n": "DeWalt 20V MAX / 18V XR",
-         "a": "20V MAX · 18V XR · XR",
-         "d": "DeWalt's main cordless platform, sold as 20V MAX in North America and 18V XR elsewhere (18V nominal).",
-         "mk": "DeWalt",
+         "n": "EGO 56V ARC Lithium",
+         "a": "EGO Power+",
+         "d": "56V arc-shaped garden-tool battery with phase-change cooling, interchangeable across EGO's cordless range.",
+         "mk": "EGO",
          "y": "",
-         "s": "https://en.wikipedia.org/wiki/DeWalt",
+         "s": "https://egopowerplus.co.uk/about-ego/technology",
          "v": [
           {
-           "n": "DCB205G",
-           "mk": "DeWalt",
+           "n": "2.5Ah",
+           "mk": "EGO",
            "y": "",
-           "d": "20V MAX 5Ah oil-resistant pack"
-          },
-          {
-           "n": "DCB2108",
-           "mk": "DeWalt",
-           "y": "",
-           "d": "20V MAX XR 8.0Ah pack"
-          },
-          {
-           "n": "POWERSTACK",
-           "mk": "DeWalt",
-           "y": "2022",
-           "d": "first platform packs built on pouch cells"
+           "d": "about 30-minute rapid charge"
           }
          ],
-         "dt": "20V MAX / 18V · Ah capacity · compact, XR, POWERSTACK",
-         "own": "Stanley Black & Decker",
-         "tier": "Global group",
-         "cty": "United States"
+         "dt": "56V · Ah capacity",
+         "own": "Chervon",
+         "tier": "Independent",
+         "g": "Owned by Chervon"
         },
         {
-         "n": "DeWalt FlexVolt",
-         "a": "FLEXVOLT · 20V/60V MAX · 18V/54V",
-         "d": "Hybrid DeWalt pack that switches between 20V and 60V wiring to run both 20V MAX and 60V MAX tools.",
-         "mk": "DeWalt",
-         "y": "2016",
-         "s": "https://en.wikipedia.org/wiki/DeWalt",
+         "n": "Einhell Power X-Change",
+         "a": "PXC",
+         "d": "Einhell's shared DIY battery platform covering more than 350 tools.",
+         "mk": "Einhell",
+         "y": "",
+         "s": "https://einhell.com/press-portal/story-50c0b851ef",
+         "v": [],
+         "dt": "Ah capacity",
+         "own": "Einhell Germany AG",
+         "tier": "Independent",
+         "cty": "Germany",
+         "g": "Owned by Einhell Germany AG"
+        },
+        {
+         "n": "RIDGID 18V",
+         "a": "RIDGID cordless",
+         "d": "RIDGID-branded 18V cordless line, its power tools made largely by TTI.",
+         "mk": "Ridgid",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ridgid",
+         "v": [],
+         "dt": "18V · Ah capacity",
+         "own": "Emerson Electric Co.",
+         "tier": "Independent",
+         "cty": "United States",
+         "g": "Owned by Emerson Electric Co."
+        },
+        {
+         "n": "Hilti Nuron",
+         "a": "Nuron 22V",
+         "d": "Hilti's single 22V platform for all its cordless tools, launched with 70 tools; packs log usage data.",
+         "mk": "Hilti",
+         "y": "2022",
+         "s": "https://www.enr.com/articles/53413-hilti-standardizes-cordless-tools-on-nuron-its-new-22v-battery-platform",
+         "v": [],
+         "dt": "22V · Ah capacity · twin-pack heavy tools",
+         "own": "Hilti",
+         "tier": "Global group",
+         "cty": "Liechtenstein",
+         "g": "Owned by Hilti"
+        },
+        {
+         "n": "Metabo CAS",
+         "a": "Cordless Alliance System · LiHD",
+         "d": "Metabo-led 18V multi-brand battery alliance; nine makers at launch.",
+         "mk": "Metabo",
+         "y": "2018",
+         "s": "https://www.torque-expo.com/node/17961",
          "v": [
           {
-           "n": "6.0Ah FLEXVOLT",
-           "mk": "DeWalt",
-           "y": "",
-           "d": "charges in 60 minutes on the DCB118"
-          },
-          {
-           "n": "DCB609",
-           "mk": "DeWalt",
-           "y": "",
-           "d": "FLEXVOLT 20V/60V MAX 9Ah"
+           "n": "LiHD",
+           "mk": "Metabo",
+           "y": "2018",
+           "d": "2nd-generation high-output 18V pack"
           }
          ],
-         "dt": "20V/60V (18V/54V nominal) · Ah capacity",
-         "own": "Stanley Black & Decker",
+         "dt": "18V · Ah capacity · partners incl. Rothenberger, Mafell, Eisenblätter, Collomix, Haaga, Starmix, Eibenstock, Steinel",
+         "own": "KKR (through HK Holdings)",
+         "tier": "Independent",
+         "cty": "Germany",
+         "g": "Owned by KKR (through HK Holdings)"
+        },
+        {
+         "n": "Makita 18V LXT",
+         "a": "LXT · 18V Li-ion",
+         "d": "Makita's 18V lithium-ion slide-pack platform, the first 18V Li-ion cordless tool battery.",
+         "mk": "Makita",
+         "y": "2005",
+         "s": "https://en.wikipedia.org/wiki/Makita",
+         "v": [
+          {
+           "n": "BL1820B",
+           "mk": "Makita",
+           "y": "",
+           "d": "2.0Ah compact"
+          },
+          {
+           "n": "BL1830B",
+           "mk": "Makita",
+           "y": "",
+           "d": "3.0Ah"
+          },
+          {
+           "n": "BL1840B",
+           "mk": "Makita",
+           "y": "",
+           "d": "4.0Ah"
+          },
+          {
+           "n": "BL1850B",
+           "mk": "Makita",
+           "y": "",
+           "d": "5.0Ah"
+          },
+          {
+           "n": "BL1860B",
+           "mk": "Makita",
+           "y": "",
+           "d": "6.0Ah"
+          }
+         ],
+         "dt": "18V · 2.0–6.0Ah · compact or full-size pack",
+         "own": "Makita Corporation",
          "tier": "Global group",
-         "cty": "United States"
+         "cty": "Japan",
+         "g": "Owned by Makita Corporation"
         },
         {
          "n": "Makita 12V max CXT",
@@ -429,7 +509,8 @@
          "dt": "12V max · 2.0 or 4.0Ah",
          "own": "Makita Corporation",
          "tier": "Global group",
-         "cty": "Japan"
+         "cty": "Japan",
+         "g": "Owned by Makita Corporation"
         },
         {
          "n": "Makita 40V max XGT",
@@ -473,7 +554,8 @@
          "dt": "40V max · 2.5–8.0Ah",
          "own": "Makita Corporation",
          "tier": "Global group",
-         "cty": "Japan"
+         "cty": "Japan",
+         "g": "Owned by Makita Corporation"
         },
         {
          "n": "Bosch 18V POWER FOR ALL",
@@ -486,7 +568,8 @@
          "dt": "18V · 1.5–6.0Ah · partner brands include Gardena, Husqvarna, Gloria, Wagner, Rapid, Steinel",
          "own": "Robert Bosch GmbH",
          "tier": "Global group",
-         "cty": "Germany"
+         "cty": "Germany",
+         "g": "Owned by Robert Bosch GmbH"
         },
         {
          "n": "Bosch AMPShare",
@@ -512,24 +595,68 @@
          "dt": "18V · Ah capacity · partner brands include Fein, Rothenberger, Steinel, Wagner",
          "own": "Robert Bosch GmbH",
          "tier": "Global group",
-         "cty": "Germany"
+         "cty": "Germany",
+         "g": "Owned by Robert Bosch GmbH"
         },
         {
-         "n": "Metabo CAS",
-         "a": "Cordless Alliance System · LiHD",
-         "d": "Metabo-led 18V multi-brand battery alliance; nine makers at launch.",
-         "mk": "Metabo",
-         "y": "2018",
-         "s": "https://www.torque-expo.com/node/17961",
+         "n": "DeWalt 20V MAX / 18V XR",
+         "a": "20V MAX · 18V XR · XR",
+         "d": "DeWalt's main cordless platform, sold as 20V MAX in North America and 18V XR elsewhere (18V nominal).",
+         "mk": "DeWalt",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/DeWalt",
          "v": [
           {
-           "n": "LiHD",
-           "mk": "Metabo",
-           "y": "2018",
-           "d": "2nd-generation high-output 18V pack"
+           "n": "DCB205G",
+           "mk": "DeWalt",
+           "y": "",
+           "d": "20V MAX 5Ah oil-resistant pack"
+          },
+          {
+           "n": "DCB2108",
+           "mk": "DeWalt",
+           "y": "",
+           "d": "20V MAX XR 8.0Ah pack"
+          },
+          {
+           "n": "POWERSTACK",
+           "mk": "DeWalt",
+           "y": "2022",
+           "d": "first platform packs built on pouch cells"
           }
          ],
-         "dt": "18V · Ah capacity · partners incl. Rothenberger, Mafell, Eisenblätter, Collomix, Haaga, Starmix, Eibenstock, Steinel"
+         "dt": "20V MAX / 18V · Ah capacity · compact, XR, POWERSTACK",
+         "own": "Stanley Black & Decker",
+         "tier": "Global group",
+         "cty": "United States",
+         "g": "Owned by Stanley Black & Decker"
+        },
+        {
+         "n": "DeWalt FlexVolt",
+         "a": "FLEXVOLT · 20V/60V MAX · 18V/54V",
+         "d": "Hybrid DeWalt pack that switches between 20V and 60V wiring to run both 20V MAX and 60V MAX tools.",
+         "mk": "DeWalt",
+         "y": "2016",
+         "s": "https://en.wikipedia.org/wiki/DeWalt",
+         "v": [
+          {
+           "n": "6.0Ah FLEXVOLT",
+           "mk": "DeWalt",
+           "y": "",
+           "d": "charges in 60 minutes on the DCB118"
+          },
+          {
+           "n": "DCB609",
+           "mk": "DeWalt",
+           "y": "",
+           "d": "FLEXVOLT 20V/60V MAX 9Ah"
+          }
+         ],
+         "dt": "20V/60V (18V/54V nominal) · Ah capacity",
+         "own": "Stanley Black & Decker",
+         "tier": "Global group",
+         "cty": "United States",
+         "g": "Owned by Stanley Black & Decker"
         },
         {
          "n": "Festool 18V",
@@ -567,57 +694,8 @@
          "dt": "18V · 3.1–6.2Ah · Bluetooth or plain",
          "own": "TTS Tooltechnic Systems",
          "tier": "Independent",
-         "cty": "Germany"
-        },
-        {
-         "n": "Hilti Nuron",
-         "a": "Nuron 22V",
-         "d": "Hilti's single 22V platform for all its cordless tools, launched with 70 tools; packs log usage data.",
-         "mk": "Hilti",
-         "y": "2022",
-         "s": "https://www.enr.com/articles/53413-hilti-standardizes-cordless-tools-on-nuron-its-new-22v-battery-platform",
-         "v": [],
-         "dt": "22V · Ah capacity · twin-pack heavy tools",
-         "own": "Hilti",
-         "tier": "Global group",
-         "cty": "Liechtenstein"
-        },
-        {
-         "n": "Einhell Power X-Change",
-         "a": "PXC",
-         "d": "Einhell's shared DIY battery platform covering more than 350 tools.",
-         "mk": "Einhell",
-         "y": "",
-         "s": "https://einhell.com/press-portal/story-50c0b851ef",
-         "v": [],
-         "dt": "Ah capacity"
-        },
-        {
-         "n": "RIDGID 18V",
-         "a": "RIDGID cordless",
-         "d": "RIDGID-branded 18V cordless line, its power tools made largely by TTI.",
-         "mk": "Ridgid",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Ridgid",
-         "v": [],
-         "dt": "18V · Ah capacity"
-        },
-        {
-         "n": "EGO 56V ARC Lithium",
-         "a": "EGO Power+",
-         "d": "56V arc-shaped garden-tool battery with phase-change cooling, interchangeable across EGO's cordless range.",
-         "mk": "EGO",
-         "y": "",
-         "s": "https://egopowerplus.co.uk/about-ego/technology",
-         "v": [
-          {
-           "n": "2.5Ah",
-           "mk": "EGO",
-           "y": "",
-           "d": "about 30-minute rapid charge"
-          }
-         ],
-         "dt": "56V · Ah capacity"
+         "cty": "Germany",
+         "g": "Owned by TTS Tooltechnic Systems"
         }
        ],
        "tt": [
@@ -638,7 +716,8 @@
         ]
        ],
        "nl": "One entry is one cordless battery platform: the packs and tools of one maker that fit each other.",
-       "sel": "Platforms named on the makers' own pages and in the retail pages cited per entry; no reference lists every platform. Covers 17 platforms of the makers above plus Metabo, Einhell, Ridgid and EGO; owners are stated only where a fetched page gives them."
+       "sel": "No complete list exists; follows the makers' own pages and the retail pages cited per entry, for the brands in the department's market panel plus Metabo, Einhell, Ridgid and EGO. Owners come from each brand's Wikipedia article (Metabo, Einhell, Ridgid) or the Woodworker's Journal Chervon article (EGO); Chervon's country, founding year and the platform launch years were not found on a fetched page (two searches).",
+       "xg": "Owner group"
       },
       {
        "n": "Battery charger",
@@ -2267,7 +2346,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 48 of about 48 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 48 of 48 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Kanna (Japanese plane)",
@@ -2512,7 +2592,15 @@
          "y": "1911",
          "s": "https://supertool.com/StanleyBG/stan11.htm",
          "g": "Nos. 39–99 · joinery and specialist planes",
-         "v": []
+         "v": [
+          {
+           "n": "Lie-Nielsen No. 95",
+           "mk": "Lie-Nielsen Toolworks",
+           "y": "1981",
+           "d": "Lie-Nielsen took over production of an adapted Stanley No. 95 edge-trimming block plane in 1981."
+          }
+         ],
+         "dt": "maker version · year"
         },
         {
          "n": "Stanley No. 100",
@@ -2660,7 +2748,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 36 of about 36 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 36 of 36 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Shoulder plane",
@@ -2697,7 +2786,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 3 of about 3 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 3 of 3 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Rebate plane",
@@ -2965,7 +3055,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 22 of about 22 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 22 of 22 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Router plane",
@@ -3011,7 +3102,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 4 of about 4 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 4 of 4 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Plough plane",
@@ -3128,7 +3220,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 10 of about 10 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 10 of 10 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Combination plane",
@@ -3164,7 +3257,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 2 of about 2 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 2 of 2 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Moulding plane",
@@ -3227,7 +3321,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 4 of about 4 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 4 of 4 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Spokeshave",
@@ -3437,7 +3532,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 16 of about 16 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 16 of 16 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Scrub plane",
@@ -3464,7 +3560,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 2 of about 2 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 2 of 2 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Circular plane",
@@ -3509,7 +3606,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 4 of about 4 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 4 of 4 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Dado plane",
@@ -3554,7 +3652,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 4 of about 4 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 4 of 4 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Match and tonguing plane",
@@ -3608,7 +3707,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 5 of about 5 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 5 of 5 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       },
       {
        "n": "Specialist plane",
@@ -3761,7 +3861,8 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions (Record, Lie-Nielsen, Veritas) are not added because no fetched page ties them to a number. Covers 16 of about 16 numbers of this kind in the guide; the guide was read through a page summariser, so a heading may be missing, and numbers with no data on the page (#14, #53, #91) are left out."
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 16 of 16 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "xg": "Stanley number series"
       }
      ]
     },
@@ -4944,6 +5045,12 @@
        ]
       },
       {
+       "n": "Circlip pliers",
+       "a": "",
+       "d": "Pliers with tips that grip a snap ring so it can be spread over a shaft or squeezed into a bore.",
+       "s": "https://en.wikipedia.org/wiki/Circlip"
+      },
+      {
        "n": "Long nose pliers",
        "a": "needle nose pliers · snipe-nose pliers · chain nose pliers",
        "d": "Pliers with slim tapering jaws for tight spaces, bending wire and gripping small parts.",
@@ -5386,6 +5493,12 @@
        "a": "tube cutter",
        "d": "Clamp with a cutting wheel that is turned round a pipe to cut it square.",
        "s": "https://en.wikipedia.org/wiki/List_of_tools"
+      },
+      {
+       "n": "Pipe bender",
+       "a": "",
+       "d": "Hand tool or bending spring that supports the pipe wall while soft copper pipe is bent by hand.",
+       "s": "https://en.wikipedia.org/wiki/Pipe_bending"
       },
       {
        "n": "Plunger",
@@ -5921,7 +6034,8 @@
         }
        ],
        "nl": "One entry is one numbered Opinel size; the numbers are the maker's size scale.",
-       "sel": "Follows the Opinel article on Wikipedia, which lists the numbered range. The Opinel is held by the V&A (1985 selection), exhibited at MoMA and in Phaidon Design Classics, so the range qualifies under the icon rule. Complete: 13 of 13 sizes named there (Nos. 1 to 13); blade lengths are given for four only."
+       "sel": "Follows the Opinel article on Wikipedia, which lists the numbered range. The Opinel is held by the V&A (1985 selection), exhibited at MoMA and in Phaidon Design Classics, so the range qualifies under the icon rule. Complete: 13 of 13 sizes named there (Nos. 1 to 13); blade lengths are given for four only.",
+       "xg": "Availability"
       },
       {
        "n": "Lockback folder",
@@ -5967,11 +6081,12 @@
            "y": "2018",
            "d": "lightweight FRN-handled version"
           }
-         ]
+         ],
+         "g": "Buck"
         }
        ],
        "nl": "One entry is one named lockback model line from the references used.",
-       "sel": "Follows the Buck Knives article on Wikipedia, which names the Model 110 and its variants. Covers 1 of about 1 lockback line in the references used; other makers' lockbacks are not in a fetched reference."
+       "sel": "No complete list exists; follows the Buck Knives article on Wikipedia (Model 110, introduced 1964, high-tension lock) and the Lock knife article, which credits Buck with popularising the lockback in the 1960s. Lock types of the Spyderco Delica and Worker, Kershaw Leek, Buck 112 and Cold Steel Voyager are not stated on any fetched page (two attempts each), so they are not entries."
       },
       {
        "n": "Liner-lock & frame-lock folder",
@@ -6110,7 +6225,8 @@
            "y": "",
            "d": "replaces the 860 Clipper"
           }
-         ]
+         ],
+         "g": "Mora"
         },
         {
          "n": "Mora Basic",
@@ -6131,7 +6247,8 @@
            "y": "",
            "d": "stainless steel"
           }
-         ]
+         ],
+         "g": "Mora"
         },
         {
          "n": "Mora Bushcraft Series",
@@ -6139,7 +6256,8 @@
          "mk": "Morakniv",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Mora_knife",
-         "v": []
+         "v": [],
+         "g": "Mora"
         },
         {
          "n": "Mora Kansbol",
@@ -6147,7 +6265,8 @@
          "mk": "Morakniv",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Mora_knife",
-         "v": []
+         "v": [],
+         "g": "Mora"
         },
         {
          "n": "Mora Garberg",
@@ -6155,7 +6274,8 @@
          "mk": "Morakniv",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Mora_knife",
-         "v": []
+         "v": [],
+         "g": "Mora"
         },
         {
          "n": "Mora Outdoor 2000",
@@ -6163,7 +6283,8 @@
          "mk": "Morakniv",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Mora_knife",
-         "v": []
+         "v": [],
+         "g": "Mora"
         },
         {
          "n": "Buckmaster",
@@ -6172,7 +6293,8 @@
          "mk": "Buck Knives",
          "y": "1984",
          "s": "https://en.wikipedia.org/wiki/Buck_Knives",
-         "v": []
+         "v": [],
+         "g": "Buck"
         },
         {
          "n": "Buck Nighthawk",
@@ -6180,7 +6302,8 @@
          "mk": "Buck Knives",
          "y": "1992",
          "s": "https://en.wikipedia.org/wiki/Buck_Knives",
-         "v": []
+         "v": [],
+         "g": "Buck"
         },
         {
          "n": "Buck M9 Bayonet",
@@ -6188,11 +6311,13 @@
          "mk": "Buck Knives",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Buck_Knives",
-         "v": []
+         "v": [],
+         "g": "Buck"
         }
        ],
        "nl": "One entry is one named fixed-blade model line; steel and handle variants are versions.",
-       "sel": "Follows the Mora knife article and the Buck Knives article on Wikipedia. Complete: 9 of 9 fixed-blade models they name; neither page gives Mora years, and the Mora page names models only in a short list."
+       "sel": "Follows the Mora knife article and the Buck Knives article on Wikipedia. Complete: 9 of 9 fixed-blade models they name; neither page gives Mora years (searched twice: Mora knife article, Morakniv search; no year found), and the Mora page names models only in a short list.",
+       "xg": "Maker"
       },
       {
        "n": "Utility knife",
@@ -6296,13 +6421,615 @@
          "v": []
         },
         {
+         "n": "Broker",
+         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Victorinox",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Bijou",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Bladeless",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Caddy",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": [
+          {
+           "n": "Caddy Plus",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Cavalier",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Classic",
+         "d": "Victorinox 58 mm Swiss Army knife model that SAKWiki dates to the early 1950s.",
+         "mk": "Victorinox",
+         "y": "1950",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Companion S Alox",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Deluxe",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Diplomat",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Drifter",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Duchess",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Ensign",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Escort",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Executive",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Flash",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Manager",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Manicure",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Mate",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "MiniChamp",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Pharmacist",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Pharmacy Knife",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Physician Knife",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Presentation Master",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Princess",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Rally",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Rambler",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Rogue",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Rover",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Scribe",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Secure",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Signature",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Slim Flash",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Stylus",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "SwissLite",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "SwissMemory",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Tomo",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Vagabond",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Victorinox@Work",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Whistle",
+         "d": "Victorinox 58 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+58mm",
+         "g": "58 mm",
+         "v": []
+        },
+        {
+         "n": "Excelsior",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Popular",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Pocket Pal",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Secretary",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Sentry",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Watch Case Opener",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Apprentice",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Bantam",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Gourmet",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "My First Victorinox",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Waiter",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Cadet Alox",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Lumberjack",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Recruit",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Sportsman",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Tinker Small",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Tourist",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Voyageur",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Alumnus",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Cadet Plus Alox",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Camper Small",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Climber Small",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Salesman",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Artisan",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Grand Prix Small",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Huntsman Small",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Mountaineer Small",
+         "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
+         "g": "84 mm",
+         "v": []
+        },
+        {
          "n": "Officer's knife",
          "a": "Schweizer Offiziers- und Sportmesser · Original Swiss Army Knife",
          "d": "Knife patented in 1897 and later sold internationally as the Original Swiss Army Knife; the Swiss army did not adopt it as ordnance.",
          "mk": "Victorinox",
          "y": "1897",
          "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
+         "g": "91 mm",
          "v": []
         },
         {
@@ -6311,7 +7038,7 @@
          "mk": "Victorinox",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
+         "g": "91 mm",
          "role": "landmark",
          "v": [
           {
@@ -6319,8 +7046,1298 @@
            "mk": "Victorinox",
            "y": "1986",
            "d": "successor flagship"
+          },
+          {
+           "n": "Champion Plus",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
           }
          ]
+        },
+        {
+         "n": "Huntsman",
+         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Victorinox",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Huntsman Plus",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "Huntsman Lite",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ]
+        },
+        {
+         "n": "Climber",
+         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Victorinox",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Climber Lite",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "Deluxe Climber",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ]
+        },
+        {
+         "n": "Craftsman",
+         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Victorinox",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Altimeter",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Altimeter Plus",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "American Eagle",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Angler",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Angler Plus",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Automobile",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Automobile Special",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Camper",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "CampFlame",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Clipper",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Compact",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Companion",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Cybertool",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Cybertool S",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "Cybertool M",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "Cybertool L",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "Cybertool Lite",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "CyberYeoman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Deluxe Tinker",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "DofE Pocket Tool",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Engineer",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Expedition Lite",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Explorer",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "FASS 90",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Fieldmaster",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Fisherman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Fisherman Plus",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Golfer",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Golfer Special",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Grand Prix",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Handyman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Handyman 7236maU",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Hiker",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Lumberjack Big",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Luxury Automobile",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Master Craftsman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Master Electrician",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Master Fisherman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Master Gardener",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Mechanic",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Special Mechanic",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Modeler",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Motorist",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Mountaineer",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Mountaineer Lite",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Outdoorsman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Passenger",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Picnicker",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Ranger",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Scientist",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Super Tinker",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "SwissChamp",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "SwissChamp XL",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "SwissChamp XLT",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "SwissChamp XXL",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "SwissChamp XXLT",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "SwissChamp XAVT",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "SwissFlame",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "TimeKeeper",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "TimeKeeper Alarm",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Tinker",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Trail Guide",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Traveller",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Traveller Lite",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Troubleshooter",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Voyager",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": [
+          {
+           "n": "Voyager Lite",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Waiter Plus",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Woodsman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Workman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Yeoman",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Yeoman Mechanic",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Baker's Knife",
+         "d": "Victorinox 91 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/tiki-index.php?page=Victorinox+91mm",
+         "g": "91 mm",
+         "v": []
+        },
+        {
+         "n": "Electrician",
+         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Victorinox",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer",
+         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Victorinox",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Bushcrafter",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Carver",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Companion Slim Alox",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Companion X Alox",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Electrician's Mate",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Farmer",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": [
+          {
+           "n": "Farmer X",
+           "mk": "Victorinox",
+           "y": "2020",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "First Mate",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Long Rancher",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Midshipman",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer Apprentice",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer Harvester",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer Pruner",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer Rancher",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer Scout",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer Settler",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Pioneer 2223",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Sailor",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Seaman",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Solo Alox",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": []
+        },
+        {
+         "n": "Technician",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm",
+         "g": "93 mm",
+         "v": [
+          {
+           "n": "Technician Plus",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Day Packer",
+         "d": "Victorinox 100 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+100mm",
+         "g": "100 mm",
+         "v": []
+        },
+        {
+         "n": "Gardener",
+         "d": "Victorinox 100 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+100mm",
+         "g": "100 mm",
+         "v": []
+        },
+        {
+         "n": "Grafter",
+         "d": "Victorinox 100 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+100mm",
+         "g": "100 mm",
+         "v": []
+        },
+        {
+         "n": "Pruner",
+         "d": "Victorinox 100 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+100mm",
+         "g": "100 mm",
+         "v": []
+        },
+        {
+         "n": "One-Hand Master RT",
+         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Victorinox",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Adventurer",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Dual Pro",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": [
+          {
+           "n": "Dual Pro X",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "DAK 2010",
+           "mk": "Victorinox",
+           "y": "2010",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Skipper",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": [
+          {
+           "n": "Skipper Pro",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Alpineer",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Atlas",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Carpenter",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Centurion",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": [
+          {
+           "n": "DAK 1993",
+           "mk": "Victorinox",
+           "y": "1993",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Cheese Knife",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Cheese Master",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Hardwood Cheese Knife",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Cowboy",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Equestrian",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Fireman",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Forester",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Garant",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Helmsman",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Hercules",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Hunter",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": [
+          {
+           "n": "Hunter XS",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          },
+          {
+           "n": "Hunter XT",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
+        },
+        {
+         "n": "Jumpmaster",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Lockblade Knife",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Locksmith",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Nomad",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "OutdoorTool",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Outrider",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Parachute Knife",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Parachutist",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Rescue Tool",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Rucksack",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Sentinel",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Tradesman",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Trailmaster",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "Welding Seam Tester",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": []
+        },
+        {
+         "n": "WorkChamp",
+         "d": "Victorinox 111 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://www.sakwiki.com/Victorinox+111mm",
+         "g": "111 mm",
+         "v": [
+          {
+           "n": "WorkChamp XL",
+           "mk": "Victorinox",
+           "y": "",
+           "d": "variant listed on SAKWiki"
+          }
+         ],
+         "dt": "variant · year"
         },
         {
          "n": "SwissCard",
@@ -6328,7 +8345,7 @@
          "mk": "Victorinox",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
+         "g": "Other civilian models",
          "v": [
           {
            "n": "SwissCard Classic",
@@ -6351,39 +8368,12 @@
          ]
         },
         {
-         "n": "Huntsman",
-         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
-         "mk": "Victorinox",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
-         "v": []
-        },
-        {
-         "n": "Climber",
-         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
-         "mk": "Victorinox",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
-         "v": []
-        },
-        {
-         "n": "Electrician",
-         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
-         "mk": "Victorinox",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
-         "v": []
-        },
-        {
          "n": "Money-Clip",
          "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
          "mk": "Victorinox",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
+         "g": "Other civilian models",
          "v": []
         },
         {
@@ -6392,48 +8382,13 @@
          "mk": "Victorinox",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
-         "v": []
-        },
-        {
-         "n": "One-Hand Master RT",
-         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
-         "mk": "Victorinox",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
-         "v": []
-        },
-        {
-         "n": "Craftsman",
-         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
-         "mk": "Victorinox",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
-         "v": []
-        },
-        {
-         "n": "Broker",
-         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
-         "mk": "Victorinox",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
-         "v": []
-        },
-        {
-         "n": "Pioneer",
-         "d": "Victorinox model shown in the maker's gallery on Wikipedia; the page gives no year.",
-         "mk": "Victorinox",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "g": "Civilian models",
+         "g": "Other civilian models",
          "v": []
         }
        ],
        "nl": "One entry is a named Swiss Army knife model or soldier's knife generation.",
-       "sel": "Follows the Victorinox article on Wikipedia (owner Victorinox-Stiftung 90 % and Carl und Elise Elsener-Gut Stiftung 10 %; Wenger taken over 26 April 2005). Covers 17 of about 40 models; the page names the rest in a gallery without detail, and does not mention Classic SD, Spartan or Cybertool."
+       "sel": "Follows the Victorinox article on Wikipedia (owner Victorinox-Stiftung 90 % and Carl und Elise Elsener-Gut Stiftung 10 %; Wenger taken over 26 April 2005) and the SAKWiki Victorinox model pages for 58, 84 (1 to 4 layers), 91, 93, 100 and 111 mm. Covers 192 of about 217 models in SAKWiki; the pages for 65, 74, 75 and 130 mm, the 84 mm five-layer page, the Wenger and Delemont 85 mm pages were not read within the fetch budget. SAKWiki gives a year for only a few models; a name used at two lengths (Golfer, Companion, Picnicker, Pocket Pal) is listed once. Limited editions, sets and aliases are left out.",
+       "xg": "Soldier's knives first, then civilian models by handle length"
       },
       {
        "n": "Plier multi-tool",
@@ -6464,7 +8419,8 @@
          "mk": "Leatherman",
          "y": "2023",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Blast",
@@ -6472,7 +8428,8 @@
          "mk": "Leatherman",
          "y": "2004",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Bolster",
@@ -6480,7 +8437,8 @@
          "mk": "Leatherman",
          "y": "2021",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Bond",
@@ -6488,7 +8446,8 @@
          "mk": "Leatherman",
          "y": "2021",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Charge",
@@ -6545,7 +8504,8 @@
            "y": "2018",
            "d": "current"
           }
-         ]
+         ],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Core",
@@ -6553,7 +8513,8 @@
          "mk": "Leatherman",
          "y": "2005",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Crunch",
@@ -6561,7 +8522,8 @@
          "mk": "Leatherman",
          "y": "1999",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Heavy-duty"
         },
         {
          "n": "Leatherman Curl",
@@ -6569,7 +8531,8 @@
          "mk": "Leatherman",
          "y": "2021",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Flair",
@@ -6577,7 +8540,8 @@
          "mk": "Leatherman",
          "y": "1999",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Free",
@@ -6634,7 +8598,8 @@
            "y": "2019",
            "d": "retired 2025"
           }
-         ]
+         ],
+         "g": "Pocket-sized"
         },
         {
          "n": "Leatherman Fuse",
@@ -6642,7 +8607,8 @@
          "mk": "Leatherman",
          "y": "2004",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Freestyle",
@@ -6663,7 +8629,8 @@
            "y": "2009",
            "d": "retired 2012"
           }
-         ]
+         ],
+         "g": "Pocket-sized"
         },
         {
          "n": "Leatherman Juice",
@@ -6720,7 +8687,8 @@
            "y": "2014",
            "d": "retired 2019"
           }
-         ]
+         ],
+         "g": "Pocket-sized"
         },
         {
          "n": "Leatherman Kick",
@@ -6728,7 +8696,8 @@
          "mk": "Leatherman",
          "y": "2004",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Leap",
@@ -6736,7 +8705,8 @@
          "mk": "Leatherman",
          "y": "2014",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Pocket-sized"
         },
         {
          "n": "Leatherman Mini Tool",
@@ -6744,7 +8714,8 @@
          "mk": "Leatherman",
          "y": "1986",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Pocket-sized"
         },
         {
          "n": "Leatherman MUT",
@@ -6765,7 +8736,8 @@
            "y": "2010",
            "d": "retired 2021"
           }
-         ]
+         ],
+         "g": "Heavy-duty"
         },
         {
          "n": "Leatherman OHT",
@@ -6773,7 +8745,8 @@
          "mk": "Leatherman",
          "y": "2012",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Heavy-duty"
         },
         {
          "n": "Leatherman PST",
@@ -6794,7 +8767,8 @@
            "y": "1996",
            "d": "retired 2004"
           }
-         ]
+         ],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Pulse",
@@ -6802,7 +8776,8 @@
          "mk": "Leatherman",
          "y": "2000",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Raptor",
@@ -6823,7 +8798,8 @@
            "y": "2021",
            "d": "current, EMS duty"
           }
-         ]
+         ],
+         "g": "Rescue (EMS)"
         },
         {
          "n": "Leatherman Rebar",
@@ -6831,7 +8807,8 @@
          "mk": "Leatherman",
          "y": "2012",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Rev",
@@ -6839,7 +8816,8 @@
          "mk": "Leatherman",
          "y": "2015",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Sideclip",
@@ -6847,7 +8825,8 @@
          "mk": "Leatherman",
          "y": "1998",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Sidekick",
@@ -6855,7 +8834,8 @@
          "mk": "Leatherman",
          "y": "2011",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Signal",
@@ -6863,7 +8843,8 @@
          "mk": "Leatherman",
          "y": "2015",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Heavy-duty"
         },
         {
          "n": "Leatherman Skeletool",
@@ -6908,7 +8889,8 @@
            "y": "2013",
            "d": "retired"
           }
-         ]
+         ],
+         "g": "Pocket-sized"
         },
         {
          "n": "Leatherman Super Tool",
@@ -6947,7 +8929,8 @@
            "y": "",
            "d": "current"
           }
-         ]
+         ],
+         "g": "Heavy-duty"
         },
         {
          "n": "Leatherman Surge",
@@ -6968,7 +8951,8 @@
            "y": "2013",
            "d": "current"
           }
-         ]
+         ],
+         "g": "Heavy-duty"
         },
         {
          "n": "Leatherman Wave",
@@ -6995,7 +8979,8 @@
            "y": "2018",
            "d": "current"
           }
-         ]
+         ],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Wingman",
@@ -7003,7 +8988,8 @@
          "mk": "Leatherman",
          "y": "2011",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Genus",
@@ -7011,7 +8997,8 @@
          "mk": "Leatherman",
          "y": "2007",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Vista",
@@ -7019,7 +9006,8 @@
          "mk": "Leatherman",
          "y": "2006",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Hybrid",
@@ -7027,7 +9015,8 @@
          "mk": "Leatherman",
          "y": "2006",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Leatherman Z-Rex",
@@ -7035,7 +9024,8 @@
          "mk": "Leatherman",
          "y": "2012",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Full-sized"
         },
         {
          "n": "Victorinox SwissTool",
@@ -7043,11 +9033,13 @@
          "mk": "Victorinox",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Victorinox",
-         "v": []
+         "v": [],
+         "g": "Heavy-duty"
         }
        ],
        "nl": "One entry is one model line of plier multi-tool; size, finish and edition variants are versions.",
-       "sel": "Follows the Leatherman article on Wikipedia, which tabulates each model with debut and retirement years, and the Victorinox article for the SwissTool. Covers 35 Leatherman lines of about 39; limited editions (anniversary, camouflage, Damascus, TOPO, Black & Silver) and the folding Crater line are not listed."
+       "sel": "Follows the Leatherman article on Wikipedia, which tabulates each model with debut and retirement years, and the Victorinox article for the SwissTool. Complete: 35 of 35 plier-based Leatherman lines in the model table, plus the Victorinox SwissTool (36 entries). Limited and anniversary editions (Darkside, Mr. Crunch, camouflage, Damascus, TOPO, Black & Silver) are not entries; Crater is a folding knife and absent from the table.",
+       "xg": "Size class"
       },
       {
        "n": "Keychain & wearable multi-tool",
@@ -7070,7 +9062,8 @@
          "mk": "Leatherman",
          "y": "1996",
          "s": "https://en.wikipedia.org/wiki/Leatherman",
-         "v": []
+         "v": [],
+         "g": "Keychain"
         },
         {
          "n": "Leatherman Squirt",
@@ -7109,7 +9102,8 @@
            "y": "2002",
            "d": "retired 2010"
           }
-         ]
+         ],
+         "g": "Keychain"
         },
         {
          "n": "Leatherman Style",
@@ -7136,7 +9130,8 @@
            "y": "2012",
            "d": "current"
           }
-         ]
+         ],
+         "g": "Keychain"
         },
         {
          "n": "Leatherman Tread",
@@ -7175,11 +9170,13 @@
            "y": "",
            "d": "retired"
           }
-         ]
+         ],
+         "g": "Wearable"
         }
        ],
        "nl": "One entry is one model line of small keychain or wearable multi-tool.",
-       "sel": "Follows the Leatherman article on Wikipedia. Covers 4 lines (Micra, Squirt, Style, Tread) of about 39 Leatherman lines; the page marks only the Micra as a keychain tool, the other three keep their earlier placement."
+       "sel": "Follows the Leatherman article on Wikipedia, whose model table marks each line as keychain or wearable. Complete: 4 of 4 keychain and wearable lines in the table (Micra, Squirt, Style, Tread).",
+       "xg": "Form"
       }
      ]
     },
@@ -8448,6 +10445,12 @@
        "a": "",
        "d": "Hand-held non-contact thermometer that reads surface temperature from infrared radiation.",
        "s": "https://www.toolstation.com/hand-tools/levels-measuring-detection/c671"
+      },
+      {
+       "n": "Thermal imaging camera",
+       "a": "",
+       "d": "Handheld camera that shows heat as an image, used to spot problems in equipment.",
+       "s": "https://fluke.com/en-id/products/thermal-cameras/handheld-cameras"
       },
       {
        "n": "Sound level meter",

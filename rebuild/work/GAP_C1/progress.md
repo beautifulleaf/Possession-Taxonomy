@@ -6,3 +6,5 @@ step5: Spyderco(US,1978,Worker 1981), Kershaw(US 1974,KAI), OKC(US,1889), Ka-Bar
 step6: fetched ESEE (1997, Rowen Idaho Falls), Nite Ize (Boulder, ~1989 per '30 years ago'), Cold Steel (US 1980, GSM 2020, TRI-AD), Buck (US 1947, 110=1964), Facom (France 1918, Fimalac 1999; Stanley link not fetched), Circlip, Pipe bending. Hakko FX-888D: DigiKey 2018 blog, no country. Delica/Leek/Voyager/Buck112 locks: 2 attempts failed
 step7: KTC (Japan, 1947 implied), Koken(no year), sakwiki 93/111/100mm fetched, Lie-Nielsen adapted Stanley #95 in 1981. Next: search sakwiki 58/84/74mm, Wikipedia Victorinox SwissTool year; then WRITE edit script (ed.py) in this dir
 step8: fetched sakwiki 58/84x4 (total fetches ~46). NEXT: write ed.py applying all edits (leatherman versions, swiss list, battery own/g, brand adds Porter-Cable/Metabo/Einhell/Ridgid, planes complete lines, kinds circlip/pipe bender/thermal cam, brands json) then validate + report
+step9: ed.py applied (do NOT rerun; backup in bak/). validate OK. Remaining: patch os field, friction xg, report
+step10: report written; done

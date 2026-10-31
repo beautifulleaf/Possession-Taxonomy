@@ -15,10 +15,10 @@ About 56 fetches (log: rebuild/work/GAP_E5/sources.tsv). validate --v3: OK (104 
 4. Gaps from earlier reports: Williams WPC already held; Williams System 11 and Stern SAM/Spike remain unsourced.
 5. Section axis: `g` and `xg` set on Handheld gaming PC, Tabletop electronic game, Hardware upgrade add-on. No kind over 12 entries lacks sections.
 
-## Remaining
-- Taito F3, NESYS, Atomiswave, Mega System 1/2, TIA-MC-1 have blank years (pages give none). Konami GX and Taito F3 Wikipedia pages return 404.
-- Arcade boards for Atari, Irem, Data East, Cave: no list; searched "Taito arcade system boards list", "MAME arcade system boards", Wikipedia category pages.
-- Stern SAM/Spike, Williams System 11: searched "Stern Pinball SAM system Spike system years", Williams Pinball Controller page (no System 11 dates).
-- Home-console/handheld revisions (~34 home, ~24 handheld platforms, Xbox/N64 revisions) from FIX_E5 not attempted in the budget.
-- Wikipedia's Optical disc article read only to 100,000 of 144,989 characters; Saturn, 3DO discs not entered.
-- Deferred Firecrawl pages (403/503): gametechwiki Taito and Capcom, arcadecontrols Arcade_Systems (see verify/work/GEN/firecrawl_deferred.md). Liliputing table is an image: no years or full model list.
+## Round 2 (about 31 fetches)
+- Optical disc read from offset 100000: the tail is a navigation box with no console text. Game disc 13 > 18 from the console articles: Saturn, 3DO, CD-i, PC-FX and Neo Geo CD discs.
+- Board years: Taito F3 1993 and Mega System 32 1994 (Arcade Museum), Atomiswave 2002 (Arcade Museum), Mega System 1 1988 (earliest game, P-47, May 1988). Aleck 64 (1998) added; Taito NESYS removed because it is an online network, not a board. Arcade boards now 79.
+- Revisions added as versions from each platform's page: Neo Geo CD (front-loading, top-loading, CDZ 1995), FM Towns Marty 2, N64 Funtastic Series, Cybiko Classic and Xtreme, Zodiac 1 and 2, Mega Duck, Watara Supervision variants, Neo Geo X Gold. Disc facts for Saturn, 3DO, CD-i were already versions.
+- The MediaWiki extracts API returns introductions only for 20 titles, so I used it to find candidates and fetched single pages for the rest. Most of the ~58 platforms FIX_E5 listed (RCA Studio II, Bridge Companion, Virtual Boy, Playdate and similar) have one model and no named revisions in their intro extracts, so they stay without versions. Xbox and N64 pages name no dated revisions beyond the above.
+- Still blank: TIA-MC-1 year (searched "TIA-MC-1 Soviet arcade machine year Ekstrema": sources say mid-1980s), Mega System 1A board year beyond the first game, Stern SAM/Spike and Williams System 11.
+- Deferred Firecrawl pages: gametechwiki Taito and Capcom, arcadecontrols Arcade_Systems.

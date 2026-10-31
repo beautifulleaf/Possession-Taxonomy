@@ -8,3 +8,5 @@ step6 JSON edited+validated OK: boards +13, discs +5, converters +2, flash +3, h
 step7 report written; done
 round2 started: items 1 revisions, 2 Optical disc offset 100000, 3 board years
 r2 step1: optical disc ends (no console text); disc facts fetched for Saturn/3DO/CD-i/PC-FX/NeoGeoCD; F3 1993, MS32 1994 found (fetches ~14)
+r2 step2: all fetches done (~31); applying edits
+r2 done; validated, report updated
