@@ -152,5 +152,5 @@ for b in B:
     if k in SRC_OVR: b['src']=SRC_OVR[k]
     if k in OVR: b.update(OVR[k])
 TIER_GLOBAL=set(GROUPS+[HULn])
-DEV_OWN2={'braun':(PGn,''),'oral-b':(PGn,''),'waterpik':(CDn,'2017'),'philips sonicare':('Philips','2000'),'sonicare':('Philips','2000'),'philips':('Philips',''),'philishave':('Philips',''),'gillette':(PGn,''),
+DEV_OWN2={'braun':(PGn,''),'oral-b':(PGn,''),'waterpik':(CDn,'2017'),'philips sonicare':('Philips',''),'sonicare':('Philips',''),'philips':('Philips',''),'philishave':('Philips',''),'gillette':(PGn,''),
  'wahl':('Wahl',''),'remington':('Remington Products',''),'panasonic':('Panasonic',''),'dyson':('Dyson',''),'homedics':('HoMedics',''),'therabody':('Therabody',''),'schick':(EDn,''),'oster':('Oster',''),'andis':('Andis',''),'babyliss':('BaByliss',''),'conair':('Conair','')}

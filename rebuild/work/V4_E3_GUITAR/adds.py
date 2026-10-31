@@ -269,8 +269,8 @@ for n in ('Yamaha Pacifica',): pass
 
 M='Marshall Amplification'; FA='Fender'
 add('Combo amp',[
- R('Fender Princeton','Fender','1948','Small Fender combo; woodie era ended 1948, Princeton Reverb from 1963.',FAMP),
- R('Fender Deluxe (tweed)','Fender','','Woodie and tweed-era Deluxe; woodie production ceased 1948.',FAMP),
+ R('Fender Princeton','Fender','','Small Fender combo; woodie era ended 1948, Princeton Reverb from 1963.',FAMP),
+ R('Fender Deluxe (woodie and tweed)','Fender','','Woodie and tweed-era Deluxe; woodie production ceased 1948.',FAMP),
  R('Fender Pro','Fender','1959','Brownface Pro of the 1959 series.',FAMP),
  R('Fender Pro Reverb','Fender','1963','Blackface Pro Reverb; solid-state version 1967; reissue 2021.',FAMP),
  R('Fender Super Reverb','Fender','1963','Four-12-inch blackface combo.',FAMP),
@@ -340,3 +340,65 @@ add('Speaker cabinet',[
  R('Marshall 1992LEM','Marshall','2008','Marshall cabinet, 2008.',MARS),
  R('Marshall ModeFour cabinets','Marshall','2008','Marshall ModeFour, 2008.',MARS),
 ])
+
+B='Boss'
+add('Boost pedal',[R('Boss DB-5 Driver Booster','Boss','1976','Boss compact pedal of 1976.',BOSS)])
+add('Overdrive pedal',[
+ R('Boss SD-1 Super Overdrive','Boss','1981','Boss overdrive of 1981.',BOSS),
+ R('Boss OD-2 Turbo Overdrive','Boss','1985','Boss overdrive made 1985 to 1995.',BOSS),
+ R('Danelectro CTO-1 Transparent Overdrive','Danelectro','','Danelectro overdrive.',EFX),
+ R('T-Rex Mudhoney','T-Rex','','T-Rex overdrive.',EFX)])
+add('Distortion pedal',[
+ R('Boss HM-2 Heavy Metal','Boss','','Boss distortion pedal.',BOSS),
+ R('Boss DS-2 Turbo Distortion','Boss','1992','Boss distortion of 1992.',BOSS),
+ R('Marshall ShredMaster','Marshall','','Marshall distortion pedal.',EFX)])
+add('Fuzz pedal',[
+ R('Univox Super-Fuzz','Univox','','Univox fuzz.',EFX),
+ R('Shin-ei Companion FY-2','Shin-ei','','Shin-ei fuzz.',EFX)])
+add('Compressor pedal',[
+ R('Boss CS-1 Compression Sustainer','Boss','1977','Boss compressor of 1977; CS-3 followed.',BOSS,v=[{'n':'CS-3 Compression Sustainer','mk':'Boss','y':'','d':'later Boss compressor named on the Effects unit page'}]),
+ R('Keeley Compressor','Keeley','','Keeley compressor.',EFX)])
+add('Noise gate',[R('Boss NS-2 Noise Suppressor','Boss','','Boss noise gate.',EFX)])
+add('EQ pedal',[
+ R('MXR 10-Band EQ','MXR','','MXR graphic equaliser.',EFX),
+ R('Boss GE-6','Boss','1977','Boss equaliser of 1977.',BOSS),R('Boss GE-10','Boss','1976','Boss equaliser of 1976.',BOSS),
+ R('Boss SP-1 Spectrum','Boss','1977','Boss filter of 1977.',BOSS)])
+add('Chorus pedal',[R('TC Electronic Stereo Chorus','TC Electronic','','TC Electronic chorus.',EFX)])
+add('Flanger pedal',[R('Boss BF-1 Flanger','Boss','1976','Boss flanger of 1976.',BOSS,v=[{'n':'BF-2','mk':'Boss','y':'1980','d':'second Boss flanger'},{'n':'BF-3','mk':'Boss','y':'','d':'later Boss flanger'}])])
+add('Phaser pedal',[R('Boss PH-1 Phaser','Boss','1977','Boss phaser of 1977.',BOSS),R('DigiTech Hyper Phase','DigiTech','','DigiTech phaser.',EFX)])
+add('Tremolo and vibe pedal',[
+ R('Boss TW-1 T Wah','Boss','1977','Boss pedal of 1977.',BOSS),
+ R('Danelectro CV-1 Vibe','Danelectro','','Danelectro vibe.',EFX),R('Danelectro CT Tremolo','Danelectro','','Danelectro tremolo.',EFX),
+ R('Demeter TRM-1 Tremulator','Demeter','','Demeter tremolo.',EFX),R('Boss VB-2 Vibrato','Boss','','Boss vibrato.',EFX),
+ R('Gibson GA-VI vibrato unit','Gibson','','Gibson vibrato unit.',EFX)])
+add('Delay pedal',[
+ R('MXR Carbon Copy','MXR','','MXR analogue delay.',EFX),R('Electro-Harmonix Deluxe Memory Man','Electro-Harmonix','','Electro-Harmonix delay.',EFX),
+ R('Boss DD-2 Digital Delay','Boss','1983','Boss digital delay of 1983.',BOSS),
+ R('Rocktron Short Timer Delay','Rocktron','','Rocktron delay.',EFX),R('DigiTech Hyper Delay','DigiTech','','DigiTech delay.',EFX)])
+add('Wah pedal',[
+ R('Morley Bad Horsie Wah','Morley','','Morley wah.',EFX),R('Morley Power Wah','Morley','','Morley wah.',EFX),
+ R('Musitronics Mu-Tron III','Musitronics','','Envelope filter.',EFX),
+ R('DOD Envelope Filter 440','DOD','','DOD envelope filter.',EFX),
+ R('Vox V846 Wah','Vox','','Vox wah.',EFX)])
+add('Multi-effects processor',[
+ R('Boss ME-5','Boss','1988','Boss multi-effects floor unit of 1988.',EFX),
+ R('Boss GT-8','Boss','','Boss floor processor.',EFX),
+ R('Eventide HE3000 Ultra-Harmonizer','Eventide','','Eventide harmoniser.',EFX)])
+add('Volume pedal',[R('Fender Volume Pedal','Fender','','Fender volume pedal.',EFX)])
+# ---- parts
+add('Guitar pickup',[
+ R('JB (SH-4)','Seymour Duncan','early 1970s','Bridge humbucker made for Jeff Beck; the company\'s best-selling model.',SD,role='landmark'),
+ R('Jazz Model (SH-2)','Seymour Duncan','','Neck pickup paired with the JB.',SD),
+ R('Screamin\' Demon (SH-12)','Seymour Duncan','','First artist signature pickup, made for George Lynch.',SD),
+ R('Dimebucker (SH-13)','Seymour Duncan','','Signature pickup developed with Dimebag Darrell.',SD),
+ R('Blackouts','Seymour Duncan','','Active pickups developed for seven-string guitars.',SD),
+ R('Pearly Gates','Seymour Duncan','','Pickup set listed among the most popular.',SD),
+ R('Duncan Distortion (SH-6)','Seymour Duncan','','Distortion bridge pickup.',SD),
+ R('Invader (SH-8)','Seymour Duncan','','Pickup used by Tom DeLonge in Stratocasters.',SD),
+ R('Custom (SH-5)','Seymour Duncan','','Pickup used by Tom DeLonge in Starcasters.',SD),
+ R('Quarter Pound (SPB-3)','Seymour Duncan','','Bass pickup used in Mark Hoppus signature basses.',SD),
+ R('Hot Rails','Seymour Duncan','','Pickup used by Kurt Cobain.',SD),
+ R('Classic Stack (STK-S4)','Seymour Duncan','','Stacked single-coil-sized humbucker.',SD),
+ R('HB-102','Seymour Duncan','','Duncan Designed pickup based on the JB and Jazz Model.',SD),
+ R('FS-1','DiMarzio','early 1970s','Replacement for harsh stock Stratocaster bridge pickups.',DM)])
+add('Guitar strings',[R('Augustine nylon strings','Albert Augustine','1947','First nylon guitar strings, developed by Albert Augustine Strings.',STR,role='origin')])

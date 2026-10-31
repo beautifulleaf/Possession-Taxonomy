@@ -1,6 +1,6 @@
 import sys,json,copy,re,math
 sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/V4_J8_SWEET')
-from data_common import SRC,GLOBAL,CTY
+from data_common import SRC,GLOBAL,CTY,W
 from data_choc import CHOC,R
 from data_sweet import SWEET
 from data_ice import ICE
@@ -44,7 +44,7 @@ for ln in open('/home/user/Possession-Taxonomy/rebuild/work/V4_J8_SWEET/data_cb_
 B2B=[('Ah Cacao Real Chocolate','Mexico','2003'),('Amano Artisan Chocolate','United States','2006'),('Amedei','Italy','1990'),('Askinosie Chocolate','United States','2007'),('Bonnat Chocolates','France','1884'),('Castronovo Chocolate','United States','2012'),('Choco Togo','Togo','2014'),('Chocolala','Estonia','2013'),('Domori','Italy','1997'),('Chocolates El Rey','Venezuela','1929'),('Friis-Holm','Denmark','2007'),('Fu Wan Chocolate','Taiwan','2015'),('Malagos Chocolate','Philippines','2012'),('Mast Brothers','United States','2007'),('Michel Cluizel','France','1948'),('Mindo Chocolate Makers','United States','2009'),('Pacari Chocolate','Ecuador','2002'),('Patric Chocolate','United States','2006'),('Q sweet','Taiwan','2019'),('Rick Jordan Chocolatier','United States','2011'),('Rogue Chocolatier','United States','2007'),('Scharffen Berger','United States','1996'),('Taza Chocolate','United States','2006'),('TCHO Chocolate','United States','2005'),('Theo Chocolate','United States','2006'),('Venezuelan Black','United Kingdom','1998'),('Zotter Schokoladen Manufaktur','Austria','1999')]
 for n,c,y in B2B:
     if canon(n) in {canon(r['n']) for r in rows}: continue
-    rows.append(R(n,'Single-origin dark chocolate',n,c,y,f'Bean-to-bar chocolate maker founded in {y} in {c}.','B2B',tier='Craft & indie'))
+    rows.append(R(n,'Single-origin dark chocolate',n,c,y,f'Bean-to-bar chocolate maker founded in {y} in {c}.','B2B',t='Craft & indie'))
 rows=[r for r in rows if r['k'] not in DROP and r['n'] not in DROPN]
 for r in rows:
     r['k']=KFIX.get(r['n'],KMAP.get(r['k'],r['k']))
@@ -226,9 +226,9 @@ for dn in DEPTS: pass
 # ---------- ms panels
 ms={}
 ms['Chocolate']=('Chocolate is sold by a few global groups and many national brands. The figures below are the ones stated on the cited pages, with their years.',[
- ('Global chocolate market','All chocolate makers','US$50 billion a year',2009,SRC['MDLZ'].replace('Mondel%C4%93z_International','Chocolate'),'worldwide business as the page states for about 2009'),
- ('Europe share of world chocolate revenue','Europe','45 %',2006,W:='https://en.wikipedia.org/wiki/Chocolate','share of world revenue'),
- ('US chocolate production','Mars and Hershey together','about two-thirds',2004,W,'share of US production'),
+ ('Global chocolate market','All chocolate makers','US$50 billion a year',2009,'https://en.wikipedia.org/wiki/Chocolate','worldwide business as the page states for about 2009'),
+ ('Europe share of world chocolate revenue','Europe','45 %',2006,'https://en.wikipedia.org/wiki/Chocolate','share of world revenue'),
+ ('US chocolate production','Mars and Hershey together','about two-thirds',2004,'https://en.wikipedia.org/wiki/Chocolate','share of US production'),
  ('US confectionery sales','All US confectionery','US$48 billion',2023,'https://www.snackandbakery.com/articles/113146-2025-global-top-100-candy-companies-thrive-amidst-price-increases','National Confectioners Association figure'),
  ('Brazil chocolate','Nestlé and Garoto together','41 %',2021,'https://www.poder360.com.br/economia/mercado-muda-em-19-anos-de-espera-da-compra-da-garoto-pela-nestle/','combined chocolate share, down from 58 % in 2002; the page names Cacau Show, Kopenhagen and Lindt as the growing brands'),
  ('Global top candy companies','Mondelēz International','US$36 billion',2025,'https://www.snackandbakery.com/articles/113146-2025-global-top-100-candy-companies-thrive-amidst-price-increases','revenue; includes non-confectionery brands; the page ranks it first'),

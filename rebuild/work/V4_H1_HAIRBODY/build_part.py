@@ -89,6 +89,9 @@ for dn,code in NAMES.items():
                         'Ordo Sonic':('Ordo',['Sonic+','Sonic Kids']),'SURI':('SURI',['SURI 2.0'])}
                     for en,(mk,vs) in EB.items():
                         keep.append({'n':en,'a':'','d':'Electric toothbrush line by '+mk+'.','mk':mk,'y':'','s':ks,'g':mk,'v':[{'n':v,'y':'','d':''} for v in vs]}); cnt['m_ent']+=1
+                        o,oy,c=ownfields(mk)
+                        if o: keep[-1].update(own=o,tier=tier(o,mk),cty=c); 
+                        if o and mk=='Philips Sonicare': keep[-1]['own_y']='2000'; keep[-1]['s']=U['SON']; keep[-1]['d']='Sonicare toothbrush line; Philips bought the Sonicare maker Optiva in October 2000 (Wikipedia).'
                 else:
                     taken={e['n'].lower() for e in keep}
                     for mk,mods in bym.items():
@@ -160,9 +163,9 @@ for dn,code in NAMES.items():
         n_g=sum(1 for e in ents if e['g'].startswith('Global'))
         kind={'n':bn,'a':'','d':'A %s brand sold under its own name, grouped by who owns it.'%btxt,'s':U['CP'],'x':ents,
               'nl':'One entry is a %s brand sold under its own name; product lines, formulations and variants within it are versions.'%btxt,
-              'sel':('Follows the brand lists on the Wikipedia pages of the twelve global groups (Procter & Gamble, Unilever, L\'Oréal, Colgate-Palmolive, Haleon, Kenvue, Beiersdorf, Henkel, Edgewell, Kao, Church & Dwight; Lion from its own product page), '
-                     'cut to %s brands, with independents and owner-not-stated brands from the Wikipedia toothpaste, shampoo and soap lists and from earlier retail pages. Group sections follow the order of the owner list. '
-                     'Covers %d brands, %d of them in the twelve group portfolios as those pages list them; the groups\' own brand pages were not read, so portfolios may be incomplete.')%(btxt,len(ents),n_g),
+              'sel':('Follows the owners\' own brand pages where a fetched page lists them (P&G, Colgate-Palmolive, Edgewell, Kenvue, Haleon, Beiersdorf, L\'Oréal; the Unilever, Henkel, Kao, Lion and Church & Dwight pages could not be read in full), otherwise Wikipedia brand lists and categories for the same groups, cut to %s brands. '
+                     'Independents and national champions come from the Wikipedia toothpaste, shampoo and soap lists and the company pages of LG H&H, Golrang, Bidco, PZ Cussons, Marico, Dabur, Mandom, Natura and Yunnan Baiyao; craft and indie brands from one small-batch overview (mygreencloset.com). '
+                     'Covers %d brands, %d of them in the twelve group portfolios as those pages list them; owners\' pages that could not be read mean those portfolios may be incomplete.')%(btxt,len(ents),n_g),
               'xg':'by owner tier and group'}
         shelf={'n':'Brands by market','t':'%s brands grouped by owner, from the global groups to independents; product types are on the shelves below.'%btxt.capitalize(),'ax':'brands by owner tier, then owner group','k':[kind]}
         d['s'].insert(0,shelf)
