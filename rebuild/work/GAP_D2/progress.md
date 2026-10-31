@@ -4,3 +4,4 @@ step2: edit1.py applied (versions: Kobo,Razr,Fitbit,Forerunner,fenix,BB,Surface,
 step3: edit2.py applied (OnePlus,Xiaomi,Poco,Garmin handhelds,inReach,ham,ms for tablets+wearables). ~39 fetches used. next: few more years (Galaxy Tab S, Galaxy Watch), then edit3 = coverage lines on all kinds with entries, then report
 step4: edit3 (Tab S/A, Watch years) + edit4 (coverage lines, all 61 kinds) applied; ~42 fetches. next: use remaining ~15 fetches on year gaps, then report
 step5: edit5 applied; ~49 fetches; next write report
+ROUND2 started: owners via Wikidata, page tails, years, full-year shares
