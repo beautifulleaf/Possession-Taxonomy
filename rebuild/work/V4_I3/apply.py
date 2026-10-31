@@ -273,7 +273,7 @@ def main():
         for sh in dep['s']:
             for k in sh['k']:
                 n=k['n']; before=len(k.get('x') or [])+len(k.get('m') or [])+len(k.get('r') or [])
-                if dep['n']==COMMODITY_DEPT:
+                if dep['n']==COMMODITY_DEPT and not k.get('x'):
                     nm=len(k.get('m') or [])+len(k.get('r') or [])
                     k.pop('m',None);k.pop('r',None)
                     if k.get('x'):
