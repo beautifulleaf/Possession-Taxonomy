@@ -68,6 +68,7 @@ for c in sys.argv[1:]:
         g=glob_idx.get(norm(nm))
         if g and norm(g) not in here: B['b'].append({'n':g}); here[norm(g)]=B['b'][-1]; cross+=1
     for am in v.get('alias_merges',[]):  # extra aliases for a brand (merged duplicates, product lines)
+        if isinstance(am,list): am={'n':am[0],'add_aliases':list(am[1:])}
         if 'n' not in am and 'keep' in am: am={'n':am['keep'],'add_aliases':[am['alias']] if isinstance(am.get('alias'),str) else am.get('alias',[])}
         k=norm(am['n']); e=here.get(k)
         if e is None:
