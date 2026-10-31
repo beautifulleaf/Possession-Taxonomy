@@ -5,3 +5,4 @@ step3: fetched army/joint/unit/merchant/PHS articles (all dates in hand; see sou
 step4: edit1 applied (campaign/gallantry/longservice + g). next: Topps counts, UK medals, brands, report
 step5: Topps counts done (edit2). next: Wikipedia UK campaign medals windows check, coverage lines for kinds w/o, brands, report
 step6: edit3 coverage+brands done; next report
+ROUND2 start: fetch List of circulating currencies
