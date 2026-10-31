@@ -7,3 +7,7 @@ step done dept Bicycles
 step done dept Vans, trucks & buses
 step done dept Caravans, motorhomes & trailers
 step done dept Boats
+step done dept Off-road & leisure vehicles
+step done dept Aircraft
+step done dept Heritage rail & horse-drawn
+step done dept Prams & strollers

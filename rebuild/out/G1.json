@@ -23548,21 +23548,14 @@
    "b": [],
    "s": [
     {
-     "n": "ATVs, buggies, karts & snowmobiles",
+     "n": "Dirt & sand vehicles",
+     "t": "Open vehicles for rough ground, trails and dunes; a road-registered off-roader → Cars.",
+     "ax": "kinds by how the rider sits and steers: straddled quad, side-by-side seats, tube-frame buggy",
      "k": [
       {
        "n": "Quad bike",
        "a": "ATV · quad · four-wheeler · three-wheeler (ATC)",
        "d": "Straddle-seat all-terrain vehicle with handlebars and low-pressure tyres, off-road or road-registered.",
-       "t": [
-        "sport (two-wheel drive, manual)",
-        "utility (four-wheel drive, racks, towing)",
-        "youth",
-        "two-up",
-        "road-registered",
-        "three-wheeled ATC (vintage)",
-        "electric"
-       ],
        "s": "https://www.polaris.com/en-us/off-road/atv-4-wheeler/",
        "x": [
         {
@@ -23817,22 +23810,49 @@
          "YFZ50",
          "Yamaha Motor"
         ]
+       ],
+       "tt": [
+        [
+         "Class",
+         [
+          "Sport (two-wheel drive, manual)",
+          "Utility (four-wheel drive, racks, towing)",
+          "Youth"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Single",
+          "Two-up"
+         ]
+        ],
+        [
+         "Registration",
+         [
+          "Off-road only",
+          "Road-registered"
+         ]
+        ],
+        [
+         "Vintage",
+         [
+          "Three-wheeled ATC"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Electric"
+         ]
+        ]
        ]
       },
       {
        "n": "Side-by-side",
        "a": "UTV · SxS · ROV · utility task vehicle",
        "d": "Off-road vehicle with side-by-side seats in a roll cage, a steering wheel and foot controls.",
-       "t": [
-        "sport",
-        "utility",
-        "recreational/crossover",
-        "two-seat",
-        "four- or six-seat (crew)",
-        "petrol",
-        "diesel",
-        "electric"
-       ],
        "s": "https://en.wikipedia.org/wiki/Side-by-side_(vehicle)",
        "x": [
         {
@@ -24021,21 +24041,44 @@
          "Mule SX",
          "Kawasaki"
         ]
+       ],
+       "tt": [
+        [
+         "Class",
+         [
+          "Sport",
+          "Utility",
+          "Recreational / crossover"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Two-seat",
+          "Four- or six-seat (crew)"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Diesel",
+          "Electric"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Off-roader",
+         "road-registered off-road car"
+        ]
        ]
       },
       {
        "n": "Dune buggy",
        "a": "beach buggy · sand rail · sand car · Baja Bug",
        "d": "Light open off-road car with large wide tyres for sand, beaches and desert, often rear-engined.",
-       "t": [
-        "fibreglass-bodied (Beetle-based)",
-        "tube-frame sand rail",
-        "Baja Bug",
-        "kit",
-        "turnkey",
-        "street-legal",
-        "electric"
-       ],
        "s": "https://en.wikipedia.org/wiki/Dune_buggy",
        "x": [
         {
@@ -24100,125 +24143,72 @@
          "s": "https://en.wikipedia.org/wiki/Baja_Bug",
          "v": [],
          "dt": "stock-based or race class · fibreglass panels · suspension"
-        },
-        {
-         "n": "Sandrail",
-         "a": "sand rail · rail · sand car",
-         "d": "Lightweight tube-frame off-road car built specifically for sand.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Sandrail",
-         "v": [],
-         "dt": "seats · engine · long-travel suspension"
-        },
-        {
-         "n": "Funco sand cars",
-         "a": "Funco",
-         "d": "High-performance long-travel sand cars from Funco Motorsports.",
-         "mk": "Funco Motorsports",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Funco_Motorsports",
-         "v": [
-          {
-           "n": "F9",
-           "mk": "Funco Motorsports",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "FD9",
-           "mk": "Funco Motorsports",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "GTX",
-           "mk": "Funco Motorsports",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "seats · engine · suspension"
         }
+       ],
+       "m": [
+        [
+         "F9",
+         "Funco Motorsports"
+        ],
+        [
+         "FD9",
+         "Funco Motorsports"
+        ],
+        [
+         "GTX",
+         "Funco Motorsports"
+        ]
+       ],
+       "r": [
+        [
+         "Funco sand cars",
+         "Funco Motorsports"
+        ]
+       ],
+       "tt": [
+        [
+         "Build",
+         [
+          "Fibreglass-bodied (Beetle-based)",
+          "Tube-frame sand rail"
+         ]
+        ],
+        [
+         "Supply",
+         [
+          "Kit",
+          "Turnkey"
+         ]
+        ],
+        [
+         "Road use",
+         [
+          "Off-road only",
+          "Street-legal"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Electric"
+         ]
+        ]
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Snow, ice & water vehicles",
+     "t": "Machines that cross snow, marsh, ice or water on tracks, skis or air; a boat on open water → Boats.",
+     "ax": "kinds by surface crossed: snow, land and water, marsh, any flat surface on an air cushion",
+     "k": [
       {
        "n": "Snowmobile",
        "a": "sled · snowmachine · skidoo · motor sled",
        "d": "Vehicle with a rear track and front skis made to travel over snow.",
-       "t": [
-        "trail",
-        "mountain (deep snow)",
-        "snocross/race",
-        "crossover",
-        "touring (two-up)",
-        "utility/working",
-        "youth",
-        "two-stroke",
-        "four-stroke",
-        "electric"
-       ],
        "s": "https://ski-doo.brp.com/us/en/",
        "x": [
-        {
-         "n": "Ski-Doo",
-         "a": "Ski-Dog · skidoo",
-         "d": "Open-cockpit personal snowmobile introduced by Joseph-Armand Bombardier; its name became the Canadian generic word.",
-         "mk": "Ski-Doo",
-         "y": "1959–",
-         "s": "https://en.wikipedia.org/wiki/Ski-Doo",
-         "v": [
-          {
-           "n": "first Ski-Doo",
-           "mk": "Ski-Doo",
-           "y": "1959",
-           "d": "named Ski-Dog until a brochure typo"
-          },
-          {
-           "n": "MXZ",
-           "mk": "Ski-Doo",
-           "y": "",
-           "d": "trail; Gen-4 2017"
-          },
-          {
-           "n": "Summit",
-           "mk": "Ski-Doo",
-           "y": "",
-           "d": "mountain; Gen-4 2017"
-          },
-          {
-           "n": "Renegade",
-           "mk": "Ski-Doo",
-           "y": "",
-           "d": "crossover; Gen-4 2017"
-          },
-          {
-           "n": "Expedition",
-           "mk": "Ski-Doo",
-           "y": "",
-           "d": "touring"
-          },
-          {
-           "n": "Skandic",
-           "mk": "Ski-Doo",
-           "y": "",
-           "d": "utility"
-          },
-          {
-           "n": "Tundra",
-           "mk": "Ski-Doo",
-           "y": "",
-           "d": "utility"
-          },
-          {
-           "n": "Freeride",
-           "mk": "Ski-Doo",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "track length · engine · platform · colour"
-        },
         {
          "n": "Polaris Sno Traveler",
          "a": "Sno-Traveler",
@@ -24255,239 +24245,99 @@
          "s": "https://en.wikipedia.org/wiki/Polaris_RMK",
          "v": [],
          "dt": "track length · engine · chassis"
-        },
-        {
-         "n": "Arctic Cat snowmobiles",
-         "a": "Arctic Cat · Boss Cat",
-         "d": "Snowmobiles from the Minnesota firm founded by Edgar Hetteen; now part of Textron.",
-         "mk": "Arctic Cat",
-         "y": "1960–",
-         "s": "https://en.wikipedia.org/wiki/Arctic_Cat",
-         "v": [
-          {
-           "n": "Boss Cat",
-           "mk": "Arctic Cat",
-           "y": "1970",
-           "d": ""
-          },
-          {
-           "n": "M800",
-           "mk": "Arctic Cat",
-           "y": "",
-           "d": "mountain"
-          }
-         ],
-         "dt": "model line · engine · colour"
-        },
-        {
-         "n": "Lynx",
-         "a": "Lynx snowmobile",
-         "d": "Finnish snowmobile brand, now BRP, with PPS rear suspension for rough conditions.",
-         "mk": "Lynx",
-         "y": "1968–",
-         "s": "https://en.wikipedia.org/wiki/Lynx_(snowmobile)",
-         "v": [
-          {
-           "n": "first Lynx",
-           "mk": "Lynx",
-           "y": "1968",
-           "d": "Velsa Oy, Kurikka"
-          }
-         ],
-         "dt": "suspension · engine · track"
         }
        ],
        "m": [
         [
          "Switchback",
          "Polaris"
+        ],
+        [
+         "first Ski-Doo",
+         "Ski-Doo"
+        ],
+        [
+         "MXZ",
+         "Ski-Doo"
+        ],
+        [
+         "Summit",
+         "Ski-Doo"
+        ],
+        [
+         "Renegade",
+         "Ski-Doo"
+        ],
+        [
+         "Expedition",
+         "Ski-Doo"
+        ],
+        [
+         "Skandic",
+         "Ski-Doo"
+        ],
+        [
+         "Tundra",
+         "Ski-Doo"
+        ],
+        [
+         "Freeride",
+         "Ski-Doo"
+        ],
+        [
+         "Boss Cat",
+         "Arctic Cat"
+        ],
+        [
+         "M800",
+         "Arctic Cat"
+        ],
+        [
+         "first Lynx",
+         "Lynx"
         ]
-       ]
-      },
-      {
-       "n": "Golf cart",
-       "a": "golf buggy · golf car · personal transportation vehicle · LSV",
-       "d": "Small low-speed vehicle made to carry golfers and bags, also used privately round estates and communities.",
-       "t": [
-        "two-seat",
-        "four- or six-seat",
-        "lifted",
-        "electric",
-        "petrol",
-        "street-legal (LSV)",
-        "utility bed"
        ],
-       "s": "https://www.clubcar.com/en/personal/golf-carts/onward-4-passenger",
-       "x": [
-        {
-         "n": "Club Car DS",
-         "a": "DS",
-         "d": "Club Car's signature golf car, named after designer Dom Saporito.",
-         "mk": "Club Car",
-         "y": "c.1980–2004",
-         "s": "https://en.wikipedia.org/wiki/Club_Car",
-         "v": [],
-         "dt": "electric or petrol · year · colour"
-        },
-        {
-         "n": "Club Car Precedent",
-         "a": "Precedent · Tempo",
-         "d": "Club Car's golf car from 2004, replaced by the Tempo in 2018.",
-         "mk": "Club Car",
-         "y": "2004–",
-         "s": "https://en.wikipedia.org/wiki/Club_Car",
-         "v": [
-          {
-           "n": "Precedent i2",
-           "mk": "Club Car",
-           "y": "2008",
-           "d": "new drive system"
-          },
-          {
-           "n": "Precedent i3",
-           "mk": "Club Car",
-           "y": "2008",
-           "d": "first connected golf cart"
-          },
-          {
-           "n": "Tempo",
-           "mk": "Club Car",
-           "y": "2018",
-           "d": "replacement"
-          }
-         ],
-         "dt": "electric or petrol · seats"
-        },
-        {
-         "n": "Club Car Onward",
-         "a": "Onward · Onward LSV",
-         "d": "Club Car's personal transportation line for private owners.",
-         "mk": "Club Car",
-         "y": "2017–",
-         "s": "https://en.wikipedia.org/wiki/Club_Car",
-         "v": [
-          {
-           "n": "Onward LSV",
-           "mk": "Club Car",
-           "y": "2025",
-           "d": "street-legal low-speed vehicle"
-          }
-         ],
-         "dt": "seats · lifted · electric or petrol"
-        },
-        {
-         "n": "Marketeer golf cart",
-         "a": "Marketeer",
-         "d": "Early electric golf cart by Merle Williams of Long Beach, California.",
-         "mk": "",
-         "y": "1951",
-         "s": "https://en.wikipedia.org/wiki/Golf_cart",
-         "v": [],
-         "dt": "vintage condition"
-        }
+       "r": [
+        [
+         "Ski-Doo",
+         "Ski-Doo"
+        ],
+        [
+         "Arctic Cat snowmobiles",
+         "Arctic Cat"
+        ],
+        [
+         "Lynx",
+         "Lynx"
+        ]
        ],
-       "m": []
-      },
-      {
-       "n": "Go-kart",
-       "a": "kart · go-cart · racing kart",
-       "d": "Small open single-seat four-wheeled vehicle with a low chassis and no suspension.",
-       "t": [
-        "sprint chassis",
-        "cadet/mini chassis",
-        "shifter",
-        "rental/leisure",
-        "off-road kart",
-        "electric",
-        "pedal (children's)"
-       ],
-       "s": "https://nextkarting.co.uk/collections/karts-chassis",
-       "x": [
-        {
-         "n": "Ingels go-kart",
-         "a": "first go-kart",
-         "d": "Original go-kart built from scrap metal and a West Bend two-stroke by Art Ingels in 1956.",
-         "mk": "",
-         "y": "1956",
-         "s": "https://en.wikipedia.org/wiki/Art_Ingels",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Tony Kart",
-         "a": "OTK · Tony Kart",
-         "d": "Italian racing chassis brand of OTK Kart Group, with many world titles.",
-         "mk": "Tony Kart",
-         "y": "1958–",
-         "s": "https://en.wikipedia.org/wiki/OTK_Kart_Group",
-         "v": [
-          {
-           "n": "Racer 401 T",
-           "mk": "Tony Kart",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "LN Lando",
-           "mk": "Tony Kart",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Kosmic 950 Mini Rookie",
-           "mk": "Tony Kart",
-           "y": "",
-           "d": "Kosmic brand, 1996–"
-          },
-          {
-           "n": "e-Viper",
-           "mk": "Tony Kart",
-           "y": "",
-           "d": "electric"
-          }
-         ],
-         "dt": "class (cadet, senior, shifter) · tube diameter · engine"
-        },
-        {
-         "n": "CRG",
-         "a": "Kalì Kart",
-         "d": "Italian kart chassis maker founded as Kalì Kart, renamed CRG in 1986.",
-         "mk": "CRG",
-         "y": "1986–",
-         "s": "https://en.wikipedia.org/wiki/CRG_(kart_manufacturer)",
-         "v": [],
-         "dt": "class · chassis · engine"
-        },
-        {
-         "n": "Birel",
-         "a": "Birel · Easykart",
-         "d": "Kart maker from Lissone near Milan, building karts since the late 1950s.",
-         "mk": "Birel",
-         "y": "1950s–",
-         "s": "https://en.wikipedia.org/wiki/Birel",
-         "v": [
-          {
-           "n": "Easykart",
-           "mk": "Birel",
-           "y": "",
-           "d": "one-make classes 60 cc Cadet to 125 cc"
-          }
-         ],
-         "dt": "class · chassis · engine"
-        }
+       "tt": [
+        [
+         "Class",
+         [
+          "Trail",
+          "Mountain (deep snow)",
+          "Snocross / race",
+          "Crossover",
+          "Touring (two-up)",
+          "Utility / working",
+          "Youth"
+         ]
+        ],
+        [
+         "Engine",
+         [
+          "Two-stroke",
+          "Four-stroke",
+          "Electric"
+         ]
+        ]
        ]
       },
       {
        "n": "Amphibious vehicle",
        "a": "amphibian · amphicar · amphibious ATV · AATV",
        "d": "Vehicle that drives on land and floats or travels on water.",
-       "t": [
-        "amphibious car",
-        "amphibious ATV (6x6, 8x8)",
-        "amphibious quad",
-        "tracks",
-        "outboard"
-       ],
        "s": "https://en.wikipedia.org/wiki/Amphibious_vehicle",
        "x": [
         {
@@ -24582,11 +24432,288 @@
          "v": [],
          "dt": ""
         }
+       ],
+       "tt": [
+        [
+         "Form",
+         [
+          "Amphibious car",
+          "Amphibious ATV (6x6, 8x8)",
+          "Amphibious quad"
+         ]
+        ],
+        [
+         "Drive on water",
+         [
+          "Tracks",
+          "Outboard"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Hovercraft",
+         "other land-and-water craft"
+        ]
+       ]
+      },
+      {
+       "n": "Airboat",
+       "a": "swamp boat · fan boat",
+       "d": "Flat-bottomed boat pushed by an aircraft-style propeller above the stern, used in shallow marsh and swamp.",
+       "s": "https://en.wikipedia.org/wiki/List_of_boat_types",
+       "tt": [
+        [
+         "Seats",
+         [
+          "One-seat",
+          "Multi-seat"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Hovercraft",
+         "air-cushion craft"
+        ]
+       ]
+      },
+      {
+       "n": "Hovercraft",
+       "a": "air-cushion vehicle",
+       "d": "Craft that rides on a cushion of air, crossing water, mud, ice and land.",
+       "s": "https://en.wikipedia.org/wiki/List_of_boat_types",
+       "tt": [
+        [
+         "Seats",
+         [
+          "One-seat",
+          "Multi-seat"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Electric"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Airboat",
+         "fan-driven shallow-water boat"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Course & track vehicles",
+     "t": "Small vehicles driven on a golf course or kart track; a full-size racing car → Cars.",
+     "k": [
+      {
+       "n": "Golf cart",
+       "a": "golf buggy · golf car · personal transportation vehicle · LSV",
+       "d": "Small low-speed vehicle made to carry golfers and bags, also used privately round estates and communities.",
+       "s": "https://www.clubcar.com/en/personal/golf-carts/onward-4-passenger",
+       "x": [
+        {
+         "n": "Club Car DS",
+         "a": "DS",
+         "d": "Club Car's signature golf car, named after designer Dom Saporito.",
+         "mk": "Club Car",
+         "y": "c.1980–2004",
+         "s": "https://en.wikipedia.org/wiki/Club_Car",
+         "v": [],
+         "dt": "electric or petrol · year · colour"
+        },
+        {
+         "n": "Club Car Precedent",
+         "a": "Precedent · Tempo",
+         "d": "Club Car's golf car from 2004, replaced by the Tempo in 2018.",
+         "mk": "Club Car",
+         "y": "2004–",
+         "s": "https://en.wikipedia.org/wiki/Club_Car",
+         "v": [
+          {
+           "n": "Precedent i2",
+           "mk": "Club Car",
+           "y": "2008",
+           "d": "new drive system"
+          },
+          {
+           "n": "Precedent i3",
+           "mk": "Club Car",
+           "y": "2008",
+           "d": "first connected golf cart"
+          },
+          {
+           "n": "Tempo",
+           "mk": "Club Car",
+           "y": "2018",
+           "d": "replacement"
+          }
+         ],
+         "dt": "electric or petrol · seats"
+        },
+        {
+         "n": "Club Car Onward",
+         "a": "Onward · Onward LSV",
+         "d": "Club Car's personal transportation line for private owners.",
+         "mk": "Club Car",
+         "y": "2017–",
+         "s": "https://en.wikipedia.org/wiki/Club_Car",
+         "v": [
+          {
+           "n": "Onward LSV",
+           "mk": "Club Car",
+           "y": "2025",
+           "d": "street-legal low-speed vehicle"
+          }
+         ],
+         "dt": "seats · lifted · electric or petrol"
+        },
+        {
+         "n": "Marketeer golf cart",
+         "a": "Marketeer",
+         "d": "Early electric golf cart by Merle Williams of Long Beach, California.",
+         "mk": "",
+         "y": "1951",
+         "s": "https://en.wikipedia.org/wiki/Golf_cart",
+         "v": [],
+         "dt": "vintage condition"
+        }
+       ],
+       "m": [],
+       "tt": [
+        [
+         "Seats",
+         [
+          "Two-seat",
+          "Four- or six-seat"
+         ]
+        ],
+        [
+         "Fit",
+         [
+          "Standard",
+          "Lifted",
+          "Utility bed"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Electric",
+          "Petrol"
+         ]
+        ],
+        [
+         "Road use",
+         [
+          "Course only",
+          "Street-legal (LSV)"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Side-by-side",
+         "larger utility vehicle"
+        ]
+       ]
+      },
+      {
+       "n": "Go-kart",
+       "a": "kart · go-cart · racing kart",
+       "d": "Small open single-seat four-wheeled vehicle with a low chassis and no suspension.",
+       "s": "https://nextkarting.co.uk/collections/karts-chassis",
+       "x": [
+        {
+         "n": "Ingels go-kart",
+         "a": "first go-kart",
+         "d": "Original go-kart built from scrap metal and a West Bend two-stroke by Art Ingels in 1956.",
+         "mk": "",
+         "y": "1956",
+         "s": "https://en.wikipedia.org/wiki/Art_Ingels",
+         "v": [],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Racer 401 T",
+         "Tony Kart"
+        ],
+        [
+         "LN Lando",
+         "Tony Kart"
+        ],
+        [
+         "Kosmic 950 Mini Rookie",
+         "Tony Kart"
+        ],
+        [
+         "e-Viper",
+         "Tony Kart"
+        ],
+        [
+         "Easykart",
+         "Birel"
+        ]
+       ],
+       "r": [
+        [
+         "Tony Kart",
+         "Tony Kart"
+        ],
+        [
+         "CRG",
+         "CRG"
+        ],
+        [
+         "Birel",
+         "Birel"
+        ]
+       ],
+       "tt": [
+        [
+         "Class",
+         [
+          "Sprint chassis",
+          "Cadet / mini chassis",
+          "Shifter",
+          "Rental / leisure",
+          "Off-road kart",
+          "Pedal (children's)"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Electric"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Track and racing car",
+         "full-size racing car"
+        ]
        ]
       }
      ]
     }
-   ]
+   ],
+   "t": "Small motorised vehicles for rough ground, snow, water or a closed course; a road car → Cars; a boat for open water → Boats.",
+   "ax": "Where is the vehicle driven: on dirt and sand, over snow and water, or on a closed course?"
   },
   {
    "n": "Aircraft",
@@ -24601,22 +24728,13 @@
    "s": [
     {
      "n": "Airplanes",
+     "t": "Powered fixed-wing aircraft named by engine type; a purpose-built airplane → Special-purpose airplanes.",
+     "ax": "kinds by engine type and number, smallest first",
      "k": [
       {
        "n": "Single-engine piston airplane",
        "a": "SEP · light aircraft · single",
        "d": "Fixed-wing airplane with one piston engine, from two-seat trainers to six-seat tourers.",
-       "t": [
-        "high wing",
-        "low wing",
-        "tailwheel",
-        "tricycle gear",
-        "fixed gear",
-        "retractable gear",
-        "turbocharged",
-        "diesel",
-        "glass cockpit"
-       ],
        "s": "https://www.controller.com/listings/for-sale/piston-single-aircraft/6",
        "x": [
         {
@@ -25072,18 +25190,48 @@
          "AA-1A",
          "Grumman American"
         ]
+       ],
+       "tt": [
+        [
+         "Wing",
+         [
+          "High wing",
+          "Low wing"
+         ]
+        ],
+        [
+         "Landing gear",
+         [
+          "Tailwheel",
+          "Tricycle gear"
+         ]
+        ],
+        [
+         "Undercarriage",
+         [
+          "Fixed gear",
+          "Retractable gear"
+         ]
+        ],
+        [
+         "Engine",
+         [
+          "Turbocharged",
+          "Diesel"
+         ]
+        ],
+        [
+         "Cockpit",
+         [
+          "Glass cockpit"
+         ]
+        ]
        ]
       },
       {
        "n": "Multi-engine piston airplane",
        "a": "piston twin · light twin",
        "d": "Fixed-wing airplane with two or more piston engines, used for touring and multi-engine training.",
-       "t": [
-        "pressurised",
-        "turbocharged",
-        "diesel",
-        "centreline thrust"
-       ],
        "s": "https://www.controller.com/listings/for-sale/piston-twin-aircraft/9",
        "x": [
         {
@@ -25218,17 +25366,33 @@
          "P2012 Traveller",
          "Tecnam"
         ]
+       ],
+       "tt": [
+        [
+         "Cabin",
+         [
+          "Pressurised"
+         ]
+        ],
+        [
+         "Engine",
+         [
+          "Turbocharged",
+          "Diesel"
+         ]
+        ],
+        [
+         "Thrust",
+         [
+          "Centreline thrust"
+         ]
+        ]
        ]
       },
       {
        "n": "Turboprop airplane",
        "a": "turboprop · propjet",
        "d": "Fixed-wing airplane driven by one or more turboprop engines; owner-flown singles and twins.",
-       "t": [
-        "single-engine",
-        "twin-engine",
-        "pressurised"
-       ],
        "s": "https://www.controller.com/listings/for-sale/turboprop-aircraft/8?Page=7",
        "x": [
         {
@@ -25400,21 +25564,27 @@
          "M700 Fury",
          "Piper"
         ]
+       ],
+       "tt": [
+        [
+         "Engines",
+         [
+          "Single-engine",
+          "Twin-engine"
+         ]
+        ],
+        [
+         "Cabin",
+         [
+          "Pressurised"
+         ]
+        ]
        ]
       },
       {
        "n": "Jet",
        "a": "business jet · private jet · very light jet",
        "d": "Fixed-wing airplane driven by jet engines, as owned privately: very light, light, midsize and long-range business jets.",
-       "t": [
-        "very light jet",
-        "single-engine jet",
-        "light jet",
-        "midsize",
-        "super-midsize",
-        "large-cabin",
-        "ultra-long-range"
-       ],
        "s": "https://www.controller.com/listings/for-sale/jet-aircraft/3",
        "x": [
         {
@@ -25567,112 +25737,135 @@
          "Learjet 60",
          "Learjet"
         ]
-       ]
-      },
-      {
-       "n": "Floatplane",
-       "a": "seaplane · amphibian · flying boat",
-       "d": "Fixed-wing airplane made to take off from and land on water, on floats or with a boat hull.",
-       "t": [
-        "straight floats",
-        "amphibious floats",
-        "flying-boat hull",
-        "amphibian"
        ],
-       "s": "https://www.controller.com/listings/for-sale/piston-amphibious-slash-floatplanes/1",
+       "tt": [
+        [
+         "Class",
+         [
+          "Very light jet",
+          "Light jet",
+          "Midsize",
+          "Super-midsize",
+          "Large-cabin",
+          "Ultra-long-range"
+         ]
+        ],
+        [
+         "Engines",
+         [
+          "Single-engine jet",
+          "Twin-engine jet"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "F6",
+         "Jet",
+         "same name, a black gemstone"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Special-purpose airplanes",
+     "t": "Airplanes defined by how the owner builds or uses them: light-sport rules, home building, aerobatics, water landing or military history; a general touring airplane → Airplanes.",
+     "ax": "kinds by use or origin: easy licence, home-built, aerobatic, water landing, military heritage",
+     "k": [
+      {
+       "n": "Light-sport and ultralight airplane",
+       "a": "LSA · microlight · ultralight · three-axis microlight",
+       "d": "Small, lightweight one- or two-seat airplane flown under light-sport or microlight rules.",
+       "s": "https://en.wikipedia.org/wiki/Light-sport_aircraft",
        "x": [
         {
-         "n": "Grumman Goose",
-         "a": "G-21 · JRF · Turbo Goose",
-         "d": "Twin-engine amphibious flying boat designed as an eight-seat commuter; 345 built.",
-         "mk": "Grumman",
-         "y": "1937",
-         "s": "https://en.wikipedia.org/wiki/Grumman_G-21_Goose",
+         "n": "Flight Design CT",
+         "a": "CT · CTSW · CTLS · CTLSi · MC",
+         "d": "German two-seat high-wing composite microlight and light-sport aircraft; over 900 built.",
+         "mk": "Flight Design",
+         "y": "1997–",
+         "s": "https://en.wikipedia.org/wiki/Flight_Design_CT",
          "v": [
           {
-           "n": "G-21",
-           "mk": "Grumman",
-           "y": "1937",
-           "d": "civil original"
+           "n": "CT",
+           "mk": "Flight Design",
+           "y": "1997",
+           "d": "original"
           },
           {
-           "n": "JRF-5",
-           "mk": "Grumman",
-           "y": "",
-           "d": "main US Navy version; 184 built"
+           "n": "CTSW",
+           "mk": "Flight Design",
+           "y": "2005",
+           "d": "short wing"
           },
           {
-           "n": "G-21C",
-           "mk": "McKinnon",
-           "y": "1958",
-           "d": "four piston engines"
+           "n": "CTLS",
+           "mk": "Flight Design",
+           "y": "2008",
+           "d": "light-sport version"
           },
           {
-           "n": "G-21G Turbo Goose",
-           "mk": "McKinnon",
-           "y": "",
-           "d": "PT6A turboprops"
+           "n": "MC",
+           "mk": "Flight Design",
+           "y": "2008",
+           "d": "metal construction"
+          },
+          {
+           "n": "CTLSi",
+           "mk": "Flight Design",
+           "y": "2012",
+           "d": "fuel-injected Rotax 912 iS"
           }
          ],
-         "dt": "piston or turbine conversion · interior"
-        },
-        {
-         "n": "Grumman Widgeon",
-         "a": "G-44 · J4F · SCAN 30 · Super Widgeon",
-         "d": "Small twin-engine amphibian, smaller sibling of the Goose; 317 built.",
-         "mk": "Grumman",
-         "y": "1941–1955",
-         "s": "https://en.wikipedia.org/wiki/Grumman_G-44_Widgeon",
-         "v": [
-          {
-           "n": "J4F",
-           "mk": "Grumman",
-           "y": "1941",
-           "d": "wartime Coast Guard and Navy"
-          },
-          {
-           "n": "G-44A",
-           "mk": "Grumman",
-           "y": "postwar",
-           "d": "redesigned hull, six seats"
-          },
-          {
-           "n": "SCAN 30",
-           "mk": "SCAN",
-           "y": "",
-           "d": "French licence-built; 41"
-          },
-          {
-           "n": "Super Widgeon",
-           "mk": "McKinnon",
-           "y": "",
-           "d": "flat-six engine conversion; over 70"
-          }
-         ],
-         "dt": "original or Super Widgeon conversion"
-        },
-        {
-         "n": "Icon A5",
-         "a": "A5",
-         "d": "Two-seat amphibious light-sport aircraft with folding wings and a spin-resistant wing.",
-         "mk": "Icon Aircraft",
-         "y": "2014–",
-         "s": "https://en.wikipedia.org/wiki/Icon_A5",
-         "v": [
-          {
-           "n": "A5",
-           "mk": "Icon Aircraft",
-           "y": "2014",
-           "d": "production model; deliveries 2016"
-          }
-         ],
-         "dt": "trim · trailer"
+         "dt": "variant · engine · parachute"
         }
        ],
        "m": [
         [
-         "Mallard",
-         "Grumman"
+         "SportCruiser",
+         "Czech Sport Aircraft"
+        ],
+        [
+         "Remos GX",
+         "Remos"
+        ],
+        [
+         "Viper SD4",
+         "Tomark Aero"
+        ],
+        [
+         "AL11 Legend",
+         "American Legend"
+        ]
+       ],
+       "tt": [
+        [
+         "Class",
+         [
+          "Light-sport (LSA)",
+          "Microlight",
+          "Ultralight"
+         ]
+        ],
+        [
+         "Wing",
+         [
+          "High wing",
+          "Low wing"
+         ]
+        ],
+        [
+         "Landing gear",
+         [
+          "Tailwheel"
+         ]
+        ],
+        [
+         "Float",
+         [
+          "Amphibious"
+         ]
         ]
        ]
       },
@@ -25680,14 +25873,6 @@
        "n": "Homebuilt aircraft",
        "a": "kit plane · amateur-built · experimental",
        "d": "Aircraft built by a non-professional from plans or a kit, flown under amateur-built rules.",
-       "t": [
-        "plans-built",
-        "kit-built",
-        "quick-build kit",
-        "metal",
-        "composite",
-        "wood and fabric"
-       ],
        "s": "https://en.wikipedia.org/wiki/Homebuilt_aircraft",
        "x": [
         {
@@ -25813,19 +25998,30 @@
          ],
          "dt": "engine · wheels, tundra tyres or floats"
         }
+       ],
+       "tt": [
+        [
+         "Build",
+         [
+          "Plans-built",
+          "Kit-built",
+          "Quick-build kit"
+         ]
+        ],
+        [
+         "Material",
+         [
+          "Metal",
+          "Composite",
+          "Wood and fabric"
+         ]
+        ]
        ]
       },
       {
        "n": "Aerobatic airplane",
        "a": "aerobatic aircraft · competition aerobatic",
        "d": "Airplane built to fly aerobatic manoeuvres for sport, competition or display.",
-       "t": [
-        "single-seat",
-        "two-seat",
-        "biplane",
-        "monoplane",
-        "unlimited class"
-       ],
        "s": "https://en.wikipedia.org/wiki/Aerobatics",
        "x": [
         {
@@ -25974,20 +26170,146 @@
          ],
          "dt": "tricycle or tailwheel · instruments"
         }
+       ],
+       "tt": [
+        [
+         "Seats",
+         [
+          "Single-seat",
+          "Two-seat"
+         ]
+        ],
+        [
+         "Wings",
+         [
+          "Biplane",
+          "Monoplane"
+         ]
+        ],
+        [
+         "Class",
+         [
+          "Unlimited class"
+         ]
+        ]
+       ]
+      },
+      {
+       "n": "Floatplane",
+       "a": "seaplane · amphibian · flying boat",
+       "d": "Fixed-wing airplane made to take off from and land on water, on floats or with a boat hull.",
+       "s": "https://www.controller.com/listings/for-sale/piston-amphibious-slash-floatplanes/1",
+       "x": [
+        {
+         "n": "Grumman Goose",
+         "a": "G-21 · JRF · Turbo Goose",
+         "d": "Twin-engine amphibious flying boat designed as an eight-seat commuter; 345 built.",
+         "mk": "Grumman",
+         "y": "1937",
+         "s": "https://en.wikipedia.org/wiki/Grumman_G-21_Goose",
+         "v": [
+          {
+           "n": "G-21",
+           "mk": "Grumman",
+           "y": "1937",
+           "d": "civil original"
+          },
+          {
+           "n": "JRF-5",
+           "mk": "Grumman",
+           "y": "",
+           "d": "main US Navy version; 184 built"
+          },
+          {
+           "n": "G-21C",
+           "mk": "McKinnon",
+           "y": "1958",
+           "d": "four piston engines"
+          },
+          {
+           "n": "G-21G Turbo Goose",
+           "mk": "McKinnon",
+           "y": "",
+           "d": "PT6A turboprops"
+          }
+         ],
+         "dt": "piston or turbine conversion · interior"
+        },
+        {
+         "n": "Grumman Widgeon",
+         "a": "G-44 · J4F · SCAN 30 · Super Widgeon",
+         "d": "Small twin-engine amphibian, smaller sibling of the Goose; 317 built.",
+         "mk": "Grumman",
+         "y": "1941–1955",
+         "s": "https://en.wikipedia.org/wiki/Grumman_G-44_Widgeon",
+         "v": [
+          {
+           "n": "J4F",
+           "mk": "Grumman",
+           "y": "1941",
+           "d": "wartime Coast Guard and Navy"
+          },
+          {
+           "n": "G-44A",
+           "mk": "Grumman",
+           "y": "postwar",
+           "d": "redesigned hull, six seats"
+          },
+          {
+           "n": "SCAN 30",
+           "mk": "SCAN",
+           "y": "",
+           "d": "French licence-built; 41"
+          },
+          {
+           "n": "Super Widgeon",
+           "mk": "McKinnon",
+           "y": "",
+           "d": "flat-six engine conversion; over 70"
+          }
+         ],
+         "dt": "original or Super Widgeon conversion"
+        },
+        {
+         "n": "Icon A5",
+         "a": "A5",
+         "d": "Two-seat amphibious light-sport aircraft with folding wings and a spin-resistant wing.",
+         "mk": "Icon Aircraft",
+         "y": "2014–",
+         "s": "https://en.wikipedia.org/wiki/Icon_A5",
+         "v": [
+          {
+           "n": "A5",
+           "mk": "Icon Aircraft",
+           "y": "2014",
+           "d": "production model; deliveries 2016"
+          }
+         ],
+         "dt": "trim · trailer"
+        }
+       ],
+       "m": [
+        [
+         "Mallard",
+         "Grumman"
+        ]
+       ],
+       "tt": [
+        [
+         "Alighting gear",
+         [
+          "Straight floats",
+          "Amphibious floats",
+          "Flying-boat hull",
+          "Amphibian"
+         ]
+        ]
        ]
       },
       {
        "n": "Warbird",
        "a": "vintage military aircraft · historic military aircraft",
        "d": "Vintage military aircraft now owned and flown by private individuals or civilian organisations.",
-       "t": [
-        "piston fighter",
-        "trainer",
-        "jet",
-        "bomber",
-        "two-seat conversion",
-        "replica"
-       ],
        "s": "https://en.wikipedia.org/wiki/Warbird",
        "x": [
         {
@@ -26107,102 +26429,43 @@
          ],
          "dt": "variant · markings"
         }
-       ]
-      },
-      {
-       "n": "Light-sport and ultralight airplane",
-       "a": "LSA · microlight · ultralight · three-axis microlight",
-       "d": "Small, lightweight one- or two-seat airplane flown under light-sport or microlight rules.",
-       "t": [
-        "light-sport (LSA)",
-        "microlight",
-        "ultralight",
-        "high wing",
-        "low wing",
-        "tailwheel",
-        "amphibious"
        ],
-       "s": "https://en.wikipedia.org/wiki/Light-sport_aircraft",
-       "x": [
-        {
-         "n": "Flight Design CT",
-         "a": "CT · CTSW · CTLS · CTLSi · MC",
-         "d": "German two-seat high-wing composite microlight and light-sport aircraft; over 900 built.",
-         "mk": "Flight Design",
-         "y": "1997–",
-         "s": "https://en.wikipedia.org/wiki/Flight_Design_CT",
-         "v": [
-          {
-           "n": "CT",
-           "mk": "Flight Design",
-           "y": "1997",
-           "d": "original"
-          },
-          {
-           "n": "CTSW",
-           "mk": "Flight Design",
-           "y": "2005",
-           "d": "short wing"
-          },
-          {
-           "n": "CTLS",
-           "mk": "Flight Design",
-           "y": "2008",
-           "d": "light-sport version"
-          },
-          {
-           "n": "MC",
-           "mk": "Flight Design",
-           "y": "2008",
-           "d": "metal construction"
-          },
-          {
-           "n": "CTLSi",
-           "mk": "Flight Design",
-           "y": "2012",
-           "d": "fuel-injected Rotax 912 iS"
-          }
-         ],
-         "dt": "variant · engine · parachute"
-        }
+       "tt": [
+        [
+         "Role",
+         [
+          "Piston fighter",
+          "Trainer",
+          "Jet",
+          "Bomber"
+         ]
+        ],
+        [
+         "Form",
+         [
+          "Two-seat conversion",
+          "Replica"
+         ]
+        ]
        ],
-       "m": [
+       "see": [
         [
-         "SportCruiser",
-         "Czech Sport Aircraft"
-        ],
-        [
-         "Remos GX",
-         "Remos"
-        ],
-        [
-         "Viper SD4",
-         "Tomark Aero"
-        ],
-        [
-         "AL11 Legend",
-         "American Legend"
+         "G1",
+         "Aerobatic airplane",
+         "agile piston airplane"
         ]
        ]
       }
      ]
     },
     {
-     "n": "Gliders, balloons & airships",
+     "n": "Gliders",
+     "t": "Aircraft that soar without a main engine, or with a small one for launching or sustaining; a hang glider → E2.",
      "k": [
       {
        "n": "Glider",
        "a": "sailplane",
        "d": "Unpowered fixed-wing aircraft that flies by soaring.",
-       "t": [
-        "Standard Class",
-        "15-metre Class",
-        "18-metre Class",
-        "Open Class",
-        "Club Class",
-        "two-seater",
-        "vintage wooden"
-       ],
        "s": "https://www.schempp-hirth.com/en/sailplanes",
        "x": [
         {
@@ -26689,19 +26952,44 @@
          "AS 33",
          "Alexander Schleicher"
         ]
+       ],
+       "tt": [
+        [
+         "Class",
+         [
+          "Standard Class",
+          "15-metre Class",
+          "18-metre Class",
+          "Open Class",
+          "Club Class"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Single-seat",
+          "Two-seater"
+         ]
+        ],
+        [
+         "Era",
+         [
+          "Vintage wooden"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E2",
+         "Hang glider",
+         "foot-launched glider"
+        ]
        ]
       },
       {
        "n": "Motor-glider",
        "a": "self-launching sailplane · touring motor glider · TMG",
        "d": "Glider with an engine for take-off or sustaining flight.",
-       "t": [
-        "self-launching",
-        "sustainer (turbo)",
-        "touring motor glider",
-        "electric",
-        "front electric sustainer"
-       ],
        "s": "https://wingsandwheels.com/pipistrel-taurus-5031396970372.html",
        "x": [
         {
@@ -26881,19 +27169,36 @@
          "S12",
          "Stemme"
         ]
+       ],
+       "tt": [
+        [
+         "Launch",
+         [
+          "Self-launching",
+          "Sustainer (turbo)",
+          "Touring motor glider"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Electric",
+          "Front electric sustainer"
+         ]
+        ]
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Balloons & airships",
+     "t": "Aircraft that float on hot air or gas; a party balloon → B4.",
+     "ax": "kinds by lift and control: hot air, gas, gas with an engine",
+     "k": [
       {
        "n": "Hot-air balloon",
        "a": "montgolfière",
        "d": "Lighter-than-air aircraft lifted by heated air in an envelope.",
-       "t": [
-        "hopper (solo)",
-        "sport",
-        "passenger",
-        "special shape",
-        "envelope, basket and burner"
-       ],
        "s": "https://ultramagic.com/hot-air-balloons/envelopes/z-series",
        "x": [
         {
@@ -27076,17 +27381,29 @@
          "O-31",
          "Cameron Balloons"
         ]
+       ],
+       "tt": [
+        [
+         "Class",
+         [
+          "Hopper (solo)",
+          "Sport",
+          "Passenger",
+          "Special shape"
+         ]
+        ],
+        [
+         "Sold as",
+         [
+          "Envelope, basket and burner"
+         ]
+        ]
        ]
       },
       {
        "n": "Gas balloon",
        "a": "charlière · Rozière (hybrid)",
        "d": "Lighter-than-air aircraft lifted by a light gas, without propulsion.",
-       "t": [
-        "hydrogen",
-        "helium",
-        "Rozière hybrid"
-       ],
        "s": "https://cameronballoons.co.uk/gb1000-gas-balloon",
        "x": [
         {
@@ -27122,36 +27439,24 @@
          ],
          "dt": "size · gas cell"
         }
+       ],
+       "tt": [
+        [
+         "Gas",
+         [
+          "Hydrogen",
+          "Helium",
+          "Rozière hybrid"
+         ]
+        ]
        ]
       },
       {
        "n": "Airship",
        "a": "blimp · dirigible",
        "d": "Powered, steerable lighter-than-air aircraft.",
-       "t": [
-        "helium semi-rigid",
-        "blimp",
-        "hot-air (thermal) airship"
-       ],
        "s": "https://www.airships.net/zeppelin-nt/",
        "x": [
-        {
-         "n": "Hot-air airship",
-         "a": "thermal airship",
-         "d": "Powered, steerable craft lifted by heated air rather than gas.",
-         "mk": "Cameron Balloons",
-         "y": "1973",
-         "s": "https://en.wikipedia.org/wiki/Thermal_airship",
-         "v": [
-          {
-           "n": "D-96",
-           "mk": "Cameron Balloons",
-           "y": "1973",
-           "d": "first public flight"
-          }
-         ],
-         "dt": "envelope size · engine"
-        },
         {
          "n": "Zeppelin NT",
          "a": "",
@@ -27175,25 +27480,40 @@
          ],
          "dt": "livery · role"
         }
+       ],
+       "m": [
+        [
+         "D-96",
+         "Cameron Balloons"
+        ]
+       ],
+       "tt": [
+        [
+         "Structure",
+         [
+          "Blimp",
+          "Helium semi-rigid"
+         ]
+        ],
+        [
+         "Lift gas",
+         [
+          "Helium",
+          "Hot air (thermal)"
+         ]
+        ]
        ]
       }
      ]
     },
     {
-     "n": "Helicopters, gyroplanes & microlights",
+     "n": "Rotorcraft",
+     "t": "Aircraft lifted by rotating blades: powered rotor or free-spinning rotor; a drone → D4.",
      "k": [
       {
        "n": "Helicopter",
        "a": "chopper · rotorcraft",
        "d": "Rotorcraft lifted and driven by powered rotors.",
-       "t": [
-        "piston",
-        "turbine",
-        "two-seat",
-        "four-seat",
-        "kit-built",
-        "float-equipped"
-       ],
        "s": "https://www.controller.com/listings/for-sale/piston-helicopters/5",
        "x": [
         {
@@ -27412,20 +27732,49 @@
          ],
          "dt": "turbocharged or normally aspirated · fuselage (F-28 utility, 280 streamlined)"
         }
+       ],
+       "tt": [
+        [
+         "Engine",
+         [
+          "Piston",
+          "Turbine"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Two-seat",
+          "Four-seat"
+         ]
+        ],
+        [
+         "Build",
+         [
+          "Factory built",
+          "Kit-built"
+         ]
+        ],
+        [
+         "Landing gear",
+         [
+          "Skids",
+          "Float-equipped"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "D4",
+         "Camera drone",
+         "unmanned rotorcraft"
+        ]
        ]
       },
       {
        "n": "Gyroplane",
        "a": "autogyro · gyrocopter · gyro",
        "d": "Rotorcraft with an unpowered rotor and a separate propeller.",
-       "t": [
-        "open cockpit",
-        "enclosed cockpit",
-        "single-seat",
-        "tandem two-seat",
-        "side-by-side",
-        "homebuilt"
-       ],
        "s": "https://afors.uk/autogyros/for-sale/standardView-32283",
        "x": [
         {
@@ -27544,17 +27893,43 @@
          ],
          "dt": "seating · engine · trim"
         }
+       ],
+       "tt": [
+        [
+         "Cockpit",
+         [
+          "Open cockpit",
+          "Enclosed cockpit"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Single-seat",
+          "Tandem two-seat",
+          "Side-by-side"
+         ]
+        ],
+        [
+         "Build",
+         [
+          "Factory built",
+          "Homebuilt"
+         ]
+        ]
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Parachute & weight-shift flyers",
+     "t": "Light flyers hung beneath a fabric wing, with an engine for take-off and flight; an unpowered paraglider → E2.",
+     "ax": "kinds by how the pilot is carried: seated under a canopy, carried on the back, hung in a trike under a wing",
+     "k": [
       {
        "n": "Powered parachute",
        "a": "PPC · powered parafoil",
        "d": "Aircraft with a parachute wing and a motorised cart below it.",
-       "t": [
-        "single-seat",
-        "two-seat",
-        "electric"
-       ],
        "s": "https://planeandpilotmag.com/?p=651124",
        "x": [
         {
@@ -27602,20 +27977,28 @@
          "Skye Ryder Aerochute",
          "Six Chuter"
         ]
+       ],
+       "tt": [
+        [
+         "Seats",
+         [
+          "Single-seat",
+          "Two-seat"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Electric"
+         ]
+        ]
        ]
       },
       {
        "n": "Paramotor",
        "a": "powered paraglider · PPG",
        "d": "Backpack engine and propeller worn by a foot-launched pilot under a paraglider wing.",
-       "t": [
-        "foot-launched",
-        "trike-mounted",
-        "electric",
-        "two-stroke",
-        "four-stroke",
-        "paramotor wing (reflex)"
-       ],
        "s": "https://parajet.com/fr/paramotor-products",
        "x": [
         {
@@ -27686,20 +28069,42 @@
          "Volution 3",
          "Parajet"
         ]
+       ],
+       "tt": [
+        [
+         "Launch",
+         [
+          "Foot-launched",
+          "Trike-mounted"
+         ]
+        ],
+        [
+         "Engine",
+         [
+          "Two-stroke",
+          "Four-stroke",
+          "Electric"
+         ]
+        ],
+        [
+         "Wing",
+         [
+          "Reflex paramotor wing"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E2",
+         "Paraglider",
+         "unpowered fabric wing"
+        ]
        ]
       },
       {
        "n": "Weight-shift trike",
        "a": "flexwing · microlight trike",
        "d": "Powered hang-glider-type wing over a trike, steered by shifting weight.",
-       "t": [
-        "open cockpit",
-        "pod-faired",
-        "kingpost wing",
-        "topless strut-braced wing",
-        "single-seat",
-        "tandem two-seat"
-       ],
        "s": "https://afors.uk/weightshift-microlights/for-sale/standardView-65172",
        "x": [
         {
@@ -27789,12 +28194,44 @@
          ],
          "dt": "wing (iXess, NuviX, Fun, BioniX) · Rotax 582/912"
         }
+       ],
+       "tt": [
+        [
+         "Cockpit",
+         [
+          "Open cockpit",
+          "Pod-faired"
+         ]
+        ],
+        [
+         "Wing",
+         [
+          "Kingpost wing",
+          "Topless strut-braced wing"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Single-seat",
+          "Tandem two-seat"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E2",
+         "Hang glider",
+         "unpowered weight-shift wing"
+        ]
        ]
       }
      ]
     }
    ],
-   "note": "Private and sport aircraft by type, with model families as archetypes; airliners and military fleets out except privately owned warbirds."
+   "note": "Private and sport aircraft by type, with model families as archetypes; airliners and military fleets out except privately owned warbirds.",
+   "t": "Aircraft owned privately, from light airplanes and gliders to balloons and ultralights, with warbirds kept; airliners and military fleets are out; a model aircraft → E1, a drone → D4.",
+   "ax": "How does the aircraft stay up and move: powered wings, soaring wings, lighter-than-air gas, a rotor, or a fabric wing?"
   },
   {
    "n": "Heritage rail & horse-drawn",
@@ -27803,21 +28240,13 @@
    "s": [
     {
      "n": "Heritage rail",
+     "t": "Preserved rail vehicles owned by societies and individuals, from locomotives to track trolleys and ride-on miniatures; a model railway → E1.",
+     "ax": "kinds by role on the line: haul trains, carry passengers, self-propelled, track work, small scale",
      "k": [
       {
        "n": "Locomotive",
        "a": "engine · loco",
        "d": "Rail vehicle that provides the power to haul a train; here preserved steam, diesel and electric engines in private or society ownership.",
-       "t": [
-        "steam tender engine",
-        "steam tank engine",
-        "vertical-boiler steam",
-        "diesel shunter",
-        "diesel main-line",
-        "electric",
-        "narrow-gauge industrial",
-        "standard gauge"
-       ],
        "s": "https://en.wikipedia.org/wiki/GWR_4073_Class",
        "x": [
         {
@@ -28077,22 +28506,133 @@
          ],
          "dt": "350 or 400 hp · BR green or blue · works (Crewe, Darlington, Derby, Doncaster, Horwich)"
         }
+       ],
+       "tt": [
+        [
+         "Power",
+         [
+          "Steam tender engine",
+          "Steam tank engine",
+          "Vertical-boiler steam",
+          "Diesel shunter",
+          "Diesel main-line",
+          "Electric"
+         ]
+        ],
+        [
+         "Gauge",
+         [
+          "Standard gauge",
+          "Narrow-gauge industrial"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E1",
+         "Model locomotive",
+         "scale model"
+        ]
+       ]
+      },
+      {
+       "n": "Railcar",
+       "a": "railbus · heritage DMU",
+       "d": "Self-propelled passenger rail vehicle; here preserved railbuses, steam railcars and heritage diesel units.",
+       "s": "https://en.wikipedia.org/wiki/Uerdingen_railbus",
+       "x": [
+        {
+         "n": "Uerdingen railbus",
+         "a": "Uerdinger Schienenbus · VT 95 · VT 98",
+         "d": "German two-axle diesel railbus of the 1950s; many are run by societies and private railways.",
+         "mk": "Waggonfabrik Uerdingen",
+         "y": "1950–1962",
+         "s": "https://en.wikipedia.org/wiki/Uerdingen_railbus",
+         "v": [
+          {
+           "n": "VT 95 (Class 795)",
+           "mk": "Waggonfabrik Uerdingen",
+           "y": "1950–1958",
+           "d": "one Büssing engine, one powered axle"
+          },
+          {
+           "n": "VT 98 (Class 798)",
+           "mk": "Waggonfabrik Uerdingen",
+           "y": "1953–1962",
+           "d": "two Büssing U 10 engines, both axles powered"
+          },
+          {
+           "n": "VT 97 (Class 797)",
+           "mk": "Waggonfabrik Uerdingen",
+           "y": "",
+           "d": "rack-equipped variant"
+          }
+         ],
+         "dt": "power car, trailer (VB) or driving trailer (VS) · livery"
+        },
+        {
+         "n": "Wickham railbus",
+         "a": "",
+         "d": "Four-wheel railbus built by Wickham for British Railways in the mid-1950s.",
+         "mk": "D. Wickham & Co",
+         "y": "1950s",
+         "s": "https://en.wikipedia.org/wiki/Wickham_trolley",
+         "v": [
+          {
+           "n": "British Rail Class 109",
+           "mk": "D. Wickham & Co",
+           "y": "",
+           "d": "five DMU sets built, one survives"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Sentinel-Cammell steam railcar",
+         "a": "Sentinel railcar",
+         "d": "Geared steam passenger railcar built by Sentinel with Cammell bodies; the LNER bought about 80.",
+         "mk": "Sentinel Waggon Works",
+         "y": "1923–1951",
+         "s": "https://en.wikipedia.org/wiki/Sentinel_Waggon_Works",
+         "v": [
+          {
+           "n": "LNER railcars",
+           "mk": "Sentinel Waggon Works",
+           "y": "1925–1932",
+           "d": "about 80"
+          },
+          {
+           "n": "5208",
+           "mk": "Sentinel Waggon Works",
+           "y": "1951",
+           "d": "preserved, Buckinghamshire Railway Centre"
+          }
+         ],
+         "dt": ""
+        }
+       ],
+       "tt": [
+        [
+         "Power",
+         [
+          "Steam railcar",
+          "Diesel multiple unit",
+          "Railbus"
+         ]
+        ],
+        [
+         "Formation",
+         [
+          "Single car",
+          "With trailer"
+         ]
+        ]
        ]
       },
       {
        "n": "Railway carriage",
        "a": "coach · carriage · heritage wagon",
        "d": "Unpowered passenger coach or heritage wagon preserved for private or society use.",
-       "t": [
-        "corridor",
-        "open",
-        "brake",
-        "sleeper",
-        "dining or buffet",
-        "observation",
-        "goods wagon (heritage)",
-        "brake van"
-       ],
        "s": "https://en.wikipedia.org/wiki/British_Rail_Mark_1",
        "x": [
         {
@@ -28188,107 +28728,161 @@
          ],
          "dt": "type code · bogie type · works (Derby, Doncaster, Eastleigh, Swindon, Wolverton, York) · livery"
         }
+       ],
+       "tt": [
+        [
+         "Layout",
+         [
+          "Corridor",
+          "Open"
+         ]
+        ],
+        [
+         "Service",
+         [
+          "Brake",
+          "Sleeper",
+          "Dining or buffet",
+          "Observation"
+         ]
+        ],
+        [
+         "Goods stock",
+         [
+          "Goods wagon (heritage)",
+          "Brake van"
+         ]
+        ]
        ]
       },
       {
-       "n": "Railcar",
-       "a": "railbus · heritage DMU",
-       "d": "Self-propelled passenger rail vehicle; here preserved railbuses, steam railcars and heritage diesel units.",
-       "t": [
-        "railbus",
-        "steam railcar",
-        "diesel multiple unit",
-        "single car",
-        "with trailer"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Uerdingen_railbus",
+       "n": "Motor trolley",
+       "a": "speeder · section car · track inspection car · gang trolley",
+       "d": "Small motorised rail vehicle built for track crews, now run privately by enthusiasts on heritage lines.",
+       "s": "https://en.wikipedia.org/wiki/Fairmont_Railway_Motors",
        "x": [
         {
-         "n": "Uerdingen railbus",
-         "a": "Uerdinger Schienenbus · VT 95 · VT 98",
-         "d": "German two-axle diesel railbus of the 1950s; many are run by societies and private railways.",
-         "mk": "Waggonfabrik Uerdingen",
-         "y": "1950–1962",
-         "s": "https://en.wikipedia.org/wiki/Uerdingen_railbus",
+         "n": "Fairmont speeder",
+         "a": "Fairmont section car",
+         "d": "American motor section car from Fairmont, Minnesota, the classic speeder of North American railways.",
+         "mk": "Fairmont Railway Motors",
+         "y": "1909–1979",
+         "s": "https://en.wikipedia.org/wiki/Fairmont_Railway_Motors",
          "v": [
           {
-           "n": "VT 95 (Class 795)",
-           "mk": "Waggonfabrik Uerdingen",
-           "y": "1950–1958",
-           "d": "one Büssing engine, one powered axle"
-          },
-          {
-           "n": "VT 98 (Class 798)",
-           "mk": "Waggonfabrik Uerdingen",
-           "y": "1953–1962",
-           "d": "two Büssing U 10 engines, both axles powered"
-          },
-          {
-           "n": "VT 97 (Class 797)",
-           "mk": "Waggonfabrik Uerdingen",
+           "n": "MT-14",
+           "mk": "Fairmont Railway Motors",
            "y": "",
-           "d": "rack-equipped variant"
+           "d": "speeder"
           }
          ],
-         "dt": "power car, trailer (VB) or driving trailer (VS) · livery"
+         "dt": "engine (PHB, QB) · cab · trailer"
         },
         {
-         "n": "Wickham railbus",
-         "a": "",
-         "d": "Four-wheel railbus built by Wickham for British Railways in the mid-1950s.",
+         "n": "Wickham trolley",
+         "a": "Wickham gang trolley",
+         "d": "British petrol inspection and gang trolley built by Wickham of Ware from 1922 to 1990; many survive on heritage railways.",
          "mk": "D. Wickham & Co",
-         "y": "1950s",
+         "y": "1922–1990",
          "s": "https://en.wikipedia.org/wiki/Wickham_trolley",
          "v": [
           {
-           "n": "British Rail Class 109",
+           "n": "Type 17",
            "mk": "D. Wickham & Co",
-           "y": "",
-           "d": "five DMU sets built, one survives"
-          }
-         ],
-         "dt": ""
-        },
-        {
-         "n": "Sentinel-Cammell steam railcar",
-         "a": "Sentinel railcar",
-         "d": "Geared steam passenger railcar built by Sentinel with Cammell bodies; the LNER bought about 80.",
-         "mk": "Sentinel Waggon Works",
-         "y": "1923–1951",
-         "s": "https://en.wikipedia.org/wiki/Sentinel_Waggon_Works",
-         "v": [
-          {
-           "n": "LNER railcars",
-           "mk": "Sentinel Waggon Works",
-           "y": "1925–1932",
-           "d": "about 80"
+           "y": "pre-war",
+           "d": "ex-LNER examples on several heritage lines"
           },
           {
-           "n": "5208",
-           "mk": "Sentinel Waggon Works",
-           "y": "1951",
-           "d": "preserved, Buckinghamshire Railway Centre"
+           "n": "Type 17A",
+           "mk": "D. Wickham & Co",
+           "y": "",
+           "d": "Amberley Museum"
+          },
+          {
+           "n": "Type 18A",
+           "mk": "D. Wickham & Co",
+           "y": "",
+           "d": "Mk VI, Mid Hants Railway"
+          },
+          {
+           "n": "Type 27",
+           "mk": "D. Wickham & Co",
+           "y": "",
+           "d": "Mk III, ex-Longmoor Military Railway"
+          },
+          {
+           "n": "Type 27A",
+           "mk": "D. Wickham & Co",
+           "y": "",
+           "d": ""
           }
          ],
-         "dt": ""
+         "dt": "type number · Mk · gang or inspection body"
         }
+       ],
+       "tt": [
+        [
+         "Body",
+         [
+          "Open",
+          "Enclosed cab"
+         ]
+        ],
+        [
+         "Engine",
+         [
+          "One-cylinder"
+         ]
+        ],
+        [
+         "Use",
+         [
+          "Towing trailer"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Handcar",
+         "muscle-powered track vehicle"
+        ]
+       ]
+      },
+      {
+       "n": "Handcar",
+       "a": "draisine · railbike · pump trolley · velocipede · vélorail",
+       "d": "Small rail vehicle moved by its riders' muscle, pumped or pedalled.",
+       "s": "https://en.wikipedia.org/wiki/Handcar",
+       "m": [
+        [
+         "Sheffield velocipede",
+         "Sheffield Velocipede Car Company"
+        ],
+        [
+         "Kalamazoo handcar",
+         "Kalamazoo Velocipede Company"
+        ],
+        [
+         "Buda handcar",
+         "Buda Foundry and Manufacturing Company"
+        ]
+       ],
+       "tt": [
+        [
+         "Drive",
+         [
+          "Pump handcar",
+          "Pedal railbike",
+          "Push trolley"
+         ]
+        ]
        ]
       },
       {
        "n": "Ride-on miniature locomotive",
        "a": "miniature railway locomotive · live steamer · garden railway locomotive",
        "d": "Passenger-hauling locomotive for 5 in to 15 in gauge garden, club and miniature railways, powered by live steam, engine or battery.",
-       "t": [
-        "5 in gauge",
-        "7¼ in gauge",
-        "10¼ in gauge",
-        "15 in gauge",
-        "live steam",
-        "petrol or diesel",
-        "battery electric",
-        "scale model",
-        "freelance"
-       ],
        "s": "https://en.wikipedia.org/wiki/Ridable_miniature_railway",
        "x": [
         {
@@ -28373,177 +28967,54 @@
          ],
          "dt": "4-6-2 or 4-8-2 · 15 in gauge"
         }
-       ]
-      },
-      {
-       "n": "Handcar",
-       "a": "draisine · railbike · pump trolley · velocipede · vélorail",
-       "d": "Small rail vehicle moved by its riders' muscle, pumped or pedalled.",
-       "t": [
-        "pump handcar",
-        "pedal railbike",
-        "push trolley"
        ],
-       "s": "https://en.wikipedia.org/wiki/Handcar",
-       "x": [
-        {
-         "n": "Pump handcar",
-         "a": "walking-beam handcar",
-         "d": "Four-wheel railroad car driven by a see-saw pump lever; made by Sheffield, Kalamazoo and Buda and raced by enthusiasts today.",
-         "mk": "",
-         "y": "1870s–1950s",
-         "s": "https://en.wikipedia.org/wiki/Handcar",
-         "v": [
-          {
-           "n": "Sheffield velocipede",
-           "mk": "Sheffield Velocipede Car Company",
-           "y": "1877",
-           "d": "later Fairbanks Morse"
-          },
-          {
-           "n": "Kalamazoo handcar",
-           "mk": "Kalamazoo Velocipede Company",
-           "y": "to 1955",
-           "d": ""
-          },
-          {
-           "n": "Buda handcar",
-           "mk": "Buda Foundry and Manufacturing Company",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "crank or walking beam · five-person racing teams"
-        }
-       ]
-      },
-      {
-       "n": "Motor trolley",
-       "a": "speeder · section car · track inspection car · gang trolley",
-       "d": "Small motorised rail vehicle built for track crews, now run privately by enthusiasts on heritage lines.",
-       "t": [
-        "open",
-        "enclosed cab",
-        "one-cylinder",
-        "towing trailer"
+       "tt": [
+        [
+         "Gauge",
+         [
+          "5 in gauge",
+          "7¼ in gauge",
+          "10¼ in gauge",
+          "15 in gauge"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Live steam",
+          "Petrol or diesel",
+          "Battery electric"
+         ]
+        ],
+        [
+         "Prototype",
+         [
+          "Scale model",
+          "Freelance"
+         ]
+        ]
        ],
-       "s": "https://en.wikipedia.org/wiki/Fairmont_Railway_Motors",
-       "x": [
-        {
-         "n": "Fairmont speeder",
-         "a": "Fairmont section car",
-         "d": "American motor section car from Fairmont, Minnesota, the classic speeder of North American railways.",
-         "mk": "Fairmont Railway Motors",
-         "y": "1909–1979",
-         "s": "https://en.wikipedia.org/wiki/Fairmont_Railway_Motors",
-         "v": [
-          {
-           "n": "MT-14",
-           "mk": "Fairmont Railway Motors",
-           "y": "",
-           "d": "speeder"
-          }
-         ],
-         "dt": "engine (PHB, QB) · cab · trailer"
-        },
-        {
-         "n": "Wickham trolley",
-         "a": "Wickham gang trolley",
-         "d": "British petrol inspection and gang trolley built by Wickham of Ware from 1922 to 1990; many survive on heritage railways.",
-         "mk": "D. Wickham & Co",
-         "y": "1922–1990",
-         "s": "https://en.wikipedia.org/wiki/Wickham_trolley",
-         "v": [
-          {
-           "n": "Type 17",
-           "mk": "D. Wickham & Co",
-           "y": "pre-war",
-           "d": "ex-LNER examples on several heritage lines"
-          },
-          {
-           "n": "Type 17A",
-           "mk": "D. Wickham & Co",
-           "y": "",
-           "d": "Amberley Museum"
-          },
-          {
-           "n": "Type 18A",
-           "mk": "D. Wickham & Co",
-           "y": "",
-           "d": "Mk VI, Mid Hants Railway"
-          },
-          {
-           "n": "Type 27",
-           "mk": "D. Wickham & Co",
-           "y": "",
-           "d": "Mk III, ex-Longmoor Military Railway"
-          },
-          {
-           "n": "Type 27A",
-           "mk": "D. Wickham & Co",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "type number · Mk · gang or inspection body"
-        }
+       "see": [
+        [
+         "E1",
+         "Model locomotive",
+         "scale model"
+        ]
        ]
       }
      ]
     },
     {
      "n": "Horse-drawn vehicles",
+     "t": "Carriages, wagons, living wagons and sleighs pulled by horses; a motor car in carriage style → Cars.",
+     "ax": "kinds by what it carries: people, goods, a family's home, people over snow",
      "k": [
       {
        "n": "Horse-drawn carriage",
        "a": "carriage · driving vehicle",
        "d": "Wheeled passenger vehicle drawn by one or more horses or ponies.",
-       "t": [
-        "two-wheeled",
-        "four-wheeled",
-        "open",
-        "closed",
-        "original antique",
-        "modern reproduction",
-        "competition (marathon) vehicle"
-       ],
        "s": "https://www.ehorses.com/classified-ads/carriage-and-vehicles/carriages",
        "x": [
-        {
-         "n": "Coach",
-         "a": "drag · road coach · mail coach · state coach",
-         "d": "Large enclosed four-wheeled carriage driven from a raised box seat, usually by two or more horses.",
-         "mk": "",
-         "y": "18th–19th century",
-         "s": "https://en.wikipedia.org/wiki/Coach_(carriage)",
-         "v": [
-          {
-           "n": "Mail coach",
-           "mk": "",
-           "y": "1785",
-           "d": "British public mail coach; London–Edinburgh service c. 1785"
-          },
-          {
-           "n": "Road coach",
-           "mk": "",
-           "y": "",
-           "d": "Public coach later kept by private owners for pleasure and show"
-          },
-          {
-           "n": "Drag (park drag)",
-           "mk": "",
-           "y": "",
-           "d": "Lighter private coach for sport and driving clubs"
-          },
-          {
-           "n": "State coach",
-           "mk": "",
-           "y": "",
-           "d": "Ornate ceremonial coach; Diamond Jubilee State Coach built 2014"
-          }
-         ],
-         "dt": "body (mail, road, drag, state) · team size · paint and livery"
-        },
         {
          "n": "Concord coach",
          "a": "Concord stagecoach",
@@ -28849,6 +29320,51 @@
         [
          "Allgäu Wagonette",
          "Kühnle"
+        ],
+        [
+         "Mail coach",
+         ""
+        ],
+        [
+         "Road coach",
+         ""
+        ],
+        [
+         "Drag (park drag)",
+         ""
+        ],
+        [
+         "State coach",
+         ""
+        ]
+       ],
+       "tt": [
+        [
+         "Wheels",
+         [
+          "Two-wheeled",
+          "Four-wheeled"
+         ]
+        ],
+        [
+         "Body",
+         [
+          "Open",
+          "Closed"
+         ]
+        ],
+        [
+         "Origin",
+         [
+          "Original antique",
+          "Modern reproduction"
+         ]
+        ],
+        [
+         "Use",
+         [
+          "Competition (marathon) vehicle"
+         ]
         ]
        ]
       },
@@ -28856,14 +29372,6 @@
        "n": "Horse-drawn wagon",
        "a": "cart · farm wagon · covered wagon",
        "d": "Wheeled goods vehicle drawn by horses or other draught animals.",
-       "t": [
-        "two-wheeled cart",
-        "four-wheeled wagon",
-        "covered",
-        "open",
-        "original antique",
-        "reproduction"
-       ],
        "s": "https://www.ehorses.com/classified-ads/carriage-and-vehicles/carriages",
        "x": [
         {
@@ -28906,17 +29414,42 @@
          "Versatile Wagon",
          "G&F Companies"
         ]
+       ],
+       "tt": [
+        [
+         "Wheels",
+         [
+          "Two-wheeled cart",
+          "Four-wheeled wagon"
+         ]
+        ],
+        [
+         "Cover",
+         [
+          "Covered",
+          "Open"
+         ]
+        ],
+        [
+         "Origin",
+         [
+          "Original antique",
+          "Reproduction"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "C7",
+         "Horse-drawn implement",
+         "farm implement"
+        ]
        ]
       },
       {
        "n": "Romani vardo",
        "a": "vardo · Gypsy caravan · living wagon",
        "d": "Horse-drawn living wagon of British Romani travellers, with stove, bed and carved, painted decoration.",
-       "t": [
-        "original",
-        "restored",
-        "new-built"
-       ],
        "s": "https://en.wikipedia.org/wiki/Vardo_(Romani_wagon)",
        "x": [
         {
@@ -28983,18 +29516,29 @@
          "v": [],
          "dt": "roof rails · painted trade boards"
         }
+       ],
+       "tt": [
+        [
+         "Origin",
+         [
+          "Original",
+          "Restored",
+          "New-built"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Touring caravan",
+         "modern towed caravan"
+        ]
        ]
       },
       {
        "n": "Sleigh",
        "a": "sledge · horse sleigh",
        "d": "Horse-drawn vehicle on runners for carrying people or goods over snow or ice.",
-       "t": [
-        "single-seat",
-        "double (four-passenger)",
-        "open",
-        "enclosed"
-       ],
        "s": "https://www.ehorses.com/classified-ads/carriage-and-vehicles/carriages",
        "x": [
         {
@@ -29077,12 +29621,30 @@
          "v": [],
          "dt": ""
         }
+       ],
+       "tt": [
+        [
+         "Seats",
+         [
+          "Single-seat",
+          "Double (four-passenger)"
+         ]
+        ],
+        [
+         "Body",
+         [
+          "Open",
+          "Enclosed"
+         ]
+        ]
        ]
       }
      ]
     }
    ],
-   "note": "Rail freight and trams are out; preserved and privately owned rail vehicles stay."
+   "note": "Rail freight and trams are out; preserved and privately owned rail vehicles stay.",
+   "t": "Preserved and privately owned rail vehicles, and horse-drawn carriages, wagons and sleighs; working freight and trams are out; a model train → E1.",
+   "ax": "Is it moved along rails, or pulled by a horse on the road?"
   },
   {
    "n": "Prams & strollers",
@@ -29097,20 +29659,69 @@
    "s": [
     {
      "n": "Prams & strollers",
+     "t": "Pushchairs for a baby, child or small pet; a baby carrier worn on the body → A4.",
+     "ax": "kinds by how the passenger travels: lying flat, sitting up, sitting while the parent runs, in a wagon, a pet",
      "k": [
+      {
+       "n": "Pram",
+       "a": "perambulator · baby carriage · coach pram",
+       "d": "Wheeled baby carriage whose only body is a lying carrycot, pushed by hand.",
+       "tg": [
+        "baby"
+       ],
+       "s": "https://www.silvercrossbaby.ie/collections/pushchairs-strollers",
+       "x": [
+        {
+         "n": "Silver Cross coach pram",
+         "a": "coach-built pram",
+         "d": "Traditional English coach-built pram with a deep rigid body on a sprung chassis, still made in Yorkshire.",
+         "mk": "Silver Cross",
+         "y": "1877",
+         "s": "https://en.wikipedia.org/wiki/Baby_transport",
+         "v": [
+          {
+           "n": "Hunslet, Leeds",
+           "mk": "Silver Cross",
+           "y": "1877",
+           "d": "first made"
+          },
+          {
+           "n": "Guiseley",
+           "mk": "Silver Cross",
+           "y": "1936–2002",
+           "d": "main factory period"
+          },
+          {
+           "n": "Bingley",
+           "mk": "Silver Cross",
+           "y": "after 2002",
+           "d": "traditional coach prams made under David Halsall and Sons ownership"
+          }
+         ],
+         "dt": "body colour and gloss · hood and apron · chrome · hand-painted lining"
+        }
+       ],
+       "tt": [
+        [
+         "Build",
+         [
+          "Coach-built pram",
+          "Carrycot pram (detachable body)"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E1",
+         "Dolls' pram",
+         "toy version"
+        ]
+       ]
+      },
       {
        "n": "Stroller",
        "a": "pushchair · buggy · tandem stroller",
        "d": "Wheeled seat for a child up to about three, pushed by hand; sold in single and double forms.",
-       "t": [
-        "umbrella stroller",
-        "compact travel stroller",
-        "full-size modular stroller",
-        "travel system",
-        "double side-by-side",
-        "double tandem",
-        "single-to-double"
-       ],
        "tg": [
         "baby"
        ],
@@ -29334,62 +29945,44 @@
          "Single-to-Double 3.0",
          "Mockingbird"
         ]
-       ]
-      },
-      {
-       "n": "Pram",
-       "a": "perambulator · baby carriage · coach pram",
-       "d": "Wheeled baby carriage whose only body is a lying carrycot, pushed by hand.",
-       "t": [
-        "coach-built pram",
-        "carrycot pram (detachable body)"
        ],
-       "tg": [
-        "baby"
+       "tt": [
+        [
+         "Format",
+         [
+          "Umbrella stroller",
+          "Compact travel stroller",
+          "Full-size modular stroller"
+         ]
+        ],
+        [
+         "System",
+         [
+          "Travel system"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Single",
+          "Double side-by-side",
+          "Double tandem",
+          "Single-to-double"
+         ]
+        ]
        ],
-       "s": "https://www.silvercrossbaby.ie/collections/pushchairs-strollers",
-       "x": [
-        {
-         "n": "Silver Cross coach pram",
-         "a": "coach-built pram",
-         "d": "Traditional English coach-built pram with a deep rigid body on a sprung chassis, still made in Yorkshire.",
-         "mk": "Silver Cross",
-         "y": "1877",
-         "s": "https://en.wikipedia.org/wiki/Baby_transport",
-         "v": [
-          {
-           "n": "Hunslet, Leeds",
-           "mk": "Silver Cross",
-           "y": "1877",
-           "d": "first made"
-          },
-          {
-           "n": "Guiseley",
-           "mk": "Silver Cross",
-           "y": "1936–2002",
-           "d": "main factory period"
-          },
-          {
-           "n": "Bingley",
-           "mk": "Silver Cross",
-           "y": "after 2002",
-           "d": "traditional coach prams made under David Halsall and Sons ownership"
-          }
-         ],
-         "dt": "body colour and gloss · hood and apron · chrome · hand-painted lining"
-        }
+       "see": [
+        [
+         "A4",
+         "Soft structured baby carrier",
+         "worn on the body"
+        ]
        ]
       },
       {
        "n": "Jogging stroller",
        "a": "running stroller · all-terrain stroller",
        "d": "Three-wheeled stroller made to be pushed while running.",
-       "t": [
-        "fixed front wheel",
-        "swivel-and-lock front wheel",
-        "single",
-        "double"
-       ],
        "tg": [
         "baby"
        ],
@@ -29497,17 +30090,35 @@
          "Glide 3",
          "Thule"
         ]
+       ],
+       "tt": [
+        [
+         "Front wheel",
+         [
+          "Fixed front wheel",
+          "Swivel-and-lock front wheel"
+         ]
+        ],
+        [
+         "Seats",
+         [
+          "Single",
+          "Double"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Bicycle trailer",
+         "multisport trailers convert to joggers"
+        ]
        ]
       },
       {
        "n": "Stroller wagon",
        "a": "pushchair wagon",
        "d": "Wheeled box-bodied carrier with harnessed seats for two or more children, pushed like a stroller or pulled by a handle.",
-       "t": [
-        "2-seater",
-        "4-seater",
-        "6-seater"
-       ],
        "tg": [
         "baby"
        ],
@@ -29572,6 +30183,16 @@
          "Renegade",
          "BOB Gear"
         ]
+       ],
+       "tt": [
+        [
+         "Seats",
+         [
+          "2-seater",
+          "4-seater",
+          "6-seater"
+         ]
+        ]
        ]
       },
       {
@@ -29597,7 +30218,9 @@
      ]
     }
    ],
-   "note": "Tag every child kind baby."
+   "note": "Tag every child kind baby.",
+   "t": "Wheeled beds and seats for carrying a baby, young child or small pet; a baby carrier worn on the body → A4; a bicycle trailer → Bicycles.",
+   "ax": "How does the passenger travel and where is it pushed: lying or sitting, on pavements, running paths or in a wagon?"
   },
   {
    "n": "Vehicle care & detailing",
