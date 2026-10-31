@@ -14,3 +14,4 @@ step12: other countries (SE NL CZ ES RU PL RO RS UA) unfiltered -> rows_oth.txt 
 step13: GDR/CH/AT/TR/HR etc -> appended to rows_oth.txt. ~23 fetches. Next: marque facts query then build
 step14: facts queries A,B done (~25 fetches). Labels not matched: Triumph/Rover/Austin/Morris Motors partially, Venturi, Tatra, Trabant, Wartburg, Hispano-Suiza, Borgward, Lada label etc. Next: build.py -> out/G1_parts/cars_add/EUROPE.json, report
 step15: built rebuild/out/G1_parts/cars_add/EUROPE.json via work/build.py (872 entries); loads OK. Remaining: report rebuild/out/CARS_ADD_EUROPE_report.md
+ROUND2 started: coordinator asks List-of pages for big marques (offset windows), y_updates map, category API+extracts for Rover Humber Hillman Singer Borgward Wartburg Trabant Koenigsegg Pagani Rimac Lynk&Co Smart Venturi. ~60 fetches. Rewrite EUROPE.json, update report.
