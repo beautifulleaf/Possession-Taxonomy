@@ -1,0 +1,34 @@
+COMMON BRIEF — pass V4: named entries from a canon, and the market layer (owner decisions 2026-10-31, BRIEF.md)
+
+RESUME RULE: before doing anything, read /home/user/Possession-Taxonomy/rebuild/work/<BATCH>/progress.md if it exists and continue from the last completed step; append one line after each step. Never redo a step marked done. Never run git, merge.py or build.py; never publish.
+
+Read first: /home/user/Possession-Taxonomy/BRIEF.md section "Owner decisions 2026-10-31" (binding), /home/user/Possession-Taxonomy/rebuild/RULES.md (binding), this brief, and the finished pilot: department "Consoles & handhelds" in /home/user/Possession-Taxonomy/rebuild/reader/E5.json (fields nl, sel, xg, g, role).
+Fetch pages only with WebFetch/WebSearch (Firecrawl and Parallel are out of credit). Never guess a URL: find it with WebSearch. An `s` source must be a page you fetched. Log every fetched URL in rebuild/work/<BATCH>/sources.tsv (item, url, date, status).
+Edit only the files your batch prompt names (back them up to rebuild/work/<BATCH>/bak/ first; edit with a python3 -I script in rebuild/work/<BATCH>/; write via temp file then rename). Never edit another category's files; kinds that belong elsewhere go to rebuild/out/<CODE>_moves.json; merged or renamed kinds go to rebuild/out/<CODE>_renames.json as {"old":"kept"}.
+
+## 1. Named entries come from a canon, never a selection
+Every kind that has named entries (`x`) states:
+- `nl`: what one named entry is, in one plain sentence ("One entry is a soft-drink brand sold under its own name; diet, zero-sugar and flavour variants are versions.").
+- `sel`: which fetched reference(s) the list follows and any scope cut. Include EVERY entry of that reference that falls in scope: big complete lists are preferred to a picked subset. Where no whole-space reference exists, say so and name the overviews used.
+- `xg` and each entry's `g` when sections help (the field's own axis: country, owner, generation, region). Order within a section by the axis, then year, then name.
+- Prominence is a badge: `role` = "origin" (first of its kind or lineage, per a fetched page) or "landmark" (named by a fetched page as best-selling, defining or most influential). At most about one entry in five.
+- Versions (`v`) are what changes within the entry: revisions, generations, flavours, sizes that the reference treats as variants. Each {"n","y","d"}.
+- No loose models: every former model (`m`) becomes an entry, a version of one, or is removed as out of scope (say which in the report). Ranges (`r`) only for a maker's range that spans many entries.
+- Kinds that are commodities (no canon, no brands worth naming) keep no entries: the kind is the end.
+
+## 2. The market layer (where the market is the point: groceries first)
+Market facts sit on the entries, and the department gets a short sourced market summary. The page shows the same entries a second way, by market.
+- On every branded entry: `own` (current owner company, exact name), `tier` (one of: "Global group", "National champion", "Independent", "Craft & indie", "Own label"), `cty` (home country of the brand), and `own_y` (year the current owner acquired it, if a fetched page gives it).
+  - Global group: brand owned by one of the multinational groups that dominate the category worldwide.
+  - National champion: a brand that leads or is iconic in its home market, whoever owns it now (Irn-Bru, Inca Kola, Thums Up); `own` still records the owner.
+  - Independent: an established brand owned by a company that is not a global group.
+  - Craft & indie: small-batch, artisanal or new-wave brands named by a fetched craft or indie overview.
+- On the department: `ms` = list of market facts, each {"mkt":"US carbonated soft drinks","who":"The Coca-Cola Company","share":"44.6 %","yr":2024,"s":"<fetched url>","note":"volume or value, as the page says"}. Only figures a fetched page states, with the year. No figure is better than an unsourced one.
+- Coverage: the global groups' complete brand portfolios in the category (from each group's own brand page or a fetched list), national champions for the largest markets with every world region represented (aim for about 20 markets), and independents and craft from published lists or overviews.
+- Brand register: add every new brand owner or brand used as `mk`/`own` to rebuild/out/<CODE>_brands.json with country and founding year only if a fetched page gives them.
+
+## 3. Style
+Plain sentences under 30 words, British spelling, no marketing language, no working terms in reader text. Keep `t`, `ax`, `tt`, `see` from the structure pass unless they now contradict the entries.
+
+## Finish
+Run python3 /home/user/Possession-Taxonomy/rebuild/validate.py --v3 on your file until OK. Write rebuild/out/<BATCH>_report.md (≤ 450 words): per kind, entries before → after, the reference(s) used, market facts found (with years), what could not be sourced. Reply with a short summary.

@@ -55,6 +55,11 @@ section.guide p { max-width: 80ch; margin: 0; }
 .nl { display: grid; gap: 2px; font-size: 13.5px; color: var(--muted); border-left: 2px solid var(--rule); padding-left: 8px; }
 .nl p { margin: 0; } .nl b { color: var(--ink); font-weight: 600; }
 h6.xg { font: 700 14px/1.2 var(--sign); letter-spacing: .03em; text-transform: uppercase; margin: 12px 0 0; border-bottom: 1px solid var(--rule); padding-bottom: 2px; }
+details.market { border: 1px solid var(--rule); border-left: 6px solid var(--accent); border-radius: 6px; padding: 10px 14px; background: var(--paper); max-width: 100ch; }
+details.market summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+ul.ms { margin: 8px 0; padding-left: 18px; font-size: 14px; }
+.tier p { margin: 4px 0; }
+p.own { color: var(--ink); }
 h6.xg span { font: 500 11px/1 var(--mono); color: var(--muted); text-transform: none; }
 """
 head = head.replace('</style>', extra + '</style>', 1) if head.count('</style>') == 1 else head[::-1].replace('>elyts/<', ('>elyts/<' + extra[::-1]), 1)[::-1]

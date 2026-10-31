@@ -1,0 +1,13 @@
+BATCH V4_J9 — pilot of the market layer: J9 Soft Drinks & Water.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly, with <BATCH> = V4_J9 and <CODE> = J9. Files you may edit: rebuild/out/J9.json, rebuild/out/J9_brands.json, rebuild/out/J9_renames.json, rebuild/out/J9_moves.json.
+
+Owner's framing (2026-10-31): in the US a few groups (The Coca-Cola Company, PepsiCo, Keurig Dr Pepper) hold most of the soft-drink market; internationally there are independent brands and a craft/indie soda scene. This kind of market analysis is what separates groceries from the Culinary taxonomy. Find and cite the actual US share figures (and any other market's) on fetched pages; do not use the owner's figure unless a page states it.
+
+J9 specifics:
+- Named entry: a soft-drink or water brand sold under its own name (Coca-Cola, Irn-Bru, Fever-Tree, Evian); diet, zero-sugar, flavour and size variants are versions. Kinds stay as they are (cola, lemon-lime, ginger beer, tonic, mineral water and so on); put each brand under the kind of its flagship product.
+- Canon: each global group's own brand list for its soft drinks and waters; Wikipedia "List of soft drinks by country" (and similar lists such as list of cola brands, list of bottled water brands) for national champions and independents; a fetched craft-soda overview for craft & indie. Include every in-scope entry of these lists; the result will be long, and that is intended.
+- Mineral and spring waters: the named entry is the brand, and its source (spring) goes in `d` when a fetched page names it.
+- Syrups, cordials and squashes, energy and sports drinks, fermented drinks: same standard, their own market (Red Bull, Monster, Ribena, Robinsons, kombucha brands).
+- Homemade and fresh drinks (aguas frescas, lemonade made at home) stay in Culinary; only bought products are entries.
+- Department `ms` facts for every department where a fetched page gives shares (carbonated soft drinks, bottled water, energy drinks).

@@ -28,6 +28,7 @@ function makerEl(name) { if (!name) return null; const s = $('span', { class: 'm
 function arch(x) {
   const ROLE = { origin: 'Origin', landmark: 'Landmark' };
   const box = $('div', { class: 'arch' + (x.role ? ' r-' + x.role : '') }, $('div', { class: 'ah' }, $('b', { text: x.n }), x.role ? $('span', { class: 'role', title: x.role === 'origin' ? 'First of its kind or of a lineage' : 'Best-selling, defining or most influential of its generation', text: ROLE[x.role] || x.role }) : null, x.mk || x.y ? $('i', {}, x.mk ? makerEl(x.mk) : null, x.mk && x.y ? ' · ' : '', x.y || '') : null));
+  if (x.own || x.tier || x.cty) box.append($('p', { class: 'also own' }, x.own ? ['Owned by ', makerEl(x.own), x.own_y ? ' since ' + x.own_y : ''] : null, x.own && (x.tier || x.cty) ? ' · ' : '', meta(x.tier, x.cty)));
   if (x.a) box.append($('p', { class: 'also', text: 'Also called ' + x.a }));
   if (x.d) box.append($('p', { class: 'desc', text: x.d }));
   if (x.v && x.v.length) box.append($('div', { class: 'vers' }, x.v.map(v => $('span', { class: 'chip ver', title: v.d || '' }, v.n, v.mk || v.y ? $('i', { text: meta(v.mk, v.y) }) : null))));
@@ -61,6 +62,19 @@ function item(k, term) {
   }
   if (k.s) a.append($('p', { class: 'src' }, $('a', { href: k.s, target: '_blank', rel: 'noopener', text: 'source' })));
   return a;
+}
+const TIERS = ['Global group', 'National champion', 'Independent', 'Craft & indie', 'Own label'];
+function market(d) {
+  const ents = []; d.s.forEach(s => s.k.forEach(k => (k.x || []).forEach(x => { if (x.tier || x.own) ents.push([x, k]); })));
+  if (!ents.length && !(d.ms || []).length) return null;
+  const box = $('details', { class: 'market' }, $('summary', { text: 'Market: ' + ents.length + ' brands' + ((d.ms || []).length ? ' · ' + d.ms.length + ' share figures' : '') }));
+  if ((d.ms || []).length) box.append($('ul', { class: 'ms' }, d.ms.map(f => $('li', {}, $('b', { text: f.who }), ' ' + (f.share || '') + ' of ' + (f.mkt || '') + (f.yr ? ' (' + f.yr + ')' : '') + (f.note ? ', ' + f.note : '') + ' ', f.s ? $('a', { href: f.s, target: '_blank', rel: 'noopener', text: 'source' }) : null))));
+  const by = new Map(); ents.forEach(([x, k]) => { const t = x.tier || 'Other'; if (!by.has(t)) by.set(t, new Map()); const g = t === 'Global group' || t === 'Independent' ? (x.own || 'Other') : (x.cty || 'Other'); const m = by.get(t); if (!m.has(g)) m.set(g, []); m.get(g).push([x, k]); });
+  [...by.keys()].sort((a, b) => (TIERS.indexOf(a) + 1 || 99) - (TIERS.indexOf(b) + 1 || 99)).forEach(t => {
+    const tb = $('div', { class: 'tier' }, $('h6', { class: 'xg', text: t }));
+    [...by.get(t).entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([g, xs]) => tb.append($('p', { class: 'also' }, $('b', { text: g + ': ' }), xs.flatMap(([x, k], i) => { const bt = $('button', { class: 'seel', type: 'button', title: k.n, text: x.n }); bt.addEventListener('click', () => jump(cur, k.n)); return i ? [' · ', bt] : [bt]; }))));
+    box.append(tb); });
+  return box;
 }
 function best(list) { return $('div', { class: 'best' }, $('h4', { text: 'What makes a good one' }), $('ol', {}, list.map(b => $('li', {}, $('b', { text: b.m }), b.v ? [': ', $('span', { class: 'v', text: b.v })] : null, b.w ? '. ' + b.w : '')))); }
 async function open(c, top, target, t, focus) {
@@ -141,6 +155,7 @@ function renderTree() {
     if (d.t) sec.append($('p', { class: 'test', text: d.t }));
     if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), d.ax));
     if (d.note) sec.append($('p', { class: 'note', text: d.note }));
+    const mk = market(d); if (mk) sec.append(mk);
     if ((d.b || []).length) sec.append(best(d.b));
     d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', i, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, $('span', { class: 'cc', text: s.code }), s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') })) : null,
       s.t ? $('p', { class: 'defn', text: s.t }) : null, s.ax ? $('p', { class: 'axis' }, $('b', { text: 'Order: ' }), s.ax.replace(/^kinds (are )?(ordered |sorted )?by /i, 'by ')) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
