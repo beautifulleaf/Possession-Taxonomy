@@ -1,24 +1,24 @@
-# V4_J7_GRAPES report
+# V4_J7_GRAPES report (step complete-list)
 
-Part file: rebuild/out/J7_parts/GRAPES.json. Validates (23 kinds, 560 entries). It adds one department, "Grape varieties". It replaces nothing, so there are no renames, moves or drops. The brand register is empty.
+Part file: rebuild/out/J7_parts/GRAPES.json. It adds one department, "Grape varieties". It replaces nothing, so there are no renames, moves or drops. The brand register is empty. The wrapped --v3 check passes: 24 kinds, 849 entries.
 
-Structure: three shelves (red, white, pink and grey). Kinds are by home region (for example "French red varieties"). Entries are sectioned by `g` = country of origin, with synonyms in `a`.
+Shelves and entries:
+- Red varieties: 421.
+- White varieties: 344.
+- Pink and grey varieties: 8.
+- Hybrid varieties: 76.
 
-**This part is incomplete.** The brief asks for every variety the reference lists. WebFetch returns a summary of the page, not its rows, and the page is 350,000 characters.
-- Red: the list runs from Abbuoto to Zweigelt, but the summariser dropped rows. Only about 480 of the page's red varieties are present, and the 100,000-200,000 window began mid-list.
-- White: Addoraca to Grechetto only. Whites from H to Z are missing.
-- Pink: six rows, copied from the page's "Rose grapes" section.
-- Not fetched: characters 300,000 onwards, and a clean pass over whites H to Z.
-- A fuller list needs Firecrawl scrape of the page, read in pieces, or a rerun with smaller windows.
+Kinds are by home region of the variety (for example "French red varieties"). Entries are sectioned by `g` = country of origin, with synonyms in `a`. The list gives no country for 46 whites and 2 reds, so they sit in "unstated origin" kinds.
 
-Data quality:
-- Synonyms and countries are as returned by the summariser, with at most two or three synonyms per row. Spot checks matched the page's known pattern, for example Bovale Sardo and Cagnulari both listing Graciano. Some rows may be wrong. Examples: "Zinfandel | Croatia" and "Zinfandel Rose | Austria".
-- Colour follows the page's section. Arinto de Bucelas was listed under red; I left it out as probably white. It is not placed under white either.
-- Entry `s` is the list page, which was fetched.
+Method: WebFetch windows at offsets 0, 40000, 80000, 120000, 160000, 180000, 200000 and 260000. The tool refused to reproduce rows verbatim and always reads about 100,000 characters from the offset. I therefore asked for short rows (name, country, at most two synonyms). Rows are merged from all windows, deduplicated by name and colour. The build is work/V4_J7_GRAPES/build2.py, from data.txt, new_white.txt, new_pink.txt and new_hybrid.txt.
 
-Not done, for lack of sourcing:
-- `d` appellations (up to five per variety): none. No page was fetched per variety, so every `d` is a plain one-line description.
-- `role` badges, `v` versions, `own`, `tier`, `cty` and `ms`/`msum`: none. Grape varieties are not brands, so market fields do not apply.
-- Hybrids (Baco Noir and similar), which the page lists in a separate section, are only present where the summariser placed them under the red vinifera section (Baco Noir, Chambourcin, Chancellor and others). Whether they belong needs checking.
+Caveats:
+- The data passed through a page summariser. It is not checked row by row against the page, and some synonyms or countries may be wrong.
+- Completeness is not proven. Reds past about 180,000 characters and whites after Žilavka were not seen. Characters 280000 to 350000 were never read: the 260000 call returned no vinifera rows, only headings and the hybrid tables.
+- The earlier six pink rows (for example "Zinfandel Rose") looked doubtful and are replaced by the eight rosé rows from the later window. The rosé section's start may be missing.
+- Hybrids: the list states no colour for them, so they are not placed in red or white. They have their own shelf, and the d text says "hybrid". Hybrids the page also files under red or white (Baco Noir, Chambourcin, Chancellor, Chelois, Cabernet Cortis, Cascade, Alexander, Orion, Flora) stay in their colour with "Hybrid." in d. The non-vinifera "table and wine" hybrids are included.
+- Cereza and Arnsburger appear in both red and white, as the page lists them.
+- Appellations in `d`, `role`, `v`, and market fields are not filled. Grape varieties are not brands.
+- Out of scope: table-only varieties, labrusca-only and other single-species wild-grape sections, and rootstocks.
 
-Files: rebuild/work/V4_J7_GRAPES/{data.txt, build.py, sources.tsv, progress.md}.
+Files: rebuild/work/V4_J7_GRAPES/{progress.md, sources.tsv, data.txt, new_*.txt, build.py, build2.py}.
