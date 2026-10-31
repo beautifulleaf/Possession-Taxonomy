@@ -6,3 +6,7 @@ step4 p1_swords.py written
 step5 p2_blades.py written
 step6 p3_bows.py written
 step7 p4_ammo.py written (cartridge subsets)
+step8 p5_firearms.py written
+step9 p6_armour.py written; next main.py assembly
+step10 applied to out/E4.json, validated OK; report next
+step11 report written; DONE

@@ -23,15 +23,16 @@ def newkind(shelf,name,a,d,s,pos=None):
     return k
 def add(kind,entries,nl=None,sel=None,xg=None):
     k=KIND[kind]; x=k.setdefault('x',[])
-    have={t['n'].lower():t for t in x}
+    nk=lambda s: re.sub(r'[\s×x\-]|mm','',s.lower())
+    have={nk(t['n']):t for t in x}
     for en in entries:
-        t=have.get(en['n'].lower())
+        t=have.get(nk(en['n']))
         if t:
             if en.get('g') and not t.get('g'): t['g']=en['g']
             for vv in en['v']:
                 if vv['n'].lower() not in {q['n'].lower() for q in t.setdefault('v',[])}: t['v'].append(vv)
         else:
-            x.append(en); have[en['n'].lower()]=en
+            x.append(en); have[nk(en['n'])]=en
     if nl:k['nl']=nl
     if sel:k['sel']=sel
     if xg:k['xg']=xg

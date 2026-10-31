@@ -1,0 +1,7 @@
+BATCH V4_B8 — named-entry pass (light group) for B8 Home Safety & Security.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly (RESUME RULE, sourcing, named-entry standard, market layer), with <BATCH> = V4_B8 and <CODE> = B8. Files you may edit: rebuild/out/B8.json, rebuild/out/B8_brands.json, rebuild/out/B8_renames.json, rebuild/out/B8_moves.json. Long reference pages: read them in windows with WebFetch's offset parameter (about 40,000 characters each), asking for the rows verbatim.
+
+Light pass: most kinds here are commodity kinds (no named entries: the kind is the end; makers live in the brand register only). Remove loose models (m) and ranges (r) from commodity kinds, adding each maker to the brand register (name, country and founding year only if a fetched page gives them). Every kind that keeps or gains named entries must follow the named-entry standard (nl, sel, xg/g, complete from a fetched reference). Add a department market panel (ms facts and msum) only where a fetched page gives shares or rankings for that market; never guess. Keep t, ax, tt and see from the structure pass. Budget: about 25 fetches.
+
+Commodity kinds, except: high-security lock lines are named entries (Abloy Protec2, Mul-T-Lock MT5+, Medeco M3, EVVA MCS, Bowley…) from a fetched list; antique lock types keep their sourced entries. Market panel for locks and home security (ASSA ABLOY, Allegion, Spectrum Brands, ADT…) from fetched pages.

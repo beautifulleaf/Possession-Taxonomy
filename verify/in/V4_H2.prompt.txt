@@ -1,0 +1,7 @@
+BATCH V4_H2 — named-entry pass (light group) for H2 Health, Medical & Mobility.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly (RESUME RULE, sourcing, named-entry standard, market layer), with <BATCH> = V4_H2 and <CODE> = H2. Files you may edit: rebuild/out/H2.json, rebuild/out/H2_brands.json, rebuild/out/H2_renames.json, rebuild/out/H2_moves.json. Long reference pages: read them in windows with WebFetch's offset parameter (about 40,000 characters each), asking for the rows verbatim.
+
+Light pass: most kinds here are commodity kinds (no named entries: the kind is the end; makers live in the brand register only). Remove loose models (m) and ranges (r) from commodity kinds, adding each maker to the brand register (name, country and founding year only if a fetched page gives them). Every kind that keeps or gains named entries must follow the named-entry standard (nl, sel, xg/g, complete from a fetched reference). Add a department market panel (ms facts and msum) only where a fetched page gives shares or rankings for that market; never guess. Keep t, ax, tt and see from the structure pass. Budget: about 25 fetches.
+
+Commodity kinds (medicines by use class, monitors, aids). Collector canes keep their sourced named entries (shillelagh, whangee, Ziegenhainer…). Market panels: over-the-counter health (Haleon, Kenvue, Bayer, Sanofi…), blood-pressure monitors and hearing aids (Sonova, Demant, WS Audiology, GN, Starkey) from fetched pages. Keep descriptions free of health claims.

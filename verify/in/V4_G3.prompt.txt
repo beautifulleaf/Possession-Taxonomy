@@ -1,0 +1,7 @@
+BATCH V4_G3 — named-entry pass (light group) for G3 Home Fixtures & Features.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly (RESUME RULE, sourcing, named-entry standard, market layer), with <BATCH> = V4_G3 and <CODE> = G3. Files you may edit: rebuild/out/G3.json, rebuild/out/G3_brands.json, rebuild/out/G3_renames.json, rebuild/out/G3_moves.json. Long reference pages: read them in windows with WebFetch's offset parameter (about 40,000 characters each), asking for the rows verbatim.
+
+Light pass: most kinds here are commodity kinds (no named entries: the kind is the end; makers live in the brand register only). Remove loose models (m) and ranges (r) from commodity kinds, adding each maker to the brand register (name, country and founding year only if a fetched page gives them). Every kind that keeps or gains named entries must follow the named-entry standard (nl, sel, xg/g, complete from a fetched reference). Add a department market panel (ms facts and msum) only where a fetched page gives shares or rankings for that market; never guess. Keep t, ax, tt and see from the structure pass. Budget: about 25 fetches.
+
+All kinds commodity. Market panels for kitchens, sanitaryware and taps (Kohler, LIXIL/Grohe, Roca, Geberit, Masco…) and heating systems where fetched pages rank makers.

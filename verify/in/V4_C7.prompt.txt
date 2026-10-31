@@ -1,0 +1,7 @@
+BATCH V4_C7 — named-entry pass (light group) for C7 Farm & Forestry Equipment.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly (RESUME RULE, sourcing, named-entry standard, market layer), with <BATCH> = V4_C7 and <CODE> = C7. Files you may edit: rebuild/out/C7.json, rebuild/out/C7_brands.json, rebuild/out/C7_renames.json, rebuild/out/C7_moves.json. Long reference pages: read them in windows with WebFetch's offset parameter (about 40,000 characters each), asking for the rows verbatim.
+
+Light pass: most kinds here are commodity kinds (no named entries: the kind is the end; makers live in the brand register only). Remove loose models (m) and ranges (r) from commodity kinds, adding each maker to the brand register (name, country and founding year only if a fetched page gives them). Every kind that keeps or gains named entries must follow the named-entry standard (nl, sel, xg/g, complete from a fetched reference). Add a department market panel (ms facts and msum) only where a fetched page gives shares or rankings for that market; never guess. Keep t, ax, tt and see from the structure pass. Budget: about 25 fetches.
+
+Commodity kinds for working equipment, plus a market panel of farm-machinery makers (Deere, CNH, AGCO, Kubota, CLAAS…) from fetched rankings. Vintage tractors are a canon: named entry = a tractor model line (Ferguson TE20, Farmall H, John Deere two-cylinder models, Lanz Bulldog, Fordson F…) complete from fetched lists of tractor models per classic maker; sections by maker then year.

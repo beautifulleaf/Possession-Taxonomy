@@ -1,0 +1,7 @@
+BATCH V4_F6 — named-entry pass (light group) for F6 Natural History & Specimens.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly (RESUME RULE, sourcing, named-entry standard, market layer), with <BATCH> = V4_F6 and <CODE> = F6. Files you may edit: rebuild/out/F6.json, rebuild/out/F6_brands.json, rebuild/out/F6_renames.json, rebuild/out/F6_moves.json. Long reference pages: read them in windows with WebFetch's offset parameter (about 40,000 characters each), asking for the rows verbatim.
+
+Light pass: most kinds here are commodity kinds (no named entries: the kind is the end; makers live in the brand register only). Remove loose models (m) and ranges (r) from commodity kinds, adding each maker to the brand register (name, country and founding year only if a fetched page gives them). Every kind that keeps or gains named entries must follow the named-entry standard (nl, sel, xg/g, complete from a fetched reference). Add a department market panel (ms facts and msum) only where a fetched page gives shares or rankings for that market; never guess. Keep t, ax, tt and see from the structure pass. Budget: about 25 fetches.
+
+Already a canon (minerals by Strunz class, fossils by taxon, shells by family). Check every kind against the standard: nl, sel naming the reference, sections, no loose models. Verify the four minerals placed from memory (neptunite, petalite, astrophyllite, grandidierite) against Mindat or Wikipedia and fix their class. No market panel.

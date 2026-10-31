@@ -113,8 +113,8 @@ for kn in ('Tachi','Katana','Wakizashi','Tantō','Ōdachi'):
     KIND[kn]['sel']="Smiths and blades named in Wikipedia's articles on the form and in its list of National Treasures (swords); the Gokaden traditions are under Sword tradition. No whole-space list of Japanese blades exists."
     dropm(kn,'Retail replica products or unsourced pieces; removed as out of scope')
 KIND['Ken (tsurugi)'].pop('m',None);REMOVED.append(('Ken (tsurugi)',['Kongō-ji tsurugi','Yasaka Shrine tsurugi'],'Unsourced; removed'))
-k=newkind('Japanese swords (nihontō)','Other Japanese sword form','Chokutō · kodachi · nagamaki','A Japanese sword form beyond tachi, katana, wakizashi and tantō, from the ancient straight blades to 20th-century types.',T)
-add('Other Japanese sword form',[
+k=newkind('Japanese swords (nihontō)','Ancient and later Japanese forms','Chokutō · kodachi · nagamaki','A Japanese sword form beyond tachi, katana, wakizashi and tantō, from the ancient straight blades to 20th-century types.',T)
+add('Ancient and later Japanese forms',[
  e('Chokutō','Straight single-edged ancient Japanese sword.','Yayoi–Nara',g='Ancient (Yayoi–Nara)',s=T),
  e('Tsurugi','Straight double-edged ancient Japanese sword, the ken.','Yayoi–Nara',g='Ancient (Yayoi–Nara)',s=T),
  e('Kodachi','Short companion sword of the Heian and Kamakura periods.','Heian–Kamakura',g='Heian to Edo',s=T),

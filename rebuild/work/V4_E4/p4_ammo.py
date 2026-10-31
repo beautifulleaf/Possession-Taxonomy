@@ -30,7 +30,7 @@ def ent(names,src,kind,known):
         dd=known.get(n,kind)
         out.append(e(n,dd,'',g=grp(n),s=src))
     return out
-HG="""4.6×30mm HK|.17 Hornady Magnum Rimfire|.22 Long Rifle|.22 Short|.22 WMR|5.7×28mm FN|.25 ACP|.30 Super Carry|.32 ACP|.32 H&R Magnum|.32 S&W Long|.32-20 Winchester|.327 Federal Magnum|7.62mm Tokarev|7.63mm Mauser|7.65 mm Parabellum|7.5 mm Swiss Army|7.62mm Nagant|8 mm Nambu|.380 ACP|9mm Largo|9mm Makarov|9mm Parabellum|9×25mm Mauser|9×23mm Winchester|.38 Special|.38 Super|.38 S&W|.38 Long Colt|.357 Magnum|.357 SIG|.38-40 Winchester|.40 S&W|10mm Auto|.41 Magnum|.41 Long Colt|.44 Special|.44 Magnum|.44 Russian|.44-40 Winchester|.44 S&W American|.45 ACP|.45 GAP|.45 Colt|.45 Schofield|.45 Winchester Magnum|.455 Webley|.454 Casull|.460 S&W Magnum|.480 Ruger|.475 Linebaugh|.50 Action Express|.500 S&W Special|.500 S&W Magnum""".split('|')
+HG="""4.6×30mm HK|.17 Hornady Magnum Rimfire|.22 Long Rifle|.22 Short|.22 WMR|5.7×28mm FN|.25 ACP|.30 Super Carry|.32 ACP|.32 H&R Magnum|.32 S&W Long|.32-20 Winchester|.327 Federal Magnum|7.62mm Tokarev|7.63mm Mauser|7.65 mm Parabellum|7.5 mm Swiss Army|7.62mm Nagant|8 mm Nambu|.380 ACP|9mm Largo|9mm Makarov|9×25mm Mauser|9×23mm Winchester|.38 Special|.38 Super|.38 S&W|.38 Long Colt|.357 Magnum|.357 SIG|.38-40 Winchester|.40 S&W|10mm Auto|.41 Magnum|.41 Long Colt|.44 Special|.44 Magnum|.44 Russian|.44-40 Winchester|.44 S&W American|.45 ACP|.45 GAP|.45 Colt|.45 Schofield|.45 Winchester Magnum|.455 Webley|.454 Casull|.460 S&W Magnum|.480 Ruger|.475 Linebaugh|.50 Action Express|.500 S&W Special|.500 S&W Magnum""".split('|')
 known={'9mm Parabellum':'Rimless straight-walled pistol round introduced in 1902; the commonest handgun cartridge worldwide.','.45 ACP':'Rimless pistol round designed for the M1911 pistol.','.38 Special':'Revolver round of 1898, the .357 Magnum\'s parent.','.357 Magnum':'Longer, stronger version of the .38 Special for revolvers.','.22 Long Rifle':'Rimfire round used in rifles and pistols for small game and target shooting.','.44 Magnum':'Long, high-pressure revolver round of the 1950s.','.380 ACP':'Short pocket-pistol round, also called 9mm Short.','10mm Auto':'Rimless round of the 1980s with a long case for powerful pistols.','.40 S&W':'Rimless pistol round introduced in 1990.'}
 HG_DESC='Handgun cartridge.'
 add('Centrefire handgun cartridge',ent(HG,HC,HG_DESC,known),"One entry is a handgun cartridge by its common name; loads and bullet weights are versions.","Handgun cartridges of Wikipedia's List of handgun cartridges, cut to those in current sporting or collector use; wildcat, experimental and military-only rounds of the list are left out.",'by bore size')
@@ -50,3 +50,8 @@ dropm('Shotshell','Gauges became entries')
 for kn in ('Rimfire cartridge','Centrefire handgun cartridge','Centrefire rifle cartridge'):
     KIND[kn].pop('m',None)
 REMOVED.append(('Rimfire cartridge / Centrefire handgun cartridge / Centrefire rifle cartridge',['.22 WMR','.17 HMR','.380 ACP','.40 S&W','10mm Auto','.270 Winchester','.300 Winchester Magnum','.300 AAC Blackout'],'Became entries'))
+
+KIND['Centrefire handgun cartridge']['x'][[x['n'] for x in KIND['Centrefire handgun cartridge']['x']].index('9mm Luger')]['a']='9mm Parabellum · 9×19mm'
+for kn in ('Centrefire handgun cartridge','Centrefire rifle cartridge','Rimfire cartridge'):
+    for x in KIND[kn]['x']:
+        if not x.get('g'): x['g']=grp(x['n'])
