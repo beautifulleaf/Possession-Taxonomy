@@ -746,6 +746,16 @@
    "dept": "religious rite certificates",
    "region": "North America / Jewish diaspora",
    "note": "seller page; ketubah artists themselves are persons (Visual Entertainment)"
+  },
+  {
+   "n": "Hauser y Menet",
+   "layer": "cultural",
+   "src": "https://vigoe.es/vigo/mas-vigo/un-album-de-vistas-de-vigo-de-hace-un-siglo",
+   "says": "VigoÉ (press): Madrid collotype house (1890) of two Swiss photographers; numbered postcard series from 1897, over 2,300 views, up to half a million postcards a month; albums held by the Biblioteca de Galicia; existed until 1996",
+   "country": "Spain",
+   "dept": "postcards",
+   "region": "Southern Europe",
+   "note": "retries the harvest's excerpt-only name"
   }
  ],
  "add_regions": [
@@ -771,8 +781,37 @@
    "note": "Bonfils described as 'one of the most prolific studios in the Middle East'; check content-identity before merging"
   }
  ],
- "drop": [],
- "notes": "",
+ "drop": [
+  {
+   "n": "Nigerian Security Printing and Minting Company",
+   "why": "its only source (List of banknote printers) shows banknote printing only; per the banknote rule it belongs to F3 unless a page shows passports, cheques or certificates. Same applies to Fidelity Printers and Refinery, China Banknote Printing and Minting Corporation, Casa de Moneda de la República Argentina, Security Printing and Minting Corporation of India, KOMSCO, Pakistan Security Printing Corporation, Pura Group, Setec Oy, Orell Füssli (all sourced to the same list): move to F3 or re-source to a passport/ID page"
+  },
+  {
+   "n": "Crane Currency",
+   "why": "HSP EMEA 2026 credit is for Zambian banknotes (F3). Likewise Koenig & Bauer Banknote Solutions, LEONHARD KURZ and Polish Security Printing Works were credited for banknote awards (Best New House Note / currency process): F3 for those claims; keep in F5 only with a passport/ID source"
+  },
+  {
+   "n": "Gaylord Archival",
+   "why": "not a drop: tier premium -> listed. FFPP page is a plain supplier address list (it also lists Adorama and Freestyle) and Gaylord is not on the NAA PAT list. Same for Hollinger Metal Edge, Archival Methods, Lineco, Apres Foto, Brodart (all premium on FFPP alone)"
+  },
+  {
+   "n": "Rare Book Hub auction rows (61)",
+   "why": "not a drop: Rare Book Hub is a directory, so it proves existence only; tier these 'listed' unless each has its own encyclopedia article or a guild page (Sotheby's, Christie's, Bonhams, Heritage, Dorotheum, Bruun Rasmussen, Bukowskis, Koller, Saffronart, JA Stargardt and others plainly have articles: re-source them)"
+  },
+  {
+   "n": "IBSS dealer and auction rows (51)",
+   "why": "not a drop: the IBSS lists are open directories (names added on request to the webmaster), with no code of ethics stated; tier 'listed'"
+  },
+  {
+   "n": "Books of Wonder",
+   "why": "ABAA member but a children's bookshop: F1 (books), not F5. The ABAA 'dealers' block of 83 needs the same check; clear book- or map-only firms include Oak Knoll Books, Mystery Pier Books, The Lawbook Exchange, Geographicus Rare Antique Maps, Boston Rare Maps, BioMed Rare Books, Captain Ahab's Rare Books"
+  },
+  {
+   "n": "Seth Kaller",
+   "why": "a bare personal name, which goes against the harvest's own person-name rule; rename to the firm (Seth Kaller, Inc.) if a page shows it, otherwise drop. Same for Kurt A. Sanftleben"
+  }
+ ],
+ "notes": "Accuracy: 25 sampled (seed 7). All 25 names appear on their source pages. 3 claims are unsupported: NSPMC (the banknote list does not show F5 products) and the premium tier for Apres Foto and Gaylord (FFPP supplier list only). Another 7 rows carry a cultural tier that rests only on directories (Rare Book Hub x3, IBSS x4). Counting those, 10/25 have a tier or category problem. Systemic: the ABAA and ILAB rows (cultural) are fine; Rare Book Hub, IBSS and FFPP rows should be 'listed'. Print File should be re-sourced to the NAA PAT list (its 'Negative preservers, Print File' passed in 1996), which keeps it premium. Light Impressions is on the NAA PAT list. Lineco has only its own PAT claims (existence). Giesecke+Devrient should be re-sourced to the Wikipedia Smart card article ('First smart card manufactured by Giesecke & Devrient in 1979'), which supports F5; its HSP credit is for banknotes (F3). Cross-tags rather than new rows: VingCard (index B8; keycard inventor, en wiki), Secol (index F1, the same archival-sleeve maker), Jostens and Herff Jones (index A3; also diplomas, not verified here), Vistaprint (I1; business cards). Homonyms qualified in the additions: Access/Choice/Laser/Solo/Switch/Proton (debit/credit card) vs other brands; Mir (payment system); Verve International vs Verve (A1); Maestro (debit card) vs Maestro (E3/I1); Blackhawk Network vs Blackhawk (C1); Katz beer mats; Deluxe Check Printers. Region sweeps (one each): Northern Europe = national card schemes (Dankort, BankAxept, Forbrugsforeningen), with postcard houses already covered; Southern Europe = Hauser y Menet, SIDA (first magnetic phonecard), Bancomat; Central & Eastern Europe = Mir, Mamelok (Breslau), otherwise a global market; North Africa = Lehnert & Landrock; Sub-Saharan Africa = Verve, with nothing distinctive for document dealers; Southeast Asia = BCA Card, GPN, MEPS, NETS (Singapore colonial postcard publishers G.R. Lambert and August Kaulfuss were seen only in a search excerpt, not added); Central Asia/Caucasus = Altyn Asyr, AzeriCard, ArCa, a global market; Oceania = eftpos, Cabcharge, Note Printing Australia; North America = MetroCard, Deluxe, Harland, Pollard, InComm, Blackhawk, Creative Memories, Kolbo (ketubot seller); South Asia = Bourne & Shepherd, LankaPay, TakaPay, with no South Asian document dealer found on a fetched page; Middle East = Maison Bonfils, Sébah & Joaillier, Mada, Jaywan (Tehran's Ketābkhāneh-ye Mostowfi was seen only in an excerpt). Not resolved: Ephemera Society (its exhibitor list sits on an external page that was not fetched; member directory is members-only); PBFA members; photo-album independent tests (none found; the ARTnews page was not refetched); HSP awards for other years (only government press releases found; Note Printing Australia 2023 added). Studio-publishers (Bonfils, Sébah & Joaillier, Lehnert & Landrock, Bourne & Shepherd) are flagged for a content-identity decision. Rows with tier 'listed' are existence-only (own site or supplier list).",
  "accuracy": {
   "checked": 25,
   "wrong": 3,
