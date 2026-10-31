@@ -1,0 +1,111 @@
+{
+ "cat": "E3",
+ "items": [
+  {
+   "rubric_id": "E3-16",
+   "tradition": "Gaelic wire-strung harp",
+   "decision": "skip",
+   "dept": "Orchestral & band instruments",
+   "shelf": "Orchestral strings",
+   "kind": "Harp",
+   "record": {},
+   "makers": [],
+   "ve_link": "Gaelic wire-strung harp",
+   "why": "Already present: 'Wire-strung clàrsach' (cláirseach · early Irish harp) is an archetype under Harp."
+  },
+  {
+   "rubric_id": "E3-19",
+   "tradition": "Persian and Iraqi santur",
+   "decision": "skip",
+   "dept": "Folk & world instruments",
+   "shelf": "Harps, zithers & dulcimers",
+   "kind": "Hammered dulcimer",
+   "record": {},
+   "makers": [],
+   "ve_link": "Santur",
+   "why": "Already present: 'Santur' is an archetype under Hammered dulcimer."
+  },
+  {
+   "rubric_id": "E3-2",
+   "tradition": "Chinese cymbal making",
+   "decision": "add_archetype",
+   "dept": "Drums & percussion",
+   "shelf": "Cymbals, gongs & chimes",
+   "kind": "Cymbal",
+   "record": {
+    "n": "China cymbal",
+    "a": "Chinese cymbal · trash cymbal",
+    "d": "Cymbal shaped like the Chinese bo, with a cylindrical or truncated-cone bell, an up-turned rim and little taper, giving a bright, explosive tone.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/China_cymbal",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Zildjian",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/China_cymbal"
+    },
+    {
+     "n": "Zanchi",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/China_cymbal"
+    },
+    {
+     "n": "Crescent Cymbals",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/China_cymbal"
+    }
+   ],
+   "ve_link": "Chinese cymbal making",
+   "why": "Product: China cymbals are bought as a type; it appeared only as versions inside Paiste lines, so it becomes an archetype. Makers are from the page's manufacturer navbox, not stated as China-cymbal makers."
+  },
+  {
+   "rubric_id": "E3-8",
+   "tradition": "Irish bodhrán",
+   "decision": "add_archetype",
+   "dept": "Drums & percussion",
+   "shelf": "Hand drums",
+   "kind": "Frame drum",
+   "record": {
+    "n": "Bodhrán",
+    "a": "bodhráin",
+    "d": "Irish frame drum 25–65 cm across with a goatskin head tacked to one side, played with a tipper; tunable versions follow Seamus O'Kane's 1975 tuning system.",
+    "mk": "",
+    "y": "mid-19th century",
+    "s": "https://en.wikipedia.org/wiki/Bodhr%C3%A1n",
+    "v": [
+     {
+      "n": "Tunable bodhrán",
+      "mk": "Seamus O'Kane",
+      "y": "1975",
+      "d": "mechanical tuning adapted from banjo design"
+     }
+    ],
+    "dt": "diameter 35–45 cm typical · goatskin or synthetic head · crossbar or open back"
+   },
+   "makers": [
+    {
+     "n": "Seamus O'Kane",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Bodhr%C3%A1n"
+    },
+    {
+     "n": "Paraic McNeela",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Bodhr%C3%A1n"
+    },
+    {
+     "n": "Caramel Tobin",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Bodhr%C3%A1n"
+    }
+   ],
+   "ve_link": "Irish bodhrán",
+   "why": "Product: an instrument bought and owned."
+  }
+ ],
+ "done": true
+}

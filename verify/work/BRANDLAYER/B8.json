@@ -244,6 +244,53 @@
    ],
    "found": 4,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Pest & insect control > Mosquito vaporiser & coil",
+   "queries": [
+    "katori senko mosquito coil Japan makers",
+    "best mosquito coil brands tested"
+   ],
+   "found": 6,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Pest & insect control > Bird deterrent",
+   "queries": [
+    "best bird deterrent spikes netting brands tested"
+   ],
+   "found": 0,
+   "note": "only generic pest-service/Rise Tape pages; no independent brand ranking found"
+  },
+  {
+   "axis": "kind",
+   "item": "Pest & insect control > Pest repeller",
+   "queries": [
+    "do ultrasonic pest repellers work tested Which?"
+   ],
+   "found": 0,
+   "note": "studies show ultrasonic repellers ineffective; no brand rankings found"
+  },
+  {
+   "axis": "kind",
+   "item": "Fire, gas & leak safety > CO alarm / gas detector",
+   "queries": [
+    "best carbon monoxide alarms Which? Best Buy",
+    "best natural gas leak detector"
+   ],
+   "found": 2,
+   "note": "FireAngel/Kidde/First Alert known; UEi, Amprobe niche"
+  },
+  {
+   "axis": "kind",
+   "item": "Fire, gas & leak safety > Fire blanket",
+   "queries": [
+    "best fire blanket tested Best Buy"
+   ],
+   "found": 0,
+   "note": "no ranking page surfaced in results"
   }
  ],
  "regions": [
@@ -419,6 +466,26 @@
     "Picard Serrures",
     "Decayeux",
     "Heracles"
+   ]
+  },
+  {
+   "region": "Japan (mosquito coils)",
+   "speciality": "Katori senko: mosquito coil invented by Dainihon Jochugiku (Kincho) 1895; Japanese cast-iron holders",
+   "src": "https://www.japantimes.co.jp/news/2013/07/15/reference/mosquito-coils",
+   "brands": [
+    "Kincho (Dainihon Jochugiku)",
+    "Kuwana Imono"
+   ]
+  },
+  {
+   "region": "China / Southeast Asia (mosquito coils)",
+   "speciality": "Mosquito coils widely used across Asia, Africa, South America; Chinese and Malaysian coil brands",
+   "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859469/",
+   "brands": [
+    "Lanju",
+    "Bison",
+    "Godzilla",
+    "Jambo"
    ]
   }
  ],
@@ -812,6 +879,26 @@
    "new_names": 0,
    "status": "partial",
    "note": "excerpt only: First Alert, Moen, Phyn, X-Sense (known)"
+  },
+  {
+   "url": "https://www.japantimes.co.jp/news/2013/07/15/reference/mosquito-coils",
+   "title": "Japan Times mosquito coils / Kincho product pages / Shokunin.com",
+   "kind": "heritage",
+   "years": "2013-2026",
+   "names_on_page": 4,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859469/",
+   "title": "PMC: charcoal-base mosquito coil emissions (brands tested)",
+   "kind": "award",
+   "years": "2010",
+   "names_on_page": 5,
+   "new_names": 4,
+   "status": "done",
+   "note": "Raid known"
   }
  ],
  "brands": [
@@ -2290,6 +2377,55 @@
    "says": "Consumer Reports tested leak detector system (Home Water Control Shutoff Valve)",
    "country": "US",
    "dept": "Water-leak detectors"
+  },
+  {
+   "n": "Kincho (Dainihon Jochugiku)",
+   "layer": "cultural",
+   "src": "https://www.japantimes.co.jp/news/2013/07/15/reference/mosquito-coils",
+   "says": "Inventor of the mosquito coil (1895, Eiichiro Ueyama, est. 1885); Kincho Uzumaki 'golden-bird whirlpool' coils with red rooster mark, sold ~100+ years; katori senko nostalgia",
+   "country": "Japan",
+   "dept": "Mosquito coils"
+  },
+  {
+   "n": "Kuwana Imono",
+   "layer": "cultural",
+   "src": "https://en.shokunin.com/archives/46644305.html",
+   "says": "Kuwana cast-metal craft maker of traditional mosquito-repelling coil vessels (kayaribi/butanoyoke), listed on Shokunin.com",
+   "country": "Japan",
+   "dept": "Mosquito coil holders",
+   "role": "seller"
+  },
+  {
+   "n": "Lanju",
+   "layer": "cultural",
+   "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859469/",
+   "says": "Mosquito coil brand bought on the market and emission-tested in a peer-reviewed study (PMC2859469)",
+   "country": "China",
+   "dept": "Mosquito coils"
+  },
+  {
+   "n": "Bison",
+   "layer": "cultural",
+   "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859469/",
+   "says": "Mosquito coil brand bought on the market and emission-tested in a peer-reviewed study (PMC2859469)",
+   "country": "China",
+   "dept": "Mosquito coils"
+  },
+  {
+   "n": "Godzilla",
+   "layer": "cultural",
+   "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859469/",
+   "says": "Mosquito coil brand bought on the market and emission-tested in a peer-reviewed study (PMC2859469)",
+   "country": "China",
+   "dept": "Mosquito coils"
+  },
+  {
+   "n": "Jambo",
+   "layer": "cultural",
+   "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859469/",
+   "says": "Mosquito coil brand bought on the market and emission-tested in a peer-reviewed study (PMC2859469)",
+   "country": "Asia",
+   "dept": "Mosquito coils"
   }
  ]
 }

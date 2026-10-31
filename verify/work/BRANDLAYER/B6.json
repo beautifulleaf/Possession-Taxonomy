@@ -139,10 +139,13 @@
    "queries": [
     "renowned cleaning tools/laundry makers Latin America & Caribbean",
     "Wikipedia Category:Home appliance brands (regional makers)",
-    "marcas de detergente jabón de lavar tradicionales México Argentina Chile Colombia"
+    "marcas de detergente jabón de lavar tradicionales México Argentina Chile Colombia",
+    "Kantar Brand Footprint Latin America home care brands",
+    "Bombril Qboa Minuano Brilhante Veja",
+    "Fabuloso Axion Roma Foca Zote Mexico"
    ],
-   "found": 2,
-   "note": "search returned no Latin American brand page; Haceb, Mabe appliances from Wikipedia; Ypê en.wikipedia stub seen earlier"
+   "found": 15,
+   "note": "Brazil and Mexico; Argentina/Chile/Caribbean local makers not recorded"
   },
   {
    "axis": "kind",
@@ -662,6 +665,26 @@
     "Brabantia",
     "Hailo"
    ]
+  },
+  {
+   "region": "Brazil / Latin America",
+   "speciality": "Laundry powders, dish detergent and steel-wool scourers (Ypê, Tixan, Bombril, Brilhante, Limpol, Minuano); Mexico: Foca, Roma, Zote, Fabuloso, Pinol, Suavitel",
+   "src": "https://www.ype.ind.br/ype/na-midia/ype-se-consolida-como-a-marca-de-higiene-e-limpeza-mais-escolhida-do-brasil-aponta-pesquisa-brand-footprint-2025",
+   "brands": [
+    "Ypê",
+    "Tixan",
+    "Bombril",
+    "Brilhante",
+    "Limpol",
+    "Minuano",
+    "Assolan",
+    "Foca",
+    "Fabuloso",
+    "Pinol",
+    "Roma",
+    "Zote",
+    "Suavitel"
+   ]
   }
  ],
  "sources": [
@@ -974,6 +997,66 @@
    "new_names": 5,
    "status": "done",
    "note": "market report player list; independent quality test not found"
+  },
+  {
+   "url": "https://www.ype.ind.br/ype/na-midia/ype-se-consolida-como-a-marca-de-higiene-e-limpeza-mais-escolhida-do-brasil-aponta-pesquisa-brand-footprint-2025",
+   "title": "Ypê / Brand Footprint 2025 (Worldpanel by Numerator)",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.kantar.com/brazil/inspiration/consumo/2019-coca-cola-ype-e-colgate-sao-as-marcas-mais-escolhidas",
+   "title": "Kantar Brand Footprint Brazil 2019 (2018 data)",
+   "kind": "ranking",
+   "years": "2018",
+   "names_on_page": 3,
+   "new_names": 1,
+   "status": "done",
+   "note": "Omo known"
+  },
+  {
+   "url": "https://www.opinionbox.com/nps/segmentos-avaliados/limpeza",
+   "title": "Opinion Box NPS cleaning segment Brazil",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 22,
+   "new_names": 5,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.bombril.com.br/bombril-en",
+   "title": "Bombril English page",
+   "kind": "heritage",
+   "years": "1999",
+   "names_on_page": 6,
+   "new_names": 2,
+   "status": "done",
+   "note": "Brand of the Century"
+  },
+  {
+   "url": "https://mexmax.com/collections/mexican-laundry-cleaning-products?page=5",
+   "title": "MexMax Mexican laundry products wholesale",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 3,
+   "status": "partial",
+   "note": "Roma, Zote, Suavitel known"
+  },
+  {
+   "url": "https://www.consumerreports.org/appliances/most-reliable-laundry-appliances-a3420041968/",
+   "title": "CR Most Reliable Laundry Appliance Brands (2026 update) + Asko testing process page",
+   "kind": "ranking",
+   "years": "2025-2026",
+   "names_on_page": 17,
+   "new_names": 0,
+   "status": "done",
+   "note": "Asko premium claim not independently supported: CR places Asko mid/low; downgraded to cultural. LG, Speed Queen, Miele, Insignia, Hotpoint, Electrolux, Amana, GE, Maytag known/top"
   }
  ],
  "brands": [
@@ -1393,11 +1476,11 @@
   },
   {
    "n": "Asko",
-   "layer": "premium",
-   "src": "https://www.bgr.com/2079976/most-reliable-washing-machine-brands-consumer-reports",
-   "says": "Consumer Reports Brand Reliability 60+ (compact washers); CR top-rated model Asko W4114CW (secondary report of CR, from search excerpt)",
+   "layer": "cultural",
+   "src": "https://us.asko.com/testing-process",
+   "says": "RAW-VERIFIED 2026-10-31: Asko's own pages say front-loaders are endurance-tested to simulate 20 years (10,000 h / 4,500 cycles), stainless drums, but explicitly 'not a guarantee'. Independent evidence does NOT support a premium reliability verdict: Consumer Reports 2026 laundry reliability ranks Asko in the middle group (16th of 17 in the compact table) and CR 2018 listed Asko among the three least reliable compact washers. CR does lab-test Asko models (W5XLW, W3W). Kept as cultural (Swedish brand since 1950; Hisense subsidiary per Wikipedia home appliance brands).",
    "country": "Sweden",
-   "dept": "washing machines",
+   "dept": "Washing machines",
    "already": false
   },
   {
@@ -2338,6 +2421,110 @@
    "says": "Williams Sonoma kitchen trash cans: Umbra Woodrow Trash Can",
    "country": "Canada",
    "dept": "Indoor bins"
+  },
+  {
+   "n": "Ypê",
+   "layer": "cultural",
+   "src": "https://www.ype.ind.br/ype/na-midia/ype-se-consolida-como-a-marca-de-higiene-e-limpeza-mais-escolhida-do-brasil-aponta-pesquisa-brand-footprint-2025",
+   "says": "Kantar/Worldpanel Brand Footprint 2025: most chosen hygiene and cleaning brand in Brazil, 2nd overall behind Coca-Cola; founded 1950 Amparo (Wikipedia)",
+   "country": "Brazil",
+   "dept": "Detergents, laundry, cleaning"
+  },
+  {
+   "n": "Tixan",
+   "layer": "cultural",
+   "src": "https://www.ype.ind.br/ype/na-midia/ype-se-consolida-como-a-marca-de-higiene-e-limpeza-mais-escolhida-do-brasil-aponta-pesquisa-brand-footprint-2025",
+   "says": "Brand Footprint 2025: Tixan (Ypê group) is the laundry powder present in most Brazilian homes, top 25 chosen brands",
+   "country": "Brazil",
+   "dept": "Laundry powder"
+  },
+  {
+   "n": "Brilhante",
+   "layer": "cultural",
+   "src": "https://www.kantar.com/brazil/inspiration/consumo/2019-coca-cola-ype-e-colgate-sao-as-marcas-mais-escolhidas",
+   "says": "Kantar Brand Footprint 2018: top three home care brands in Brazil (Ypê, Omo, Brilhante); Brilhante laundry since 1986",
+   "country": "Brazil",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Bombril",
+   "layer": "cultural",
+   "src": "https://www.bombril.com.br/bombril-en",
+   "says": "Bombril elected one of four Brazilian-created brands among 21 'Brands of the Century' (1999); steel wool sponge '1001 utilidades', 15+ brands",
+   "country": "Brazil",
+   "dept": "Steel wool scourers and cleaning"
+  },
+  {
+   "n": "Limpol",
+   "layer": "cultural",
+   "src": "https://www.opinionbox.com/nps/segmentos-avaliados/limpeza",
+   "says": "Opinion Box NPS cleaning segment: Limpol among rated Brazilian cleaning brands (Bombril brand)",
+   "country": "Brazil",
+   "dept": "Dishwashing detergent"
+  },
+  {
+   "n": "Minuano",
+   "layer": "cultural",
+   "src": "https://www.opinionbox.com/nps/segmentos-avaliados/limpeza",
+   "says": "Opinion Box NPS cleaning segment rated brand; named competitor rising in dish detergent (O Globo 2026)",
+   "country": "Brazil",
+   "dept": "Dishwashing detergent"
+  },
+  {
+   "n": "Pinho Bril",
+   "layer": "cultural",
+   "src": "https://www.opinionbox.com/nps/segmentos-avaliados/limpeza",
+   "says": "Opinion Box NPS cleaning segment; Bombril brand",
+   "country": "Brazil",
+   "dept": "Pine disinfectant"
+  },
+  {
+   "n": "Assolan",
+   "layer": "cultural",
+   "src": "https://www.opinionbox.com/nps/segmentos-avaliados/limpeza",
+   "says": "Opinion Box NPS cleaning segment: Assolan rated Brazilian steel wool/sponge brand",
+   "country": "Brazil",
+   "dept": "Scourers"
+  },
+  {
+   "n": "Urca",
+   "layer": "cultural",
+   "src": "https://www.opinionbox.com/nps/segmentos-avaliados/limpeza",
+   "says": "Opinion Box NPS cleaning segment: Urca rated brand",
+   "country": "Brazil",
+   "dept": "Cleaning products"
+  },
+  {
+   "n": "Kalipto",
+   "layer": "cultural",
+   "src": "https://www.bombril.com.br/marca-bombril",
+   "says": "Bombril brand family: Bom Bril, Mon Bijou, Limpol, Pinho Bril, Sapólio, Kalipto",
+   "country": "Brazil",
+   "dept": "Cleaning products"
+  },
+  {
+   "n": "Foca",
+   "layer": "cultural",
+   "src": "https://mexmax.com/collections/mexican-laundry-cleaning-products?page=5",
+   "says": "MexMax: Foca market leader in low-priced authentic Mexican laundry detergent",
+   "country": "Mexico",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Fabuloso",
+   "layer": "cultural",
+   "src": "https://mexmax.com/collections/mexican-laundry-cleaning-products?page=5",
+   "says": "MexMax / Colgate Tu Hogar Mexico: Fabuloso multipurpose floor cleaner, staple of Mexican/Latin American cleaning aisle",
+   "country": "Mexico",
+   "dept": "Floor and multipurpose cleaner"
+  },
+  {
+   "n": "Pinol",
+   "layer": "cultural",
+   "src": "https://mexmax.com/collections/mexican-laundry-cleaning-products?page=5",
+   "says": "MexMax: Pinol Mexican cleaning product in the Latin American cleaning aisle",
+   "country": "Mexico",
+   "dept": "Floor cleaner"
   }
  ]
 }
