@@ -11,10 +11,152 @@
    ],
    "found": 0,
    "note": "Hair oil page names no brands (source recorded 0)"
+  },
+  {
+   "axis": "kind",
+   "item": "Skin-care brand / Make-up brand (brands by market)",
+   "queries": [
+    "wikipedia cosmetics brands categories"
+   ],
+   "found": 35,
+   "note": "Wikipedia categories Cosmetics brands, Skin care brands, S.Korea, India, Japan"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Cosmetics companies of India"
+   ],
+   "found": 9,
+   "note": "Indian hair-oil brands Dabur/Bajaj/Navratna/Vatika/Indulekha/Kesh King NOT yet sourced by a fetched page"
   }
  ],
- "regions": [],
- "traditions": [],
+ "regions": [
+  {
+   "region": "West Africa (Nigeria)",
+   "speciality": "African black soap, Dudu-Osun",
+   "src": "https://en.wikipedia.org/wiki/African_black_soap",
+   "brands": [
+    "Dudu-Osun"
+   ]
+  },
+  {
+   "region": "Palestine (Nablus)",
+   "speciality": "Nabulsi olive-oil soap, UNESCO ICH 2024",
+   "src": "https://en.wikipedia.org/wiki/Nabulsi_soap",
+   "brands": [
+    "Al-Jamal (camel) Nabulsi soap",
+    "Touqan soap factory",
+    "Nablus Soap Company",
+    "Shaka'a soap factory"
+   ]
+  },
+  {
+   "region": "Syria (Aleppo)",
+   "speciality": "laurel-oil ghar soap, UNESCO ICH 2024",
+   "src": "https://en.wikipedia.org/wiki/Aleppo_soap",
+   "brands": []
+  },
+  {
+   "region": "Southeast Asia (Myanmar)",
+   "speciality": "thanaka bark paste; Shwebo, Shinmadaung, Maukme types",
+   "src": "https://en.wikipedia.org/wiki/Thanaka",
+   "brands": []
+  },
+  {
+   "region": "South Asia (India)",
+   "speciality": "Ayurvedic/herbal and hair-oil houses",
+   "src": "https://en.wikipedia.org/wiki/Category:Cosmetics_companies_of_India",
+   "brands": [
+    "Forest Essentials",
+    "Parachute",
+    "Emami",
+    "Mysore Sandal Soap",
+    "Lakmé",
+    "Bajaj Consumer Care",
+    "Aravind Laboratories",
+    "Brihans Natural Products"
+   ]
+  },
+  {
+   "region": "East Asia (South Korea)",
+   "speciality": "K-beauty skincare",
+   "src": "https://en.wikipedia.org/wiki/Category:Cosmetics_brands_of_South_Korea",
+   "brands": [
+    "Sulwhasoo",
+    "Innisfree",
+    "Dr. Jart+",
+    "Skin Food",
+    "Tony Moly",
+    "Isa Knox",
+    "Laneige"
+   ]
+  },
+  {
+   "region": "East Asia (Japan)",
+   "speciality": "J-beauty",
+   "src": "https://en.wikipedia.org/wiki/Category:Cosmetics_brands",
+   "brands": [
+    "Shiseido",
+    "SK-II",
+    "Hada Labo",
+    "DHC",
+    "Albion",
+    "Mandom",
+    "Nippon Menard Cosmetic"
+   ]
+  },
+  {
+   "region": "Middle East (UAE/Gulf)",
+   "speciality": "make-up (Huda Beauty)",
+   "src": "https://en.wikipedia.org/wiki/Category:Cosmetics_brands",
+   "brands": [
+    "Huda Beauty"
+   ]
+  }
+ ],
+ "traditions": [
+  {
+   "t": "African black soap (Yoruba ose dudu)",
+   "kinds": [
+    "Bar soap",
+    "Body wash"
+   ],
+   "src": "https://en.wikipedia.org/wiki/African_black_soap"
+  },
+  {
+   "t": "Aleppo ghar (laurel) soap",
+   "kinds": [
+    "Bar soap",
+    "Shaving soap"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Aleppo_soap"
+  },
+  {
+   "t": "Nabulsi olive-oil soap",
+   "kinds": [
+    "Bar soap"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Nabulsi_soap"
+  },
+  {
+   "t": "Thanaka (Myanmar)",
+   "kinds": [
+    "Face mask",
+    "Sunscreen",
+    "Face powder"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Thanaka"
+  },
+  {
+   "t": "Hair oiling (coconut, almond, argan, camellia, castor oils)",
+   "kinds": [
+    "Hair oil & serum",
+    "Scalp treatment"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Hair_oil"
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Cosmetics_brands",
@@ -75,6 +217,46 @@
    "new_names": 1,
    "status": "partial",
    "note": "20 pages, 2 visible known=1"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Nabulsi_soap",
+   "title": "Nabulsi soap",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 4,
+   "status": "done",
+   "note": "Dudu-Osun is from the black-soap page known=2"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/African_black_soap",
+   "title": "African black soap",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "only Dudu-Osun named as brand"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Aleppo_soap",
+   "title": "Aleppo soap",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "no brands named; UNESCO ICH Dec 2024"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Thanaka",
+   "title": "Thanaka (navbox)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 19,
+   "new_names": 2,
+   "status": "partial",
+   "note": "navbox truncated; thanaka itself names no brand; regional types Shwebo, Shinmadaung, Maukme known=16"
   }
  ],
  "brands": [
@@ -242,7 +424,7 @@
    "country": "India"
   },
   {
-   "n": "Mysore Sandal Soap (Karnataka Soaps and Detergents)",
+   "n": "Mysore Sandal Soap",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Cosmetics_companies_of_India",
    "says": "listed in Wikipedia Category:Cosmetics companies of India",
@@ -315,6 +497,50 @@
    "src": "https://en.wikipedia.org/wiki/Category:Cosmetics_companies_of_Japan",
    "says": "listed in Wikipedia Category:Cosmetics companies of Japan",
    "country": "Japan"
+  },
+  {
+   "n": "Dudu-Osun",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/African_black_soap",
+   "says": "African black soap brand made by the Yoruba of Nigeria (image caption and text on Wikipedia African black soap)",
+   "country": "Nigeria",
+   "dept": "bar soap"
+  },
+  {
+   "n": "Al-Jamal (camel) Nabulsi soap",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Nabulsi_soap",
+   "says": "named as Nabulsi soap brand/factory (Al-Jamal camel brand; Touqan; Nablus Soap Company; Shaka'a); Shemen = competitor Haifa soap",
+   "country": "Palestine",
+   "dept": "bar soap"
+  },
+  {
+   "n": "Nablus Soap Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Nabulsi_soap",
+   "says": "named as Nabulsi soap brand/factory (Al-Jamal camel brand; Touqan; Nablus Soap Company; Shaka'a); Shemen = competitor Haifa soap",
+   "country": "Palestine",
+   "dept": "bar soap"
+  },
+  {
+   "n": "Shemen Industries",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Nabulsi_soap",
+   "says": "named as Nabulsi soap brand/factory (Al-Jamal camel brand; Touqan; Nablus Soap Company; Shaka'a); Shemen = competitor Haifa soap",
+   "country": "Palestine",
+   "dept": "bar soap"
+  },
+  {
+   "n": "Artistry",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Thanaka",
+   "says": "in Wikipedia \"Major cosmetic brands\" navbox on Thanaka page (existence only)"
+  },
+  {
+   "n": "Natural Wonder",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Thanaka",
+   "says": "in Wikipedia \"Major cosmetic brands\" navbox on Thanaka page (existence only)"
   }
  ]
 }

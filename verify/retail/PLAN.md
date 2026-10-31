@@ -29,3 +29,4 @@ Rules for the enrichment pass:
 - INDEX CLEANUP (E6): 'Fischer' row mixes fixings company with the barometer maker — split into Fischer (barometers). Open: Apogee Instruments vs Apogee Imaging Systems.
 - INDEX CLEANUP (F1): register 'Linn' row carries E3 (likely Roger Linn's drum machines, a different company) — split.
 - INDEX CLEANUP (E3): register 'King' row tagged J8 (crisps) and E3 — split.
+- H1 and H4 final rounds run as parallel parts writing separate files (H1_trad/H1_quality/H1_portfolio.json; H4.json + H4_countries.json); the audit reads all parts.
