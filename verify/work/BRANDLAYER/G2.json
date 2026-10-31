@@ -2,8 +2,161 @@
  "cat": "G2",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Factory-built, mobile & floating homes > Modular, kit & container homes (and log/timber kit)",
+   "queries": [
+    "Wikipedia Category:Prefabricated houses companies manufacturers",
+    "Wikipedia log home manufacturers Honka Kontio"
+   ],
+   "found": 19,
+   "note": "only Nordic prefab list fetched; Dvele, Muji Hut, Huf Haus (known), Baufritz (known) not yet sourced"
+  },
+  {
+   "axis": "kind",
+   "item": "Flats & apartments > Managed & part-owned units (branded residence)",
+   "queries": [
+    "Wikipedia branded residences list",
+    "Savills branded residences"
+   ],
+   "found": 12,
+   "note": "Savills 2023 fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Houses (all sections) - volume homebuilders",
+   "queries": [
+    "Wikipedia list of largest homebuilders",
+    "Housebuilder top 100 UK",
+    "Builder 100",
+    "HIA Australia",
+    "Japan house maker ranking"
+   ],
+   "found": 160,
+   "note": "UK, US, AU, JP covered; Canada, Germany, Nordic, China, India, Brazil, Middle East builders not done"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Builder 100 largest US homebuilders ranking"
+   ],
+   "found": 80,
+   "note": "builders; Canada only via Mattamy/Minto/Brookfield on US list"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "ハウスメーカー 売上高ランキング"
+   ],
+   "found": 21,
+   "note": "Japan only; Korea hanok, China not done"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Top 50 Housebuilders UK",
+    "luxury real estate brokerage ranking"
+   ],
+   "found": 61,
+   "note": "UK, France agency"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "HIA Australia largest home builders ranking"
+   ],
+   "found": 12,
+   "note": ""
+  }
+ ],
+ "regions": [
+  {
+   "region": "Finland / Nordic",
+   "speciality": "log houses and industrial log-home manufacture",
+   "src": "https://www.kontio.com/en",
+   "brands": [
+    "Kontio",
+    "Honka"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "industrialised/prefab housebuilding at scale (steel-frame, unit and timber systems)",
+   "src": "https://megulie.co.jp/blog/2026/07/18/house-maker-sales-ranking",
+   "brands": [
+    "Daiwa House",
+    "Sekisui House",
+    "Sekisui Heim",
+    "Asahi Kasei Homes (Hebel Haus)",
+    "Misawa Homes",
+    "Panasonic Homes",
+    "Toyota Home",
+    "Sumitomo Forestry"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "volume and premium housebuilding; prime estate agency",
+   "src": "https://www.building.co.uk/data/top-50-housebuilders-2025/5139664.article",
+   "brands": [
+    "Barratt Redrow",
+    "Berkeley Group",
+    "Persimmon",
+    "Taylor Wimpey",
+    "Bellway",
+    "Knight Frank",
+    "Savills"
+   ]
+  },
+  {
+   "region": "United States",
+   "speciality": "volume homebuilding (Builder 100); manufactured homes",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "brands": [
+    "D.R. Horton",
+    "Lennar",
+    "PulteGroup",
+    "NVR",
+    "Toll Brothers",
+    "Clayton Properties Group"
+   ]
+  },
+  {
+   "region": "Australia",
+   "speciality": "volume detached and multi-unit homebuilding",
+   "src": "https://hia.com.au/our-industry/newsroom/economic-research-and-forecasting/2026/09/a-new-decade-a-new-name-tops-the-list-of-australias-largest-home-builders",
+   "brands": [
+    "Metricon",
+    "ABN Group",
+    "NEX Building Group",
+    "Meriton Apartments",
+    "Hutchies"
+   ]
+  },
+  {
+   "region": "Middle East",
+   "speciality": "hotel-branded residences (Dubai the hotspot, 51 operational schemes in 2023)",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "brands": [
+    "Emaar Hospitality",
+    "Address Hotels",
+    "One&Only"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "luxury real estate agency (Riviera)",
+   "src": "https://worthbury.com/magazine/best-real-estate-companies-world/",
+   "brands": [
+    "Barnes International Realty"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://www.building.co.uk/data/top-50-housebuilders-2025/5139664.article",
@@ -64,6 +217,26 @@
    "new_names": 12,
    "status": "done",
    "note": "17 names already in register (Ritz-Carlton, St Regis, Fairmont, Mandarin Oriental, Kempinski, Banyan Tree, Accor, Hilton, YOO, Pininfarina, Elie Saab, Four Seasons, Aman, Marriott, Trump etc.); 5 cross-tags listed"
+  },
+  {
+   "url": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "title": "BuildGreenNH Top 22 Scandinavian Prefab Homes",
+   "kind": "retailer",
+   "years": "2022",
+   "names_on_page": 23,
+   "new_names": 18,
+   "status": "done",
+   "note": "blog list; existence only; Honka already known"
+  },
+  {
+   "url": "https://www.kontio.com/en",
+   "title": "Kontio company site",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "own-site claim"
   }
  ],
  "brands": [
@@ -1630,6 +1803,176 @@
    "dept": "branded residence",
    "already": true,
    "cross_tag": false
+  },
+  {
+   "n": "Kontio",
+   "layer": "cultural",
+   "src": "https://www.kontio.com/en",
+   "says": "Company site: 'biggest log house manufacturer in the world', over 50 years, 50,000 log buildings",
+   "country": "Finland",
+   "dept": "log house maker (timber)"
+  },
+  {
+   "n": "Koto Designs",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "United Kingdom",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Scandinavian Homes",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "United Kingdom",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Nordic Houses",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Estonia",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "ScanHome",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Sweden",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "PolarLife Haus",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Canada",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Klaus",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Claesson Koivisto Rune",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Sweden",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Maison Nordique",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Canada",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Spazio",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Vitus",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Nordic Homes",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Latvia",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "HebHomes",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "InHaus",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Drop Structures",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Canada",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "ScandiaHus",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "United Kingdom",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Canada Prefab",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Canada",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Norges Hus",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "Norway",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
+  },
+  {
+   "n": "Simple Homes",
+   "layer": "cultural",
+   "src": "https://buildgreennh.com/scandinavian-prefab-homes",
+   "says": "BuildGreenNH 'Top 22 Scandinavian Prefab Homes' list (listing only: proves existence)",
+   "country": "",
+   "dept": "prefab / timber-frame house maker",
+   "listed_only": true
   }
  ]
 }
