@@ -1,0 +1,1122 @@
+{
+ "cat": "F6",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Minerals (all sections)",
+   "queries": [
+    "Mineralogical Record mineral dealers directory",
+    "Tucson fine mineral gallery vendors",
+    "Munich Show exhibitors"
+   ],
+   "found": 13,
+   "note": "Munich floorplan is JS app, not copied; Mineralogical Record label archive lists historic dealers but not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Fossils & amber",
+   "queries": [
+    "AAPS business members",
+    "Erfoud trilobite trade"
+   ],
+   "found": 85,
+   "note": "AAPS list"
+  },
+  {
+   "axis": "kind",
+   "item": "Meteorites",
+   "queries": [
+    "IMCA members",
+    "meteorite dealers"
+   ],
+   "found": 4,
+   "note": "IMCA member list is login-restricted"
+  },
+  {
+   "axis": "kind",
+   "item": "Taxidermy",
+   "queries": [
+    "NTA winners",
+    "Guild of Taxidermists",
+    "Deyrolle"
+   ],
+   "found": 1,
+   "note": "NTA/Guild winners are individuals, not brands; skipped"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Erfoud Morocco fossil trade"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Minas Gerais specimens"
+   ],
+   "found": 0,
+   "note": "region noted, no maker named on fetched page"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Tucson, AAPS"
+   ],
+   "found": 85,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Deyrolle",
+    "AAPS Germany France UK"
+   ],
+   "found": 1,
+   "note": ""
+  }
+ ],
+ "regions": [
+  {
+   "region": "Morocco (Erfoud, Alnif, Midelt, Bou Azzer)",
+   "speciality": "Palaeozoic trilobites, Orthoceras limestone, vanadinite, erythrite and skutterudite; around 50,000 people work in the specimen trade, with weekly Erfoud middlemen markets",
+   "src": "https://archive.aramcoworld.com/issue/200902/morocco.s.trilobite.economy.htm",
+   "brands": [
+    "Tahiri Brothers' Museum of Fossils and Minerals",
+    "Golden State Mining Company (GSMC)",
+    "KH Fossils",
+    "Paleo-Pix Fossils",
+    "M2 Rocks & Minerals"
+   ]
+  },
+  {
+   "region": "Brazil (Minas Gerais)",
+   "speciality": "pegmatite tourmaline and beryl (Governador Valadares), quartz (Corinto), imperial topaz (Ouro Preto), gold-mine specimens (Nova Lima)",
+   "src": "https://www.mindat.org/loc-387.html",
+   "brands": []
+  },
+  {
+   "region": "United States (Colorado, California, Wyoming, Utah, Arizona)",
+   "speciality": "Sweet Home Mine rhodochrosite, Colorado Quartz Mine crystalline gold; Green River/Wyoming fish fossils; Tucson as trade hub (AAPS members from these states)",
+   "src": "https://munichshow.com/en/highlights/2026/pioneers-mineral-market",
+   "brands": [
+    "Collector's Edge",
+    "Green River Fossil Company",
+    "Warfield Fossils",
+    "Fossil Oasis",
+    "Black Hills Institute"
+   ]
+  },
+  {
+   "region": "Europe (Pakistan Shigar Valley aquamarine, Portugal Panasqueira, France Mont Blanc, Germany)",
+   "speciality": "Munich Show 2026 'Pioneers and Legends' exhibit names Panasqueira fluorite, Glacier du Nant Blanc quartz, and Shigar Valley aquamarine ('King of Kashmir')",
+   "src": "https://munichshow.com/en/highlights/2026/pioneers-mineral-market",
+   "brands": [
+    "Fine Minerals International"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "Yaogangxian Mine calcite/fluorite specimens (Munich 2026 exhibit)",
+   "src": "https://munichshow.com/en/highlights/2026/pioneers-mineral-market",
+   "brands": []
+  },
+  {
+   "region": "France (Paris)",
+   "speciality": "Historic natural history and taxidermy house",
+   "src": "https://en.wikipedia.org/wiki/Deyrolle",
+   "brands": [
+    "Deyrolle"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "title": "Tucson Gem and Fine Mineral Show 2026 vendor list",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 13,
+   "new_names": 13,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://aaps.net/business-members/",
+   "title": "AAPS Business Members",
+   "kind": "guild",
+   "years": "2026",
+   "names_on_page": 83,
+   "new_names": 83,
+   "status": "done",
+   "note": "specimen-dealing members only; non-specimen members (insurance, adhesives, publishing, shows) omitted (0 already in register)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Deyrolle",
+   "title": "Deyrolle (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://www.meteorite.com/meteorite-dealers/",
+   "title": "Meteorite Dealers - Meteorite Exchange",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "other dealer links on page are unlabelled images, not copied (0 already in register)"
+  },
+  {
+   "url": "https://archive.aramcoworld.com/issue/200902/morocco.s.trilobite.economy.htm",
+   "title": "Morocco's Trilobite Economy (Saudi Aramco World, 2009)",
+   "kind": "encyclopedia",
+   "years": "2009",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": " (0 already in register)"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Cal Graeber Minerals",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "US",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Crystal Classics Fine Minerals",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "AUSROX / Crystal Universe",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "Australia",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "EarthWonders",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Focal Crystal",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "MCP Mineralogical Collection Professionals",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Mineral Masterpiece",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Origins (formerly Nicholas Stolowitz Fine Minerals)",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Rudolph Minerals",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "UK Mining Ventures",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "UK",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Wilensky Exquisite Mineral Gallery",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "US",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Dreher Carvings",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Porini Gems",
+   "layer": "premium",
+   "src": "https://tucsongemshow101.com/fine-mineral-gallery-vendor-list",
+   "says": "exhibitor at the Tucson Fine Mineral Gallery 2026 (existence only)",
+   "country": "",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Aerolite Meteorites",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "meteorites",
+   "already": false
+  },
+  {
+   "n": "American Fossil",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Ammolite Enterprises",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Art Ancient",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "UK",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Badlands Scientific Expeditions",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "BF Gallery",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Italy",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Big Sky Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Black Cat Mountain Trilobites",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Blaine Reed Meteorites",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "meteorites",
+   "already": false
+  },
+  {
+   "n": "Blevins Natural History Gallery",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Bone Room Amber",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "amber",
+   "already": false
+  },
+  {
+   "n": "Buried Treasure Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Caruso's Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Cohen Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "UK",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Crystal Encounters",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Australia",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Crystal World and Prehistoric Journeys",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Australia",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Dancing Lizards",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Detrich Dinosaur Company",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Devonian Scottish Fish",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "UK",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Dinosaur World",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Earthstones Australia",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Australia",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "Empressive Earth Gallery",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Euro Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Germany",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Extinctions",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fistful of Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossil Age Minerals",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossil Lake Fish Co.",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossil Oasis",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossil Realm",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Canada",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossil Shack",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossil Soup",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossiland",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Germany",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossils-UK.com",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "UK",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Fossils Worldwide",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Germany",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "GeoFossiles",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "GeoWorld Gallery",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Gold Bugs Trilobites",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Granada Gallery",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Green River Fossil Company",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Hagars Fossils and Minerals",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Japheth Boyce Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Jurassic Dreams",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Spain",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Jurassic Gallery",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "KH Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Morocco",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Kriegerbarthold Paleo",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Germany",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Kristallkontor",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Germany",
+   "dept": "minerals",
+   "already": false
+  },
+  {
+   "n": "La Memoire de la Terre",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "France",
+   "dept": "meteorites",
+   "already": false
+  },
+  {
+   "n": "Larson Paleontology",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Lithologia Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "France",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Lost World Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "M2 Rocks & Minerals",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Morocco",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "McCarthy's Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Memory of Time",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Lebanon",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Moore and Moore Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "UK",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Moussa Mineral & Fossil",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "UK",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Nature & Art",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Germany",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Nature Source Fossil Company",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Nord Fossil",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Germany",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Nuss Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Otodus",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Paleo-Passion",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "France",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Paleo-Pix Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Morocco",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "PaleoLabFossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Italy",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Prirodniny",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Czech Republic",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Rocky Mountain Dinosaur Resource Center",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Russell-Zuhl",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Sahara Sea Collection",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Saurier Shop",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Austria",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "SharkTeeth.com",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Siber & Siber",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Switzerland",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Smilodon Resources",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "St Petersburg Paleontological Lab",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Russia",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "The Bug House",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "insects",
+   "already": false
+  },
+  {
+   "n": "The Evolution Store",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Time Vault Gallery",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Triebold Paleontology",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Tynsky Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Valley Anatomical Preparations",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "skeletons",
+   "already": false
+  },
+  {
+   "n": "Warfield Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Wunderkammer Zurich",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "Switzerland",
+   "dept": "natural history",
+   "already": false
+  },
+  {
+   "n": "Wyoming Fossils",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Zoic PalaeoTech",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "UK",
+   "dept": "fossil preparation",
+   "already": false
+  },
+  {
+   "n": "Black Hills Institute",
+   "layer": "premium",
+   "src": "https://aaps.net/business-members/",
+   "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
+   "country": "US",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Deyrolle",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Deyrolle",
+   "says": "historic Paris natural history house founded 1831, reference in taxidermy and entomology; CITES-compliant sourcing stated",
+   "country": "France",
+   "dept": "taxidermy, entomology, minerals",
+   "already": false
+  },
+  {
+   "n": "Meteorite Exchange",
+   "layer": "premium",
+   "src": "https://www.meteorite.com/meteorite-dealers/",
+   "says": "listed as sponsoring meteorite dealer (existence only)",
+   "country": "US",
+   "dept": "meteorites",
+   "already": false
+  },
+  {
+   "n": "Impactika",
+   "layer": "premium",
+   "src": "https://www.meteorite.com/meteorite-dealers/",
+   "says": "listed as sponsoring meteorite dealer (existence only)",
+   "country": "",
+   "dept": "meteorites",
+   "already": false
+  },
+  {
+   "n": "Nakhla Dog Meteorites",
+   "layer": "premium",
+   "src": "https://www.meteorite.com/meteorite-dealers/",
+   "says": "listed as sponsoring meteorite dealer (existence only)",
+   "country": "",
+   "dept": "meteorites",
+   "already": false
+  },
+  {
+   "n": "Top Meteorite",
+   "layer": "premium",
+   "src": "https://www.meteorite.com/meteorite-dealers/",
+   "says": "listed as sponsoring meteorite dealer (existence only)",
+   "country": "",
+   "dept": "meteorites",
+   "already": false
+  },
+  {
+   "n": "Tahiri Brothers' Museum of Fossils and Minerals",
+   "layer": "premium",
+   "src": "https://archive.aramcoworld.com/issue/200902/morocco.s.trilobite.economy.htm",
+   "says": "Moroccan specimen exporter/private fossil museum named in article on Morocco's specimen trade",
+   "country": "Morocco",
+   "dept": "fossils",
+   "already": false
+  },
+  {
+   "n": "Golden State Mining Company (GSMC)",
+   "layer": "premium",
+   "src": "https://archive.aramcoworld.com/issue/200902/morocco.s.trilobite.economy.htm",
+   "says": "Moroccan specimen exporter/private fossil museum named in article on Morocco's specimen trade",
+   "country": "Morocco",
+   "dept": "mineral specimens",
+   "already": false
+  }
+ ],
+ "notes_next": "TODO: shells/coral dealers, entomology dealers (Bugs and bits), display-case makers, element samples (Luciteria known), gem specimen dealers, Japan/India/Russia/Central Asia/SE Asia/Oceania regions, Messel/Solnhofen/Dalnegorsk/Tsumeb pages, Sainte-Marie-aux-Mines, Mineralogical Record label archive page. CITES flags: ivory, coral, some shells, taxidermy of listed taxa (Deyrolle page notes CITES compliance)."
+}
