@@ -30,7 +30,7 @@ DEPTS={
   ["Digestive & plain biscuit","Shortbread & butter biscuit","Sandwich cream biscuit","Chocolate-coated biscuit","Cookie","Speculoos & spiced biscuit","Wafer","Biscotti & amaretti","Macaron & meringue"]),
  ("Crackers & crispbreads","Savoury dry biscuits, crackers and crispbreads eaten with cheese, soup or spread; a sweet biscuit → Sweet biscuits & cookies.","kinds by base and bake: wheat crackers, then oat, rye, rice and unleavened",
   ["Water biscuit & cream cracker","Butter cracker","Saltine & soda cracker","Wholegrain & woven wheat cracker","Cheese cracker","Graham cracker","Oyster & animal cracker","Oatcake","Crispbread","Rice cake","Grissini & breadsticks","Matzo"])]),
-"Chocolate":dict(t="Chocolate bought as bars, filled pieces, boxes, countlines and seasonal shapes; a chocolate-coated biscuit → Biscuits & crackers; drinking chocolate and cocoa powder → J6.",
+"Chocolate":dict(t="Chocolate bought as bars, filled pieces, boxes, countlines and seasonal shapes; a chocolate-coated biscuit → Biscuits & crackers; drinking chocolate and cocoa powder → Cocoa & drinking chocolate.",
  ax="Is it bar or baking chocolate, a filled piece or box, a wrapped countline, or a seasonal or novelty shape?",
  shelves=[
  ("Bars & blocks","Chocolate sold as the chocolate itself, from single-origin dark bars to white, ruby and baking chocolate; a filled piece → Filled pieces & boxes.","kinds by cocoa recipe: single-origin, dark, milk, white, ruby, gianduja, then flavoured and baking",
@@ -70,7 +70,7 @@ DEPTS={
   ["Almonds","Peanuts","Cashews","Walnuts","Pistachios","Hazelnuts","Pecans","Macadamias","Brazil nuts","Pine nuts","Chestnuts"]),
  ("Seasoned nuts & mixes","Nuts and seeds roasted, salted, coated or mixed for snacking, such as salted peanuts, honey-roasted nuts and trail mix; a single plain nut → Plain nuts.","kinds by treatment: roasted and salted, coated, mixed, seeds",
   ["Roasted & salted nuts","Coated nuts","Mixed nuts","Trail mix","Seed snack"])]),
-"Ice cream":dict(t="Ice cream and frozen desserts bought to eat or take home; ice cream made at home → B5 ice cream maker; a chocolate bar → Chocolate.",
+"Ice cream":dict(t="Ice cream and frozen desserts bought to eat or take home; an ice cream maker → Kitchen appliances; a chocolate bar → Chocolate.",
  ax="Is it scooped from a tub, a water-based ice, or a single-serve or shaped product?",
  shelves=[
  ("Tubs & scoop ice cream","Take-home ice cream and its cousins sold in tubs, from dairy ice cream to gelato, frozen yogurt and kulfi; a water ice → Water ices.","kinds by base: dairy ice cream, Italian, custard, yogurt, Indian milk",
