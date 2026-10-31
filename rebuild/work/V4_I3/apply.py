@@ -285,12 +285,12 @@ def main():
                 if n=='Video streaming service':
                     k['x']=mk_vid();k['xg']="by home market";
                     k['nl']="One entry is a video streaming service sold under its own name; plans and tiers are versions or attributes."
-                    k['sel']=f"Every row of Wikipedia's List of streaming media services (video, read to its under-1-million tier, about 100,000 characters) except live-TV bundles and sports services, which have their own kinds. Home market sections. Covers {len(VID)} of the listed video services; the page tail (categories beyond that cut) was not read."
+                    k['sel']=f"Every row of Wikipedia's List of streaming media services (video, read to its under-1-million tier, about 100,000 characters) except live-TV bundles and sports services, which have their own kinds. Home market sections. Covers {len(VID)+7} of the rows read ({len(VID)} here, 7 live-TV and sports rows in their own kinds); the page's remaining 119,000 characters were not read."
                     k['see']=k.get('see',[])+[["J5","Prepared & frozen foods","none"]] if False else k.get('see')
                 elif n=='Music streaming':
                     k['x']=mk_music();k['xg']="by home market"
                     k['nl']="One entry is a music streaming service sold under its own name; plans such as individual, family and student are attributes."
-                    k['sel']=f"Wikipedia's Comparison of music streaming services, all {len(MUS)} on-demand music and audio-library services; radio-only services are in Satellite and internet radio. Complete: {len(MUS)} of {len(MUS)+7} rows (the other seven are radio services, in the radio kind)."
+                    k['sel']=f"Wikipedia's Comparison of music streaming services, the on-demand music and audio-library services. Covers {len(MUS)} of the {len(MUS)+7} rows on the page; the other seven are radio services, listed in Satellite and internet radio."
                 elif n=='Cloud storage plan':
                     k['x']=mk_cloud();k['xg']="by who runs it"
                     k['nl']="One entry is an online storage service for personal files sold under its own name; plans are attributes."
