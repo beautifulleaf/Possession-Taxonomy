@@ -243,3 +243,145 @@ json.dump({k:{kk:vv for kk,vv in v.items() if kk!='ex'} for k,v in REG.items()},
 json.dump({'kept':M_KEPT,'dropped':M_DROP},open(W+'m_fate.json','w'),ensure_ascii=False)
 print('m kept',len(M_KEPT),'dropped',len(M_DROP))
 print('registry',len(REG),'wd kept',WDKEPT,'fifi rows',FIFI_N,'old m',len(oldm))
+
+# ================= stage 2: assemble =================
+CIRC='https://www.cosmeticsbusiness.com/us-prestige-beauty-tops-33-billion-in-2024'
+PUIGA='https://cosmeticsbusiness.com/puig-s-2024-full-year-profits-surge-14-percent'
+def era(y):
+    y=ydig(y)
+    if y is None: return 'Year not stated'
+    if y<1900: return 'Before 1900'
+    if y<1950: return '1900 to 1949'
+    if y<1980: return '1950 to 1979'
+    if y<2000: return '1980 to 1999'
+    if y<2010: return '2000 to 2009'
+    return '2010 onwards'
+ERAS=['Before 1900','1900 to 1949','1950 to 1979','1980 to 1999','2000 to 2009','2010 onwards','Year not stated']
+PUIGLM={norm('Good Girl'):'Carolina Herrera Good Girl was the top women\'s fragrance line worldwide in 2024, per the cited Puig article.',norm('Le Male'):'Le Male ranked third among men\'s fragrances worldwide in 2024, per the cited Puig article.',norm('1 Million'):'1 Million ranked fourth among men\'s fragrances worldwide in 2024, per the cited Puig article.'}
+def mkentry(k,kindname):
+    e=REG[k]
+    base=copy.deepcopy(e.get('ex')) if e.get('ex') else {'n':e['n'],'a':'','d':'','mk':e['mk'],'y':e['y'],'s':e['s']}
+    base['n']=e['n']
+    if not base.get('mk') and e['mk']: base['mk']=e['mk']
+    if not base.get('mk') and e.get('fifi_h'): base['mk']=e['fifi_h']
+    if not base.get('y') and e['y']: base['y']=e['y']
+    if not base.get('s'): base['s']=e['s'] or LOP
+    bits=[]
+    if not e.get('ex') or not base.get('d'):
+        t=FAMTXT.get(e['n'])
+        if t: bits.append(f"Wikipedia describes the family as {t}.")
+        l=''
+        if base.get('y') and base.get('mk'): l=f"Launched {base['y']} by {base['mk']}"
+        elif base.get('mk'): l=f"Fragrance by {base['mk']}"
+        elif base.get('y'): l=f"Launched {base['y']}"
+        if l:
+            if e.get('per'): l+=f"; perfumer {e['per']}"
+            bits.append(l+'.')
+        aw=list(dict.fromkeys(e['awards']))
+        if aw: bits.append("FiFi: "+'; '.join(aw[:4])+('; and others' if len(aw)>4 else '')+'.')
+        if e.get('osm'): bits.append("Held in the Osmothèque reference collection.")
+        if e.get('wd') and not bits: bits.append("Perfume with an English Wikipedia article.")
+        if not bits: bits.append("Named perfume from the cited list.")
+        base['d']=' '.join(bits)
+    else:
+        aw=list(dict.fromkeys(e['awards']))
+        if aw: base['d']=base['d'].rstrip('.')+'. FiFi: '+'; '.join(aw[:3])+'.'
+    # versions
+    vs=base.get('v') or []
+    names={v['n'].lower() for v in vs}
+    def addv(vn,vy,vd):
+        if vn.lower() in names: return
+        names.add(vn.lower()); vs.append({'n':vn,'mk':base.get('mk',''),'y':str(vy or ''),'d':vd})
+    for vn,vy,note in e.get('vers',[]): addv(vn,vy,note or 'variant named by the cited list')
+    for vn,vy in e.get('cv',[]): addv(vn,vy,'Chanel flanker named on the Chanel page')
+    for vn,vy in e.get('kv',[]): addv(vn,vy,'named on the Francis Kurkdjian page')
+    for vn,y_,note,h in e.get('pv',[]): addv(vn,y_,note)
+    if vs: base['v']=vs
+    # market
+    h=house_of(base.get('mk',''))
+    if h:
+        base['own'],base['tier']=h[0],h[1]
+        if h[2]: base['cty']=h[2]
+        if h[3]: base['own_y']=h[3]
+    if e.get('hof') or k in PUIGLM:
+        base['role']='landmark'
+        base['d']=base['d'].rstrip()+(' Inducted into the FiFi Fragrance Hall of Fame.' if e.get('hof') else ' '+PUIGLM[k])
+    if kindname==UNST: base['g']=era(base.get('y'))
+    return base
+KIND_ENT={}
+for k in ORDER:
+    e=REG[k]
+    kn=FAM.get(k) or e['kind'] or UNST
+    if kn not in {x['n'] for sh in dept['s'] for x in sh['k']}: kn=UNST
+    KIND_ENT.setdefault(kn,[]).append(mkentry(k,kn))
+def sortkey(x):
+    y=ydig(x.get('y')); return (y if y is not None else 9999, x['n'].lower())
+for kn in KIND_ENT: KIND_ENT[kn].sort(key=sortkey)
+# fix sections ordering for UNST: by era order then year
+KIND_ENT[UNST].sort(key=lambda x:(ERAS.index(x['g']),)+sortkey(x))
+N_ALL=sum(len(v) for v in KIND_ENT.values())
+COMMON=("Entries come from fetched references: all 112 Wikidata items that are perfumes with an English Wikipedia article (101 are named perfumes; 11 are not and are left out), "
+ "every row of Wikipedia's List of perfumes that was read, every fragrance winner table and the Fragrance Hall of Fame on Wikipedia's FiFi Award page, and the fragrance lists on the Wikipedia pages of Guerlain, Chanel, Francis Kurkdjian and the Osmothèque. "
+ "A perfume sits in a family kind only where a fetched page states its family; every other perfume is in Alcohol-based perfume. Fragrantica's and Fragrances of the World's own databases could not be read, so the list is not their complete catalogue.")
+COV=f"Complete: 112 of 112 Wikidata perfume items read; 265 of 265 rows of the List of perfumes read; 318 of 318 FiFi winner rows read; the Guerlain, Chanel and Kurkdjian lists cover the notable fragrances those pages name, and the Osmothèque list covers 13 named perfumes of over 3,000 in the collection."
+newshelves=[]
+for sh in dept['s']:
+    ns={k:v for k,v in sh.items() if k!='k'}
+    ks=[]
+    for kd in sh['k']:
+        nk={f:kd[f] for f in kd if f not in('m','r','x','s')}
+        nk['s']=LOP
+        xs=KIND_ENT.get(kd['n'],[])
+        nk['nl']="One entry is a perfume sold under its own name; flankers and concentrations (EDT, EDP, parfum, intense) are versions of it."
+        if kd['n']==UNST:
+            nk['d']="Perfume sold under its own name for which the cited pages state no olfactive family; strength (parfum, eau de parfum, eau de toilette) still tells versions apart."
+            nk['sel']=COMMON+f" Covers {len(xs)} of the {N_ALL} named perfumes in this department. "+COV
+            nk['xg']="by launch period, then year, then name"
+        else:
+            nk['sel']=f"The {len(xs)} perfumes here are the ones a fetched page places in this family (Wikipedia's Perfume page, the Fragrance wheel page or the perfume's own Wikipedia article), or that the earlier structure pass placed here; all other perfumes are in Alcohol-based perfume. "+COV
+            nk['xg']="by year, then name"
+        nk['x']=xs
+        ks.append(nk)
+    ns['k']=ks
+    if sh['n']=='By concentration':
+        ns['n']='Family not stated'
+        ns['t']="Perfume for which the cited pages give no olfactive family, sold by strength such as parfum, eau de parfum or eau de toilette."
+        ns['ax']="one kind, by launch period"
+    newshelves.append(ns)
+newdept={f:dept[f] for f in dept if f!='s'}
+newdept['msum']="Fragrance is a branded market: a few groups own most prestige houses and many fashion fragrances are licences. The figures below are the ones the cited pages state."
+newdept['ms']=[
+ {"mkt":"US prestige beauty","who":"Fragrance","share":"28 %","yr":2024,"s":CIRC,"note":"share of US$33.9 billion prestige beauty sales (Circana via Cosmetics Business); fragrance sales rose 12 %, luxury brands held 12 % of prestige fragrance"},
+ {"mkt":"Global selective fragrances (value)","who":"Puig","share":"11.5 %","yr":2024,"s":PUIGA,"note":"value share as Puig reports it; Puig holds three places in the global top-ten fragrance brands"},
+ {"mkt":"Puig net revenue","who":"Puig","share":"EUR 4.79 billion","yr":2024,"s":PUIGA,"note":"net revenue, up 11.3 % on 2023"},
+]
+for b,sh_ in [('Jimmy Choo','17 %'),('Montblanc','15 %'),('Coach','14 %'),('GUESS','12 %'),('Donna Karan/DKNY','7 %'),('Lacoste','6 %'),('Ferragamo','5 %')]:
+    newdept['ms'].append({"mkt":"Interparfums net sales by licence","who":b,"share":sh_,"yr":2024,"s":IP,"note":"share of Interparfums net sales; the seven largest brands make 76 %; European operations about 65 % and US operations about 35 %"})
+newdept['s']=newshelves
+part={'replaces':['Perfume'],'depts':[newdept]}
+# brands
+bj=json.load(open(R+'out/H4_brands.json'))['b']
+bn={norm(b['n']):b for b in bj}
+upd={}
+for b in bj:
+    h=H.get(norm(b['n']))
+    if h:
+        u={'own':h[0],'tier':h[1]}
+        if h[2]: u['c']=h[2]
+        upd[b['n']]=u
+part['brand_updates']=upd
+owners=[("LVMH",'', "Owner group of Parfums Christian Dior, Guerlain, Givenchy, Kenzo, Acqua di Parma and Maison Francis Kurkdjian fragrance houses.",W_+'LVMH'),
+ ("L'Oréal",'',"Owner group whose luxury division holds Yves Saint Laurent Beauté (bought 2008), Creed (completed 2026) and licences such as Armani, Prada and Ralph Lauren.",W_+'L%27Or%C3%A9al'),
+ ("The Estée Lauder Companies",'',"Owner group of Tom Ford, Jo Malone London, Le Labo, Frédéric Malle, Aramis and Clinique, with fragrance licences such as Tommy Hilfiger and Michael Kors.",W_+'Est%C3%A9e_Lauder_Companies'),
+ ("Puig",'Spain',"Barcelona group founded 1914 that owns Rabanne, Nina Ricci, Jean Paul Gaultier, Penhaligon's, L'Artisan Parfumeur and Byredo and holds the Carolina Herrera licence.",W_+'Puig_(company)'),
+ ("Interparfums",'',"Licence-based fragrance group whose largest brands are Jimmy Choo, Montblanc and Coach; it owns Rochas and Lanvin's class 3 rights.",IP),
+ ("Chanel Limited",'United Kingdom',"London holding company, set up in 2018, through which the Wertheimer brothers own Chanel.",W_+'Chanel'),
+ ("Manzanita Capital",'United Kingdom',"London private equity firm that bought Diptyque in 2005.",W_+'Diptyque'),
+ ("Oman Perfumery LLC",'Oman',"Omani company of the SABCO Group that owns Amouage.",W_+'Amouage')]
+part['brands']=[{'n':n,'c':c,'seg':'Owner group','d':d,'s':s} for n,c,d,s in owners if norm(n) not in bn]
+part['renames']={}
+part['moves']=[]
+json.dump(part,open(R+'out/H4_parts/PERFUME.json','w'),ensure_ascii=False)
+print('entries',N_ALL,{k:len(v) for k,v in KIND_ENT.items()})
+print('role',sum(1 for v in KIND_ENT.values() for x in v if x.get('role')),'own',sum(1 for v in KIND_ENT.values() for x in v if x.get('own')))
+print(os.path.getsize(R+'out/H4_parts/PERFUME.json'))

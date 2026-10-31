@@ -13,3 +13,4 @@ step11: part built + validated OK (355 entries, 105 kinds, 229 KB). writing repo
 ROUND2 start (coordinator: re-source silhouettes via per-model wiki pages, owners for ~58 makers, traditional regions/facts, regional shares). ~55 fetches budget. Round-2 findings to be appended to r2_facts.md
 r2 batch1 done: Dunk,AF1,Cortez,Blazer,StanSmith,Samba,Gazelle,Campus,Superstar,Forum wiki fetched -> r2_data1.py
 r2 batch2 done: Ultraboost, GelLyteIII, NB574, NB99X (990v7 2026; 996 1988/89; 997 1990/91), Puma Suede/Clyde, Reebok Classic -> r2_data2.py. 404: Vans_Old_Skool, Vans_Sk8-Hi, Asics_Gel-Kayano. fetch count r2 ~21
+r2 batch3 done (34 fetches in r2): NB550, Chuck, On, Hoka, Clarks, Kiwi, Alden, Allen Edmonds, C&J, Lobb, Paraboot -> r2_data3.py. 404: Salomon_XT-6. On 2024 est 2% global athletic footwear (page). NEXT: group owner pages (Kering, LVMH, Tecnica, Columbia, Alpargatas, PVH...), traditional facts, Nike/adidas regional revenue

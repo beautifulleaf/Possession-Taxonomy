@@ -201,6 +201,7 @@ VADD={
  "Pilot's Watch":[('Special Pilot\'s Watch (Ref. 436)','1936','')],
  'Yacht-Master':[('Yacht-Master II','','')],
 }
+exec(open(R+'work/V4_A5_WRIST/add2.py').read())
 ROLES={'Electric 500':'origin','Pulsar':'origin','Astron':'origin','Zulu Time':'origin','Datejust':'origin','Speedmaster Professional':'landmark','Museum Watch':'landmark'}
 KD={ # nl per kind
 }
