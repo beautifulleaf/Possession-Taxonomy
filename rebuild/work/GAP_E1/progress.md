@@ -5,3 +5,4 @@ step3: apply2 done (owners Gund, Ty, Britains, Lundby, Merrythought, Madame Alex
 step4: apply3 done (coverage lines on all kinds, sections, Kyosho etc. pending apply4). ~56 fetches used. Next apply4 owners, validate, brands register, report
 step5: report written; done
 round2 start: coordinator asked MediaWiki extracts for countries/owners (kits, diecast, toy soldiers, no-owner brands), sections by country, add Neocube/Giiker/Roco/Lima
+r2 batches 0-4 done (toy soldier makers: nearly all no article; facts.json holds results)

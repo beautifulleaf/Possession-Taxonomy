@@ -1,1 +1,2 @@
 step0: read briefs, backed up; J8 has no m; sel lines nonstandard
+step A: added Mithai/Wagashi/Halva/Marzipan/Nougat/Baklava from Wikipedia (6 fetches)
