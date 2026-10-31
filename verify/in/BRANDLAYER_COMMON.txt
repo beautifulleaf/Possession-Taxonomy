@@ -1,0 +1,22 @@
+BRANDLAYER pass (owner decisions 2026-10-31 in BRIEF.md: "premium and craft grocery brands", "cultural relevance", "sellers of traditional crafts"). One agent per category, run in category order. Never run git; never edit rebuild/, data/, framework/ or BRIEF.md. Write only verify/work/BRANDLAYER/<CODE>.json and verify/work/BRANDLAYER/<CODE>.notes.md (helper files only in verify/work/BRANDLAYER/<CODE>_tmp/).
+
+GOAL. Find brands for category <CODE> that our register lacks, of two kinds, each shown by a FETCHED page (never from memory):
+ 1. premium: luxury, high-end, specialist or craft makers. Evidence: award or competition winner lists (take EVERY year published), guild or association member lists, specialist or fine retailers' brand directories (a shop that sells mainly this category).
+ 2. cultural: brands that are part of the culture, everyday icons included (Coca-Cola, Marmite, Bic, Zippo). Evidence: an encyclopedia category or list of brands of this product (e.g. Wikipedia "Category:<product> brands", "List of <product> brands", also the national-language Wikipedias for big markets), official heritage registers (UK Royal Warrant holders, Italy Marchi Storici, France Entreprise du Patrimoine Vivant, Japan shinise lists), PDO/PGI or protected-designation producer lists, museum or design-collection holdings, long-running brand rankings (Interbrand, Brand Finance, Kantar BrandZ).
+Not wanted: anonymous budget or private labels with no cultural footprint; retailers themselves (unless they sell under their own brand); single products or models (those are entries, not brands); craft traditions as such (a tradition is not a brand, but a named maker, workshop or seller working in a tradition IS a brand).
+
+THE CATEGORY. Read the category's test in framework/CATEGORIES_v0_8.md (search "**<CODE> ") and stay inside it. If the field is not brand-led (art, documents, specimens, property, most fresh produce), say so in the notes with the reason, record any genuinely brand-led corners, and stop.
+
+ALREADY KNOWN. Our register: rebuild/reader/_brand_index.json, key "b", rows [name, segment, key focus, [category codes], ...]; a brand is known when its normalised name (lowercase, & -> and, accents folded, non-alphanumerics removed) matches a row. Retailer lists already harvested are in verify/retail/*.match.json (names under "new" are pending, do not re-harvest those sources: Depop, Ulta, Sephora, LookFantastic, Cult Beauty, Chrono24, 1stDibs jewellery, SmartBuyGlasses, DSW, Zappos, Wikipedia shoe categories, Fragrantica). Mark each found brand already=true/false; keep the known ones out of "brands" except to note in "sources" how many a source confirmed.
+
+TOOLS. WebSearch / WebFetch first. If WebFetch is blocked (403/429/JS-only), use mcp__Parallel__web_fetch (session_id "c0f3a7e2b9d14e6f8a21c5d7e9b0f3a1", model_name "claude-opus-5-5"; full_content true for lists, then read the saved file with python/jq). Search excerpts may locate a list; a brand counts only when a fetched page names it. Never guess URLs; follow links found on fetched pages or search results. No curl/wget/python fetching, no archives or caches. Firecrawl only if both WebFetch and Parallel fail.
+
+OUTPUT verify/work/BRANDLAYER/<CODE>.json:
+{"cat":"<CODE>","status":"done|partial","brand_led":true|false,
+ "sources":[{"url":"...","title":"...","kind":"award|guild|retailer|encyclopedia|heritage|pdo|collection|ranking","years":"e.g. 2004-2026 or n/a","names_on_page":N,"new_names":N,"status":"done|partial|blocked","note":""}],
+ "brands":[{"n":"Brand","layer":"premium|cultural","src":"url of the fetched page naming it","says":"what that page states (award, year, product, list name), short","country":"if the page states it","dept":"which kind of product in this category, if clear"}]}
+Write the file after EVERY source (rewrite whole JSON), so work survives interruption. Merge spelling variants of one brand; keep the best source. Aim for completeness within the evidence: take every year of an award and every page of a list.
+
+RESUME RULE: if verify/work/BRANDLAYER/<CODE>.json exists, read it, keep its sources and brands, skip sources with status "done", continue partial ones, then carry on. Set "status":"done" only when every source kind above has been tried for this category (record tried-but-empty kinds as sources with new_names 0 and a note).
+
+REPLY with: code, sources tried (count by kind), new brands (premium / cultural), anything blocked.
