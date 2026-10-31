@@ -13,7 +13,7 @@ K['Oxford']['sel']=K['Oxford']['sel'].replace('No complete list exists;','No com
 b=K['Basketball sneaker']['sel'].replace(', Superstar, Forum)',', Superstar)'); K['Basketball sneaker']['sel']=b
 
 reg={x['n']:x for x in B['b']}
-for mk,o,t,y,src in [('Dansko','Employees (employee stock ownership plan)','Independent','2012','https://en.wikipedia.org/wiki/Dansko'),('Vibram','Family-owned (family not named)','Independent','','https://www.wallpaper.com/architecture/carlo-ratti-objectify-vibram-sole')]:
+for mk,o,t,y,src in [('Dansko','Employees (employee stock ownership plan)','Independent','2012','https://en.wikipedia.org/wiki/Dansko'),('Blundstone','Heirs of Sir Harold Cuthbertson (owner from 1932)','Independent','','https://en.wikipedia.org/wiki/Blundstone_Footwear'),('L.L.Bean','Privately held (Bean family leadership)','Independent','','https://en.wikipedia.org/wiki/L.L.Bean'),('Manolo Blahnik','Privately held (owner not named)','Independent','','https://en.wikipedia.org/wiki/Manolo_Blahnik'),('Vibram','Family-owned (family not named)','Independent','','https://www.wallpaper.com/architecture/carlo-ratti-objectify-vibram-sole')]:
     r=reg[mk]; r['own']=o; r['tier']=t; r['own_s']=src
     if y: r['own_y']=y
     for k in K.values():

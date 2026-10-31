@@ -13,12 +13,15 @@ def keys(e):
     if '/wiki/' in s: ks.add(norm(urllib.parse.unquote(s.split('/wiki/')[1])))
     return ks
 log=[]
-for fn,src in (('dec_cars.tsv','Car, body style not stated'),('dec_moto.tsv','Motorcycle, type not stated')):
+CODES={'sal':'Saloon','lux':'Luxury saloon','hat':'Hatchback','est':'Estate','mpv':'MPV','suv':'SUV','cpe':'Coupé','cnv':'Convertible','rds':'Roadster','spt':'Sports car','gt':'Grand tourer','lim':'Limousine','mus':'Muscle car','sup':'Supercar','hyp':'Hypercar','mic':'Microcar','city':'City car','off':'Off-roader','kit':'Kit car','rac':'Track and racing car','tri':'Three-wheeled car','taxi':'Taxi','van':'Panel van','hot':'Hot hatch','kei':'Kei car','coach':'Coachbuilt car',
+'spo':'Sport motorcycle','std':'Standard motorcycle','tou':'Touring motorcycle','cru':'Cruiser motorcycle','adv':'Adventure motorcycle','dsp':'Dual-sport motorcycle','end':'Enduro bike','mx':'Motocross bike','sm':'Supermoto','sco':'Scooter','mop':'Moped','mini':'Mini bike','trk':'Trike','scr':'Scrambler','caf':'Café racer','quad':'Quad bike','tra':'Trail bike','tri2':'Trials bike','cho':'Chopper and bobber','und':'Underbone motorcycle','side':'Motorcycle with sidecar'}
+for fn,src in (('dec_cars.tsv','Car, body style not stated'),('dec_moto.tsv','Motorcycle, type not stated'),('dec2_cars.tsv','Car, body style not stated'),('dec2_moto.tsv','Motorcycle, type not stated')):
+    if not os.path.exists(W+fn): continue
     dec={}
     for l in open(W+fn,encoding='utf8'):
         p=l.rstrip('\n').split('\t')
         if len(p)<3: continue
-        dec[norm(p[0])]=(p[1],p[2])
+        dec[norm(p[0])]=(CODES.get(p[1],p[1]),p[2])
     k0=kinds[src]
     idx={}
     for e in k0['x']:

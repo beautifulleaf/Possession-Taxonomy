@@ -5,3 +5,4 @@ step3: fetched List_of_basketball_shoe_brands and List_of_boots; next: build scr
 step4: apply1.py written (owners, regions, boots, basketball list, coverage lines) -> A2.new.json validates; NB 2002 fetched; Consul failed twice (deferred). Next: NB2002 patch, Alden 990 / Allen Edmonds Park Avenue / John Lobb City II searches, then install + report
 step5: apply2 done (NB2002, Park Avenue, City II); A2.final.json validated; Alden 990 no dated fetched page (patina 403). Next: more fetch budget on remaining owners, then install via temp+rename, report
 step6: Dansko, Vibram owners added; La Sportiva 403 deferred. Next: more owner attempts (L.L.Bean, Le Chameau, Wesco, Spalding...), install, report
+step7: installed A2.json and A2_brands.json. Next: report

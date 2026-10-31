@@ -6,3 +6,4 @@ step4: decided 17 placements (listed in apply.py once written); existence checks
 step5: apply.py (18 moves, coverage lines, g added to family kinds) and apply2.py (A*Men, Lolita Lempicka, Euphoria->Gourmand, Fantasy->Fruity) done; validate OK. fetches ~47. Next: house pages JPG/Givenchy/Kenzo then report
 step6: apply3 (LouLou, Eden) done; 24 perfumes moved in total; fetches ~58. Write report.
 ROUND2 started: read PI A-Z pages for remaining 444; then owners. fetch count reset (r2=0)
+r2: 10 fetches used; hits in r2hits.tsv (apply later via apply_r2.py). Tip: next-chapter p1 prev link gives last page of previous chapter; chapters ~3-8 pages
