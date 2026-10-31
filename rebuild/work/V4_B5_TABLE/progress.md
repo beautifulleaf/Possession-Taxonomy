@@ -3,3 +3,4 @@ step1 done: fetched en.wikipedia List_of_porcelain_manufacturers, Porcelain_manu
 step2 done: fetched owner pages (Fiskars, Rosenthal, Meissen, Herend, Bernardaud, Noritake, VB, Denby, Fiesta, RCD, Ginori, VistaAlegre, Kutani, Arita, Portmeirion, Arabia, Wedgwood, Baccarat, Lalique, Riedel, Moser, Orrefors, Kosta, SaintLouis, Steuben, Waterford, Iittala). Next: bar-tool icon check, then build script
 step3 done: bar-tool icon facts (MoMA Alessi 870 via Firecrawl, Hauck 1884, Henshall 1795, Screwpull MoMA); Murano remainder empty; Spiegelau page is a town (skip). Next: write build script rebuild/work/V4_B5_TABLE/build.py, validate, report
 step4: wrote data_houses.py (T tableware houses, G glass houses). Next build.py
+step5 done: part written and validated; report next
