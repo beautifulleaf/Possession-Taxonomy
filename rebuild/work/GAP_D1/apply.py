@@ -51,7 +51,7 @@ def key(e):
   g={'Intel':0,'AMD':1}.get(e.get('g'),2); y=re.match(r'\d{4}',e.get('y') or '')
   return (g,int(y.group()) if y else 9999)
 pc['x'].sort(key=key)
-pc['sel']=pc['sel']+" Covers 70 of about 74 rows in List of Intel CPU microarchitectures (read to 100,000 of 118,738 characters) and List of AMD CPU microarchitectures (25 rows, no years stated, years from the Bobcat, Jaguar, Bulldozer, K6-2 and Phenom II articles); the performance-core codenames (Sunny Cove, Golden Cove, Lion Cove and the like) are named inside the generation they power, K9 never shipped, and Cougar Cove onward and the unread page end are future designs."
+pc['sel']=pc['sel']+" Covers 63 of about 74 rows in List of Intel CPU microarchitectures (read to 100,000 of 118,738 characters) and List of AMD CPU microarchitectures (25 rows, no years stated, years from the Bobcat, Jaguar, Bulldozer, K6-2 and Phenom II articles); not entries: the 80186, Palm Cove, AMD Family 11h and Llano (Family 12h, a K10 variant), K9 (never released), and the future designs from Cougar Cove, Panther Cove, Coyote Cove, Arctic Wolf, Griffin Cove and Clearwater Forest; the other performance-core codenames sit inside the generation they power."
 # ---- GPU
 g=K['Graphics card']; tu=ent(g,'Turing (GeForce RTX 20 and GTX 16)')
 addv(tu,{"n":"GeForce GTX 1660 Ti","mk":"Nvidia","y":"2019","d":"Launched Feb 22, 2019."})
@@ -79,6 +79,10 @@ EO='https://en.wikipedia.org/wiki/Single-board_computer'
 for n,y,mk in [("Intel SIM4-01","1971","Intel"),("Intel SIM8-01","1972","Intel"),("MYCRO-1","1974",""),("Intel SDK-80","1975","Intel"),("Motorola MEK6800D1","1975","Motorola")]:
   add(tk,{"n":n,"a":"","d":"Early single-board computer named in Wikipedia's Single-board computer article.","mk":mk,"y":y,"s":EO,"v":[]})
 tk['sel']="Follows the hobby, kit and trainer rows of Wikipedia's List of home computers and the early single-board computers named in its Single-board computer article. Complete: 23 of 23 hobby and kit rows not already entries elsewhere (the Altair 8800, Apple I, KIM-1, Micro-Professor MPF-I and Z1013 are held in other kinds, ZX80 kit is a version of the ZX80) and 5 of 6 early boards (KIM-1 already here). The page gives no years for hobby rows."
+for e in tk['x']:
+  e['g']='Early single-board computers' if e['n'] in ('Apple I','KIM-1','MYCRO-1') or e['n'].startswith(('Intel SIM','Intel SDK','Motorola MEK')) else 'Hobby, kit and trainer computers'
+tk['x'].sort(key=lambda e:(e['g']!='Early single-board computers',))
+tk['xg']='by source section'
 # ---- SBC
 sb=K['Single-board computer']
 for n,mk in [("NanoPi",""),("ASUS Tinker Board","Asus"),("Cubieboard",""),("Intel Galileo","Intel"),("Intel Edison","Intel"),("Gumstix",""),("OLinuXino",""),("PandaBoard",""),("Parallella",""),("CHIP",""),("Arndale Board",""),("Cotton Candy",""),("Hawkboard",""),("IGEPv2",""),("Rascal",""),("Snowball",""),("Ampro Little Board","Ampro")]:
@@ -135,7 +139,7 @@ T='https://www.trendforce.com/presscenter/news/20260901-13210.html'
 dn['Storage']['ms']=[{"mkt":"Enterprise SSD revenue, Q2 2026 (TrendForce)","who":w,"share":"US$"+r,"yr":2026,"s":T,"note":"revenue, not share; top-five total US$37.59 billion"} for w,r in [("Samsung","14.35 billion"),("SK hynix Group","8.63 billion"),("Micron","6.98 billion"),("Kioxia","4.64 billion"),("SanDisk","2.98 billion")]]
 # ---- brands
 W='wikidata'
-upd={'Fujitsu':('Japan','1935'),'NEC':('Japan','1899'),'Kyocera':('Japan','1959'),'Brother':('Japan','1908'),'Tomy':('Japan','1924'),'Elecom':('Japan','1986'),'Sharp':('Japan','1912'),'Videoton':('Hungary','1938'),'Silicon Graphics':('United States','1981'),'Exidy':('United States','1974'),'Spectravideo':('United States','1981'),'SparkFun Electronics':('United States','2003'),'Sun Microsystems':('United States','1982'),'SteelSeries':('Denmark','2001'),'Matra':('France',''),'Sinclair Research':('United Kingdom','1973'),'Espressif':('China','2008'),'Keychron':('China','2017'),'Roccat':('Germany','2007'),'Prusa Research':('Czech Republic','2017'),'Thermalright':('Taiwan','2001'),'Super Flower':('Taiwan','1991'),'Seeed Studio':('China','2008'),'Hardkernel':('South Korea',''),'Memotech':('United Kingdom','1980'),'Coleco':('United States','1932'),'Anycubic':('China',''),'DFRobot':('China','')}
+upd={'Fujitsu':('Japan','1935'),'NEC':('Japan','1899'),'Kyocera':('Japan','1959'),'Brother':('Japan','1908'),'Tomy':('Japan','1924'),'Elecom':('Japan','1986'),'Sharp':('Japan','1912'),'Videoton':('Hungary','1938'),'Silicon Graphics':('United States','1981'),'Exidy':('United States','1974'),'Spectravideo':('United States','1981'),'SparkFun Electronics':('United States','2003'),'Sun Microsystems':('United States','1982'),'SteelSeries':('Denmark','2001'),'Matra':('France',''),'Sinclair Research':('United Kingdom','1973'),'Espressif':('China','2008'),'Keychron':('China','2017'),'Roccat':('Germany','2007'),'Prusa Research':('Czech Republic','2017'),'Thermalright':('Taiwan','2001'),'Super Flower':('Taiwan','1991'),'Seeed Studio':('China','2008'),'Hardkernel':('South Korea',''),'Memotech':('','1980'),'Coleco':('United States','1932'),'Anycubic':('China',''),'DFRobot':('China','')}
 nupd=0
 for b in br['b']:
   for key,(c,f) in upd.items():

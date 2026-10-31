@@ -2,3 +2,4 @@ step0: read briefs; CARS.json already covers (>=10 entries): Alfa Romeo 53, Ferr
 step1: wikidata q.py works via WebFetch (json). rows1.tsv = batch1 British (Bristol,Daimler,Hillman,Humber,Jensen,Lagonda,Morris,Riley,Singer,TVR,Wolseley) usable rows only (year or class). Wikidata sparse: most models lack year/class. Triumph/Rover/Austin returned none (labels wrong). Next: improve query (P31 classes, P577), run other marques
 step2: q2.py (country-filter query, class regex) run for UK (wd:Q145) -> rows_uk.txt (marque | model | year | classes | enwiki title). Next countries: DE Q183, FR Q142, IT Q38, SE Q34, NL Q55, CZ Q213, ES Q29, RU Q159, PL Q36, RO Q218, RS Q403, others
 step3: Germany done -> rows_de.txt
+step4: France done -> rows_fr.txt (note Peugeot/Citroen/DS excluded as covered; PSA rows dropped). u_it.txt = Italy query url

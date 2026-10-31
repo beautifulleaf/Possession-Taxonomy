@@ -20,3 +20,4 @@ marques.txt written (owner/tier table). fetches ~62; no more fetching. next: bui
 build.py run OK, part file written & validated. remaining: sources.tsv, report
 REVISION 2 started: restore type kinds, wikidata owners, finish Honda table, US/world shares. v1 backups in bak2/
 type-category files saved (cat_*.txt): Standard,Sport(+Sport touring merged in Touring),Cruiser,Touring,Dual-sport,Trail(offroad cat),Scooter,Moped,Underbone,Trike. fetches this revision ~17. Note Sport touring merged into cat_Touring. TODO: list-section types (Yamaha/Honda/Kawasaki/Suzuki), Honda eng table, wikidata owners, US/world shares, rebuild build2.py
+honda_eng.txt (full engine-size table, name|cc) and wp_honda_sec.txt saved; wikidata owner query done (see below). fetches this rev ~19
