@@ -4,3 +4,4 @@ step2: apply1.py done (toy soldiers +107, rail +4, puzzles +~22, construction se
 step3: apply2 done (owners Gund, Ty, Britains, Lundby, Merrythought, Madame Alexander, Schleich); fetched rail last window, CPK, Zapf, Webkinz, Care Bears, Blythe (~45 fetches). Next: apply3 (those owners + 3 rail scales), apply4 coverage lines, validate, report
 step4: apply3 done (coverage lines on all kinds, sections, Kyosho etc. pending apply4). ~56 fetches used. Next apply4 owners, validate, brands register, report
 step5: report written; done
+round2 start: coordinator asked MediaWiki extracts for countries/owners (kits, diecast, toy soldiers, no-owner brands), sections by country, add Neocube/Giiker/Roco/Lima
