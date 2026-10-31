@@ -3,7 +3,18 @@
  "status": "partial",
  "brand_led": true,
  "sweeps": [],
- "regions": [],
+ "regions": [
+  {
+   "region": "Grasse, France",
+   "speciality": "International perfume capital: May rose, jasmine, perfume-plant cultivation and composition; UNESCO intangible heritage 2018",
+   "src": "https://ich.unesco.org/en/RL/the-skills-related-to-perfume-in-the-pays-de-grasse-01207",
+   "brands": [
+    "Fragonard",
+    "Molinard",
+    "Galimard"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://www.fragrantica.com/country/United%20Arab%20Emirates.html",
@@ -84,6 +95,26 @@
    "new_names": 3,
    "status": "done",
    "note": "already 4 dup 4. FiFi archive has year pages 1973-2026 (award_year/YYYY); only 2026 fetched so far; 2023-2025 seen in search excerpts only."
+  },
+  {
+   "url": "https://www.france.fr/en/article/all-you-need-to-know-about-perfume-in-grasse-in-5-minutes",
+   "title": "France.fr: Everything you need to know about perfume (Grasse)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://ich.unesco.org/en/RL/the-skills-related-to-perfume-in-the-pays-de-grasse-01207",
+   "title": "UNESCO ICH: skills related to perfume in Pays de Grasse (inscribed 2018)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -9106,6 +9137,42 @@
    "says": "Fragrance Foundation (FiFi) Awards 2026: Indie Fragrance of the Year: Zephirine",
    "dept": "Perfume",
    "already": false
+  },
+  {
+   "n": "Fragonard",
+   "layer": "cultural",
+   "src": "https://www.france.fr/en/article/all-you-need-to-know-about-perfume-in-grasse-in-5-minutes",
+   "says": "named with Fragonard/Molinard/Galimard as the three Grasse perfumery names on France.fr; Grasse perfume skills on UNESCO Representative List 2018",
+   "country": "France",
+   "dept": "Perfume",
+   "already": true,
+   "codes": [
+    "H4"
+   ]
+  },
+  {
+   "n": "Molinard",
+   "layer": "cultural",
+   "src": "https://www.france.fr/en/article/all-you-need-to-know-about-perfume-in-grasse-in-5-minutes",
+   "says": "named with Fragonard/Molinard/Galimard as the three Grasse perfumery names on France.fr; Grasse perfume skills on UNESCO Representative List 2018",
+   "country": "France",
+   "dept": "Perfume",
+   "already": true,
+   "codes": [
+    "H4"
+   ]
+  },
+  {
+   "n": "Galimard",
+   "layer": "cultural",
+   "src": "https://www.france.fr/en/article/all-you-need-to-know-about-perfume-in-grasse-in-5-minutes",
+   "says": "named with Fragonard/Molinard/Galimard as the three Grasse perfumery names on France.fr; Grasse perfume skills on UNESCO Representative List 2018",
+   "country": "France",
+   "dept": "Perfume",
+   "already": true,
+   "codes": [
+    "H4"
+   ]
   }
  ]
 }
