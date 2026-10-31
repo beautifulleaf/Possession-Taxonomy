@@ -1,24 +1,20 @@
-# V4_A3_ALL report
+# V4_A3_ALL report (second pass)
 
-Part: rebuild/out/A3_parts/ALL.json (0.18 MB). Validator OK: 133 kinds, 280 entries, 0 loose models. About 55 fetches (Firecrawl only for Cartier, Van Cleef, Bulgari, Pandora, Messika, which WebFetch could not read).
+Part: rebuild/out/A3_parts/ALL.json (0.26 MB). Validator OK: 187 kinds, 582 entries, 0 loose models. About 100 fetches in total (45 in this pass); Firecrawl for pages WebFetch could not read, mostly menu links of official sites.
 
 ## Entries before -> after
-- The ten named departments are replaced by themselves (same names) plus one new department, "Jewellery houses & collections" (11 departments). Kinds 99 -> 133; entries 145 -> 280.
-- Rings gained "Stone cut" (31 cuts: 12 historic, 19 modern) from Wikipedia's Diamond cut article; Traditional gained a Native American shelf (7 kinds), Khamsa, Cross of Trarza, Tizerzai, Jadanagam.
-- New department, by house country then house: France (Cartier 20 lines, Van Cleef & Arpels 9, Chaumet 10, Messika 5), Italy (Bulgari 9, Pomellato 8), United States (Tiffany 21, David Yurman 2), Switzerland (Chopard 8, Piaget 3), Denmark (Pandora 8), Austria (Swarovski 2).
-- All house entries carry own, tier, cty and own_y where a page gave it (Van Cleef 1999, Chaumet 1999, Bulgari 2011, Pomellato 2013, Tiffany 2021, Piaget 1988). Existing branded entries were back-filled.
+- Kinds 99 -> 187, entries 145 -> 582. The 10 departments keep their names; an 11th, "Jewellery houses & collections", has 12 country shelves and 31 house kinds, 407 lines.
+- Houses added this pass from their own pages: Boucheron 4, Buccellati 9, Fred 3, DoDo 10, Qeelin 2, Graff 9, Harry Winston 19, De Beers 3, Chow Tai Fook 97 series (Chinese names as shown), Chow Sang Sang 23, Tanishq 7, Kalyan 12, Malabar 5, Georg Jensen 18, Monica Vinader 18, Mejuri 1, Thomas Sabo 10 (company page), Mikimoto 8, Swarovski 7. Completed: Messika 5 -> 27, Chaumet 10 -> 15, Pomellato 8 -> 12, Piaget 3 -> 7, David Yurman 2 -> 6.
+- Regional Indian jewellery shelf: 20 Tamil Nadu forms, 10 Assamese forms, Sarpech, Chudamani, Mohra, Kolhapuri saaj, Nose chain, Kunukku (Wikipedia pages).
 
-## Loose models
-All 25 kinds' `m` lists were removed from the output. Cartier LOVE pendant became a version of the Love line. The rest were removed: small-maker SKUs (Chapman, Castro Smith, Digby & Iona, Foundrae, AMYO, Jennifer Behr, Oliver Brown), generic types (jet, hairwork, shell and Wedgwood cameo, settings, eternity, hei-tiki types) and maker items already held by a range (Gorilla Glass, Kaos, Diablo, Industrial Strength, Haskell, Schiaparelli). Full list in rebuild/work/V4_A3_ALL/removed_models.json.
+## Coverage
+Each house kind ends "Complete: n of n" for what its page lists, or "Covers n ... not a total". Partial: Qeelin (2 linked), De Beers (3), Mejuri (1), David Yurman (6), Malabar (US page only), Swarovski (Belgian signature page; US page 404).
 
-## References and coverage
-Complete lines: Cartier 15 of 15 on its collections page (three grouping pages left out), Van Cleef 9 of 9, Bulgari 8 of 8, Pandora 8 of 8, Tiffany 20 of 20, Chopard 8 of 8, Stone cut 31 of 31 as returned. Partial: Messika (5 Move lines from product links), Chaumet, Pomellato, Piaget, David Yurman, Swarovski (Wikipedia only). Existing line kinds carry "Covers n" lines.
-
-## Market facts (fetched, with year)
-Richemont jewellery maisons EUR 16.5 bn of EUR 22.4 bn (year to Mar 2026); LVMH Watches & Jewelry EUR 10.49 bn (2025); Pandora DKK 32,549 m (2025) and DKK 28.136 bn (2023); Chow Tai Fook HK$94.4 bn (FY to Mar 2026); Signet US$6.70 bn (2025); Swarovski EUR 2.7 bn (2020).
+## Market facts
+As before, plus Kering Other Houses EUR 2,900 million in 2025 (recurring operating income EUR -112 million) and De Beers 85 % Anglo American, 15 % Botswana. Kering Jewelry: no fetched page gives a revenue for the segment; Kering's own 2025 results release reports the jewellery houses inside Other Houses, so that is shown.
 
 ## Not sourced
-- Boucheron, Buccellati, Fred, Dodo, Qeelin, Graff, Harry Winston, Mikimoto, Chow Tai Fook and Signet lines: official pages 403/404, Wikipedia gave none. Kering has no revenue figure.
-- Swarovski, Chaumet and Pomellato official collection pages not retrieved.
-- Wikidata not used (it does not model jewellery lines). No whole-market share figure found.
-- Indian forms (Wikipedia redirect to the general Jewellery article, 300k characters) read only from a retailer guide and the first 100k characters of the Berber article.
+- Fred, Harry Winston owners and tiers (Fred page names none): left unstated. Owners of Graff, Mikimoto, Georg Jensen, Monica Vinader, Mejuri, Thomas Sabo, Chow Sang Sang, Tanishq, Kalyan, Malabar: "owner not stated"; tiers rest on the brief's house list, not an ownership page.
+- Mikimoto and Swarovski root pages and Thomas Sabo shop failed; alternatives used. Boucheron page returned a 404 body but carried the menu.
+- Indian forms: Wikipedia "Indian jewellery" redirects to the general Jewellery article; used Category:Jewellery of India and its articles instead. Aranjanam, Chura, Kara, Payyannur Pavithra ring, Karimnagar filigree and Swamy Jewellery were not read. No V&A glossary page exists; the V&A pages found describe kundan only.
+- Berber article read to its end: text after 100,000 characters is references only.

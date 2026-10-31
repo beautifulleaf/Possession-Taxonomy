@@ -1,7 +1,15 @@
 import json,re,sys,os
 sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/V4_A4_ALL')
+import data2
 from data import *
+MN=data2.MN
+import data as _d
 OW['Jimmy Choo']=('Capri Holdings','Global group','','2017')
+NAMED={'Classic Flap':'Flap bag','Liv Pochette':'Pochette','Vanity Chain Pouch':'Pochette','Félicie Pochette':'Pochette','Low Key':'Hobo bag','Celine Doctor\'s Pouch':'Pochette','Eva':'Hobo bag'}
+for e in N:
+    if e['dept']=='Handbags' and e['mk'] in ('Hermès','Dior','Celine','Loewe','Fendi','Prada','Louis Vuitton','Bottega Veneta','Longchamp','Chanel') and e['n'] not in NAMED:
+        e['kind']='Shoulder bag'
+    if e['dept']=='Handbags' and e['n'] in NAMED: e['kind']=NAMED[e['n']]
 base=json.load(open('/home/user/Possession-Taxonomy/rebuild/out/A4.json'))
 depts=base['depts']
 D={d['n']:d for d in depts}
@@ -78,10 +86,10 @@ NL={
  'Baby carriers & changing bags':"One entry is a carrier line from one maker (BabyBjörn Baby Carrier, Ergobaby carrier); models and generations are versions; the carrier types themselves are kinds.",
 }
 SEL={
- 'Handbags':"Lines named on the houses' own model pages and on Wikipedia house and handbag articles, fetched on 31 October 2026: Louis Vuitton (handbag page), Hermès (women's bags collection), Chanel (the CHANEL handbag), Dior (Bags by Line), Celine and Prada (collection filters), Loewe (bags by line), Fendi (bag lines), plus Wikipedia on Gucci, Bottega Veneta, Longchamp and the Handbag article.",
+ 'Handbags':"Lines named on the houses' own model pages, fetched on 31 October 2026: Louis Vuitton (women's and men's bag pages), Hermès, Chanel, Dior, Celine, Prada, Loewe, Fendi, Gucci, Saint Laurent, Bottega Veneta, Balenciaga, Valentino, Givenchy, Miu Miu, Goyard, Mulberry, Coach, Longchamp, Jacquemus, Polène, Michael Kors and Marc Jacobs, plus Wikipedia on the houses and the Handbag article. A line sits in a shape kind only where a fetched page names that shape in the line's product or category name; every other line sits in Shoulder bag, the general kind for lines whose page gives no shape.",
  'Wallets & small leather goods':"Lines already attested on the makers' pages and Wikipedia; no whole-space list of small leather goods exists.",
  'Eyewear':"Frame lines named on Wikipedia's Ray-Ban, Persol, Moscot and Oakley pages and on the makers' pages cited per entry.",
- 'Backpacks & belt bags':"Pack lines named on the makers' own range pages fetched on 31 October 2026: Osprey (backpacking range and sizing chart), Gregory (backpacking packs), Deuter (backpacking packs), Fjällräven (Kånken range), Eastpak (backpack collection), JanSport (backpack finder) and Herschel (Little America).",
+ 'Backpacks & belt bags':"Pack lines named on Louis Vuitton's men's pages and the makers' own range pages fetched on 31 October 2026: Osprey (backpacking range and sizing chart), Gregory (backpacking packs), Deuter (backpacking packs), Fjällräven (Kånken range), Eastpak (backpack collection), JanSport (backpack finder) and Herschel (Little America).",
  'Luggage & travel':"Lines named on Wikipedia's Rimowa, Samsonite, Tumi and Louis Vuitton pages, plus earlier maker pages cited per entry.",
  'Work bags':"Lines already attested on the makers' pages; no whole-space list exists.",
  'Umbrellas, fans & canes':"Wikipedia's Umbrella and Hand fan articles, plus the maker and tradition pages cited per entry.",
@@ -89,10 +97,10 @@ SEL={
  'Baby carriers & changing bags':"Wikipedia's Baby sling and BabyBjörn articles and a Maui Now profile of Ergobaby.",
 }
 COV={
- 'Handbags':"Covers {n} lines of this kind; no complete list of named handbags exists. House pages for Gucci, Saint Laurent, Bottega Veneta, Goyard and Mulberry were blocked or did not name lines, so those houses appear only through lines already attested or named on Wikipedia, and Hermès, Louis Vuitton and Fendi list only the lines their pages showed.",
- 'Eyewear':"Covers {n} lines of this kind; no complete list of frame models exists, and Wikipedia gave few model names for Persol, Oakley and Moscot.",
- 'Backpacks & belt bags':"Covers {n} lines of this kind from the makers' range pages read; Herschel's other lines and pages of the Osprey, Eastpak and JanSport ranges that did not load are not included.",
- 'Luggage & travel':"Covers {n} lines of this kind; Globe-Trotter's page could not be fetched, so its lines are the earlier ones only.",
+ 'Handbags':"Covers {n} lines of this kind; no complete list of named handbags exists. Each house is covered as far as its page loaded: Hermès (8 lines of its collection page), Louis Vuitton (the lines on the first rows of its women's and men's pages), Fendi (4 lines; its page loaded no more) and Telfar, Kate Spade and Persol pages gave no usable list.",
+ 'Eyewear':"Covers {n} lines of this kind; no complete list of frame models exists. Ray-Ban is complete for the four icon families on its history page, Oakley for the style filter of its sunglasses page; Persol's page did not load and Warby Parker, Gentle Monster and Tom Ford pages named no model lines.",
+ 'Backpacks & belt bags':"Covers {n} lines of this kind from the makers' range pages read (Osprey's backpacking range, not its day-pack range; Eastpak's first page; Herschel's Little America only).",
+ 'Luggage & travel':"Covers {n} lines of this kind; Briggs & Riley and Away pages named no lines beyond those already listed.",
 }
 XG={'Handbags':"by house country, then house",'Wallets & small leather goods':"by house country, then maker",'Eyewear':"by owner group, then maker",'Backpacks & belt bags':"by owner group, then maker",'Luggage & travel':"by owner group, then maker",'Work bags':"by house country, then maker",'Umbrellas, fans & canes':"by maker or tradition",'Bag accessories':"by house country, then maker",'Baby carriers & changing bags':"by maker"}
 for d in depts:
@@ -128,7 +136,26 @@ D['Luggage & travel']['ms']=[
  {"mkt":"Rimowa stake","who":"LVMH","share":"80 % for EUR 640 million","yr":2016,"s":W+'Rimowa',"note":"acquired October 2016"},
  {"mkt":"Samsonite stock listing","who":"Samsonite International S.A.","share":"US$1.25 billion raised","yr":2011,"s":W+'Samsonite',"note":"Hong Kong IPO in June 2011"},
 ]
-# fix rimowa year in dt? none
+
+D['Eyewear']['ms']+= [
+ {"mkt":"EssilorLuxottica sales","who":"EssilorLuxottica","share":"EUR 28.49 billion","yr":2025,"s":"https://fashionunited.com/news/business/essilorluxottica-fy25-profit-down-revenues-rise-sees-growth-ahead/2026021270545","note":"group revenue, up 7.5 % from EUR 26.51 billion in 2024; includes lenses and retail, not frames alone"},
+ {"mkt":"Warby Parker sales","who":"Warby Parker","share":"US$871.9 million","yr":2025,"s":W+'Warby_Parker',"note":"revenue; 323 stores at the end of 2025"},
+ {"mkt":"Gentle Monster stake","who":"LVMH","share":"7 % for US$60 million","yr":2017,"s":W+'Gentle_Monster',"note":"investment in the Seoul eyewear brand founded in 2011"},
+ {"mkt":"Tom Ford eyewear licence","who":"Marcolin","share":"licence from 2004","yr":2004,"s":W+'Tom_Ford_(brand)',"note":"Estee Lauder bought Tom Ford for US$2.8 billion in 2023"},
+]
+D['Luggage & travel']['ms']+= [
+ {"mkt":"Hartmann acquisition","who":"Samsonite","share":"US$35 million","yr":2012,"s":W+'Samsonite',"note":"bought August 2012"},
+ {"mkt":"Gregory acquisition","who":"Samsonite","share":"US$85 million","yr":2014,"s":W+'Samsonite',"note":"bought from Black Diamond"},
+ {"mkt":"eBags acquisition","who":"Samsonite","share":"US$105 million","yr":2017,"s":W+'Samsonite',"note":"online luggage retailer"},
+ {"mkt":"Away funding round","who":"Away","share":"US$100 million, valuation US$1.4 billion","yr":2019,"s":W+'Away_(company)',"note":"US$216 million raised in total"},
+]
+D['Backpacks & belt bags']['msum']="Pack makers sit under a few outdoor and apparel groups. The facts below are ownership deals the cited pages state, with their years; no page gave a market share."
+D['Backpacks & belt bags']['ms']=[
+ {"mkt":"Osprey ownership","who":"Helen of Troy Limited","share":"US$414 million","yr":2021,"s":W+'Helen_of_Troy_Limited',"note":"bought Osprey Packs in December 2021"},
+ {"mkt":"Fjällräven ownership","who":"Fenix Outdoor International AG","share":"subsidiary","yr":2014,"s":W+'Fj%C3%A4llr%C3%A4ven',"note":"became a Fenix subsidiary in 2014"},
+ {"mkt":"JanSport ownership","who":"VF Corporation","share":"parent","yr":1986,"s":W+'JanSport',"note":"VF bought JanSport's parent Blue Bell in 1986; Eastpak joined VF in 2000"},
+]
+
 # brands
 existing={b['n'] for b in json.load(open('/home/user/Possession-Taxonomy/rebuild/out/A4_brands.json'))['b']}
 allb={b['n'] for b in json.load(open('/home/user/Possession-Taxonomy/rebuild/reader/_brands.json'))['b']} if 'b' in json.load(open('/home/user/Possession-Taxonomy/rebuild/reader/_brands.json')) else set()
@@ -148,6 +175,13 @@ NB=[
  B('Kering Eyewear','France','2014','Eyewear arm of Kering created in 2014; about EUR 1.5 billion in sales in 2023.',W+'Kering','eyewear'),
  B('Samsonite International S.A.','Luxembourg','1910','Luggage group founded in 1910 in Denver; owns American Tourister, Hartmann, Gregory and Tumi.',W+'Samsonite','luggage','Mainstream'),
  B('Fenix Outdoor','','','Placeholder removed.',W+'Samsonite'),
+]
+NB+= [
+ B('Helen of Troy Limited','United States','','Consumer goods group that bought Osprey Packs for US$414 million in December 2021.',W+'Helen_of_Troy_Limited','outdoor packs','Mainstream'),
+ B('Fenix Outdoor International AG','Sweden','','Outdoor group; Fjällräven became its subsidiary in 2014.',W+'Fj%C3%A4llr%C3%A4ven','outdoor packs','Mainstream'),
+ B('VF Corporation','United States','','Apparel group that owns JanSport (bought in 1986) and Eastpak (2000).',W+'JanSport','backpacks','Mainstream'),
+ B('Compass Management Group','','','Owner of Ergobaby after Karin Frost sold the company in 2010.','https://mauinow.com/2013/01/23/ergobaby-carrier-born-on-maui-creator-featured/','baby carriers','Mainstream'),
+ B('Monos','Canada','2018','Vancouver luggage brand founded in 2018 by Victor, Daniel and Hubert.',MN,'luggage','Mainstream'),
 ]
 NB=[b for b in NB if b['n']!='Fenix Outdoor']
 brands=[b for b in NB if b['n'] not in existing and b['n'] not in allb]

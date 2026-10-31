@@ -1,7 +1,7 @@
 import json,re,sys
 sys.path.insert(0,'.')
 from rows import R,LC,CP
-import rows2
+import rows2, rows3
 base=json.load(open('../../out/B1.json'))
 MKT={
 "IKEA":("Inter IKEA Systems B.V.","Own label","Sweden",""),
@@ -95,6 +95,23 @@ def process_entry(x,kname,mkrow=None):
     if k in ROLE: x['role']=ROLE[k]
     if k in SRCFIX: x['s']=SRCFIX[k]
     return x
+import re as _re
+def nz(x): return _re.sub(r'[^a-z0-9]','',x.lower())
+GN=set()
+for dp in base['depts']:
+    for sh in dp['s']:
+        for k in sh['k']:
+            for x in k.get('x',[]):
+                GN.add(nz(x['n']))
+                for al in str(x.get('a','')).split('·'): GN.add(nz(al))
+seen=set(GN);keep=[]
+for r in R:
+    ks={nz(r['n'])}|{nz(t) for t in str(r.get('a','')).split('·') if t.strip()}
+    if ks&seen: continue
+    seen|=ks;keep.append(r)
+R[:]=keep
+byk={}
+for r in R: byk.setdefault(r['k'],[]).append(r)
 cnt={}
 for dp in base['depts']:
     for s in dp['s']:
@@ -134,7 +151,7 @@ for dp in base['depts']:
                 k['sel']=("Brands named by the fetched Wikipedia Mattress article (Tempur Sealy, Sleep Number, Casper, Simba, Vispring, Hästens, Serta, Simmons), plus Hypnos, Leesa, Nectar and Emma from their own fetched pages. Covers "+str(n)+" of about 13 brands named; no complete brand list was fetched, so the long tail is missing.")
             else:
                 k['xg']="by decade of design"
-                k['sel']=(f"Designs named in Wikipedia's List of chairs (first 100,000 of 124,675 characters; the remainder is references) and Category:Chairs, the 38 Wikidata chairs with a designer, the 58 Wikidata furniture items held by MoMA and the V&A, the Compasso d'Oro page, the V&A search page, and the Wikipedia pages of designers (Wegner, Jacobsen, Juhl, Panton, Eames, Aalto, Perriand, Kjærholm, Mogensen, Nelson, Castiglioni, Ponti, Sottsass and others) and makers (Knoll, Herman Miller, Cassina, Fritz Hansen, Artek, B&B Italia, Ligne Roset, Poltrona Frau, Flexform, Vitsœ) that belong to this kind. Generic types and historic styles are see-notes. Covers {n} designs in this kind. Not covered: MoMA, Vitra and Design Museum holdings beyond Wikidata (MoMA and Vitra sites gave no furniture list; Wikidata returned no Vitra Design Museum or Design Museum furniture); Hay, &Tradition, Muuto, Gubi, Thonet, USM Haller, String and De Sede have no readable collection page, so the total is unknown.")
+                k['sel']=(f"Designs named in Wikipedia's List of chairs and Category:Chairs, the Wikidata chairs and museum-held furniture items, MoMA's Design collection searched for chair, table, sofa, stool, bench, shelf, cabinet, desk, bed and screen (chair 3 of 3 pages, table 6 of 8 pages, the others page 1), the Vitra Design Museum collection searched for chair (page 1 of 1,191 results), table, shelf, bed and cabinet, the Compasso d'Oro page, designer pages (Wegner, Jacobsen, Juhl, Panton, Eames, Aalto, Perriand, Kjærholm, Nelson, Castiglioni, Ponti, Sottsass and others) and maker pages (Knoll, Herman Miller, Cassina, Fritz Hansen, Artek, B&B Italia, Ligne Roset, Poltrona Frau, Flexform, Vitsœ, HAY, USM, de Sede, &Tradition, GUBI) that belong to this kind. Generic types and historic styles are see-notes. Covers {n} designs in this kind. Not covered: the other 1,160 Vitra Design Museum chair results, MoMA results beyond the pages read for cabinet, desk, bed and screen (further pages were unrelated matches), the V&A (its API search returned mostly photographs and 19th-century items), and Muuto, Thonet and String, which gave no readable product list.")
             cnt[kn]=n
 for dp in base['depts']:
     for sh in dp['s']:

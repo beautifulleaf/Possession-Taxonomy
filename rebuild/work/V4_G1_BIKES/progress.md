@@ -2,3 +2,4 @@ started
 step1 done: fetched Wikipedia Trek, Specialized, Giant, Merida, Cannondale, Raleigh, Brompton, Pinarello, Cervelo, Shimano, SRAM, Campagnolo, Dura-Ace, List_of_Shimano_groupsets, Shimano_Deore_XT, Accell_Group, Pon_Holdings (17 fetches). Facts held in conversation; sources.tsv written next.
 step2 done: further fetches (Santa Cruz, Canyon, Moulton, Strida, Dahon, Tern, Schwinn, Bianchi, Colnago, Pashley, Surly, Gazelle, Baby transport, Owen Finlay Maclaren, Bugaboo, UPPAbaby, Silver Cross (company), Stokke AS, Goodbaby, Electric bicycle, strollberry Balmoral+Stokke). ~47 fetches. Next: write build.py in work dir -> out/G1_parts/BIKES.json, validate, report.
 step3 done: build.py -> out/G1_parts/BIKES.json validated OK (266 entries). Next: report.
+step4 done: follow-up (tails, Shimano tiers, R&M, Cowboy, stroller share none) applied; report update next

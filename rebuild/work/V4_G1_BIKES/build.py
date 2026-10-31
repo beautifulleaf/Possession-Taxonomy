@@ -12,6 +12,8 @@ S = dict(
     col=W + 'Colnago', pash=W + 'Pashley_Cycles', surly=W + 'Surly_Bikes', gaz=W + 'Gazelle_(bicycle_company)',
     bt=W + 'Baby_transport', mac=W + 'Owen_Finlay_Maclaren', bug=W + 'Bugaboo_International', upp=W + 'UPPAbaby',
     sx=W + 'Silver_Cross_(company)', stk=W + 'Stokke_AS', ebike=W + 'Electric_bicycle',
+    mhw='https://www.mhw-bike.com/magazine/overview-comparison-of-all-shimano-mtb-groupsets/', cin='https://cyclingindustry.news/alivio-acera-and-altus-groupsets-see-race-inspired-upgrades/', cues='https://bikeradar.com/news/shimano-cues',
+    rm=W+'Riese_und_M%C3%BCller', cow='https://tech.eu/2022/01/27/belgiums-e-bike-designer-cowboy-saddles-up-with-80-million-in-new-funding', nwl='https://www.sec.gov/Archives/edgar/data/0000814453/000119312518067603/d494599d10k.htm', gb=W+'Goodbaby_International',
     bal='https://strollberry.com/strollers/silver-cross-balmoral', stks='https://strollberry.com/strollers/brand/stokke')
 
 # maker -> (country)
@@ -55,6 +57,8 @@ OWN = {
     'Bugaboo': ('Bain Capital', 'Independent', 'Netherlands', '2018'),
     'UPPAbaby': ('UPPAbaby', 'Independent', 'United States', ''),
     'Stokke': ('NXMH', 'Independent', 'Norway', ''),
+    'Baby Jogger': ('Newell Brands', 'Global group', 'United States', ''),
+    'Cybex': ('Goodbaby International', 'Global group', 'Germany', '2014'),
     'Babyzen': ('Stokke AS', 'Independent', 'France', '2021'),
 }
 
@@ -73,7 +77,7 @@ ADD['Road bike'] = [
     E('Cannondale CAAD', 'Cannondale', '1996', "Cannondale's aluminium road line; CAAD9 (2007) became a standalone model and CAAD14 (2026) returned to round tubes.", S['cann'],
       [V('2.8 series', '1992', 'lightweight road frame, later renamed CAAD 3'), V('CAAD9', '2007', 'became a standalone model'), V('CAAD13', '2020', 'adopted SuperSix-like shaping'), V('CAAD14', '2026', 'returned to round tubes')], dt='generation · groupset · rim or disc'),
     E('Cannondale SuperSix EVO', 'Cannondale', '2008', "Cannondale's race road bike; the fifth generation arrived in early 2026.", S['cann'], [V('SuperSix (original)', '', 'round-tube carbon frame, ancestor of the EVO'), V('SuperSix EVO', '2008', ''), V('Fifth generation', '2026', 'early 2026; made the SystemSix aero bike redundant')], dt='generation · groupset'),
-    E('Cannondale Synapse', 'Cannondale', '2006', "Cannondale's endurance road bike, described as its first full-carbon road bike.", S['cann'], [V('Road Warrior', '2002', 'relaxed predecessor'), V('Synapse', '2006', ''), V('Second generation', '2014', ''), V('Redesign', '2018', ''), V('Sixth generation', '2025', '')], dt='generation · groupset'),
+    E('Cannondale Synapse', 'Cannondale', '2006', "Cannondale's endurance road bike, described as its first full-carbon road bike.", S['cann'], [V('Road Warrior', '2002', 'relaxed predecessor'), V('Synapse', '2006', ''), V('Second generation', '2014', ''), V('Redesign', '2018', ''), V('SmartSense version', '2022', 'integrated lights and radar'), V('Sixth generation', '2025', 'added storage and more aero design')], dt='generation · groupset'),
     E('Cervélo Soloist', 'Cervélo', '', "Cervélo's all-round road bike, now no longer made.", S['cerv'], [V('Soloist', '', ''), V('Soloist Carbon', '', ''), V('Soloist Team', '', '')]),
     E('Trek 5500 and 5200', 'Trek', '1992', "Trek's OCLV carbon road frames; the 5500 was described as the world's lightest production road frame.", S['trek']),
     E('Pinarello Paris', 'Pinarello', '', "Aluminium frame on which Ullrich and Riis won the Tour; a carbon FP version followed.", S['pin']),
@@ -95,6 +99,9 @@ ADD['Road bike'] = [
     E('Schwinn Paramount', 'Schwinn', '1938', "Schwinn's high-grade racing line, built in Waterford, Wisconsin from 1980.", S['schw'], [V('Paramount tandem', '1969', '')]),
     E('Gazelle Champion Mondial', 'Gazelle', 'c. 1980–1985', "Steel-framed racing bicycle made by Gazelle.", S['gaz']),
 ]
+ADD['Cross-country mountain bike'] = [
+    E('Pinarello Dogma XC', 'Pinarello', '2013', "Pinarello's cross-country mountain bike on 29-inch wheels; it stayed in production about six years and was redesigned for 2024.", S['pin'], [V('Dogma XC 29er', '2013', 'hardtail and front suspension'), V('Dogma XC Gen 2', '2024', 'full-suspension and hardtail')]),
+]
 ADD['Time-trial bike'] = [
     E('Trek TTX', 'Trek', '2005', "Trek's time-trial bike, used by Lance Armstrong.", S['trek']),
     E('Pinarello Sibilo', 'Pinarello', '2013', "Pinarello's second in-house time-trial frame, released in June 2013.", S['pin']),
@@ -109,7 +116,7 @@ ADD['Cyclocross bike'] = [
     E('Cannondale SuperX', 'Cannondale', '2011', "Cannondale's carbon cyclocross bike; retired in 2021 and revived in February 2025 as a gravel race bike.", S['cann']),
     E('Pinarello Crossista F', 'Pinarello', '2022', "Pinarello's cyclocross bike.", S['pin']),
 ]
-ADD['Cross-country mountain bike'] = [
+ADD['Cross-country mountain bike'] += [
     E('Cannondale Scalpel', 'Cannondale', '2002', "Cannondale's cross-country race bike; the eighth generation launched in March 2024.", S['cann']),
     E('Canyon Lux', 'Canyon', '', "Canyon's cross-country race bike, part of its CFR range.", S['can']),
     E('Canyon Exceed', 'Canyon', '', "Canyon's cross-country hardtail, part of its CFR range.", S['can']),
@@ -161,6 +168,11 @@ ADD['Cargo bike'] = [
     E('Cannondale Cargowagen Neo', 'Cannondale', '2023', "First full-size Cannondale cargo e-bike; the Wonderwagen Neo is sold only in Europe.", S['cann'], [V('Wonderwagen Neo', '2023', 'Europe only')]),
 ]
 ADD['Electric bike'] = [
+    E('Riese & Müller Delite', 'Riese & Müller', '2008', "Riese & Müller's flagship full-suspension e-bike; the Jetstream electric model won the Eurobike Green Award in 2008.", S['rm'], [V('Delite', '2008', 'electric version'), V('Superdelite', '', 'listed on the page')]),
+    E('Riese & Müller Charger', 'Riese & Müller', '', "Riese & Müller e-bike listed as Charger3, with the Multicharger Mixte.", S['rm'], [V('Charger3', '', ''), V('Multicharger', '', 'Mixte version listed')]),
+    E('Riese & Müller Homage', 'Riese & Müller', '2005', "Riese & Müller model listed on its page as available since November 2005.", S['rm']),
+    E('Riese & Müller Nevo', 'Riese & Müller', '', "Riese & Müller e-bike listed as Nevo4.", S['rm']),
+    E('Riese & Müller Tinker', 'Riese & Müller', '', "Riese & Müller compact e-bike, listed with the Multitinker.", S['rm'], [V('Multitinker', '', '')]),
     E('Gazelle Chamonix', 'Gazelle', '2009', "Gazelle's Innergy electric bike that won Dutch Bike of the Year.", S['gaz']),
     E('Cannondale Tesoro Neo', 'Cannondale', '2019', "Cannondale electric touring and commuter range.", S['cann'], [V('Tesoro Neo Carbon', '2023', '')]),
     E('Cannondale Adventure Neo', 'Cannondale', '2021', "Cannondale electric city and comfort bike with suspension.", S['cann']),
@@ -190,6 +202,11 @@ GROUPSETS = [
     grp('Shimano 105', 'Shimano', '1987', "Shimano's mid-range road group.", S['shl'], [V('1050', '1987', '6-speed'), V('105SC', '1993', '8-speed'), V('5500', '1999', '9-speed'), V('5800', '2014', '11-speed'), V('R7000', '2018', '11-speed'), V('R7100', '2023', '12-speed, hydraulic brakes')]),
     grp('Shimano Tiagra', 'Shimano', '2006', "Shimano road group below 105.", S['shl'], [V('4500', '2006', '9-speed'), V('4700', '2015', '10-speed'), V('4720', '2019', '10-speed, hydraulic brakes'), V('R4000', '2026', '11-speed, hydraulic brakes')]),
     grp('Shimano Sora', 'Shimano', '2008', "Shimano entry-level road group above Claris.", S['shl'], [V('3400', '2008', '9-speed'), V('R3000', '2016', '9-speed'), V('R2000', '2017', '8-speed')]),
+    grp('Shimano Tourney', 'Shimano', '', "Shimano's entry-level group for leisure bikes, the cheapest in its mountain range.", S['mhw'], []),
+    grp('Shimano Altus', 'Shimano', '', "Shimano entry-level mountain group; the 2018 upgrade gave it a black anodised crankset with replaceable chainrings.", S['cin'], [V('MT210 crankset', '2018', 'FC-MT210-3/2, 9-speed, 3x9 or 2x9')]),
+    grp('Shimano Acera', 'Shimano', '', "Shimano mountain group above Altus; the 2018 upgrade added Boost hubs and a redesigned crankset.", S['cin'], [V('MT300 crankset', '2018', 'FC-MT300-3, 9-speed'), V('MT200 Boost hubs', '2018', 'HB-MT200 and FH-MT200-B, 110 mm and 148 mm')]),
+    grp('Shimano Alivio', 'Shimano', '', "Shimano mountain group above Acera and below Deore.", S['cin'], [V('MT400 Boost hubs and levers', '2018', 'HB-MT400-B, FH-MT400-B and two-finger BL-MT400 lever'), V('FD-M4020 front derailleur', '2018', 'wider tyre clearance on 2x9')]),
+    grp('Shimano CUES', 'Shimano', '2022', "Shimano's flat-bar group introduced in 2022 to take over Alivio, Acera, Altus and 10- and 11-speed Deore.", S['cues'], [V('U3000', '2022', '9-speed'), V('U4000', '2022', '9-speed'), V('U6000', '2022', '10- or 11-speed'), V('U8000', '2022', '11-speed')]),
     grp('Shimano Claris', 'Shimano', '2009', "Shimano's lowest listed road group.", S['shl'], [V('2300', '2009', '8-speed'), V('2400', '2013', '8-speed')]),
     grp('Shimano Deore XT', 'Shimano', '1983', "Shimano's upper-middle mountain group; with Dura-Ace it received Shimano's innovations first from 1985.", S['xt'],
         [V('M700', '1983', 'friction (Deer Head)'), V('M730', '1987', 'indexed 6-speed'), V('M732', '1989', '7-speed'), V('M735', '1992', '7-speed'), V('M737', '1993', '8-speed'), V('M739', '1995', '8-speed'), V('M750', '1999', '9-speed'), V('M760', '2003', '9-speed'), V('M770', '2008', '9/10-speed'), V('M780', '2011', '10-speed'), V('M8000', '2015', '11-speed'), V('M8100', '2019', '12-speed'), V('M8150 Di2', '2023', 'for eMTB'), V('M8250', '2025', 'wireless Di2'), V('M8200', '2026', '12-speed, 9T cog')]),
@@ -270,7 +287,7 @@ SELS = {
     'Bicycle trailer': "Trailers named on the Thule and Hamax pages.",
     'Frameset': "Frame designs named on the Wikipedia pages Bicycle frame and Look (company).", 'Headset': "Headsets named on the Wikipedia page Headset (bicycle part).",
     'Suspension fork': "Forks named on the Wikipedia pages RockShox, Fox Factory, Bicycle fork and Cannondale; sectioned by maker country.",
-    'Groupset': "Shimano series and generations from the Wikipedia pages List of Shimano groupsets and Shimano Deore XT; SRAM lines from SRAM Corporation; Campagnolo groups from Campagnolo; sectioned by maker country, then series, with every generation named on those pages as a version.",
+    'Groupset': "Shimano series and generations from the Wikipedia pages List of Shimano groupsets and Shimano Deore XT, plus MHW Bike, Cycling Industry News and BikeRadar pages for Tourney, Altus, Acera, Alivio and CUES; SRAM lines from SRAM Corporation; Campagnolo groups from Campagnolo; sectioned by maker country, then series, with every generation named on those pages as a version.",
     'Wheelset': "Wheelsets named on the Wikipedia page Zipp and the Mavic review page.", 'Bicycle tyre': "Tyres named on the earlier review pages.", 'Bicycle pedals': "Pedals named on the Wikipedia pages Bicycle pedal, Look (company), Shimano Pedaling Dynamics and Speedplay.",
     'Bicycle saddle': "Saddles named on the Brooks England and Bicycle saddle pages.",
     'Pram': "Prams named on the Wikipedia pages Baby transport and Silver Cross (company) and the Silver Cross Balmoral retailer page.",
@@ -320,7 +337,19 @@ def process(dept):
                     e['d'] = "Triangular folding bicycle with a belt drive, released in 1987 and in production since 1986."
                     e['s'] = S['str']
                     e['v'] = [V('Strida 1', '1987', 'drum brakes; about 3,000 made in Glasgow'), V('Strida 2', 'c. 1998', 'same mechanism after the 1997 rights purchase'), V('Strida 3', '2002', 'drum brakes'), V('Strida 5', '2007', 'disc brakes; design award 2007, version 5.2 in 2009'), V('Strida SX', '', '355 mm wheels'), V('Strida EVO', '', 'three-speed with Sturmey-Archer kickback bottom bracket'), V('Strida LT', '', 'glass-fibre-reinforced nylon wheels')]
+                if e['n'] == 'Cervélo S-Series' and not any(v['n'].startswith('S5 Grand') for v in e['v']): e['v'].append(V('S5 Grand Tour Edition', '2023', 'limited edition'))
+                if e['n'] == 'Cervélo P-Series' and not any(v['n']=='P2C' for v in e['v']): e['v'].append(V('P2C', '2008', ''))
                 if e['n'] == 'Bickerton': e['mk'] = 'Bickerton'
+                if e['n'] == 'Riese & Müller Load and Packster':
+                    e['s'] = S['rm']
+                    e['v'] = [V('Load 60 and 75', '', 'cargo e-bike'), V('Load4 60 and 75', '', ''), V('Packster 40', '2017', 'shown at Eurobike'), V('Packster 70', '', '')]
+                if e['n'] == 'Birdy':
+                    e['s'] = S['rm']
+                    e['v'] = [V('Birdy prototype', '1993', 'Special Award at the Hesse Innovation Award'), V('Birdy production', '1995', 'production-ready prototype; 250 made in Taiwan, sales 1995-1996'), V('Birdy electric', '2008', ''), V('Birdy P40', '', 'still produced by Pacific Cycles')]
+                if e['n'] == 'Cowboy':
+                    e['s'] = S['cow']
+                    e['d'] = "Brussels electric bike start-up; the Cowboy 4 won a Red Dot Best of the Best award."
+                    e['mk'] = 'Cowboy'
                 if e['n'] == 'Pashley Pronto / Mailstar':
                     e['s'] = S['pash']
                 if e['n'] == 'Santa Cruz Blur':
@@ -363,7 +392,7 @@ def process(dept):
                     base = sel_bike()
                 k['sel'] = base + f" Covers {len(out)} named entries; no reference lists the whole kind, so no total is known and makers or lines not on the pages read are missing."
                 if kn == 'Groupset':
-                    k['sel'] = SELS[kn] + f" Complete: {len(out)} of {len(out)} groupset lines named on those pages (the Shimano list was read through a summariser; Tourney, Altus and Acera are not named there)."
+                    k['sel'] = SELS[kn] + f" Complete: {len(out)} of {len(out)} groupset lines named on those pages (the Shimano list was read through a summariser; Tourney comes from a shop-advice page, Altus, Acera, Alivio and CUES from trade-press pages)."
                 k['xg'] = 'by maker country, then maker'
             for key_ in ('m', 'r'):
                 k.pop(key_, None)
@@ -433,6 +462,8 @@ bk['ms'] = [
     {"mkt": "Brompton revenue", "who": "Brompton Bicycle", "share": "£42 million", "yr": 2019, "s": S['brom'], "note": "revenue of £42 million or more; about 50,000 bicycles a year, undated"},
     {"mkt": "Gazelle output", "who": "Gazelle", "share": "300,000 a year", "yr": 2025, "s": S['gaz'], "note": "the page gives no year for the current output; total production has passed 13 million"},
     {"mkt": "Folding bicycles worldwide", "who": "Dahon", "share": "two thirds", "yr": 2006, "s": S['dah'], "note": "the page flags this claim as needing a source"},
+    {"mkt": "Riese & Müller revenue", "who": "Riese & Müller", "share": "€350 million", "yr": 2022, "s": S['rm'], "note": "sales; €76 million a year as of 2018"},
+    {"mkt": "Cowboy funding", "who": "Cowboy", "share": "$120 million", "yr": 2022, "s": S['cow'], "note": "raised since 2017, including an $80 million Series C reported on 27 January 2022; sales rose 230 % year on year in January to March 2020"},
     {"mkt": "EU e-bike sales", "who": "All makers", "share": "over 5 million", "yr": 2021, "s": S['ebike'], "note": "units sold in the EU; 2 million in 2016"},
     {"mkt": "E-bike share of bicycle sales, Netherlands", "who": "All makers", "share": "57 %", "yr": 2022, "s": S['ebike'], "note": "Austria 49 %, Germany 48 %, Belgium 47 % the same year"},
     {"mkt": "Japan e-bike sales", "who": "All makers", "share": "350,000", "yr": 2023, "s": S['ebike'], "note": "units; 150,000 in 2018"},
@@ -444,9 +475,11 @@ pr['ms'] = [
     {"mkt": "Silver Cross ownership", "who": "Fosun International", "share": "87.23 %", "yr": 2017, "s": S['sx'], "note": "Fosun bought the company in 2015"},
     {"mkt": "Bugaboo reach", "who": "Bain Capital", "share": "50 countries", "yr": 2018, "s": S['bug'], "note": "Bain Capital acquired Bugaboo in February 2018; over 1,200 staff"},
     {"mkt": "UPPAbaby reach", "who": "UPPAbaby", "share": "50 countries", "yr": 2022, "s": S['upp'], "note": "more than 175 employees; reported to be exploring a sale in October 2023"},
+    {"mkt": "Goodbaby brands", "who": "Goodbaby International", "share": "Cybex bought January 2014; Evenflo July 2014", "yr": 2014, "s": S['gb'], "note": "brands Goodbaby, GB, Cybex, Evenflo, CBX, Rollplay, Happy Dino, Urbini"},
+    {"mkt": "Newell Brands baby gear", "who": "Newell Brands", "share": "Baby Jogger, Graco, NUK, Tigex", "yr": 2017, "s": S['nwl'], "note": "trademarks of the baby gear business; Teutonia stroller business sold in 2017; no market share stated"},
     {"mkt": "Babyzen purchase", "who": "Stokke", "share": "acquired", "yr": 2021, "s": S['stk'], "note": "Stokke bought Babyzen and its YOYO stroller line"},
 ]
-pr['msum'] = "No fetched page gives a stroller market share. The figures show output and ownership of the best-known makers; the one market-report page tried (Global Market Insights) returned an error."
+pr['msum'] = "No fetched page gives a stroller market share. The figures show output and ownership of the best-known makers; searches of Goodbaby, Dorel, Newell, trade press and report sellers found no fetchable page that states a stroller share with a year."
 
 # ---------------- shelf/kind fixes: shelf order (groupset ordering), kind t ----------------
 BR = json.load(open(ROOT + 'out/G1_brands.json'))['b']
@@ -461,6 +494,8 @@ newb = [
     B('Quality Bicycle Products', 'United States', '', 'Specialist', "American bicycle distributor and parent of Surly.", S['surly'], 'bicycle parts', ['Surly']),
     B('Fosun International', 'China', '', 'Mainstream', "Chinese conglomerate that bought Silver Cross in 2015.", S['sx'], 'conglomerate', ['Silver Cross']),
     B('Bain Capital', 'United States', '', 'Mainstream', "Investment firm that acquired Bugaboo in February 2018.", S['bug'], 'private equity', ['Bugaboo']),
+    B('Newell Brands', 'United States', '', 'Mainstream', "American consumer-goods group whose baby gear brands include Graco and Baby Jogger.", S['nwl'], 'baby gear', ['Baby Jogger']),
+    B('Goodbaby International', 'China', '', 'Mainstream', "Chinese juvenile-products group that bought Cybex in January 2014 and Evenflo in July 2014.", S['gb'], 'strollers', ['Cybex']),
     B('Cycleurope', 'Sweden', '', 'Mainstream', "Bicycle group owned by Grimaldi Industri AB; Bianchi joined it in 1997.", S['bia'], 'bicycle group', ['Bianchi']),
 ]
 brands = [b for b in newb if b['n'] not in have]

@@ -71,7 +71,7 @@ for n in ('Chaumet Royals', 'Chaumet Precious Nature'):
     chx.append(ent(n.replace('Chaumet ', ''), 'Chaumet', CH, g='High jewellery on the site'))
 chk = kind('Chaumet jewellery lines', 'Paris jeweller bought by LVMH in October 1999; Investcorp had bought it in 1987.', CH,
            'One entry is a Chaumet jewellery line named on its site or in the cited article.',
-           "Every jewellery and bridal collection in the menu of Chaumet's own US site (Joséphine, Bee de Chaumet, Liens, Nature, Torsade de Chaumet, plus Acrostiches, and two high jewellery collections), then the lines Wikipedia adds. Watch lines (Hortensia, Class One watches) are left out. Complete: 13 of 13 named on the site and in the Wikipedia article.",
+           "Every jewellery and bridal collection in the menu of Chaumet's own US site (Joséphine, Bee de Chaumet, Liens, Nature, Torsade de Chaumet, Acrostiches, and two high jewellery collections: 8 in all), then the lines Wikipedia adds. Watch lines (Hortensia, Class One watches) are left out. Complete: 15 of 15 named on the site and in the Wikipedia article.",
            chx, 'by source: Chaumet site, Wikipedia, high jewellery')
 chk['x'] = [e for e in chk['x'] if e['n'] != 'Torsade']
 
@@ -157,7 +157,7 @@ hwk = kind('Harry Winston jewellery lines', 'New York diamond jeweller; its fine
 # UK: Graff, De Beers, Monica Vinader
 GR = 'https://www.graff.com/uk-en/graff-signature-collections.html'
 grk = kind('Graff jewellery lines', 'London diamond jeweller; its signature collections page links six jewellery collections and four engagement lines.', GR, 'One entry is a Graff collection.',
-           "Every collection linked on Graff's own signature collections page: Butterfly, Tilda's Bow, Laurence Graff Signature, Icon, Icon 8, Classic Graff, and the engagement lines Paragon, Promise, Flame (Icon appears in both). Complete: 9 of 9 linked.",
+           "Every collection linked on Graff's own signature collections page: Butterfly, Tilda's Bow, Laurence Graff Signature, Icon, Icon 8, Classic Graff, and the engagement lines Paragon, Promise, Flame (Icon also has an engagement ring). Complete: 9 of 9 distinct lines linked.",
            [ent(n, 'Graff', GR, g='Jewellery collections') for n in ('Butterfly', "Tilda's Bow", 'Laurence Graff Signature', 'Icon', 'Icon 8', 'Classic Graff')] +
            [ent(n, 'Graff', GR, g='Engagement lines') for n in ('Paragon', 'Promise', 'Flame')], 'by type: jewellery, engagement')
 DB = 'https://www.debeers.com'

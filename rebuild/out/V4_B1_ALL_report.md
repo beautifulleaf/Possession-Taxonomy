@@ -24,3 +24,18 @@ About 52 further fetches. Part file now 398 entries (was 263), 259 KB, validates
 **Emma:** sourced from tech.eu (founded 2013, Frankfurt, Haniel 50.1% April 2020): entry and register brand added.
 
 **Still short:** no complete museum holdings list; many tables, beds and storage kinds hold only a few designs because designer pages name mostly chairs; years missing for some entries.
+
+## Round 3
+About 45 further fetches (Firecrawl JSON extraction on the museum search pages). Part file: 704 entries (was 398), 327 KB, validates OK (119 kinds).
+
+**MoMA (Design, classification 3):** chair query 3 of 3 pages read (about 120 results); table 6 pages with content (pages 7-8 empty; most results lamps, furniture kept); sofa, stool, bench, shelf 1 page each (13, 38, 10, 5 results); cabinet, desk, bed, screen page 1 only because later results are unrelated matches (the page counter showed 546, 2026, 108909 and 72). About 230 pieces held are entries, each citing its search URL.
+
+**Vitra Design Museum:** chair search has 1,191 results, only page 1 (30, alphabetical) read; table 24, shelf 13, bed 11, cabinet 27 read in full; sofa and stool returned 0. About 60 entries.
+
+**V&A API:** query "chair", year from 1900: 4,267 records; page 1 was photographs and 19th-century items, no design pieces, so nothing added. Not completed.
+
+**Wikipedia windows:** Noguchi read to 200,000 characters, Mies to 200,000, Le Corbusier to 200,000 (last 24,875 characters unread); nothing new beyond the Weissenhof, Barcelona, Brno, Tugendhat and LC chairs.
+
+**Makers:** HAY (About A Chair, Stool, Table, Lounge), USM (Haller Tables, Kitos Desks), de Sede (DS-600 Snake, 1972, with designers), &Tradition (14 furniture families with designers) and GUBI (Totto stool, Lotus table; its page gave only two) added from their own sites. String: only a search excerpt (1949, Kajsa and Nisse Strinning), already an entry. Muuto, Thonet: no product list found. Entries were de-duplicated by name and alias across the whole part.
+
+**Still short:** Vitra Design Museum chair results 31 to 1,191; MoMA pages beyond page 1 for cabinet, desk, bed, screen; V&A design holdings; Le Corbusier page end.

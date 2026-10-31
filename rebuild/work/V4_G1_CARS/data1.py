@@ -1,0 +1,32 @@
+# marque: (own, cty, own_y, tier, items)  items: "code:Name;Name~year;=Full title"
+# codes: C city H hatch S saloon E estate M mpv U suv L luxsaloon Q limo G gt P sports X coupe V convertible R roadster
+# T hothatch W muscle Z supercar Y hypercar O offroader I pickup J utilcoupe A kei B microcar D threewheel c coachbuilt
+D={}
+D['Volkswagen']=('Volkswagen Group','Germany','', 'Global group',
+"H:Polo;Golf;Fox;Gol;Lupo;Up;Citi Golf;Pointer;Brasília;Suran;Apollo;e-Golf;ID.3;ID. Polo~2026;New Beetle|T:Polo G40|S:Derby;Voyage;Santana;Passat;Jetta;Vento;Bora;Lavida;Lamando;Magotan;Passat Lingyu;Polo Sedan (A05);Ameo;K70;Type 3;Type 4;Arteon~2017;CC;ID.7~2023|E:Passat Variant|L:Phaeton;Phideon|X:SP2;Corrado;Karmann Ghia|V:Eos|M:Touran;Golf Plus;Golf Sportsvan;Routan;Multivan;Viloran|U:T-Cross;T-Roc;Taigo;Taigun;Taos;Atlas;Tavendor;Talagon;Tera;ID.4;ID.5~2022;ID.6;ID. Aura T6;ID. Era 9X;ID. Era 5S|O:Type 181;Country Buggy|I:Amarok;Tarok;Taro;Doublecab|J:Saveiro")
+D['Audi']=('Volkswagen Group','Germany','', 'Global group',
+"H:A2;S1;S3|S:80;A6 C7;S6;E5 Sportback|E:RS 4;RS 6|L:A8~1994;S8|X:A5;S5;TT;Quattro|G:e-tron GT|Z:R8|U:Q4 e-tron;Q7;Q8;Q8 e-tron;E7X")
+D['SEAT']=('Volkswagen Group','Spain','', 'Global group',
+"C:133;600;Arosa;Marbella;Mii;Panda;Fura|H:127;León;Ritmo;Ronda|S:124;128;131;132;1400;1430;Córdoba;Exeo;Málaga;Toledo|E:Leon X-PERIENCE|X:850;1200 Sport|M:Alhambra;Altea;Altea XL/Freetrack|U:Arona;Ateca;Tarraco")
+D['Cupra']=('Volkswagen Group','Spain','', 'Global group',"U:Formentor;Tavascan")
+D['Škoda']=('Volkswagen Group','Czech Republic','1991','Global group',
+"C:Citigo|H:Favorit;Felicia;Scala;Garde|S:100;1000 MB;130;Popular;Rapid;Octavia~1996|X:110 R|V:Felicia (1959–1964)~1959|U:Elroq;Enyaq~2017;Epiq;Kamiq;Karoq;Kodiaq;Kushaq;Kylaq~2024;Yeti|I:Pick-up")
+D['Porsche']=('Volkswagen Group','Germany','', 'Global group',
+"P:356;911 (classic);914|R:Boxster (986)|X:Cayman;912;924;944;968~1991|G:928|Z:Carrera GT;959|Y:918 Spyder|S:Taycan|U:Macan;Cayenne Electric;Macan Electric")
+D['Bentley']=('Volkswagen Group','United Kingdom','1998','Global group',
+"L:Arnage;Brooklands;Eight;Flying Spur (2005);Mark V;Mark VI;Mulsanne (1980–1992);Mulsanne (2010);R Type;S1;S2~1959;S3;T-series;Turbo R;Turbo RT;3.5 Litre;4 Litre;8 Litre|P:3 Litre;4½ Litre;Speed Six|G:Continental;Continental GT;Continental R;Brooklands Coupé|V:Azure|Q:State Limousine~2002|U:Bentayga")
+D['Lamborghini']=('Volkswagen Group','Italy','1998','Global group',
+"G:350 GT;400 GT;Espada;Islero;Jarama|P:Urraco|Z:Miura;Jalpa;Silhouette;Countach;Diablo;Murciélago;Gallardo~2003;Huracán;Aventador;Revuelto~2023;Temerario|Y:Centenario;Reventón;Veneno;Sián FKP 37;Sesto Elemento|O:LM002|U:Urus")
+D['Bugatti']=('Bugatti Rimac','France','2021','Independent',
+"G:Type 57;Type 101|P:Type 55|L:Type 46|Q:Royale|Z:EB 110~1992|Y:Veyron;Chiron~2016;Centodieci;La Voiture Noire~2019")
+D['Toyota']=('Toyota Motor Corporation','Japan','', 'Global group',
+"C:Aygo;Aygo X;Passo;Vitz;Yaris;iQ;Pixis Epoch;Porte;Cami;Duet;Sparky;Starlet;Publica;Sera;C+pod;Etios;Vios;Platz;Belta|H:Auris;Corolla;Corolla Levin~1972;Sprinter Trueno~1972;Tercel;Aqua;Prius;Prius C;Prius V;Prius Plug-in Hybrid;Ractis;Blade;Ist;bB;GR Yaris;GR Corolla;Glanza;Paseo;Verso;Corolla Spacio;Corolla Verso;Yaris Verso;Matrix|S:Camry;Corona;Corona Mark II;Mark II;Mark X;Chaser;Cresta;Cressida;Carina;Carina II;Avensis;Allion;Premio;Corona Premio;Vista;Windom;Brevis;Progrès;Crown;Crown Eight;Crown Majesta;Aristo;Aurion (XV40);Avalon;Comfort;Classic;Origin;Corolla Rumion;Corona EXiV;Carina ED;Mirai;bZ3;bZ3X~2024|E:Caldina;Sprinter Carib;Probox;Succeed;Sai;Matrix|M:Alphard;Vellfire;Noah;Voxy;Esquire;Previa;Sienna;Ipsum;Isis;Wish;Sienta;Spade;Roomy;Gaia;Nadia;Raum;Avanza;Innova;Kijang;Calya;Veloz;Rush;Passo Sette;Avensis Verso;Granvia;Quantum|L:Century;Celsior;Soarer;Crown|X:Celica (T230);Celica XX;Celica GT-Four;Curren;Sportivo Coupe;Sports 800|P:Supra;GR Supra;86;AE86;2000GT~1967|U:RAV4;C-HR;C-HR+;Corolla Cross;Yaris Cross;Urban Cruiser (XP110);Raize;Venza;Harrier;Kluger;Highlander;Grand Highlander;Sequoia;Wildlander;bZ4X;RAV4 EV;Vanguard|O:Land Cruiser;Land Cruiser (J40);Land Cruiser (J70);Land Cruiser FJ;Land Cruiser Prado;4Runner;FJ Cruiser;Fortuner;Hilux Surf;Mega Cruiser;Land Hopper;Blizzard|I:Tacoma;Tundra;T100;Revo;Hilux Champ;Bandeirante;Stout|Y:GR GT|A:Pixis Epoch|Q:Limo;JPN Taxi")
+D['Lexus']=('Toyota Motor Corporation','Japan','', 'Global group',
+"S:ES;GS;IS;LS;LS (XF40);IS (XE20);GS (S190)|H:CT;LBX|X:RC;SC;LC|U:NX;RX;UX;GX;LX;TX;RZ;TZ;LQ|M:LM|Z:LFA|P:HS")
+D['Daihatsu']=('Toyota Motor Corporation','Japan','2016','Global group',
+"A:Mebius|M:Costa;Consorte")
+D['Scion']=('Toyota Motor Corporation','Japan','', 'Global group',"H:tC;xA;xB;xD")
+D['Honda']=('Honda Motor Company','Japan','', 'Independent',
+"C:Today;Beat;Life;Logo;Fit;N-Box;N-One;N-WGN;N360;Zest;Brio;Amaze|A:N-Box;N-One;N-WGN;N360;Today;Life;Beat;S660|H:Civic;Civic Si;Civic Hybrid;CR-Z;Insight;Quint;Concerto;Domani;Rafaga;Ballade;City;City (AA);Capa;Airwave;Shuttle;Fit Shuttle;Crossroad;Torneo|S:Accord;Integra;Legend;Inspire;Vigor;Ascot;Clarity;Crider;Spirior;Jade (automobile);Gienia;Fit Aria;Prologue;Honda e;e:N2|E:Accord;Jade (automobile)|M:Odyssey (North America);Odyssey (international);Stepwgn;Freed;Mobilio;Mobilio Spike;Stream;Elysion;FR-V;Orthia;Life Dunk;Honda Z;Element;S-MX;LaGreat|X:Prelude;CR-X;CR-X del Sol;Integra;1300|P:S2000;NSX;S360;S500;S600;S800;Beat|R:S660|U:CR-V;HR-V;WR-V;ZR-V;Vezel;BR-V;UR-V;Pilot;Passport;Crosstour;Avancier (crossover);XR-V;Elevate;Rincon;Clarity FCV|I:Ridgeline|W:Type R")
+D['Mazda']=('Mazda Motor Corporation','Japan','', 'Independent',
+"C:Demio;2;Carol;AZ-Wagon;Revue;Scrum;Autozam AZ-1|A:Carol;AZ-Wagon;AZ-Offroad;Scrum|H:Mazda3;Mazda 121;Mazda 323;Mazda 323F;Familia;Grand Familia;Lantis;Mazdaspeed3;Etude|S:Mazda6;Mazda 626;Mazda 929;Capella;Cronos;Luce;Millenia;Sentia;Xedos 6;Xedos~1992;Persona;Roadpacer;Cosmo|X:MX-3;MX-6;RX-7;RX-8;929 coupe|R:MX-5;MX-5 (NA);MX-5 (NB);MX-5 (NC);MX-5 (ND)|M:Premacy;Biante;MPV;Verisa|U:CX-3;CX-30;CX-4;CX-5;CX-50;CX-60;CX-7;CX-8;CX-80;CX-9;CX-90;MX-30;Tribute;CX-6e|O:Navajo|I:B series;BT-50|P:R100;RX-01|Z:RX-792P")

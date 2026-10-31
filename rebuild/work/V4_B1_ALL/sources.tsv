@@ -39,3 +39,16 @@ makers	Wikipedia: B&B_Italia, Ligne_Roset, Poltrona_Frau, Flexform, 606_Universa
 IKEA hunker	https://www.hunker.com/13727450/most-iconic-ikea-designs/	2026-10-31	ok
 Emma	https://tech.eu/2020/04/06/haniel-buys-emma/	2026-10-31	ok
 List of chairs offset 100000	https://en.wikipedia.org/wiki/List_of_chairs	2026-10-31	ok (references only)
+MoMA chair p1-3	https://www.moma.org/collection/works?q=chair&classifications=3	2026-10-31	firecrawl json; 3 of 3 pages
+MoMA table p1-8	https://www.moma.org/collection/works?q=table&classifications=3&page=1..8	2026-10-31	firecrawl; pages 7-8 empty; mostly lamps
+MoMA sofa, stool, bench, shelf	https://www.moma.org/collection/works?q=<q>&classifications=3	2026-10-31	firecrawl; 1 page each
+MoMA cabinet, desk, bed, screen	https://www.moma.org/collection/works?q=<q>&classifications=3	2026-10-31	firecrawl page 1 only; results beyond furniture are unrelated matches
+Vitra DM chair/table/shelf/bed/cabinet	https://collection.design-museum.de/en/collection/?q=<q>	2026-10-31	firecrawl; chair 1191 results, page 1 (30) read; sofa and stool 0
+V&A API chair	https://api.vam.ac.uk/v2/objects/search?q=chair&page_size=100&year_made_from=1900	2026-10-31	4,267 records, page 1: mostly photographs and 19th-century items, no design pieces
+Noguchi/Mies/Le Corbusier	Wikipedia offsets 100000/200000	2026-10-31	read to 200000 (Le Corbusier last 24875 chars unread)
+HAY About A Collection	https://www.hay.com/inspiration/about-a-collection	2026-10-31	ok
+USM	https://www.usm.com/en/collections/usm-haller-system	2026-10-31	ok
+de Sede DS-600	https://desede.ch/en-en/collections/ds-600	2026-10-31	ok
+&Tradition products	https://www.andtradition.com/products	2026-10-31	firecrawl
+Gubi home	https://www.gubi.com/	2026-10-31	firecrawl 2 items
+String	https://www.stringfurniture.com/en/series/system	2026-10-31	search excerpt only
