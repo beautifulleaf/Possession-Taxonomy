@@ -191,11 +191,84 @@
    "country": "Lithuania (EU; UAB VIRPIL per maker imprint)",
    "dept": "flight-sim controls",
    "region": "Europe"
+  },
+  {
+   "n": "Elektronika",
+   "layer": "cultural",
+   "src": "https://www.computerhistory.org/collections/catalog/102741207",
+   "says": "Computer History Museum: Elektronika IM-02 'Nu, Pogodi!' LCD handheld (Soviet Game & Watch knock-off); the wolf 'the Russian equivalent of Mickey Mouse', one of the first successful TV-based merchandising efforts in Russia",
+   "country": "USSR/Russia",
+   "dept": "LCD handheld games",
+   "region": "Eastern Europe / former USSR"
+  },
+  {
+   "n": "Galoob",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Galoob",
+   "says": "Lewis Galoob Toys: distributed the Game Genie cheat device in the US; won the landmark Galoob v. Nintendo copyright case",
+   "country": "USA",
+   "dept": "cheat devices",
+   "region": "North America"
+  },
+  {
+   "n": "Raw Thrills",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Raw_Thrills",
+   "says": "American arcade video game company (Skokie, IL) founded 2001 by Eugene Jarvis; Cruis'n Blast, Fast & Furious, Halo: Fireteam Raven cabinets",
+   "country": "USA",
+   "dept": "arcade cabinets",
+   "region": "North America"
+  },
+  {
+   "n": "SANKYO",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/SANKYO",
+   "says": "one of the three major pachinko machine manufacturers in Japan",
+   "country": "Japan",
+   "dept": "pachinko machines",
+   "region": "East Asia"
+  },
+  {
+   "n": "Aristocrat Leisure",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Aristocrat_Leisure",
+   "says": "largest gambling machine maker in Australia, one of the largest slot-machine makers in the world (second to IGT); Lightning Link",
+   "country": "Australia",
+   "dept": "slot machines",
+   "region": "Oceania"
   }
  ],
- "add_regions": [],
+ "add_regions": [
+  {
+   "region": "Japan (pachinko)",
+   "speciality": "pachinko and pachislot machines, a Japanese parlour tradition since the 1930s",
+   "src": "https://www.pachinkoboy.com/history",
+   "brands": [
+    "Heiwa",
+    "Sanyo Bussan",
+    "Fuji Shoji",
+    "Sophia Nishijin",
+    "Kyoraku",
+    "Sankyo"
+   ],
+   "note": "history page of a US pachinko dealer: existence/history only, so brands listed; SANKYO separately sourced on Wikipedia"
+  }
+ ],
  "drop": [],
  "relayer": [],
- "fix": [],
+ "fix": [
+  {
+   "n": "Tec Toy",
+   "why": "harvest claim 'Master System sold 8M units' is NOT on the Famiclone page (it only names 'Tec Toy Argentina' as a distributor). Re-source to https://en.wikipedia.org/wiki/Tectoy (fetched): Brazilian company, best known for producing/distributing Sega consoles in Brazil; 'Tectoy has sold 8 million Master System variants'; Zeebo console. Name it 'Tectoy'. Also linked as maker of Master System Evolution on List_of_retro_style_video_game_consoles."
+  },
+  {
+   "n": "Bit Corporation",
+   "why": "country given as Russia; Famiclone page calls it a Taiwanese clone pioneer (it only sold BIT70 in the USSR). Country -> Taiwan; move from region 'Russia/former USSR' to 'China/Taiwan'. Linked own article (Bit_Corporation) -> cultural ok (also Gamate maker)."
+  },
+  {
+   "n": "Toymax International",
+   "why": "duplicate of 'Toymax' already in the brand index (E5); merge."
+  }
+ ],
  "notes": "in progress"
 }
