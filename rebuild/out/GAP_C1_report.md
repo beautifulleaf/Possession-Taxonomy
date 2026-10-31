@@ -24,3 +24,14 @@ About 47 fetches, none via Firecrawl. validate.py --v3 prints OK (305 kinds, 461
 - Hakko FX-888D, Festool TS 55, Mafell MT 55, Sawzall generations, Facom/KTC/Ko-ken as entries: only brand-register facts; soldering irons and track saws are commodity kinds with no entries under the V4 rule. Facom's Stanley purchase year is unresolved (2005 to 2010 across pages; Stanley Works article says 2005 and 2006).
 - Doweling jig: no fetched page defines it. Machine Mart/Lee Valley not retried; no independent Site equipment list found.
 - KTC founding: its history page implies 1947, a search says 1950; left empty. Ko-ken: 1946 vs 1940; left empty. Two Wikipedia URLs guessed (ESEE, Nite Ize) returned 404 and were replaced by searched pages.
+
+## Round 2 (about 36 fetches, none via Firecrawl)
+validate.py --v3 OK (305 kinds, 653 archetypes). Backup bak/C1_r2.json.
+
+**1. Swiss Army knife: now Complete, 192 → 380 entries.** Read SAKWiki Victorinox 74 mm, 58 mm layer pages, 93 mm and 111 mm layer pages, and Wenger 65 mm, 85 mm (1, 2, 3, 4, 5, 6+ layers) and 130 mm (1 to 4 layers) pages, plus the Delémont 85 mm page. Delémont models are re-badged Wenger models, so they sit under "85 mm (Wenger and Delémont)". Handle lengths added to the axis. SAKWiki has no 75 mm page (it uses 74 mm) and no 84/85 mm five-layer Victorinox page. Delémont 65 and 130 mm pages were not read (same Wenger numbering). Years remain empty: SAKWiki gives none for these models.
+
+**2. Veritas.** Lee Valley pages returned 429 twice (logged in firecrawl_deferred.md). Instead, a Machine Atlas review states the Veritas Router Plane is based on the Stanley No. 71: added as a version. Popular Woodworking ties the Veritas Small Plow Plane to the Record 044, not a Stanley number, so not added. Other Veritas planes: not sourced.
+
+**3. Lock types.** Added to Lockback folder (now with maker sections): Buck 112 Ranger (lockback), Spyderco Delica (back lock, line 1990, Delica 4 in 2006), Cold Steel Recon 1 (2000; Tri-Ad lock, a back lock with stop pin) and Voyager (Tri-Ad). Kershaw Leek: one retailer says frame lock, others liner lock, so not placed. Spyderco Worker: catalogue URLs found by search returned 404 twice; Wikipedia gives 1981 first folder but no lock. Left out.
+
+**4. Mora.** Morakniv's own history page gives no model years for Companion, Basic, Garberg, Kansbol or Bushcraft. It dates the Mora 2000 to 1991, now set on that entry. Other Mora years remain empty (searched four times).

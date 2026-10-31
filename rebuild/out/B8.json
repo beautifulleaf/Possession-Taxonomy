@@ -758,6 +758,22 @@
      "yr": 2021,
      "s": "https://www.securityworldmarket.com/int/News/Business-News/research-shows-assa-abloy-is-in-the-driving-seat-for-smart-locks",
      "note": "Strategy Analytics estimate; the report names Yale, Kwikset and Schlage as the power players and expected 35 % for ASSA ABLOY if it bought Kwikset"
+    },
+    {
+     "mkt": "Cylindrical door locks, worldwide",
+     "who": "Allegion plc",
+     "share": "over 28.5 %",
+     "yr": 2025,
+     "s": "https://www.gminsights.com/industry-analysis/cylindrical-door-lock-market",
+     "note": "market share as the page states it; top five (with ASSA ABLOY, dormakaba, Taiwan Fu Hsing, Miwa) 68.3 %"
+    },
+    {
+     "mkt": "Mechanical locks, worldwide",
+     "who": "ASSA ABLOY, Allegion, dormakaba",
+     "share": "50 % together",
+     "yr": 2025,
+     "s": "https://www.futuremarketinsights.com/reports/mechanical-locks-market-share-analysis",
+     "note": "combined share as the page states it; the page's own tier tables disagree on the smaller brands"
     }
    ],
    "msum": "Consumer smart locks are led by ASSA ABLOY, whose brands include Yale and August; Allegion's Schlage was the other independent power player in 2022. No share figure was found for mechanical locks."
@@ -809,14 +825,25 @@
          "g": "Disc detainer"
         },
         {
-         "n": "Abloy Easy",
-         "a": "Abloy Easy",
-         "d": "Disc-detainer lock whose key turns in one direction only, for spring bolts, padlocks and cam locks; announced in April 2021 and successor to the Abloy Sento.",
+         "n": "Abloy Profile",
+         "a": "Profile",
+         "d": "Disc-detainer cylinder by Abloy with 5 to 14 discs engaging a sidebar, made from 1977 to 2000.",
          "mk": "Abloy",
-         "y": "2021",
-         "s": "https://www.lockwiki.com/index.php/Abloy_Easy",
+         "y": "1977–2000",
+         "s": "https://www.lockwiki.com/index.php/Abloy_Profile",
          "v": [],
-         "dt": "format (spring bolt, padlock, cam lock)",
+         "dt": "keying",
+         "g": "Disc detainer"
+        },
+        {
+         "n": "Fichet F3D",
+         "a": "F3D",
+         "d": "Push-type disc-detainer hybrid cylinder by Fichet with six disc components, made since 2003 as the successor to the Fichet 787.",
+         "mk": "Fichet",
+         "y": "2003",
+         "s": "https://www.lockwiki.com/index.php/Fichet_F3D",
+         "v": [],
+         "dt": "keying",
          "g": "Disc detainer"
         },
         {
@@ -851,6 +878,17 @@
          "role": "landmark"
         },
         {
+         "n": "Abloy Easy",
+         "a": "Abloy Easy",
+         "d": "Disc-detainer lock whose key turns in one direction only, for spring bolts, padlocks and cam locks; announced in April 2021 and successor to the Abloy Sento.",
+         "mk": "Abloy",
+         "y": "2021",
+         "s": "https://www.lockwiki.com/index.php/Abloy_Easy",
+         "v": [],
+         "dt": "format (spring bolt, padlock, cam lock)",
+         "g": "Disc detainer"
+        },
+        {
          "n": "Rosengrens RKL-10",
          "a": "RKL-10",
          "d": "Disc-detainer safe lock by Rosengrens; Technical Entry published a decoding method for it in 2012.",
@@ -860,6 +898,36 @@
          "v": [],
          "dt": "keying",
          "g": "Disc detainer"
+        },
+        {
+         "n": "Schlage Primus",
+         "a": "Classic Primus · Primus XP · Everest 29 SL Primus XP",
+         "d": "Six-pin cylinder with five finger pins and a sidebar, functionally like the ASSA Twin Combi but with fewer anti-pick features; Brown to Red belt.",
+         "mk": "Schlage",
+         "y": "1980s (patents expired 2007)",
+         "s": "https://www.lockwiki.com/index.php/Schlage_Primus",
+         "v": [
+          {
+           "n": "Classic Primus",
+           "mk": "Schlage",
+           "y": "",
+           "d": "Original; key patent expired 2007; Brown belt"
+          },
+          {
+           "n": "Primus XP",
+           "mk": "Schlage",
+           "y": "2007",
+           "d": "Released 8 Nov 2007, patented to 2024"
+          },
+          {
+           "n": "Everest 29 SL Primus XP",
+           "mk": "Schlage",
+           "y": "",
+           "d": "Everest keyway with enhanced key control; Red belt"
+          }
+         ],
+         "dt": "keyway (Classic, Everest) · security level · mortice, rim, KIK format",
+         "g": "Sidebar and pin tumbler"
         },
         {
          "n": "ASSA Twin",
@@ -895,6 +963,173 @@
           }
          ],
          "dt": "driver type (gin or barrel) · number of finger pins · sidebar code region · format",
+         "g": "Sidebar and pin tumbler"
+        },
+        {
+         "n": "Medeco Biaxial",
+         "a": "Biaxial · Chubb Biaxial",
+         "d": "UL 437 cylinder with fore/aft rotating key pins engaging a sidebar; the most widely used American high-security lock before M3.",
+         "mk": "Medeco",
+         "y": "1985",
+         "s": "https://www.lockwiki.com/index.php/Medeco_Biaxial",
+         "v": [
+          {
+           "n": "Biaxial cylinder",
+           "mk": "Medeco",
+           "y": "1985",
+           "d": "5 or 6 pins, six rotation positions; Purple belt at 5+ pins"
+          },
+          {
+           "n": "Biaxial cam lock",
+           "mk": "Medeco",
+           "y": "",
+           "d": "Cam-lock form; Brown belt"
+          },
+          {
+           "n": "Duracam",
+           "mk": "Medeco",
+           "y": "",
+           "d": "Dimple-key form of the Biaxial"
+          }
+         ],
+         "dt": "pin count 4–6 · keyway · format",
+         "g": "Sidebar and pin tumbler"
+        },
+        {
+         "n": "Mul-T-Lock Interactive",
+         "a": "Interactive+ · Mul-T-Lock Classic",
+         "d": "UL 437 telescoping pin-in-pin dimple cylinder with five inner/outer pin pairs and a moving key element; Blue to Brown belt.",
+         "mk": "Mul-T-Lock",
+         "y": "1992",
+         "s": "https://www.lockwiki.com/index.php/Mul-T-Lock_Interactive",
+         "v": [
+          {
+           "n": "Mul-T-Lock Classic",
+           "mk": "Mul-T-Lock",
+           "y": "1977",
+           "d": "First telescoping-pin cylinder, no interactive element"
+          },
+          {
+           "n": "Interactive",
+           "mk": "Mul-T-Lock",
+           "y": "1992",
+           "d": "Adds spring-loaded element in the key; patent expired 2013"
+          },
+          {
+           "n": "Interactive+",
+           "mk": "Mul-T-Lock",
+           "y": "",
+           "d": "Successor with renewed key patent"
+          }
+         ],
+         "dt": "4 or 5 pin stacks · driver type (spool, serrated) · countermilling · format",
+         "g": "Sidebar and pin tumbler"
+        },
+        {
+         "n": "EVVA 3KS",
+         "a": "3 Kurven System · 3KS+ · 4KS",
+         "d": "Bump-immune sidebar cylinder with twelve free-floating sliders moved by laser-cut key tracks; Red to Black belt.",
+         "mk": "EVVA",
+         "y": "1993",
+         "s": "https://www.lockwiki.com/index.php/EVVA_3KS",
+         "v": [
+          {
+           "n": "3KS",
+           "mk": "EVVA",
+           "y": "1993",
+           "d": "Two sidebars, six sliders each, passive profile bar"
+          },
+          {
+           "n": "3KS+",
+           "mk": "EVVA",
+           "y": "",
+           "d": "Updated key patent"
+          },
+          {
+           "n": "4KS",
+           "mk": "EVVA",
+           "y": "",
+           "d": "Four-curve successor"
+          }
+         ],
+         "dt": "false gates · mastered sliders · euro format lengths",
+         "g": "Sidebar and pin tumbler"
+        },
+        {
+         "n": "Medeco M3",
+         "a": "m3 · Medeco axial rotation",
+         "d": "UL 437 pin-tumbler cylinder whose key pins rotate to engage a 3 o'clock sidebar, plus a spring-biased slider; third generation of the Medeco system.",
+         "mk": "Medeco",
+         "y": "2005",
+         "s": "https://www.lockwiki.com/index.php/Medeco_M3",
+         "v": [
+          {
+           "n": "Medeco Original",
+           "mk": "Medeco",
+           "y": "1968",
+           "d": "First pin-tumbler lock with axial rotation and sidebar"
+          },
+          {
+           "n": "Medeco Biaxial",
+           "mk": "Medeco",
+           "y": "1985",
+           "d": "Fore/aft rotating pins, six positions; Purple belt at 5+ pins"
+          },
+          {
+           "n": "Medeco M3",
+           "mk": "Medeco",
+           "y": "2005",
+           "d": "Adds slider for key control; patent expired 2021"
+          },
+          {
+           "n": "Medeco M4",
+           "mk": "Medeco",
+           "y": "2021",
+           "d": "Four side pins and shuttle-pin key element; Red belt"
+          }
+         ],
+         "dt": "5 or 6 pins · keyway and key-control level · mortice, rim, KIK, cam or padlock format",
+         "g": "Sidebar and pin tumbler"
+        },
+        {
+         "n": "Mul-T-Lock MT5+",
+         "a": "MT5 · Mul-T-Lock 800 · Lockwood MT5 · IKON R10",
+         "d": "Telescoping pin-in-pin dimple cylinder with an interactive key element plus an active sidebar read by unsprung sliders; Black 1 belt.",
+         "mk": "Mul-T-Lock",
+         "y": "2006",
+         "s": "https://lpubelts.com/locks/649eaebc.html?name=MulTLock_MT5",
+         "v": [
+          {
+           "n": "MT5 / MTL 500",
+           "mk": "Mul-T-Lock",
+           "y": "2006",
+           "d": "Pin-in-pin with interactive element, no slider sidebar; Purple belt"
+          },
+          {
+           "n": "MT5+ / MTL 800",
+           "mk": "Mul-T-Lock",
+           "y": "2006",
+           "d": "Adds active sidebar with sliders, undercut milling, false gates; Black 1 belt"
+          },
+          {
+           "n": "MT5+ Short",
+           "mk": "Mul-T-Lock",
+           "y": "",
+           "d": "4 drivers, 4 sliders; Red belt"
+          }
+         ],
+         "dt": "pin stacks 4–5 · sliders · mastered or not · format (euro, rim, padlock C-series)",
+         "g": "Sidebar and pin tumbler"
+        },
+        {
+         "n": "ASSA dp4400",
+         "a": "dp4400",
+         "d": "Six-pin cylinder by ASSA with a sidebar, graded EN 1303 Security Grade 6, with false gates and drill resistance.",
+         "mk": "ASSA",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/ASSA_dp4400",
+         "v": [],
+         "dt": "keying",
          "g": "Sidebar and pin tumbler"
         },
         {
@@ -934,33 +1169,14 @@
          "g": "Sidebar and pin tumbler"
         },
         {
-         "n": "EVVA 3KS",
-         "a": "3 Kurven System · 3KS+ · 4KS",
-         "d": "Bump-immune sidebar cylinder with twelve free-floating sliders moved by laser-cut key tracks; Red to Black belt.",
-         "mk": "EVVA",
-         "y": "1993",
-         "s": "https://www.lockwiki.com/index.php/EVVA_3KS",
-         "v": [
-          {
-           "n": "3KS",
-           "mk": "EVVA",
-           "y": "1993",
-           "d": "Two sidebars, six sliders each, passive profile bar"
-          },
-          {
-           "n": "3KS+",
-           "mk": "EVVA",
-           "y": "",
-           "d": "Updated key patent"
-          },
-          {
-           "n": "4KS",
-           "mk": "EVVA",
-           "y": "",
-           "d": "Four-curve successor"
-          }
-         ],
-         "dt": "false gates · mastered sliders · euro format lengths",
+         "n": "DOM ix TwinStar",
+         "a": "ix TwinStar",
+         "d": "Pin-tumbler cylinder by DOM with a collapsible sidebar and dimple key, rated EN 1303:2015.",
+         "mk": "DOM",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/DOM_ix_TwinStar",
+         "v": [],
+         "dt": "keying",
          "g": "Sidebar and pin tumbler"
         },
         {
@@ -1005,160 +1221,92 @@
          "g": "Sidebar and pin tumbler"
         },
         {
-         "n": "Medeco Biaxial",
-         "a": "Biaxial · Chubb Biaxial",
-         "d": "UL 437 cylinder with fore/aft rotating key pins engaging a sidebar; the most widely used American high-security lock before M3.",
-         "mk": "Medeco",
-         "y": "1985",
-         "s": "https://www.lockwiki.com/index.php/Medeco_Biaxial",
-         "v": [
-          {
-           "n": "Biaxial cylinder",
-           "mk": "Medeco",
-           "y": "1985",
-           "d": "5 or 6 pins, six rotation positions; Purple belt at 5+ pins"
-          },
-          {
-           "n": "Biaxial cam lock",
-           "mk": "Medeco",
-           "y": "",
-           "d": "Cam-lock form; Brown belt"
-          },
-          {
-           "n": "Duracam",
-           "mk": "Medeco",
-           "y": "",
-           "d": "Dimple-key form of the Biaxial"
-          }
-         ],
-         "dt": "pin count 4–6 · keyway · format",
-         "g": "Sidebar and pin tumbler"
+         "n": "Corbin Emhart",
+         "a": "Emhart",
+         "d": "UL 437 pin-tumbler cylinder by Corbin Russwin with six interlocking pin stacks and a grooved plug, made from 1978.",
+         "mk": "Corbin Russwin",
+         "y": "1978",
+         "s": "https://www.lockwiki.com/index.php/Corbin_Emhart",
+         "v": [],
+         "dt": "keying",
+         "g": "Pin tumbler"
         },
         {
-         "n": "Medeco M3",
-         "a": "m3 · Medeco axial rotation",
-         "d": "UL 437 pin-tumbler cylinder whose key pins rotate to engage a 3 o'clock sidebar, plus a spring-biased slider; third generation of the Medeco system.",
-         "mk": "Medeco",
-         "y": "2005",
-         "s": "https://www.lockwiki.com/index.php/Medeco_M3",
-         "v": [
-          {
-           "n": "Medeco Original",
-           "mk": "Medeco",
-           "y": "1968",
-           "d": "First pin-tumbler lock with axial rotation and sidebar"
-          },
-          {
-           "n": "Medeco Biaxial",
-           "mk": "Medeco",
-           "y": "1985",
-           "d": "Fore/aft rotating pins, six positions; Purple belt at 5+ pins"
-          },
-          {
-           "n": "Medeco M3",
-           "mk": "Medeco",
-           "y": "2005",
-           "d": "Adds slider for key control; patent expired 2021"
-          },
-          {
-           "n": "Medeco M4",
-           "mk": "Medeco",
-           "y": "2021",
-           "d": "Four side pins and shuttle-pin key element; Red belt"
-          }
-         ],
-         "dt": "5 or 6 pins · keyway and key-control level · mortice, rim, KIK, cam or padlock format",
-         "g": "Sidebar and pin tumbler"
+         "n": "Hi-Shear LK 1200",
+         "a": "LK 1200",
+         "d": "Restricted-keyway pin-tumbler cylinder by Hi-Shear built to MIL-P-43607E, made in 1982 and 1983.",
+         "mk": "Hi-Shear",
+         "y": "1982–1983",
+         "s": "https://www.lockwiki.com/index.php/Hi-Shear_LK_1200",
+         "v": [],
+         "dt": "keying",
+         "g": "Pin tumbler"
         },
         {
-         "n": "Mul-T-Lock Interactive",
-         "a": "Interactive+ · Mul-T-Lock Classic",
-         "d": "UL 437 telescoping pin-in-pin dimple cylinder with five inner/outer pin pairs and a moving key element; Blue to Brown belt.",
-         "mk": "Mul-T-Lock",
-         "y": "1992",
-         "s": "https://www.lockwiki.com/index.php/Mul-T-Lock_Interactive",
-         "v": [
-          {
-           "n": "Mul-T-Lock Classic",
-           "mk": "Mul-T-Lock",
-           "y": "1977",
-           "d": "First telescoping-pin cylinder, no interactive element"
-          },
-          {
-           "n": "Interactive",
-           "mk": "Mul-T-Lock",
-           "y": "1992",
-           "d": "Adds spring-loaded element in the key; patent expired 2013"
-          },
-          {
-           "n": "Interactive+",
-           "mk": "Mul-T-Lock",
-           "y": "",
-           "d": "Successor with renewed key patent"
-          }
-         ],
-         "dt": "4 or 5 pin stacks · driver type (spool, serrated) · countermilling · format",
-         "g": "Sidebar and pin tumbler"
+         "n": "DOM RS 8",
+         "a": "RS 8",
+         "d": "Pin-tumbler cylinder by DOM listed by LockWiki among high security locks.",
+         "mk": "DOM",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/DOM_RS_8",
+         "v": [],
+         "dt": "keying",
+         "g": "Pin tumbler"
         },
         {
-         "n": "Mul-T-Lock MT5+",
-         "a": "MT5 · Mul-T-Lock 800 · Lockwood MT5 · IKON R10",
-         "d": "Telescoping pin-in-pin dimple cylinder with an interactive key element plus an active sidebar read by unsprung sliders; Black 1 belt.",
-         "mk": "Mul-T-Lock",
-         "y": "2006",
-         "s": "https://lpubelts.com/locks/649eaebc.html?name=MulTLock_MT5",
-         "v": [
-          {
-           "n": "MT5 / MTL 500",
-           "mk": "Mul-T-Lock",
-           "y": "2006",
-           "d": "Pin-in-pin with interactive element, no slider sidebar; Purple belt"
-          },
-          {
-           "n": "MT5+ / MTL 800",
-           "mk": "Mul-T-Lock",
-           "y": "2006",
-           "d": "Adds active sidebar with sliders, undercut milling, false gates; Black 1 belt"
-          },
-          {
-           "n": "MT5+ Short",
-           "mk": "Mul-T-Lock",
-           "y": "",
-           "d": "4 drivers, 4 sliders; Red belt"
-          }
-         ],
-         "dt": "pin stacks 4–5 · sliders · mastered or not · format (euro, rim, padlock C-series)",
-         "g": "Sidebar and pin tumbler"
+         "n": "Sargent & Greenleaf 951",
+         "a": "S&G 951",
+         "d": "Restricted-keyway pin-tumbler cylinder meeting MIL-DTL-43607J, sold only to authorised government agencies.",
+         "mk": "Sargent & Greenleaf",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/S%26G_951",
+         "v": [],
+         "dt": "keying",
+         "g": "Pin tumbler"
         },
         {
-         "n": "Schlage Primus",
-         "a": "Classic Primus · Primus XP · Everest 29 SL Primus XP",
-         "d": "Six-pin cylinder with five finger pins and a sidebar, functionally like the ASSA Twin Combi but with fewer anti-pick features; Brown to Red belt.",
-         "mk": "Schlage",
-         "y": "1980s (patents expired 2007)",
-         "s": "https://www.lockwiki.com/index.php/Schlage_Primus",
-         "v": [
-          {
-           "n": "Classic Primus",
-           "mk": "Schlage",
-           "y": "",
-           "d": "Original; key patent expired 2007; Brown belt"
-          },
-          {
-           "n": "Primus XP",
-           "mk": "Schlage",
-           "y": "2007",
-           "d": "Released 8 Nov 2007, patented to 2024"
-          },
-          {
-           "n": "Everest 29 SL Primus XP",
-           "mk": "Schlage",
-           "y": "",
-           "d": "Everest keyway with enhanced key control; Red belt"
-          }
-         ],
-         "dt": "keyway (Classic, Everest) · security level · mortice, rim, KIK format",
-         "g": "Sidebar and pin tumbler"
+         "n": "DOM ix Saturn",
+         "a": "ix Saturn",
+         "d": "Dimple pin-tumbler cylinder by DOM whose key has a moveable element, rated EN 1303:2015.",
+         "mk": "DOM",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/DOM_ix_Saturn",
+         "v": [],
+         "dt": "keying",
+         "g": "Dimple"
+        },
+        {
+         "n": "GOAL V18",
+         "a": "V18",
+         "d": "Dimple pin-tumbler cylinder by GOAL with up to 19 active pins, rated UL 437 and fitted with a click-ball core-centering bearing.",
+         "mk": "GOAL",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/Goal_V18",
+         "v": [],
+         "dt": "keying",
+         "g": "Dimple"
+        },
+        {
+         "n": "MIWA 3800",
+         "a": "3800",
+         "d": "Hybrid dimple and pin-tumbler cylinder with magnetic sliders, made by MIWA in Japan with Ankerslot in the Netherlands.",
+         "mk": "MIWA",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/MIWA_3800",
+         "v": [],
+         "dt": "keying",
+         "g": "Dimple"
+        },
+        {
+         "n": "WEST 917",
+         "a": "917",
+         "d": "Pin-tumbler cylinder by the Japanese company WEST, opened with a dimple key.",
+         "mk": "WEST",
+         "y": "",
+         "s": "https://www.lockwiki.com/index.php/WEST_917",
+         "v": [],
+         "dt": "keying",
+         "g": "Dimple"
         },
         {
          "n": "Fichet 787",
@@ -1194,6 +1342,17 @@
          "g": "Lever"
         },
         {
+         "n": "Kromer Protector",
+         "a": "Protector",
+         "d": "Wafer-tumbler lock with eleven wafers and asymmetric double-bitted keys, patented in Prussia in 1874 and made for over 125 years.",
+         "mk": "Kromer",
+         "y": "1874",
+         "s": "https://en.wikipedia.org/wiki/Protector_lock",
+         "v": [],
+         "dt": "keying",
+         "g": "Wafer"
+        },
+        {
          "n": "EVVA MCS",
          "a": "Magnetic Code System · IKON System M · Mottura MC",
          "d": "Magnetic cylinder with eight rotating magnet rotors read by two sidebars, with passive ball bearings or sliders; Black belt and the reference magnetic lock.",
@@ -1223,17 +1382,6 @@
          "dt": "generation · euro double or half cylinder · modular build · emergency function",
          "g": "Magnetic",
          "role": "landmark"
-        },
-        {
-         "n": "WEST 917",
-         "a": "917",
-         "d": "Pin-tumbler cylinder by the Japanese company WEST, opened with a dimple key.",
-         "mk": "WEST",
-         "y": "",
-         "s": "https://www.lockwiki.com/index.php/WEST_917",
-         "v": [],
-         "dt": "keying",
-         "g": "Dimple"
         }
        ],
        "tt": [
@@ -1266,13 +1414,15 @@
         ]
        ],
        "nl": "One entry is a high-security lock cylinder line sold under its own name; later generations and variants of the same mechanism are versions.",
-       "sel": "Follows LockWiki's list 'High security locks' (18 locks, all in scope, a subjective editors' list) and its category of the same name, grouped by mechanism. Medeco M3, Mul-T-Lock MT5+ and the other lines kept from the earlier pass are sourced from lpubelts.com and LockWiki pages; no whole-space reference exists beyond these lists.",
+       "sel": "Follows LockWiki's list 'High security locks' (18 locks, all in scope, a subjective editors' list) and its category of the same name, grouped by mechanism. Medeco M3, Mul-T-Lock MT5+ and the other lines kept from the earlier pass are sourced from lpubelts.com and LockWiki pages; no whole-space reference exists beyond these lists. Complete: 18 of 18 locks in LockWiki's High security locks list (ASSA Twin V-10 and Combi, BiLock Exclusive and NG, and Everest are versions) and 15 of 15 lock pages in its category of the same name; seven lines from other fetched pages sit outside both.",
        "xg": [
         "Disc detainer",
         "Sidebar and pin tumbler",
+        "Pin tumbler",
+        "Dimple",
         "Lever",
-        "Magnetic",
-        "Dimple"
+        "Wafer",
+        "Magnetic"
        ]
       },
       {
@@ -1405,7 +1555,7 @@
         ]
        ],
        "nl": "One entry is a historic lock type known by its inventor or period, such as the Bramah or Chubb lock; maker's variants are versions.",
-       "sel": "No whole-space reference exists; the entries are the lock types named in Wikipedia's Lock and key, Padlock, Bramah lock and Chubb detector lock articles, grouped by period.",
+       "sel": "No whole-space reference exists; the entries are the lock types named in Wikipedia's Lock and key, Padlock, Bramah lock and Chubb detector lock articles, grouped by period. No complete list exists; follows the Wikipedia articles named here.",
        "xg": [
         "Ancient",
         "18th century",
@@ -2684,7 +2834,7 @@
        ],
        "xg": "Entry type",
        "nl": "One entry is the first product of its kind or a design-collection landmark.",
-       "sel": "Follows only the fetched pages named here: Wikipedia, Baby monitor. Coverage: at most one origin entry (the first of its kind, where a fetched page says so) and items held by a named design collection (MoMA, V&A, Design Museum London, Cooper Hewitt, Vitra Design Museum) or given a major design award (Compasso d'Oro, Red Dot Best of the Best, iF Gold), each confirmed on a fetched page; no other models are listed."
+       "sel": "Follows only the fetched pages named here: Wikipedia, Baby monitor. Coverage: at most one origin entry (the first of its kind, where a fetched page says so) and items held by a named design collection (MoMA, V&A, Design Museum London, Cooper Hewitt, Vitra Design Museum) or given a major design award (Compasso d'Oro, Red Dot Best of the Best, iF Gold), each confirmed on a fetched page; no other models are listed. No complete list exists; follows the Wikipedia article named here."
       }
      ]
     }

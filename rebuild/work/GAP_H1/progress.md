@@ -5,3 +5,4 @@ step C: fetched Unilever, Beiersdorf, Wella, ColourPop, ABH, Moroccanoil, Neutro
 step D: applied owners, Poland/Japan ms, coverage lines; validated
 step E: report written
 ROUND 2 started: MediaWiki extracts for ownerless brands, then markets
+step R2a: 14 MediaWiki extracts calls done (batches 0-14); results in notes2.md; yield low (most pages missing/no owner)

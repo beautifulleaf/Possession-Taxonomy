@@ -12,3 +12,5 @@ ROUND2 started: tasks 1 sakwiki 65/74/75/130/84-5layer/Wenger+Delemont 85; 2 Ver
 r2 step1: fetched sakwiki 74mm, Wenger65, Wenger85 2/5/6plus, Delemont85 4. Next: find Wenger85 1/3/4, Delemont 85/65 pages, 130mm, 84-5layer, 75mm via search; Veritas leevalley; locks; morakniv.se
 r2 step2: all sakwiki Wenger85(1-6+)/130(1-4)/65/74 fetched; Delemont=rebadged Wenger (skip dups). Morakniv history no model years. Veritas: LV 429 -> deferred; Veritas router plane based on Stanley #71 (machineatlas). Next: locks via search (Spyderco Delica/Worker, Kershaw Leek, Buck 112, Cold Steel Voyager), then ed2.py
 r2 step3: locks fetched (Delica Back Lock 1990/Delica 4 2006; Buck 112 lockback; Recon 1 Tri-Ad 2000; Voyager Tri-Ad; Leek conflicting; Worker lock 404 x2). sak 58/93/111 layer pages fetched (only new: Onefold Alox 93mm). NEXT: write+run ed2.py (once), validate, update report
+r2 step4: ed2.py applied once (do not rerun)
+r2 done

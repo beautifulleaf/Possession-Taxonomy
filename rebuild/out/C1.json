@@ -3071,7 +3071,15 @@
          "y": "1885",
          "s": "https://supertool.com/StanleyBG/stan10.htm",
          "g": "Nos. 39–99 · joinery and specialist planes",
-         "v": []
+         "v": [
+          {
+           "n": "Veritas Router Plane",
+           "mk": "Veritas",
+           "y": "",
+           "d": "Veritas design based on the Stanley No. 71, with a closed mouth only, per a Machine Atlas review."
+          }
+         ],
+         "dt": "maker version · year"
         },
         {
          "n": "Stanley No. 71½",
@@ -3102,7 +3110,7 @@
         }
        ],
        "nl": "One entry is one Stanley catalogue number; letter, prefix and half-size-suffix variants of the same number are versions.",
-       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Record and Veritas versions are not added because no fetched page ties them to a number. Complete: 4 of 4 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
+       "sel": "Follows Patrick's Blood and Gore, the numbered Stanley plane guide on supertool.com (pages 1–15), and Fine Woodworking's plane-number article. Maker versions are added only where a fetched page ties them to a Stanley number (Lie-Nielsen No. 95, 1981); Veritas is added only for the router plane (Machine Atlas review); Lee Valley pages returned 429, so other Veritas planes and Record versions are not added because no fetched page ties them to a number. Complete: 4 of 4 planes of this kind in the guide; Nos. 14, 53 and 91 are not planes (the guide says No. 14 and No. 91 were never assigned and No. 53 is a spokeshave only).",
        "xg": "Stanley number series"
       },
       {
@@ -6083,10 +6091,63 @@
           }
          ],
          "g": "Buck"
+        },
+        {
+         "n": "Buck 112 Ranger",
+         "d": "Smaller Buck lockback folder, 4.25 in closed, with a 420HC clip blade.",
+         "mk": "Buck",
+         "y": "",
+         "s": "https://www.knifecountryusa.com/store/product/100177.100183/buck-112-ranger-lockback-folding-pocket-knife.html",
+         "g": "Buck",
+         "v": []
+        },
+        {
+         "n": "Cold Steel Recon 1",
+         "d": "Cold Steel folder; redesigned with the Tri-Ad lock, a back lock with a stop pin, designed with Andrew Demko.",
+         "mk": "Cold Steel",
+         "y": "2000",
+         "s": "https://www.offgridweb.com/gear/cold-steel-recon-1/",
+         "g": "Cold Steel",
+         "v": [
+          {
+           "n": "Recon 1 with Tri-Ad lock",
+           "mk": "Cold Steel",
+           "y": "2018",
+           "d": "redesign ten years after the Tri-Ad lock appeared in 2008, per the article"
+          }
+         ],
+         "dt": "version · year"
+        },
+        {
+         "n": "Cold Steel Voyager",
+         "d": "Cold Steel folder sold with the Tri-Ad lock; the Large Voyager has a 4 in AUS-10A clip blade.",
+         "mk": "Cold Steel",
+         "y": "",
+         "s": "https://www.knifecountryusa.com/store/product/326919.326924/cold-steel-29acz-large-voyager-tri-ad-lock.html",
+         "g": "Cold Steel",
+         "v": []
+        },
+        {
+         "n": "Spyderco Delica",
+         "d": "Spyderco folder with a back lock, made in Japan; redesigned as the Delica 4 in 2006.",
+         "mk": "Spyderco",
+         "y": "1990",
+         "s": "https://varusteleka.com/en/products/spyderco-delica-4-lightweight-folding-knife",
+         "g": "Spyderco",
+         "v": [
+          {
+           "n": "Delica 4",
+           "mk": "Spyderco",
+           "y": "2006",
+           "d": "complete redesign of the Delica"
+          }
+         ],
+         "dt": "version · year"
         }
        ],
        "nl": "One entry is one named lockback model line from the references used.",
-       "sel": "No complete list exists; follows the Buck Knives article on Wikipedia (Model 110, introduced 1964, high-tension lock) and the Lock knife article, which credits Buck with popularising the lockback in the 1960s. Lock types of the Spyderco Delica and Worker, Kershaw Leek, Buck 112 and Cold Steel Voyager are not stated on any fetched page (two attempts each), so they are not entries."
+       "sel": "No complete list exists; follows the Buck Knives and Cold Steel articles on Wikipedia, the Lock knife article (Buck popularised the lockback in the 1960s) and one retailer or review page per added model. Cold Steel's Tri-Ad lock is a back lock with a stop pin. Kershaw Leek: retailer pages disagree (frame lock on one, liner lock on others), so it is not placed. Spyderco Worker (first folder, 1981): no fetched page states its lock (Spyderco catalogue URLs returned 404).",
+       "xg": "Maker"
       },
       {
        "n": "Liner-lock & frame-lock folder",
@@ -6279,10 +6340,10 @@
         },
         {
          "n": "Mora Outdoor 2000",
-         "d": "Mora fixed-blade model named on the Mora knife article.",
+         "d": "Mora fixed-blade model named on the Mora knife article; Morakniv's history page dates the Mora 2000 outdoor knife to 1991.",
          "mk": "Morakniv",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Mora_knife",
+         "y": "1991",
+         "s": "https://www.morakniv.com/en-ca/blogs/knife-history/about-morakniv",
          "v": [],
          "g": "Mora"
         },
@@ -6316,7 +6377,7 @@
         }
        ],
        "nl": "One entry is one named fixed-blade model line; steel and handle variants are versions.",
-       "sel": "Follows the Mora knife article and the Buck Knives article on Wikipedia. Complete: 9 of 9 fixed-blade models they name; neither page gives Mora years (searched twice: Mora knife article, Morakniv search; no year found), and the Mora page names models only in a short list.",
+       "sel": "Follows the Mora knife article and the Buck Knives article on Wikipedia. Complete: 9 of 9 fixed-blade models they name; neither page gives Mora years (searched four times: Mora knife article, two searches and Morakniv's own history page, which dates the Mora 2000 to 1991 and the Jagaren to 1975 but gives no year for the models listed), and the Mora page names models only in a short list.",
        "xg": "Maker"
       },
       {
@@ -6780,6 +6841,249 @@
          "v": []
         },
         {
+         "n": "AirTraveler",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "EvoGrip 81",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Swiss Clipper AT",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Bernina Mini Spot Light",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Bottle Mate",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Chairman",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Crusader",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Crusader Money Clip",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Esquire",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Esquire Money Clip",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Executive Golf Pro",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Lithos",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Macao",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "OptiTool",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Pocket Tech",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Pocket Tool Chest",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Swiss Clipper",
+         "d": "Wenger 65 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+65mm",
+         "g": "65 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ambassador",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Cigar Cutter",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Director",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Money Clip",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Prince",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Swiss Beat MP3 Tool",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Windsor",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Accountant",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Beginner",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
+         "n": "Student",
+         "d": "Victorinox 74 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+74mm",
+         "g": "74 mm",
+         "v": []
+        },
+        {
          "n": "Excelsior",
          "d": "Victorinox 84 mm Swiss Army knife model listed on SAKWiki.",
          "mk": "Victorinox",
@@ -7020,6 +7324,1194 @@
          "y": "",
          "s": "https://sakwiki.com/Victorinox+84mm+1+Layer+Models",
          "g": "84 mm",
+         "v": []
+        },
+        {
+         "n": "Classic 30",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Deer",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Duck",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Master Tool 13",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Mountain Bike",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Seafarer",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "SGT Shortix Plus",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Survivor",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Wenger 1.21.13",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Wenger 1.22.03",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Colonel",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Lancelot",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Monarch",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Tool Chest",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Champ",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Matterhorn Original",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Snap Shackle Large",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Matterhorn Plus",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "SGT Fix-It",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Serrated Tool Chest",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Tool Chest Plus",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Giant Knife",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Bernina 504",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Biker 36",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Catch and Release",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Deluxe Backpacker",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 52",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution S557",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Major",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Master",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Minathor",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Shredder",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Sierra",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Swiss Outdoorsman",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Troller",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Apprentice 85",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Canyon",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Classic 66",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Cigar Cutter Slimline",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Commander",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 10",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 11",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Footballer 32",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Golf Pro",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Highlander",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Hobbyist",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Ivanhoe",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior 04",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior 09",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior S10 Scout",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior S11 Scout",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior 13",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Pointer",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "RollerBlade",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Signal",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Titanium 2",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Toilet Paper SAK",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Trailblazer",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Viking",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Entree",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 64",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior 08",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior 10",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Patriot",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Pheasant",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Picnic",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Premier",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Titanium 1",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Watchmaker 60",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "19th Hole Cigar Cutter",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Alpine Backpacker",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Wenger Angler",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Backpacker",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Backpacker II",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Cascade",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Cigar Cutter Standard",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Classic 132",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Classic 16",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Computer Wiz",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Cyclist",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Deluxe Golf Pro",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "EVO S13",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "EVO 14",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "EVO 16",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Footballer 30",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Galahad Packlock",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Gawain",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Wenger Golfer",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Highlander with Choke Tube Tool",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Journeyman",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior 02",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Mustang",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Orthodontic SAK",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Pocket Mountain Bike",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Snap Shackle Small",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Snowboard",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Spot Light",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Swiss Sportsman",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "STGW 90",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Teton",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Titanium Ueli Steck",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Traveler",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Wenger Whistle",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Cigar Cutter with Scissors",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Double Blade",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 17",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 18",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evo Hunter 505",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Fly Fisherman",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Footballer 31",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior 03",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Junior EvoGrip 574",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Laser with Scissors",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Pathfinder",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Safari",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Sailfish",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Skier",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Skitour",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Snowboarder",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Spot Light with Scissors",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Swiss Roller",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Urban Survivor",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Waterfowler",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Zermatt",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution S101",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution S111",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution S13",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 23",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution S52",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution 28",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Evolution S54",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
+         "v": []
+        },
+        {
+         "n": "Cigar 36 and 79",
+         "d": "Wenger 85 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+85mm+6plus+Layer+Models",
+         "g": "85 mm (Wenger and Delémont)",
          "v": []
         },
         {
@@ -7946,6 +9438,15 @@
          "dt": "variant · year"
         },
         {
+         "n": "Onefold Alox",
+         "d": "Victorinox 93 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Victorinox",
+         "y": "",
+         "s": "https://sakwiki.com/Victorinox+93mm+1+Layer+Models",
+         "g": "93 mm",
+         "v": []
+        },
+        {
          "n": "Day Packer",
          "d": "Victorinox 100 mm Swiss Army knife model listed on SAKWiki.",
          "mk": "Victorinox",
@@ -8340,6 +9841,258 @@
          "dt": "variant · year"
         },
         {
+         "n": "Alinghi Rescue Knife",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 51",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 52",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 53",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 54",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 60",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 61",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "RangerWood 161",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Swiss-Star Oboe Knife",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 50",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 80",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 55",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 56",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 71 Gardener",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 70 Handyman",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 73 Electrician",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 75 Handyman",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 74 Handyman",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 174 Touring",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "RangerGrip 182 Spearfishing",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Alinghi 176",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Alinghi 177",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Alinghi 181",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Mike Horn Ranger",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 57 Hunter",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "Ranger 58 Hunter",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "RangerGrip 86 East Ranger",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
+         "n": "RangerGrip 90",
+         "d": "Wenger 130 mm Swiss Army knife model listed on SAKWiki.",
+         "mk": "Wenger",
+         "y": "",
+         "s": "https://sakwiki.com/Wenger+130mm+1+Layer+Models",
+         "g": "130 mm (Wenger)",
+         "v": []
+        },
+        {
          "n": "SwissCard",
          "d": "Credit-card-sized tool with 10 functions (Classic) or 13 (Quattro and Lite).",
          "mk": "Victorinox",
@@ -8387,7 +10140,7 @@
         }
        ],
        "nl": "One entry is a named Swiss Army knife model or soldier's knife generation.",
-       "sel": "Follows the Victorinox article on Wikipedia (owner Victorinox-Stiftung 90 % and Carl und Elise Elsener-Gut Stiftung 10 %; Wenger taken over 26 April 2005) and the SAKWiki Victorinox model pages for 58, 84 (1 to 4 layers), 91, 93, 100 and 111 mm. Covers 192 of about 217 models in SAKWiki; the pages for 65, 74, 75 and 130 mm, the 84 mm five-layer page, the Wenger and Delemont 85 mm pages were not read within the fetch budget. SAKWiki gives a year for only a few models; a name used at two lengths (Golfer, Companion, Picnicker, Pocket Pal) is listed once. Limited editions, sets and aliases are left out.",
+       "sel": "Follows the Victorinox article on Wikipedia (owner Victorinox-Stiftung 90 % and Carl und Elise Elsener-Gut Stiftung 10 %; Wenger taken over 26 April 2005) and the SAKWiki model pages for Victorinox 58, 74, 84 (1 to 4 layers), 91, 93, 100 and 111 mm and for Wenger 65, 85 (1 to 6+ layers) and 130 mm (1 to 4 layers). Complete: 380 of 380 models on those pages. SAKWiki gives a year for only a few models; a name used at two lengths (Golfer, Companion, Picnicker, Pocket Pal, Director) is listed once. Left out: limited editions, sets, aliases, and the Delémont 65 and 130 mm pages, which re-badge Wenger models already listed. SAKWiki has no 75 mm or 84 mm five-layer page (it files the 84 and 85 mm knives under 84 mm to 4 layers and 85 mm).",
        "xg": "Soldier's knives first, then civilian models by handle length"
       },
       {
