@@ -3,3 +3,4 @@ step1 done: Wikidata Q178794 (246 items, mostly museum objects) + Category:Watch
 step2: read Longines/Tissot/Panerai/Hamilton/Zenith/Seiko/Citizen/Vacheron wiki; to add: Amfibia, Ermeto, BeLOWZERO, Vantage, Pearl, Wood, PR516, Longines flyback 1934, Tour de l'Ile 2005 + Seiko/Citizen gaps
 step3: owner fetches done: Chopard(Scheufele 1963), GP(Sowind), Doxa(Jenny/Walca 1997), Glycine(Invicta 2016), UG(Breitling SA 2023), Waltham(DiBenedetto 2011), GF(private,Richemont minority 2006); Nomos/Tutima not stated; Sellita, ChristopherWard 404 -> search
 step4: Sellita (searched: 'Sellita owner Miguel Garcia'; wiki page no owner), CW London Holdings 2014, Vostok Watch Factory LTD, Baltic indie/Malec fetched
+step5: Seth Thomas railroad rows, complication list (Solaria 2025 41, Hybris Mechanica 27), Dawn simulation 1890 patent fetched; searched wake-up light & complicated list. Next: owner searches Poljot/Dufour/Sinclair/Gallet/Urwerk, then write edit script

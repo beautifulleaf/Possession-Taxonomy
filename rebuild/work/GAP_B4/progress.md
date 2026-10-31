@@ -5,3 +5,4 @@ step3: ~34 fetches used; next: merge script (build.py) in work/GAP_B4, then Chin
 step4: ~39 fetches. Chinese New Year, sundial, IMARC done. Next: write merge script build.py then candlestick etc
 step5: build.py APPLIED once (do NOT rerun: duplicates nutcracker version); validate OK 123 kinds 331 entries. ~39 fetches used. Next: Candlestick, Garden fountain, Easter tree, Wreath, Venetian mirror; then add firm brands, report
 step6: ~51 fetches. build2.py (candle holder, easter tree, wreath, artificial tree, mirror) next, then brands, report
+step7: report written, done
