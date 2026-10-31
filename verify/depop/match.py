@@ -1,6 +1,8 @@
 import json,re,glob,os,collections
 D='/home/user/Possession-Taxonomy/verify/depop/'
 def norm(s):
+    import unicodedata
+    s=''.join(c for c in unicodedata.normalize('NFKD',s) if not unicodedata.combining(c))
     s=s.lower().replace('&','and'); s=re.sub(r'\(.*?\)','',s)
     return re.sub(r'[^a-z0-9]','',s)
 bi=json.load(open('/home/user/Possession-Taxonomy/rebuild/reader/_brand_index.json'))['b']

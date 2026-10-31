@@ -2,6 +2,8 @@
 usage: match.py <dir.txt> <expected category codes, comma-separated e.g. H1,H4>"""
 import json,re,sys,collections
 def norm(s):
+    import unicodedata
+    s=''.join(c for c in unicodedata.normalize('NFKD',s) if not unicodedata.combining(c))
     s=s.lower().replace('&','and'); s=re.sub(r'\(.*?\)','',s)
     return re.sub(r'[^a-z0-9]','',s)
 f,exp=sys.argv[1],set(sys.argv[2].split(','))
