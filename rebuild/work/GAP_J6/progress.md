@@ -8,3 +8,4 @@ step6: ~50 fetches done; all research done except optional. NEXT: write rebuild/
 step7: edit1.py run -> work/GAP_J6/J6.tmp + J6_brands.tmp (entries, owners, ms, brands). NEXT edit2.py: sel coverage lines, Bustelo g, apply, validate
 step8: applied edit1+edit2 to rebuild/out/J6.json and J6_brands.json, validated OK. Remaining: optional extra fetches, report
 step9: edit3 (Colombia) applied; report next
+step10: report written; done
