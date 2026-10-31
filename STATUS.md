@@ -406,3 +406,7 @@ Next: write the v4 brief (named-entry standard + market layer + No & low), then 
 
 ## 2026-10-31 LEAN MODE (owner: finish within token limit)
 verify/in/BRANDLAYER_LEAN.txt: J5–J10 one harvest round each; audit+verify fused into one Opus pass with a 15-row sample and ≤8 retry fetches. Categories already in audit (I1, J1–J4) get a lean verify (no new research). Running audits are not stopped (their spend is sunk).
+
+## 2026-10-31 Brand layer complete — 57/57 categories merged; artifact v48 (50,084 brands in the index)
+Next: (1) INDEX CLEANUP list in verify/retail/PLAN.md (Norton, Three, Castello, Clipper, Frontier/Fox/Proton I3, I1 person/call-sign rows, I3 FT/NYT under the content rule, earlier items); (2) HOMONYM MASKING re-scan of early categories; (3) FCDEFER fold-in (trigger 2026-11-01 21:20 UTC); (4) owner pastes (verify/PASTE_PLAN.md, PASTE_REQUESTS.md) — highest value: Decanter (J7 wine), Great Taste (J1–J9).
+OWNER QUEUE add: I3 streaming services that mainly stream their own productions (Dropout, WOW Presents Plus, BlazeTV, Angel Studios, Fox Nation, Epidemic Sound, Nintendo Music, broadcaster catch-up services): keep in I3 or defer?
