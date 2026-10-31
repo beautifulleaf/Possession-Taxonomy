@@ -79,15 +79,6 @@
   },
   {
    "axis": "kind",
-   "item": "Food storage & on-the-go",
-   "queries": [
-    "Wikipedia kitchenware brands (Tupperware, Rubbermaid, Sterilite, Ziploc)"
-   ],
-   "found": 4,
-   "note": ""
-  },
-  {
-   "axis": "kind",
    "item": "Spare parts",
    "queries": [
     "not brand-led (parts sold under appliance makers)"
@@ -288,6 +279,15 @@
    ],
    "found": 0,
    "note": "museum page only names a master (person), no brand"
+  },
+  {
+   "axis": "kind",
+   "item": "Food storage & on-the-go",
+   "queries": [
+    "Good Housekeeping kitchen awards food storage"
+   ],
+   "found": 5,
+   "note": "Glasslock, Bentgo, Souper Cubes etc from GH award list; thermos/flask makers already in register"
   }
  ],
  "regions": [
@@ -1185,6 +1185,69 @@
    "new_names": 2,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://www.housewaresnews.net/red-dot-winners",
+   "title": "HousewaresNews: Red Dot Product Design 2019 housewares winners",
+   "kind": "award",
+   "years": "2019",
+   "names_on_page": 15,
+   "new_names": 6,
+   "status": "partial",
+   "note": "only year 2019 seen via excerpt; other years not opened",
+   "_known": 9
+  },
+  {
+   "url": "https://www.red-dot.org/project/compac-pro-86125",
+   "title": "Red Dot Award Compac Pro cookware (Isogona, Spain)",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.sambonet.com/en-it/awards.html",
+   "title": "Sambonet awards page (Compasso d'Oro, Red Dot, Good Design)",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 0,
+   "status": "done",
+   "note": "",
+   "_known": 1
+  },
+  {
+   "url": "https://www.barazzoni.it/en/blogs/blog",
+   "title": "Barazzoni blog: Tummy pot Compasso d'Oro, Marchio Storico, Red Dot 2022",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://designdiffusion.com/en/2024/06/21/all-the-winners-at-the-compasso-doro-awards-2024",
+   "title": "Compasso d'Oro 2024 winners",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "only the excerpt; list has 20 products, one kitchen"
+  },
+  {
+   "url": "https://www.homepagenews.com/home-housewares/good-housekeeping-reveals-2027-kitchen-award-winners/",
+   "title": "Good Housekeeping 2027 Kitchen Award winners (350+ products tested)",
+   "kind": "ranking",
+   "years": "2027",
+   "names_on_page": 13,
+   "new_names": 4,
+   "status": "partial",
+   "note": "excerpt of one article; appliances sections not seen",
+   "_known": 7
   }
  ],
  "brands": [
@@ -1267,6 +1330,14 @@
    "says": "listed in Wikipedia Category:Home appliance brands / appliance-brands navbox",
    "country": "Poland",
    "dept": "appliances"
+  },
+  {
+   "n": "Anaori Carbon",
+   "layer": "premium",
+   "src": "https://www.housewaresnews.net/red-dot-winners",
+   "says": "Red Dot Product Design 2019 winner in kitchen/tableware (Anaori Carbon Pot and Amenite cutlery by Messermacher Kappeller: Best of the Best)",
+   "country": "Japan",
+   "dept": "cookware/tableware/appliances"
   },
   {
    "n": "Anryu Knives",
@@ -1373,6 +1444,14 @@
    "dept": "appliances"
   },
   {
+   "n": "Barazzoni",
+   "layer": "premium",
+   "src": "https://www.barazzoni.it/en/blogs/blog",
+   "says": "Italian cookware maker, 120-year historic brand (Marchio Storico), Tummy pot won Compasso d'Oro, Red Dot 2022",
+   "country": "Italy",
+   "dept": "cookware"
+  },
+  {
    "n": "Barbini",
    "layer": "premium",
    "src": "https://www.spinzi.com/top-10-legendary-murano-glass-makers",
@@ -1419,6 +1498,14 @@
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "Ireland/UK",
    "dept": "tableware"
+  },
+  {
+   "n": "BergHOFF",
+   "layer": "premium",
+   "src": "https://www.housewaresnews.net/red-dot-winners",
+   "says": "Red Dot Product Design 2019 winner in kitchen/tableware (Anaori Carbon Pot and Amenite cutlery by Messermacher Kappeller: Best of the Best)",
+   "country": "Belgium",
+   "dept": "cookware/tableware/appliances"
   },
   {
    "n": "Berndes",
@@ -1781,6 +1868,14 @@
    "dept": "appliances"
   },
   {
+   "n": "Dreamfarm",
+   "layer": "premium",
+   "src": "https://www.housewaresnews.net/red-dot-winners",
+   "says": "Red Dot Product Design 2019 winner in kitchen/tableware (Anaori Carbon Pot and Amenite cutlery by Messermacher Kappeller: Best of the Best)",
+   "country": "Australia",
+   "dept": "cookware/tableware/appliances"
+  },
+  {
    "n": "Dreiturm (J. A. Schmidt & Söhne)",
    "layer": "premium",
    "src": "https://ivsh.de/mitglieder/2",
@@ -1883,6 +1978,14 @@
    "says": "brand of the Arcturus Group tableware portfolio (Sambonet founded 1856)",
    "country": "France",
    "dept": "tableware"
+  },
+  {
+   "n": "Eva Solo",
+   "layer": "premium",
+   "src": "https://www.housewaresnews.net/red-dot-winners",
+   "says": "Red Dot Product Design 2019 winner in kitchen/tableware (Anaori Carbon Pot and Amenite cutlery by Messermacher Kappeller: Best of the Best)",
+   "country": "Denmark",
+   "dept": "cookware/tableware/appliances"
   },
   {
    "n": "Farberware",
@@ -2053,6 +2156,14 @@
    "dept": "kitchenware"
   },
   {
+   "n": "Glasslock",
+   "layer": "premium",
+   "src": "https://www.homepagenews.com/home-housewares/good-housekeeping-reveals-2027-kitchen-award-winners/",
+   "says": "Good Housekeeping Institute 2027 Kitchen Awards winner (lab and 640 home testers)",
+   "country": "South Korea",
+   "dept": "cookware/tools/storage"
+  },
+  {
    "n": "Glestain",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
@@ -2075,6 +2186,14 @@
    "says": "listed in Wikipedia Category:Kitchenware brands",
    "country": "US",
    "dept": "kitchenware"
+  },
+  {
+   "n": "Gorilla Grip",
+   "layer": "premium",
+   "src": "https://www.homepagenews.com/home-housewares/good-housekeeping-reveals-2027-kitchen-award-winners/",
+   "says": "Good Housekeeping Institute 2027 Kitchen Awards winner (lab and 640 home testers)",
+   "country": "USA",
+   "dept": "cookware/tools/storage"
   },
   {
    "n": "Gree Electric",
@@ -2387,6 +2506,14 @@
    "says": "member of the Solingen IVSH cutlery/household-goods industry association",
    "country": "Germany",
    "dept": "kitchen tools"
+  },
+  {
+   "n": "Isogona",
+   "layer": "premium",
+   "src": "https://www.red-dot.org/project/compac-pro-86125",
+   "says": "Red Dot winner Compac Pro cast-aluminium cookware",
+   "country": "Spain",
+   "dept": "cookware"
   },
   {
    "n": "Itchu-do",
@@ -2861,6 +2988,14 @@
    "dept": "knives"
   },
   {
+   "n": "Mastrad",
+   "layer": "premium",
+   "src": "https://www.housewaresnews.net/red-dot-winners",
+   "says": "Red Dot Product Design 2019 winner in kitchen/tableware (Anaori Carbon Pot and Amenite cutlery by Messermacher Kappeller: Best of the Best)",
+   "country": "France",
+   "dept": "cookware/tableware/appliances"
+  },
+  {
    "n": "Masutani Hamono",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
@@ -2907,6 +3042,14 @@
    "says": "member of IVSH Schneidwaren (Solingen cutlery and cutting-goods industry association)",
    "country": "Germany",
    "dept": "knives"
+  },
+  {
+   "n": "Messermacher Kappeller",
+   "layer": "premium",
+   "src": "https://www.housewaresnews.net/red-dot-winners",
+   "says": "Red Dot Product Design 2019 winner in kitchen/tableware (Anaori Carbon Pot and Amenite cutlery by Messermacher Kappeller: Best of the Best)",
+   "country": "Germany",
+   "dept": "cookware/tableware/appliances"
   },
   {
    "n": "Messers Schneide",
@@ -3123,6 +3266,14 @@
    "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
    "country": "Japan",
    "dept": "knives"
+  },
+  {
+   "n": "Ozeri",
+   "layer": "premium",
+   "src": "https://www.homepagenews.com/home-housewares/good-housekeeping-reveals-2027-kitchen-award-winners/",
+   "says": "Good Housekeeping Institute 2027 Kitchen Awards winner (lab and 640 home testers)",
+   "country": "USA",
+   "dept": "cookware/tools/storage"
   },
   {
    "n": "Paderno",
@@ -3731,6 +3882,14 @@
    "says": "brand carried by Whole Latte Love, specialty espresso retailer (in-house tested)",
    "country": "Switzerland",
    "dept": "coffee machines"
+  },
+  {
+   "n": "Souper Cubes",
+   "layer": "premium",
+   "src": "https://www.homepagenews.com/home-housewares/good-housekeeping-reveals-2027-kitchen-award-winners/",
+   "says": "Good Housekeeping Institute 2027 Kitchen Awards winner (lab and 640 home testers)",
+   "country": "USA",
+   "dept": "cookware/tools/storage"
   },
   {
    "n": "Spal (Sociedade Porcelanas de Alcobaça)",
