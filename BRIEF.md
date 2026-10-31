@@ -131,3 +131,7 @@ Agreed with the owner on 2026-10-17.
 ## Publishers and record labels belong to a Literary (and music) taxonomy (owner, 2026-10-31)
 "I think most of that F1 stuff will be deferred to a Literary Taxonomy, since certain publishers are known for certain types of books much like a record label, etc."
 → F1's brand register keeps only makers known for the physical object itself: fine-press and collectors' editions, globe and map makers, scholarly music editions known for edition quality, audiophile pressings and boutique disc editions. General, genre and comics/manga publishers and record labels — known for what they publish — are deferred: kept in verify/work/BRANDLAYER/DEFER_F1.json for that future taxonomy, not merged here.
+
+## Content publishers deferred; other deferrals confirmed (owner, 2026-10-31)
+"The Internet sruff also goes in Interactive entertsinment, otherwise this is correct. Board game publishers should be deferred as well not any different to video games."
+→ Interactive Entertainment takes: video-game publishers and studios, board-game, card-game, wargame and role-playing publishers (as publishers), and the internet as entertainment. Kept here: video-game hardware makers (E5), toy makers (including toy companies that also publish games), print-edition publishers and art centres (F2), trading-card publishers (F3), paid subscription services (I3). Deferred brand rows are kept with sources in verify/work/BRANDLAYER/DEFER_<C>.json for the future taxonomy.
