@@ -3,6 +3,7 @@ const catName = c => (S.cats.find(x => x.c === c) || {}).n || c;
 const cache = {}; let cur = null, data = null, view = 'cat';
 const domsEl = document.getElementById('doms'), catsEl = document.getElementById('cats'), side = document.getElementById('side'), main = document.getElementById('main'), q = document.getElementById('q'), viewsEl = document.getElementById('views');
 const MODE = { variety: 'Variety', tier: 'Tier', mixed: 'Mixed' };
+const MODE_TIP = { variety: 'Variety: people explore and collect here, so every notable brand and named classic is listed.', tier: 'Tier: people want the right one, so every kind is listed with the brands that cover the market or top independent tests.', mixed: 'Mixed: tier for everyday kinds, variety at the enthusiast end.' };
 let BR = null, TR = null;
 async function getJSON(p) { if (!cache[p]) { const r = await fetch(p); if (!r.ok) throw new Error(r.status); cache[p] = await r.json(); } return cache[p]; }
 async function brands() { if (!BR) { try { const j = await getJSON('reader/_brand_index.json'); BR = new Map(); j.b.forEach(b => [b[0], b[4]].filter(Boolean).forEach(n => { const k = n.toLowerCase(); if (!BR.has(k)) BR.set(k, []); BR.get(k).push(b); })); } catch (e) { BR = new Map(); } } return BR; }
@@ -16,8 +17,8 @@ function showDom(d) { domsEl.querySelectorAll('.dom').forEach(b => b.setAttribut
     b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); return b; })); }
 S.domains.forEach(d => { const b = $('button', { class: 'dom', type: 'button', 'data-d': d.d, text: d.n });
   b.addEventListener('click', () => { q.value = ''; open(S.cats.find(c => c.d === d.d).c, true); }); domsEl.append(b); });
-[['cat', 'Categories'], ['brands', 'Brands A–Z'], ['baby', 'Baby & child']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
-  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrandIndex(); else openBaby(); }); viewsEl.append(b); });
+[['cat', 'Categories'], ['brands', 'Brands A–Z'], ['baby', 'Baby & child'], ['guide', 'How to place']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
+  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrandIndex(); else if (v === 'guide') openGuide(); else openBaby(); }); viewsEl.append(b); });
 new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
 const hl = (text, term) => { if (!term || !text) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
 const slug = (...p) => p.join('-');
@@ -35,10 +36,12 @@ function arch(x) {
   return box;
 }
 function item(k, term) {
-  const a = $('article', { class: 'item' + (k.x && k.x.length ? ' wide' : '') }, $('h5', {}, hl(k.n, term)));
+  const a = $('article', { class: 'item' + (k.x && k.x.length ? ' wide' : ''), 'data-n': k.n, id: k.code ? 'k-' + k.code : null }, $('h5', {}, hl(k.n, term), k.code ? $('span', { class: 'kc', text: k.code }) : null));
   if (k.a) a.append($('p', { class: 'also' }, 'Also called ', hl(k.a, term)));
   if (k.d) a.append($('p', { class: 'desc', text: k.d }));
-  if (k.t && k.t.length) a.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
+  if (k.tt && k.tt.length) a.append($('div', { class: 'tt' }, k.tt.map(([ax, ts]) => $('p', { class: 'also' }, $('b', { text: ax + ': ' }), hl(ts.join(' · '), term)))));
+  else if (k.t && k.t.length) a.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
+  if (k.see && k.see.length) a.append($('p', { class: 'also see' }, 'See also: ', k.see.flatMap(([c, n, why], i) => { const b = $('button', { class: 'seel', type: 'button', title: why || '' }, n, c !== cur ? $('i', { text: ' (' + catName(c) + ')' }) : null); b.addEventListener('click', () => jump(c, n)); return i ? [' · ', b] : [b]; })));
   if (k.tg && k.tg.length) a.append($('p', { class: 'tags' }, k.tg.map(t => $('span', { class: 'tag', text: t }))));
   if (k.x && k.x.length) { const det = $('details', { class: 'models', open: '' }, $('summary', { text: k.x.length + (k.x.length === 1 ? ' archetype' : ' archetypes') }));
     det.append($('div', { class: 'archs' }, k.x.map(arch))); a.append(det); }
@@ -109,20 +112,33 @@ function renderScenes() {
 function renderTree() {
   const total = data.depts.reduce((a, d) => a + d.s.reduce((b, s) => b + s.k.length, 0), 0);
   const ol = $('ol');
-  data.depts.forEach((d, i) => { const n = d.s.reduce((a, s) => a + s.k.length, 0);
+  data.depts.forEach((d, i) => { const n = d.s.reduce((a, s) => a + s.k.length, 0); d.code = cur + '-' + (i + 1);
+    d.s.forEach((s, j) => { s.code = d.code + '-' + (j + 1); s.k.forEach((k, m) => { k.code = s.code + '-' + String(m + 1).padStart(2, '0'); }); });
     const li = $('li', { class: 'd' }, $('a', { href: '#' + slug('d', i) }, d.n, $('span', { text: n })));
     if (d.s.length > 1) li.append($('ol', {}, d.s.map((s, j) => $('li', {}, $('a', { href: '#' + slug('s', i, j) }, s.n, $('span', { text: s.k.length }))))));
     ol.append(li); });
   side.replaceChildren($('h2', { text: catName(cur) }), ol);
   main.replaceChildren();
-  main.append($('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', { text: (data.lead ? data.lead + ' ' : '') + total + ' kinds in ' + data.depts.length + (data.depts.length === 1 ? ' department.' : ' departments.') })));
+  const fwc = (S.fw && S.fw.cats && S.fw.cats[cur]) || {};
+  const arch = data.depts.reduce((a, d) => a + d.s.reduce((b, s) => b + s.k.reduce((c, k) => c + (k.x || []).length, 0), 0), 0);
+  const ci = S.cats.find(x => x.c === cur) || {};
+  const head = $('div', { class: 'cat-head' }, $('h2', {}, $('span', { class: 'cc', text: cur }), catName(cur)), $('p', { text: data.lead || '' }));
+  if (fwc.test) head.append($('p', { class: 'test' }, $('b', { text: 'Belongs here: ' }), fwc.test));
+  head.append($('p', { class: 'stats' }, [[total, 'kinds'], [data.depts.length, data.depts.length === 1 ? 'department' : 'departments'], [data.depts.reduce((a, d) => a + d.s.length, 0), 'shelves'], [arch, 'archetypes'], [ci.nb || 0, 'brands']].filter(([n]) => n).map(([n, l]) => $('span', {}, $('b', { text: n.toLocaleString() }), ' ' + l))));
+  if (data.ax) head.append($('p', { class: 'axis' }, $('b', { text: 'Departments by ' }), data.ax.replace(/^departments by /i, '')));
+  const keySteps = [...(data.key || [])], prec = fwc.prec || [];
+  if (keySteps.length || prec.length) head.append($('details', { class: 'key' }, $('summary', { text: 'Key to this category' }), keySteps.map(p => { const e = $('p'); e.innerHTML = p; return e; }), prec.length ? $('p', {}, $('b', { text: 'Edges with other categories' })) : null, prec.map(p => $('p', { class: 'prec', text: p }))));
+  main.append(head);
   const tb = tabBar(); if (tb) main.append(tb);
   if ((data.b || []).length) main.append(best(data.b));
   data.depts.forEach((d, i) => {
-    const sec = $('section', { class: 'dept', id: slug('d', i) }, $('h3', { class: 'dept-name' }, d.n, d.mode ? $('span', { class: 'mode', text: MODE[d.mode] || d.mode }) : null));
+    const sec = $('section', { class: 'dept', id: slug('d', i) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null));
+    if (d.t) sec.append($('p', { class: 'test', text: d.t }));
+    if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'Shelves by ' }), d.ax.replace(/^shelves by /i, '')));
     if (d.note) sec.append($('p', { class: 'note', text: d.note }));
     if ((d.b || []).length) sec.append(best(d.b));
-    d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', i, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') })) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
+    d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', i, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, $('span', { class: 'cc', text: s.code }), s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') })) : null,
+      s.t ? $('p', { class: 'defn', text: s.t }) : null, s.ax ? $('p', { class: 'axis' }, $('b', { text: 'Kinds by ' }), s.ax.replace(/^kinds by /i, '')) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
     main.append(sec);
   });
   spy();
@@ -216,7 +232,18 @@ async function openBaby() {
     sec.append($('div', { class: 'hits' }, groups.get(c).map(([n, d]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', { text: n }), $('i', { text: d || '' })); b.addEventListener('click', () => jump(c, n)); return b; }))); main.append(sec); });
   spy();
 }
-async function jump(c, n) { q.value = ''; await open(c, true, null, 'kinds'); const el = [...main.querySelectorAll('article.item h5')].find(h => h.textContent === n); if (el) { el.closest('article').scrollIntoView({ block: 'center' }); el.closest('article').style.outline = '2px solid var(--flag)'; } }
+function openGuide() {
+  setView('guide'); showDom(''); const fw = S.fw || {};
+  const ol = $('ol'); [['g-read', 'How to read it'], ['g-key', 'Placement key'], ['g-cats', 'Categories and edges']].forEach(([id, l]) => ol.append($('li', {}, $('a', { href: '#' + id }, l))));
+  side.replaceChildren($('h2', { text: 'How to place' }), ol);
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'How to place' }), $('p', { text: 'Every object has one home. Run the key from the top and stop at the first yes; the category page then has its own key to the right department.' })));
+  const sec = (id, title, ...kids) => main.append($('section', { class: 'dept guide', id }, $('h3', { class: 'dept-name', text: title }), ...kids));
+  sec('g-read', 'How to read it', (fw.intro || []).map(p => $('p', { text: p })), $('p', {}, $('b', { text: 'Modes. ' }), Object.values(MODE_TIP).join(' ')));
+  sec('g-key', 'Placement key', $('ol', { class: 'keylist' }, (fw.key || []).map(p => { const m = p.match(/→\s*([A-J]\d+)\b/); const li = $('li'); li.append(p.replace(/^\d+\.\s*/, '')); if (m && S.cats.some(c => c.c === m[1])) { const b = $('button', { class: 'tag link', type: 'button', text: 'open ' + catName(m[1]) }); b.addEventListener('click', () => open(m[1], true)); li.append(' ', b); } return li; })));
+  sec('g-cats', 'Categories and edges', $('div', { class: 'items' }, S.cats.map(c => { const f = (fw.cats || {})[c.c] || {}; const a = $('article', { class: 'item' }, $('h5', {}, $('span', { class: 'cc', text: c.c }), c.n)); if (f.test) a.append($('p', { class: 'desc', text: f.test })); (f.prec || []).forEach(p => a.append($('p', { class: 'also', text: p }))); a.addEventListener('dblclick', () => open(c.c, true)); return a; })));
+  spy(); window.scrollTo({ top: 0 });
+}
+async function jump(c, n) { q.value = ''; await open(c, true, null, 'kinds'); if (mode === 'scene' && data && data.scenes && data.scenes.length) { mode = 'tree'; render(); } const el = [...main.querySelectorAll('article.item')].find(a => a.dataset.n === n); if (el) { el.scrollIntoView({ block: 'center' }); el.style.outline = '2px solid var(--flag)'; } }
 function search() {
   const term = q.value.trim().toLowerCase();
   if (!term) { if (view === 'cat' && data) render(); else if (view === 'brands') openBrandIndex(); return; }

@@ -1,0 +1,41 @@
+COMMON BRIEF — structure pass STR (owner request 2026-10-31)
+
+Owner: "if you click on Stews in the Culinary one, you really get a full grasp of everything but in an organized way. Whereas like, fidget toys, it feels a bit unorganized."
+
+RESUME RULE: before doing anything, read /home/user/Possession-Taxonomy/rebuild/work/STR_<CODE>/progress.md if it exists and continue from the last completed step; append one line to it after each step. Never redo a step marked done. Never run git, merge.py or build.py; never publish.
+
+Read first:
+- /home/user/Possession-Taxonomy/rebuild/RULES.md (binding owner rules: object focus, pursuits and titles out, brand modes, archetype standard, restraint for quality-of-life items).
+- /home/user/Possession-Taxonomy/rebuild/SCHEMA.md (schema v2) — EXCEPT its sourcing commands: never use curl, wget or Python fetching. Retrieve pages only with WebFetch/WebSearch, the Firecrawl MCP tools (mcp__Firecrawl__firecrawl_search / firecrawl_scrape) or the Parallel_Auth MCP tools (mcp__Parallel_Auth__web_search / web_fetch). Search excerpts may locate items; an `s` source must be a page you fetched. Never guess URLs.
+- This brief (schema v3 additions below).
+- Your category file: /home/user/Possession-Taxonomy/rebuild/out/<CODE>.json.
+
+## What "organized like Stews" means (the model to copy)
+Culinary's family "Stews, Curries & Braises" opens with one test of what belongs ("pieces cooked in a sauce or gravy that is eaten with them"), then splits into four sub-families, each stating ONE axis ("how the spice or chile base is built", "what thickens the sauce", "the cooking liquid", "the seasoning liquid"). Every leaf has a one-line definition with examples and its boundary ("…unlike chilli-oil poached dishes → D1-7"), and its kinds are grouped into sections along a stated axis. A reader sees the whole space at once and can tell why each thing sits where it does and where its neighbours went.
+
+Today's Possession shelves often fail this. Example, E1 "Fidgets": no statement of what a fidget is versus a puzzle or a desk toy; kinds cut by mixed questions ("Clicker & button fidget" holds pop-its, which pop rather than click); one flat type list mixes shape, material and form ("Three-lobe · Two-lobe · Metal · Plastic · Spinner ring"); archetypes that are not named things ("Three-lobed bearing spinner", "Stress ball", "Magnetic push slider"); named classics missing; Rubik's Snake under fidgets though it is a twisty puzzle.
+
+## Your job for ONE category
+1. Category: write `ax` (the one question that splits the category into departments) and `key` (a placement key for departments: numbered steps "N. <question>? → <exact department name>", stop at the first yes, with any precedence notes as a final step in italics; as many steps as departments need, no more). Rewrite `lead` only if it contradicts RULES.md (e.g. E2 must not say "organised by sport or pursuit": it is equipment organised by object, with a pursuit grouping equipment only where owners shop that way).
+2. Every department: `t` (one sentence: what belongs here, naming the neighbours it is not, e.g. "…; a puzzle with a goal → Puzzles shelf; a desk ornament → B4") and `ax` (the one question that splits it into shelves). Shelves of one department must all answer that same question. Fix shelves that do not (split, merge, rename, regroup). Keep 5–12 departments per category and 2–8 shelves per department where the content allows; a department of one shelf is fine only when the department is small.
+3. Every shelf: `t` (one-sentence definition with 2–5 examples and its boundary) and, when it holds more than 3 kinds, `ax` (the axis that orders its kinds, e.g. "kinds by what the hand does: spin, click, pop, slide, squeeze, flip, roll"). Order the kinds along that axis (originator or most common first within a step), never alphabetically.
+4. Every kind: siblings on a shelf are cut by the shelf's axis. Split a kind that mixes two answers (pop-it out of clicker fidgets), merge kinds that differ only by an attribute, rename to the name a shop or reference uses. Replace flat `t` with `tt`: types grouped by named axes, e.g. [["Shape",["Three-lobe","Two-lobe","Bar"]],["Material",["Brass","Titanium","Plastic"]]]. A type is an attribute-level variant, never a named product.
+5. Archetypes (`x`) are real named things only: a named model family, icon, pattern or standard that exists apart from one SKU, with its originating maker and year where known and a fetched source. Generic descriptions ("Stress ball", "Three-lobed bearing spinner") are not archetypes: turn them into types or the kind's definition. In variety departments add the missing named classics an informed enthusiast would expect (sourced); in tier departments do not add models or archetypes — completeness there means every distinct kind a good shop lists, plus the existing tier brands.
+6. Coverage of kinds: after regrouping, check each shelf against at least one fetched reference that lists the shelf's whole space (a specialist retailer's category page, a reference database, a Wikipedia list or category). Add the distinct kinds it has that you lack (each new kind needs `s`), so that opening a shelf gives the full picture of its space. Record each reference in the report.
+7. Cross-links: when a kind has a close neighbour elsewhere (another shelf, or another category), add `see`: [["<CODE>","<exact kind name>","why, a few words"]]. Check every target name exists (the other category's file is rebuild/reader/<CODE>.json). Required for these known cross-category pairs when one side is yours: the list in /home/user/Possession-Taxonomy/verify/in/STR_SEE.tsv.
+
+## Schema v3 additions (everything in schema v2 stays valid)
+Category: "ax": "…", "key": ["1. …? → Dept", …]
+Department: "t": "…", "ax": "…"  (keep "mode", "note", "b")
+Shelf: "t": "…", "ax": "…" (ax optional for ≤3 kinds)
+Kind: "tt": [["Axis label", ["type", …]], …] (replaces "t"; drop "t" when "tt" is present), "see": [["CODE","kind name","why"]]
+Style: plain sentences under 30 words, British spelling, no marketing language, no codes or working terms in reader text.
+
+## Limits
+- Kinds never vanish silently: each removed kind is merged into a named kind (its archetypes, models and ranges carried over) or moved via _moves.json, and listed in the report. Do not drop sourced archetypes or models; move them to the right kind.
+- Kinds the rules send to another category go to rebuild/out/<CODE>_moves.json as {"to","dept","kind"} entries (append, never remove existing entries). Never edit another category's files.
+- Files you may edit: rebuild/out/<CODE>.json, rebuild/out/<CODE>_brands.json (add makers you use as archetype `mk`, exact names, checked case-insensitively against rebuild/reader/_brand_index.json), rebuild/out/<CODE>_moves.json. Back each up first to rebuild/work/STR_<CODE>/bak/; write via temp file then rename. Do the edits with a Python script in rebuild/work/STR_<CODE>/ (python3 -I), not by retyping the file. Log every retrieved URL in rebuild/work/STR_<CODE>/sources.tsv (item, url, date, status).
+- Keep the file under about 600 KB.
+
+## Finish
+Run python3 /home/user/Possession-Taxonomy/rebuild/validate.py --v3 rebuild/out/<CODE>.json until it prints OK. Write rebuild/out/STR_<CODE>_report.md (≤ 350 words): departments, shelves, kinds and archetypes before → after; kinds split, merged, renamed, added (with the reference used per shelf), moved; generic archetypes demoted; cross-links added; anything you could not source. Reply with a short summary.

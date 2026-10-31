@@ -1,18 +1,35 @@
 import json,sys,re
-p=sys.argv[1]; d=json.load(open(p)); err=[]
+V3='--v3' in sys.argv; args=[a for a in sys.argv[1:] if a!='--v3']
+p=args[0]; d=json.load(open(p)); err=[]
 def need(o,k,w):
     if not o.get(k): err.append(f"{w}: missing {k}")
 if not re.match(r'^[A-J]\d+$',d.get('c','')): err.append('bad c')
 names=set()
+if V3:
+    if not d.get('ax'): err.append('category: missing ax')
+    if not d.get('key') or not isinstance(d['key'],list): err.append('category: missing key')
+    dn={dp.get('n') for dp in d.get('depts',[])}
+    for st in d.get('key') or []:
+        m=re.search(r'→\s*(.+?)\s*$',re.sub(r'<[^>]+>','',st))
+        if m and not st.lstrip().startswith('<i>') and m.group(1).rstrip('.') not in dn and not re.search(r'\b[A-J]\d+\b',m.group(1)): err.append(f'key step points at unknown department: {m.group(1)}')
 for i,dp in enumerate(d.get('depts',[])):
     need(dp,'n',f'dept {i}')
     if dp.get('mode') not in ('variety','tier','mixed'): err.append(f"dept {dp.get('n')}: mode")
+    if V3: need(dp,'t',f"dept {dp.get('n')}"); need(dp,'ax',f"dept {dp.get('n')}")
     for s in dp.get('s',[]):
         need(s,'n','shelf')
+        if V3:
+            need(s,'t',f"shelf {s.get('n')}")
+            if len(s.get('k',[]))>3: need(s,'ax',f"shelf {s.get('n')}")
         for k in s.get('k',[]):
             w=f"kind {k.get('n')}"; need(k,'n',w); need(k,'d',w)
             if k['n'].lower() in names: err.append(f"{w}: duplicate kind")
             names.add(k['n'].lower())
+            if k.get('tt') is not None:
+                if k.get('t'): err.append(f"{w}: has both t and tt")
+                if not (isinstance(k['tt'],list) and all(isinstance(g,list) and len(g)==2 and isinstance(g[0],str) and isinstance(g[1],list) and g[1] for g in k['tt'])): err.append(f"{w}: bad tt")
+            for sv in k.get('see') or []:
+                if not (isinstance(sv,list) and len(sv) in (2,3) and re.match(r'^[A-J]\d+$',str(sv[0]))): err.append(f"{w}: bad see {sv}")
             if k['n'].lower().startswith('other '): err.append(f"{w}: catch-all name")
             for x in k.get('x',[]) or []:
                 ww=f"{w} / arch {x.get('n')}"; need(x,'n',ww); need(x,'s',ww)

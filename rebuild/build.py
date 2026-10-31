@@ -31,6 +31,25 @@ button.tag { cursor: pointer; }
 section.scene.sub { margin-left: 14px; padding-left: 12px; border-left: 2px solid var(--rule); }
 section.scene h5 { font: 700 17px/1.1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 6px 0 0; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
 section.scene h5 span { font: 500 12px/1 var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
+.cc { font: 500 12px/1 var(--mono); color: var(--muted); letter-spacing: 0; text-transform: none; margin-right: 8px; vertical-align: middle; }
+h4.shelf-name .cc, h3.dept-name .cc { font-size: 12px; }
+.kc { font: 500 10.5px/1 var(--mono); color: var(--muted); margin-left: 8px; font-weight: 400; }
+p.test { margin: 4px 0 0; font-style: italic; color: var(--ink); max-width: 80ch; font-size: 15px; }
+p.axis { margin: 2px 0 0; color: var(--muted); font-size: 14px; max-width: 80ch; }
+p.axis b, p.test b { font-weight: 600; font-style: normal; }
+p.defn { margin: -4px 0 0; font-size: 14.5px; max-width: 80ch; }
+p.stats { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13.5px; }
+p.stats b { color: var(--ink); font-variant-numeric: tabular-nums; }
+details.key { margin-top: 8px; max-width: 80ch; font-size: 14.5px; }
+details.key summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+details.key p { margin: 6px 0; }
+details.key p.prec { color: var(--muted); }
+.tt { display: grid; gap: 2px; }
+.tt b { font-weight: 600; color: var(--ink); }
+button.seel { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-decoration-style: dotted; }
+button.seel i { font-style: normal; color: var(--muted); }
+ol.keylist { display: grid; gap: 6px; padding-left: 22px; max-width: 90ch; }
+section.guide p { max-width: 80ch; margin: 0; }
 """
 head = head.replace('</style>', extra + '</style>', 1) if head.count('</style>') == 1 else head[::-1].replace('>elyts/<', ('>elyts/<' + extra[::-1]), 1)[::-1]
 header = """<header>
@@ -55,7 +74,8 @@ for c in meta['cats']:
                     index.append([c['c'], x['n'], x.get('a', '') or '', k['n']])
     r = REG.get(c['c'], {})
     cats.append(dict(c, k=n, nb=r.get('brands', 0), nt=r.get('traditions', 0), ns=r.get('species', 0)))
-S = {'domains': meta['domains'], 'cats': cats, 'index': index}
+FW = '../framework/key_v0_8.json'
+S = {'domains': meta['domains'], 'cats': cats, 'index': index, 'fw': json.load(open(FW)) if os.path.exists(FW) else {}}
 app = open('app.js').read()
 html = head + '\n' + header + '\n<script>\nconst S = ' + json.dumps(S, ensure_ascii=False, separators=(',', ':')) + ';\n' + app + '</script>\n'
 open('index.html', 'w').write(html)
