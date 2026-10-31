@@ -131,6 +131,25 @@
    ],
    "found": 4,
    "note": "BugsDirect/BicBugs/Pin-It seen in search excerpts only (not fetched), not recorded"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Pune zeolite specimen dealers India",
+    "Namak Mandi"
+   ],
+   "found": 4,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Afghanistan Pakistan Himalaya mineral specimens renowned"
+   ],
+   "found": 2,
+   "note": "Afghan lapis via Peshawar page; no Central Asian (Uzbek/Kazakh) maker found"
   }
  ],
  "regions": [
@@ -203,6 +222,24 @@
    "speciality": "UNESCO World Heritage 1995: richest Eocene fossil site, articulated mammal skeletons, feathers, skin and stomach contents",
    "src": "https://whc.unesco.org/en/list/720",
    "brands": []
+  },
+  {
+   "region": "India (Deccan Traps, Pune/Nashik, Maharashtra)",
+   "speciality": "zeolites: apophyllite (green), stilbite, heulandite, cavansite, scolecite; 'world-famous for its mineral specimens'",
+   "src": "https://turnstone.ca/rom142ze.htm",
+   "brands": [
+    "Gargoti Museum",
+    "Superb Minerals India"
+   ]
+  },
+  {
+   "region": "Pakistan / Afghanistan (Peshawar Namak Mandi; Kokcha, Kunar, Mohmand)",
+   "speciality": "lapis lazuli (Kokcha mine 4), tourmaline, kunzite, aquamarine, emerald, nephrite, mineral specimens; Namak Mandi gem market",
+   "src": "https://www.gia.edu/dam/migrated-assets/docs/doc1/summer-2021-namak-mandi-poineering-gemstone-market.pdf",
+   "brands": [
+    "Mineral Capture",
+    "Fine Arts Minerals"
+   ]
   }
  ],
  "sources": [
@@ -325,6 +362,26 @@
    "new_names": 0,
    "status": "partial",
    "note": "states an official directory of Accredited Members exists, but the list is behind members pages not linked; no studio names obtainable"
+  },
+  {
+   "url": "https://gargoti.com/pages/museum",
+   "title": "Gargoti Museum (India)",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "museum with shop; seller role (0 already in register)"
+  },
+  {
+   "url": "https://www.gia.edu/dam/migrated-assets/docs/doc1/summer-2021-namak-mandi-poineering-gemstone-market.pdf",
+   "title": "Namak Mandi: A Pioneering Gemstone Market in Pakistan (Gems & Gemology, Summer 2021)",
+   "kind": "encyclopedia",
+   "years": "2021",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "seller role; lapis Kokcha mine 4 and nephrite Mohmand named as quality sources (0 already in register)"
   }
  ],
  "brands": [
@@ -1452,6 +1509,46 @@
    "says": "self-described long-established London taxidermy company, 40+ years at its Islington premises, family trade; display cases made to order (existence/self-claim only; independent standing not yet found)",
    "country": "UK",
    "dept": "taxidermy mounts, hire, restoration, display cases",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Gargoti Museum",
+   "layer": "cultural",
+   "src": "https://gargoti.com/pages/museum",
+   "says": "India's first gem/mineral/fossil museum (Nashik, 2001) with souvenir shop; founder's export company Superb Minerals India (1994) described as world's largest exporter of Indian zeolites (self-description)",
+   "country": "India",
+   "dept": "Deccan zeolites, gems, souvenir shop",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Superb Minerals India",
+   "layer": "cultural",
+   "src": "https://gargoti.com/pages/museum",
+   "says": "India's first gem/mineral/fossil museum (Nashik, 2001) with souvenir shop; founder's export company Superb Minerals India (1994) described as world's largest exporter of Indian zeolites (self-description)",
+   "country": "India",
+   "dept": "Indian zeolite export",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Mineral Capture",
+   "layer": "cultural",
+   "src": "https://www.gia.edu/dam/migrated-assets/docs/doc1/summer-2021-namak-mandi-poineering-gemstone-market.pdf",
+   "says": "owners credited by GIA's Gems & Gemology as Namak Mandi specimen dealers who supplied specimens for photography",
+   "country": "Pakistan",
+   "dept": "mineral specimens (Peshawar)",
+   "already": false,
+   "role": "seller"
+  },
+  {
+   "n": "Fine Arts Minerals",
+   "layer": "cultural",
+   "src": "https://www.gia.edu/dam/migrated-assets/docs/doc1/summer-2021-namak-mandi-poineering-gemstone-market.pdf",
+   "says": "owners credited by GIA's Gems & Gemology as Namak Mandi specimen dealers who supplied specimens for photography",
+   "country": "Pakistan",
+   "dept": "mineral specimens (Peshawar)",
    "already": false,
    "role": "seller"
   }

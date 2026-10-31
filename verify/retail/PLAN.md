@@ -27,3 +27,4 @@ Rules for the enrichment pass:
 - HOMONYM MASKING (found in AUDIT_E3): harvest dedupe skipped names already in the register under another category, so a same-name brand of THIS category may be missing (different company) or lack this category's tag (same company). After the brand layer, re-scan each harvest's 'already known' skips against the register's categories and resolve (cross-tag or qualified new row).
 - INDEX CLEANUP (E4): also Browning ('gun safes') and Wilkinson Sword ('razors') rows carry wrong E4 descriptions.
 - INDEX CLEANUP (E6): 'Fischer' row mixes fixings company with the barometer maker — split into Fischer (barometers). Open: Apogee Instruments vs Apogee Imaging Systems.
+- INDEX CLEANUP (F1): register 'Linn' row carries E3 (likely Roger Linn's drum machines, a different company) — split.
