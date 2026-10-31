@@ -80,3 +80,6 @@ def age_tt(extra=None, labels=None):
     return (extra or []) + g
 
 depts = []
+
+def OD(n):
+    return [x for x in old['depts'] if x['n'] == n][0]

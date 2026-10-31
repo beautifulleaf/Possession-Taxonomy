@@ -73,7 +73,7 @@ swords = D('Swords', 'variety',
   S('Sword guards & scabbards', 'Loose guards and sheaths for European and other swords; the Japanese equivalents → Japanese sword fittings.', None, [guard, scab]),
   S('Japanese sword fittings (tosogu)', 'Loose metal and wooden fittings of a Japanese sword, such as the tsuba, fuchi-kashira and menuki, collected by school and maker.',
     'kinds by position on the sword, from the blade collar to the scabbard', tosogu),
- ], note=old['depts'][0].get('note'))
+ ], note=OD('Swords').get('note'))
 depts.append(swords)
 
 # ================= KNIVES =================
@@ -127,5 +127,5 @@ knives = D('Knives & daggers', 'mixed',
     'kinds by how the blade is built and fixed, oldest first', bay),
   S('Throwing & trick knives', 'Blades thrown or opened by a flick, spring or swing, such as the throwing knife, shuriken, butterfly knife and automatic knife.',
     'kinds by how the blade is put to work, from thrown to flicked to spring-opened', trick),
- ], note=old['depts'][1].get('note'))
+ ], note=OD('Knives & daggers').get('note'))
 depts.append(knives)

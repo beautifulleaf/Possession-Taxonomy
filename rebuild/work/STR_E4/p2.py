@@ -105,5 +105,5 @@ archery = D('Archery & slings', 'mixed',
   S('Arrows, bolts & points', 'What a bow or crossbow shoots: arrows, crossbow bolts and the heads fitted to them.', None, proj),
   S('Bow accessories', 'Fittings that go on a bow or its string, such as the bowstring, release aid, riser, rest, sight and stabiliser; a quiver or arm guard → E2.',
     'kinds by where they fit on the bow, from the string to the front rod', acc),
- ], note=old['depts'][6].get('note'))
+ ], note=OD('Archery & slings').get('note'))
 depts.append(archery)

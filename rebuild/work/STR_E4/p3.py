@@ -62,7 +62,7 @@ firearms = D('Firearms', 'mixed',
     'kinds by action and barrel layout, from the single-shot to the combination gun', shotguns),
   S('Muzzle-loading guns', 'Guns loaded with powder and ball from the muzzle, such as flintlock pistols, percussion revolvers, muskets and blunderbusses.',
     'kinds by gun type, from pistols through the short smoothbore to long guns', muzz),
- ], note=old['depts'][2].get('note'))
+ ], note=OD('Firearms').get('note'))
 firearms['_after'] = None
 del firearms['_after']
 
@@ -113,7 +113,7 @@ airguns = D('Air guns', 'mixed',
   S('Air pistols', 'Handgun-format guns that fire pellets or BBs by spring, pumped air, gas or a charged tank.',
     'kinds by how the power is made or stored: spring piston, pump, CO2 gas, pre-charged tank', [sp_pistol, pump_pistol, co2_pistol, pcp_pistol]),
   S('Air-gun ammunition & gas', 'Pellets and BBs fired by air guns, and the gas capsules that drive CO2 guns.', None, air_ammo),
- ], note=old['depts'][4].get('note'))
+ ], note=OD('Air guns').get('note'))
 
 # ================= AMMUNITION & RELOADING =================
 HL = WIKI + 'Handloading'
