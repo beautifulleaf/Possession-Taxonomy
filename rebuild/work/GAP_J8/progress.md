@@ -3,3 +3,4 @@ step A: added Mithai/Wagashi/Halva/Marzipan/Nougat/Baklava from Wikipedia (6 fet
 step B: market facts added (DE/FR sweets, Ülker, DE choc, BR bread); UK/Japan searched
 step C: coverage lines, Mithai/Wagashi complete, brands; remaining: report
 step D: report written; done
+round2 start: lists (confectionery brands, ice cream brands, snack foods, breads), then share markets

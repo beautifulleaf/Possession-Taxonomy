@@ -4,3 +4,4 @@ step2: read Longines/Tissot/Panerai/Hamilton/Zenith/Seiko/Citizen/Vacheron wiki;
 step3: owner fetches done: Chopard(Scheufele 1963), GP(Sowind), Doxa(Jenny/Walca 1997), Glycine(Invicta 2016), UG(Breitling SA 2023), Waltham(DiBenedetto 2011), GF(private,Richemont minority 2006); Nomos/Tutima not stated; Sellita, ChristopherWard 404 -> search
 step4: Sellita (searched: 'Sellita owner Miguel Garcia'; wiki page no owner), CW London Holdings 2014, Vostok Watch Factory LTD, Baltic indie/Malec fetched
 step5: Seth Thomas railroad rows, complication list (Solaria 2025 41, Hybris Mechanica 27), Dawn simulation 1890 patent fetched; searched wake-up light & complicated list. Next: owner searches Poljot/Dufour/Sinclair/Gallet/Urwerk, then write edit script
+step6: Poljot (ambiguous: Volmax/Pugachev), Dufour independent, Sinclair NEB 1976-79, Urwerk no owner (searched 2x). Next: write edit script work/GAP_A5/apply.py

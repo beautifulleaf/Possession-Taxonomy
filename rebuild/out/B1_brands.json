@@ -56,7 +56,9 @@
     "Mushroom chair"
    ],
    "s": "https://en.wikipedia.org/wiki/Artifort",
-   "kf": "design chairs"
+   "kf": "design chairs",
+   "own": "Lande Group",
+   "tier": "Independent"
   },
   {
    "n": "B&B Italia",
@@ -218,7 +220,9 @@
     "Navy chair"
    ],
    "s": "https://en.wikipedia.org/wiki/Navy_chair",
-   "kf": "navy chair"
+   "kf": "navy chair",
+   "own": "Gregg Buchbinder",
+   "tier": "Independent"
   },
   {
    "n": "Emma",
@@ -543,7 +547,9 @@
     "La-Z-Boy recliner"
    ],
    "s": "https://en.wikipedia.org/wiki/La-Z-Boy",
-   "kf": "recliners"
+   "kf": "recliners",
+   "own": "La-Z-Boy Incorporated",
+   "tier": "Independent"
   },
   {
    "n": "Lane",
@@ -764,7 +770,9 @@
     "DXRacer"
    ],
    "s": "https://en.wikipedia.org/wiki/Secretlab",
-   "kf": "gaming chairs"
+   "kf": "gaming chairs",
+   "own": "Ian Ang, Alaric Choo and Heliconia Capital Management",
+   "tier": "Independent"
   },
   {
    "n": "Serta",
@@ -880,7 +888,9 @@
     "Herman Miller"
    ],
    "s": "https://en.wikipedia.org/wiki/Steelcase",
-   "kf": "office furniture"
+   "kf": "office furniture",
+   "own": "HNI Corporation",
+   "tier": "Independent"
   },
   {
    "n": "Stokke",
@@ -1031,7 +1041,7 @@
    "eras": [],
    "sc": [],
    "kf": "nelson clocks",
-   "own": "Vitra (Fehlbaum family)",
+   "own": "Vitra (Swiss family-owned)",
    "tier": "Independent"
   },
   {
@@ -1275,7 +1285,10 @@
    "seg": "Heritage manufactory",
    "d": "Maker named for the Long Chair after Marcel Breuer, 1935-36.",
    "s": "https://en.wikipedia.org/wiki/Marcel_Breuer",
-   "kf": "plywood furniture"
+   "kf": "plywood furniture",
+   "own": "Isokon (licensed from the Pritchard family)",
+   "tier": "Independent",
+   "f": "1929"
   },
   {
    "n": "Adico",
@@ -1311,11 +1324,14 @@
   },
   {
    "n": "Gufram",
-   "c": "",
+   "c": "Italy",
    "seg": "Premium",
    "d": "Maker of a furniture piece listed in Wikidata.",
    "s": "https://query.wikidata.org/sparql?format=json&query=SELECT%20DISTINCT%20%3FiLabel%20%3FmLabel%20%3Fy%20WHERE%20%7B%3Fi%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ14745.%20%3Fi%20wdt%3AP176%20%3Fm.%20OPTIONAL%7B%3Fi%20wdt%3AP571%20%3Ft.%20BIND%28YEAR%28%3Ft%29%20AS%20%3Fy%29%7D%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%7D%7D%20ORDER%20BY%20%3FiLabel%20LIMIT%20200",
-   "kf": "furniture"
+   "kf": "furniture",
+   "own": "Italian Radical Design Group",
+   "tier": "Independent",
+   "f": "1966"
   },
   {
    "n": "A. H. Davenport and Company",
@@ -1331,6 +1347,38 @@
    "seg": "Premium",
    "d": "Maker of a furniture piece listed in Wikidata.",
    "s": "https://query.wikidata.org/sparql?format=json&query=SELECT%20DISTINCT%20%3FiLabel%20%3FmLabel%20%3Fy%20WHERE%20%7B%3Fi%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ14745.%20%3Fi%20wdt%3AP176%20%3Fm.%20OPTIONAL%7B%3Fi%20wdt%3AP571%20%3Ft.%20BIND%28YEAR%28%3Ft%29%20AS%20%3Fy%29%7D%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%7D%7D%20ORDER%20BY%20%3FiLabel%20LIMIT%20200",
+   "kf": "furniture"
+  },
+  {
+   "n": "HNI Corporation",
+   "c": "United States",
+   "seg": "Mainstream",
+   "d": "Bought Steelcase in a deal announced in 2025 and closed December 2025.",
+   "s": "",
+   "kf": "furniture"
+  },
+  {
+   "n": "Felofin",
+   "c": "Italy",
+   "seg": "Mainstream",
+   "d": "Owner of Kartell.",
+   "s": "",
+   "kf": "furniture"
+  },
+  {
+   "n": "Lande Group",
+   "c": "Netherlands",
+   "seg": "Mainstream",
+   "d": "Owner of Artifort since 1998.",
+   "s": "",
+   "kf": "furniture"
+  },
+  {
+   "n": "Italian Radical Design Group",
+   "c": "Italy",
+   "seg": "Mainstream",
+   "d": "Vazza family group that owns Gufram and Memphis.",
+   "s": "https://en.wikipedia.org/wiki/Gufram",
    "kf": "furniture"
   }
  ]

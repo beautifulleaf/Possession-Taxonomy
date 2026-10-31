@@ -5,3 +5,4 @@ step3: applied apply1.py (84 IKEA entries from IKEA Museum, owners Serta/Simmons
 step4: apply2.py Muuto (14 entries via scandinaviandesign.com)
 step5: String/Resident pages 403 -> deferred file
 step6: apply3 (7 Wikidata maker items); Design Museum London only 2 furniture objects; Vitra/MoMA need JS
+step7: apply4 owners (Vitra Steelcase LaZBoy Kartell Emeco Artifort Secretlab Isokon Gufram Memphis)
