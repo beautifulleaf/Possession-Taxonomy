@@ -409,6 +409,26 @@
    "country": "GB",
    "dept": "shepherd's hut",
    "region": "United Kingdom"
+  },
+  {
+   "n": "Pella (windows)",
+   "homonym": true,
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Window_manufacturers",
+   "says": "Wikipedia Category:Window manufacturers row 'Pella (company)' links own article; register 'Pella' (A1, heritage & workwear clothing) is a different company - harvest's cross_tag is wrong",
+   "country": "US",
+   "dept": "windows, doors",
+   "region": "North America"
+  },
+  {
+   "n": "Calypso (bathroom furniture)",
+   "homonym": true,
+   "layer": "cultural",
+   "src": "https://bkuawards.co.uk/2025-winners",
+   "says": "BKU Awards 2025: 'CALYPSO - HIGHLY COMMENDED' Best Bathroom Furniture Brand (trade vote = standing); register 'Calypso' (A5, budget watches) is a different company - harvest's cross_tag is wrong",
+   "country": "GB",
+   "dept": "bathroom furniture",
+   "region": "United Kingdom"
   }
  ],
  "add_regions": [
@@ -434,6 +454,18 @@
   {
    "n": "Tapworks",
    "why": "only source is a retailer's blog that criticises it as a trade-focused softener costing more to run; no quality or cultural footprint"
+  },
+  {
+   "n": "Ideal (cross_tag to J8)",
+   "why": "harvest cross_tags 'Ideal' to register 'Ideal' (J8 bread) - a different company; the boiler maker is already in the register as 'Ideal Heating' (G3), so no new row or cross_tag is needed"
+  },
+  {
+   "n": "Pella (cross_tag to A1)",
+   "why": "register Pella is A1 heritage & workwear clothing, not the US window maker; replaced by add_brands 'Pella (windows)' homonym:true"
+  },
+  {
+   "n": "Calypso (cross_tag to A5)",
+   "why": "register Calypso is A5 budget watches; replaced by add_brands 'Calypso (bathroom furniture)' homonym:true"
   }
  ],
  "notes": ""

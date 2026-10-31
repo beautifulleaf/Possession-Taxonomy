@@ -233,6 +233,26 @@
    "new_names": 1,
    "status": "done",
    "note": " known=3"
+  },
+  {
+   "url": "https://www.granado.us/usa/story",
+   "title": "Granado - Story",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own page known=1"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/O_Botic%C3%A1rio",
+   "title": "O Boticario - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " known=1"
   }
  ],
  "brands": [
@@ -642,6 +662,14 @@
    "says": "four founding members of the Union des Professionnels du Savon de Marseille (UPSM, 2011) making genuine Savon de Marseille in cauldrons; Marius Fabre since 1900, Living Heritage Company label 2009",
    "tradition": "Savon de Marseille",
    "country": "France"
+  },
+  {
+   "n": "Phebo",
+   "layer": "cultural",
+   "src": "https://www.granado.us/usa/story",
+   "says": "Granado: Brazil's oldest pharmacy (Rio 1870), Official Pharmacy of the Brazilian Imperial Family, glycerine soaps since 1916, Antiseptic Powder 1903; Phebo (1930s Belem) first Brazilian luxury perfumery",
+   "tradition": "Latin American / Brazilian beauty",
+   "country": "Brazil"
   }
  ],
  "regions": [
@@ -739,6 +767,17 @@
     "Marius Fabre",
     "Savonnerie du Midi",
     "Savonnerie Le Sérail"
+   ]
+  },
+  {
+   "region": "Brazil",
+   "speciality": "botanical/Amazonian actives, apothecary perfumery and glycerine soaps",
+   "src": "https://www.granado.us/usa/story",
+   "brands": [
+    "Granado",
+    "Phebo",
+    "O Boticário",
+    "Natura"
    ]
   }
  ],
@@ -855,7 +894,164 @@
     "Liquid Marseille soap"
    ],
    "src": "https://www.marius-fabre.com/en/content/14-union-of-professionals-of-marseille-soap"
+  },
+  {
+   "t": "Brazilian botanical beauty (Amazon actives, apothecary perfumery)",
+   "kinds": [
+    "Body care",
+    "Soap (vegetable glycerine)",
+    "Talc / foot powder",
+    "Cologne"
+   ],
+   "src": "https://www.granado.us/usa/story"
   }
  ],
- "sweeps": []
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Traditions: Indian hair oils",
+   "queries": [
+    "India hair oil market companies"
+   ],
+   "found": 24,
+   "note": "Mordor, 6W, Dataintelo pages fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Ayurvedic houses",
+   "queries": [
+    "Ayurvedic cosmetics brands India"
+   ],
+   "found": 14,
+   "note": "IMARC list; Kama blog (own-brand)"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: sandalwood/herbal soaps",
+   "queries": [
+    "Mysore Sandal Soap GI",
+    "Medimix",
+    "Chandrika"
+   ],
+   "found": 4,
+   "note": "GI registry fetched; Cinthol page not found (no URL)"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Korean hanbang",
+   "queries": [
+    "Sulwhasoo Whoo hanbang"
+   ],
+   "found": 0,
+   "note": "both already known; Donginbi no page found"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: J-beauty",
+   "queries": [
+    "Oshima Tsubaki Hada Labo DHC"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Chinese herbal",
+   "queries": [
+    "Pechoin Herborist Yunnan Baiyao"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: thanaka (Shwe Pyi Nann)",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED - next"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: argan cooperatives",
+   "queries": [
+    "argan women's cooperatives Targanine Ajddigue"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: rhassoul",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED (Ajddigue sells ghassoul only)"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: shea/African bodycare",
+   "queries": [
+    "shea butter brands Ghana Dudu-Osun"
+   ],
+   "found": 4,
+   "note": "Shea Radiance, Mother's Shea gh seen in search only, not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Middle Eastern kohl/hammam (Hashmi surma)",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED - next"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Aleppo soap makers (Fakhoury, Zeitoun, Najel)",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED beyond earlier Wikipedia Aleppo soap (0 new in H1.json)"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Marseille soap",
+   "queries": [
+    "UPSM members"
+   ],
+   "found": 0,
+   "note": "4 UPSM makers all known; La Corvette not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: miswak",
+   "queries": [
+    "Miswak Wikipedia"
+   ],
+   "found": 0,
+   "note": "no brand-makers on page; Al-Khair/Sewak Al-Falah not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: wet shaving houses",
+   "queries": [
+    "Truefitt & Hill"
+   ],
+   "found": 0,
+   "note": "Wikipedia page thin; Taylor of Old Bond Street, Proraso, Floris NOT fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Latin American",
+   "queries": [
+    "Granado",
+    "O Boticario"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Traditions: Indigenous / First Nations makers",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED - next"
+  }
+ ]
 }

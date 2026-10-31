@@ -113,15 +113,63 @@
   },
   {
    "url": "https://www.puig.com/en/brands",
-   "title": "Puig Our Love Brands",
-   "kind": "encyclopedia",
+   "title": "Puig Our Love Brands (raw refetch 2026-10-31)",
+   "kind": "retailer",
    "years": "n/a",
    "names_on_page": 17,
-   "new_names": 1,
+   "new_names": 2,
+   "known_confirmed": 15,
+   "status": "done",
+   "note": "raw page fetched via Parallel full_content; 17 logo labels; replaces earlier excerpt-derived record. Flags: Rabanne may be listed as Paco Rabanne in register; Uriage = Uriage Eau Thermale",
+   "saturation": "2/17 new this source; earlier sources: 60/256 new"
+  },
+  {
+   "url": "https://www.apgroup.com/int/en/",
+   "title": "Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 25,
+   "new_names": 9,
    "known_confirmed": 16,
    "status": "done",
-   "note": "names taken from the brands page as returned in a search excerpt of that same page (not a separate fetch call); confirm if strict",
-   "saturation": "1/17 new this source; earlier sources: 60/256 new"
+   "note": "Cosmetics submenu is JS (not in text); brands from the home carousel + menu (hair, body, dental, tea). IOPE/Hera/Espoir not on fetched text.",
+   "saturation": "9/25 new this source; earlier sources: 62/273 new"
+  },
+  {
+   "url": "https://www.lghnh.com/global/company/business/beautiful.jsp",
+   "title": "LG H&H Beautiful",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 2,
+   "known_confirmed": 5,
+   "status": "partial",
+   "note": "names from the prose; page is not a full portfolio list (Dr. Groot, Vivid etc. not named)",
+   "saturation": "2/7 new this source; earlier sources: 71/298 new"
+  },
+  {
+   "url": "https://www.kenvuebrands.com/us",
+   "title": "Kenvue Brands US (personal care subset)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 13,
+   "new_names": 4,
+   "known_confirmed": 9,
+   "status": "done",
+   "note": "logo alt/link labels; pharma brands (Tylenol, Zyrtec, etc.) excluded as not H1",
+   "saturation": "4/13 new this source; earlier sources: 73/305 new"
+  },
+  {
+   "url": "https://www.henkel.com/our-businesses/henkel-consumer-brands",
+   "title": "Henkel Consumer Brands (hair/beauty named in text)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 1,
+   "known_confirmed": 3,
+   "status": "partial",
+   "note": "portfolio grid (151 brands; hair care 37, hair color 46, styling 25, body care 8) is JavaScript-loaded; only names in prose/link slugs recorded. BLOCKED for owner paste.",
+   "saturation": "1/4 new this source; earlier sources: 77/318 new"
   }
  ],
  "brands": [
@@ -666,20 +714,177 @@
    "already": false
   },
   {
+   "n": "Uriage Eau Thermale",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.puig.com/en/brands",
+   "says": "listed in Puig Our Love Brands (raw refetch 2026-10-31)",
+   "owner": "Puig",
+   "already": false,
+   "variant_of": "Uriage"
+  },
+  {
    "n": "Banderas",
    "layer": "cultural",
    "evidence": "existence",
    "src": "https://www.puig.com/en/brands",
-   "says": "listed in Puig Our Love Brands",
+   "says": "listed in Puig Our Love Brands (raw refetch 2026-10-31)",
    "owner": "Puig",
+   "already": false
+  },
+  {
+   "n": "RYO",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false
+  },
+  {
+   "n": "Median",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false,
+   "variant_of": null,
+   "homonym_risk": "Median is generic word"
+  },
+  {
+   "n": "LABO-H",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false
+  },
+  {
+   "n": "Ayunche",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false
+  },
+  {
+   "n": "amos professional",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false
+  },
+  {
+   "n": "Longtake",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false,
+   "variant_of": null
+  },
+  {
+   "n": "Happy Bath",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false,
+   "variant_of": null
+  },
+  {
+   "n": "Skin U",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false,
+   "variant_of": null
+  },
+  {
+   "n": "Gentist",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.apgroup.com/int/en/",
+   "says": "listed in Amorepacific Group brands (home Follow Our Brands + Brands menu; brands.html fetched too)",
+   "owner": "Amorepacific",
+   "already": false
+  },
+  {
+   "n": "WHOO",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.lghnh.com/global/company/business/beautiful.jsp",
+   "says": "listed in LG H&H Beautiful",
+   "owner": "LG H&H",
+   "already": false
+  },
+  {
+   "n": "DeBON",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.lghnh.com/global/company/business/beautiful.jsp",
+   "says": "listed in LG H&H Beautiful",
+   "owner": "LG H&H",
+   "already": false
+  },
+  {
+   "n": "Clean & Clear",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.kenvuebrands.com/us",
+   "says": "listed in Kenvue Brands US (personal care subset)",
+   "owner": "Kenvue",
+   "already": false
+  },
+  {
+   "n": "Maui Moisture",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.kenvuebrands.com/us",
+   "says": "listed in Kenvue Brands US (personal care subset)",
+   "owner": "Kenvue",
+   "already": false
+  },
+  {
+   "n": "Plax",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.kenvuebrands.com/us",
+   "says": "listed in Kenvue Brands US (personal care subset)",
+   "owner": "Kenvue",
+   "already": false,
+   "variant_of": null
+  },
+  {
+   "n": "Desitin",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.kenvuebrands.com/us",
+   "says": "listed in Kenvue Brands US (personal care subset)",
+   "owner": "Kenvue",
+   "already": false,
+   "variant_of": null
+  },
+  {
+   "n": "Blondme",
+   "layer": "cultural",
+   "evidence": "existence",
+   "src": "https://www.henkel.com/our-businesses/henkel-consumer-brands",
+   "says": "listed in Henkel Consumer Brands (hair/beauty named in text)",
+   "owner": "Henkel",
    "already": false
   }
  ],
  "next": [
-  "Amorepacific",
-  "LG H&H",
-  "Henkel",
-  "Kenvue",
   "Revlon",
   "e.l.f.",
   "Natura &Co",
@@ -693,6 +898,14 @@
   {
    "source": "loreal.com/en/our-global-brands-portfolio",
    "note": "JavaScript logo carousel, names not in text; used loreal-finance.com annual-report global-brands page instead"
+  },
+  {
+   "source": "henkel.com/our-businesses/henkel-consumer-brands",
+   "note": "portfolio grid JS-loaded (151 brands); owner paste list needed for hair/beauty subset"
+  },
+  {
+   "source": "apgroup.com Cosmetics submenu",
+   "note": "partly covered from home carousel; IOPE, Hera, Espoir, Aritaum not shown in fetched text"
   }
  ],
  "tradition_part": "not started"

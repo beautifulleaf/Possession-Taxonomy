@@ -3,7 +3,19 @@
  "part": "quality",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "sunscreen",
+   "queries": [
+    "Choice sunscreen test results 2026",
+    "Skin Cancer Foundation Seal of Recommendation sunscreens list",
+    "Which? best sunscreen tested"
+   ],
+   "found": 3,
+   "note": "CHOICE and SCF fetched; Which? not fetched"
+  }
+ ],
  "regions": [],
  "sources": [
   {
@@ -95,6 +107,66 @@
    "new_names": 2,
    "status": "done",
    "note": "LAB TEST (quality). Only 4 of 20 met SPF claim: Cancer Council Kids, La Roche-Posay (known), Mecca Cosmetica, Neutrogena (known). Failures not recorded."
+  },
+  {
+   "url": "https://www.vogue.in/content/the-wait-is-over-meet-the-winners-of-the-vogue-beauty-and-wellness-honours-2026",
+   "title": "Vogue India Beauty & Wellness Honours 2026 winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 31,
+   "new_names": 4,
+   "status": "done",
+   "note": "JURIED (editor shortlist + expert jury; reader's choice also marked). 27 of 31 brands already known. Country per brand not stated on page except where noted by me from brand name: left blank for safety."
+  },
+  {
+   "url": "https://www.goodhousekeeping.com/uk/product-reviews/fashion-and-beauty/a71290908/good-housekeeping-uk-beauty-awards/",
+   "title": "Good Housekeeping Institute Believe in Beauty Awards 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "fetch returned navigation only; not retried"
+  },
+  {
+   "url": "https://www.byrdie.com/best-hair-products-2026-12006317",
+   "title": "Byrdie Beauty Awards 2026 hair (also Eco Beauty)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "fetch returned navigation only; not retried"
+  },
+  {
+   "url": "https://www.cosme.net/bestcosme/hall-of-fame",
+   "title": "@cosme Best Cosmetics Awards hall of fame (also archive/2025 pages)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "fetch returned navigation only; not retried"
+  },
+  {
+   "url": "https://nationaleczema.org/eczema-products/?product_category=3241",
+   "title": "National Eczema Association Seal of Acceptance directory (JS-rendered)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "fetch returned navigation only; not retried"
+  },
+  {
+   "url": "https://www.cosmopolitan.com/uk/beauty-hair/a71317566/cosmopolitan-readers-choice-beauty-awards-2026/",
+   "title": "Cosmopolitan UK Readers' Choice Beauty Awards 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "fetch returned navigation only; not retried"
   }
  ],
  "brands": [
@@ -473,11 +545,49 @@
    "says": "CHOICE 2025 lab test: To Save Body SPF 50+ Hydrating Sunscreen passed (SPF 51)",
    "country": "Australia",
    "dept": "sun care"
+  },
+  {
+   "n": "milk_shake",
+   "layer": "premium",
+   "src": "https://www.vogue.in/content/the-wait-is-over-meet-the-winners-of-the-vogue-beauty-and-wellness-honours-2026",
+   "says": "Vogue India Beauty & Wellness Honours 2026 Jury Winner, shampoo (no frizz allowed)",
+   "dept": "hair care"
+  },
+  {
+   "n": "RAS Luxury Skincare",
+   "layer": "premium",
+   "src": "https://www.vogue.in/content/the-wait-is-over-meet-the-winners-of-the-vogue-beauty-and-wellness-honours-2026",
+   "says": "Vogue India Beauty & Wellness Honours 2026 Jury Winner, Root-ine Hair Growth Serum",
+   "dept": "hair care"
+  },
+  {
+   "n": "Kiro Beauty",
+   "layer": "premium",
+   "src": "https://www.vogue.in/content/the-wait-is-over-meet-the-winners-of-the-vogue-beauty-and-wellness-honours-2026",
+   "says": "Vogue India Beauty & Wellness Honours 2026 Jury Winner and Reader's Choice, Waterproof Soft-Matte Eyeliner Pen",
+   "dept": "make-up"
+  },
+  {
+   "n": "Secret Alchemist",
+   "layer": "premium",
+   "src": "https://www.vogue.in/content/the-wait-is-over-meet-the-winners-of-the-vogue-beauty-and-wellness-honours-2026",
+   "says": "Vogue India Beauty & Wellness Honours 2026 Jury Winner, Madurai Jasmine fragrance",
+   "dept": "fragrance"
   }
  ],
  "next": [
-  "Tooling constraint: Parallel excerpt mode returns 1-4 lines per page; allure.com blocked in WebFetch; Firecrawl 0 credits; full_content true returned empty. A run with a working raw fetch should retry Allure category pages (2025/2026 hair, base, lips, eyes, sensitive, splurges, steals, clean, breakthroughs) and earlier years, then Cosmopolitan UK, Marie Claire Prix d'Excellence, Elle, Olive Young, @cosme, Nykaa Femina, Glamour, Byrdie Eco, Pure Beauty, CEW, Which?, Stiftung Warentest/Oeko-Test, Choice sunscreen, Good Housekeeping, Skin Cancer Foundation Seal.",
-  "Leads from search excerpts only (unfetched): Joey Healy, Prequel (new vs register), Poppy & Pout (pending in retail)."
+  "Untried: CEW UK (cewuk.co.uk lists only event page), Glamour UK Power List, Elle India/Singapore/UK, Olive Young Awards, Glowpick, Nykaa Femina (nykaa.com JS-blocked), Oko-Test, Which?, Allergy UK, Vogue India 2025 winners page, Marie Claire Fragrance/Skin/Hair Awards 2025-26 (try secondary coverage e.g. cosmeticsbusiness), Pure Beauty 2020-2024 via cosmeticsbusiness links, woman&home Beauty Awards 2026, Who What Wear Next in Beauty 2026.",
+  "Tip: full_content true works on cosmeticsbusiness.com, skincancer.org, choice.com.au, vogue.in; blocked: GH, Byrdie, cosme.net, Cosmopolitan, Marie Claire, Allure, NEA.",
+  "Regions and by-kind sweeps not yet done."
  ],
- "blocked": []
+ "blocked": [
+  "https://www.goodhousekeeping.com/uk/product-reviews/fashion-and-beauty/a71290908/good-housekeeping-uk-beauty-awards/",
+  "https://www.byrdie.com/best-hair-products-2026-12006317",
+  "https://www.cosme.net/bestcosme/hall-of-fame",
+  "https://nationaleczema.org/eczema-products/?product_category=3241",
+  "https://www.cosmopolitan.com/uk/beauty-hair/a71317566/cosmopolitan-readers-choice-beauty-awards-2026/",
+  "https://www.allure.com/story/best-of-beauty-2025-all-winners-index",
+  "https://business.hwahae.co.kr/insight/hwahae-awards-2025-h2-winners/",
+  "https://www.marieclaire.co.uk/beauty/marie-claire-uk-prix-dexcellence-de-la-beaute-awards-2026-winners"
+ ]
 }
