@@ -19,7 +19,9 @@ for c in sys.argv[1:]:
     v=json.load(open(f'{V}/VERIFY_{c}.json'))
     import glob as _g
     for mp in sorted(_g.glob(f'{V}/MOVES_*.json')):  # brands verified in another category's pass that belong here
-        mv=json.load(open(mp)).get('to',{}).get(c,[])
+        md=json.load(open(mp)); mv=md.get('to',{}).get(c,[]); det=md.get('detail',{})
+        mv=[x if isinstance(x,dict) else {'n':x,'src':det.get(x,{}).get('src',''),'note':det.get(x,{}).get('verified',''),
+            'tier':'cultural' if 'wikipedia.org/wiki/' in det.get(x,{}).get('src','') else 'listed'} for x in mv]
         for b in mv: b.setdefault('shown',True); b['note']=(b.get('note','')+f' [moved from {os.path.basename(mp)[6:-5]}]').strip()
         v['brands']=v['brands']+mv
     bp=f'{R}/out/{c}_brands.json'; cp=f'{R}/out/{c}.json'

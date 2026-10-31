@@ -167,6 +167,61 @@
    "queries": [],
    "found": 0,
    "note": "not started"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "African Books Collective publishers list"
+   ],
+   "found": 37,
+   "note": "ABC publishers A-B only"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East / North Africa",
+   "queries": [
+    "list of Arab publishing houses",
+    "Arab Publishers Association directory"
+   ],
+   "found": 87,
+   "note": "Arab World Books run-on list (Dar* names); AUPA PDF directory located by search but not fetched; Dar al-Saqi found only in search excerpts"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Franco-Belgian comics publishers"
+   ],
+   "found": 18,
+   "note": "Wikipedia article fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Films & video",
+   "queries": [
+    "boutique Blu-ray labels"
+   ],
+   "found": 27,
+   "note": "Paste editorial list + Boutique Blu-ray Wiki fetched; Criterion/Arrow/Eureka/Indicator/Vinegar Syndrome confirmed as existing, quality evidence for them is Paste (Arrow, Shout, Kino) only"
+  },
+  {
+   "axis": "kind",
+   "item": "Maps, atlases & globes",
+   "queries": [
+    "Bellerby handmade globe makers"
+   ],
+   "found": 5,
+   "note": "Heritage Crafts list via NYT"
+  },
+  {
+   "axis": "kind",
+   "item": "Records & audio",
+   "queries": [
+    "Stereophile Tracking Angle reissue labels"
+   ],
+   "found": 0,
+   "note": "search located Tracking Angle classical reissue feature (trackingangle.com/features/classical-audiophile-vinyl-reissues-past-present-and-future-part-1) and Analog Planet best reissues of decade but not fetched; names only in search excerpts so not recorded"
   }
  ],
  "regions": [
@@ -296,6 +351,35 @@
     "Olive Films",
     "Vinegar Syndrome",
     "Flicker Alley"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "handmade bespoke globes (Bellerby, Isle of Wight makers)",
+   "src": "https://www.nytimes.com/2026/09/28/fashion/craftsmanship-globe-maker-england.html",
+   "brands": [
+    "Bellerby & Co",
+    "Greaves & Thomas",
+    "Lander & May",
+    "Leonardo Frigo",
+    "Loraine Rutt"
+   ]
+  },
+  {
+   "region": "France and Belgium",
+   "speciality": "bande dessinée (Franco-Belgian comics): Casterman, Dargaud, Dupuis and Le Lombard are the most famous houses",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "brands": [
+    "Casterman",
+    "Dargaud",
+    "Dupuis",
+    "Le Lombard",
+    "Glénat",
+    "Delcourt",
+    "Les Humanoïdes Associés",
+    "L'Association",
+    "Futuropolis",
+    "Fluide Glacial"
    ]
   }
  ],
@@ -509,6 +593,26 @@
    "new_names": 9,
    "status": "done",
    "note": " known=8"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/09/28/fashion/craftsmanship-globe-maker-england.html",
+   "title": "NYT globe maker article (Heritage Crafts list)",
+   "kind": "guild",
+   "years": "2026",
+   "names_on_page": 5,
+   "new_names": 4,
+   "status": "done",
+   "note": " known=1"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "title": "Franco-Belgian comics publishing houses",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 22,
+   "new_names": 10,
+   "status": "done",
+   "note": " known=5"
   }
  ],
  "brands": [
@@ -33896,6 +34000,118 @@
    "says": "Label with release lists on the Boutique Blu-ray Wiki",
    "evidence": "existence",
    "dept": "boutique video discs"
+  },
+  {
+   "n": "Greaves & Thomas",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/2026/09/28/fashion/craftsmanship-globe-maker-england.html",
+   "says": "NYT 2026: Heritage Crafts (UNESCO-accredited charity) lists globe makers using traditional techniques and materials",
+   "country": "UK",
+   "dept": "globes"
+  },
+  {
+   "n": "Lander & May",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/2026/09/28/fashion/craftsmanship-globe-maker-england.html",
+   "says": "NYT 2026: Heritage Crafts (UNESCO-accredited charity) lists globe makers using traditional techniques and materials",
+   "country": "UK",
+   "dept": "globes"
+  },
+  {
+   "n": "Leonardo Frigo",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/2026/09/28/fashion/craftsmanship-globe-maker-england.html",
+   "says": "NYT 2026: Heritage Crafts (UNESCO-accredited charity) lists globe makers using traditional techniques and materials",
+   "country": "UK",
+   "dept": "globes"
+  },
+  {
+   "n": "Loraine Rutt",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/2026/09/28/fashion/craftsmanship-globe-maker-england.html",
+   "says": "NYT 2026: Heritage Crafts (UNESCO-accredited charity) lists globe makers using traditional techniques and materials",
+   "country": "UK",
+   "dept": "globes"
+  },
+  {
+   "n": "Actes Sud",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Albin Michel",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Bamboo Édition",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Le Dernier Cri",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Ego comme X",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Fluide Glacial",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Futuropolis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Lug",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Semic Comics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
+  },
+  {
+   "n": "Standaard Uitgeverij",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Franco-Belgian_comics_publishing_houses",
+   "says": "Selected Franco-Belgian (bande dessinée) publishers, Wikipedia article (Casterman, Dargaud, Dupuis, Le Lombard the most famous)",
+   "country": "France/Belgium",
+   "dept": "comics"
   }
  ]
 }
