@@ -448,6 +448,17 @@
    ],
    "found": 0,
    "note": "as Mirrors: self-descriptions only"
+  },
+  {
+   "axis": "kind",
+   "item": "Folk dolls & figures",
+   "queries": [
+    "Cepelia Polish folk art cooperative",
+    "Semyonov matryoshka factory Zvezdochka",
+    "specialist shop Mexican folk art"
+   ],
+   "found": 6,
+   "note": "Seller rule applied: Cepelia (PL), The Russian Shop (matryoshka), Tienda Tzintzutzan (MX art); makers: Sergiev Posad JSC, Roldan, Quintana"
   }
  ],
  "regions": [
@@ -1268,6 +1279,39 @@
    "known_confirmed": 0,
    "status": "partial",
    "note": "single company page; full RWHA directory by trade category (Candlemakers, Homes & Household Goods) not enumerated"
+  },
+  {
+   "url": "https://www.inyourpocket.com/warsaw/cepelia-when-the-rooster-came-knockin_78308f",
+   "title": "In Your Pocket: Cepelia, Polish folk art shops",
+   "kind": "heritage",
+   "years": "1949-present",
+   "names_on_page": 1,
+   "new_names": 1,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://therussianshop.com/a-short-history-of-zagorsk-and-sergiev-posad-folk-art/",
+   "title": "The Russian Shop: history of Zagorsk and Sergiev Posad folk art",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://nationalmuseumofmexicanart.org/events/festival-del-arte-popular-3",
+   "title": "National Museum of Mexican Art: Festival del Arte Popular",
+   "kind": "heritage",
+   "years": "annual",
+   "names_on_page": 3,
+   "new_names": 3,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": "Ángeles Ojeda alebrijes also listed (already logged as Jacobo y Maria Angeles)"
   }
  ],
  "brands": [
@@ -2798,6 +2842,57 @@
    "says": "EPV state label, sector Ameublement et décoration (candles/cierges since 1902/1827/1928; cold-worked decorative glass; limestone decor objects)",
    "country": "France",
    "dept": "candles / decorative glass / decor objects"
+  },
+  {
+   "n": "Cepelia",
+   "layer": "cultural",
+   "src": "https://www.inyourpocket.com/warsaw/cepelia-when-the-rooster-came-knockin_78308f",
+   "says": "Polish folk art and handicraft collective/chain of shops (dolls in costume, paper cutouts, ceramics, wood); brand held by foundation since 1990",
+   "country": "Poland",
+   "dept": "folk dolls & wycinanki seller",
+   "role": "seller"
+  },
+  {
+   "n": "The Russian Shop",
+   "layer": "cultural",
+   "src": "https://therussianshop.com/a-short-history-of-zagorsk-and-sergiev-posad-folk-art/",
+   "says": "Specialist seller of matryoshka dolls and Russian arts and crafts; page names JSC 'Artistic products and toys' as official maker of traditional Sergiev Posad matryoshka",
+   "country": "USA",
+   "dept": "matryoshka",
+   "role": "seller"
+  },
+  {
+   "n": "Artistic Products and Toys (Sergiev Posad)",
+   "layer": "cultural",
+   "src": "https://therussianshop.com/a-short-history-of-zagorsk-and-sergiev-posad-folk-art/",
+   "says": "Specialist seller of matryoshka dolls and Russian arts and crafts; page names JSC 'Artistic products and toys' as official maker of traditional Sergiev Posad matryoshka",
+   "country": "Russia",
+   "dept": "matryoshka"
+  },
+  {
+   "n": "Tienda Tzintzutzan",
+   "layer": "cultural",
+   "src": "https://nationalmuseumofmexicanart.org/events/festival-del-arte-popular-3",
+   "says": "Museum festival of named Mexican folk artists: papel amate painters (Guerrero), sugar skulls maker (Puebla), Tienda Tzintzutzan shop",
+   "country": "USA (Chicago)",
+   "dept": "Mexican folk art / Day of the Dead",
+   "role": "seller"
+  },
+  {
+   "n": "Audias and Mariana Roldan",
+   "layer": "cultural",
+   "src": "https://nationalmuseumofmexicanart.org/events/festival-del-arte-popular-3",
+   "says": "Museum festival of named Mexican folk artists: papel amate painters (Guerrero), sugar skulls maker (Puebla), Tienda Tzintzutzan shop",
+   "country": "Mexico",
+   "dept": "Mexican folk art / Day of the Dead"
+  },
+  {
+   "n": "Jose Emilio Quintana",
+   "layer": "cultural",
+   "src": "https://nationalmuseumofmexicanart.org/events/festival-del-arte-popular-3",
+   "says": "Museum festival of named Mexican folk artists: papel amate painters (Guerrero), sugar skulls maker (Puebla), Tienda Tzintzutzan shop",
+   "country": "Mexico",
+   "dept": "Mexican folk art / Day of the Dead"
   }
  ]
 }

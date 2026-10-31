@@ -70,15 +70,6 @@
   },
   {
    "axis": "kind",
-   "item": "Brewing, fermenting & preserving",
-   "queries": [
-    "not searched this pass"
-   ],
-   "found": 0,
-   "note": "not covered in this pass"
-  },
-  {
-   "axis": "kind",
    "item": "Spare parts",
    "queries": [
     "not brand-led (parts sold under appliance makers)"
@@ -163,24 +154,6 @@
   },
   {
    "axis": "region",
-   "item": "South Asia",
-   "queries": [
-    "via porcelain list / appliance category / retailer lists"
-   ],
-   "found": 0,
-   "note": "covered indirectly through regions array"
-  },
-  {
-   "axis": "region",
-   "item": "Southeast Asia",
-   "queries": [
-    "via porcelain list / appliance category / retailer lists"
-   ],
-   "found": 0,
-   "note": "covered indirectly through regions array"
-  },
-  {
-   "axis": "region",
    "item": "Oceania",
    "queries": [
     "via porcelain list / appliance category / retailer lists"
@@ -205,15 +178,6 @@
    ],
    "found": 0,
    "note": "covered indirectly through regions array"
-  },
-  {
-   "axis": "region",
-   "item": "Central Asia",
-   "queries": [
-    "not searched"
-   ],
-   "found": 0,
-   "note": "gap"
   },
   {
    "axis": "kind",
@@ -288,6 +252,93 @@
    ],
    "found": 5,
    "note": "Glasslock, Bentgo, Souper Cubes etc from GH award list; thermos/flask makers already in register"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Rishtan ceramics master workshop Uzbekistan"
+   ],
+   "found": 2,
+   "note": "Usmanov workshop, Usta & Co. seller"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Bat Trang ceramics famous brand Vietnam"
+   ],
+   "found": 2,
+   "note": "Soul of Vietnam, Bat Trang Museum Atelier"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Moradabad Bidriware cookware Indian traditional metal utensil brand"
+   ],
+   "found": 0,
+   "note": "regions recorded; pages name no maker brand"
+  },
+  {
+   "axis": "kind",
+   "item": "Tea & kettles (Chinese tea, sellers)",
+   "queries": [
+    "Yixing teapot seller"
+   ],
+   "found": 4,
+   "note": "specialist sellers recorded with role=seller per owner rule"
+  },
+  {
+   "axis": "kind",
+   "item": "Brewing, fermenting & preserving",
+   "queries": [
+    "best fermentation crock brands Harsch Kilner Weck canning jars"
+   ],
+   "found": 0,
+   "note": "search returned no usable page; section remains a gap"
+  },
+  {
+   "axis": "source",
+   "item": "Royal Warrant",
+   "queries": [],
+   "found": 0,
+   "note": "one search; no holder list page surfaced"
+  },
+  {
+   "axis": "source",
+   "item": "SCA / barista awards",
+   "queries": [],
+   "found": 0,
+   "note": "NOT tried"
+  },
+  {
+   "axis": "source",
+   "item": "Which? / Stiftung Warentest / Serious Eats raw",
+   "queries": [],
+   "found": 0,
+   "note": "only search excerpts of other tests seen (Kassensturz, Messer-Mojo, ATK, Wirecutter, Bon Appetit)"
+  },
+  {
+   "axis": "source",
+   "item": "Japan shinise lists",
+   "queries": [],
+   "found": 0,
+   "note": "NOT tried"
+  },
+  {
+   "axis": "source",
+   "item": "Knives and Stones brand page",
+   "queries": [],
+   "found": 0,
+   "note": "homepage excerpt only (Myojin Riki, Iron Clad, Yoshikane, Nigara); not raw-fetched"
+  },
+  {
+   "axis": "source",
+   "item": "Riess/Whole Latte Love/Nambu/Murano raw verification",
+   "queries": [],
+   "found": 0,
+   "note": "NOT done; those names remain excerpt-only, lower confidence"
   }
  ],
  "regions": [
@@ -792,14 +843,6 @@
    ]
   },
   {
-   "region": "China - Yixing (Jiangsu)",
-   "speciality": "zisha purple-clay teapots; GI-protected clay and 2006 national intangible heritage technique",
-   "src": "https://english.cnipa.gov.cn/attach/0/efd85b77f51c4d519815d83725367c38.pdf",
-   "brands": [
-    "Yixing Zisha Factory No. 1"
-   ]
-  },
-  {
    "region": "China - Hangzhou",
    "speciality": "Zhang Xiaoquan scissors and knives, 1628, 72-step hand forging",
    "src": "https://en.wikipedia.org/wiki/Zhang_Xiaoquan",
@@ -817,12 +860,6 @@
    ]
   },
   {
-   "region": "Morocco",
-   "speciality": "Fes blue, Safi polychrome and Tamegroute green pottery and tagines",
-   "src": "https://www.serenitymoroccotours.com/pottery",
-   "brands": []
-  },
-  {
    "region": "South Korea - bangjja brassware",
    "speciality": "hammered 78:22 copper-tin bangjja yugi tableware",
    "src": "https://www.bangjja.or.kr/bangjja/en/content.html?md=0230",
@@ -834,6 +871,50 @@
    "src": "https://www.homeanddecor.com.sg/shopping/furniture/10-world-renowned-ceramics-and-pottery-workshops-clay-enthusiasts",
    "brands": [
     "Maiolica Ceramiche Grazia"
+   ]
+  },
+  {
+   "region": "Central Asia - Uzbekistan (Rishtan, Fergana)",
+   "speciality": "Rishtan blue-green ishkor-glaze ceramics, 800-year tradition",
+   "src": "https://folkartmarket.org/ifamartiststories/rustam-usmanov-and-damir-usmanov",
+   "brands": [
+    "Usmanov Rishtan Ceramics (Rustam and Damir Usmanov)",
+    "Usta & Co."
+   ]
+  },
+  {
+   "region": "Southeast Asia - Vietnam (Bat Trang)",
+   "speciality": "Bat Trang village ceramics, all-ceramic craft village",
+   "src": "https://www.thekitchn.com/pottery-in-vietnam-the-ceramics-of-bat-trang-maker-tour-203693",
+   "brands": [
+    "Soul of Vietnam (Vu Duc Thang)",
+    "Bat Trang Museum Atelier"
+   ]
+  },
+  {
+   "region": "South Asia - India (Bidar, Moradabad, Swamimalai)",
+   "speciality": "Bidriware silver-inlaid zinc alloy, metalware",
+   "src": "https://www.ibef.org/experience-india/products/bidriware",
+   "brands": []
+  },
+  {
+   "region": "China - Yixing (Jiangsu)",
+   "speciality": "zisha purple-clay teapots; GI and national intangible heritage",
+   "src": "https://english.cnipa.gov.cn/attach/0/efd85b77f51c4d519815d83725367c38.pdf",
+   "brands": [
+    "Yixing Zisha Factory No. 1",
+    "Yoshien",
+    "Page of Tea",
+    "SiYuTao Teapot"
+   ]
+  },
+  {
+   "region": "Morocco",
+   "speciality": "Fes blue, Safi polychrome and Tamegroute green pottery and tagines",
+   "src": "https://www.serenitymoroccotours.com/pottery",
+   "brands": [
+    "Moroccan Tagines",
+    "Verve Culture"
    ]
   }
  ],
@@ -1248,6 +1329,76 @@
    "status": "partial",
    "note": "excerpt of one article; appliances sections not seen",
    "_known": 7
+  },
+  {
+   "url": "https://moroccantagines.com/blog/artisan-stories-hassan-tamegroute",
+   "title": "Moroccan Tagines (specialist seller) artisan story, Tamegroute",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "seller named on a fetched page"
+  },
+  {
+   "url": "https://ustaandco.com/pages/about-usta-co",
+   "title": "Usta & Co. (Uzbek ceramics seller)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.yoshien.com/en/yixing-teapot-xi-shi-zi-ni-i.html",
+   "title": "Yoshien (tea-ware specialist) Yixing teapot page",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.pageoftea.com/yixing-teapot-sourcing",
+   "title": "Page of Tea Yixing teapot sourcing",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://verveculture.com/blogs/a-taste-of-verve/meet-our-moroccan-makers",
+   "title": "Verve Culture Moroccan makers (tagine and Safi ceramics seller)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://battrang.museum/en/journal/bat-trang-museum/",
+   "title": "Bat Trang Museum journal (Vietnam)",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.daraartisans.com/collections/artisan-rustam-usmanov",
+   "title": "DARA Artisans: Rustam Usmanov Rishtan pottery",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -1458,6 +1609,15 @@
    "says": "named as legendary Murano glass furnace by Murano glass dealer Spinzi",
    "country": "Italy",
    "dept": "glassware (art glass)"
+  },
+  {
+   "n": "Bat Trang Museum Atelier",
+   "layer": "cultural",
+   "src": "https://battrang.museum/en/journal/bat-trang-museum/",
+   "says": "museum ceramic workshop and brand-gift line in Bat Trang village",
+   "country": "Vietnam",
+   "dept": "ceramics",
+   "role": "maker"
   },
   {
    "n": "Bauer Pottery",
@@ -3132,6 +3292,15 @@
    "dept": "appliances"
   },
   {
+   "n": "Moroccan Tagines",
+   "layer": "cultural",
+   "src": "https://moroccantagines.com/blog/artisan-stories-hassan-tamegroute",
+   "says": "specialist online seller of Moroccan tagines made by Tamegroute potters (Hassan Ait Lahcen workshop, green glaze)",
+   "country": "Morocco",
+   "dept": "tagine",
+   "role": "seller"
+  },
+  {
    "n": "Moulinex",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
@@ -3282,6 +3451,15 @@
    "says": "brand of the Arcturus Group tableware portfolio (Sambonet founded 1856)",
    "country": "Italy",
    "dept": "tableware"
+  },
+  {
+   "n": "Page of Tea",
+   "layer": "cultural",
+   "src": "https://www.pageoftea.com/yixing-teapot-sourcing",
+   "says": "pu-erh tea specialist that sources Yixing zisha teapots directly from Yixing producers",
+   "country": "China",
+   "dept": "Yixing teapot",
+   "role": "seller"
   },
   {
    "n": "Pampered Chef",
@@ -3868,6 +4046,15 @@
    "dept": "appliances"
   },
   {
+   "n": "SiYuTao Teapot",
+   "layer": "cultural",
+   "src": "https://yixingteapot.art/blogs/news/yixing-zisha-factory-no-1",
+   "says": "specialist online seller of Yixing zisha teapots",
+   "country": "China",
+   "dept": "Yixing teapot",
+   "role": "seller"
+  },
+  {
    "n": "Snowa",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Kitchenware_brands",
@@ -3882,6 +4069,15 @@
    "says": "brand carried by Whole Latte Love, specialty espresso retailer (in-house tested)",
    "country": "Switzerland",
    "dept": "coffee machines"
+  },
+  {
+   "n": "Soul of Vietnam (Vu Duc Thang)",
+   "layer": "premium",
+   "src": "https://battrang.museum/en/journal/bat-trang-museum/",
+   "says": "Bat Trang ceramic brand of People's Artisan Vu Duc Thang, exported to the West",
+   "country": "Vietnam",
+   "dept": "ceramics",
+   "role": "maker"
   },
   {
    "n": "Souper Cubes",
@@ -4180,6 +4376,24 @@
    "dept": "enamelled cast iron"
   },
   {
+   "n": "Usmanov Rishtan Ceramics (Rustam and Damir Usmanov)",
+   "layer": "premium",
+   "src": "https://www.daraartisans.com/collections/artisan-rustam-usmanov",
+   "says": "family workshop for Rishtan blue pottery; Rustam Usmanov awarded UNESCO Seal of Excellence",
+   "country": "Uzbekistan",
+   "dept": "ceramics",
+   "role": "maker"
+  },
+  {
+   "n": "Usta & Co.",
+   "layer": "cultural",
+   "src": "https://ustaandco.com/pages/about-usta-co",
+   "says": "specialist seller of limited-edition Rishtan and Fergana ceramics from three named master ustas",
+   "country": "Uzbekistan",
+   "dept": "ceramic tableware",
+   "role": "seller"
+  },
+  {
    "n": "VeArt",
    "layer": "premium",
    "src": "https://www.spinzi.com/top-10-legendary-murano-glass-makers",
@@ -4194,6 +4408,15 @@
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "Russia",
    "dept": "tableware"
+  },
+  {
+   "n": "Verve Culture",
+   "layer": "cultural",
+   "src": "https://verveculture.com/blogs/a-taste-of-verve/meet-our-moroccan-makers",
+   "says": "fair-trade seller of Moroccan tagines and Safi ceramics from named certified makers",
+   "country": "USA",
+   "dept": "tagine",
+   "role": "seller"
   },
   {
    "n": "Vestel",
@@ -4354,6 +4577,15 @@
    "says": "state zisha factory 1958, Fang Yuan brand teapots exported worldwide, trained Zhou Guizhen and Li Changhong",
    "country": "China",
    "dept": "tea"
+  },
+  {
+   "n": "Yoshien",
+   "layer": "cultural",
+   "src": "https://www.yoshien.com/en/yixing-teapot-xi-shi-zi-ni-i.html",
+   "says": "specialist tea-ware seller offering Yixing zisha teapots from Zisha Factory No. 1 and Japanese teaware",
+   "country": "Germany",
+   "dept": "Yixing teapot",
+   "role": "seller"
   },
   {
    "n": "Yoshimi Kato",
