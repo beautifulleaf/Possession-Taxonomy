@@ -5,3 +5,4 @@ step2 transit list extracted via WebFetch windows (0,100000,200000); writing tra
 step2b transit_data.tsv complete (Europe+Turkey appended)
 step3 edit.py run for B6 B7 B8 H2 C8 (F5 pending)
 step4 f5.py run
+step5 report written; done

@@ -1,7 +1,7 @@
 # V4_J6 report (named entries and market layer, J6 Coffee, Tea & Cocoa)
-validate.py --v3 OK. Archetypes 181 → 350; brands register 107 → 117; one rename (Geisha & rare-variety coffee → Coffee varieties); moves unchanged. About 45 fetches (WebFetch, Firecrawl for the two JavaScript-only WCR pages).
+validate.py --v3 OK. Archetypes 181 → 350; brands register 107 → 118; one rename (Geisha & rare-variety coffee → Coffee varieties); moves unchanged. About 45 fetches (WebFetch, Firecrawl for the two JavaScript-only WCR pages).
 
-**Coffee varieties** (17 → 87 incl. 4 kept from Wikipedia): World Coffee Research arabica listing, 70 entries with origin or genetic group as sections. Complete: 70 of 70 listed (older site text says 55). Typica, Bourbon, Geisha marked landmark.
+**Coffee varieties** (17 → 74: 70 from WCR, 4 kept from Wikipedia): World Coffee Research arabica listing, 70 entries with origin or genetic group as sections. Complete: 70 of 70 listed (older site text says 55). Typica, Bourbon, Geisha marked landmark.
 **Speciality Robusta** (1 → 48): WCR robusta listing, complete 47 of 47.
 **Cacao beans** (6 → 13): Motamayor's ten genetic groups (Wikipedia, Theobroma cacao), complete 10 of 10.
 **Chinese teas**: Wikipedia list of Chinese teas (45) placed into green (11 of 11), black (7 of 7), oolong (16 of 16), white, yellow. Out of scope: Panda dung tea, 24 flavors, Wong Lo Kat (herbal or drink); Pu'er and Fu Cha already kinds. Oolongs whose origin the list does not state sit in the Tieguanyin & Anxi kind with that note.
