@@ -9,3 +9,5 @@ step8: Guerlain 23 moved to family kinds, H4 validated OK; Tom Ford designer fil
 step9: Tom Ford 20 pages read; applying
 step10: H4 done 43 placed, sel fixed
 step11: final fetch batch done (Fineline review, LV handbags, MoMA Max Bill, Supreme preview=no Crest Coaches; searches for Alden/Happi/Mexico only excerpts). Now applying A1-A4,A5 clock,H1,H2 edits
+step12: A1,A2 brands/entries edited (A2 Consul pending)
+step13: A3,A4,H1,H2 edits applied

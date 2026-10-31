@@ -9,3 +9,5 @@ search call done (Resident, String, Thonet no14 found); applying B1 edits
 fetched: String/Ashley/Thonet pages, Vitra DM 10 designer searches (inline output; need transcribing) = 12 calls total
 B1 vitra+string+nectar done
 B1 vitra+string+nectar done
+B5 haier done; circana pct unreadable
+all done; report written
