@@ -458,6 +458,102 @@
    ],
    "found": 0,
    "note": "no result on this query"
+  },
+  {
+   "axis": "kind",
+   "item": "Heritage registers: Marchi Storici (Italy)",
+   "queries": [
+    "registro marchi storici interesse nazionale elenco",
+    "marchio storico vasi in terracotta Impruneta"
+   ],
+   "found": 2,
+   "note": "MIMIT PDF 1056 marks not fully readable (excerpt mode); only Antonio Carraro surfaced; full text needs a PDF read"
+  },
+  {
+   "axis": "kind",
+   "item": "Heritage registers: EPV (France) second listing",
+   "queries": [
+    "Entreprise du Patrimoine Vivant outillage jardin fabricant",
+    "EPV prefecture region 2025"
+   ],
+   "found": 2,
+   "note": "Centre-Val de Loire prefecture 2025 list gave greenhouse maker; other regional prefecture lists untried"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe (Impruneta terracotta, second pass)",
+   "queries": [
+    "marchio storico vasi in terracotta Impruneta"
+   ],
+   "found": 6,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Encyclopedia categories (Irrigation companies; Chainsaw manufacturers and Barbecue brands categories return 404)",
+   "queries": [
+    "Category:Irrigation companies",
+    "Category:Chainsaw manufacturers",
+    "Category:Barbecue brands"
+   ],
+   "found": 4,
+   "note": "13 pages; Valmont, Toro known"
+  },
+  {
+   "axis": "kind",
+   "item": "Digging & planting > Digging tools, Hoes, Planting tools",
+   "queries": [
+    "best garden spade fork brands handmade forged",
+    "best hand trowel brands tested"
+   ],
+   "found": 3,
+   "note": "DeWit, Niwaki known"
+  },
+  {
+   "axis": "kind",
+   "item": "Cutting & pruning > Branch cutters & Hedge, grass & brush blades (scythe)",
+   "queries": [
+    "best scythe makers Austrian scythe brands",
+    "best loppers hedge shears tested brands"
+   ],
+   "found": 3,
+   "note": "Corona, Falci, Trojan known"
+  },
+  {
+   "axis": "kind",
+   "item": "Clearing, cleaning & snow > Garden waste (shredder, wood chipper)",
+   "queries": [
+    "best garden shredder wood chipper tested brands"
+   ],
+   "found": 1,
+   "note": "Champion known"
+  },
+  {
+   "axis": "kind",
+   "item": "Greenhouses & indoor growing > Seed raising",
+   "queries": [
+    "best propagator heated seed tray brands tested"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Outdoor cooking > Fuel & accessories",
+   "queries": [
+    "best lump charcoal brands tested"
+   ],
+   "found": 1,
+   "note": "Fogo, Kingsford, Big Green Egg known"
+  },
+  {
+   "axis": "kind",
+   "item": "Pools & pool care > Pumps, filters & heating",
+   "queries": [
+    "best pool pump brands tested variable speed"
+   ],
+   "found": 0,
+   "note": "search returned no pool-pump pages"
   }
  ],
  "regions": [
@@ -631,6 +727,19 @@
    "src": "https://www.tandoormanufacturers.in/",
    "brands": [
     "Forno Sethi"
+   ]
+  },
+  {
+   "region": "Italy (Impruneta, Tuscany)",
+   "speciality": "frost-resistant hand-made terracotta garden pots from galestro clay",
+   "src": "https://www.terracottaimpruneta.com/",
+   "brands": [
+    "Poggi Ugo",
+    "Sergio Ricceri",
+    "Terrecotte Corsiani",
+    "Fornace Masini",
+    "Terrecotte Mital",
+    "Archeo Terrecotte"
    ]
   }
  ],
@@ -1051,6 +1160,56 @@
    "kind": "retailer",
    "years": "n/a",
    "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "title": "1000 Marchi Storici (MIMIT)",
+   "kind": "heritage",
+   "years": "2020-2026",
+   "names_on_page": 1000,
+   "new_names": 1,
+   "status": "partial",
+   "note": "fetch returned only excerpts"
+  },
+  {
+   "url": "https://www.terracottaimpruneta.com/",
+   "title": "Terracotta Impruneta",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 6,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Irrigation_companies",
+   "title": "Wikipedia Category:Irrigation companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 4,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.gardenersworld.com/reviews/tools/planting/best-forks",
+   "title": "Gardeners' World best forks/trowels",
+   "kind": "ranking",
+   "years": "2025-2026",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.seriouseats.com/best-lump-charcoal-7496872",
+   "title": "Serious Eats best lump charcoal",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 4,
    "new_names": 1,
    "status": "done",
    "note": ""
@@ -2127,6 +2286,180 @@
    "says": "Dutch garden accessories brand listed in retailer brand filter (weak)",
    "country": "Netherlands",
    "dept": "Garden accessories"
+  },
+  {
+   "n": "Poggi Ugo",
+   "layer": "premium",
+   "src": "https://poggiugo.it/en/about/",
+   "says": "Impruneta terracotta kiln since 1919, hand-made, own clay quarry, benchmark for handmade terracotta; Albo Lavorazioni Artistiche e Tradizionali member",
+   "country": "Italy",
+   "dept": "Pots"
+  },
+  {
+   "n": "Sergio Ricceri",
+   "layer": "premium",
+   "src": "https://www.sergioricceri.com/",
+   "says": "Impruneta terracotta family kiln; official supplier of Vatican gardens",
+   "country": "Italy",
+   "dept": "Pots"
+  },
+  {
+   "n": "Terrecotte Corsiani",
+   "layer": "cultural",
+   "src": "https://www.terrecottecorsiani.it/",
+   "says": "Impruneta hand-made terracotta pots since 1988, frost-resistant to -35C",
+   "country": "Italy",
+   "dept": "Pots"
+  },
+  {
+   "n": "Fornace Masini",
+   "layer": "cultural",
+   "src": "https://fornacemasini.it/",
+   "says": "Impruneta terracotta kiln since 1938",
+   "country": "Italy",
+   "dept": "Pots"
+  },
+  {
+   "n": "Terrecotte Mital",
+   "layer": "cultural",
+   "src": "https://www.terracottaimpruneta.com/",
+   "says": "listed among Impruneta 'artigiani del cotto'; Mariani family kiln centuries old",
+   "country": "Italy",
+   "dept": "Pots"
+  },
+  {
+   "n": "Archeo Terrecotte",
+   "layer": "cultural",
+   "src": "https://www.archeoterrecotte.com/",
+   "says": "Pistoia maker of hand-made Impruneta-clay garden terracotta",
+   "country": "Italy",
+   "dept": "Pots"
+  },
+  {
+   "n": "Antonio Carraro",
+   "layer": "cultural",
+   "src": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "says": "Marchio Storico di Interesse Nazionale no. 249 (registered 15 Nov 2021); compact tractors for vineyards and gardens",
+   "country": "Italy",
+   "dept": "Powered brand owners"
+  },
+  {
+   "n": "Gimap-Fumasi",
+   "layer": "cultural",
+   "src": "https://www.fumasi.it/",
+   "says": "Premana scissors and professional tools since 1935 incl. gardening shears",
+   "country": "Italy",
+   "dept": "Cutting & pruning"
+  },
+  {
+   "n": "Krampouz",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/definition/entreprise-du-patrimoine-vivant-epv",
+   "says": "listed on Marques de France EPV page (Pluguffan, Krampouz barbecue)",
+   "country": "France",
+   "dept": "Barbecue"
+  },
+  {
+   "n": "Serres et Ferronneries d'Antan",
+   "layer": "premium",
+   "src": "https://www.prefectures-regions.gouv.fr/centre-val-de-loire/Actualites/Principales/Les-entreprises-en-region-labelisees-Entreprise-du-Patrimoine-Vivant-EPV-en-2025",
+   "says": "EPV label July 2025: manufacture and restoration of antique greenhouses (Savigny-sur-Braye)",
+   "country": "France",
+   "dept": "Greenhouses"
+  },
+  {
+   "n": "Jain Irrigation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Irrigation_companies",
+   "says": "Wikipedia Category:Irrigation companies (Jain Irrigation Systems)",
+   "country": "India",
+   "dept": "Irrigation"
+  },
+  {
+   "n": "Orbit Irrigation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Irrigation_companies",
+   "says": "Wikipedia Category:Irrigation companies (Orbit Irrigation Products)",
+   "country": "United States",
+   "dept": "Sprinklers"
+  },
+  {
+   "n": "Senninger",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Irrigation_companies",
+   "says": "Wikipedia Category:Irrigation companies (Senninger Irrigation)",
+   "country": "United States",
+   "dept": "Irrigation"
+  },
+  {
+   "n": "Greenman",
+   "layer": "premium",
+   "src": "https://www.gardenersworld.com/reviews/tools/planting/best-forks",
+   "says": "BBC Gardeners' World 2026 Best Buy: Greenman stainless steel border fork, best for general use",
+   "country": "United Kingdom",
+   "dept": "Digging tools"
+  },
+  {
+   "n": "Kent & Stowe",
+   "layer": "premium",
+   "src": "https://www.gardenersworld.com/reviews/tools/planting/best-garden-hand-trowels",
+   "says": "Gardeners' World best hand trowels 2025: Capability Trowel rated 4.8/5",
+   "country": "United Kingdom",
+   "dept": "Hand trowels"
+  },
+  {
+   "n": "Fux",
+   "layer": "premium",
+   "src": "https://www.onescytherevolution.com/",
+   "says": "European scythe maker: 'world's best mass produced adjustable wooden snath' per specialist seller",
+   "country": "Austria",
+   "dept": "Scythes"
+  },
+  {
+   "n": "Arti",
+   "layer": "premium",
+   "src": "https://www.onescytherevolution.com/",
+   "says": "European scythe blade brand stocked by specialist scythe seller (Fux, Falci, Arti)",
+   "dept": "Scythes"
+  },
+  {
+   "n": "One Scythe Revolution",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.onescytherevolution.com/",
+   "says": "US specialist importer of Austrian/European scythes, member of International Scythe Network",
+   "country": "United States",
+   "dept": "Scythes"
+  },
+  {
+   "n": "Bellota",
+   "layer": "cultural",
+   "src": "https://bellota.bg/wp-content/uploads/catalogue-bellota-2026-eng.pdf",
+   "says": "Spanish maker of forged one-piece spades, forks, scythes, machetes (own catalogue 2026)",
+   "country": "Spain",
+   "dept": "Digging tools"
+  },
+  {
+   "n": "Earthquake",
+   "layer": "premium",
+   "src": "https://spearheadspade.com/blogs/garden-guides/best-wood-chipper",
+   "says": "Bob Vila (Feb 2025) gave best overall wood chipper to Earthquake K33; Popular Mechanics best for mulch K32",
+   "country": "United States",
+   "dept": "Wood chippers"
+  },
+  {
+   "n": "Super Sprouter",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/home/best-seed-starter-kit",
+   "says": "GearLab Editors' Choice: Premium Heated Propagation Kit",
+   "dept": "Seed raising"
+  },
+  {
+   "n": "The Good Charcoal Company",
+   "layer": "premium",
+   "src": "https://www.seriouseats.com/best-lump-charcoal-7496872",
+   "says": "Serious Eats 2026 best lump charcoal (low-and-slow test winner)",
+   "dept": "Barbecue fuel"
   }
  ]
 }

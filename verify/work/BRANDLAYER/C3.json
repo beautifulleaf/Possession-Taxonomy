@@ -1,6 +1,6 @@
 {
  "cat": "C3",
- "status": "partial",
+ "status": "done",
  "brand_led": true,
  "sweeps": [
   {
@@ -66,32 +66,6 @@
   },
   {
    "axis": "region",
-   "item": "Northern Europe",
-   "queries": [
-    "ARS HoF Denmark"
-   ],
-   "found": 0,
-   "note": "Poulsen already known; Swedish/Finnish nurseries not searched"
-  },
-  {
-   "axis": "region",
-   "item": "Southern Europe",
-   "queries": [
-    "ARS HoF Italy/Spain",
-    "Seeds of Italy"
-   ],
-   "found": 3,
-   "note": ""
-  },
-  {
-   "axis": "region",
-   "item": "North Africa",
-   "queries": [],
-   "found": 0,
-   "note": "NOT searched"
-  },
-  {
-   "axis": "region",
    "item": "East Asia",
    "queries": [
     "Omiya bonsai",
@@ -99,16 +73,6 @@
     "Taiwan orchid"
    ],
    "found": 7,
-   "note": ""
-  },
-  {
-   "axis": "region",
-   "item": "Oceania",
-   "queries": [
-    "ARS HoF Australia/NZ",
-    "Digger's Club"
-   ],
-   "found": 2,
    "note": ""
   },
   {
@@ -250,6 +214,60 @@
    ],
    "found": 0,
    "note": "Aport apple restoration is a cultivar programme, not a brand; no maker found"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Italy Pistoia nurseries flower breeders"
+   ],
+   "found": 4,
+   "note": "Pistoia nursery district"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Sweden Denmark Norway seed company"
+   ],
+   "found": 1,
+   "note": "Nelson Garden; Weibulls not surfaced; kveik yeast also logged under Northern Europe region"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Egypt Morocco Tunisia seed nursery flower"
+   ],
+   "found": 0,
+   "note": "only a Moroccan business directory (Kerix) with generic firms; no renowned maker or brand found"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Australia New Zealand seed nursery"
+   ],
+   "found": 5,
+   "note": "ANPSA native seed supplier list"
+  },
+  {
+   "axis": "kind",
+   "item": "Garden plants > Lawns",
+   "queries": [
+    "Lindum Turf Chelsea 2025 tradestand"
+   ],
+   "found": 1,
+   "note": "Lindum Turf"
+  },
+  {
+   "axis": "kind",
+   "item": "Grow your own",
+   "queries": [
+    "Frank P Matthews, Jurassic Plants, Kitchen Garden Plant Centre RHS gold"
+   ],
+   "found": 6,
+   "note": ""
   }
  ],
  "regions": [
@@ -505,6 +523,57 @@
    "speciality": "Almaty Aport apple, Kazakh heritage cultivar being revived",
    "src": "https://www.ewandp.org/2026/08/21/aport-apple-restoration",
    "brands": []
+  },
+  {
+   "region": "Southern Europe",
+   "speciality": "Ornamental nursery stock and trees (Pistoia, Tuscany)",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "brands": [
+    "MATI 1909",
+    "Vannucci Piante",
+    "Righetti Piante",
+    "Vivaio Baronti"
+   ]
+  },
+  {
+   "region": "Oceania",
+   "speciality": "Australian native plant seed",
+   "src": "https://anpsa.org.au/plant-guides/australian-native-seed-suppliers",
+   "brands": [
+    "Nindethana Seed Service",
+    "Australian Seed",
+    "Red Dirt Seeds"
+   ]
+  },
+  {
+   "region": "Western Europe",
+   "speciality": "British nurseries, seed houses and bulb growers (RHS medal and Royal Warrant evidence)",
+   "src": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/history/2025/awards",
+   "brands": [
+    "David Austin Roses",
+    "Peter Beales Roses",
+    "Suttons",
+    "P. de Jager & Sons",
+    "Millais Nurseries",
+    "Raymond J Evison"
+   ]
+  },
+  {
+   "region": "Northern Europe",
+   "speciality": "Scandinavian garden seed",
+   "src": "https://linkedin.com/company/nelson-garden-ab",
+   "brands": [
+    "Nelson Garden"
+   ]
+  },
+  {
+   "region": "East Asia",
+   "speciality": "Rose breeding Japan",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "brands": [
+    "Keisei Nursery",
+    "Seizo Suzuki"
+   ]
   }
  ],
  "sources": [
@@ -767,6 +836,26 @@
    "new_names": 4,
    "status": "done",
    "note": "region sweep; excerpts only"
+  },
+  {
+   "url": "https://piantemati.com/en/the-nurseries",
+   "title": "Pistoia nursery district pages (MATI, Vannucci, Righetti, Baronti); Nelson Garden LinkedIn; ANPSA Australian Native Seed Suppliers (https://anpsa.org.au/plant-guides/australian-native-seed-suppliers)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 10,
+   "new_names": 10,
+   "status": "done",
+   "note": "region sweep, search excerpts"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/plants/article/best-places-to-buy-seeds-and-plants-online-",
+   "title": "Which? best seed and plant suppliers",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "table did not render in earlier fetch; not retried in final round. Suttons notes 'Which? Best Buy winners each year'"
   }
  ],
  "brands": [
@@ -3584,6 +3673,86 @@
    "src": "https://www.semo.cz/en",
    "says": "Bengaluru vegetable seed company 1985; top-5 in tomato, okra, chilli, watermelon (ICRA)",
    "country": "IN",
+   "dept": "Seeds"
+  },
+  {
+   "n": "MATI 1909",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Pistoia ornamental plant nursery since 1909, exports worldwide ('Made in Pistoia')",
+   "country": "IT",
+   "dept": "Garden plants"
+  },
+  {
+   "n": "Vannucci Piante",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Pistoia nursery founded 1938, four-decade catalogue, nursery park",
+   "country": "IT",
+   "dept": "Garden plants"
+  },
+  {
+   "n": "Righetti Piante",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Pistoia nursery 70 ha, MPS-certified, leading in Italy and Europe",
+   "country": "IT",
+   "dept": "Garden plants"
+  },
+  {
+   "n": "Vivaio Baronti",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Pistoia nursery from 1970s, 17 ha ornamental plants",
+   "country": "IT",
+   "dept": "Garden plants"
+  },
+  {
+   "n": "Nelson Garden",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "One of largest Scandinavian gardening/seed companies, founded 1933",
+   "country": "SE",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Nindethana Seed Service",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Australian native seed supplier listed by Australian Native Plants Society",
+   "country": "AU",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Australian Seed",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Native seed supplier, Western Australia",
+   "country": "AU",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Australian Wildflower Seeds",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Perth packer and distributor of native seed packets",
+   "country": "AU",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Red Dirt Seeds",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Native seed supplier, WA",
+   "country": "AU",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Seeding Victoria",
+   "layer": "cultural",
+   "src": "https://piantemati.com/en/the-nurseries",
+   "says": "Native seed supplier, Victoria",
+   "country": "AU",
    "dept": "Seeds"
   }
  ]
