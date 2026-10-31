@@ -41,76 +41,80 @@ raw={
 "Washington":"Ancient Lakes of the Columbia Valley;Beverly, Washington;Candy Mountain;Columbia Hills;Goose Gap;Horse Heaven Hills;Lake Chelan;Naches Heights;Puget Sound;Rattlesnake Hills;Red Mountain;Rocky Reach;Royal Slope;Snipes Mountain;The Burn of Columbia Valley;Wahluke Slope;White Bluffs;Yakima Valley",
 "West Virginia":"Kanawha River Valley","Wisconsin":"Lake Wisconsin;Wisconsin Ledge",
 }
-# multi-state AVAs and their states as listed on the page
-multi={"Ozark Mountain":"Arkansas, Missouri and Oklahoma","Upper Mississippi River Valley":"Illinois, Iowa, Minnesota and Wisconsin","Ohio River Valley":"Indiana, Kentucky, Ohio and West Virginia","Southeastern New England":"Connecticut, Massachusetts and Rhode Island","Loess Hills District":"Iowa and Missouri","Mississippi Delta":"Louisiana, Mississippi and Tennessee","Cumberland Valley":"Maryland and Pennsylvania","Central Delaware Valley":"New Jersey and Pennsylvania","Mesilla Valley":"New Mexico and Texas","Lake Erie":"New York, Ohio and Pennsylvania","Appalachian High Country":"North Carolina, Tennessee and Virginia","Upper Hiwassee Highlands":"Georgia and North Carolina","Snake River Valley":"Idaho and Oregon","Lewis-Clark Valley":"Idaho and Washington","Columbia Gorge":"Oregon and Washington","Columbia Valley":"Oregon and Washington","Walla Walla Valley":"Oregon and Washington","Shenandoah Valley":"Virginia and West Virginia","Augusta":"Missouri"}
-# place each multi-state AVA once, in the first kind that lists its state
-extra={"Arkansas":["Ozark Mountain"],"Illinois":[],"Indiana":["Ohio River Valley"],"Iowa":["Upper Mississippi River Valley"] ,"Louisiana":[],"Maryland":[],"Massachusetts":[],"Missouri":["Loess Hills District","Ozark Mountain"],"Connecticut":[],"Oklahoma":[]}
-# simpler: explicit placement of AVAs that appear in more than one state on the page
-extra={"Arkansas":["Ozark Mountain"],"Illinois":["Upper Mississippi River Valley"],"Indiana":["Ohio River Valley"],"Iowa":["Loess Hills District"],"Louisiana":["Mississippi Delta"],"Maryland":["Cumberland Valley"],"Connecticut":["Southeastern New England"],"New Jersey":[],"New Mexico":[],"New York":[],"North Carolina":[],"Idaho":["Snake River Valley","Lewis-Clark Valley"] ,"Washington":["Columbia Gorge","Columbia Valley","Walla Walla Valley"],"Virginia":[],"Pennsylvania":["Lake Erie"]}
-def usents(names,g,state):
+
+add_first={"Arkansas":["Ozark Mountain"],"Illinois":["Upper Mississippi River Valley"],"Indiana":["Ohio River Valley"],"Iowa":["Loess Hills District"],"Louisiana":["Mississippi Delta"],"Maryland":["Cumberland Valley"],"Connecticut":[],"New Jersey":[],"New Mexico":[],"New York":["Lake Erie"],"North Carolina":["Appalachian High Country"],"Georgia":["Upper Hiwassee Highlands"],"Idaho":[],"Oregon":["Columbia Gorge","Columbia Valley","Walla Walla Valley"],"Virginia":["Shenandoah Valley"]}
+multi={"Ozark Mountain":"Arkansas, Missouri and Oklahoma","Upper Mississippi River Valley":"Illinois, Iowa, Minnesota and Wisconsin","Ohio River Valley":"Indiana, Kentucky, Ohio and West Virginia","Southeastern New England":"Connecticut, Massachusetts and Rhode Island","Loess Hills District":"Iowa and Missouri","Mississippi Delta":"Louisiana, Mississippi and Tennessee","Cumberland Valley":"Maryland and Pennsylvania","Central Delaware Valley":"New Jersey and Pennsylvania","Mesilla Valley":"New Mexico and Texas","Lake Erie":"New York, Ohio and Pennsylvania","Appalachian High Country":"North Carolina, Tennessee and Virginia","Upper Hiwassee Highlands":"Georgia and North Carolina","Snake River Valley":"Idaho and Oregon","Lewis-Clark Valley":"Idaho and Washington","Columbia Gorge":"Oregon and Washington","Columbia Valley":"Oregon and Washington","Walla Walla Valley":"Oregon and Washington","Shenandoah Valley":"Virginia and West Virginia"}
+# state AVAs with their multi-state ones filed once at the first state that lists them
+raw["Oregon"]="Applegate Valley;Chehalem Mountains;Columbia Gorge;Columbia Valley;Dundee Hills;Elkton Oregon;Eola-Amity Hills;Laurelwood District;Lower Long Tom;McMinnville;Mount Pisgah, Polk County;Red Hill Douglas County;Ribbon Ridge;The Rocks District of Milton-Freewater;Rogue Valley;Southern Oregon;Tualatin Hills;Umpqua Valley;Van Duzer Corridor;Walla Walla Valley;Willamette Valley;Yamhill-Carlton"
+raw["Idaho"]="Eagle Foothills;Lewis-Clark Valley;Snake River Valley"
+raw["Arkansas"]="Altus;Arkansas Mountain;Ozark Mountain"
+raw["Illinois"]="Shawnee Hills;Upper Mississippi River Valley"
+raw["Indiana"]="Indiana Uplands;Ohio River Valley"
+raw["Iowa"]="Loess Hills District"
+raw["Louisiana"]="Mississippi Delta"
+raw["Maryland"]="Catoctin;Cumberland Valley;Linganore"
+raw["Pennsylvania"]="Lancaster Valley;Lehigh Valley"
+raw["Missouri"]="Augusta;Hermann;Ozark Highlands"
+raw["Kentucky"]="";raw["Mississippi"]="";raw["Oklahoma"]="";raw["Rhode Island"]="";raw["Minnesota"]="Alexandria Lakes";raw["Ohio"]="Grand River Valley;Isle St. George;Loramie Creek"
+raw["Georgia"]="Dahlonega Plateau;Upper Hiwassee Highlands"
+raw["Virginia"]="Middleburg Virginia;Monticello;North Fork of Roanoke;Northern Neck George Washington Birthplace;Rocky Knob;Shenandoah Valley;Virginia's Eastern Shore;Virginia Peninsula"
+raw["New Jersey"]="Cape May Peninsula;Central Delaware Valley;Outer Coastal Plain;Warren Hills"
+raw["New Mexico"]="Mesilla Valley;Middle Rio Grande Valley;Mimbres Valley"
+raw["North Carolina"]="Appalachian High Country;Crest of the Blue Ridge Henderson County;Haw River Valley;Swan Creek;Tryon Foothills;Yadkin Valley"
+raw["New York"]="Cayuga Lake;Champlain Valley of New York;Finger Lakes;Hudson River Region;Lake Erie;Long Island;Niagara Escarpment;North Fork of Long Island;Seneca Lake;The Hamptons, Long Island;Upper Hudson"
+raw["Connecticut"]="Eastern Connecticut Highlands;Southeastern New England;Western Connecticut Highlands"
+raw["Washington"]="Ancient Lakes of the Columbia Valley;Beverly, Washington;Candy Mountain;Columbia Hills;Goose Gap;Horse Heaven Hills;Lake Chelan;Naches Heights;Puget Sound;Rattlesnake Hills;Red Mountain;Rocky Reach;Royal Slope;Snipes Mountain;The Burn of Columbia Valley;Wahluke Slope;White Bluffs;Yakima Valley"
+raw["Tennessee"]="Nine Lakes of East Tennessee;Upper Cumberland"
+raw["West Virginia"]="Kanawha River Valley"
+raw["Massachusetts"]="Martha's Vineyard;Nashoba Valley"
+raw["Wisconsin"]="Lake Wisconsin;Wisconsin Ledge"
+seen=set()
+def usents(keys,labels):
     out=[]
-    for n in names:
-        sp=multi.get(n)
-        d="Viticultural area in "+(sp if sp else state)+"."
-        out.append(E(n,d,US,g))
+    for key in keys:
+        g=labels.get(key,key)
+        for n in raw[key].split(';'):
+            if not n or n in seen: continue
+            seen.add(n)
+            where=multi.get(n) or ("California" if key.startswith("CA") else key)
+            out.append(E(n,"Viticultural area in "+where+".",US,g))
     return out
-def with_extra(key,state,gl=None):
-    names=[x for x in raw[key].split(';')]
-    for e in extra.get(key,[]):
-        if e not in names: names.append(e)
-    return names
-# remove from raw the names that are placed through 'extra' in a different kind
-placed={}
-def add(key,state):
-    names=raw.get(key,"").split(';') if key in raw else []
-    for e in extra.get(key,[]):
-        if e not in names: names.append(e)
-    names=[n for n in names if n]
-    return names
-# explicit multi-state placement: the AVA sits in the kind of the state that comes first on the page
-extra={"Arkansas":["Ozark Mountain"],"Illinois":["Upper Mississippi River Valley"],"Indiana":["Ohio River Valley"],"Iowa":["Loess Hills District"],"Louisiana":["Mississippi Delta"],"Maryland":["Cumberland Valley"],"Connecticut":["Southeastern New England"],"New Jersey":["Central Delaware Valley"],"New Mexico":["Mesilla Valley"],"New York":["Lake Erie"],"North Carolina":["Appalachian High Country","Upper Hiwassee Highlands"] if False else ["Appalachian High Country"],"Idaho":["Snake River Valley","Lewis-Clark Valley"],"Oregon":["Columbia Gorge","Columbia Valley","Walla Walla Valley"],"Georgia":["Upper Hiwassee Highlands"],"Virginia":["Shenandoah Valley"]}
-# Idaho/Oregon: Snake River Valley and the Columbia names are filed once; drop duplicates from the later state
-for k in ("Oregon",):
-    raw[k]=";".join(n for n in raw[k].split(';') if n not in ("Columbia Gorge","Columbia Valley","Walla Walla Valley","Snake River Valley"))
-raw["Washington"]=raw["Washington"]
-for n in ("Columbia Gorge","Columbia Valley","Walla Walla Valley"):
-    extra.setdefault("Washington",[])
-extra["Oregon"]=["Columbia Gorge","Columbia Valley","Walla Walla Valley"]
-extra["Washington"]=[]
-raw["Oregon"]+=";Snake River Valley" if False else ""
-extra["Idaho"]=["Snake River Valley","Lewis-Clark Valley"]
-def usk(name,key,state,g,d,note=""):
-    names=add(key,state)
-    return K(name,d,"One entry is an American Viticultural Area, a delimited grape-growing area approved by the Alcohol and Tobacco Tax and Trade Bureau (TTB).","Every AVA listed on Wikipedia's List of American Viticultural Areas for this state or region, fetched 2026-10-31; an AVA that spans several states is filed once, under the first state that lists it. The page gives no approval years.","state",usents(names,g,state))
-def uskinds(keys):
-    return keys
+NL="One entry is an American Viticultural Area, a grape-growing area delimited and approved by the Alcohol and Tobacco Tax and Trade Bureau (TTB)."
+SEL="Every AVA listed on Wikipedia's List of American Viticultural Areas, fetched 2026-10-31. An AVA that spans several states is filed once, under the first state that lists it. The page gives no approval years."
+def usk(name,d,keys,labels=None,xg="state or region"):
+    return K(name,d,NL,SEL,xg,usents(keys,labels or {}))
+CAL={"CA-north-coast":"North Coast","CA-central":"Central Coast","CA-valley":"Central Valley","CA-sierra":"Sierra Foothills","CA-south":"South Coast","CA-north":"Northern interior"}
 US_SHELVES=[
- S("California","California AVAs grouped by the region the Wikipedia list gives.",[
-  usk("California: North Coast AVAs","CA-north-coast","California","North Coast","Napa, Sonoma, Mendocino and Lake County AVAs, including Napa Valley, Russian River Valley and Alexander Valley."),
-  usk("California: Central Coast AVAs","CA-central","California","Central Coast","AVAs from Santa Cruz south to Santa Barbara and Paso Robles."),
-  usk("California: Central Valley AVAs","CA-valley","California","Central Valley","AVAs of the Sacramento and San Joaquin valleys, including Lodi and Clarksburg."),
-  usk("California: Sierra Foothills AVAs","CA-sierra","California","Sierra Foothills","AVAs in the Sierra Nevada foothills such as El Dorado and Fiddletown."),
-  usk("California: South Coast AVAs","CA-south","California","South Coast","AVAs from Malibu to Temecula and the high desert."),
-  usk("California: northern interior AVAs","CA-north","California","Northern interior","Small AVAs in the far north of California (Inwood Valley, Manton Valley, Seiad Valley, Trinity Lakes, Willow Creek)."),
- ],"California regions as the Wikipedia list groups them"),
+ S("California","California AVAs, grouped by the region the Wikipedia list uses.",[
+  usk("California: North Coast AVAs","Napa, Sonoma, Mendocino and Lake County AVAs, including Napa Valley, Russian River Valley and Alexander Valley.",["CA-north-coast"],CAL),
+  usk("California: Central Coast AVAs","AVAs from Santa Cruz south to Santa Barbara, with Paso Robles and Monterey.",["CA-central"],CAL),
+  usk("California: Central Valley AVAs","AVAs of the Sacramento and San Joaquin valleys, including Lodi and Clarksburg.",["CA-valley"],CAL),
+  usk("California: Sierra Foothills AVAs","AVAs in the Sierra Nevada foothills, such as El Dorado and Fiddletown.",["CA-sierra"],CAL),
+  usk("California: South Coast AVAs","AVAs from Malibu to Temecula and the high desert.",["CA-south"],CAL),
+  usk("California: northern interior AVAs","Five small AVAs in the far north of California.",["CA-north"],CAL),
+ ],"California regions, north to south"),
  S("Pacific Northwest","Oregon, Washington and Idaho AVAs.",[
-  usk("Oregon AVAs","Oregon","Oregon","Oregon","AVAs of Oregon, led by the Willamette Valley and its nested AVAs; the Columbia names are filed here."),
-  usk("Washington AVAs","Washington","Washington","Washington","AVAs of Washington State inside and beside the Columbia Valley."),
-  usk("Idaho AVAs","Idaho","Idaho","Idaho","AVAs of Idaho, including the Snake River Valley."),
+  usk("Oregon AVAs","AVAs of Oregon, led by the Willamette Valley; the Columbia names shared with Washington are filed here.",["Oregon"]),
+  usk("Washington AVAs","AVAs of Washington State.",["Washington"]),
+  usk("Idaho AVAs","AVAs of Idaho, including the shared Snake River Valley.",["Idaho"]),
  ]),
  S("Southwest, Mountain West & Hawaii","AVAs of the dry interior and the islands.",[
-  usk("Texas AVAs","Texas","Texas","Texas","AVAs of Texas, from the Hill Country to the High Plains."),
-  usk("Arizona, New Mexico and Colorado AVAs","Arizona","Arizona","Arizona","AVAs of the Southwest and Rockies."),
-  usk("Hawaii AVAs","Hawaii","Hawaii","Hawaii","The single AVA in Hawaii."),
+  usk("Texas AVAs","AVAs of Texas, from the Hill Country to the High Plains.",["Texas"]),
+  usk("Arizona, New Mexico and Colorado AVAs","AVAs of the Southwest and Rockies.",["Arizona","New Mexico","Colorado"]),
+  usk("Hawaii AVAs","The single AVA in Hawaii.",["Hawaii"]),
  ]),
- S("Midwest & South","AVAs of the central states, the Ozarks and the South.",[
-  usk("Great Lakes and Midwest AVAs","Michigan","Michigan","Michigan","AVAs around the Great Lakes and the upper Mississippi."),
-  usk("Missouri, Arkansas and Ozark AVAs","Missouri","Missouri","Missouri","AVAs of Missouri, Arkansas and the Ozarks."),
-  usk("Southern AVAs","Georgia","Georgia","Georgia","AVAs of Georgia, Tennessee, Louisiana and the Carolinas."),
+ S("Midwest & Ozarks","AVAs of the Great Lakes, the upper Mississippi and the Ozarks.",[
+  usk("Great Lakes AVAs","AVAs around the Great Lakes.",["Michigan","Ohio","Minnesota","Wisconsin"]),
+  usk("Upper Mississippi and Ohio valley AVAs","AVAs along the upper Mississippi and Ohio rivers.",["Illinois","Indiana","Iowa"]),
+  usk("Missouri and Ozark AVAs","AVAs of Missouri and Arkansas.",["Missouri","Arkansas"]),
  ]),
- S("Northeast & Mid-Atlantic","AVAs from New England to Virginia.",[
-  usk("New York AVAs","New York","New York","New York","AVAs of New York including the Finger Lakes and Long Island."),
-  usk("New England AVAs","Connecticut","Connecticut","Connecticut","AVAs of Connecticut and Massachusetts."),
-  usk("Mid-Atlantic AVAs","Virginia","Virginia","Virginia","AVAs from New Jersey and Pennsylvania to Virginia and West Virginia."),
+ S("South & Mid-Atlantic","AVAs from the Mississippi Delta to the Carolinas and Virginia.",[
+  usk("Southern AVAs","AVAs of Louisiana, Georgia, Tennessee and North Carolina.",["Louisiana","Georgia","Tennessee","North Carolina"]),
+  usk("Virginia and Maryland AVAs","AVAs of Virginia, West Virginia and Maryland.",["Virginia","West Virginia","Maryland"]),
+  usk("New Jersey and Pennsylvania AVAs","AVAs of New Jersey and Pennsylvania.",["New Jersey","Pennsylvania"]),
+ ]),
+ S("New York & New England","AVAs of New York and southern New England.",[
+  usk("New York AVAs","AVAs of New York, including the Finger Lakes and Long Island.",["New York"]),
+  usk("New England AVAs","AVAs of Connecticut and Massachusetts.",["Connecticut","Massachusetts"]),
  ]),
 ]

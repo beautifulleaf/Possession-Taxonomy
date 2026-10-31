@@ -14,6 +14,8 @@ Part file: rebuild/out/J7_parts/WIT.json (validates OK: 1 department, 53 kinds, 
 
 **Renames (old grape kinds to appellation kinds).** Sangiovese to Tuscany DOCG; Nebbiolo, Arneis, Cortese to Piedmont DOCG; Dolcetto, Barbera to Piedmont DOC; Lagrein to Trentino-Alto Adige DOC; Refosco to Friuli-Venezia Giulia DOC; Friulano likewise; Sagrantino to Umbria DOCG; Montepulciano and Pecorino to Marche DOCG; Aglianico, Greco, Fiano to Campania DOCG; Nero d'Avola, Nerello Mascalese, Carricante, Malvasia to Sicily DOC; Garganega to Veneto DOC; Vermentino to Sardinia DOC; Verdicchio to Marche DOC; Trebbiano to Abruzzo DOC; Falanghina to Campania DOC. Ties were broken by the larger tier; Falanghina, Malvasia and Refosco kinds also hold non-Italian wines, which the GRAPES part should relocate.
 
+**Style-renames.** Also renamed: Prosecco, Passito & dried-grape wine to Veneto DOCG; Franciacorta to Lombardy DOCG; Asti & Moscato d'Asti, Brachetto to Piedmont DOCG; Lambrusco to Emilia-Romagna DOC; Marsala to Sicily DOC. Added versions: Franciacorta Satèn/Rosé/Millesimato, Superiore di Cartizze, five Marsala styles, Passito di Pantelleria, Torcolato (Breganze), Passito di Caluso. Left alone: vermouth, Traditional-method sparkling wine and Rosé (multi-country). The passito kind also holds non-Italian wines (Santorini Vinsanto, Commandaria, Vin de paille, Strohwein, Prošek) needing a home elsewhere. Generic Vin Santo and Super Tuscan have no kind of their own; Vin Santo DOCs are entries.
+
 **Dropped/moved.** None. Italian wines in style kinds (Prosecco, Franciacorta, Lambrusco, Marsala, vermouth, Super Tuscan) and multi-country grapes were left to their own parts.
 
 **Not sourced.**
