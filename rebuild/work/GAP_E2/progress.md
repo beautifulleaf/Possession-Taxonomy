@@ -2,3 +2,5 @@ step0 read briefs, backup done; steps 1,2,5 already satisfied in file (0 m kinds
 fetch1-8 done (Hilleberg, Globeride, Skis Rossignol, Mammut, Mervin, Cascade Designs); search DMM/Hilleberg done; collect facts in facts.json then apply
 fetch ~44 done (maker owner pages); next: apply.py (own/cty/tier from facts + register), then gap fetches (Winning/Cleto Reyes, EN 926, World Athletics, Orvis offset) , report
 apply1 done (owners/cty from fetched pages + register cty)
+apply2 done (flies +, Cleto Reyes, Anaris, notes). next: Winning search/fetch, Hydrow/Tonal, ski; final coverage-line normalisation; report
+apply2 done (flies +, Cleto Reyes, Anaris, notes). next: Winning search/fetch, ski; coverage-line normalisation; report
