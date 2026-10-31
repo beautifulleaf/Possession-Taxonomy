@@ -199,6 +199,26 @@
    ],
    "found": 3,
    "note": "Satya, Cycle known (B4); Shrinivas Sugandhalaya new"
+  },
+  {
+   "axis": "kind",
+   "item": "Ritual vessels / Cups, Torah ornaments (Judaica silver, Jerusalem)",
+   "queries": [
+    "Judaica silversmith workshop Jerusalem about us established",
+    "tallit manufacturer Israel established family"
+   ],
+   "found": 3,
+   "note": "Shevach, Dabbah, Nadav Art fetched; Emil Shenfeld studio closed (excerpt only, not recorded); tallit makers and US/European Judaica not yet fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Prayer beads (Rosary) / Eucharistic vessels (Christian church goods)",
+   "queries": [
+    "rosary manufacturer Italy family company history",
+    "chalice monstrance liturgical goldsmith workshop history"
+   ],
+   "found": 1,
+   "note": "Ghirelli fetched; Manente (Rome), Savelli Religious (Vatican), Vatican Gift, Segatel (Pero) seen in excerpts only, not recorded"
   }
  ],
  "regions": [
@@ -315,6 +335,26 @@
     "Shrinivas Sugandhalaya",
     "Satya",
     "Cycle Pure Agarbathies"
+   ]
+  },
+  {
+   "region": "Israel (Jerusalem)",
+   "speciality": "hand-made sterling silver Judaica incl. Yemenite filigree",
+   "src": "https://shevach.org/about",
+   "brands": [
+    "Shevach Silversmiths",
+    "Dabbah Judaica",
+    "Nadav Art",
+    "Hazorfim"
+   ]
+  },
+  {
+   "region": "Italy (Veneto/Ferrara, Rome)",
+   "speciality": "rosaries and church goods",
+   "src": "https://ghirelli.com/pages/made-in-italy",
+   "brands": [
+    "Ghirelli",
+    "Gammarelli"
    ]
   }
  ],
@@ -458,6 +498,56 @@
    "new_names": 0,
    "status": "done",
    "note": "maker's own page; Cycle Pure Agarbathies already B4 (cross_tag F4); Padmini not fetched"
+  },
+  {
+   "url": "https://shevach.org/about",
+   "title": "Shevach Silversmiths (Jerusalem) about",
+   "kind": "heritage",
+   "years": "1929-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own page: Yemenite filigree silversmiths, generational"
+  },
+  {
+   "url": "https://dabbahjudaica.co.il/about-dabbah-judaica/",
+   "title": "Dabbah Judaica about",
+   "kind": "heritage",
+   "years": "1974-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own page: four generations of silversmiths, founded 1974"
+  },
+  {
+   "url": "https://www.nadavart.com/about",
+   "title": "Nadav Art about",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own page: Avi Nadav, Bezalel-trained silversmith"
+  },
+  {
+   "url": "https://ghirelli.com/pages/made-in-italy",
+   "title": "Ghirelli rosaries: Made in Italy",
+   "kind": "heritage",
+   "years": "1986-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own page; claims largest rosary vendor in Italy (self-statement)"
+  },
+  {
+   "url": "https://www.crevistons.com/history.htm",
+   "title": "Creviston history",
+   "kind": "heritage",
+   "years": "1929-",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "a jeweller that also made ecclesiastical goods; retail jeweller not recorded"
   }
  ],
  "brands": [
@@ -823,6 +913,42 @@
    "dept": "Incense",
    "already": true,
    "cross_tag": "F4"
+  },
+  {
+   "n": "Shevach Silversmiths",
+   "layer": "cultural",
+   "src": "https://shevach.org/about",
+   "says": "Jerusalem Yemenite-filigree silversmith family since 1929; kiddush cups, menorahs, mezuzot",
+   "country": "Israel",
+   "dept": "Judaica silver",
+   "already": false
+  },
+  {
+   "n": "Dabbah Judaica",
+   "layer": "cultural",
+   "src": "https://dabbahjudaica.co.il/about-dabbah-judaica/",
+   "says": "Jerusalem silver Judaica factory/studio founded 1974, four generations of silversmiths",
+   "country": "Israel",
+   "dept": "Judaica silver",
+   "already": false
+  },
+  {
+   "n": "Nadav Art",
+   "layer": "cultural",
+   "src": "https://www.nadavart.com/about",
+   "says": "Jerusalem Judaica silver/aluminium workshop of Avi Nadav, third-generation silversmith",
+   "country": "Israel",
+   "dept": "Judaica silver",
+   "already": false
+  },
+  {
+   "n": "Ghirelli",
+   "layer": "cultural",
+   "src": "https://ghirelli.com/pages/made-in-italy",
+   "says": "Italian rosary maker (Santa Maria Maddalena, Veneto), supplies shrines and pilgrimage sites; own claim largest rosary vendor in Italy",
+   "country": "Italy",
+   "dept": "Rosary",
+   "already": false
   }
  ]
 }
