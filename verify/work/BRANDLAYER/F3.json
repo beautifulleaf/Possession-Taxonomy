@@ -264,6 +264,26 @@
    "new_names": 12,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Third-party_grading",
+   "title": "Third-party grading - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 12,
+   "new_names": 3,
+   "status": "done",
+   "note": "ANACS, PCGS, NGC, PMG, CGC known; PNG 2007 survey: PCGS+NGC Superior, ANACS+ICG Good"
+  },
+  {
+   "url": "https://directory.coinworld.com/listing/grading-companies",
+   "title": "Coin World directory: Grading Companies",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 8,
+   "new_names": 1,
+   "status": "done",
+   "note": "ANACS, NGC, PMG known; CAC Grading LLC = CAC; others are dealers/defunct"
   }
  ],
  "brands": [
@@ -2172,6 +2192,46 @@
    "country": "United States",
    "dept": "bullion",
    "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Independent Coin Graders (ICG)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Third-party_grading",
+   "says": "listed among the four leading coin certification services accepted by eBay (ANACS, ICG, NGC, PCGS); PNG 2007 survey rated Good",
+   "country": "United States",
+   "dept": "Graded slabs",
+   "role": "service",
+   "already": false
+  },
+  {
+   "n": "Certified Acceptance Corporation (CAC)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Third-party_grading",
+   "says": "stickering service giving a second opinion on slabbed coins, CAC-approved coins usually valued higher",
+   "country": "United States",
+   "dept": "Graded slabs",
+   "role": "service",
+   "already": false
+  },
+  {
+   "n": "International Coin Certification Service (ICCS)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Third-party_grading",
+   "says": "coin certification service accepted by eBay for Canadian coins",
+   "country": "Canada",
+   "dept": "Graded slabs",
+   "role": "service",
+   "already": false
+  },
+  {
+   "n": "SEGS Coin Grading Company",
+   "layer": "cultural",
+   "src": "https://directory.coinworld.com/listing/grading-companies",
+   "says": "listed in Coin World directory, Grading Companies (8 listings)",
+   "country": "United States",
+   "dept": "Graded slabs",
+   "role": "service",
    "already": false
   }
  ]

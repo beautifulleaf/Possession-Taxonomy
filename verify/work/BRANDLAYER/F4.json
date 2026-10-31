@@ -189,6 +189,16 @@
    ],
    "found": 0,
    "note": "no icon studio page fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Incense & burners (India)",
+   "queries": [
+    "Cycle Pure Agarbathies history Mysore incense",
+    "Shrinivas Sugandhalaya Padmini Products agarbatti company about"
+   ],
+   "found": 3,
+   "note": "Satya, Cycle known (B4); Shrinivas Sugandhalaya new"
   }
  ],
  "regions": [
@@ -295,6 +305,16 @@
    "src": "https://www.monastiriaka.gr/en/custom-hand-painted-icons",
    "brands": [
     "Monastiriaka"
+   ]
+  },
+  {
+   "region": "India (Mysuru/Bengaluru/Mumbai)",
+   "speciality": "hand-rolled masala agarbatti (Nag Champa) and puja incense",
+   "src": "https://satyaincense.com/about-our-company",
+   "brands": [
+    "Shrinivas Sugandhalaya",
+    "Satya",
+    "Cycle Pure Agarbathies"
    ]
   }
  ],
@@ -418,6 +438,26 @@
    "new_names": 0,
    "status": "done",
    "note": "names an individual master (Necip Fazil Karadag) not a brand; not recorded"
+  },
+  {
+   "url": "https://satyaincense.com/about-our-company",
+   "title": "Satya Incense: About our company (Shrinivas Sugandhalaya)",
+   "kind": "heritage",
+   "years": "1964-",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own page; Satya already B4 (cross_tag F4)"
+  },
+  {
+   "url": "https://www.nrrs.com/legacy",
+   "title": "NRRS (NR Group) legacy: Cycle Pure Agarbathies",
+   "kind": "heritage",
+   "years": "1948-",
+   "names_on_page": 2,
+   "new_names": 0,
+   "status": "done",
+   "note": "maker's own page; Cycle Pure Agarbathies already B4 (cross_tag F4); Padmini not fetched"
   }
  ],
  "brands": [
@@ -754,6 +794,35 @@
    "country": "Greece",
    "dept": "Painted images",
    "already": false
+  },
+  {
+   "n": "Shrinivas Sugandhalaya",
+   "layer": "cultural",
+   "src": "https://satyaincense.com/about-our-company",
+   "says": "maker of Satya Sai Baba Nag Champa (masala incense, founded 1960s by K.N. Satyam Setty)",
+   "country": "India",
+   "dept": "Incense",
+   "already": false
+  },
+  {
+   "n": "Satya",
+   "layer": "cultural",
+   "src": "https://satyaincense.com/about-our-company",
+   "says": "Satya Nag Champa incense brand (already B4; cross_tag F4)",
+   "country": "India",
+   "dept": "Incense",
+   "already": true,
+   "cross_tag": "F4"
+  },
+  {
+   "n": "Cycle Pure Agarbathies",
+   "layer": "cultural",
+   "src": "https://www.nrrs.com/legacy",
+   "says": "agarbathi brand since 1948, Mysuru (already B4; cross_tag F4)",
+   "country": "India",
+   "dept": "Incense",
+   "already": true,
+   "cross_tag": "F4"
   }
  ]
 }
