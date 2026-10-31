@@ -181,8 +181,131 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Zsolnay",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Zsolnay",
+   "says": "Hungarian porcelain and ceramics manufactory (Pécs, 1853); introduced eosin glaze and pyrogranite ornamental ceramics; largest company in Austria-Hungary by 1914",
+   "country": "Hungary",
+   "dept": "decorative porcelain / vases",
+   "region": "Central & Eastern Europe"
+  },
+  {
+   "n": "Zhostovo Factory of Decorative Painting",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Zhostovo_painting",
+   "says": "Russian folk handicraft of painted metal trays (used as wall and room decor); craft organised as the Zhostovo Factory of Decorative Painting",
+   "country": "Russia",
+   "dept": "wall decor / painted trays",
+   "region": "Central & Eastern Europe"
+  },
+  {
+   "n": "Kitengela Glass",
+   "layer": "premium",
+   "src": "https://www.countryandtownhouse.com/culture/interview-anselm-croze/",
+   "says": "Kenyan recycled-glass studio (Croze family) making blown glass, mosaics and sculpture; profiled as a model widely copied in other countries",
+   "country": "Kenya",
+   "dept": "decorative glass",
+   "region": "Sub-Saharan Africa"
+  },
+  {
+   "n": "Ngwenya Glass",
+   "layer": "cultural",
+   "src": "https://www.thekingdomofeswatini.com/arts-craft-artisans-providers/ngwenya-glass",
+   "says": "Famous Eswatini glass-blowing factory (Swedish aid project, Kosta Boda-trained); recycled-glass figurines, animals and vases exported worldwide, devoted collectors",
+   "country": "Eswatini",
+   "dept": "glass animals / vases",
+   "region": "Sub-Saharan Africa"
+  },
+  {
+   "n": "Hebron Glass and Ceramics (Natsheh family)",
+   "layer": "cultural",
+   "src": "https://www.middleeasteye.net/features/despite-hurdles-hebron-glass-makers-keep-kiln-fires-burning",
+   "says": "Natsheh family workshop (since 1890) preserving Hebron's 500-year glass and ceramics tradition; hand-blown glass and hand-painted ceramics",
+   "country": "Palestine",
+   "dept": "decorative glass / ceramics",
+   "region": "Middle East"
+  },
+  {
+   "n": "Tu Bon Fine Art Lacquer",
+   "layer": "cultural",
+   "src": "https://en.sggp.org.vn/artisans-preserve-century-old-lacquerware-heritage-of-tuong-binh-hiep-post123029.html",
+   "says": "Workshop of Meritorious Artisan Le Ba Linh in Tuong Binh Hiep, Vietnam's national-heritage lacquerware village",
+   "country": "Vietnam",
+   "dept": "lacquer decor",
+   "region": "Southeast Asia"
+  },
+  {
+   "n": "Minh Nguyet Lacquer Co.",
+   "layer": "cultural",
+   "src": "https://www.vietcraft.org.vn/mdl/craftbasedtour/action/detail/ref/villages/id/184",
+   "says": "Lacquer company in Tuong Binh Hiep, a village famous nationwide for lacquer boxes, trays, vases (Vietnam Handicraft Exporters Association page)",
+   "country": "Vietnam",
+   "dept": "lacquer vases / trays",
+   "region": "Southeast Asia"
+  },
+  {
+   "n": "TUN Handicrafts",
+   "layer": "cultural",
+   "src": "https://burmacrafts.org/tun-handicrafts-company",
+   "says": "Myanmar Lacquerware Association producer profile: founded 1975 by U Kan Tun, one of the most prominent lacquerware producers in Bagan",
+   "country": "Myanmar",
+   "dept": "lacquerware",
+   "region": "Southeast Asia"
+  },
+  {
+   "n": "Mengrai Kilns",
+   "layer": "cultural",
+   "src": "https://mengraikilns.com/aboutus.asp?lan=eng",
+   "says": "Chiang Mai celadon maker since 1973 reviving Lanna/Sukhothai celadon (self-description; weak)",
+   "country": "Thailand",
+   "dept": "celadon vases",
+   "region": "Southeast Asia"
+  },
+  {
+   "n": "Artisans Angkor",
+   "layer": "cultural",
+   "src": "https://artisansangkor.com/our-crafts",
+   "says": "Cambodian craft enterprise: stone and wood carving trained by Angkor restoration masters, lacquer, silverware (self-description)",
+   "country": "Cambodia",
+   "dept": "carvings / lacquer decor",
+   "region": "Southeast Asia"
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Tuong Binh Hiep (Binh Duong/HCMC), Vietnam",
+   "speciality": "Lacquerware (son mai) boxes, trays, vases, panels; national intangible heritage craft village",
+   "src": "https://www.vietcraft.org.vn/mdl/craftbasedtour/action/detail/ref/villages/id/184",
+   "brands": [
+    "Minh Nguyet Lacquer Co.",
+    "Tu Bon Fine Art Lacquer"
+   ]
+  },
+  {
+   "region": "Bagan, Myanmar",
+   "speciality": "Bamboo-core lacquerware (yun) vases, boxes",
+   "src": "https://burmacrafts.org/tun-handicrafts-company",
+   "brands": [
+    "TUN Handicrafts"
+   ]
+  },
+  {
+   "region": "Hebron, Palestine",
+   "speciality": "Hand-blown glass and painted ceramics",
+   "src": "https://ps.boell.org/en/2021/06/12/hebron-glass-factory",
+   "brands": [
+    "Hebron Glass and Ceramics (Natsheh family)"
+   ]
+  },
+  {
+   "region": "Gzhel (Moscow oblast), Russia",
+   "speciality": "Blue-and-white porcelain and majolica, about thirty villages",
+   "src": "https://en.wikipedia.org/wiki/Gzhel",
+   "brands": []
+  }
+ ],
  "drop": [
   {
    "n": "Bruni Glass",

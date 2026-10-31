@@ -56,10 +56,11 @@
    "axis": "kind",
    "item": "Chairs, stools & benches > Stools, benches & footrests",
    "queries": [
-    "Ashanti/Akan stool Met Museum search"
+    "Ashanti/Akan stool Met Museum search",
+    "design coat stand/stool retailers"
    ],
    "found": 0,
-   "note": "tradition only (Met Museum Akan asesedwa); no maker named on fetched page"
+   "note": "tradition only (Met Museum Akan asesedwa); no maker named on fetched page | no separate search"
   },
   {
    "axis": "kind",
@@ -91,9 +92,11 @@
   {
    "axis": "kind",
    "item": "Tables & desks > Specialist tables",
-   "queries": [],
+   "queries": [
+    "drafting table dressing table makers renowned"
+   ],
    "found": 0,
-   "note": "not searched separately"
+   "note": "not searched separately | search returned nursery pages only; no maker page found"
   },
   {
    "axis": "kind",
@@ -130,19 +133,21 @@
    "axis": "kind",
    "item": "Nursery & children's furniture > Cots & sleepers",
    "queries": [
-    "best baby cot brands independent test"
+    "best baby cot brands independent test",
+    "best nursery furniture brands cots Stokke Leander Sebra"
    ],
-   "found": 1,
-   "note": "Babymore appeared in search only (brand's own page, not taken)"
+   "found": 17,
+   "note": "Babymore appeared in search only (brand's own page, not taken) | Hart Design Selection list: 16 brands"
   },
   {
    "axis": "kind",
    "item": "Nursery & children's furniture > Changing, feeding & play",
    "queries": [
-    "The Bump best high chairs tested"
+    "The Bump best high chairs tested",
+    "best nursery furniture brands cots Stokke Leander Sebra"
    ],
    "found": 2,
-   "note": "Inglesina, Mockingbird (Stokke, Graco, IKEA known)"
+   "note": "Inglesina, Mockingbird (Stokke, Graco, IKEA known) | same page"
   },
   {
    "axis": "kind",
@@ -158,10 +163,11 @@
    "item": "Storage furniture > Regional traditional chests",
    "queries": [
     "Saharanpur wood craft GI RIPA",
-    "Japan tansu search (no dedicated page)"
+    "Japan tansu search (no dedicated page)",
+    "Kyoto Osaka tansu kiri-tansu maker traditional furniture workshop"
    ],
-   "found": 0,
-   "note": "tansu/bandaji brands not found; Saharanpur is a craft tradition (RIPA fetched)"
+   "found": 1,
+   "note": "tansu/bandaji brands not found; Saharanpur is a craft tradition (RIPA fetched) | Asakura Kagu (Kamo kiri-tansu) taken; Kamo cooperative of 4 makers"
   },
   {
    "axis": "kind",
@@ -186,31 +192,38 @@
    "axis": "kind",
    "item": "Racks, boxes & organisers > Boxes, baskets & hanging organisers",
    "queries": [
-    "California Closets (Wikipedia)"
+    "California Closets (Wikipedia)",
+    "best storage boxes baskets makers craftsmanship Iris Hantverk Muuto"
    ],
    "found": 1,
-   "note": ""
+   "note": "search returned retailer/nursery pages only; Iris Hantverk seen in twentytwentyone excerpt, not fetched, not taken"
   },
   {
    "axis": "kind",
    "item": "Racks, boxes & organisers > Racks, hooks & hangers",
-   "queries": [],
-   "found": 0,
-   "note": "not searched separately"
+   "queries": [
+    "best coat rack coat stand makers design brand Hay Muuto Vitra"
+   ],
+   "found": 26,
+   "note": "not searched separately | Living Edge, Nest, DWR directories"
   },
   {
    "axis": "kind",
    "item": "Screens & stands > Screens & dividers",
-   "queries": [],
+   "queries": [
+    "folding screen room divider makers renowned craftsmanship byobu"
+   ],
    "found": 0,
-   "note": "not searched separately"
+   "note": "not searched separately | Kamo (Niigata) makes 90% of Japanese byobu, kiri-tansu region (shokyoto page); named screen maker not found; Eames screen is Herman Miller"
   },
   {
    "axis": "kind",
    "item": "Screens & stands > Display & plant stands",
-   "queries": [],
+   "queries": [
+    "plant stand best makers design brand"
+   ],
    "found": 0,
-   "note": "not searched separately"
+   "note": "not searched separately | search returned only coat-rack retail pages; no plant-stand maker page found"
   },
   {
    "axis": "kind",
@@ -230,23 +243,25 @@
     "Archello 25 best outdoor"
    ],
    "found": 0,
-   "note": "same list as garden seating"
+   "note": "same list as garden seating | NOT searched this round (outdoor covered by archello ranking in earlier round)"
   },
   {
    "axis": "kind",
    "item": "Spare parts > Spare parts",
    "queries": [],
    "found": 0,
-   "note": "not a brand-led corner; not searched"
+   "note": "not a brand-led corner; not searched | not brand-led; not searched"
   },
   {
    "axis": "region",
    "item": "Western Europe",
    "queries": [
-    "Wikipedia furniture companies of Germany, France, Netherlands, Belgium, Austria, Switzerland; EPV; Royal Warrant"
+    "Wikipedia furniture companies of Germany, France, Netherlands, Belgium, Austria, Switzerland; EPV; Royal Warrant",
+    "royalwarrant.org furniture maker royal warrant holder",
+    "Royal Warrant holder bed maker upholsterer cabinet maker"
    ],
-   "found": 60,
-   "note": ""
+   "found": 66,
+   "note": "RWHA full list scanned"
   },
   {
    "axis": "region",
@@ -266,10 +281,11 @@
    "queries": [
     "Italian categories and Compasso d'Oro",
     "Wikipedia Portugal/Slovenia",
-    "Spanish category empty in fetch"
+    "Spanish category empty in fetch",
+    "marchi storici di interesse nazionale elenco arredamento mobili"
    ],
-   "found": 40,
-   "note": "Spain: es.wikipedia category returned no member names in fetched text; Resol, Gandia Blasco, Escofet from Archello"
+   "found": 45,
+   "note": "Spain: es.wikipedia category returned no member names in fetched text; Resol, Gandia Blasco, Escofet from Archello | Marchi Storici 2026 list scanned"
   },
   {
    "axis": "region",
@@ -297,10 +313,12 @@
    "axis": "region",
    "item": "North Africa",
    "queries": [
-    "Moroccan/Syrian inlay furniture (retailer pages)"
+    "Moroccan/Syrian inlay furniture (retailer pages)",
+    "Moroccan furniture makers artisans brand",
+    "Egyptian mother-of-pearl inlay furniture workshop"
    ],
-   "found": 0,
-   "note": "no independent page naming makers"
+   "found": 6,
+   "note": "no independent page naming makers | Homo Faber Maison de l'Artisan list (Fez, Casablanca)"
   },
   {
    "axis": "region",
@@ -308,10 +326,13 @@
    "queries": [
     "African furniture makers Ghana Nigeria Kenya",
     "Met Museum Akan stool",
-    "54kibo"
+    "54kibo",
+    "African furniture design brands Design Indaba",
+    "Nigerian Ghanaian Kenyan furniture makers contemporary design",
+    "South African furniture designers makers Southern Guild"
    ],
-   "found": 0,
-   "note": "Bonobo (Ghana), Jomo Furniture, Behi Crafts appeared only on brand or database pages; none taken. Gloster founded in West Africa 1960 per its page"
+   "found": 15,
+   "note": "Bonobo (Ghana), Jomo Furniture, Behi Crafts appeared only on brand or database pages; none taken. Gloster founded in West Africa 1960 per its page | final round: 15+ makers on fetched pages (AIDA, Visi, Ngala Trading, Dezeen)"
   },
   {
    "axis": "region",
@@ -330,10 +351,13 @@
     "Japan six furniture areas",
     "ja.wikipedia",
     "zh.wikipedia",
-    "KBS Korea"
+    "KBS Korea",
+    "Hida Furniture Matsumoto mingei furniture makers renowned",
+    "Kyoto Osaka tansu kiri-tansu maker traditional furniture workshop",
+    "Korean traditional furniture maker najeon moon-gap hanok gagu brand"
    ],
-   "found": 30,
-   "note": ""
+   "found": 41,
+   "note": "Japan: 11 makers; Korean craft furniture search returned no useful page, none taken"
   },
   {
    "axis": "region",
@@ -348,9 +372,11 @@
   {
    "axis": "region",
    "item": "Central Asia",
-   "queries": [],
+   "queries": [
+    "Uzbekistan Kazakhstan furniture manufacturer traditional carved"
+   ],
    "found": 0,
-   "note": "not searched"
+   "note": "not searched | only a tradition page (Maison de l'Ouzbekistan, Euronews 2026 workshops); no named maker/seller on fetched page except unnamed workshops; none taken"
   },
   {
    "axis": "region",
@@ -379,10 +405,13 @@
    "queries": [
     "Brazilian modernist furniture",
     "Mexican furniture design equipal",
-    "Tidelli"
+    "Tidelli",
+    "Latin American furniture design brands best",
+    "Brazilian furniture makers Etel Lattoog Sergio Rodrigues",
+    "Mexican furniture design brands Casa Gutierrez Equipales"
    ],
-   "found": 0,
-   "note": "Etel, Tidelli, Luteca appeared only in search excerpts or brand pages; Forbes Brazil page returned no text. None taken"
+   "found": 6,
+   "note": "Etel, Tidelli, Luteca appeared only in search excerpts or brand pages; Forbes Brazil page returned no text. None taken | MoMA Crafting Modernity 2024, Design Edit, ArchiExpo: Etel, Rodrigues, Campana, Mercado Moderno, Sossego, Platalea taken"
   }
  ],
  "regions": [
@@ -671,6 +700,105 @@
     "İdaş",
     "Modalife"
    ]
+  },
+  {
+   "region": "Sub-Saharan Africa",
+   "speciality": "Contemporary African furniture drawing on local craft and indigenous materials (Botswana, South Africa, Nigeria, Ethiopia, Kenya, Senegal, Burkina Faso)",
+   "src": "https://africainternationaldesignawards.com/top-8-most-awarded-african-furniture-designers-you-should-know",
+   "brands": [
+    "Mabeo Furniture",
+    "Mash.T Design Studio",
+    "TheUrbanative",
+    "Studio Lani",
+    "Jomo Furniture",
+    "Birsel + Seck",
+    "Studio Hamed Ouattara",
+    "Nulangee",
+    "Sky Decor",
+    "Studio Propolis",
+    "EGG Designs",
+    "High Thorn",
+    "Umdabu",
+    "Southern Guild",
+    "Dokter and Misses"
+   ]
+  },
+  {
+   "region": "North Africa",
+   "speciality": "Moroccan woodwork, cedar and bone/mother-of-pearl inlay furniture from Fez",
+   "src": "https://www.homofaber.com/en/ambassadors/maison-de-lartisan-cpgzmq",
+   "brands": [
+    "Maison Benlemlih",
+    "Noun Design",
+    "Youness Horri",
+    "Hamza Kadiri Studio",
+    "Callitris",
+    "Shosha Kamal Design House"
+   ]
+  },
+  {
+   "region": "Latin America & Caribbean",
+   "speciality": "Brazilian modern furniture (jacaranda, leather, caning); Mexican and Colombian craft-based modern design",
+   "src": "https://www.moma.org/calendar/exhibitions/5657",
+   "brands": [
+    "Etel",
+    "Sergio Rodrigues Atelier",
+    "Estudio Campana",
+    "Mercado Moderno",
+    "Sossego",
+    "Platalea Studio"
+   ]
+  },
+  {
+   "region": "East Asia (Japan)",
+   "speciality": "Hida/Takayama bentwood and certified quality furniture, Asahikawa premium workshops, Kamo kiri-tansu paulownia chests and byobu screens",
+   "src": "https://shoryudo.go-centraljapan.jp/en/special/hidakagu",
+   "brands": [
+    "Hida Sangyo",
+    "Kashiwa",
+    "Nissin",
+    "Conde House",
+    "Takumi Kohgei",
+    "Karimoku",
+    "Tendo Mokko",
+    "Asakura Kagu",
+    "Hokumin Furniture"
+   ]
+  },
+  {
+   "region": "Southern Europe (Italy)",
+   "speciality": "Italian historic furniture houses protected by the Marchi Storici register",
+   "src": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "brands": [
+    "Poltrona Frau",
+    "Cassina",
+    "Minotti",
+    "Tecno",
+    "Zanotta",
+    "B&B Italia",
+    "Lema",
+    "Angelo Cappellini",
+    "Doimo Salotti"
+   ]
+  },
+  {
+   "region": "Western Europe (United Kingdom)",
+   "speciality": "Royal Warrant furniture, bed and mattress makers",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline",
+   "brands": [
+    "Hypnos",
+    "Glencraft",
+    "Sleepeezee",
+    "Iron and Brass Bed Company",
+    "N.E.J. Stevenson",
+    "Stoneham"
+   ]
+  },
+  {
+   "region": "Central Asia",
+   "speciality": "Uzbek woodcarving (single-block, Khiva/Tashkent/Samarkand schools); Kazakh nomadic woodwork",
+   "src": "https://www.maisonouzbek.com/en/arts-and-cultures/uzbek-woodcarving",
+   "brands": []
   }
  ],
  "sources": [
@@ -945,16 +1073,6 @@
    "note": "list has no per-company sector in the fetched text; names with furniture/upholstery/bedding/seat keywords taken; Tolix Steel Design, Roset, Lafuma Mobilier, Jouffre, Atelier d'Offard confirmed on it"
   },
   {
-   "url": "https://www.royalwarrant.org/company/hypnos-ltd",
-   "title": "Royal Warrant Holders Association: Hypnos",
-   "kind": "heritage",
-   "years": "since 1929",
-   "names_on_page": 1,
-   "new_names": 0,
-   "status": "partial",
-   "note": "Hypnos already known; the RWHA directory not enumerated (search page only)"
-  },
-  {
    "url": "https://www.red-dot.org/magazine/red-dot-design-ranking-on-the-occasion-of-the-imm-cologne-the-most-successful-seating-furniture-manufacturers",
    "title": "Red Dot Design Ranking: most successful seating furniture manufacturers (2010-2014)",
    "kind": "award",
@@ -1073,6 +1191,136 @@
    "new_names": 2,
    "status": "done",
    "note": "sustainability-led; only Jardan and Savvy Rest taken"
+  },
+  {
+   "url": "https://www.royalwarrant.org/media/2986/download?inline",
+   "title": "Companies By Appointment to His Majesty The King (RWHA list, May 2026)",
+   "kind": "heritage",
+   "years": "2026",
+   "names_on_page": 650,
+   "new_names": 6,
+   "status": "done",
+   "note": "full list scanned for furniture/bed/upholstery: Glencraft, Iron and Brass Bed Company, NEJ Stevenson, Sleepeezee, Stoneham, KR Hannaford new; Hypnos known"
+  },
+  {
+   "url": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "title": "Marchi Storici elenco 2026 (1000 marks)",
+   "kind": "heritage",
+   "years": "2026",
+   "names_on_page": 998,
+   "new_names": 4,
+   "status": "done",
+   "note": "filtered by furniture words: Poltrona Frau, Angelo Cappellini, Lema, Doimo Salotti, Magniarredo new; Cassina, Minotti, Tecno, Zanotta, B&B Italia known. Scavolini (kitchens) skipped. Furniture firms with neutral names may be missed"
+  },
+  {
+   "url": "https://africainternationaldesignawards.com/top-8-most-awarded-african-furniture-designers-you-should-know",
+   "title": "Most awarded African furniture designers",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 10,
+   "new_names": 7,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://visi.co.za/african-design-talent-getting-noticed",
+   "title": "African design talent (Maison&Objet 2016)",
+   "kind": "collection",
+   "years": "2016",
+   "names_on_page": 11,
+   "new_names": 5,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://ngalatrading.com/pages/makers",
+   "title": "Ngala Trading makers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 11,
+   "new_names": 6,
+   "status": "done",
+   "note": "specialist seller of African furniture"
+  },
+  {
+   "url": "https://ookkuu.com/pages/makers",
+   "title": "Ookkuu Japanese makers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 10,
+   "new_names": 7,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://shoryudo.go-centraljapan.jp/en/special/hidakagu",
+   "title": "Hida furniture certification",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Hida no Kagu certification, 6 standards"
+  },
+  {
+   "url": "https://livingedge.com.au/storage/wall-hooks-coat-stands/",
+   "title": "Living Edge brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 45,
+   "new_names": 20,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.nest.co.uk/hooks-and-coat-stands",
+   "title": "Nest hooks and coat stands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 17,
+   "new_names": 4,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.dwr.com/entryway-coat-racks-wall-hooks?lang=en_US",
+   "title": "DWR coat racks",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "title": "Hart Design Selection children's brands",
+   "kind": "retailer",
+   "years": "2025",
+   "names_on_page": 38,
+   "new_names": 16,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.red-dot.org/pd",
+   "title": "Red Dot Best of the Best / iF / German Design Award / Good Design winner lists",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "winner searches are dynamic (solr) pages; search found only news items and per-company pages (e.g. Fantoni Atelier German Design Award 2021 Gold, Nowy Styl/Kusch+Co Red Dot 2026) which were not fetched. Not harvested"
+  },
+  {
+   "url": "https://www.royalwarrant.org/company/hypnos-ltd",
+   "title": "RWHA Hypnos",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "superseded by the full RWHA list"
   }
  ],
  "brands": [
@@ -4918,6 +5166,146 @@
    "says": "Most successful seating furniture manufacturers in Red Dot Design Ranking 2010-2014",
    "country": "Italy",
    "dept": "seating",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Leander",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: evolving beds, steam-bent beech, premium quality",
+   "country": "Denmark",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Sebra",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: timeless Scandinavian furniture",
+   "country": "Denmark",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Ducduc",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: handcrafted eco furniture, GREENGUARD Gold",
+   "country": "United States",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Oeuf NYC",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: Baltic birch FSC furniture",
+   "country": "United States",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Nursery Works",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: designer-collaboration nursery furniture",
+   "country": "United States",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Quax",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: evolving solid wood furniture",
+   "country": "Belgium",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Rafa Kids",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: birch plywood furniture",
+   "country": "Poland",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Nook",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: sustainable nursery sleep products and furniture",
+   "country": "United States",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Jungle by Jungle",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: powder-coated steel benches",
+   "country": "France",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Wigiwama",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: soft sculptural furniture",
+   "country": "Latvia",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Cam Cam Copenhagen",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: FSC wood nursery furniture",
+   "country": "Denmark",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Nobodinoz",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: nursery furniture and textiles",
+   "country": "France/Spain",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Petit Tresor",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: custom nursery furniture",
+   "country": "United States",
+   "dept": "nursery furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "The Socialite Family",
+   "layer": "premium",
+   "src": "https://hartdesignselection.com/en/luxury-childrens-design-furniture-brands",
+   "says": "Listed by Hart Design Selection among luxury/quality children's design furniture brands: curated children's furniture",
+   "country": "France",
+   "dept": "nursery furniture",
    "already": false,
    "pending_retail": false
   }
