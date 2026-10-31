@@ -1,0 +1,84 @@
+{
+ "cat": "B2",
+ "items": [
+  {
+   "rubric_id": 3,
+   "tradition": "Turkmen rug weaving",
+   "decision": "skip",
+   "dept": "Rugs & mats",
+   "shelf": "Oriental knotted-pile rugs",
+   "kind": "Central Asian rug",
+   "record": {},
+   "makers": [],
+   "ve_link": "Turkmen rug weaving",
+   "why": "Already present: the Central Asian rug kind carries the alias 'Turkoman rug' and the Turkmen tribal archetypes (Tekke, Yomut, Ersari, Salor, Saryk, Chodor); add 'Turkmen rug' as a further alias."
+  },
+  {
+   "rubric_id": 24,
+   "tradition": "Sashiko",
+   "decision": "technique_only",
+   "dept": "",
+   "shelf": "",
+   "kind": "",
+   "record": {},
+   "makers": [],
+   "ve_link": "Sashiko",
+   "why": "Ambiguous resolved: sashiko is a running-stitch embroidery and mending technique applied to many textiles; it names a way of making, not a ware."
+  },
+  {
+   "rubric_id": 33,
+   "tradition": "Irish linen",
+   "decision": "add_archetype",
+   "dept": "Table & kitchen linen",
+   "shelf": "Dressing the table",
+   "kind": "Tablecloth",
+   "record": {
+    "n": "Irish linen tablecloth",
+    "a": "Irish linen · Irish Linen Guild linen",
+    "d": "Tablecloth of Irish linen, cloth woven from yarn spun in Ireland from 100% flax, whose genuine fabric carries the Irish Linen Guild trademark.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/Irish_linen",
+    "v": [],
+    "dt": "damask or plain weave"
+   },
+   "makers": [],
+   "ve_link": "Irish linen",
+   "why": "Ambiguous resolved: a certified, protected cloth name sold as household linen (like Harris Tweed in the rubric); an origin version of Tablecloth beside Basque linen. Could also be a cloth attribute on Sheet and Napkin."
+  },
+  {
+   "rubric_id": 35,
+   "tradition": "Rajasthani hand block printing (Bagru and Sanganer)",
+   "decision": "add_archetype",
+   "dept": "Cushions & covers",
+   "shelf": "Furnishing fabrics",
+   "kind": "Printed & embroidered furnishing textile",
+   "record": {
+    "n": "Bagru print",
+    "a": "Bagru hand block print (GI)",
+    "d": "Hand-block-printed cotton from Bagru near Jaipur, given a geographical indication in 2024 and sold as bed linen, cushion covers and table linen.",
+    "mk": "",
+    "y": "GI 2024",
+    "s": "https://en.wikipedia.org/wiki/Bagru_print",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Rajasthani hand block printing (Bagru and Sanganer)",
+   "why": "Ambiguous resolved: the printing is a VE technique, but Bagru (and Sanganeri) print is a GI-protected textile sold as such. Sanganeri print not added: no Wikipedia page exists (404) and no other page was fetched."
+  },
+  {
+   "rubric_id": 36,
+   "tradition": "Provençal indiennes",
+   "decision": "skip",
+   "dept": "Table & kitchen linen",
+   "shelf": "Dressing the table",
+   "kind": "Tablecloth",
+   "record": {},
+   "makers": [],
+   "ve_link": "Provençal indiennes",
+   "why": "Already present: 'Provençal indienne' is an archetype under Tablecloth in rebuild/out/B2.json."
+  }
+ ],
+ "done": true
+}

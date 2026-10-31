@@ -24,25 +24,30 @@
   {
    "axis": "region",
    "item": "Southern Europe",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "Wikipedia Category:Home appliance brands (regional makers)"
+   ],
+   "found": 3,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "region",
    "item": "Central & Eastern Europe",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "Wikipedia Category:Home appliance brands (regional makers)"
+   ],
+   "found": 2,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "region",
    "item": "Middle East",
    "queries": [
-    "renowned cleaning tools/laundry makers Middle East"
+    "renowned cleaning tools/laundry makers Middle East",
+    "Wikipedia Category:Home appliance brands (regional makers)"
    ],
-   "found": 1,
-   "note": ""
+   "found": 6,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "region",
@@ -54,16 +59,20 @@
   {
    "axis": "region",
    "item": "Sub-Saharan Africa",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "Wikipedia Category:Home appliance brands (regional makers)"
+   ],
+   "found": 1,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "region",
    "item": "South Asia",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "Wikipedia Category:Home appliance brands (regional makers)"
+   ],
+   "found": 6,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "region",
@@ -77,9 +86,11 @@
   {
    "axis": "region",
    "item": "Southeast Asia",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "Wikipedia Category:Home appliance brands (regional makers)"
+   ],
+   "found": 1,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "region",
@@ -92,10 +103,11 @@
    "axis": "region",
    "item": "Oceania",
    "queries": [
-    "renowned cleaning tools/laundry makers Oceania"
+    "renowned cleaning tools/laundry makers Oceania",
+    "Wikipedia Category:Home appliance brands (regional makers)"
    ],
-   "found": 0,
-   "note": ""
+   "found": 1,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "region",
@@ -110,10 +122,11 @@
    "axis": "region",
    "item": "Latin America & Caribbean",
    "queries": [
-    "renowned cleaning tools/laundry makers Latin America & Caribbean"
+    "renowned cleaning tools/laundry makers Latin America & Caribbean",
+    "Wikipedia Category:Home appliance brands (regional makers)"
    ],
-   "found": 0,
-   "note": ""
+   "found": 2,
+   "note": "from encyclopedia category"
   },
   {
    "axis": "kind",
@@ -385,6 +398,95 @@
     "Dreame",
     "Roborock"
    ]
+  },
+  {
+   "region": "Turkey / Middle East",
+   "speciality": "Washing machines and home appliances (Arçelik group, Vestel)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Arçelik",
+    "Vestel",
+    "Profilo",
+    "Beko"
+   ]
+  },
+  {
+   "region": "Iran",
+   "speciality": "Home appliances",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Pars Khazar",
+    "Snowa"
+   ]
+  },
+  {
+   "region": "South Asia",
+   "speciality": "Home appliances (Pakistan, India, Bangladesh, Sri Lanka)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Dawlance",
+    "Videocon",
+    "Singer Bangladesh",
+    "Walton",
+    "Damro",
+    "Sisil"
+   ]
+  },
+  {
+   "region": "Southeast Asia",
+   "speciality": "Home appliances (Malaysia)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Khind"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa",
+   "speciality": "Washing machines and appliances (South Africa)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Defy"
+   ]
+  },
+  {
+   "region": "Latin America",
+   "speciality": "Home appliances (Colombia, Mexico)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Haceb",
+    "Mabe"
+   ]
+  },
+  {
+   "region": "Oceania",
+   "speciality": "Home appliances (Australia, New Zealand)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Kleenmaid",
+    "Fisher & Paykel",
+    "Simpson"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe",
+   "speciality": "Home appliances (Poland, Slovenia)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Amica",
+    "Gorenje"
+   ]
+  },
+  {
+   "region": "Southern Europe",
+   "speciality": "Home appliances (Spain, Greece, Italy)",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "brands": [
+    "Balay",
+    "Edesa",
+    "Pitsos",
+    "Candy",
+    "Smeg"
+   ]
   }
  ],
  "sources": [
@@ -477,6 +579,16 @@
    "new_names": 4,
    "status": "partial",
    "note": "page 1 of 2 read (20 of 26); page 2 names seen via search: Minky (known), Total Support Services; many holders are services (dry cleaners, window cleaners) not product brands"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "title": "Wikipedia Category:Home appliance brands (126 pages + template)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 126,
+   "new_names": 28,
+   "status": "done",
+   "note": "only laundry/cleaning-relevant makers taken; 44 of 91 candidates already known"
   }
  ],
  "brands": [
@@ -943,6 +1055,230 @@
    "country": "United Kingdom",
    "dept": "Furniture and carpet care (service)",
    "role": "seller"
+  },
+  {
+   "n": "Arçelik",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Turkey",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Dawlance",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Pakistan",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Defy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "South Africa",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Vestel",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Turkey",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Bauknecht",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Germany",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Henry",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "United Kingdom",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Haceb",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Colombia",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Mabe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Mexico",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Damro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Sri Lanka",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Khind",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Malaysia",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Kleenmaid",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Australia",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Balay",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Spain",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Constructa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Germany",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Pitsos",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Greece",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Profilo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Turkey",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Amica",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Poland",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Videocon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "India",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Pars Khazar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Iran",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Snowa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Iran",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Sanyo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Japan",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Amana",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "United States",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Brandt",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "France",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Edesa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Spain",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Inglis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Canada",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Westinghouse",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "United States",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Walton",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Bangladesh",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Singer Bangladesh",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Bangladesh",
+   "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Sisil",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
+   "country": "Sri Lanka",
+   "dept": "Washing machines & dryers / appliances"
   }
  ]
 }
