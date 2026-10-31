@@ -6,7 +6,7 @@ for e in K['Everyday ground & filter coffee']['x']:
   if not e.get('g'): e['g']='National champion: United States'
 for e in K['Single-origin coffee']['x']: e['g']=e.get('g') or e['n'].split(' ')[0]
 def strip(s):
-  s=re.sub(r'\s*(Complete: [^.]*\.?|Covers \d+ of about[^.]*\.?|No complete (list|reference)[^.]*\.?|No whole-space reference[^.]*\.?|Kept from the earlier edition[^.]*\.?)\s*$','',s.strip())
+  s=re.sub(r'\s*(Complete: [^.]*\.?|Covers \d+ [^.]*\.?|No complete (list|reference)[^.]*\.?|No whole-space reference[^.]*\.?|Kept from the earlier edition[^.]*\.?)\s*$','',s.strip())
   return s
 NC='No complete list exists; follows '
 cov={
@@ -27,7 +27,7 @@ cov={
 'Chinese green tea':'Complete: 11 of 11 green teas on the Wikipedia list of Chinese teas; the other entries are further teas kept from the earlier edition.',
 'Korean green tea':'No complete list exists; follows the Korean tea pages cited.',
 'Yellow tea':'Complete: 2 of 2 yellow teas on the Wikipedia list of Chinese teas; the other two entries are kept from the earlier edition.',
-'Wuyi rock oolong':'Complete: 9 of 9 Wuyi oolongs among the 16 oolongs on the Wikipedia list of Chinese teas; the list does not state provinces, so the other oolongs of unstated origin are in the next kind.',
+'Wuyi rock oolong':'Complete: 16 of 16 oolongs on that list across this kind and Tieguanyin & Anxi oolong.',
 'Tieguanyin & Anxi oolong':'Complete: 16 of 16 oolongs on the Wikipedia list of Chinese teas across this kind and Wuyi rock oolong (Pouchong is under Taiwanese oolong).',
 'Taiwanese oolong':'Covers {n} teas, cultivars and mountains from the Wikipedia article on Taiwanese tea (first 100,000 of about 111,000 characters read); no complete list of Taiwanese teas was found.',
 'White tea':'Complete: 3 of 3 white teas on the Wikipedia list of Chinese teas; Gong Mei is kept from the earlier edition.',
