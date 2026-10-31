@@ -15,7 +15,7 @@ SRC={
  'YI':'https://yicaiglobal.com/news/proya-surpasses-rival-jahwa-to-become-chinas-largest-cosmetics-brand-by-sales-revenue',
  'RK':'https://www.ringly.io/discover/best-korean-skincare-brands','JT':'https://japanesetaste.com/blogs/japanese-taste-blog/japanese-skincare-products-guide-25-best-japanese-beauty-brands',
  'BI':'https://www.beautyindependent.com/niq-kline-25-indie-beauty-brands-ripe-acquisition/','KOT':'https://www.kotakneo.com/investing-guide/articles/india-skincare-market-growth-trends/',
- 'LOB':W+'Category:L%27Or%C3%A9al_brands','ELB':W+'Category:Est%C3%A9e_Lauder_Companies_brands',
+ 'TG':'https://www.trade.gov/market-intelligence/japan-cosmetics-and-personal-care-industry-update','GT':'https://www.gtai.de/de/trade/japan/branchen/japans-markt-fuer-kosmetika-erholt-sich-1763384','LOB':W+'Category:L%27Or%C3%A9al_brands','ELB':W+'Category:Est%C3%A9e_Lauder_Companies_brands',
 }
 # Global-group portfolios. Fields: name | aliases | dept (S skin, M make-up, B both) | group key | own_y | g | year-of-launch | note
 # Dept is the editor's placement by main product; owner/own_y/g come from the group page named by the key.

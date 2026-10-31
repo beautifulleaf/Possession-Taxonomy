@@ -21,14 +21,14 @@ Natura||S|Natura &Co|NC|Brazil||BR|Brazilian group; with Avon it is level with G
 O Boticário||B|Grupo Boticário|NC|Brazil||BR|Grupo Boticário held 15.5% of Brazilian beauty and personal care in 2025 (Euromonitor)
 Surya Brasil||S||''|Brazil||BR|Brazilian brand named in the Wikipedia category
 Hada Labo||S|Rohto Pharmaceutical|NC|Japan||JT|described as one of Japan's best-selling skin care brands
-Fancl|FANCL|B|FANCL Corporation|IN|Japan||JP|Japanese company named among Japan's major beauty firms (GTAI)
+Fancl|FANCL|B|FANCL Corporation|IN|Japan||GT|Japanese company named among Japan's major beauty firms (GTAI)
 DHC||S|DHC Corporation|IN|Japan||JP|Japanese company; maker of DHC Deep Cleansing Oil
 Mandom||B|Mandom|IN|Japan||JP|Japanese company named in the Wikipedia category
 Menard|Nippon Menard Cosmetic|S|Nippon Menard Cosmetic Co.|IN|Japan||JP|Japanese company named in the Wikipedia category
 Isehan||M|Isehan Cosmetics|IN|Japan||JP|Japanese company named in the Wikipedia category
 Albion||B|Albion Co., Ltd.|IN|Japan|1956|JP|Japanese premium cosmetics maker established 1956
 Obagi Japan|Obagi|S|Rohto Pharmaceutical|IN|Japan||JT|listed as a Rohto affiliate
-Pola Orbis|Pola · Orbis|B|Pola Orbis Holdings|NC|Japan||JT|named with Shiseido, Kao and Kosé among Japan's global beauty companies (US Commerce Department, 2021)
+Pola Orbis|Pola · Orbis|B|Pola Orbis Holdings|NC|Japan||TG|named with Shiseido, Kao and Kosé among Japan's global beauty companies (US Commerce Department, 2021)
 Sukoyaka Suhada||S|Ishizawa Lab|IN|Japan||JT|Japanese skin care brand
 Transino||S|Daiichi Sankyo Healthcare|IN|Japan||JT|Japanese skin care brand
 Astalift||S||''|Japan||JT|Japanese skin care brand
@@ -52,7 +52,7 @@ Anua||S||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
 SKIN1004||S||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
 Round Lab||S||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
 Torriden||S||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
-Numbuzin|numbuzin||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
+Numbuzin|numbuzin|S||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
 Isntree||S||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
 Medicube||S||''|South Korea||RK|Korean skin care brand in a 2026 K-beauty guide
 Clarins||B|Clarins|IN|France||FR|French company named in the Wikipedia category
@@ -76,7 +76,7 @@ Neal's Yard Remedies||S||''|United Kingdom||UK|British brand named in the Wikipe
 Revolution Beauty||M|Revolution Beauty|IN|United Kingdom||UK|British company named in the Wikipedia category
 Nails Inc.||M||''|United Kingdom||UK|British nail brand named in the Wikipedia category
 Montagne Jeunesse||S||''|United Kingdom||UK|British brand named in the Wikipedia category
-Tropic Skincare|Tropic||S||''|United Kingdom||UK|British brand named in the Wikipedia category
+Tropic Skincare|Tropic|S||''|United Kingdom||UK|British brand named in the Wikipedia category
 Lush||S|Lush|IN|United Kingdom||UK|British company named in the Wikipedia category
 The Body Shop||S||''|United Kingdom||UK|British brand named in the Wikipedia category
 Revlon||M|Revlon|IN|United States||US|American company named in the Wikipedia category
@@ -93,7 +93,7 @@ Lise Watier||B||''|Canada||CA|Canadian company named in the Wikipedia category
 Balmshell||S||''|Canada||CA|Canadian brand named in the Wikipedia category
 Jurlique||S||''|Australia||AU|Australian brand named in the Wikipedia category
 Mecca||B||''|Australia||AU|Australian brand named in the Wikipedia category
-KORA Organics|Kora Organics||''|Australia||AU|Australian brand named in the Wikipedia category
+KORA Organics|Kora Organics|S||''|Australia||AU|Australian brand named in the Wikipedia category
 Red Earth||B||''|Australia||AU|Australian brand named in the Wikipedia category
 Ahava||S||''|Israel||IL|Israeli brand named in the Wikipedia category
 Premier Dead Sea||S||''|Israel||IL|Israeli brand named in the Wikipedia category
