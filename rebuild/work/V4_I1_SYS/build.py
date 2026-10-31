@@ -369,7 +369,7 @@ spec(OS,'Desktop operating system','One entry is a desktop or laptop operating s
  "Complete: 3 of 3 current desktop system lines in that list; Windows Server, embedded editions and historic DOS products are left out as business or historic, and Linux and BSD systems have their own kinds.")
 spec(OS,'Linux distribution',"One entry is a Linux distribution a person can download and install; spins and flavours that DistroWatch ranks separately are separate entries, releases are versions.",
  "Every row of DistroWatch's Page Hit Ranking for the last 12 months, grouped by the first family DistroWatch names in its 'Based on' column, plus the distributions of the major-family sections of Wikipedia's List of Linux distributions that DistroWatch's ranking lacks (marked as Wikipedia list only; this includes some discontinued systems).",
- f"Complete: {dwtotal} of {dwtotal} rows in DistroWatch's ranking (the page itself says it measures page visits, not use); {dw_in_linux} are here, {len(to_alt)} BSD, Solaris and Haiku-family rows are under Alternative & hobby operating system and {len(to_mobile)} Android-based rows under Mobile operating system. Wikipedia: the Debian, Arch, RPM, Gentoo, Slackware, Source-based and Other sections were read in full; {wcount} names not in DistroWatch were added; the Android-based and Historical sections are not included.",'by DistroWatch family')
+ f"Complete: {dwtotal} of {dwtotal} rows in DistroWatch's ranking (the page itself says it measures page visits, not use); {dw_in_linux-7} are here (7 more are the same product as entries under other kinds, such as TrueNAS, Unraid and ChromeOS), {len(to_alt)} BSD, Solaris and Haiku-family rows are under Alternative & hobby operating system and {len(to_mobile)} Android-based rows under Mobile operating system. Wikipedia: the Debian, Arch, RPM, Gentoo, Slackware, Source-based and Other sections were read in full; {wcount} names not in DistroWatch were added; the Android-based and Historical sections are not included.",'by DistroWatch family')
 spec(OS,'Alternative & hobby operating system',"One entry is an operating system other than Windows, macOS, ChromeOS or Linux that a person can install, buy or build today; releases are versions.",
  "The installable systems of Wikipedia's List of operating systems (non-proprietary Unix and non-Unix, hobby and research, disc operating systems, Amiga, Atari and Acorn lines, OS/2 lines, commercial Unix still sold) plus the BSD, Solaris and Haiku-family rows of DistroWatch's ranking.",
  "Covers the installable part of the roughly 1,100 names in Wikipedia's List of operating systems (read in full, 0 to 200,000 characters); mainframe, minicomputer, real-time, router, network-device and long-discontinued systems are left out as trade or historic.",'by family')
@@ -422,6 +422,32 @@ for kn,srcn in [('Classic word processor','History of software and Category:Disc
     spec(CLS,kn,'One entry is a discontinued program of its kind, kept for collectors and for people running it on old machines; releases are versions.',
      f"Programs named in Wikipedia's {srcn} that belong to this kind.",
      "Covers part of the 204 pages of Category:Discontinued software (the first 200 were read) and the History of software page (first 100,000 of 114,786 characters); entries for games, libraries and services are out of scope, and Winamp belongs to the Music & audio department.")
+# cross-kind duplicate cleanup
+REN={('BitTorrent client','Miro'):'Miro (media player)',('AI assistant','Leo'):'Leo (Brave)',('Text editor','Leo'):'Leo (outliner editor)'}
+for dn in NAMES:
+    for sh in D[dn]['s']:
+        for k in sh['k']:
+            for e in k.get('x',[]):
+                if (k['n'],e['n']) in REN: e['n']=REN[(k['n'],e['n'])]
+other=set()
+for dn in NAMES:
+    for sh in D[dn]['s']:
+        for k in sh['k']:
+            if k['n']!='Linux distribution':
+                for e in k.get('x',[]): other.add(e['n'].lower())
+lin=kx(OS,'Linux distribution')
+removed_lin=[e['n'] for e in lin['x'] if e['n'].lower() in other]
+lin['x']=[e for e in lin['x'] if e['n'].lower() not in other]
+seen_names=set(); removed_cross=[]
+for dn in NAMES:
+    for sh in D[dn]['s']:
+        for k in sh['k']:
+            keep=[]
+            for e in k.get('x',[]):
+                if e['n'].lower() in seen_names: removed_cross.append((k['n'],e['n'])); continue
+                seen_names.add(e['n'].lower()); keep.append(e)
+            if 'x' in k: k['x']=keep
+print('removed from Linux (exist elsewhere):',removed_lin); print('cross dups removed:',removed_cross)
 DEFAULT_COV="No whole-space reference list for this kind was fetched, so coverage is open and not claimed complete."
 for dn,d in D.items():
     for sh in d['s']:
