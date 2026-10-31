@@ -111,7 +111,17 @@ add('Pessac-Léognan',V('Château La Tour Haut-Brion','1953','Graves classificat
 for n in ['Château Pavie','Château Figeac']: add('Saint-Émilion Grand Cru',V(n,'2022','Premier grand cru classé A, 2022 classification'))
 for n in ['Château Beauséjour (Duffau-Lagarrosse)','Château Beau-Séjour Bécot','Château Bélair-Monange','Château Canon','Château Canon-la-Gaffelière','Château Larcis Ducasse','Château Pavie-Macquin','Château Troplong Mondot','Château Trotte Vieille','Château Valandraud','Clos Fourtet','La Mondotte']: add('Saint-Émilion Grand Cru',V(n,'2022','Premier grand cru classé B, 2022 classification'))
 for n in ['Ambonnay','Avize','Aÿ','Beaumont-sur-Vesle','Bouzy','Chouilly','Cramant','Louvois','Mailly-Champagne','Le Mesnil-sur-Oger','Oger','Oiry','Puisieulx','Sillery','Tours-sur-Marne','Verzenay','Verzy']: add('Champagne',V(n,'','Grand cru village, rated 100 % on the échelle des crus'))
-vsrc={'Pauillac':C1855,'Margaux':C1855,'Saint-Julien':C1855,'Saint-Estèphe':C1855,'Haut-Médoc':C1855,'Sauternes':C1855,'Barsac':C1855,'Pessac-Léognan':GR,'Saint-Émilion Grand Cru':SE,'Champagne':CH}
+
+PO='https://en.wikipedia.org/wiki/Pomerol_AOC'; CDP='https://en.wikipedia.org/wiki/Ch%C3%A2teauneuf-du-Pape_AOC'; HE='https://en.wikipedia.org/wiki/Hermitage_AOC'
+add('Pomerol',V('Château Pétrus','','named by Wikipedia (Pomerol AOC) as the one property widely held equivalent to a premier cru; the only First Growth in Clive Coates\'s 2001 ranking'))
+for n in ['Lafleur','Trotanoy','L\'Évangile','La Fleur-Pétrus','Latour à Pomerol','Vieux Château Certan']: add('Pomerol',V(n if n.startswith('Vieux') else 'Château '+n if n!='Lafleur' else 'Château Lafleur','','named by Wikipedia (Pomerol AOC) as a leading estate: Outstanding Growth in Clive Coates\'s 2001 ranking'))
+for n in ['Le Pin','Certan de May','Clinet','La Conseillante','Clos l\'Église','La Fleur-de-Gay','Gazin']: add('Pomerol',V(n if n in('Le Pin','Clos l\'Église') else 'Château '+n,'','named by Wikipedia (Pomerol AOC) as a leading estate: Exceptional Growth in Clive Coates\'s 2001 ranking'))
+add('Châteauneuf-du-Pape',V('Domaine du Vieux Télégraphe','','named by Wikipedia (Châteauneuf-du-Pape AOC) as one of the most classic Châteauneufs'))
+add('Châteauneuf-du-Pape',V('Château Rayas','','named by Wikipedia (Châteauneuf-du-Pape AOC) among the most prestigious vineyards of the area'))
+add('Châteauneuf-du-Pape',V('Château de Beaucastel','','named by Wikipedia (Châteauneuf-du-Pape AOC) as an estate growing all the permitted varieties and blending them consistently'))
+add('Hermitage',V('Domaine Jean-Louis Chave','','named by Wikipedia (Hermitage AOC) as the most notable producer of Hermitage'))
+for n in ['Chapoutier','Jaboulet','Delas']: add('Hermitage',V(n,'','named by Wikipedia (Hermitage AOC) as another notable estate'))
+vsrc={'Pomerol':PO,'Châteauneuf-du-Pape':CDP,'Hermitage':HE,'Pauillac':C1855,'Margaux':C1855,'Saint-Julien':C1855,'Saint-Estèphe':C1855,'Haut-Médoc':C1855,'Sauternes':C1855,'Barsac':C1855,'Pessac-Léognan':GR,'Saint-Émilion Grand Cru':SE,'Champagne':CH}
 used=set()
 shelves=[]
 def mkdesc(e):
@@ -131,7 +141,7 @@ for sn,st,sax,kinds in LAYOUT:
             if gcflag: x['g']='Grands crus' if nm in GRAND else 'Village, district and regional appellations'
             if nm in ver:
                 x['v']=ver[nm]
-                if vsrc.get(nm) and vsrc[nm]!=x['s']: x['s']=vsrc[nm] if nm!='Champagne' else x['s']
+                if vsrc.get(nm) and vsrc[nm]!=x['s'] and nm!='Champagne': x['s']=vsrc[nm]
             xs.append(x)
         if gcflag: xs.sort(key=lambda x:(x['g']!='Grands crus',x['y'] or '9999',x['n']))
         else: xs.sort(key=lambda x:(x['y'] or '9999',x['n']))
@@ -141,6 +151,33 @@ for sn,st,sax,kinds in LAYOUT:
           xg=('by rank: grands crus first, then village and regional appellations' if gcflag else 'by year the appellation was established, then name'))
         ks.append(k)
     shelves.append(dict(n=sn,t=st,ax=sax,k=ks))
+
+HL='https://en.wikipedia.org/wiki/List_of_Champagne_houses'
+H=[('Abelé','1757','TEVC',['Sourire de Reims'],0),('Ayala','1860','Groupe Bollinger',['Grande Cuvée'],1),('Billecart-Salmon','1818','Billecart-Salmon',['Brut Réserve','Clos St Hilaire'],0),('Binet','1849','Binet',['Médaillon Rouge','Elite range'],0),('Boizel','1834','Lanson-BCC',['Joyau de France'],1),('Boll & Cie','1853','Boll & Cie',['Grand cru blanc de blancs'],1),('Bollinger','1829','Groupe Bollinger',['Vieilles Vignes Françaises','R.D.'],0),('Bruno Paillard','1981','Bruno Paillard',['Nec Plus Ultra'],1),('Burtin-Besserat de Bellefon','1843','Lanson-BCC',['Cuvée des Moines'],0),('Canard-Duchêne','1868','Groupe Thiénot',['Grande Cuvée Charles VII'],0),('Cattier','1918','Cattier',['Clos du Moulin'],0),('Chanoine Frères','1730','Lanson-BCC',['Gamme Tsarine'],0),('Charles Heidsieck','1851','EPI',['Blanc des Millénaires'],1),('De Castellane','1895','Laurent-Perrier',['Commodore'],1),('De Cazanove','1811','Groupe Rapeneau',['Stradivarius'],0),('De Venoge','1837','Lanson-BCC',['Grand Vin des Princes'],1),('Delamotte','1760','Laurent-Perrier',[],0),('Deutz','1838','Louis Roederer Group',['Amour de Deutz'],1),('Duval-Leroy','1859','Duval-Leroy',['Femme de Champagne','Fleur de Champagne'],0),('Gosset','1584','Renaud-Cointreau',['Celebris','Grand Millésime'],0),('Alfred Gratien','1864','Henkell Freixenet',['Cuvée Paradis'],0),('Heidsieck & Co Monopole','1785','Vranken-Pommery Monopole',['Diamant Bleu'],1),('Henriot','1808','TEVC',['Cuvée des Enchanteleurs'],1),('Jacquesson','1798','Artemis Domaines',['Avize Grand Cru'],1),('Krug','1843','LVMH',['Krug','Clos du Mesnil'],0),('Lanson','1760','Lanson-BCC',['Noble Cuvée'],1),('Laurent-Perrier','1812','Laurent-Perrier',['Grand Siècle'],0),('Mercier','1858','LVMH',['Vendange'],1),('Moët & Chandon','1743','LVMH',['Dom Pérignon'],1),('G. H. Mumm','1827','Pernod Ricard',['Mumm de Cramant'],0),('Pannier','1899','',[],0),('Perrier-Jouët','1811','Pernod Ricard',['Belle Époque'],1),('Francis Pétret','1960','',[],0),('Piper-Heidsieck','1785','EPI',['Rare'],0),('Pol Roger','1849','Pol Roger',['Sir Winston Churchill'],1),('Pommery','1836','Vranken-Pommery Monopole',['Cuvée Louise'],1),('Louis Roederer','1776','Louis Roederer Group',['Cristal'],1),('Ruinart','1729','LVMH',['Dom Ruinart','Ruinart blanc de blancs'],0),('Salon','1921','Laurent-Perrier',['Champagne Salon'],1),('Taittinger','1734','Taittinger',['Comtes de Champagne'],1),('Thiénot','1985','Groupe Thiénot',['Cuvée Alain Thiénot','Cuvée Stanislas','Cuvée Garance','La Vigne aux Gamins'],1),('Veuve Clicquot Ponsardin','1772','LVMH',['La Grande Dame','Carte Jaune','Clicquot Rich Reserve'],1)]
+H2=[('Delbeck','1832','',[],0),('Drappier','1808','Drappier',['Grande Sendrée'],1),('Gauthier','1858','Lanson-BCC',['Grande Réserve Brut'],0),('Nicolas Feuillatte','1972','TEVC',['Palmes d\'Or'],0),('Jacques Selosse','1960','Jacques Selosse',[],0),('Paul Goerg','1950','',['Cuvée Lady C.'],1),('Vilmart','1872','Vilmart',['Coeur de Cuvée'],1)]
+GLOBAL={'LVMH','Pernod Ricard'}
+def hx(r,g):
+    n,y,own,cu,vint=r
+    x=dict(n=n,a='',d=f"Champagne house founded in {y}." ,mk='',y=y,s=HL,g=g,own=own,tier=('Global group' if own in GLOBAL else 'Independent') if own else '',cty='France')
+    if own and own!=n and False: pass
+    x['v']=[V(c,'','prestige or named cuvée listed on the page'+('; vintage' if (vint and len(cu)==1) or (n in('Veuve Clicquot Ponsardin','Thiénot') ) else '')) for c in cu]
+    return x
+hxs=[hx(r,'Union des Maisons de Champagne members') for r in H]+[hx(r,'Other major houses and brands named on the page') for r in H2]
+hxs.sort(key=lambda x:(x['g']!='Union des Maisons de Champagne members',x['y'] if x['y'].isdigit() else '9999',x['n']))
+for sh in shelves:
+    if sh['n']=='Champagne':
+        sh['k'].append(dict(n='Champagne houses',a='Maisons de Champagne',d='Brands that make and sell Champagne, with their prestige cuvées.',s=HL,x=hxs,
+         tt=[['Colour and style',['Non-vintage','Vintage','Prestige cuvée','Rosé','Blanc de blancs']],['Main grapes',['Chardonnay','Pinot Noir','Pinot Meunier']]],
+         nl='One entry is a Champagne house selling under its own name; its prestige and named cuvées are versions.',
+         sel="Every house in Wikipedia's List of Champagne houses: the Union des Maisons de Champagne members, then the other major houses it names; growers' Champagne has no entry on that page and is not listed.",
+         xg='by section (UMC members, then others), then year founded, then name'))
+OWN=sorted({r[2] for r in H+H2 if r[2]})
+BR=[]
+for r in H+H2:
+    BR.append(dict(n=r[0],c='France',f=r[1],seg='',d='Champagne house.',s=HL,kf='champagne'))
+for o in OWN:
+    if o not in [r[0] for r in H+H2]: BR.append(dict(n=o,c='',f='',seg='',d='Owner of Champagne houses in the list of Champagne houses.',s=HL,kf='champagne'))
+
 # IGP kind
 igp=[dict(n=n,a='',d='Indication Géographique Protégée (IGP) wine zone of Languedoc-Roussillon, formerly a Vin de Pays.',mk='',y='',s=LR) for n in IGP]
 igp.sort(key=lambda x:x['n'])
@@ -164,8 +201,8 @@ dept=dict(n='Wine of France',mode='mixed',
  ms=[dict(mkt='French wine production by category (2005 vintage)',who='AOC wines',share='53.4 %',yr=2005,s='https://en.wikipedia.org/wiki/French_wine',note='share of 43.9 million hl of production, excluding about 9.4 million hl for brandy'),
      dict(mkt='French wine production by category (2005 vintage)',who='Vin de Pays (now IGP) wines',share='33.9 %',yr=2005,s='https://en.wikipedia.org/wiki/French_wine',note='share of production'),
      dict(mkt='French vineyard area',who='All French vineyards',share='861,075 ha',yr=2007,s='https://en.wikipedia.org/wiki/French_wine',note='area at the 2007 harvest, as the page states')])
-renames={"Bordeaux red blend":"Bordeaux: Left Bank appellations","Merlot":"Bordeaux: Right Bank appellations","Sauternes & Barsac":"Bordeaux: sweet white appellations","White blend":"Bordeaux: Entre-Deux-Mers and regional appellations","Pinot Noir":"Burgundy: Côte de Nuits appellations","Chardonnay":"Burgundy: Côte de Beaune appellations","Crémant":"Burgundy: regional and sparkling appellations","Gamay":"Beaujolais: the ten crus","Viognier":"Rhône: Northern appellations","Cabernet Franc":"Loire: Anjou and Saumur appellations","Chenin Blanc":"Loire: Touraine appellations","Melon de Bourgogne":"Loire: Nantais appellations","Sauvignon Blanc":"Loire: Centre appellations","Muscat":"Alsace appellations","Savagnin":"Jura appellations","Altesse":"Savoie and Bugey appellations","Pétillant naturel":"Languedoc: Aude appellations","Vin doux naturel":"Roussillon appellations","Non-vintage Champagne":"Champagne appellations","Vintage Champagne":"Champagne appellations","Prestige cuvée Champagne":"Champagne appellations","Rosé Champagne":"Champagne appellations"}
-out=dict(depts=[dept],brands=[],renames=renames,moves=[])
+renames={"Bordeaux red blend":"Bordeaux: Left Bank appellations","Merlot":"Bordeaux: Right Bank appellations","Sauternes & Barsac":"Bordeaux: sweet white appellations","White blend":"Bordeaux: Entre-Deux-Mers and regional appellations","Pinot Noir":"Burgundy: Côte de Nuits appellations","Chardonnay":"Burgundy: Côte de Beaune appellations","Crémant":"Burgundy: regional and sparkling appellations","Gamay":"Beaujolais: the ten crus","Viognier":"Rhône: Northern appellations","Cabernet Franc":"Loire: Anjou and Saumur appellations","Chenin Blanc":"Loire: Touraine appellations","Melon de Bourgogne":"Loire: Nantais appellations","Sauvignon Blanc":"Loire: Centre appellations","Muscat":"Alsace appellations","Savagnin":"Jura appellations","Altesse":"Savoie and Bugey appellations","Pétillant naturel":"Languedoc: Aude appellations","Vin doux naturel":"Roussillon appellations","Non-vintage Champagne":"Champagne houses","Vintage Champagne":"Champagne houses","Prestige cuvée Champagne":"Champagne houses","Rosé Champagne":"Champagne houses"}
+out=dict(depts=[dept],brands=BR,renames=renames,moves=[])
 os.makedirs('/home/user/Possession-Taxonomy/rebuild/out/J7_parts',exist_ok=True)
 tmp='/home/user/Possession-Taxonomy/rebuild/out/J7_parts/WFR.json.tmp'
 json.dump(out,open(tmp,'w'),ensure_ascii=False,indent=1)

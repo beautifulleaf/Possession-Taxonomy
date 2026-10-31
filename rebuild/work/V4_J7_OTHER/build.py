@@ -94,7 +94,6 @@ for e in sake_x:
     if e['n'].startswith('Gekkeikan Sake'): e['d'] = 'California brewery of Gekkeikan, named by the list as a United States sake brewery.'
     if e['n'].startswith('Ozeki Sake'): e['d'] = 'United States brewery of Ozeki, named by the list as a United States sake brewery.'
     if e['n'] == 'Gekkeikan Brewery':
-        e['role'] = 'landmark'
         e['d'] = 'Fushimi, Kyoto house of one of the oldest sake brewers, with a sister brewery in California.'
         e['s'] = WP + 'Gekkeikan'
         e['a'] = 'Gekkeikan'
