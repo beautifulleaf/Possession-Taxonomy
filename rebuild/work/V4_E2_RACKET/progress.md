@@ -3,3 +3,4 @@ step1 fetched WC balls, Pro V1, Wilson, Callaway, Amer, Acushnet, Nike, Adidas, 
 step2 fetched golf/tennis maker pages: done; next build
 step3 build.py written and run: done
 step4 brands, report: done
+step5 applied coordinator note (fold kind-page-only entries into maker entries): done
