@@ -248,3 +248,92 @@ def ms_mob():
 
 def sel_for(k,kind_src):
     return f"Follows the page cited for this kind ({kind_src}); no complete reference exists for these services, so the list is not exhaustive."
+
+DEPT_MS={'TV, film & sport streaming':ms_video,'Music & audio':ms_music,'Online services':ms_ai,'Phone & internet':ms_mob}
+SEE_ADD={
+ 'Meal kit and menu plan':[["J5","Prepared & frozen foods","ready meals and cooking ingredients"]],
+ 'Grocery and veg box':[["J4","Fresh fruit and vegetables","the produce in the box"],["J3","Dairy and eggs","dairy and eggs in mixed boxes"]],
+ 'Producer club':[["J7","Alcoholic drinks","the wines or spirits shipped"]],
+ 'Curated subscription box':[["J8","Bread, sweets and snacks","food-and-snack boxes"]],
+ 'Replenishment subscription':[["J9","Non-alcoholic drinks","drinks reordered on a schedule"]],
+}
+NEWK={
+ "n":"Halal and kosher meat delivery","a":"halal butcher online · kosher meat delivery · certified meat box",
+ "d":"Delivery service that ships certified halal or kosher meat to the door, as one-off orders or a regular box.",
+ "s":"https://halalspy.com/halal-grocery/meat-delivery/halal-meat-online/",
+ "tt":[["Certification",["Halal","Kosher"]],["Sold as",["One-off order","Subscription box"]]],
+ "see":[["J1","Meat and poultry","the meat itself and its certification"]],
+}
+def main():
+    out=json.loads(json.dumps(d))
+    newbrands={}
+    rep=[]
+    for dep in out['depts']:
+        if dep['n'] in DEPT_MS: dep['ms']=DEPT_MS[dep['n']]()
+        for sh in dep['s']:
+            for k in sh['k']:
+                n=k['n']; before=len(k.get('x') or [])+len(k.get('m') or [])+len(k.get('r') or [])
+                if dep['n']==COMMODITY_DEPT:
+                    nm=len(k.get('m') or [])+len(k.get('r') or [])
+                    k.pop('m',None);k.pop('r',None)
+                    if k.get('x'):
+                        k['nl']="One entry is a named company or club offering this service; it stays a version-free entry."
+                        k['sel']="Entries carried over from the earlier pass, each from a fetched page; there is no complete reference, so the list is not exhaustive."
+                        k['xg']="by kind of provider"
+                    rep.append((n,before,len(k.get('x') or []),nm))
+                    continue
+                if n=='Video streaming service':
+                    k['x']=mk_vid();k['xg']="by home market";
+                    k['nl']="One entry is a video streaming service sold under its own name; plans and tiers are versions or attributes."
+                    k['sel']=f"Every row of Wikipedia's List of streaming media services (video, read to its under-1-million tier, about 100,000 characters) except live-TV bundles and sports services, which have their own kinds. Home market sections. Covers {len(VID)} of the listed video services; the page tail (categories beyond that cut) was not read."
+                    k['see']=k.get('see',[])+[["J5","Prepared & frozen foods","none"]] if False else k.get('see')
+                elif n=='Music streaming':
+                    k['x']=mk_music();k['xg']="by home market"
+                    k['nl']="One entry is a music streaming service sold under its own name; plans such as individual, family and student are attributes."
+                    k['sel']=f"Wikipedia's Comparison of music streaming services, all {len(MUS)} on-demand music and audio-library services; radio-only services are in Satellite and internet radio. Complete: {len(MUS)} of {len(MUS)+7} rows (the other seven are radio services, in the radio kind)."
+                elif n=='Cloud storage plan':
+                    k['x']=mk_cloud();k['xg']="by who runs it"
+                    k['nl']="One entry is an online storage service for personal files sold under its own name; plans are attributes."
+                    k['sel']="Wikipedia's Comparison of file hosting services (31 rows). Cut: developer and business object stores (Amazon S3, Backblaze B2, Cloudflare R2, Oracle, Wasabi, Tarsnap, HCL Connections, Fast.io) and file-locker sites (Keep2Share, FileJoker). pCloud and Sync come from the earlier pass. Covers 23 of 31 in scope."
+                elif n=='AI assistant subscription':
+                    k['x']=mk_ai();k['xg']="by lab"
+                    k['nl']="One entry is a consumer AI assistant with a paid plan; the paid plans are versions."
+                    k['sel']="Assistants named by the Similarweb share table (Momentic) and the Wikipedia articles for each. DeepSeek is left out: no paid consumer plan was fetched. Plan names carried over from the earlier pass."
+                elif n=='Mobile phone plan':
+                    k['x']=mk_mob(k);k['xg']="by region and home country"
+                    k['nl']="One entry is a mobile network or mobile brand sold to consumers under its own name; contract, SIM-only and prepaid plans are attributes."
+                    k['sel']="The consumer brands of the 25 largest operators in Wikipedia's List of mobile network operators plus the national operators and MVNOs kept from the earlier pass. Operator groups themselves (Axiata, VEON, América Móvil) sell under other brands and appear only in the market facts. Not exhaustive."
+                    k['see']=k.get('see')
+                else:
+                    xs=generic(k,sh['n'])
+                    if k.get('x') and xs: k['x']=k['x']+xs
+                    elif xs: k['x']=xs
+                    if k.get('x'):
+                        k.setdefault('nl',f"One entry is a {n[0].lower()+n[1:]} offered by a named company or body, under its own name.")
+                        k.setdefault('sel',sel_for(k,k.get('s','')))
+                        if any(x.get('cty') for x in k['x']): k.setdefault('xg',"by home market where stated")
+                k.pop('m',None);k.pop('r',None)
+                if n in SEE_ADD: k['see']=(k.get('see') or [])+SEE_ADD[n]
+                rep.append((n,before,len(k.get('x') or []),0))
+        if dep['n']=='Subscription boxes & deliveries':
+            for sh in dep['s']:
+                if sh['n']=='Chosen by the provider':
+                    nk=json.loads(json.dumps(NEWK))
+                    names=["Boxed Halal","Crescent Foods","Midamar Corporation","One Stop Halal","Halal Pastures","Hal&Al Meats","Imperia Halal","Saffron Alley","Tom Hixson of Smithfield","Tariq Halal","Taqwa Halal Foods","DamasGate","The Halal Food Shop","Muslim Meat","Haloodies"]
+                    cty={n:("United States" if i<7 else "United Kingdom") for i,n in enumerate(names)}
+                    nk['x']=[ent(n,f"Online halal meat seller serving the {cty[n]}"+(", with a subscription box." if n=="Boxed Halal" else "."),NEWK['s'],cty=cty[n],g=cty[n]) for n in names]
+                    nk['xg']="by country served"
+                    nk['nl']="One entry is an online seller that ships certified halal meat; kosher services are not named by a fetched page."
+                    nk['sel']="Covers 15 of 15 sellers named by the HalalSpy delivery guide (a commercial site); no kosher delivery service was found on a fetched page, and the guide is not a complete register."
+                    sh['k'].append(nk)
+                    rep.append((nk['n'],0,len(nk['x']),0))
+    return out,rep
+if __name__=='__main__':
+    out,rep=main()
+    # drop empty x / ensure sections
+    for dep in out['depts']:
+        for sh in dep['s']:
+            if len(sh['k'])>3 and not sh.get('ax'): sh['ax']="Which of these services does the plan give you?"
+    json.dump(out,open(R+'work/V4_I3/I3.new.json','w'),ensure_ascii=False,indent=1)
+    json.dump(rep,open(R+'work/V4_I3/rep.json','w'))
+    print(sum(len(k.get('x') or []) for dp in out['depts'] for s in dp['s'] for k in s['k']),'entries')
