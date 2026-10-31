@@ -7,3 +7,4 @@ step6 done: fetched VW_Transporter, Mercedes-Benz_Sprinter(first window; gens kn
 step7 done: fetched Swift_Leisure, knaustabbert press page, Ski-Doo (little), Yamaha_Motor_Company (nothing). ~22 fetches used
 step8 done: fetched Utility_terrain_vehicle, All-terrain_vehicle, List_of_trucks (first window; trade trucks out of scope), Bedford_OB. ~29 fetches
 step9 done: wrote raw_pickups.txt (rows C=current, D=discontinued; concepts omitted)
+step10 done: wrote raw_vans.txt (minivans excluded)

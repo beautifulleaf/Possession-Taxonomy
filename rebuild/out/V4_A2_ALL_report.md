@@ -1,26 +1,21 @@
-# V4_A2_ALL report
+# V4_A2_ALL report (rounds 1 and 2)
 
-Part file: rebuild/out/A2_parts/ALL.json (9 departments replaced, 105 kinds, 355 entries, 229 KB). Validates OK. About 46 fetches used (2 Firecrawl, both for church-footwear.com, which returned 404 after a redirect).
+Part file: rebuild/out/A2_parts/ALL.json (9 departments replaced, 104 kinds, 358 entries, 244 KB, 17 new register brands, 57 brand updates). Validates OK. About 100 fetches in total (3 Firecrawl: church-footwear.com twice, SEC filing once). Sources: rebuild/work/V4_A2_ALL/sources.tsv.
 
 ## Kinds, entries before -> after
-- Air Jordan: 14 -> 44. Complete against Wikipedia's Air Jordan article: Air Jordan 1 to 40 plus the year-named 2009 to 2012 models. Years for 1 to 14 were corrected to the page (Air Jordan 1 is 1984 there). Jordan Brand lines named after other players are not on the pages read.
-- Heritage running sneaker: 23 -> about 45. Air Max is complete (20 of 20 models in Wikipedia's Nike Air Max article); "Later Air Max models" was dissolved into entries. "99X numbered models" became versions of "990 series". Added New Balance, adidas, Reebok, Nike and Skechers models that fetched pages name.
-- Other sneaker and running kinds: 15 entries added from fetched pages (for example Clyde, Question, Weapon, One Star, Startas, GO WALK).
-- Birkenstock, Dr. Martens, Brooks, ASICS, Converse, Reebok years now come from fetched pages. Madrid is marked origin.
-- Traditional footwear: 5 new kinds (East Asian, South Asian and Middle Eastern, European, South-East Asian and African named forms, plus Mojari) and one shelf for unplaced forms. About 50 entries from Wikipedia's List of shoe styles, read in full (about 190 names, no descriptions). The list gives no regions or facts, so these entries carry a region (from the form's name) and no description; they are attested only by the list.
-- Boots: added Pointed-toe boot and Jackboot & Hessian boot from the shoe-style and boot lists.
-- Shoe care: all brand products removed. One origin entry, Warren's blacking (London, about 1795 to 1798, Wikipedia Shoe polish). No design-collection landmark was found.
-
-## Loose models (m)
-All 180 were removed as out of scope: retail SKUs whose only source was a kind page. Same-line items already existed as entries.
+- Air Jordan: 14 -> 44, complete against Wikipedia's Air Jordan article (1 to 40, plus year-named 2009 to 2012).
+- Air Max: complete, 20 of 20 models in Wikipedia's Nike Air Max article. "Later Air Max models" dissolved into entries.
+- Silhouettes re-sourced from per-model Wikipedia pages (year, designer, one fact, versions): Dunk, Air Force 1, Cortez, Blazer, Stan Smith, Samba, Gazelle, Campus, Superstar, Forum, Ultraboost, Gel-Lyte III, New Balance 574, 550 and the 99X series (990 series now has 16 dated versions), Puma Suede and Clyde, Reebok Classic page models, Chuck Taylor All Star, Clarks Desert Boot and Wallabee, Alden Indy, Paraboot Michael, Crockett & Jones Albert slipper. On Cloudracer and Cloudmonster added.
+- Roles: Air Jordan 1, Air Force 1, Cortez, Freestyle, Suede, Madrid and Warren's blacking as origin; Stan Smith as landmark (Guinness-listed, "biggest-selling tennis shoe ever").
+- Traditional footwear: about 50 list-only forms plus 9 read on their own pages. Region and a fact for Namaksin (Korea), Balgha (North Africa), Galesh (Iran), Pulhoer (Kashmir), Pointinini (Cote d'Ivoire), Tsarouchi (Greece), Pampootie (Aran Islands), Opinga (Albania) and Upanah (ancient India); this corrected three earlier region guesses. All other entries read "Region not stated" with no description.
+- Shoe care: one origin entry, Warren's blacking (c. 1795 to 98). 180 loose models removed as retail SKUs sourced only from kind pages.
 
 ## Market and owners
-Department market panel (Sneakers), Footwear Magazine 2026 estimate: Nike 26 %, adidas 14 %, Skechers 9 %, Puma 5 %, New Balance 4 %, ASICS 3 %, Under Armour 3 %, Converse 2 %, Vans 2 %, On 2 %, HOKA 2 %, others 28 %.
-Owners with years from fetched pages include Converse (Nike, 2003), Vans (VF, 2004), UGG (Deckers, 1995), Hoka (2013), Merrell (Wolverine, 1997), Reebok (Authentic Brands, 2022), Brooks (Berkshire, 2006), Birkenstock (L Catterton, 2021), Church's (Prada, 1999), Stuart Weitzman (Caleres, 2025), Skechers (3G Capital, 2025). Li-Ning and Anta are National champions; Puma's largest holder is Anta (29.06 %, 2026). Nine owner/brand register entries added. 36 brands updated.
+- Sneakers panel: Footwear Magazine 2026 estimate (Nike 26 %, adidas 14 %, Skechers 9 %, Puma 5 %, New Balance 4 %, ASICS 3 %, Under Armour 3 %, Converse 2 %, Vans 2 %, On 2 %, HOKA 2 %). New: Nike FY2025 revenue by segment from its 10-K (North America US$19,572m, EMEA 12,257m, Greater China 6,586m, APLA 6,251m, Converse 1,692m, total 46,309m); adidas 2024 sales by region (Europe 32 %, North America 22 %, Greater China 15 %, Latin America 12 %); On share of running shoes in Switzerland 40 % and Germany 10 % (2019). These regional figures are company revenue, not market shares.
+- New owners: Clarks (Viva Goods 51 %, Clark family 49 %, 2021), Hoka (Deckers, 2013), Kiwi (S. C. Johnson, 2011), Allen Edmonds (Caleres, 2016), Gucci (Kering, 1999), Balenciaga and Alexander McQueen (Kering, 2001), Louis Vuitton (LVMH, 1987), Dior (2017), Lowa (Tecnica, 1993), Sorel (Columbia, 2000), Roger Vivier (Tod's, 1995), Hunter (Pall Mall Legacy), Fila (Misto Holdings), John Lobb Paris (Hermès, 1976), On Holding, Crockett & Jones (Jones family), Alden and Paraboot (family businesses).
 
-## Not done / not sourced
-- Church's Consul (1945 per search excerpts only) is omitted: church-footwear.com gave 503/404 and no fetched page names it.
-- Fifty-eight brands that appear as makers still have "owner not stated" and no tier (for example Gucci, Clarks, Danner). Clarks, Hoka and Kiwi Wikipedia pages did not load.
-- The brand pages (Nike, adidas, Puma, Vans) list few silhouettes; many heritage models (Dunk, Stan Smith, Samba, Gazelle, Campus, Old Skool, Sk8-Hi, Gel-Lyte III) keep their earlier entries and sources and were not re-read. No Wikidata canon exists for shoe models (287 items in the shoe class, mostly museum objects).
-- No regional athletic-footwear share figures found on a fetched page.
-- Football boots (Predator, F50, Total 90) found in Wikidata were left to E2.
+## Not sourced
+- Church's Consul (church-footwear.com 503/404; 1945 appears only in search excerpts), Alden 990, Allen Edmonds Park Avenue, John Lobb City II: no fetched page names them.
+- Pages missing or empty: Vans Old Skool, Sk8-Hi, Era (no per-model pages), Gel-Kayano, Salomon XT-6, Hoka Clifton and Bondi (Hoka page only cites them), Reebok Club C, New Balance 2002R, Havaianas, PVH.
+- 53 makers still read "owner not stated" (for example Danner, Keen, Diadora, Chanel, Manolo Blahnik, Havaianas, Keds, Sperry); no fetched page gave their owner within budget.
+- No third-party regional athletic-footwear shares were found; Nike and adidas regional revenue is given instead.
