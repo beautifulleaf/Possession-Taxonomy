@@ -1,2 +1,3 @@
 step0 started: backups made; plan: API extracts for 468 family-not-stated
 step1: API probes done (category Perfumes, search snippets, existence batch q0). Articles exist for ~10%. Next: family-term searches via list=search, then extracts for hits, then house pages
+step2: en search snippets harvested; family statements found (fetched en API): Estée floral; Blue Grass floral; Norell green floral; Private Collection green floral; Charlie floral aldehyde; White Shoulders white floral; Chanel No. 22 floral-aldehyde; Halston amber woody chypre; Polo woody chypre; Oscar floral amber; Classique oriental floral; Escape floral aquatic(CK page); Ambre Antique ambre-oriental (fr); Fidji floraux verts chyprés (fr). Next: fr API intros for French-house perfumes, then apply moves.
