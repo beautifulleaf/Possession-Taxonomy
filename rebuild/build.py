@@ -87,8 +87,19 @@ for c in meta['cats']:
                     index.append([c['c'], m[0], m[1] if len(m) > 1 else '', k['n']])
     r = REG.get(c['c'], {})
     cats.append(dict(c, k=n, nb=r.get('brands', 0), nt=r.get('traditions', 0), ns=r.get('species', 0)))
+NOLOW = []  # No & low view: entries and versions marked alcohol-free, de-alcoholised or low, from any category
+for c in meta['cats']:
+    p = 'reader/%s.json' % c['c']
+    if not os.path.exists(p): continue
+    for dp in json.load(open(p))['depts']:
+        for s in dp['s']:
+            for k in s['k']:
+                for x in k.get('x', []) or []:
+                    if x.get('alc'): NOLOW.append([c['c'], k['n'], x['n'], '', x['alc']])
+                    for v in x.get('v', []) or []:
+                        if isinstance(v, dict) and v.get('alc'): NOLOW.append([c['c'], k['n'], x['n'], v['n'], v['alc']])
 FW = '../framework/key_v0_8.json'
-S = {'domains': meta['domains'], 'cats': cats, 'index': index, 'fw': json.load(open(FW)) if os.path.exists(FW) else {}}
+S = {'domains': meta['domains'], 'cats': cats, 'index': index, 'nolow': NOLOW, 'fw': json.load(open(FW)) if os.path.exists(FW) else {}}
 app = open('app.js').read()
 html = head + '\n' + header + '\n<script>\nconst S = ' + json.dumps(S, ensure_ascii=False, separators=(',', ':')) + ';\n' + app + '</script>\n'
 open('index.html', 'w').write(html)

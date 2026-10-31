@@ -17,8 +17,8 @@ function showDom(d) { domsEl.querySelectorAll('.dom').forEach(b => b.setAttribut
     b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); return b; })); }
 S.domains.forEach(d => { const b = $('button', { class: 'dom', type: 'button', 'data-d': d.d, text: d.n });
   b.addEventListener('click', () => { q.value = ''; open(S.cats.find(c => c.d === d.d).c, true); }); domsEl.append(b); });
-[['cat', 'Categories'], ['brands', 'Brands A–Z'], ['baby', 'Baby & child'], ['guide', 'How to place']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
-  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrandIndex(); else if (v === 'guide') openGuide(); else openBaby(); }); viewsEl.append(b); });
+[['cat', 'Categories'], ['brands', 'Brands A–Z'], ['baby', 'Baby & child'], ['nolow', 'No & low'], ['guide', 'How to place']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
+  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrandIndex(); else if (v === 'guide') openGuide(); else if (v === 'nolow') openNoLow(); else openBaby(); }); viewsEl.append(b); });
 new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
 const hl = (text, term) => { if (!term || !text) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
 const slug = (...p) => p.join('-');
@@ -251,6 +251,16 @@ async function openBaby() {
   [...groups.keys()].forEach((c, i) => { const sec = $('section', { class: 'dept', id: slug('y', i) }, $('h3', { class: 'dept-name', text: catName(c) }));
     sec.append($('div', { class: 'hits' }, groups.get(c).map(([n, d]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', { text: n }), $('i', { text: d || '' })); b.addEventListener('click', () => jump(c, n)); return b; }))); main.append(sec); });
   spy();
+}
+function openNoLow() {
+  setView('nolow'); showDom(''); const rows = S.nolow || [];
+  const groups = new Map(); rows.forEach(r => { const g = catName(r[0]) + ' · ' + r[1]; if (!groups.has(g)) groups.set(g, []); groups.get(g).push(r); });
+  const ol = $('ol'); [...groups.keys()].forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('n', i) }, g, $('span', { text: groups.get(g).length })))));
+  side.replaceChildren($('h2', { text: 'No & low' }), ol);
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'No & low' }), $('p', { text: rows.length ? rows.length + ' alcohol-free, de-alcoholised and low-alcohol products, gathered from every category. Alcohol-free versions stay listed under their full-strength parent; choose one to open it there.' : 'No products are marked alcohol-free or low yet.' })));
+  [...groups.keys()].forEach((g, i) => { const sec = $('section', { class: 'dept', id: slug('n', i) }, $('h3', { class: 'dept-name', text: g }));
+    sec.append($('div', { class: 'hits' }, groups.get(g).map(([c, k, x, v, alc]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', {}, v || x, v ? $('span', { class: 'also', text: ' · ' + x }) : null), $('i', { text: alc })); b.addEventListener('click', () => jump(c, k)); return b; }))); main.append(sec); });
+  spy(); window.scrollTo({ top: 0 });
 }
 function openGuide() {
   setView('guide'); showDom(''); const fw = S.fw || {};
