@@ -11,5 +11,8 @@ ox.append({'n':'City II','d':'John Lobb plain-toe ready-to-wear oxford on the 70
 ox.sort(key=lambda e:(e.get('g',''), e.get('y') or '9999', e['n']))
 K['Oxford']['sel']=K['Oxford']['sel'].replace('No complete list exists;','No complete list exists;',1)
 b=K['Basketball sneaker']['sel'].replace(', Superstar, Forum)',', Superstar)'); K['Basketball sneaker']['sel']=b
+old="Boot types come from Wikipedia's List of boots (all in-scope types for this kind held); makers' models follow the maker pages named on each entry. No complete list of makers' models exists."
+for kn in ('Over-the-knee boot','Work boot','Combat & military boot','Cowboy boot','Equestrian riding boot'):
+    K[kn]['sel']=K[kn]['sel'].replace(old,"Complete: all in-scope boot types of Wikipedia's List of boots are held (sport boots belong to E2). No complete list exists for makers' models; those follow the maker pages named on each entry.")
 json.dump(d,open(W+'A2.final.json','w'),ensure_ascii=False,indent=1)
 json.dump(B,open(W+'A2_brands.final.json','w'),ensure_ascii=False,indent=1)

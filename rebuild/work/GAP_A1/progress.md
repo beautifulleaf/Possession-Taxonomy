@@ -3,3 +3,4 @@ step1 done: Folk costume tail read, kilt accessory pages read, first market fetc
 step2 done: market/owner fetches done (logged). next: apply edits via work/GAP_A1/apply.py, validate, report
 step3 done: apply.py run, validate OK; report written
 round2 start: batch Wikipedia API extracts for brands used by entries
+round2: batches 0-6 of 19 fetched (results to be recorded in work/GAP_A1/r2_results.tsv); continuing 7-18

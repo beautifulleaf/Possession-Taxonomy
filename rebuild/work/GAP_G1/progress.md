@@ -12,3 +12,4 @@ cars 25-28 + moto 15 done (44 fetches total); next moto 16.., cars 29.., then co
 moto 16-18 + cars 29-30 done (49 fetches total)
 moto 19-21 + cars 31-32 done (54 fetches total)
 moto 22-23 + cars 33-35 done (59 fetches total); next: apply, coverage lines, report
+all done; report written
