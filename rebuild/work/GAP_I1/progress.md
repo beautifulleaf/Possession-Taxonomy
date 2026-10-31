@@ -16,3 +16,4 @@ step14 done: adds_12 code editor pascal, VM page end, tax
 step15 done: final_cov.py fallback coverage lines for all kinds
 step16 done: sections.py xg for VCS, game engine, terminal, backup, compiler, remote desktop
 step17 done: brand register names added
+step18 done: report written; run complete
