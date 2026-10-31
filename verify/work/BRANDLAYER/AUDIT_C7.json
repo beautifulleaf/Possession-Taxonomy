@@ -505,6 +505,69 @@
    "country": "Argentina",
    "dept": "seed drill / planter",
    "region": "Latin America"
+  },
+  {
+   "n": "Valley (Valmont)",
+   "layer": "premium",
+   "src": "https://plainshumanities.unl.edu/encyclopedia/doc/egp.ind.011.html",
+   "says": "Encyclopedia of the Great Plains: Robert Daugherty's Valley Manufacturing acquired Zybach's centre-pivot patent in 1954 and perfected it 'into a strong, durable design', establishing the industry; one of four Nebraska makers supplying 85% of world demand",
+   "country": "USA",
+   "dept": "centre-pivot irrigator",
+   "region": "North America"
+  },
+  {
+   "n": "Reinke",
+   "layer": "cultural",
+   "src": "https://plainshumanities.unl.edu/encyclopedia/doc/egp.ind.011.html",
+   "says": "Encyclopedia of the Great Plains: Deshler, Nebraska, one of the four major centre-pivot makers supplying 85% of global demand",
+   "country": "USA",
+   "dept": "centre-pivot irrigator",
+   "region": "North America"
+  },
+  {
+   "n": "T-L Irrigation",
+   "layer": "cultural",
+   "src": "https://plainshumanities.unl.edu/encyclopedia/doc/egp.ind.011.html",
+   "says": "Encyclopedia of the Great Plains: Hastings, Nebraska, one of the four major centre-pivot makers",
+   "country": "USA",
+   "dept": "centre-pivot irrigator",
+   "region": "North America"
+  },
+  {
+   "n": "Bourgault",
+   "layer": "premium",
+   "src": "https://esask.uregina.ca/entry/bourgault_industries.html",
+   "says": "Encyclopedia of Saskatchewan: St. Brieux maker founded 1973 for a durable, high-quality cultivator for stony soils; 'a world leader' in air seeders; Saskatchewan Business Hall of Fame 2001",
+   "country": "Canada",
+   "dept": "seed drill / air seeder / cultivator",
+   "region": "North America"
+  },
+  {
+   "n": "Zimplow",
+   "layer": "cultural",
+   "src": "https://archive.unu.edu/unupress/unupbooks/uu34ee/uu34ee0h.htm",
+   "says": "UNU study of Zimbabwean manufacturing: Bulawayo maker of animal-drawn ploughs since 1939 (formerly Rhoplow), exporting across Southern Africa; buyers 'like what their grandfathers bought, even as far as the colour'",
+   "country": "Zimbabwe",
+   "dept": "horse/ox-drawn implement (plough)",
+   "region": "Sub-Saharan Africa"
+  },
+  {
+   "n": "Bulawayo Steel Products",
+   "layer": "cultural",
+   "src": "https://archive.unu.edu/unupress/unupbooks/uu34ee/uu34ee0h.htm",
+   "says": "UNU study: one of the two Zimbabwean makers of animal-drawn implements",
+   "country": "Zimbabwe",
+   "dept": "ox-drawn implement",
+   "region": "Sub-Saharan Africa"
+  },
+  {
+   "n": "Tinto Industries",
+   "layer": "cultural",
+   "src": "https://archive.unu.edu/unupress/unupbooks/uu34ee/uu34ee0h.htm",
+   "says": "UNU study: dominated the Zimbabwean market for tractor-drawn equipment",
+   "country": "Zimbabwe",
+   "dept": "tractor implements",
+   "region": "Sub-Saharan Africa"
   }
  ],
  "add_regions": [
@@ -572,6 +635,27 @@
     "Metalfor"
    ],
    "note": "cluster described in Santa Fe government report (search excerpt only, not fetched); Agrometal page fetched"
+  },
+  {
+   "region": "Nebraska (Great Plains, USA)",
+   "speciality": "birthplace and centre of the centre-pivot irrigation industry (Zybach 1948); four makers supply 85% of world demand",
+   "src": "https://plainshumanities.unl.edu/encyclopedia/doc/egp.ind.011.html",
+   "brands": [
+    "Valley (Valmont)",
+    "Lindsay (Zimmatic)",
+    "Reinke",
+    "T-L Irrigation"
+   ]
+  },
+  {
+   "region": "Zimbabwe (Southern Africa)",
+   "speciality": "animal-drawn ploughs and implements with a strong regional export reputation",
+   "src": "https://archive.unu.edu/unupress/unupbooks/uu34ee/uu34ee0h.htm",
+   "brands": [
+    "Zimplow",
+    "Bulawayo Steel Products",
+    "Tinto Industries"
+   ]
   }
  ],
  "drop": [],
