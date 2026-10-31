@@ -1,0 +1,7 @@
+BATCH CMP_PLANTS — completion pass.
+
+Follow /home/user/Possession-Taxonomy/verify/in/CMP_COMMON.txt with <BATCH> = CMP_PLANTS.
+
+Files: rebuild/out/J4.json and rebuild/out/C3.json (back each up first). Earlier reports: rebuild/out/V4_J4_report.md and V4_C3_report.md.
+
+The light passes removed names they could not source one by one: 763 cultivar and protected-origin names from J4 (rebuild/work/V4_J4/removed_m.json) and 60 cultivars from C3 (listed in rebuild/work/V4_C3/). The owner prefers big complete canons, so: (1) verify these names in bulk — Wikidata cultivar items (P31 cultivar, with the parent taxon), Wikipedia lists of apple, pear, potato, strawberry, mango, citrus, grape, tomato, chilli and other cultivars read in windows, and the EU protected-designation names for fruit and vegetables (Wikipedia lists of PDO/PGI products) — and re-add every confirmed name as a named entry (cultivar) or version (protected origin) under the right species kind, with s = the confirming page or Wikidata item; (2) complete each species kind's cultivar list from the same references where it is short; (3) add the coverage line to each kind's sel. Names that no source confirms stay out and are listed in the report. Do not add flavours or growing advice.
