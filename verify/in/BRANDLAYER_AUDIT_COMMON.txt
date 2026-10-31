@@ -10,3 +10,5 @@ TASKS.
 3. Thin areas: the harvest's "sweeps" items with found 0 or notes saying blocked/thin: try each once more with a different approach.
 OUTPUT verify/work/BRANDLAYER/AUDIT_<CODE>.json: {"cat","accuracy":{"checked":25,"wrong":N,"items":[...]},"add_brands":[{"n","layer":"premium|cultural","src","says","country","dept","region"}],"add_regions":[{"region","speciality","src","brands":[..]}],"drop":[{"n","why"}],"notes":"..."}. Write after every few finds (rewrite whole file). RESUME RULE: if the file exists, keep it and continue.
 REPLY: code, accuracy (wrong/checked), additions (brands/regions), drops, main blind spots.
+
+SELLERS OF TRADITIONAL ITEMS (owner 2026-10-31): when no named maker can be found for a traditional or regional product, a specialist retailer, cooperative, trading post or workshop shop that sells it may be recorded instead (layer "cultural", add "role":"seller"), on a fetched page naming it as a seller of that item. Prefer makers where they exist; general marketplaces (Etsy, Amazon) are not sellers in this sense.

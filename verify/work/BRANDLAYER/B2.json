@@ -5,146 +5,309 @@
  "sweeps": [
   {
    "axis": "kind",
-   "item": "Rugs & mats (all sections)",
+   "item": "Rugs & mats > Oriental knotted-pile rugs",
    "queries": [
-    "Wikipedia carpet manufacturing companies category",
-    "rug manufacturers (revenuebase, theinternationalman)"
+    "Hereke carpet makers; Persian rug workshops Tabriz; Jaipur Rugs; Tibetan carpets"
    ],
-   "found": 0,
-   "note": "Done by list only; no open best-makers searches per rug kind"
+   "found": 9,
+   "note": "Persian/Afghan/Caucasian/Central Asian: retailer pages only, no maker brand evidenced"
   },
   {
    "axis": "kind",
-   "item": "Bedding / Towels / Table linen",
+   "item": "Rugs & mats > European & world pile rugs",
    "queries": [
-    "Wirecutter best sheets / towels / linen sheets / mattress toppers",
-    "Good Housekeeping best sheets",
-    "Imabari towel",
-    "Turkish towel Denizli"
+    "Carpet Design Awards 2017/2023/2024; Wallpaper Design Awards 2026; Moroccan rugs; EPV tapis"
+   ],
+   "found": 22,
+   "note": "Other CDA years not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Rugs & mats > Flatweave, hooked & folk rugs",
+   "queries": [
+    "Navajo weavers; Zapotec Teotitlan; Welsh/Swedish flatweave"
+   ],
+   "found": 5,
+   "note": "Hooked, felt, rag, hide rugs not searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Rugs & mats > Everyday rugs",
+   "queries": [
+    "rug manufacturers lists"
    ],
    "found": 0,
-   "note": "Wirecutter and Good Housekeeping pages blocked or empty on fetch; not usable"
+   "note": "Only RevenueBase B2B lists (search excerpt); no quality evidence"
+  },
+  {
+   "axis": "kind",
+   "item": "Rugs & mats > Mats",
+   "queries": [
+    "best door mats coir rubber makers award"
+   ],
+   "found": 0,
+   "note": "No usable quality page"
+  },
+  {
+   "axis": "kind",
+   "item": "Bedding > Bed linen",
+   "queries": [
+    "Homes & Gardens best sheets; Consumer Reports sheets; EPV linge de lit; Royal Warrant"
+   ],
+   "found": 18,
+   "note": "Wirecutter and GH sheets pages blocked"
+  },
+  {
+   "axis": "kind",
+   "item": "Bedding > Duvets, quilts & bedspreads",
+   "queries": [
+    "Stiftung Warentest Bettdecken; betten.de; GH Bedding Awards 2026"
+   ],
+   "found": 2,
+   "note": "Tests list budget online brands; Which? not reached"
+  },
+  {
+   "axis": "kind",
+   "item": "Bedding > Blankets & throws",
+   "queries": [
+    "Welsh blankets; Klippan; Navajo; EPV plaid"
+   ],
+   "found": 8,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Bedding > Pillows",
+   "queries": [
+    "best pillows tested Good Housekeeping"
+   ],
+   "found": 2,
+   "note": "GH via Yahoo excerpt"
+  },
+  {
+   "axis": "kind",
+   "item": "Bedding > Mattress toppers & protectors",
+   "queries": [
+    "Wirecutter mattress toppers; GH awards toppers"
+   ],
+   "found": 0,
+   "note": "Wirecutter blocked"
+  },
+  {
+   "axis": "kind",
+   "item": "Cushions & covers > Cushions & seat pads",
+   "queries": [
+    "cushion makers"
+   ],
+   "found": 0,
+   "note": "Not searched specifically"
+  },
+  {
+   "axis": "kind",
+   "item": "Cushions & covers > Covers & slipcovers",
+   "queries": [
+    "slipcover makers"
+   ],
+   "found": 0,
+   "note": "Not searched specifically"
+  },
+  {
+   "axis": "kind",
+   "item": "Cushions & covers > Furnishing fabrics",
+   "queries": [
+    "EPV tissu d'ameublement; Wallpaper Design Awards 2026"
+   ],
+   "found": 6,
+   "note": "Zinc Textile, Toiles de Mayenne, Jouffre"
+  },
+  {
+   "axis": "kind",
+   "item": "Curtains & blinds > Curtains",
+   "queries": [
+    "EPV rideaux sur mesure"
+   ],
+   "found": 2,
+   "note": "Cousins Associes, Jouffre"
+  },
+  {
+   "axis": "kind",
+   "item": "Curtains & blinds > Blinds & shades",
+   "queries": [
+    "Hunter Douglas Luxaflex Silent Gliss tested"
+   ],
+   "found": 0,
+   "note": "Only installer pages; no quality evidence"
+  },
+  {
+   "axis": "kind",
+   "item": "Curtains & blinds > Poles, tracks & fittings",
+   "queries": [
+    "EPV mecanisme de rideaux, tringles"
+   ],
+   "found": 0,
+   "note": "Gauthier & Cie, Metzger seen, not shown to be soft furnishing; not taken"
+  },
+  {
+   "axis": "kind",
+   "item": "Towels > Bath & body towels",
+   "queries": [
+    "Imabari towel; Turkish towels Denizli; Abyss; Wirecutter towels"
+   ],
+   "found": 8,
+   "note": "Wirecutter blocked; Turkish evidence only private-label factories"
+  },
+  {
+   "axis": "kind",
+   "item": "Towels > Flat-woven & wrap cloths",
+   "queries": [
+    "Turkish peshtemal Buldan"
+   ],
+   "found": 0,
+   "note": "News piece and wholesale factories only"
+  },
+  {
+   "axis": "kind",
+   "item": "Table & kitchen linen > Dressing the table",
+   "queries": [
+    "EPV linge de table, nappes; Masters of Linen"
+   ],
+   "found": 6,
+   "note": "Beauville, Lartigue, Moutet, D'Ennery"
+  },
+  {
+   "axis": "kind",
+   "item": "Table & kitchen linen > Kitchen cloth",
+   "queries": [
+    "tea towel Irish linen makers"
+   ],
+   "found": 0,
+   "note": "Ulster Weavers known; Samuel Lamont seen only on a retailer page"
   },
   {
    "axis": "region",
-   "item": "France",
+   "item": "Western Europe",
    "queries": [
-    "EPV linge de maison, literie, tapis, tissu d'ameublement"
+    "EPV France; Royal Warrant UK; Wales; Switzerland"
    ],
    "found": 30,
-   "note": "Reseau Excellence EPV category pages"
+   "note": ""
   },
   {
    "axis": "region",
-   "item": "UK",
+   "item": "Northern Europe",
    "queries": [
-    "Royal Warrant list May 2024"
+    "Swedish Klippan; Nordic Knots"
    ],
-   "found": 4,
+   "found": 2,
+   "note": "Danish/Irish/Finnish makers not searched"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Italy/Portugal linen towels; Sardinia Joias"
+   ],
+   "found": 1,
+   "note": "Marchi Storici and Portuguese makers not reached"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Lithuania Poland Czech linen damask; Ukraine Gushka"
+   ],
+   "found": 1,
+   "note": "Gushka only"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Hereke; Persian rug workshops; Turkish towels"
+   ],
+   "found": 2,
+   "note": "Persian maker brands not evidenced"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Beni Ourain Moroccan rug"
+   ],
+   "found": 1,
+   "note": "Beni Rugs"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Vlisco wax print; kente; bogolan"
+   ],
+   "found": 1,
+   "note": "Vlisco known already; no African-owned maker evidenced"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Jaipur Rugs; Obeetee; Manglam Arts"
+   ],
+   "found": 5,
    "note": ""
   },
   {
    "axis": "region",
    "item": "East Asia",
    "queries": [
-    "Imabari towel brand",
-    "Japan best towel makers"
+    "Imabari; Tibetan/Lhasa; Tai Ping"
    ],
-   "found": 4,
-   "note": "Japan only; Korea/China not searched"
-  },
-  {
-   "axis": "region",
-   "item": "Middle East",
-   "queries": [
-    "Turkish towel Denizli"
-   ],
-   "found": 0,
-   "note": "Only private-label factory pages and a news piece (search excerpt); no quality-evidence brand list"
-  },
-  {
-   "axis": "region",
-   "item": "Northern Europe",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
-  },
-  {
-   "axis": "region",
-   "item": "Southern Europe",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
-  },
-  {
-   "axis": "region",
-   "item": "Central & Eastern Europe",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
-  },
-  {
-   "axis": "region",
-   "item": "North Africa",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
-  },
-  {
-   "axis": "region",
-   "item": "Sub-Saharan Africa",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
-  },
-  {
-   "axis": "region",
-   "item": "South Asia",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
+   "found": 5,
+   "note": "Korea not searched"
   },
   {
    "axis": "region",
    "item": "Southeast Asia",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
+   "queries": [
+    "Cambodian silk ikat; Jim Thompson"
+   ],
+   "found": 1,
+   "note": "Thai/Indonesian songket/batik makers not evidenced"
   },
   {
    "axis": "region",
    "item": "Central Asia",
-   "queries": [],
+   "queries": [
+    "Uzbekistan Margilan ikat suzani"
+   ],
    "found": 0,
-   "note": "NOT RUN (partial)"
+   "note": "Tradition page only; no maker brand named"
   },
   {
    "axis": "region",
    "item": "Oceania",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
+   "queries": [
+    "Sheridan Australia; Bremworth NZ; Dena Lawrence"
+   ],
+   "found": 3,
+   "note": "Sheridan only in dropped weak directory"
   },
   {
    "axis": "region",
    "item": "North America",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
+   "queries": [
+    "Navajo weavers; Pendleton; Hubbell"
+   ],
+   "found": 3,
+   "note": ""
   },
   {
    "axis": "region",
    "item": "Latin America & Caribbean",
-   "queries": [],
-   "found": 0,
-   "note": "NOT RUN (partial)"
-  },
-  {
-   "axis": "region",
-   "item": "Western Europe",
-   "queries": [],
-   "found": 0,
-   "note": "covered via France/UK above only"
+   "queries": [
+    "Zapotec rugs Oaxaca; alpaca Peru"
+   ],
+   "found": 3,
+   "note": "Peru/Andes not searched"
   }
  ],
  "regions": [
@@ -256,6 +419,117 @@
    "brands": [
     "Johnstons of Elgin"
    ]
+  },
+  {
+   "region": "Turkey (Hereke, Anatolia)",
+   "speciality": "Palace-lineage silk and wool hand-knotted carpets, double Turkish knot",
+   "src": "https://www.turkiyetoday.com/culture/ottoman-era-hereke-silk-and-carpet-factory-in-turkiye-still-thriving-after-nearly-two-3202767",
+   "brands": [
+    "Hereke Silk Weaving and Carpet Factory"
+   ]
+  },
+  {
+   "region": "Iran (Tabriz, Kashan, Isfahan)",
+   "speciality": "Persian city-workshop carpets (retailer page names master lines Haji Jalili, Shahsavarpour)",
+   "src": "https://www.uniqrugs.com/oriental-rugs/tabriz-rugs-c-25",
+   "brands": []
+  },
+  {
+   "region": "Morocco",
+   "speciality": "Beni Ourain and R'bati hand-knotted wool rugs",
+   "src": "https://www.benirugs.com/homepage",
+   "brands": [
+    "Beni Rugs"
+   ]
+  },
+  {
+   "region": "Navajo Nation, USA",
+   "speciality": "Churro-wool Navajo weaving, regional styles (Two Grey Hills, Ganado Red)",
+   "src": "https://www.nps.gov/hutr/learn/kidsyouth/index.htm",
+   "brands": [
+    "Hubbell Trading Post",
+    "Nizhoni Ranch Gallery (navajorug.com)",
+    "Pendleton Woolen Mills"
+   ]
+  },
+  {
+   "region": "Mexico (Oaxaca)",
+   "speciality": "Zapotec wool rugs, cochineal and indigo natural dyes",
+   "src": "https://montealbanoaxaca.com/the-zapotec-rugs-of-teotitlan-del-valle-in-oaxaca/",
+   "brands": [
+    "Demetrio Bautista Lazo",
+    "Fe y Lola Rugs",
+    "Porfirio Gutierrez"
+   ]
+  },
+  {
+   "region": "West and Central Africa / Netherlands",
+   "speciality": "Dutch wax-print cloth as status textile",
+   "src": "https://www.jessicahemmings.com/vlisco-wax-resist-fabrics",
+   "brands": [
+    "Vlisco"
+   ]
+  },
+  {
+   "region": "Uzbekistan (Margilan)",
+   "speciality": "Silk ikat (atlas, adras) and bakhmal velvet",
+   "src": "https://www.trc-leiden.nl/trc/index.php/en/blog/102-news/1875-exploring-uzbekistan-s-ikat-atlas-and-textile-traditions",
+   "brands": []
+  },
+  {
+   "region": "Cambodia / Southeast Asia",
+   "speciality": "Silk ikat weaving",
+   "src": "http://entomologytoday.org/2017/02/03/conserving-culture-through-cambodian-silk",
+   "brands": [
+    "Artisans d'Angkor"
+   ]
+  },
+  {
+   "region": "Wales",
+   "speciality": "Double-cloth woollen blankets",
+   "src": "https://www.frombritainwithlove.com/love-welsh-blankets",
+   "brands": [
+    "Melin Tregwynt",
+    "Trefriw Woollen Mills",
+    "Tir Glas",
+    "Jen Jones"
+   ]
+  },
+  {
+   "region": "Sweden",
+   "speciality": "Wool blankets and throws (Klippan, 1879), knotted rugs",
+   "src": "https://www.fjorn.com/collections/klippan",
+   "brands": [
+    "Klippan Yllefabrik",
+    "Nordic Knots"
+   ]
+  },
+  {
+   "region": "Nepal / Tibet",
+   "speciality": "Tibetan hand-knotted wool carpets",
+   "src": "https://tibetrugcompany.com/tibetan-carpets-2",
+   "brands": [
+    "Tibet Rug Company",
+    "Lhasa Carpet Factory"
+   ]
+  },
+  {
+   "region": "Ukraine",
+   "speciality": "Sustainable handmade rugs (CDA 2024 Sustainability winner)",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "brands": [
+    "Gushka"
+   ]
+  },
+  {
+   "region": "Australia / New Zealand",
+   "speciality": "Wool carpets (NZ), studio rugs (AU)",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "brands": [
+    "Bremworth",
+    "Godfrey Hirst",
+    "Dena Lawrence"
+   ]
   }
  ],
  "sources": [
@@ -305,9 +579,9 @@
    "kind": "retailer",
    "years": "n/a",
    "names_on_page": 110,
-   "new_names": 23,
-   "status": "done",
-   "note": "General luxury directory, weak evidence; fashion labels (Versace, Hermes etc.) and retailers excluded"
+   "new_names": 0,
+   "status": "partial",
+   "note": "General luxury directory, weak evidence; fashion labels (Versace, Hermes etc.) and retailers excluded | names without independent page dropped in second pass"
   },
   {
    "url": "https://www.theinternationalman.com/carpets.php",
@@ -315,9 +589,9 @@
    "kind": "retailer",
    "years": "n/a",
    "names_on_page": 70,
-   "new_names": 13,
-   "status": "done",
-   "note": "Same caveat; designers and furniture houses excluded"
+   "new_names": 0,
+   "status": "partial",
+   "note": "Same caveat; designers and furniture houses excluded | names without independent page dropped in second pass"
   },
   {
    "url": "https://www.japanlifelab.com/best-japanese-towels-imabari-2026",
@@ -330,26 +604,6 @@
    "note": "AI-assisted article; weak"
   },
   {
-   "url": "https://www.nytimes.com/wirecutter/reviews/best-linen-sheets",
-   "title": "Wirecutter sheets / linen / towels / toppers",
-   "kind": "award",
-   "years": "n/a",
-   "names_on_page": 0,
-   "new_names": 0,
-   "status": "blocked",
-   "note": "Raw fetch returned no body"
-  },
-  {
-   "url": "https://www.goodhousekeeping.com/what-to-buy/mattresses-sleep-products/g3038/best-sheets-reviews/",
-   "title": "Good Housekeeping best sheets",
-   "kind": "award",
-   "years": "n/a",
-   "names_on_page": 0,
-   "new_names": 0,
-   "status": "blocked",
-   "note": "Raw fetch returned no body"
-  },
-  {
    "url": "https://www.mordorintelligence.com/industry-reports/global-bed-and-bath-linen-market/companies",
    "title": "Mordor bed and bath linen companies",
    "kind": "ranking",
@@ -358,6 +612,106 @@
    "new_names": 0,
    "status": "partial",
    "note": "Market-size list, not quality; seen in search excerpt only, not used"
+  },
+  {
+   "url": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/textile/tisserand/",
+   "title": "EPV directory: 11 domain pages (tisserand, literie, objets textiles, feutrier, gaufreur, tapissier, tapis, lissier, tufteur, linge de table, mecanisme de rideaux)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 37,
+   "new_names": 7,
+   "status": "done",
+   "note": "Raw full_content; no pagination links on any EPV page, lists appear complete as served"
+  },
+  {
+   "url": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "title": "Carpet Design Awards winners 2024, 2023, 2017",
+   "kind": "award",
+   "years": "2017, 2023, 2024 only",
+   "names_on_page": 24,
+   "new_names": 19,
+   "status": "partial",
+   "note": "Other years not retrieved; seen via search-result text of the cited pages"
+  },
+  {
+   "url": "https://www.wallpaper.com/design-interiors/the-wallpaper-design-awards-2026-winners-are",
+   "title": "Wallpaper* Design Awards 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "partial",
+   "note": "Only rug/fabric winners; search excerpt"
+  },
+  {
+   "url": "https://www.homesandgardens.com/buying-guides/best-bed-sheets",
+   "title": "Homes & Gardens best bed sheets (raw)",
+   "kind": "award",
+   "years": "2026-27",
+   "names_on_page": 12,
+   "new_names": 6,
+   "status": "done",
+   "note": "Casaluna (Target) private label skipped"
+  },
+  {
+   "url": "https://www.consumerreports.org/home-garden/sheets/best-and-worst-sheets-a6171469628/",
+   "title": "Consumer Reports sheets (raw)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 2,
+   "status": "partial",
+   "note": "Tested list visible, winner ranking not in fetched text"
+  },
+  {
+   "url": "https://www.test.de/Bettdecken-im-Test-5370279-0",
+   "title": "Stiftung Warentest Bettdecken",
+   "kind": "award",
+   "years": "2019",
+   "names_on_page": 17,
+   "new_names": 0,
+   "status": "done",
+   "note": "Budget online/private-label brands; none taken"
+  },
+  {
+   "url": "https://www.betten.de/magazin/daunendecken-test-vergleich.html",
+   "title": "Betten.de Daunendecken test",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 0,
+   "status": "done",
+   "note": "Retailer own-label products; none taken"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-linen-sheets",
+   "title": "Wirecutter sheets/linen/towels/toppers",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "Raw fetch empty"
+  },
+  {
+   "url": "https://www.goodhousekeeping.com/what-to-buy/mattresses-sleep-products/a70328937/bedding-awards-2026",
+   "title": "Good Housekeeping Bedding Awards 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 4,
+   "status": "partial",
+   "note": "Raw fetch empty; names via GMA and Yahoo reprints (search excerpts)"
+  },
+  {
+   "url": "https://www.imabaritowel.jp/en",
+   "title": "Imabari Towel official site",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Search excerpt only; member list not retrieved"
   }
  ],
  "brands": [
@@ -722,109 +1076,10 @@
    "already": false
   },
   {
-   "n": "Bellino",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Italian-made damask bed linens (directory entry, Bellino Fine Linens) (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Christian Fischbacher",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Swiss luxury linens since 1819; hand-tufted carpets (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Schlossberg",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Fine Swiss linens since 1833 (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Formesse",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Specialist bed linen, fitted sheets made in Germany (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Georg Jensen Damask",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Bed linen of long-fibred Egyptian cotton, since 1752 (Denmark) (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
    "n": "Peacock Alley",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Matelasse bedding since 1973 (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Pom Pom at Home",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: 100% natural linen bedding (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Once Milano",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Handmade Italian linens (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "John Atkinson",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: England's finest blankets, since 1828 (by Hainsworth) (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Sheridan",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Australian luxury bedding since 1967 (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Coyuchi",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Organic cotton bedding and towels (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
-   "already": false
-  },
-  {
-   "n": "Hill House",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Bed sets (directory entry; weak evidence, check quality separately)",
+   "src": "https://www.homesandgardens.com/buying-guides/best-bed-sheets",
+   "says": "Homes & Gardens tested pick: Best Sateen Bed Sheets, Peacock Alley Soprano Sateen",
    "country": "",
    "dept": "bedding",
    "already": false
@@ -832,216 +1087,396 @@
   {
    "n": "Bed Thread",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: French flax linen bedding (directory entry; weak evidence, check quality separately)",
+   "src": "https://www.consumerreports.org/home-garden/sheets/best-and-worst-sheets-a6171469628/",
+   "says": "Consumer Reports lab-tested 'Bed Threads French Flax Linen' sheets (ranking not visible in fetched text)",
    "country": "",
    "dept": "bedding",
    "already": false
   },
   {
-   "n": "Tekla",
+   "n": "Piganiol",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Organic Oeko-Tex certified cotton percale (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/textile/fabricant-dobjets-en-textiles/",
+   "says": "EPV directory, domain 'Fabricant d'objets en textiles' (product not stated)",
+   "country": "France",
+   "dept": "textile objects",
    "already": false
   },
   {
-   "n": "Olivier Desforges",
+   "n": "Fontanille SCOP",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: French bed and bath linens (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/textile/fabricant-dobjets-en-textiles/",
+   "says": "EPV directory, domain 'Fabricant d'objets en textiles'",
+   "country": "France",
+   "dept": "textile objects",
    "already": false
   },
   {
-   "n": "Schweitzer Linen",
+   "n": "Artesina",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Italian linens (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/textile/fabricant-dobjets-en-textiles/",
+   "says": "EPV directory, domain 'Fabricant d'objets en textiles'",
+   "country": "France",
+   "dept": "textile objects",
    "already": false
   },
   {
-   "n": "SDH",
+   "n": "Etablissements Carlhian",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Fine European linens (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/textile/tisserand/",
+   "says": "EPV directory, domain Tisserand (weaver)",
+   "country": "France",
+   "dept": "woven textiles",
    "already": false
   },
   {
-   "n": "Ann Gish",
+   "n": "Oriol & Fontanel",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Detailed luxury linens and bedding (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/textile/tisserand/",
+   "says": "EPV directory, domain Tisserand (weaver)",
+   "country": "France",
+   "dept": "woven textiles",
    "already": false
   },
   {
-   "n": "Alessandro Di Marco",
+   "n": "Societe Choletaise de Fabrication",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Luxury Italian linens, bespoke (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/textile/tisserand/",
+   "says": "EPV directory, domain Tisserand (weaver)",
+   "country": "France",
+   "dept": "woven textiles",
    "already": false
   },
   {
-   "n": "Daniel Stuart Studio",
+   "n": "Atelier Dissidi",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Luxury linen bedsets, coverlets (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.reseauexcellence.fr/fr/organisations/categories/domaines/ameublement-et-decoration/tapissier-dameublement-et-ou-tapissier-decorateur/",
+   "says": "EPV directory, domain Tapissier d'ameublement",
+   "country": "France",
+   "dept": "upholstery & soft furnishing",
    "already": false
   },
   {
-   "n": "Newport Bedding",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Linens made in Portugal (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "n": "Hereke Silk Weaving and Carpet Factory",
+   "layer": "cultural",
+   "src": "https://www.turkiyetoday.com/culture/ottoman-era-hereke-silk-and-carpet-factory-in-turkiye-still-thriving-after-nearly-two-3202767",
+   "says": "Ottoman imperial factory founded 1843, still hand-weaving silk and carpets (Britannica also has 'Hereke carpet')",
+   "country": "Turkey",
+   "dept": "rugs",
    "already": false
   },
   {
-   "n": "Gingerlily",
+   "n": "Jaipur Rugs",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Silk bedding (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.jaipurrugs.com/about/company",
+   "says": "Own history page: America's Magnificent Carpet Award 2006, two German Design Awards 2018, three Carpet Design Awards 2020; Carpet Design Awards 2023 and 2024 winner per domotex.de",
+   "country": "India",
+   "dept": "rugs",
    "already": false
   },
   {
-   "n": "Savoir",
+   "n": "Christopher Farr Editions",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/bed-linen.php",
-   "says": "theinternationalman.com luxury bed-linen directory: Bed maker and bedding since 1905 (directory entry; weak evidence, check quality separately)",
-   "country": "",
-   "dept": "bedding",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "says": "Carpet Design Awards 2024 winner, Best Modern Design Superior",
+   "country": "UK",
+   "dept": "rugs",
    "already": false
   },
   {
-   "n": "Edward Fields",
+   "n": "Knots Rugs",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Edward Fields Carpet Makers, bespoke luxury carpets since 1935 (directory entry; weak)",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "says": "Carpet Design Awards 2024 winner, Best Modern Design Deluxe",
+   "country": "UK",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Edelgrund",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "says": "Carpet Design Awards 2024 winner, Best Flatweave Design (2017 Best Transitional Collection per rugnews.com)",
+   "country": "Germany",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "FLOOR_STORY",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "says": "Carpet Design Awards 2024 winner Best Collection and Best Interior; 2023 Best Interior",
+   "country": "UK",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Gushka",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "says": "Carpet Design Awards 2024 Sustainability Award",
+   "country": "Ukraine",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Dena Lawrence",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/these-are-the-winners-of-the-carpet-design-awards-2024",
+   "says": "Carpet Design Awards 2024, Best Studio Artist Design",
+   "country": "Australia",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Wendy Morrison Design",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/winner",
+   "says": "Carpet Design Awards 2023 winner, Best Transitional Design",
+   "country": "UK",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Manglam Arts",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/winner",
+   "says": "Carpet Design Awards 2023 winner, Best Flatweave Design",
+   "country": "India",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "M2Rugs",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/winner",
+   "says": "Carpet Design Awards 2023 winner, Best Collection (Trails by Sebastian Herkner)",
+   "country": "Germany",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Ashtari Carpets",
+   "layer": "premium",
+   "src": "https://www.domotex.de/en/press/press-releases/domotex/winner",
+   "says": "Carpet Design Awards 2023 winner, Best Modern Design Deluxe",
+   "country": "Belgium",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Sterling Rugs",
+   "layer": "premium",
+   "src": "https://www.rugnews.com/news-archives/2017-carpet-design-awards-trumpet-best-in-show-at-1552",
+   "says": "Carpet Design Awards 2017 Best Modern Design Superior",
+   "country": "",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Wool & Silk Rugs",
+   "layer": "premium",
+   "src": "https://www.rugnews.com/news-archives/2017-carpet-design-awards-trumpet-best-in-show-at-1552",
+   "says": "Carpet Design Awards 2017 Best Modern Design Deluxe",
    "country": "US",
    "dept": "rugs",
    "already": false
   },
   {
-   "n": "La Manufacture Cogolin",
+   "n": "Rug & Kilim",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Hand-woven rugs by artisans, since 1924 (directory entry; weak)",
-   "country": "France",
+   "src": "https://www.rugnews.com/news-archives/2017-carpet-design-awards-trumpet-best-in-show-at-1552",
+   "says": "Carpet Design Awards 2017 Best Flat Weave Design",
+   "country": "",
    "dept": "rugs",
    "already": false
   },
   {
-   "n": "Golran",
+   "n": "Nordic Knots",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Milan-based rug company since 1898 (directory entry; weak)",
-   "country": "Italy",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Bowron",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Sheepskin design rugs since 1879 (directory entry; weak)",
-   "country": "UK",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Roger Oates",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Runners and rugs, authentic materials, since 1987 (directory entry; weak)",
-   "country": "UK",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Braquenié",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Printed cottons, silks and hand-woven rugs since 1824 (directory entry; weak)",
-   "country": "France",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Boussac",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: French textile/carpet brand since 1935 (directory entry; weak)",
-   "country": "France",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Beauvais Carpets",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Antique oriental and European carpets and tapestries (directory entry; weak)",
-   "country": "UK",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Mughal Carpet Company",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Carpet makers since 1986 (directory entry; weak)",
-   "country": "Pakistan",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Neisha Crosland",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Textile and rug designer; honorary RDI (directory entry; weak)",
-   "country": "UK",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Brunschwig & Fils",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Fabrics and rugs since 1900 (directory entry; weak)",
-   "country": "US",
-   "dept": "rugs",
-   "already": false
-  },
-  {
-   "n": "Rugs of Sweden",
-   "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Vintage rag rugs (directory entry; weak)",
+   "src": "https://www.wallpaper.com/design-interiors/the-wallpaper-design-awards-2026-winners-are",
+   "says": "Wallpaper* Design Awards 2026 winner (Grace 05 Octagon rug)",
    "country": "Sweden",
    "dept": "rugs",
    "already": false
   },
   {
-   "n": "Emily Todhunter",
+   "n": "Jan Kath",
    "layer": "premium",
-   "src": "https://www.theinternationalman.com/carpets.php",
-   "says": "theinternationalman.com luxury rugs directory: Rug design collection (directory entry; weak)",
+   "src": "https://www.wallpaper.com/design-interiors/the-wallpaper-design-awards-2026-winners-are",
+   "says": "Wallpaper* Design Awards 2026 winner (Doto rug)",
+   "country": "Germany",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Zinc Textile",
+   "layer": "premium",
+   "src": "https://www.wallpaper.com/design-interiors/the-wallpaper-design-awards-2026-winners-are",
+   "says": "Wallpaper* Design Awards 2026 winner (Bandra moire fabric)",
+   "country": "Belgium",
+   "dept": "furnishing fabric",
+   "already": false
+  },
+  {
+   "n": "Beni Rugs",
+   "layer": "premium",
+   "src": "https://www.benirugs.com/homepage",
+   "says": "Own site: Fair Trade certified by Label Step, 85 in-house weavers near Marrakech (self-description)",
+   "country": "Morocco",
+   "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Piglet in Bed",
+   "layer": "premium",
+   "src": "https://www.homesandgardens.com/buying-guides/best-bed-sheets",
+   "says": "Homes & Gardens tested pick: Best Linen Bed Sheets",
    "country": "UK",
+   "dept": "bed linen",
+   "already": false
+  },
+  {
+   "n": "Cozy Earth",
+   "layer": "premium",
+   "src": "https://www.homesandgardens.com/buying-guides/best-bed-sheets",
+   "says": "Homes & Gardens tested pick: Best Bed Sheets Overall (also Consumer Reports tested)",
+   "country": "US",
+   "dept": "bed linen",
+   "already": false
+  },
+  {
+   "n": "ettitude",
+   "layer": "premium",
+   "src": "https://www.homesandgardens.com/buying-guides/best-bed-sheets",
+   "says": "Homes & Gardens tested pick: Best Hypoallergenic Bed Sheets",
+   "country": "",
+   "dept": "bed linen",
+   "already": false
+  },
+  {
+   "n": "Luxome",
+   "layer": "premium",
+   "src": "https://www.homesandgardens.com/buying-guides/best-bed-sheets",
+   "says": "Homes & Gardens tested pick: Best for hot sleepers (also Consumer Reports tested)",
+   "country": "US",
+   "dept": "bed linen",
+   "already": false
+  },
+  {
+   "n": "Naturepedic",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/sheets/best-and-worst-sheets-a6171469628/",
+   "says": "Consumer Reports lab-tested organic cotton sateen sheets (ranking not visible in fetched text)",
+   "country": "US",
+   "dept": "bed linen",
+   "already": false
+  },
+  {
+   "n": "Wamsutta",
+   "layer": "premium",
+   "src": "https://www.goodmorningamerica.com/shop/story/good-housekeeping-2026-bedding-awards-picks-gma-131100690",
+   "says": "Good Housekeeping 2026 Bedding Awards winner, Supreme Comfort Down Alternative Comforter (page seen as search excerpt)",
+   "country": "US",
+   "dept": "duvets",
+   "already": false
+  },
+  {
+   "n": "California Design Den",
+   "layer": "premium",
+   "src": "https://www.goodmorningamerica.com/shop/story/good-housekeeping-2026-bedding-awards-picks-gma-131100690",
+   "says": "Good Housekeeping Institute: sub-$50 cotton sateen sheets outperformed lab rivals over $200 (excerpt)",
+   "country": "US",
+   "dept": "bed linen",
+   "already": false
+  },
+  {
+   "n": "Coop Home Goods",
+   "layer": "premium",
+   "src": "https://shopping.yahoo.com/health/sleep/articles/testing-over-215-pillows-were-150300812.html",
+   "says": "Good Housekeeping (via Yahoo) pillow tests: Original Loft Pillow (excerpt)",
+   "country": "US",
+   "dept": "pillows",
+   "already": false
+  },
+  {
+   "n": "FluffCo",
+   "layer": "premium",
+   "src": "https://shopping.yahoo.com/health/sleep/articles/testing-over-215-pillows-were-150300812.html",
+   "says": "Good Housekeeping (via Yahoo) pillow tests: down pillows (excerpt)",
+   "country": "US",
+   "dept": "pillows",
+   "already": false
+  },
+  {
+   "n": "Hubbell Trading Post",
+   "layer": "cultural",
+   "src": "https://www.nps.gov/hutr/learn/kidsyouth/index.htm",
+   "says": "US National Historic Site: J. L. Hubbell trading post (1878) promoted high-quality Navajo rugs; Ganado Red design",
+   "country": "US",
+   "dept": "Navajo rugs",
+   "already": false
+  },
+  {
+   "n": "Nizhoni Ranch Gallery (navajorug.com)",
+   "layer": "premium",
+   "src": "https://www.navajorug.com/",
+   "says": "Seller of named master Navajo weavers' rugs incl. Gallup Inter-Tribal Ceremonial winners, gallery since 2000 (self-description)",
+   "country": "US",
+   "dept": "Navajo rugs",
+   "already": false
+  },
+  {
+   "n": "Demetrio Bautista Lazo",
+   "layer": "premium",
+   "src": "https://www.teotitlan.com/index.htm",
+   "says": "Master weaver, Teotitlan del Valle, Zapotec natural-dye rugs, family weaving since 1735 (own site)",
+   "country": "Mexico",
+   "dept": "Zapotec rugs",
+   "already": false
+  },
+  {
+   "n": "Fe y Lola Rugs",
+   "layer": "premium",
+   "src": "https://feylolarugs.com/",
+   "says": "Zapotec natural-dye rug workshop, Teotitlan del Valle (own site)",
+   "country": "Mexico",
+   "dept": "Zapotec rugs",
+   "already": false
+  },
+  {
+   "n": "Porfirio Gutierrez",
+   "layer": "premium",
+   "src": "https://montealbanoaxaca.com/the-zapotec-rugs-of-teotitlan-del-valle-in-oaxaca/",
+   "says": "Named among most respected Teotitlan weaving families, natural-dye revivalists",
+   "country": "Mexico",
+   "dept": "Zapotec rugs",
+   "already": false
+  },
+  {
+   "n": "Artisans d'Angkor",
+   "layer": "cultural",
+   "src": "http://entomologytoday.org/2017/02/03/conserving-culture-through-cambodian-silk",
+   "says": "Cambodian silk ikat workshops, 426 staff in 10 workshops (article)",
+   "country": "Cambodia",
+   "dept": "silk textiles",
+   "already": false
+  },
+  {
+   "n": "Tir Glas",
+   "layer": "premium",
+   "src": "https://www.frombritainwithlove.com/love-welsh-blankets",
+   "says": "Named among pick of the best Welsh blankets, woven on 1930s looms",
+   "country": "UK (Wales)",
+   "dept": "blankets",
+   "already": false
+  },
+  {
+   "n": "Tibet Rug Company",
+   "layer": "premium",
+   "src": "https://tibetrugcompany.com/tibetan-carpets-2",
+   "says": "Own site: hand-knotted in Kathmandu from hand-spun Tibetan wool, award-winner collections (weak)",
+   "country": "Nepal",
    "dept": "rugs",
    "already": false
   }

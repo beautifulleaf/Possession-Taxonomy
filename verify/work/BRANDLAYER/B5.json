@@ -208,30 +208,12 @@
   },
   {
    "axis": "region",
-   "item": "Latin America & Caribbean",
-   "queries": [
-    "via porcelain list / appliance category / retailer lists"
-   ],
-   "found": 0,
-   "note": "covered indirectly through regions array"
-  },
-  {
-   "axis": "region",
    "item": "Sub-Saharan Africa",
    "queries": [
     "via porcelain list / appliance category / retailer lists"
    ],
    "found": 0,
    "note": "covered indirectly through regions array"
-  },
-  {
-   "axis": "region",
-   "item": "North Africa",
-   "queries": [
-    "tagine search (no maker page surfaced)"
-   ],
-   "found": 0,
-   "note": "gap"
   },
   {
    "axis": "region",
@@ -269,6 +251,43 @@
    ],
    "found": 8,
    "note": "EPV: Haviland, Cristel, Degrenne, Au Sabot, Arbalete; Italian register is database only"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Talavera Poblana certified workshops",
+    "molcajete maker"
+   ],
+   "found": 2,
+   "note": "talavera Puebla workshops logged; molcajete makers: no named brand found"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Safi pottery tagine famous workshop Morocco cooperative"
+   ],
+   "found": 0,
+   "note": "regional strength recorded (Fes, Safi, Tamegroute) but sources name individual artisans or tour operators, no maker brand"
+  },
+  {
+   "axis": "kind",
+   "item": "Cookware & bakeware (tagine, clay)",
+   "queries": [
+    "Moroccan tagine maker brand"
+   ],
+   "found": 0,
+   "note": "no maker brand on fetched page; Emile Henry/Staub etc already in register"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia (Korea)",
+   "queries": [
+    "bangjja brassware master artisan workshop Anseong"
+   ],
+   "found": 0,
+   "note": "museum page only names a master (person), no brand"
   }
  ],
  "regions": [
@@ -787,6 +806,35 @@
    "brands": [
     "Zhang Xiaoquan"
    ]
+  },
+  {
+   "region": "Mexico - Puebla",
+   "speciality": "talavera poblana tin-glaze tableware, denomination of origin; nine certified workshops",
+   "src": "https://www.phgmag.com/inside-the-delicate-art-of-making-talavera-pottery",
+   "brands": [
+    "Uriarte Talavera",
+    "Talavera Armando"
+   ]
+  },
+  {
+   "region": "Morocco",
+   "speciality": "Fes blue, Safi polychrome and Tamegroute green pottery and tagines",
+   "src": "https://www.serenitymoroccotours.com/pottery",
+   "brands": []
+  },
+  {
+   "region": "South Korea - bangjja brassware",
+   "speciality": "hammered 78:22 copper-tin bangjja yugi tableware",
+   "src": "https://www.bangjja.or.kr/bangjja/en/content.html?md=0230",
+   "brands": []
+  },
+  {
+   "region": "Italy - Deruta (Umbria)",
+   "speciality": "maiolica ceramics",
+   "src": "https://www.homeanddecor.com.sg/shopping/furniture/10-world-renowned-ceramics-and-pottery-workshops-clay-enthusiasts",
+   "brands": [
+    "Maiolica Ceramiche Grazia"
+   ]
   }
  ],
  "sources": [
@@ -1096,6 +1144,47 @@
    "new_names": 0,
    "status": "partial",
    "note": "register is a database (uibm.gov.it/bancadati), not fetched as list; no kitchen names obtained"
+  },
+  {
+   "url": "https://www.phgmag.com/inside-the-delicate-art-of-making-talavera-pottery",
+   "title": "Phoenix Home & Garden: Talavera pottery (9 workshops certified by Mexican government)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "",
+   "_known": 1
+  },
+  {
+   "url": "https://talaverarmando.com.mx/index.php",
+   "title": "Talavera Armando (Puebla) maker site",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.bangjja.or.kr/bangjja/en/content.html?md=0230",
+   "title": "Daegu Bangjja Yugi Museum (Korean bronzeware)",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "no brand named"
+  },
+  {
+   "url": "https://www.homeanddecor.com.sg/shopping/furniture/10-world-renowned-ceramics-and-pottery-workshops-clay-enthusiasts",
+   "title": "Home & Decor: world-renowned ceramics workshops (2026)",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -2524,6 +2613,14 @@
    "dept": "cookware"
   },
   {
+   "n": "Kouraku Kiln",
+   "layer": "premium",
+   "src": "https://www.homeanddecor.com.sg/shopping/furniture/10-world-renowned-ceramics-and-pottery-workshops-clay-enthusiasts",
+   "says": "listed among 10 world-renowned ceramics and pottery workshops (Kouraku Kiln est. 1865; Deruta maiolica)",
+   "country": "Japan",
+   "dept": "tableware"
+  },
+  {
    "n": "Koutetsu",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
@@ -2722,6 +2819,14 @@
    "says": "listed in Wikipedia Category:Kitchenware brands",
    "country": "US",
    "dept": "kitchenware"
+  },
+  {
+   "n": "Maiolica Ceramiche Grazia",
+   "layer": "premium",
+   "src": "https://www.homeanddecor.com.sg/shopping/furniture/10-world-renowned-ceramics-and-pottery-workshops-clay-enthusiasts",
+   "says": "listed among 10 world-renowned ceramics and pottery workshops (Kouraku Kiln est. 1865; Deruta maiolica)",
+   "country": "Italy",
+   "dept": "tableware"
   },
   {
    "n": "Malteser Stahlwaren",
@@ -3778,6 +3883,14 @@
    "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
    "country": "Japan",
    "dept": "knives"
+  },
+  {
+   "n": "Talavera Armando",
+   "layer": "premium",
+   "src": "https://talaverarmando.com.mx/index.php",
+   "says": "Puebla workshop making talavera certified by denomination of origin",
+   "country": "Mexico",
+   "dept": "tableware"
   },
   {
    "n": "Taylor & Ng",
