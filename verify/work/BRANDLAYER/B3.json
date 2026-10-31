@@ -25,9 +25,11 @@
   {
    "axis": "kind",
    "item": "Lamps > Night lights & wake-up lights",
-   "queries": [],
-   "found": 0,
-   "note": "NOT searched"
+   "queries": [
+    "queries: best wake-up light alarm clock tested"
+   ],
+   "found": 2,
+   "note": "queries: best wake-up light alarm clock tested; Guardian/Strategist/Wirecutter/TechRadar fetched or located. Added Hatch, Loftie (Strategist); Lumie, Beurer, Philips known. Night lights alone: no dedicated tested list (Goodnight Light only listed-only in Lampenwelt)"
   },
   {
    "axis": "kind",
@@ -53,9 +55,11 @@
   {
    "axis": "kind",
    "item": "Ceiling lights > Fitted ceiling lights",
-   "queries": [],
+   "queries": [
+    "query: best recessed downlights LED brands lighting designers recommend"
+   ],
    "found": 0,
-   "note": "NOT searched"
+   "note": "query: best recessed downlights LED brands lighting designers recommend; only retailer/distributor results (Brightgreen, Lampenwelt Brumberg/Paulmann/Arcchio listed-only)"
   },
   {
    "axis": "kind",
@@ -67,9 +71,11 @@
   {
    "axis": "kind",
    "item": "Wall lights > Mirror & bathroom lights",
-   "queries": [],
+   "queries": [
+    "query: bathroom vanity mirror lights"
+   ],
    "found": 0,
-   "note": "NOT searched"
+   "note": "query: bathroom vanity mirror lights; Spruce mirror test names retailer private labels only; nothing recorded"
   },
   {
    "axis": "kind",
@@ -108,9 +114,11 @@
   {
    "axis": "kind",
    "item": "Outdoor lights > Ground & garden lights",
-   "queries": [],
+   "queries": [
+    "queries: best solar garden path lights tested"
+   ],
    "found": 0,
-   "note": "NOT searched"
+   "note": "queries: best solar garden path lights tested; Consumer Reports/Bob Vila/Spruce results name retailer private labels (Harbor Breeze, Hampton Bay, Frontgate, Westinghouse) - not fetched, not recorded as brands; BEGA, Steinel, Konstsmide, Newgarden listed in Lampenwelt"
   },
   {
    "axis": "kind",
@@ -160,17 +168,20 @@
    "item": "Bulbs & strips > Bulbs",
    "queries": [
     "Wirecutter best LED bulb",
-    "Which? / best LED bulbs tested"
+    "Which? / best LED bulbs tested",
+    "queries: Which? best smart bulbs"
    ],
    "found": 0,
-   "note": "Wirecutter pick Feit Electric (known); Which? pages not retrievable; Wikipedia category gave Osram, Ledvance, Tungsram, Mazda"
+   "note": "queries: Which? best smart bulbs; Which? page not returned by search (only PCMag, Wirecutter, CNN, Consumer Reports); Wirecutter picks WiZ, Feit known"
   },
   {
    "axis": "kind",
    "item": "Bulbs & strips > Tubes & strips",
-   "queries": [],
+   "queries": [
+    "queries: best LED strip lights tested"
+   ],
    "found": 0,
-   "note": "NOT searched"
+   "note": "queries: best LED strip lights tested; Wirecutter top pick Govee (known), TP-Link Tapo (known); TechRadar names Hue, Nanoleaf, WiZ, LIFX, IKEA (known)"
   },
   {
    "axis": "kind",
@@ -309,6 +320,88 @@
    ],
    "found": 0,
    "note": "retailer pages only; no brands recorded"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "African lighting designers makers handmade lamps South Africa"
+   ],
+   "found": 11,
+   "note": "visi.co.za Decorex 2026, Ngala Trading makers: South African makers recorded; also 54kibo/Phases Africa retailer pages (not recorded)"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "luminaria artesanal marca diseno latinoamerica"
+   ],
+   "found": 0,
+   "note": "two searches returned only French/German retailers; no Latin American maker page; Mexican tin lanterns remain retailer-only"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Uzbekistan Kyrgyzstan Kazakhstan traditional lamp lantern craft workshop"
+   ],
+   "found": 0,
+   "note": "search returned no Central Asian lamp-maker page"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Australian lighting design brands makers Brightgreen",
+    "Handkrafted lighting"
+   ],
+   "found": 1,
+   "note": "Brightgreen (distributor page); Handkrafted is a marketplace (not recorded); Beacon Lighting listed in Lampenwelt"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Indian designer lighting brands handcrafted"
+   ],
+   "found": 1,
+   "note": "Oorjaa (DesignWanted); Indian mass makers (Havells etc.) not re-searched beyond Wikipedia category"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East (Turkey)",
+   "queries": [
+    "Turkish mosaic lamp manufacturer Istanbul"
+   ],
+   "found": 1,
+   "note": "Grand Turkish Bazaar recorded as seller"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa (Morocco)",
+   "queries": [
+    "Moroccan brass lantern makers Fez Marrakech workshop"
+   ],
+   "found": 2,
+   "note": "Marrakeche Crafts (Abdul Jalil workshop), Marrakech Lights recorded as sellers"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe (Murano)",
+   "queries": [
+    "Murano glass chandelier makers Barovier Toso Venini Seguso"
+   ],
+   "found": 1,
+   "note": "Barovier & Toso maker page fetched; Venini/Seguso not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe (France)",
+   "queries": [
+    "Entreprise de luminaires categorie Wikipedia France fabricant luminaires"
+   ],
+   "found": 0,
+   "note": "fr Wikipedia category not located; CVL Luminaires, Henri Bursztyn pages seen in search only (not fetched)"
   }
  ],
  "regions": [
@@ -892,6 +985,96 @@
    "new_names": 1,
    "status": "done",
    "note": "Distributor page; weak premium evidence (warranty claim)"
+  },
+  {
+   "url": "https://www.lampenwelt.de/c/marken",
+   "title": "Lampenwelt.de Marken (A-Z brand directory, lighting-only retailer)",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 147,
+   "new_names": 127,
+   "status": "done",
+   "note": "20 of 147 names already known. Retailer sells only lighting, ceiling fans, solar and smart-home lights so category is intrinsic. Furniture names (Fritz Hansen, HAY, Kartell, KARE, Seletti, Hubsch, Audo) dropped."
+  },
+  {
+   "url": "(search) UK Royal Warrant lighting",
+   "title": "Royal Warrant holders - lighting queries",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "Searched earlier: Wilkinson Ltd recorded; no other lighting holder surfaced"
+  },
+  {
+   "url": "(search) shinise lighting",
+   "title": "Japan shinise lists - lighting",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "Searched earlier: Yoshinoya Shoten recorded; Yame/Gifu lantern makers"
+  },
+  {
+   "url": "(search) Murano chandelier makers",
+   "title": "Murano chandelier makers",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "Barovier & Toso maker page; Seguso known; other results retailers"
+  },
+  {
+   "url": "https://www.red-dot.org/fileadmin/bilder/Site_Presse/2025_presse_listen/2025_Red_Dot_Award_Product_Design_Winners-Lighting___Lamps.xlsx",
+   "title": "Red Dot 2025 Lighting & Lamps winners xlsx",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "Binary xlsx returned as garbage; list is editorial-only; per-year Red Dot/iF winner lists are dynamic searches; only feature and project pages recorded"
+  },
+  {
+   "url": "https://ifdesign.com/en/if-design-award-usa-call-for-entries",
+   "title": "iF Design Award lighting category",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Winner overview dynamic (not fetchable); iF winners only named in company press pages located by search (Signify, XAL, Fluxwerx, Molto Luce) - not fetched so not recorded"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Compasso_d%27Oro",
+   "title": "Compasso d'Oro Wikipedia (fetched raw)",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "No per-year winner table with lamps beyond Luminator (Gilardi & Barzaghi 1955), Atollo (Oluce 1979), Parentesi (Flos 1979); all known. ADI list fetched separately"
+  },
+  {
+   "url": "(search) Which? best bulbs",
+   "title": "Which? lighting tests",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Which? pages not returned by search/behind paywall; Guardian, Strategist, Wirecutter, TechRadar used instead"
+  },
+  {
+   "url": "(search) fr/it/ja/de Wikipedia lighting company categories",
+   "title": "Wikipedia lighting categories in other languages",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "Category pages not located by search (de 404 earlier; fr/it/ja not surfaced); retailer directories Lampenwelt used instead"
   }
  ],
  "brands": [
@@ -2816,6 +2999,838 @@
    "src": "https://limelighting.com.au/products-and-technical/brightgreen",
    "says": "Described as Australian architectural lighting manufacturer, Melbourne, longest LED warranty",
    "country": "Australia",
+   "dept": "luminaires"
+  },
+  {
+   "n": "AcTEC",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Albert Leuchten",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Aluminor",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Arcchio",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Bankamp",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Beacon Lighting",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "BEGA",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Bioledex",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "BOPP",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Briloner",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Brumberg",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "By Rydéns",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Carpyen",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Decor Walther",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Deko-Light",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "dot-spot",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Dyberg Larsen",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Ebb & Flow",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Ebir",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Egger Licht",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Elstead",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "ERCO",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Escale",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Euluna",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Eutrac",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "EVN",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Fischer & Honsel",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Globo",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Good & Mojo",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Goodnight Light",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Grupa",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Helestra",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Hell",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "HerzBlut",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Hinkley",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Holländer",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Icone",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Ideal Lux",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "It's about RoMi",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Ivela",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Just Light",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "K.S. Verlichting",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Knapstein",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Knikerboker",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Kolarz",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Konstsmide",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "LCD",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Ledino",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "LEDS-C4",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "LeuchtNatur",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Linea Light",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Loom Design",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Lucide",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Lumina",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Lutec",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Luumr",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Markslöjd",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Maul",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Maytoni",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Megaman",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Menzel",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Milan Iluminación",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Modo Luce",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Molto Luce",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Müller-Licht",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Näve",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Newgarden",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Nimbus",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Northern",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Olev",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Paul Neuhaus",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Pauleen",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Performance in Lighting",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "PR Home",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Quitani",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Radium",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Reality",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Regent Lighting",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Regiolux",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Ribag",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Rotaliana",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "RZB",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Searchlight",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Segula",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Selène",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Sigor",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Siteco",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Steinel",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Steinhauer",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Sylvania",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Tagwerk",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Terzani",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "The Light Group",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Theben",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Thorn",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Tint",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "TK Lighting",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Top Light",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Tridonic",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Trio Lighting",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Waldmann",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Wever & Ducré",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "XAL",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
+   "dept": "luminaires"
+  },
+  {
+   "n": "Zafferano",
+   "layer": "premium",
+   "src": "https://www.lampenwelt.de/c/marken",
+   "says": "Listed in Lampenwelt brand directory (specialist lamp/luminaire retailer, 'Europas grösste Markenauswahl'); listed-only, no quality test",
+   "country": "",
    "dept": "luminaires"
   }
  ]

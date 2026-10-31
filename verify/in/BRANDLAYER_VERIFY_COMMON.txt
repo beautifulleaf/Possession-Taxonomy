@@ -1,0 +1,15 @@
+BRANDLAYER VERIFY (Opus verifier) for category <CODE>, run after harvest and cold audit, before merge. Never run git; never edit rebuild/, framework/, BRIEF.md, the harvest or audit files. Write only verify/work/BRANDLAYER/VERIFY_<CODE>.json and VERIFY_<CODE>.md (helpers in VERIFY_<CODE>_tmp/).
+
+INPUT: verify/work/BRANDLAYER/<CODE>.json (harvest) and AUDIT_<CODE>.json (audit: add_brands, add_regions, drop). Rules: verify/retail/PLAN.md (audit lessons, encyclopedia-article rule, directory rule, own-website rule) and BRIEF.md decisions of 2026-10-31.
+
+FETCH: raw page text only: mcp__Parallel__web_fetch, full_content true, session_id "c0f3a7e2b9d14e6f8a21c5d7e9b0f3a1", model_name "claude-opus-5-5". Save each fetch to the tmp folder and parse with python; print only summaries. Fetch each distinct source URL once and check all names citing it together.
+
+FOR EVERY BRAND (harvest brands minus audit drops, plus audit add_brands) decide:
+ - "shown": does the raw text of its src page show the name (allow case, accents, '&'/'and', a trailing Ltd/GmbH)? If not, search for one page that does (never guess URLs) and record it as "src2"; else "shown": false.
+ - "tier": "quality" (an independent page states craft, materials, durability, award, guild/standard or test result), "cultural" (own encyclopedia article: for list pages check that the row links to the brand's own article; category members count; or a heritage register, protected-designation producer list, museum/design collection, long-running ranking), "seller" (role seller with a page naming it as a seller of that traditional item), or "listed" (only a directory row, a list row without its own article, or its own website).
+ - "region": the regional division it belongs to, if a regions entry names it AND that entry's src page names it raw.
+FOR EVERY REGION (harvest regions plus audit add_regions): "renown": does its src page say the region is renowned/known for the speciality (quote ≤20 words)? Keep brands in it only when shown.
+Merge duplicates (variant spellings, X vs X Group) into one row with "aliases".
+
+OUTPUT VERIFY_<CODE>.json: {"cat","brands":[{"n","aliases":[],"tier","layer_harvest","src","src2","shown":true|false,"region","dept","country","note"}],"regions":[{"region","speciality","src","renown":true|false,"quote","brands":[..]}],"stats":{"checked":N,"shown_false":N,"by_tier":{...}}}. Write after every source page (rewrite whole file). RESUME RULE: if the file exists, keep rows already decided and continue. If context runs low, stop with status partial and a "next" note.
+REPLY: counts by tier, how many not shown, regions with/without renown.

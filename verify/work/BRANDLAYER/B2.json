@@ -151,10 +151,14 @@
    "axis": "kind",
    "item": "Towels > Bath & body towels",
    "queries": [
-    "Imabari towel; Turkish towels Denizli; Abyss; Wirecutter towels"
+    "Imabari towel; Turkish towels Denizli; Abyss; Wirecutter towels",
+    "Which? best bath towels",
+    "Choice best bath towels",
+    "Consumer Reports best bath towels",
+    "BHG best sheets tests"
    ],
-   "found": 8,
-   "note": "Wirecutter blocked; Turkish evidence only private-label factories"
+   "found": 9,
+   "note": "Wirecutter blocked; Turkish evidence only private-label factories | pass 3: Coyuchi (BHG), Hippopotamus"
   },
   {
    "axis": "kind",
@@ -787,6 +791,46 @@
    "new_names": 1,
    "status": "partial",
    "note": "2021 CDA Best Flatweave winner; other CDA years (2015,2016,2018,2019,2021 rest,2022,2025,2026) winner lists not found as fetched pages: 2015/2016/2019/2020 only finalists/shortlists seen; 2018 winners only via a UK retailer blog (Salem van der Swaagh studio winner, Jaipur Rugs Chand collection) - not taken"
+  },
+  {
+   "url": "https://www.bhg.com/best-sheets-8646788",
+   "title": "BHG 12 winners of best sheets tests",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "Parallel excerpt of raw page; only Coyuchi shown in excerpt"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/towels/article/best-towels-aQBeL0x6f3Zm",
+   "title": "Which? best bath towels (luxury and high-quality tested)",
+   "kind": "award",
+   "years": "2025-2026",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Christy Renaissance named (known); rest of table paywalled in excerpt. Which? duvets page (6 Best Buys) excerpt names only Arogs, Asda, John Lewis as examples; not taken"
+  },
+  {
+   "url": "https://www.consumerreports.org/home-garden/best-bath-towels-a6957471138",
+   "title": "Consumer Reports best bath towels",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 0,
+   "status": "done",
+   "note": "Cozy Earth Luxe, Brooklinen, Frontgate, Boll & Branch tested (known or already held); IKEA, Quince, Casaluna private-label/known"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-bath-towel",
+   "title": "Wirecutter best bath towels",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Excerpt names Riley and Kontex (towel tested, not winner); Wirecutter pick list not obtained; Choice (Australia) pages not retrieved by search"
   }
  ],
  "brands": [
@@ -1664,6 +1708,14 @@
    "says": "Own history page: won Domotex Carpet Design Award 2021 Best Flatweave (Stripes - Olive)",
    "country": "Canada",
    "dept": "Flatweave rugs"
+  },
+  {
+   "n": "Coyuchi",
+   "layer": "premium",
+   "src": "https://www.bhg.com/best-sheets-8646788",
+   "says": "Better Homes & Gardens Best Sheets Tests, 12 winners: Coyuchi Organic Relaxed Linen Sheets, Best Splurge (French flax linen, no fading, pilling or shrinkage)",
+   "country": "US",
+   "dept": "Bed linen"
   }
  ]
 }
