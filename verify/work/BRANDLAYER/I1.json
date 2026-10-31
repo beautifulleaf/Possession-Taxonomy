@@ -3,7 +3,136 @@
  "status": "partial",
  "brand_led": true,
  "sweeps": [],
- "regions": [],
+ "regions": [
+  {
+   "region": "Russia",
+   "speciality": "Business accounting and enterprise software (1C), antivirus (Dr.Web) - per Wikipedia category of Russian software companies",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Russia",
+   "brands": [
+    "1C Company",
+    "ElcomSoft",
+    "Dr.Web"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "Japanese word processing and input software (JustSystems), voice synthesis (AH-Software), business groupware (Cybozu)",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "brands": [
+    "JustSystems",
+    "Cybozu",
+    "GrapeCity",
+    "AH-Software",
+    "Pixela",
+    "DigiOn",
+    "SoftEther",
+    "Fenrir"
+   ]
+  },
+  {
+   "region": "South Korea",
+   "speciality": "Korean utilities and Hangul-language software (ESTsoft); Hancom already in register",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_South_Korea",
+   "brands": [
+    "ESTsoft",
+    "TmaxSoft",
+    "NDOORS Corporation"
+   ]
+  },
+  {
+   "region": "India",
+   "speciality": "Indian accounting software (Tally), SaaS (Zoho/Freshworks), Urdu/Arabic-script desktop publishing (InPage)",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_India",
+   "brands": [
+    "Tally Solutions",
+    "Freshworks",
+    "Postman",
+    "FusionCharts",
+    "Kayako",
+    "InPage"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "Chinese accounting-ERP (Kingdee, Yonyou), PDF (Foxit), browsers, Linux desktop (Deepin); Kingsoft/WPS in register",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_China",
+   "brands": [
+    "Kingdee",
+    "Yonyou",
+    "Foxit Software",
+    "Maxthon",
+    "Deepin"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "German engineering/CAD (Nemetschek, Maxon), utilities (Paragon), chess software (ChessBase), scanner software (SilverFast)",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "brands": [
+    "ChessBase",
+    "Data Becker",
+    "Nemetschek",
+    "Paragon Software",
+    "AnyDesk",
+    "LaserSoft Imaging",
+    "Synapse Audio Software",
+    "Text Control",
+    "think-cell",
+    "Star Division",
+    "MainConcept",
+    "Tebis"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "French 3D/CAD (Dassault, Allegorithmic Substance), animation (TVPaint)",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "brands": [
+    "Allegorithmic",
+    "Digital Surf",
+    "Cegid",
+    "Veeam",
+    "Netvibes",
+    "4D SAS",
+    "TVPaint Animation",
+    "DELMIA",
+    "Dassault Systèmes"
+   ]
+  },
+  {
+   "region": "Israel",
+   "speciality": "Israeli mobile creative apps (Lightricks/Facetune), right-to-left word processing (Mellel), navigation (Waze)",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "brands": [
+    "Lightricks",
+    "Facetune",
+    "Waze",
+    "Mellel",
+    "Ginger Software",
+    "JPEGmini",
+    "Babylon",
+    "Wix"
+   ]
+  },
+  {
+   "region": "Finland",
+   "speciality": "Finnish UI framework (Qt), benchmarking (Futuremark), structural BIM (Tekla)",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Finland",
+   "brands": [
+    "Qt Group",
+    "Futuremark",
+    "Tekla"
+   ]
+  },
+  {
+   "region": "Brazil",
+   "speciality": "Brazilian ERP (TOTVS)",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Brazil",
+   "brands": [
+    "TOTVS"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Apple_Design_Awards",
@@ -184,6 +313,106 @@
    "new_names": 9,
    "status": "done",
    "note": "maker/product names already in register skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Russia",
+   "title": "Wikipedia Category:Software_companies_of_Russia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 3,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "title": "Wikipedia Category:Software_companies_of_Japan",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 8,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_South_Korea",
+   "title": "Wikipedia Category:Software_companies_of_South_Korea",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 3,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_India",
+   "title": "Wikipedia Category:Software_companies_of_India",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 5,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_China",
+   "title": "Wikipedia Category:Software_companies_of_China",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 5,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "title": "Wikipedia Category:Software_companies_of_Germany",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 12,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "title": "Wikipedia Category:Software_companies_of_France",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 8,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "title": "Wikipedia Category:Software_companies_of_Israel",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 7,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Finland",
+   "title": "Wikipedia Category:Software_companies_of_Finland",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 2,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Brazil",
+   "title": "Wikipedia Category:Software_companies_of_Brazil",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 1,
+   "status": "done",
+   "note": "consumer/pro desktop software makers picked; enterprise-only and non-software skipped"
   }
  ],
  "brands": [
@@ -1367,15 +1596,6 @@
    "already": false
   },
   {
-   "n": "Thunderbird",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Email_clients",
-   "says": "Listed in Wikipedia Category Email clients",
-   "country": "",
-   "dept": "Email client",
-   "already": false
-  },
-  {
    "n": "Asana",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Task_management_software",
@@ -2015,21 +2235,489 @@
    "already": false
   },
   {
-   "n": "Final Cut Pro",
+   "n": "1C Company",
    "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Video_editing_software",
-   "says": "Listed in Wikipedia Category Video editing software",
-   "country": "",
-   "dept": "Video editor",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Russia",
+   "says": "Listed in Wikipedia Software companies of Russia",
+   "country": "Russia",
+   "dept": "Accounting / security software",
    "already": false
   },
   {
-   "n": "Wondershare Filmora",
+   "n": "ElcomSoft",
    "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Video_editing_software",
-   "says": "Listed in Wikipedia Category Video editing software",
-   "country": "",
-   "dept": "Video editor",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Russia",
+   "says": "Listed in Wikipedia Software companies of Russia",
+   "country": "Russia",
+   "dept": "Accounting / security software",
+   "already": false
+  },
+  {
+   "n": "Dr.Web",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Russia",
+   "says": "Listed in Wikipedia Software companies of Russia",
+   "country": "Russia",
+   "dept": "Accounting / security software",
+   "already": false
+  },
+  {
+   "n": "JustSystems",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "Cybozu",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "GrapeCity",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "AH-Software",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "Pixela",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "DigiOn",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "SoftEther",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "Fenrir",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Japan",
+   "says": "Listed in Wikipedia Software companies of Japan",
+   "country": "Japan",
+   "dept": "Input method / office / voice software",
+   "already": false
+  },
+  {
+   "n": "ESTsoft",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_South_Korea",
+   "says": "Listed in Wikipedia Software companies of South Korea",
+   "country": "South Korea",
+   "dept": "Utility software",
+   "already": false
+  },
+  {
+   "n": "TmaxSoft",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_South_Korea",
+   "says": "Listed in Wikipedia Software companies of South Korea",
+   "country": "South Korea",
+   "dept": "Utility software",
+   "already": false
+  },
+  {
+   "n": "NDOORS Corporation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_South_Korea",
+   "says": "Listed in Wikipedia Software companies of South Korea",
+   "country": "South Korea",
+   "dept": "Utility software",
+   "already": false
+  },
+  {
+   "n": "Freshworks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_India",
+   "says": "Listed in Wikipedia Software companies of India",
+   "country": "India",
+   "dept": "Accounting / SaaS software",
+   "already": false
+  },
+  {
+   "n": "Postman",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_India",
+   "says": "Listed in Wikipedia Software companies of India",
+   "country": "India",
+   "dept": "Accounting / SaaS software",
+   "already": false
+  },
+  {
+   "n": "FusionCharts",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_India",
+   "says": "Listed in Wikipedia Software companies of India",
+   "country": "India",
+   "dept": "Accounting / SaaS software",
+   "already": false
+  },
+  {
+   "n": "Kayako",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_India",
+   "says": "Listed in Wikipedia Software companies of India",
+   "country": "India",
+   "dept": "Accounting / SaaS software",
+   "already": false
+  },
+  {
+   "n": "InPage",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_India",
+   "says": "Listed in Wikipedia Software companies of India",
+   "country": "India",
+   "dept": "Accounting / SaaS software",
+   "already": false
+  },
+  {
+   "n": "Kingdee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_China",
+   "says": "Listed in Wikipedia Software companies of China",
+   "country": "China",
+   "dept": "Office / ERP / PDF software",
+   "already": false
+  },
+  {
+   "n": "Yonyou",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_China",
+   "says": "Listed in Wikipedia Software companies of China",
+   "country": "China",
+   "dept": "Office / ERP / PDF software",
+   "already": false
+  },
+  {
+   "n": "Foxit Software",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_China",
+   "says": "Listed in Wikipedia Software companies of China",
+   "country": "China",
+   "dept": "Office / ERP / PDF software",
+   "already": false
+  },
+  {
+   "n": "Maxthon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_China",
+   "says": "Listed in Wikipedia Software companies of China",
+   "country": "China",
+   "dept": "Office / ERP / PDF software",
+   "already": false
+  },
+  {
+   "n": "Deepin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_China",
+   "says": "Listed in Wikipedia Software companies of China",
+   "country": "China",
+   "dept": "Office / ERP / PDF software",
+   "already": false
+  },
+  {
+   "n": "ChessBase",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Data Becker",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Nemetschek",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Paragon Software",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "AnyDesk",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "LaserSoft Imaging",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Synapse Audio Software",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Text Control",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "think-cell",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Star Division",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "MainConcept",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Tebis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Germany",
+   "says": "Listed in Wikipedia Software companies of Germany",
+   "country": "Germany",
+   "dept": "Engineering, utility and music software",
+   "already": false
+  },
+  {
+   "n": "Allegorithmic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "Digital Surf",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "Cegid",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "Veeam",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "Netvibes",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "4D SAS",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "TVPaint Animation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "DELMIA",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_France",
+   "says": "Listed in Wikipedia Software companies of France",
+   "country": "France",
+   "dept": "3D texturing, CAD, backup software",
+   "already": false
+  },
+  {
+   "n": "Lightricks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "says": "Listed in Wikipedia Software companies of Israel",
+   "country": "Israel",
+   "dept": "Mobile creative apps / language tools",
+   "already": false
+  },
+  {
+   "n": "Facetune",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "says": "Listed in Wikipedia Software companies of Israel",
+   "country": "Israel",
+   "dept": "Mobile creative apps / language tools",
+   "already": false
+  },
+  {
+   "n": "Waze",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "says": "Listed in Wikipedia Software companies of Israel",
+   "country": "Israel",
+   "dept": "Mobile creative apps / language tools",
+   "already": false
+  },
+  {
+   "n": "Mellel",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "says": "Listed in Wikipedia Software companies of Israel",
+   "country": "Israel",
+   "dept": "Mobile creative apps / language tools",
+   "already": false
+  },
+  {
+   "n": "Ginger Software",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "says": "Listed in Wikipedia Software companies of Israel",
+   "country": "Israel",
+   "dept": "Mobile creative apps / language tools",
+   "already": false
+  },
+  {
+   "n": "JPEGmini",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "says": "Listed in Wikipedia Software companies of Israel",
+   "country": "Israel",
+   "dept": "Mobile creative apps / language tools",
+   "already": false
+  },
+  {
+   "n": "Babylon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Israel",
+   "says": "Listed in Wikipedia Software companies of Israel",
+   "country": "Israel",
+   "dept": "Mobile creative apps / language tools",
+   "already": false
+  },
+  {
+   "n": "Qt Group",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Finland",
+   "says": "Listed in Wikipedia Software companies of Finland",
+   "country": "Finland",
+   "dept": "UI toolkit / benchmarking / BIM",
+   "already": false
+  },
+  {
+   "n": "Futuremark",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Finland",
+   "says": "Listed in Wikipedia Software companies of Finland",
+   "country": "Finland",
+   "dept": "UI toolkit / benchmarking / BIM",
+   "already": false
+  },
+  {
+   "n": "TOTVS",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Software_companies_of_Brazil",
+   "says": "Listed in Wikipedia Software companies of Brazil",
+   "country": "Brazil",
+   "dept": "ERP software",
    "already": false
   }
  ]

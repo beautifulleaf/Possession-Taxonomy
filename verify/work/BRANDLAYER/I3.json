@@ -2,7 +2,38 @@
  "cat": "I3",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Online services > Security & identity (VPN)",
+   "queries": [
+    "AV-TEST VPN test results best VPN",
+    "Stiftung Warentest VPN Test Ergebnisse",
+    "Which? best password managers"
+   ],
+   "found": 34,
+   "note": "only AV-Comparatives 2020 fetched; AV-TEST VPN pages, password-manager independent tests not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "TV, film & sport streaming; Music & audio",
+   "queries": [
+    "Wikipedia list of streaming media services",
+    "Wikipedia Category:Music streaming services"
+   ],
+   "found": 118,
+   "note": "encyclopedia lists done"
+  },
+  {
+   "axis": "region",
+   "item": "Global mobile networks",
+   "queries": [
+    "opensignal global mobile network experience awards winners"
+   ],
+   "found": 69,
+   "note": "2024 global awards PDF done; per-country Opensignal reports, 2020-2023/2025 global awards, 5G awards 2024/2025, Ookla awards not fetched"
+  }
+ ],
  "regions": [],
  "sources": [
   {
@@ -24,6 +55,26 @@
    "new_names": 44,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "title": "Opensignal Global Mobile Network Experience Awards 2024",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 79,
+   "new_names": 69,
+   "status": "done",
+   "note": "Group I/II winners, leaders, rising stars; homonym-prone short names qualified by country; Opensignal other years/country reports not yet fetched"
+  },
+  {
+   "url": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "title": "AV-Comparatives VPN Report 2020",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 36,
+   "new_names": 31,
+   "status": "done",
+   "note": "tested list, no quality verdict (filed as listed); NordVPN and Mullvad are NOT on this page and must be dropped or re-sourced from av-test.org fetched page"
   }
  ],
  "brands": [
@@ -969,6 +1020,790 @@
    "src": "https://en.wikipedia.org/wiki/Category:Music_streaming_services",
    "says": "listed in Wikipedia Category:Music streaming services",
    "dept": "Music streaming service",
+   "already": false
+  },
+  {
+   "n": "au",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "SoftBank",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telenor (Norway)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "XL (Indonesia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "3 (Indonesia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telia (Norway)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Ice (Norway)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "DNA (Finland)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Jio",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "AT&T",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "U Mobile",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Unifi",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Yes (Malaysia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Airtel",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Digi (Malaysia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Cell C",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Celcom",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Djezzy",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Maxis",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Mobilis",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Digi Mobile",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telkomsel",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Bitel",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Claro (Chile)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Ooredoo (Algeria)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "WOM (Chile)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "WE (Egypt)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Movistar (Chile)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Entel (Chile)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Vodafone (Oman)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Elisa (Finland)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telekom (Romania)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Play (Poland)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Optus",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Vi (India)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Zong",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Tele2 (Sweden)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Orange (France)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Omantel",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Mobily (Saudi Arabia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "stc (Saudi Arabia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "TIM (Brazil)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telcel (Mexico)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Vivo (Brazil)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Rogers (Canada)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telus (Canada)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "StarHub",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "LG U+",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "O2 (Czechia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Slovak Telekom",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "KT (South Korea)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "TDC (Denmark)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telekom.mk",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Liberty (Costa Rica)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Robi (Bangladesh)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Batelco",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Tigo (Guatemala)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "DIGIMobil",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "A1 (Slovenia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "M1 (Singapore)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Zain (Bahrain)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Grameenphone",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "HT (Croatia)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Telemach",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Cellcom (Israel)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "T-2",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Hot Mobile (Israel)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Partner (Israel)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Nova (Greece)",
+   "layer": "premium",
+   "src": "https://cdn.opensignal.com/public/data/reports/national/data-2554/2024_globalmobilenetworkexperienceawards_opensignal.pdf",
+   "says": "named a Global Winner, Leader or Rising Star in Opensignal Global Mobile Network Experience Awards 2024 (Feb 2024)",
+   "dept": "Mobile phone plan",
+   "already": false
+  },
+  {
+   "n": "Avast SecureLine VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "AVG Secure VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Avira Phantom VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Bitdefender VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "BullGuard VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "CyberGhost VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "F-Secure Freedome",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "hide.me VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "HMA VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Hotspot Shield",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "IPVanish",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Ivacy",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Kaspersky Secure Connection",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "McAfee Safe Connect",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "mySteganos Online Shield VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Norton Secure VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Panda Dome VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Private Internet Access",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Private Tunnel",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "PrivateVPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "ProtonVPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "StrongVPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "TorGuard",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "Trust.Zone VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "TunnelBear",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "VPNSecure",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "VPN Unlimited",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "VyprVPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
+   "already": false
+  },
+  {
+   "n": "ZenMate VPN",
+   "layer": "premium",
+   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
+   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; NordVPN/Mullvad from AV-TEST VPN comparative tests 2020/2022 via search excerpt only, so verify) - tested-list: existence, no verdict",
+   "dept": "VPN service",
    "already": false
   }
  ]
