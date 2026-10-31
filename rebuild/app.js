@@ -241,7 +241,7 @@ async function renderRegister() {
   const ol = $('ol'); [...groups.keys()].forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('g', i) }, g, $('span', { text: groups.get(g).length })))));
   const title = { brands: 'Brands', traditions: 'Traditions', species: 'Rare species' }[t];
   side.replaceChildren($('h2', { text: catName(c) + ': ' + title }), ol);
-  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment. A brand that also appears elsewhere lists those categories.', traditions: ' craft and faith traditions behind objects in this category: origin, technique, materials, signature forms, centres and how to tell the real thing.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
+  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment. A brand that also appears elsewhere lists those categories.', traditions: ' food, origin and use traditions behind products in this category: origin, method, materials, signature forms, centres and how to tell the real thing. Craft and artistic traditions belong to the Visual Entertainment taxonomy.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', { text: list.length + blurb })));
   const tb = tabBar(); if (tb) main.append(tb);
   const card = t === 'brands' ? brandCard : t === 'traditions' ? tradCard : speciesCard;
