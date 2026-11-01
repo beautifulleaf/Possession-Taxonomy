@@ -1,0 +1,6 @@
+Batch A1FILL (coordinator, 2026-11-01). Working directory /home/user/Possession-Taxonomy. No web access; never run git.
+Input: verify/work/A1FILL/batch.tsv. Line 1 lists the clothing market segments with numbers. Each other line: FLAGS<TAB>brand<TAB>known-for<TAB>note<TAB>scenes. FLAGS has S (needs a segment) and/or C (needs a home country), "-" otherwise.
+Task: for each brand give (S) the one segment number that best fits its market position, and (C) its home country (English short name, e.g. "United States", "Japan", "United Kingdom"); write "?" for the country when you do not know it with reasonable confidence. Use the text first and your general knowledge second. Do not guess countries from the name's language alone.
+Output verify/work/A1FILL/out.tsv: brand<TAB>segment number or -<TAB>country or - or ?. One line per input brand, same order, brand copied exactly, nothing else.
+Work with a python script reading the file in chunks of about 400 lines, deciding each chunk yourself, appending as you go.
+RESUME RULE: if out.tsv exists, continue after its last brand. Helper files only in verify/work/A1FILL/. Final report under 60 words: counts and how many "?".
