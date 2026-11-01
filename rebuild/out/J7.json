@@ -5,21 +5,12 @@
  "b": [],
  "depts": [
   {
-   "n": "Wine of France",
-   "mode": "mixed",
-   "t": "French wine named by appellation, still, sparkling, sweet and fortified, with the classified estates and Champagne villages inside each; a wine of another country → its own wine department; a grape on its own → Grapes.",
-   "ax": "Which region and appellation is the wine from, and which rank does it hold?",
-   "note": "Organised region → district → appellation → classified estate or village. Producers outside a classification are not entries.",
-   "b": [
-    {
-     "m": "Appellation and classification",
-     "v": "regional → village → premier cru → grand cru (Burgundy); cru bourgeois → 5e–1er cru classé (Bordeaux 1855); IGT → DOC → DOCG (Italy); joven → crianza → reserva → gran reserva (Rioja)",
-     "w": "Official appellation systems and historic classifications set the expected quality and ageing."
-    }
-   ],
+   "n": "Wine",
+   "t": "Wine as bought, by country and region with appellation archetypes, then styles made across countries (sparkling, rosé and orange, sweet, fortified, alcohol-free).",
+   "ax": "Country, then region; styles that cross countries last.",
    "s": [
     {
-     "n": "Bordeaux",
+     "n": "France · Bordeaux",
      "t": "Wine regions of the Gironde, named by bank, district and style of wine.",
      "ax": "kinds from the Médoc on the Left Bank round to the Right Bank, the sweet whites and the regional appellations",
      "k": [
@@ -1353,7 +1344,7 @@
      ]
     },
     {
-     "n": "Burgundy",
+     "n": "France · Burgundy",
      "t": "Wine regions from Chablis south to the Mâconnais.",
      "ax": "kinds from north to south along the Burgundy escarpment",
      "k": [
@@ -2428,7 +2419,7 @@
      ]
     },
     {
-     "n": "Beaujolais",
+     "n": "France · Beaujolais",
      "t": "Gamay country between Burgundy and the Rhône.",
      "ax": "kinds from regional wines to the ten crus",
      "k": [
@@ -2592,7 +2583,7 @@
      ]
     },
     {
-     "n": "Rhône",
+     "n": "France · Rhône",
      "t": "Wine regions along the Rhône valley, northern and southern.",
      "ax": "kinds from the northern crus to the southern villages and regional wines",
      "k": [
@@ -2968,7 +2959,7 @@
      ]
     },
     {
-     "n": "Loire",
+     "n": "France · Loire",
      "t": "Wine regions along the Loire valley from the Atlantic to the Massif Central.",
      "ax": "kinds from the Nantais upstream to the Centre",
      "k": [
@@ -3549,7 +3540,7 @@
      ]
     },
     {
-     "n": "Alsace and Lorraine",
+     "n": "France · Alsace and Lorraine",
      "t": "Wine regions of north-eastern France.",
      "ax": "kinds by region",
      "k": [
@@ -3650,7 +3641,7 @@
      ]
     },
     {
-     "n": "Champagne",
+     "n": "France · Champagne",
      "t": "The Champagne wine region and its appellations.",
      "ax": "one kind",
      "k": [
@@ -4864,7 +4855,7 @@
      ]
     },
     {
-     "n": "Jura, Savoie and Bugey",
+     "n": "France · Jura, Savoie and Bugey",
      "t": "Wine regions of the eastern Alps foothills.",
      "ax": "kinds by region",
      "k": [
@@ -5023,7 +5014,7 @@
      ]
     },
     {
-     "n": "South West France",
+     "n": "France · South West France",
      "t": "Wine regions of the Garonne, Dordogne and Pyrenees foothills.",
      "ax": "kinds by river basin or mountain area",
      "k": [
@@ -5389,7 +5380,7 @@
      ]
     },
     {
-     "n": "Languedoc-Roussillon",
+     "n": "France · Languedoc-Roussillon",
      "t": "Wine regions of the French Mediterranean coast west of the Rhône.",
      "ax": "kinds from the Hérault and Gard through the Aude to Roussillon, then the IGP wines",
      "k": [
@@ -6298,7 +6289,7 @@
      ]
     },
     {
-     "n": "Other French IGP wines",
+     "n": "France · Other French IGP wines",
      "t": "Protected geographical indications of France that are not in the Wikipedia Languedoc-Roussillon list.",
      "ax": "which IGP zone, from the regional down to the small-zone names",
      "k": [
@@ -6923,7 +6914,7 @@
      ]
     },
     {
-     "n": "Provence and Corsica",
+     "n": "France · Provence and Corsica",
      "t": "Wine regions of the south-eastern coast and Corsica.",
      "ax": "kinds by region",
      "k": [
@@ -7094,45 +7085,9 @@
        "xg": "by year the appellation was established, then name"
       }
      ]
-    }
-   ],
-   "msum": "French wine is mostly sold as appellation wine; the figures below are the last category shares and area on the cited pages.",
-   "ms": [
-    {
-     "mkt": "French wine production by category (2005 vintage)",
-     "who": "AOC wines",
-     "share": "53.4 %",
-     "yr": 2005,
-     "s": "https://en.wikipedia.org/wiki/French_wine",
-     "note": "share of 43.9 million hl of production, excluding about 9.4 million hl for brandy"
     },
     {
-     "mkt": "French wine production by category (2005 vintage)",
-     "who": "Vin de Pays (now IGP) wines",
-     "share": "33.9 %",
-     "yr": 2005,
-     "s": "https://en.wikipedia.org/wiki/French_wine",
-     "note": "share of production"
-    },
-    {
-     "mkt": "French vineyard area",
-     "who": "All French vineyards",
-     "share": "861,075 ha",
-     "yr": 2007,
-     "s": "https://en.wikipedia.org/wiki/French_wine",
-     "note": "area at the 2007 harvest, as the page states"
-    }
-   ]
-  },
-  {
-   "n": "Wine of Italy",
-   "mode": "tier",
-   "t": "Italian wine sold by its protected place name: DOCG, DOC and IGT appellations grouped by region; a wine of another country → its own department.",
-   "ax": "Which region does the wine come from, and how strictly protected is its name: DOCG, DOC or IGT?",
-   "note": "Organised region → tier → appellation; producers are not entries.",
-   "s": [
-    {
-     "n": "Piedmont",
+     "n": "Italy · Piedmont",
      "t": "Italian wine appellations of Piedmont, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -9528,7 +9483,7 @@
      ]
     },
     {
-     "n": "Aosta Valley",
+     "n": "Italy · Aosta Valley",
      "t": "Italian wine appellations of Aosta Valley, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -9574,7 +9529,7 @@
      ]
     },
     {
-     "n": "Lombardy",
+     "n": "Italy · Lombardy",
      "t": "Italian wine appellations of Lombardy, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -10108,7 +10063,7 @@
      ]
     },
     {
-     "n": "Trentino-Alto Adige",
+     "n": "Italy · Trentino-Alto Adige",
      "t": "Italian wine appellations of Trentino-Alto Adige, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -10284,7 +10239,7 @@
      ]
     },
     {
-     "n": "Veneto",
+     "n": "Italy · Veneto",
      "t": "Italian wine appellations of Veneto, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -10828,7 +10783,7 @@
      ]
     },
     {
-     "n": "Friuli-Venezia Giulia",
+     "n": "Italy · Friuli-Venezia Giulia",
      "t": "Italian wine appellations of Friuli-Venezia Giulia, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -11073,7 +11028,7 @@
      ]
     },
     {
-     "n": "Liguria",
+     "n": "Italy · Liguria",
      "t": "Italian wine appellations of Liguria, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -11249,7 +11204,7 @@
      ]
     },
     {
-     "n": "Emilia-Romagna",
+     "n": "Italy · Emilia-Romagna",
      "t": "Italian wine appellations of Emilia-Romagna, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -11646,7 +11601,7 @@
      ]
     },
     {
-     "n": "Tuscany",
+     "n": "Italy · Tuscany",
      "t": "Italian wine appellations of Tuscany, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -12352,7 +12307,7 @@
      ]
     },
     {
-     "n": "Umbria",
+     "n": "Italy · Umbria",
      "t": "Italian wine appellations of Umbria, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -12642,7 +12597,7 @@
      ]
     },
     {
-     "n": "Marche",
+     "n": "Italy · Marche",
      "t": "Italian wine appellations of Marche, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -12932,7 +12887,7 @@
      ]
     },
     {
-     "n": "Lazio",
+     "n": "Italy · Lazio",
      "t": "Italian wine appellations of Lazio, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -13321,7 +13276,7 @@
      ]
     },
     {
-     "n": "Abruzzo",
+     "n": "Italy · Abruzzo",
      "t": "Italian wine appellations of Abruzzo, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -13582,7 +13537,7 @@
      ]
     },
     {
-     "n": "Molise",
+     "n": "Italy · Molise",
      "t": "Italian wine appellations of Molise, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -13704,7 +13659,7 @@
      ]
     },
     {
-     "n": "Campania",
+     "n": "Italy · Campania",
      "t": "Italian wine appellations of Campania, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -14110,7 +14065,7 @@
      ]
     },
     {
-     "n": "Apulia",
+     "n": "Italy · Apulia",
      "t": "Italian wine appellations of Apulia, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -14569,7 +14524,7 @@
      ]
     },
     {
-     "n": "Basilicata",
+     "n": "Italy · Basilicata",
      "t": "Italian wine appellations of Basilicata, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -14713,7 +14668,7 @@
      ]
     },
     {
-     "n": "Calabria",
+     "n": "Italy · Calabria",
      "t": "Italian wine appellations of Calabria, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -15006,7 +14961,7 @@
      ]
     },
     {
-     "n": "Sicily",
+     "n": "Italy · Sicily",
      "t": "Italian wine appellations of Sicily, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -15430,7 +15385,7 @@
      ]
     },
     {
-     "n": "Sardinia",
+     "n": "Italy · Sardinia",
      "t": "Italian wine appellations of Sardinia, by tier: DOCG, DOC and IGT.",
      "k": [
       {
@@ -15850,41 +15805,9 @@
        "s": "https://en.wikipedia.org/wiki/List_of_Italian_IGT_wines"
       }
      ]
-    }
-   ],
-   "ms": [
-    {
-     "mkt": "Italy wine production",
-     "who": "Italy",
-     "share": "19.3 % of world output (49.8 million hl)",
-     "yr": 2022,
-     "s": "https://en.wikipedia.org/wiki/Italian_wine",
-     "note": "volume, as the page states"
-    }
-   ],
-   "msum": "Italy produced 49.8 million hl of wine in 2022, over 19.3 % of world output, and was the largest wine exporter in 2024."
-  },
-  {
-   "n": "Wine of Spain & Portugal",
-   "mode": "variety",
-   "t": "Wines of Spain and Portugal named by appellation, with Sherry, Port, Madeira, Cava and Rioja; wine from another country → its own department; a producer outside these appellations is not an entry.",
-   "ax": "Where is the wine grown and under which appellation: a country's region, then the tier its law gives the name?",
-   "note": "Organised country → region → appellation tier; styles and ageing grades are versions of the appellation.",
-   "b": [
-    {
-     "m": "Appellation and tier",
-     "v": "Spain: Vino de la Tierra → DO → DOCa; Vino de Pago and Vino de Calidad beside them; Portugal: Vinho Regional → DOP (DOC)",
-     "w": "The protected status named on the label."
     },
     {
-     "m": "Style and ageing",
-     "v": "Rioja Crianza → Reserva → Gran Reserva; Sherry fino → oloroso, VOS → VORS; Port ruby → tawny → vintage; Madeira Reserve → Frasqueira",
-     "w": "Ageing grades and styles set by each appellation."
-    }
-   ],
-   "s": [
-    {
-     "n": "Rioja, Navarre & Basque Country",
+     "n": "Spain & Portugal · Rioja, Navarre & Basque Country",
      "t": "Appellations of the upper Ebro and the Basque coast: Rioja, Navarre, the three Txacolí denominations, three Vinos de Pago and the regional wines of Navarre and La Rioja; Cava → Catalonia.",
      "ax": "kinds by appellation tier: denominations of origin, single-estate and quality wines, regional wines",
      "k": [
@@ -16089,7 +16012,7 @@
      ]
     },
     {
-     "n": "Catalonia",
+     "n": "Spain & Portugal · Catalonia",
      "t": "The Catalan appellations, from Penedès and Cava to Priorat; Catalonia has no Vino de la Tierra listed.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -16265,7 +16188,7 @@
      ]
     },
     {
-     "n": "Andalusia",
+     "n": "Spain & Portugal · Andalusia",
      "t": "Sherry, Montilla-Moriles and the other southern appellations, with the regional wines of the south.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -16545,7 +16468,7 @@
      ]
     },
     {
-     "n": "Galicia",
+     "n": "Spain & Portugal · Galicia",
      "t": "The Atlantic north-west: five denominations and four regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -16642,7 +16565,7 @@
      ]
     },
     {
-     "n": "Castile and León",
+     "n": "Spain & Portugal · Castile and León",
      "t": "The Duero basin and the north-west plateau: nine denominations, three quality-wine appellations and one regional wine.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -16835,7 +16758,7 @@
      ]
     },
     {
-     "n": "Aragon",
+     "n": "Spain & Portugal · Aragon",
      "t": "Four Aragonese denominations, one Vino de Pago and six regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -16957,7 +16880,7 @@
      ]
     },
     {
-     "n": "Castilla-La Mancha",
+     "n": "Spain & Portugal · Castilla-La Mancha",
      "t": "The central plateau: nine denominations, twelve Vinos de Pago and one regional wine; Jumilla → Valencia & Murcia.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -17162,7 +17085,7 @@
      ]
     },
     {
-     "n": "Valencia & Murcia",
+     "n": "Spain & Portugal · Valencia & Murcia",
      "t": "The Mediterranean south-east: Valencian and Murcian denominations, Vinos de Pago and regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -17311,7 +17234,7 @@
      ]
     },
     {
-     "n": "Madrid & Extremadura",
+     "n": "Spain & Portugal · Madrid & Extremadura",
      "t": "Central and south-western Spain: Vinos de Madrid and Ribera del Guadiana.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -17378,7 +17301,7 @@
      ]
     },
     {
-     "n": "Balearic & Canary Islands",
+     "n": "Spain & Portugal · Balearic & Canary Islands",
      "t": "The Spanish island wines: two Balearic and ten Canarian denominations, with island regional wines.",
      "ax": "kinds by archipelago and appellation tier",
      "k": [
@@ -17577,7 +17500,7 @@
      ]
     },
     {
-     "n": "Asturias & Cantabria",
+     "n": "Spain & Portugal · Asturias & Cantabria",
      "t": "The Cantabrian coast: one quality-wine appellation and two regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -17620,7 +17543,7 @@
      ]
     },
     {
-     "n": "Minho & Trás-os-Montes",
+     "n": "Spain & Portugal · Minho & Trás-os-Montes",
      "t": "The north-west and north-east of Portugal: Vinho Verde and Trás-os-Montes with their regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -17703,7 +17626,7 @@
      ]
     },
     {
-     "n": "Douro & Port",
+     "n": "Spain & Portugal · Douro & Port",
      "t": "The Douro valley: the Douro DOP for table wine, the Porto DOP for Port, and the Duriense regional wine.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -17858,7 +17781,7 @@
      ]
     },
     {
-     "n": "Beiras & Bairrada",
+     "n": "Spain & Portugal · Beiras & Bairrada",
      "t": "Central Portugal inland and on the Atlantic: Távora-Varosa, Dão, Lafões, Bairrada and Beira Interior with the Beiras regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -17967,7 +17890,7 @@
      ]
     },
     {
-     "n": "Lisboa & Tejo",
+     "n": "Spain & Portugal · Lisboa & Tejo",
      "t": "The Lisbon coast and the Tejo valley: nine Lisboa DOPs, the Tejo DOP and the Lisboa and Tejo regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -18086,7 +18009,7 @@
      ]
     },
     {
-     "n": "Setúbal & Alentejo",
+     "n": "Spain & Portugal · Setúbal & Alentejo",
      "t": "The Setúbal peninsula and the Alentejo: Palmela, Setúbal and Alentejo with their regional wines.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -18174,7 +18097,7 @@
      ]
     },
     {
-     "n": "Algarve",
+     "n": "Spain & Portugal · Algarve",
      "t": "The southern coast: four DOPs and the Algarve regional wine.",
      "ax": "kinds by appellation tier",
      "k": [
@@ -18253,7 +18176,7 @@
      ]
     },
     {
-     "n": "Madeira & Azores",
+     "n": "Spain & Portugal · Madeira & Azores",
      "t": "The Atlantic islands: Madeira and Madeirense on Madeira, three Azorean DOPs and the island regional wines.",
      "ax": "kinds by archipelago and appellation tier",
      "k": [
@@ -18409,15 +18332,7 @@
        ]
       }
      ]
-    }
-   ]
-  },
-  {
-   "n": "Wine of Germany, Austria & Switzerland",
-   "mode": "variety",
-   "t": "Wine named for its German, Austrian or Swiss place: regions, districts and DAC or AOC areas; a grape sold worldwide → the grape departments.",
-   "ax": "Which country and which tier of its place system names the wine?",
-   "s": [
+    },
     {
      "n": "Germany",
      "t": "The German Anbaugebiete, their Bereiche and the Landwein regions.",
@@ -21920,26 +21835,7 @@
        "s": "https://www.mescavesouvertes.ch/en/les-regions"
       }
      ]
-    }
-   ],
-   "b": [
-    {
-     "m": "Appellation and classification",
-     "v": "regional → district → village or vineyard where the country has a classification",
-     "w": "Official appellation systems set the expected quality and style."
     },
-    {
-     "m": "Vintage and drinking window",
-     "w": "The harvest year decides whether the wine is ready, improving or past its best."
-    }
-   ]
-  },
-  {
-   "n": "Wine of Hungary & Central Europe",
-   "mode": "variety",
-   "t": "Wine named for its Hungarian, Czech, Slovak or Polish place, including Tokaj and its sweet styles.",
-   "ax": "Which country and wine region names the wine?",
-   "s": [
     {
      "n": "Hungary",
      "t": "The Hungarian wine regions, their sub-regions and the PGIs.",
@@ -23317,26 +23213,7 @@
        "s": "https://en.wikipedia.org/wiki/Czech_wine"
       }
      ]
-    }
-   ],
-   "b": [
-    {
-     "m": "Appellation and classification",
-     "v": "regional → district → village or vineyard where the country has a classification",
-     "w": "Official appellation systems set the expected quality and style."
     },
-    {
-     "m": "Vintage and drinking window",
-     "w": "The harvest year decides whether the wine is ready, improving or past its best."
-    }
-   ]
-  },
-  {
-   "n": "Wine of the Balkans",
-   "mode": "variety",
-   "t": "Wine named for its place in Slovenia, Croatia, Serbia and the southern Balkans.",
-   "ax": "Which country and wine region names the wine?",
-   "s": [
     {
      "n": "Slovenia & Croatia",
      "t": "Slovenian districts and Croatian sub-regions.",
@@ -24360,26 +24237,7 @@
        "s": "https://en.wikipedia.org/wiki/Macedonian_wine"
       }
      ]
-    }
-   ],
-   "b": [
-    {
-     "m": "Appellation and classification",
-     "v": "regional → district → village or vineyard where the country has a classification",
-     "w": "Official appellation systems set the expected quality and style."
     },
-    {
-     "m": "Vintage and drinking window",
-     "w": "The harvest year decides whether the wine is ready, improving or past its best."
-    }
-   ]
-  },
-  {
-   "n": "Wine of Eastern Europe",
-   "mode": "variety",
-   "t": "Wine named for its place in Romania, Bulgaria, Moldova, Ukraine and Russia.",
-   "ax": "Which country and wine region names the wine?",
-   "s": [
     {
      "n": "Romania & Bulgaria",
      "t": "Romanian vineyards and Bulgarian regions.",
@@ -26097,26 +25955,7 @@
        "s": "https://en.wikipedia.org/wiki/Russian_wine"
       }
      ]
-    }
-   ],
-   "b": [
-    {
-     "m": "Appellation and classification",
-     "v": "regional → district → village or vineyard where the country has a classification",
-     "w": "Official appellation systems set the expected quality and style."
     },
-    {
-     "m": "Vintage and drinking window",
-     "w": "The harvest year decides whether the wine is ready, improving or past its best."
-    }
-   ]
-  },
-  {
-   "n": "Wine of Greece & Cyprus",
-   "mode": "variety",
-   "t": "Wine named for its Greek or Cypriot place: PDO zones and island areas; a retsina or a sweet Samos is still named by its zone here.",
-   "ax": "Which country and which zone names the wine?",
-   "s": [
     {
      "n": "Greece",
      "t": "Greek PDOs and PGIs by region.",
@@ -27826,26 +27665,7 @@
        "s": "https://publications.gov.cy/assets/user/publications/Labels%20of%20Taste/31/"
       }
      ]
-    }
-   ],
-   "b": [
-    {
-     "m": "Appellation and classification",
-     "v": "regional → district → village or vineyard where the country has a classification",
-     "w": "Official appellation systems set the expected quality and style."
     },
-    {
-     "m": "Vintage and drinking window",
-     "w": "The harvest year decides whether the wine is ready, improving or past its best."
-    }
-   ]
-  },
-  {
-   "n": "Wine of Turkey, the Caucasus & the Levant",
-   "mode": "variety",
-   "t": "Wine named for its place in Turkey, Georgia, Armenia, Lebanon and Israel, including Georgian named wines.",
-   "ax": "Which country and wine region names the wine?",
-   "s": [
     {
      "n": "Turkey",
      "t": "Turkish wine regions.",
@@ -28792,28 +28612,9 @@
        "s": "https://en.wikipedia.org/wiki/Israeli_wine"
       }
      ]
-    }
-   ],
-   "b": [
-    {
-     "m": "Appellation and classification",
-     "v": "regional → district → village or vineyard where the country has a classification",
-     "w": "Official appellation systems set the expected quality and style."
     },
     {
-     "m": "Vintage and drinking window",
-     "w": "The harvest year decides whether the wine is ready, improving or past its best."
-    }
-   ]
-  },
-  {
-   "n": "Wine of the United States",
-   "mode": "tier",
-   "t": "American wine by American Viticultural Area, grouped by state and region; wine from Canada or Mexico → Wine of Canada & Mexico.",
-   "ax": "Which state or region, then which AVA?",
-   "s": [
-    {
-     "n": "California",
+     "n": "United States · California",
      "t": "California AVAs, grouped by the region the Wikipedia list uses.",
      "k": [
       {
@@ -30546,7 +30347,7 @@
      "ax": "California regions, north to south"
     },
     {
-     "n": "Pacific Northwest",
+     "n": "United States · Pacific Northwest",
      "t": "Oregon, Washington and Idaho AVAs.",
      "k": [
       {
@@ -31072,7 +30873,7 @@
      ]
     },
     {
-     "n": "Southwest, Mountain West & Hawaii",
+     "n": "United States · Southwest, Mountain West & Hawaii",
      "t": "AVAs of the dry interior and the islands.",
      "k": [
       {
@@ -31328,7 +31129,7 @@
      ]
     },
     {
-     "n": "Midwest & Ozarks",
+     "n": "United States · Midwest & Ozarks",
      "t": "AVAs of the Great Lakes, the upper Mississippi and the Ozarks.",
      "k": [
       {
@@ -31644,7 +31445,7 @@
      ]
     },
     {
-     "n": "South & Mid-Atlantic",
+     "n": "United States · South & Mid-Atlantic",
      "t": "AVAs from the Mississippi Delta to the Carolinas and Virginia.",
      "k": [
       {
@@ -32030,7 +31831,7 @@
      ]
     },
     {
-     "n": "New York & New England",
+     "n": "United States · New York & New England",
      "t": "AVAs of New York and southern New England.",
      "k": [
       {
@@ -32254,15 +32055,7 @@
        ]
       }
      ]
-    }
-   ]
-  },
-  {
-   "n": "Wine of Canada & Mexico",
-   "mode": "tier",
-   "t": "Wine from Canada by VQA area and from Mexico by wine valley; a wine from the United States → Wine of the United States.",
-   "ax": "Which country, which province or state, and which designated area?",
-   "s": [
+    },
     {
      "n": "Canada",
      "t": "Canadian VQA areas by province.",
@@ -32954,15 +32747,7 @@
        ]
       }
      ]
-    }
-   ]
-  },
-  {
-   "n": "Wine of South America",
-   "mode": "tier",
-   "t": "Wine from Chile, Argentina, Uruguay and Brazil by region; a wine from Mexico → Wine of Canada & Mexico.",
-   "ax": "Which country, and which valley, province or region inside it?",
-   "s": [
+    },
     {
      "n": "Chile",
      "t": "Chilean wine regions from the dry north to the cool south.",
@@ -33971,17 +33756,9 @@
        ]
       }
      ]
-    }
-   ]
-  },
-  {
-   "n": "Wine of South Africa",
-   "mode": "tier",
-   "t": "South African wine by Wine of Origin district and ward; Boberg fortified wine is not covered.",
-   "ax": "Which region, then which district or ward?",
-   "s": [
+    },
     {
-     "n": "Coastal Region & Cape South Coast",
+     "n": "South Africa · Coastal Region & Cape South Coast",
      "t": "The Western Cape's two coastal regions, from Stellenbosch to Walker Bay.",
      "k": [
       {
@@ -34497,7 +34274,7 @@
      ]
     },
     {
-     "n": "Inland & northern regions",
+     "n": "South Africa · Inland & northern regions",
      "t": "Breede River Valley, Klein Karoo, Olifants River and the northern and eastern Cape.",
      "k": [
       {
@@ -35062,17 +34839,9 @@
       }
      ],
      "ax": "kinds by region, coast to interior"
-    }
-   ]
-  },
-  {
-   "n": "Wine of Australia & New Zealand",
-   "mode": "tier",
-   "t": "Wine from Australian Geographical Indications and New Zealand regions; wine from elsewhere in the Pacific is not covered.",
-   "ax": "Which country, then which zone, state or island, then which region?",
-   "s": [
+    },
     {
-     "n": "Zones",
+     "n": "Australia · Zones",
      "t": "Zones and super zones above the regions.",
      "k": [
       {
@@ -36776,15 +36545,7 @@
        ]
       }
      ]
-    }
-   ]
-  },
-  {
-   "n": "Wine of England & Wales",
-   "mode": "tier",
-   "t": "Wine from the protected designations of England and Wales; wine from Scotland or Ireland is not covered.",
-   "ax": "Which country, then which designation?",
-   "s": [
+    },
     {
      "n": "England & Wales",
      "t": "Protected names for English and Welsh wine.",
@@ -36900,15 +36661,7 @@
        ]
       }
      ]
-    }
-   ]
-  },
-  {
-   "n": "Wine of China, Japan & India",
-   "mode": "tier",
-   "t": "Wine from China by province, Japan by geographical indication and India by wine area; wine from Korea or Southeast Asia is not covered.",
-   "ax": "Which country, then which province, prefecture or state?",
-   "s": [
+    },
     {
      "n": "China",
      "t": "Chinese wine provinces and areas.",
@@ -37256,17 +37009,9 @@
        ]
       }
      ]
-    }
-   ]
-  },
-  {
-   "n": "Wine styles across countries",
-   "mode": "mixed",
-   "ax": "How the wine is made: sparkling, skin contact, sweet, or fortified and aromatised.",
-   "t": "Wine styles made in many countries and sold by style rather than place; a wine with its own protected name is under its country.",
-   "s": [
+    },
     {
-     "n": "Sparkling wine",
+     "n": "Styles · Sparkling wine",
      "t": "Sparkling wines made the same way in many countries; a protected sparkling wine (Champagne, Cava, Franciacorta) is under its country.",
      "k": [
       {
@@ -37469,7 +37214,7 @@
      "ax": "by style"
     },
     {
-     "n": "Rosé & orange wine",
+     "n": "Styles · Rosé & orange wine",
      "t": "Wines defined by how long the juice stays on the skins, from pale rosé to skin-contact orange wine.",
      "k": [
       {
@@ -37740,7 +37485,7 @@
      ]
     },
     {
-     "n": "Sweet wine",
+     "n": "Styles · Sweet wine",
      "t": "Wines made sweet by late picking or frozen grapes; protected sweet wines (Sauternes, Tokaji) are under their country.",
      "k": [
       {
@@ -37923,7 +37668,7 @@
      ]
     },
     {
-     "n": "Fortified & aromatised wine",
+     "n": "Styles · Fortified & aromatised wine",
      "t": "Wines strengthened with spirit or flavoured with botanicals; Port, Sherry and Madeira are under Spain & Portugal.",
      "k": [
       {
@@ -38523,7 +38268,7 @@
      "ax": "by style"
     },
     {
-     "n": "Alcohol-free wine",
+     "n": "Styles · Alcohol-free wine",
      "t": "De-alcoholised still and sparkling wine.",
      "k": [
       {
@@ -38647,7 +38392,8 @@
       }
      ]
     }
-   ]
+   ],
+   "mode": "mixed"
   },
   {
    "n": "Grape varieties",
@@ -89978,35 +89724,20 @@
  "ax": "What it is and where it comes from: wine by country and appellation, the grape varieties, beer by who makes it, spirits by protected category, then sake, cider, ready-to-drink and no & low alcohol.",
  "key": [
   "1. Is it a grape variety you are looking up rather than a bottle? → Grape varieties",
-  "2. Is it a wine with a protected place name from France? → Wine of France",
-  "3. … from Italy? → Wine of Italy",
-  "4. … from Spain or Portugal? → Wine of Spain & Portugal",
-  "5. … from Germany, Austria or Switzerland? → Wine of Germany, Austria & Switzerland",
-  "6. … from Hungary or Central Europe? → Wine of Hungary & Central Europe",
-  "7. … from the Balkans? → Wine of the Balkans",
-  "8. … from Eastern Europe? → Wine of Eastern Europe",
-  "9. … from Greece or Cyprus? → Wine of Greece & Cyprus",
-  "10. … from Turkey, the Caucasus or the Levant? → Wine of Turkey, the Caucasus & the Levant",
-  "11. … from the United States? → Wine of the United States",
-  "12. … from Canada or Mexico? → Wine of Canada & Mexico",
-  "13. … from South America? → Wine of South America",
-  "14. … from South Africa? → Wine of South Africa",
-  "15. … from Australia or New Zealand? → Wine of Australia & New Zealand",
-  "16. … from England or Wales? → Wine of England & Wales",
-  "17. … from China, Japan or India? → Wine of China, Japan & India",
-  "18. Is it beer? → Beer",
-  "19. Is it whisky? → Whisky",
-  "20. Is it brandy? → Brandy",
-  "21. Is it rum or another cane spirit? → Rum & cane spirits",
-  "22. Is it an agave spirit? → Agave",
-  "23. Is it gin, vodka or aquavit? → Gin, vodka & aquavit",
-  "24. Is it an anise spirit or absinthe? → Anise & absinthe",
-  "25. Is it an Asian spirit (baijiu, shōchū, soju…)? → Asian spirits",
-  "26. Is it a liqueur? → Liqueurs",
-  "27. Is it sake or another rice wine? → Sake & rice wine",
-  "28. Is it cider, perry or mead? → Cider, perry & mead",
-  "29. Otherwise: a ready-to-drink or mixed pack? → Ready-to-drink & mixed packs",
-  "<i>Precedence: a protected wine name (Champagne, Port, Tokaji) is placed by its country before its style; an alcohol-free or low-alcohol drink goes with its full-strength kind (beer, wine style, spirit); alcohol-free versions of a brand stay with their parent.</i>"
+  "2. Is it a wine, by place name or by style? → Wine",
+  "3. Is it beer? → Beer",
+  "4. Is it whisky? → Whisky",
+  "5. Is it brandy? → Brandy",
+  "6. Is it rum or another cane spirit? → Rum & cane spirits",
+  "7. Is it an agave spirit? → Agave",
+  "8. Is it gin, vodka or aquavit? → Gin, vodka & aquavit",
+  "9. Is it an anise spirit or absinthe? → Anise & absinthe",
+  "10. Is it an Asian spirit (baijiu, shōchū, soju…)? → Asian spirits",
+  "11. Is it a liqueur? → Liqueurs",
+  "12. Is it sake or another rice wine? → Sake & rice wine",
+  "13. Is it cider, perry or mead? → Cider, perry & mead",
+  "14. Otherwise: a ready-to-drink or mixed pack? → Ready-to-drink & mixed packs",
+  "<i>Precedence: a protected wine name (Champagne, Port, Tokaji) is placed under its country before its style, inside Wine; an alcohol-free or low-alcohol drink goes with its full-strength kind (beer, wine style, spirit); alcohol-free versions of a brand stay with their parent.</i>"
  ],
  "rg": [
   {

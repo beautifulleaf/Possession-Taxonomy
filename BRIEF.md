@@ -152,3 +152,6 @@ Applied (rebuild/tools/retire_traditions.py; rebuild/work/TRADITIONS_RETIRED/): 
 
 ## Brands organised by department (owner, 2026-11-01)
 Each category's brands are grouped by the department of its own tree where their main product sits (rebuild/tools/brand_depts.py: named entry, then known-for, then word overlap; leftovers sorted in bulk by Haiku from verify/work/BRANDSORT/); renowned regions stay groups of their own; segment and evidence tier are badges; each category shows its own view of a brand. Clothing (A1) keeps its market-segment register.
+
+## Wine in one department (owner, 2026-11-01)
+"The wine sections being spread across multiple different pages is unnecessary." J7's sixteen "Wine of …" departments and "Wine styles across countries" are one department, Wine, with the country regions as shelves (prefixed with the country where needed) and the cross-country styles last; Grape varieties stays a separate look-up department (rebuild/tools/merge_wine.py).

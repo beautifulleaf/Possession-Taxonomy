@@ -20,6 +20,19 @@ for p in glob.glob(f'{R}/../verify/work/BRANDSORT/out*.tsv'):
     for l in open(p).read().splitlines():
         f = l.split('\t')
         if len(f) == 3 and f[2].strip().isdigit(): BULK[(f[0], f[1])] = int(f[2])
+# the answers are numbers in the department list given to the sorter (batch<N>.tsv): turn them into names, so a
+# later restructure (J7 wine merged 2026-11-01) can map old department names onto new ones
+NUMS = {}
+for p in glob.glob(f'{R}/../verify/work/BRANDSORT/batch*.tsv'):
+    for l in open(p).read().splitlines():
+        m = re.match(r'^## (\S+)\s+departments: (.*)$', l)
+        if m: NUMS[m.group(1)] = {int(a): b for a, b in (x.split('=', 1) for x in m.group(2).split(' | '))}
+BULK = {k: NUMS.get(k[0], {}).get(v, '') for k, v in BULK.items() if v}
+RENAMED = {**{n: 'Wine' for n in ('Wine of France', 'Wine of Italy', 'Wine of Spain & Portugal', 'Wine of Germany, Austria & Switzerland',
+    'Wine of Hungary & Central Europe', 'Wine of the Balkans', 'Wine of Eastern Europe', 'Wine of Greece & Cyprus',
+    'Wine of Turkey, the Caucasus & the Levant', 'Wine of the United States', 'Wine of Canada & Mexico', 'Wine of South America',
+    'Wine of South Africa', 'Wine of Australia & New Zealand', 'Wine of England & Wales', 'Wine of China, Japan & India',
+    'Wine styles across countries')}, 'No & low alcohol': 'Beer'}
 for c in cats:
     tree = json.load(open(f'{R}/out/{c}.json')); B = json.load(open(f'{R}/out/{c}_brands.json'))['b']
     named, exact, vocab = {}, {}, []
@@ -63,8 +76,8 @@ for c in cats:
                     how = 'words'
         if hit and how == 'words': hit = (hit[0], '')  # word overlap is reliable for the department, not the kind
         if not hit and (c, n) in BULK:
-            j = BULK[(c, n)]
-            if 0 < j <= len(tree['depts']): hit = (tree['depts'][j - 1]['n'], ''); how = 'bulk'
+            dn = RENAMED.get(BULK[(c, n)], BULK[(c, n)])
+            if dn in {x['n'] for x in tree['depts']}: hit = (dn, ''); how = 'bulk'
         if hit: out[n] = [hit[0], hit[1], how]; cnt[how] += 1
         else: left.append(f'{c}\t{n}\t{kf[:50]}\t{note[:80]}'); cnt['left'] += 1
     json.dump(out, open(f'{W}/{c}.json', 'w'), ensure_ascii=False, indent=0)
