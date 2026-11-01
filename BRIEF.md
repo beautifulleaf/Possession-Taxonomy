@@ -158,3 +158,6 @@ Each category's brands are grouped by the department of its own tree where their
 
 ## J9 departments folded (owner, 2026-11-01)
 "Integrate 'tonic & mixers' and 'fermented soft drinks' into soda, and 'syrups and cordials' into juice." Their kinds joined the matching market-layer shelves of Sodas and Juices & smoothies; the key and descriptions were rewritten (rebuild/tools/merge_depts.py, reusable for later folds; old→new names in rebuild/work/DEPT_RENAMES.json so filed brands follow).
+
+## Bread to Pantry Staples (owner, 2026-11-01)
+"Move bread/bakery to pantry staples. Something like Little Debbie cakes definitely belongs in the Sweets and Snacks section but not a fresh loaf of bread." J8 Bread & bakery split: bakeries, loaves, rolls, flatbreads and enriched breads are J5 Bread; pastries, festive bakes, cakes (snack cakes included) and protected names stay in J8 as Cakes & pastries. Bread brands moved to J5; bakers that also make cakes, biscuits or chocolate stay in J8 too (rebuild/tools/move_bread.py).
