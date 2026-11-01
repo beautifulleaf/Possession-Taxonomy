@@ -233,8 +233,12 @@ function copyBtn(names, label = 'copy', prefix = '') {
   const b = $('button', { class: 'copy', type: 'button', title: 'Copy these names, separated by commas', text: label });
   b.addEventListener('click', ev => { ev.preventDefault(); ev.stopPropagation(); const txt = (prefix ? prefix + ': ' : '') + names.join(', ');
     const done = ok => { b.textContent = ok ? 'copied' : 'copy failed'; setTimeout(() => { b.textContent = label; }, 1500); };
-    const fallback = () => { try { const ta = $('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.append(ta); ta.select(); const ok = document.execCommand('copy'); ta.remove(); done(ok); } catch (e) { done(false); } };
-    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => done(true), fallback); else fallback(); });
+    // copy synchronously inside the tap first (works in sandboxed frames and iOS Safari), then try the async API
+    let ok = false;
+    try { const ta = $('textarea'); ta.value = txt; ta.setAttribute('readonly', ''); ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;font-size:16px'; document.body.append(ta);
+      ta.focus({ preventScroll: true }); ta.select(); ta.setSelectionRange(0, txt.length); ok = document.execCommand('copy'); ta.remove(); } catch (e) { ok = false; }
+    if (ok) done(true);
+    else if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => done(true), () => done(false)); else done(false); });
   return b;
 }
 async function renderRegister() {
