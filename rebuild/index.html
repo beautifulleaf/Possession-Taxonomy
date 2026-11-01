@@ -476,9 +476,9 @@ async function renderRegister() {
       const r = REG.get(g); if (r) sec.append($('p', { class: 'also' }, r.sp ? r.sp + '. ' : '', r.q ? '“' + r.q + '” ' : '', r.s ? $('a', { href: r.s, target: '_blank', rel: 'noopener', text: 'source' }) : null));
       const sgs = new Map(); if (t === 'brands' && c === 'A1') items.forEach(e => { const k = e.sg || ''; if (!sgs.has(k)) sgs.set(k, []); sgs.get(k).push(e); });
       if (sgs.size > 1) {  // Clothing: scene or home region inside each market segment, biggest first, small ones folded into "Other"
-        const big = [...sgs.entries()].filter(([k, xs]) => xs.length >= 3 && k).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
-        const rest = [...sgs.entries()].filter(([k, xs]) => !(xs.length >= 3 && k)).flatMap(([, xs]) => xs);
-        (rest.length ? [...big, ['Other', rest]] : big).forEach(([k, xs]) => sec.append($('h4', { class: 'shelf-name' }, k, $('span', { text: String(xs.length) }), copyBtn(xs.map(e => e.n), 'copy', k)), compact ? $('div', { class: 'brows' }, xs.map(row)) : $('div', { class: 'items' }, xs.map(card))));
+        const big = [...sgs.entries()].filter(([k, xs]) => xs.length >= 3 && k && !/^(Region not recorded|Other or unknown region)$/.test(k)).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+        const rest = [...sgs.entries()].filter(([k, xs]) => !(xs.length >= 3 && k && !/^(Region not recorded|Other or unknown region)$/.test(k))).flatMap(([, xs]) => xs);
+        (rest.length ? [...big, ['Other or region not recorded', rest]] : big).forEach(([k, xs]) => sec.append($('h4', { class: 'shelf-name' }, k, $('span', { text: String(xs.length) }), copyBtn(xs.map(e => e.n), 'copy', k)), compact ? $('div', { class: 'brows' }, xs.map(row)) : $('div', { class: 'items' }, xs.map(card))));
       } else sec.append(compact ? $('div', { class: 'brows' }, items.map(row)) : $('div', { class: 'items' }, items.map(card)));
       main.append(sec); }
     if (!focused) focused = doFocus();
