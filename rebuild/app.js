@@ -211,14 +211,14 @@ function renderTree() {
   const tb = tabBar(); if (tb) main.append(tb);
   const tabs = $('nav', { class: 'dtabs', 'aria-label': 'Departments' }, data.depts.map((dd, i) => { const b = $('button', { type: 'button', 'aria-pressed': String(i === di) }, dd.n); b.addEventListener('click', () => { di = i; renderTree(); window.scrollTo({ top: 0 }); }); return b; }));
   if (data.depts.length > 1) main.append(tabs);
-  const sec = $('section', { class: 'dept', id: slug('d', di) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null, (d.s.length === 1 && d.s[0].n === d.n) ? copyBtn(d.s[0].k.map(k => k.n), 'copy', d.n) : null));
+  const sec = $('section', { class: 'dept', id: slug('d', di) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null, (d.s.length === 1 && d.s[0].n === d.n) ? copyBtn(d.s[0].k.map(kindLabel), 'copy', d.n) : null));
   if (d.t) sec.append($('p', { class: 'test', text: d.t }));
   if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), d.ax));
   if (d.note) sec.append($('p', { class: 'note', text: d.note }));
   const mk = market(d); if (mk) sec.append(mk);
   if ((d.b || []).length) sec.append($('details', { class: 'key' }, $('summary', { text: 'What makes a good one' }), best(d.b)));
   if (d.s.length > 1) sec.append($('p', { class: 'gjump' }, d.s.map((s, j) => { const b = $('button', { type: 'button', class: 'tag' }, s.n + ' ', $('span', { text: s.k.length })); b.addEventListener('click', () => document.getElementById(slug('s', di, j))?.scrollIntoView({ block: 'start' })); return b; })));
-  d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', di, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, $('span', { class: 'cc', text: s.code }), s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') }), copyBtn(s.k.map(k => k.n), 'copy', s.n)) : null,
+  d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', di, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, $('span', { class: 'cc', text: s.code }), s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') }), copyBtn(s.k.map(kindLabel), 'copy', s.n)) : null,
     s.t ? $('p', { class: 'defn', text: s.t }) : null, s.ax ? $('p', { class: 'axis' }, $('b', { text: 'Order: ' }), s.ax.replace(/^kinds (are )?(ordered |sorted )?by /i, 'by ')) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
   const nav = $('p', { class: 'dnav' });
   if (di > 0) { const b = $('button', { type: 'button', class: 'tag' }, '← ' + data.depts[di - 1].n); b.addEventListener('click', () => { di--; renderTree(); window.scrollTo({ top: 0 }); }); nav.append(b); }
@@ -228,6 +228,8 @@ function renderTree() {
   spy();
 }
 const SEG_ORDER = ["Luxury house", "Designer", "Contemporary & premium", "Heritage & workwear", "Japanese & denim", "Streetwear", "Outdoor & technical", "Athletic & sportswear", "High street", "Value & basics", "Bespoke & artisan", "Traditional & national dress", "Subculture & alternative", "Haute maison", "Independent maker", "Premium", "Mainstream", "Value", "Traditional & regional", "Professional & flagship", "Heritage manufactory", "Artisan & independent", "Specialist", "Own-label & retailer", "Institution & issuer"];
+// a kind with its named entries in parentheses, for section copies: "Barbecue fuel (Binchōtan, …)"
+const kindLabel = k => k.n + ((k.x || []).length ? ' (' + k.x.map(x => x.n.replace(/\s*\([^)]*\)/g, '')).join(', ') + ')' : '');
 // copy a list of brand names as "Name1, Name2, …"
 function copyBtn(names, label = 'copy', prefix = '') {
   const b = $('button', { class: 'copy', type: 'button', title: 'Copy these names, separated by commas', text: label });
@@ -247,31 +249,26 @@ async function renderRegister() {
   let j; try { j = await getJSON(file); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'This list did not load (' + e.message + '). Choose the tab again to retry.' })); return; }
   if (cur !== c || tab !== t || view !== 'cat') return;
   const list = j.b || j.t || j.i || [];
+  // renowned regions are brand groups of their own (owner 2026-11-01): a brand with no segment that a region's source names sits under that region
+  let cj = null; if (t === 'brands') { try { cj = await getJSON('reader/' + c + '.json'); } catch (e) {} if (cur !== c || tab !== t || view !== 'cat') return; }
+  const REG = new Map(), regOf = new Map(); ((cj && cj.rg) || []).forEach(r => { const g = 'Renowned region: ' + r.n; REG.set(g, r); (r.b || []).forEach(n => { if (!regOf.has(n)) regOf.set(n, g); }); });
   const TIERG = { quality: 'Quality makers (independent evidence)', cultural: 'Cultural icons and heritage names', seller: 'Specialist sellers of traditional goods', listed: 'Listed only (existence shown, no quality or cultural evidence yet)' };
-  const groupOf = t === 'brands' ? (e => e.stub ? 'Listed only (no details yet)' : (e.seg || TIERG[e.tier] || 'Other')) : (e => e.g || 'Other');
+  const groupOf = t === 'brands' ? (e => e.stub ? 'Listed only (no details yet)' : (e.seg || regOf.get(e.n) || TIERG[e.tier] || 'Other')) : (e => e.g || 'Other');
   const groups0 = new Map(); list.forEach(e => { const g = groupOf(e); if (!groups0.has(g)) groups0.set(g, []); groups0.get(g).push(e); });
-  const TORD = Object.values(TIERG); const rank = g => { const i = SEG_ORDER.indexOf(g); if (i >= 0) return i; const j = TORD.indexOf(g); return j >= 0 ? 500 + j : (g.startsWith('Listed only') ? 900 : 800); };
+  const TORD = Object.values(TIERG); const rank = g => { const i = SEG_ORDER.indexOf(g); if (i >= 0) return i; const j = TORD.indexOf(g); return REG.has(g) ? 400 : j >= 0 ? 500 + j : (g.startsWith('Listed only') ? 900 : 800); };
   const groups = new Map([...groups0.entries()].sort((a, b) => t === 'brands' ? rank(a[0]) - rank(b[0]) || a[0].localeCompare(b[0]) : b[1].length - a[1].length || a[0].localeCompare(b[0])));
   const ol = $('ol'); [...groups.keys()].forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('g', i) }, g, $('span', { text: groups.get(g).length })))));
   const title = { brands: 'Brands', traditions: 'Traditions', species: 'Rare species' }[t];
   side.replaceChildren($('h2', { text: catName(c) + ': ' + title }), ol);
-  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment, then by evidence (quality makers, cultural icons, specialist sellers, listed only), with the category’s regional strengths first. A brand that also appears elsewhere lists those categories.', traditions: ' food, origin and use traditions behind products in this category: origin, method, materials, signature forms, centres and how to tell the real thing. Craft and artistic traditions belong to the Visual Entertainment taxonomy.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
+  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment, then by evidence (quality makers, cultural icons, specialist sellers, listed only), with renowned regions as groups of their own. A brand that also appears elsewhere lists those categories.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', {}, list.length + blurb + ' ', t === 'brands' && list.length ? copyBtn(list.map(e => e.n), 'copy all') : null)));
   const tb = tabBar(); if (tb) main.append(tb);
-  if (t === 'brands') { let cj = null; try { cj = await getJSON('reader/' + c + '.json'); } catch (e) {}
-    const rg = (cj && cj.rg) || []; if (cur !== c || tab !== t || view !== 'cat') return;
-    if (rg.length) { const sec = $('section', { class: 'dept', id: 'regions' }, $('h3', { class: 'dept-name' }, 'Regional strengths', $('span', { class: 'mode', text: String(rg.length) })),
-        $('p', { class: 'also', text: 'Places a source names as renowned for this kind of product, with the makers and sellers that source names. Choose a name to open its entry.' }));
-      rg.forEach(r => { const a = $('article', { class: 'item' }, $('h5', { text: r.n }), r.sp ? $('p', { class: 'desc', text: r.sp }) : null, r.q ? $('p', { class: 'also', text: '“' + r.q + '”' }) : null);
-        if (r.b && r.b.length) a.append($('p', { class: 'tags' }, copyBtn(r.b), r.b.map(n => { const bt = $('button', { class: 'tag link', type: 'button', text: n }); bt.addEventListener('click', () => open(c, true, null, 'brands', n)); return bt; })));
-        if (r.s) a.append($('p', { class: 'src' }, $('a', { href: r.s, target: '_blank', rel: 'noopener', text: 'source' }))); sec.append(a); });
-      main.append(sec); } }
   const card = t === 'brands' ? brandCard : t === 'traditions' ? tradCard : speciesCard;
   // long lists (Clothing has ~1,750 brands): compact rows that build the full card when opened, sections added in batches
   const compact = list.length > 120;
   const bid = n => 'b-' + n.toLowerCase().replace(/[^a-z0-9]+/g, '-');
   const TB = { quality: 'quality', cultural: 'cultural', seller: 'seller' };
-  const row = e => { const d = $('details', { class: 'brow', id: t === 'brands' ? bid(e.n) : null }, $('summary', {}, $('b', { text: e.n }), e.kf || e.g ? $('i', { text: e.kf || '' }) : null, TB[e.tier] && e.seg ? $('span', { class: 'mode', text: TB[e.tier] }) : null, e.rg ? $('span', { class: 'mode', text: e.rg }) : null));
+  const row = e => { const d = $('details', { class: 'brow', id: t === 'brands' ? bid(e.n) : null }, $('summary', {}, $('b', { text: e.n }), e.kf || e.g ? $('i', { text: e.kf || '' }) : null, TB[e.tier] && (e.seg || regOf.has(e.n)) ? $('span', { class: 'mode', text: TB[e.tier] }) : null, e.rg && !regOf.has(e.n) ? $('span', { class: 'mode', text: e.rg }) : null));
     d.addEventListener('toggle', () => { if (d.open && !d.dataset.f) { d.dataset.f = 1; const c = card(e); c.removeAttribute('id'); d.append(c); } }); return d; };
   const keys = [...groups.keys()];
   const fid = focusName ? bid(focusName) : null; focusName = null;
@@ -282,6 +279,7 @@ async function renderRegister() {
     for (; i < end; i++) { const g = keys[i]; const sec = $('section', { class: 'dept', id: slug('g', i) }, $('h3', { class: 'dept-name' }, g, $('span', { class: 'mode', text: String(groups.get(g).length) })));
       const items = groups.get(g).sort((a, b) => a.n.localeCompare(b.n));
       if (t === 'brands') sec.querySelector('h3').append(copyBtn(items.map(e => e.n)));
+      const r = REG.get(g); if (r) sec.append($('p', { class: 'also' }, r.sp ? r.sp + '. ' : '', r.q ? '“' + r.q + '” ' : '', r.s ? $('a', { href: r.s, target: '_blank', rel: 'noopener', text: 'source' }) : null));
       sec.append(compact ? $('div', { class: 'brows' }, items.map(row)) : $('div', { class: 'items' }, items.map(card))); main.append(sec); }
     if (!focused) focused = doFocus();
     if (i < keys.length) setTimeout(step, 0); else spy(); };
