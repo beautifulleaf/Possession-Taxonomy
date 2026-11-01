@@ -2586,7 +2586,7 @@
      "w": "label; applies to every soda kind"
     }
    ],
-   "t": "Bought soft drinks sold by brand: the global groups, each region's national brands, independents, craft and own label; a plain water → Water, and a spirit mixer → Tonic & mixers. Flavours are versions of the brand.",
+   "t": "Bought fizzy and fermented soft drinks sold by brand: sodas drunk alone, tonics and mixers made for spirits, and drinks soured or flavoured by fermentation (kombucha, kvass, boza, water kefir), by global group, national brand, independent, craft and own label; a plain water → Water.",
    "ax": "Who sells it: the global groups, then each region's national brands, then independents, craft and own label?",
    "ms": [
     {
@@ -4597,6 +4597,238 @@
          "own": "Suntory",
          "cty": "New Zealand",
          "g": "New Zealand",
+         "tier": "Global group"
+        }
+       ]
+      },
+      {
+       "n": "The Coca-Cola Company mixer brands",
+       "d": "The mixer brands of The Coca-Cola Company, sectioned by country of origin.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Stoney Ginger Beer",
+         "a": "",
+         "d": "Ginger beer from South Africa; owner The Coca-Cola Company as listed.",
+         "mk": "Stoney Ginger Beer",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger beer",
+         "own": "The Coca-Cola Company",
+         "cty": "South Africa",
+         "g": "South Africa",
+         "tier": "Global group"
+        }
+       ]
+      },
+      {
+       "n": "Keurig Dr Pepper mixer brands",
+       "d": "The mixer brands of Keurig Dr Pepper, sectioned by country of origin.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows the Keurig Dr Pepper page, and 3 brand pages, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Canada Dry",
+         "a": "",
+         "d": "The original dry ginger ale, created by John J. McLaughlin in Toronto.",
+         "mk": "Canada Dry",
+         "y": "1904",
+         "s": "https://en.wikipedia.org/wiki/Canada_Dry",
+         "v": [
+          {
+           "n": "Canada Dry Pale Ginger Ale patent",
+           "mk": "Canada Dry",
+           "y": "1905",
+           "d": ""
+          },
+          {
+           "n": "Map-of-Canada label",
+           "mk": "Canada Dry",
+           "y": "1907",
+           "d": ""
+          },
+          {
+           "n": "Canada Dry Pale Dry Ginger Ale",
+           "mk": "Canada Dry",
+           "y": "1904",
+           "d": "The original dry ginger ale, created by John J. McLaughlin in Toronto."
+          },
+          {
+           "n": "Canada Dry Pale Ginger Ale patent",
+           "mk": "Canada Dry",
+           "y": "1905",
+           "d": ""
+          },
+          {
+           "n": "Map-of-Canada label",
+           "mk": "Canada Dry",
+           "y": "1907",
+           "d": ""
+          }
+         ],
+         "dt": "ginger ale",
+         "own": "Keurig Dr Pepper",
+         "cty": "Canada",
+         "tier": "Global group",
+         "g": "Canada"
+        },
+        {
+         "n": "Sussex Golden Ginger Ale",
+         "a": "",
+         "d": "Ginger ale from Canada; owner Keurig Dr Pepper as listed.",
+         "mk": "Sussex Golden Ginger Ale",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "Keurig Dr Pepper",
+         "cty": "Canada",
+         "g": "Canada",
+         "tier": "Global group"
+        },
+        {
+         "n": "Schweppes",
+         "a": "",
+         "d": "Schweppes' carbonated tonic, described as the first carbonated tonic.",
+         "mk": "Schweppes",
+         "y": "1871",
+         "s": "https://en.wikipedia.org/wiki/Schweppes",
+         "v": [
+          {
+           "n": "Schweppes Tonic Water",
+           "mk": "Schweppes",
+           "y": "1871",
+           "d": "glass, can, PET · regular and diet"
+          },
+          {
+           "n": "Schweppes Bitter Lemon",
+           "mk": "Schweppes",
+           "y": "1957",
+           "d": "Schweppes' bitter lemon, the best-known brand of the drink."
+          },
+          {
+           "n": "Schweppes Ginger Ale",
+           "mk": "Schweppes",
+           "y": "1870",
+           "d": "Schweppes' dry ginger ale."
+          },
+          {
+           "n": "Schweppes Soda Water",
+           "mk": "Schweppes",
+           "y": "1783",
+           "d": "Schweppes' original product, the first commercial carbonated water, made by Johann Jacob Schweppe in Geneva."
+          }
+         ],
+         "dt": "tonic water · glass, can, PET · regular and diet",
+         "own": "Keurig Dr Pepper",
+         "cty": "Switzerland",
+         "g": "Switzerland",
+         "tier": "Global group"
+        },
+        {
+         "n": "Vernors",
+         "a": "",
+         "d": "Golden ginger ale from Detroit pharmacist James Vernor, sold as 'Barrel Aged 3 Years'.",
+         "mk": "Vernors",
+         "y": "1866",
+         "s": "https://en.wikipedia.org/wiki/Vernors",
+         "v": [
+          {
+           "n": "Vernors 1-Calorie (Zero Sugar)",
+           "mk": "Vernors",
+           "y": "1962",
+           "d": ""
+          },
+          {
+           "n": "Black Cherry",
+           "mk": "Vernors",
+           "y": "2022",
+           "d": "limited, Michigan"
+          }
+         ],
+         "dt": "ginger ale",
+         "own": "Keurig Dr Pepper",
+         "cty": "United States",
+         "tier": "Global group",
+         "g": "United States"
+        },
+        {
+         "n": "Canfield's",
+         "a": "",
+         "d": "Soda from United States; owner Keurig Dr Pepper as listed.",
+         "mk": "Canfield's",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "Keurig Dr Pepper",
+         "cty": "United States",
+         "g": "United States",
+         "tier": "Global group"
+        },
+        {
+         "n": "Mr & Mrs T",
+         "a": "",
+         "d": "Beverage mixers from United States; owner Keurig Dr Pepper as listed.",
+         "mk": "Mr & Mrs T",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper",
+         "v": [],
+         "dt": "cocktail mix",
+         "own": "Keurig Dr Pepper",
+         "cty": "United States",
+         "g": "United States",
+         "tier": "Global group"
+        }
+       ]
+      },
+      {
+       "n": "The Coca-Cola Company fermented drink brands",
+       "d": "The fermented drink brands of The Coca-Cola Company, sectioned by country of origin.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of Coca-Cola brands\", as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Kruzhka i bochka",
+         "a": "",
+         "d": "Kvass from Russia; owner The Coca-Cola Company as listed.",
+         "mk": "Kruzhka i bochka",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_Coca-Cola_brands",
+         "v": [],
+         "dt": "kvass",
+         "own": "The Coca-Cola Company",
+         "cty": "Russia",
+         "g": "Russia",
+         "tier": "Global group"
+        }
+       ]
+      },
+      {
+       "n": "Suntory fermented drink brands",
+       "d": "The fermented drink brands of Suntory, sectioned by country of origin.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Bikkle",
+         "a": "",
+         "d": "Yogurt drink from Japan.",
+         "mk": "Bikkle",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "lactic soft drink",
+         "own": "Suntory",
+         "cty": "Japan",
+         "g": "Japan",
+         "os": "https://www.wikidata.org/wiki/Q4907422",
          "tier": "Global group"
         }
        ]
@@ -8090,6 +8322,547 @@
          "g": "Unplaced"
         }
        ]
+      },
+      {
+       "n": "National mixer brands: Europe",
+       "d": "Mixer brands from Europe, sectioned by country.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 2 brand pages, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "C&C Club Soda",
+         "a": "",
+         "d": "The original trademarked club soda, made by Cantrell & Cochrane in Dublin.",
+         "mk": "C&C",
+         "y": "1877",
+         "s": "https://en.wikipedia.org/wiki/Club_soda",
+         "v": [],
+         "dt": "soda water & club soda",
+         "own": "",
+         "cty": "Ireland",
+         "g": "Ireland"
+        },
+        {
+         "n": "Gingerino",
+         "a": "",
+         "d": "Bitter ginger beverage from Italy.",
+         "mk": "Gingerino",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "",
+         "cty": "Italy",
+         "g": "Italy"
+        },
+        {
+         "n": "Ingefærøl",
+         "a": "",
+         "d": "Ginger ale from Norway.",
+         "mk": "Ingefærøl",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "",
+         "cty": "Norway",
+         "g": "Norway"
+        },
+        {
+         "n": "Stratford Sodas",
+         "a": "",
+         "d": "Mixers from United Kingdom.",
+         "mk": "Stratford Sodas",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "soda water & club soda",
+         "own": "",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        }
+       ]
+      },
+      {
+       "n": "National mixer brands: Latin America & Caribbean",
+       "d": "Mixer brands from Latin America & Caribbean, sectioned by country.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Gengibirra",
+         "a": "",
+         "d": "Lemon and ginger soda from Brazil.",
+         "mk": "Gengibirra",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger beer",
+         "own": "",
+         "cty": "Brazil",
+         "g": "Brazil"
+        },
+        {
+         "n": "Old Jamaica Ginger Beer",
+         "a": "",
+         "d": "Jamaican ginger beer from Desnoes & Geddes.",
+         "mk": "Old Jamaica",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ginger_beer",
+         "v": [],
+         "dt": "ginger beer",
+         "own": "",
+         "cty": "Jamaica",
+         "g": "Jamaica"
+        }
+       ]
+      },
+      {
+       "n": "National mixer brands: North America",
+       "d": "Mixer brands from North America, sectioned by country.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Northern Neck Ginger Ale",
+         "a": "",
+         "d": "Ginger ale from Virginia from United States.",
+         "mk": "Northern Neck Ginger Ale",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Q Mixers",
+         "a": "",
+         "d": "American tonic sweetened only with organic agave nectar, with cinchona-bark quinine.",
+         "mk": "Q Mixers",
+         "y": "",
+         "s": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/q-drinks",
+         "v": [
+          {
+           "n": "Q Tonic",
+           "mk": "Q Mixers",
+           "y": "",
+           "d": "American tonic sweetened only with organic agave nectar, with cinchona-bark quinine."
+          },
+          {
+           "n": "Q Club",
+           "mk": "Q Mixers",
+           "y": "",
+           "d": "Club soda made with Himalayan salt."
+          }
+         ],
+         "dt": "tonic water",
+         "own": "",
+         "cty": "United States",
+         "g": "United States"
+        }
+       ]
+      },
+      {
+       "n": "National mixer brands: Origin not stated",
+       "d": "Mixer brands from Origin not stated, sectioned by country.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 3 brand pages, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Quinine Tonic Water (Pitt & Co.)",
+         "a": "",
+         "d": "The first commercial tonic water, patented by Erasmus Bond of Pitt & Co., London.",
+         "mk": "",
+         "y": "1858",
+         "s": "https://en.wikipedia.org/wiki/Tonic_water",
+         "v": [],
+         "dt": "tonic water · historic",
+         "own": "",
+         "cty": "",
+         "g": "Unplaced"
+        },
+        {
+         "n": "1724 Tonic Water",
+         "a": "",
+         "d": "Premium tonic in 20 cl bottles, named after an Andean elevation of 1,724 m, with cinchona-bark quinine.",
+         "mk": "1724",
+         "y": "",
+         "s": "https://bottleofitaly.com/en/products/acqua-tonica-1724-confezione-20cl-x-24-bottiglie",
+         "v": [],
+         "dt": "tonic water · 20 cl glass",
+         "own": "",
+         "cty": "",
+         "g": "Unplaced"
+        },
+        {
+         "n": "Thomas Henry Tonic Water",
+         "a": "",
+         "d": "Premium mixer brand 'born in bars', making mixers, sodas and lemonades with bartenders.",
+         "mk": "Thomas Henry",
+         "y": "",
+         "s": "https://www.thomas-henry.com/about-us/",
+         "v": [],
+         "dt": "tonic water",
+         "own": "",
+         "cty": "",
+         "g": "Unplaced"
+        }
+       ]
+      },
+      {
+       "n": "National fermented drink brands: Africa",
+       "d": "Fermented drink brands from Africa, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "King Malta",
+         "a": "",
+         "d": "Malt drink from South Africa.",
+         "mk": "King Malta",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "malta & malt soft drink",
+         "own": "",
+         "cty": "South Africa",
+         "g": "South Africa"
+        }
+       ]
+      },
+      {
+       "n": "National fermented drink brands: South & Southeast Asia",
+       "d": "Fermented drink brands from South & Southeast Asia, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Malt",
+         "a": "",
+         "d": "Malt soda from Pakistan.",
+         "mk": "Malt",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "malta & malt soft drink",
+         "own": "",
+         "cty": "Pakistan",
+         "g": "Pakistan"
+        }
+       ]
+      },
+      {
+       "n": "National fermented drink brands: Middle East",
+       "d": "Fermented drink brands from Middle East, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Vefa boza",
+         "a": "Vefa Bozacısı",
+         "d": "Thick, tart Istanbul boza from the shop founded in 1876, the reference Turkish style.",
+         "mk": "Vefa",
+         "y": "1876",
+         "s": "https://en.wikipedia.org/wiki/Boza",
+         "v": [],
+         "dt": "boza · served with cinnamon and roasted chickpeas · bottled",
+         "own": "",
+         "cty": "Turkey",
+         "g": "Turkey"
+        }
+       ]
+      },
+      {
+       "n": "National fermented drink brands: Europe",
+       "d": "Fermented drink brands from Europe, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 2 brand pages, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Lattella",
+         "a": "",
+         "d": "Whey-based juice drink from Austria.",
+         "mk": "Lattella",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "lactic soft drink",
+         "own": "",
+         "cty": "Austria",
+         "g": "Austria"
+        },
+        {
+         "n": "Airan",
+         "a": "",
+         "d": "Yogurt and water drink from Bulgaria.",
+         "mk": "Airan",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "lactic soft drink",
+         "own": "",
+         "cty": "Bulgaria",
+         "g": "Bulgaria"
+        },
+        {
+         "n": "Malt Extrakt",
+         "a": "",
+         "d": "Malt drink from Iceland.",
+         "mk": "Malt Extrakt",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "malta & malt soft drink",
+         "own": "",
+         "cty": "Iceland",
+         "g": "Iceland"
+        },
+        {
+         "n": "Gira",
+         "a": "",
+         "d": "Kvass from Lithuania.",
+         "mk": "Gira",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "kvass",
+         "own": "",
+         "cty": "Lithuania",
+         "g": "Lithuania"
+        },
+        {
+         "n": "NiCola",
+         "a": "",
+         "d": "Kvass from Russia.",
+         "mk": "NiCola",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "kvass",
+         "own": "",
+         "cty": "Russia",
+         "g": "Russia"
+        },
+        {
+         "n": "Nikola kvass",
+         "a": "Никола",
+         "d": "Russia's best-selling kvass brand, with about 39% of the market in 2014.",
+         "mk": "Deka",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kvass",
+         "v": [],
+         "dt": "kvass · bottle size",
+         "own": "",
+         "cty": "Russia",
+         "g": "Russia"
+        },
+        {
+         "n": "Ochakovskiy",
+         "a": "",
+         "d": "Kvass from Russia.",
+         "mk": "Ochakovskiy",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "kvass",
+         "own": "",
+         "cty": "Russia",
+         "g": "Russia"
+        },
+        {
+         "n": "Russkiy dar",
+         "a": "",
+         "d": "Kvass from Russia.",
+         "mk": "Russkiy dar",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "kvass",
+         "own": "",
+         "cty": "Russia",
+         "g": "Russia"
+        },
+        {
+         "n": "Rivella",
+         "a": "",
+         "d": "Milk-whey soft drink from Switzerland; owner Rivella SA as listed.",
+         "mk": "Rivella",
+         "y": "1952",
+         "s": "https://en.wikipedia.org/wiki/Rivella",
+         "v": [
+          {
+           "n": "Red",
+           "mk": "Rivella",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Blue",
+           "mk": "Rivella",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Green Tea",
+           "mk": "Rivella",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Refresh",
+           "mk": "Rivella",
+           "y": "",
+           "d": "2018"
+          },
+          {
+           "n": "Grapefruit",
+           "mk": "Rivella",
+           "y": "",
+           "d": "2021"
+          },
+          {
+           "n": "Swiss Mint",
+           "mk": "Rivella",
+           "y": "",
+           "d": "2021"
+          }
+         ],
+         "dt": "lactic soft drink",
+         "own": "Rivella SA",
+         "cty": "Switzerland",
+         "g": "Switzerland",
+         "tier": "National champion",
+         "role": "landmark"
+        },
+        {
+         "n": "Nycha Kombucha",
+         "a": "",
+         "d": "Kombucha from Switzerland.",
+         "mk": "Nycha Kombucha",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "kombucha",
+         "own": "",
+         "cty": "Switzerland",
+         "g": "Switzerland"
+        }
+       ]
+      },
+      {
+       "n": "National fermented drink brands: Latin America & Caribbean",
+       "d": "Fermented drink brands from Latin America & Caribbean, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Malta India",
+         "a": "",
+         "d": "Puerto Rican malta brewed in Mayagüez, popular across the Caribbean.",
+         "mk": "Compañía Cervecera de Puerto Rico",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Malta_(soft_drink)",
+         "v": [],
+         "dt": "malta & malt soft drink · bottle or can",
+         "own": "",
+         "cty": "Puerto Rico",
+         "g": "Puerto Rico"
+        }
+       ]
+      },
+      {
+       "n": "National fermented drink brands: Oceania",
+       "d": "Fermented drink brands from Oceania, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Remedy Kombucha",
+         "a": "Remedy",
+         "d": "Sugar-free organic kombucha brewed in Melbourne and exported to some 20 countries.",
+         "mk": "Remedy Drinks",
+         "y": "2012",
+         "s": "https://austrade.gov.au/en/news-and-analysis/news/remedy-drinks-brews-export-success",
+         "v": [
+          {
+           "n": "Kombucha",
+           "mk": "Remedy Drinks",
+           "y": "2012",
+           "d": "Founding product, kitchen-bench brewed by Sarah and Emmet Condon"
+          },
+          {
+           "n": "Remedy Sodaly",
+           "mk": "Remedy Drinks",
+           "y": "",
+           "d": "Prebiotic soft drink spin-off"
+          }
+         ],
+         "dt": "kombucha · flavour · can or bottle",
+         "own": "",
+         "cty": "Australia",
+         "g": "Australia"
+        }
+       ]
+      },
+      {
+       "n": "National fermented drink brands: Origin not stated",
+       "d": "Fermented drink brands from Origin not stated, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 2 brand pages, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Kwas chlebowy sapieżyński",
+         "a": "Kodeń kvass",
+         "d": "Historic Polish bread kvass from Kodeń whose recipe dates to the 1500s.",
+         "mk": "",
+         "y": "1500s",
+         "s": "https://en.wikipedia.org/wiki/Kvass",
+         "v": [],
+         "dt": "kvass · bottle",
+         "own": "",
+         "cty": "",
+         "g": "Unplaced"
+        },
+        {
+         "n": "Fassbrause",
+         "a": "",
+         "d": "Berlin fruit-and-malt-extract drink invented by Ludwig Scholvien; the name is not protected, so many brewery versions exist.",
+         "mk": "",
+         "y": "1908",
+         "s": "https://en.wikipedia.org/wiki/Fassbrause",
+         "v": [
+          {
+           "n": "Rixdorfer Fassbrause",
+           "mk": "",
+           "y": "",
+           "d": "Berliner Kindl Brauerei"
+          },
+          {
+           "n": "Gaffels Fassbrause",
+           "mk": "",
+           "y": "",
+           "d": "Gaffel Becker & Co"
+          }
+         ],
+         "own": "",
+         "cty": "",
+         "g": "Unplaced",
+         "dt": "malta & malt soft drink"
+        }
+       ]
       }
      ],
      "ax": "kinds by world region of the brand"
@@ -11229,6 +12002,358 @@
          "own_y": 2026
         }
        ]
+      },
+      {
+       "n": "Independent mixer brands",
+       "d": "Mixer independent brands (All regions), sectioned by country.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Barritt's Ginger Beer",
+         "a": "",
+         "d": "Ginger beer from Bermuda; owner John Barritt & Son as listed.",
+         "mk": "Barritt's Ginger Beer",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger beer",
+         "own": "John Barritt & Son",
+         "cty": "Bermuda",
+         "g": "Bermuda",
+         "tier": "Independent"
+        },
+        {
+         "n": "Bull's Head",
+         "a": "",
+         "d": "Ginger ale from Canada; owner Breuvages Bull's Head as listed.",
+         "mk": "Bull's Head",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "Breuvages Bull's Head",
+         "cty": "Canada",
+         "g": "Canada",
+         "tier": "Independent"
+        },
+        {
+         "n": "Temagami Dry",
+         "a": "",
+         "d": "Ginger ale and cream soda from Canada; owner Fortier Beverages as listed.",
+         "mk": "Temagami Dry",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "Fortier Beverages",
+         "cty": "Canada",
+         "g": "Canada",
+         "tier": "Independent"
+        },
+        {
+         "n": "Fever-Tree",
+         "a": "",
+         "d": "Premium tonic, Fever-Tree's first product, which spawned a family of flavoured tonics.",
+         "mk": "Fever-Tree",
+         "y": "2005",
+         "s": "https://en.wikipedia.org/wiki/Fever-Tree",
+         "v": [
+          {
+           "n": "Mediterranean Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "2012",
+           "d": "sofi award year"
+          },
+          {
+           "n": "Elderflower Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Aromatic Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Fever-Tree Indian Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "2005",
+           "d": "200 ml glass, cans"
+          },
+          {
+           "n": "Mediterranean Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "2012",
+           "d": "sofi award year"
+          },
+          {
+           "n": "Elderflower Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Aromatic Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Fever-Tree Ginger Beer",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": "Premium mixer ginger beer."
+          },
+          {
+           "n": "Fever-Tree Ginger Ale",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": "Premium mixer ginger ale."
+          },
+          {
+           "n": "Refreshingly Light Ginger Ale",
+           "mk": "Fever-Tree",
+           "y": "2019",
+           "d": ""
+          }
+         ],
+         "dt": "tonic water · 200 ml glass, cans",
+         "own": "Fevertree Drinks plc",
+         "cty": "United Kingdom",
+         "g": "United Kingdom",
+         "os": "https://en.wikipedia.org/wiki/Fever-Tree",
+         "tier": "Independent"
+        },
+        {
+         "n": "Blenheim Ginger Ale",
+         "a": "",
+         "d": "Ginger ale from United States; owner Blenheim Bottlers as listed.",
+         "mk": "Blenheim Ginger Ale",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "Blenheim Bottlers",
+         "cty": "United States",
+         "g": "United States",
+         "tier": "Independent"
+        },
+        {
+         "n": "Bruce Cost Ginger Ale",
+         "a": "",
+         "d": "Ginger ale from United States; owner BCGA Concept Corp as listed.",
+         "mk": "Bruce Cost Ginger Ale",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "BCGA Concept Corp",
+         "cty": "United States",
+         "g": "United States",
+         "tier": "Independent"
+        },
+        {
+         "n": "Buffalo Rock Ginger Ale",
+         "a": "",
+         "d": "Ginger ale from United States; owner Buffalo Rock as listed.",
+         "mk": "Buffalo Rock Ginger Ale",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "ginger ale",
+         "own": "Buffalo Rock",
+         "cty": "United States",
+         "g": "United States",
+         "tier": "Independent"
+        },
+        {
+         "n": "Franklin & Sons Tonic",
+         "a": "",
+         "d": "Premium tonic and mixer brand established by the Franklin family.",
+         "mk": "Franklin & Sons",
+         "y": "1886",
+         "s": "https://globalbrands.co.uk/our-brands/franklin-sons/",
+         "v": [],
+         "dt": "tonic water",
+         "own": "Global Brands",
+         "cty": "United Kingdom",
+         "g": "United Kingdom",
+         "os": "https://globalbrands.co.uk/our-brands/franklin-sons/",
+         "tier": "Independent"
+        }
+       ]
+      },
+      {
+       "n": "Independent fermented drink brands",
+       "d": "Fermented drink independent brands (All regions), sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 3 brand pages, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Bundaberg Ginger Beer",
+         "a": "Bundy ginger beer",
+         "d": "Non-alcoholic brewed ginger beer from Bundaberg, Queensland, the brand's flagship.",
+         "mk": "Bundaberg",
+         "y": "1960",
+         "s": "https://en.wikipedia.org/wiki/Bundaberg_Brewed_Drinks",
+         "v": [
+          {
+           "n": "Ginger Beer",
+           "mk": "Bundaberg",
+           "y": "",
+           "d": "Flagship"
+          },
+          {
+           "n": "Diet Ginger Beer",
+           "mk": "Bundaberg",
+           "y": "",
+           "d": "Diet range"
+          },
+          {
+           "n": "Spiced Ginger Beer",
+           "mk": "Bundaberg",
+           "y": "2014",
+           "d": "Seasonal"
+          }
+         ],
+         "dt": "brewed ginger beer · bottle size · regular, diet or spiced",
+         "own": "Bundaberg family-owned",
+         "cty": "Australia",
+         "tier": "Independent",
+         "g": "Australia"
+        },
+        {
+         "n": "Pony Malta",
+         "a": "",
+         "d": "Malt beverage from Colombia; owner Postobón as listed.",
+         "mk": "Pony Malta",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "malta & malt soft drink",
+         "own": "Postobón",
+         "cty": "Colombia",
+         "g": "Colombia",
+         "tier": "Independent"
+        },
+        {
+         "n": "Supermalt",
+         "a": "",
+         "d": "Caffeine-free malt drink first developed for the Nigerian Army, now made in Denmark.",
+         "mk": "Royal Unibrew",
+         "y": "1972",
+         "s": "https://en.wikipedia.org/wiki/Supermalt",
+         "v": [],
+         "dt": "malta & malt soft drink · bottle or can",
+         "own": "Royal Unibrew",
+         "cty": "Denmark",
+         "tier": "Independent",
+         "g": "Denmark"
+        },
+        {
+         "n": "Khlebnyy kray",
+         "a": "",
+         "d": "Kvass from Russia; owner Carlsberg Group as listed.",
+         "mk": "Khlebnyy kray",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "kvass",
+         "own": "Carlsberg Group",
+         "cty": "Russia",
+         "g": "Russia",
+         "tier": "Independent"
+        },
+        {
+         "n": "Milkis",
+         "a": "",
+         "d": "South Korean carbonated soft drink of sugar, soda water and milk; not fermented.",
+         "mk": "Lotte Chilsung",
+         "y": "1989",
+         "s": "https://en.wikipedia.org/wiki/Milkis",
+         "own": "Lotte Chilsung",
+         "cty": "South Korea",
+         "tier": "Independent",
+         "g": "South Korea",
+         "dt": "lactic soft drink"
+        },
+        {
+         "n": "Calpis / Calpico",
+         "a": "",
+         "d": "Japanese lactic-fermented milk beverage sold as a concentrate; named Calpico in North America.",
+         "mk": "Calpis",
+         "y": "1919",
+         "s": "https://en.wikipedia.org/wiki/Calpis",
+         "v": [
+          {
+           "n": "Calpis Water",
+           "mk": "Calpis",
+           "y": "",
+           "d": "pre-diluted drink"
+          },
+          {
+           "n": "Calpis Soda",
+           "mk": "Calpis",
+           "y": "",
+           "d": "carbonated version"
+          }
+         ],
+         "own": "Asahi Breweries",
+         "cty": "Japan",
+         "g": "Japan",
+         "dt": "lactic soft drink",
+         "os": "https://en.wikipedia.org/wiki/Calpis",
+         "tier": "Independent"
+        },
+        {
+         "n": "Calpis Soda",
+         "a": "",
+         "d": "Carbonated Calpis from Japan.",
+         "mk": "Calpis Soda",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "lactic soft drink",
+         "own": "Asahi Breweries",
+         "cty": "Japan",
+         "g": "Japan",
+         "os": "https://en.wikipedia.org/wiki/Calpis",
+         "tier": "Independent"
+        },
+        {
+         "n": "GT's Kombucha",
+         "a": "GT's Living Foods",
+         "d": "Los Angeles-brewed kombucha that built the US bottled market and holds about 40% of it.",
+         "mk": "GT's Living Foods",
+         "y": "1995",
+         "s": "https://en.wikipedia.org/wiki/GT%27s_Living_Foods",
+         "v": [
+          {
+           "n": "First sale to Erewhon Natural Foods",
+           "mk": "GT's Living Foods",
+           "y": "1995",
+           "d": "George Thomas Dave's first commercial kombucha"
+          },
+          {
+           "n": "Whole Foods distribution",
+           "mk": "GT's Living Foods",
+           "y": "1997",
+           "d": "Gardena brewery opened"
+          }
+         ],
+         "dt": "kombucha · flavour · glass bottle",
+         "own": "GT Dave",
+         "cty": "United States",
+         "g": "United States",
+         "os": "https://en.wikipedia.org/wiki/GT%27s_Living_Foods",
+         "tier": "Independent"
+        }
+       ]
       }
      ],
      "ax": "kinds by world region of the brand"
@@ -11546,8 +12671,86 @@
          "tier": "Craft & indie"
         }
        ]
+      },
+      {
+       "n": "Craft and indie mixer brands",
+       "d": "Mixer craft and indie brands, sectioned by country.",
+       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Ale-8-One",
+         "a": "",
+         "d": "Ginger-ale soft drink bottled in Winchester, Kentucky and sold mainly in Kentucky.",
+         "mk": "Ale-8-One",
+         "y": "1926",
+         "s": "https://en.wikipedia.org/wiki/Ale-8-One",
+         "own": "Rogers family",
+         "cty": "United States",
+         "tier": "Independent",
+         "g": "United States",
+         "dt": "ginger ale",
+         "os": "https://en.wikipedia.org/wiki/Ale-8-One"
+        }
+       ]
+      },
+      {
+       "n": "Craft and indie fermented drink brands",
+       "d": "Fermented drink craft and indie brands, sectioned by country.",
+       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Fentimans",
+         "a": "",
+         "d": "Botanically brewed English ginger beer fermented from milled ginger root in wooden vats.",
+         "mk": "Fentimans",
+         "y": "1905",
+         "s": "https://en.wikipedia.org/wiki/Fentimans",
+         "v": [
+          {
+           "n": "Original recipe",
+           "mk": "Fentimans",
+           "y": "1905",
+           "d": "Recipe acquired by Thomas Fentiman, Cleckheaton"
+          },
+          {
+           "n": "Re-established brand",
+           "mk": "Fentimans",
+           "y": "1988",
+           "d": "Revived by his great-grandson, brewed in Hexham"
+          },
+          {
+           "n": "Fentimans Traditional Ginger Beer",
+           "mk": "Fentimans",
+           "y": "1905",
+           "d": "275 ml or 750 ml bottle"
+          },
+          {
+           "n": "Original recipe",
+           "mk": "Fentimans",
+           "y": "1905",
+           "d": "Recipe acquired by Thomas Fentiman, Cleckheaton"
+          },
+          {
+           "n": "Re-established brand",
+           "mk": "Fentimans",
+           "y": "1988",
+           "d": "Revived by his great-grandson, brewed in Hexham"
+          }
+         ],
+         "dt": "brewed ginger beer · 275 ml or 750 ml bottle",
+         "own": "Fentimans",
+         "cty": "United Kingdom",
+         "tier": "Craft & indie",
+         "g": "United Kingdom"
+        }
+       ]
       }
-     ]
+     ],
+     "ax": "by line"
     },
     {
      "n": "Own label",
@@ -11660,635 +12863,10 @@
         }
        ]
       }
-     ]
+     ],
+     "ax": "by line"
     }
    ]
-  },
-  {
-   "n": "Tonic & mixers",
-   "mode": "variety",
-   "note": "Market first: global groups, then national and regional brands by world region, independents, craft and own label.",
-   "b": [
-    {
-     "m": "Bittering and sweetness",
-     "v": "light / slimline · Indian tonic · aromatic · craft",
-     "w": "quinine content and sugar per label; mixer brand comparisons"
-    }
-   ],
-   "t": "Fizzy drinks made to be mixed with spirits, listed by brand and owner; a soda drunk alone → Sodas, and bar syrups → Syrups & cordials.",
-   "ax": "Who sells it: the global groups, then national brands, then independents and craft?",
-   "s": [
-    {
-     "n": "Global groups",
-     "t": "Brands owned by the multinational groups that dominate the category.",
-     "k": [
-      {
-       "n": "The Coca-Cola Company mixer brands",
-       "d": "The mixer brands of The Coca-Cola Company, sectioned by country of origin.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Stoney Ginger Beer",
-         "a": "",
-         "d": "Ginger beer from South Africa; owner The Coca-Cola Company as listed.",
-         "mk": "Stoney Ginger Beer",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger beer",
-         "own": "The Coca-Cola Company",
-         "cty": "South Africa",
-         "g": "South Africa",
-         "tier": "Global group"
-        }
-       ]
-      },
-      {
-       "n": "Keurig Dr Pepper mixer brands",
-       "d": "The mixer brands of Keurig Dr Pepper, sectioned by country of origin.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows the Keurig Dr Pepper page, and 3 brand pages, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Canada Dry",
-         "a": "",
-         "d": "The original dry ginger ale, created by John J. McLaughlin in Toronto.",
-         "mk": "Canada Dry",
-         "y": "1904",
-         "s": "https://en.wikipedia.org/wiki/Canada_Dry",
-         "v": [
-          {
-           "n": "Canada Dry Pale Ginger Ale patent",
-           "mk": "Canada Dry",
-           "y": "1905",
-           "d": ""
-          },
-          {
-           "n": "Map-of-Canada label",
-           "mk": "Canada Dry",
-           "y": "1907",
-           "d": ""
-          },
-          {
-           "n": "Canada Dry Pale Dry Ginger Ale",
-           "mk": "Canada Dry",
-           "y": "1904",
-           "d": "The original dry ginger ale, created by John J. McLaughlin in Toronto."
-          },
-          {
-           "n": "Canada Dry Pale Ginger Ale patent",
-           "mk": "Canada Dry",
-           "y": "1905",
-           "d": ""
-          },
-          {
-           "n": "Map-of-Canada label",
-           "mk": "Canada Dry",
-           "y": "1907",
-           "d": ""
-          }
-         ],
-         "dt": "ginger ale",
-         "own": "Keurig Dr Pepper",
-         "cty": "Canada",
-         "tier": "Global group",
-         "g": "Canada"
-        },
-        {
-         "n": "Sussex Golden Ginger Ale",
-         "a": "",
-         "d": "Ginger ale from Canada; owner Keurig Dr Pepper as listed.",
-         "mk": "Sussex Golden Ginger Ale",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "Keurig Dr Pepper",
-         "cty": "Canada",
-         "g": "Canada",
-         "tier": "Global group"
-        },
-        {
-         "n": "Schweppes",
-         "a": "",
-         "d": "Schweppes' carbonated tonic, described as the first carbonated tonic.",
-         "mk": "Schweppes",
-         "y": "1871",
-         "s": "https://en.wikipedia.org/wiki/Schweppes",
-         "v": [
-          {
-           "n": "Schweppes Tonic Water",
-           "mk": "Schweppes",
-           "y": "1871",
-           "d": "glass, can, PET · regular and diet"
-          },
-          {
-           "n": "Schweppes Bitter Lemon",
-           "mk": "Schweppes",
-           "y": "1957",
-           "d": "Schweppes' bitter lemon, the best-known brand of the drink."
-          },
-          {
-           "n": "Schweppes Ginger Ale",
-           "mk": "Schweppes",
-           "y": "1870",
-           "d": "Schweppes' dry ginger ale."
-          },
-          {
-           "n": "Schweppes Soda Water",
-           "mk": "Schweppes",
-           "y": "1783",
-           "d": "Schweppes' original product, the first commercial carbonated water, made by Johann Jacob Schweppe in Geneva."
-          }
-         ],
-         "dt": "tonic water · glass, can, PET · regular and diet",
-         "own": "Keurig Dr Pepper",
-         "cty": "Switzerland",
-         "g": "Switzerland",
-         "tier": "Global group"
-        },
-        {
-         "n": "Vernors",
-         "a": "",
-         "d": "Golden ginger ale from Detroit pharmacist James Vernor, sold as 'Barrel Aged 3 Years'.",
-         "mk": "Vernors",
-         "y": "1866",
-         "s": "https://en.wikipedia.org/wiki/Vernors",
-         "v": [
-          {
-           "n": "Vernors 1-Calorie (Zero Sugar)",
-           "mk": "Vernors",
-           "y": "1962",
-           "d": ""
-          },
-          {
-           "n": "Black Cherry",
-           "mk": "Vernors",
-           "y": "2022",
-           "d": "limited, Michigan"
-          }
-         ],
-         "dt": "ginger ale",
-         "own": "Keurig Dr Pepper",
-         "cty": "United States",
-         "tier": "Global group",
-         "g": "United States"
-        },
-        {
-         "n": "Canfield's",
-         "a": "",
-         "d": "Soda from United States; owner Keurig Dr Pepper as listed.",
-         "mk": "Canfield's",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "Keurig Dr Pepper",
-         "cty": "United States",
-         "g": "United States",
-         "tier": "Global group"
-        },
-        {
-         "n": "Mr & Mrs T",
-         "a": "",
-         "d": "Beverage mixers from United States; owner Keurig Dr Pepper as listed.",
-         "mk": "Mr & Mrs T",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper",
-         "v": [],
-         "dt": "cocktail mix",
-         "own": "Keurig Dr Pepper",
-         "cty": "United States",
-         "g": "United States",
-         "tier": "Global group"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "n": "National & regional brands",
-     "t": "Brands that lead or are known in one country or region, with the owner given where a fetched page states it.",
-     "k": [
-      {
-       "n": "National mixer brands: Europe",
-       "d": "Mixer brands from Europe, sectioned by country.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 2 brand pages, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "C&C Club Soda",
-         "a": "",
-         "d": "The original trademarked club soda, made by Cantrell & Cochrane in Dublin.",
-         "mk": "C&C",
-         "y": "1877",
-         "s": "https://en.wikipedia.org/wiki/Club_soda",
-         "v": [],
-         "dt": "soda water & club soda",
-         "own": "",
-         "cty": "Ireland",
-         "g": "Ireland"
-        },
-        {
-         "n": "Gingerino",
-         "a": "",
-         "d": "Bitter ginger beverage from Italy.",
-         "mk": "Gingerino",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "",
-         "cty": "Italy",
-         "g": "Italy"
-        },
-        {
-         "n": "Ingefærøl",
-         "a": "",
-         "d": "Ginger ale from Norway.",
-         "mk": "Ingefærøl",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "",
-         "cty": "Norway",
-         "g": "Norway"
-        },
-        {
-         "n": "Stratford Sodas",
-         "a": "",
-         "d": "Mixers from United Kingdom.",
-         "mk": "Stratford Sodas",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "soda water & club soda",
-         "own": "",
-         "cty": "United Kingdom",
-         "g": "United Kingdom"
-        }
-       ]
-      },
-      {
-       "n": "National mixer brands: Latin America & Caribbean",
-       "d": "Mixer brands from Latin America & Caribbean, sectioned by country.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Gengibirra",
-         "a": "",
-         "d": "Lemon and ginger soda from Brazil.",
-         "mk": "Gengibirra",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger beer",
-         "own": "",
-         "cty": "Brazil",
-         "g": "Brazil"
-        },
-        {
-         "n": "Old Jamaica Ginger Beer",
-         "a": "",
-         "d": "Jamaican ginger beer from Desnoes & Geddes.",
-         "mk": "Old Jamaica",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Ginger_beer",
-         "v": [],
-         "dt": "ginger beer",
-         "own": "",
-         "cty": "Jamaica",
-         "g": "Jamaica"
-        }
-       ]
-      },
-      {
-       "n": "National mixer brands: North America",
-       "d": "Mixer brands from North America, sectioned by country.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Northern Neck Ginger Ale",
-         "a": "",
-         "d": "Ginger ale from Virginia from United States.",
-         "mk": "Northern Neck Ginger Ale",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "",
-         "cty": "United States",
-         "g": "United States"
-        },
-        {
-         "n": "Q Mixers",
-         "a": "",
-         "d": "American tonic sweetened only with organic agave nectar, with cinchona-bark quinine.",
-         "mk": "Q Mixers",
-         "y": "",
-         "s": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/q-drinks",
-         "v": [
-          {
-           "n": "Q Tonic",
-           "mk": "Q Mixers",
-           "y": "",
-           "d": "American tonic sweetened only with organic agave nectar, with cinchona-bark quinine."
-          },
-          {
-           "n": "Q Club",
-           "mk": "Q Mixers",
-           "y": "",
-           "d": "Club soda made with Himalayan salt."
-          }
-         ],
-         "dt": "tonic water",
-         "own": "",
-         "cty": "United States",
-         "g": "United States"
-        }
-       ]
-      },
-      {
-       "n": "National mixer brands: Origin not stated",
-       "d": "Mixer brands from Origin not stated, sectioned by country.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 3 brand pages, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Quinine Tonic Water (Pitt & Co.)",
-         "a": "",
-         "d": "The first commercial tonic water, patented by Erasmus Bond of Pitt & Co., London.",
-         "mk": "",
-         "y": "1858",
-         "s": "https://en.wikipedia.org/wiki/Tonic_water",
-         "v": [],
-         "dt": "tonic water · historic",
-         "own": "",
-         "cty": "",
-         "g": "Unplaced"
-        },
-        {
-         "n": "1724 Tonic Water",
-         "a": "",
-         "d": "Premium tonic in 20 cl bottles, named after an Andean elevation of 1,724 m, with cinchona-bark quinine.",
-         "mk": "1724",
-         "y": "",
-         "s": "https://bottleofitaly.com/en/products/acqua-tonica-1724-confezione-20cl-x-24-bottiglie",
-         "v": [],
-         "dt": "tonic water · 20 cl glass",
-         "own": "",
-         "cty": "",
-         "g": "Unplaced"
-        },
-        {
-         "n": "Thomas Henry Tonic Water",
-         "a": "",
-         "d": "Premium mixer brand 'born in bars', making mixers, sodas and lemonades with bartenders.",
-         "mk": "Thomas Henry",
-         "y": "",
-         "s": "https://www.thomas-henry.com/about-us/",
-         "v": [],
-         "dt": "tonic water",
-         "own": "",
-         "cty": "",
-         "g": "Unplaced"
-        }
-       ]
-      }
-     ],
-     "ax": "kinds by world region of the brand"
-    },
-    {
-     "n": "Independents",
-     "t": "Established brands owned by a named company that is not one of the global groups.",
-     "k": [
-      {
-       "n": "Independent mixer brands",
-       "d": "Mixer independent brands (All regions), sectioned by country.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Barritt's Ginger Beer",
-         "a": "",
-         "d": "Ginger beer from Bermuda; owner John Barritt & Son as listed.",
-         "mk": "Barritt's Ginger Beer",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger beer",
-         "own": "John Barritt & Son",
-         "cty": "Bermuda",
-         "g": "Bermuda",
-         "tier": "Independent"
-        },
-        {
-         "n": "Bull's Head",
-         "a": "",
-         "d": "Ginger ale from Canada; owner Breuvages Bull's Head as listed.",
-         "mk": "Bull's Head",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "Breuvages Bull's Head",
-         "cty": "Canada",
-         "g": "Canada",
-         "tier": "Independent"
-        },
-        {
-         "n": "Temagami Dry",
-         "a": "",
-         "d": "Ginger ale and cream soda from Canada; owner Fortier Beverages as listed.",
-         "mk": "Temagami Dry",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "Fortier Beverages",
-         "cty": "Canada",
-         "g": "Canada",
-         "tier": "Independent"
-        },
-        {
-         "n": "Fever-Tree",
-         "a": "",
-         "d": "Premium tonic, Fever-Tree's first product, which spawned a family of flavoured tonics.",
-         "mk": "Fever-Tree",
-         "y": "2005",
-         "s": "https://en.wikipedia.org/wiki/Fever-Tree",
-         "v": [
-          {
-           "n": "Mediterranean Tonic Water",
-           "mk": "Fever-Tree",
-           "y": "2012",
-           "d": "sofi award year"
-          },
-          {
-           "n": "Elderflower Tonic Water",
-           "mk": "Fever-Tree",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Aromatic Tonic Water",
-           "mk": "Fever-Tree",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Fever-Tree Indian Tonic Water",
-           "mk": "Fever-Tree",
-           "y": "2005",
-           "d": "200 ml glass, cans"
-          },
-          {
-           "n": "Mediterranean Tonic Water",
-           "mk": "Fever-Tree",
-           "y": "2012",
-           "d": "sofi award year"
-          },
-          {
-           "n": "Elderflower Tonic Water",
-           "mk": "Fever-Tree",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Aromatic Tonic Water",
-           "mk": "Fever-Tree",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Fever-Tree Ginger Beer",
-           "mk": "Fever-Tree",
-           "y": "",
-           "d": "Premium mixer ginger beer."
-          },
-          {
-           "n": "Fever-Tree Ginger Ale",
-           "mk": "Fever-Tree",
-           "y": "",
-           "d": "Premium mixer ginger ale."
-          },
-          {
-           "n": "Refreshingly Light Ginger Ale",
-           "mk": "Fever-Tree",
-           "y": "2019",
-           "d": ""
-          }
-         ],
-         "dt": "tonic water · 200 ml glass, cans",
-         "own": "Fevertree Drinks plc",
-         "cty": "United Kingdom",
-         "g": "United Kingdom",
-         "os": "https://en.wikipedia.org/wiki/Fever-Tree",
-         "tier": "Independent"
-        },
-        {
-         "n": "Blenheim Ginger Ale",
-         "a": "",
-         "d": "Ginger ale from United States; owner Blenheim Bottlers as listed.",
-         "mk": "Blenheim Ginger Ale",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "Blenheim Bottlers",
-         "cty": "United States",
-         "g": "United States",
-         "tier": "Independent"
-        },
-        {
-         "n": "Bruce Cost Ginger Ale",
-         "a": "",
-         "d": "Ginger ale from United States; owner BCGA Concept Corp as listed.",
-         "mk": "Bruce Cost Ginger Ale",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "BCGA Concept Corp",
-         "cty": "United States",
-         "g": "United States",
-         "tier": "Independent"
-        },
-        {
-         "n": "Buffalo Rock Ginger Ale",
-         "a": "",
-         "d": "Ginger ale from United States; owner Buffalo Rock as listed.",
-         "mk": "Buffalo Rock Ginger Ale",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "ginger ale",
-         "own": "Buffalo Rock",
-         "cty": "United States",
-         "g": "United States",
-         "tier": "Independent"
-        },
-        {
-         "n": "Franklin & Sons Tonic",
-         "a": "",
-         "d": "Premium tonic and mixer brand established by the Franklin family.",
-         "mk": "Franklin & Sons",
-         "y": "1886",
-         "s": "https://globalbrands.co.uk/our-brands/franklin-sons/",
-         "v": [],
-         "dt": "tonic water",
-         "own": "Global Brands",
-         "cty": "United Kingdom",
-         "g": "United Kingdom",
-         "os": "https://globalbrands.co.uk/our-brands/franklin-sons/",
-         "tier": "Independent"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Craft & indie",
-     "t": "Small-batch and new-wave brands named by a fetched craft or independent overview.",
-     "k": [
-      {
-       "n": "Craft and indie mixer brands",
-       "d": "Mixer craft and indie brands, sectioned by country.",
-       "nl": "One entry is a mixer brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Ale-8-One",
-         "a": "",
-         "d": "Ginger-ale soft drink bottled in Winchester, Kentucky and sold mainly in Kentucky.",
-         "mk": "Ale-8-One",
-         "y": "1926",
-         "s": "https://en.wikipedia.org/wiki/Ale-8-One",
-         "own": "Rogers family",
-         "cty": "United States",
-         "tier": "Independent",
-         "g": "United States",
-         "dt": "ginger ale",
-         "os": "https://en.wikipedia.org/wiki/Ale-8-One"
-        }
-       ]
-      }
-     ]
-    }
-   ],
-   "ms": []
   },
   {
    "n": "Juices & smoothies",
@@ -12306,7 +12884,7 @@
      "w": "label; consumer tests (Which?, Consumer Reports)"
     }
    ],
-   "t": "Juice, nectar and juice-drink brands, plain, diluted or blended, listed by owner; a fizzy drink → Sodas, and fruit syrups → Syrups & cordials.",
+   "t": "Juice, nectar, smoothie and juice-drink brands, plus the concentrates, squashes, syrups and cordials made up with water, soda or spirits, listed by owner; a fizzy drink → Sodas.",
    "ax": "Who sells it: the global groups, then national brands, then independents?",
    "s": [
     {
@@ -12745,8 +13323,114 @@
          "tier": "Global group"
         }
        ]
+      },
+      {
+       "n": "Keurig Dr Pepper syrup and cordial brands",
+       "d": "The syrup and cordial brands of Keurig Dr Pepper, sectioned by country of origin.",
+       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Country Time",
+         "a": "",
+         "d": "Drink mix from United States; owner Keurig Dr Pepper as listed.",
+         "mk": "Country Time",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "squash & fruit cordial",
+         "own": "Keurig Dr Pepper",
+         "cty": "United States",
+         "g": "United States",
+         "tier": "Global group"
+        },
+        {
+         "n": "Rose's lime juice",
+         "a": "Rose's · Rose's lime cordial",
+         "d": "Lime juice preserved with sugar instead of alcohol, patented by Lauchlan Rose of Leith in 1867.",
+         "mk": "Rose's",
+         "y": "1867",
+         "s": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice",
+         "v": [
+          {
+           "n": "Sweetened lime juice cordial",
+           "mk": "L. Rose & Co",
+           "y": "1867",
+           "d": "Original concentrate"
+          },
+          {
+           "n": "Lemon cordial",
+           "mk": "Rose's",
+           "y": "",
+           "d": "New Zealand variant"
+          },
+          {
+           "n": "Passion fruit cordial",
+           "mk": "Rose's",
+           "y": "",
+           "d": "South African variant"
+          }
+         ],
+         "dt": "lime cordial · lime · regional flavours · bottle size",
+         "own": "Keurig Dr Pepper",
+         "cty": "United Kingdom",
+         "g": "United Kingdom",
+         "os": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice",
+         "tier": "Global group"
+        }
+       ]
+      },
+      {
+       "n": "Suntory syrup and cordial brands",
+       "d": "The syrup and cordial brands of Suntory, sectioned by country of origin.",
+       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Ribena",
+         "a": "",
+         "d": "Blackcurrant cordial developed in Bristol in 1933 and sold as a vitamin C-rich squash.",
+         "mk": "Ribena",
+         "y": "1933",
+         "s": "https://en.wikipedia.org/wiki/Ribena",
+         "v": [
+          {
+           "n": "Blackcurrant squash",
+           "mk": "H.W. Carter & Co",
+           "y": "1938",
+           "d": "Original cordial, named 1938"
+          },
+          {
+           "n": "Ribena Toothkind",
+           "mk": "Ribena",
+           "y": "2001",
+           "d": "Dental-association-endorsed formulation"
+          },
+          {
+           "n": "Sparkling Ribena",
+           "mk": "Ribena",
+           "y": "2011",
+           "d": "Discontinued 2014, returned 2020"
+          },
+          {
+           "n": "Sweetened reformulation",
+           "mk": "Ribena",
+           "y": "2018",
+           "d": "UK recipe with sweeteners after the sugar tax"
+          }
+         ],
+         "dt": "squash & fruit cordial · blackcurrant · other berry flavours · concentrate or ready-to-drink",
+         "own": "Suntory",
+         "cty": "United Kingdom",
+         "tier": "Global group",
+         "g": "United Kingdom"
+        }
+       ]
       }
-     ]
+     ],
+     "ax": "by owner group, each group's lines in turn (soda, mixer, fermented; juice, cordial)"
     },
     {
      "n": "National & regional brands",
@@ -12931,6 +13615,125 @@
          "cty": "United States",
          "g": "United States",
          "own_y": "2022"
+        }
+       ]
+      },
+      {
+       "n": "National syrup and cordial brands: South & Southeast Asia",
+       "d": "Syrup and cordial brands from South & Southeast Asia, sectioned by country.",
+       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Rasna",
+         "a": "",
+         "d": "Powdered drink from India.",
+         "mk": "Rasna",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "powdered drink mix",
+         "own": "",
+         "cty": "India",
+         "g": "India"
+        },
+        {
+         "n": "Nutrisari",
+         "a": "",
+         "d": "Powdered drink from Indonesia.",
+         "mk": "Nutrisari",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "powdered drink mix",
+         "own": "",
+         "cty": "Indonesia",
+         "g": "Indonesia"
+        }
+       ]
+      },
+      {
+       "n": "National syrup and cordial brands: Europe",
+       "d": "Syrup and cordial brands from Europe, sectioned by country.",
+       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 4 brand pages, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Brottrunk",
+         "a": "",
+         "d": "Bread-based drink from Germany.",
+         "mk": "Brottrunk",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "sharbat & rose syrup",
+         "own": "",
+         "cty": "Germany",
+         "g": "Germany"
+        },
+        {
+         "n": "Belvoir elderflower cordial",
+         "a": "Belvoir Farm",
+         "d": "Leicestershire farmhouse elderflower cordial first bottled in 1984 from Mary Manners' home recipe.",
+         "mk": "Belvoir Farm",
+         "y": "1984",
+         "s": "https://www.greatbritishchefs.com/features/belvoir-farm-elderflower-cordial",
+         "v": [
+          {
+           "n": "Elderflower cordial",
+           "mk": "Belvoir Farm",
+           "y": "1984",
+           "d": "Flagship cordial"
+          },
+          {
+           "n": "Sparkling elderflower",
+           "mk": "Belvoir Farm",
+           "y": "",
+           "d": "Ready-mixed, in cans"
+          }
+         ],
+         "dt": "elderflower & botanical cordial · cordial or pressé · elderflower and fruit blends",
+         "own": "Belvoir Farm",
+         "cty": "United Kingdom",
+         "g": "United Kingdom",
+         "tier": "Independent"
+        },
+        {
+         "n": "Shloer",
+         "a": "",
+         "d": "Fruit drink from United Kingdom.",
+         "mk": "Shloer",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+         "v": [],
+         "dt": "squash & fruit cordial",
+         "own": "",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        }
+       ]
+      },
+      {
+       "n": "National syrup and cordial brands: Origin not stated",
+       "d": "Syrup and cordial brands from Origin not stated, sectioned by country.",
+       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
+       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
+       "xg": "country of the brand",
+       "x": [
+        {
+         "n": "Phillips of Bristol Shrub",
+         "a": "",
+         "d": "Proprietary shrub cordial developed by J. R. Phillips of Bristol and still sold.",
+         "mk": "",
+         "y": "20th century",
+         "s": "https://en.wikipedia.org/wiki/Shrub_(drink)",
+         "v": [],
+         "dt": "drinking vinegar & shrub",
+         "own": "",
+         "cty": "",
+         "g": "Unplaced"
         }
        ]
       }
@@ -13330,267 +14133,7 @@
          "tier": "Independent"
         }
        ]
-      }
-     ]
-    }
-   ],
-   "ms": []
-  },
-  {
-   "n": "Syrups & cordials",
-   "mode": "mixed",
-   "note": "Market first: global groups, then national and regional brands by world region, independents, craft and own label.",
-   "b": [
-    {
-     "m": "Fruit content and sweetener",
-     "v": "no-added-sugar · standard · high-juice",
-     "w": "label; UK squash market terms"
-    }
-   ],
-   "t": "Concentrates, squashes, syrups and powders made up with water, soda or spirits, listed by brand and owner; a ready-to-drink soda → Sodas.",
-   "ax": "Who sells it: the global groups, then national brands, then independents?",
-   "s": [
-    {
-     "n": "Global groups",
-     "t": "Brands owned by the multinational groups that dominate the category.",
-     "k": [
-      {
-       "n": "Keurig Dr Pepper syrup and cordial brands",
-       "d": "The syrup and cordial brands of Keurig Dr Pepper, sectioned by country of origin.",
-       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Country Time",
-         "a": "",
-         "d": "Drink mix from United States; owner Keurig Dr Pepper as listed.",
-         "mk": "Country Time",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "squash & fruit cordial",
-         "own": "Keurig Dr Pepper",
-         "cty": "United States",
-         "g": "United States",
-         "tier": "Global group"
-        },
-        {
-         "n": "Rose's lime juice",
-         "a": "Rose's · Rose's lime cordial",
-         "d": "Lime juice preserved with sugar instead of alcohol, patented by Lauchlan Rose of Leith in 1867.",
-         "mk": "Rose's",
-         "y": "1867",
-         "s": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice",
-         "v": [
-          {
-           "n": "Sweetened lime juice cordial",
-           "mk": "L. Rose & Co",
-           "y": "1867",
-           "d": "Original concentrate"
-          },
-          {
-           "n": "Lemon cordial",
-           "mk": "Rose's",
-           "y": "",
-           "d": "New Zealand variant"
-          },
-          {
-           "n": "Passion fruit cordial",
-           "mk": "Rose's",
-           "y": "",
-           "d": "South African variant"
-          }
-         ],
-         "dt": "lime cordial · lime · regional flavours · bottle size",
-         "own": "Keurig Dr Pepper",
-         "cty": "United Kingdom",
-         "g": "United Kingdom",
-         "os": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice",
-         "tier": "Global group"
-        }
-       ]
       },
-      {
-       "n": "Suntory syrup and cordial brands",
-       "d": "The syrup and cordial brands of Suntory, sectioned by country of origin.",
-       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Ribena",
-         "a": "",
-         "d": "Blackcurrant cordial developed in Bristol in 1933 and sold as a vitamin C-rich squash.",
-         "mk": "Ribena",
-         "y": "1933",
-         "s": "https://en.wikipedia.org/wiki/Ribena",
-         "v": [
-          {
-           "n": "Blackcurrant squash",
-           "mk": "H.W. Carter & Co",
-           "y": "1938",
-           "d": "Original cordial, named 1938"
-          },
-          {
-           "n": "Ribena Toothkind",
-           "mk": "Ribena",
-           "y": "2001",
-           "d": "Dental-association-endorsed formulation"
-          },
-          {
-           "n": "Sparkling Ribena",
-           "mk": "Ribena",
-           "y": "2011",
-           "d": "Discontinued 2014, returned 2020"
-          },
-          {
-           "n": "Sweetened reformulation",
-           "mk": "Ribena",
-           "y": "2018",
-           "d": "UK recipe with sweeteners after the sugar tax"
-          }
-         ],
-         "dt": "squash & fruit cordial · blackcurrant · other berry flavours · concentrate or ready-to-drink",
-         "own": "Suntory",
-         "cty": "United Kingdom",
-         "tier": "Global group",
-         "g": "United Kingdom"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "n": "National & regional brands",
-     "t": "Brands that lead or are known in one country or region, with the owner given where a fetched page states it.",
-     "k": [
-      {
-       "n": "National syrup and cordial brands: South & Southeast Asia",
-       "d": "Syrup and cordial brands from South & Southeast Asia, sectioned by country.",
-       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Rasna",
-         "a": "",
-         "d": "Powdered drink from India.",
-         "mk": "Rasna",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "powdered drink mix",
-         "own": "",
-         "cty": "India",
-         "g": "India"
-        },
-        {
-         "n": "Nutrisari",
-         "a": "",
-         "d": "Powdered drink from Indonesia.",
-         "mk": "Nutrisari",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "powdered drink mix",
-         "own": "",
-         "cty": "Indonesia",
-         "g": "Indonesia"
-        }
-       ]
-      },
-      {
-       "n": "National syrup and cordial brands: Europe",
-       "d": "Syrup and cordial brands from Europe, sectioned by country.",
-       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 4 brand pages, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Brottrunk",
-         "a": "",
-         "d": "Bread-based drink from Germany.",
-         "mk": "Brottrunk",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "sharbat & rose syrup",
-         "own": "",
-         "cty": "Germany",
-         "g": "Germany"
-        },
-        {
-         "n": "Belvoir elderflower cordial",
-         "a": "Belvoir Farm",
-         "d": "Leicestershire farmhouse elderflower cordial first bottled in 1984 from Mary Manners' home recipe.",
-         "mk": "Belvoir Farm",
-         "y": "1984",
-         "s": "https://www.greatbritishchefs.com/features/belvoir-farm-elderflower-cordial",
-         "v": [
-          {
-           "n": "Elderflower cordial",
-           "mk": "Belvoir Farm",
-           "y": "1984",
-           "d": "Flagship cordial"
-          },
-          {
-           "n": "Sparkling elderflower",
-           "mk": "Belvoir Farm",
-           "y": "",
-           "d": "Ready-mixed, in cans"
-          }
-         ],
-         "dt": "elderflower & botanical cordial · cordial or pressé · elderflower and fruit blends",
-         "own": "Belvoir Farm",
-         "cty": "United Kingdom",
-         "g": "United Kingdom",
-         "tier": "Independent"
-        },
-        {
-         "n": "Shloer",
-         "a": "",
-         "d": "Fruit drink from United Kingdom.",
-         "mk": "Shloer",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "squash & fruit cordial",
-         "own": "",
-         "cty": "United Kingdom",
-         "g": "United Kingdom"
-        }
-       ]
-      },
-      {
-       "n": "National syrup and cordial brands: Origin not stated",
-       "d": "Syrup and cordial brands from Origin not stated, sectioned by country.",
-       "nl": "One entry is a syrup and cordial brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Phillips of Bristol Shrub",
-         "a": "",
-         "d": "Proprietary shrub cordial developed by J. R. Phillips of Bristol and still sold.",
-         "mk": "",
-         "y": "20th century",
-         "s": "https://en.wikipedia.org/wiki/Shrub_(drink)",
-         "v": [],
-         "dt": "drinking vinegar & shrub",
-         "own": "",
-         "cty": "",
-         "g": "Unplaced"
-        }
-       ]
-      }
-     ],
-     "ax": "kinds by world region of the brand"
-    },
-    {
-     "n": "Independents",
-     "t": "Established brands owned by a named company that is not one of the global groups.",
-     "k": [
       {
        "n": "Independent syrup and cordial brands",
        "d": "Syrup and cordial independent brands (All regions), sectioned by country.",
@@ -13872,672 +14415,8 @@
         }
        ]
       }
-     ]
-    }
-   ],
-   "ms": []
-  },
-  {
-   "n": "Fermented soft drinks",
-   "mode": "variety",
-   "note": "Market first: global groups, then national and regional brands by world region, independents, craft and own label.",
-   "b": [
-    {
-     "m": "Live cultures",
-     "v": "pasteurised · raw / unpasteurised · added probiotic",
-     "w": "label; producer information"
-    },
-    {
-     "m": "Residual alcohol",
-     "v": "<0.5% ABV soft drink · above (alcoholic, J7)",
-     "w": "legal soft-drink threshold in UK/EU/US"
-    }
-   ],
-   "t": "Drinks soured or flavoured by fermentation and sold as non-alcoholic, listed by brand and owner; a brewed soda with no live ferment → Sodas.",
-   "ax": "Who sells it: national and regional brands, then independents and craft?",
-   "s": [
-    {
-     "n": "Global groups",
-     "t": "Brands owned by the multinational groups that dominate the category.",
-     "k": [
-      {
-       "n": "The Coca-Cola Company fermented drink brands",
-       "d": "The fermented drink brands of The Coca-Cola Company, sectioned by country of origin.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of Coca-Cola brands\", as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Kruzhka i bochka",
-         "a": "",
-         "d": "Kvass from Russia; owner The Coca-Cola Company as listed.",
-         "mk": "Kruzhka i bochka",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_Coca-Cola_brands",
-         "v": [],
-         "dt": "kvass",
-         "own": "The Coca-Cola Company",
-         "cty": "Russia",
-         "g": "Russia",
-         "tier": "Global group"
-        }
-       ]
-      },
-      {
-       "n": "Suntory fermented drink brands",
-       "d": "The fermented drink brands of Suntory, sectioned by country of origin.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Bikkle",
-         "a": "",
-         "d": "Yogurt drink from Japan.",
-         "mk": "Bikkle",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "lactic soft drink",
-         "own": "Suntory",
-         "cty": "Japan",
-         "g": "Japan",
-         "os": "https://www.wikidata.org/wiki/Q4907422",
-         "tier": "Global group"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "n": "National & regional brands",
-     "t": "Brands that lead or are known in one country or region, with the owner given where a fetched page states it.",
-     "k": [
-      {
-       "n": "National fermented drink brands: Africa",
-       "d": "Fermented drink brands from Africa, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "King Malta",
-         "a": "",
-         "d": "Malt drink from South Africa.",
-         "mk": "King Malta",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "malta & malt soft drink",
-         "own": "",
-         "cty": "South Africa",
-         "g": "South Africa"
-        }
-       ]
-      },
-      {
-       "n": "National fermented drink brands: South & Southeast Asia",
-       "d": "Fermented drink brands from South & Southeast Asia, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Malt",
-         "a": "",
-         "d": "Malt soda from Pakistan.",
-         "mk": "Malt",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "malta & malt soft drink",
-         "own": "",
-         "cty": "Pakistan",
-         "g": "Pakistan"
-        }
-       ]
-      },
-      {
-       "n": "National fermented drink brands: Middle East",
-       "d": "Fermented drink brands from Middle East, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Vefa boza",
-         "a": "Vefa Bozacısı",
-         "d": "Thick, tart Istanbul boza from the shop founded in 1876, the reference Turkish style.",
-         "mk": "Vefa",
-         "y": "1876",
-         "s": "https://en.wikipedia.org/wiki/Boza",
-         "v": [],
-         "dt": "boza · served with cinnamon and roasted chickpeas · bottled",
-         "own": "",
-         "cty": "Turkey",
-         "g": "Turkey"
-        }
-       ]
-      },
-      {
-       "n": "National fermented drink brands: Europe",
-       "d": "Fermented drink brands from Europe, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 2 brand pages, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Lattella",
-         "a": "",
-         "d": "Whey-based juice drink from Austria.",
-         "mk": "Lattella",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "lactic soft drink",
-         "own": "",
-         "cty": "Austria",
-         "g": "Austria"
-        },
-        {
-         "n": "Airan",
-         "a": "",
-         "d": "Yogurt and water drink from Bulgaria.",
-         "mk": "Airan",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "lactic soft drink",
-         "own": "",
-         "cty": "Bulgaria",
-         "g": "Bulgaria"
-        },
-        {
-         "n": "Malt Extrakt",
-         "a": "",
-         "d": "Malt drink from Iceland.",
-         "mk": "Malt Extrakt",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "malta & malt soft drink",
-         "own": "",
-         "cty": "Iceland",
-         "g": "Iceland"
-        },
-        {
-         "n": "Gira",
-         "a": "",
-         "d": "Kvass from Lithuania.",
-         "mk": "Gira",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "kvass",
-         "own": "",
-         "cty": "Lithuania",
-         "g": "Lithuania"
-        },
-        {
-         "n": "NiCola",
-         "a": "",
-         "d": "Kvass from Russia.",
-         "mk": "NiCola",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "kvass",
-         "own": "",
-         "cty": "Russia",
-         "g": "Russia"
-        },
-        {
-         "n": "Nikola kvass",
-         "a": "Никола",
-         "d": "Russia's best-selling kvass brand, with about 39% of the market in 2014.",
-         "mk": "Deka",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Kvass",
-         "v": [],
-         "dt": "kvass · bottle size",
-         "own": "",
-         "cty": "Russia",
-         "g": "Russia"
-        },
-        {
-         "n": "Ochakovskiy",
-         "a": "",
-         "d": "Kvass from Russia.",
-         "mk": "Ochakovskiy",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "kvass",
-         "own": "",
-         "cty": "Russia",
-         "g": "Russia"
-        },
-        {
-         "n": "Russkiy dar",
-         "a": "",
-         "d": "Kvass from Russia.",
-         "mk": "Russkiy dar",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "kvass",
-         "own": "",
-         "cty": "Russia",
-         "g": "Russia"
-        },
-        {
-         "n": "Rivella",
-         "a": "",
-         "d": "Milk-whey soft drink from Switzerland; owner Rivella SA as listed.",
-         "mk": "Rivella",
-         "y": "1952",
-         "s": "https://en.wikipedia.org/wiki/Rivella",
-         "v": [
-          {
-           "n": "Red",
-           "mk": "Rivella",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Blue",
-           "mk": "Rivella",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Green Tea",
-           "mk": "Rivella",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Refresh",
-           "mk": "Rivella",
-           "y": "",
-           "d": "2018"
-          },
-          {
-           "n": "Grapefruit",
-           "mk": "Rivella",
-           "y": "",
-           "d": "2021"
-          },
-          {
-           "n": "Swiss Mint",
-           "mk": "Rivella",
-           "y": "",
-           "d": "2021"
-          }
-         ],
-         "dt": "lactic soft drink",
-         "own": "Rivella SA",
-         "cty": "Switzerland",
-         "g": "Switzerland",
-         "tier": "National champion",
-         "role": "landmark"
-        },
-        {
-         "n": "Nycha Kombucha",
-         "a": "",
-         "d": "Kombucha from Switzerland.",
-         "mk": "Nycha Kombucha",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "kombucha",
-         "own": "",
-         "cty": "Switzerland",
-         "g": "Switzerland"
-        }
-       ]
-      },
-      {
-       "n": "National fermented drink brands: Latin America & Caribbean",
-       "d": "Fermented drink brands from Latin America & Caribbean, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Malta India",
-         "a": "",
-         "d": "Puerto Rican malta brewed in Mayagüez, popular across the Caribbean.",
-         "mk": "Compañía Cervecera de Puerto Rico",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Malta_(soft_drink)",
-         "v": [],
-         "dt": "malta & malt soft drink · bottle or can",
-         "own": "",
-         "cty": "Puerto Rico",
-         "g": "Puerto Rico"
-        }
-       ]
-      },
-      {
-       "n": "National fermented drink brands: Oceania",
-       "d": "Fermented drink brands from Oceania, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Remedy Kombucha",
-         "a": "Remedy",
-         "d": "Sugar-free organic kombucha brewed in Melbourne and exported to some 20 countries.",
-         "mk": "Remedy Drinks",
-         "y": "2012",
-         "s": "https://austrade.gov.au/en/news-and-analysis/news/remedy-drinks-brews-export-success",
-         "v": [
-          {
-           "n": "Kombucha",
-           "mk": "Remedy Drinks",
-           "y": "2012",
-           "d": "Founding product, kitchen-bench brewed by Sarah and Emmet Condon"
-          },
-          {
-           "n": "Remedy Sodaly",
-           "mk": "Remedy Drinks",
-           "y": "",
-           "d": "Prebiotic soft drink spin-off"
-          }
-         ],
-         "dt": "kombucha · flavour · can or bottle",
-         "own": "",
-         "cty": "Australia",
-         "g": "Australia"
-        }
-       ]
-      },
-      {
-       "n": "National fermented drink brands: Origin not stated",
-       "d": "Fermented drink brands from Origin not stated, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 2 brand pages, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Kwas chlebowy sapieżyński",
-         "a": "Kodeń kvass",
-         "d": "Historic Polish bread kvass from Kodeń whose recipe dates to the 1500s.",
-         "mk": "",
-         "y": "1500s",
-         "s": "https://en.wikipedia.org/wiki/Kvass",
-         "v": [],
-         "dt": "kvass · bottle",
-         "own": "",
-         "cty": "",
-         "g": "Unplaced"
-        },
-        {
-         "n": "Fassbrause",
-         "a": "",
-         "d": "Berlin fruit-and-malt-extract drink invented by Ludwig Scholvien; the name is not protected, so many brewery versions exist.",
-         "mk": "",
-         "y": "1908",
-         "s": "https://en.wikipedia.org/wiki/Fassbrause",
-         "v": [
-          {
-           "n": "Rixdorfer Fassbrause",
-           "mk": "",
-           "y": "",
-           "d": "Berliner Kindl Brauerei"
-          },
-          {
-           "n": "Gaffels Fassbrause",
-           "mk": "",
-           "y": "",
-           "d": "Gaffel Becker & Co"
-          }
-         ],
-         "own": "",
-         "cty": "",
-         "g": "Unplaced",
-         "dt": "malta & malt soft drink"
-        }
-       ]
-      }
      ],
-     "ax": "kinds by world region of the brand"
-    },
-    {
-     "n": "Independents",
-     "t": "Established brands owned by a named company that is not one of the global groups.",
-     "k": [
-      {
-       "n": "Independent fermented drink brands",
-       "d": "Fermented drink independent brands (All regions), sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows \"List of soft drinks by country\", and 3 brand pages, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Bundaberg Ginger Beer",
-         "a": "Bundy ginger beer",
-         "d": "Non-alcoholic brewed ginger beer from Bundaberg, Queensland, the brand's flagship.",
-         "mk": "Bundaberg",
-         "y": "1960",
-         "s": "https://en.wikipedia.org/wiki/Bundaberg_Brewed_Drinks",
-         "v": [
-          {
-           "n": "Ginger Beer",
-           "mk": "Bundaberg",
-           "y": "",
-           "d": "Flagship"
-          },
-          {
-           "n": "Diet Ginger Beer",
-           "mk": "Bundaberg",
-           "y": "",
-           "d": "Diet range"
-          },
-          {
-           "n": "Spiced Ginger Beer",
-           "mk": "Bundaberg",
-           "y": "2014",
-           "d": "Seasonal"
-          }
-         ],
-         "dt": "brewed ginger beer · bottle size · regular, diet or spiced",
-         "own": "Bundaberg family-owned",
-         "cty": "Australia",
-         "tier": "Independent",
-         "g": "Australia"
-        },
-        {
-         "n": "Pony Malta",
-         "a": "",
-         "d": "Malt beverage from Colombia; owner Postobón as listed.",
-         "mk": "Pony Malta",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "malta & malt soft drink",
-         "own": "Postobón",
-         "cty": "Colombia",
-         "g": "Colombia",
-         "tier": "Independent"
-        },
-        {
-         "n": "Supermalt",
-         "a": "",
-         "d": "Caffeine-free malt drink first developed for the Nigerian Army, now made in Denmark.",
-         "mk": "Royal Unibrew",
-         "y": "1972",
-         "s": "https://en.wikipedia.org/wiki/Supermalt",
-         "v": [],
-         "dt": "malta & malt soft drink · bottle or can",
-         "own": "Royal Unibrew",
-         "cty": "Denmark",
-         "tier": "Independent",
-         "g": "Denmark"
-        },
-        {
-         "n": "Khlebnyy kray",
-         "a": "",
-         "d": "Kvass from Russia; owner Carlsberg Group as listed.",
-         "mk": "Khlebnyy kray",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "kvass",
-         "own": "Carlsberg Group",
-         "cty": "Russia",
-         "g": "Russia",
-         "tier": "Independent"
-        },
-        {
-         "n": "Milkis",
-         "a": "",
-         "d": "South Korean carbonated soft drink of sugar, soda water and milk; not fermented.",
-         "mk": "Lotte Chilsung",
-         "y": "1989",
-         "s": "https://en.wikipedia.org/wiki/Milkis",
-         "own": "Lotte Chilsung",
-         "cty": "South Korea",
-         "tier": "Independent",
-         "g": "South Korea",
-         "dt": "lactic soft drink"
-        },
-        {
-         "n": "Calpis / Calpico",
-         "a": "",
-         "d": "Japanese lactic-fermented milk beverage sold as a concentrate; named Calpico in North America.",
-         "mk": "Calpis",
-         "y": "1919",
-         "s": "https://en.wikipedia.org/wiki/Calpis",
-         "v": [
-          {
-           "n": "Calpis Water",
-           "mk": "Calpis",
-           "y": "",
-           "d": "pre-diluted drink"
-          },
-          {
-           "n": "Calpis Soda",
-           "mk": "Calpis",
-           "y": "",
-           "d": "carbonated version"
-          }
-         ],
-         "own": "Asahi Breweries",
-         "cty": "Japan",
-         "g": "Japan",
-         "dt": "lactic soft drink",
-         "os": "https://en.wikipedia.org/wiki/Calpis",
-         "tier": "Independent"
-        },
-        {
-         "n": "Calpis Soda",
-         "a": "",
-         "d": "Carbonated Calpis from Japan.",
-         "mk": "Calpis Soda",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
-         "v": [],
-         "dt": "lactic soft drink",
-         "own": "Asahi Breweries",
-         "cty": "Japan",
-         "g": "Japan",
-         "os": "https://en.wikipedia.org/wiki/Calpis",
-         "tier": "Independent"
-        },
-        {
-         "n": "GT's Kombucha",
-         "a": "GT's Living Foods",
-         "d": "Los Angeles-brewed kombucha that built the US bottled market and holds about 40% of it.",
-         "mk": "GT's Living Foods",
-         "y": "1995",
-         "s": "https://en.wikipedia.org/wiki/GT%27s_Living_Foods",
-         "v": [
-          {
-           "n": "First sale to Erewhon Natural Foods",
-           "mk": "GT's Living Foods",
-           "y": "1995",
-           "d": "George Thomas Dave's first commercial kombucha"
-          },
-          {
-           "n": "Whole Foods distribution",
-           "mk": "GT's Living Foods",
-           "y": "1997",
-           "d": "Gardena brewery opened"
-          }
-         ],
-         "dt": "kombucha · flavour · glass bottle",
-         "own": "GT Dave",
-         "cty": "United States",
-         "g": "United States",
-         "os": "https://en.wikipedia.org/wiki/GT%27s_Living_Foods",
-         "tier": "Independent"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Craft & indie",
-     "t": "Small-batch and new-wave brands named by a fetched craft or independent overview.",
-     "k": [
-      {
-       "n": "Craft and indie fermented drink brands",
-       "d": "Fermented drink craft and indie brands, sectioned by country.",
-       "nl": "One entry is a fermented drink brand sold under its own name; its flavours, diet and zero-sugar versions and sizes are versions.",
-       "sel": "Follows Wikipedia \"List of soft drinks by country\" and the Coca-Cola, PepsiCo and Keurig Dr Pepper brand lists, fetched 2026-10-31. Every listed brand in scope is included once in this department, in the shelf of its stated owner; flavours and variants are versions. Where no page states the owner it is left blank. Discontinued brands and generic drink names are left out. No complete list exists; follows 1 brand page, as the entries cite them.",
-       "xg": "country of the brand",
-       "x": [
-        {
-         "n": "Fentimans",
-         "a": "",
-         "d": "Botanically brewed English ginger beer fermented from milled ginger root in wooden vats.",
-         "mk": "Fentimans",
-         "y": "1905",
-         "s": "https://en.wikipedia.org/wiki/Fentimans",
-         "v": [
-          {
-           "n": "Original recipe",
-           "mk": "Fentimans",
-           "y": "1905",
-           "d": "Recipe acquired by Thomas Fentiman, Cleckheaton"
-          },
-          {
-           "n": "Re-established brand",
-           "mk": "Fentimans",
-           "y": "1988",
-           "d": "Revived by his great-grandson, brewed in Hexham"
-          },
-          {
-           "n": "Fentimans Traditional Ginger Beer",
-           "mk": "Fentimans",
-           "y": "1905",
-           "d": "275 ml or 750 ml bottle"
-          },
-          {
-           "n": "Original recipe",
-           "mk": "Fentimans",
-           "y": "1905",
-           "d": "Recipe acquired by Thomas Fentiman, Cleckheaton"
-          },
-          {
-           "n": "Re-established brand",
-           "mk": "Fentimans",
-           "y": "1988",
-           "d": "Revived by his great-grandson, brewed in Hexham"
-          }
-         ],
-         "dt": "brewed ginger beer · 275 ml or 750 ml bottle",
-         "own": "Fentimans",
-         "cty": "United Kingdom",
-         "tier": "Craft & indie",
-         "g": "United Kingdom"
-        }
-       ]
-      }
-     ]
+     "ax": "by line, then by world region"
     }
    ],
    "ms": []
@@ -17558,14 +17437,11 @@
  "ax": "What is the drink: water, a flavoured soda, a mixer for spirits, a juice, a concentrate to dilute, a fermented drink, a drink for energy or training, or ready-made coffee and tea?",
  "key": [
   "1. Is it water, with or without gas, minerals or flavour added, or ice? → Water",
-  "2. Is it a sweet flavoured fizzy drink drunk on its own (cola, lemon-lime, root beer, cream soda)? → Sodas",
-  "3. Is it a fizzy drink sold to mix with spirits (tonic, ginger beer, soda water, cocktail mix)? → Tonic & mixers",
-  "4. Is it pressed fruit or vegetable juice, a nectar, a smoothie or coconut water? → Juices & smoothies",
-  "5. Is it a concentrate, syrup or powder made up with water, soda or spirits? → Syrups & cordials",
-  "6. Is it a drink soured or made by fermentation (kombucha, kvass, boza, water kefir)? → Fermented soft drinks",
-  "7. Is it sold for caffeine, hydration, protein, vitamins or plant extracts? → Energy & sports drinks",
-  "8. Is it brewed coffee, tea or mate in a bottle or can? → Ready-to-drink coffee & tea",
-  "<i>Precedence: fermented drinks (step 6) before sodas, so a brewed ginger beer sold to drink alone is fermented while a carbonated ginger mixer is a mixer (step 3); a drink sold for a body effect (step 7) before a soda; a juice drink is a juice (step 4) even when sold in a pouch.</i>"
+  "2. Is it a fizzy or fermented soft drink: a soda drunk alone (cola, lemon-lime, root beer), a tonic or mixer for spirits, or a drink made by fermentation (kombucha, kvass, boza, water kefir)? → Sodas",
+  "3. Is it pressed fruit or vegetable juice, a nectar, a smoothie or coconut water, or a concentrate, syrup or cordial made up with water, soda or spirits? → Juices & smoothies",
+  "4. Is it sold for caffeine, hydration, protein, vitamins or plant extracts? → Energy & sports drinks",
+  "5. Is it brewed coffee, tea or mate in a bottle or can? → Ready-to-drink coffee & tea",
+  "<i>Precedence: a drink sold for a body effect (energy, sports, protein) is Energy & sports before Sodas; a juice drink is a juice even when sold in a pouch.</i>"
  ],
  "rg": [
   {

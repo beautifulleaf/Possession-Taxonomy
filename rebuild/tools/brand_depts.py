@@ -33,6 +33,7 @@ RENAMED = {**{n: 'Wine' for n in ('Wine of France', 'Wine of Italy', 'Wine of Sp
     'Wine of Turkey, the Caucasus & the Levant', 'Wine of the United States', 'Wine of Canada & Mexico', 'Wine of South America',
     'Wine of South Africa', 'Wine of Australia & New Zealand', 'Wine of England & Wales', 'Wine of China, Japan & India',
     'Wine styles across countries')}, 'No & low alcohol': 'Beer'}
+DR = json.load(open(f'{W}/../DEPT_RENAMES.json')) if os.path.exists(f'{W}/../DEPT_RENAMES.json') else {}  # tools/merge_depts.py
 for c in cats:
     tree = json.load(open(f'{R}/out/{c}.json')); B = json.load(open(f'{R}/out/{c}_brands.json'))['b']
     named, exact, vocab = {}, {}, []
@@ -76,7 +77,7 @@ for c in cats:
                     how = 'words'
         if hit and how == 'words': hit = (hit[0], '')  # word overlap is reliable for the department, not the kind
         if not hit and (c, n) in BULK:
-            dn = RENAMED.get(BULK[(c, n)], BULK[(c, n)])
+            dn = RENAMED.get(BULK[(c, n)], BULK[(c, n)]); dn = DR.get(c, {}).get(dn, dn)
             if dn in {x['n'] for x in tree['depts']}: hit = (dn, ''); how = 'bulk'
         if hit: out[n] = [hit[0], hit[1], how]; cnt[how] += 1
         else: left.append(f'{c}\t{n}\t{kf[:50]}\t{note[:80]}'); cnt['left'] += 1

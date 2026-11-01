@@ -155,3 +155,6 @@ Each category's brands are grouped by the department of its own tree where their
 
 ## Wine in one department (owner, 2026-11-01)
 "The wine sections being spread across multiple different pages is unnecessary." J7's sixteen "Wine of …" departments and "Wine styles across countries" are one department, Wine, with the country regions as shelves (prefixed with the country where needed) and the cross-country styles last; Grape varieties stays a separate look-up department (rebuild/tools/merge_wine.py).
+
+## J9 departments folded (owner, 2026-11-01)
+"Integrate 'tonic & mixers' and 'fermented soft drinks' into soda, and 'syrups and cordials' into juice." Their kinds joined the matching market-layer shelves of Sodas and Juices & smoothies; the key and descriptions were rewritten (rebuild/tools/merge_depts.py, reusable for later folds; old→new names in rebuild/work/DEPT_RENAMES.json so filed brands follow).
