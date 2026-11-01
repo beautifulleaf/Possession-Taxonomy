@@ -1,0 +1,6 @@
+Batch BRANDSORT (coordinator, 2026-11-01). Working directory /home/user/Possession-Taxonomy. No web access; never run git.
+Input: verify/work/BRANDSORT/batch<N>.tsv. Each category starts with a line "## <CAT>  departments: 1=Name | 2=Name | ...", followed by brand lines: CAT<TAB>brand<TAB>known-for<TAB>note.
+Task: for each brand, choose the ONE department of its category where a shopper would look for that brand's main product in this category. Use known-for and note first, your general knowledge second. If nothing fits at all (a corporate owner, a person, a shop with no product of this category, an obvious mis-tag), answer 0.
+Output verify/work/BRANDSORT/out<N>.tsv: one line per brand, CAT<TAB>brand<TAB>department number. Nothing else: no reasons, no header. Copy the brand name exactly.
+Work with a python script reading the file in chunks of about 300 brands, deciding each chunk yourself, appending lines as you go (write the file incrementally).
+RESUME RULE: if out<N>.tsv exists, continue after its last brand. Helper files only in verify/work/BRANDSORT/. Final report under 80 words: counts per category and how many 0s.

@@ -83,7 +83,7 @@ for c in sys.argv[1:]:
     json.dump(applied, open('moves_applied.json', 'w'))
 json.dump(done, open('done.json', 'w'))
 # registers from all done categories
-B = {}; T = {}
+B = {}; T = {}; DEPTS = {}
 # coordinator: same-name brands that are different companies get distinct names per category (work/_clash/map.tsv)
 CLASH = {}
 if os.path.exists('work/_clash/map.tsv'):
@@ -92,6 +92,7 @@ if os.path.exists('work/_clash/map.tsv'):
         if len(f) >= 5: CLASH[(f[0].strip().lower(), f[1].strip())] = f[2:5]
 for c in done:
     for b in json.load(open(f'out/{c}_brands.json')).get('b', []) if os.path.exists(f'out/{c}_brands.json') else []:
+        b0n = b['n']  # name as filed in out/ (before clash renames): key of work/BRAND_DEPTS
         ov = CLASH.get((b['n'].strip().lower(), c))
         if ov:
             b = dict(b, seg=ov[1], kf=ov[2], **({'n': ov[0], 'an': b['n']} if ov[0] != b['n'] else {}))
@@ -99,6 +100,8 @@ for c in done:
         # coordinator 2026-11-01: keep each category's own view of a brand (segment, known-for, note, tier...) so a
         # brand's segment in one category (Supreme: Streetwear) does not leak into another (J6)
         view = {f: b.get(f) or '' for f in ('seg', 'kf', 'd', 'tier', 'rg', 's', 'role')}
+        dk = DEPTS.setdefault(c, json.load(open(f'work/BRAND_DEPTS/{c}.json')) if os.path.exists(f'work/BRAND_DEPTS/{c}.json') else {}).get(b0n)
+        if dk: view['dp'], view['kd'] = dk[0], dk[1]
         if k in B: B[k].setdefault('pc', {})[c] = view
         else: b = dict(b, pc={c: view})
         if k in B:

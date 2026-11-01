@@ -17,7 +17,7 @@ function showDom(d) { domsEl.querySelectorAll('.dom').forEach(b => b.setAttribut
     b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); return b; })); }
 S.domains.forEach(d => { const b = $('button', { class: 'dom', type: 'button', 'data-d': d.d, text: d.n });
   b.addEventListener('click', () => { q.value = ''; open(S.cats.find(c => c.d === d.d).c, true); }); domsEl.append(b); });
-[['cat', 'Categories'], ['brands', 'Brands A–Z'], ['baby', 'Baby & child'], ['nolow', 'No & low'], ['guide', 'How to place']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
+[['cat', 'Categories'], ['brands', 'Brands A–Z'], ['baby', 'Baby & child'], ['guide', 'How to place']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
   b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrandIndex(); else if (v === 'guide') openGuide(); else if (v === 'nolow') openNoLow(); else openBaby(); }); viewsEl.append(b); });
 new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
 const hl = (text, term) => { if (!term || !text) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
@@ -252,15 +252,17 @@ async function renderRegister() {
   // renowned regions are brand groups of their own (owner 2026-11-01): a brand with no segment that a region's source names sits under that region
   let cj = null; if (t === 'brands') { try { cj = await getJSON('reader/' + c + '.json'); } catch (e) {} if (cur !== c || tab !== t || view !== 'cat') return; }
   const REG = new Map(), regOf = new Map(); ((cj && cj.rg) || []).forEach(r => { const g = 'Renowned region: ' + r.n; REG.set(g, r); (r.b || []).forEach(n => { if (!regOf.has(n)) regOf.set(n, g); }); });
+  // brands are grouped by the department of the category's own tree (owner 2026-11-01), Clothing keeps its market segments
+  const DORD = ((cj && cj.depts) || []).map(d => d.n), byDept = t === 'brands' && c !== 'A1' && DORD.length > 0;
   const TIERG = { quality: 'Quality makers (independent evidence)', cultural: 'Cultural icons and heritage names', seller: 'Specialist sellers of traditional goods', listed: 'Listed only (existence shown, no quality or cultural evidence yet)' };
-  const groupOf = t === 'brands' ? (e => e.stub ? 'Listed only (no details yet)' : (e.seg || regOf.get(e.n) || TIERG[e.tier] || 'Other')) : (e => e.g || 'Other');
+  const groupOf = t === 'brands' ? (e => e.stub ? 'Listed only (no details yet)' : (regOf.get(e.n) || (byDept && e.dp) || e.seg || TIERG[e.tier] || 'Other')) : (e => e.g || 'Other');
   const groups0 = new Map(); list.forEach(e => { const g = groupOf(e); if (!groups0.has(g)) groups0.set(g, []); groups0.get(g).push(e); });
-  const TORD = Object.values(TIERG); const rank = g => { const i = SEG_ORDER.indexOf(g); if (i >= 0) return i; const j = TORD.indexOf(g); return REG.has(g) ? 400 : j >= 0 ? 500 + j : (g.startsWith('Listed only') ? 900 : 800); };
+  const TORD = Object.values(TIERG); const rank = g => { if (REG.has(g)) return 300; if (byDept && DORD.includes(g)) return 310 + DORD.indexOf(g); const i = SEG_ORDER.indexOf(g); if (i >= 0) return (byDept ? 700 : 0) + i; const j = TORD.indexOf(g); return REG.has(g) ? 300 : byDept && DORD.includes(g) ? 310 + DORD.indexOf(g) : j >= 0 ? 500 + j : (g.startsWith('Listed only') ? 900 : 800); };
   const groups = new Map([...groups0.entries()].sort((a, b) => t === 'brands' ? rank(a[0]) - rank(b[0]) || a[0].localeCompare(b[0]) : b[1].length - a[1].length || a[0].localeCompare(b[0])));
   const ol = $('ol'); [...groups.keys()].forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('g', i) }, g, $('span', { text: groups.get(g).length })))));
   const title = { brands: 'Brands', traditions: 'Traditions', species: 'Rare species' }[t];
   side.replaceChildren($('h2', { text: catName(c) + ': ' + title }), ol);
-  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment, then by evidence (quality makers, cultural icons, specialist sellers, listed only), with renowned regions as groups of their own. A brand that also appears elsewhere lists those categories.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
+  const blurb = { brands: ' brands, makers and houses in this category, grouped by the department of this category where their main product sits (renowned regions first, as groups of their own), with segment and evidence (quality, cultural, seller) as badges; Clothing is grouped by market segment. A brand that also appears elsewhere lists those categories.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', {}, list.length + blurb + ' ', t === 'brands' && list.length ? copyBtn(() => [...groups.entries()].map(([g, xs]) => g + ': ' + xs.map(e => e.n).sort((a, b) => a.localeCompare(b)).join(', ')).join('\n'), 'copy all') : null)));
   const tb = tabBar(); if (tb) main.append(tb);
   const card = t === 'brands' ? brandCard : t === 'traditions' ? tradCard : speciesCard;
@@ -268,7 +270,7 @@ async function renderRegister() {
   const compact = list.length > 120;
   const bid = n => 'b-' + n.toLowerCase().replace(/[^a-z0-9]+/g, '-');
   const TB = { quality: 'quality', cultural: 'cultural', seller: 'seller' };
-  const row = e => { const d = $('details', { class: 'brow', id: t === 'brands' ? bid(e.n) : null }, $('summary', {}, $('b', { text: e.n }), e.kf || e.g ? $('i', { text: e.kf || '' }) : null, TB[e.tier] && (e.seg || regOf.has(e.n)) ? $('span', { class: 'mode', text: TB[e.tier] }) : null, e.rg && !regOf.has(e.n) ? $('span', { class: 'mode', text: e.rg }) : null));
+  const row = e => { const d = $('details', { class: 'brow', id: t === 'brands' ? bid(e.n) : null }, $('summary', {}, $('b', { text: e.n }), e.kf || e.kd ? $('i', { text: e.kd && byDept ? e.kd + (e.kf && e.kf.toLowerCase() !== e.kd.toLowerCase() ? ' · ' + e.kf : '') : e.kf || '' }) : null, TB[e.tier] && (e.seg || regOf.has(e.n) || (byDept && e.dp)) ? $('span', { class: 'mode', text: TB[e.tier] }) : null, byDept && e.dp && e.seg ? $('span', { class: 'mode', text: e.seg }) : null, e.rg && !regOf.has(e.n) ? $('span', { class: 'mode', text: e.rg }) : null));
     d.addEventListener('toggle', () => { if (d.open && !d.dataset.f) { d.dataset.f = 1; const c = card(e); c.removeAttribute('id'); d.append(c); } }); return d; };
   const keys = [...groups.keys()];
   const fid = focusName ? bid(focusName) : null; focusName = null;
