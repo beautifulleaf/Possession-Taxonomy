@@ -96,6 +96,11 @@ for c in done:
         if ov:
             b = dict(b, seg=ov[1], kf=ov[2], **({'n': ov[0], 'an': b['n']} if ov[0] != b['n'] else {}))
         k = b['n'].lower()
+        # coordinator 2026-11-01: keep each category's own view of a brand (segment, known-for, note, tier...) so a
+        # brand's segment in one category (Supreme: Streetwear) does not leak into another (J6)
+        view = {f: b.get(f) or '' for f in ('seg', 'kf', 'd', 'tier', 'rg', 's', 'role')}
+        if k in B: B[k].setdefault('pc', {})[c] = view
+        else: b = dict(b, pc={c: view})
         if k in B:
             o = B[k]
             for f in ('lines', 'eras', 'sig', 'sc', 'rel'):

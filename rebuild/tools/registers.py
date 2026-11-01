@@ -27,6 +27,9 @@ def split():
         for f in glob.glob(f'reader/{kind}/*.json'):
             if os.path.basename(f)[:-5] not in by: os.remove(f)
         for c, lst in by.items():
+            if kind == 'brands':  # each category shows its own view of the brand (merge.py 'pc')
+                lst = [{**{f: v for f, v in e.items() if f != 'pc'}, **{f: v for f, v in (e.get('pc') or {}).get(c, {}).items() if v or f in ('seg', 'tier', 'rg', 'role')}} for e in lst]
+                lst = [{f: v for f, v in e.items() if v not in ('', None)} for e in lst]
             dump(f'reader/{kind}/{c}.json', {key: lst}); counts.setdefault(c, {})[kind] = len(lst)
     dump('reader/_brand_index.json', {'b': [[b['n'], b.get('seg') or '', b.get('kf') or '', b.get('cats') or [], b.get('an') or ''] for b in B]})
     return counts

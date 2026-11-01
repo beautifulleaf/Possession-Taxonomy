@@ -1,0 +1,8 @@
+Batch HOMONYMS (coordinator, 2026-11-01). Working directory /home/user/Possession-Taxonomy. No web access needed; never run git.
+Input: verify/work/HOMONYMS/candidates.tsv — 94 brand names that appear in several categories with different countries. Each line: name<TAB>CAT:country:known-for:note || CAT:... (one segment per category entry).
+Task: decide for each name whether the entries are ONE company (same firm, subsidiary, licence, or the country is just HQ vs factory) or DIFFERENT companies that share a name. Use only the notes and your general knowledge; when unsure, say one company.
+For every category entry that is a DIFFERENT company from the best-known sense, write one row to verify/work/HOMONYMS/map_add.tsv (tab-separated, no header):
+  name<TAB>CAT<TAB>new display name with a short qualifier, e.g. "Supreme (wholesaler)"<TAB>segment (copy the category's own, or empty)<TAB>known-for (short)
+Leave the best-known sense unrenamed. Also write verify/work/HOMONYMS/notes.md: counts (one company / homonym), and any row whose known-for text clearly belongs to another sense (a polluted field) listed as name, CAT, correct known-for.
+Already decided: Supreme in J6 is the UK wholesaler that bought Typhoo → "Supreme (wholesaler)".
+RESUME RULE: if map_add.tsv exists, continue after its last name. Helper files only in verify/work/HOMONYMS/. Keep the final report under 150 words.
