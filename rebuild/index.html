@@ -403,7 +403,7 @@ function renderTree() {
   const tb = tabBar(); if (tb) main.append(tb);
   const tabs = $('nav', { class: 'dtabs', 'aria-label': 'Departments' }, data.depts.map((dd, i) => { const b = $('button', { type: 'button', 'aria-pressed': String(i === di) }, dd.n); b.addEventListener('click', () => { di = i; renderTree(); window.scrollTo({ top: 0 }); }); return b; }));
   if (data.depts.length > 1) main.append(tabs);
-  const sec = $('section', { class: 'dept', id: slug('d', di) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null, (d.s.length === 1 && d.s[0].n === d.n) ? copyBtn(d.s[0].k.map(kindLabel), 'copy', d.n) : copyBtn(() => d.s.map(s => s.n + ': ' + s.k.map(kindLabel).join(', ')).join('\n'), 'copy all')));
+  const sec = $('section', { class: 'dept', id: slug('d', di) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null, (d.s.length === 1 && d.s[0].n === d.n) ? copyBtn(d.s[0].k.map(kindLabel), 'copy', d.n) : copyBtn(() => d.s.map(s => s.n + ': ' + s.k.map(kindLabel).join(', ')).join('\n\n'), 'copy all')));
   if (d.t) sec.append($('p', { class: 'test', text: d.t }));
   if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), d.ax));
   if (d.note) sec.append($('p', { class: 'note', text: d.note }));
@@ -455,7 +455,7 @@ async function renderRegister() {
   const title = { brands: 'Brands', traditions: 'Traditions', species: 'Rare species' }[t];
   side.replaceChildren($('h2', { text: catName(c) + ': ' + title }), ol);
   const blurb = { brands: ' brands, makers and houses in this category, grouped by the department of this category where their main product sits (renowned regions first, as groups of their own), with segment and evidence (quality, cultural, seller) as badges; Clothing is grouped by market segment. A brand that also appears elsewhere lists those categories.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
-  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', {}, list.length + blurb + ' ', t === 'brands' && list.length ? copyBtn(() => [...groups.entries()].map(([g, xs]) => g + ': ' + xs.map(e => e.n).sort((a, b) => a.localeCompare(b)).join(', ')).join('\n'), 'copy all') : null)));
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', {}, list.length + blurb + ' ', t === 'brands' && list.length ? copyBtn(() => [...groups.entries()].map(([g, xs]) => g + ': ' + xs.map(e => e.n).sort((a, b) => a.localeCompare(b)).join(', ')).join('\n\n'), 'copy all') : null)));
   const tb = tabBar(); if (tb) main.append(tb);
   const card = t === 'brands' ? brandCard : t === 'traditions' ? tradCard : speciesCard;
   // long lists (Clothing has ~1,750 brands): compact rows that build the full card when opened, sections added in batches
@@ -495,7 +495,7 @@ async function openBrandIndex() {
   const keys = [...groups.keys()].sort((a, b) => (a === '#') - (b === '#') || a.localeCompare(b));
   const ol = $('ol'); keys.forEach((l, i) => ol.append($('li', {}, $('a', { href: '#' + slug('l', i) }, l, $('span', { text: groups.get(l).length })))));
   side.replaceChildren($('h2', { text: 'Brands A–Z' }), ol);
-  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Brands A–Z' }), $('p', {}, all.length + ' brands, makers and houses across every category. Each brand is described inside its categories (the Brands tab); choose a category to open the full entry there. ', copyBtn(() => [...groups.entries()].map(([l, xs]) => l + ': ' + xs.map(b => b[0]).join(', ')).join('\n'), 'copy all'))));
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Brands A–Z' }), $('p', {}, all.length + ' brands, makers and houses across every category. Each brand is described inside its categories (the Brands tab); choose a category to open the full entry there. ', copyBtn(() => [...groups.entries()].map(([l, xs]) => l + ': ' + xs.map(b => b[0]).join(', ')).join('\n\n'), 'copy all'))));
   keys.forEach((l, i) => { const sec = $('section', { class: 'dept', id: slug('l', i) }, $('h3', { class: 'dept-name' }, l, copyBtn(groups.get(l).map(b => b[0]))));
     sec.append($('div', { class: 'hits' }, groups.get(l).map(([n, seg, kf, cs]) => $('div', { class: 'hit' }, $('span', {}, n, kf ? $('span', { class: 'also', text: ' · ' + kf }) : null), $('p', { class: 'tags' }, cs.map(c => { const t = $('button', { class: 'tag link', type: 'button', text: catName(c) }); t.addEventListener('click', () => open(c, true, null, 'brands', n)); return t; })))))); main.append(sec); });
   spy();
