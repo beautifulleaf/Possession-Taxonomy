@@ -154,9 +154,11 @@ function render() {
   main.insertBefore(bar, main.children[1] || null);
   const tb = tabBar(); if (tb) main.insertBefore(tb, main.children[1] || null);
 }
+// a scene and its sub-styles as lines "Scene: defining brands, then brands also worn" (copy buttons on the by-scene page)
+const sceneLines = x => [x.n + ': ' + [...x.b.filter(b => b[1]), ...x.b.filter(b => !b[1])].map(b => b[0]).join(', '), ...(x.c || []).flatMap(sceneLines)];
 function sceneBox(x, id, depth) {
   const core = x.b.filter(b => b[1]).length;
-  const box = $('section', { class: 'scene' + (depth ? ' sub' : ''), id }, $(depth ? 'h5' : 'h4', {}, x.n, $('span', { text: core + ' defining' + (x.b.length - core ? ' · ' + (x.b.length - core) + ' also worn' : '') })));
+  const box = $('section', { class: 'scene' + (depth ? ' sub' : ''), id }, $(depth ? 'h5' : 'h4', {}, x.n, $('span', { text: core + ' defining' + (x.b.length - core ? ' · ' + (x.b.length - core) + ' also worn' : '') }), copyBtn(() => sceneLines(x).join('\n'), 'copy')));
   if (x.d) box.append($('p', { text: x.d }));
   if (x.g && x.g.length) box.append($('p', { class: 'also' }, 'Defining garments: ', x.g.join(' · ')));
   const br = $('div', { class: 'brands' });
@@ -173,10 +175,10 @@ function renderScenes() {
     li.append($('ol', {}, c.s.map((x, j) => $('li', {}, $('a', { href: '#' + slug('x', i, j) }, x.n, $('span', { text: (x.c || []).length ? (x.c.length + 1) + ' styles' : '' })))))); ol.append(li); });
   side.replaceChildren($('h2', { text: catName(cur) + ' by scene' }), ol);
   const n = data.scenes.reduce((a, c) => a + c.s.reduce((b, x) => b + 1 + (x.c || []).length, 0), 0);
-  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', { text: n + ' scenes and styles in ' + data.scenes.length + ' groups. Each lists its defining garments and the brands that define it; sub-styles sit under their parent. Brand names open the brand register.' })));
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', {}, n + ' scenes and styles in ' + data.scenes.length + ' groups. Each lists its defining garments and the brands that define it; sub-styles sit under their parent. Brand names open the brand register. ', copyBtn(() => data.scenes.map(c => c.n.toUpperCase() + '\n\n' + c.s.flatMap(sceneLines).join('\n\n')).join('\n\n\n'), 'copy all'))));
   const c0 = cur; let gi = 0;  // one scene group per tick so the page stays responsive (233 scenes, 9,000+ brand placements)
   const step = () => { if (cur !== c0 || view !== 'cat' || tab !== 'kinds' || mode !== 'scene') return; const c = data.scenes[gi], i = gi++;
-    const sec = $('section', { class: 'dept', id: slug('c', i) }, $('h3', { class: 'dept-name', text: c.n }));
+    const sec = $('section', { class: 'dept', id: slug('c', i) }, $('h3', { class: 'dept-name' }, c.n, copyBtn(() => c.s.flatMap(sceneLines).join('\n\n'), 'copy all')));
     c.s.forEach((x, j) => sec.append(sceneBox(x, slug('x', i, j), 0))); main.append(sec);
     if (gi < data.scenes.length) setTimeout(step, 0); else spy(); };
   step();
