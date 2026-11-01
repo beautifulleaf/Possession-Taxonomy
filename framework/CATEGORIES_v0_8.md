@@ -52,7 +52,7 @@
 12. Milk, cream, butter, yoghurt, cheese, eggs, infant formula, or a plant alternative to them, or tofu, tempeh or yuba? → **J3 Dairy, Eggs & Alternatives**
 13. Fresh fruit, vegetables, salad, herbs, mushrooms or sea vegetables, sold to eat? → **J4 Fruit & Vegetables**
 14. Any other food bought to eat or cook with, packaged prepared foods included? → **J5 Pantry Staples**
-15. Land, a dwelling or estate as a whole, a home that floats or is factory-built, or a burial place? → **G2 Property & Structures**
+15. Land, a dwelling or estate as a whole, a home that floats or is factory-built, a burial place, or a material the home is built from (timber, board, brick, roofing, insulation, lime, period tile, reclaimed part)? → **G2 Property & Structures**
 16. Built into or fixed to a home or its grounds as part of it, or a home system (heating, water, power, controls), or a sauna or hot tub of any kind? → **G3 Home Fixtures & Features**
 17. Software: a program, app or hosted tool valued for what it does? → **I1 Software**
 18. An item that exists only as data (font, creative asset, game or platform item, personal media file, domain, NFT)? → **I2 Digital Media & Items**
@@ -98,7 +98,7 @@
 58. A household textile (rug, bedding, cushion, curtain, blind, towel, table linen)? → **B2 Soft Furnishings**
 59. Made to decorate a home or garden, or for a celebration effect? → **B4 Decor**
 60. A tool, instrument or machine made to cut, shape, join, measure, lift, power or repair? → **C1 Tools & Workshop Equipment**
-61. A building material, hardware item or supply bought loose (timber, masonry, paint, plumbing, electrical, fixings, adhesives, packing, batteries, fuel)? → **C8 Building Materials & Hardware**
+61. A building material, hardware item or supply bought loose (paint, plumbing, electrical, fixings, adhesives, packing, batteries, fuel)? → **C8 Building Materials & Hardware**
 62. None of the above? → **hold and log** for review
 
 *Why this order.* Status questions come first so that later functional questions never see animals, medicines, plants, food, property, fixtures or data. Inside groceries the narrow product families come before the J5 catch-all, and J10 and J7 precede J9 so that cannabis drinks and alcohol-free beer find their homes. Parts (21) come before function. Weapons, vehicles, farm and animal equipment, religious, money and paper objects precede the general play, worn and home steps that would otherwise catch them. E5 and E3 precede D so that consoles, VR headsets and studio gear are not read as general electronics; D precedes A5 and A so that smartwatches and smart rings stay devices. E1 and E2 precede the worn steps so that toy dress-up and sport-specific kit are filed first; work PPE (42) precedes clothing. Craft, garden and office precede the household steps; the C1 and C8 catch-alls come last.
@@ -203,7 +203,7 @@ Each category has one membership test and the precedence sentences for its blurr
 - Lawn and garden tractors and ride-on mowers are C2.
 - Beekeeping is B10; equipment for a few backyard hens or leisure horses is B10.
 
-**C8 Building Materials & Hardware** — Test: a raw building supply, hardware item or household consumable bought loose: timber, masonry, heritage materials, stone, fencing, paint, plumbing, electrical, fixings, adhesives, packing, batteries, fuel.
+**C8 Building Materials & Hardware** — Test: a raw building supply, hardware item or household consumable bought loose: stone, fencing, paint, plumbing, electrical, fixings, adhesives, packing, batteries, fuel.
 - A finished fitting installed in a home (door, window, tap, switch, fitted floor) is G3.
 - Pocket lighters are J10; utility lighters and matches C8.
 - Battery packs for one tool platform are C1; standard cells C8.
@@ -286,7 +286,7 @@ Each category has one membership test and the precedence sentences for its blurr
 - Tractors are C7; ride-on mowers C2; boards, skates, skis and kick scooters E2; ride-on toys E1.
 - Houseboats, static caravans and tiny homes kept as dwellings are G2.
 
-**G2 Property & Structures** — Test: real property as a whole: land and estates, houses and flats, factory-built, mobile and floating homes, unusual conversions, or a burial place.
+**G2 Property & Structures** — Test: real property as a whole: land and estates, houses and flats, factory-built, mobile and floating homes, unusual conversions, or a burial place; and the materials the home itself is built from: timber and sheet materials, masonry, roofing and insulation, heritage and reclaimed materials (owner, 2026-11-01).
 - Garden buildings, garages and other structures within a property are G3.
 - Commercial and industrial buildings are out of scope.
 
